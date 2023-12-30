@@ -1,0 +1,60 @@
+{
+  "title": "Vega sample tournament",
+  "sub_title": "Pairing of round 5",
+  "rows": [
+    {
+      "Bo": "1",
+      "White Fed": "<img src=\"https://flagicons.lipis.dev/flags/4x3/au.svg\" width=\"27\"/>",
+      "White Player": "CM Hahna Le",
+      "White Pts": "2.5",
+      "NW": "1",
+      "Result": "1 - 0",
+      "NB": "6",
+      "Black Pts": "2.5",
+      "Black Player": "Janet Christiane",
+      "Black Fed": "<img src=\"https://flagicons.lipis.dev/flags/4x3/au.svg\" width=\"27\"/>"
+    },
+    {
+      "Bo": "2",
+      "White Fed": "<img src=\"https://flagicons.lipis.dev/flags/4x3/vn.svg\" width=\"27\"/>",
+      "White Player": "John Doe",
+      "White Pts": "1.5",
+      "NW": "2",
+      "Result": "1 - 0",
+      "NB": "3",
+      "Black Pts": "1.5",
+      "Black Player": "Leona Devinci",
+      "Black Fed": "<img src=\"https://flagicons.lipis.dev/flags/4x3/au.svg\" width=\"27\"/>"
+    },
+    {
+      "Bo": "3",
+      "White Fed": "<img src=\"https://flagicons.lipis.dev/flags/4x3/vn.svg\" width=\"27\"/>",
+      "White Player": "Luis Vinh",
+      "White Pts": "2",
+      "NW": "5",
+      "Result": "1 - 0",
+      "NB": "4",
+      "Black Pts": "1",
+      "Black Player": "Truong Nguyen",
+      "Black Fed": "<img src=\"https://flagicons.lipis.dev/flags/4x3/au.svg\" width=\"27\"/>"
+    }
+  ],
+  "headers": [
+    "Bo",
+    "White Fed",
+    "White Player",
+    "White Pts",
+    "NW",
+    "Result",
+    "NB",
+    "Black Pts",
+    "Black Player",
+    "Black Fed"
+  ],
+  "ref": {
+    "head_html": "<link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\"\n    integrity=\"sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN\" crossorigin=\"anonymous\">\n<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js\"\n    integrity=\"sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+\"\n    crossorigin=\"anonymous\"></script>\n\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.1.0/css/flag-icons.min.css\"\n    integrity=\"sha512-bZBu2H0+FGFz/stDN/L0k8J0G8qVsAL0ht1qg5kTwtAheiXwiRKyCq1frwfbSFSJN3jooR5kauE0YjtPzhZtJQ==\"\n    crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\n\n<link href=\"vega.css\" rel=\"stylesheet\">",
+    "nav_html": "<nav class=\"navbar navbar-expand-lg navbar-light bg-light fixed-top\">\n  <div class=\"container\">\n    <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarNav\"\n      aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n      <ul class=\"navbar-nav\">\n        <li class=\"nav-item dropdown\">\n          <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown1\" role=\"button\" data-bs-toggle=\"dropdown\"\n            aria-expanded=\"false\">\n            Players\n          </a>\n          <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown1\">\n            <li><a class=\"dropdown-item\" href=\"playersrating.html\">Sorted by Rating</a></li>\n            <li><a class=\"dropdown-item\" href=\"playersname.html\">Sorted by Name</a></li>\n            <li><a class=\"dropdown-item\" href=\"tourstat.html\">Statistics</a></li>\n          </ul>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"pairs5.html\">Pairings</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"standings.html\">Standings</a>\n        </li>\n        <li class=\"nav-item dropdown\">\n          <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown2\" role=\"button\" data-bs-toggle=\"dropdown\"\n            aria-expanded=\"false\">\n            Tables\n          </a>\n          <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown2\">\n            <li><a class=\"dropdown-item\" href=\"schedule.html\">Schedule</a></li>\n            <li><a class=\"dropdown-item\" href=\"crosstablescore.html\">Cross table by score</a></li>\n          </ul>\n        </li>\n        <li class=\"nav-item dropdown\">\n          <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown3\" role=\"button\" data-bs-toggle=\"dropdown\"\n            aria-expanded=\"false\">\n            Reports\n          </a>\n          <!-- Assuming you will add items to this dropdown in the future -->\n          <ul class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown3\">\n            <!-- Add your report items here when needed -->\n          </ul>\n        </li>\n      </ul>\n    </div>\n  </div>\n</nav>\n<!-- Bootstrap 5 JavaScript (place it before the closing </body> tag) -->\n<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js\"\n  integrity=\"sha384-xzrA1HAd5Y1HAkE1zLrKjhYd+3ad2l8rLEtPfkoYkgmzKs5K/lFf7WTtIAX2FJfD\" crossorigin=\"anonymous\"></script>",
+    "pair_nav_html": "<div class=\"btn-toolbar\" role=\"toolbar\" aria-label=\"Toolbar with button groups mb-4\">\n    <div class=\"btn-group\">\n        <h3 class=\"me-3\">Pairings:</h3>\n        \n        <a class=\"btn btn-primary btn-sm pl-3 pr-3 pt-2 mr-2\" href=\"pairs1.html\">1</a>\n        \n        <a class=\"btn btn-primary btn-sm pl-3 pr-3 pt-2 mr-2\" href=\"pairs2.html\">2</a>\n        \n        <a class=\"btn btn-primary btn-sm pl-3 pr-3 pt-2 mr-2\" href=\"pairs3.html\">3</a>\n        \n        <a class=\"btn btn-primary btn-sm pl-3 pr-3 pt-2 mr-2\" href=\"pairs4.html\">4</a>\n        \n        <a class=\"btn btn-primary btn-sm pl-3 pr-3 pt-2 mr-2\" href=\"pairs5.html\">5</a>\n        \n    </div>\n</div>"
+  },
+  "round": "5"
+}
