@@ -1,0 +1,20 @@
+{
+  "name": "tournaments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "csv": "^6.3.6",
+    "glob": "^10.3.10",
+    "handlebars": "^4.7.8",
+    "papaparse": "^5.4.1"
+  }
+}
