@@ -128,7 +128,7 @@ function ranking() {
   standingList[0].GROUP = "Open";
   const rewardList = ["Open", "Girl", "U12", "U10", "U8"];
   // console.log(standingList);
-  const reward = ["🏆 Winner", "🎖️ 1st runner up", "🎖️ 2nd runner up"];
+  const reward = ["🏆 Winner", "🥈 1st runner up", "🥉 2nd runner up"];
   const rewards = rewardList.map(
     (category) => ({
       category,
