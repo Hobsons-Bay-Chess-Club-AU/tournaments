@@ -115,6 +115,12 @@ function updateNavigation(folderPath) {
             </ul>
           </li>`
     );
+    $('[type="image/x-icon"]').remove();
+    $('[rel="manifest"]').remove();
+    $("head").append(
+      '<link rel="manifest" href="/tournaments/manifest.json" />'
+    );
+
     $("head").append(
       $(
         ' <link rel="shortcut icon" type="image/x-icon" href="/tournaments/favicon.ico?">'
