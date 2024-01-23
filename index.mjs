@@ -115,6 +115,11 @@ function updateNavigation(folderPath) {
             </ul>
           </li>`
     );
+    $("head").append(
+      $(
+        ' <link rel="shortcut icon" type="image/x-icon" href="/tournaments/favicon.ico?">'
+      )
+    );
     // Replace the specified text
     $(".navbar-nav").append(navLink);
     // Write the modified content back to the file
