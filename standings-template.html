@@ -62,12 +62,12 @@
   </nav>
   <div class="container">
     <div class="page-header">
-      <h2>junior club championship</h2>
+      <h2>{{title}}</h2>
     </div>
-    <h4> Standings at round 7 (last round)</h4>
+    <h4> {{subTitle}}</h4>
 
     {{#each data}}
-
+    <a name="{{this.category}}"></a>
     <div class="panel panel-default mt-5">
       <div class="panel-heading">
         <h3 class="panel-title text-center">{{this.category}}</h3>
@@ -104,7 +104,6 @@
                 <td> {{this.BH}}</td>
                 <td> {{this.BHC1}}</td>
                 <td>{{this.Reward}}
-
 
                 </td>
               </tr>

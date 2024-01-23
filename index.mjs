@@ -84,7 +84,11 @@ function readStanding() {
     return item;
   });
   //  console.log(list);
-  return list.filter(Boolean);
+  return {
+    standings: list.filter(Boolean),
+    title: $("h2").text(),
+    subTitle: $("h4").text(),
+  };
 }
 
 function updateNavigation(folderPath) {
@@ -100,7 +104,16 @@ function updateNavigation(folderPath) {
     const $ = cheerio.load(content);
     $("#rewards").remove();
     const navLink = $(
-      ` <li class="dropdown" id="rewards"><a href="rewards.html">Rewards</a></li>`
+      `
+      <li class="dropdown" id="rewards"><a href="rewards.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rewards<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="rewards.html">Open</a></li>
+              <li><a href="rewards.html#U12">U12</a></li>
+              <li><a href="rewards.html#U10">U10</a></li>
+              <li><a href="rewards.html#U8">U8</a></li>
+              <li> <a href="rewards.html#Girl">Girls</a></li>
+            </ul>
+          </li>`
     );
     // Replace the specified text
     $(".navbar-nav").append(navLink);
@@ -114,7 +127,7 @@ function ranking() {
   const raw = fs.readFileSync(standingFile, "utf8");
 
   const players = readPlayerList();
-  const standingList = readStanding();
+  const { title, subTitle, standings: standingList } = readStanding();
   for (const standing of standingList) {
     const p = players.find((x) => x.N === standing.N);
     standing.U = p.U;
@@ -142,7 +155,11 @@ function ranking() {
   console.log(rewards);
   const template = Handlebars.compile(raw);
 
-  const html = template({ data: rewards });
+  const html = template({
+    data: rewards,
+    title,
+    subTitle: subTitle.replace("Standings", "Rewards"),
+  });
   fs.writeFileSync(path.join(rootPath, "rewards.html"), html);
 
   updateNavigation(rootPath);
