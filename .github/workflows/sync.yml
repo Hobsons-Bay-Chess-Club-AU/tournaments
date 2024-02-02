@@ -1,0 +1,32 @@
+name: Sync FTP to Local and Commit
+
+on:
+  schedule:
+    - cron: "1/5 0 * * *" # Runs the action every day at midnight (UTC)
+  workflow_dispatch:
+jobs:
+  sync-ftp:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install lftp
+        run: |
+          sudo apt update
+          sudo apt install lftp
+
+      - name: Sync FTP to Local
+        run: |
+          lftp -e 'mirror --reverse /htdocs www  -u $FTP_USER,$FTP_PASSWORD ftp://ftp.byethost10.com
+        env:
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+      - name: Commit changes
+        run: |
+          git config --global user.name "Your Name"
+          git config --global user.email "youremail@example.com"
+          git add .
+          git commit -m "Sync FTP changes"
+          git push

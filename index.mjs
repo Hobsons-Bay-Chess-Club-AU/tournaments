@@ -5,8 +5,7 @@ import * as cheerio from "cheerio";
 import Handlebars from "handlebars";
 import * as glob from "glob";
 
-const rootPath =
-  "/Users/truongnguyen/truong/Hobsons-Bay-Chess-Club-AU/tournaments/www/wwwjunior chess championship";
+const rootPath = "www/wwwHonourable Bob Juniors 2024";
 
 function calculateAgeFromDate(dateString) {
   // Parse the input date string
