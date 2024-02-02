@@ -19,7 +19,7 @@ jobs:
 
       - name: Sync FTP to Local
         run: |
-          lftp -e 'mirror --reverse /htdocs www'  -u $FTP_USER,$FTP_PASSWORD ftp://ftp.byethost10.com
+          lftp -e 'mirror --reverse htdocs www'  -u $FTP_USER,$FTP_PASSWORD ftp://ftp.byethost10.com
         env:
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
