@@ -25,8 +25,10 @@ jobs:
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
       - name: Commit changes
         run: |
-          git config --global user.name "Your Name"
-          git config --global user.email "youremail@example.com"
+          git config --global user.name "FTP Sync"
+          git config --global user.email "ftp@hbcc.com"
           git add .
           git commit -m "Sync FTP changes"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
