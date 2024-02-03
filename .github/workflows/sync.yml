@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: "1/5 0 * * *" # Runs the action every day at midnight (UTC)
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   sync-ftp:
     runs-on: ubuntu-latest
