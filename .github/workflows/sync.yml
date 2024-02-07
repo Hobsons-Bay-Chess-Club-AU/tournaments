@@ -2,7 +2,7 @@ name: Sync FTP to Local and Commit
 
 on:
   schedule:
-    - cron: "*/5 0 * * *" # Runs the action every day at midnight (UTC)
+    - cron: "*/5 * * * *" # Runs the action every day at midnight (UTC)
   workflow_dispatch:
 permissions:
   contents: write
@@ -31,7 +31,7 @@ jobs:
         run: |
           git diff --quiet || echo "Changes detected"
           echo "::set-output name=has_changes::$(if [ $? -eq 0 ]; then echo 'false'; else echo 'true'; fi)"
-  
+
       - name: Commit changes
         if: steps.check_changes.outputs.has_changes == 'true'
         run: |
