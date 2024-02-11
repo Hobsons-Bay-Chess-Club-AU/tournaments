@@ -26,20 +26,16 @@ jobs:
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
 
-      - name: Check for changes
-        id: check_changes
-        run: |
-          git status
-          git diff --quiet || echo "Changes detected"
-          echo "::set-output name=has_changes::$(if [ $? -eq 0 ]; then echo 'false'; else echo 'true'; fi)"
-
       - name: Commit changes
-        if: steps.check_changes.outputs.has_changes == 'true'
         run: |
-          git config --global user.name "FTP Sync"
-          git config --global user.email "ftp@hbcc.com"
-          git add .
-          git commit -m "Sync FTP changes"
-          git push
+          if [[ -n $(git status --porcelain) ]]; then
+            echo "There are changes to commit."
+          else
+            git config --global user.name "FTP Sync"
+            git config --global user.email "ftp@hbcc.com"
+            git add .
+            git commit -am "Sync FTP changes"
+            git push
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
