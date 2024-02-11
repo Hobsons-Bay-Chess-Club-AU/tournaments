@@ -28,14 +28,16 @@ jobs:
 
       - name: Commit changes
         run: |
+          git status
           if [[ -n $(git status --porcelain) ]]; then
-            echo "There are changes to commit."
-          else
+
             git config --global user.name "FTP Sync"
             git config --global user.email "ftp@hbcc.com"
             git add .
             git commit -am "Sync FTP changes"
             git push
+          else
+            echo "There are no changes to commit."
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
