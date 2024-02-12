@@ -27,6 +27,7 @@ jobs:
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
 
       - name: Commit changes
+        id: commit
         run: |
           git status
           if [[ -n $(git status --porcelain) ]]; then
@@ -36,13 +37,24 @@ jobs:
             git add .
             git commit -am "Sync FTP changes"
             git push
+            echo "{CHANGED}={true}" >> "$GITHUB_ENV"
+
           else
             echo "There are no changes to commit."
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Repository Dispatch
-        uses: benc-uk/workflow-dispatch@v1
+      - name: Setup Pages
+        if: steps.commit.outputs.CHANGED == 'true'
+        uses: actions/configure-pages@v4
+      - name: Upload artifact
+        if: steps.commit.outputs.CHANGED == 'true'
+        uses: actions/upload-pages-artifact@v3
         with:
-          workflow: static.yml
+          # Upload entire repository
+          path: "./www"
+      - name: Deploy to GitHub Pages
+        if: steps.commit.outputs.CHANGED == 'true'
+        id: deployment
+        uses: actions/deploy-pages@v4
