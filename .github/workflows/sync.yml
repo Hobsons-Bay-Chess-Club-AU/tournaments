@@ -37,7 +37,7 @@ jobs:
             git add .
             git commit -am "Sync FTP changes"
             git push
-            echo "{CHANGED}={true}" >> "$GITHUB_ENV"
+            echo "CHANGED=true" >> "$GITHUB_ENV"
 
           else
             echo "There are no changes to commit."
