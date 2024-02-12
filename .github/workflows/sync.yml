@@ -41,3 +41,8 @@ jobs:
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Repository Dispatch
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: static.yml
