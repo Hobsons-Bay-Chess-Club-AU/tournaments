@@ -46,15 +46,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Pages
-        if: steps.commit.outputs.CHANGED == 'true'
+        # if: steps.commit.outputs.CHANGED == 'true'
         uses: actions/configure-pages@v4
       - name: Upload artifact
-        if: steps.commit.outputs.CHANGED == 'true'
+        # if: steps.commit.outputs.CHANGED == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
           path: "./www"
       - name: Deploy to GitHub Pages
-        if: steps.commit.outputs.CHANGED == 'true'
+        # if: steps.commit.outputs.CHANGED == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
