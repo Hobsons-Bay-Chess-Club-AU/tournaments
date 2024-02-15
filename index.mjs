@@ -116,14 +116,10 @@ function updateNavigation(folderPath) {
     );
     $('[type="image/x-icon"]').remove();
     $('[rel="manifest"]').remove();
-    $("head").append(
-      '<link rel="manifest" href="/tournaments/manifest.json" />'
-    );
+    $("head").append('<link rel="manifest" href="/manifest.json" />');
 
     $("head").append(
-      $(
-        ' <link rel="shortcut icon" type="image/x-icon" href="/tournaments/favicon.ico?">'
-      )
+      $(' <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">')
     );
     // Replace the specified text
     $(".navbar-nav").append(navLink);
