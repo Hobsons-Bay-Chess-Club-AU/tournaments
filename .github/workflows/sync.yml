@@ -20,6 +20,7 @@ jobs:
         run: |
           sudo apt update
           sudo apt install lftp rename
+          npm install
 
       - name: Sync FTP to Local
         run: |

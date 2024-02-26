@@ -1,6 +1,5 @@
 import fs, { promises as fsPromises, createReadStream } from "fs";
 import path from "path";
-import unzipper from "unzipper";
 import Handlebars from "handlebars";
 import cheerio from "cheerio";
 function findFiles(directoryPath, fileName, fileList = []) {
