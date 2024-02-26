@@ -3,6 +3,9 @@ name: Sync FTP to Local and Commit
 on:
   schedule:
     - cron: "*/5 * * * *" # Runs the action every day at midnight (UTC)
+  push:
+    paths:
+      - .github/workflows/sync.yml
   workflow_dispatch:
 permissions:
   contents: write
@@ -31,7 +34,13 @@ jobs:
         env:
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+      - name: Replace PHP links with HTML links
+        run: |
+          DIRECTORY="./www"
 
+          find "$DIRECTORY" -type f -name "*.html" -print0 | while IFS= read -r -d '' file; do
+            sed -i 's/\.php/.html/g' "$file"
+           done
       - name: Commit changes
         id: commit
         run: |
