@@ -19,7 +19,7 @@ jobs:
       - name: Install lftp
         run: |
           sudo apt update
-          sudo apt install lftp
+          sudo apt install lftp rename
 
       - name: Sync FTP to Local
         run: |
