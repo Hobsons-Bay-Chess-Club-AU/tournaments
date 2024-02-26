@@ -27,14 +27,16 @@
         <th>Tournament</th>
         <th>Date</th>
         <th>Site</th>
+        <th>Next Round</th>
       </tr>
     </thead>
     <tbody>
          {{#each data}}
       <tr>
-        <td><a href="{{this.url}}">{{this.name}}</a></td>
+        <td><a href="{{this.url}}/standings.html">{{this.name}}</a></td>
         <td>{{this.start}}</td>
         <td>{{this.site}}</td>
+           <td><a href="{{this.url}}/pairs{{this.round}}.html">{{this.round}}<a></a></td>
       </tr>
        {{/each}}
      

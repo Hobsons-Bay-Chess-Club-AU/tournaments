@@ -24,20 +24,44 @@ function findFiles(directoryPath, fileName, fileList = []) {
 function generateIndexFile(list) {
   const data = list.map((x) => {
     const html = fs.readFileSync(x, "utf8");
+
+    var stats = fs.statSync(x);
+
     const $ = cheerio.load(html);
+    var roundLink = $(".nav-link")
+      .toArray()
+      .map((l) => $(l).attr("href"))
+      .find((t) => t.includes("pair"));
     const td = $("td").toArray();
+
     return {
       url: x.split("/")[1],
       name: $(td[1]).text().trim(),
       site: $(td[3]).text().trim(),
       start: $(td[7]).text().trim(),
       end: $(td[9]).text().trim(),
+      round: roundLink ? +roundLink.match(/\d+/)[0] : 1,
     };
   });
+
+  const uniqueEntries = new Map();
+
+  data.forEach((item) => {
+    const key = `${item.name}-${item.start}`;
+    if (!uniqueEntries.has(key) || item.round > uniqueEntries.get(key).round) {
+      uniqueEntries.set(key, item);
+    }
+  });
+
+  // Convert map values back to an array
+  const uniqueList = Array.from(uniqueEntries.values());
+
+  console.log(uniqueList);
+
   var raw = fs.readFileSync("www/index.html.hbs", "utf8");
   const t = Handlebars.compile(raw);
-  console.log(data);
-  fs.writeFileSync("www/index.html", t({ data }));
+  console.log(uniqueList);
+  fs.writeFileSync("www/index.html", t({ data: uniqueList }));
 }
 // Call the function to extract all zip files in the folder
 // extractAllZipFiles("unzip", "www");

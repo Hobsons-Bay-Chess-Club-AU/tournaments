@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - .github/workflows/sync.yml
+      - sync.mjs
   workflow_dispatch:
 permissions:
   contents: write
@@ -40,7 +41,10 @@ jobs:
 
           find "$DIRECTORY" -type f -name "*.html" -print0 | while IFS= read -r -d '' file; do
             sed -i 's/\.php/.html/g' "$file"
-           done
+          done
+          find "$DIRECTORY" -type f -name "*.js" -print0 | while IFS= read -r -d '' file; do
+            sed -i 's/\.php/.html/g' "$file"
+          done
       - name: Commit changes
         id: commit
         run: |
