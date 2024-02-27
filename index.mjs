@@ -5,7 +5,7 @@ import * as cheerio from "cheerio";
 import Handlebars from "handlebars";
 import * as glob from "glob";
 
-const rootPath = "www/wwwHonourable Bob Juniors 2024";
+const rootPath = "www/wwwHonourableBobJuniors2024";
 
 function calculateAgeFromDate(dateString) {
   // Parse the input date string
@@ -78,8 +78,13 @@ function readStanding() {
     const item = {};
     headers.forEach((h, i) => {
       item[h] = $(td[i]).text().trim();
+      if (h === "NAME") {
+        item[h] = $("a", $(td[i])).text().trim().replace(" (W)", "");
+        item.N = $("span", $(td[i])).text().trim();
+      }
     });
     if (!item["NAME"]) return null;
+
     return item;
   });
   //  console.log(list);
@@ -102,15 +107,17 @@ function updateNavigation(folderPath) {
     let content = fs.readFileSync(filePath, "utf8");
     const $ = cheerio.load(content);
     $("#rewards").remove();
+
     const navLink = $(
       `
-      <li class="dropdown" id="rewards"><a href="rewards.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rewards<span class="caret"></span></a>
+      <li class="nav-item dropdown" id="rewards">
+      <a href="rewards.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rewards<span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="rewards.html">Open</a></li>
-              <li><a href="rewards.html#U12">U12</a></li>
-              <li><a href="rewards.html#U10">U10</a></li>
-              <li><a href="rewards.html#U8">U8</a></li>
-              <li> <a href="rewards.html#Girl">Girls</a></li>
+              <li><a a class="dropdown-item" href="rewards.html">Open</a></li>
+              <li><a a class="dropdown-item" href="rewards.html#U12">U12</a></li>
+              <li><a a class="dropdown-item" href="rewards.html#U10">U10</a></li>
+              <li><a a class="dropdown-item" href="rewards.html#U8">U8</a></li>
+              <li> <a a class="dropdown-item" href="rewards.html#Girl">Girls</a></li>
             </ul>
           </li>`
     );
@@ -134,7 +141,9 @@ function ranking() {
 
   const players = readPlayerList();
   const { title, subTitle, standings: standingList } = readStanding();
+  console.log(players);
   for (const standing of standingList) {
+    console.log(standing);
     const p = players.find((x) => x.N === standing.N);
     standing.U = p.U;
     standing.GROUP = p.U;
