@@ -29,7 +29,7 @@ jobs:
       - name: Sync FTP to Local
         run: |
           lftp -e 'mirror --parallel=20 --ignore-time -c  htdocs www;quit'  -u $FTP_USER,$FTP_PASSWORD ftp://ftpupload.net
-          find www -type f -name "*.php" -exec rename 's/\.php$/\.html/' {} +
+          find www -type f -name "*.php" -exec rename -f 's/\.php$/\.html/' {} +
           ls www
           node sync.mjs
         env:
