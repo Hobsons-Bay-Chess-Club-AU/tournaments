@@ -17,12 +17,12 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="schedule.html"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.html">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Players</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.html">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.html">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs5.html" >Pairings</a>
-</li><li class="nav-item"><a class="nav-link" href="standings.html" >Standings</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Players</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs5.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="schedule.html"> Schedule </a></li><li><a class="dropdown-item" href="crosstablescore.html"> Cross table by score </a></li><li><a class="dropdown-item" href="rankinggroup.html"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.html"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.html"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.html"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.html"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.html"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
-<ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.html">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.html">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.html">National rating</a></li>          <li><a class="dropdown-item" href="playercard.html">National Player Card</a></li></ul></li></ul> </div>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table by score </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
  <section id="main" class="pt-5 mb-auto">
@@ -30,8 +30,9 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4">Schedule</h3> <div class="table-responsive"><table class="table table-striped "> 
-<thead><tr><th>Round</th><th>Time</th><th>Date</th></tr></thead></table></div>		  </div>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4">FIDE History Cards</h3>
+<div class="table-responsive"></div>
+		  </div>
 		      </div>
          <div class="d-none d-lg-block col-1 pe-0">
            <div class="d-flex flex-column w-full overflow-hidden">
