@@ -25,7 +25,7 @@ function calculateAgeFromDate(dateString) {
   const ageInYears = ageInMillis / (365.25 * 24 * 60 * 60 * 1000);
 
   // Round down to get the whole years
-  const roundedAge = Math.floor(ageInYears);
+  const roundedAge = Math.ceil(ageInYears);
 
   return roundedAge;
 }
@@ -146,6 +146,7 @@ function ranking() {
     const p = players.find((x) => x.N === standing.N);
     standing.U = p.U;
     standing.GROUP = p.U;
+    standing.Rtg = p.ELONAT;
 
     if (p.GENDER === "f") {
       standing.GROUP = "Girl";
