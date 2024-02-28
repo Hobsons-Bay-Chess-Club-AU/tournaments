@@ -2,6 +2,7 @@ import fs, { promises as fsPromises, createReadStream } from "fs";
 import path from "path";
 import Handlebars from "handlebars";
 import cheerio from "cheerio";
+import { updateNavigation } from "./shared.mjs";
 function findFiles(directoryPath, fileName, fileList = []) {
   const files = fs.readdirSync(directoryPath);
 
@@ -35,6 +36,7 @@ function generateIndexFile(list) {
     const td = $("td").toArray();
 
     return {
+      path: path.dirname(x),
       url: x.split("/")[1],
       name: $(td[1]).text().trim(),
       site: $(td[3]).text().trim(),
@@ -56,12 +58,19 @@ function generateIndexFile(list) {
   // Convert map values back to an array
   const uniqueList = Array.from(uniqueEntries.values());
 
-  console.log(uniqueList);
-
   var raw = fs.readFileSync("www/index.html.hbs", "utf8");
   const t = Handlebars.compile(raw);
   console.log(uniqueList);
   fs.writeFileSync("www/index.html", t({ data: uniqueList }));
+
+  for (const item of uniqueList) {
+    var reward = `${item.path}/rewards.html`;
+    console.log(reward);
+    if (fs.existsSync(reward)) {
+      console.log("Update navigation", reward);
+      updateNavigation("www/" + item.url);
+    }
+  }
 }
 // Call the function to extract all zip files in the folder
 // extractAllZipFiles("unzip", "www");
