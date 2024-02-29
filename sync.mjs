@@ -2,7 +2,8 @@ import fs, { promises as fsPromises, createReadStream } from "fs";
 import path from "path";
 import Handlebars from "handlebars";
 import cheerio from "cheerio";
-import { updateNavigation } from "./shared.mjs";
+import { updateNavigation, accumulatePoint } from "./shared.mjs";
+
 function findFiles(directoryPath, fileName, fileList = []) {
   const files = fs.readdirSync(directoryPath);
 
@@ -21,7 +22,23 @@ function findFiles(directoryPath, fileName, fileList = []) {
 
   return fileList;
 }
+function updatePoint(data) {
+  var raw = fs.readFileSync("www/point.html.hbs", "utf8");
 
+  data.data = Object.entries(data.players).map(([key, value], index) => ({
+    rank: index + 1,
+    name: key,
+    ...value,
+  }));
+  //sort
+  data.data.sort((a, b) => b.total - a.total);
+  data.data.map((t, index) => {
+    t.rank = index + 1;
+  });
+  const t = Handlebars.compile(raw);
+
+  fs.writeFileSync("www/2024.html", t(data));
+}
 function generateIndexFile(list) {
   const data = list.map((x) => {
     const html = fs.readFileSync(x, "utf8");
@@ -42,6 +59,7 @@ function generateIndexFile(list) {
       site: $(td[3]).text().trim(),
       start: $(td[7]).text().trim(),
       end: $(td[9]).text().trim(),
+      year: $(td[9]).text().trim().split("/").pop(),
       round: roundLink ? +roundLink.match(/\d+/)[0] : 1,
     };
   });
@@ -62,7 +80,7 @@ function generateIndexFile(list) {
   const t = Handlebars.compile(raw);
   console.log(uniqueList);
   fs.writeFileSync("www/index.html", t({ data: uniqueList }));
-
+  const accData = {};
   for (const item of uniqueList) {
     var reward = `${item.path}/rewards.html`;
     console.log(reward);
@@ -70,6 +88,11 @@ function generateIndexFile(list) {
       console.log("Update navigation", reward);
       updateNavigation("www/" + item.url);
     }
+    if (item.year === "2024") {
+      accumulatePoint(accData, item);
+    }
+    updatePoint(accData);
+    console.log(accData);
   }
 }
 // Call the function to extract all zip files in the folder

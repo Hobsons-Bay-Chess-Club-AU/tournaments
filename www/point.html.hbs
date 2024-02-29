@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobsons Bay Chess Club - Tournaments</title>
+    <!-- Bootstrap CSS CDN Link -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="manifest" href="//manifest.json" />
+    <link rel="shortcut icon" type="image/x-icon" href="//favicon.ico?">
+</head>
+
+<body>
+
+    <!-- Site Name -->
+    <div class="container mt-4 mb-4">
+        <h1 class="text-center">2024 - Accumulate Points</h1>
+    </div>
+
+    <!-- Links separated by years -->
+    <div class="container">
+        <div class="table-responsive">
+  <table class="table table table-striped">
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Player</th>
+            {{#each tournaments}}
+                 <th>{{this}}</th>
+             {{/each}}
+     
+        <th>Total</th>
+      </tr>
+    </thead>
+    <tbody>
+         {{#each data}}
+      <tr>
+          <td> {{this.rank}}</td>
+        <td>{{this.name}}</td>
+              {{#each this.data}}
+                 <td>
+                  {{this}}
+                 </td>
+             {{/each}}
+           <td>{{this.total}}</td>
+      </tr>
+       {{/each}}
+     
+    </tbody>
+  </table>
+
+    </div>
+  </div>
+    <!-- Bootstrap JS and Popper.js CDN Links (required for Bootstrap functionality) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
