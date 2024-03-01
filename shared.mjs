@@ -2,6 +2,30 @@ import path from "path";
 import fs from "fs";
 import * as cheerio from "cheerio";
 import * as glob from "glob";
+import papa from "papaparse";
+
+function calculateAgeFromDate(dateString) {
+  // Parse the input date string
+  const parts = dateString.split("/");
+  const year = parseInt(parts[0], 10);
+  const month = parseInt(parts[1], 10) - 1; // Months are zero-indexed
+  const day = parseInt(parts[2], 10);
+
+  // Create Date objects for the input date and the beginning of the year
+  const inputDate = new Date(year, month, day);
+  const beginningOfYear = new Date(new Date().getFullYear(), 0, 1);
+
+  // Calculate the age in milliseconds
+  const ageInMillis = beginningOfYear - inputDate;
+
+  // Convert age from milliseconds to years
+  const ageInYears = ageInMillis / (365.25 * 24 * 60 * 60 * 1000);
+
+  // Round down to get the whole years
+  const roundedAge = Math.ceil(ageInYears);
+
+  return roundedAge;
+}
 
 export function updateNavigation(folderPath) {
   const pattern = path.join(folderPath, "*.html");
@@ -70,7 +94,7 @@ export function readStanding(rootPath) {
   };
 }
 
-export function readPlayerList() {
+export function readPlayerList(rootPath) {
   const playerFile = path.join(rootPath, "Players.csv");
   const raw = fs
     .readFileSync(playerFile, "utf8")
