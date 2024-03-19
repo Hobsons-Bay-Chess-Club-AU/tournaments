@@ -20,7 +20,9 @@
 
     <!-- Links separated by years -->
     <div class="container">
-        
+      <h2>
+        Juniors
+      </h2>  
   <table class="table table-bordered">
     <thead>
       <tr>
@@ -31,7 +33,33 @@
       </tr>
     </thead>
     <tbody>
-         {{#each data}}
+         {{#each juniors}}
+      <tr>
+        <td><a href="{{this.url}}/standings.html">{{this.name}}</a></td>
+        <td>{{this.start}}</td>
+        <td>{{this.site}}</td>
+           <td><a href="{{this.url}}/pairs{{this.round}}.html">{{this.round}}<a></a></td>
+      </tr>
+       {{/each}}
+     
+    </tbody>
+  </table>
+
+
+<h2  class="mt-5">
+        Seniors
+      </h2>  
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Tournament</th>
+        <th>Date</th>
+        <th>Site</th>
+        <th>Next Round</th>
+      </tr>
+    </thead>
+    <tbody>
+         {{#each seniors}}
       <tr>
         <td><a href="{{this.url}}/standings.html">{{this.name}}</a></td>
         <td>{{this.start}}</td>

@@ -55,6 +55,7 @@ function generateIndexFile(list) {
     return {
       path: path.dirname(x),
       url: x.split("/")[1],
+      arbiter: $(td[11]).text().trim(),
       name: $(td[1]).text().trim(),
       site: $(td[3]).text().trim(),
       start: $(td[7]).text().trim(),
@@ -79,7 +80,13 @@ function generateIndexFile(list) {
   var raw = fs.readFileSync("www/index.html.hbs", "utf8");
   const t = Handlebars.compile(raw);
   console.log(uniqueList);
-  fs.writeFileSync("www/index.html", t({ data: uniqueList }));
+  fs.writeFileSync(
+    "www/index.html",
+    t({
+      juniors: uniqueList.filter((x) => x.arbiter !== "Steve Hogan"),
+      seniors: uniqueList.filter((x) => x.arbiter === "Steve Hogan"),
+    })
+  );
   const accData = {};
   for (const item of uniqueList) {
     var reward = `${item.path}/rewards.html`;
