@@ -2,7 +2,12 @@ import fs, { promises as fsPromises, createReadStream } from "fs";
 import path from "path";
 import Handlebars from "handlebars";
 import cheerio from "cheerio";
-import { updateNavigation, accumulatePoint } from "./shared.mjs";
+import {
+  updateNavigation,
+  accumulatePoint,
+  readPlayerList,
+  readStanding,
+} from "./shared.mjs";
 
 function findFiles(directoryPath, fileName, fileList = []) {
   const files = fs.readdirSync(directoryPath);
@@ -52,6 +57,7 @@ function generateIndexFile(list) {
       .find((t) => t.includes("pair"));
     const td = $("td").toArray();
 
+    const standings = readStanding(path.dirname(x));
     return {
       path: path.dirname(x),
       url: x.split("/")[1],
@@ -62,6 +68,9 @@ function generateIndexFile(list) {
       end: $(td[9]).text().trim(),
       year: $(td[9]).text().trim().split("/").pop(),
       round: roundLink ? +roundLink.match(/\d+/)[0] : 1,
+      category: standings.standings.find((x) => x.NAME === "Hogan,Steven")
+        ? "senior"
+        : "junior",
     };
   });
 
@@ -80,11 +89,12 @@ function generateIndexFile(list) {
   var raw = fs.readFileSync("www/index.html.hbs", "utf8");
   const t = Handlebars.compile(raw);
   console.log(uniqueList);
+
   fs.writeFileSync(
     "www/index.html",
     t({
-      juniors: uniqueList.filter((x) => x.arbiter !== "Steve Hogan"),
-      seniors: uniqueList.filter((x) => x.arbiter === "Steve Hogan"),
+      juniors: uniqueList.filter((x) => x.category == "junior"),
+      seniors: uniqueList.filter((x) => x.category === "senior"),
     })
   );
   const accData = {};
