@@ -68,7 +68,7 @@ function generateIndexFile(list) {
       end: $(td[9]).text().trim(),
       year: $(td[9]).text().trim().split("/").pop(),
       round: roundLink ? +roundLink.match(/\d+/)[0] : 1,
-      category: standings.standings.find((x) => x.NAME === "Hogan,Steven")
+      category: standings.standings.find((x) => x.NAME.includes("Hogan"))
         ? "senior"
         : "junior",
     };
