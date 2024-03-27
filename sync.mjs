@@ -58,6 +58,9 @@ function generateIndexFile(list) {
     const td = $("td").toArray();
 
     const standings = readStanding(path.dirname(x));
+
+    //console.log(x, standings);
+    // if (x.includes("wwwPurdyCup2024")) throw new Error("aaa");
     return {
       path: path.dirname(x),
       url: x.split("/")[1],

@@ -77,13 +77,13 @@ export function readStanding(rootPath) {
     const item = {};
     headers.forEach((h, i) => {
       item[h] = $(td[i]).text().trim();
-      if (h === "NAME") {
+      if (h === "NAME" || h === "Player") {
         item[h] = $("a", $(td[i])).text().trim().replace(" (W)", "");
         item.N = $("span", $(td[i])).text().trim();
       }
     });
-    if (!item["NAME"]) return null;
-
+    if (!item["NAME"] && !item["Player"]) return null;
+    item["NAME"] = item["NAME"] || item["Player"];
     return item;
   });
   //  console.log(list);
