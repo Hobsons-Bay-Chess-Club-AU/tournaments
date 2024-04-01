@@ -34,10 +34,12 @@ jobs:
               cp -f "$file" "${file%.php}.html"
           done' bash {} +
           ls www
+          node update-html.mjs
           node sync.mjs
         env:
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+
       - name: Replace PHP links with HTML links
         run: |
           DIRECTORY="./www"
