@@ -16,7 +16,7 @@ async function fetchAndWriteHtml(filePath , retry=1) {
         'Accept-Language': 'en-US,en;q=0.9',
         'Cache-Control': 'no-cache',
         'Pragma': 'no-cache',
-        'Cookie': '__test=745bb2d2976cd665d85d80fd23914a68'
+        'Cookie': '__test=1670aca879a4d45aedc2e780e9ca765d'
     };
 
     try {
