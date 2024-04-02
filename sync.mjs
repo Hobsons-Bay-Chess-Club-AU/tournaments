@@ -29,7 +29,7 @@ function findFiles(directoryPath, fileName, fileList = []) {
 }
 function updatePoint(data) {
   var raw = fs.readFileSync("www/point.html.hbs", "utf8");
-
+ if(!data || !data.players) return;
   data.data = Object.entries(data.players).map(([key, value], index) => ({
     rank: index + 1,
     name: key,
