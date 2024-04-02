@@ -46,10 +46,14 @@ function updatePoint(data) {
 }
 function generateIndexFile(list) {
   const data = list.map((x) => {
+    if(!fs.existsSync(x)) {
+      return null;
+    }
     const html = fs.readFileSync(x, "utf8");
 
     var stats = fs.statSync(x);
 
+    
     const $ = cheerio.load(html);
     var roundLink = $(".nav-link")
       .toArray()
@@ -75,10 +79,10 @@ function generateIndexFile(list) {
         ? "senior"
         : "junior",
     };
-  });
+  }).filter(Boolean);
 
   const uniqueEntries = new Map();
-
+  console.log("data", data)
   data.forEach((item) => {
     const key = `${item.name}-${item.start}`;
     if (!uniqueEntries.has(key) || item.round > uniqueEntries.get(key).round) {
@@ -119,4 +123,5 @@ function generateIndexFile(list) {
 // extractAllZipFiles("unzip", "www");
 var files = findFiles("www", "tourstat.html");
 console.log(files);
+
 generateIndexFile(files);
