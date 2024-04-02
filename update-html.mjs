@@ -25,7 +25,11 @@ async function fetchAndWriteHtml(filePath , retry=1) {
         const htmlContent = response.data;
         
         const htmlFilePath = filePath.replace('.php', '.html');
-        
+        if(htmlContent.includes("This site requires Javascript to work")) 
+        {
+            console.warn("Invalid coookies, stop overwritten file")
+            return
+        }
         fs.writeFileSync(htmlFilePath, htmlContent);
         console.log(`Successfully fetched and saved: ${htmlFilePath}`);
     } catch (error) {
