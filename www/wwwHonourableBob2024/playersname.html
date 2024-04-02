@@ -1,1 +1,151 @@
-<html><body><script type="text/javascript" src="/aes.js" ></script><script>function toNumbers(d){var e=[];d.replace(/(..)/g,function(d){e.push(parseInt(d,16))});return e}function toHex(){for(var d=[],d=1==arguments.length&&arguments[0].constructor==Array?arguments[0]:arguments,e="",f=0;f<d.length;f++)e+=(16>d[f]?"0":"")+d[f].toString(16);return e.toLowerCase()}var a=toNumbers("f655ba9d09a112d4968c63579db590b4"),b=toNumbers("98344c2eee86c3994890592585b49f80"),c=toNumbers("b57bb3b4522b569f94046a6df5b24f58");document.cookie="__test="+toHex(slowAES.decrypt(c,2,a,b))+"; expires=Thu, 31-Dec-37 23:55:55 GMT; path=/"; location.href="http://www.hbcc.byethost10.com/wwwHonourableBob2024/playersname.html?i=1";</script><noscript>This site requires Javascript to work, please enable Javascript in your browser or use a browser with Javascript support</noscript></body></html>
+<!DOCTYPE html>
+<html lang="en"><head> <meta charset="UTF-8">
+<meta name="description" content="chess tournament">
+<meta name="author" content="www.vegachess.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<title>Honourable Bob 2024</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="stylenew.css" type="text/css" >
+    </head>
+<body>
+<div class="d-flex flex-column justify-content-between h-100"> <nav class="navbar navbar-expand-lg bg-light fixed-top">
+                <div class="container">  <a class="navbar-brand d-flex align-items-center" href="#" style="width: 24px;"> <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20,8h0L14,2.74a3,3,0,0,0-4,0L4,8a3,3,0,0,0-1,2.26V19a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V10.25A3,3,0,0,0,20,8ZM14,20H10V15a1,1,0,0,1,1-1h2a1,1,0,0,1,1,1Zm5-1a1,1,0,0,1-1,1H16V15a3,3,0,0,0-3-3H11a3,3,0,0,0-3,3v5H6a1,1,0,0,1-1-1V10.25a1,1,0,0,1,.34-.75l6-5.25a1,1,0,0,1,1.32,0l6,5.25a1,1,0,0,1,.34.75Z" fill="#000"/></svg>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Players</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs5.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table by score </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
+</div>
+</nav>
+ <section id="main" class="pt-5 mb-auto">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="d-none d-lg-block col-1 ps-0">
+                            <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
+  <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players sorted by name</h3><div class="table-responsive"><table class="table table-striped "> 
+<thead><tr><th>N</th><th>NAME</th><th>Fed</th><th>Title</th><th>Rtg</th><th>RtgF</th><th>RtgN</th></tr></thead><tbody>
+<tr> 
+<td>2</td><td> <a href="http://ratings.fide.com/card.phtml?event=3201996" target="X"> Beaumont,David </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>CM</td><td>0</td><td>0</td><td>1914</td> </tr>
+<tr> 
+<td>36</td><td> <a href="http://ratings.fide.com/card.phtml?event=3259021" target="X"> Bodke,Krishna </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>929</td> </tr>
+<tr> 
+<td>11</td><td> <a href="http://ratings.fide.com/card.phtml?event=3235149" target="X"> Cajes,Conrado </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1572</td> </tr>
+<tr> 
+<td>34</td><td> <a href="http://ratings.fide.com/card.phtml?event=3264700" target="X"> Chalamcharla,Shrevin </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>964</td> </tr>
+<tr> 
+<td>33</td><td> <a href="http://ratings.fide.com/card.phtml?event=3234134" target="X"> Clerk,Max </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1033</td> </tr>
+<tr> 
+<td>30</td><td> <a href="http://ratings.fide.com/card.phtml?event=3244652" target="X"> Condick,Peter </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1184</td> </tr>
+<tr> 
+<td>3</td><td> <a href="http://ratings.fide.com/card.phtml?event=3233472" target="X"> Dakic,Dusan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1796</td> </tr>
+<tr> 
+<td>22</td><td> <a href="http://ratings.fide.com/card.phtml?event=3220486" target="X"> Davis,Sophie </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1367</td> </tr>
+<tr> 
+<td>5</td><td> <a href="http://ratings.fide.com/card.phtml?event=3205550" target="X"> Davis,Tony J </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>CM</td><td>0</td><td>0</td><td>1785</td> </tr>
+<tr> 
+<td>10</td><td> <a href="http://ratings.fide.com/card.phtml?event=3227480" target="X"> Enano,Ronald </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1588</td> </tr>
+<tr> 
+<td>18</td><td> <a href="http://ratings.fide.com/card.phtml?event=3255360" target="X"> Hari,Dhruv </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1469</td> </tr>
+<tr> 
+<td>15</td><td> <a href="http://ratings.fide.com/card.phtml?event=3201414" target="X"> Hogan,Steven </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1501</td> </tr>
+<tr> 
+<td>1</td><td> <a href="http://ratings.fide.com/card.phtml?event=3204332" target="X"> Hogg,Dean </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1991</td> </tr>
+<tr> 
+<td>16</td><td> <a href="http://ratings.fide.com/card.phtml?event=3207293" target="X"> Ilic,Milan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1499</td> </tr>
+<tr> 
+<td>40</td><td> <a href="http://ratings.fide.com/card.phtml?event=3266583" target="X"> Karthick,Deepshika </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>563</td> </tr>
+<tr> 
+<td>24</td><td> <a href="http://ratings.fide.com/card.phtml?event=3247953" target="X"> Kirk,Ian </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1325</td> </tr>
+<tr> 
+<td>43</td><td> <a href="http://ratings.fide.com/card.phtml?event=3241386" target="X"> Korunovski,Hristijan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td>37</td><td> <a href="http://ratings.fide.com/card.phtml?event=3227499" target="X"> Kostakakis,Angelo </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>924</td> </tr>
+<tr> 
+<td>38</td><td> <a href="http://ratings.fide.com/card.phtml?event=3260054" target="X"> Kothari,Sumay </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>860</td> </tr>
+<tr> 
+<td>4</td><td> <a href="http://ratings.fide.com/card.phtml?event=3254925" target="X"> Krishnan,Anirudh </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1791</td> </tr>
+<tr> 
+<td>44</td><td> <a href="http://ratings.fide.com/card.phtml?event=3271757" target="X"> Kriska,Mario </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td>8</td><td> <a href="http://ratings.fide.com/card.phtml?event=4307348" target="X"> Kulkarni,Yogesh </a></td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td></td><td>0</td><td>0</td><td>1640</td> </tr>
+<tr> 
+<td>6</td><td> <a href="http://ratings.fide.com/card.phtml?event=3257762" target="X"> Lacson,Joemar </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1731</td> </tr>
+<tr> 
+<td>31</td><td> <a href="http://ratings.fide.com/card.phtml?event=3264718" target="X"> Li,LiYuan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1138</td> </tr>
+<tr> 
+<td>27</td><td> <a href="http://ratings.fide.com/card.phtml?event=3259056" target="X"> Lingineni,Khushal </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1243</td> </tr>
+<tr> 
+<td>45</td><td> <a href="http://ratings.fide.com/card.phtml?event=3231550" target="X"> Liu,Tina </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td>35</td><td> <a href="http://ratings.fide.com/card.phtml?event=3264726" target="X"> Lugton,James </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>943</td> </tr>
+<tr> 
+<td>42</td><td> <a href="http://ratings.fide.com/card.phtml?event=3267822" target="X"> Marasinghe,Claire </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>503</td> </tr>
+<tr> 
+<td>12</td><td> <a href="http://ratings.fide.com/card.phtml?event=3232182" target="X"> McIntyre,Julian </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1569</td> </tr>
+<tr> 
+<td>46</td><td> Muddu,Tejas </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td>47</td><td> Muddugangaiah,Mahesh </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td>25</td><td> <a href="http://ratings.fide.com/card.phtml?event=3267849" target="X"> Nguyen,Anh Kiet </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1307</td> </tr>
+<tr> 
+<td>19</td><td> <a href="http://ratings.fide.com/card.phtml?event=3214915" target="X"> Nowak,Ruben </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1438</td> </tr>
+<tr> 
+<td>23</td><td> <a href="http://ratings.fide.com/card.phtml?event=3242900" target="X"> Pasukov,Leo </a></td><td ><img class="shadow" src="flag/qld.png" alt="QLD"></td><td></td><td>0</td><td>0</td><td>1343</td> </tr>
+<tr> 
+<td>7</td><td> <a href="http://ratings.fide.com/card.phtml?event=2054515" target="X"> Paul,Cijo </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1705</td> </tr>
+<tr> 
+<td>20</td><td> <a href="http://ratings.fide.com/card.phtml?event=3259072" target="X"> Picone,James </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1386</td> </tr>
+<tr> 
+<td>29</td><td> <a href="http://ratings.fide.com/card.phtml?event=3227545" target="X"> Richards,Derek </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1190</td> </tr>
+<tr> 
+<td>14</td><td> <a href="http://ratings.fide.com/card.phtml?event=3220613" target="X"> Salanowski,Mark </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1538</td> </tr>
+<tr> 
+<td>41</td><td> <a href="http://ratings.fide.com/card.phtml?event=3254933" target="X"> Santoso,Crystin </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>519</td> </tr>
+<tr> 
+<td>17</td><td> <a href="http://ratings.fide.com/card.phtml?event=3228371" target="X"> Saric,Sergey </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1473</td> </tr>
+<tr> 
+<td>48</td><td> <a href="http://ratings.fide.com/card.phtml?event=3267865" target="X"> Settu,Karthick </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td>9</td><td> <a href="http://ratings.fide.com/card.phtml?event=3202640" target="X"> Szuveges,Narelle S </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>WIM</td><td>0</td><td>0</td><td>1598</td> </tr>
+<tr> 
+<td>32</td><td> <a href="http://ratings.fide.com/card.phtml?event=3265404" target="X"> Temizel,Hazar </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1053</td> </tr>
+<tr> 
+<td>39</td><td> <a href="http://ratings.fide.com/card.phtml?event=3264734" target="X"> Vagh,Riyan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>807</td> </tr>
+<tr> 
+<td>49</td><td> Velkur,Gagan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td>50</td><td> Velkur,Raghav </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td>13</td><td> <a href="http://ratings.fide.com/card.phtml?event=3232220" target="X"> Whitford,Matthew </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1566</td> </tr>
+<tr> 
+<td>28</td><td> <a href="http://ratings.fide.com/card.phtml?event=3255689" target="X"> Wilkinson,Greg </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1230</td> </tr>
+<tr> 
+<td>21</td><td> <a href="http://ratings.fide.com/card.phtml?event=3227570" target="X"> Wootten,Rory </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1380</td> </tr>
+<tr> 
+<td>26</td><td> <a href="http://ratings.fide.com/card.phtml?event=3262952" target="X"> Yendru,Srikrishna </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>1304</td> </tr>
+</tbody>
+</table></div>
+		  </div>
+		      </div>
+         <div class="d-none d-lg-block col-1 pe-0">
+           <div class="d-flex flex-column w-full overflow-hidden">
+   </div> </div>  </div>  </div> </section>
+    <footer id="footer" class="bg-light py-5 mt-5 border-bottom border-light-subtle border-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Hobsons Bay Chess Club - AUS)
+    </div>  </div>  </div> </div> 
+   </footer>
+     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script></body>
+</html>
