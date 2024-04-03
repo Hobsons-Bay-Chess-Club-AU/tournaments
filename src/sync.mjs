@@ -49,16 +49,17 @@ function generateIndexFile(list) {
     if(!fs.existsSync(x)) {
       return null;
     }
+    console.log(x)
     const html = fs.readFileSync(x, "utf8");
 
     var stats = fs.statSync(x);
 
+    const files = fs.readdirSync(path.dirname(x)).filter(x =>x.includes("pairs"))
+
+    console.log(files)
     
     const $ = cheerio.load(html);
-    var roundLink = $(".nav-link")
-      .toArray()
-      .map((l) => $(l).attr("href"))
-      .find((t) => t.includes("pair"));
+    var roundLink = files.pop()
     const td = $("td").toArray();
 
     const standings = readStanding(path.dirname(x));
