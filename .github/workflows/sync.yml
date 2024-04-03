@@ -6,7 +6,7 @@ on:
   push:
     paths:
       - .github/workflows/sync.yml
-      - sync.mjs
+      - src/*.*
   workflow_dispatch:
 permissions:
   contents: write
@@ -34,8 +34,8 @@ jobs:
               cp -f "$file" "${file%.php}.html"
           done' bash {} +
           ls www
-          # node update-html.mjs
-          node sync.mjs
+          # node src/update-html.mjs
+          node src/sync.mjs
         env:
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}

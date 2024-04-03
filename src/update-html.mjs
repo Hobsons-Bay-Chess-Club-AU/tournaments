@@ -1,52 +1,51 @@
 import fs from 'fs';
 import path from 'path';
 import axios from 'axios';
-import puppeteer from 'puppeteer';
+//import puppeteer from 'puppeteer';
+import {getCookie} from "./bytehost.mjs"
 
 const rootDir = './www';
 
-async function getCookieFromUrl(url) {
-    const browser = await puppeteer.launch();
-    const page = await browser.newPage();
+// async function getCookieFromUrl(url) {
+//     const browser = await puppeteer.launch();
+//     const page = await browser.newPage();
 
-    await page.goto(url, { waitUntil: 'networkidle2' });
+//     await page.goto(url, { waitUntil: 'networkidle2' });
 
-    await page.waitForFunction(() => {
-        return document.cookie.includes('test');
-    });
+//     await page.waitForFunction(() => {
+//         return document.cookie.includes('test');
+//     });
 
-    const cookies = await page.cookies();
-    let targetCookie = null;
+//     const cookies = await page.cookies();
+//     let targetCookie = null;
 
-    for (const cookie of cookies) {
-        if (cookie.name === 'test') { // Replace 'yourCookieName' with the actual name of the cookie you want to check
-            targetCookie = cookie;
-            break;
-        }
-    }
+//     for (const cookie of cookies) {
+//         if (cookie.name === 'test') { // Replace 'yourCookieName' with the actual name of the cookie you want to check
+//             targetCookie = cookie;
+//             break;
+//         }
+//     }
 
-    await browser.close();
+//     await browser.close();
 
-    return targetCookie;
-}
+//     return targetCookie;
+// }
 
-async function getCookie() {
-    return "__test=1670aca879a4d45aedc2e780e9ca765d"
-}
+
+const headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Accept-Language': 'en-US,en;q=0.9',
+    'Cache-Control': 'no-cache',
+    'Pragma': 'no-cache',
+    'Cookie': '__test=1670aca879a4d45aedc2e780e9ca765d'
+};
+
 async function fetchAndWriteHtml(filePath , retry=1) {
-    console.log("filePath", filePath)
+    console.log("URL: ", filePath)
 
     var pathUrl = filePath.replace("www/", "")
-
-    const headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Cache-Control': 'no-cache',
-        'Pragma': 'no-cache',
-        'Cookie': '__test=1670aca879a4d45aedc2e780e9ca765d'
-    };
 
     try {
         console.log("url", `http://www.hbcc.byethost10.com/${pathUrl}`)
@@ -57,8 +56,8 @@ async function fetchAndWriteHtml(filePath , retry=1) {
         if(htmlContent.includes("This site requires Javascript to work")) 
         {
             if(retry < 3) {
-                headers.Cookie = await getCookie();
-
+                headers.Cookie = await getCookie(htmlContent);
+                console.log("New Cookie: ", headers.Cookie)
                 await fetchAndWriteHtml(filePath, retry++)
                 }
             else
