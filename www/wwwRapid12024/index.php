@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en"><head> <meta charset="UTF-8">
+<meta name="description" content="chess tournament">
+<meta name="author" content="www.vegachess.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<title>Rapid 1 2024</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="stylenew.css" type="text/css" >
+    </head>
+<body>
+<div class="d-flex flex-column justify-content-between h-100"> <nav class="navbar navbar-expand-lg bg-light fixed-top">
+                <div class="container">  <a class="navbar-brand d-flex align-items-center" href="#" style="width: 24px;"> <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20,8h0L14,2.74a3,3,0,0,0-4,0L4,8a3,3,0,0,0-1,2.26V19a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V10.25A3,3,0,0,0,20,8ZM14,20H10V15a1,1,0,0,1,1-1h2a1,1,0,0,1,1,1Zm5-1a1,1,0,0,1-1,1H16V15a3,3,0,0,0-3-3H11a3,3,0,0,0-3,3v5H6a1,1,0,0,1-1-1V10.25a1,1,0,0,1,.34-.75l6-5.25a1,1,0,0,1,1.32,0l6,5.25a1,1,0,0,1,.34.75Z" fill="#000"/></svg>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Players</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs5.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table by score </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
+</div>
+</nav>
+ <section id="main" class="pt-5 mb-auto">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="d-none d-lg-block col-1 ps-0">
+                            <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
+  <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players sorted by rating and title</h3><div class="table-responsive"><table class="table table-striped "> 
+<thead><tr><th>N</th><th>NAME</th><th>Fed</th><th>Title</th><th>Rtg</th><th>RtgF</th><th>RtgN</th></tr></thead><tbody>
+<tr> 
+<td>14</td><td> <a href="http://ratings.fide.com/card.phtml?event=3232220" target="X"> Whitford,Matthew </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1562</td><td>0</td><td>1562</td> </tr>
+<tr> 
+<td>1</td><td> <a href="http://ratings.fide.com/card.phtml?event=3232182" target="X"> McIntyre,Julian </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1547</td><td>0</td><td>1547</td> </tr>
+<tr> 
+<td>12</td><td> <a href="http://ratings.fide.com/card.phtml?event=3207293" target="X"> Ilic,Milan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1541</td><td>0</td><td>1541</td> </tr>
+<tr> 
+<td>2</td><td> <a href="http://ratings.fide.com/card.phtml?event=3201414" target="X"> Hogan,Steven </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1494</td><td>0</td><td>1494</td> </tr>
+<tr> 
+<td>3</td><td> <a href="http://ratings.fide.com/card.phtml?event=3259072" target="X"> Picone,James </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1482</td><td>0</td><td>1482</td> </tr>
+<tr> 
+<td>4</td><td> <a href="http://ratings.fide.com/card.phtml?event=3267849" target="X"> Nguyen,Anh Kiet </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1276</td><td>0</td><td>1276</td> </tr>
+<tr> 
+<td>5</td><td> <a href="http://ratings.fide.com/card.phtml?event=3227545" target="X"> Richards,Derek </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1207</td><td>0</td><td>1207</td> </tr>
+<tr> 
+<td>6</td><td> <a href="http://ratings.fide.com/card.phtml?event=3265404" target="X"> Temizel,Hazar </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1100</td><td>0</td><td>1100</td> </tr>
+<tr> 
+<td>7</td><td> <a href="http://ratings.fide.com/card.phtml?event=3259021" target="X"> Bodke,Krishna </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1044</td><td>0</td><td>1044</td> </tr>
+<tr> 
+<td>8</td><td> <a href="http://ratings.fide.com/card.phtml?event=3234134" target="X"> Clerk,Max </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1032</td><td>0</td><td>1032</td> </tr>
+<tr> 
+<td>13</td><td> <a href="http://ratings.fide.com/card.phtml?event=3237796" target="X"> Nawar,Mena </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>613</td><td>0</td><td>613</td> </tr>
+<tr> 
+<td>9</td><td> <a href="http://ratings.fide.com/card.phtml?event=3231550" target="X"> Liu,Tina </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>495</td><td>0</td><td>495</td> </tr>
+<tr> 
+<td>10</td><td> <a href="http://ratings.fide.com/card.phtml?event=3267857" target="X"> Nicdao,Joseph </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td>11</td><td> Sicurella,Lucas </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+</tbody>
+</table></div>
+		  </div>
+		      </div>
+         <div class="d-none d-lg-block col-1 pe-0">
+           <div class="d-flex flex-column w-full overflow-hidden">
+   </div> </div>  </div>  </div> </section>
+    <footer id="footer" class="bg-light py-5 mt-5 border-bottom border-light-subtle border-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Hobsons Bay Chess Club - AUS)
+    </div>  </div>  </div> </div> 
+   </footer>
+     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script></body>
+</html>
