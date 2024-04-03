@@ -1,6 +1,35 @@
 import axios from "axios"
-
+import puppeteer from 'puppeteer'
 import crypto from "crypto"
+
+
+export async function getCookieFromUrl(url) {
+    console.log("Initial request cookies")
+    const browser = await puppeteer.launch();
+    const page = await browser.newPage();
+
+    await page.goto(url, { waitUntil: 'networkidle2' });
+
+    await page.waitForFunction(() => {
+        return document.cookie.includes('__test');
+    });
+
+    const cookies = await page.cookies();
+    let targetCookie = null;
+
+    for (const cookie of cookies) {
+        if (cookie.name === '__test') { // Replace 'yourCookieName' with the actual name of the cookie you want to check
+            targetCookie = cookie;
+            break;
+        }
+    }
+
+    await browser.close();
+
+    const cookie = targetCookie.name + "=" + targetCookie.value;
+    console.log("cookie", cookie)
+    return cookie;
+}
 
 export async function getCookie(html) {
     try {

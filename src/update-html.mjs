@@ -2,34 +2,11 @@ import fs from 'fs';
 import path from 'path';
 import axios from 'axios';
 //import puppeteer from 'puppeteer';
-import {getCookie} from "./bytehost.mjs"
+import {getCookieFromUrl} from "./bytehost.mjs"
 
 const rootDir = './www';
 
-// async function getCookieFromUrl(url) {
-//     const browser = await puppeteer.launch();
-//     const page = await browser.newPage();
 
-//     await page.goto(url, { waitUntil: 'networkidle2' });
-
-//     await page.waitForFunction(() => {
-//         return document.cookie.includes('test');
-//     });
-
-//     const cookies = await page.cookies();
-//     let targetCookie = null;
-
-//     for (const cookie of cookies) {
-//         if (cookie.name === 'test') { // Replace 'yourCookieName' with the actual name of the cookie you want to check
-//             targetCookie = cookie;
-//             break;
-//         }
-//     }
-
-//     await browser.close();
-
-//     return targetCookie;
-// }
 
 
 const headers = {
@@ -46,9 +23,9 @@ async function fetchAndWriteHtml(filePath , retry=1) {
     console.log("URL: ", filePath)
 
     var pathUrl = filePath.replace("www/", "")
-
+    const pageUrl = `http://www.hbcc.byethost10.com/${pathUrl}`
     try {
-        console.log("url", `http://www.hbcc.byethost10.com/${pathUrl}`)
+        console.log("url",pageUrl )
         const response = await axios.get(`http://www.hbcc.byethost10.com/${pathUrl}`, {headers});
         const htmlContent = response.data;
         
@@ -56,7 +33,7 @@ async function fetchAndWriteHtml(filePath , retry=1) {
         if(htmlContent.includes("This site requires Javascript to work")) 
         {
             if(retry < 3) {
-                headers.Cookie = await getCookie(htmlContent);
+                headers.Cookie = await getCookieFromUrl(pageUrl);
                 console.log("New Cookie: ", headers.Cookie)
                 await fetchAndWriteHtml(filePath, retry++)
                 }
@@ -103,6 +80,7 @@ async function traverseDirectory(currentDir) {
 
 
 (async () => {
-await traverseDirectory(rootDir);
+    headers.Cookie = await getCookieFromUrl("http://hbcc.byethost10.com")
+    await traverseDirectory(rootDir);
 
 })();
