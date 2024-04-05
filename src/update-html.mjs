@@ -56,7 +56,7 @@ async function traverseDirectory(currentDir) {
         
         concurrentCount++;
         
-        if (concurrentCount >= 50) {
+        if (concurrentCount >= 5) {
             await Promise.all(promises);
             promises.length = 0; // Clear the promises array
             concurrentCount = 0;
