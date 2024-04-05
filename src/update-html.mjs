@@ -11,10 +11,10 @@ async function fetchAndWriteHtml(filePath , retry=1) {
     console.log("URL: ", filePath)
 
     var pathUrl = filePath.replace("www/", "")
-    const pageUrl = `http://www.hbcc.byethost10.com/${pathUrl}`
+    const pageUrl = `http://localhost:8080/${pathUrl}`
     try {
         console.log("url",pageUrl )
-        const response = await axios.get(`http://localhost:8080/${pathUrl}`);
+        const response = await axios.get(pageUrl);
         const htmlContent = response.data;
         
         const htmlFilePath = filePath.replace('.php', '.html');
@@ -56,7 +56,7 @@ async function traverseDirectory(currentDir) {
         
         concurrentCount++;
         
-        if (concurrentCount >= 2) {
+        if (concurrentCount >= 10) {
             await Promise.all(promises);
             promises.length = 0; // Clear the promises array
             concurrentCount = 0;
