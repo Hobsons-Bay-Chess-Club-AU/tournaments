@@ -33,7 +33,7 @@ async function fetchAndWriteHtml(filePath , retry=1) {
         console.log(`Successful mirror ${pathUrl} => ${htmlFilePath}`);
     } catch (error) {
         console.error(`Error fetching or writing ${filePath}:`, error);
-        if(error.response.status === 508 && retry<100) {
+        if(error.response?.status === 508 && retry<100) {
             await fetchAndWriteHtml(filePath, retry++)
         }
     }
@@ -56,7 +56,7 @@ async function traverseDirectory(currentDir) {
         
         concurrentCount++;
         
-        if (concurrentCount >= 10) {
+        if (concurrentCount >= 50) {
             await Promise.all(promises);
             promises.length = 0; // Clear the promises array
             concurrentCount = 0;
