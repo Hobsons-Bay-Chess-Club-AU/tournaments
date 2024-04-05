@@ -10,12 +10,16 @@ export async function getCookieFromUrl(url) {
 
     await page.goto(url, { waitUntil: 'networkidle2' });
 
-    await page.waitForFunction(() => {
-        return document.cookie.includes('__test');
-    });
+    try{
+        await page.waitForFunction(() => {
+            return document.cookie.includes('__test');
+        }, {timeout: 5000});
+    }
+    catch(e) {
 
+    }
     const cookies = await page.cookies();
-    let targetCookie = null;
+    let targetCookie = {name: "",value:""};
 
     for (const cookie of cookies) {
         if (cookie.name === '__test') { // Replace 'yourCookieName' with the actual name of the cookie you want to check
@@ -80,3 +84,7 @@ function hexStringToByteArray(s) {
     }
     return data;
 }
+
+(async () => {
+   await  getCookieFromUrl("http://hbcc.byethost10.com")
+})();

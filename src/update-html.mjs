@@ -2,22 +2,10 @@ import fs from 'fs';
 import path from 'path';
 import axios from 'axios';
 //import puppeteer from 'puppeteer';
-import {getCookieFromUrl} from "./bytehost.mjs"
-
 const rootDir = './www';
 
 
 
-
-const headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Accept-Language': 'en-US,en;q=0.9',
-    'Cache-Control': 'no-cache',
-    'Pragma': 'no-cache',
-    'Cookie': '__test=1670aca879a4d45aedc2e780e9ca765d'
-};
 
 async function fetchAndWriteHtml(filePath , retry=1) {
     console.log("URL: ", filePath)
@@ -26,7 +14,7 @@ async function fetchAndWriteHtml(filePath , retry=1) {
     const pageUrl = `http://www.hbcc.byethost10.com/${pathUrl}`
     try {
         console.log("url",pageUrl )
-        const response = await axios.get(`http://www.hbcc.byethost10.com/${pathUrl}`, {headers});
+        const response = await axios.get(`http://localhost:8080/${pathUrl}`);
         const htmlContent = response.data;
         
         const htmlFilePath = filePath.replace('.php', '.html');
@@ -80,7 +68,7 @@ async function traverseDirectory(currentDir) {
 
 
 (async () => {
-    headers.Cookie = await getCookieFromUrl("http://hbcc.byethost10.com")
+    // headers.Cookie = await getCookieFromUrl("http://hbcc.byethost10.com")
     await traverseDirectory(rootDir);
 
 })();
