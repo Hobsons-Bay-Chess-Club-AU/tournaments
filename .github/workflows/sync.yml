@@ -19,40 +19,49 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-
-      - name: Install lftp
+      
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+            
+      - name: Install dependencies
         run: |
           sudo apt update
           sudo apt install lftp rename
           npm install
-
+      
+      - name: Keep site alive
+        run: |
+          node src/bytehost.mjs
+          
       - name: Sync FTP to Local
         run: |
-
-          node src/bytehost.mjs
-          lftp -e 'mirror --parallel=20 --ignore-time -c  htdocs www;quit'  -u $FTP_USER,$FTP_PASSWORD ftp://ftpupload.net || true
+          lftp -e 'mirror --parallel=20 --ignore-time -c  htdocs www;quit'  -u $FTP_USER,$FTP_PASSWORD ftp://ftpupload.net
           find www -type f -name "*.php" -exec bash -c '
           for file; do
               cp -f "$file" "${file%.php}.html"
           done' bash {} +
+          
+        env:
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+      - name: Update HTML content
+        run: |
           docker-compose up -d
           ls www
           node src/update-html.mjs
           node src/sync.mjs
-        env:
-          FTP_USER: ${{ secrets.FTP_USER }}
-          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+      # - name: Replace PHP links with HTML links
+      #   run: |
+      #     DIRECTORY="./www"
 
-      - name: Replace PHP links with HTML links
-        run: |
-          DIRECTORY="./www"
-
-          find "$DIRECTORY" -type f -name "*.html" -print0 | while IFS= read -r -d '' file; do
-            sed -i 's/\.php/.html/g' "$file"
-          done
-          find "$DIRECTORY" -type f -name "*.js" -print0 | while IFS= read -r -d '' file; do
-            sed -i 's/\.php/.html/g' "$file"
-          done
+      #     find "$DIRECTORY" -type f -name "*.html" -print0 | while IFS= read -r -d '' file; do
+      #       sed -i 's/\.php/.html/g' "$file"
+      #     done
+      #     find "$DIRECTORY" -type f -name "*.js" -print0 | while IFS= read -r -d '' file; do
+      #       sed -i 's/\.php/.html/g' "$file"
+      #     done
       - name: Commit changes
         id: commit
         run: |
