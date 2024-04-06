@@ -63,8 +63,8 @@ jobs:
           sleep 2
           node src/update-html.mjs
           docker-compose down
-
-          node src/sync.mjs
+      - name: run Sync.mjs
+        run: node src/sync.mjs
       - name: Replace PHP links with HTML links
         run: |
           DIRECTORY="./www"
