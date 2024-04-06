@@ -107,12 +107,9 @@ function generateIndexFile(list) {
   );
   const accData = {};
   for (const item of uniqueList) {
-    var reward = `${item.path}/rewards.html`;
-    console.log(reward);
-    if (fs.existsSync(reward)) {
-      console.log("Update navigation", reward);
+   
       updateNavigation("www/" + item.url);
-    }
+    
     if (item.year === "2024") {
       accumulatePoint(accData, item);
     }

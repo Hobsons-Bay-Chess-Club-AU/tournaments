@@ -30,11 +30,54 @@ function calculateAgeFromDate(dateString) {
 export function updateNavigation(folderPath) {
   const pattern = path.join(folderPath, "*.html");
   const files = glob.sync(pattern);
-
+  var reward = `${folderPath}/rewards.html`;
+  const hasRewardPage = fs.existsSync(reward)
+ 
   files.forEach((filePath) => {
     let content = fs.readFileSync(filePath, "utf8");
     const $ = cheerio.load(content);
     $("#rewards").remove();
+
+    const navLink = $(
+      `
+        <li class="nav-item dropdown" id="rewards">
+        <a href="rewards.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rewards<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a class="dropdown-item" href="rewards.html">Open</a></li>
+                <li><a class="dropdown-item" href="rewards.html#U12">U12</a></li>
+                <li><a class="dropdown-item" href="rewards.html#U10">U10</a></li>
+                <li><a class="dropdown-item" href="rewards.html#U8">U8</a></li>
+                <li> <a class="dropdown-item" href="rewards.html#Girl">Girls</a></li>
+              </ul>
+            </li>`
+    );
+    $('[type="image/x-icon"]').remove();
+    $('[rel="manifest"]').remove();
+    $("head").append('<link rel="manifest" href="/manifest.json" />');
+
+    $("head").append(
+      $(' <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">')
+    );
+    // Replace the specified text
+    if(hasRewardPage) {
+      $(".navbar-nav").append(navLink);
+    }
+    var navBrand = $('.navbar-brand');
+    if(navBrand!= null) {
+      navBrand.attr('href', '/')
+    }
+    // Write the modified content back to the file
+    fs.writeFileSync(filePath, $.html(), "utf8");
+  });
+}
+
+export function updateHomeNav(folderPath) {
+  const pattern = path.join(folderPath, "*.html");
+  const files = glob.sync(pattern);
+
+  files.forEach((filePath) => {
+    let content = fs.readFileSync(filePath, "utf8");
+    const $ = cheerio.load(content);
 
     const navLink = $(
       `
