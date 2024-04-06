@@ -35,15 +35,15 @@ jobs:
         run: |
           node src/bytehost.mjs
           
-      # - name: "Fetch content from ftp server"
-      #   uses: "samuraitruong/use-ftp-action@main"
-      #   with: 
-      #     FTP_USER: ${{ secrets.FTP_USER }}
-      #     FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-      #     FTP_ROOT_FOLDER: htdocs
-      #     LOCAL_FOLDER: 'www'
-      #     FTP_HOST: ftp://ftpupload.net
-      #     SYNC_MODE: download
+      - name: "Fetch content from ftp server"
+        uses: "samuraitruong/use-ftp-action@main"
+        with: 
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_ROOT_FOLDER: htdocs
+          LOCAL_FOLDER: 'www'
+          FTP_HOST: ftp://ftpupload.net
+          SYNC_MODE: download
           
 
       # - name: Sync FTP to Local
