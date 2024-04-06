@@ -61,7 +61,8 @@ jobs:
         run: |
           docker-compose up -d
           node src/update-html.mjs
-          sudo chown -R runner:runner ./www
+          docker-compose down
+
           node src/sync.mjs
       - name: Replace PHP links with HTML links
         run: |
