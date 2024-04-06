@@ -60,6 +60,7 @@ jobs:
       - name: Update HTML content
         run: |
           docker-compose up -d
+          sleep 2
           node src/update-html.mjs
           docker-compose down
 
