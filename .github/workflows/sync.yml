@@ -64,7 +64,11 @@ jobs:
           node src/update-html.mjs
           docker-compose down
       - name: run Sync.mjs
-        run: node src/sync.mjs
+
+        run: |
+          sudo chown -R ${{ github.actor }}:${{ github.actor }} ./www
+          node src/sync.mjs
+
       - name: Replace PHP links with HTML links
         run: |
           DIRECTORY="./www"
