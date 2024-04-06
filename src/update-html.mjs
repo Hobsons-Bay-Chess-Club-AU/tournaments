@@ -8,12 +8,12 @@ const rootDir = './www';
 
 
 async function fetchAndWriteHtml(filePath , retry=1) {
-    console.log("URL: ", filePath)
+    // console.log("URL: ", filePath)
 
     var pathUrl = filePath.replace("www/", "")
     const pageUrl = `http://localhost:8080/${pathUrl}`
     try {
-        console.log("url",pageUrl )
+        // console.log("url",pageUrl )
         const response = await axios.get(pageUrl);
         const htmlContent = response.data;
         

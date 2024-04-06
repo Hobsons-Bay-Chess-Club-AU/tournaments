@@ -66,7 +66,7 @@ jobs:
       - name: run Sync.mjs
 
         run: |
-          sudo chown -R ${{ github.actor }}:${{ github.actor }} ./www
+          sudo chown -R $(whoami):$(whoami) ./www
           node src/sync.mjs
 
       - name: Replace PHP links with HTML links
