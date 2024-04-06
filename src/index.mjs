@@ -49,12 +49,21 @@ function ranking() {
   for (const category of adjustment) {
     var currentCat = rewards.find((x) => x.category === category);
     const list = currentCat.data;
+    
+    let upperCategories = adjustment.slice(catIndex);
 
-    const upperCategories = adjustment.slice(catIndex);
+   
+
     console.log("category ", category, upperCategories);
 
     for (var index = 3; index <= list.length; index++) {
       const playerStanding = list[index];
+
+      if(currentCat === 'Girl') {
+        var currentCat = rewards.find((x) => x.category === playerStanding.U);
+        upperCategories = adjustment.slice(catIndex);
+      }
+
       if (playerStanding && upperCategories.length > 0) {
         //  console.log(playerStanding);
         let swapped = false;

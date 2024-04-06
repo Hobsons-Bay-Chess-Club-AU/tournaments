@@ -67,7 +67,7 @@ export function updateNavigation(folderPath) {
       navBrand.attr('href', '/')
     }
     // Write the modified content back to the file
-    fs.writeFileSync(filePath, $.html(), "utf8");
+    fs.writeFileSync(filePath, $.html().replace(".php", ".html"), "utf8");
   });
 }
 
@@ -144,7 +144,6 @@ export function readPlayerList(rootPath) {
     .split("\n")
     .slice(2)
     .join("\n");
-  console.log(raw);
   const x = papa.parse(raw, {
     header: true,
     transform: (x) => x && x.trim(),
