@@ -61,12 +61,13 @@ jobs:
         run: |
           docker-compose up -d
           sleep 2
+          sudo chown -R $(whoami) ./www
           node src/update-html.mjs
           docker-compose down
       - name: run Sync.mjs
 
         run: |
-          sudo chown -R $(whoami):$(whoami) ./www
+          sudo chown -R $(whoami) ./www
           node src/sync.mjs
 
       - name: Replace PHP links with HTML links
