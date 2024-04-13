@@ -295,4 +295,60 @@ td.hole {
 		bottom: -26%;
 	}
 
+}ackground-color: #417AFE;
+	margin-left: 4px;
+}
+
+.notitle {
+	display: inline-block;
+	width:40px;
+	font-size: 12px;
+	text-align: center;
+	border-radius: 4px;
+	margin-left: 4px;
+	color:black;
+	background-color: #eeeef0;
+}
+
+.male {
+	border: 2px solid #417AFE;
+}
+
+.female {
+	border:  2px solid #ff4d9a;
+}
+
+
+caption {
+	color: var(--gold-color)!important;
+}
+
+@media only screen and ( max-width: 991px ) {
+
+	.w-50 {
+		width: 100% !important;
+	}
+
+	.stat-card .border-end {
+		border: none !important;
+		border-bottom: 1px solid #e9ecef !important;
+	}
+
+	.player-stat-row > div:first-child,
+	.player-stat-header > div:first-child {
+		width: 100%;
+	}
+
+	.player-stat-row {
+		border-bottom: 4px solid #ebebeb;
+	}
+
+	.player-stat-row:last-child {
+		border-bottom: none;
+	}
+
+	.btn-stat-detail {
+		bottom: -26%;
+	}
+
 }
