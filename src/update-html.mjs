@@ -5,8 +5,6 @@ import axios from 'axios';
 const rootDir = './www';
 
 
-
-
 async function fetchAndWriteHtml(filePath , retry=1) {
     // console.log("URL: ", filePath)
 
@@ -15,7 +13,7 @@ async function fetchAndWriteHtml(filePath , retry=1) {
     try {
         // console.log("url",pageUrl )
         const response = await axios.get(pageUrl);
-        const htmlContent = response.data;
+        let htmlContent = response.data;
         
         const htmlFilePath = filePath.replace('.php', '.html');
         if(htmlContent.includes("This site requires Javascript to work")) 
@@ -29,6 +27,7 @@ async function fetchAndWriteHtml(filePath , retry=1) {
             console.warn("Invalid coookies, stop overwritten file")
 
         }
+        htmlContent = htmlContent.replace(/\.php/g, '.html');
         fs.writeFileSync(htmlFilePath, htmlContent);
         console.log(`Successful mirror ${pathUrl} => ${htmlFilePath}`);
     } catch (error) {
