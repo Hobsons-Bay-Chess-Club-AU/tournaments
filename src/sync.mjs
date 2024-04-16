@@ -5,10 +5,9 @@ import cheerio from "cheerio";
 import {
   updateNavigation,
   accumulatePoint,
-  readPlayerList,
+  generateRewardPage,
   readStanding,
 } from "./shared.mjs";
-import {generateRewardPage} from './index.mjs'
 
 function findFiles(directoryPath, fileName, fileList = []) {
   const files = fs.readdirSync(directoryPath);
