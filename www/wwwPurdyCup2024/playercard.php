@@ -753,4 +753,147 @@
    </footer>
      </div>
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script></body>
+</html>/td> <td> 0.0</td>
+</tr> 
+<tr> <td>2</td> <td> B</td> <td>19</td> <td></td> <td> <a href="playercard.php#19"> Pasukov,Leo          </a>  <td>1431</td>
+<td> 0.0</td> <td> 2.5</td>
+</tr> 
+<tr> <td>3</td> <td>W </td> <td>27</td> <td></td> <td> <a href="playercard.php#27"> Wilkinson,Greg       </a>  <td>1202</td>
+<td> 0.0</td> <td> 1.5</td>
+</tr> 
+<tr> <td>4</td> <td> B</td> <td>33</td> <td></td> <td> <a href="playercard.php#33"> Settu,Karthick       </a>  <td>593</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  38   <strong>Ramanathan,Ashwin   </strong>, K= 0, Elo=   0, ID=0
+<br>
+<a class="anchor" name="38"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>18</td> <td></td> <td> <a href="playercard.php#18"> Lingineni,Khushal    </a>  <td>1432</td>
+<td> 0.0</td> <td> 2.5</td>
+</tr> 
+<tr> <td>2</td> <td>W </td> <td>28</td> <td></td> <td> <a href="playercard.php#28"> Temizel,Hazar        </a>  <td>1100</td>
+<td> 0.0</td> <td> 1.5</td>
+</tr> 
+<tr> <td>3</td> <td> B</td> <td>32</td> <td></td> <td> <a href="playercard.php#32"> Karthick,Deepshika   </a>  <td>734</td>
+<td> 1.0</td> <td> 1.0</td>
+</tr> 
+<tr> <td>4</td> <td>W </td> <td>36</td> <td></td> <td> <a href="playercard.php#36"> Annadasu,Shreyansh   </a>  <td>0</td>
+<td> 1.0</td> <td> 0.5</td>
+</tr> 
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  39   <strong>Ruaya,Chris         </strong>, K= 0, Elo=   0, ID=6253062
+<br>
+<a class="anchor" name="39"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>19</td> <td></td> <td> <a href="playercard.php#19"> Pasukov,Leo          </a>  <td>1431</td>
+<td> 0.5</td> <td> 2.5</td>
+</tr> 
+<tr> <td>2</td> <td> B</td> <td>25</td> <td></td> <td> <a href="playercard.php#25"> Matijas,Dejan        </a>  <td>1268</td>
+<td> 1.0</td> <td> 2.5</td>
+</tr> 
+<tr> <td>3</td> <td>W </td> <td>6</td> <td>CM</td> <td> <a href="playercard.php#6"> Davis,Tony J         </a>  <td>1833</td>
+<td> 0.0</td> <td> 3.0</td>
+</tr> 
+<tr> <td>4</td> <td> B</td> <td>27</td> <td></td> <td> <a href="playercard.php#27"> Wilkinson,Greg       </a>  <td>1202</td>
+<td> 1.0</td> <td> 1.5</td>
+</tr> 
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  40   <strong>Singh,Abhyuday      </strong>, K= 0, Elo=   0, ID=3204735
+<br>
+<a class="anchor" name="40"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>20</td> <td></td> <td> <a href="playercard.php#20"> Davis,Sophie         </a>  <td>1400</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
+<tr> <td>2</td> <td>W </td> <td>30</td> <td></td> <td> <a href="playercard.php#30"> Clerk,Max            </a>  <td>1032</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
+<tr> <td>3</td> <td> B</td> <td>34</td> <td></td> <td> <a href="playercard.php#34"> Marasinghe,Claire    </a>  <td>579</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
+<tr> <td>4</td> <td>W </td> <td>32</td> <td></td> <td> <a href="playercard.php#32"> Karthick,Deepshika   </a>  <td>734</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  41   <strong>Vincent,Lucas       </strong>, K= 0, Elo=   0, ID=3210814
+<br>
+<a class="anchor" name="41"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+<tr> <td>1</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+</tr> 
+<tr> <td>2</td> <td>W </td> <td>42</td> <td></td> <td> <a href="playercard.php#42"> Nawar,Mena           </a>  <td>613</td>
+<td> 1.0</td> <td> 2.0</td>
+</tr> 
+<tr> <td>3</td> <td> B</td> <td>20</td> <td></td> <td> <a href="playercard.php#20"> Davis,Sophie         </a>  <td>1400</td>
+<td> 1.0</td> <td> 1.0</td>
+</tr> 
+<tr> <td>4</td> <td>W </td> <td>15</td> <td></td> <td> <a href="playercard.php#15"> Picone,James         </a>  <td>1482</td>
+<td> 0.0</td> <td> 3.0</td>
+</tr> 
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  42   <strong>Nawar,Mena          </strong>, K= 0, Elo= 613, ID=3191633
+<br>
+<a class="anchor" name="42"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+<tr> <td>1</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+</tr> 
+<tr> <td>2</td> <td> B</td> <td>41</td> <td></td> <td> <a href="playercard.php#41"> Vincent,Lucas        </a>  <td>0</td>
+<td> 0.0</td> <td> 2.0</td>
+</tr> 
+<tr> <td>3</td> <td>W </td> <td>33</td> <td></td> <td> <a href="playercard.php#33"> Settu,Karthick       </a>  <td>593</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
+<tr> <td>4</td> <td> B</td> <td>23</td> <td></td> <td> <a href="playercard.php#23"> Djatschenko,Addison  </a>  <td>1315</td>
+<td> 1.0</td> <td> 1.0</td>
+</tr> 
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  43   <strong>Sharma,Rajnish      </strong>, K= 0, Elo=   0, ID=0
+<br>
+<a class="anchor" name="43"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+<tr> <td>1</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+</tr> 
+<tr> <td>2</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+</tr> 
+<tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+</tr> 
+<tr> <td>4</td> <td>W </td> <td>35</td> <td></td> <td> <a href="playercard.php#35"> Liu,Tina             </a>  <td>495</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
+</tbody>
+</table><br>
+</DIV>
+		  </div>
+		      </div>
+         <div class="d-none d-lg-block col-1 pe-0">
+           <div class="d-flex flex-column w-full overflow-hidden">
+   </div> </div>  </div>  </div> </section>
+    <footer id="footer" class="bg-light py-5 mt-5 border-bottom border-light-subtle border-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Hobsons Bay Chess Club - AUS)
+  <?php if (file_exists($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php')) include($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php'); ?>    </div>  </div>  </div> </div> 
+   </footer>
+     </div>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script></body>
 </html>
