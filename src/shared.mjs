@@ -139,6 +139,9 @@ export function readStanding(rootPath) {
 
 export function readPlayerList(rootPath) {
   const playerFile = path.join(rootPath, "Players.csv");
+  if(!fs.existsSync(playerFile) ) {
+    return null
+  }
   const raw = fs
     .readFileSync(playerFile, "utf8")
     .split("\n")

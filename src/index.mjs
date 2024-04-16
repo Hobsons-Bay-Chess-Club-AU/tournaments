@@ -7,12 +7,15 @@ import { updateNavigation, readStanding, readPlayerList } from "./shared.mjs";
 
 const rootPath = "www/wwwHonourableBobJuniors2024";
 
-function ranking() {
+export function generateRewardPage(folderPath) {
   const standingFile = "standings-template.html";
   const raw = fs.readFileSync(standingFile, "utf8");
 
-  const players = readPlayerList(rootPath);
-  const { title, subTitle, standings: standingList } = readStanding(rootPath);
+  const players = readPlayerList(folderPath);
+  if(!players) {
+    return;
+  }
+  const { title, subTitle, standings: standingList } = readStanding(folderPath);
   // console.log(players);
   for (const standing of standingList) {
     const p = players.find((x) => x.N === standing.N);
@@ -116,12 +119,13 @@ function ranking() {
     title,
     subTitle: subTitle.replace("Standings", "Rewards"),
   });
-  fs.writeFileSync(path.join(rootPath, "rewards.html"), html);
+  fs.writeFileSync(path.join(folderPath, "rewards.html"), html);
 
-  updateNavigation(rootPath);
+  updateNavigation(folderPath);
 }
+
 (async () => {
   // readPlayerList();
   // readStanding();
-  ranking();
+  generateRewardPage(folderPath);
 })();

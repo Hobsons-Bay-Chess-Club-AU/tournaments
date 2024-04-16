@@ -30,7 +30,11 @@ jobs:
           sudo apt update
           sudo apt install lftp rename
           npm install
-      
+      - name: Descrypt vault files
+        run: |
+          node src/vault.mjs descrypt
+        env:
+          VAULT_SECRET: ${{secrets.VAULT_SECRET}}
       - name: Keep site alive
         run: |
           node src/bytehost.mjs
@@ -83,6 +87,8 @@ jobs:
       - name: Commit changes
         id: commit
         run: |
+          find "$DIRECTORY" -type f -name '*~*' -exec rm -f {} +
+
           git status
           if [[ -n $(git status --porcelain) ]]; then
 

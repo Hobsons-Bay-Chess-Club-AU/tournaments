@@ -8,6 +8,7 @@ import {
   readPlayerList,
   readStanding,
 } from "./shared.mjs";
+import {generateRewardPage} from './index.mjs'
 
 function findFiles(directoryPath, fileName, fileList = []) {
   const files = fs.readdirSync(directoryPath);
@@ -115,6 +116,8 @@ function generateIndexFile(list) {
     }
     updatePoint(accData);
     console.log(accData);
+
+    generateRewardPage(item.path)
   }
 }
 // Call the function to extract all zip files in the folder
