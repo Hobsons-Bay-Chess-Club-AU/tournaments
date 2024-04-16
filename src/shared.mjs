@@ -134,8 +134,8 @@ export function readStanding(rootPath) {
   //  console.log(list);
   return {
     standings: list.filter(Boolean),
-    title: $("h2").text(),
-    subTitle: $("h4").text(),
+    title: $("h2").text() ||  $("h1").text(),
+    subTitle: $("h4").text() || $("h3").text(),
   };
 }
 
@@ -196,6 +196,7 @@ export function accumulatePoint(current, tournament) {
 
 export function generateRewardPage(folderPath) {
   console.log(process.cwd())
+
   const standingFile =   "./src/standings-template.html";
   const raw = fs.readFileSync(standingFile, "utf8");
 
