@@ -87,7 +87,7 @@ jobs:
       - name: Commit changes
         id: commit
         run: |
-          find "$DIRECTORY" -type f -name '*~*' -exec rm -f {} +
+          find "www" -type f -name '*~*' -exec rm -f {} +
 
           git status
           if [[ -n $(git status --porcelain) ]]; then
