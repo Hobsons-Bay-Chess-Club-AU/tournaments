@@ -37,7 +37,6 @@ export async function getCookieFromUrl(url) {
 
 export async function getCookie(html) {
     try {
-        console.log(html)
         if (html.includes("src=\"/aes.js\"") || html.includes("src=\"/aes.min.js\"")) {
             const beginOffsetA = "var a=toNumbers(\"";
             const beginOffsetB = "\"),b=toNumbers(\"";

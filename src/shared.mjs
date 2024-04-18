@@ -180,7 +180,7 @@ export function accumulatePoint(current, tournament) {
   current.players = current.players || {};
 
   current.tournaments.push(tournament.name);
-  console.log(standings);
+  // console.log(standings);
   const p = current.players;
   standings.forEach((stand) => {
     p[stand.NAME] = p[stand.NAME] || {
@@ -195,8 +195,6 @@ export function accumulatePoint(current, tournament) {
 
 
 export function generateRewardPage(folderPath) {
-  console.log(process.cwd())
-
   const standingFile =   "./src/standings-template.html";
   const raw = fs.readFileSync(standingFile, "utf8");
 

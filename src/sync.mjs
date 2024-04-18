@@ -49,7 +49,6 @@ function generateIndexFile(list) {
     if(!fs.existsSync(x)) {
       return null;
     }
-    console.log(x)
     const html = fs.readFileSync(x, "utf8");
 
     var stats = fs.statSync(x);
@@ -83,7 +82,7 @@ function generateIndexFile(list) {
   }).filter(Boolean);
 
   const uniqueEntries = new Map();
-  console.log("data", data)
+  // console.log("data", data)
   data.forEach((item) => {
     const key = `${item.name}-${item.start}`;
     if (!uniqueEntries.has(key) || item.round > uniqueEntries.get(key).round) {
@@ -96,7 +95,7 @@ function generateIndexFile(list) {
 
   var raw = fs.readFileSync("www/index.html.hbs", "utf8");
   const t = Handlebars.compile(raw);
-  console.log(uniqueList);
+  // console.log(uniqueList);
 
   fs.writeFileSync(
     "www/index.html",
