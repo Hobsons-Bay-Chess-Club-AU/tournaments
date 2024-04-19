@@ -75,7 +75,7 @@ function generateIndexFile(list) {
       end: $(td[9]).text().trim(),
       year: $(td[9]).text().trim().split("/").pop(),
       round: roundLink ? +roundLink.match(/\d+/)[0] : 1,
-      category: standings.standings.find((x) => x.NAME.includes("Hogan"))
+      category: standings?.standings.find((x) => x.NAME.includes("Hogan"))
         ? "senior"
         : "junior",
     };
@@ -97,6 +97,18 @@ function generateIndexFile(list) {
   const t = Handlebars.compile(raw);
   // console.log(uniqueList);
 
+  uniqueList.push({
+      path: "wwwWesternAutumnJuniorChampionship2024",
+      url: "wwwWesternAutumnJuniorChampionship2024",
+      arbiter: "",
+      name: "Western Autumn Junior Championship 2024",
+      site: "",
+      start: "",
+      end: "",
+      year: "2024",
+      round: 1,
+      category: 'junior'
+  })
   fs.writeFileSync(
     "www/index.html",
     t({
@@ -122,5 +134,6 @@ function generateIndexFile(list) {
 // extractAllZipFiles("unzip", "www");
 var files = findFiles("www", "tourstat.html");
 console.log(files);
+
 
 generateIndexFile(files);

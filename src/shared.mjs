@@ -110,6 +110,11 @@ export function updateHomeNav(folderPath) {
 
 export function readStanding(rootPath) {
   const standingFile = path.join(rootPath, "standings.html");
+  if(!fs.existsSync(standingFile)) {
+    return {
+      standings: []
+    }
+  }
   const raw = fs.readFileSync(standingFile, "utf8");
   const $ = cheerio.load(raw);
   const tr = $("table tr").toArray();
