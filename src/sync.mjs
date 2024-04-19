@@ -49,9 +49,9 @@ function generateIndexFile(list) {
     if(!fs.existsSync(x)) {
       return null;
     }
-    const html = fs.readFileSync(x, "utf8");
-
-    var stats = fs.statSync(x);
+    const tournamentStats = path.dirname(x) + "/tourstat.html"
+    if(fs.existsSync(tournamentStats)) {
+    const html = fs.readFileSync(tournamentStats, "utf8");
 
     const files = fs.readdirSync(path.dirname(x)).filter(x =>x.includes("pairs"))
 
@@ -74,11 +74,34 @@ function generateIndexFile(list) {
       start: $(td[7]).text().trim(),
       end: $(td[9]).text().trim(),
       year: $(td[9]).text().trim().split("/").pop(),
-      round: roundLink ? +roundLink.match(/\d+/)[0] : 1,
+      round: roundLink != null ? +roundLink.match(/\d+/)?.[0] : 1,
       category: standings?.standings.find((x) => x.NAME.includes("Hogan"))
         ? "senior"
         : "junior",
     };
+  }
+  else {
+    const html = fs.readFileSync(x, "utf8");
+
+
+    console.log(files)
+    const $ = cheerio.load(html);
+
+    return {
+      path: path.dirname(x),
+      url: x.split("/")[1],
+      arbiter: '',
+      name: $('title').text(),
+      site: '',
+      start: '',
+      end: '',
+      year: '',
+      round: 0,
+      category: html.includes("Hogan")
+        ? "senior"
+        : "junior",
+    };
+  }
   }).filter(Boolean);
 
   const uniqueEntries = new Map();
@@ -97,18 +120,18 @@ function generateIndexFile(list) {
   const t = Handlebars.compile(raw);
   // console.log(uniqueList);
 
-  uniqueList.push({
-      path: "wwwWesternAutumnJuniorChampionship2024",
-      url: "wwwWesternAutumnJuniorChampionship2024",
-      arbiter: "",
-      name: "Western Autumn Junior Championship 2024",
-      site: "",
-      start: "",
-      end: "",
-      year: "2024",
-      round: 1,
-      category: 'junior'
-  })
+  // uniqueList.push({
+  //     path: "wwwWesternAutumnJuniorChampionship2024",
+  //     url: "wwwWesternAutumnJuniorChampionship2024",
+  //     arbiter: "",
+  //     name: "Western Autumn Junior Championship 2024",
+  //     site: "Hobsons Bay Chess Club",
+  //     start: "",
+  //     end: "",
+  //     year: "2024",
+  //     round: 1,
+  //     category: 'junior'
+  // })
   fs.writeFileSync(
     "www/index.html",
     t({
@@ -132,7 +155,7 @@ function generateIndexFile(list) {
 }
 // Call the function to extract all zip files in the folder
 // extractAllZipFiles("unzip", "www");
-var files = findFiles("www", "tourstat.html");
+var files = findFiles("www", "playersname.html");
 console.log(files);
 
 
