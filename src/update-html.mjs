@@ -30,7 +30,7 @@ async function fetchAndWriteHtml(filePath , retry=1) {
 
         }
         htmlContent = htmlContent.replace(/\.php/g, '.html');
-        const $ = cheerio(html);
+        const $ = cheerio(htmlContent);
         $("head").append(
             `  <link href="/hbcc.css" rel="stylesheet">`
           );
