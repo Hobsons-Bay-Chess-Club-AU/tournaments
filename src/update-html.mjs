@@ -1,6 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import axios from 'axios';
+import cheerio from 'cheerio'
+
 //import puppeteer from 'puppeteer';
 const rootDir = './www';
 
@@ -28,6 +30,11 @@ async function fetchAndWriteHtml(filePath , retry=1) {
 
         }
         htmlContent = htmlContent.replace(/\.php/g, '.html');
+        const $ = cheerio(html);
+        $("head").append(
+            `  <link href="/hbcc.css" rel="stylesheet">`
+          );
+
         fs.writeFileSync(htmlFilePath, htmlContent);
         console.log(`Successful mirror ${pathUrl} => ${htmlFilePath}`);
     } catch (error) {
