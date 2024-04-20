@@ -210,6 +210,7 @@ export function generateRewardPage(folderPath) {
   const { title, subTitle, standings: standingList } = readStanding(folderPath);
   // console.log(players);
   for (const standing of standingList) {
+    if(!standing) continue;
     const p = players.find((x) => x.N === standing.N);
     standing.U = p.U;
     standing.GROUP = p.U;
