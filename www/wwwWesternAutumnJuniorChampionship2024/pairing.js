@@ -3,3 +3,6 @@
     <li class="page-item base-hover"><a class="page-link" href="pairs1.html">1</a></li>
      </ul>
   </nav>
+tem base-hover"><a class="page-link" href="pairs2.html">2</a></li>
+     </ul>
+  </nav>
