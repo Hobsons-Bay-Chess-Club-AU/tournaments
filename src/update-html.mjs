@@ -30,12 +30,12 @@ async function fetchAndWriteHtml(filePath , retry=1) {
 
         }
         htmlContent = htmlContent.replace(/\.php/g, '.html');
-        const $ = cheerio(htmlContent);
+        const $ = cheerio.load(htmlContent);
         $("head").append(
             `  <link href="/hbcc.css" rel="stylesheet">`
           );
 
-        fs.writeFileSync(htmlFilePath, htmlContent);
+        fs.writeFileSync(htmlFilePath, $.html());
         console.log(`Successful mirror ${pathUrl} => ${htmlFilePath}`);
     } catch (error) {
         console.error(`Error fetching or writing ${filePath}:`, error);
