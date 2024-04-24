@@ -88,6 +88,7 @@ jobs:
       - name: Commit changes
         id: commit
         run: |
+          sudo chown -R $(whoami) ./wwwftp
           rm -rf wwwftp
           find "www" -type f -name '*~*' -exec rm -f {} +
 
