@@ -45,7 +45,7 @@ jobs:
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
           FTP_ROOT_FOLDER: htdocs
-          LOCAL_FOLDER: 'www'
+          LOCAL_FOLDER: 'wwwftp'
           FTP_HOST: ftp://ftpupload.net
           SYNC_MODE: download
           
@@ -63,6 +63,7 @@ jobs:
       #     FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
       - name: Update HTML content
         run: |
+          cp -r wwwftp/* www
           docker-compose up -d
           sleep 2
           sudo chown -R $(whoami) ./www
@@ -87,6 +88,7 @@ jobs:
       - name: Commit changes
         id: commit
         run: |
+          rm -rf wwwftp
           find "www" -type f -name '*~*' -exec rm -f {} +
 
           git status
