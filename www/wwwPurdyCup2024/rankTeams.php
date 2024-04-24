@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Players</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs4.php" >Pairings</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs5.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
@@ -45,51 +45,52 @@
 <div class="table-responsive"><table class="table table-striped"> 
 <thead><tr><th> Pos </th> <th> Team Name </th><th>Points</th></tr></thead> <tbody>
 <tr>
-<td>1</td> <td></td> <td>11.5</td> </tr>
+<td>1</td> <td></td> <td>13.5</td> </tr>
 </tbody>
 </table>
 <h5 class="mb-4 mt-4"> Team composition</h5>
 <table class="table table-striped "> 
-<thead><tr><th>1</th> <th> </th><th>11.5</th></tr></thead><tbody> 
+<thead><tr><th>1</th> <th> </th><th>13.5</th></tr></thead><tbody> 
+<tr> <td>1</td> <td>Annapureddy,Rheyansh Reddy </td><td>4</td></tr> 
+<tr> <td>4</td> <td>Nguyen,Gia Huy (Tony) </td><td>3.5</td></tr> 
 <tr> <td>7</td> <td>Lacson,Joemar </td><td>3</td></tr> 
-<tr> <td>1</td> <td>Annapureddy,Rheyansh Reddy </td><td>3</td></tr> 
+<tr> <td>11</td> <td>Whitford,Matthew </td><td>3</td></tr> 
 <tr> <td>6</td> <td>Davis,Tony J </td><td>3</td></tr> 
-<tr> <td>4</td> <td>Nguyen,Gia Huy (Tony) </td><td>2.5</td></tr> 
+<tr> <td>15</td> <td>Picone,James </td><td>3</td></tr> 
+<tr> <td>14</td> <td>Hogan,Steven </td><td>3</td></tr> 
 <tr> <td>18</td> <td>Lingineni,Khushal </td><td>2.5</td></tr> 
 <tr> <td>8</td> <td>Krishnan,Anirudh </td><td>2.5</td></tr> 
-<tr> <td>11</td> <td>Whitford,Matthew </td><td>2</td></tr> 
-<tr> <td>2</td> <td>Beaumont,David </td><td>2</td></tr> 
-<tr> <td>17</td> <td>Hari,Dhruv </td><td>2</td></tr> 
+<tr> <td>39</td> <td>Ruaya,Chris </td><td>2.5</td></tr> 
+<tr> <td>19</td> <td>Pasukov,Leo </td><td>2.5</td></tr> 
+<tr> <td>12</td> <td>Szuveges,Narelle S </td><td>2.5</td></tr> 
+<tr> <td>17</td> <td>Hari,Dhruv </td><td>2.5</td></tr> 
+<tr> <td>25</td> <td>Matijas,Dejan </td><td>2.5</td></tr> 
+<tr> <td>29</td> <td>Bodke,Krishna </td><td>2.5</td></tr> 
 <tr> <td>21</td> <td>Kirk,Ian </td><td>2</td></tr> 
-<tr> <td>12</td> <td>Szuveges,Narelle S </td><td>2</td></tr> 
-<tr> <td>15</td> <td>Picone,James </td><td>2</td></tr> 
+<tr> <td>2</td> <td>Beaumont,David </td><td>2</td></tr> 
 <tr> <td>41</td> <td>Vincent,Lucas </td><td>2</td></tr> 
-<tr> <td>14</td> <td>Hogan,Steven </td><td>2</td></tr> 
 <tr> <td>24</td> <td>Nguyen,Anh Kiet </td><td>2</td></tr> 
-<tr> <td>39</td> <td>Ruaya,Chris </td><td>1.5</td></tr> 
-<tr> <td>9</td> <td>Enano,Ronald </td><td>1.5</td></tr> 
-<tr> <td>29</td> <td>Bodke,Krishna </td><td>1.5</td></tr> 
+<tr> <td>13</td> <td>McIntyre,Julian </td><td>2</td></tr> 
+<tr> <td>22</td> <td>Yendru,Srikrishna </td><td>2</td></tr> 
+<tr> <td>3</td> <td>Hogg,Dean </td><td>2</td></tr> 
+<tr> <td>38</td> <td>Ramanathan,Ashwin </td><td>2</td></tr> 
+<tr> <td>42</td> <td>Nawar,Mena </td><td>2</td></tr> 
 <tr> <td>16</td> <td>Nowak,Ruben </td><td>1.5</td></tr> 
-<tr> <td>19</td> <td>Pasukov,Leo </td><td>1.5</td></tr> 
-<tr> <td>28</td> <td>Temizel,Hazar </td><td>1.5</td></tr> 
 <tr> <td>27</td> <td>Wilkinson,Greg </td><td>1.5</td></tr> 
-<tr> <td>25</td> <td>Matijas,Dejan </td><td>1.5</td></tr> 
-<tr> <td>13</td> <td>McIntyre,Julian </td><td>1</td></tr> 
+<tr> <td>9</td> <td>Enano,Ronald </td><td>1.5</td></tr> 
+<tr> <td>28</td> <td>Temizel,Hazar </td><td>1.5</td></tr> 
+<tr> <td>37</td> <td>Nicdao,Joseph </td><td>1.5</td></tr> 
 <tr> <td>26</td> <td>Richards,Derek </td><td>1</td></tr> 
-<tr> <td>22</td> <td>Yendru,Srikrishna </td><td>1</td></tr> 
-<tr> <td>3</td> <td>Hogg,Dean </td><td>1</td></tr> 
-<tr> <td>20</td> <td>Davis,Sophie </td><td>1</td></tr> 
-<tr> <td>30</td> <td>Clerk,Max </td><td>1</td></tr> 
-<tr> <td>38</td> <td>Ramanathan,Ashwin </td><td>1</td></tr> 
 <tr> <td>23</td> <td>Djatschenko,Addison </td><td>1</td></tr> 
-<tr> <td>34</td> <td>Marasinghe,Claire </td><td>1</td></tr> 
+<tr> <td>30</td> <td>Clerk,Max </td><td>1</td></tr> 
 <tr> <td>31</td> <td>Kostakakis,Angelo </td><td>1</td></tr> 
-<tr> <td>42</td> <td>Nawar,Mena </td><td>1</td></tr> 
+<tr> <td>32</td> <td>Karthick,Deepshika </td><td>1</td></tr> 
+<tr> <td>34</td> <td>Marasinghe,Claire </td><td>1</td></tr> 
+<tr> <td>20</td> <td>Davis,Sophie </td><td>1</td></tr> 
+<tr> <td>43</td> <td>Sharma,Rajnish </td><td>1</td></tr> 
 <tr> <td>36</td> <td>Annadasu,Shreyansh </td><td>0.5</td></tr> 
-<tr> <td>37</td> <td>Nicdao,Joseph </td><td>0.5</td></tr> 
 <tr> <td>10</td> <td>Salanowski,Mark </td><td>0.5</td></tr> 
 <tr> <td>33</td> <td>Settu,Karthick </td><td>0</td></tr> 
-<tr> <td>32</td> <td>Karthick,Deepshika </td><td>0</td></tr> 
 <tr> <td>35</td> <td>Liu,Tina </td><td>0</td></tr> 
 <tr> <td>40</td> <td>Singh,Abhyuday </td><td>0</td></tr> 
 <tr> <td>5</td> <td>Rozuwiecka,Anna </td><td>0</td></tr> 
@@ -98,13 +99,13 @@
 <h5 class="mb-4 mt-4"> Best boards</h5>
 <table class="table table-striped "> 
 <thead><tr><th>Board 0</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Lacson,Joemar </td><td> </td><td>3</td></tr> 
+<tr> <td></td> <td>1 </td><td>Annapureddy,Rheyansh Reddy </td><td> </td><td>4</td></tr> 
 <thead><tr><th>Board 1</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Annapureddy,Rheyansh Reddy </td><td> </td><td>3</td></tr> 
+<tr> <td></td> <td>1 </td><td>Nguyen,Gia Huy (Tony) </td><td> </td><td>3.5</td></tr> 
 <thead><tr><th>Board 2</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Davis,Tony J </td><td> </td><td>3</td></tr> 
+<tr> <td></td> <td>1 </td><td>Lacson,Joemar </td><td> </td><td>3</td></tr> 
 <thead><tr><th>Board 3</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Nguyen,Gia Huy (Tony) </td><td> </td><td>2.5</td></tr> 
+<tr> <td></td> <td>1 </td><td>Whitford,Matthew </td><td> </td><td>3</td></tr> 
 </tbody>
 </table></div>
 		  </div>
@@ -116,10 +117,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Casey Goh - AUS)
+                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Hobsons Bay Chess Club - AUS)
   <?php if (file_exists($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php')) include($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php'); ?>    </div>  </div>  </div> </div> 
    </footer>
      </div>
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script></body>
-</html>55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script></body>
 </html>
