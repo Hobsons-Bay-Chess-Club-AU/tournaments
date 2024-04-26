@@ -235,6 +235,11 @@ export function generateRewardPage(folderPath) {
     }),
     {}
   );
+  // console.log("standingList", standingList)
+  // rewards.push({
+  //   category: 'Unrated',
+  //   data: standingList.filter(x =>+x.Rtg === 0)
+  // })
 
   // Adjustment the reward outside category
   // find the player in the category that not have prize but hight point than other player
@@ -248,9 +253,7 @@ export function generateRewardPage(folderPath) {
     
     let upperCategories = adjustment.slice(catIndex);
 
-   
-
-    console.log("category ", category, upperCategories);
+    //console.log("category ", category, upperCategories);
 
     for (var index = 3; index <= list.length; index++) {
       const playerStanding = list[index];
@@ -303,7 +306,7 @@ export function generateRewardPage(folderPath) {
     }
     catIndex++;
   }
-
+  // check if unrated already win the trophies then remove from unrated
   // re-order the list
   const template = Handlebars.compile(raw);
 

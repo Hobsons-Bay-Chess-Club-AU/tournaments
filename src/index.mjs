@@ -1,5 +1,5 @@
-
-const rootPath = "www/wwwHonourableBobJuniors2024";
+import {generateRewardPage} from './shared.mjs'
+const rootPath = "www/wwwC.J.SPurdyCupJuniors2024";
 
 
 
