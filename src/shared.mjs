@@ -33,7 +33,12 @@ export function updateNavigation(folderPath) {
   const pattern = path.join(folderPath, "*.html");
   const files = glob.sync(pattern);
   var reward = `${folderPath}/rewards.html`;
+  var reward1 = `${folderPath}/rewards_locked.html`;
+
   const hasRewardPage = fs.existsSync(reward)
+  const hasRewardPage1 = fs.existsSync(reward1)
+
+  var rPage = hasRewardPage1? 'rewards_locked.html': "rewards.html"
  
   files.forEach((filePath) => {
     let content = fs.readFileSync(filePath, "utf8");
@@ -45,11 +50,11 @@ export function updateNavigation(folderPath) {
         <li class="nav-item dropdown" id="rewards">
         <a href="rewards.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rewards<span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a class="dropdown-item" href="rewards.html">Open</a></li>
-                <li><a class="dropdown-item" href="rewards.html#U12">U12</a></li>
-                <li><a class="dropdown-item" href="rewards.html#U10">U10</a></li>
-                <li><a class="dropdown-item" href="rewards.html#U8">U8</a></li>
-                <li> <a class="dropdown-item" href="rewards.html#Girl">Girls</a></li>
+                <li><a class="dropdown-item" href="${rPage}">Open</a></li>
+                <li><a class="dropdown-item" href="${rPage}#U12">U12</a></li>
+                <li><a class="dropdown-item" href="${rPage}#U10">U10</a></li>
+                <li><a class="dropdown-item" href="${rPage}#U8">U8</a></li>
+                <li> <a class="dropdown-item" href="${rPage}#Girl">Girls</a></li>
               </ul>
             </li>`
     );
@@ -235,11 +240,11 @@ export function generateRewardPage(folderPath) {
     }),
     {}
   );
-  // console.log("standingList", standingList)
-  // rewards.push({
-  //   category: 'Unrated',
-  //   data: standingList.filter(x =>+x.Rtg === 0)
-  // })
+  console.log("standingList", standingList)
+  rewards.push({
+    category: 'Unrated',
+    data: standingList.filter(x =>+x.Rtg === 0)
+  })
 
   // Adjustment the reward outside category
   // find the player in the category that not have prize but hight point than other player
