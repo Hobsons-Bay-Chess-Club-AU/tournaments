@@ -8,6 +8,7 @@ import {
   generateRewardPage,
   readStanding,
 } from "./shared.mjs";
+import { IsSeniorPlayer } from "./ref.mjs";
 
 function findFiles(directoryPath, fileName, fileList = []) {
   const files = fs.readdirSync(directoryPath);
@@ -75,7 +76,7 @@ function generateIndexFile(list) {
       end: $(td[9]).text().trim(),
       year: $(td[9]).text().trim().split("/").pop(),
       round: roundLink != null ? +roundLink.match(/\d+/)?.[0] : 1,
-      category: standings?.standings.find((x) => x.NAME.includes("Hogan"))
+      category: standings?.standings.find((x) => IsSeniorPlayer(x.NAME))
         ? "senior"
         : "junior",
     };
