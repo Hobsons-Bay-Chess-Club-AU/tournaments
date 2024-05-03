@@ -41,44 +41,47 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players sorted by rating and title</h3><div class="table-responsive"><table class="table table-striped "> 
-<thead><tr><th>#</th><th>Player</th><th>Fed</th><th>Rtg</th><th>RtgF</th><th>RtgN</th></tr></thead><tbody>
-<tr> 
-<td><span class="idn"> 1</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267849" target="X"> Nguyen,Anh Kiet </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1086</td><td>0</td><td>1086</td> </tr>
-<tr> 
-<td><span class="idn"> 2</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3265277" target="X"> Wei,Andrew </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1055</td><td>0</td><td>1055</td> </tr>
-<tr> 
-<td><span class="idn"> 3</span></td><td> <span class="notitle male"> </span> Morris,Elijah </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>702</td><td>0</td><td>702</td> </tr>
-<tr> 
-<td><span class="idn"> 4</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3270335" target="X"> Nguyen,Tuan Kiet </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>610</td><td>0</td><td>610</td> </tr>
-<tr> 
-<td><span class="idn"> 5</span></td><td> <span class="notitle male"> </span> Ruaya,Rohan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>608</td><td>0</td><td>608</td> </tr>
-<tr> 
-<td><span class="idn"> 6</span></td><td> <span class="notitle male"> </span> Huang,Michael </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>536</td><td>0</td><td>536</td> </tr>
-<tr> 
-<td><span class="idn"> 7</span></td><td> <span class="notitle male"> </span> Guggilla,Krithvik </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>357</td><td>0</td><td>357</td> </tr>
-<tr> 
-<td><span class="idn"> 8</span></td><td> <span class="notitle male"> </span> Pathiyassery,Emir </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>338</td><td>0</td><td>338</td> </tr>
-<tr> 
-<td><span class="idn"> 9</span></td><td> <span class="notitle male"> </span> Venkatesh,Arvind </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>182</td><td>0</td><td>182</td> </tr>
-<tr> 
-<td><span class="idn"> 10</span></td><td> <span class="notitle male"> </span> Aahan,Arora </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 11</span></td><td> <span class="notitle male"> </span> Annadasu,Shreyansh </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 12</span></td><td> <span class="notitle female"> </span> Bruno,Iris </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 13</span></td><td> <span class="notitle male"> </span> Das,Ayush </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 14</span></td><td> <span class="notitle male"> </span> Ishan,Rai </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 15</span></td><td> <span class="notitle male"> </span> Kukdeja,Aarav </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 16</span></td><td> <span class="notitle male"> </span> Vijayakumar,Rithvik </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 17</span></td><td> <span class="notitle female"> </span> Yang,Yifan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Team ranking based on 4 best players of each team</h3>
+<div class="table-responsive"><table class="table table-striped"> 
+<thead><tr><th> Pos </th> <th> Team Name </th><th>Points</th></tr></thead> <tbody>
+<tr>
+<td>1</td> <td></td> <td>4</td> </tr>
 </tbody>
-<tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</tr></td></tfoot></table></div>
+</table>
+<h5 class="mb-4 mt-4"> Team composition</h5>
+<table class="table table-striped "> 
+<thead><tr><th>1</th> <th> </th><th>4</th></tr></thead><tbody> 
+<tr> <td>3</td> <td>Morris,Elijah </td><td>1</td></tr> 
+<tr> <td>15</td> <td>Kukdeja,Aarav </td><td>1</td></tr> 
+<tr> <td>1</td> <td>Nguyen,Anh Kiet </td><td>1</td></tr> 
+<tr> <td>2</td> <td>Wei,Andrew </td><td>1</td></tr> 
+<tr> <td>5</td> <td>Ruaya,Rohan </td><td>1</td></tr> 
+<tr> <td>6</td> <td>Huang,Michael </td><td>1</td></tr> 
+<tr> <td>11</td> <td>Annadasu,Shreyansh </td><td>1</td></tr> 
+<tr> <td>16</td> <td>Vijayakumar,Rithvik </td><td>1</td></tr> 
+<tr> <td>8</td> <td>Pathiyassery,Emir </td><td>0.5</td></tr> 
+<tr> <td>17</td> <td>Yang,Yifan </td><td>0.5</td></tr> 
+<tr> <td>4</td> <td>Nguyen,Tuan Kiet </td><td>0</td></tr> 
+<tr> <td>7</td> <td>Guggilla,Krithvik </td><td>0</td></tr> 
+<tr> <td>9</td> <td>Venkatesh,Arvind </td><td>0</td></tr> 
+<tr> <td>10</td> <td>Aahan,Arora </td><td>0</td></tr> 
+<tr> <td>12</td> <td>Bruno,Iris </td><td>0</td></tr> 
+<tr> <td>13</td> <td>Das,Ayush </td><td>0</td></tr> 
+<tr> <td>14</td> <td>Ishan,Rai </td><td>0</td></tr> 
+</tbody>
+</table>
+<h5 class="mb-4 mt-4"> Best boards</h5>
+<table class="table table-striped "> 
+<thead><tr><th>Board 0</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
+<tr> <td></td> <td>1 </td><td>Morris,Elijah </td><td> </td><td>1</td></tr> 
+<thead><tr><th>Board 1</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
+<tr> <td></td> <td>1 </td><td>Kukdeja,Aarav </td><td> </td><td>1</td></tr> 
+<thead><tr><th>Board 2</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
+<tr> <td></td> <td>1 </td><td>Nguyen,Anh Kiet </td><td> </td><td>1</td></tr> 
+<thead><tr><th>Board 3</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
+<tr> <td></td> <td>1 </td><td>Wei,Andrew </td><td> </td><td>1</td></tr> 
+</tbody>
+</table></div>
 		  </div>
 		      </div>
          <div class="d-none d-lg-block col-1 pe-0">

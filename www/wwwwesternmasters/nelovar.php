@@ -41,44 +41,11 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players sorted by rating and title</h3><div class="table-responsive"><table class="table table-striped "> 
-<thead><tr><th>#</th><th>Player</th><th>Fed</th><th>Rtg</th><th>RtgF</th><th>RtgN</th></tr></thead><tbody>
-<tr> 
-<td><span class="idn"> 1</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267849" target="X"> Nguyen,Anh Kiet </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1086</td><td>0</td><td>1086</td> </tr>
-<tr> 
-<td><span class="idn"> 2</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3265277" target="X"> Wei,Andrew </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1055</td><td>0</td><td>1055</td> </tr>
-<tr> 
-<td><span class="idn"> 3</span></td><td> <span class="notitle male"> </span> Morris,Elijah </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>702</td><td>0</td><td>702</td> </tr>
-<tr> 
-<td><span class="idn"> 4</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3270335" target="X"> Nguyen,Tuan Kiet </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>610</td><td>0</td><td>610</td> </tr>
-<tr> 
-<td><span class="idn"> 5</span></td><td> <span class="notitle male"> </span> Ruaya,Rohan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>608</td><td>0</td><td>608</td> </tr>
-<tr> 
-<td><span class="idn"> 6</span></td><td> <span class="notitle male"> </span> Huang,Michael </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>536</td><td>0</td><td>536</td> </tr>
-<tr> 
-<td><span class="idn"> 7</span></td><td> <span class="notitle male"> </span> Guggilla,Krithvik </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>357</td><td>0</td><td>357</td> </tr>
-<tr> 
-<td><span class="idn"> 8</span></td><td> <span class="notitle male"> </span> Pathiyassery,Emir </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>338</td><td>0</td><td>338</td> </tr>
-<tr> 
-<td><span class="idn"> 9</span></td><td> <span class="notitle male"> </span> Venkatesh,Arvind </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>182</td><td>0</td><td>182</td> </tr>
-<tr> 
-<td><span class="idn"> 10</span></td><td> <span class="notitle male"> </span> Aahan,Arora </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 11</span></td><td> <span class="notitle male"> </span> Annadasu,Shreyansh </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 12</span></td><td> <span class="notitle female"> </span> Bruno,Iris </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 13</span></td><td> <span class="notitle male"> </span> Das,Ayush </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 14</span></td><td> <span class="notitle male"> </span> Ishan,Rai </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 15</span></td><td> <span class="notitle male"> </span> Kukdeja,Aarav </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 16</span></td><td> <span class="notitle male"> </span> Vijayakumar,Rithvik </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 17</span></td><td> <span class="notitle female"> </span> Yang,Yifan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
-</tbody>
-<tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</tr></td></tfoot></table></div>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4">National rating at round 2 </h3>
+<div class="table-responsive"><table class="table table-striped "> 
+<tbody>
+<thead><tr> <th>N</th> <th >Name</th> <th>K</th> <th>Elo</th>  <th>Var</th> <th>Per</th> </tr></thead><tbody></tbody>
+</table></DIV>
 		  </div>
 		      </div>
          <div class="d-none d-lg-block col-1 pe-0">
