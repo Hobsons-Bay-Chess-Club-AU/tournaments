@@ -73,6 +73,7 @@ function generateIndexFile(list) {
       name: $(td[1]).text().trim(),
       site: $(td[3]).text().trim(),
       start: $(td[7]).text().trim(),
+      ts: +$(td[7]).text().trim().split('/').reverse().join(''),
       end: $(td[9]).text().trim(),
       year: $(td[9]).text().trim().split("/").pop(),
       round: roundLink != null ? +roundLink.match(/\d+/)?.[0] : 1,
@@ -95,6 +96,7 @@ function generateIndexFile(list) {
       name: $('title').text(),
       site: '',
       start: '',
+      ts: 0,
       end: '',
       year: '',
       round: 0,
@@ -115,7 +117,7 @@ function generateIndexFile(list) {
   });
 
   // Convert map values back to an array
-  const uniqueList = Array.from(uniqueEntries.values());
+  const uniqueList = Array.from(uniqueEntries.values()).sort((x, y) =>x.start);
 
   var raw = fs.readFileSync("www/index.html.hbs", "utf8");
   const t = Handlebars.compile(raw);
@@ -133,6 +135,7 @@ function generateIndexFile(list) {
   //     round: 1,
   //     category: 'junior'
   // })
+  uniqueList.sort((a,b) => b.ts - a.ts)
   fs.writeFileSync(
     "www/index.html",
     t({
