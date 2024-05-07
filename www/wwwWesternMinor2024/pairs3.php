@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Players</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs2.php" >Pairings</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs3.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
@@ -42,16 +42,16 @@
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
   <div class="d-flex flex-column"> <div class="btn-toolbar mb-4 mt-4 d-flex align-items-center"> 
-<h5>Pairing of round 2</h5>
+<h5>Pairing of round 3</h5>
    	<div class="btn-group mx-5"> 
 <?php include("pairing.js"); ?>
    	</div>
  </div>
 <div class="table-responsive"><table class="table table-sm table-striped"> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>Pts</th><th>Result</th><th>Pts</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 6 </span><span class="notitle male"> </span> <a href="playercard.php#6"> Kirk,Ian</a> </td><td>0</td><td class="result">0 - 1</td><td>1</td><td class="name"><span class="idblack">4 </span><span class="notitle male"> </span> <a href="playercard.php#4"> Nowak,Ruben</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 5 </span><span class="notitle male"> </span> <a href="playercard.php#5"> Lingineni,Khushal</a> </td><td>0</td><td class="result">½ - ½</td><td>0</td><td class="name"><span class="idblack">3 </span><span class="notitle male"> </span> <a href="playercard.php#3"> Picone,James</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 1 </span><span class="notitle male"> </span> <a href="playercard.php#1"> Hari,Dhruv</a> </td><td>1</td><td class="result">½ - ½</td><td>0</td><td class="name"><span class="idblack">2 </span><span class="notitle male"> </span> <a href="playercard.php#2"> Pasukov,Leo</a></td><td><img class="shadow" src="flag/qld.png" alt="QLD"></td></tr>
+<tr> <td>1</td><td><img class="shadow" src="flag/qld.png" alt="QLD"></td><td class="name"> <span class="idwhite"> 2 </span><span class="notitle male"> </span> <a href="playercard.php#2"> Pasukov,Leo</a> </td><td>0.5</td><td class="result"> ... </td><td>0</td><td class="name"><span class="idblack">6 </span><span class="notitle male"> </span> <a href="playercard.php#6"> Kirk,Ian</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 3 </span><span class="notitle male"> </span> <a href="playercard.php#3"> Picone,James</a> </td><td>0.5</td><td class="result"> ... </td><td>1.5</td><td class="name"><span class="idblack">1 </span><span class="notitle male"> </span> <a href="playercard.php#1"> Hari,Dhruv</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 4 </span><span class="notitle male"> </span> <a href="playercard.php#4"> Nowak,Ruben</a> </td><td>2</td><td class="result"> ... </td><td>0.5</td><td class="name"><span class="idblack">5 </span><span class="notitle male"> </span> <a href="playercard.php#5"> Lingineni,Khushal</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </tbody>
 </table>
 </DIV><hr>
