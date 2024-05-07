@@ -41,92 +41,20 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4">National History Cards </h3>
-<div class="table-responsive"><table class="table caption-top table-striped "> 
-<caption>   1   <strong>Paul,Cijo           </strong>, K= 0, Elo=1597, ID=3194913
-<br>
-<a class="anchor" name="1"></a></caption>
-<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
-</tr> </thead><tbody>
-<tr> <td>1</td> <td>W </td> <td>6</td> <td></td> <td> <a href="playercard.php#6"> Nguyen,Gia Huy (Tony </a>  <td>1901</td>
-<td> 0.0</td> <td> 2.0</td>
-</tr> 
-<tr> <td>2</td> <td>W </td> <td>2</td> <td></td> <td> <a href="playercard.php#2"> Annapureddy,Rheyansh </a>  <td>1992</td>
-<td> 0.0</td> <td> 2.0</td>
-</tr> 
+  <div class="d-flex flex-column"> <div class="btn-toolbar mb-4 mt-4 d-flex align-items-center"> 
+<h5>Pairing of round 3, at 19:30 of 14/05/2024</h5>
+   	<div class="btn-group mx-5"> 
+<?php include("pairing.js"); ?>
+   	</div>
+ </div>
+<div class="table-responsive"><table class="table table-sm table-striped"> 
+<thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>Pts</th><th>Result</th><th>Pts</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
+<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 2 </span><span class="notitle male"> </span> <a href="playercard.php#2"> Annapureddy,Rheyansh Reddy</a> </td><td>2</td><td class="result"> ... </td><td>2</td><td class="name"><span class="idblack">6 </span><span class="notitle male"> </span> <a href="playercard.php#6"> Nguyen,Gia Huy (Tony)</a></td><td><img class="shadow" src="flag/os.png" alt="OS"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 3 </span><span class="title male"> CM</span> <a href="playercard.php#3"> Davis,Tony J</a> </td><td>0.5</td><td class="result"> ... </td><td>0</td><td class="name"><span class="idblack">1 </span><span class="notitle male"> </span> <a href="playercard.php#1"> Paul,Cijo</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 4 </span><span class="notitle male"> </span> <a href="playercard.php#4"> Hogg,Dean</a> </td><td>1</td><td class="result"> ... </td><td>0.5</td><td class="name"><span class="idblack">5 </span><span class="notitle male"> </span> <a href="playercard.php#5"> Lacson,Joemar</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </tbody>
-</table><br>
-<table class="table caption-top table-striped "> 
-<caption>   2   <strong>Annapureddy,Rheyansh</strong>, K= 0, Elo=1992, ID=3197035
-<br>
-<a class="anchor" name="2"></a></caption>
-<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
-</tr> </thead><tbody>
-<tr> <td>1</td> <td>W </td> <td>5</td> <td></td> <td> <a href="playercard.php#5"> Lacson,Joemar        </a>  <td>1764</td>
-<td> 1.0</td> <td> 0.5</td>
-</tr> 
-<tr> <td>2</td> <td> B</td> <td>1</td> <td></td> <td> <a href="playercard.php#1"> Paul,Cijo            </a>  <td>1597</td>
-<td> 1.0</td> <td> 0.0</td>
-</tr> 
-</tbody>
-</table><br>
-<table class="table caption-top table-striped "> 
-<caption>   3  CM <strong>Davis,Tony J        </strong>, K= 0, Elo=1833, ID=3073264
-<br>
-<a class="anchor" name="3"></a></caption>
-<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
-</tr> </thead><tbody>
-<tr> <td>1</td> <td>W </td> <td>4</td> <td></td> <td> <a href="playercard.php#4"> Hogg,Dean            </a>  <td>1920</td>
-<td> 0.0</td> <td> 1.0</td>
-</tr> 
-<tr> <td>2</td> <td> B</td> <td>5</td> <td></td> <td> <a href="playercard.php#5"> Lacson,Joemar        </a>  <td>1764</td>
-<td> 0.5</td> <td> 0.5</td>
-</tr> 
-</tbody>
-</table><br>
-<table class="table caption-top table-striped "> 
-<caption>   4   <strong>Hogg,Dean           </strong>, K= 0, Elo=1920, ID=3093306
-<br>
-<a class="anchor" name="4"></a></caption>
-<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
-</tr> </thead><tbody>
-<tr> <td>1</td> <td> B</td> <td>3</td> <td>CM</td> <td> <a href="playercard.php#3"> Davis,Tony J         </a>  <td>1833</td>
-<td> 1.0</td> <td> 0.5</td>
-</tr> 
-<tr> <td>2</td> <td> B</td> <td>6</td> <td></td> <td> <a href="playercard.php#6"> Nguyen,Gia Huy (Tony </a>  <td>1901</td>
-<td> 0.0</td> <td> 2.0</td>
-</tr> 
-</tbody>
-</table><br>
-<table class="table caption-top table-striped "> 
-<caption>   5   <strong>Lacson,Joemar       </strong>, K= 0, Elo=1764, ID=3112506
-<br>
-<a class="anchor" name="5"></a></caption>
-<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
-</tr> </thead><tbody>
-<tr> <td>1</td> <td> B</td> <td>2</td> <td></td> <td> <a href="playercard.php#2"> Annapureddy,Rheyansh </a>  <td>1992</td>
-<td> 0.0</td> <td> 2.0</td>
-</tr> 
-<tr> <td>2</td> <td>W </td> <td>3</td> <td>CM</td> <td> <a href="playercard.php#3"> Davis,Tony J         </a>  <td>1833</td>
-<td> 0.5</td> <td> 0.5</td>
-</tr> 
-</tbody>
-</table><br>
-<table class="table caption-top table-striped "> 
-<caption>   6   <strong>Nguyen,Gia Huy (Tony</strong>, K= 0, Elo=1901, ID=0008480
-<br>
-<a class="anchor" name="6"></a></caption>
-<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
-</tr> </thead><tbody>
-<tr> <td>1</td> <td> B</td> <td>1</td> <td></td> <td> <a href="playercard.php#1"> Paul,Cijo            </a>  <td>1597</td>
-<td> 1.0</td> <td> 0.0</td>
-</tr> 
-<tr> <td>2</td> <td>W </td> <td>4</td> <td></td> <td> <a href="playercard.php#4"> Hogg,Dean            </a>  <td>1920</td>
-<td> 1.0</td> <td> 1.0</td>
-</tr> 
-</tbody>
-</table><br>
-</DIV>
+</table>
+</DIV><hr>
 		  </div>
 		      </div>
          <div class="d-none d-lg-block col-1 pe-0">
