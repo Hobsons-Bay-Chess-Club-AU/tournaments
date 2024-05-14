@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Players</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs2.php" >Pairings</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs4.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
@@ -41,21 +41,21 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Standings at round 2 </h3>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Standings at round 3 </h3>
 <div class="table-responsive"><table class="table table-striped"> 
 <thead><tr><th>Pos</th> <th>Player</th> <th>Rtg</th> <th>Fed</th><th>Pts</th> <th>    WIN </th>
  </tr></thead> <tbody>
-<tr> <td>1</td><td><span class="idn"> 5 </span> <span class="notitle male"> </span> <a href="playercard.php#5"> Hogan,Steven</a> </td><td>1494</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>     2  </td>
+<tr> <td>1</td><td><span class="idn"> 5 </span> <span class="notitle male"> </span> <a href="playercard.php#5"> Hogan,Steven</a> </td><td>1494</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>     3  </td>
 </tr> 
-<tr> <td>2</td><td><span class="idn"> 6 </span> <span class="notitle male"> </span> <a href="playercard.php#6"> McIntyre,Julian</a> </td><td>1547</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.5</td><td>     1  </td>
+<tr> <td>2</td><td><span class="idn"> 6 </span> <span class="notitle male"> </span> <a href="playercard.php#6"> McIntyre,Julian</a> </td><td>1547</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.5</td><td>     2  </td>
 </tr> 
 <tr> <td>3</td><td><span class="idn"> 2 </span> <span class="title female"> WIM</span> <a href="playercard.php#2"> Szuveges,Narelle S</a> </td><td>1556</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>     1  </td>
 </tr> 
-<tr> <td>4</td><td><span class="idn"> 4 </span> <span class="notitle male"> </span> <a href="playercard.php#4"> Whitford,Matthew</a> </td><td>1562</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>     1  </td>
+<tr> <td>4</td><td><span class="idn"> 3 </span> <span class="notitle male"> </span> <a href="playercard.php#3"> Ilic,Milan</a> </td><td>1541</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>     1  </td>
 </tr> 
-<tr> <td>5</td><td><span class="idn"> 1 </span> <span class="notitle male"> </span> <a href="playercard.php#1"> Enano,Ronald</a> </td><td>1572</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td>     0  </td>
+<tr> <td>5</td><td><span class="idn"> 4 </span> <span class="notitle male"> </span> <a href="playercard.php#4"> Whitford,Matthew</a> </td><td>1562</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>     1  </td>
 </tr> 
-<tr> <td>6</td><td><span class="idn"> 3 </span> <span class="notitle male"> </span> <a href="playercard.php#3"> Ilic,Milan</a> </td><td>1541</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>     0  </td>
+<tr> <td>6</td><td><span class="idn"> 1 </span> <span class="notitle male"> </span> <a href="playercard.php#1"> Enano,Ronald</a> </td><td>1572</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td>     0  </td>
 </tr> 
 </tbody>
 <tfoot><tr><td colspan="7">Tie Break legend:<br>
