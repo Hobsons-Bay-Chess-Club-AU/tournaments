@@ -5,7 +5,7 @@
 <meta name="author" content="www.vegachess.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-<title>Western Masters Juniors 2024</title>
+<title>Western Minor Juniors 2024</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <link rel="stylesheet" href="stylenew.css" type="text/css" >
     </head>
@@ -31,7 +31,7 @@
                 <div class="container-fluid">
                     <div class="row items-center">
                         <div class="col-12">
-                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >Western Masters Juniors 2024</h1>		    <h5 class="mb-1">Hobsons Bay Chess Club (AUS)</h5>		    <h5> 30/04/2024 - 04/06/2024</h5>   </div>
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >Western Minor Juniors 2024</h1>		    <h5 class="mb-1">Hobsons Bay Chess Club (AUS)</h5>		    <h5> 30/04/2024 - 04/06/2024</h5>   </div>
  </div> 
  </div>
  </div> 
@@ -42,22 +42,20 @@
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
   <div class="d-flex flex-column"> <div class="btn-toolbar mb-4 mt-4 d-flex align-items-center"> 
-<h5>Pairing of round 2</h5>
+<h5>Pairing of round 4</h5>
    	<div class="btn-group mx-5"> 
 <?php include("pairing.js"); ?>
    	</div>
  </div>
 <div class="table-responsive"><table class="table table-sm table-striped"> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>Pts</th><th>Result</th><th>Pts</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 11 </span><span class="notitle male"> </span> <a href="playercard.php#11"> Annadasu,Shreyansh</a> </td><td>1</td><td class="result">0 - 1</td><td>1</td><td class="name"><span class="idblack">1 </span><span class="notitle male"> </span> <a href="playercard.php#1"> Nguyen,Anh Kiet</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 2 </span><span class="notitle male"> </span> <a href="playercard.php#2"> Wei,Andrew</a> </td><td>1</td><td class="result">1 - 0</td><td>1</td><td class="name"><span class="idblack">6 </span><span class="notitle male"> </span> <a href="playercard.php#6"> Huang,Michael</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 3 </span><span class="notitle male"> </span> <a href="playercard.php#3"> Morris,Elijah</a> </td><td>1</td><td class="result">1 - 0</td><td>1</td><td class="name"><span class="idblack">15 </span><span class="notitle male"> </span> <a href="playercard.php#15"> Kukdeja,Aarav</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 5 </span><span class="notitle male"> </span> <a href="playercard.php#5"> Ruaya,Rohan</a> </td><td>1</td><td class="result">1 - 0</td><td>1</td><td class="name"><span class="idblack">16 </span><span class="notitle male"> </span> <a href="playercard.php#16"> Vijayakumar,Rithvik</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>5</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 7 </span><span class="notitle male"> </span> <a href="playercard.php#7"> Guggilla,Krithvik</a> </td><td>0</td><td class="result">0 - 1</td><td>0.5</td><td class="name"><span class="idblack">8 </span><span class="notitle male"> </span> <a href="playercard.php#8"> Pathiyassery,Emir</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>6</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 17 </span><span class="notitle female"> </span> <a href="playercard.php#17"> Yang,Yifan</a> </td><td>0.5</td><td class="result">1 - 0</td><td>0</td><td class="name"><span class="idblack">4 </span><span class="notitle male"> </span> <a href="playercard.php#4"> Nguyen,Tuan Kiet</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>7</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 9 </span><span class="notitle male"> </span> <a href="playercard.php#9"> Venkatesh,Arvind</a> </td><td>0</td><td class="result">1 - 0</td><td>0</td><td class="name"><span class="idblack">12 </span><span class="notitle female"> </span> <a href="playercard.php#12"> Bruno,Iris</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>8</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name"> <span class="idwhite"> 14 </span><span class="notitle male"> </span> <a href="playercard.php#14"> Ishan,Rai</a> </td><td>0</td><td class="result">½ - ½</td><td>0</td><td class="name"><span class="idblack">10 </span><span class="notitle male"> </span> <a href="playercard.php#10"> Aahan,Arora</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
-<tr> <td>9</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 13 </span><span class="notitle male"> </span> <a href="playercard.php#13"> Das,Ayush</a> </td><td>0</td><td class="result">1    </td><td>0</td><td class="name">( bye )</td><td></td></tr>
+<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 4 </span><span class="notitle female"> </span> <a href="playercard.php#4"> Husain,Lamiah</a> </td><td>3</td><td class="result"> ... </td><td>3</td><td class="name"><span class="idblack">7 </span><span class="notitle male"> </span> <a href="playercard.php#7"> Ashwin,Aswin</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 12 </span><span class="notitle male"> </span> <a href="playercard.php#12"> Shenbaga,Kabilan</a> </td><td>2</td><td class="result"> ... </td><td>2</td><td class="name"><span class="idblack">3 </span><span class="notitle female"> </span> <a href="playercard.php#3"> Chan,Abby</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 10 </span><span class="notitle male"> </span> <a href="playercard.php#10"> Luan,William</a> </td><td>2</td><td class="result"> ... </td><td>2</td><td class="name"><span class="idblack">9 </span><span class="notitle male"> </span> <a href="playercard.php#9"> Jagannathan,Shashvath</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 6 </span><span class="notitle male"> </span> <a href="playercard.php#6"> Ashok,Arjun</a> </td><td>1</td><td class="result"> ... </td><td>1</td><td class="name"><span class="idblack">1 </span><span class="notitle male"> </span> <a href="playercard.php#1"> Bo,Jeremie</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>5</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 2 </span><span class="notitle female"> </span> <a href="playercard.php#2"> Bo,Jamie</a> </td><td>1</td><td class="result"> ... </td><td>1</td><td class="name"><span class="idblack">13 </span><span class="notitle male"> </span> <a href="playercard.php#13"> Singh,Abhyuday</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>6</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name"> <span class="idwhite"> 8 </span><span class="notitle male"> </span> <a href="playercard.php#8"> Bodke,Aryan</a> </td><td>1</td><td class="result"> ... </td><td>1</td><td class="name"><span class="idblack">5 </span><span class="notitle male"> </span> <a href="playercard.php#5"> Amutha Raja,Nalan</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>7</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 11 </span><span class="notitle female"> </span> <a href="playercard.php#11"> Nethi,Karthika</a> </td><td>0</td><td class="result">1    </td><td>0</td><td class="name">( bye )</td><td></td></tr>
 </tbody>
 </table>
 </DIV><hr>
