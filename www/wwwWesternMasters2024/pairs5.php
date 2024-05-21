@@ -41,11 +41,20 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4">National rating at round 5 </h3>
-<div class="table-responsive"><table class="table table-striped "> 
-<tbody>
-<thead><tr> <th>N</th> <th >Name</th> <th>K</th> <th>Elo</th>  <th>Var</th> <th>Per</th> </tr></thead><tbody></tbody>
-</table></DIV>
+  <div class="d-flex flex-column"> <div class="btn-toolbar mb-4 mt-4 d-flex align-items-center"> 
+<h5>Pairing of round 5, at 19:30 of 04/06/2024</h5>
+   	<div class="btn-group mx-5"> 
+<?php include("pairing.js"); ?>
+   	</div>
+ </div>
+<div class="table-responsive"><table class="table table-sm table-striped"> 
+<thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>Pts</th><th>Result</th><th>Pts</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
+<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 3 </span><span class="title male"> CM</span> <a href="playercard.php#3"> Davis,Tony J</a> </td><td>0.5</td><td class="result"> ... </td><td>2.5</td><td class="name"><span class="idblack">6 </span><span class="notitle male"> </span> <a href="playercard.php#6"> Nguyen,Gia Huy (Tony)</a></td><td><img class="shadow" src="flag/os.png" alt="OS"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 4 </span><span class="notitle male"> </span> <a href="playercard.php#4"> Hogg,Dean</a> </td><td>3</td><td class="result"> ... </td><td>4</td><td class="name"><span class="idblack">2 </span><span class="notitle male"> </span> <a href="playercard.php#2"> Annapureddy,Rheyansh Reddy</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 5 </span><span class="notitle male"> </span> <a href="playercard.php#5"> Lacson,Joemar</a> </td><td>1</td><td class="result"> ... </td><td>1</td><td class="name"><span class="idblack">1 </span><span class="notitle male"> </span> <a href="playercard.php#1"> Paul,Cijo</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+</tbody>
+</table>
+</DIV><hr>
 		  </div>
 		      </div>
          <div class="d-none d-lg-block col-1 pe-0">

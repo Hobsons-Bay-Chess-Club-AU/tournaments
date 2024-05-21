@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Players</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs4.php" >Pairings</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs5.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
@@ -49,13 +49,16 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>6</td> <td></td> <td> <a href="playercard.php#6"> Nguyen,Gia Huy (Tony </a>  <td>1901</td>
-<td> 0.0</td> <td> 2.0</td>
+<td> 0.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>2</td> <td></td> <td> <a href="playercard.php#2"> Annapureddy,Rheyansh </a>  <td>1992</td>
-<td> 0.0</td> <td> 3.0</td>
+<td> 0.0</td> <td> 4.0</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>3</td> <td>CM</td> <td> <a href="playercard.php#3"> Davis,Tony J         </a>  <td>1833</td>
 <td> 1.0</td> <td> 0.5</td>
+</tr> 
+<tr> <td>4</td> <td>W </td> <td>4</td> <td></td> <td> <a href="playercard.php#4"> Hogg,Dean            </a>  <td>1920</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -66,13 +69,16 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>5</td> <td></td> <td> <a href="playercard.php#5"> Lacson,Joemar        </a>  <td>1764</td>
-<td> 1.0</td> <td> 0.5</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>1</td> <td></td> <td> <a href="playercard.php#1"> Paul,Cijo            </a>  <td>1597</td>
 <td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>6</td> <td></td> <td> <a href="playercard.php#6"> Nguyen,Gia Huy (Tony </a>  <td>1901</td>
-<td> 1.0</td> <td> 2.0</td>
+<td> 1.0</td> <td> 2.5</td>
+</tr> 
+<tr> <td>4</td> <td>W </td> <td>3</td> <td>CM</td> <td> <a href="playercard.php#3"> Davis,Tony J         </a>  <td>1833</td>
+<td> 1.0</td> <td> 0.5</td>
 </tr> 
 </tbody>
 </table><br>
@@ -83,13 +89,16 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>4</td> <td></td> <td> <a href="playercard.php#4"> Hogg,Dean            </a>  <td>1920</td>
-<td> 0.0</td> <td> 2.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>5</td> <td></td> <td> <a href="playercard.php#5"> Lacson,Joemar        </a>  <td>1764</td>
-<td> 0.5</td> <td> 0.5</td>
+<td> 0.5</td> <td> 1.0</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>1</td> <td></td> <td> <a href="playercard.php#1"> Paul,Cijo            </a>  <td>1597</td>
 <td> 0.0</td> <td> 1.0</td>
+</tr> 
+<tr> <td>4</td> <td> B</td> <td>2</td> <td></td> <td> <a href="playercard.php#2"> Annapureddy,Rheyansh </a>  <td>1992</td>
+<td> 0.0</td> <td> 4.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -103,10 +112,13 @@
 <td> 1.0</td> <td> 0.5</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>6</td> <td></td> <td> <a href="playercard.php#6"> Nguyen,Gia Huy (Tony </a>  <td>1901</td>
-<td> 0.0</td> <td> 2.0</td>
+<td> 0.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>5</td> <td></td> <td> <a href="playercard.php#5"> Lacson,Joemar        </a>  <td>1764</td>
-<td> 1.0</td> <td> 0.5</td>
+<td> 1.0</td> <td> 1.0</td>
+</tr> 
+<tr> <td>4</td> <td> B</td> <td>1</td> <td></td> <td> <a href="playercard.php#1"> Paul,Cijo            </a>  <td>1597</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -117,13 +129,16 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>2</td> <td></td> <td> <a href="playercard.php#2"> Annapureddy,Rheyansh </a>  <td>1992</td>
-<td> 0.0</td> <td> 3.0</td>
+<td> 0.0</td> <td> 4.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>3</td> <td>CM</td> <td> <a href="playercard.php#3"> Davis,Tony J         </a>  <td>1833</td>
 <td> 0.5</td> <td> 0.5</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>4</td> <td></td> <td> <a href="playercard.php#4"> Hogg,Dean            </a>  <td>1920</td>
-<td> 0.0</td> <td> 2.0</td>
+<td> 0.0</td> <td> 3.0</td>
+</tr> 
+<tr> <td>4</td> <td> B</td> <td>6</td> <td></td> <td> <a href="playercard.php#6"> Nguyen,Gia Huy (Tony </a>  <td>1901</td>
+<td> 0.5</td> <td> 2.5</td>
 </tr> 
 </tbody>
 </table><br>
@@ -137,10 +152,13 @@
 <td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>4</td> <td></td> <td> <a href="playercard.php#4"> Hogg,Dean            </a>  <td>1920</td>
-<td> 1.0</td> <td> 2.0</td>
+<td> 1.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>2</td> <td></td> <td> <a href="playercard.php#2"> Annapureddy,Rheyansh </a>  <td>1992</td>
-<td> 0.0</td> <td> 3.0</td>
+<td> 0.0</td> <td> 4.0</td>
+</tr> 
+<tr> <td>4</td> <td>W </td> <td>5</td> <td></td> <td> <a href="playercard.php#5"> Lacson,Joemar        </a>  <td>1764</td>
+<td> 0.5</td> <td> 1.0</td>
 </tr> 
 </tbody>
 </table><br>

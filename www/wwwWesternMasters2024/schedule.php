@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Players</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs4.php" >Pairings</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs5.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
@@ -69,9 +69,9 @@
 <h4>Pairing of round 4, at 19:30 of 21/05/2024</h4>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/os.png" alt="OS"></td><td class="name">  <a href="playercard.php#6"> Nguyen,Gia Huy (Tony)</a> </td><td>6</td> <td class="result"> ... </td><td>5</td><td class="name"> <a href="playercard.php#5"> Lacson,Joemar</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#1"> Paul,Cijo</a> </td><td>1</td> <td class="result"> ... </td><td>4</td><td class="name"> <a href="playercard.php#4"> Hogg,Dean</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#2"> Annapureddy,Rheyansh Reddy</a> </td><td>2</td> <td class="result"> ... </td><td>3</td><td class="name"> <a href="playercard.php#3">CM Davis,Tony J</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>1</td><td><img class="shadow" src="flag/os.png" alt="OS"></td><td class="name">  <a href="playercard.php#6"> Nguyen,Gia Huy (Tony)</a> </td><td>6</td> <td class="result">½ - ½</td><td>5</td><td class="name"> <a href="playercard.php#5"> Lacson,Joemar</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#1"> Paul,Cijo</a> </td><td>1</td> <td class="result">0 - 1</td><td>4</td><td class="name"> <a href="playercard.php#4"> Hogg,Dean</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#2"> Annapureddy,Rheyansh Reddy</a> </td><td>2</td> <td class="result">1 - 0</td><td>3</td><td class="name"> <a href="playercard.php#3">CM Davis,Tony J</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
 <h4>Pairing of round 5, at 19:30 of 04/06/2024</h4>
