@@ -5,7 +5,7 @@
 <meta name="author" content="www.vegachess.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-<title>Western Minor 2024</title>
+<title>Hobsons Bay Western Minor 2024</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <link rel="stylesheet" href="stylenew.css" type="text/css" >
     </head>
@@ -31,7 +31,7 @@
                 <div class="container-fluid">
                     <div class="row items-center">
                         <div class="col-12">
-                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >Western Minor 2024</h1>		    <h5 class="mb-1">Hobsons Bay (AUS)</h5>		    <h5> 30/04/2024 - 04/06/2024</h5>   </div>
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >Hobsons Bay Western Minor 2024</h1>		    <h5 class="mb-1">Hobsons Bay (AUS)</h5>		    <h5> 30/04/2024 - 04/06/2024</h5>   </div>
  </div> 
  </div>
  </div> 
@@ -42,15 +42,15 @@
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
   <div class="d-flex flex-column"><h3 class="mb-4 mt-4">Schedule</h3> <div class="table-responsive"><table class="table table-striped "> 
-<thead><tr><th>Round</th><th>Time</th><th>Date</th></tr></thead></table></div><h4>Pairing of round 1</h4>
+<thead><tr><th>Round</th><th>Time</th><th>Date</th></tr></thead><tr><td>1</td><td>19:30</td><td>30/04/2024</td></tr><tr><td>2</td><td>19:30</td><td>07/05/2024</td></tr><tr><td>3</td><td>19:30</td><td>14/05/2024</td></tr><tr><td>4</td><td>19:30</td><td>21/05/2024</td></tr><tr><td>5</td><td>19:30</td><td>04/06/2024</td></tr></table></div><h4>Pairing of round 1, at 19:30 of 30/04/2024</h4>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
 <tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#1"> Hari,Dhruv</a> </td><td>1</td> <td class="result">1 - 0</td><td>6</td><td class="name"> <a href="playercard.php#6"> Kirk,Ian</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>2</td><td><img class="shadow" src="flag/qld.png" alt="QLD"></td><td class="name">  <a href="playercard.php#2"> Pasukov,Leo</a> </td><td>2</td> <td class="result"> adj </td><td>5</td><td class="name"> <a href="playercard.php#5"> Lingineni,Khushal</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/qld.png" alt="QLD"></td><td class="name">  <a href="playercard.php#2"> Pasukov,Leo</a> </td><td>2</td> <td class="result">1 - 0</td><td>5</td><td class="name"> <a href="playercard.php#5"> Lingineni,Khushal</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 <tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#3"> Picone,James</a> </td><td>3</td> <td class="result">0 - 1</td><td>4</td><td class="name"> <a href="playercard.php#4"> Nowak,Ruben</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
-<h4>Pairing of round 2</h4>
+<h4>Pairing of round 2, at 19:30 of 07/05/2024</h4>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
 <tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#6"> Kirk,Ian</a> </td><td>6</td> <td class="result">0 - 1</td><td>4</td><td class="name"> <a href="playercard.php#4"> Nowak,Ruben</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
@@ -58,7 +58,7 @@
 <tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#1"> Hari,Dhruv</a> </td><td>1</td> <td class="result">½ - ½</td><td>2</td><td class="name"> <a href="playercard.php#2"> Pasukov,Leo</a></td><td><img class="shadow" src="flag/qld.png" alt="QLD"></td></tr>
 </table>
 </div><hr>
-<h4>Pairing of round 3</h4>
+<h4>Pairing of round 3, at 19:30 of 14/05/2024</h4>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
 <tr> <td>1</td><td><img class="shadow" src="flag/qld.png" alt="QLD"></td><td class="name">  <a href="playercard.php#2"> Pasukov,Leo</a> </td><td>2</td> <td class="result">1 - 0</td><td>6</td><td class="name"> <a href="playercard.php#6"> Kirk,Ian</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
@@ -66,7 +66,7 @@
 <tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#4"> Nowak,Ruben</a> </td><td>4</td> <td class="result">0 - 1</td><td>5</td><td class="name"> <a href="playercard.php#5"> Lingineni,Khushal</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
-<h4>Pairing of round 4</h4>
+<h4>Pairing of round 4, at 19:30 of 21/05/2024</h4>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
 <tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#6"> Kirk,Ian</a> </td><td>6</td> <td class="result">1 - 0</td><td>5</td><td class="name"> <a href="playercard.php#5"> Lingineni,Khushal</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
@@ -74,12 +74,12 @@
 <tr> <td>3</td><td><img class="shadow" src="flag/qld.png" alt="QLD"></td><td class="name">  <a href="playercard.php#2"> Pasukov,Leo</a> </td><td>2</td> <td class="result">1 - 0</td><td>3</td><td class="name"> <a href="playercard.php#3"> Picone,James</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
-<h4>Pairing of round 5</h4>
+<h4>Pairing of round 5, at 19:30 of 04/06/2024</h4>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#3"> Picone,James</a> </td><td>3</td> <td class="result"> ... </td><td>6</td><td class="name"> <a href="playercard.php#6"> Kirk,Ian</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#4"> Nowak,Ruben</a> </td><td>4</td> <td class="result"> ... </td><td>2</td><td class="name"> <a href="playercard.php#2"> Pasukov,Leo</a></td><td><img class="shadow" src="flag/qld.png" alt="QLD"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#5"> Lingineni,Khushal</a> </td><td>5</td> <td class="result"> ... </td><td>1</td><td class="name"> <a href="playercard.php#1"> Hari,Dhruv</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#3"> Picone,James</a> </td><td>3</td> <td class="result">1 - 0</td><td>6</td><td class="name"> <a href="playercard.php#6"> Kirk,Ian</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#4"> Nowak,Ruben</a> </td><td>4</td> <td class="result">1 - 0</td><td>2</td><td class="name"> <a href="playercard.php#2"> Pasukov,Leo</a></td><td><img class="shadow" src="flag/qld.png" alt="QLD"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#5"> Lingineni,Khushal</a> </td><td>5</td> <td class="result">0 - 1</td><td>1</td><td class="name"> <a href="playercard.php#1"> Hari,Dhruv</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
 		  </div>
