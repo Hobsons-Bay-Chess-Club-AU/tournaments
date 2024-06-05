@@ -1,3 +1,23 @@
+/* begining of customization area */
+
+/* standard colors of the rest of the document */
+:root {
+	--ground-color: #222222;
+	--base1-color: #c5a743;
+	--base2-color: #c5a743;
+	--bright1-color: #dcdcdc;
+	--bright2-color: #c0c0c0;
+	--dark1-color: #222222;
+	--dark2-color: #444444;
+	--male-color: #000080;
+	--female-color: #C71585;
+	--nofide-color: #D2B48C;
+}
+/* .. for the document */
+#blahblah h1 {
+	color: var(--bright1-color);
+}
+/* form background */
 html, body {
 	width: 100%;
 	height: 100%;
@@ -5,14 +25,15 @@ html, body {
 	min-height: 100%;
 	position: relative;
 	-webkit-font-smoothing: antialiased;
+	background: var(--ground-color)!important;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
 /* background menu */
 .navbar-expand-lg {
-    background: white!important;
-} 
+    background: var(--ground-color)!important;
+}
 
+/*hero*/
 #hero {
 	height: 256px;
 	min-height: 256px;
@@ -40,6 +61,188 @@ html, body {
 	z-index: 10;
 }
 
+/* item menu */
+.nav-link {
+    color:var(--bright2-color)!important;
+    font-size:18px!important;
+    font-weight: bold!important;
+}
+.nav-link:hover {
+    background: var(--base1-color)!important;
+    color:#ffffff!important;
+    font-size:20px!important;
+    font-weight: bold!important;
+}
+.nav-link:focus {
+    color:#ffffff!important;
+    font-size:20px!important;
+    font-weight: bold!important;
+}
+.dropdown-menu {
+    background: var(--ground-color)!important;
+}
+.dropdown-item { 
+    background: var(--dark2-color)!important;
+    color:var(--bright2-color)!important;
+    font-size:16px!important;
+    font-weight: bold!important;
+}
+.dropdown-item:hover {
+    background: var(--base1-color)!important;
+    color:#ffffff!important;
+    font-size:20px!important;
+    font-weight: bold!important;
+}
+/* table title */
+.mt-4 {
+	padding-top:10px;
+    color: var(--base2-color)!important;
+	font-size:18px!important;
+	font-weight: bold!important;
+}
+/* table heading */
+table thead tr th {
+    background-color: var(--base2-color)!important;
+    color:#ffffff!important;
+    font-size:18px!important;
+    font-weight: bold!important;
+}
+/* table body */
+table tbody tr td {
+    background-color: var(--ground-color)!important;
+    color:var(--bright1-color)!important;
+    font-size:18px!important;
+    font-weight: bold!important;
+}
+/* item with link */
+table tbody tr td a {
+    color:var(--bright1-color)!important;
+}
+/* odd table row */
+.table-striped>tbody>tr:nth-child(odd)>td {
+    background-color: var(--dark2-color)!important;
+}
+/* even table row */
+.table-striped>tbody>tr:nth-child(even)>td {
+    background-color: var(--dark1-color)!important;
+}
+/* footer sfondo */
+.bg-light {
+    background-color: transparent!important;
+}
+/* footer legenda */
+.tbody, td, tfoot {
+    background-color: transparent!important;
+    color:var(--bright1-color)!important;
+    font-size:16px!important;
+    font-weight: bold!important;
+}
+/* footer testo */
+.text-dark {
+    color:var(--bright1-color)!important;
+    font-size:16px!important;
+    font-weight: bold!important;
+}
+/* title male color */
+.male {
+	border: 1px solid var(--male-color);
+	background-color: var(--male-color);
+	color: white;
+}
+/* title female color */
+.female {
+	border: 1px solid var(--female-color);
+	background-color: var(--female-color);
+	color: white;
+}
+/* no title FIDE color */
+.notitle {
+	display: inline-block;
+	width: 45px;
+	border-radius: 6px;
+	font-size: 80%;
+	color:black;
+	background-color: var(--nofide-color); 
+	text-align: center;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+/* number player cards */
+caption {
+	color: var(--base1-color)!important;
+	font-size:16px!important;
+    font-weight: bold!important;
+}
+caption a {
+	font-size:16px!important;
+    font-weight: bold!important;
+}
+/* footer border down */
+.border-light-subtle {
+    border-color: var(--ground-color)!important;
+}
+/* pagination pairings */
+nav ul.pagination a {
+    color : var(--dark1-color);
+	background-color: var(--bright1-color);
+}
+nav ul.pagination li.base-hover:hover a {
+    color : white;
+	background-color: var(--base1-color) !important;
+}
+/* current pairings */
+li.page-item.active-color a.page-link[href="pairs3.php"] {
+    color : white;
+	background-color: var(--base1-color);
+}
+
+/* end of customization area */
+
+#hero {
+	height: 256px;
+	min-height: 256px;
+	padding-top: 56px;
+	position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero:before {
+	width: 100%;
+	height: 100%;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+#hero .container-fluid {
+	position: relative;
+	z-index: 10;
+}
+
+.btn-stat-detail {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #fff;
+	border: 1px solid #ddd;
+	position: absolute;
+	left: 50%;
+	bottom: -50%;
+	transform: translate(calc(-50% + 17px), -50%);
+}
+
+.btn-stat-detail.disabled {
+	opacity: .5;
+	pointer-events: none;
+}
+
 .w-lg-50 {
 	width: 50%;
 }
@@ -59,15 +262,11 @@ html, body {
 .btn-stat-detail svg {
 	max-width: 50%;
 }
-/* table title */
-.mt-4 {
-	padding-top:10px;
-}
+
 table thead tr th,
 table tbody tr td {
 	padding-left: 24px !important;
 	padding-right: 24px !important;
-	vertical-align: middle;
 }
 
 .table-divider {
@@ -75,16 +274,6 @@ table tbody tr td {
 	height: 100px;
 	min-height: 100px;
 	margin-top: 60px;
-}
-
-.table-striped>tbody>tr.odd>* {
-    --bs-table-color-type: var(--bs-table-striped-color);
-    --bs-table-bg-type: var(--bs-table-striped-bg);
-}
-
-.table-striped>tbody>tr.even>* {
-    --bs-table-color-type: var(--bs-table-striped-color);
-    --bs-table-bg-type: var(--bs-table-bg);
 }
 
 .team-reports table tr th,
@@ -200,9 +389,9 @@ td.score {
 }
 
 div.res {
-font-weight: bold;
-text-align: center;	
-font-size: 100%; 
+   font-weight: bold;
+   text-align: center;	
+   font-size: 100%; 
 }
 
 td.result {
@@ -212,34 +401,27 @@ td.result {
 }
 
 div.cb {
-background-color: black;
-color: white;
-font-size: 80%;
-text-align: center;
-border-bottom: 1px solid black;
-border-top: 1px solid black;
-border-left: 1px solid black;
-border-right: 1px solid black;
+	background-color: black;
+	color: white;
+	font-size: 80%;
+	text-align: center;
+	border: 1px solid gray;
 }
 
 div.cw {
-/*background-color: white;*/
-font-size: 80%; 
-text-align: center;
-border-bottom: 1px solid black;
-border-top: 1px solid black;
-border-left: 1px solid black;
-border-right: 1px solid black;
+	font-size: 80%; 
+	background-color: white;
+	color: black;
+	text-align: center;
+	border: 1px solid gray;
 }
 
 div.cf {
-text-align: center;
-font-size: 80%;
-background-color: #FFFF66;
-border-bottom: 1px solid black;
-border-top: 1px solid black;
-border-left: 1px solid black;
-border-right: 1px solid black;
+	text-align: center;
+	font-size: 80%;
+	background-color: #FFFF66;
+	border: 1px solid black;
+	color:black;
 }
 
 td.hole {
@@ -251,10 +433,10 @@ td.hole {
 .idn {
 	display: inline-block;
 	width: 40px;
-	border: 1px solid gray;
+	border: 1px solid white;
 	font-size: 80%;
 	background-color: white;
-	border-radius: 10px;
+	border-radius: 5px;
 	color : black;
 	text-align: center;
 }
@@ -265,7 +447,7 @@ td.hole {
 	font-size: 80%;
 	border: 1px solid black;
 	background-color: white;
-	border-radius: 10px;
+	border-radius: 5px;
 	color : black;
 	text-align: center;
 }
@@ -275,72 +457,30 @@ td.hole {
 	width: 40px;
 	font-size: 80%;
 	background-color: black;
-	border-radius: 10px;
+	border-radius: 5px;
 	color : white;
 	text-align: center;
 }
-/* title */
-.title {
-	display: inline-block;
-	width:40px;
-	font-size: 12px;
-	text-align: center;
-	border-radius: 4px;
-	color:white;
-	background-color: #417AFE;
-	margin-left: 4px;
-}
-
-.notitle {
-	display: inline-block;
-	width:40px;
-	font-size: 12px;
-	text-align: center;
-	border-radius: 4px;
-	margin-left: 4px;
-	color:black;
-	background-color: #eeeef0;
-}
-
-.male {
-	border: 2px solid #417AFE;
-}
-
-.female {
-	border:  2px solid #ff4d9a;
-}
-
-
-caption {
-	color: var(--gold-color)!important;
-}
 
 @media only screen and ( max-width: 991px ) {
-
 	.w-50 {
 		width: 100% !important;
 	}
-
 	.stat-card .border-end {
 		border: none !important;
 		border-bottom: 1px solid #e9ecef !important;
 	}
-
 	.player-stat-row > div:first-child,
 	.player-stat-header > div:first-child {
 		width: 100%;
 	}
-
 	.player-stat-row {
 		border-bottom: 4px solid #ebebeb;
 	}
-
 	.player-stat-row:last-child {
 		border-bottom: none;
 	}
-
 	.btn-stat-detail {
 		bottom: -26%;
 	}
-
 }
