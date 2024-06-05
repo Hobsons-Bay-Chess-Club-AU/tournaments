@@ -38,8 +38,8 @@ export function updateNavigation(folderPath) {
   const hasRewardPage = fs.existsSync(reward)
   const hasRewardPage1 = fs.existsSync(reward1)
 
-  var rPage = hasRewardPage1? 'rewards_locked.html': "rewards.html"
- 
+  var rPage = hasRewardPage1 ? 'rewards_locked.html' : "rewards.html"
+
   files.forEach((filePath) => {
     let content = fs.readFileSync(filePath, "utf8");
     const $ = cheerio.load(content);
@@ -66,11 +66,11 @@ export function updateNavigation(folderPath) {
       $(' <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">')
     );
     // Replace the specified text
-    if(hasRewardPage) {
+    if (hasRewardPage) {
       $(".navbar-nav").append(navLink);
     }
     var navBrand = $('.navbar-brand');
-    if(navBrand!= null) {
+    if (navBrand != null) {
       navBrand.attr('href', '/')
     }
     // Write the modified content back to the file
@@ -115,7 +115,7 @@ export function updateHomeNav(folderPath) {
 
 export function readStanding(rootPath) {
   const standingFile = path.join(rootPath, "standings.html");
-  if(!fs.existsSync(standingFile)) {
+  if (!fs.existsSync(standingFile)) {
     return {
       standings: []
     }
@@ -144,14 +144,14 @@ export function readStanding(rootPath) {
   //  console.log(list);
   return {
     standings: list.filter(Boolean),
-    title: $("h2").text() ||  $("h1").text(),
+    title: $("h2").text() || $("h1").text(),
     subTitle: $("h4").text() || $("h3").text(),
   };
 }
 
 export function readPlayerList(rootPath) {
   const playerFile = path.join(rootPath, "Players.csv");
-  if(!fs.existsSync(playerFile) ) {
+  if (!fs.existsSync(playerFile)) {
     return null
   }
   const raw = fs
@@ -205,18 +205,18 @@ export function accumulatePoint(current, tournament) {
 
 
 export function generateRewardPage(folderPath) {
-  const standingFile =   "./src/standings-template.html";
+  const standingFile = "./src/standings-template.html";
   const raw = fs.readFileSync(standingFile, "utf8");
 
   const players = readPlayerList(folderPath);
-  if(!players) {
+  if (!players) {
     return;
   }
   const { title, subTitle, standings: standingList } = readStanding(folderPath);
   // console.log(players);
   for (const standing of standingList) {
     const p = players.find((x) => x.N === standing.N);
-    if(!p) continue;
+    if (!p) continue;
     standing.U = p.U;
     standing.GROUP = p.U;
     standing.Rtg = p.ELONAT;
@@ -243,7 +243,7 @@ export function generateRewardPage(folderPath) {
   console.log("standingList", standingList)
   rewards.push({
     category: 'Unrated',
-    data: standingList.filter(x =>+x.Rtg === 0)
+    data: standingList.filter(x => +x.Rtg === 0)
   })
 
   // Adjustment the reward outside category
@@ -255,7 +255,7 @@ export function generateRewardPage(folderPath) {
   for (const category of adjustment) {
     var currentCat = rewards.find((x) => x.category === category);
     const list = currentCat.data;
-    
+
     let upperCategories = adjustment.slice(catIndex);
 
     //console.log("category ", category, upperCategories);
@@ -263,7 +263,7 @@ export function generateRewardPage(folderPath) {
     for (var index = 3; index <= list.length; index++) {
       const playerStanding = list[index];
 
-      if(currentCat === 'Girl') {
+      if (currentCat === 'Girl') {
         var currentCat = rewards.find((x) => x.category === playerStanding.U);
         upperCategories = adjustment.slice(catIndex);
       }
@@ -282,9 +282,9 @@ export function generateRewardPage(folderPath) {
           for (let rIndex = 0; rIndex < 3; rIndex++) {
             //  console.log("compare", playerStanding, upperCatList[rIndex]);
             if (
-              +playerStanding.Pts > +upperCatList[rIndex].Pts ||
-              (playerStanding.Pts == upperCatList[rIndex].Pts &&
-                +playerStanding.BH > +upperCatList[rIndex].BH)
+              +playerStanding.Pts > +upperCatList[rIndex]?.Pts ||
+              (playerStanding.Pts == upperCatList[rIndex]?.Pts &&
+                +playerStanding.BH > +upperCatList[rIndex]?.BH)
             ) {
               cat.data = [
                 ...cat.data.slice(0, rIndex),
