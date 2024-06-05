@@ -11,7 +11,7 @@
     </head>
 <body>
 <div class="d-flex flex-column justify-content-between h-100">
- <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+ <nav class="navbar navbar-expand-lg fixed-top">
                 <div class="container">    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -49,12 +49,12 @@
  </div>
 <div class="table-responsive"><table class="table table-sm table-striped"> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>Pts</th><th>Result</th><th>Pts</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 2 </span><span class="notitle female"> </span> <a href="playercard.php#2"> Bo,Jamie</a> </td><td>1</td><td class="result">0 - 1</td><td>1</td><td class="name"><span class="idblack">7 </span><span class="notitle male"> </span> <a href="playercard.php#7"> Ashwin,Aswin</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 2 </span><span class="notitle female"> </span> <a href="playercard.php#2"> Bo,Jamie</a> </td><td>0</td><td class="result">0 - 1</td><td>1</td><td class="name"><span class="idblack">7 </span><span class="notitle male"> </span> <a href="playercard.php#7"> Ashwin,Aswin</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 <tr> <td>2</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name"> <span class="idwhite"> 8 </span><span class="notitle male"> </span> <a href="playercard.php#8"> Bodke,Aryan</a> </td><td>1</td><td class="result">0 - 1</td><td>1</td><td class="name"><span class="idblack">3 </span><span class="notitle female"> </span> <a href="playercard.php#3"> Chan,Abby</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 <tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 4 </span><span class="notitle female"> </span> <a href="playercard.php#4"> Husain,Lamiah</a> </td><td>1</td><td class="result">1 - 0</td><td>1</td><td class="name"><span class="idblack">12 </span><span class="notitle male"> </span> <a href="playercard.php#12"> Shenbaga,Kabilan</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 <tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 10 </span><span class="notitle male"> </span> <a href="playercard.php#10"> Luan,William</a> </td><td>0</td><td class="result">1 - 0</td><td>0</td><td class="name"><span class="idblack">1 </span><span class="notitle male"> </span> <a href="playercard.php#1"> Bo,Jeremie</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 <tr> <td>5</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 11 </span><span class="notitle female"> </span> <a href="playercard.php#11"> Nethi,Karthika</a> </td><td>0</td><td class="result">0 - 1</td><td>0</td><td class="name"><span class="idblack">5 </span><span class="notitle male"> </span> <a href="playercard.php#5"> Amutha Raja,Nalan</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>6</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 13 </span><span class="notitle male"> </span> <a href="playercard.php#13"> Singh,Abhyuday</a> </td><td>0</td><td class="result">0 - 1</td><td>0</td><td class="name"><span class="idblack">9 </span><span class="notitle male"> </span> <a href="playercard.php#9"> Jagannathan,Shashvath</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>6</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 13 </span><span class="notitle male"> </span> <a href="playercard.php#13"> Singh,Abhyuday</a> </td><td>0</td><td class="result">0 - 1</td><td>1</td><td class="name"><span class="idblack">9 </span><span class="notitle male"> </span> <a href="playercard.php#9"> Jagannathan,Shashvath</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 <tr> <td>7</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 6 </span><span class="notitle male"> </span> <a href="playercard.php#6"> Ashok,Arjun</a> </td><td>0.5</td><td class="result">½    </td><td>0</td><td class="name">( half point bye )</td><td></td></tr>
 </tbody>
 </table>
@@ -68,7 +68,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Hobsons Bay Chess Club - AUS)
+                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Casey Goh - AUS)
   <?php if (file_exists($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php')) include($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php'); ?>    </div>  </div>  </div> </div> 
    </footer>
      </div>
