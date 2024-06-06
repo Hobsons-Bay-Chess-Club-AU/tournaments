@@ -73,6 +73,18 @@ export function updateNavigation(folderPath) {
     if (navBrand != null) {
       navBrand.attr('href', '/')
     }
+
+    const home = $(
+      `<div id="gohome" style='position:fixed;top:10px;left:20px;padding: 5px;color:white;z-index:1000'><a href='/' style='width:24px;height:24px;color:white;display:block'>
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20,8h0L14,2.74a3,3,0,0,0-4,0L4,8a3,3,0,0,0-1,2.26V19a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V10.25A3,3,0,0,0,20,8ZM14,20H10V15a1,1,0,0,1,1-1h2a1,1,0,0,1,1,1Zm5-1a1,1,0,0,1-1,1H16V15a3,3,0,0,0-3-3H11a3,3,0,0,0-3,3v5H6a1,1,0,0,1-1-1V10.25a1,1,0,0,1,.34-.75l6-5.25a1,1,0,0,1,1.32,0l6,5.25a1,1,0,0,1,.34.75Z" fill="#000"></path>
+          </svg>
+      </a></div>`
+
+    );
+    $("#gohome").remove();
+    $('nav').append(home)
+
     // Write the modified content back to the file
     fs.writeFileSync(filePath, $.html().replace(".php", ".html"), "utf8");
   });
@@ -87,26 +99,15 @@ export function updateHomeNav(folderPath) {
     const $ = cheerio.load(content);
 
     const navLink = $(
-      `
-        <li class="nav-item dropdown" id="rewards">
-        <a href="rewards.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rewards<span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a class="dropdown-item" href="rewards.html">Open</a></li>
-                <li><a class="dropdown-item" href="rewards.html#U12">U12</a></li>
-                <li><a class="dropdown-item" href="rewards.html#U10">U10</a></li>
-                <li><a class="dropdown-item" href="rewards.html#U8">U8</a></li>
-                <li> <a class="dropdown-item" href="rewards.html#Girl">Girls</a></li>
-              </ul>
-            </li>`
+      `<div style='position:fixed;top:0;left:0;padding: 5px'>HOME</div>`
+
     );
-    $('[type="image/x-icon"]').remove();
-    $('[rel="manifest"]').remove();
-    $("head").append('<link rel="manifest" href="/manifest.json" />');
 
     $("head").append(
       $(' <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">')
     );
     // Replace the specified text
+
     $(".navbar-nav").append(navLink);
     // Write the modified content back to the file
     fs.writeFileSync(filePath, $.html(), "utf8");
