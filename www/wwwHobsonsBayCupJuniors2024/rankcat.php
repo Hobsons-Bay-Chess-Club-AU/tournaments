@@ -89,7 +89,7 @@
 <td>14</td><td>9</td><td></td><td> <a href="playercard.php#9">Pathiyassery,Emir   </a> </td><td>420</td><td>840</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   16.5 </td><td>   14.5 </td><td>   6.00 </td>
 </tr> 
 <tr> 
-<td>15</td><td>23</td><td></td><td> <a href="playercard.php#23">Vijayakumar,Rithvik </a> </td><td>0</td><td>598</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   14.0 </td><td>   14.0 </td><td>   5.00 </td>
+<td>15</td><td>23</td><td></td><td> <a href="playercard.php#23">Vijayakumar,Rithv(W)</a> </td><td>0</td><td>598</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   14.0 </td><td>   14.0 </td><td>   5.00 </td>
 </tr> 
 <tr> 
 <td>16</td><td>12</td><td></td><td> <a href="playercard.php#12">Bo,Jamie            </a> </td><td>277</td><td>753</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.5</td><td>   16.5 </td><td>   14.0 </td><td>   6.25 </td>
