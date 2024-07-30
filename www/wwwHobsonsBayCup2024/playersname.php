@@ -126,7 +126,7 @@
 <tr> 
 <td><span class="idn"> 5</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3232220" target="X"> Whitford,Matthew </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>1628</td> </tr>
 <tr> 
-<td><span class="idn"> 22</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3255689" target="X"> Wilkinson,Greg </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>1212</td> </tr>
+<td><span class="idn"> 22</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3255689" target="X"> Wilkinson,Greg </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>1212</td> </tr>
 <tr> 
 <td><span class="idn"> 42</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3272206" target="X"> Wongso,Renaldo </a></td><td ><img class="shadow" src="flag/nsw.png" alt="NSW"></td><td>0</td><td>0</td><td>0</td> </tr>
 </tbody>

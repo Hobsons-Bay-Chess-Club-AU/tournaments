@@ -41,95 +41,95 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Standings at round 6 </h3>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Standings at round 7 (last round)</h3>
 <div class="table-responsive"><table class="table table-striped"> 
 <thead><tr><th>Pos</th> <th>Player</th> <th>Rtg</th> <th>Fed</th><th>Pts</th> <th>     BH </th><th>  BH-C1 </th>
  </tr></thead> <tbody>
-<tr> <td>1</td><td><span class="idn"> 1 </span> <span class="notitle male"> </span> <a href="playercard.php#1"> Hogg,Dean</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 6.0</td><td>   21.5 </td><td>   19.5 </td>
+<tr> <td>1</td><td><span class="idn"> 1 </span> <span class="notitle male"> </span> <a href="playercard.php#1"> Hogg,Dean</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 7.0</td><td>   27.5 </td><td>   25.0 </td>
 </tr> 
-<tr> <td>2</td><td><span class="idn"> 42 </span> <span class="notitle male"> </span> <a href="playercard.php#42"> Wongso,Renaldo</a> </td><td>0</td><td ><img src="flag/nsw.png" alt="NSW"></td><td class="score"> 4.5</td><td>   24.0 </td><td>   19.5 </td>
+<tr> <td>2</td><td><span class="idn"> 42 </span> <span class="notitle male"> </span> <a href="playercard.php#42"> Wongso,Renaldo</a> </td><td>0</td><td ><img src="flag/nsw.png" alt="NSW"></td><td class="score"> 5.5</td><td>   33.5 </td><td>   28.0 </td>
 </tr> 
-<tr> <td>3</td><td><span class="idn"> 6 </span> <span class="notitle male"> </span> <a href="playercard.php#6"> Paul,Cijo</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.5</td><td>   22.0 </td><td>   19.0 </td>
+<tr> <td>3</td><td><span class="idn"> 10 </span> <span class="notitle male"> </span> <a href="playercard.php#10"> McIntyre,Julian</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 5.0</td><td>   29.5 </td><td>   24.5 </td>
 </tr> 
-<tr> <td>4</td><td><span class="idn"> 3 </span> <span class="notitle male"> </span> <a href="playercard.php#3"> Lacson,Joemar</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.5</td><td>   21.5 </td><td>   19.0 </td>
+<tr> <td>4</td><td><span class="idn"> 14 </span> <span class="notitle male"> </span> <a href="playercard.php#14"> Nowak,Ruben</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 5.0</td><td>   26.0 </td><td>   24.0 </td>
 </tr> 
-<tr> <td>5</td><td><span class="idn"> 12 </span> <span class="notitle male"> </span> <a href="playercard.php#12"> Lingineni,Khushal</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.5</td><td>   19.0 </td><td>   17.0 </td>
+<tr> <td>5</td><td><span class="idn"> 3 </span> <span class="notitle male"> </span> <a href="playercard.php#3"> Lacson,Joemar</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.5</td><td>   33.0 </td><td>   29.5 </td>
 </tr> 
-<tr> <td>6</td><td><span class="idn"> 5 </span> <span class="notitle male"> </span> <a href="playercard.php#5"> Whitford,Matthew</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.0</td><td>   24.0 </td><td>   21.5 </td>
+<tr> <td>6</td><td><span class="idn"> 6 </span> <span class="notitle male"> </span> <a href="playercard.php#6"> Paul,Cijo</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.5</td><td>   29.5 </td><td>   26.0 </td>
 </tr> 
-<tr> <td>7</td><td><span class="idn"> 10 </span> <span class="notitle male"> </span> <a href="playercard.php#10"> McIntyre,Julian</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.0</td><td>   21.5 </td><td>   17.5 </td>
+<tr> <td>7</td><td><span class="idn"> 2 </span> <span class="title male"> CM</span> <a href="playercard.php#2"> Davis,Tony J</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.5</td><td>   27.5 </td><td>   24.5 </td>
 </tr> 
-<tr> <td>8</td><td><span class="idn"> 19 </span> <span class="notitle male"> </span> <a href="playercard.php#19"> Bodke,Krishna</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.0</td><td>   19.5 </td><td>   18.0 </td>
+<tr> <td>8</td><td><span class="idn"> 19 </span> <span class="notitle male"> </span> <a href="playercard.php#19"> Bodke,Krishna</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.5</td><td>   27.0 </td><td>   25.0 </td>
 </tr> 
-<tr> <td>9</td><td><span class="idn"> 14 </span> <span class="notitle male"> </span> <a href="playercard.php#14"> Nowak,Ruben</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.0</td><td>   19.5 </td><td>   17.5 </td>
+<tr> <td>9</td><td><span class="idn"> 12 </span> <span class="notitle male"> </span> <a href="playercard.php#12"> Lingineni,Khushal</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.5</td><td>   26.5 </td><td>   22.0 </td>
 </tr> 
-<tr> <td>10</td><td><span class="idn"> 18 </span> <span class="notitle male"> </span> <a href="playercard.php#18"> Matijas,Dejan</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.0</td><td>   19.5 </td><td>   15.5 </td>
+<tr> <td>10</td><td><span class="idn"> 18 </span> <span class="notitle male"> </span> <a href="playercard.php#18"> Matijas,Dejan</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.5</td><td>   25.5 </td><td>   21.0 </td>
 </tr> 
-<tr> <td>11</td><td><span class="idn"> 17 </span> <span class="notitle male"> </span> <a href="playercard.php#17"> Nguyen,Anh Kiet</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>   25.5 </td><td>   23.5 </td>
+<tr> <td>11</td><td><span class="idn"> 13 </span> <span class="notitle male"> </span> <a href="playercard.php#13"> Ilic,Milan</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.5</td><td>   21.5 </td><td>   19.5 </td>
 </tr> 
-<tr> <td>12</td><td><span class="idn"> 11 </span> <span class="notitle male"> </span> <a href="playercard.php#11"> Hogan,Steven</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>   23.0 </td><td>   21.0 </td>
+<tr> <td>12</td><td><span class="idn"> 5 </span> <span class="notitle male"> </span> <a href="playercard.php#5"> Whitford,Matthew</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.0</td><td>   30.0 </td><td>   28.0 </td>
 </tr> 
-<tr> <td>13</td><td><span class="idn"> 2 </span> <span class="title male"> CM</span> <a href="playercard.php#2"> Davis,Tony J</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>   21.0 </td><td>   18.5 </td>
+<tr> <td>13</td><td><span class="idn"> 36 </span> <span class="notitle male"> </span> <a href="playercard.php#36"> Balogun,Olalekan</a> </td><td>0</td><td ><img src="flag/os.png" alt="OS"></td><td class="score"> 4.0</td><td>   26.0 </td><td>   24.0 </td>
 </tr> 
-<tr> <td>14</td><td><span class="idn"> 26 </span> <span class="notitle male"> </span> <a href="playercard.php#26"> Fisher,Todd</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>   21.0 </td><td>   17.5 </td>
+<tr> <td>14</td><td><span class="idn"> 25 </span> <span class="notitle male"> </span> <a href="playercard.php#25"> Clerk,Max</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.0</td><td>   24.5 </td><td>   20.5 </td>
 </tr> 
-<tr> <td>15</td><td><span class="idn"> 9 </span> <span class="notitle male"> </span> <a href="playercard.php#9"> Humphreys,Scott</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>   18.0 </td><td>   14.5 </td>
+<tr> <td>15</td><td><span class="idn"> 27 </span> <span class="notitle male"> </span> <a href="playercard.php#27"> Kostakakis,Angelo</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.0</td><td>   20.5 </td><td>   18.5 </td>
 </tr> 
-<tr> <td>16</td><td><span class="idn"> 13 </span> <span class="notitle male"> </span> <a href="playercard.php#13"> Ilic,Milan</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>   15.5 </td><td>   14.5 </td>
+<tr> <td>16</td><td><span class="idn"> 16 </span> <span class="notitle male"> </span> <a href="playercard.php#16"> Kirk,Ian</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.0</td><td>   19.0 </td><td>   18.0 </td>
 </tr> 
-<tr> <td>17</td><td><span class="idn"> 22 </span> <span class="notitle female"> </span> <a href="playercard.php#22"> Wilkinson,Greg</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   20.5 </td><td>   17.5 </td>
+<tr> <td>17</td><td><span class="idn"> 17 </span> <span class="notitle male"> </span> <a href="playercard.php#17"> Nguyen,Anh Kiet</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>   31.0 </td><td>   29.0 </td>
 </tr> 
-<tr> <td>18</td><td><span class="idn"> 36 </span> <span class="notitle male"> </span> <a href="playercard.php#36"> Balogun,Olalekan</a> </td><td>0</td><td ><img src="flag/os.png" alt="OS"></td><td class="score"> 3.0</td><td>   20.0 </td><td>   17.5 </td>
+<tr> <td>18</td><td><span class="idn"> 11 </span> <span class="notitle male"> </span> <a href="playercard.php#11"> Hogan,Steven</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>   30.5 </td><td>   27.5 </td>
 </tr> 
-<tr> <td>19</td><td><span class="idn"> 31 </span> <span class="notitle male"> </span> <a href="playercard.php#31"> Nawar,Mena</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   18.5 </td><td>   15.5 </td>
+<tr> <td>19</td><td><span class="idn"> 22 </span> <span class="notitle male"> </span> <a href="playercard.php#22"> Wilkinson,Greg</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>   28.0 </td><td>   24.5 </td>
 </tr> 
-<tr> <td>20</td><td><span class="idn"> 24 </span> <span class="notitle male"> </span> <a href="playercard.php#24"> Li,LiYuan</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   17.5 </td><td>   14.5 </td>
+<tr> <td>20</td><td><span class="idn"> 26 </span> <span class="notitle male"> </span> <a href="playercard.php#26"> Fisher,Todd</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>   27.0 </td><td>   23.5 </td>
 </tr> 
-<tr> <td>21</td><td><span class="idn"> 25 </span> <span class="notitle male"> </span> <a href="playercard.php#25"> Clerk,Max</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   17.5 </td><td>   14.5 </td>
+<tr> <td>21</td><td><span class="idn"> 7 </span> <span class="notitle male"> </span> <a href="playercard.php#7"> Picone,James</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>   24.0 </td><td>   22.0 </td>
 </tr> 
-<tr> <td>22</td><td><span class="idn"> 38 </span> <span class="notitle male"> </span> <a href="playercard.php#38"> Gopalan,Pradyun</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   17.5 </td><td>   14.5 </td>
+<tr> <td>22</td><td><span class="idn"> 23 </span> <span class="notitle male"> </span> <a href="playercard.php#23"> Ramanathan,Ashwin</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>   23.5 </td><td>   21.5 </td>
 </tr> 
-<tr> <td>23</td><td><span class="idn"> 27 </span> <span class="notitle male"> </span> <a href="playercard.php#27"> Kostakakis,Angelo</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   15.5 </td><td>   14.5 </td>
+<tr> <td>23</td><td><span class="idn"> 9 </span> <span class="notitle male"> </span> <a href="playercard.php#9"> Humphreys,Scott (W)</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>   22.5 </td><td>   19.0 </td>
 </tr> 
-<tr> <td>24</td><td><span class="idn"> 16 </span> <span class="notitle male"> </span> <a href="playercard.php#16"> Kirk,Ian</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   15.0 </td><td>   14.0 </td>
+<tr> <td>24</td><td><span class="idn"> 30 </span> <span class="notitle male"> </span> <a href="playercard.php#30"> Annadasu,Shreyansh</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>   22.5 </td><td>   19.0 </td>
 </tr> 
-<tr> <td>25</td><td><span class="idn"> 30 </span> <span class="notitle male"> </span> <a href="playercard.php#30"> Annadasu,Shreyansh</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   15.0 </td><td>   12.0 </td>
+<tr> <td>25</td><td><span class="idn"> 31 </span> <span class="notitle male"> </span> <a href="playercard.php#31"> Nawar,Mena</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   25.0 </td><td>   22.0 </td>
 </tr> 
-<tr> <td>26</td><td><span class="idn"> 4 </span> <span class="notitle male"> </span> <a href="playercard.php#4"> Dhar,Subhabroto</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.5</td><td>   21.5 </td><td>   19.0 </td>
+<tr> <td>26</td><td><span class="idn"> 38 </span> <span class="notitle male"> </span> <a href="playercard.php#38"> Gopalan,Pradyun</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   25.0 </td><td>   22.0 </td>
 </tr> 
-<tr> <td>27</td><td><span class="idn"> 7 </span> <span class="notitle male"> </span> <a href="playercard.php#7"> Picone,James</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.5</td><td>   19.0 </td><td>   17.0 </td>
+<tr> <td>27</td><td><span class="idn"> 33 </span> <span class="notitle female"> </span> <a href="playercard.php#33"> Marasinghe,Claire</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   23.5 </td><td>   21.5 </td>
 </tr> 
-<tr> <td>28</td><td><span class="idn"> 23 </span> <span class="notitle male"> </span> <a href="playercard.php#23"> Ramanathan,Ashwin</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.5</td><td>   17.0 </td><td>   16.0 </td>
+<tr> <td>28</td><td><span class="idn"> 8 </span> <span class="notitle male"> </span> <a href="playercard.php#8"> Salanowski,Mark</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   23.5 </td><td>   20.5 </td>
 </tr> 
-<tr> <td>29</td><td><span class="idn"> 29 </span> <span class="notitle male"> </span> <a href="playercard.php#29"> Lugton,James</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.5</td><td>   14.5 </td><td>   12.0 </td>
+<tr> <td>29</td><td><span class="idn"> 24 </span> <span class="notitle male"> </span> <a href="playercard.php#24"> Li,LiYuan</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   23.5 </td><td>   20.5 </td>
 </tr> 
-<tr> <td>30</td><td><span class="idn"> 28 </span> <span class="notitle male"> </span> <a href="playercard.php#28"> Vincent,Lucas</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>   18.0 </td><td>   16.0 </td>
+<tr> <td>30</td><td><span class="idn"> 32 </span> <span class="notitle male"> </span> <a href="playercard.php#32"> Nicdao,Joseph</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   20.0 </td><td>   18.0 </td>
 </tr> 
-<tr> <td>31</td><td><span class="idn"> 33 </span> <span class="notitle female"> </span> <a href="playercard.php#33"> Marasinghe,Claire</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>   17.5 </td><td>   15.5 </td>
+<tr> <td>31</td><td><span class="idn"> 4 </span> <span class="notitle male"> </span> <a href="playercard.php#4"> Dhar,Subhabroto</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.5</td><td>   27.5 </td><td>   25.0 </td>
 </tr> 
-<tr> <td>32</td><td><span class="idn"> 20 </span> <span class="notitle male"> </span> <a href="playercard.php#20"> Bredin,Jonathan</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>   17.0 </td><td>   15.0 </td>
+<tr> <td>32</td><td><span class="idn"> 29 </span> <span class="notitle male"> </span> <a href="playercard.php#29"> Lugton,James</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.5</td><td>   21.0 </td><td>   18.5 </td>
 </tr> 
-<tr> <td>33</td><td><span class="idn"> 8 </span> <span class="notitle male"> </span> <a href="playercard.php#8"> Salanowski,Mark</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>   16.5 </td><td>   14.5 </td>
+<tr> <td>33</td><td><span class="idn"> 28 </span> <span class="notitle male"> </span> <a href="playercard.php#28"> Vincent,Lucas</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>   24.0 </td><td>   22.0 </td>
 </tr> 
-<tr> <td>34</td><td><span class="idn"> 21 </span> <span class="notitle male"> </span> <a href="playercard.php#21"> Condick,Peter</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>   16.5 </td><td>   14.5 </td>
+<tr> <td>34</td><td><span class="idn"> 20 </span> <span class="notitle male"> </span> <a href="playercard.php#20"> Bredin,Jonathan</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>   21.0 </td><td>   19.0 </td>
 </tr> 
-<tr> <td>35</td><td><span class="idn"> 32 </span> <span class="notitle male"> </span> <a href="playercard.php#32"> Nicdao,Joseph</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>   14.5 </td><td>   12.5 </td>
+<tr> <td>35</td><td><span class="idn"> 21 </span> <span class="notitle male"> </span> <a href="playercard.php#21"> Condick,Peter (W)</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>   21.0 </td><td>   19.0 </td>
 </tr> 
-<tr> <td>36</td><td><span class="idn"> 39 </span> <span class="notitle male"> </span> <a href="playercard.php#39"> Nguyen,Tuan Kiet</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>   13.5 </td><td>   12.5 </td>
+<tr> <td>36</td><td><span class="idn"> 39 </span> <span class="notitle male"> </span> <a href="playercard.php#39"> Nguyen,Tuan Kiet</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>   19.5 </td><td>   18.5 </td>
 </tr> 
-<tr> <td>37</td><td><span class="idn"> 34 </span> <span class="notitle female"> </span> <a href="playercard.php#34"> Karthick,Deepshika</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.5</td><td>   16.5 </td><td>   15.0 </td>
+<tr> <td>37</td><td><span class="idn"> 35 </span> <span class="notitle male"> </span> <a href="playercard.php#35"> Dhar,Shubham</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>   19.5 </td><td>   17.5 </td>
 </tr> 
-<tr> <td>38</td><td><span class="idn"> 15 </span> <span class="notitle male"> </span> <a href="playercard.php#15"> Martin,Jamie R</a> </td><td>0</td><td ><img src="flag/sa.png" alt="SA"></td><td class="score"> 1.5</td><td>    8.5 </td><td>    7.0 </td>
+<tr> <td>38</td><td><span class="idn"> 34 </span> <span class="notitle female"> </span> <a href="playercard.php#34"> Karthick,Deepshika (W)</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.5</td><td>   21.0 </td><td>   19.5 </td>
 </tr> 
-<tr> <td>39</td><td><span class="idn"> 35 </span> <span class="notitle male"> </span> <a href="playercard.php#35"> Dhar,Shubham</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>   14.0 </td><td>   13.0 </td>
+<tr> <td>39</td><td><span class="idn"> 15 </span> <span class="notitle male"> </span> <a href="playercard.php#15"> Martin,Jamie R (W)</a> </td><td>0</td><td ><img src="flag/sa.png" alt="SA"></td><td class="score"> 1.5</td><td>   10.0 </td><td>    8.5 </td>
 </tr> 
-<tr> <td>40</td><td><span class="idn"> 37 </span> <span class="notitle male"> </span> <a href="playercard.php#37"> Bobbili,Vikranth</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>   13.5 </td><td>   12.5 </td>
+<tr> <td>40</td><td><span class="idn"> 37 </span> <span class="notitle male"> </span> <a href="playercard.php#37"> Bobbili,Vikranth</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>   17.5 </td><td>   16.5 </td>
 </tr> 
-<tr> <td>41</td><td><span class="idn"> 41 </span> <span class="notitle male"> </span> <a href="playercard.php#41"> Singh,Abhyuday</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    9.5 </td><td>    8.5 </td>
+<tr> <td>41</td><td><span class="idn"> 41 </span> <span class="notitle male"> </span> <a href="playercard.php#41"> Singh,Abhyuday (W)</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>   10.5 </td><td>    9.5 </td>
 </tr> 
-<tr> <td>42</td><td><span class="idn"> 43 </span> <span class="notitle female"> </span> <a href="playercard.php#43"> Liu,Tina</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    6.0 </td><td>    5.0 </td>
+<tr> <td>42</td><td><span class="idn"> 43 </span> <span class="notitle female"> </span> <a href="playercard.php#43"> Liu,Tina (W)</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    8.0 </td><td>    7.0 </td>
 </tr> 
-<tr> <td>43</td><td><span class="idn"> 40 </span> <span class="notitle male"> </span> <a href="playercard.php#40"> Saha,Avinandan (Arjun)</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td>    6.5 </td><td>    6.0 </td>
+<tr> <td>43</td><td><span class="idn"> 40 </span> <span class="notitle male"> </span> <a href="playercard.php#40"> Saha,Avinandan (Arjun) (W)</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td>    7.5 </td><td>    7.0 </td>
 </tr> 
 </tbody>
 <tfoot><tr><td colspan="7">Tie Break legend:<br>
