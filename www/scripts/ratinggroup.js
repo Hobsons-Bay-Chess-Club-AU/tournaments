@@ -8,9 +8,9 @@ $(document).ready(function () {
         t.each((index, el) => girls.push($(el).clone()));
         //girls = [...girls, ...t]
     });
-
+    $('table thead tr').append('<th>Prize</th>')
     const existingTable = $("table:first").clone();
-    $('tr', existingTable).remove();
+    $('tbody tr', existingTable).remove();
     existingTable.find('tbody').append(girls)
     $('tr', existingTable).each((index, element) => {
         $('td:first', element).text(index + 1)
@@ -24,9 +24,9 @@ $(document).ready(function () {
     $("div.table-responsive:first").append(el);
     var prizes = ["Winner", "1st Runner Up", "2nd Runner Up", "3rd Runner Up"]
     setTimeout(() => {
-        $('table').each(function (index1) {
+        $('table tbody').each(function (index1) {
             $(this).find('tr').each(function (index) {
-                var td = $('<td class="text-bold text-center"></td>');
+                var td = $('<td class="wf-bold" ></td>');
                 $(this).append(td)
                 var prizeCount = 4;
                 if (index1 == 3)
