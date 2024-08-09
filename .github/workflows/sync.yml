@@ -64,11 +64,11 @@ jobs:
       - name: Update HTML content
         run: |
           cp -r wwwftp/* www
-          docker-compose up -d
+          docker compose up -d
           sleep 2
           sudo chown -R $(whoami) ./www
           node src/update-html.mjs
-          docker-compose down
+          docker compose down
       - name: run Sync.mjs
 
         run: |
