@@ -39,7 +39,7 @@ async function fetchAndWriteHtml(filePath, retry = 1) {
         );
         if (filePath.includes("rankinggroup")) {
             $("head").append(
-                `<script href="../scripts/ratinggroup.js"></script>`
+                `<script src="../scripts/ratinggroup.js"></script>`
             );
         }
         fs.writeFileSync(htmlFilePath, $.html());
