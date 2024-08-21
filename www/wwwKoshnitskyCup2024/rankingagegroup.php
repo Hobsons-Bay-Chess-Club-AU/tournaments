@@ -41,8 +41,9 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4">Schedule</h3> <div class="table-responsive"><table class="table table-striped "> 
-<thead><tr><th>Round</th><th>Time</th><th>Date</th></tr></thead><tr><td>1</td><td>19:30</td><td>13/08/2024</td></tr><tr><td>2</td><td>19:30</td><td>20/08/2024</td></tr><tr><td>3</td><td>19:30</td><td>27/08/2024</td></tr><tr><td>4</td><td>19:30</td><td>04/09/2024</td></tr><tr><td>5</td><td>19:30</td><td>11/09/2024</td></tr><tr><td>6</td><td>19:30</td><td>18/09/2024</td></tr><tr><td>7</td><td>19:30</td><td>25/09/2024</td></tr></table></div>		  </div>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Player Groups by date at round 3 </h3>
+</DIV>
+		  </div>
 		      </div>
          <div class="d-none d-lg-block col-1 pe-0">
            <div class="d-flex flex-column w-full overflow-hidden">
