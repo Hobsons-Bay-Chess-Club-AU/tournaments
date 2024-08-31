@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Players</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs2.php" >Pairings</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs3.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
@@ -46,14 +46,14 @@
 <tr><td >Tie break</td> <td>      BH </td> </tr>
 <tr><td >Registered Players</td> <td> 87</td> </tr>
 <tr><td > Number of Federations</td> <td> 4</td> </tr>
-<tr><td >Average Rating (all) </td> <td> 1132</td> </tr>
+<tr><td >Average Rating (all) </td> <td> 1115</td> </tr>
 <tr><td > Average Rating (only FIDE rated) </td> <td> 0</td> </tr>
-<tr ><td > Players from AUS Federation</td> <td> 5</td> </tr>
-<tr><td > Players NOT from AUS Federation</td> <td> 82</td> </tr>
+<tr ><td > Players from AUS Federation</td> <td> 4</td> </tr>
+<tr><td > Players NOT from AUS Federation</td> <td> 83</td> </tr>
 <tr><td > FIDE rated players </td> <td> 0</td> </tr>
 <tr><td > unrated players </td> <td> 87</td> </tr>
-<tr><td > unrated players from AUS Federation</td> <td> 5</td> </tr>
-<tr><td >unrated players NOT from AUS Federation</td> <td> 82</td> </tr>
+<tr><td > unrated players from AUS Federation</td> <td> 4</td> </tr>
+<tr><td >unrated players NOT from AUS Federation</td> <td> 83</td> </tr>
 <tr><td > unrated Federations</td> <td> 3</td> </tr>
 <tr><td > FIDE titled players </td> <td> 8</td> </tr>
 <tr><td > GM players </td> <td> 0</td> </tr>
