@@ -151,6 +151,8 @@
 <tr> 
 <td><span class="idn"> 38</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3214915" target="X"> Nowak,Ruben </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1437</td><td>0</td><td>1437</td> </tr>
 <tr> 
+<td><span class="idn"> 87</span></td><td> <span class="notitle male"> </span> Parker,Brett </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
 <td><span class="idn"> 61</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=311110949" target="X"> Parker,Lucas </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>834</td><td>0</td><td>834</td> </tr>
 <tr> 
 <td><span class="idn"> 25</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=2054515" target="X"> Paul,Cijo </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1597</td><td>0</td><td>1597</td> </tr>
