@@ -11,7 +11,7 @@
     </head>
 <body>
 <div class="d-flex flex-column justify-content-between h-100">
- <nav class="navbar navbar-expand-lg fixed-top">
+ <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
                 <div class="container">    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -23,7 +23,7 @@
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs7.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
 <ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
@@ -51,7 +51,7 @@
 <tr> 
 <td> <span class="idn"> 3 </span><span class="notitle male"> </span> <a href="playercard.php#3">Ramanathan,Ashwin   </a> </td><td>965</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 5.0</td><td><div class="res">1</div><div class="cw">18  </div></td><td><div class="res">1</div><div class="cb">10  </div></td><td><div class="res">0</div><div class="cb">5   </div></td><td><div class="res">½</div><div class="cw">11  </div></td><td><div class="res">1</div><div class="cb">12  </div></td><td><div class="res">1</div><div class="cw">7   </div></td><td><div class="res">½</div><div class="cb">1   </div></td></tr>
 <tr> 
-<td> <span class="idn"> 4 </span><span class="notitle male"> </span> <a href="playercard.php#4">Thompson,Selby      </a> </td><td>912</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td> </td><td> </td><td> </td><td><div class="res">1</div><div class="cb">24  </div></td><td><div class="res">1</div><div class="cw">22  </div></td><td> </td><td> </td></tr>
+<td> <span class="idn"> 4 </span><span class="notitle male"> </span> <a href="playercard.php#4">Thompson,Selby   (W)</a> </td><td>912</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td> </td><td> </td><td> </td><td><div class="res">1</div><div class="cb">24  </div></td><td><div class="res">1</div><div class="cw">22  </div></td><td> </td><td> </td></tr>
 <tr> 
 <td> <span class="idn"> 5 </span><span class="notitle male"> </span> <a href="playercard.php#5">Majety,Rohan        </a> </td><td>859</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 4.0</td><td><div class="res">1</div><div class="cw">21  </div></td><td><div class="res">1</div><div class="cb">11  </div></td><td><div class="res">1</div><div class="cw">3   </div></td><td><div class="res">1</div><div class="cf">2   </div></td><td><div class="res">0</div><div class="cb">1   </div></td><td><div class="res">0</div><div class="cb">6   </div></td><td><div class="res">0</div><div class="cw">10  </div></td></tr>
 <tr> 
@@ -112,7 +112,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Hobsons Bay Chess Club - AUS)
+                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Casey Goh - AUS)
   <?php if (file_exists($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php')) include($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php'); ?>    </div>  </div>  </div> </div> 
    </footer>
      </div>
