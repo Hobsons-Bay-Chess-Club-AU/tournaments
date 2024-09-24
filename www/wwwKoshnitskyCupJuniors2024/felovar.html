@@ -10,7 +10,7 @@
       <link href="/hbcc.css" rel="stylesheet"><script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script><link rel="manifest" href="/manifest.json"> <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?"></head>
 <body>
 <div class="d-flex flex-column justify-content-between h-100">
- <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+ <nav class="navbar navbar-expand-lg fixed-top">
                 <div class="container">    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -22,7 +22,7 @@
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="index.html">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.html">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs7.html">Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.html">Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.html"> Cross table </a></li><li><a class="dropdown-item" href="rankinggroup.html"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.html"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.html"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.html"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.html"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.html"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.html"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.html"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.html"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.html"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.html"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.html"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.html"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.html"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
 <ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.html">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.html">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.html">National rating</a></li>          <li><a class="dropdown-item" href="playercard.html">National Player Card</a></li></ul></li></ul> </div>
 </div>
 <div id="gohome" style="position:fixed;top:10px;left:20px;padding: 5px;color:white;z-index:1000"><a href="/" style="width:24px;height:24px;color:white;display:block">
@@ -44,34 +44,34 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4">  FIDE rating variation at round 6</h3>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4">  FIDE rating variation at round 7</h3>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead> <tr> <th>#</th> <th>Player</th> <th>FIDE ID</th> <th>Fed</th> <th>Rtg</th>  <th>Ng</th> <th>Pts</th> <th>ARO</th> <th>var</th> <th>Rp</th> </tr></thead><tbody><tr> 
-<td>1</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267849" target="X">Nguyen,Anh Kiet</a></td> <td>3267849</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1168</td><td> 5</td> <td> 5.0</td> <td> 781</td> <td>+0.51</td> <td>1581</td></tr>
+<td>1</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267849" target="X">Nguyen,Anh Kiet</a></td> <td>3267849</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1168</td><td> 6</td> <td> 5.5</td> <td> 812</td> <td>+0.25</td> <td>1213</td></tr>
 <tr> 
 <td>2</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3265277" target="X">Wei,Andrew</a></td> <td>3265277</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1087</td><td> 2</td> <td> 2.0</td> <td> 490</td> <td>+0.16</td> <td>1290</td></tr>
 <tr> 
-<td>3</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275221" target="X">Ramanathan,Ashwin</a></td> <td>3275221</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>965</td><td> 6</td> <td> 4.5</td> <td> 606</td> <td>-0.48</td> <td> 799</td></tr>
+<td>3</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275221" target="X">Ramanathan,Ashwin</a></td> <td>3275221</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>965</td><td> 7</td> <td> 5.0</td> <td> 686</td> <td>-0.22</td> <td> 844</td></tr>
 <tr> 
-<td>5</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3260062" target="X">Majety,Rohan</a></td> <td>3260062</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>859</td><td> 4</td> <td> 2.0</td> <td> 875</td> <td>+0.10</td> <td> 875</td></tr>
+<td>5</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3260062" target="X">Majety,Rohan</a></td> <td>3260062</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>859</td><td> 5</td> <td> 2.0</td> <td> 833</td> <td>-0.65</td> <td> 761</td></tr>
 <tr> 
 <td>6</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275108" target="X">Ashok,Arjun</a></td> <td>3275108</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>836</td><td> 4</td> <td> 3.0</td> <td> 867</td> <td>+1.10</td> <td>1060</td></tr>
 <tr> 
-<td>7</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3260054" target="X">Kothari,Sumay</a></td> <td>3260054</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>793</td><td> 5</td> <td> 3.0</td> <td> 657</td> <td>-0.05</td> <td> 729</td></tr>
+<td>7</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3260054" target="X">Kothari,Sumay</a></td> <td>3260054</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>793</td><td> 6</td> <td> 4.0</td> <td> 673</td> <td>+0.39</td> <td> 798</td></tr>
 <tr> 
-<td>8</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3270335" target="X">Nguyen,Tuan Kiet</a></td> <td>3270335</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>753</td><td> 5</td> <td> 2.5</td> <td> 645</td> <td>-0.56</td> <td> 645</td></tr>
+<td>8</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3270335" target="X">Nguyen,Tuan Kiet</a></td> <td>3270335</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>753</td><td> 6</td> <td> 2.5</td> <td> 670</td> <td>-1.00</td> <td> 613</td></tr>
 <tr> 
-<td>9</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Morris,Elijah</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>688</td><td> 4</td> <td> 2.0</td> <td> 716</td> <td>+0.07</td> <td> 716</td></tr>
+<td>9</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Morris,Elijah</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>688</td><td> 5</td> <td> 2.5</td> <td> 673</td> <td>-0.17</td> <td> 673</td></tr>
 <tr> 
-<td>10</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Huang,Michael</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>665</td><td> 3</td> <td> 1.0</td> <td> 878</td> <td>+0.05</td> <td> 753</td></tr>
+<td>10</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Huang,Michael</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>665</td><td> 4</td> <td> 2.0</td> <td> 873</td> <td>+0.80</td> <td> 873</td></tr>
 <tr> 
 <td>11</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Husain,Lamiah</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>532</td><td> 3</td> <td> 1.5</td> <td> 692</td> <td>+0.45</td> <td> 692</td></tr>
 <tr> 
-<td>12</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Rai,Ishaan</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>531</td><td> 5</td> <td> 2.0</td> <td> 611</td> <td>-0.15</td> <td> 539</td></tr>
+<td>12</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Rai,Ishaan</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>531</td><td> 6</td> <td> 3.0</td> <td> 552</td> <td>+0.02</td> <td> 552</td></tr>
 <tr> 
 <td>13</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Ruaya,Rohan</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>524</td><td> 3</td> <td> 0.0</td> <td> 573</td> <td>-1.30</td> <td>-225</td></tr>
 <tr> 
-<td>14</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3264696" target="X">Bo,Jeremie</a></td> <td>3264696</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>501</td><td> 5</td> <td> 3.0</td> <td> 531</td> <td>+0.68</td> <td> 603</td></tr>
+<td>14</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3264696" target="X">Bo,Jeremie</a></td> <td>3264696</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>501</td><td> 6</td> <td> 3.5</td> <td> 557</td> <td>+0.92</td> <td> 614</td></tr>
 <tr> 
 <td>15</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Das,Ayush</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>416</td><td> 5</td> <td> 1.5</td> <td> 454</td> <td>-0.77</td> <td> 305</td></tr>
 <tr> 
@@ -79,15 +79,15 @@
 <tr> 
 <td>17</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Chan,Abby</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>292</td><td> 4</td> <td> 1.0</td> <td> 627</td> <td>-0.04</td> <td> 434</td></tr>
 <tr> 
-<td>18</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3264688" target="X">Bo,Jamie</a></td> <td>3264688</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>256</td><td> 3</td> <td> 1.0</td> <td> 627</td> <td>+0.43</td> <td> 502</td></tr>
+<td>18</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3264688" target="X">Bo,Jamie</a></td> <td>3264688</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>256</td><td> 4</td> <td> 1.0</td> <td> 603</td> <td>+0.26</td> <td> 410</td></tr>
 <tr> 
 <td>19</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Bodke,Aryan</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>253</td><td> 4</td> <td> 0.0</td> <td> 504</td> <td>-1.00</td> <td>-295</td></tr>
 <tr> 
 <td>20</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Balamurugan,Soorya</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 4</td> <td> 0.0</td> <td> 659</td> <td>+0.00</td> <td>-141</td></tr>
 <tr> 
-<td>21</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3259030" target="X">Bodke,Sahasra</a></td> <td>3259030</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 4</td> <td> 1.0</td> <td> 518</td> <td>+0.00</td> <td> 325</td></tr>
+<td>21</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3259030" target="X">Bodke,Sahasra</a></td> <td>3259030</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 5</td> <td> 1.0</td> <td> 519</td> <td>+0.00</td> <td> 279</td></tr>
 <tr> 
-<td>22</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Chen,Andrew</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 4</td> <td> 0.0</td> <td> 672</td> <td>+0.00</td> <td>-128</td></tr>
+<td>22</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Chen,Andrew</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 5</td> <td> 0.0</td> <td> 596</td> <td>+0.00</td> <td>-204</td></tr>
 <tr> 
 <td>23</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Fang,Candice</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 2</td> <td> 0.0</td> <td> 412</td> <td>+0.00</td> <td>-388</td></tr>
 <tr> 
@@ -97,7 +97,7 @@
 <tr> 
 <td>26</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Kothari,Gauanshi</a></td> <td>0</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td> 253</td> <td>+0.00</td> <td>-547</td></tr>
 <tr> 
-<td>27</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Manoj,Dev</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 2</td> <td> 0.5</td> <td> 503</td> <td>+0.00</td> <td> 310</td></tr>
+<td>27</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Manoj,Dev</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 3</td> <td> 1.5</td> <td> 468</td> <td>+0.00</td> <td> 468</td></tr>
 <tr> 
 <td>28</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Vijayakumar,Rithvik</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 4</td> <td> 2.0</td> <td> 539</td> <td>+0.00</td> <td> 539</td></tr>
 </tbody>
@@ -111,7 +111,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Casey Goh - AUS)
+                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Hobsons Bay Chess Club - AUS)
       </p></div>  </div>  </div> </div> 
    </footer>
      </div>
