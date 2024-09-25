@@ -46,8 +46,7 @@
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th> Pos </th> <th> Name </th><th>Points</th></tr></thead> <tbody>
 <tr> <td>1</td> <td><a href="#VIC">VIC</a></td> <td>6.5</td> </tr>
-<tr> <td>2</td> <td><a href="#AUS">AUS</a></td> <td>1.5</td> </tr>
-<tr> <td>3</td> <td><a href="# VIC"> VIC</a></td> <td>1.5</td> </tr>
+<tr> <td>2</td> <td><a href="# VIC"> VIC</a></td> <td>1.5</td> </tr>
 </tbody>
 </table><hr>
 <a name="VIC"></a><h2>VIC</h2>
@@ -64,6 +63,7 @@
 <tr>  <td>8</td><td><img class="shadow" src="flag/vic.png"></td><td class="name">  <a href="playercard.php#17">  Chan,Abby </a> </td><td>(2.0)</td><td>17</td>  <td class="result">1 - 0</td><td>22</td><td>(2.0)</td><td class="name"> <a href="playercard.php#22">  Chen,Andrew </a></td><td><img class="shadow" src="flag/vic.png"></td></tr>
 <tr>  <td>9</td><td><img class="shadow" src="flag/vic.png"></td><td class="name">  <a href="playercard.php#19">  Bodke,Aryan </a> </td><td>(1.5)</td><td>19</td>  <td class="result">1F-0F</td><td>23</td><td>(2.0)</td><td class="name"> <a href="playercard.php#23">  Fang,Candice </a></td><td><img class="shadow" src="flag/vic.png"></td></tr>
 <tr>  <td>10</td><td><img class="shadow" src="flag/vic.png"></td><td class="name">  <a href="playercard.php#20">  Balamurugan,Soorya </a> </td><td>(2.0)</td><td>20</td>  <td class="result">1 - 0</td><td>25</td><td>(1.5)</td><td class="name"> <a href="playercard.php#25">  Goh,Julian </a></td><td><img class="shadow" src="flag/vic.png"></td></tr>
+<tr>  <td>11</td><td><img class="shadow" src="flag/ vic.png"></td><td class="name">  <a href="playercard.php#24">  Goh,Daphne </a> </td><td>(0.5)</td><td>24</td>  <td class="result">1 - 0</td><td>26</td><td>(1.5)</td><td class="name"> <a href="playercard.php#26">  Kothari,Gauanshi </a></td><td><img class="shadow" src="flag/vic.png"></td></tr>
 <tr>  <td>12</td><td><img class="shadow" src="flag/vic.png"></td><td class="name">  <a href="playercard.php#2">  Wei,Andrew </a> </td><td>(3.0)</td><td>2</td>  <td class="result">0    </td><td>0</td><td>(0.0)</td><td class="name"> <a href="playercard.php#0">  BYE </a></td><td></td></tr>
 <tr>  <td>13</td><td><img class="shadow" src="flag/vic.png"></td><td class="name">  <a href="playercard.php#6">  Ashok,Arjun </a> </td><td>(5.0)</td><td>6</td>  <td class="result">0    </td><td>0</td><td>(0.0)</td><td class="name"> <a href="playercard.php#0">  BYE </a></td><td></td></tr>
 <tr>  <td>14</td><td><img class="shadow" src="flag/vic.png"></td><td class="name">  <a href="playercard.php#11">  Husain,Lamiah </a> </td><td>(2.5)</td><td>11</td>  <td class="result">0    </td><td>0</td><td>(0.0)</td><td class="name"> <a href="playercard.php#0">  BYE </a></td><td></td></tr>
@@ -128,20 +128,7 @@
 </tr> 
 <tr> <td>26</td> <td>25</td> <td>   </td> <td> <a href="playercard.php#25"> Goh,Julian </a></td> <td >   0</td> <td > 245</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.5</td> <td>   20.0 </td><td>   18.5 </td><td>   2.25 </td>
 </tr> 
-</tbody>
-</table><hr>
-<a name="AUS"></a><h2>AUS</h2>
-<table class="table caption-top table-striped "> 
-<caption> Pairing</caption>
-<thead><tr><th>Bo.</th><th></th><th>White Player</th> <th>Pts</th><th>NW</th><th>Result</th><th>NB</th><th>Pts</th><th>Black Player</th><th></th></tr></thead><tbody>
-<tr>  <td>11</td><td><img class="shadow" src="flag/ vic.png"></td><td class="name">  <a href="playercard.php#24">  Goh,Daphne </a> </td><td>(0.5)</td><td>24</td>  <td class="result">1 - 0</td><td>26</td><td>(1.5)</td><td class="name"> <a href="playercard.php#26">  Kothari,Gauanshi </a></td><td><img class="shadow" src="flag/aus.png"></td></tr>
-</tbody>
-</table>
-<table class="table caption-top table-striped "> 
-<caption> Standings</caption>
-<thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th>Rtg</th> <th>PRtg</th> <th>Fed</th><th>Origin</th><th>Pts</th> <th>     BH </th><th>  BH-C1 </th><th>     SB </th>
- </tr></thead> <tbody>
-<tr> <td>28</td> <td>26</td> <td>   </td> <td> <a href="playercard.php#26"> Kothari,Gauanshi </a></td> <td >   0</td> <td > 371</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 1.5</td> <td>   17.0 </td><td>   15.5 </td><td>   2.25 </td>
+<tr> <td>28</td> <td>26</td> <td>   </td> <td> <a href="playercard.php#26"> Kothari,Gauanshi </a></td> <td >   0</td> <td > 371</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.5</td> <td>   17.0 </td><td>   15.5 </td><td>   2.25 </td>
 </tr> 
 </tbody>
 </table><hr>
@@ -149,7 +136,7 @@
 <table class="table caption-top table-striped "> 
 <caption> Pairing</caption>
 <thead><tr><th>Bo.</th><th></th><th>White Player</th> <th>Pts</th><th>NW</th><th>Result</th><th>NB</th><th>Pts</th><th>Black Player</th><th></th></tr></thead><tbody>
-<tr>  <td>11</td><td><img class="shadow" src="flag/ vic.png"></td><td class="name">  <a href="playercard.php#24">  Goh,Daphne </a> </td><td>(0.5)</td><td>24</td>  <td class="result">1 - 0</td><td>26</td><td>(1.5)</td><td class="name"> <a href="playercard.php#26">  Kothari,Gauanshi </a></td><td><img class="shadow" src="flag/aus.png"></td></tr>
+<tr>  <td>11</td><td><img class="shadow" src="flag/ vic.png"></td><td class="name">  <a href="playercard.php#24">  Goh,Daphne </a> </td><td>(0.5)</td><td>24</td>  <td class="result">1 - 0</td><td>26</td><td>(1.5)</td><td class="name"> <a href="playercard.php#26">  Kothari,Gauanshi </a></td><td><img class="shadow" src="flag/vic.png"></td></tr>
 </tbody>
 </table>
 <table class="table caption-top table-striped "> 

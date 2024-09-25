@@ -74,7 +74,7 @@
 <tr> 
 <td><span class="idn"> 11</span></td><td> <span class="notitle female"> </span> Husain,Lamiah </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>532</td><td>532</td><td>532</td> </tr>
 <tr> 
-<td><span class="idn"> 26</span></td><td> <span class="notitle female"> </span> Kothari,Gauanshi </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 26</span></td><td> <span class="notitle female"> </span> Kothari,Gauanshi </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 7</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3260054" target="X"> Kothari,Sumay </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>793</td><td>793</td><td>793</td> </tr>
 <tr> 

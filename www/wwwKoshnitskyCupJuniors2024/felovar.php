@@ -92,7 +92,7 @@
 <tr> 
 <td>25</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Goh,Julian</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 2</td> <td> 0.0</td> <td> 513</td> <td>+0.00</td> <td>-286</td></tr>
 <tr> 
-<td>26</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Kothari,Gauanshi</a></td> <td>0</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td> 253</td> <td>+0.00</td> <td>-547</td></tr>
+<td>26</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Kothari,Gauanshi</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td> 253</td> <td>+0.00</td> <td>-547</td></tr>
 <tr> 
 <td>27</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Manoj,Dev</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 3</td> <td> 1.5</td> <td> 468</td> <td>+0.00</td> <td> 468</td></tr>
 <tr> 

@@ -129,7 +129,7 @@
 </tr> 
 <tr> <td>27</td> <td>24</td> <td>   </td> <td> <a href="playercard.php#24"> Goh,Daphne </a></td> <td >   0</td> <td > 923</td><td ><img class="shadow" src="flag/ vic.png" alt=" VIC"></td> <td></td> <td class="score"> 1.5</td> <td>   18.0 </td><td>   16.5 </td><td>   2.25 </td>
 </tr> 
-<tr> <td>28</td> <td>26</td> <td>   </td> <td> <a href="playercard.php#26"> Kothari,Gauanshi </a></td> <td >   0</td> <td > 371</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 1.5</td> <td>   17.0 </td><td>   15.5 </td><td>   2.25 </td>
+<tr> <td>28</td> <td>26</td> <td>   </td> <td> <a href="playercard.php#26"> Kothari,Gauanshi </a></td> <td >   0</td> <td > 371</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.5</td> <td>   17.0 </td><td>   15.5 </td><td>   2.25 </td>
 </tr> 
 </tbody>
 </table><hr>

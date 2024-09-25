@@ -99,7 +99,7 @@
 </tr> 
 <tr> <td>27</td><td><span class="idn"> 24 </span> <span class="notitle female"> </span> <a href="playercard.php#24"> Goh,Daphne</a> </td><td>0</td><td ><img src="flag/ vic.png" alt=" VIC"></td><td class="score"> 1.5</td><td>   18.0 </td><td>   16.5 </td><td>   2.25 </td>
 </tr> 
-<tr> <td>28</td><td><span class="idn"> 26 </span> <span class="notitle female"> </span> <a href="playercard.php#26"> Kothari,Gauanshi</a> </td><td>0</td><td ><img src="flag/aus.png" alt="AUS"></td><td class="score"> 1.5</td><td>   17.0 </td><td>   15.5 </td><td>   2.25 </td>
+<tr> <td>28</td><td><span class="idn"> 26 </span> <span class="notitle female"> </span> <a href="playercard.php#26"> Kothari,Gauanshi</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.5</td><td>   17.0 </td><td>   15.5 </td><td>   2.25 </td>
 </tr> 
 </tbody>
 <tfoot><tr><td colspan="7">Tie Break legend:<br>
