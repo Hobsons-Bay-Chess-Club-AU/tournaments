@@ -54,10 +54,10 @@
 <h4>Pairing of round 2, at 19:30 of 15/10/2024</h4>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#8"> Lacson,Joemar</a> </td><td>8</td> <td class="result"> adj </td><td>5</td><td class="name"> <a href="playercard.php#5"> Hogg,Dean</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#6"> Nowak,Ruben</a> </td><td>6</td> <td class="result"> adj </td><td>4</td><td class="name"> <a href="playercard.php#4">CM Davis,Tony J</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#7"> Annapureddy,Rheyansh Reddy</a> </td><td>7</td> <td class="result"> adj </td><td>3</td><td class="name"> <a href="playercard.php#3"> Lingineni,Khushal</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#1"> Picone,James</a> </td><td>1</td> <td class="result"> adj </td><td>2</td><td class="name"> <a href="playercard.php#2"> Salanowski,Mark</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#8"> Lacson,Joemar</a> </td><td>8</td> <td class="result">0 - 1</td><td>5</td><td class="name"> <a href="playercard.php#5"> Hogg,Dean</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#6"> Nowak,Ruben</a> </td><td>6</td> <td class="result">0 - 1</td><td>4</td><td class="name"> <a href="playercard.php#4">CM Davis,Tony J</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#7"> Annapureddy,Rheyansh Reddy</a> </td><td>7</td> <td class="result">0 - 1</td><td>3</td><td class="name"> <a href="playercard.php#3"> Lingineni,Khushal</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#1"> Picone,James</a> </td><td>1</td> <td class="result">0 - 1</td><td>2</td><td class="name"> <a href="playercard.php#2"> Salanowski,Mark</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
 <h4>Pairing of round 3, at 19:30 of 22/10/2024</h4>
