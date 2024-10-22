@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Players</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs3.php" >Pairings</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs4.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
@@ -45,7 +45,7 @@
 <input type="hidden" id="viewerpath" value="/vega.html">
 <input type="hidden" id="gamepath" value="">
 <input type="hidden" id="gamename" value="Reserves championship 2024">
-<iframe id="myframe" align=center src="http:///vega.html?pgnFile=/Reserves championship 20243.pgn"  width=430 height=680 frameborder=0></iframe>		  </div>
+<iframe id="myframe" align=center src="http:///vega.html?pgnFile=/Reserves championship 20244.pgn"  width=430 height=680 frameborder=0></iframe>		  </div>
 		      </div>
          <div class="d-none d-lg-block col-1 pe-0">
            <div class="d-flex flex-column w-full overflow-hidden">

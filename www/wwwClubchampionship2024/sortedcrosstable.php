@@ -45,21 +45,21 @@
 <div class="table-responsive"><table class="table table-striped"> 
 <thead><tr><th>Pos</th><th>#</th><th >NAME</th> <th>Rtg</th><th>Fed</th><th>Pts</th>
 <th> 1 </th><th> 2 </th><th> 3 </th><th> 4 </th><th> 5 </th><th> 6 </th><th> 7 </th><th> 8 </th></tr></thead> <tbody>
-<tr> <td>1</td><td>5</td><td> <a href="playercard.php#5"> Hogg,Dean</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td class=hole> </td><td> a  </td><td> 1  </td><td> a  </td><td> a  </td><td> a  </td><td> 1  </td><td> a  </td>
+<tr> <td>1</td><td>5</td><td> <a href="playercard.php#5"> Hogg,Dean</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td class=hole> </td><td> a  </td><td> a  </td><td> a  </td><td> 1  </td><td> 1  </td><td> 1  </td><td> a  </td>
 </tr>
-<tr> <td>2</td><td>3</td><td> <a href="playercard.php#3"> Lingineni,Khushal</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td> a  </td><td class=hole> </td><td> a  </td><td> 0  </td><td> 1  </td><td> a  </td><td> a  </td><td> a  </td>
+<tr> <td>2</td><td>3</td><td> <a href="playercard.php#3"> Lingineni,Khushal</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td> a  </td><td class=hole> </td><td> 1  </td><td> a  </td><td> a  </td><td> a  </td><td> 0  </td><td> 1  </td>
 </tr>
-<tr> <td>3</td><td>4</td><td> <a href="playercard.php#4">CM Davis,Tony J</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td> 0  </td><td> a  </td><td class=hole> </td><td> 1  </td><td> a  </td><td> a  </td><td> a  </td><td> a  </td>
+<tr> <td>3</td><td>7</td><td> <a href="playercard.php#7"> Annapureddy,Rheyansh Reddy</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td> a  </td><td> 0  </td><td class=hole> </td><td> 1  </td><td> a  </td><td> 1  </td><td> a  </td><td> a  </td>
 </tr>
-<tr> <td>4</td><td>6</td><td> <a href="playercard.php#6"> Nowak,Ruben</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td> a  </td><td> 1  </td><td> 0  </td><td class=hole> </td><td> a  </td><td> a  </td><td> a  </td><td> a  </td>
+<tr> <td>4</td><td>2</td><td> <a href="playercard.php#2"> Salanowski,Mark</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.5</td><td> a  </td><td> a  </td><td> 0  </td><td class=hole> </td><td> ½ </td><td> a  </td><td> a  </td><td> 1  </td>
 </tr>
-<tr> <td>5</td><td>7</td><td> <a href="playercard.php#7"> Annapureddy,Rheyansh Reddy</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td> a  </td><td> 0  </td><td> a  </td><td> a  </td><td class=hole> </td><td> 1  </td><td> a  </td><td> a  </td>
+<tr> <td>5</td><td>8</td><td> <a href="playercard.php#8"> Lacson,Joemar</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.5</td><td> 0  </td><td> a  </td><td> a  </td><td> ½ </td><td class=hole> </td><td> a  </td><td> a  </td><td> 1  </td>
 </tr>
-<tr> <td>6</td><td>2</td><td> <a href="playercard.php#2"> Salanowski,Mark</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td> a  </td><td> a  </td><td> a  </td><td> a  </td><td> 0  </td><td class=hole> </td><td> a  </td><td> 1  </td>
+<tr> <td>6</td><td>4</td><td> <a href="playercard.php#4">CM Davis,Tony J</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td> 0  </td><td> a  </td><td> 0  </td><td> a  </td><td> a  </td><td class=hole> </td><td> 1  </td><td> a  </td>
 </tr>
-<tr> <td>7</td><td>8</td><td> <a href="playercard.php#8"> Lacson,Joemar</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td> 0  </td><td> a  </td><td> a  </td><td> a  </td><td> a  </td><td> a  </td><td class=hole> </td><td> 1  </td>
+<tr> <td>7</td><td>6</td><td> <a href="playercard.php#6"> Nowak,Ruben</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td> 0  </td><td> 1  </td><td> a  </td><td> a  </td><td> a  </td><td> 0  </td><td class=hole> </td><td> a  </td>
 </tr>
-<tr> <td>8</td><td>1</td><td> <a href="playercard.php#1"> Picone,James</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td> a  </td><td> a  </td><td> a  </td><td> a  </td><td> a  </td><td> 0  </td><td> 0  </td><td class=hole> </td>
+<tr> <td>8</td><td>1</td><td> <a href="playercard.php#1"> Picone,James</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td> a  </td><td> 0  </td><td> a  </td><td> 0  </td><td> 0  </td><td> a  </td><td> a  </td><td class=hole> </td>
 </tr>
 </tbody>
 </table></div>
