@@ -112,6 +112,8 @@
 <tr> 
 <td><span class="idn"> 34</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3264017" target="X"> Dhar,Shubham </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>458</td> </tr>
 <tr> 
+<td><span class="idn"> 37</span></td><td> <span class="notitle male"> </span> Kahoun,Peter </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
 <td><span class="idn"> 35</span></td><td> <span class="notitle male"> </span> Singh,Simran </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 36</span></td><td> <span class="notitle male"> </span> Siviour,James </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>

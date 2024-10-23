@@ -101,21 +101,23 @@
 </tr> 
 <tr> <td>28</td><td><span class="idn"> 20 </span> <span class="notitle male"> </span> <a href="playercard.php#20"> Clerk,Max</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    3.5 </td><td>    3.5 </td>
 </tr> 
-<tr> <td>29</td><td><span class="idn"> 26 </span> <span class="notitle male"> </span> <a href="playercard.php#26"> Lugton,James</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    2.5 </td><td>    2.5 </td>
+<tr> <td>29</td><td><span class="idn"> 37 </span> <span class="notitle male"> </span> <a href="playercard.php#37"> Kahoun,Peter</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    3.0 </td><td>    2.0 </td>
 </tr> 
-<tr> <td>30</td><td><span class="idn"> 33 </span> <span class="notitle male"> </span> <a href="playercard.php#33"> Singh,Abhyuday</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    2.5 </td><td>    2.5 </td>
+<tr> <td>30</td><td><span class="idn"> 26 </span> <span class="notitle male"> </span> <a href="playercard.php#26"> Lugton,James</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    2.5 </td><td>    2.5 </td>
 </tr> 
-<tr> <td>31</td><td><span class="idn"> 15 </span> <span class="notitle male"> </span> <a href="playercard.php#15"> Richards,Derek</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    2.0 </td><td>    1.0 </td>
+<tr> <td>31</td><td><span class="idn"> 33 </span> <span class="notitle male"> </span> <a href="playercard.php#33"> Singh,Abhyuday</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    2.5 </td><td>    2.5 </td>
 </tr> 
-<tr> <td>32</td><td><span class="idn"> 29 </span> <span class="notitle male"> </span> <a href="playercard.php#29"> Nicdao,Joseph</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td>    4.0 </td><td>    3.5 </td>
+<tr> <td>32</td><td><span class="idn"> 15 </span> <span class="notitle male"> </span> <a href="playercard.php#15"> Richards,Derek</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    2.0 </td><td>    1.0 </td>
 </tr> 
-<tr> <td>33</td><td><span class="idn"> 28 </span> <span class="notitle female"> </span> <a href="playercard.php#28"> Santoso,Crystin</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    5.0 </td><td>    4.0 </td>
+<tr> <td>33</td><td><span class="idn"> 29 </span> <span class="notitle male"> </span> <a href="playercard.php#29"> Nicdao,Joseph</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td>    4.0 </td><td>    3.5 </td>
 </tr> 
-<tr> <td>34</td><td><span class="idn"> 31 </span> <span class="notitle female"> </span> <a href="playercard.php#31"> Menezes,Hazel Angelica</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    5.0 </td><td>    4.0 </td>
+<tr> <td>34</td><td><span class="idn"> 28 </span> <span class="notitle female"> </span> <a href="playercard.php#28"> Santoso,Crystin</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    5.0 </td><td>    4.0 </td>
 </tr> 
-<tr> <td>35</td><td><span class="idn"> 32 </span> <span class="notitle female"> </span> <a href="playercard.php#32"> Prince,Aliza</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    5.0 </td><td>    4.0 </td>
+<tr> <td>35</td><td><span class="idn"> 31 </span> <span class="notitle female"> </span> <a href="playercard.php#31"> Menezes,Hazel Angelica</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    5.0 </td><td>    4.0 </td>
 </tr> 
-<tr> <td>36</td><td><span class="idn"> 36 </span> <span class="notitle male"> </span> <a href="playercard.php#36"> Siviour,James</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    3.0 </td><td>    2.0 </td>
+<tr> <td>36</td><td><span class="idn"> 32 </span> <span class="notitle female"> </span> <a href="playercard.php#32"> Prince,Aliza</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    5.0 </td><td>    4.0 </td>
+</tr> 
+<tr> <td>37</td><td><span class="idn"> 36 </span> <span class="notitle male"> </span> <a href="playercard.php#36"> Siviour,James</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    3.0 </td><td>    2.0 </td>
 </tr> 
 </tbody>
 <tfoot><tr><td colspan="7">Tie Break legend:<br>
