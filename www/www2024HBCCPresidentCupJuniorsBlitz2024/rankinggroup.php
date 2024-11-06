@@ -47,7 +47,7 @@
 <thead><tr><th>Pos</th> <th>#</th> <th>Player</th> <th>Rtg</th><th>Fed</th><th>Pts</th><th>     BH </th><th>  BH-C1 </th><th>     SB </th>
 </tr> </THEAD><tbody>
 <tr> 
-<td>1</td><td>1</td><td> <span class="notitle female"> </span> <a href="playercard.php#1">Nguyen,Anh Kiet     </a> </td><td>1167</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 8.5</td><td>   51.5 </td><td>   47.5 </td><td>  48.75 </td>
+<td>1</td><td>1</td><td> <span class="notitle male"> </span> <a href="playercard.php#1">Nguyen,Anh Kiet     </a> </td><td>1167</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 8.5</td><td>   51.5 </td><td>   47.5 </td><td>  48.75 </td>
 </tr> 
 <tr> 
 <td>2</td><td>8</td><td> <span class="notitle male"> </span> <a href="playercard.php#8">Batyrbekov,Kaisar   </a> </td><td>742</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 7.0</td><td>   44.0 </td><td>   44.0 </td><td>  30.00 </td>

@@ -45,7 +45,7 @@
 <div class="table-responsive"><table class="table table-striped"> 
 <thead><tr><th>Pos</th> <th>Player</th> <th>Rtg</th> <th>Fed</th><th>Pts</th> <th>     BH </th><th>  BH-C1 </th><th>     SB </th>
  </tr></thead> <tbody>
-<tr> <td>1</td><td><span class="idn"> 1 </span> <span class="notitle female"> </span> <a href="playercard.php#1"> Nguyen,Anh Kiet</a> </td><td>1167</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 8.5</td><td>   51.5 </td><td>   47.5 </td><td>  48.75 </td>
+<tr> <td>1</td><td><span class="idn"> 1 </span> <span class="notitle male"> </span> <a href="playercard.php#1"> Nguyen,Anh Kiet</a> </td><td>1167</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 8.5</td><td>   51.5 </td><td>   47.5 </td><td>  48.75 </td>
 </tr> 
 <tr> <td>2</td><td><span class="idn"> 13 </span> <span class="notitle male"> </span> <a href="playercard.php#13"> Batyrbekov,Aidan</a> </td><td>563</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 7.0</td><td>   48.5 </td><td>   46.5 </td><td>  34.00 </td>
 </tr> 
