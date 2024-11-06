@@ -41,11 +41,9 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><div><script type="text/javascript" src="game.js"></script> </div>
-<input type="hidden" id="viewerpath" value="/vega.html">
-<input type="hidden" id="gamepath" value="">
-<input type="hidden" id="gamename" value="2024 HBCC President Cup Juniors Blitz 2024">
-<iframe id="myframe" align=center src="http:///vega.html?pgnFile=/2024 HBCC President Cup Juniors Blitz 20249.pgn"  width=430 height=680 frameborder=0></iframe>		  </div>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Player Groups by date at round 9 </h3>
+</DIV>
+		  </div>
 		      </div>
          <div class="d-none d-lg-block col-1 pe-0">
            <div class="d-flex flex-column w-full overflow-hidden">
