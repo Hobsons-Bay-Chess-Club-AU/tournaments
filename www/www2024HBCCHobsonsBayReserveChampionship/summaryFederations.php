@@ -46,6 +46,7 @@
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th> Pos </th> <th> Name </th><th>Points</th></tr></thead> <tbody>
 <tr> <td>1</td> <td><a href="#VIC">VIC</a></td> <td>4</td> </tr>
+<tr> <td>2</td> <td><a href="#AUS">AUS</a></td> <td>0</td> </tr>
 </tbody>
 </table><hr>
 <a name="VIC"></a><h2>VIC</h2>
@@ -101,6 +102,20 @@
 <tr> <td>21</td> <td>22</td> <td>   </td> <td> <a href="playercard.php#22"> Singh,Aradhya </a></td> <td >   0</td> <td >1127</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.5</td> <td>    8.0 </td><td>    7.5 </td><td>   1.25 </td>
 </tr> 
 <tr> <td>22</td> <td>13</td> <td>   </td> <td> <a href="playercard.php#13"> Goh,Daphne </a></td> <td >   0</td> <td > 438</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.0</td> <td>    7.0 </td><td>    6.0 </td><td>   0.00 </td>
+</tr> 
+</tbody>
+</table><hr>
+<a name="AUS"></a><h2>AUS</h2>
+<table class="table caption-top table-striped "> 
+<caption> Pairing</caption>
+<thead><tr><th>Bo.</th><th></th><th>White Player</th> <th>Pts</th><th>NW</th><th>Result</th><th>NB</th><th>Pts</th><th>Black Player</th><th></th></tr></thead><tbody>
+</tbody>
+</table>
+<table class="table caption-top table-striped "> 
+<caption> Standings</caption>
+<thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th>Rtg</th> <th>PRtg</th> <th>Fed</th><th>Origin</th><th>Pts</th> <th>     BH </th><th>  BH-C1 </th><th>     SB </th>
+ </tr></thead> <tbody>
+<tr> <td>23</td> <td>23</td> <td>   </td> <td> <a href="playercard.php#23"> Padoli,Darsh </a></td> <td >   0</td> <td >   0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 0.0</td> <td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
 </tbody>
 </table><hr>

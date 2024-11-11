@@ -73,6 +73,7 @@
 <tr> <td>17</td> <td>Kantharaju,Aryan </td><td>1</td></tr> 
 <tr> <td>22</td> <td>Singh,Aradhya </td><td>0.5</td></tr> 
 <tr> <td>13</td> <td>Goh,Daphne </td><td>0</td></tr> 
+<tr> <td>23</td> <td>Padoli,Darsh </td><td>0</td></tr> 
 </tbody>
 </table>
 <h5 class="mb-4 mt-4"> Best boards</h5>

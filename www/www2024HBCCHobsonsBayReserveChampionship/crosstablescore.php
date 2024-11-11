@@ -89,6 +89,8 @@
 <td>21</td><td><span class="notitle female"> </span> <a href="playercard.php#22">Singh,Aradhya                 </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td><div class="res">0</div><div class="cb">6   </div></td><td><div class="res">½</div><div class="cw">7   </div></td><td><div class="res">0</div><div class="cb">15  </div></td><td><div class="res">0</div><div class="cf">16  </div></td><td>    8.0 </td><td>    7.5 </td><td>   1.25 </td></tr>
 <tr> 
 <td>22</td><td><span class="notitle female"> </span> <a href="playercard.php#13">Goh,Daphne                    </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">4   </div></td><td><div class="res">0</div><div class="cw">20  </div></td><td><div class="res">0</div><div class="cb">16  </div></td><td><div class="res">0</div><div class="cb">17  </div></td><td>    7.0 </td><td>    6.0 </td><td>   0.00 </td></tr>
+<tr> 
+<td>23</td><td><span class="notitle male"> </span> <a href="playercard.php#23">Padoli,Darsh                  </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td> </td><td> </td><td> </td><td> </td><td>    0.0 </td><td>    0.0 </td><td>   0.00 </td></tr>
 </tbody>
 </table>
 </DIV>

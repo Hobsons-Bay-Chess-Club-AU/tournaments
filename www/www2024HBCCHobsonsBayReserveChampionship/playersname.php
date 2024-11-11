@@ -78,6 +78,8 @@
 <tr> 
 <td><span class="idn"> 1</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3270335" target="X"> Nguyen,Tuan Kiet </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>752</td><td>0</td><td>752</td> </tr>
 <tr> 
+<td><span class="idn"> 23</span></td><td> <span class="notitle male"> </span> Padoli,Darsh </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
 <td><span class="idn"> 6</span></td><td> <span class="notitle male"> </span> Pathiyassery,Emir </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>373</td><td>0</td><td>373</td> </tr>
 <tr> 
 <td><span class="idn"> 20</span></td><td> <span class="notitle male"> </span> Peddi,Aarush </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>

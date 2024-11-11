@@ -82,6 +82,8 @@
 <tr> 
 <td><span class="idn"> 19</span></td><td> <span class="notitle male"> </span> Naidu,Aarush </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
+<td><span class="idn"> 23</span></td><td> <span class="notitle male"> </span> Padoli,Darsh </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
 <td><span class="idn"> 20</span></td><td> <span class="notitle male"> </span> Peddi,Aarush </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 21</span></td><td> <span class="notitle male"> </span> Rawat,Pratyax </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
