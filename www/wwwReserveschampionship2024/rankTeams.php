@@ -85,9 +85,9 @@
 <tr> <td>27</td> <td>Nguyen,Tuan Kiet </td><td>1</td></tr> 
 <tr> <td>29</td> <td>Nicdao,Joseph </td><td>1</td></tr> 
 <tr> <td>32</td> <td>Prince,Aliza </td><td>1</td></tr> 
+<tr> <td>28</td> <td>Santoso,Crystin </td><td>1</td></tr> 
 <tr> <td>36</td> <td>Siviour,James </td><td>1</td></tr> 
 <tr> <td>37</td> <td>Kahoun,Peter </td><td>1</td></tr> 
-<tr> <td>28</td> <td>Santoso,Crystin </td><td>0.5</td></tr> 
 <tr> <td>38</td> <td>Liu,Tina </td><td>0</td></tr> 
 </tbody>
 </table>

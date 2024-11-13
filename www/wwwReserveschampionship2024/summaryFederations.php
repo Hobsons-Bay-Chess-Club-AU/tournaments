@@ -81,7 +81,7 @@
 </tr> 
 <tr> <td>12</td> <td>21</td> <td>   </td> <td> <a href="playercard.php#21"> Yang,Yifan </a></td> <td >   0</td> <td >1400</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 3.0</td> <td>   13.5 </td><td>   12.5 </td>
 </tr> 
-<tr> <td>13</td> <td>9</td> <td>   </td> <td> <a href="playercard.php#9"> Nguyen,Anh Kiet </a></td> <td >   0</td> <td >1400</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 3.0</td> <td>   12.5 </td><td>   12.0 </td>
+<tr> <td>13</td> <td>9</td> <td>   </td> <td> <a href="playercard.php#9"> Nguyen,Anh Kiet </a></td> <td >   0</td> <td >1400</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 3.0</td> <td>   13.0 </td><td>   12.0 </td>
 </tr> 
 <tr> <td>14</td> <td>8</td> <td>   </td> <td> <a href="playercard.php#8"> Hari,Dhruv </a></td> <td >   0</td> <td >1593</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 3.0</td> <td>   12.5 </td><td>    9.5 </td>
 </tr> 
@@ -103,7 +103,7 @@
 </tr> 
 <tr> <td>23</td> <td>26</td> <td>   </td> <td> <a href="playercard.php#26"> Lugton,James </a></td> <td >   0</td> <td >1400</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.0</td> <td>   12.0 </td><td>   10.0 </td>
 </tr> 
-<tr> <td>24</td> <td>33</td> <td>   </td> <td> <a href="playercard.php#33"> Singh,Abhyuday </a></td> <td >   0</td> <td >1328</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.0</td> <td>   10.5 </td><td>   10.0 </td>
+<tr> <td>24</td> <td>33</td> <td>   </td> <td> <a href="playercard.php#33"> Singh,Abhyuday </a></td> <td >   0</td> <td >1328</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.0</td> <td>   11.0 </td><td>   10.0 </td>
 </tr> 
 <tr> <td>25</td> <td>19</td> <td>   </td> <td> <a href="playercard.php#19"> Nawar,Mena </a></td> <td >   0</td> <td >1328</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.0</td> <td>   10.0 </td><td>    9.0 </td>
 </tr> 
@@ -115,21 +115,21 @@
 </tr> 
 <tr> <td>29</td> <td>22</td> <td>   </td> <td> <a href="playercard.php#22"> Dwyer,Lachlan </a></td> <td >   0</td> <td >1328</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.0</td> <td>    9.5 </td><td>    8.5 </td>
 </tr> 
-<tr> <td>30</td> <td>35</td> <td>   </td> <td> <a href="playercard.php#35"> Singh,Simran </a></td> <td >   0</td> <td >1525</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.0</td> <td>    8.5 </td><td>    6.5 </td>
+<tr> <td>30</td> <td>35</td> <td>   </td> <td> <a href="playercard.php#35"> Singh,Simran </a></td> <td >   0</td> <td >1525</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.0</td> <td>    9.0 </td><td>    7.0 </td>
 </tr> 
 <tr> <td>31</td> <td>30</td> <td>   </td> <td> <a href="playercard.php#30"> Karthick,Deepshika </a></td> <td >   0</td> <td >1400</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.5</td> <td>   10.5 </td><td>    9.0 </td>
 </tr> 
 <tr> <td>32</td> <td>27</td> <td>   </td> <td> <a href="playercard.php#27"> Nguyen,Tuan Kiet </a></td> <td >   0</td> <td >1160</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>   11.5 </td><td>   10.5 </td>
 </tr> 
-<tr> <td>33</td> <td>29</td> <td>   </td> <td> <a href="playercard.php#29"> Nicdao,Joseph </a></td> <td >   0</td> <td >1078</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>   11.0 </td><td>   10.0 </td>
+<tr> <td>33</td> <td>29</td> <td>   </td> <td> <a href="playercard.php#29"> Nicdao,Joseph </a></td> <td >   0</td> <td >1078</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>   11.5 </td><td>   10.5 </td>
 </tr> 
 <tr> <td>34</td> <td>32</td> <td>   </td> <td> <a href="playercard.php#32"> Prince,Aliza </a></td> <td >   0</td> <td >1160</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>   10.0 </td><td>   10.0 </td>
 </tr> 
-<tr> <td>35</td> <td>36</td> <td>   </td> <td> <a href="playercard.php#36"> Siviour,James </a></td> <td >   0</td> <td > 600</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    8.0 </td><td>    7.0 </td>
+<tr> <td>35</td> <td>28</td> <td>   </td> <td> <a href="playercard.php#28"> Santoso,Crystin </a></td> <td >   0</td> <td >1078</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    9.0 </td><td>    8.0 </td>
 </tr> 
-<tr> <td>36</td> <td>37</td> <td>   </td> <td> <a href="playercard.php#37"> Kahoun,Peter </a></td> <td >   0</td> <td > 600</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    7.5 </td><td>    6.5 </td>
+<tr> <td>36</td> <td>36</td> <td>   </td> <td> <a href="playercard.php#36"> Siviour,James </a></td> <td >   0</td> <td > 600</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    8.0 </td><td>    7.0 </td>
 </tr> 
-<tr> <td>37</td> <td>28</td> <td>   </td> <td> <a href="playercard.php#28"> Santoso,Crystin </a></td> <td >   0</td> <td >1078</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.5</td> <td>    8.5 </td><td>    8.0 </td>
+<tr> <td>37</td> <td>37</td> <td>   </td> <td> <a href="playercard.php#37"> Kahoun,Peter </a></td> <td >   0</td> <td > 600</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    7.5 </td><td>    6.5 </td>
 </tr> 
 <tr> <td>38</td> <td>38</td> <td>   </td> <td> <a href="playercard.php#38"> Liu,Tina </a></td> <td >   0</td> <td > 600</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.0</td> <td>    1.0 </td><td>    1.0 </td>
 </tr> 

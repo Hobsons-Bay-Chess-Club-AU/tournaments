@@ -229,7 +229,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>28</td> <td></td> <td> <a href="playercard.php#28"> Santoso,Crystin      </a>  <td>687</td>
-<td> 1.0</td> <td> 0.5</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>2</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
@@ -665,7 +665,7 @@
 <tr> <td>4</td> <td>W </td> <td>29</td> <td></td> <td> <a href="playercard.php#29"> Nicdao,Joseph        </a>  <td>667</td>
 <td> 0.5</td> <td> 1.0</td>
 </tr> 
-<tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+<tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -684,7 +684,7 @@
 <td> 0.0</td> <td> 3.5</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>28</td> <td></td> <td> <a href="playercard.php#28"> Santoso,Crystin      </a>  <td>687</td>
-<td> 0.5</td> <td> 0.5</td>
+<td> 0.5</td> <td> 1.0</td>
 </tr> 
 <tr> <td>5</td> <td> B</td> <td>19</td> <td></td> <td> <a href="playercard.php#19"> Nawar,Mena           </a>  <td>1184</td>
 <td> 0.0</td> <td> 2.0</td>
@@ -770,7 +770,7 @@
 <td> 0.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>28</td> <td></td> <td> <a href="playercard.php#28"> Santoso,Crystin      </a>  <td>687</td>
-<td> 1.0</td> <td> 0.5</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>22</td> <td></td> <td> <a href="playercard.php#22"> Dwyer,Lachlan        </a>  <td>1069</td>
 <td> 1.0</td> <td> 2.0</td>
@@ -812,7 +812,7 @@
 <td> 0.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>28</td> <td></td> <td> <a href="playercard.php#28"> Santoso,Crystin      </a>  <td>687</td>
-<td> 1.0</td> <td> 0.5</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>19</td> <td></td> <td> <a href="playercard.php#19"> Nawar,Mena           </a>  <td>1184</td>
 <td> 1.0</td> <td> 2.0</td>
