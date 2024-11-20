@@ -61,6 +61,7 @@
 <tr> <td>10</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 20 </span><span class="notitle male"> </span> <a href="playercard.php#20"> Peddi,Aarush</a> </td><td>0</td><td class="result">1 - 0</td><td>0</td><td class="name"><span class="idblack">13 </span><span class="notitle female"> </span> <a href="playercard.php#13"> Goh,Daphne</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 <tr> <td>11</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 5 </span><span class="notitle male"> </span> <a href="playercard.php#5"> Goh,Nicholas</a> </td><td>2</td><td class="result">½    </td><td>0</td><td class="name">( half point bye )</td><td></td></tr>
 <tr> <td>12</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 6 </span><span class="notitle male"> </span> <a href="playercard.php#6"> Pathiyassery,Emir</a> </td><td>1.5</td><td class="result">½    </td><td>0</td><td class="name">( half point bye )</td><td></td></tr>
+<tr> <td>13</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name"> <span class="idwhite"> 23 </span><span class="notitle male"> </span> <a href="playercard.php#23"> Padoli,Darsh</a> </td><td>0</td><td class="result">0    </td><td>0</td><td class="name">( not paired )</td><td></td></tr>
 </tbody>
 </table>
 </DIV><hr>
