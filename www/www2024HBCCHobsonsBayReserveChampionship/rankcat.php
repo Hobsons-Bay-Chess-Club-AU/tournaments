@@ -68,7 +68,7 @@
 <td>7</td><td>5</td><td></td><td> <a href="playercard.php#5">Goh,Nicholas        </a> </td><td>397</td><td>1016</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>   21.5 </td><td>   18.0 </td><td>   9.75 </td>
 </tr> 
 <tr> 
-<td>8</td><td>6</td><td></td><td> <a href="playercard.php#6">Pathiyassery,Emir   </a> </td><td>373</td><td>1143</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>   19.5 </td><td>   16.0 </td><td>   9.25 </td>
+<td>8</td><td>6</td><td></td><td> <a href="playercard.php#6">Pathiyassery,Emir(W)</a> </td><td>373</td><td>1143</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>   19.5 </td><td>   16.0 </td><td>   9.25 </td>
 </tr> 
 <tr> 
 <td>9</td><td>14</td><td></td><td> <a href="playercard.php#14">Goh,Julian          </a> </td><td>0</td><td>975</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>   16.5 </td><td>   15.0 </td><td>   7.75 </td>
