@@ -45,48 +45,48 @@
 <div class="table-responsive"><table class="table table-striped"> 
 <thead><tr><th> Pos </th> <th> Team Name </th><th>Points</th></tr></thead> <tbody>
 <tr>
-<td>1</td> <td></td> <td>18.5</td> </tr>
+<td>1</td> <td></td> <td>21.5</td> </tr>
 </tbody>
 </table>
 <h5 class="mb-4 mt-4"> Team composition</h5>
 <table class="table table-striped "> 
-<thead><tr><th>1</th> <th> </th><th>18.5</th></tr></thead><tbody> 
-<tr> <td>1</td> <td>Krishnan,Anirudh </td><td>5</td></tr> 
-<tr> <td>2</td> <td>Paul,Cijo </td><td>4.5</td></tr> 
+<thead><tr><th>1</th> <th> </th><th>21.5</th></tr></thead><tbody> 
+<tr> <td>1</td> <td>Krishnan,Anirudh </td><td>6</td></tr> 
+<tr> <td>7</td> <td>Pasukov,Leo </td><td>5.5</td></tr> 
+<tr> <td>2</td> <td>Paul,Cijo </td><td>5</td></tr> 
+<tr> <td>8</td> <td>Hari,Dhruv </td><td>5</td></tr> 
 <tr> <td>12</td> <td>Kirk,Ian </td><td>4.5</td></tr> 
-<tr> <td>7</td> <td>Pasukov,Leo </td><td>4.5</td></tr> 
 <tr> <td>5</td> <td>Enano,Ronald </td><td>4.5</td></tr> 
-<tr> <td>10</td> <td>Paul,Nikash </td><td>4</td></tr> 
-<tr> <td>13</td> <td>Bodke,Krishna </td><td>4</td></tr> 
-<tr> <td>6</td> <td>Hogan,Steven </td><td>4</td></tr> 
+<tr> <td>10</td> <td>Paul,Nikash </td><td>4.5</td></tr> 
+<tr> <td>6</td> <td>Hogan,Steven </td><td>4.5</td></tr> 
+<tr> <td>24</td> <td>Annapureddy,Dhruthin Reddy </td><td>4</td></tr> 
 <tr> <td>9</td> <td>Nguyen,Anh Kiet </td><td>4</td></tr> 
-<tr> <td>8</td> <td>Hari,Dhruv </td><td>4</td></tr> 
-<tr> <td>24</td> <td>Annapureddy,Dhruthin Reddy </td><td>3.5</td></tr> 
-<tr> <td>14</td> <td>Wilkinson,Greg </td><td>3.5</td></tr> 
-<tr> <td>4</td> <td>Whitford,Matthew </td><td>3</td></tr> 
-<tr> <td>17</td> <td>Condick,Peter </td><td>3</td></tr> 
-<tr> <td>11</td> <td>Matijas,Dejan </td><td>3</td></tr> 
-<tr> <td>34</td> <td>Dhar,Shubham </td><td>3</td></tr> 
+<tr> <td>4</td> <td>Whitford,Matthew </td><td>4</td></tr> 
+<tr> <td>34</td> <td>Dhar,Shubham </td><td>4</td></tr> 
+<tr> <td>13</td> <td>Bodke,Krishna </td><td>4</td></tr> 
+<tr> <td>14</td> <td>Wilkinson,Greg </td><td>4</td></tr> 
+<tr> <td>15</td> <td>Richards,Derek </td><td>4</td></tr> 
+<tr> <td>19</td> <td>Nawar,Mena </td><td>4</td></tr> 
+<tr> <td>17</td> <td>Condick,Peter </td><td>3.5</td></tr> 
+<tr> <td>11</td> <td>Matijas,Dejan </td><td>3.5</td></tr> 
+<tr> <td>21</td> <td>Yang,Yifan </td><td>3.5</td></tr> 
 <tr> <td>16</td> <td>Ramanathan,Ashwin </td><td>3</td></tr> 
-<tr> <td>21</td> <td>Yang,Yifan </td><td>3</td></tr> 
 <tr> <td>18</td> <td>Li,LiYuan </td><td>3</td></tr> 
+<tr> <td>31</td> <td>Menezes,Hazel Angelica </td><td>3</td></tr> 
 <tr> <td>33</td> <td>Singh,Abhyuday </td><td>3</td></tr> 
-<tr> <td>19</td> <td>Nawar,Mena </td><td>3</td></tr> 
-<tr> <td>15</td> <td>Richards,Derek </td><td>3</td></tr> 
+<tr> <td>22</td> <td>Dwyer,Lachlan </td><td>3</td></tr> 
 <tr> <td>3</td> <td>McIntyre,Julian </td><td>2.5</td></tr> 
+<tr> <td>26</td> <td>Lugton,James </td><td>2.5</td></tr> 
+<tr> <td>27</td> <td>Nguyen,Tuan Kiet </td><td>2.5</td></tr> 
 <tr> <td>30</td> <td>Karthick,Deepshika </td><td>2.5</td></tr> 
+<tr> <td>32</td> <td>Prince,Aliza </td><td>2.5</td></tr> 
 <tr> <td>23</td> <td>Kostakakis,Angelo </td><td>2.5</td></tr> 
-<tr> <td>26</td> <td>Lugton,James </td><td>2</td></tr> 
+<tr> <td>25</td> <td>Annadasu,Shreyansh </td><td>2.5</td></tr> 
 <tr> <td>29</td> <td>Nicdao,Joseph </td><td>2</td></tr> 
-<tr> <td>31</td> <td>Menezes,Hazel Angelica </td><td>2</td></tr> 
-<tr> <td>22</td> <td>Dwyer,Lachlan </td><td>2</td></tr> 
 <tr> <td>20</td> <td>Clerk,Max </td><td>2</td></tr> 
-<tr> <td>27</td> <td>Nguyen,Tuan Kiet </td><td>2</td></tr> 
-<tr> <td>25</td> <td>Annadasu,Shreyansh </td><td>2</td></tr> 
+<tr> <td>36</td> <td>Siviour,James </td><td>2</td></tr> 
+<tr> <td>28</td> <td>Santoso,Crystin </td><td>2</td></tr> 
 <tr> <td>35</td> <td>Singh,Simran </td><td>2</td></tr> 
-<tr> <td>28</td> <td>Santoso,Crystin </td><td>1.5</td></tr> 
-<tr> <td>32</td> <td>Prince,Aliza </td><td>1.5</td></tr> 
-<tr> <td>36</td> <td>Siviour,James </td><td>1</td></tr> 
 <tr> <td>37</td> <td>Kahoun,Peter </td><td>1</td></tr> 
 <tr> <td>38</td> <td>Liu,Tina </td><td>0</td></tr> 
 </tbody>
@@ -94,13 +94,13 @@
 <h5 class="mb-4 mt-4"> Best boards</h5>
 <table class="table table-striped "> 
 <thead><tr><th>Board 0</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Krishnan,Anirudh </td><td> </td><td>5</td></tr> 
+<tr> <td></td> <td>1 </td><td>Krishnan,Anirudh </td><td> </td><td>6</td></tr> 
 <thead><tr><th>Board 1</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Paul,Cijo </td><td> </td><td>4.5</td></tr> 
+<tr> <td></td> <td>1 </td><td>Pasukov,Leo </td><td> </td><td>5.5</td></tr> 
 <thead><tr><th>Board 2</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Kirk,Ian </td><td> </td><td>4.5</td></tr> 
+<tr> <td></td> <td>1 </td><td>Paul,Cijo </td><td> </td><td>5</td></tr> 
 <thead><tr><th>Board 3</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Pasukov,Leo </td><td> </td><td>4.5</td></tr> 
+<tr> <td></td> <td>1 </td><td>Hari,Dhruv </td><td> </td><td>5</td></tr> 
 </tbody>
 </table></div>
 		  </div>
