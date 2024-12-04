@@ -5,7 +5,7 @@
 <meta name="author" content="www.vegachess.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-<title>2024 HBCC Hobsons Bay Club Championship</title>
+<title>2024 HBCC Hobsons Bay Juniors Club Championship</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <link rel="stylesheet" href="stylenew.css" type="text/css" >
     </head>
@@ -122,7 +122,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>0</td><td class="result">0 - 1</td><td>3</td><td><div class="player-container" 
+</td><td>0</td><td class="result">1 - 0</td><td>3</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#5"></a> 
  <div class="player-name-box2">

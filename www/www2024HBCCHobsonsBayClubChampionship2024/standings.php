@@ -52,27 +52,9 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 7.0</td><td>   5.00 </td><td>  21.00 </td><td>    0   </td>
+</td><td></td><td class="score"> 7.0</td><td>   4.00 </td><td>  21.00 </td><td>    0   </td>
 </tr>
 <tr> <td>2</td><td><div class="player-container" 
-   <div class="left-box2">
-<a href="playercard.php#5"></a> 
- <div class="player-name-box2">
-			<span>Huang,Michael</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 5</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">537</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-</div>
-</td><td></td><td class="score"> 4.0</td><td>   3.00 </td><td>  11.50 </td><td>    0   </td>
-</tr>
-<tr> <td>3</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#4"></a> 
  <div class="player-name-box2">
@@ -88,9 +70,9 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 4.0</td><td>   2.00 </td><td>   9.50 </td><td>    0   </td>
+</td><td></td><td class="score"> 4.0</td><td>   2.00 </td><td>  10.50 </td><td>    0   </td>
 </tr>
-<tr> <td>4</td><td><div class="player-container" 
+<tr> <td>3</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#8"></a> 
  <div class="player-name-box2">
@@ -106,7 +88,25 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 4.0</td><td>   2.00 </td><td>   9.00 </td><td>    0   </td>
+</td><td></td><td class="score"> 4.0</td><td>   2.00 </td><td>  10.00 </td><td>    0   </td>
+</tr>
+<tr> <td>4</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#7"></a> 
+ <div class="player-name-box2">
+			<span>Ashok,Arjun</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 7</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">776</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td></td><td class="score"> 3.5</td><td>   1.50 </td><td>   8.75 </td><td>    0   </td>
 </tr>
 <tr> <td>5</td><td><div class="player-container" 
    <div class="left-box2">
@@ -124,25 +124,25 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 3.5</td><td>   1.50 </td><td>   7.75 </td><td>    0   </td>
+</td><td></td><td class="score"> 3.5</td><td>   0.50 </td><td>   7.75 </td><td>    0   </td>
 </tr>
 <tr> <td>6</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#7"></a> 
+<a href="playercard.php#5"></a> 
  <div class="player-name-box2">
-			<span>Ashok,Arjun</span>
+			<span>Huang,Michael</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 7</div> 
+			<div class="sort-num"> 5</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
-			<div class="rating">776</div>
+			<div class="rating">537</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 3.5</td><td>   1.50 </td><td>   7.75 </td><td>    0   </td>
+</td><td></td><td class="score"> 3.0</td><td>   3.00 </td><td>  11.50 </td><td>    0   </td>
 </tr>
 <tr> <td>7</td><td><div class="player-container" 
    <div class="left-box2">
@@ -160,7 +160,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 2.0</td><td>   1.00 </td><td>   4.00 </td><td>    0   </td>
+</td><td></td><td class="score"> 2.0</td><td>   0.00 </td><td>   4.00 </td><td>    0   </td>
 </tr>
 <tr> <td>8</td><td><div class="player-container" 
    <div class="left-box2">
@@ -178,7 +178,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 0.0</td><td>   0.00 </td><td>   0.00 </td><td>    0   </td>
+</td><td></td><td class="score"> 1.0</td><td>   0.00 </td><td>   3.00 </td><td>    0   </td>
 </tr>
 </tbody>
 <tfoot><tr><td colspan="5">Tie Break legend:<br>     KS  :  Koya System * <br>
