@@ -56,7 +56,7 @@
 <tr> 
 <td><span class="idn"> 4</span></td><td> <span class="notitle male"> </span> Das,Ayush </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>416</td><td>0</td><td>416</td> </tr>
 <tr> 
-<td><span class="idn"> 12</span></td><td> <span class="notitle male"> </span> Fang,Candice </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 12</span></td><td> <span class="notitle female"> </span> Fang,Candice </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 13</span></td><td> <span class="notitle female"> </span> Goh,Daphne </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 

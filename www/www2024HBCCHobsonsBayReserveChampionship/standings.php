@@ -73,7 +73,7 @@
 </tr> 
 <tr> <td>14</td><td><span class="idn"> 7 </span> <span class="notitle female"> </span> <a href="playercard.php#7"> Chan,Abby</a> </td><td>292</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   27.0 </td><td>   26.0 </td><td>   7.00 </td>
 </tr> 
-<tr> <td>15</td><td><span class="idn"> 12 </span> <span class="notitle male"> </span> <a href="playercard.php#12"> Fang,Candice</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   25.5 </td><td>   22.5 </td><td>   9.00 </td>
+<tr> <td>15</td><td><span class="idn"> 12 </span> <span class="notitle female"> </span> <a href="playercard.php#12"> Fang,Candice</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   25.5 </td><td>   22.5 </td><td>   9.00 </td>
 </tr> 
 <tr> <td>16</td><td><span class="idn"> 4 </span> <span class="notitle male"> </span> <a href="playercard.php#4"> Das,Ayush</a> </td><td>416</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   22.5 </td><td>   21.5 </td><td>   7.00 </td>
 </tr> 
