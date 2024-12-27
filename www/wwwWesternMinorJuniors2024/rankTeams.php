@@ -52,23 +52,23 @@
 <table class="table table-striped "> 
 <thead><tr><th>1</th> <th> </th><th>16</th></tr></thead><tbody> 
 <tr> <td>7</td> <td>Ashwin,Aswin </td><td>5</td></tr> 
+<tr> <td>4</td> <td>Husain,Lamiah </td>"> Team ranking based on 4 best players of each team</h3>
+<div class="table-responsive"><table class="table table-striped"> 
+<thead><tr><th> Pos </th> <th> Team Name </th><th>Points</th></tr></thead> <tbody>
+<tr>
+<td>1</td> <td></td> <td>16</td> </tr>
+</tbody>
+</table>
+<h5 class="mb-4 mt-4"> Team composition</h5>
+<table class="table table-striped "> 
+<thead><tr><th>1</th> <th> </th><th>16</th></tr></thead><tbody> 
+<tr> <td>7</td> <td>Ashwin,Aswin </td><td>5</td></tr> 
 <tr> <td>4</td> <td>Husain,Lamiah </td><td>4</td></tr> 
 <tr> <td>9</td> <td>Jagannathan,Shashvath </td><td>4</td></tr> 
 <tr> <td>3</td> <td>Chan,Abby </td><td>3</td></tr> 
 <tr> <td>6</td> <td>Ashok,Arjun </td><td>3</td></tr> 
 <tr> <td>10</td> <td>Luan,William </td><td>3</td></tr> 
-<tr> <td>8</td> <td>Bodke,Aryan </td><td>2.5</td></tr> 
-<tr> <td>13</td> <td>Singh,Abhyuday </td><td>2</td></tr> 
-<tr> <td>1</td> <td>Bo,Jeremie </td><td>2</td></tr> 
-<tr> <td>12</td> <td>Shenbaga,Kabilan </td><td>2</td></tr> 
-<tr> <td>5</td> <td>Amutha Raja,Nalan </td><td>1.5</td></tr> 
-<tr> <td>2</td> <td>Bo,Jamie </td><td>1</td></tr> 
-<tr> <td>11</td> <td>Nethi,Karthika </td><td>1</td></tr> 
-</tbody>
-</table>
-<h5 class="mb-4 mt-4"> Best boards</h5>
-<table class="table table-striped "> 
-<thead><tr><th>Board 0</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
+<tr> <td>8</td> <td>Bodke,Aryan </td><td>2.5</td></tr> <th> Points </th></tr></thead> <tbody>
 <tr> <td></td> <td>1 </td><td>Ashwin,Aswin </td><td> </td><td>5</td></tr> 
 <thead><tr><th>Board 1</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
 <tr> <td></td> <td>1 </td><td>Husain,Lamiah </td><td> </td><td>4</td></tr> 
