@@ -30,7 +30,7 @@ function findFiles(directoryPath, fileName, fileList = []) {
 }
 function updatePoint(data) {
   var raw = fs.readFileSync("www/point.html.hbs", "utf8");
- if(!data || !data.players) return;
+  if (!data || !data.players) return;
   data.data = Object.entries(data.players).map(([key, value], index) => ({
     rank: index + 1,
     name: key,
@@ -47,64 +47,64 @@ function updatePoint(data) {
 }
 function generateIndexFile(list) {
   const data = list.map((x) => {
-    if(!fs.existsSync(x)) {
+    if (!fs.existsSync(x)) {
       return null;
     }
     const tournamentStats = path.dirname(x) + "/tourstat.html"
-    if(fs.existsSync(tournamentStats)) {
-    const html = fs.readFileSync(tournamentStats, "utf8");
+    if (fs.existsSync(tournamentStats)) {
+      const html = fs.readFileSync(tournamentStats, "utf8");
 
-    const files = fs.readdirSync(path.dirname(x)).filter(x =>x.includes("pairs"))
+      const files = fs.readdirSync(path.dirname(x)).filter(x => x.includes("pairs"))
 
-    console.log(files)
-    
-    const $ = cheerio.load(html);
-    var roundLink = files.pop()
-    const td = $("td").toArray();
+      console.log(files)
 
-    const standings = readStanding(path.dirname(x));
+      const $ = cheerio.load(html);
+      var roundLink = files.pop()
+      const td = $("td").toArray();
 
-    //console.log(x, standings);
-    // if (x.includes("wwwPurdyCup2024")) throw new Error("aaa");
-    return {
-      path: path.dirname(x),
-      url: x.split("/")[1],
-      arbiter: $(td[11]).text().trim(),
-      name: $(td[1]).text().trim(),
-      site: $(td[3]).text().trim(),
-      start: $(td[7]).text().trim(),
-      ts: +$(td[7]).text().trim().split('/').reverse().join(''),
-      end: $(td[9]).text().trim(),
-      year: $(td[9]).text().trim().split("/").pop(),
-      round: roundLink != null ? +roundLink.match(/\d+/)?.[0] : 1,
-      category: standings?.standings.find((x) => IsSeniorPlayer(x.NAME))
-        ? "senior"
-        : "junior",
-    };
-  }
-  else {
-    const html = fs.readFileSync(x, "utf8");
+      const standings = readStanding(path.dirname(x));
+
+      //console.log(x, standings);
+      // if (x.includes("wwwPurdyCup2024")) throw new Error("aaa");
+      return {
+        path: path.dirname(x),
+        url: x.split("/")[1],
+        arbiter: $(td[11]).text().trim(),
+        name: $(td[1]).text().trim(),
+        site: $(td[3]).text().trim(),
+        start: $(td[7]).text().trim(),
+        ts: +$(td[7]).text().trim().split('/').reverse().join(''),
+        end: $(td[9]).text().trim(),
+        year: $(td[9]).text().trim().split("/").pop(),
+        round: roundLink != null ? +roundLink.match(/\d+/)?.[0] : 1,
+        category: standings?.standings.find((x) => IsSeniorPlayer(x.NAME))
+          ? "senior"
+          : "junior",
+      };
+    }
+    else {
+      const html = fs.readFileSync(x, "utf8");
 
 
-    console.log(files)
-    const $ = cheerio.load(html);
+      console.log(files)
+      const $ = cheerio.load(html);
 
-    return {
-      path: path.dirname(x),
-      url: x.split("/")[1],
-      arbiter: '',
-      name: $('title').text(),
-      site: '',
-      start: '',
-      ts: 0,
-      end: '',
-      year: '',
-      round: 0,
-      category: html.includes("Hogan")
-        ? "senior"
-        : "junior",
-    };
-  }
+      return {
+        path: path.dirname(x),
+        url: x.split("/")[1],
+        arbiter: '',
+        name: $('title').text(),
+        site: '',
+        start: '',
+        ts: 0,
+        end: '',
+        year: '',
+        round: 0,
+        category: html.includes("Hogan")
+          ? "senior"
+          : "junior",
+      };
+    }
   }).filter(Boolean);
 
   const uniqueEntries = new Map();
@@ -117,7 +117,7 @@ function generateIndexFile(list) {
   });
 
   // Convert map values back to an array
-  const uniqueList = Array.from(uniqueEntries.values()).sort((x, y) =>x.start);
+  const uniqueList = Array.from(uniqueEntries.values()).sort((x, y) => x.start);
 
   var raw = fs.readFileSync("www/index.html.hbs", "utf8");
   const t = Handlebars.compile(raw);
@@ -135,24 +135,60 @@ function generateIndexFile(list) {
   //     round: 1,
   //     category: 'junior'
   // })
-  uniqueList.sort((a,b) => b.ts - a.ts)
+  uniqueList.sort((a, b) => b.ts - a.ts)
+
+  const juniors = uniqueList.filter((x) => x.category == "junior");
+  const seniors = uniqueList.filter((x) => x.category === "senior");
+
+  const currentyear = new Date().getFullYear();
+  const currentYearJuniors = juniors.filter(x => x.year == currentyear);
+  const currentYearSenior = seniors.filter(x => x.year == currentyear);
+
+  const passTournaments = {}
+
+  for (const t of juniors) {
+    const item = passTournaments[t.year] || { year: t.year, seniors: [], juniors: [] }
+    item.juniors.push(t)
+    passTournaments[t.year] = item;
+  }
+
+  for (const t of seniors) {
+    const item = passTournaments[t.year] || { year: t.year, seniors: [], juniors: [] }
+    item.seniors.push(t)
+    passTournaments[t.year] = item;
+  }
+
   fs.writeFileSync(
     "www/index.html",
     t({
-      juniors: uniqueList.filter((x) => x.category == "junior"),
-      seniors: uniqueList.filter((x) => x.category === "senior"),
+      year: currentyear,
+      juniors: currentYearJuniors,
+      seniors: currentYearSenior,
+      archive: Object.values(passTournaments).reverse(),
     })
   );
+
+  for (const data of Object.values(passTournaments)) {
+    fs.writeFileSync(
+      `www/${data.year}.html`,
+      t({
+        ...data,
+        archive: Object.values(passTournaments).reverse(),
+      })
+    );
+  }
+
+
   const accData = {};
   for (const item of uniqueList) {
-   
-      updateNavigation("www/" + item.url);
-    
-    if (item.year === "2024") {
-      accumulatePoint(accData, item);
-    }
-    updatePoint(accData);
-    console.log(accData);
+
+    updateNavigation("www/" + item.url);
+
+    // if (item.year === "2024") {
+    //   accumulatePoint(accData, item);
+    // }
+    // updatePoint(accData);
+    // //console.log(accData);
 
     generateRewardPage(item.path)
   }
