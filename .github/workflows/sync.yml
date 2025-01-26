@@ -36,6 +36,7 @@ jobs:
         env:
           VAULT_SECRET: ${{secrets.VAULT_SECRET}}
       - name: Keep site alive
+        continue-on-error: true
         run: |
           node src/bytehost.mjs
           
