@@ -40,16 +40,16 @@ foreach ($previousState as $file => $mtime) {
 }
 
 // Trigger webhook for changes
-if (!empty($changes)) {
-    $payload = json_encode(['changes' => $changes]);
+// if (!empty($changes)) {
+//     $payload = json_encode(['changes' => $changes]);
     
-    $ch = curl_init($webhookUrl);
-    curl_setopt($ch, CURLOPT_POST, true);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
-    curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
-    curl_exec($ch);
-    curl_close($ch);
-}
+//     $ch = curl_init($webhookUrl);
+//     curl_setopt($ch, CURLOPT_POST, true);
+//     curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
+//     curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+//     curl_exec($ch);
+//     curl_close($ch);
+// }
 
 // Save current state
 file_put_contents($stateFile, json_encode($currentState));
