@@ -23,7 +23,7 @@
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs2.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
 <ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
@@ -76,7 +76,7 @@
 </tr> 
 <tr> <td>9</td> <td>13</td> <td>   </td> <td> <a href="playercard.php#13"> Hogan,Steven </a></td> <td >   0</td> <td >1800</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    0.0 </td><td>    0.0 </td>
 </tr> 
-<tr> <td>10</td> <td>20</td> <td>   </td> <td> <a href="playercard.php#20"> Annapureddy,Dhruthin Reddy </a></td> <td >   0</td> <td >1800</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    0.0 </td><td>    0.0 </td>
+<tr> <td>10</td> <td>20</td> <td>   </td> <td> <a href="playercard.php#20"> Annapureddy,Dhruthin Reddy </a></td> <td >   0</td> <td >2444</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    0.0 </td><td>    0.0 </td>
 </tr> 
 <tr> <td>11</td> <td>27</td> <td>   </td> <td> <a href="playercard.php#27"> Shinde,Ankit </a></td> <td >   0</td> <td >1800</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 1.0</td> <td>    0.0 </td><td>    0.0 </td>
 </tr> 
@@ -92,7 +92,7 @@
 </tr> 
 <tr> <td>17</td> <td>21</td> <td>   </td> <td> <a href="playercard.php#21"> Fisher,Todd </a></td> <td >   0</td> <td >1000</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.5</td> <td>    0.5 </td><td>    0.0 </td>
 </tr> 
-<tr> <td>18</td> <td>6</td> <td>   </td> <td> <a href="playercard.php#6"> Burtea,Stefan </a></td> <td >   0</td> <td > 200</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 0.0</td> <td>    1.0 </td><td>    0.0 </td>
+<tr> <td>18</td> <td>6</td> <td>   </td> <td> <a href="playercard.php#6"> Burtea,Stefan-Georgian </a></td> <td >1644</td> <td > 200</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 0.0</td> <td>    1.0 </td><td>    0.0 </td>
 </tr> 
 <tr> <td>19</td> <td>12</td> <td>   </td> <td> <a href="playercard.php#12"> Pasukov,Leo </a></td> <td >   0</td> <td > 200</td><td ><img class="shadow" src="flag/qld.png" alt="QLD"></td> <td></td> <td class="score"> 0.0</td> <td>    1.0 </td><td>    0.0 </td>
 </tr> 
@@ -115,6 +115,8 @@
 <tr> <td>28</td> <td>26</td> <td>   </td> <td> <a href="playercard.php#26"> Cox,Aiden </a></td> <td >   0</td> <td > 200</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.0</td> <td>    1.0 </td><td>    0.0 </td>
 </tr> 
 <tr> <td>29</td> <td>28</td> <td>   </td> <td> <a href="playercard.php#28"> Shinde,Yug </a></td> <td >   0</td> <td > 200</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 0.0</td> <td>    1.0 </td><td>    0.0 </td>
+</tr> 
+<tr> <td>30</td> <td>30</td> <td>   </td> <td> <a href="playercard.php#30"> Nawar,Mena </a></td> <td >   0</td> <td >   0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.0</td> <td>    1.0 </td><td>    0.0 </td>
 </tr> 
 </tbody>
 </table><hr>
