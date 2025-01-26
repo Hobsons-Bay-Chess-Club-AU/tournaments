@@ -2,81 +2,91 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hobsons Bay Chess Club - Tournaments</title>
-    <!-- Bootstrap CSS CDN Link -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="manifest" href="//manifest.json" />
-    <link rel="shortcut icon" type="image/x-icon" href="//favicon.ico?">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hobsons Bay Chess Club - Tournaments</title>
+  <!-- Bootstrap CSS CDN Link -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="manifest" href="//manifest.json" />
+  <link rel="shortcut icon" type="image/x-icon" href="//favicon.ico?">
 </head>
 
 <body>
 
-    <!-- Site Name -->
-    <div class="container mt-4 mb-4">
-        <h1 class="text-center">Hobsons Bay Chess Club - Tournaments</h1>
-    </div>
+  <!-- Site Name -->
+  <div class="container mt-4 mb-4">
+    <h1 class="text-center">Hobsons Bay Chess Club - Tournaments</h1>
+  </div>
 
-    <!-- Links separated by years -->
-    <div class="container">
-      <h2>
-        Juniors
-      </h2>  
-  <table class="table table-bordered">
-    <thead>
-      <tr>
-        <th>Tournament</th>
-        <th>Date</th>
-        <th>Site</th>
-        <th>Next Round</th>
-      </tr>
-    </thead>
-    <tbody>
-         {{#each juniors}}
-      <tr>
-        <td><a href="{{this.url}}">{{this.name}}</a></td>
-        <td>{{this.start}}</td>
-        <td>{{this.site}}</td>
-           <td><a href="{{this.url}}/pairs{{this.round}}.html">{{this.round}}<a></a></td>
-      </tr>
-       {{/each}}
-     
-    </tbody>
-  </table>
+  <!-- Links separated by years -->
+  <div class="container">
+    <h2>
+      Juniors
+    </h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Tournament</th>
+          <th>Date</th>
+          <th>Site</th>
+          <th>Next Round</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each juniors}}
+        <tr>
+          <td><a href="{{this.url}}">{{this.name}}</a></td>
+          <td>{{this.start}}</td>
+          <td>{{this.site}}</td>
+          <td><a href="{{this.url}}/pairs{{this.round}}.html">{{this.round}}<a></a></td>
+        </tr>
+        {{/each}}
+
+      </tbody>
+    </table>
 
 
-<h2  class="mt-5">
-        Seniors
-      </h2>  
-  <table class="table table-bordered">
-    <thead>
-      <tr>
-        <th>Tournament</th>
-        <th>Date</th>
-        <th>Site</th>
-        <th>Next Round</th>
-      </tr>
-    </thead>
-    <tbody>
-         {{#each seniors}}
-      <tr>
-        <td><a href="{{this.url}}/standings.html">{{this.name}}</a></td>
-        <td>{{this.start}}</td>
-        <td>{{this.site}}</td>
-           <td><a href="{{this.url}}/pairs{{this.round}}.html">{{this.round}}<a></a></td>
-      </tr>
-       {{/each}}
-     
-    </tbody>
-  </table>
+    <h2 class="mt-5">
+      Seniors
+    </h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Tournament</th>
+          <th>Date</th>
+          <th>Site</th>
+          <th>Next Round</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each seniors}}
+        <tr>
+          <td><a href="{{this.url}}/standings.html">{{this.name}}</a></td>
+          <td>{{this.start}}</td>
+          <td>{{this.site}}</td>
+          <td><a href="{{this.url}}/pairs{{this.round}}.html">{{this.round}}<a></a></td>
+        </tr>
+        {{/each}}
 
-    </div>
+      </tbody>
+    </table>
 
-    <!-- Bootstrap JS and Popper.js CDN Links (required for Bootstrap functionality) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <h2></h2>
+    <nav aria-label="Other  year">
+      <ul class="pagination">
+        {{#each archive}}
+        <li class="page-item"><a class="page-link" href="{{this.year}}.html">{{this.year}}</a></li>
+
+        {{/each}}
+      </ul>
+    </nav>
+
+  </div>
+
+  <!-- Bootstrap JS and Popper.js CDN Links (required for Bootstrap functionality) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 
