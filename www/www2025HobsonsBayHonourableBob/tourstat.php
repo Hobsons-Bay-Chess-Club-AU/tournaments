@@ -48,20 +48,20 @@
 <tr><td >Federation</td> <td> AUS</td> </tr>
 <tr><td >Date Begin</td> <td> 21/01/2025</td> </tr>
 <tr><td >Date End</td> <td> 18/02/2025</td> </tr>
-<tr><td >Arbiter(s)</td> <td>  IA Casey Goh 3251098 ()</td> </tr>
+<tr><td >Arbiter(s)</td> <td>  NA Lachlan Dwyer 3254119 ()</td> </tr>
 <tr><td > Play System</td> <td> swiss FIDE Dutch (JaVaFo)</td> </tr>
 <tr><td >Rounds</td> <td> 5</td> </tr>
 <tr><td >Score game</td> <td> 0-0.5-1</td> </tr>
 <tr><td >Tie break</td> <td>      BH   BH-C1 </td> </tr>
-<tr><td >Registered Players</td> <td> 31</td> </tr>
+<tr><td >Registered Players</td> <td> 32</td> </tr>
 <tr><td > Number of Federations</td> <td> 4</td> </tr>
-<tr><td >Average Rating (all) </td> <td> 1251</td> </tr>
+<tr><td >Average Rating (all) </td> <td> 1212</td> </tr>
 <tr><td >Average Rating (only FIDE rated) </td> <td> 1644</td> </tr>
-<tr ><td > Players from AUS Federation</td> <td> 5</td> </tr>
+<tr ><td > Players from AUS Federation</td> <td> 6</td> </tr>
 <tr><td > Players NOT from AUS Federation</td> <td> 26</td> </tr>
 <tr><td > FIDE rated players </td> <td> 1</td> </tr>
-<tr><td > unrated players </td> <td> 30</td> </tr>
-<tr><td > unrated players from AUS Federation</td> <td> 4</td> </tr>
+<tr><td > unrated players </td> <td> 31</td> </tr>
+<tr><td > unrated players from AUS Federation</td> <td> 5</td> </tr>
 <tr><td >unrated players NOT from AUS Federation</td> <td> 26</td> </tr>
 <tr><td > unrated Federations</td> <td> 3</td> </tr>
 <tr><td > FIDE titled players </td> <td> 1</td> </tr>
