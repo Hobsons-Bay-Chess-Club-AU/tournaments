@@ -5,7 +5,7 @@
 <meta name="author" content="www.vegachess.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-<title>HONOURABLE BOB JUNIORS 2025</title>
+<title>2025 HBCC HONOURABLE BOB JUNIORS</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <link rel="stylesheet" href="stylenew.css" type="text/css" >
     </head>
@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Players</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs1.php" >Pairings</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs2.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
@@ -31,7 +31,7 @@
                 <div class="container-fluid">
                     <div class="row items-center">
                         <div class="col-12">
-                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >HONOURABLE BOB JUNIORS 2025</h1>		    <h5 class="mb-1">Hobsons Bay chess club (AUS)</h5>		    <h5> 28/01/2025 - 04/03/2025</h5>   </div>
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 HBCC HONOURABLE BOB JUNIORS</h1>		    <h5 class="mb-1">Hobsons Bay Chess Club (AUS)</h5>		    <h5> 28/01/2025 - 04/03/2025</h5>   </div>
  </div> 
  </div>
  </div> 
@@ -119,17 +119,17 @@
 <tr> 
 <td> <span class="idn"> 37 </span><span class="notitle female"> </span> <a href="playercard.php#37">Nethi,Karthika      </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">15  </div></td></tr>
 <tr> 
-<td> <span class="idn"> 38 </span><span class="notitle male"> </span> <a href="playercard.php#38">Ramprasad,Nachiket  </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">16  </div></td></tr>
+<td> <span class="idn"> 38 </span><span class="notitle male"> </span> <a href="playercard.php#38">Ramprasad,Nachiket  </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">16  </div></td></tr>
 <tr> 
-<td> <span class="idn"> 39 </span><span class="notitle male"> </span> <a href="playercard.php#39">Shaiek,Nihal        </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">17  </div></td></tr>
+<td> <span class="idn"> 39 </span><span class="notitle male"> </span> <a href="playercard.php#39">Shaiek,Nihal        </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">17  </div></td></tr>
 <tr> 
-<td> <span class="idn"> 40 </span><span class="notitle male"> </span> <a href="playercard.php#40">Sharma.Varun        </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">18  </div></td></tr>
+<td> <span class="idn"> 40 </span><span class="notitle male"> </span> <a href="playercard.php#40">Sharma,Varun        </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">18  </div></td></tr>
 <tr> 
-<td> <span class="idn"> 41 </span><span class="notitle female"> </span> <a href="playercard.php#41">Shinde,Yug          </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.5</td><td><div class="res"> ½ </div><div class="cf">BYE</div></tr>
+<td> <span class="idn"> 41 </span><span class="notitle male"> </span> <a href="playercard.php#41">Shinde,Yug          </a> </td><td>0</td><td ><img class="shadow" src="flag/ind.png" alt="IND"></td><td class="score"> 0.5</td><td><div class="res"> ½ </div><div class="cf">BYE</div></tr>
 <tr> 
-<td> <span class="idn"> 42 </span><span class="notitle male"> </span> <a href="playercard.php#42">Tham, Keanu         </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.5</td><td><div class="res"> ½ </div><div class="cf">BYE</div></tr>
+<td> <span class="idn"> 42 </span><span class="notitle male"> </span> <a href="playercard.php#42">Tham, Keanu         </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td><div class="res"> ½ </div><div class="cf">BYE</div></tr>
 <tr> 
-<td> <span class="idn"> 43 </span><span class="notitle female"> </span> <a href="playercard.php#43">Venkat,Nyra         </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">27  </div></td></tr>
+<td> <span class="idn"> 43 </span><span class="notitle female"> </span> <a href="playercard.php#43">Venkat,Nyra         </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">27  </div></td></tr>
 </tbody>
 </table>
 </DIV>
@@ -142,7 +142,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Hobsons Bay Chess Club - AUS)
+                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Casey Goh - AUS)
   <?php if (file_exists($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php')) include($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php'); ?>    </div>  </div>  </div> </div> 
    </footer>
      </div>
