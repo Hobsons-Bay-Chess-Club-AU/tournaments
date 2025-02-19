@@ -128,13 +128,13 @@
 <td>27</td><td>23</td><td></td><td> <a href="playercard.php#23">Richards,Derek      </a> </td><td>0</td><td>200</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td>   11.5 </td><td>   10.0 </td>
 </tr> 
 <tr> 
-<td>28</td><td>1</td><td></td><td> <a href="playercard.php#1">Burtea,Stefan-Geo(W)</a> </td><td>1644</td><td>200</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td>   10.5 </td><td>    9.5 </td>
+<td>28</td><td>1</td><td></td><td> <a href="playercard.php#1">Burtea,Stefan-Geo(W)</a> </td><td>1644</td><td>200</td><td ><img class="shadow" src="flag/rou.png" alt="ROU"></td><td class="score"> 0.0</td><td>   10.5 </td><td>    9.5 </td>
 </tr> 
 <tr> 
 <td>29</td><td>28</td><td></td><td> <a href="playercard.php#28">Bahar,Faeem      (W)</a> </td><td>0</td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td>   10.0 </td><td>    9.0 </td>
 </tr> 
 <tr> 
-<td>30</td><td>30</td><td></td><td> <a href="playercard.php#30">Shinde,Yug       (W)</a> </td><td>0</td><td>200</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td>   10.0 </td><td>    9.0 </td>
+<td>30</td><td>30</td><td></td><td> <a href="playercard.php#30">Shinde,Yug       (W)</a> </td><td>0</td><td>200</td><td ><img class="shadow" src="flag/ind.png" alt="IND"></td><td class="score"> 0.0</td><td>   10.0 </td><td>    9.0 </td>
 </tr> 
 </tbody>
 </table> <br><br>

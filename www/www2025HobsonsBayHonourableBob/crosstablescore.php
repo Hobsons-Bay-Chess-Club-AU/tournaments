@@ -102,11 +102,11 @@
 <tr> 
 <td>28</td><td><span class="notitle male"> </span> <a href="playercard.php#23">Richards,Derek                </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td> </td><td><div class="res"> ½ </div><div class="cf">BYE</div><td><div class="res">0</div><div class="cw">16  </div></td><td><div class="res">0</div><div class="cb">23  </div></td><td><div class="res">0</div><div class="cb">22  </div></td><td>   11.5 </td><td>   10.0 </td></tr>
 <tr> 
-<td>29</td><td><span class="notitle male"> </span> <a href="playercard.php#1">Burtea,Stefan-Georgian     (W)</a> </td><td>1644</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">11  </div></td><td><div class="res">0</div><div class="cw">8   </div></td><td> </td><td> </td><td> </td><td>   10.5 </td><td>    9.5 </td></tr>
+<td>29</td><td><span class="notitle male"> </span> <a href="playercard.php#1">Burtea,Stefan-Georgian     (W)</a> </td><td>1644</td><td ><img class="shadow" src="flag/rou.png" alt="ROU"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">11  </div></td><td><div class="res">0</div><div class="cw">8   </div></td><td> </td><td> </td><td> </td><td>   10.5 </td><td>    9.5 </td></tr>
 <tr> 
 <td>30</td><td><span class="notitle male"> </span> <a href="playercard.php#28">Bahar,Faeem                (W)</a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td> </td><td> </td><td> </td><td> </td><td> </td><td>   10.0 </td><td>    9.0 </td></tr>
 <tr> 
-<td>31</td><td><span class="notitle male"> </span> <a href="playercard.php#30">Shinde,Yug                 (W)</a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">9   </div></td><td> </td><td> </td><td> </td><td> </td><td>   10.0 </td><td>    9.0 </td></tr>
+<td>31</td><td><span class="notitle male"> </span> <a href="playercard.php#30">Shinde,Yug                 (W)</a> </td><td>0</td><td ><img class="shadow" src="flag/ind.png" alt="IND"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">9   </div></td><td> </td><td> </td><td> </td><td> </td><td>   10.0 </td><td>    9.0 </td></tr>
 </tbody>
 </table>
 </DIV>
