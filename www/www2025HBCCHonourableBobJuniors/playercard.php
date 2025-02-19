@@ -75,7 +75,7 @@
 <td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>9</td> <td></td> <td> <a href="playercard.php#9"> Majety,Rohan         </a>  <td>1029</td>
-<td> 1.0</td> <td> 3.0</td>
+<td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>4</td> <td>W </td> <td>3</td> <td></td> <td> <a href="playercard.php#3"> Matijas,Dejan        </a>  <td>1429</td>
 <td> 1.0</td> <td> 3.0</td>
@@ -172,7 +172,7 @@
 <td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>16</td> <td></td> <td> <a href="playercard.php#16"> Saha,Avinandan (Arju </a>  <td>722</td>
-<td> 1.0</td> <td> 2.0</td>
+<td> 1.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>1</td> <td></td> <td> <a href="playercard.php#1"> Hari,Dhruv           </a>  <td>1533</td>
 <td> 0.0</td> <td> 4.0</td>
@@ -218,7 +218,7 @@
 <td> 0.0</td> <td> 4.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>16</td> <td></td> <td> <a href="playercard.php#16"> Saha,Avinandan (Arju </a>  <td>722</td>
-<td> 1.0</td> <td> 2.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -357,7 +357,7 @@
 <td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>4</td> <td>W </td> <td>9</td> <td></td> <td> <a href="playercard.php#9"> Majety,Rohan         </a>  <td>1029</td>
-<td> 0.0</td> <td> 3.0</td>
+<td> 1.0</td> <td> 2.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -509,7 +509,7 @@
 <td> 1.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>9</td> <td></td> <td> <a href="playercard.php#9"> Majety,Rohan         </a>  <td>1029</td>
-<td> 0.0</td> <td> 3.0</td>
+<td> 0.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>11</td> <td></td> <td> <a href="playercard.php#11"> Wei,Andrew           </a>  <td>997</td>
 <td> 0.0</td> <td> 2.0</td>
@@ -611,7 +611,7 @@
 <td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>16</td> <td></td> <td> <a href="playercard.php#16"> Saha,Avinandan (Arju </a>  <td>722</td>
-<td> 0.0</td> <td> 2.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>19</td> <td></td> <td> <a href="playercard.php#19"> Morris,Elijah        </a>  <td>616</td>
 <td> 0.0</td> <td> 2.0</td>
@@ -625,7 +625,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>9</td> <td></td> <td> <a href="playercard.php#9"> Majety,Rohan         </a>  <td>1029</td>
-<td> 0.0</td> <td> 3.0</td>
+<td> 0.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>45</td> <td></td> <td> <a href="playercard.php#45"> Venkat,Nyra          </a>  <td>0</td>
 <td> 1.0</td> <td> 1.0</td>
@@ -820,7 +820,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>16</td> <td></td> <td> <a href="playercard.php#16"> Saha,Avinandan (Arju </a>  <td>722</td>
-<td> 0.0</td> <td> 2.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>28</td> <td></td> <td> <a href="playercard.php#28"> Jyothi Nikhil,Neev   </a>  <td>410</td>
 <td> 1.0</td> <td> 2.0</td>
