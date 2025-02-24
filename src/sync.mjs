@@ -170,7 +170,7 @@ function generateIndexFile(list) {
 
   for (const data of Object.values(passTournaments)) {
     fs.writeFileSync(
-      `www/${data.year}.html`,
+      `www/${data.year || "na"}.html`,
       t({
         ...data,
         archive: Object.values(passTournaments).reverse(),
