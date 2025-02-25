@@ -20,7 +20,11 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Players</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li></ul> </div>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs9.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
  <section id="hero" class="d-flex align-items-center">
@@ -42,65 +46,109 @@
 <tr> 
 <td><span class="idn"> 1</span></td><td> <span class="title male"> CM</span> <a href="http://ratings.fide.com/card.phtml?event=3244806" target="X"> Annapureddy, Rheyansh Reddy </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>2058</td><td>2079</td><td>2058</td> </tr>
 <tr> 
-<td><span class="idn"> 2</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3259056" target="X"> Lingineni, Khushal </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1725</td><td>1904</td><td>1725</td> </tr>
+<td><span class="idn"> 2</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3204332" target="X"> Hogg,Dean </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1928</td><td>0</td><td>1928</td> </tr>
 <tr> 
-<td><span class="idn"> 3</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=311110949" target="X"> Parker, Lucas </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1529</td><td>1697</td><td>1529</td> </tr>
+<td><span class="idn"> 3</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3226310" target="X"> Ghumman,Shumsheer </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1864</td><td>1864</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 4</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3201414" target="X"> Hogan, Steven </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1515</td><td>1793</td><td>1515</td> </tr>
+<td><span class="idn"> 4</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3257762" target="X"> Lacson,Joemar </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1744</td><td>0</td><td>1744</td> </tr>
 <tr> 
-<td><span class="idn"> 5</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267849" target="X"> Nguyen, Anh Kiet </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1379</td><td>1653</td><td>1379</td> </tr>
+<td><span class="idn"> 5</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3259056" target="X"> Lingineni, Khushal </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1725</td><td>1904</td><td>1725</td> </tr>
 <tr> 
-<td><span class="idn"> 6</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=2054515" target="X"> Paul, Cijo </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1256</td><td>1765</td><td>1256</td> </tr>
+<td><span class="idn"> 6</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3254925" target="X"> Krishnan,Anirudh </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1709</td><td>0</td><td>1709</td> </tr>
 <tr> 
-<td><span class="idn"> 7</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3202070" target="X"> Kenmure, Jamie </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1252</td><td>1892</td><td>1252</td> </tr>
+<td><span class="idn"> 7</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3232220" target="X"> Whitford,Matthew </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1559</td><td>0</td><td>1559</td> </tr>
 <tr> 
-<td><span class="idn"> 8</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3262952" target="X"> Yendru, Srikrishna </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1191</td><td>1638</td><td>1191</td> </tr>
+<td><span class="idn"> 8</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3252264" target="X"> Windsor,Maximilian </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1557</td><td>0</td><td>1557</td> </tr>
 <tr> 
-<td><span class="idn"> 9</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3239683" target="X"> Annapureddy, Dhruthin Reddy </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1112</td><td>1488</td><td>1112</td> </tr>
+<td><span class="idn"> 9</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=311110949" target="X"> Parker,Lucas </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1529</td><td>1697</td><td>1529</td> </tr>
 <tr> 
-<td><span class="idn"> 10</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275272" target="X"> Yang, Yifan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1015</td><td>1519</td><td>1015</td> </tr>
+<td><span class="idn"> 10</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3201414" target="X"> Hogan, Steven </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1515</td><td>1793</td><td>1515</td> </tr>
 <tr> 
-<td><span class="idn"> 11</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3264173" target="X"> Saha, Avinandan (Arjun) </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>894</td><td>1565</td><td>894</td> </tr>
+<td><span class="idn"> 11</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267849" target="X"> Nguyen, Anh Kiet </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1379</td><td>1653</td><td>1379</td> </tr>
 <tr> 
-<td><span class="idn"> 12</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286320" target="X"> Huang,Michael </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>801</td><td>0</td><td>801</td> </tr>
+<td><span class="idn"> 12</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=2054515" target="X"> Paul, Cijo </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1256</td><td>1765</td><td>1256</td> </tr>
 <tr> 
-<td><span class="idn"> 13</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3270335" target="X"> Nguyen, Tuan Kiet </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>721</td><td>1572</td><td>721</td> </tr>
+<td><span class="idn"> 13</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3202070" target="X"> Kenmure, Jamie </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1252</td><td>1892</td><td>1252</td> </tr>
 <tr> 
-<td><span class="idn"> 14</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275779" target="X"> Annadasu, Shreyansh </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>718</td><td>1446</td><td>718</td> </tr>
+<td><span class="idn"> 14</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3227545" target="X"> Richards,Derek </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1219</td><td>0</td><td>1219</td> </tr>
 <tr> 
-<td><span class="idn"> 15</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286258" target="X"> Balaji,Sai Sivesh </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>712</td><td>0</td><td>712</td> </tr>
+<td><span class="idn"> 15</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3214915" target="X"> Nowak,Ruben </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1195</td><td>0</td><td>1195</td> </tr>
 <tr> 
-<td><span class="idn"> 16</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267822" target="X"> Marasinghe, Claire </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>646</td><td>1662</td><td>646</td> </tr>
+<td><span class="idn"> 16</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3255689" target="X"> Wilkinson,Greg </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1195</td><td>0</td><td>1195</td> </tr>
 <tr> 
-<td><span class="idn"> 17</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286339" target="X"> Jagannathan,Shashvath </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>609</td><td>0</td><td>609</td> </tr>
+<td><span class="idn"> 17</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3262952" target="X"> Yendru, Srikrishna </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1191</td><td>1638</td><td>1191</td> </tr>
 <tr> 
-<td><span class="idn"> 18</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3281345" target="X"> Ruaya, Rohan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>578</td><td>1492</td><td>578</td> </tr>
+<td><span class="idn"> 18</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=311214578" target="X"> Ruaya,Chris Rodson </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1150</td><td>0</td><td>1150</td> </tr>
 <tr> 
-<td><span class="idn"> 19</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3254933" target="X"> Santoso, Crystin </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>564</td><td>1516</td><td>564</td> </tr>
+<td><span class="idn"> 19</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3259021" target="X"> Bodke,Krishna </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1134</td><td>0</td><td>1134</td> </tr>
 <tr> 
-<td><span class="idn"> 20</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3254917" target="X"> Goh, Nicholas </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>458</td><td>1435</td><td>458</td> </tr>
+<td><span class="idn"> 20</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3239683" target="X"> Annapureddy, Dhruthin Reddy </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1112</td><td>1488</td><td>1112</td> </tr>
 <tr> 
-<td><span class="idn"> 21</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286266" target="X"> Balamurugan,Soorya </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>329</td><td>0</td><td>329</td> </tr>
+<td><span class="idn"> 21</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3237796" target="X"> Nawar,Mena </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1066</td><td>0</td><td>1066</td> </tr>
 <tr> 
-<td><span class="idn"> 22</span></td><td> <span class="notitle female"> </span> Chan,Abby </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>274</td><td>0</td><td>274</td> </tr>
+<td><span class="idn"> 22</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275221" target="X"> Ramanathan,Ashwin </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1016</td><td>0</td><td>1016</td> </tr>
 <tr> 
-<td><span class="idn"> 23</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286312" target="X"> Goh,Julian </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>217</td><td>0</td><td>217</td> </tr>
+<td><span class="idn"> 23</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275272" target="X"> Yang, Yifan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1015</td><td>1519</td><td>1015</td> </tr>
 <tr> 
-<td><span class="idn"> 24</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=532011059" target="X"> Ahmad,Ihtiram </a></td><td ><img class="shadow" src="flag/ban.png" alt="BAN"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 24</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3254119" target="X"> Dwyer,Lachlan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>998</td><td>0</td><td>998</td> </tr>
 <tr> 
-<td><span class="idn"> 25</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286304" target="X"> Goh,Daphne </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 25</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3207293" target="X"> Ilic,Milan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>970</td><td>0</td><td>970</td> </tr>
 <tr> 
-<td><span class="idn"> 26</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=5267471" target="X"> Hermoso, Cecilio Jr. </a></td><td ><img class="shadow" src="flag/phi.png" alt="PHI"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 26</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3264173" target="X"> Saha, Avinandan (Arjun) </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>894</td><td>1565</td><td>894</td> </tr>
 <tr> 
-<td><span class="idn"> 27</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286851" target="X"> Kantharaju, Aarna </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 27</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275108" target="X"> Ashok,Arjun </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>818</td><td>0</td><td>818</td> </tr>
 <tr> 
-<td><span class="idn"> 28</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286860" target="X"> Kantharaju, Aryan </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 28</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286320" target="X"> Huang,Michael </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>801</td><td>0</td><td>801</td> </tr>
 <tr> 
-<td><span class="idn"> 29</span></td><td> <span class="notitle male"> </span> Rawat,Pratyax Singh </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 29</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3265404" target="X"> Temizel,Hazar </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>752</td><td>0</td><td>752</td> </tr>
 <tr> 
-<td><span class="idn"> 30</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286380" target="X"> Shaiek, Nihal </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 30</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3270335" target="X"> Nguyen, Tuan Kiet </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>721</td><td>1572</td><td>721</td> </tr>
 <tr> 
-<td><span class="idn"> 31</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286401" target="X"> Stefan Jiace Tham,Keanu </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 31</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275779" target="X"> Annadasu, Shreyansh </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>718</td><td>1446</td><td>718</td> </tr>
+<tr> 
+<td><span class="idn"> 32</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286258" target="X"> Balaji,Sai Sivesh </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>712</td><td>0</td><td>712</td> </tr>
+<tr> 
+<td><span class="idn"> 33</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267822" target="X"> Marasinghe, Claire </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>646</td><td>1662</td><td>646</td> </tr>
+<tr> 
+<td><span class="idn"> 34</span></td><td> <span class="notitle male"> </span> Morris,Elijah </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>616</td><td>0</td><td>616</td> </tr>
+<tr> 
+<td><span class="idn"> 35</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286339" target="X"> Jagannathan,Shashvath </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>609</td><td>0</td><td>609</td> </tr>
+<tr> 
+<td><span class="idn"> 36</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3281345" target="X"> Ruaya, Rohan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>578</td><td>1492</td><td>578</td> </tr>
+<tr> 
+<td><span class="idn"> 37</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3254933" target="X"> Santoso, Crystin </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>564</td><td>1516</td><td>564</td> </tr>
+<tr> 
+<td><span class="idn"> 38</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3254917" target="X"> Goh, Nicholas </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>458</td><td>1435</td><td>458</td> </tr>
+<tr> 
+<td><span class="idn"> 39</span></td><td> <span class="notitle male"> </span> Das,Ayush </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>347</td><td>0</td><td>347</td> </tr>
+<tr> 
+<td><span class="idn"> 40</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286266" target="X"> Balamurugan,Soorya </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>329</td><td>0</td><td>329</td> </tr>
+<tr> 
+<td><span class="idn"> 41</span></td><td> <span class="notitle female"> </span> Chan,Abby </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>274</td><td>0</td><td>274</td> </tr>
+<tr> 
+<td><span class="idn"> 42</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286312" target="X"> Goh,Julian </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>217</td><td>0</td><td>217</td> </tr>
+<tr> 
+<td><span class="idn"> 43</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=532011059" target="X"> Ahmad,Ihtiram </a></td><td ><img class="shadow" src="flag/ban.png" alt="BAN"></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 44</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3247902" target="X"> Cox,Aiden </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 45</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286304" target="X"> Goh,Daphne </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 46</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=5267471" target="X"> Hermoso, Cecilio Jr. </a></td><td ><img class="shadow" src="flag/phi.png" alt="PHI"></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 47</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286851" target="X"> Kantharaju, Aarna </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 48</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286860" target="X"> Kantharaju, Aryan </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 49</span></td><td> <span class="notitle male"> </span> Rawat,Pratyax Singh </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 50</span></td><td> <span class="notitle male"> </span> Razi,Ali </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 51</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286380" target="X"> Shaiek,Nihal </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 52</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286401" target="X"> Stefan Jiace Tham,Keanu </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 53</span></td><td> <span class="notitle male"> </span> Vangipuram,Sandeep Chetan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 </tbody>
 <tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</tr></td></tfoot></table></div>
 		  </div>
