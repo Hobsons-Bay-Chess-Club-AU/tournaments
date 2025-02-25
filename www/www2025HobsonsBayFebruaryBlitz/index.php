@@ -48,7 +48,7 @@
 <tr> 
 <td><span class="idn"> 2</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3204332" target="X"> Hogg,Dean </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1928</td><td>0</td><td>1928</td> </tr>
 <tr> 
-<td><span class="idn"> 3</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3226310" target="X"> Ghumman,Shumsheer </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1864</td><td>1864</td><td>0</td> </tr>
+<td><span class="idn"> 3</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3226310" target="X"> Ghumman,Shumsheer </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1864</td><td>1864</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 4</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3257762" target="X"> Lacson,Joemar </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1744</td><td>0</td><td>1744</td> </tr>
 <tr> 
