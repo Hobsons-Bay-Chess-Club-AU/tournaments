@@ -92,7 +92,7 @@ jobs:
           sudo chown -R $(whoami) ./wwwftp
           rm -rf wwwftp
           find "www" -type f -name '*~*' -exec rm -f {} +
-
+          rm www/.html || true
           git status
           if [[ -n $(git status --porcelain) ]]; then
 

@@ -38,7 +38,11 @@
           <td><a href="{{this.url}}">{{this.name}}</a></td>
           <td>{{this.start}}</td>
           <td>{{this.site}}</td>
-          <td><a href="{{this.url}}/pairs{{this.round}}.html">{{this.round}}<a></a></td>
+          {{#ifEquals this.round 0}}
+          <td><a href="{{this.url}}/">Players</a></td>
+          {{else}}
+          <td><a href="{{this.url}}/pairs{{this.round}}.html">{{this.round}}</a></td>
+          {{/ifEquals}}
         </tr>
         {{/each}}
 
@@ -64,7 +68,11 @@
           <td><a href="{{this.url}}/standings.html">{{this.name}}</a></td>
           <td>{{this.start}}</td>
           <td>{{this.site}}</td>
-          <td><a href="{{this.url}}/pairs{{this.round}}.html">{{this.round}}<a></a></td>
+          {{#ifEquals this.round 0}}
+          <td><a href="{{this.url}}/">Players</a></td>
+          {{else}}
+          <td><a href="{{this.url}}/pairs{{this.round}}.html">{{this.round}}</a></td>
+          {{/ifEquals}}
         </tr>
         {{/each}}
 

@@ -10,6 +10,11 @@ import {
 } from "./shared.mjs";
 import { IsSeniorPlayer } from "./ref.mjs";
 
+
+Handlebars.registerHelper('ifEquals', function (arg1, arg2, options) {
+  return (arg1 == arg2) ? options.fn(this) : options.inverse(this);
+});
+
 function findFiles(directoryPath, fileName, fileList = []) {
   const files = fs.readdirSync(directoryPath);
 
@@ -51,6 +56,8 @@ function generateIndexFile(list) {
       return null;
     }
     const tournamentStats = path.dirname(x) + "/tourstat.html"
+
+
     if (fs.existsSync(tournamentStats)) {
       const html = fs.readFileSync(tournamentStats, "utf8");
 
@@ -141,8 +148,8 @@ function generateIndexFile(list) {
   const seniors = uniqueList.filter((x) => x.category === "senior");
 
   const currentyear = new Date().getFullYear();
-  const currentYearJuniors = juniors.filter(x => x.year == currentyear);
-  const currentYearSenior = seniors.filter(x => x.year == currentyear);
+  const currentYearJuniors = juniors.filter(x => x.year == currentyear || x.year == '');
+  const currentYearSenior = seniors.filter(x => x.year == currentyear || x.year == '');
 
   const passTournaments = {}
 
@@ -196,7 +203,7 @@ function generateIndexFile(list) {
 // Call the function to extract all zip files in the folder
 // extractAllZipFiles("unzip", "www");
 var files = findFiles("www", "playersname.html");
-console.log(files);
+// console.log(files);
 
 
 generateIndexFile(files);
