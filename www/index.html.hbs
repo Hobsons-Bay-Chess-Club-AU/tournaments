@@ -35,7 +35,9 @@
       <tbody>
         {{#each juniors}}
         <tr>
-          <td><a href="{{this.url}}">{{this.name}}</a></td>
+          <td>
+            <a href="{{this.url}}">{{this.name}}</a>
+          </td>
           <td>{{this.start}}</td>
           <td>{{this.site}}</td>
           {{#ifEquals this.round 0}}
@@ -65,7 +67,7 @@
       <tbody>
         {{#each seniors}}
         <tr>
-          <td><a href="{{this.url}}/standings.html">{{this.name}}</a></td>
+          <td><a href="{{this.url}}">{{this.name}}</a></td>
           <td>{{this.start}}</td>
           <td>{{this.site}}</td>
           {{#ifEquals this.round 0}}
