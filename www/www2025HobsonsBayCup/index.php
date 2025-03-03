@@ -5,7 +5,7 @@
 <meta name="author" content="www.vegachess.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-<title>2025 Hobsons Bay July Rapid</title>
+<title>2025 Hobsons Bay Cup</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <link rel="stylesheet" href="stylenew.css" type="text/css" >
     </head>
@@ -28,7 +28,7 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players sorted by name</h3><div class="table-responsive"><table class="table table-striped "> 
+  <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players sorted by rating and title</h3><div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>#</th><th>Player</th><th>Fed</th><th>Origin</th><th>Rtg</th><th>RtgF</th><th>RtgN</th></tr></thead><tbody>
 <tr> 
 <td><span class="idn"> 1</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3201414" target="X"> Hogan,Steven </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1515</td><td>0</td><td>1515</td> </tr>
