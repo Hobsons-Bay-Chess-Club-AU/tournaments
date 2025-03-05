@@ -138,8 +138,13 @@ export function readStanding(rootPath) {
         item.N = $("span", $(td[i])).text().trim();
       }
     });
+
+    if ($('.player-container', td)) {
+      item["NAME"] = $('.player-container span', td).text()
+    }
     if (!item["NAME"] && !item["Player"]) return null;
     item["NAME"] = item["NAME"] || item["Player"];
+
     return item;
   });
   //  console.log(list);
