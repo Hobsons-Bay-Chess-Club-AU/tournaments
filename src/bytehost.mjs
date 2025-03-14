@@ -5,21 +5,24 @@ import crypto from "crypto"
 
 export async function getCookieFromUrl(url) {
     console.log("Initial request cookies")
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({
+        args: ['--no-sandbox'],
+        timeout: 10000,
+    });
     const page = await browser.newPage();
 
     await page.goto(url, { waitUntil: 'networkidle2' });
 
-    try{
+    try {
         await page.waitForFunction(() => {
             return document.cookie.includes('__test');
-        }, {timeout: 5000});
+        }, { timeout: 5000 });
     }
-    catch(e) {
+    catch (e) {
 
     }
     const cookies = await page.cookies();
-    let targetCookie = {name: "",value:""};
+    let targetCookie = { name: "", value: "" };
 
     for (const cookie of cookies) {
         if (cookie.name === '__test') { // Replace 'yourCookieName' with the actual name of the cookie you want to check
@@ -42,11 +45,11 @@ export async function getCookie(html) {
             const beginOffsetB = "\"),b=toNumbers(\"";
             const beginOffsetC = "\"),c=toNumbers(\"";
             const endOffsetC = "\");document.cookie=";
-            
+
             const a = extractValue(html, beginOffsetA, beginOffsetB);
             const b = extractValue(html, beginOffsetB, beginOffsetC);
             const c = extractValue(html, beginOffsetC, endOffsetC);
-            console.log(a,b,c)
+            console.log(a, b, c)
             return `__test=${encrypt(hexStringToByteArray(a), hexStringToByteArray(b), hexStringToByteArray(c)).toLowerCase()}; expires=Thu, 31-Dec-37 23:55:55 GMT; path=/`;
         } else {
             theServerDoesNotNeedTestCookie();
@@ -85,5 +88,5 @@ function hexStringToByteArray(s) {
 }
 
 (async () => {
-   await  getCookieFromUrl("http://hbcc.byethost10.com")
+    await getCookieFromUrl("http://hbcc.byethost10.com")
 })();
