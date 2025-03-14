@@ -41,11 +41,8 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><div><script type="text/javascript" src="game.js"></script> </div>
-<input type="hidden" id="viewerpath" value="/vega.html">
-<input type="hidden" id="gamepath" value="">
-<input type="hidden" id="gamename" value="2025 Hobsons Bay Purdy Cup Juniors">
-<iframe id="myframe" align=center src="http:///vega.html?pgnFile=/2025 Hobsons Bay Purdy Cup Juniors1.pgn"  width=430 height=680 frameborder=0></iframe>		  </div>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4">Schedule</h3> <div class="table-responsive"><table class="table table-striped "> 
+<thead><tr><th>Round</th><th>Time</th><th>Date</th></tr></thead><tr><td>1</td><td>18:30</td><td>18/03/2025</td></tr><tr><td>2</td><td>18:30</td><td>25/03/2025</td></tr><tr><td>3</td><td>18:30</td><td>01/04/2025</td></tr><tr><td>4</td><td>18:30</td><td>08/04/2025</td></tr><tr><td>5</td><td>18:30</td><td>15/04/2025</td></tr></table></div>		  </div>
 		      </div>
          <div class="d-none d-lg-block col-1 pe-0">
            <div class="d-flex flex-column w-full overflow-hidden">

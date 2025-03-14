@@ -41,11 +41,75 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><div><script type="text/javascript" src="game.js"></script> </div>
-<input type="hidden" id="viewerpath" value="/vega.html">
-<input type="hidden" id="gamepath" value="">
-<input type="hidden" id="gamename" value="2025 Hobsons Bay Purdy Cup Juniors">
-<iframe id="myframe" align=center src="http:///vega.html?pgnFile=/2025 Hobsons Bay Purdy Cup Juniors1.pgn"  width=430 height=680 frameborder=0></iframe>		  </div>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Team ranking based on 4 best players of each team</h3>
+<div class="table-responsive"><table class="table table-striped"> 
+<thead><tr><th> Pos </th> <th> Team Name </th><th>Points</th></tr></thead> <tbody>
+<tr>
+<td>1</td> <td></td> <td>4</td> </tr>
+</tbody>
+</table>
+<h5 class="mb-4 mt-4"> Team composition</h5>
+<table class="table table-striped "> 
+<thead><tr><th>1</th> <th> </th><th>4</th></tr></thead><tbody> 
+<tr> <td>1</td> <td>Enano,Ronald </td><td>1</td></tr> 
+<tr> <td>3</td> <td>Matijas,Dejan </td><td>1</td></tr> 
+<tr> <td>5</td> <td>Itty Panicker,Prince </td><td>1</td></tr> 
+<tr> <td>7</td> <td>Yang,Yifan </td><td>1</td></tr> 
+<tr> <td>9</td> <td>Ramanathan,Ashwin </td><td>1</td></tr> 
+<tr> <td>11</td> <td>Annadasu,Shreyansh </td><td>1</td></tr> 
+<tr> <td>13</td> <td>Batyrbekov,Kaisar </td><td>1</td></tr> 
+<tr> <td>15</td> <td>Ashok,Arjun </td><td>1</td></tr> 
+<tr> <td>17</td> <td>Nguyen,Tuan Kiet </td><td>1</td></tr> 
+<tr> <td>19</td> <td>Ruaya,Rohan </td><td>1</td></tr> 
+<tr> <td>21</td> <td>Karthick,Deepshika </td><td>1</td></tr> 
+<tr> <td>24</td> <td>Morris,Elijah </td><td>1</td></tr> 
+<tr> <td>26</td> <td>Prince,Aliza </td><td>1</td></tr> 
+<tr> <td>28</td> <td>Husain,Lamiah </td><td>1</td></tr> 
+<tr> <td>30</td> <td>Balamurugan,Soorya </td><td>1</td></tr> 
+<tr> <td>32</td> <td>Das,Ayush </td><td>1</td></tr> 
+<tr> <td>34</td> <td>Rawat,Pratyax Singh </td><td>1</td></tr> 
+<tr> <td>36</td> <td>Goh,Daphne </td><td>1</td></tr> 
+<tr> <td>38</td> <td>Kelly,Jackson </td><td>1</td></tr> 
+<tr> <td>40</td> <td>Ramprasad,Nachiket </td><td>1</td></tr> 
+<tr> <td>42</td> <td>Spriggs,Harvey </td><td>1</td></tr> 
+<tr> <td>44</td> <td>Venkat,Nyra </td><td>1</td></tr> 
+<tr> <td>2</td> <td>Nguyen,Anh Kiet </td><td>0</td></tr> 
+<tr> <td>4</td> <td>Kirk,Ian </td><td>0</td></tr> 
+<tr> <td>6</td> <td>Yendru,Srikrishna </td><td>0</td></tr> 
+<tr> <td>8</td> <td>Kenmure,Jamie </td><td>0</td></tr> 
+<tr> <td>10</td> <td>Majety,Rohan </td><td>0</td></tr> 
+<tr> <td>12</td> <td>Wei,Andrew </td><td>0</td></tr> 
+<tr> <td>14</td> <td>Huang,Michael </td><td>0</td></tr> 
+<tr> <td>16</td> <td>Batyrbekov,Aidan </td><td>0</td></tr> 
+<tr> <td>18</td> <td>Shaiek,Nihal </td><td>0</td></tr> 
+<tr> <td>20</td> <td>Saha,Avinandan (Arjun) </td><td>0</td></tr> 
+<tr> <td>22</td> <td>Jagannathan,Shashvath </td><td>0</td></tr> 
+<tr> <td>23</td> <td>Balaji,Sai Sivesh </td><td>0</td></tr> 
+<tr> <td>25</td> <td>Batyrbekov,Kuanysh </td><td>0</td></tr> 
+<tr> <td>27</td> <td>Settu,Karthick </td><td>0</td></tr> 
+<tr> <td>29</td> <td>Bodke,Aryan </td><td>0</td></tr> 
+<tr> <td>31</td> <td>Goh,Nicholas </td><td>0</td></tr> 
+<tr> <td>33</td> <td>Goh,Julian </td><td>0</td></tr> 
+<tr> <td>35</td> <td>Chan,Abby </td><td>0</td></tr> 
+<tr> <td>37</td> <td>Ahmad,Ihtiram </td><td>0</td></tr> 
+<tr> <td>39</td> <td>Nema,Nivaan </td><td>0</td></tr> 
+<tr> <td>41</td> <td>Shinde,Yug </td><td>0</td></tr> 
+<tr> <td>43</td> <td>Srivatsav Yegnavajjula,Aryan </td><td>0</td></tr> 
+</tbody>
+</table>
+<h5 class="mb-4 mt-4"> Best boards</h5>
+<table class="table table-striped "> 
+<thead><tr><th>Board 0</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
+<tr> <td></td> <td>1 </td><td>Enano,Ronald </td><td> </td><td>1</td></tr> 
+<thead><tr><th>Board 1</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
+<tr> <td></td> <td>1 </td><td>Matijas,Dejan </td><td> </td><td>1</td></tr> 
+<thead><tr><th>Board 2</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
+<tr> <td></td> <td>1 </td><td>Itty Panicker,Prince </td><td> </td><td>1</td></tr> 
+<thead><tr><th>Board 3</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
+<tr> <td></td> <td>1 </td><td>Yang,Yifan </td><td> </td><td>1</td></tr> 
+</tbody>
+</table></div>
+		  </div>
 		      </div>
          <div class="d-none d-lg-block col-1 pe-0">
            <div class="d-flex flex-column w-full overflow-hidden">
