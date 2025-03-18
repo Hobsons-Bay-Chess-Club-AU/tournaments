@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Players</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs2.php" >Pairings</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs3.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
@@ -43,7 +43,9 @@
 <tr> 
 <td><span class="idn"> 27</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3234134" target="X"> Clerk,Max </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1033</td><td>1471</td><td>1033</td> </tr>
 <tr> 
-<td><span class="idn"> 30</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3247902" target="X"> Cox,Aiden </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 32</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3247902" target="X"> Cox,Aiden </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 29</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3247910" target="X"> Cox,Tyler </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>936</td><td>1567</td><td>936</td> </tr>
 <tr> 
 <td><span class="idn"> 5</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3233472" target="X"> Dakic,Dusan </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1720</td><td>1765</td><td>1720</td> </tr>
 <tr> 
@@ -55,19 +57,21 @@
 <tr> 
 <td><span class="idn"> 2</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3204332" target="X"> Hogg,Dean </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1911</td><td>1971</td><td>1911</td> </tr>
 <tr> 
-<td><span class="idn"> 20</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3207293" target="X"> Ilic,Milan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1417</td><td>0</td><td>1417</td> </tr>
+<td><span class="idn"> 20</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3207293" target="X"> Ilic,Milan </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1417</td><td>1662</td><td>1417</td> </tr>
+<tr> 
+<td><span class="idn"> 28</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3227499" target="X"> Kostakakis,Angelo </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1011</td><td>1408</td><td>1011</td> </tr>
 <tr> 
 <td><span class="idn"> 4</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3257762" target="X"> Lacson,Joemar </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1727</td><td>1807</td><td>1727</td> </tr>
 <tr> 
 <td><span class="idn"> 7</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3259056" target="X"> Lingineni,Khushal </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1606</td><td>1795</td><td>1606</td> </tr>
 <tr> 
-<td><span class="idn"> 28</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3264726" target="X"> Lugton,James </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>934</td><td>0</td><td>934</td> </tr>
+<td><span class="idn"> 30</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3264726" target="X"> Lugton,James </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>934</td><td>0</td><td>934</td> </tr>
 <tr> 
 <td><span class="idn"> 11</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3232182" target="X"> McIntyre,Julian </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1529</td><td>1700</td><td>1529</td> </tr>
 <tr> 
-<td><span class="idn"> 25</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3237796" target="X"> Nawar,Mena </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1193</td><td>0</td><td>1193</td> </tr>
+<td><span class="idn"> 25</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3237796" target="X"> Nawar,Mena </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1193</td><td>1684</td><td>1193</td> </tr>
 <tr> 
-<td><span class="idn"> 29</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267857" target="X"> Nicdao,Joseph </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>661</td><td>1458</td><td>661</td> </tr>
+<td><span class="idn"> 31</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267857" target="X"> Nicdao,Joseph </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>661</td><td>1458</td><td>661</td> </tr>
 <tr> 
 <td><span class="idn"> 21</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3214915" target="X"> Nowak,Ruben </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1409</td><td>1590</td><td>1409</td> </tr>
 <tr> 
@@ -81,7 +85,7 @@
 <tr> 
 <td><span class="idn"> 26</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3227545" target="X"> Richards,Derek </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1129</td><td>1566</td><td>1129</td> </tr>
 <tr> 
-<td><span class="idn"> 31</span></td><td> <span class="notitle female"> </span> Srivatsav Yegnavajjula,Aryan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 33</span></td><td> <span class="notitle female"> </span> Srivatsav Yegnavajjula,Aryan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 8</span></td><td> <span class="title female"> WIM</span> <a href="http://ratings.fide.com/card.phtml?event=3202640" target="X"> Szuveges,Narelle S </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1550</td><td>1698</td><td>1550</td> </tr>
 <tr> 
