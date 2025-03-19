@@ -23,10 +23,19 @@
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs3.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
 <ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
+ <section id="hero" class="d-flex align-items-center">
+                <div class="container-fluid">
+                    <div class="row items-center">
+                        <div class="col-12">
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Purdy Cup</h1>		    <h5 class="mb-1">Hobsons Bay (AUS)</h5>		    <h5> 04/03/2025 - 08/04/2025</h5>   </div>
+ </div> 
+ </div>
+ </div> 
+ </section>
  <section id="main" class="pt-3 mb-auto">
                 <div class="container-fluid">
                     <div class="row">
@@ -91,9 +100,9 @@
 <tr> 
 <td>30</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3264726" target="X">Lugton,James</a></td> <td>3264726</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.5</td> <td>1691</td> <td>+0.00</td> <td>1691</td></tr>
 <tr> 
-<td>31</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267857" target="X">Nicdao,Joseph</a></td> <td>3267857</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1458</td><td> 1</td> <td> 0.0</td> <td>1691</td> <td>-8</td> <td> 891</td></tr>
+<td>31</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267857" target="X">Nicdao,Joseph</a></td> <td>3267857</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1458</td><td> 1</td> <td> 0.0</td> <td>1691</td> <td>-8</td> <td> 891</td></tr>
 <tr> 
-<td>32</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3247902" target="X">Cox,Aiden</a></td> <td>3247902</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 2</td> <td> 0.0</td> <td>1697</td> <td>+0.00</td> <td> 897</td></tr>
+<td>32</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3247902" target="X">Cox,Aiden</a></td> <td>3247902</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 2</td> <td> 0.0</td> <td>1697</td> <td>+0.00</td> <td> 897</td></tr>
 <tr> 
 <td>33</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Srivatsav Yegnavajjula,Aryan</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1702</td> <td>+0.00</td> <td> 902</td></tr>
 </tbody>
@@ -107,7 +116,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Hobsons Bay Chess Club - AUS)
+                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Jamie Kenmure - AUS)
   <?php if (file_exists($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php')) include($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php'); ?>    </div>  </div>  </div> </div> 
    </footer>
      </div>

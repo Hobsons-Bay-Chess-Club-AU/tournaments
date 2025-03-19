@@ -23,10 +23,19 @@
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs3.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
 <ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
+ <section id="hero" class="d-flex align-items-center">
+                <div class="container-fluid">
+                    <div class="row items-center">
+                        <div class="col-12">
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Purdy Cup</h1>		    <h5 class="mb-1">Hobsons Bay (AUS)</h5>		    <h5> 04/03/2025 - 08/04/2025</h5>   </div>
+ </div> 
+ </div>
+ </div> 
+ </section>
  <section id="main" class="pt-3 mb-auto">
                 <div class="container-fluid">
                     <div class="row">
@@ -34,7 +43,7 @@
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
   <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Standings at round 2 </h3>
 <div class="table-responsive"><table class="table table-striped"> 
-<thead><tr><th>Pos</th><th>Player</th><th>Origin</th><th>Pts</th> <th>     BH </th><th>  BH-C1 </th><th>     SB </th>
+<thead><tr><th>Pos</th><th>Player</th><th>Pts</th> <th>     BH </th><th>  BH-C1 </th><th>     SB </th>
  </tr></thead> <tbody>
 <tr> <td>1</td><td><div class="player-container" 
    <div class="left-box2">
@@ -52,7 +61,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 2.0</td><td>    2.0 </td><td>    2.0 </td><td>   2.00 </td>
+</td><td class="score"> 2.0</td><td>    2.0 </td><td>    2.0 </td><td>   2.00 </td>
 </tr>
 <tr> <td>2</td><td><div class="player-container" 
    <div class="left-box2">
@@ -70,7 +79,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 2.0</td><td>    2.0 </td><td>    1.0 </td><td>   2.00 </td>
+</td><td class="score"> 2.0</td><td>    2.0 </td><td>    1.0 </td><td>   2.00 </td>
 </tr>
 <tr> <td>3</td><td><div class="player-container" 
    <div class="left-box2">
@@ -81,14 +90,14 @@
 		<div class="player-data-box">
 			<div class="sort-num"> 1</div> 
 			<div class="title-box"> 
- <div class="title2 female">CM</div>
+ <div class="title2 male">CM</div>
 			</div>
 			<div class="rating">2129</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 2.0</td><td>    1.5 </td><td>    1.0 </td><td>   1.50 </td>
+</td><td class="score"> 2.0</td><td>    1.5 </td><td>    1.0 </td><td>   1.50 </td>
 </tr>
 <tr> <td>4</td><td><div class="player-container" 
    <div class="left-box2">
@@ -106,7 +115,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 2.0</td><td>    1.5 </td><td>    1.0 </td><td>   1.50 </td>
+</td><td class="score"> 2.0</td><td>    1.5 </td><td>    1.0 </td><td>   1.50 </td>
 </tr>
 <tr> <td>5</td><td><div class="player-container" 
    <div class="left-box2">
@@ -124,7 +133,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 2.0</td><td>    1.5 </td><td>    1.0 </td><td>   1.50 </td>
+</td><td class="score"> 2.0</td><td>    1.5 </td><td>    1.0 </td><td>   1.50 </td>
 </tr>
 <tr> <td>6</td><td><div class="player-container" 
    <div class="left-box2">
@@ -142,7 +151,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.5</td><td>    3.0 </td><td>    1.5 </td><td>   2.25 </td>
+</td><td class="score"> 1.5</td><td>    3.0 </td><td>    1.5 </td><td>   2.25 </td>
 </tr>
 <tr> <td>7</td><td><div class="player-container" 
    <div class="left-box2">
@@ -160,7 +169,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.5</td><td>    2.5 </td><td>    1.0 </td><td>   1.75 </td>
+</td><td class="score"> 1.5</td><td>    2.5 </td><td>    1.0 </td><td>   1.75 </td>
 </tr>
 <tr> <td>8</td><td><div class="player-container" 
    <div class="left-box2">
@@ -178,7 +187,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.5</td><td>    2.0 </td><td>    1.5 </td><td>   1.25 </td>
+</td><td class="score"> 1.5</td><td>    2.0 </td><td>    1.5 </td><td>   1.25 </td>
 </tr>
 <tr> <td>9</td><td><div class="player-container" 
    <div class="left-box2">
@@ -196,7 +205,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.5</td><td>    2.0 </td><td>    0.5 </td><td>   1.25 </td>
+</td><td class="score"> 1.5</td><td>    2.0 </td><td>    0.5 </td><td>   1.25 </td>
 </tr>
 <tr> <td>10</td><td><div class="player-container" 
    <div class="left-box2">
@@ -214,7 +223,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.0</td><td>    3.0 </td><td>    2.0 </td><td>   1.00 </td>
+</td><td class="score"> 1.0</td><td>    3.0 </td><td>    2.0 </td><td>   1.00 </td>
 </tr>
 <tr> <td>11</td><td><div class="player-container" 
    <div class="left-box2">
@@ -232,7 +241,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.0</td><td>    2.5 </td><td>    2.0 </td><td>   0.50 </td>
+</td><td class="score"> 1.0</td><td>    2.5 </td><td>    2.0 </td><td>   0.50 </td>
 </tr>
 <tr> <td>12</td><td><div class="player-container" 
    <div class="left-box2">
@@ -250,7 +259,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.0</td><td>    2.5 </td><td>    2.0 </td><td>   0.50 </td>
+</td><td class="score"> 1.0</td><td>    2.5 </td><td>    2.0 </td><td>   0.50 </td>
 </tr>
 <tr> <td>13</td><td><div class="player-container" 
    <div class="left-box2">
@@ -268,7 +277,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.0</td><td>    2.0 </td><td>    2.0 </td><td>   0.00 </td>
+</td><td class="score"> 1.0</td><td>    2.0 </td><td>    2.0 </td><td>   0.00 </td>
 </tr>
 <tr> <td>14</td><td><div class="player-container" 
    <div class="left-box2">
@@ -286,7 +295,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.0</td><td>    2.0 </td><td>    2.0 </td><td>   0.00 </td>
+</td><td class="score"> 1.0</td><td>    2.0 </td><td>    2.0 </td><td>   0.00 </td>
 </tr>
 <tr> <td>15</td><td><div class="player-container" 
    <div class="left-box2">
@@ -304,7 +313,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.0</td><td>    2.0 </td><td>    1.0 </td><td>   1.00 </td>
+</td><td class="score"> 1.0</td><td>    2.0 </td><td>    1.0 </td><td>   1.00 </td>
 </tr>
 <tr> <td>16</td><td><div class="player-container" 
    <div class="left-box2">
@@ -322,7 +331,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.0</td><td>    2.0 </td><td>    1.0 </td><td>   1.00 </td>
+</td><td class="score"> 1.0</td><td>    2.0 </td><td>    1.0 </td><td>   1.00 </td>
 </tr>
 <tr> <td>17</td><td><div class="player-container" 
    <div class="left-box2">
@@ -340,7 +349,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.0</td><td>    2.0 </td><td>    1.0 </td><td>   1.00 </td>
+</td><td class="score"> 1.0</td><td>    2.0 </td><td>    1.0 </td><td>   1.00 </td>
 </tr>
 <tr> <td>18</td><td><div class="player-container" 
    <div class="left-box2">
@@ -358,7 +367,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.0</td><td>    1.5 </td><td>    1.5 </td><td>   0.00 </td>
+</td><td class="score"> 1.0</td><td>    1.5 </td><td>    1.5 </td><td>   0.00 </td>
 </tr>
 <tr> <td>19</td><td><div class="player-container" 
    <div class="left-box2">
@@ -376,7 +385,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.0</td><td>    1.0 </td><td>    1.0 </td><td>   0.00 </td>
+</td><td class="score"> 1.0</td><td>    1.0 </td><td>    1.0 </td><td>   0.00 </td>
 </tr>
 <tr> <td>20</td><td><div class="player-container" 
    <div class="left-box2">
@@ -394,7 +403,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.0</td><td>    1.0 </td><td>    1.0 </td><td>   0.00 </td>
+</td><td class="score"> 1.0</td><td>    1.0 </td><td>    1.0 </td><td>   0.00 </td>
 </tr>
 <tr> <td>21</td><td><div class="player-container" 
    <div class="left-box2">
@@ -412,7 +421,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.0</td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
+</td><td class="score"> 1.0</td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr>
 <tr> <td>22</td><td><div class="player-container" 
    <div class="left-box2">
@@ -430,7 +439,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 0.5</td><td>    2.5 </td><td>    2.0 </td><td>   0.25 </td>
+</td><td class="score"> 0.5</td><td>    2.5 </td><td>    2.0 </td><td>   0.25 </td>
 </tr>
 <tr> <td>23</td><td><div class="player-container" 
    <div class="left-box2">
@@ -448,7 +457,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 0.5</td><td>    2.0 </td><td>    1.5 </td><td>   0.25 </td>
+</td><td class="score"> 0.5</td><td>    2.0 </td><td>    1.5 </td><td>   0.25 </td>
 </tr>
 <tr> <td>24</td><td><div class="player-container" 
    <div class="left-box2">
@@ -459,14 +468,14 @@
 		<div class="player-data-box">
 			<div class="sort-num"> 31</div> 
 			<div class="title-box"> 
- <div class="notitle2 female">-</div>
+ <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">661</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 0.5</td><td>    2.0 </td><td>    1.5 </td><td>   0.25 </td>
+</td><td class="score"> 0.5</td><td>    2.0 </td><td>    1.5 </td><td>   0.25 </td>
 </tr>
 <tr> <td>25</td><td><div class="player-container" 
    <div class="left-box2">
@@ -484,7 +493,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 0.5</td><td>    1.5 </td><td>    1.0 </td><td>   0.25 </td>
+</td><td class="score"> 0.5</td><td>    1.5 </td><td>    1.0 </td><td>   0.25 </td>
 </tr>
 <tr> <td>26</td><td><div class="player-container" 
    <div class="left-box2">
@@ -502,7 +511,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 0.5</td><td>    1.0 </td><td>    0.5 </td><td>   0.25 </td>
+</td><td class="score"> 0.5</td><td>    1.0 </td><td>    0.5 </td><td>   0.25 </td>
 </tr>
 <tr> <td>27</td><td><div class="player-container" 
    <div class="left-box2">
@@ -513,14 +522,14 @@
 		<div class="player-data-box">
 			<div class="sort-num"> 32</div> 
 			<div class="title-box"> 
- <div class="notitle2 female">-</div>
+ <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">0</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 0.0</td><td>    3.0 </td><td>    2.0 </td><td>   0.00 </td>
+</td><td class="score"> 0.0</td><td>    3.0 </td><td>    2.0 </td><td>   0.00 </td>
 </tr>
 <tr> <td>28</td><td><div class="player-container" 
    <div class="left-box2">
@@ -538,7 +547,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 0.0</td><td>    2.0 </td><td>    2.0 </td><td>   0.00 </td>
+</td><td class="score"> 0.0</td><td>    2.0 </td><td>    2.0 </td><td>   0.00 </td>
 </tr>
 <tr> <td>29</td><td><div class="player-container" 
    <div class="left-box2">
@@ -556,7 +565,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 0.0</td><td>    2.0 </td><td>    2.0 </td><td>   0.00 </td>
+</td><td class="score"> 0.0</td><td>    2.0 </td><td>    2.0 </td><td>   0.00 </td>
 </tr>
 <tr> <td>30</td><td><div class="player-container" 
    <div class="left-box2">
@@ -574,7 +583,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 0.0</td><td>    2.0 </td><td>    1.0 </td><td>   0.00 </td>
+</td><td class="score"> 0.0</td><td>    2.0 </td><td>    1.0 </td><td>   0.00 </td>
 </tr>
 <tr> <td>31</td><td><div class="player-container" 
    <div class="left-box2">
@@ -592,7 +601,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 0.0</td><td>    2.0 </td><td>    1.0 </td><td>   0.00 </td>
+</td><td class="score"> 0.0</td><td>    2.0 </td><td>    1.0 </td><td>   0.00 </td>
 </tr>
 <tr> <td>32</td><td><div class="player-container" 
    <div class="left-box2">
@@ -610,7 +619,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 0.0</td><td>    1.0 </td><td>    1.0 </td><td>   0.00 </td>
+</td><td class="score"> 0.0</td><td>    1.0 </td><td>    1.0 </td><td>   0.00 </td>
 </tr>
 <tr> <td>33</td><td><div class="player-container" 
    <div class="left-box2">
@@ -628,7 +637,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 0.0</td><td>    1.0 </td><td>    1.0 </td><td>   0.00 </td>
+</td><td class="score"> 0.0</td><td>    1.0 </td><td>    1.0 </td><td>   0.00 </td>
 </tr>
 </tbody>
 <tfoot><tr><td colspan="5">Tie Break legend:<br>     BH  :  Buchholz Total * <br>
@@ -644,7 +653,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Hobsons Bay Chess Club - AUS)
+                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Jamie Kenmure - AUS)
   <?php if (file_exists($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php')) include($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php'); ?>    </div>  </div>  </div> </div> 
    </footer>
      </div>
