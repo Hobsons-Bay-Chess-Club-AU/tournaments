@@ -20,22 +20,13 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Players</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs3.php" >Pairings</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs4.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
 <ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
- <section id="hero" class="d-flex align-items-center">
-                <div class="container-fluid">
-                    <div class="row items-center">
-                        <div class="col-12">
-                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Purdy Cup</h1>		    <h5 class="mb-1">Hobsons Bay (AUS)</h5>		    <h5> 04/03/2025 - 08/04/2025</h5>   </div>
- </div> 
- </div>
- </div> 
- </section>
  <section id="main" class="pt-3 mb-auto">
                 <div class="container-fluid">
                     <div class="row">
@@ -45,43 +36,43 @@
 <div class="table-responsive"><table class="table table-striped"> 
 <thead><tr><th> Pos </th> <th> Team Name </th><th>Points</th></tr></thead> <tbody>
 <tr>
-<td>1</td> <td></td> <td>8</td> </tr>
+<td>1</td> <td></td> <td>11.5</td> </tr>
 </tbody>
 </table>
 <h5 class="mb-4 mt-4"> Team composition</h5>
 <table class="table table-striped "> 
-<thead><tr><th>1</th> <th> </th><th>8</th></tr></thead><tbody> 
-<tr> <td>14</td> <td>Picone,James </td><td>2</td></tr> 
+<thead><tr><th>1</th> <th> </th><th>11.5</th></tr></thead><tbody> 
+<tr> <td>1</td> <td>Annapureddy, Rheyansh Reddy </td><td>3</td></tr> 
+<tr> <td>4</td> <td>Lacson,Joemar </td><td>3</td></tr> 
+<tr> <td>7</td> <td>Lingineni,Khushal </td><td>3</td></tr> 
+<tr> <td>2</td> <td>Hogg,Dean </td><td>2.5</td></tr> 
 <tr> <td>3</td> <td>Davis,Tony J </td><td>2</td></tr> 
-<tr> <td>1</td> <td>Annapureddy, Rheyansh Reddy </td><td>2</td></tr> 
-<tr> <td>4</td> <td>Lacson,Joemar </td><td>2</td></tr> 
-<tr> <td>7</td> <td>Lingineni,Khushal </td><td>2</td></tr> 
+<tr> <td>21</td> <td>Nowak,Ruben </td><td>2</td></tr> 
+<tr> <td>14</td> <td>Picone,James </td><td>2</td></tr> 
+<tr> <td>9</td> <td>Pasukov,Leo </td><td>2</td></tr> 
+<tr> <td>22</td> <td>Annapureddy,Dhruthin Reddy </td><td>2</td></tr> 
+<tr> <td>8</td> <td>Szuveges,Narelle S </td><td>2</td></tr> 
+<tr> <td>28</td> <td>Kostakakis,Angelo </td><td>2</td></tr> 
 <tr> <td>30</td> <td>Lugton,James </td><td>1.5</td></tr> 
-<tr> <td>2</td> <td>Hogg,Dean </td><td>1.5</td></tr> 
+<tr> <td>6</td> <td>Paul,Cijo </td><td>1.5</td></tr> 
 <tr> <td>13</td> <td>Whitford,Matthew </td><td>1.5</td></tr> 
-<tr> <td>22</td> <td>Annapureddy,Dhruthin Reddy </td><td>1.5</td></tr> 
+<tr> <td>19</td> <td>Bodke,Krishna </td><td>1.5</td></tr> 
+<tr> <td>16</td> <td>Hogan,Steven </td><td>1.5</td></tr> 
+<tr> <td>24</td> <td>Veldon,Rino </td><td>1.5</td></tr> 
+<tr> <td>12</td> <td>Wilkinson,Greg </td><td>1.5</td></tr> 
+<tr> <td>18</td> <td>Paul,Nikash </td><td>1.5</td></tr> 
 <tr> <td>27</td> <td>Clerk,Max </td><td>1</td></tr> 
-<tr> <td>11</td> <td>McIntyre,Julian </td><td>1</td></tr> 
 <tr> <td>15</td> <td>Windsor,Maximilian </td><td>1</td></tr> 
-<tr> <td>9</td> <td>Pasukov,Leo </td><td>1</td></tr> 
+<tr> <td>10</td> <td>Hari,Dhruv </td><td>1</td></tr> 
+<tr> <td>11</td> <td>McIntyre,Julian </td><td>1</td></tr> 
 <tr> <td>17</td> <td>Wongso,Renaldo </td><td>1</td></tr> 
-<tr> <td>6</td> <td>Paul,Cijo </td><td>1</td></tr> 
-<tr> <td>8</td> <td>Szuveges,Narelle S </td><td>1</td></tr> 
-<tr> <td>19</td> <td>Bodke,Krishna </td><td>1</td></tr> 
-<tr> <td>21</td> <td>Nowak,Ruben </td><td>1</td></tr> 
-<tr> <td>12</td> <td>Wilkinson,Greg </td><td>1</td></tr> 
-<tr> <td>24</td> <td>Veldon,Rino </td><td>1</td></tr> 
-<tr> <td>28</td> <td>Kostakakis,Angelo </td><td>1</td></tr> 
-<tr> <td>16</td> <td>Hogan,Steven </td><td>0.5</td></tr> 
-<tr> <td>10</td> <td>Hari,Dhruv </td><td>0.5</td></tr> 
-<tr> <td>31</td> <td>Nicdao,Joseph </td><td>0.5</td></tr> 
+<tr> <td>5</td> <td>Dakic,Dusan </td><td>1</td></tr> 
+<tr> <td>25</td> <td>Nawar,Mena </td><td>1</td></tr> 
 <tr> <td>26</td> <td>Richards,Derek </td><td>0.5</td></tr> 
-<tr> <td>18</td> <td>Paul,Nikash </td><td>0.5</td></tr> 
+<tr> <td>31</td> <td>Nicdao,Joseph </td><td>0.5</td></tr> 
 <tr> <td>32</td> <td>Cox,Aiden </td><td>0</td></tr> 
 <tr> <td>20</td> <td>Ilic,Milan </td><td>0</td></tr> 
 <tr> <td>23</td> <td>Yendru,Srikrishna </td><td>0</td></tr> 
-<tr> <td>5</td> <td>Dakic,Dusan </td><td>0</td></tr> 
-<tr> <td>25</td> <td>Nawar,Mena </td><td>0</td></tr> 
 <tr> <td>29</td> <td>Cox,Tyler </td><td>0</td></tr> 
 <tr> <td>33</td> <td>Srivatsav Yegnavajjula,Aryan </td><td>0</td></tr> 
 </tbody>
@@ -89,13 +80,13 @@
 <h5 class="mb-4 mt-4"> Best boards</h5>
 <table class="table table-striped "> 
 <thead><tr><th>Board 0</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Picone,James </td><td> </td><td>2</td></tr> 
+<tr> <td></td> <td>1 </td><td>Annapureddy, Rheyansh Reddy </td><td> </td><td>3</td></tr> 
 <thead><tr><th>Board 1</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Davis,Tony J </td><td> </td><td>2</td></tr> 
+<tr> <td></td> <td>1 </td><td>Lacson,Joemar </td><td> </td><td>3</td></tr> 
 <thead><tr><th>Board 2</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Annapureddy, Rheyansh Reddy </td><td> </td><td>2</td></tr> 
+<tr> <td></td> <td>1 </td><td>Lingineni,Khushal </td><td> </td><td>3</td></tr> 
 <thead><tr><th>Board 3</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Lacson,Joemar </td><td> </td><td>2</td></tr> 
+<tr> <td></td> <td>1 </td><td>Hogg,Dean </td><td> </td><td>2.5</td></tr> 
 </tbody>
 </table></div>
 		  </div>
@@ -107,7 +98,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Jamie Kenmure - AUS)
+                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Hobsons Bay Chess Club - AUS)
   <?php if (file_exists($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php')) include($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php'); ?>    </div>  </div>  </div> </div> 
    </footer>
      </div>
