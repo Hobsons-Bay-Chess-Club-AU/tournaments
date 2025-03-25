@@ -182,10 +182,10 @@
 <thead><tr><th>Pos</th> <th>#</th> <th>Player</th> <th>Rtg</th><th>Fed</th><th>Pts</th><th>     BH </th><th>  BH-C1 </th><th>     SB </th>
 </tr> </THEAD><tbody>
 <tr> 
-<td>1</td><td>43</td><td> <span class="notitle male"> </span> <a href="playercard.php#43">Ramprasad,Nachiket  </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
+<td>1</td><td>45</td><td> <span class="notitle male"> </span> <a href="playercard.php#45">Ramprasad,Nachiket  </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
 <tr> 
-<td>2</td><td>44</td><td> <span class="notitle male"> </span> <a href="playercard.php#44">Shinde,Yug          </a> </td><td>0</td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
+<td>2</td><td>46</td><td> <span class="notitle male"> </span> <a href="playercard.php#46">Shinde,Yug          </a> </td><td>0</td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
 <tr> 
 <td>3</td><td>39</td><td> <span class="notitle male"> </span> <a href="playercard.php#39">Kanthanraju,Aarna   </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.5</td><td>    0.5 </td><td>    0.0 </td><td>   0.25 </td>
@@ -200,16 +200,22 @@
 <td>6</td><td>42</td><td> <span class="notitle male"> </span> <a href="playercard.php#42">Nema,Nivaan         </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
 <tr> 
-<td>7</td><td>45</td><td> <span class="notitle male"> </span> <a href="playercard.php#45">Spriggs,Harvey      </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
+<td>7</td><td>47</td><td> <span class="notitle male"> </span> <a href="playercard.php#47">Spriggs,Harvey      </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
 <tr> 
-<td>8</td><td>46</td><td> <span class="notitle male"> </span> <a href="playercard.php#46">Srivatsav Yegnavajju</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
+<td>8</td><td>48</td><td> <span class="notitle male"> </span> <a href="playercard.php#48">Srivatsav Yegnavajju</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
 <tr> 
-<td>9</td><td>47</td><td> <span class="notitle female"> </span> <a href="playercard.php#47">Venkat,Nyra         </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
+<td>9</td><td>49</td><td> <span class="notitle female"> </span> <a href="playercard.php#49">Venkat,Nyra         </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
 <tr> 
 <td>10</td><td>41</td><td> <span class="notitle male"> </span> <a href="playercard.php#41">Kelly,Jackson       </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
+</tr> 
+<tr> 
+<td>11</td><td>43</td><td> <span class="notitle female"> </span> <a href="playercard.php#43">Ramagiri,Shivatmika </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
+</tr> 
+<tr> 
+<td>12</td><td>44</td><td> <span class="notitle female"> </span> <a href="playercard.php#44">Ramagiri,Sree Veeksh</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
 </tbody>
 </table> <br><br>

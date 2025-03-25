@@ -77,15 +77,15 @@
 <tr> 
 <td> <span class="idn"> 16 </span><span class="notitle male"> </span> <a href="playercard.php#16">Ashok,Arjun         </a> </td><td>795</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cw">42  </div></td></tr>
 <tr> 
-<td> <span class="idn"> 17 </span><span class="notitle male"> </span> <a href="playercard.php#17">Batyrbekov,Aidan    </a> </td><td>788</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">43  </div></td></tr>
+<td> <span class="idn"> 17 </span><span class="notitle male"> </span> <a href="playercard.php#17">Batyrbekov,Aidan    </a> </td><td>788</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">45  </div></td></tr>
 <tr> 
-<td> <span class="idn"> 18 </span><span class="notitle male"> </span> <a href="playercard.php#18">Nguyen,Tuan Kiet    </a> </td><td>761</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">44  </div></td></tr>
+<td> <span class="idn"> 18 </span><span class="notitle male"> </span> <a href="playercard.php#18">Nguyen,Tuan Kiet    </a> </td><td>761</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">46  </div></td></tr>
 <tr> 
-<td> <span class="idn"> 19 </span><span class="notitle male"> </span> <a href="playercard.php#19">Shaiek,Nihal        </a> </td><td>731</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">45  </div></td></tr>
+<td> <span class="idn"> 19 </span><span class="notitle male"> </span> <a href="playercard.php#19">Shaiek,Nihal        </a> </td><td>731</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">47  </div></td></tr>
 <tr> 
-<td> <span class="idn"> 20 </span><span class="notitle male"> </span> <a href="playercard.php#20">Ruaya,Rohan         </a> </td><td>727</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cw">46  </div></td></tr>
+<td> <span class="idn"> 20 </span><span class="notitle male"> </span> <a href="playercard.php#20">Ruaya,Rohan         </a> </td><td>727</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cw">48  </div></td></tr>
 <tr> 
-<td> <span class="idn"> 21 </span><span class="notitle male"> </span> <a href="playercard.php#21">Saha,Avinandan (Arju</a> </td><td>722</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">47  </div></td></tr>
+<td> <span class="idn"> 21 </span><span class="notitle male"> </span> <a href="playercard.php#21">Saha,Avinandan (Arju</a> </td><td>722</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">49  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 22 </span><span class="notitle female"> </span> <a href="playercard.php#22">Karthick,Deepshika  </a> </td><td>712</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td><div class="res"> ½ </div><div class="cf">BYE</div></tr>
 <tr> 
@@ -129,15 +129,19 @@
 <tr> 
 <td> <span class="idn"> 42 </span><span class="notitle male"> </span> <a href="playercard.php#42">Nema,Nivaan         </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">16  </div></td></tr>
 <tr> 
-<td> <span class="idn"> 43 </span><span class="notitle male"> </span> <a href="playercard.php#43">Ramprasad,Nachiket  </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cw">17  </div></td></tr>
+<td> <span class="idn"> 43 </span><span class="notitle female"> </span> <a href="playercard.php#43">Ramagiri,Shivatmika </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td> </td></tr>
 <tr> 
-<td> <span class="idn"> 44 </span><span class="notitle male"> </span> <a href="playercard.php#44">Shinde,Yug          </a> </td><td>0</td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">18  </div></td></tr>
+<td> <span class="idn"> 44 </span><span class="notitle female"> </span> <a href="playercard.php#44">Ramagiri,Sree Veeksh</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td> </td></tr>
 <tr> 
-<td> <span class="idn"> 45 </span><span class="notitle male"> </span> <a href="playercard.php#45">Spriggs,Harvey      </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">19  </div></td></tr>
+<td> <span class="idn"> 45 </span><span class="notitle male"> </span> <a href="playercard.php#45">Ramprasad,Nachiket  </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cw">17  </div></td></tr>
 <tr> 
-<td> <span class="idn"> 46 </span><span class="notitle male"> </span> <a href="playercard.php#46">Srivatsav Yegnavajju</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">20  </div></td></tr>
+<td> <span class="idn"> 46 </span><span class="notitle male"> </span> <a href="playercard.php#46">Shinde,Yug          </a> </td><td>0</td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">18  </div></td></tr>
 <tr> 
-<td> <span class="idn"> 47 </span><span class="notitle female"> </span> <a href="playercard.php#47">Venkat,Nyra         </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">21  </div></td></tr>
+<td> <span class="idn"> 47 </span><span class="notitle male"> </span> <a href="playercard.php#47">Spriggs,Harvey      </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">19  </div></td></tr>
+<tr> 
+<td> <span class="idn"> 48 </span><span class="notitle male"> </span> <a href="playercard.php#48">Srivatsav Yegnavajju</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">20  </div></td></tr>
+<tr> 
+<td> <span class="idn"> 49 </span><span class="notitle female"> </span> <a href="playercard.php#49">Venkat,Nyra         </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">21  </div></td></tr>
 </tbody>
 </table>
 </DIV>

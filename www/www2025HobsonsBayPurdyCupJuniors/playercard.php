@@ -222,7 +222,7 @@
 <a class="anchor" name="17"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td> B</td> <td>43</td> <td></td> <td> <a href="playercard.php#43"> Ramprasad,Nachiket   </a>  <td>0</td>
+<tr> <td>1</td> <td> B</td> <td>45</td> <td></td> <td> <a href="playercard.php#45"> Ramprasad,Nachiket   </a>  <td>0</td>
 <td> 0.0</td> <td> 1.0</td>
 </tr> 
 </tbody>
@@ -233,7 +233,7 @@
 <a class="anchor" name="18"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td>W </td> <td>44</td> <td></td> <td> <a href="playercard.php#44"> Shinde,Yug           </a>  <td>0</td>
+<tr> <td>1</td> <td>W </td> <td>46</td> <td></td> <td> <a href="playercard.php#46"> Shinde,Yug           </a>  <td>0</td>
 <td> 0.0</td> <td> 1.0</td>
 </tr> 
 </tbody>
@@ -244,7 +244,7 @@
 <a class="anchor" name="19"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td> B</td> <td>45</td> <td></td> <td> <a href="playercard.php#45"> Spriggs,Harvey       </a>  <td>0</td>
+<tr> <td>1</td> <td> B</td> <td>47</td> <td></td> <td> <a href="playercard.php#47"> Spriggs,Harvey       </a>  <td>0</td>
 <td> 1.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
@@ -255,7 +255,7 @@
 <a class="anchor" name="20"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td>W </td> <td>46</td> <td></td> <td> <a href="playercard.php#46"> Srivatsav Yegnavajju </a>  <td>0</td>
+<tr> <td>1</td> <td>W </td> <td>48</td> <td></td> <td> <a href="playercard.php#48"> Srivatsav Yegnavajju </a>  <td>0</td>
 <td> 1.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
@@ -266,7 +266,7 @@
 <a class="anchor" name="21"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td> B</td> <td>47</td> <td></td> <td> <a href="playercard.php#47"> Venkat,Nyra          </a>  <td>0</td>
+<tr> <td>1</td> <td> B</td> <td>49</td> <td></td> <td> <a href="playercard.php#49"> Venkat,Nyra          </a>  <td>0</td>
 <td> 1.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
@@ -496,9 +496,29 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  43   <strong>Ramprasad,Nachiket  </strong>, K= 0, Elo=   0, ID=0
+<caption>  43   <strong>Ramagiri,Shivatmika </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="43"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+<tr> <td>1</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+</tr> 
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  44   <strong>Ramagiri,Sree Veeksh</strong>, K= 0, Elo=   0, ID=0
+<br>
+<a class="anchor" name="44"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+<tr> <td>1</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+</tr> 
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  45   <strong>Ramprasad,Nachiket  </strong>, K= 0, Elo=   0, ID=0
+<br>
+<a class="anchor" name="45"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>17</td> <td></td> <td> <a href="playercard.php#17"> Batyrbekov,Aidan     </a>  <td>788</td>
@@ -507,9 +527,9 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  44   <strong>Shinde,Yug          </strong>, K= 0, Elo=   0, ID=0013284
+<caption>  46   <strong>Shinde,Yug          </strong>, K= 0, Elo=   0, ID=0013284
 <br>
-<a class="anchor" name="44"></a></caption>
+<a class="anchor" name="46"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>18</td> <td></td> <td> <a href="playercard.php#18"> Nguyen,Tuan Kiet     </a>  <td>761</td>
@@ -518,9 +538,9 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  45   <strong>Spriggs,Harvey      </strong>, K= 0, Elo=   0, ID=0
+<caption>  47   <strong>Spriggs,Harvey      </strong>, K= 0, Elo=   0, ID=0
 <br>
-<a class="anchor" name="45"></a></caption>
+<a class="anchor" name="47"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>19</td> <td></td> <td> <a href="playercard.php#19"> Shaiek,Nihal         </a>  <td>731</td>
@@ -529,9 +549,9 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  46   <strong>Srivatsav Yegnavajju</strong>, K= 0, Elo=   0, ID=0
+<caption>  48   <strong>Srivatsav Yegnavajju</strong>, K= 0, Elo=   0, ID=0
 <br>
-<a class="anchor" name="46"></a></caption>
+<a class="anchor" name="48"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>20</td> <td></td> <td> <a href="playercard.php#20"> Ruaya,Rohan          </a>  <td>727</td>
@@ -540,9 +560,9 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  47   <strong>Venkat,Nyra         </strong>, K= 0, Elo=   0, ID=3216996
+<caption>  49   <strong>Venkat,Nyra         </strong>, K= 0, Elo=   0, ID=3216996
 <br>
-<a class="anchor" name="47"></a></caption>
+<a class="anchor" name="49"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>21</td> <td></td> <td> <a href="playercard.php#21"> Saha,Avinandan (Arju </a>  <td>722</td>

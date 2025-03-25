@@ -60,7 +60,7 @@
 <caption> Standings</caption>
 <thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th>Rtg</th> <th>PRtg</th> <th>Fed</th><th>Origin</th><th>Pts</th> <th>     BH </th><th>  BH-C1 </th><th>     SB </th>
  </tr></thead> <tbody>
-<tr> <td>20</td> <td>44</td> <td>   </td> <td> <a href="playercard.php#44"> Shinde,Yug </a></td> <td >   0</td> <td >1561</td><td ><img class="shadow" src="flag/os.png" alt="OS"></td> <td></td> <td class="score"> 1.0</td> <td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
+<tr> <td>20</td> <td>46</td> <td>   </td> <td> <a href="playercard.php#46"> Shinde,Yug </a></td> <td >   0</td> <td >1561</td><td ><img class="shadow" src="flag/os.png" alt="OS"></td> <td></td> <td class="score"> 1.0</td> <td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
 <tr> <td>41</td> <td>38</td> <td>   </td> <td> <a href="playercard.php#38"> Ahmad,Ihtiram </a></td> <td >   0</td> <td >  71</td><td ><img class="shadow" src="flag/os.png" alt="OS"></td> <td></td> <td class="score"> 0.0</td> <td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
@@ -112,7 +112,7 @@
 </tr> 
 <tr> <td>18</td> <td>21</td> <td>   </td> <td> <a href="playercard.php#21"> Saha,Avinandan (Arjun) </a></td> <td > 722</td> <td >2200</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
-<tr> <td>19</td> <td>43</td> <td>   </td> <td> <a href="playercard.php#43"> Ramprasad,Nachiket </a></td> <td >   0</td> <td >1588</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
+<tr> <td>19</td> <td>45</td> <td>   </td> <td> <a href="playercard.php#45"> Ramprasad,Nachiket </a></td> <td >   0</td> <td >1588</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
 <tr> <td>21</td> <td>22</td> <td>   </td> <td> <a href="playercard.php#22"> Karthick,Deepshika </a></td> <td > 712</td> <td >   0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.5</td> <td>    0.5 </td><td>    0.0 </td><td>   0.25 </td>
 </tr> 
@@ -152,15 +152,17 @@
 </tr> 
 <tr> <td>42</td> <td>42</td> <td>   </td> <td> <a href="playercard.php#42"> Nema,Nivaan </a></td> <td >   0</td> <td >   0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.0</td> <td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
-<tr> <td>43</td> <td>45</td> <td>   </td> <td> <a href="playercard.php#45"> Spriggs,Harvey </a></td> <td >   0</td> <td >   0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.0</td> <td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
+<tr> <td>43</td> <td>47</td> <td>   </td> <td> <a href="playercard.php#47"> Spriggs,Harvey </a></td> <td >   0</td> <td >   0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.0</td> <td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
-<tr> <td>44</td> <td>46</td> <td>   </td> <td> <a href="playercard.php#46"> Srivatsav Yegnavajjula,Aryan </a></td> <td >   0</td> <td >   0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.0</td> <td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
+<tr> <td>44</td> <td>48</td> <td>   </td> <td> <a href="playercard.php#48"> Srivatsav Yegnavajjula,Aryan </a></td> <td >   0</td> <td >   0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.0</td> <td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
-<tr> <td>45</td> <td>47</td> <td>   </td> <td> <a href="playercard.php#47"> Venkat,Nyra </a></td> <td >   0</td> <td >   0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.0</td> <td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
+<tr> <td>45</td> <td>49</td> <td>   </td> <td> <a href="playercard.php#49"> Venkat,Nyra </a></td> <td >   0</td> <td >   0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.0</td> <td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
 <tr> <td>46</td> <td>14</td> <td>   </td> <td> <a href="playercard.php#14"> Veginati,Cherish </a></td> <td > 835</td> <td >   0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.0</td> <td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
 <tr> <td>47</td> <td>41</td> <td>   </td> <td> <a href="playercard.php#41"> Kelly,Jackson </a></td> <td >   0</td> <td >   0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.0</td> <td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
+</tr> 
+<tr> <td>49</td> <td>44</td> <td>   </td> <td> <a href="playercard.php#44"> Ramagiri,Sree Veeksha </a></td> <td >   0</td> <td >   0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.0</td> <td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
 </tbody>
 </table><hr>
@@ -177,6 +179,8 @@
 <tr> <td>25</td> <td>39</td> <td>   </td> <td> <a href="playercard.php#39"> Kanthanraju,Aarna </a></td> <td >   0</td> <td >   0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 0.5</td> <td>    0.5 </td><td>    0.0 </td><td>   0.25 </td>
 </tr> 
 <tr> <td>26</td> <td>40</td> <td>   </td> <td> <a href="playercard.php#40"> Kanthanraju,Aryan </a></td> <td >   0</td> <td >   0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 0.5</td> <td>    0.5 </td><td>    0.0 </td><td>   0.25 </td>
+</tr> 
+<tr> <td>48</td> <td>43</td> <td>   </td> <td> <a href="playercard.php#43"> Ramagiri,Shivatmika </a></td> <td >   0</td> <td >   0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 0.0</td> <td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
 </tbody>
 </table><hr>
