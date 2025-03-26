@@ -95,7 +95,7 @@
 <caption> <a class="anchor" name="10"></a> N = 10<a href="http://ratings.fide.com/card.phtml?event=3255360" target="X"> Hari,Dhruv </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
  <td>2</td><td>W </td><td>22</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#22">Annapureddy,Dhruthin Reddy</td><td>3239683</td><td>AUS</td><td>1509</td><td>0</td></tr><tr> 
- <td>3</td><td> B</td><td>24</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#24">Veldon,Rino</td><td>3261638</td><td>AUS</td><td>1516</td><td>0.5</td></tr></tbody>
+ <td>3</td><td> B</td><td>24</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#24">Veldon,Rino</td><td>3261638</td><td>AUS</td><td>1516</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="11"></a> N = 11<a href="http://ratings.fide.com/card.phtml?event=3232182" target="X"> McIntyre,Julian </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -177,7 +177,7 @@
 <tr> 
  <td>1</td><td> B</td><td>8</td><td><span class="title female"> WIM</span> <a href="fideplayercard.php#8">Szuveges,Narelle S</td><td>3202640</td><td>AUS</td><td>1698</td><td>0</td></tr><tr> 
  <td>2</td><td>W </td><td>5</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#5">Dakic,Dusan</td><td>3233472</td><td>AUS</td><td>1765</td><td>1</td></tr><tr> 
- <td>3</td><td>W </td><td>10</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#10">Hari,Dhruv</td><td>3255360</td><td>AUS</td><td>1709</td><td>0.5</td></tr></tbody>
+ <td>3</td><td>W </td><td>10</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#10">Hari,Dhruv</td><td>3255360</td><td>AUS</td><td>1709</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="25"></a> N = 25<a href="http://ratings.fide.com/card.phtml?event=3237796" target="X"> Nawar,Mena </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>

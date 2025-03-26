@@ -320,7 +320,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>1</td><td class="result">½ - ½</td><td>0.5</td><td><div class="player-container" 
+</td><td>1</td><td class="result">0 - 1</td><td>0.5</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#10"></a> 
  <div class="player-name-box2">

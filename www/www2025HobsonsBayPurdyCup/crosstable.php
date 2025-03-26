@@ -214,7 +214,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 1.0</td><td><div class="res"> ½ </div><div class="cf">BYE</div><td><div class="res">0</div><div class="cw">22  </div></td><td><div class="res">½</div><div class="cb">24  </div></td></tr>
+</td><td class="score"> 1.5</td><td><div class="res"> ½ </div><div class="cf">BYE</div><td><div class="res">0</div><div class="cw">22  </div></td><td><div class="res">1</div><div class="cb">24  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 11 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -466,7 +466,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 1.5</td><td><div class="res">0</div><div class="cb">8   </div></td><td><div class="res">1</div><div class="cw">5   </div></td><td><div class="res">½</div><div class="cw">10  </div></td></tr>
+</td><td class="score"> 1.0</td><td><div class="res">0</div><div class="cb">8   </div></td><td><div class="res">1</div><div class="cw">5   </div></td><td><div class="res">0</div><div class="cw">10  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 25 </span></td><td><div class="player-container" 
    <div class="left-box2">

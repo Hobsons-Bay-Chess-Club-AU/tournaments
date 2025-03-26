@@ -53,7 +53,7 @@
 <tr> 
 <td>9</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3242900" target="X">Pasukov,Leo</a></td> <td>3242900</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1706</td><td> 2</td> <td> 1.0</td> <td>1753</td> <td>3</td> <td>1753</td></tr>
 <tr> 
-<td>10</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3255360" target="X">Hari,Dhruv</a></td> <td>3255360</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1709</td><td> 2</td> <td> 0.5</td> <td>1513</td> <td>-40</td> <td>1320</td></tr>
+<td>10</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3255360" target="X">Hari,Dhruv</a></td> <td>3255360</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1709</td><td> 2</td> <td> 1.0</td> <td>1513</td> <td>-20</td> <td>1513</td></tr>
 <tr> 
 <td>11</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3232182" target="X">McIntyre,Julian</a></td> <td>3232182</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1700</td><td> 2</td> <td> 1.0</td> <td>1831</td> <td>5</td> <td>1831</td></tr>
 <tr> 
@@ -81,7 +81,7 @@
 <tr> 
 <td>23</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3262952" target="X">Yendru,Srikrishna</a></td> <td>3262952</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1618</td><td> 1</td> <td> 0.0</td> <td>1795</td> <td>-5</td> <td> 995</td></tr>
 <tr> 
-<td>24</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3261638" target="X">Veldon,Rino</a></td> <td>3261638</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1516</td><td> 3</td> <td> 1.5</td> <td>1724</td> <td>16</td> <td>1724</td></tr>
+<td>24</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3261638" target="X">Veldon,Rino</a></td> <td>3261638</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1516</td><td> 3</td> <td> 1.0</td> <td>1724</td> <td>6</td> <td>1599</td></tr>
 <tr> 
 <td>25</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3237796" target="X">Nawar,Mena</a></td> <td>3237796</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1684</td><td> 2</td> <td> 0.0</td> <td>1612</td> <td>-48</td> <td> 812</td></tr>
 <tr> 

@@ -110,7 +110,7 @@
 <td> 0.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>24</td> <td></td> <td> <a href="playercard.php#24"> Veldon,Rino          </a>  <td>1220</td>
-<td> 0.0</td> <td> 1.5</td>
+<td> 0.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>29</td> <td></td> <td> <a href="playercard.php#29"> Cox,Tyler            </a>  <td>936</td>
 <td> 1.0</td> <td> 0.0</td>
@@ -157,7 +157,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>24</td> <td></td> <td> <a href="playercard.php#24"> Veldon,Rino          </a>  <td>1220</td>
-<td> 1.0</td> <td> 1.5</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>2</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
@@ -194,7 +194,7 @@
 <td> 0.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>24</td> <td></td> <td> <a href="playercard.php#24"> Veldon,Rino          </a>  <td>1220</td>
-<td> 0.5</td> <td> 1.5</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -385,7 +385,7 @@
 <tr> <td>1</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>10</td> <td></td> <td> <a href="playercard.php#10"> Hari,Dhruv           </a>  <td>1534</td>
-<td> 1.0</td> <td> 1.0</td>
+<td> 1.0</td> <td> 1.5</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>6</td> <td></td> <td> <a href="playercard.php#6"> Paul,Cijo            </a>  <td>1611</td>
 <td> 0.5</td> <td> 1.5</td>
@@ -420,7 +420,7 @@
 <td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>10</td> <td></td> <td> <a href="playercard.php#10"> Hari,Dhruv           </a>  <td>1534</td>
-<td> 0.5</td> <td> 1.0</td>
+<td> 0.0</td> <td> 1.5</td>
 </tr> 
 </tbody>
 </table><br>

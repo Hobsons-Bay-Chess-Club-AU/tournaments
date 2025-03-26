@@ -68,9 +68,9 @@
 </tr> 
 <tr> <td>8</td> <td>9</td> <td>   </td> <td> <a href="playercard.php#9"> Pasukov,Leo </a></td> <td >1536</td> <td >1464</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 2.0</td> <td>    5.0 </td><td>    4.0 </td><td>   3.00 </td>
 </tr> 
-<tr> <td>9</td> <td>22</td> <td>   </td> <td> <a href="playercard.php#22"> Annapureddy,Dhruthin Reddy </a></td> <td >1364</td> <td >1766</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 2.0</td> <td>    4.5 </td><td>    2.5 </td><td>   2.75 </td>
+<tr> <td>9</td> <td>22</td> <td>   </td> <td> <a href="playercard.php#22"> Annapureddy,Dhruthin Reddy </a></td> <td >1364</td> <td >1766</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 2.0</td> <td>    5.0 </td><td>    3.0 </td><td>   3.25 </td>
 </tr> 
-<tr> <td>10</td> <td>8</td> <td>WIM</td> <td> <a href="playercard.php#8"> Szuveges,Narelle S </a></td> <td >1550</td> <td >2153</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 2.0</td> <td>    4.5 </td><td>    2.5 </td><td>   2.50 </td>
+<tr> <td>10</td> <td>8</td> <td>WIM</td> <td> <a href="playercard.php#8"> Szuveges,Narelle S </a></td> <td >1550</td> <td >2153</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 2.0</td> <td>    4.0 </td><td>    2.0 </td><td>   2.00 </td>
 </tr> 
 <tr> <td>11</td> <td>28</td> <td>   </td> <td> <a href="playercard.php#28"> Kostakakis,Angelo </a></td> <td >1011</td> <td >1736</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 2.0</td> <td>    4.0 </td><td>    2.0 </td><td>   2.00 </td>
 </tr> 
@@ -78,9 +78,9 @@
 </tr> 
 <tr> <td>15</td> <td>19</td> <td>   </td> <td> <a href="playercard.php#19"> Bodke,Krishna </a></td> <td >1445</td> <td >1567</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 1.5</td> <td>    4.5 </td><td>    3.0 </td><td>   2.25 </td>
 </tr> 
-<tr> <td>16</td> <td>16</td> <td>   </td> <td> <a href="playercard.php#16"> Hogan,Steven </a></td> <td >1493</td> <td >1306</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 1.5</td> <td>    4.0 </td><td>    3.5 </td><td>   0.75 </td>
+<tr> <td>16</td> <td>10</td> <td>   </td> <td> <a href="playercard.php#10"> Hari,Dhruv </a></td> <td >1534</td> <td >1292</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 1.5</td> <td>    4.5 </td><td>    3.0 </td><td>   1.75 </td>
 </tr> 
-<tr> <td>17</td> <td>24</td> <td>   </td> <td> <a href="playercard.php#24"> Veldon,Rino </a></td> <td >1220</td> <td >1601</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 1.5</td> <td>    4.0 </td><td>    3.0 </td><td>   1.50 </td>
+<tr> <td>17</td> <td>16</td> <td>   </td> <td> <a href="playercard.php#16"> Hogan,Steven </a></td> <td >1493</td> <td >1306</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 1.5</td> <td>    4.0 </td><td>    3.5 </td><td>   0.75 </td>
 </tr> 
 <tr> <td>18</td> <td>12</td> <td>   </td> <td> <a href="playercard.php#12"> Wilkinson,Greg </a></td> <td >1523</td> <td >1224</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 1.5</td> <td>    3.5 </td><td>    2.5 </td><td>   1.75 </td>
 </tr> 
@@ -90,13 +90,13 @@
 </tr> 
 <tr> <td>21</td> <td>15</td> <td>   </td> <td> <a href="playercard.php#15"> Windsor,Maximilian </a></td> <td >1494</td> <td >1564</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 1.0</td> <td>    5.0 </td><td>    4.0 </td><td>   1.00 </td>
 </tr> 
-<tr> <td>22</td> <td>10</td> <td>   </td> <td> <a href="playercard.php#10"> Hari,Dhruv </a></td> <td >1534</td> <td >1099</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 1.0</td> <td>    4.5 </td><td>    3.5 </td><td>   1.25 </td>
+<tr> <td>22</td> <td>24</td> <td>   </td> <td> <a href="playercard.php#24"> Veldon,Rino </a></td> <td >1220</td> <td >1476</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 1.0</td> <td>    4.5 </td><td>    3.5 </td><td>   1.00 </td>
 </tr> 
 <tr> <td>23</td> <td>11</td> <td>   </td> <td> <a href="playercard.php#11"> McIntyre,Julian </a></td> <td >1529</td> <td >1629</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 1.0</td> <td>    4.5 </td><td>    3.5 </td><td>   0.50 </td>
 </tr> 
-<tr> <td>25</td> <td>5</td> <td>   </td> <td> <a href="playercard.php#5"> Dakic,Dusan </a></td> <td >1720</td> <td >1063</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 1.0</td> <td>    3.5 </td><td>    3.5 </td><td>   0.00 </td>
+<tr> <td>25</td> <td>25</td> <td>   </td> <td> <a href="playercard.php#25"> Nawar,Mena </a></td> <td >1193</td> <td >1361</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 1.0</td> <td>    3.5 </td><td>    3.5 </td><td>   0.00 </td>
 </tr> 
-<tr> <td>26</td> <td>25</td> <td>   </td> <td> <a href="playercard.php#25"> Nawar,Mena </a></td> <td >1193</td> <td >1361</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 1.0</td> <td>    3.5 </td><td>    3.5 </td><td>   0.00 </td>
+<tr> <td>26</td> <td>5</td> <td>   </td> <td> <a href="playercard.php#5"> Dakic,Dusan </a></td> <td >1720</td> <td >1063</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 1.0</td> <td>    3.0 </td><td>    3.0 </td><td>   0.00 </td>
 </tr> 
 <tr> <td>27</td> <td>26</td> <td>   </td> <td> <a href="playercard.php#26"> Richards,Derek </a></td> <td >1129</td> <td >1219</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td> <td></td> <td class="score"> 0.5</td> <td>    4.0 </td><td>    3.0 </td><td>   0.75 </td>
 </tr> 
