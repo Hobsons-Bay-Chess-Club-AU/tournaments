@@ -103,7 +103,7 @@
 </tr> 
 <tr> <td>28</td> <td>47</td> <td>   </td> <td> <a href="playercard.php#47"> Spriggs,Harvey </a></td> <td >   0</td> <td > 393</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.0</td> <td>    6.0 </td><td>    5.0 </td><td>   3.00 </td>
 </tr> 
-<tr> <td>29</td> <td>12</td> <td>   </td> <td> <a href="playercard.php#12"> Wei,Andrew </a></td> <td > 997</td> <td > 499</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.5</td> <td>    8.0 </td><td>    6.5 </td><td>   1.25 </td>
+<tr> <td>29</td> <td>12</td> <td>   </td> <td> <a href="playercard.php#12"> Wei,Andrew (W) </a></td> <td > 997</td> <td > 499</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.5</td> <td>    8.0 </td><td>    6.5 </td><td>   1.25 </td>
 </tr> 
 <tr> <td>31</td> <td>33</td> <td>   </td> <td> <a href="playercard.php#33"> Das,Ayush </a></td> <td > 318</td> <td > 582</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.5</td> <td>    6.0 </td><td>    4.5 </td><td>   1.25 </td>
 </tr> 
@@ -117,7 +117,7 @@
 </tr> 
 <tr> <td>36</td> <td>16</td> <td>   </td> <td> <a href="playercard.php#16"> Ashok,Arjun </a></td> <td > 795</td> <td > 913</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    7.5 </td><td>    6.5 </td><td>   2.00 </td>
 </tr> 
-<tr> <td>37</td> <td>34</td> <td>   </td> <td> <a href="playercard.php#34"> Goh,Julian (W) </a></td> <td > 309</td> <td > 978</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    7.5 </td><td>    6.5 </td><td>   1.00 </td>
+<tr> <td>37</td> <td>34</td> <td>   </td> <td> <a href="playercard.php#34"> Goh,Julian </a></td> <td > 309</td> <td > 978</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    7.5 </td><td>    6.5 </td><td>   1.00 </td>
 </tr> 
 <tr> <td>38</td> <td>35</td> <td>   </td> <td> <a href="playercard.php#35"> Rawat,Pratyax Singh </a></td> <td > 302</td> <td > 961</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    7.0 </td><td>    7.0 </td><td>   0.00 </td>
 </tr> 
