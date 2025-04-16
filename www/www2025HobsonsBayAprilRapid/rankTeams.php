@@ -52,54 +52,54 @@
 <table class="table table-striped "> 
 <thead><tr><th>1</th> <th> </th><th>17.5</th></tr></thead><tbody> 
 <tr> <td>1</td> <td>Annapureddy,Rheyansh Reddy </td><td>5</td></tr> 
-<tr> <td>13</td> <td>Nguyen,Anh Kiet </td><td>4.5</td></tr> 
+<tr> <td>9</td> <td>Nguyen,Anh Kiet </td><td>4.5</td></tr> 
 <tr> <td>2</td> <td>Hogg,Dean </td><td>4</td></tr> 
-<tr> <td>4</td> <td>Jothibabu,Anandaram </td><td>4</td></tr> 
-<tr> <td>7</td> <td>Lingineni,Khushal </td><td>4</td></tr> 
-<tr> <td>15</td> <td>Annapureddy,Dhruthin Reddy </td><td>4</td></tr> 
-<tr> <td>8</td> <td>Hogan,Steven </td><td>3.5</td></tr> 
-<tr> <td>5</td> <td>Lacson,Joemar </td><td>3.5</td></tr> 
-<tr> <td>19</td> <td>Thandhi,Mohan </td><td>3.5</td></tr> 
-<tr> <td>23</td> <td>Veginati,Cherish </td><td>3.5</td></tr> 
-<tr> <td>16</td> <td>Yang,Yifan </td><td>3.5</td></tr> 
-<tr> <td>33</td> <td>Christodoulou,Stanislas </td><td>3</td></tr> 
-<tr> <td>20</td> <td>Majety,Rohan </td><td>3</td></tr> 
+<tr> <td>5</td> <td>Jothibabu,Anandaram </td><td>4</td></tr> 
+<tr> <td>3</td> <td>Lingineni,Khushal </td><td>4</td></tr> 
+<tr> <td>13</td> <td>Annapureddy,Dhruthin Reddy </td><td>4</td></tr> 
+<tr> <td>17</td> <td>Hogan,Steven </td><td>3.5</td></tr> 
+<tr> <td>10</td> <td>Lacson,Joemar </td><td>3.5</td></tr> 
+<tr> <td>23</td> <td>Thandhi,Mohan </td><td>3.5</td></tr> 
+<tr> <td>32</td> <td>Veginati,Cherish </td><td>3.5</td></tr> 
+<tr> <td>19</td> <td>Yang,Yifan </td><td>3.5</td></tr> 
+<tr> <td>43</td> <td>Christodoulou,Stanislas </td><td>3</td></tr> 
+<tr> <td>24</td> <td>Majety,Rohan </td><td>3</td></tr> 
 <tr> <td>18</td> <td>Ramanathan,Ashwin </td><td>3</td></tr> 
-<tr> <td>21</td> <td>Annadasu,Shreyansh </td><td>3</td></tr> 
-<tr> <td>25</td> <td>Nguyen,Tuan Kiet </td><td>3</td></tr> 
-<tr> <td>26</td> <td>Ruaya,Rohan </td><td>3</td></tr> 
-<tr> <td>3</td> <td>Krishnan,Anirudh </td><td>3</td></tr> 
-<tr> <td>30</td> <td>Ahmad,Ihtiram </td><td>3</td></tr> 
-<tr> <td>46</td> <td>Srivatsav Yegnavajjula, Aryan </td><td>3</td></tr> 
-<tr> <td>28</td> <td>Nicdao,Joseph </td><td>2.5</td></tr> 
-<tr> <td>11</td> <td>Bodke,Krishna </td><td>2.5</td></tr> 
-<tr> <td>17</td> <td>Nawar,Mena </td><td>2.5</td></tr> 
-<tr> <td>45</td> <td>Sivesh Balaji,Sai </td><td>2.5</td></tr> 
-<tr> <td>27</td> <td>Saha,Avinandan (Arjun) </td><td>2.5</td></tr> 
-<tr> <td>48</td> <td>Velkur,Gagan Saicharan </td><td>2.5</td></tr> 
-<tr> <td>38</td> <td>Huang,Michael </td><td>2</td></tr> 
-<tr> <td>12</td> <td>Salanowski,Mark </td><td>2</td></tr> 
-<tr> <td>49</td> <td>Velkur,Raghav Sripad </td><td>2</td></tr> 
-<tr> <td>41</td> <td>Nema,Nivaan </td><td>2</td></tr> 
-<tr> <td>39</td> <td>Jagannathan,Shashvath </td><td>2</td></tr> 
-<tr> <td>43</td> <td>Ryan,Jasper </td><td>2</td></tr> 
-<tr> <td>10</td> <td>Ruaya,Chris Rodson </td><td>2</td></tr> 
-<tr> <td>44</td> <td>Shaiek,Nihal </td><td>2</td></tr> 
-<tr> <td>31</td> <td>Balamurugan,Soorya </td><td>1.5</td></tr> 
-<tr> <td>14</td> <td>Kirk,Ian </td><td>1.5</td></tr> 
-<tr> <td>24</td> <td>Ashok,Arjun </td><td>1.5</td></tr> 
-<tr> <td>32</td> <td>Christodoulou,Anthony </td><td>1.5</td></tr> 
+<tr> <td>28</td> <td>Annadasu,Shreyansh </td><td>3</td></tr> 
+<tr> <td>4</td> <td>Ruaya,Rohan </td><td>3</td></tr> 
+<tr> <td>6</td> <td>Nguyen,Tuan Kiet </td><td>3</td></tr> 
+<tr> <td>14</td> <td>Krishnan,Anirudh </td><td>3</td></tr> 
+<tr> <td>41</td> <td>Ahmad,Ihtiram </td><td>3</td></tr> 
+<tr> <td>49</td> <td>Srivatsav Yegnavajjula, Aryan </td><td>3</td></tr> 
+<tr> <td>30</td> <td>Nicdao,Joseph </td><td>2.5</td></tr> 
+<tr> <td>15</td> <td>Bodke,Krishna </td><td>2.5</td></tr> 
+<tr> <td>20</td> <td>Nawar,Mena </td><td>2.5</td></tr> 
+<tr> <td>48</td> <td>Sivesh Balaji,Sai </td><td>2.5</td></tr> 
+<tr> <td>21</td> <td>Saha,Avinandan (Arjun) </td><td>2.5</td></tr> 
+<tr> <td>38</td> <td>Velkur,Gagan Saicharan </td><td>2.5</td></tr> 
+<tr> <td>25</td> <td>Huang,Michael </td><td>2</td></tr> 
+<tr> <td>8</td> <td>Salanowski,Mark </td><td>2</td></tr> 
+<tr> <td>34</td> <td>Velkur,Raghav Sripad </td><td>2</td></tr> 
+<tr> <td>45</td> <td>Nema,Nivaan </td><td>2</td></tr> 
+<tr> <td>29</td> <td>Jagannathan,Shashvath </td><td>2</td></tr> 
+<tr> <td>47</td> <td>Ryan,Jasper </td><td>2</td></tr> 
+<tr> <td>12</td> <td>Ruaya,Chris Rodson </td><td>2</td></tr> 
+<tr> <td>27</td> <td>Shaiek,Nihal </td><td>2</td></tr> 
+<tr> <td>35</td> <td>Balamurugan,Soorya </td><td>1.5</td></tr> 
+<tr> <td>11</td> <td>Kirk,Ian </td><td>1.5</td></tr> 
+<tr> <td>26</td> <td>Ashok,Arjun </td><td>1.5</td></tr> 
+<tr> <td>42</td> <td>Christodoulou,Anthony </td><td>1.5</td></tr> 
 <tr> <td>22</td> <td>Cox,Tyler </td><td>1.5</td></tr> 
-<tr> <td>29</td> <td>Goh,Nicholas </td><td>1</td></tr> 
-<tr> <td>40</td> <td>Jyothi Nikhil,Neev </td><td>1</td></tr> 
-<tr> <td>34</td> <td>Cox,Aiden </td><td>1</td></tr> 
-<tr> <td>6</td> <td>Paul,Cijo </td><td>0.5</td></tr> 
-<tr> <td>9</td> <td>Austin, Angelo </td><td>0.5</td></tr> 
-<tr> <td>47</td> <td>Stefan Jiace Tham,Keanu </td><td>0.5</td></tr> 
-<tr> <td>35</td> <td>Ganesh Kumar,Mukunth </td><td>0</td></tr> 
-<tr> <td>37</td> <td>Goh,Julian </td><td>0</td></tr> 
-<tr> <td>36</td> <td>Goh,Daphne </td><td>0</td></tr> 
-<tr> <td>42</td> <td>Ramprasad,Nachiket </td><td>0</td></tr> 
+<tr> <td>33</td> <td>Goh,Nicholas </td><td>1</td></tr> 
+<tr> <td>36</td> <td>Jyothi Nikhil,Neev </td><td>1</td></tr> 
+<tr> <td>31</td> <td>Cox,Aiden </td><td>1</td></tr> 
+<tr> <td>7</td> <td>Austin, Angelo </td><td>0.5</td></tr> 
+<tr> <td>16</td> <td>Paul,Cijo </td><td>0.5</td></tr> 
+<tr> <td>37</td> <td>Stefan Jiace Tham,Keanu </td><td>0.5</td></tr> 
+<tr> <td>44</td> <td>Ganesh Kumar,Mukunth </td><td>0</td></tr> 
+<tr> <td>39</td> <td>Goh,Julian </td><td>0</td></tr> 
+<tr> <td>40</td> <td>Goh,Daphne </td><td>0</td></tr> 
+<tr> <td>46</td> <td>Ramprasad,Nachiket </td><td>0</td></tr> 
 </tbody>
 </table>
 <h5 class="mb-4 mt-4"> Best boards</h5>
