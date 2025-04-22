@@ -96,7 +96,7 @@
 <tr> 
 <td><span class="idn"> 28</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3288510" target="X"> Srivatsav Yegnavajjula, Aryan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 29</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286401" target="X"> Tham,Keanu </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>382</td><td>0</td><td>382</td> </tr>
+<td><span class="idn"> 29</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286401" target="X"> Stefan Jiace Tham,Keanu </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>382</td><td>0</td><td>382</td> </tr>
 <tr> 
 <td><span class="idn"> 30</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3226735" target="X"> Thandhi,Mohan </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>902</td><td>1502</td><td>902</td> </tr>
 <tr> 

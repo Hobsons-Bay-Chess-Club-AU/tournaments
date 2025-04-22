@@ -82,7 +82,7 @@
 <tr> 
 <td><span class="idn"> 21</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3272605" target="X"> Velkur,Raghav Sripad </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>428</td><td>0</td><td>428</td> </tr>
 <tr> 
-<td><span class="idn"> 22</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286401" target="X"> Tham,Keanu </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>382</td><td>0</td><td>382</td> </tr>
+<td><span class="idn"> 22</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286401" target="X"> Stefan Jiace Tham,Keanu </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>382</td><td>0</td><td>382</td> </tr>
 <tr> 
 <td><span class="idn"> 23</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3254917" target="X"> Goh,Nicholas </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>380</td><td>1438</td><td>380</td> </tr>
 <tr> 
