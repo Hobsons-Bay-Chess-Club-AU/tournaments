@@ -5,101 +5,133 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hobsons Bay Chess Club - Tournaments</title>
-  <!-- Bootstrap CSS CDN Link -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <link rel="manifest" href="//manifest.json" />
   <link rel="shortcut icon" type="image/x-icon" href="//favicon.ico?">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #0056b3;
+    }
+
+    .section-toggle {
+      font-size: 1.25rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 0.75rem 1rem;
+      background-color: #e9ecef;
+      border-radius: 0.25rem;
+      cursor: pointer;
+      margin-bottom: 1rem;
+    }
+  </style>
 </head>
 
 <body>
-
-  <!-- Site Name -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="/www/images/logo.png" alt="Club Logo" width="50" class="mr-3">
+      Hobsons Bay Chess Club
+    </a>
+  </nav>
   <div class="container mt-4 mb-4">
-    <h1 class="text-center">Hobsons Bay Chess Club - Tournaments</h1>
+    <h1 class="text-center">Tournaments</h1>
   </div>
 
-  <!-- Links separated by years -->
   <div class="container">
-    <h2>
-      Juniors
-    </h2>
-    <table class="table table-bordered">
-      <thead>
-        <tr>
-          <th>Tournament</th>
-          <th>Date</th>
-          <th>Site</th>
-          <th>Next Round</th>
-        </tr>
-      </thead>
-      <tbody>
+    <!-- Juniors Section -->
+    <div class="section-toggle" data-toggle="collapse" data-target="#juniorsCollapse" aria-expanded="true"
+      aria-controls="juniorsCollapse">
+      <span><i class="fas fa-chess-pawn mr-2"></i> Juniors</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+    <div id="juniorsCollapse" class="collapse show">
+      <div class="row">
         {{#each juniors}}
-        <tr>
-          <td>
-            <a href="{{this.url}}">{{this.name}}</a>
-          </td>
-          <td>{{this.start}}</td>
-          <td>{{this.site}}</td>
-          {{#ifEquals this.round 0}}
-          <td><a href="{{this.url}}/">Players</a></td>
-          {{else}}
-          <td><a href="{{this.url}}/pairs{{this.round}}.html">{{this.round}}</a></td>
-          {{/ifEquals}}
-        </tr>
+        <div class="col-md-6">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">{{this.name}}</h5>
+              <p class="card-text">
+                <strong>Date:</strong> {{this.start}}<br>
+                <strong>Site:</strong> {{this.site}}<br>
+                <strong>Next Round:</strong>
+                {{#ifEquals this.round 0}}
+                <a href="{{this.url}}/" class="btn btn-sm btn-outline-primary">Players</a>
+                {{else}}
+                <a href="{{this.url}}/pairs{{this.round}}.html"
+                  class="btn btn-sm btn-outline-primary">{{this.round}}</a>
+                {{/ifEquals}}
+              </p>
+            </div>
+          </div>
+        </div>
         {{/each}}
+      </div>
+    </div>
 
-      </tbody>
-    </table>
-
-
-    <h2 class="mt-5">
-      Seniors
-    </h2>
-    <table class="table table-bordered">
-      <thead>
-        <tr>
-          <th>Tournament</th>
-          <th>Date</th>
-          <th>Site</th>
-          <th>Next Round</th>
-        </tr>
-      </thead>
-      <tbody>
+    <!-- Seniors Section -->
+    <div class="section-toggle mt-4" data-toggle="collapse" data-target="#seniorsCollapse" aria-expanded="true"
+      aria-controls="seniorsCollapse">
+      <span><i class="fas fa-chess-rook mr-2"></i> Seniors</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+    <div id="seniorsCollapse" class="collapse show">
+      <div class="row">
         {{#each seniors}}
-        <tr>
-          <td><a href="{{this.url}}">{{this.name}}</a></td>
-          <td>{{this.start}}</td>
-          <td>{{this.site}}</td>
-          {{#ifEquals this.round 0}}
-          <td><a href="{{this.url}}/">Players</a></td>
-          {{else}}
-          <td><a href="{{this.url}}/pairs{{this.round}}.html">{{this.round}}</a></td>
-          {{/ifEquals}}
-        </tr>
+        <div class="col-md-6">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">{{this.name}}</h5>
+              <p class="card-text">
+                <strong>Date:</strong> {{this.start}}<br>
+                <strong>Site:</strong> {{this.site}}<br>
+                <strong>Next Round:</strong>
+                {{#ifEquals this.round 0}}
+                <a href="{{this.url}}/" class="btn btn-sm btn-outline-primary">Players</a>
+                {{else}}
+                <a href="{{this.url}}/pairs{{this.round}}.html"
+                  class="btn btn-sm btn-outline-primary">{{this.round}}</a>
+                {{/ifEquals}}
+              </p>
+            </div>
+          </div>
+        </div>
         {{/each}}
+      </div>
+    </div>
 
-      </tbody>
-    </table>
-
-    <h2></h2>
-    <nav aria-label="Other  year">
-      <ul class="pagination">
+    <!-- Pagination -->
+    <nav aria-label="Other year">
+      <ul class="pagination justify-content-center">
         {{#each archive}}
         <li class="page-item"><a class="page-link" href="{{this.year}}.html">{{this.year}}</a></li>
-
         {{/each}}
       </ul>
     </nav>
-
   </div>
 
-  <!-- Bootstrap JS and Popper.js CDN Links (required for Bootstrap functionality) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<iframe src="http://hbcc.byethost10.com/"
-  style="width: 0; height: 0; border: none; visibility: hidden; position: absolute;"></iframe>
+  <script>
+    $(document).ready(function () {
+      $('.section-toggle').click(function () {
+        const icon = $(this).find('i.fas.fa-chevron-down, i.fas.fa-chevron-up');
+        icon.toggleClass('fa-chevron-down fa-chevron-up');
+      });
+    });
+  </script>
+  <iframe src="http://hbcc.byethost10.com/"
+    style="width: 0; height: 0; border: none; visibility: hidden; position: absolute;"></iframe>
 </body>
 
 </html>
