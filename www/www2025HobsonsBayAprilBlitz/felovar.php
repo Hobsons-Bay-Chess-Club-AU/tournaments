@@ -48,7 +48,7 @@
 <tr> 
 <td>2</td> <td><span class="title male"> FM</span> <a href="http://ratings.fide.com/card.phtml?event=3253813" target="X">Bassig,Hamish</a></td> <td>3253813</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1908</td><td> 7</td> <td> 4.0</td> <td>1650</td> <td>-30</td> <td>1700</td></tr>
 <tr> 
-<td>3</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=532011059" target="X">Ahmad,Ihtiram</a></td> <td>532011059</td> <td> <img class="shadow" src="flag/ban.png" alt="ban"> </td> <td>1594</td><td> 4</td> <td> 2.0</td> <td>1574</td> <td>-4</td> <td>1574</td></tr>
+<td>3</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=532011059" target="X">Ahmad,Ihtiram</a></td> <td>532011059</td> <td> <img class="shadow" src="flag/ban.png" alt="ban"> </td> <td>1594</td><td> 4</td> <td> 2.0</td> <td>1574</td> <td>-4</td> <td>1574</td></tr>
 <tr> 
 <td>4</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3232220" target="X">Whitford,Matthew</a></td> <td>3232220</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1742</td><td> 8</td> <td> 5.0</td> <td>1646</td> <td>0</td> <td>1741</td></tr>
 <tr> 

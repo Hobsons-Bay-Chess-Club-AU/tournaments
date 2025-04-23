@@ -48,7 +48,7 @@
 <tr> 
 <td><span class="idn"> 2</span></td><td> <span class="title male"> FM</span> <a href="http://ratings.fide.com/card.phtml?event=3253813" target="X"> Bassig,Hamish </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1807</td><td>1908</td><td>1807</td> </tr>
 <tr> 
-<td><span class="idn"> 3</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=532011059" target="X"> Ahmad,Ihtiram </a></td><td ><img class="shadow" src="flag/ban.png" alt="BAN"></td><td></td><td>1594</td><td>1594</td><td>0</td> </tr>
+<td><span class="idn"> 3</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=532011059" target="X"> Ahmad,Ihtiram </a></td><td ><img class="shadow" src="flag/ban.png" alt="BAN"></td><td></td><td>1594</td><td>1594</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 4</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3232220" target="X"> Whitford,Matthew </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1574</td><td>1742</td><td>1574</td> </tr>
 <tr> 
