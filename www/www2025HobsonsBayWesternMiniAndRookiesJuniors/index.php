@@ -40,41 +40,35 @@
   <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players sorted by rating and title</h3><div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>#</th><th>Player</th><th>Fed</th><th>Rtg</th><th>RtgF</th><th>RtgN</th></tr></thead><tbody>
 <tr> 
-<td><span class="idn"> 1</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286320" target="X"> Huang,Michael </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>805</td><td>0</td><td>805</td> </tr>
+<td><span class="idn"> 1</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3278905" target="X"> Husain,Lamiah </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>475</td><td>0</td><td>475</td> </tr>
 <tr> 
-<td><span class="idn"> 2</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286380" target="X"> Shaiek,Nihal </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>731</td><td>0</td><td>731</td> </tr>
+<td><span class="idn"> 2</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286274" target="X"> Bodke,Aryan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>423</td><td>0</td><td>423</td> </tr>
 <tr> 
-<td><span class="idn"> 3</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275248" target="X"> Veginati,Cherish </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>552</td><td>0</td><td>552</td> </tr>
+<td><span class="idn"> 3</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286312" target="X"> Goh,Julian </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>309</td><td>0</td><td>309</td> </tr>
 <tr> 
-<td><span class="idn"> 4</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3278905" target="X"> Husain,Lamiah </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>475</td><td>0</td><td>475</td> </tr>
+<td><span class="idn"> 4</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3287440" target="X"> Rawat,Pratyax Singh </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>302</td><td>0</td><td>302</td> </tr>
 <tr> 
-<td><span class="idn"> 5</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286274" target="X"> Bodke,Aryan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>423</td><td>0</td><td>423</td> </tr>
+<td><span class="idn"> 5</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267881" target="X"> Yendru,Sriram </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>245</td><td>0</td><td>245</td> </tr>
 <tr> 
-<td><span class="idn"> 6</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286266" target="X"> Balamurugan,Soorya </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>401</td><td>0</td><td>401</td> </tr>
+<td><span class="idn"> 6</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286282" target="X"> Chan,Abby </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>242</td><td>0</td><td>242</td> </tr>
 <tr> 
-<td><span class="idn"> 7</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286312" target="X"> Goh,Julian </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>309</td><td>0</td><td>309</td> </tr>
+<td><span class="idn"> 7</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286304" target="X"> Goh,Daphne </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>107</td><td>0</td><td>107</td> </tr>
 <tr> 
-<td><span class="idn"> 8</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3287440" target="X"> Rawat,Pratyax Singh </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>302</td><td>0</td><td>302</td> </tr>
+<td><span class="idn"> 8</span></td><td> <span class="notitle female"> </span> Fang,Candice </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 9</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267881" target="X"> Yendru,Sriram </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>245</td><td>0</td><td>245</td> </tr>
+<td><span class="idn"> 9</span></td><td> <span class="notitle male"> </span> Ganesh Kumar,Mukunth </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 10</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286282" target="X"> Chan,Abby </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>242</td><td>0</td><td>242</td> </tr>
+<td><span class="idn"> 10</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286851" target="X"> Kantharaju,Aarna </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 11</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286304" target="X"> Goh,Daphne </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>107</td><td>0</td><td>107</td> </tr>
+<td><span class="idn"> 11</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286860" target="X"> Kantharaju,Aryan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 12</span></td><td> <span class="notitle female"> </span> Fang,Candice </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 12</span></td><td> <span class="notitle male"> </span> Kelly,Jackson </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 13</span></td><td> <span class="notitle male"> </span> Ganesh Kumar,Mukunth </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 13</span></td><td> <span class="notitle male"> </span> Nema,Nivaan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 14</span></td><td> <span class="notitle male"> </span> Jackson,Kelly </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 14</span></td><td> <span class="notitle male"> </span> Shinde,Yug </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 15</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286851" target="X"> Kantharaju,Aarna </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 16</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286860" target="X"> Kantharaju,Aryan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 17</span></td><td> <span class="notitle male"> </span> Nema,Nivaan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 18</span></td><td> <span class="notitle male"> </span> Srivatsav Yegnavajjula,Aryan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 15</span></td><td> <span class="notitle male"> </span> Srivatsav Yegnavajjula,Aryan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
 </tbody>
 <tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</tr></td></tfoot></table></div>
 		  </div>
