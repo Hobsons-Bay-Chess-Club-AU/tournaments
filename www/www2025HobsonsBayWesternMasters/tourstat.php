@@ -41,11 +41,11 @@
 <tr><td >Score game</td> <td> 0-0.5-1</td> </tr>
 <tr><td >Tie break</td> <td>      SB     ARO </td> </tr>
 <tr><td >Registered Players</td> <td> 6</td> </tr>
-<tr><td > Number of Federations</td> <td> 2</td> </tr>
-<tr><td >Average Rating (all) </td> <td> 1812</td> </tr>
-<tr><td >Average Rating (only FIDE rated) </td> <td> 1812</td> </tr>
-<tr ><td > Players from AUS Federation</td> <td> 1</td> </tr>
-<tr><td > Players NOT from AUS Federation</td> <td> 5</td> </tr>
+<tr><td > Number of Federations</td> <td> 1</td> </tr>
+<tr><td >Average Rating (all) </td> <td> 1841</td> </tr>
+<tr><td >Average Rating (only FIDE rated) </td> <td> 1841</td> </tr>
+<tr ><td > Players from AUS Federation</td> <td> 0</td> </tr>
+<tr><td > Players NOT from AUS Federation</td> <td> 6</td> </tr>
 <tr><td > FIDE rated players </td> <td> 6</td> </tr>
 <tr><td > unrated players </td> <td> 0</td> </tr>
 <tr><td > unrated players from AUS Federation</td> <td> 0</td> </tr>

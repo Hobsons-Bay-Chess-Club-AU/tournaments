@@ -34,13 +34,13 @@
 <thead><tr><th>Bo.</th><th>Fed</th><th>Origin</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Origin</th><th>Fed</th></tr></thead><tbody>
 <tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#1"> Hogg,Dean</a> </td><td>1</td> <td class="result"> ... </td><td>6</td><td class="name"> <a href="playercard.php#6"> Lingineni,Khushal</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 <tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#2"> Krishnan,Anirudh</a> </td><td>2</td> <td class="result"> ... </td><td>5</td><td class="name"> <a href="playercard.php#5"> Paul,Cijo</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#3">CM Davis,Tony J</a> </td><td>3</td> <td class="result"> ... </td><td>4</td><td class="name"> <a href="playercard.php#4"> Ramprasad, Nachiket</a></td><td></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#3">CM Davis,Tony J</a> </td><td>3</td> <td class="result"> ... </td><td>4</td><td class="name"> <a href="playercard.php#4"> Lacson,Joemar</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
 <h4>Pairing of round 2, at 17:30 of 06/05/2025</h4>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>Origin</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Origin</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#6"> Lingineni,Khushal</a> </td><td>6</td> <td class="result"> ... </td><td>4</td><td class="name"> <a href="playercard.php#4"> Ramprasad, Nachiket</a></td><td></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
+<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#6"> Lingineni,Khushal</a> </td><td>6</td> <td class="result"> ... </td><td>4</td><td class="name"> <a href="playercard.php#4"> Lacson,Joemar</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 <tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#5"> Paul,Cijo</a> </td><td>5</td> <td class="result"> ... </td><td>3</td><td class="name"> <a href="playercard.php#3">CM Davis,Tony J</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 <tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#1"> Hogg,Dean</a> </td><td>1</td> <td class="result"> ... </td><td>2</td><td class="name"> <a href="playercard.php#2"> Krishnan,Anirudh</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
@@ -50,14 +50,14 @@
 <thead><tr><th>Bo.</th><th>Fed</th><th>Origin</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Origin</th><th>Fed</th></tr></thead><tbody>
 <tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#2"> Krishnan,Anirudh</a> </td><td>2</td> <td class="result"> ... </td><td>6</td><td class="name"> <a href="playercard.php#6"> Lingineni,Khushal</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 <tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#3">CM Davis,Tony J</a> </td><td>3</td> <td class="result"> ... </td><td>1</td><td class="name"> <a href="playercard.php#1"> Hogg,Dean</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="name">  <a href="playercard.php#4"> Ramprasad, Nachiket</a> </td><td>4</td> <td class="result"> ... </td><td>5</td><td class="name"> <a href="playercard.php#5"> Paul,Cijo</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#4"> Lacson,Joemar</a> </td><td>4</td> <td class="result"> ... </td><td>5</td><td class="name"> <a href="playercard.php#5"> Paul,Cijo</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
 <h4>Pairing of round 4, at 17:30 of 20/05/2025</h4>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>Origin</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Origin</th><th>Fed</th></tr></thead><tbody>
 <tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#6"> Lingineni,Khushal</a> </td><td>6</td> <td class="result"> ... </td><td>5</td><td class="name"> <a href="playercard.php#5"> Paul,Cijo</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#1"> Hogg,Dean</a> </td><td>1</td> <td class="result"> ... </td><td>4</td><td class="name"> <a href="playercard.php#4"> Ramprasad, Nachiket</a></td><td></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#1"> Hogg,Dean</a> </td><td>1</td> <td class="result"> ... </td><td>4</td><td class="name"> <a href="playercard.php#4"> Lacson,Joemar</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 <tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#2"> Krishnan,Anirudh</a> </td><td>2</td> <td class="result"> ... </td><td>3</td><td class="name"> <a href="playercard.php#3">CM Davis,Tony J</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
@@ -65,7 +65,7 @@
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>Origin</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Origin</th><th>Fed</th></tr></thead><tbody>
 <tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#3">CM Davis,Tony J</a> </td><td>3</td> <td class="result"> ... </td><td>6</td><td class="name"> <a href="playercard.php#6"> Lingineni,Khushal</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>2</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="name">  <a href="playercard.php#4"> Ramprasad, Nachiket</a> </td><td>4</td> <td class="result"> ... </td><td>2</td><td class="name"> <a href="playercard.php#2"> Krishnan,Anirudh</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#4"> Lacson,Joemar</a> </td><td>4</td> <td class="result"> ... </td><td>2</td><td class="name"> <a href="playercard.php#2"> Krishnan,Anirudh</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 <tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#5"> Paul,Cijo</a> </td><td>5</td> <td class="result"> ... </td><td>1</td><td class="name"> <a href="playercard.php#1"> Hogg,Dean</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>

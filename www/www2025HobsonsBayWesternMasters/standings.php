@@ -90,15 +90,15 @@
    <div class="left-box2">
 <a href="playercard.php#4"></a> 
  <div class="player-name-box2">
-			<span>Ramprasad, Nachiket</span>
+			<span>Lacson,Joemar</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 4</div> 
 			<div class="title-box"> 
- <div class="notitle2 male">-</div>
+ <div class="notitle2 female">-</div>
 			</div>
-			<div class="rating">1660</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="rating">1727</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
