@@ -32,38 +32,43 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players sorted by rating and title</h3><div class="table-responsive"><table class="table table-striped "> 
-<thead><tr><th>#</th><th>Player</th><th>Fed</th><th>Origin</th><th>Rtg</th><th>RtgF</th><th>RtgN</th></tr></thead><tbody>
-<tr> 
-<td><span class="idn"> 1</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3214915" target="X"> Nowak,Ruben </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1409</td><td>1630</td><td>1409</td> </tr>
-<tr> 
-<td><span class="idn"> 2</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3239683" target="X"> Annapureddy,Dhruthin Reddy </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1364</td><td>1543</td><td>1364</td> </tr>
-<tr> 
-<td><span class="idn"> 3</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275272" target="X"> Yang,Yifan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1223</td><td>1570</td><td>1223</td> </tr>
-<tr> 
-<td><span class="idn"> 4</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3255689" target="X"> Wilkinson,Greg </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1208</td><td>1524</td><td>1208</td> </tr>
-<tr> 
-<td><span class="idn"> 5</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3237796" target="X"> Nawar,Mena </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1193</td><td>0</td><td>1193</td> </tr>
-<tr> 
-<td><span class="idn"> 6</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275221" target="X"> Ramanathan,Ashwin </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1149</td><td>1536</td><td>1149</td> </tr>
-<tr> 
-<td><span class="idn"> 7</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3234134" target="X"> Clerk,Max </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1033</td><td>1480</td><td>1033</td> </tr>
-<tr> 
-<td><span class="idn"> 8</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3260062" target="X"> Majety,Rohan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1029</td><td>1428</td><td>1029</td> </tr>
-<tr> 
-<td><span class="idn"> 9</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275779" target="X"> Annadasu,Shreyansh </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1020</td><td>1454</td><td>1020</td> </tr>
-<tr> 
-<td><span class="idn"> 10</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3227499" target="X"> Kostakakis,Angelo </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1011</td><td>1422</td><td>1011</td> </tr>
-<tr> 
-<td><span class="idn"> 11</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286371" target="X"> Ramprasad, Nachiket </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1000</td><td>1660</td><td>1000</td> </tr>
-<tr> 
-<td><span class="idn"> 12</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3247910" target="X"> Cox,Tyler </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>936</td><td>1529</td><td>936</td> </tr>
-<tr> 
-<td><span class="idn"> 13</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267857" target="X"> Nicdao,Joseph </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>661</td><td>1440</td><td>661</td> </tr>
-<tr> 
-<td><span class="idn"> 14</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3247902" target="X"> Cox,Aiden </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+  <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Tournament summary</h3><div class="table-responsive"><table class="table table-striped"> 
+<tbody>
+<tr><td> Tournament Name </td> <td> 2025 Hobsons Bay Western Swiss</td> </tr>
+<tr><td >Place </td> <td> Hobsons Bay</td> </tr>
+<tr><td >Federation</td> <td> AUS</td> </tr>
+<tr><td >Date Begin</td> <td> 29/04/2025</td> </tr>
+<tr><td >Date End</td> <td> 03/06/2025</td> </tr>
+<tr><td >Arbiter(s)</td> <td> NA Dwyer, Lachlan (AUS) 3254119 (VIC)</td> </tr>
+<tr><td > Play System</td> <td> swiss FIDE Dutch (JaVaFo)</td> </tr>
+<tr><td >Rounds</td> <td> 5</td> </tr>
+<tr><td >Score game</td> <td> 0-0.5-1</td> </tr>
+<tr><td >Tie break</td> <td>      BH   BH-C1      SB </td> </tr>
+<tr><td >Registered Players</td> <td> 14</td> </tr>
+<tr><td > Number of Federations</td> <td> 2</td> </tr>
+<tr><td >Average Rating (all) </td> <td> 1386</td> </tr>
+<tr><td >Average Rating (only FIDE rated) </td> <td> 1518</td> </tr>
+<tr ><td > Players from AUS Federation</td> <td> 1</td> </tr>
+<tr><td > Players NOT from AUS Federation</td> <td> 13</td> </tr>
+<tr><td > FIDE rated players </td> <td> 12</td> </tr>
+<tr><td > unrated players </td> <td> 2</td> </tr>
+<tr><td > unrated players from AUS Federation</td> <td> 0</td> </tr>
+<tr><td >unrated players NOT from AUS Federation</td> <td> 2</td> </tr>
+<tr><td > unrated Federations</td> <td> 1</td> </tr>
+<tr><td > FIDE titled players </td> <td> 0</td> </tr>
+<tr><td > GM players </td> <td> 0</td> </tr>
+<tr><td >WGM players </td> <td> 0</td> </tr>
+<tr><td > IM players </td> <td> 0</td> </tr>
+<tr><td >WIM players</td> <td> 0</td> </tr>
+<tr><td >FM players</td> <td> 0</td> </tr>
+<tr><td >WFM players</td> <td> 0</td> </tr>
+<tr><td >CM players</td> <td> 0</td> </tr>
+<tr><td >WCM players</td> <td> 0</td> </tr>
+<tr><td >FIDE titled player from AUS Federation </td> <td> 0</td> </tr>
+<tr><td >FIDE titled player NOT from AUS Federation</td> <td> 0</td> </tr>
 </tbody>
-<tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</tr></td></tfoot></table></div>
+</table>
+</div>
 		  </div>
 		      </div>
          <div class="d-none d-lg-block col-1 pe-0">
