@@ -279,6 +279,11 @@ td.hole {
 	color : white;
 	text-align: center;
 }
+
+caption {
+	color: var(--gold-color)!important;
+}
+
 /* title */
 .title {
 	display: inline-block;
@@ -302,6 +307,99 @@ td.hole {
 	background-color: #eeeef0;
 }
 
+/*card player*/
+.player-score-container {
+	width: 400px;
+	height: 60px;
+    background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	font-weight: bold;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.player-container {
+	position: relative;
+	width: 350px;
+	height: 65px;
+   /* background-color: #fff; */
+	background: linear-gradient(180deg, #ffffff 50%, #e0e0e0 100%);
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	font-weight: bold;
+   /*  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.player-container > a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.left-box {
+	float: left;
+	width: 74%;
+    height: 100%;
+	
+}
+.player-name-box {
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 20px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	
+}
+
+.left-box2 {
+	float: left;
+	width: 100%;
+    height: 100%;
+	
+}
+
+.player-name-box2 {
+	text-align: left;
+	padding-left:20px;
+
+	font-size: 20px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
+	
+}
+
+.player-data-box {
+	display: flex;
+	flex-wrap: nowrap;
+ column-gap: 2em;
+}
+
+.player-data-box > div {
+	width:25%;
+	text-align: center;
+    line-height: 30px;
+}
+
+.sort-num {
+	font-size: 20px;
+	color: #346aca;
+}
+
+.title2 {
+	font-size: 14px;
+	border-radius: 4px;
+	line-height: 23px;
+	margin-top: 5px;
+	color:white;
+	background-color: #417AFE;
+	/*box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);*/
+}
+
 .male {
 	border: 2px solid #417AFE;
 }
@@ -310,10 +408,51 @@ td.hole {
 	border:  2px solid #ff4d9a;
 }
 
+.notitle2 {
+	border-radius: 14px;	
+	border-radius: 4px;
 
-caption {
-	color: var(--gold-color)!important;
+	line-height: 23px;
+	margin-top: 5px;
+
+	color:black;
+	background-color: white;
+
+	/*box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);*/
 }
+
+.rating {
+	font-size: 20px;
+
+}
+
+.fed {
+	/*padding-top: 5px; */
+}
+
+
+.right-box {
+	float: right;
+	width: 24%;
+	border-left: 1px solid #ccc;
+	height: 100%;
+	text-align: right;
+	display: table;
+
+}
+
+/*
+.score {
+	font-size: 35px;
+	font-weight: bold;
+	color: red;
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 10px;
+	text-shadow: 2px 2px #bbb;
+}
+*/
+
 
 @media only screen and ( max-width: 991px ) {
 

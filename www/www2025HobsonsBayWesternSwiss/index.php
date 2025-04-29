@@ -31,7 +31,21 @@
   <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players sorted by rating and title</h3><div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>#</th><th>Player</th><th>Fed</th><th>Origin</th><th>Rtg</th><th>RtgF</th><th>RtgN</th></tr></thead><tbody>
 <tr> 
-<td><span class="idn"> 1</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3201414" target="X"> Hogan,Steven </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1515</td><td>0</td><td>1515</td> </tr>
+<td><span class="idn"> 1</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275272" target="X"> Yang,Yifan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1223</td><td>1570</td><td>1223</td> </tr>
+<tr> 
+<td><span class="idn"> 2</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3255689" target="X"> Wilkinson,Greg </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1208</td><td>1524</td><td>1208</td> </tr>
+<tr> 
+<td><span class="idn"> 3</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275221" target="X"> Ramanathan,Ashwin </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1149</td><td>1536</td><td>1149</td> </tr>
+<tr> 
+<td><span class="idn"> 4</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3260062" target="X"> Majety,Rohan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1029</td><td>1428</td><td>1029</td> </tr>
+<tr> 
+<td><span class="idn"> 5</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275779" target="X"> Annadasu,Shreyansh </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1020</td><td>1454</td><td>1020</td> </tr>
+<tr> 
+<td><span class="idn"> 6</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3227499" target="X"> Kostakakis,Angelo </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1011</td><td>1422</td><td>1011</td> </tr>
+<tr> 
+<td><span class="idn"> 7</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267857" target="X"> Nicdao,Joseph </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>661</td><td>1440</td><td>661</td> </tr>
+<tr> 
+<td><span class="idn"> 8</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3247902" target="X"> Cox,Aiden </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 </tbody>
 <tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</tr></td></tfoot></table></div>
 		  </div>
