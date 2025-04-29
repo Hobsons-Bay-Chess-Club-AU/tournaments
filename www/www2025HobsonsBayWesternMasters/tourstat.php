@@ -20,7 +20,11 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Players</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li></ul> </div>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs5.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
  <section id="main" class="pt-3 mb-auto">
@@ -42,15 +46,15 @@
 <tr><td >Tie break</td> <td>      SB     ARO </td> </tr>
 <tr><td >Registered Players</td> <td> 6</td> </tr>
 <tr><td > Number of Federations</td> <td> 1</td> </tr>
-<tr><td >Average Rating (all) </td> <td> 1841</td> </tr>
-<tr><td >Average Rating (only FIDE rated) </td> <td> 1841</td> </tr>
+<tr><td >Average Rating (all) </td> <td> 1727</td> </tr>
+<tr><td > Average Rating (only FIDE rated) </td> <td> 0</td> </tr>
 <tr ><td > Players from AUS Federation</td> <td> 0</td> </tr>
 <tr><td > Players NOT from AUS Federation</td> <td> 6</td> </tr>
-<tr><td > FIDE rated players </td> <td> 6</td> </tr>
-<tr><td > unrated players </td> <td> 0</td> </tr>
+<tr><td > FIDE rated players </td> <td> 0</td> </tr>
+<tr><td > unrated players </td> <td> 6</td> </tr>
 <tr><td > unrated players from AUS Federation</td> <td> 0</td> </tr>
-<tr><td >unrated players NOT from AUS Federation</td> <td> 0</td> </tr>
-<tr><td > unrated Federations</td> <td> 0</td> </tr>
+<tr><td >unrated players NOT from AUS Federation</td> <td> 6</td> </tr>
+<tr><td > unrated Federations</td> <td> 1</td> </tr>
 <tr><td > FIDE titled players </td> <td> 1</td> </tr>
 <tr><td > GM players </td> <td> 0</td> </tr>
 <tr><td >WGM players </td> <td> 0</td> </tr>
