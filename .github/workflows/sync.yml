@@ -2,7 +2,9 @@ name: Sync FTP to Local and Commit
 
 on:
   schedule:
-    - cron: "*/5 * * * *" # Runs the action every day at midnight (UTC)
+    # Runs every 15 minutes, excluding 11 PM to 8 AM AEST (UTC+10)
+    - cron: "*/15 00-12 * * *" # 12 AM to 10 AM UTC (10 AM to 8 PM AEST)
+    - cron: "*/15 22-23 * * *" # 10 PM to 12 AM UTC (8 PM to 10 PM AEST)
   push:
     paths:
       - .github/workflows/sync.yml
@@ -122,4 +124,4 @@ jobs:
         if: steps.commit.outputs.CHANGED == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
-        
+
