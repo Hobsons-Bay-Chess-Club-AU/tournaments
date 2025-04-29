@@ -54,7 +54,7 @@
 <tr> 
 <td><span class="idn"> 7</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3265439" target="X"> Batyrbekov,Aidan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>788</td><td>0</td><td>788</td> </tr>
 <tr> 
-<td><span class="idn"> 4</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3265447" target="X"> Batyrbekov,Kaisar </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>871</td><td>1569</td><td>871</td> </tr>
+<td><span class="idn"> 4</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3265447" target="X"> Batyrbekov,Kaisar </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>871</td><td>1569</td><td>871</td> </tr>
 <tr> 
 <td><span class="idn"> 12</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3266150" target="X"> Batyrbekov,Kuanysh </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>615</td><td>1478</td><td>615</td> </tr>
 <tr> 

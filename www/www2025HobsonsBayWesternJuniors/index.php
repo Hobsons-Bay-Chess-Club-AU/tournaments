@@ -50,7 +50,7 @@
 <tr> 
 <td><span class="idn"> 3</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3265277" target="X"> Wei,Andrew </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>997</td><td>1608</td><td>997</td> </tr>
 <tr> 
-<td><span class="idn"> 4</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3265447" target="X"> Batyrbekov,Kaisar </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>871</td><td>1569</td><td>871</td> </tr>
+<td><span class="idn"> 4</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3265447" target="X"> Batyrbekov,Kaisar </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>871</td><td>1569</td><td>871</td> </tr>
 <tr> 
 <td><span class="idn"> 5</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275248" target="X"> Veginati,Cherish </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>835</td><td>1422</td><td>835</td> </tr>
 <tr> 
