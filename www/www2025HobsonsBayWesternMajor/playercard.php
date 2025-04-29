@@ -62,7 +62,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   5   <strong>Whitford,Matthew    </strong>, K= 0, Elo=1505, ID=3137603
+<caption>   5   <strong>McIntyre,Julian     </strong>, K= 0, Elo=1529, ID=3176061
 <br>
 <a class="anchor" name="5"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
