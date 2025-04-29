@@ -31,6 +31,9 @@ function calculateDirectoryChecksum($directory, $ago = null) {
     if ($ago !== null) {
         $thresholdTime = time() - ($ago * 60); // Convert minutes to seconds
         $changesWithinAgo = $lastUpdatedTime >= $thresholdTime;
+    } else {
+        // If "ago" is not provided, default to checking the last updated file
+        $changesWithinAgo = true; // Always true since we are using the last updated file
     }
 
     return [
