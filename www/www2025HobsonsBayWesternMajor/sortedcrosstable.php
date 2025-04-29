@@ -40,7 +40,7 @@
 </tr>
 <tr> <td>4</td><td>4</td><td> <a href="playercard.php#4"> Hari,Dhruv</a> </td><td>1534</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.0</td><td> .  </td><td> .  </td><td> .  </td><td class=hole> </td><td> .  </td><td> .  </td>
 </tr>
-<tr> <td>5</td><td>5</td><td> <a href="playercard.php#5"> Whitford,Matthew</a> </td><td>1505</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.0</td><td> .  </td><td> .  </td><td> .  </td><td> .  </td><td class=hole> </td><td> .  </td>
+<tr> <td>5</td><td>5</td><td> <a href="playercard.php#5"> McIntyre,Julian</a> </td><td>1529</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.0</td><td> .  </td><td> .  </td><td> .  </td><td> .  </td><td class=hole> </td><td> .  </td>
 </tr>
 <tr> <td>6</td><td>6</td><td> <a href="playercard.php#6"> Hogan,Steven</a> </td><td>1493</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.0</td><td> .  </td><td> .  </td><td> .  </td><td> .  </td><td> .  </td><td class=hole> </td>
 </tr>

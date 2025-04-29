@@ -108,14 +108,14 @@
    <div class="left-box2">
 <a href="playercard.php#5"></a> 
  <div class="player-name-box2">
-			<span>Whitford,Matthew</span>
+			<span>McIntyre,Julian</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 5</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
-			<div class="rating">1505</div>
+			<div class="rating">1529</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 

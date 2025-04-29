@@ -37,11 +37,11 @@
 <tr> 
 <td><span class="idn"> 6</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3201414" target="X"> Hogan,Steven </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1493</td><td>1669</td><td>1493</td> </tr>
 <tr> 
+<td><span class="idn"> 5</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3232182" target="X"> McIntyre,Julian </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1529</td><td>1705</td><td>1529</td> </tr>
+<tr> 
 <td><span class="idn"> 3</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3242900" target="X"> Pasukov,Leo </a></td><td ><img class="shadow" src="flag/qld.png" alt="QLD"></td><td></td><td>1536</td><td>1709</td><td>1536</td> </tr>
 <tr> 
 <td><span class="idn"> 2</span></td><td> <span class="title female"> WIM</span> <a href="http://ratings.fide.com/card.phtml?event=3202640" target="X"> Szuveges,Narelle S </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1550</td><td>1701</td><td>1550</td> </tr>
-<tr> 
-<td><span class="idn"> 5</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3232220" target="X"> Whitford,Matthew </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1505</td><td>1692</td><td>1505</td> </tr>
 </tbody>
 <tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</tr></td></tfoot></table></div>
 		  </div>
