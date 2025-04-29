@@ -31,7 +31,17 @@
   <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players sorted by rating and title</h3><div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>#</th><th>Player</th><th>Fed</th><th>Origin</th><th>Rtg</th><th>RtgF</th><th>RtgN</th></tr></thead><tbody>
 <tr> 
-<td><span class="idn"> 1</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3201414" target="X"> Hogan,Steven </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1515</td><td>0</td><td>1515</td> </tr>
+<td><span class="idn"> 1</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3259072" target="X"> Picone,James </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1502</td><td>1697</td><td>1502</td> </tr>
+<tr> 
+<td><span class="idn"> 2</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3259021" target="X"> Bodke,Krishna </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1445</td><td>1691</td><td>1445</td> </tr>
+<tr> 
+<td><span class="idn"> 3</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267849" target="X"> Nguyen,Anh Kiet </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1416</td><td>1707</td><td>1416</td> </tr>
+<tr> 
+<td><span class="idn"> 4</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3242838" target="X"> Matijas,Dejan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1411</td><td>1622</td><td>1411</td> </tr>
+<tr> 
+<td><span class="idn"> 5</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3214915" target="X"> Nowak,Ruben </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1409</td><td>1630</td><td>1409</td> </tr>
+<tr> 
+<td><span class="idn"> 6</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3239683" target="X"> Annapureddy,Dhruthin Reddy </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1364</td><td>1543</td><td>1364</td> </tr>
 </tbody>
 <tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</tr></td></tfoot></table></div>
 		  </div>
