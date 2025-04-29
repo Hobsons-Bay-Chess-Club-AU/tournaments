@@ -1,49 +1,50 @@
 <?php
+function calculateDirectoryChecksum($directory, $ago = null) {
+    $checksum = hash_init('sha256'); // Initialize a SHA-256 hash
+    $lastUpdatedTime = 0; // Track the most recent modification time
+    $lastUpdatedFile = ''; // Track the file with the most recent modification time
 
-// Configuration
-$directoryToWatch = __DIR__ . ''; // Change to the directory you want to watch
-$webhookUrl = 'https://example.com/webhook'; // Replace with your webhook URL
-$stateFile = __DIR__ . '/file_watcher_state.json'; // File to store the last state
-
-// Function to get the current state of the directory
-function getDirectoryState($directory) {
-    $files = [];
     $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory));
+
     foreach ($iterator as $file) {
         if ($file->isFile()) {
-            $files[$file->getPathname()] = $file->getMTime(); // File path and last modified time
+            // Update the checksum with the file's contents
+            hash_update_file($checksum, $file->getPathname());
+
+            // Check if this file is the most recently updated
+            $fileMTime = $file->getMTime();
+            if ($fileMTime > $lastUpdatedTime) {
+                $lastUpdatedTime = $fileMTime;
+                $lastUpdatedFile = $file->getPathname();
+            }
         }
     }
-    return $files;
-}
 
-// Load previous state
-$previousState = file_exists($stateFile) ? json_decode(file_get_contents($stateFile), true) : [];
+    // Finalize the checksum
+    $finalChecksum = hash_final($checksum);
 
-// Get current state
-$currentState = getDirectoryState($directoryToWatch);
+    // Format the last updated time
+    $lastUpdatedTimeFormatted = date('Y-m-d H:i:s', $lastUpdatedTime);
 
-// Compare states
-$changes = [];
-foreach ($currentState as $file => $mtime) {
-    if (!isset($previousState[$file])) {
-        $changes[] = ['action' => 'created', 'file' => $file];
-    } elseif ($previousState[$file] !== $mtime) {
-        $changes[] = ['action' => 'modified', 'file' => $file];
+    // Check if there were changes within the specified "ago" parameter
+    $changesWithinAgo = false;
+    if ($ago !== null) {
+        $thresholdTime = time() - ($ago * 60); // Convert minutes to seconds
+        $changesWithinAgo = $lastUpdatedTime >= $thresholdTime;
     }
+
+    return [
+        'checksum' => $finalChecksum,
+        'lastUpdatedTime' => $lastUpdatedTimeFormatted,
+        'lastUpdatedFile' => $lastUpdatedFile,
+        'changesWithinAgo' => $changesWithinAgo
+    ];
 }
 
-foreach ($previousState as $file => $mtime) {
-    if (!isset($currentState[$file])) {
-        $changes[] = ['action' => 'deleted', 'file' => $file];
-    }
-}
+// Example usage
+$directory = __DIR__; // Use the current folder
+$ago = isset($_GET['ago']) ? (int)$_GET['ago'] : null; // Get the "ago" parameter from the query string
+$result = calculateDirectoryChecksum($directory, $ago);
 
-// Trigger webhook for changes
-
-
-// Save current state
-file_put_contents($stateFile, json_encode($currentState));
-
-echo "File watcher executed. Detected " . count($changes) . " changes.\n";
-?>
+header('Content-Type: application/json');
+echo json_encode($result, JSON_PRETTY_PRINT);
