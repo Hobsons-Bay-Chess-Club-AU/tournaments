@@ -181,7 +181,12 @@ function generateIndexFile(list) {
       year: currentyear,
       juniors: currentYearJuniors,
       seniors: currentYearSenior,
-      archive: Object.values(passTournaments).reverse(),
+      archive: Object.values(passTournaments)
+        .filter((x) => x.year)
+        .reverse(),
+      updatedAt: new Date().toLocaleString("en-AU", {
+        timeZone: "Australia/Melbourne",
+      }),
     })
   );
 
