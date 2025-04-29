@@ -72,7 +72,7 @@
 <tr> 
 <td>13</td><td><span class="notitle male"> </span> <a href="playercard.php#3">Wei,Andrew                    </a> </td><td>997</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">8   </div></td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td></tr>
 <tr> 
-<td>14</td><td><span class="notitle female"> </span> <a href="playercard.php#4">Batyrbekov,Kaisar             </a> </td><td>871</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">9   </div></td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td></tr>
+<td>14</td><td><span class="notitle male"> </span> <a href="playercard.php#4">Batyrbekov,Kaisar             </a> </td><td>871</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">9   </div></td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td></tr>
 <tr> 
 <td>15</td><td><span class="notitle male"> </span> <a href="playercard.php#8">Nguyen,Tuan Kiet              </a> </td><td>761</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">10  </div></td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td></tr>
 <tr> 
@@ -84,7 +84,7 @@
 <tr> 
 <td>19</td><td><span class="notitle male"> </span> <a href="playercard.php#14">Das,Ayush                     </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">2   </div></td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td></tr>
 <tr> 
-<td>20</td><td><span class="notitle male"> </span> <a href="playercard.php#17">Balamurugan,Soorya            </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">3   </div></td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td></tr>
+<td>20</td><td><span class="notitle female"> </span> <a href="playercard.php#17">Balamurugan,Soorya            </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">3   </div></td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td></tr>
 <tr> 
 <td>21</td><td><span class="notitle male"> </span> <a href="playercard.php#18">Huang,Michael                 </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">4   </div></td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td></tr>
 <tr> 
