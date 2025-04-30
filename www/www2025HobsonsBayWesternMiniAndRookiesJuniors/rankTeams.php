@@ -31,7 +31,7 @@
                 <div class="container-fluid">
                     <div class="row items-center">
                         <div class="col-12">
-                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Western Mini And Rookies Juniors</h1>		    <h5 class="mb-1">Hobsons Bay Chess Club (AUS)</h5>		    <h5> 29/04/2025 - 30/06/2025</h5>   </div>
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Western Mini And Rookies Juniors</h1>		    <h5 class="mb-1">Hobsons Bay Chess Club (AUS)</h5>		    <h5> 29/04/2025 - 03/06/2025</h5>   </div>
  </div> 
  </div>
  </div> 
@@ -58,14 +58,14 @@
 <tr> <td>6</td> <td>Yendru,Sriram </td><td>1</td></tr> 
 <tr> <td>11</td> <td>Kaki,Vihas </td><td>1</td></tr> 
 <tr> <td>15</td> <td>Nema,Nivaan </td><td>1</td></tr> 
-<tr> <td>16</td> <td>Srivatsav Yegnavajjula,Aryan </td><td>1</td></tr> 
+<tr> <td>16</td> <td>Aryan,Srivatsav Yegnavajjula </td><td>1</td></tr> 
 <tr> <td>17</td> <td>Vemula,Thamoghna </td><td>1</td></tr> 
 <tr> <td>18</td> <td>Kwek,Alexander </td><td>0.5</td></tr> 
 <tr> <td>3</td> <td>Goh,Julian </td><td>0</td></tr> 
 <tr> <td>7</td> <td>Chan,Abby </td><td>0</td></tr> 
 <tr> <td>8</td> <td>Goh,Daphne </td><td>0</td></tr> 
 <tr> <td>9</td> <td>Fang,Candice </td><td>0</td></tr> 
-<tr> <td>10</td> <td>Ganesh Kumar,Mukunth </td><td>0</td></tr> 
+<tr> <td>10</td> <td>Mukunth,Ganesh Kumar </td><td>0</td></tr> 
 <tr> <td>12</td> <td>Kantharaju,Aarna </td><td>0</td></tr> 
 <tr> <td>13</td> <td>Kantharaju,Aryan </td><td>0</td></tr> 
 <tr> <td>14</td> <td>Kelly,Jackson </td><td>0</td></tr> 

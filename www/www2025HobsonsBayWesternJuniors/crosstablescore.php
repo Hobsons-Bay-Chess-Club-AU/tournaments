@@ -82,9 +82,9 @@
 <tr> 
 <td>18</td><td><span class="notitle male"> </span> <a href="playercard.php#13">Goh,Nicholas                  </a> </td><td>380</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">1   </div></td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td></tr>
 <tr> 
-<td>19</td><td><span class="notitle male"> </span> <a href="playercard.php#14">Das,Ayush                     </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">2   </div></td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td></tr>
+<td>19</td><td><span class="notitle female"> </span> <a href="playercard.php#14">Das,Ayush                     </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">2   </div></td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td></tr>
 <tr> 
-<td>20</td><td><span class="notitle female"> </span> <a href="playercard.php#17">Balamurugan,Soorya            </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">3   </div></td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td></tr>
+<td>20</td><td><span class="notitle male"> </span> <a href="playercard.php#17">Balamurugan,Soorya            </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">3   </div></td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td></tr>
 <tr> 
 <td>21</td><td><span class="notitle male"> </span> <a href="playercard.php#18">Huang,Michael                 </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">4   </div></td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td></tr>
 <tr> 

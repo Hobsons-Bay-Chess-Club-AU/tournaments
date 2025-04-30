@@ -31,7 +31,7 @@
                 <div class="container-fluid">
                     <div class="row items-center">
                         <div class="col-12">
-                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Western Mini And Rookies Juniors</h1>		    <h5 class="mb-1">Hobsons Bay Chess Club (AUS)</h5>		    <h5> 29/04/2025 - 30/06/2025</h5>   </div>
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Western Mini And Rookies Juniors</h1>		    <h5 class="mb-1">Hobsons Bay Chess Club (AUS)</h5>		    <h5> 29/04/2025 - 03/06/2025</h5>   </div>
  </div> 
  </div>
  </div> 
@@ -68,7 +68,7 @@
 <td>7</td><td>15</td><td></td><td> <a href="playercard.php#15">Nema,Nivaan         </a> </td><td>0</td><td>1042</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
 <tr> 
-<td>8</td><td>16</td><td></td><td> <a href="playercard.php#16">Srivatsav Yegnavajju</a> </td><td>0</td><td>907</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
+<td>8</td><td>16</td><td></td><td> <a href="playercard.php#16">Aryan,Srivatsav Yegn</a> </td><td>0</td><td>907</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
 <tr> 
 <td>9</td><td>17</td><td></td><td> <a href="playercard.php#17">Vemula,Thamoghna    </a> </td><td>0</td><td>2200</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
@@ -89,7 +89,7 @@
 <td>14</td><td>9</td><td></td><td> <a href="playercard.php#9">Fang,Candice        </a> </td><td>0</td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
 <tr> 
-<td>15</td><td>10</td><td></td><td> <a href="playercard.php#10">Ganesh Kumar,Mukunth</a> </td><td>0</td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
+<td>15</td><td>10</td><td></td><td> <a href="playercard.php#10">Mukunth,Ganesh Kumar</a> </td><td>0</td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
 <tr> 
 <td>16</td><td>12</td><td></td><td> <a href="playercard.php#12">Kantharaju,Aarna    </a> </td><td>0</td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>   0.00 </td>

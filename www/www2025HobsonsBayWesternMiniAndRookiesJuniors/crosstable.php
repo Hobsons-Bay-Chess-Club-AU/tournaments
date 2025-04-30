@@ -31,7 +31,7 @@
                 <div class="container-fluid">
                     <div class="row items-center">
                         <div class="col-12">
-                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Western Mini And Rookies Juniors</h1>		    <h5 class="mb-1">Hobsons Bay Chess Club (AUS)</h5>		    <h5> 29/04/2025 - 30/06/2025</h5>   </div>
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Western Mini And Rookies Juniors</h1>		    <h5 class="mb-1">Hobsons Bay Chess Club (AUS)</h5>		    <h5> 29/04/2025 - 03/06/2025</h5>   </div>
  </div> 
  </div>
  </div> 
@@ -63,7 +63,7 @@
 <tr> 
 <td> <span class="idn"> 9 </span><span class="notitle female"> </span> <a href="playercard.php#9">Fang,Candice        </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">1   </div></td></tr>
 <tr> 
-<td> <span class="idn"> 10 </span><span class="notitle male"> </span> <a href="playercard.php#10">Ganesh Kumar,Mukunth</a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">2   </div></td></tr>
+<td> <span class="idn"> 10 </span><span class="notitle female"> </span> <a href="playercard.php#10">Mukunth,Ganesh Kumar</a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">2   </div></td></tr>
 <tr> 
 <td> <span class="idn"> 11 </span><span class="notitle male"> </span> <a href="playercard.php#11">Kaki,Vihas          </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">3   </div></td></tr>
 <tr> 
@@ -75,7 +75,7 @@
 <tr> 
 <td> <span class="idn"> 15 </span><span class="notitle male"> </span> <a href="playercard.php#15">Nema,Nivaan         </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">7   </div></td></tr>
 <tr> 
-<td> <span class="idn"> 16 </span><span class="notitle male"> </span> <a href="playercard.php#16">Srivatsav Yegnavajju</a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cw">8   </div></td></tr>
+<td> <span class="idn"> 16 </span><span class="notitle male"> </span> <a href="playercard.php#16">Aryan,Srivatsav Yegn</a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cw">8   </div></td></tr>
 <tr> 
 <td> <span class="idn"> 17 </span><span class="notitle male"> </span> <a href="playercard.php#17">Vemula,Thamoghna    </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cw">19  </div></td></tr>
 <tr> 

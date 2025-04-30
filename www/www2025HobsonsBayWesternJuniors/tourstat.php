@@ -50,7 +50,7 @@
 <tr><td >Date End</td> <td> 30/06/2025</td> </tr>
 <tr><td >Arbiter(s)</td> <td>  Nguyen, Truong 3281701 ()</td> </tr>
 <tr><td > Play System</td> <td> swiss FIDE Dutch (JaVaFo)</td> </tr>
-<tr><td >Rounds</td> <td> 7</td> </tr>
+<tr><td >Rounds</td> <td> 5</td> </tr>
 <tr><td >Score game</td> <td> 0-0.5-1</td> </tr>
 <tr><td >Tie break</td> <td>      BH   BH-C1      SB </td> </tr>
 <tr><td >Registered Players</td> <td> 24</td> </tr>
