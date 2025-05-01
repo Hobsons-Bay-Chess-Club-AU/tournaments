@@ -3,8 +3,8 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-function notifyChangeViaGet() {
-    $url = 'https://game-processor.fly.dev/ftp-sync';
+function notifyChangeViaGet($change_id) {
+    $url = 'https://game-processor.fly.dev/ftp-sync?change_id=' . urlencode($change_id);
     $context = stream_context_create([
         'http' => [
             'method' => 'GET',
@@ -45,7 +45,7 @@ function calculateDirectoryChecksum($directory, $ago = null) {
     $response = ''; // <-- Fixed line
 
     if ($changesWithinAgo) {
-        $response = notifyChangeViaGet();
+        $response = notifyChangeViaGet($finalChecksum);
     }
 
     return [
