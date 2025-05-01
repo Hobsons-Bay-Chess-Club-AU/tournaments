@@ -1,49 +1,65 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
-// Configuration
-$directoryToWatch = __DIR__ . ''; // Change to the directory you want to watch
-$webhookUrl = 'https://example.com/webhook'; // Replace with your webhook URL
-$stateFile = __DIR__ . '/file_watcher_state.json'; // File to store the last state
+function notifyChangeViaGet() {
+    $url = 'https://game-processor.fly.dev/ftp-sync';
+    $context = stream_context_create([
+        'http' => [
+            'method' => 'GET',
+            'timeout' => 5
+        ]
+    ]);
+    return @file_get_contents($url, false, $context);
+}
 
-// Function to get the current state of the directory
-function getDirectoryState($directory) {
-    $files = [];
+function calculateDirectoryChecksum($directory, $ago = null) {
+    $checksum = hash_init('sha256');
+    $lastUpdatedTime = 0;
+    $lastUpdatedFile = '';
+
     $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory));
     foreach ($iterator as $file) {
         if ($file->isFile()) {
-            $files[$file->getPathname()] = $file->getMTime(); // File path and last modified time
+            hash_update_file($checksum, $file->getPathname());
+            $fileMTime = $file->getMTime();
+            if ($fileMTime > $lastUpdatedTime) {
+                $lastUpdatedTime = $fileMTime;
+                $lastUpdatedFile = $file->getPathname();
+            }
         }
     }
-    return $files;
-}
 
-// Load previous state
-$previousState = file_exists($stateFile) ? json_decode(file_get_contents($stateFile), true) : [];
+    $finalChecksum = hash_final($checksum);
+    $lastUpdatedTimeFormatted = date('Y-m-d H:i:s', $lastUpdatedTime);
 
-// Get current state
-$currentState = getDirectoryState($directoryToWatch);
-
-// Compare states
-$changes = [];
-foreach ($currentState as $file => $mtime) {
-    if (!isset($previousState[$file])) {
-        $changes[] = ['action' => 'created', 'file' => $file];
-    } elseif ($previousState[$file] !== $mtime) {
-        $changes[] = ['action' => 'modified', 'file' => $file];
+    $changesWithinAgo = false;
+    if ($ago !== null) {
+        $thresholdTime = time() - ($ago * 60);
+        $changesWithinAgo = $lastUpdatedTime >= $thresholdTime;
+    } else {
+        $changesWithinAgo = true;
     }
-}
 
-foreach ($previousState as $file => $mtime) {
-    if (!isset($currentState[$file])) {
-        $changes[] = ['action' => 'deleted', 'file' => $file];
+    $response = ''; // <-- Fixed line
+
+    if ($changesWithinAgo) {
+        $response = notifyChangeViaGet();
     }
+
+    return [
+        'checksum' => $finalChecksum,
+        'lastUpdatedTime' => $lastUpdatedTimeFormatted,
+        'lastUpdatedFile' => $lastUpdatedFile,
+        'changesWithinAgo' => $changesWithinAgo,
+        'response' => $response
+    ];
 }
 
-// Trigger webhook for changes
+$directory = __DIR__;
+$ago = isset($_GET['ago']) ? (int)$_GET['ago'] : null;
+$result = calculateDirectoryChecksum($directory, $ago);
 
-
-// Save current state
-file_put_contents($stateFile, json_encode($currentState));
-
-echo "File watcher executed. Detected " . count($changes) . " changes.\n";
-?>
+header('Content-Type: application/json');
+echo json_encode($result, JSON_PRETTY_PRINT);
