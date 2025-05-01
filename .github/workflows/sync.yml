@@ -10,6 +10,11 @@ on:
       - .github/workflows/sync.yml
       - src/*.*
   workflow_dispatch:
+    inputs:
+      change_id:
+        description: "The change ID to be used for the commit message"
+        required: false
+        default: ""
 permissions:
   contents: write
   pages: write
