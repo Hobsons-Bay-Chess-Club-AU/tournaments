@@ -3,8 +3,8 @@ name: Sync FTP to Local and Commit
 on:
   schedule:
     # Runs every 15 minutes, excluding 11 PM to 8 AM AEST (UTC+10)
-    - cron: "*/15 00-12 * * *" # 12 AM to 10 AM UTC (10 AM to 8 PM AEST)
-    - cron: "*/15 22-23 * * *" # 10 PM to 12 AM UTC (8 PM to 10 PM AEST)
+    - cron: "0 00-12 * * *" # 12 AM to 10 AM UTC (10 AM to 8 PM AEST)
+    - cron: "0 22-23 * * *" # 10 PM to 12 AM UTC (8 PM to 10 PM AEST)
   push:
     paths:
       - .github/workflows/sync.yml
@@ -21,12 +21,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
-            
+          node-version: "20"
+          cache: "npm"
+
       - name: Install dependencies
         run: |
           sudo apt update
@@ -41,17 +41,16 @@ jobs:
         continue-on-error: true
         run: |
           node src/bytehost.mjs
-          
+
       - name: "Fetch content from ftp server"
         uses: "samuraitruong/use-ftp-action@main"
-        with: 
+        with:
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
           FTP_ROOT_FOLDER: htdocs
-          LOCAL_FOLDER: 'wwwftp'
+          LOCAL_FOLDER: "wwwftp"
           FTP_HOST: ftp://ftpupload.net
           SYNC_MODE: download
-          
 
       # - name: Sync FTP to Local
       #   run: |
@@ -60,7 +59,7 @@ jobs:
       #     for file; do
       #         cp -f "$file" "${file%.php}.html"
       #     done' bash {} +
-          
+
       #   env:
       #     FTP_USER: ${{ secrets.FTP_USER }}
       #     FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
@@ -73,7 +72,6 @@ jobs:
           node src/update-html.mjs
           docker compose down
       - name: run Sync.mjs
-
         run: |
           sudo chown -R $(whoami) ./www
           node src/sync.mjs
@@ -124,4 +122,3 @@ jobs:
         if: steps.commit.outputs.CHANGED == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
-
