@@ -2,7 +2,6 @@ name: Sync FTP to Local and Commit
 
 on:
   schedule:
-    # Runs every 15 minutes, excluding 11 PM to 8 AM AEST (UTC+10)
     - cron: "0 00-12 * * *" # 12 AM to 10 AM UTC (10 AM to 8 PM AEST)
     - cron: "0 22-23 * * *" # 10 PM to 12 AM UTC (8 PM to 10 PM AEST)
   push:
@@ -15,10 +14,12 @@ on:
         description: "The change ID to be used for the commit message"
         required: false
         default: ""
+
 permissions:
   contents: write
   pages: write
   id-token: write
+
 jobs:
   sync-ftp:
     runs-on: ubuntu-latest
@@ -27,27 +28,47 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-          cache: "npm"
+      - name: Check change_id
+        id: check_change_id
+        env:
+          INPUT_CHANGE_ID: ${{ inputs.change_id }}
+        run: |
+          # Read current change_id from file, default to empty if file doesn't exist
+          CURRENT_CHANGE_ID=$(cat www/change_id.txt 2>/dev/null || echo "")
+          # Trim whitespace
+          CURRENT_CHANGE_ID=$(echo "$CURRENT_CHANGE_ID" | xargs)
+          INPUT_CHANGE_ID=$(echo "$INPUT_CHANGE_ID" | xargs)
+          # Compare and set output
+          if [[ -n "$INPUT_CHANGE_ID" && "$INPUT_CHANGE_ID" == "$CURRENT_CHANGE_ID" ]]; then
+            echo "Change IDs match. Skipping all steps."
+            echo "skip_steps=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Change IDs do not match or input is empty. Proceeding."
+            echo "skip_steps=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Install dependencies
+        if: steps.check_change_id.outputs.skip_steps != 'true'
         run: |
           sudo apt update
           sudo apt install lftp rename
           npm install
+
       - name: Descrypt vault files
+        if: steps.check_change_id.outputs.skip_steps != 'true'
         run: |
           node src/vault.mjs decrypt
         env:
           VAULT_SECRET: ${{secrets.VAULT_SECRET}}
+
       - name: Keep site alive
+        if: steps.check_change_id.outputs.skip_steps != 'true'
         continue-on-error: true
         run: |
           node src/bytehost.mjs
 
       - name: "Fetch content from ftp server"
+        if: steps.check_change_id.outputs.skip_steps != 'true'
         uses: "samuraitruong/use-ftp-action@main"
         with:
           FTP_USER: ${{ secrets.FTP_USER }}
@@ -57,18 +78,8 @@ jobs:
           FTP_HOST: ftp://ftpupload.net
           SYNC_MODE: download
 
-      # - name: Sync FTP to Local
-      #   run: |
-      #     lftp -e 'mirror --parallel=20 --ignore-time -c  htdocs www;quit'  -u $FTP_USER,$FTP_PASSWORD ftp://ftpupload.net
-      #     find www -type f -name "*.php" -exec bash -c '
-      #     for file; do
-      #         cp -f "$file" "${file%.php}.html"
-      #     done' bash {} +
-
-      #   env:
-      #     FTP_USER: ${{ secrets.FTP_USER }}
-      #     FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
       - name: Update HTML content
+        if: steps.check_change_id.outputs.skip_steps != 'true'
         run: |
           cp -r wwwftp/* www
           docker compose up -d
@@ -76,54 +87,59 @@ jobs:
           sudo chown -R $(whoami) ./www
           node src/update-html.mjs
           docker compose down
+
       - name: run Sync.mjs
+        if: steps.check_change_id.outputs.skip_steps != 'true'
         run: |
           sudo chown -R $(whoami) ./www
           node src/sync.mjs
 
       - name: Replace PHP links with HTML links
+        if: steps.check_change_id.outputs.skip_steps != 'true'
         run: |
           DIRECTORY="./www"
-
           find "$DIRECTORY" -type f -name "*.html" -print0 | while IFS= read -r -d '' file; do
             sed -i 's/\.php/.html/g' "$file"
           done
           find "$DIRECTORY" -type f -name "*.js" -print0 | while IFS= read -r -d '' file; do
             sed -i 's/\.php/.html/g' "$file"
           done
+
       - name: Commit changes
+        if: steps.check_change_id.outputs.skip_steps != 'true'
         id: commit
         run: |
           sudo chown -R $(whoami) ./wwwftp
           rm -rf wwwftp
           find "www" -type f -name '*~*' -exec rm -f {} +
           rm www/.html || true
+          echo "$INPUT_CHANGE_ID" > www/change_id.txt
           git status
           if [[ -n $(git status --porcelain) ]]; then
-
             git config --global user.name "FTP Sync"
             git config --global user.email "ftp@hbcc.com"
             git add .
             git commit -am "Sync FTP changes"
             git push
             echo "CHANGED=true" >> "$GITHUB_OUTPUT"
-
           else
             echo "There are no changes to commit."
           fi
         env:
+          INPUT_CHANGE_ID: ${{ inputs.change_id }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Pages
-        if: steps.commit.outputs.CHANGED == 'true'
+        if: steps.check_change_id.outputs.skip_steps != 'true' && steps.commit.outputs.CHANGED == 'true'
         uses: actions/configure-pages@v4
+
       - name: Upload artifact
-        if: steps.commit.outputs.CHANGED == 'true'
+        if: steps.check_change_id.outputs.skip_steps != 'true' && steps.commit.outputs.CHANGED == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
           path: "./www"
+
       - name: Deploy to GitHub Pages
-        if: steps.commit.outputs.CHANGED == 'true'
+        if: steps.check_change_id.outputs.skip_steps != 'true' && steps.commit.outputs.CHANGED == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
