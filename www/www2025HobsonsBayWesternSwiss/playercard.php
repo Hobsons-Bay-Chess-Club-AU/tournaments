@@ -39,59 +39,69 @@
 <a class="anchor" name="1"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td> B</td> <td>8</td> <td></td> <td> <a href="playercard.php#8"> Majety,Rohan         </a>  <td>1029</td>
+<tr> <td>1</td> <td> B</td> <td>9</td> <td></td> <td> <a href="playercard.php#9"> Majety,Rohan         </a>  <td>1029</td>
 <td> 1.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   2   <strong>Annapureddy,Dhruthin</strong>, K= 0, Elo=1364, ID=3194401
+<caption>   2   <strong>Martin,Jamie R      </strong>, K= 0, Elo=1398, ID=5193852
 <br>
 <a class="anchor" name="2"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td>W </td> <td>9</td> <td></td> <td> <a href="playercard.php#9"> Annadasu,Shreyansh   </a>  <td>1020</td>
+<tr> <td>1</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+</tr> 
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>   3   <strong>Annapureddy,Dhruthin</strong>, K= 0, Elo=1364, ID=3194401
+<br>
+<a class="anchor" name="3"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>10</td> <td></td> <td> <a href="playercard.php#10"> Annadasu,Shreyansh   </a>  <td>1020</td>
 <td> 0.0</td> <td> 1.0</td>
 </tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   3   <strong>Yang,Yifan          </strong>, K= 0, Elo=1223, ID=3210840
+<caption>   4   <strong>Yang,Yifan          </strong>, K= 0, Elo=1223, ID=3210840
 <br>
-<a class="anchor" name="3"></a></caption>
+<a class="anchor" name="4"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td> B</td> <td>10</td> <td></td> <td> <a href="playercard.php#10"> Kostakakis,Angelo    </a>  <td>1011</td>
+<tr> <td>1</td> <td> B</td> <td>11</td> <td></td> <td> <a href="playercard.php#11"> Kostakakis,Angelo    </a>  <td>1011</td>
 <td> 0.5</td> <td> 0.5</td>
 </tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   4   <strong>Wilkinson,Greg      </strong>, K= 0, Elo=1208, ID=3200620
+<caption>   5   <strong>Wilkinson,Greg      </strong>, K= 0, Elo=1208, ID=3200620
 <br>
-<a class="anchor" name="4"></a></caption>
+<a class="anchor" name="5"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td>W </td> <td>11</td> <td></td> <td> <a href="playercard.php#11"> Ramprasad, Nachiket  </a>  <td>1000</td>
+<tr> <td>1</td> <td>W </td> <td>12</td> <td></td> <td> <a href="playercard.php#12"> Ramprasad, Nachiket  </a>  <td>1000</td>
 <td> 1.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   5   <strong>Nawar,Mena          </strong>, K= 0, Elo=1193, ID=3191633
+<caption>   6   <strong>Nawar,Mena          </strong>, K= 0, Elo=1193, ID=3191633
 <br>
-<a class="anchor" name="5"></a></caption>
+<a class="anchor" name="6"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td> B</td> <td>12</td> <td></td> <td> <a href="playercard.php#12"> Cox,Tyler            </a>  <td>936</td>
+<tr> <td>1</td> <td> B</td> <td>13</td> <td></td> <td> <a href="playercard.php#13"> Cox,Tyler            </a>  <td>936</td>
 <td> 0.5</td> <td> 0.5</td>
 </tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   6   <strong>Ramanathan,Ashwin   </strong>, K= 0, Elo=1149, ID=3206231
+<caption>   7   <strong>Ramanathan,Ashwin   </strong>, K= 0, Elo=1149, ID=3206231
 <br>
-<a class="anchor" name="6"></a></caption>
+<a class="anchor" name="7"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
@@ -99,20 +109,20 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   7   <strong>Clerk,Max           </strong>, K= 0, Elo=1033, ID=3161584
+<caption>   8   <strong>Clerk,Max           </strong>, K= 0, Elo=1033, ID=3161584
 <br>
-<a class="anchor" name="7"></a></caption>
+<a class="anchor" name="8"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td>W </td> <td>14</td> <td></td> <td> <a href="playercard.php#14"> Cox,Aiden            </a>  <td>0</td>
+<tr> <td>1</td> <td>W </td> <td>15</td> <td></td> <td> <a href="playercard.php#15"> Cox,Aiden            </a>  <td>0</td>
 <td> 0.0</td> <td> 1.0</td>
 </tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   8   <strong>Majety,Rohan        </strong>, K= 0, Elo=1029, ID=3201585
+<caption>   9   <strong>Majety,Rohan        </strong>, K= 0, Elo=1029, ID=3201585
 <br>
-<a class="anchor" name="8"></a></caption>
+<a class="anchor" name="9"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>1</td> <td></td> <td> <a href="playercard.php#1"> Nowak,Ruben          </a>  <td>1409</td>
@@ -121,53 +131,53 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   9   <strong>Annadasu,Shreyansh  </strong>, K= 0, Elo=1020, ID=3210254
+<caption>  10   <strong>Annadasu,Shreyansh  </strong>, K= 0, Elo=1020, ID=3210254
 <br>
-<a class="anchor" name="9"></a></caption>
+<a class="anchor" name="10"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td> B</td> <td>2</td> <td></td> <td> <a href="playercard.php#2"> Annapureddy,Dhruthin </a>  <td>1364</td>
+<tr> <td>1</td> <td> B</td> <td>3</td> <td></td> <td> <a href="playercard.php#3"> Annapureddy,Dhruthin </a>  <td>1364</td>
 <td> 1.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  10   <strong>Kostakakis,Angelo   </strong>, K= 0, Elo=1011, ID=3168605
+<caption>  11   <strong>Kostakakis,Angelo   </strong>, K= 0, Elo=1011, ID=3168605
 <br>
-<a class="anchor" name="10"></a></caption>
+<a class="anchor" name="11"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td>W </td> <td>3</td> <td></td> <td> <a href="playercard.php#3"> Yang,Yifan           </a>  <td>1223</td>
+<tr> <td>1</td> <td>W </td> <td>4</td> <td></td> <td> <a href="playercard.php#4"> Yang,Yifan           </a>  <td>1223</td>
 <td> 0.5</td> <td> 0.5</td>
 </tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  11   <strong>Ramprasad, Nachiket </strong>, K= 0, Elo=1000, ID=0
+<caption>  12   <strong>Ramprasad, Nachiket </strong>, K= 0, Elo=1000, ID=0
 <br>
-<a class="anchor" name="11"></a></caption>
+<a class="anchor" name="12"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td> B</td> <td>4</td> <td></td> <td> <a href="playercard.php#4"> Wilkinson,Greg       </a>  <td>1208</td>
+<tr> <td>1</td> <td> B</td> <td>5</td> <td></td> <td> <a href="playercard.php#5"> Wilkinson,Greg       </a>  <td>1208</td>
 <td> 0.0</td> <td> 1.0</td>
 </tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  12   <strong>Cox,Tyler           </strong>, K= 0, Elo= 936, ID=3197676
+<caption>  13   <strong>Cox,Tyler           </strong>, K= 0, Elo= 936, ID=3197676
 <br>
-<a class="anchor" name="12"></a></caption>
+<a class="anchor" name="13"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td>W </td> <td>5</td> <td></td> <td> <a href="playercard.php#5"> Nawar,Mena           </a>  <td>1193</td>
+<tr> <td>1</td> <td>W </td> <td>6</td> <td></td> <td> <a href="playercard.php#6"> Nawar,Mena           </a>  <td>1193</td>
 <td> 0.5</td> <td> 0.5</td>
 </tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  13   <strong>Nicdao,Joseph       </strong>, K= 0, Elo= 661, ID=3207782
+<caption>  14   <strong>Nicdao,Joseph       </strong>, K= 0, Elo= 661, ID=3207782
 <br>
-<a class="anchor" name="13"></a></caption>
+<a class="anchor" name="14"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
@@ -175,12 +185,12 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  14   <strong>Cox,Aiden           </strong>, K= 0, Elo=   0, ID=3197665
+<caption>  15   <strong>Cox,Aiden           </strong>, K= 0, Elo=   0, ID=3197665
 <br>
-<a class="anchor" name="14"></a></caption>
+<a class="anchor" name="15"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td> B</td> <td>7</td> <td></td> <td> <a href="playercard.php#7"> Clerk,Max            </a>  <td>1033</td>
+<tr> <td>1</td> <td> B</td> <td>8</td> <td></td> <td> <a href="playercard.php#8"> Clerk,Max            </a>  <td>1033</td>
 <td> 1.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
