@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Players</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs2.php" >Pairings</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs3.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
@@ -32,9 +32,9 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4">  Cross Table at round 1</h3>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4">  Cross Table at round 2</h3>
 <div class="table-responsive"><table class="table table-striped "> 
-<thead><tr><th>#</th><th>Player</th><th>Pts</th><th>1</th></tr></thead><tbody> 
+<thead><tr><th>#</th><th>Player</th><th>Pts</th><th>1</th><th>2</th></tr></thead><tbody> 
 <tr> 
 <td> <span class="idn"> 1 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -52,7 +52,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">9   </div></td></tr>
+</td><td class="score"> 2.0</td><td><div class="res">1</div><div class="cb">9   </div></td><td><div class="res">1</div><div class="cw">10  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 2 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -70,7 +70,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td> </td></tr>
+</td><td class="score"> 0.5</td><td> </td><td><div class="res"> ½ </div><div class="cf">BYE</div></tr>
 <tr> 
 <td> <span class="idn"> 3 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -88,7 +88,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">10  </div></td></tr>
+</td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">10  </div></td><td><div class="res">0</div><div class="cb">9   </div></td></tr>
 <tr> 
 <td> <span class="idn"> 4 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -106,7 +106,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.5</td><td><div class="res">½</div><div class="cb">11  </div></td></tr>
+</td><td class="score"> 1.5</td><td><div class="res">½</div><div class="cb">11  </div></td><td><div class="res">1</div><div class="cw">13  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 5 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -124,7 +124,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cw">12  </div></td></tr>
+</td><td class="score"> 2.0</td><td><div class="res">1</div><div class="cw">12  </div></td><td><div class="res">1</div><div class="cb">15  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 6 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -142,7 +142,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.5</td><td><div class="res">½</div><div class="cb">13  </div></td></tr>
+</td><td class="score"> 1.5</td><td><div class="res">½</div><div class="cb">13  </div></td><td><div class="res">1</div><div class="cw">11  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 7 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -160,7 +160,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.5</td><td><div class="res"> ½ </div><div class="cf">BYE</div></tr>
+</td><td class="score"> 1.5</td><td><div class="res"> ½ </div><div class="cf">BYE</div><td><div class="res">1</div><div class="cw">14  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 8 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -178,7 +178,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">15  </div></td></tr>
+</td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">15  </div></td><td><div class="res">0</div><div class="cf">12  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 9 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -196,7 +196,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">1   </div></td></tr>
+</td><td class="score"> 1.0</td><td><div class="res">0</div><div class="cw">1   </div></td><td><div class="res">1</div><div class="cw">3   </div></td></tr>
 <tr> 
 <td> <span class="idn"> 10 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -214,7 +214,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">3   </div></td></tr>
+</td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">3   </div></td><td><div class="res">0</div><div class="cb">1   </div></td></tr>
 <tr> 
 <td> <span class="idn"> 11 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -232,7 +232,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.5</td><td><div class="res">½</div><div class="cw">4   </div></td></tr>
+</td><td class="score"> 0.5</td><td><div class="res">½</div><div class="cw">4   </div></td><td><div class="res">0</div><div class="cb">6   </div></td></tr>
 <tr> 
 <td> <span class="idn"> 12 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -250,7 +250,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">5   </div></td></tr>
+</td><td class="score"> 1.0</td><td><div class="res">0</div><div class="cb">5   </div></td><td><div class="res">1</div><div class="cf">8   </div></td></tr>
 <tr> 
 <td> <span class="idn"> 13 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -268,7 +268,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.5</td><td><div class="res">½</div><div class="cw">6   </div></td></tr>
+</td><td class="score"> 0.5</td><td><div class="res">½</div><div class="cw">6   </div></td><td><div class="res">0</div><div class="cb">4   </div></td></tr>
 <tr> 
 <td> <span class="idn"> 14 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -286,7 +286,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.5</td><td><div class="res"> ½ </div><div class="cf">BYE</div></tr>
+</td><td class="score"> 0.5</td><td><div class="res"> ½ </div><div class="cf">BYE</div><td><div class="res">0</div><div class="cb">7   </div></td></tr>
 <tr> 
 <td> <span class="idn"> 15 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -304,7 +304,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">8   </div></td></tr>
+</td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">8   </div></td><td><div class="res">0</div><div class="cw">5   </div></td></tr>
 </tbody>
 </table>
 </DIV>

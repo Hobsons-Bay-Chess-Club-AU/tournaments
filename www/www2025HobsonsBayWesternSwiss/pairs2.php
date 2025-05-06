@@ -56,7 +56,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>1</td><td class="result"> ... </td><td>1</td><td><div class="player-container" 
+</td><td>1</td><td class="result">1 - 0</td><td>1</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#10"></a> 
  <div class="player-name-box2">
@@ -89,7 +89,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>1</td><td class="result"> ... </td><td>1</td><td><div class="player-container" 
+</td><td>1</td><td class="result">0 - 1</td><td>1</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#5"></a> 
  <div class="player-name-box2">
@@ -122,7 +122,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>0.5</td><td class="result"> ... </td><td>0.5</td><td><div class="player-container" 
+</td><td>0.5</td><td class="result">1 - 0</td><td>0.5</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#13"></a> 
  <div class="player-name-box2">
@@ -155,7 +155,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>0.5</td><td class="result"> ... </td><td>0.5</td><td><div class="player-container" 
+</td><td>0.5</td><td class="result">1 - 0</td><td>0.5</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#11"></a> 
  <div class="player-name-box2">
@@ -188,7 +188,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>0.5</td><td class="result"> ... </td><td>0.5</td><td><div class="player-container" 
+</td><td>0.5</td><td class="result">1 - 0</td><td>0.5</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#14"></a> 
  <div class="player-name-box2">
@@ -221,7 +221,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>0</td><td class="result"> ... </td><td>0</td><td><div class="player-container" 
+</td><td>0</td><td class="result">1 - 0</td><td>0</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#3"></a> 
  <div class="player-name-box2">
@@ -254,7 +254,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>0</td><td class="result"> ... </td><td>0</td><td><div class="player-container" 
+</td><td>0</td><td class="result">1F-0F</td><td>0</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#8"></a> 
  <div class="player-name-box2">
