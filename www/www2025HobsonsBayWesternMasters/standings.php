@@ -38,6 +38,24 @@
  </tr></thead> <tbody>
 <tr> <td>1</td><td><div class="player-container" 
    <div class="left-box2">
+<a href="playercard.php#2"></a> 
+ <div class="player-name-box2">
+			<span>Davis,Tony J</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 2</div> 
+			<div class="title-box"> 
+ <div class="title2 male">CM</div>
+			</div>
+			<div class="rating">1735</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td></td><td class="score"> 1.0</td><td>   1.00 </td><td>  1611  </td>
+</tr>
+<tr> <td>2</td><td><div class="player-container" 
+   <div class="left-box2">
 <a href="playercard.php#4"></a> 
  <div class="player-name-box2">
 			<span>Lingineni,Khushal</span>
@@ -54,7 +72,7 @@
 </div>
 </td><td></td><td class="score"> 1.0</td><td>   0.00 </td><td>  1911  </td>
 </tr>
-<tr> <td>2</td><td><div class="player-container" 
+<tr> <td>3</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#1"></a> 
  <div class="player-name-box2">
@@ -70,9 +88,9 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.0</td><td>   0.00 </td><td>  1727  </td>
+</td><td></td><td class="score"> 1.0</td><td>   0.00 </td><td>  1731  </td>
 </tr>
-<tr> <td>3</td><td><div class="player-container" 
+<tr> <td>4</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#6"></a> 
  <div class="player-name-box2">
@@ -90,7 +108,7 @@
 </div>
 </td><td></td><td class="score"> 0.0</td><td>   0.00 </td><td>  1611  </td>
 </tr>
-<tr> <td>4</td><td><div class="player-container" 
+<tr> <td>5</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#3"></a> 
  <div class="player-name-box2">
@@ -107,24 +125,6 @@
 	</div> 
 </div>
 </td><td></td><td class="score"> 0.0</td><td>   0.00 </td><td>  1606  </td>
-</tr>
-<tr> <td>5</td><td><div class="player-container" 
-   <div class="left-box2">
-<a href="playercard.php#2"></a> 
- <div class="player-name-box2">
-			<span>Davis,Tony J</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 2</div> 
-			<div class="title-box"> 
- <div class="title2 male">CM</div>
-			</div>
-			<div class="rating">1735</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-</div>
-</td><td></td><td class="score"> 0.0</td><td>   0.00 </td><td>     0  </td>
 </tr>
 <tr> <td>6</td><td><div class="player-container" 
    <div class="left-box2">

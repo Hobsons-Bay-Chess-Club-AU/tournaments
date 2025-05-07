@@ -46,7 +46,7 @@
 <thead><tr><th>Bo.</th><th>Fed</th><th>Origin</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Origin</th><th>Fed</th></tr></thead><tbody>
 <tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#6"> Lacson,Joemar</a> </td><td>6</td> <td class="result"> adj </td><td>4</td><td class="name"> <a href="playercard.php#4"> Lingineni,Khushal</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 <tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#5"> Krishnan,Anirudh</a> </td><td>5</td> <td class="result"> adj </td><td>3</td><td class="name"> <a href="playercard.php#3"> Hogg,Dean</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#1"> Paul,Cijo</a> </td><td>1</td> <td class="result"> adj </td><td>2</td><td class="name"> <a href="playercard.php#2">CM Davis,Tony J</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#1"> Paul,Cijo</a> </td><td>1</td> <td class="result">0 - 1</td><td>2</td><td class="name"> <a href="playercard.php#2">CM Davis,Tony J</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
 <h4>Pairing of round 3, at 17:30 of 13/05/2025</h4>
