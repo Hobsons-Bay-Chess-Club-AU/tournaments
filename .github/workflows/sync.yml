@@ -61,11 +61,11 @@ jobs:
         env:
           VAULT_SECRET: ${{secrets.VAULT_SECRET}}
 
-      - name: Keep site alive
-        if: steps.check_change_id.outputs.skip_steps != 'true'
-        continue-on-error: true
-        run: |
-          node src/bytehost.mjs
+      # - name: Keep site alive
+      #   if: steps.check_change_id.outputs.skip_steps != 'true'
+      #   continue-on-error: true
+      #   run: |
+      #     node src/bytehost.mjs
 
       - name: "Fetch content from ftp server"
         if: steps.check_change_id.outputs.skip_steps != 'true'
