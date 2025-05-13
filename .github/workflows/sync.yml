@@ -2,8 +2,7 @@ name: Sync FTP to Local and Commit
 
 on:
   schedule:
-    - cron: "0 00-12 * * *" # 12 AM to 10 AM UTC (10 AM to 8 PM AEST)
-    - cron: "0 22-23 * * *" # 10 PM to 12 AM UTC (8 PM to 10 PM AEST)
+    - cron: "0 8 * * *"
   push:
     paths:
       - .github/workflows/sync.yml
