@@ -41,49 +41,27 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Team ranking based on 4 best players of each team</h3>
-<div class="table-responsive"><table class="table table-striped"> 
-<thead><tr><th> Pos </th> <th> Team Name </th><th>Points</th></tr></thead> <tbody>
-<tr>
-<td>1</td> <td></td> <td>10.5</td> </tr>
+  <div class="d-flex flex-column"> <div class="btn-toolbar mb-4 mt-4 d-flex align-items-center"> 
+<h5>Pairing of round 4, at 18:30 of 20/05/2025</h5>
+   	<div class="btn-group mx-5"> 
+<?php include("pairing.js"); ?>
+   	</div>
+ </div>
+<div class="table-responsive"><table class="table table-sm table-striped"> 
+<thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>Pts</th><th>Result</th><th>Pts</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
+<tr> <td>1</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name"> <span class="idwhite"> 17 </span><span class="notitle male"> </span> <a href="playercard.php#17"> Nema,Nivaan</a> </td><td>3</td><td class="result"> ... </td><td>3</td><td class="name"><span class="idblack">5 </span><span class="notitle male"> </span> <a href="playercard.php#5"> Guggilla,Krithvik</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 2 </span><span class="notitle male"> </span> <a href="playercard.php#2"> Stefan Tham,Keanu</a> </td><td>2.5</td><td class="result"> ... </td><td>2</td><td class="name"><span class="idblack">1 </span><span class="notitle male"> </span> <a href="playercard.php#1"> Bodke,Aryan</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 6 </span><span class="notitle male"> </span> <a href="playercard.php#6"> Yendru,Sriram</a> </td><td>2</td><td class="result"> ... </td><td>2</td><td class="name"><span class="idblack">16 </span><span class="notitle female"> </span> <a href="playercard.php#16"> Mukunth,Ganesh Kumar</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
+<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 13 </span><span class="notitle male"> </span> <a href="playercard.php#13"> Kantharaju,Aryan</a> </td><td>2</td><td class="result"> ... </td><td>2</td><td class="name"><span class="idblack">7 </span><span class="notitle female"> </span> <a href="playercard.php#7"> Chan,Abby</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>5</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name"> <span class="idwhite"> 18 </span><span class="notitle male"> </span> <a href="playercard.php#18"> Vemula,Thamoghna</a> </td><td>2</td><td class="result"> ... </td><td>1.5</td><td class="name"><span class="idblack">9 </span><span class="notitle male"> </span> <a href="playercard.php#9"> Aryan,Srivatsav Yegnavajjula</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
+<tr> <td>6</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 10 </span><span class="notitle female"> </span> <a href="playercard.php#10"> Fang,Candice</a> </td><td>1</td><td class="result"> ... </td><td>1</td><td class="name"><span class="idblack">3 </span><span class="notitle male"> </span> <a href="playercard.php#3"> Goh,Julian</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>7</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name"> <span class="idwhite"> 11 </span><span class="notitle male"> </span> <a href="playercard.php#11"> Kaki,Vihas</a> </td><td>1</td><td class="result"> ... </td><td>1</td><td class="name"><span class="idblack">4 </span><span class="notitle male"> </span> <a href="playercard.php#4"> Rawat,Pratyax Singh</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>8</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name"> <span class="idwhite"> 8 </span><span class="notitle female"> </span> <a href="playercard.php#8"> Goh,Daphne</a> </td><td>1</td><td class="result"> ... </td><td>1</td><td class="name"><span class="idblack">19 </span><span class="notitle female"> </span> <a href="playercard.php#19"> Venkat,Nyra</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>9</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name"> <span class="idwhite"> 15 </span><span class="notitle male"> </span> <a href="playercard.php#15"> Kwek,Alexander</a> </td><td>0.5</td><td class="result"> ... </td><td>0</td><td class="name"><span class="idblack">12 </span><span class="notitle female"> </span> <a href="playercard.php#12"> Kantharaju,Aarna</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>10</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name"> <span class="idwhite"> 14 </span><span class="notitle female"> </span> <a href="playercard.php#14"> Kelly,Jackson</a> </td><td>0.5</td><td class="result">0    </td><td>0</td><td class="name">( not paired )</td><td></td></tr>
 </tbody>
 </table>
-<h5 class="mb-4 mt-4"> Team composition</h5>
-<table class="table table-striped "> 
-<thead><tr><th>1</th> <th> </th><th>10.5</th></tr></thead><tbody> 
-<tr> <td>5</td> <td>Guggilla,Krithvik </td><td>3</td></tr> 
-<tr> <td>17</td> <td>Nema,Nivaan </td><td>3</td></tr> 
-<tr> <td>2</td> <td>Stefan Tham,Keanu </td><td>2.5</td></tr> 
-<tr> <td>1</td> <td>Bodke,Aryan </td><td>2</td></tr> 
-<tr> <td>7</td> <td>Chan,Abby </td><td>2</td></tr> 
-<tr> <td>18</td> <td>Vemula,Thamoghna </td><td>2</td></tr> 
-<tr> <td>13</td> <td>Kantharaju,Aryan </td><td>2</td></tr> 
-<tr> <td>16</td> <td>Mukunth,Ganesh Kumar </td><td>2</td></tr> 
-<tr> <td>6</td> <td>Yendru,Sriram </td><td>2</td></tr> 
-<tr> <td>9</td> <td>Aryan,Srivatsav Yegnavajjula </td><td>1.5</td></tr> 
-<tr> <td>11</td> <td>Kaki,Vihas </td><td>1</td></tr> 
-<tr> <td>19</td> <td>Venkat,Nyra </td><td>1</td></tr> 
-<tr> <td>4</td> <td>Rawat,Pratyax Singh </td><td>1</td></tr> 
-<tr> <td>10</td> <td>Fang,Candice </td><td>1</td></tr> 
-<tr> <td>8</td> <td>Goh,Daphne </td><td>1</td></tr> 
-<tr> <td>3</td> <td>Goh,Julian </td><td>1</td></tr> 
-<tr> <td>15</td> <td>Kwek,Alexander </td><td>0.5</td></tr> 
-<tr> <td>14</td> <td>Kelly,Jackson </td><td>0.5</td></tr> 
-<tr> <td>12</td> <td>Kantharaju,Aarna </td><td>0</td></tr> 
-</tbody>
-</table>
-<h5 class="mb-4 mt-4"> Best boards</h5>
-<table class="table table-striped "> 
-<thead><tr><th>Board 0</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Guggilla,Krithvik </td><td> </td><td>3</td></tr> 
-<thead><tr><th>Board 1</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Nema,Nivaan </td><td> </td><td>3</td></tr> 
-<thead><tr><th>Board 2</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Stefan Tham,Keanu </td><td> </td><td>2.5</td></tr> 
-<thead><tr><th>Board 3</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Bodke,Aryan </td><td> </td><td>2</td></tr> 
-</tbody>
-</table></div>
+</DIV><hr>
 		  </div>
 		      </div>
          <div class="d-none d-lg-block col-1 pe-0">
