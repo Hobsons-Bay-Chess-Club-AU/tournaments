@@ -35,13 +35,15 @@
   <div class="d-flex flex-column"><h3 class="mb-4 mt-4">  FIDE rating variation at round 5</h3>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead> <tr> <th>#</th> <th>Player</th> <th>FIDE ID</th> <th>Fed</th> <th>Rtg</th>  <th>Ng</th> <th>Pts</th> <th>ARO</th> <th>var</th> <th>Rp</th> </tr></thead><tbody><tr> 
-<td>1</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=2054515" target="X">Paul,Cijo</a></td> <td>2054515</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1742</td><td> 2</td> <td> 1.0</td> <td>1825</td> <td>5</td> <td>1825</td></tr>
+<td>1</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=2054515" target="X">Paul,Cijo</a></td> <td>2054515</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1742</td><td> 3</td> <td> 1.0</td> <td>1875</td> <td>0</td> <td>1750</td></tr>
 <tr> 
 <td>2</td> <td><span class="title male"> CM</span> <a href="http://ratings.fide.com/card.phtml?event=3205550" target="X">Davis,Tony J</a></td> <td>3205550</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1819</td><td> 1</td> <td> 1.0</td> <td>1742</td> <td>8</td> <td>2542</td></tr>
 <tr> 
-<td>3</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3204332" target="X">Hogg,Dean</a></td> <td>3204332</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1976</td><td> 1</td> <td> 0.0</td> <td>1835</td> <td>-14</td> <td>1035</td></tr>
+<td>3</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3204332" target="X">Hogg,Dean</a></td> <td>3204332</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1976</td><td> 2</td> <td> 1.0</td> <td>1789</td> <td>-10</td> <td>1789</td></tr>
 <tr> 
-<td>4</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3259056" target="X">Lingineni,Khushal</a></td> <td>3259056</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1835</td><td> 1</td> <td> 1.0</td> <td>1976</td> <td>28</td> <td>2776</td></tr>
+<td>4</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3259056" target="X">Lingineni,Khushal</a></td> <td>3259056</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1835</td><td> 2</td> <td> 1.5</td> <td>1909</td> <td>28</td> <td>2102</td></tr>
+<tr> 
+<td>5</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3254925" target="X">Krishnan,Anirudh</a></td> <td>3254925</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1841</td><td> 1</td> <td> 0.5</td> <td>1835</td> <td>0</td> <td>1835</td></tr>
 <tr> 
 <td>6</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3257762" target="X">Lacson,Joemar</a></td> <td>3257762</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1831</td><td> 1</td> <td> 0.0</td> <td>1742</td> <td>-12</td> <td> 942</td></tr>
 </tbody>
