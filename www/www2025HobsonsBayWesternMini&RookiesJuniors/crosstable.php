@@ -73,11 +73,11 @@
 <tr> 
 <td> <span class="idn"> 14 </span><span class="notitle female"> </span> <a href="playercard.php#14">Kelly,Jackson       </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.5</td><td><div class="res">0</div><div class="cw">6   </div></td><td><div class="res"> ½ </div><div class="cf">BYE</div></tr>
 <tr> 
-<td> <span class="idn"> 15 </span><span class="notitle male"> </span> <a href="playercard.php#15">Kwek,Alexander      </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.5</td><td><div class="res"> ½ </div><div class="cf">BYE</div><td><div class="res">1</div><div class="cb">17  </div></td></tr>
+<td> <span class="idn"> 15 </span><span class="notitle male"> </span> <a href="playercard.php#15">Kwek,Alexander      </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.5</td><td><div class="res"> ½ </div><div class="cf">BYE</div><td><div class="res">0</div><div class="cb">17  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 16 </span><span class="notitle female"> </span> <a href="playercard.php#16">Mukunth,Ganesh Kumar</a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td><div class="res">0</div><div class="cw">2   </div></td><td><div class="res">1</div><div class="cb">8   </div></td></tr>
 <tr> 
-<td> <span class="idn"> 17 </span><span class="notitle male"> </span> <a href="playercard.php#17">Nema,Nivaan         </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">7   </div></td><td><div class="res">0</div><div class="cw">15  </div></td></tr>
+<td> <span class="idn"> 17 </span><span class="notitle male"> </span> <a href="playercard.php#17">Nema,Nivaan         </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 2.0</td><td><div class="res">1</div><div class="cb">7   </div></td><td><div class="res">1</div><div class="cw">15  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 18 </span><span class="notitle male"> </span> <a href="playercard.php#18">Vemula,Thamoghna    </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 2.0</td><td><div class="res">1</div><div class="cw">19  </div></td><td><div class="res">1</div><div class="cb">4   </div></td></tr>
 <tr> 
