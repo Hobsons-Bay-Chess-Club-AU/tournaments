@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Players</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs3.php" >Pairings</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs4.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
@@ -45,48 +45,48 @@
 <div class="table-responsive"><table class="table table-striped"> 
 <thead><tr><th> Pos </th> <th> Team Name </th><th>Points</th></tr></thead> <tbody>
 <tr>
-<td>1</td> <td></td> <td>8</td> </tr>
+<td>1</td> <td></td> <td>11</td> </tr>
 </tbody>
 </table>
 <h5 class="mb-4 mt-4"> Team composition</h5>
 <table class="table table-striped "> 
-<thead><tr><th>1</th> <th> </th><th>8</th></tr></thead><tbody> 
-<tr> <td>6</td> <td>Ashok,Arjun </td><td>2</td></tr> 
-<tr> <td>15</td> <td>Ahmad,Ihtiram </td><td>2</td></tr> 
-<tr> <td>21</td> <td>Jyothi Nikhil,Neev </td><td>2</td></tr> 
+<thead><tr><th>1</th> <th> </th><th>11</th></tr></thead><tbody> 
+<tr> <td>15</td> <td>Ahmad,Ihtiram </td><td>3</td></tr> 
+<tr> <td>6</td> <td>Ashok,Arjun </td><td>3</td></tr> 
+<tr> <td>12</td> <td>Batyrbekov,Kuanysh </td><td>2.5</td></tr> 
+<tr> <td>5</td> <td>Veginati,Cherish </td><td>2.5</td></tr> 
 <tr> <td>16</td> <td>Balaji,Sai Sivesh </td><td>2</td></tr> 
+<tr> <td>1</td> <td>Kirk,Ian </td><td>2</td></tr> 
+<tr> <td>21</td> <td>Jyothi Nikhil,Neev </td><td>2</td></tr> 
+<tr> <td>2</td> <td>Yendru,Srikrishna </td><td>2</td></tr> 
+<tr> <td>8</td> <td>Nguyen,Tuan Kiet </td><td>2</td></tr> 
 <tr> <td>20</td> <td>Jagannathan,Shashvath </td><td>1.5</td></tr> 
-<tr> <td>12</td> <td>Batyrbekov,Kuanysh </td><td>1.5</td></tr> 
-<tr> <td>5</td> <td>Veginati,Cherish </td><td>1.5</td></tr> 
+<tr> <td>18</td> <td>Huang,Michael </td><td>1.5</td></tr> 
+<tr> <td>22</td> <td>Morris,Elijah </td><td>1.5</td></tr> 
+<tr> <td>3</td> <td>Wei,Andrew </td><td>1.5</td></tr> 
+<tr> <td>4</td> <td>Batyrbekov,Kaisar </td><td>1.5</td></tr> 
 <tr> <td>7</td> <td>Batyrbekov,Aidan </td><td>1.5</td></tr> 
-<tr> <td>18</td> <td>Huang,Michael </td><td>1</td></tr> 
-<tr> <td>22</td> <td>Morris,Elijah </td><td>1</td></tr> 
-<tr> <td>1</td> <td>Kirk,Ian </td><td>1</td></tr> 
-<tr> <td>2</td> <td>Yendru,Srikrishna </td><td>1</td></tr> 
-<tr> <td>3</td> <td>Wei,Andrew </td><td>1</td></tr> 
+<tr> <td>24</td> <td>Shinde,Yug </td><td>1</td></tr> 
 <tr> <td>9</td> <td>Ruaya,Rohan </td><td>1</td></tr> 
 <tr> <td>11</td> <td>Karthick,Deepshika </td><td>1</td></tr> 
-<tr> <td>8</td> <td>Nguyen,Tuan Kiet </td><td>1</td></tr> 
-<tr> <td>24</td> <td>Shinde,Yug </td><td>1</td></tr> 
-<tr> <td>4</td> <td>Batyrbekov,Kaisar </td><td>0.5</td></tr> 
-<tr> <td>17</td> <td>Balamurugan,Soorya </td><td>0.5</td></tr> 
+<tr> <td>13</td> <td>Goh,Nicholas </td><td>1</td></tr> 
+<tr> <td>23</td> <td>Shaiek,Nihal </td><td>1</td></tr> 
 <tr> <td>10</td> <td>Saha,Avinandan (Arjun) </td><td>0.5</td></tr> 
-<tr> <td>19</td> <td>Husain,Lamiah </td><td>0</td></tr> 
-<tr> <td>13</td> <td>Goh,Nicholas </td><td>0</td></tr> 
+<tr> <td>17</td> <td>Balamurugan,Soorya </td><td>0.5</td></tr> 
 <tr> <td>14</td> <td>Das,Ayush </td><td>0</td></tr> 
-<tr> <td>23</td> <td>Shaiek,Nihal </td><td>0</td></tr> 
+<tr> <td>19</td> <td>Husain,Lamiah </td><td>0</td></tr> 
 </tbody>
 </table>
 <h5 class="mb-4 mt-4"> Best boards</h5>
 <table class="table table-striped "> 
 <thead><tr><th>Board 0</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Ashok,Arjun </td><td> </td><td>2</td></tr> 
+<tr> <td></td> <td>1 </td><td>Ahmad,Ihtiram </td><td> </td><td>3</td></tr> 
 <thead><tr><th>Board 1</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Ahmad,Ihtiram </td><td> </td><td>2</td></tr> 
+<tr> <td></td> <td>1 </td><td>Ashok,Arjun </td><td> </td><td>3</td></tr> 
 <thead><tr><th>Board 2</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Jyothi Nikhil,Neev </td><td> </td><td>2</td></tr> 
+<tr> <td></td> <td>1 </td><td>Batyrbekov,Kuanysh </td><td> </td><td>2.5</td></tr> 
 <thead><tr><th>Board 3</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Balaji,Sai Sivesh </td><td> </td><td>2</td></tr> 
+<tr> <td></td> <td>1 </td><td>Veginati,Cherish </td><td> </td><td>2.5</td></tr> 
 </tbody>
 </table></div>
 		  </div>
