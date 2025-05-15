@@ -86,7 +86,7 @@
 <tr> 
 <td><span class="idn"> 42</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3272753" target="X"> Gajula,Karan </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>448</td><td>1444</td><td>448</td> </tr>
 <tr> 
-<td><span class="idn"> 59</span></td><td> <span class="notitle male"> </span> Gajula,Nishitha </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 59</span></td><td> <span class="notitle female"> </span> Gajula,Nishitha </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 53</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286304" target="X"> Goh,Daphne </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>107</td><td>0</td><td>107</td> </tr>
 <tr> 
@@ -96,7 +96,7 @@
 <tr> 
 <td><span class="idn"> 26</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3270629" target="X"> Gupta,Aadyah </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>775</td><td>1453</td><td>775</td> </tr>
 <tr> 
-<td><span class="idn"> 60</span></td><td> <span class="notitle male"> </span> Haller,Annabelle </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 60</span></td><td> <span class="notitle female"> </span> Haller,Annabelle </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 14</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3255360" target="X"> Hari,Dhruv </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1203</td><td>1606</td><td>1203</td> </tr>
 <tr> 
@@ -150,9 +150,9 @@
 <tr> 
 <td><span class="idn"> 32</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3276104" target="X"> Qi,Jaden </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>727</td><td>1415</td><td>727</td> </tr>
 <tr> 
-<td><span class="idn"> 67</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3289958" target="X"> Ramagiri, Shivatmika </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 67</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3289958" target="X"> Ramagiri, Shivatmika </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 68</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3289966" target="X"> Ramagiri, Sree Veeksha </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 68</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3289966" target="X"> Ramagiri, Sree Veeksha </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 15</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275221" target="X"> Ramanathan,Ashwin </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1110</td><td>1577</td><td>1110</td> </tr>
 <tr> 
@@ -194,7 +194,7 @@
 <tr> 
 <td><span class="idn"> 49</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275256" target="X"> Wang,Heejae </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>286</td><td>1435</td><td>286</td> </tr>
 <tr> 
-<td><span class="idn"> 77</span></td><td> <span class="notitle male"> </span> Wanniarachchie, Senaya </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 77</span></td><td> <span class="notitle female"> </span> Wanniarachchie, Senaya </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 78</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3288510" target="X"> Yegnavajjula,Aryan Srivatsav </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
