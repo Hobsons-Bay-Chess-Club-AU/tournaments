@@ -41,8 +41,43 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Rated Player Groups at round 1 </h3>
-</DIV>
+  <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Tournament summary</h3><div class="table-responsive"><table class="table table-striped"> 
+<tbody>
+<tr><td> Tournament Name </td> <td> 2025 HBCC Western Junior Rapid Championship</td> </tr>
+<tr><td >Place </td> <td> Hobsons Bay Chess Club</td> </tr>
+<tr><td >Federation</td> <td> AUS</td> </tr>
+<tr><td >Date Begin</td> <td> 17/05/2025</td> </tr>
+<tr><td >Date End</td> <td> 17/05/2025</td> </tr>
+<tr><td >Arbiter(s)</td> <td>  Truong Nguyen 3281701 ()</td> </tr>
+<tr><td > Play System</td> <td> swiss FIDE Dutch (JaVaFo)</td> </tr>
+<tr><td >Rounds</td> <td> 7</td> </tr>
+<tr><td >Score game</td> <td> 0-0.5-1</td> </tr>
+<tr><td >Tie break</td> <td>   BH-C1      BH      SB </td> </tr>
+<tr><td >Registered Players</td> <td> 78</td> </tr>
+<tr><td > Number of Federations</td> <td> 4</td> </tr>
+<tr><td >Average Rating (all) </td> <td> 866</td> </tr>
+<tr><td >Average Rating (only FIDE rated) </td> <td> 1553</td> </tr>
+<tr ><td > Players from AUS Federation</td> <td> 30</td> </tr>
+<tr><td > Players NOT from AUS Federation</td> <td> 48</td> </tr>
+<tr><td > FIDE rated players </td> <td> 40</td> </tr>
+<tr><td > unrated players </td> <td> 38</td> </tr>
+<tr><td > unrated players from AUS Federation</td> <td> 18</td> </tr>
+<tr><td >unrated players NOT from AUS Federation</td> <td> 20</td> </tr>
+<tr><td > unrated Federations</td> <td> 2</td> </tr>
+<tr><td > FIDE titled players </td> <td> 2</td> </tr>
+<tr><td > GM players </td> <td> 0</td> </tr>
+<tr><td >WGM players </td> <td> 0</td> </tr>
+<tr><td > IM players </td> <td> 0</td> </tr>
+<tr><td >WIM players</td> <td> 0</td> </tr>
+<tr><td >FM players</td> <td> 0</td> </tr>
+<tr><td >WFM players</td> <td> 0</td> </tr>
+<tr><td >CM players</td> <td> 2</td> </tr>
+<tr><td >WCM players</td> <td> 0</td> </tr>
+<tr><td >FIDE titled player from AUS Federation </td> <td> 0</td> </tr>
+<tr><td >FIDE titled player NOT from AUS Federation</td> <td> 2</td> </tr>
+</tbody>
+</table>
+</div>
 		  </div>
 		      </div>
          <div class="d-none d-lg-block col-1 pe-0">

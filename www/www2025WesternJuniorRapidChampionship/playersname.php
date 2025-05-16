@@ -118,7 +118,7 @@
 <tr> 
 <td><span class="idn"> 33</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3279499" target="X"> Li,Harry </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>718</td><td>1415</td><td>718</td> </tr>
 <tr> 
-<td><span class="idn"> 23</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3264718" target="X"> Li,LiYuan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>796</td><td>1641</td><td>796</td> </tr>
+<td><span class="idn"> 23</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3264718" target="X"> Li,LiYuan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>796</td><td>1641</td><td>796</td> </tr>
 <tr> 
 <td><span class="idn"> 52</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3287815" target="X"> Lim,Darren </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>138</td><td>0</td><td>138</td> </tr>
 <tr> 

@@ -41,8 +41,11 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Rated Player Groups at round 1 </h3>
-</DIV>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4">National rating at round 1 </h3>
+<div class="table-responsive"><table class="table table-striped "> 
+<tbody>
+<thead><tr> <th>N</th> <th >Name</th> <th>K</th> <th>Elo</th>  <th>Var</th> <th>Per</th> </tr></thead><tbody></tbody>
+</table></DIV>
 		  </div>
 		      </div>
          <div class="d-none d-lg-block col-1 pe-0">
