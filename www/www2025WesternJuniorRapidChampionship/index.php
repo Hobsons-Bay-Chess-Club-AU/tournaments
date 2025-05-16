@@ -88,11 +88,11 @@
 <tr> 
 <td><span class="idn"> 22</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3260062" target="X"> Majety,Rohan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>826</td><td>1470</td><td>826</td> </tr>
 <tr> 
-<td><span class="idn"> 23</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3264718" target="X"> Li,LiYuan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>796</td><td>1641</td><td>796</td> </tr>
+<td><span class="idn"> 23</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3264718" target="X"> Li,LiYuan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>796</td><td>1641</td><td>796</td> </tr>
 <tr> 
 <td><span class="idn"> 24</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275108" target="X"> Ashok,Arjun </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>790</td><td>1534</td><td>790</td> </tr>
 <tr> 
-<td><span class="idn"> 25</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3276589" target="X"> Rathore,Akshobhya </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>786</td><td>1549</td><td>786</td> </tr>
+<td><span class="idn"> 25</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3276589" target="X"> Rathore,Akshobhya </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>786</td><td>1549</td><td>786</td> </tr>
 <tr> 
 <td><span class="idn"> 26</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3270629" target="X"> Gupta,Aadyah </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>775</td><td>1453</td><td>775</td> </tr>
 <tr> 
