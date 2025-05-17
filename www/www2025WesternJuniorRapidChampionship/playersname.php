@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Players</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs4.php" >Pairings</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="index.php">Sorted by Rating</a></li><li><a class="dropdown-item" href="playersname.php">Sorted by Name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs5.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
@@ -156,7 +156,7 @@
 <tr> 
 <td><span class="idn"> 14</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275221" target="X"> Ramanathan,Ashwin </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1110</td><td>1577</td><td>1110</td> </tr>
 <tr> 
-<td><span class="idn"> 25</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3276589" target="X"> Rathore,Akshobhya </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>786</td><td>1549</td><td>786</td> </tr>
+<td><span class="idn"> 25</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3276589" target="X"> Rathore,Akshobhya </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>786</td><td>1549</td><td>786</td> </tr>
 <tr> 
 <td><span class="idn"> 28</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3281345" target="X"> Ruaya,Rohan </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>741</td><td>1467</td><td>741</td> </tr>
 <tr> 
