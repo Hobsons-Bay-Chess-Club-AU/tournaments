@@ -52,25 +52,25 @@
 <tr> 
 <td>5</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3287793" target="X">De Saram, Joshua</a></td> <td>3287793</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1577</td><td> 2</td> <td> 1.0</td> <td>1465</td> <td>-12</td> <td>1465</td></tr>
 <tr> 
-<td>6</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3278972" target="X">Zhang,Chi Long</a></td> <td>3278972</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1535</td><td> 3</td> <td> 3.0</td> <td>1497</td> <td>54</td> <td>2297</td></tr>
+<td>6</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3287890" target="X">Tadakamadla, Ahaan</a></td> <td>3287890</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1517</td><td> 3</td> <td> 2.0</td> <td>1497</td> <td>17</td> <td>1622</td></tr>
 <tr> 
-<td>7</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3287890" target="X">Tadakamadla, Ahaan</a></td> <td>3287890</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1517</td><td> 3</td> <td> 2.0</td> <td>1497</td> <td>17</td> <td>1622</td></tr>
+<td>7</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=311110949" target="X">Parker,Lucas</a></td> <td>311110949</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1647</td><td> 2</td> <td> 1.0</td> <td>1467</td> <td>-18</td> <td>1467</td></tr>
 <tr> 
-<td>8</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=311110949" target="X">Parker,Lucas</a></td> <td>311110949</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1647</td><td> 2</td> <td> 1.0</td> <td>1467</td> <td>-18</td> <td>1467</td></tr>
+<td>8</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3288900" target="X">Arora, Daanish</a></td> <td>3288900</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1458</td><td> 3</td> <td> 2.0</td> <td>1424</td> <td>14</td> <td>1549</td></tr>
 <tr> 
-<td>9</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3288900" target="X">Arora, Daanish</a></td> <td>3288900</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1458</td><td> 3</td> <td> 2.0</td> <td>1424</td> <td>14</td> <td>1549</td></tr>
+<td>9</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267849" target="X">Nguyen,Anh Kiet</a></td> <td>3267849</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1765</td><td> 2</td> <td> 2.0</td> <td>1565</td> <td>20</td> <td>2365</td></tr>
 <tr> 
-<td>10</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267849" target="X">Nguyen,Anh Kiet</a></td> <td>3267849</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1765</td><td> 2</td> <td> 2.0</td> <td>1565</td> <td>20</td> <td>2365</td></tr>
+<td>11</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3265447" target="X">Batyrbekov,Kaisar</a></td> <td>3265447</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1538</td><td> 2</td> <td> 1.5</td> <td>1530</td> <td>19</td> <td>1723</td></tr>
 <tr> 
-<td>12</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3265447" target="X">Batyrbekov,Kaisar</a></td> <td>3265447</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1538</td><td> 2</td> <td> 1.5</td> <td>1530</td> <td>19</td> <td>1723</td></tr>
+<td>12</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3259021" target="X">Bodke,Krishna</a></td> <td>3259021</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1544</td><td> 2</td> <td> 2.0</td> <td>1519</td> <td>37</td> <td>2319</td></tr>
 <tr> 
-<td>13</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3259021" target="X">Bodke,Krishna</a></td> <td>3259021</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1544</td><td> 2</td> <td> 2.0</td> <td>1519</td> <td>37</td> <td>2319</td></tr>
+<td>13</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3255360" target="X">Hari,Dhruv</a></td> <td>3255360</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1606</td><td> 1</td> <td> 1.0</td> <td>1617</td> <td>21</td> <td>2417</td></tr>
 <tr> 
-<td>14</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3255360" target="X">Hari,Dhruv</a></td> <td>3255360</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1606</td><td> 1</td> <td> 1.0</td> <td>1617</td> <td>21</td> <td>2417</td></tr>
+<td>14</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275221" target="X">Ramanathan,Ashwin</a></td> <td>3275221</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1577</td><td> 1</td> <td> 1.0</td> <td>1415</td> <td>12</td> <td>2215</td></tr>
 <tr> 
-<td>15</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275221" target="X">Ramanathan,Ashwin</a></td> <td>3275221</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1577</td><td> 1</td> <td> 1.0</td> <td>1415</td> <td>12</td> <td>2215</td></tr>
+<td>15</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3266117" target="X">Huang,Joshua Kai-En</a></td> <td>3266117</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1427</td><td> 1</td> <td> 1.0</td> <td>1415</td> <td>19</td> <td>2215</td></tr>
 <tr> 
-<td>16</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3266117" target="X">Huang,Joshua Kai-En</a></td> <td>3266117</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1427</td><td> 1</td> <td> 1.0</td> <td>1415</td> <td>19</td> <td>2215</td></tr>
+<td>16</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3278972" target="X">Zhang,Chi Long</a></td> <td>3278972</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1535</td><td> 3</td> <td> 3.0</td> <td>1497</td> <td>54</td> <td>2297</td></tr>
 <tr> 
 <td>17</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3256359" target="X">Shirawala,Sahar</a></td> <td>3256359</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1543</td><td> 2</td> <td> 1.0</td> <td>1753</td> <td>12</td> <td>1753</td></tr>
 <tr> 

@@ -52,17 +52,17 @@
 <table class="table table-striped "> 
 <thead><tr><th>1</th> <th> </th><th>12</th></tr></thead><tbody> 
 <tr> <td>2</td> <td>Kalina,Leo </td><td>3</td></tr> 
-<tr> <td>6</td> <td>Zhang,Chi Long </td><td>3</td></tr> 
-<tr> <td>10</td> <td>Nguyen,Anh Kiet </td><td>3</td></tr> 
-<tr> <td>13</td> <td>Bodke,Krishna </td><td>3</td></tr> 
-<tr> <td>11</td> <td>Annapureddy,Dhruthin Reddy </td><td>3</td></tr> 
-<tr> <td>14</td> <td>Hari,Dhruv </td><td>3</td></tr> 
-<tr> <td>16</td> <td>Huang,Joshua Kai-En </td><td>3</td></tr> 
+<tr> <td>9</td> <td>Nguyen,Anh Kiet </td><td>3</td></tr> 
+<tr> <td>12</td> <td>Bodke,Krishna </td><td>3</td></tr> 
+<tr> <td>16</td> <td>Zhang,Chi Long </td><td>3</td></tr> 
+<tr> <td>10</td> <td>Annapureddy,Dhruthin Reddy </td><td>3</td></tr> 
+<tr> <td>13</td> <td>Hari,Dhruv </td><td>3</td></tr> 
+<tr> <td>15</td> <td>Huang,Joshua Kai-En </td><td>3</td></tr> 
 <tr> <td>3</td> <td>Lingineni,Khushal </td><td>3</td></tr> 
 <tr> <td>1</td> <td>Annapureddy,Rheyansh Reddy </td><td>3</td></tr> 
-<tr> <td>12</td> <td>Batyrbekov,Kaisar </td><td>2.5</td></tr> 
+<tr> <td>11</td> <td>Batyrbekov,Kaisar </td><td>2.5</td></tr> 
 <tr> <td>24</td> <td>Ashok,Arjun </td><td>2.5</td></tr> 
-<tr> <td>15</td> <td>Ramanathan,Ashwin </td><td>2.5</td></tr> 
+<tr> <td>14</td> <td>Ramanathan,Ashwin </td><td>2.5</td></tr> 
 <tr> <td>62</td> <td>Munro, Lachlan </td><td>2.5</td></tr> 
 <tr> <td>25</td> <td>Rathore,Akshobhya </td><td>2.5</td></tr> 
 <tr> <td>4</td> <td>Ahmad,Ihtiram </td><td>2.5</td></tr> 
@@ -79,10 +79,10 @@
 <tr> <td>21</td> <td>Ngo,William </td><td>2</td></tr> 
 <tr> <td>28</td> <td>Ruaya,Rohan </td><td>2</td></tr> 
 <tr> <td>29</td> <td>Santoso,Crystin </td><td>2</td></tr> 
-<tr> <td>7</td> <td>Tadakamadla, Ahaan </td><td>2</td></tr> 
-<tr> <td>9</td> <td>Arora, Daanish </td><td>2</td></tr> 
+<tr> <td>6</td> <td>Tadakamadla, Ahaan </td><td>2</td></tr> 
+<tr> <td>8</td> <td>Arora, Daanish </td><td>2</td></tr> 
 <tr> <td>75</td> <td>Vemula,Thamoghna </td><td>2</td></tr> 
-<tr> <td>8</td> <td>Parker,Lucas </td><td>2</td></tr> 
+<tr> <td>7</td> <td>Parker,Lucas </td><td>2</td></tr> 
 <tr> <td>78</td> <td>Yegnavajjula,Aryan Srivatsav </td><td>2</td></tr> 
 <tr> <td>22</td> <td>Majety,Rohan </td><td>2</td></tr> 
 <tr> <td>19</td> <td>Batyrbekov,Aidan </td><td>2</td></tr> 
@@ -136,11 +136,11 @@
 <thead><tr><th>Board 0</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
 <tr> <td></td> <td>1 </td><td>Kalina,Leo </td><td> </td><td>3</td></tr> 
 <thead><tr><th>Board 1</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Zhang,Chi Long </td><td> </td><td>3</td></tr> 
-<thead><tr><th>Board 2</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
 <tr> <td></td> <td>1 </td><td>Nguyen,Anh Kiet </td><td> </td><td>3</td></tr> 
-<thead><tr><th>Board 3</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
+<thead><tr><th>Board 2</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
 <tr> <td></td> <td>1 </td><td>Bodke,Krishna </td><td> </td><td>3</td></tr> 
+<thead><tr><th>Board 3</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
+<tr> <td></td> <td>1 </td><td>Zhang,Chi Long </td><td> </td><td>3</td></tr> 
 </tbody>
 </table></div>
 		  </div>
