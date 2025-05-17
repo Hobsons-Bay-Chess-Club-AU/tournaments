@@ -6,5 +6,6 @@
     <li class="page-item base-hover"><a class="page-link" href="pairs4.html">4</a></li>
     <li class="page-item base-hover"><a class="page-link" href="pairs5.html">5</a></li>
     <li class="page-item base-hover"><a class="page-link" href="pairs6.html">6</a></li>
+    <li class="page-item base-hover"><a class="page-link" href="pairs7.html">7</a></li>
      </ul>
   </nav>
