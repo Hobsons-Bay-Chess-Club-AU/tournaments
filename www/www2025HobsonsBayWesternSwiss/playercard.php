@@ -297,7 +297,7 @@
 <tr> <td>3</td> <td>W </td> <td>2</td> <td></td> <td> <a href="playercard.php#2"> Martin,Jamie R       </a>  <td>1398</td>
 <td> 0.0</td> <td> 2.5</td>
 </tr> 
-<tr> <td>4</td> <td> B</td> <td>16</td> <td></td> <td> <a href="playercard.php#16"> Butler, Julian       </a>  <td>0</td>
+<tr> <td>4</td> <td> B</td> <td>16</td> <td></td> <td> <a href="playercard.php#16"> Butler,Julian        </a>  <td>0</td>
 <td> 1.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
@@ -323,7 +323,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  16   <strong>Butler, Julian      </strong>, K= 0, Elo=   0, ID=0
+<caption>  16   <strong>Butler,Julian       </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="16"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>

@@ -56,7 +56,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>0</td><td class="result"> adj </td><td>1</td><td><div class="player-container" 
+</td><td>0</td><td class="result">0F-1F</td><td>1</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#4"></a> 
  <div class="player-name-box2">

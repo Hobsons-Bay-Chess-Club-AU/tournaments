@@ -39,7 +39,7 @@
 <tr> 
 <td><span class="idn"> 3</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3239683" target="X"> Annapureddy,Dhruthin Reddy </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1364</td><td>1543</td><td>1364</td> </tr>
 <tr> 
-<td><span class="idn"> 16</span></td><td> <span class="notitle male"> </span> Butler, Julian </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 16</span></td><td> <span class="notitle male"> </span> Butler,Julian </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 8</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3234134" target="X"> Clerk,Max </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1033</td><td>1480</td><td>1033</td> </tr>
 <tr> 

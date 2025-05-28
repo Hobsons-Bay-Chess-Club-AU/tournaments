@@ -310,7 +310,7 @@
    <div class="left-box2">
 <a href="playercard.php#16"></a> 
  <div class="player-name-box2">
-			<span>Butler, Julian</span>
+			<span>Butler,Julian</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 16</div> 

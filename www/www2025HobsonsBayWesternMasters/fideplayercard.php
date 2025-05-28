@@ -38,28 +38,34 @@
 <tr> 
  <td>1</td><td>W </td><td>6</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#6">Lacson,Joemar</td><td>3257762</td><td>VIC</td><td>1831</td><td>1</td></tr><tr> 
  <td>2</td><td>W </td><td>2</td><td><span class="title male"> CM</span> <a href="fideplayercard.php#2">Davis,Tony J</td><td>3205550</td><td>VIC</td><td>1819</td><td>0</td></tr><tr> 
- <td>3</td><td> B</td><td>3</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#3">Hogg,Dean</td><td>3204332</td><td>VIC</td><td>1976</td><td>0</td></tr></tbody>
+ <td>3</td><td> B</td><td>3</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#3">Hogg,Dean</td><td>3204332</td><td>VIC</td><td>1976</td><td>0</td></tr><tr> 
+ <td>4</td><td>W </td><td>4</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#4">Lingineni,Khushal</td><td>3259056</td><td>VIC</td><td>1835</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="2"></a> N = 2<a href="http://ratings.fide.com/card.phtml?event=3205550" target="X"> Davis,Tony J </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
- <td>2</td><td> B</td><td>1</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#1">Paul,Cijo</td><td>2054515</td><td>VIC</td><td>1742</td><td>1</td></tr></tbody>
+ <td>1</td><td>W </td><td>5</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#5">Krishnan,Anirudh</td><td>3254925</td><td>VIC</td><td>1841</td><td>0</td></tr><tr> 
+ <td>2</td><td> B</td><td>1</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#1">Paul,Cijo</td><td>2054515</td><td>VIC</td><td>1742</td><td>1</td></tr><tr> 
+ <td>4</td><td>W </td><td>3</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#3">Hogg,Dean</td><td>3204332</td><td>VIC</td><td>1976</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="3"></a> N = 3<a href="http://ratings.fide.com/card.phtml?event=3204332" target="X"> Hogg,Dean </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
  <td>1</td><td>W </td><td>4</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#4">Lingineni,Khushal</td><td>3259056</td><td>VIC</td><td>1835</td><td>0</td></tr><tr> 
- <td>3</td><td>W </td><td>1</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#1">Paul,Cijo</td><td>2054515</td><td>VIC</td><td>1742</td><td>1</td></tr></tbody>
+ <td>3</td><td>W </td><td>1</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#1">Paul,Cijo</td><td>2054515</td><td>VIC</td><td>1742</td><td>1</td></tr><tr> 
+ <td>4</td><td> B</td><td>2</td><td><span class="title male"> CM</span> <a href="fideplayercard.php#2">Davis,Tony J</td><td>3205550</td><td>VIC</td><td>1819</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="4"></a> N = 4<a href="http://ratings.fide.com/card.phtml?event=3259056" target="X"> Lingineni,Khushal </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
  <td>1</td><td> B</td><td>3</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#3">Hogg,Dean</td><td>3204332</td><td>VIC</td><td>1976</td><td>1</td></tr><tr> 
- <td>3</td><td>W </td><td>5</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#5">Krishnan,Anirudh</td><td>3254925</td><td>VIC</td><td>1841</td><td>0.5</td></tr></tbody>
+ <td>3</td><td>W </td><td>5</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#5">Krishnan,Anirudh</td><td>3254925</td><td>VIC</td><td>1841</td><td>0.5</td></tr><tr> 
+ <td>4</td><td> B</td><td>1</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#1">Paul,Cijo</td><td>2054515</td><td>VIC</td><td>1742</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="5"></a> N = 5<a href="http://ratings.fide.com/card.phtml?event=3254925" target="X"> Krishnan,Anirudh </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
+ <td>1</td><td> B</td><td>2</td><td><span class="title male"> CM</span> <a href="fideplayercard.php#2">Davis,Tony J</td><td>3205550</td><td>VIC</td><td>1819</td><td>1</td></tr><tr> 
  <td>3</td><td> B</td><td>4</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#4">Lingineni,Khushal</td><td>3259056</td><td>VIC</td><td>1835</td><td>0.5</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 

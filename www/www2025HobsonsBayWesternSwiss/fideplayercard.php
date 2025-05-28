@@ -136,7 +136,7 @@
  <td>4</td><td>W </td><td>3</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#3">Annapureddy,Dhruthin Reddy</td><td>3239683</td><td>VIC</td><td>1543</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
-<caption> <a class="anchor" name="16"></a> N = 16<a href="http://ratings.fide.com/card.phtml?event=0" target="X"> Butler, Julian </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
+<caption> <a class="anchor" name="16"></a> N = 16<a href="http://ratings.fide.com/card.phtml?event=0" target="X"> Butler,Julian </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
  <td>4</td><td>W </td><td>14</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#14">Nicdao,Joseph</td><td>3267857</td><td>VIC</td><td>1440</td><td>0</td></tr></tbody>
 </table><br><br>

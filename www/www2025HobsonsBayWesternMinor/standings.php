@@ -38,6 +38,24 @@
  </tr></thead> <tbody>
 <tr> <td>1</td><td><div class="player-container" 
    <div class="left-box2">
+<a href="playercard.php#3"></a> 
+ <div class="player-name-box2">
+			<span>Wongso,Renaldo</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 3</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">1486</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/os.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td></td><td class="score"> 3.5</td><td>   4.75 </td><td>  1466  </td>
+</tr>
+<tr> <td>2</td><td><div class="player-container" 
+   <div class="left-box2">
 <a href="playercard.php#1"></a> 
  <div class="player-name-box2">
 			<span>Whitford,Matthew</span>
@@ -52,9 +70,9 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 3.0</td><td>   4.50 </td><td>  1424  </td>
+</td><td></td><td class="score"> 3.0</td><td>   5.50 </td><td>  1440  </td>
 </tr>
-<tr> <td>2</td><td><div class="player-container" 
+<tr> <td>3</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#6"></a> 
  <div class="player-name-box2">
@@ -70,25 +88,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 3.0</td><td>   1.50 </td><td>  1466  </td>
-</tr>
-<tr> <td>3</td><td><div class="player-container" 
-   <div class="left-box2">
-<a href="playercard.php#3"></a> 
- <div class="player-name-box2">
-			<span>Wongso,Renaldo</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 3</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1486</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/os.png" alt="flag"></div>
-		</div> 
-	</div> 
-</div>
-</td><td></td><td class="score"> 2.5</td><td>   0.75 </td><td>  1453  </td>
+</td><td></td><td class="score"> 3.0</td><td>   2.50 </td><td>  1466  </td>
 </tr>
 <tr> <td>4</td><td><div class="player-container" 
    <div class="left-box2">
@@ -106,7 +106,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.5</td><td>   1.25 </td><td>  1477  </td>
+</td><td></td><td class="score"> 1.5</td><td>   1.75 </td><td>  1477  </td>
 </tr>
 <tr> <td>5</td><td><div class="player-container" 
    <div class="left-box2">
@@ -124,7 +124,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 0.0</td><td>   0.00 </td><td>  1469  </td>
+</td><td></td><td class="score"> 1.0</td><td>   0.00 </td><td>  1477  </td>
 </tr>
 <tr> <td>6</td><td><div class="player-container" 
    <div class="left-box2">
@@ -142,7 +142,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 0.0</td><td>   0.00 </td><td>  1449  </td>
+</td><td></td><td class="score"> 0.0</td><td>   0.00 </td><td>  1440  </td>
 </tr>
 </tbody>
 <tfoot><tr><td colspan="5">Tie Break legend:<br>     SB  :  Sonneborn-Berger * <br>
