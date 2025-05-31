@@ -52,7 +52,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 3.5</td><td>   3.75 </td><td>  1765  </td>
+</td><td></td><td class="score"> 3.5</td><td>   4.75 </td><td>  1765  </td>
 </tr>
 <tr> <td>2</td><td><div class="player-container" 
    <div class="left-box2">
@@ -70,7 +70,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 2.0</td><td>   3.00 </td><td>  1651  </td>
+</td><td></td><td class="score"> 3.0</td><td>   4.50 </td><td>  1682  </td>
 </tr>
 <tr> <td>3</td><td><div class="player-container" 
    <div class="left-box2">
@@ -106,7 +106,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.5</td><td>   3.75 </td><td>  1671  </td>
+</td><td></td><td class="score"> 1.5</td><td>   3.75 </td><td>  1751  </td>
 </tr>
 <tr> <td>5</td><td><div class="player-container" 
    <div class="left-box2">
