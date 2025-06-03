@@ -52,7 +52,7 @@
 <td> 0.0</td> <td> 4.0</td>
 </tr> 
 <tr> <td>5</td> <td> B</td> <td>5</td> <td></td> <td> <a href="playercard.php#5"> Krishnan,Anirudh     </a>  <td>1774</td>
-<td> 0.0</td> <td> 3.5</td>
+<td> 1.0</td> <td> 2.5</td>
 </tr> 
 </tbody>
 </table><br>
@@ -63,10 +63,10 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>5</td> <td></td> <td> <a href="playercard.php#5"> Krishnan,Anirudh     </a>  <td>1774</td>
-<td> 0.0</td> <td> 3.5</td>
+<td> 0.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>1</td> <td></td> <td> <a href="playercard.php#1"> Paul,Cijo            </a>  <td>1611</td>
-<td> 1.0</td> <td> 1.0</td>
+<td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>3</td> <td>--</td> <td>6</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
@@ -88,10 +88,10 @@
 <td> 0.0</td> <td> 4.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>5</td> <td></td> <td> <a href="playercard.php#5"> Krishnan,Anirudh     </a>  <td>1774</td>
-<td> 1.0</td> <td> 3.5</td>
+<td> 1.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>1</td> <td></td> <td> <a href="playercard.php#1"> Paul,Cijo            </a>  <td>1611</td>
-<td> 1.0</td> <td> 1.0</td>
+<td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>2</td> <td>CM</td> <td> <a href="playercard.php#2"> Davis,Tony J         </a>  <td>1735</td>
 <td> 1.0</td> <td> 2.5</td>
@@ -112,10 +112,10 @@
 <tr> <td>2</td> <td>--</td> <td>6</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>5</td> <td></td> <td> <a href="playercard.php#5"> Krishnan,Anirudh     </a>  <td>1774</td>
-<td> 0.5</td> <td> 3.5</td>
+<td> 0.5</td> <td> 2.5</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>1</td> <td></td> <td> <a href="playercard.php#1"> Paul,Cijo            </a>  <td>1611</td>
-<td> 1.0</td> <td> 1.0</td>
+<td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>2</td> <td>CM</td> <td> <a href="playercard.php#2"> Davis,Tony J         </a>  <td>1735</td>
 <td> 0.5</td> <td> 2.5</td>
@@ -140,7 +140,7 @@
 <tr> <td>4</td> <td>--</td> <td>6</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>1</td> <td></td> <td> <a href="playercard.php#1"> Paul,Cijo            </a>  <td>1611</td>
-<td> 1.0</td> <td> 1.0</td>
+<td> 0.0</td> <td> 2.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -151,7 +151,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>1</td> <td></td> <td> <a href="playercard.php#1"> Paul,Cijo            </a>  <td>1611</td>
-<td> 0.0</td> <td> 1.0</td>
+<td> 0.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>2</td> <td>--</td> <td>4</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
