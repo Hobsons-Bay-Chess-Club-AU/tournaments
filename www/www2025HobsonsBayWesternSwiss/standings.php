@@ -32,7 +32,7 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Standings at round 4 </h3>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Standings at round 5 (last round)</h3>
 <div class="table-responsive"><table class="table table-striped"> 
 <thead><tr><th>Pos</th><th>Player</th><th>Origin</th><th>Pts</th> <th>     BH </th><th>  BH-C1 </th><th>     SB </th>
  </tr></thead> <tbody>
@@ -52,45 +52,9 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 4.0</td><td>    9.5 </td><td>    7.5 </td><td>   9.50 </td>
+</td><td></td><td class="score"> 5.0</td><td>   16.5 </td><td>   14.5 </td><td>  16.50 </td>
 </tr>
 <tr> <td>2</td><td><div class="player-container" 
-   <div class="left-box2">
-<a href="playercard.php#5"></a> 
- <div class="player-name-box2">
-			<span>Wilkinson,Greg</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 5</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1208</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-</div>
-</td><td></td><td class="score"> 3.0</td><td>   10.0 </td><td>    9.0 </td><td>   6.00 </td>
-</tr>
-<tr> <td>3</td><td><div class="player-container" 
-   <div class="left-box2">
-<a href="playercard.php#4"></a> 
- <div class="player-name-box2">
-			<span>Yang,Yifan</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 4</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1223</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-</div>
-</td><td></td><td class="score"> 3.0</td><td>    6.0 </td><td>    5.5 </td><td>   4.25 </td>
-</tr>
-<tr> <td>4</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#6"></a> 
  <div class="player-name-box2">
@@ -106,7 +70,43 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 2.5</td><td>    8.0 </td><td>    7.5 </td><td>   3.75 </td>
+</td><td></td><td class="score"> 3.5</td><td>   15.0 </td><td>   13.5 </td><td>   9.25 </td>
+</tr>
+<tr> <td>3</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#5"></a> 
+ <div class="player-name-box2">
+			<span>Wilkinson,Greg</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 5</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">1208</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td></td><td class="score"> 3.0</td><td>   14.5 </td><td>   13.5 </td><td>   6.00 </td>
+</tr>
+<tr> <td>4</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#10"></a> 
+ <div class="player-name-box2">
+			<span>Annadasu,Shreyansh</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 10</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">1020</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td></td><td class="score"> 3.0</td><td>   14.5 </td><td>   13.0 </td><td>   6.00 </td>
 </tr>
 <tr> <td>5</td><td><div class="player-container" 
    <div class="left-box2">
@@ -124,63 +124,9 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 2.5</td><td>    8.0 </td><td>    5.5 </td><td>   4.25 </td>
+</td><td></td><td class="score"> 3.0</td><td>   12.5 </td><td>    9.5 </td><td>   6.75 </td>
 </tr>
 <tr> <td>6</td><td><div class="player-container" 
-   <div class="left-box2">
-<a href="playercard.php#9"></a> 
- <div class="player-name-box2">
-			<span>Majety,Rohan</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 9</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1029</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-</div>
-</td><td></td><td class="score"> 2.0</td><td>   11.0 </td><td>    9.0 </td><td>   4.00 </td>
-</tr>
-<tr> <td>7</td><td><div class="player-container" 
-   <div class="left-box2">
-<a href="playercard.php#10"></a> 
- <div class="player-name-box2">
-			<span>Annadasu,Shreyansh</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 10</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1020</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-</div>
-</td><td></td><td class="score"> 2.0</td><td>    9.0 </td><td>    8.5 </td><td>   2.50 </td>
-</tr>
-<tr> <td>8</td><td><div class="player-container" 
-   <div class="left-box2">
-<a href="playercard.php#12"></a> 
- <div class="player-name-box2">
-			<span>Ramprasad, Nachiket</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 12</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1000</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
-		</div> 
-	</div> 
-</div>
-</td><td></td><td class="score"> 2.0</td><td>    9.0 </td><td>    7.0 </td><td>   4.00 </td>
-</tr>
-<tr> <td>9</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#7"></a> 
  <div class="player-name-box2">
@@ -196,27 +142,27 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 2.0</td><td>    8.5 </td><td>    6.5 </td><td>   4.00 </td>
+</td><td></td><td class="score"> 3.0</td><td>   12.5 </td><td>    9.5 </td><td>   6.50 </td>
 </tr>
-<tr> <td>10</td><td><div class="player-container" 
+<tr> <td>7</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#3"></a> 
+<a href="playercard.php#4"></a> 
  <div class="player-name-box2">
-			<span>Annapureddy,Dhruthin Reddy</span>
+			<span>Yang,Yifan</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 3</div> 
+			<div class="sort-num"> 4</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
-			<div class="rating">1364</div>
+			<div class="rating">1223</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 2.0</td><td>    7.0 </td><td>    6.0 </td><td>   3.00 </td>
+</td><td></td><td class="score"> 3.0</td><td>   12.0 </td><td>    9.0 </td><td>   6.25 </td>
 </tr>
-<tr> <td>11</td><td><div class="player-container" 
+<tr> <td>8</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#11"></a> 
  <div class="player-name-box2">
@@ -232,45 +178,63 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.5</td><td>    9.0 </td><td>    8.0 </td><td>   2.50 </td>
+</td><td></td><td class="score"> 2.5</td><td>   13.0 </td><td>   12.0 </td><td>   5.00 </td>
+</tr>
+<tr> <td>9</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#3"></a> 
+ <div class="player-name-box2">
+			<span>Annapureddy,Dhruthin Reddy</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 3</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">1364</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td></td><td class="score"> 2.5</td><td>   11.5 </td><td>   10.5 </td><td>   5.00 </td>
+</tr>
+<tr> <td>10</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#9"></a> 
+ <div class="player-name-box2">
+			<span>Majety,Rohan</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 9</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">1029</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td></td><td class="score"> 2.0</td><td>   15.5 </td><td>   13.5 </td><td>   4.50 </td>
+</tr>
+<tr> <td>11</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#12"></a> 
+ <div class="player-name-box2">
+			<span>Ramprasad, Nachiket</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 12</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">1000</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td></td><td class="score"> 2.0</td><td>   12.0 </td><td>   10.0 </td><td>   4.00 </td>
 </tr>
 <tr> <td>12</td><td><div class="player-container" 
-   <div class="left-box2">
-<a href="playercard.php#14"></a> 
- <div class="player-name-box2">
-			<span>Nicdao,Joseph</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 14</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">661</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-</div>
-</td><td></td><td class="score"> 1.5</td><td>    6.0 </td><td>    4.5 </td><td>   0.75 </td>
-</tr>
-<tr> <td>13</td><td><div class="player-container" 
-   <div class="left-box2">
-<a href="playercard.php#15"></a> 
- <div class="player-name-box2">
-			<span>Cox,Aiden</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 15</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">0</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-</div>
-</td><td></td><td class="score"> 1.0</td><td>    7.5 </td><td>    6.5 </td><td>   1.00 </td>
-</tr>
-<tr> <td>14</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#8"></a> 
  <div class="player-name-box2">
@@ -286,9 +250,9 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.0</td><td>    3.5 </td><td>    2.5 </td><td>   0.50 </td>
+</td><td></td><td class="score"> 2.0</td><td>    8.5 </td><td>    6.5 </td><td>   3.50 </td>
 </tr>
-<tr> <td>15</td><td><div class="player-container" 
+<tr> <td>13</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#13"></a> 
  <div class="player-name-box2">
@@ -304,7 +268,43 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 0.5</td><td>    8.5 </td><td>    7.5 </td><td>   1.25 </td>
+</td><td></td><td class="score"> 1.5</td><td>   12.5 </td><td>   11.5 </td><td>   2.75 </td>
+</tr>
+<tr> <td>14</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#14"></a> 
+ <div class="player-name-box2">
+			<span>Nicdao,Joseph</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 14</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">661</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td></td><td class="score"> 1.5</td><td>    9.0 </td><td>    7.5 </td><td>   0.75 </td>
+</tr>
+<tr> <td>15</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#15"></a> 
+ <div class="player-name-box2">
+			<span>Cox,Aiden</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 15</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">0</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td></td><td class="score"> 1.0</td><td>   11.5 </td><td>   10.0 </td><td>   2.00 </td>
 </tr>
 <tr> <td>16</td><td><div class="player-container" 
    <div class="left-box2">

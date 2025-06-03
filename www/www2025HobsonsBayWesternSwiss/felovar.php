@@ -32,38 +32,38 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4">  FIDE rating variation at round 4</h3>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4">  FIDE rating variation at round 5</h3>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead> <tr> <th>#</th> <th>Player</th> <th>FIDE ID</th> <th>Fed</th> <th>Rtg</th>  <th>Ng</th> <th>Pts</th> <th>ARO</th> <th>var</th> <th>Rp</th> </tr></thead><tbody><tr> 
 <td>1</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3214915" target="X">Nowak,Ruben</a></td> <td>3214915</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1630</td><td> 4</td> <td> 4.0</td> <td>1511</td> <td>28</td> <td>2311</td></tr>
 <tr> 
-<td>2</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3279324" target="X">Martin,Jamie R</a></td> <td>3279324</td> <td> <img class="shadow" src="flag/sa.png" alt="sa"> </td> <td>0</td><td> 2</td> <td> 2.0</td> <td>1431</td> <td>+0.00</td> <td>1471</td></tr>
+<td>2</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3279324" target="X">Martin,Jamie R</a></td> <td>3279324</td> <td> <img class="shadow" src="flag/sa.png" alt="sa"> </td> <td>0</td><td> 3</td> <td> 2.5</td> <td>1468</td> <td>+0.00</td> <td>1508</td></tr>
 <tr> 
 <td>3</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3239683" target="X">Annapureddy,Dhruthin Reddy</a></td> <td>3239683</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1543</td><td> 2</td> <td> 0.0</td> <td>1441</td> <td>-51</td> <td> 641</td></tr>
 <tr> 
 <td>4</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275272" target="X">Yang,Yifan</a></td> <td>3275272</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1570</td><td> 4</td> <td> 3.0</td> <td>1479</td> <td>20</td> <td>1672</td></tr>
 <tr> 
-<td>5</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3255689" target="X">Wilkinson,Greg</a></td> <td>3255689</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1524</td><td> 2</td> <td> 1.0</td> <td>1645</td> <td>6</td> <td>1645</td></tr>
+<td>5</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3255689" target="X">Wilkinson,Greg</a></td> <td>3255689</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1524</td><td> 3</td> <td> 1.0</td> <td>1642</td> <td>-1</td> <td>1517</td></tr>
 <tr> 
-<td>6</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3237796" target="X">Nawar,Mena</a></td> <td>3237796</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1636</td><td> 4</td> <td> 2.5</td> <td>1509</td> <td>-7</td> <td>1604</td></tr>
+<td>6</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3237796" target="X">Nawar,Mena</a></td> <td>3237796</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1636</td><td> 5</td> <td> 3.5</td> <td>1512</td> <td>7</td> <td>1661</td></tr>
 <tr> 
-<td>7</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275221" target="X">Ramanathan,Ashwin</a></td> <td>3275221</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1536</td><td> 2</td> <td> 1.5</td> <td>1505</td> <td>17</td> <td>1698</td></tr>
+<td>7</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275221" target="X">Ramanathan,Ashwin</a></td> <td>3275221</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1536</td><td> 3</td> <td> 2.5</td> <td>1479</td> <td>31</td> <td>1752</td></tr>
 <tr> 
 <td>8</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3234134" target="X">Clerk,Max</a></td> <td>3234134</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1480</td><td> 1</td> <td> 1.0</td> <td>1529</td> <td>11</td> <td>2329</td></tr>
 <tr> 
-<td>9</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3260062" target="X">Majety,Rohan</a></td> <td>3260062</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1428</td><td> 4</td> <td> 2.0</td> <td>1601</td> <td>36</td> <td>1601</td></tr>
+<td>9</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3260062" target="X">Majety,Rohan</a></td> <td>3260062</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1428</td><td> 5</td> <td> 2.0</td> <td>1588</td> <td>22</td> <td>1516</td></tr>
 <tr> 
-<td>10</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275779" target="X">Annadasu,Shreyansh</a></td> <td>3275779</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1454</td><td> 4</td> <td> 2.0</td> <td>1585</td> <td>28</td> <td>1585</td></tr>
+<td>10</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3275779" target="X">Annadasu,Shreyansh</a></td> <td>3275779</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1454</td><td> 5</td> <td> 3.0</td> <td>1600</td> <td>58</td> <td>1672</td></tr>
 <tr> 
 <td>11</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3227499" target="X">Kostakakis,Angelo</a></td> <td>3227499</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1422</td><td> 2</td> <td> 0.5</td> <td>1603</td> <td>-1</td> <td>1410</td></tr>
 <tr> 
-<td>12</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286371" target="X">Ramprasad, Nachiket</a></td> <td>3286371</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1660</td><td> 2</td> <td> 0.0</td> <td>1476</td> <td>-59</td> <td> 676</td></tr>
+<td>12</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286371" target="X">Ramprasad, Nachiket</a></td> <td>3286371</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1660</td><td> 3</td> <td> 0.0</td> <td>1469</td> <td>-89</td> <td> 669</td></tr>
 <tr> 
 <td>13</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3247910" target="X">Cox,Tyler</a></td> <td>3247910</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1529</td><td> 4</td> <td> 0.5</td> <td>1535</td> <td>-58</td> <td>1213</td></tr>
 <tr> 
 <td>14</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267857" target="X">Nicdao,Joseph</a></td> <td>3267857</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1440</td><td> 1</td> <td> 0.0</td> <td>1536</td> <td>-15</td> <td> 736</td></tr>
 <tr> 
-<td>15</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3247902" target="X">Cox,Aiden</a></td> <td>3247902</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 4</td> <td> 1.0</td> <td>1492</td> <td>+0.00</td> <td>1299</td></tr>
+<td>15</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3247902" target="X">Cox,Aiden</a></td> <td>3247902</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 5</td> <td> 1.0</td> <td>1500</td> <td>+0.00</td> <td>1260</td></tr>
 <tr> 
 <td>16</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=0" target="X">Butler,Julian</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1440</td> <td>+0.00</td> <td> 640</td></tr>
 </tbody>
