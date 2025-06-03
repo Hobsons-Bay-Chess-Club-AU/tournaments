@@ -60,7 +60,7 @@
 <h4>Pairing of round 4, at 17:30 of 20/05/2025</h4>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>Origin</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Origin</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#6"> Lacson,Joemar</a> </td><td>6</td> <td class="result"> adj </td><td>5</td><td class="name"> <a href="playercard.php#5"> Krishnan,Anirudh</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#6"> Lacson,Joemar</a> </td><td>6</td> <td class="result">0F-1F</td><td>5</td><td class="name"> <a href="playercard.php#5"> Krishnan,Anirudh</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 <tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#1"> Paul,Cijo</a> </td><td>1</td> <td class="result">0 - 1</td><td>4</td><td class="name"> <a href="playercard.php#4"> Lingineni,Khushal</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 <tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#2">CM Davis,Tony J</a> </td><td>2</td> <td class="result">0 - 1</td><td>3</td><td class="name"> <a href="playercard.php#3"> Hogg,Dean</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
@@ -68,9 +68,9 @@
 <h4>Pairing of round 5, at 17:30 of 03/06/2025</h4>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>Origin</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Origin</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#3"> Hogg,Dean</a> </td><td>3</td> <td class="result"> adj </td><td>6</td><td class="name"> <a href="playercard.php#6"> Lacson,Joemar</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#4"> Lingineni,Khushal</a> </td><td>4</td> <td class="result"> adj </td><td>2</td><td class="name"> <a href="playercard.php#2">CM Davis,Tony J</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#5"> Krishnan,Anirudh</a> </td><td>5</td> <td class="result"> adj </td><td>1</td><td class="name"> <a href="playercard.php#1"> Paul,Cijo</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#3"> Hogg,Dean</a> </td><td>3</td> <td class="result">1F-0F</td><td>6</td><td class="name"> <a href="playercard.php#6"> Lacson,Joemar</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#4"> Lingineni,Khushal</a> </td><td>4</td> <td class="result">½ - ½</td><td>2</td><td class="name"> <a href="playercard.php#2">CM Davis,Tony J</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#5"> Krishnan,Anirudh</a> </td><td>5</td> <td class="result">1 - 0</td><td>1</td><td class="name"> <a href="playercard.php#1"> Paul,Cijo</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
 		  </div>
