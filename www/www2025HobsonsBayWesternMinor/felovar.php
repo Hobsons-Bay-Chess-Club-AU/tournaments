@@ -35,17 +35,17 @@
   <div class="d-flex flex-column"><h3 class="mb-4 mt-4">  FIDE rating variation at round 5</h3>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead> <tr> <th>#</th> <th>Player</th> <th>FIDE ID</th> <th>Fed</th> <th>Rtg</th>  <th>Ng</th> <th>Pts</th> <th>ARO</th> <th>var</th> <th>Rp</th> </tr></thead><tbody><tr> 
-<td>1</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3232220" target="X">Whitford,Matthew</a></td> <td>3232220</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1692</td><td> 4</td> <td> 3.0</td> <td>1676</td> <td>18</td> <td>1869</td></tr>
+<td>1</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3232220" target="X">Whitford,Matthew</a></td> <td>3232220</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1692</td><td> 5</td> <td> 3.0</td> <td>1680</td> <td>8</td> <td>1752</td></tr>
 <tr> 
-<td>2</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3242838" target="X">Matijas,Dejan</a></td> <td>3242838</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1622</td><td> 4</td> <td> 1.0</td> <td>1695</td> <td>-12</td> <td>1502</td></tr>
+<td>2</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3242838" target="X">Matijas,Dejan</a></td> <td>3242838</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1622</td><td> 5</td> <td> 1.0</td> <td>1694</td> <td>-20</td> <td>1454</td></tr>
 <tr> 
-<td>3</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=7134827" target="X">Wongso,Renaldo</a></td> <td>7134827</td> <td> <img class="shadow" src="flag/os.png" alt="os"> </td> <td>1682</td><td> 4</td> <td> 3.5</td> <td>1676</td> <td>29</td> <td>2012</td></tr>
+<td>3</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=7134827" target="X">Wongso,Renaldo</a></td> <td>7134827</td> <td> <img class="shadow" src="flag/os.png" alt="os"> </td> <td>1682</td><td> 5</td> <td> 4.5</td> <td>1682</td> <td>40</td> <td>2048</td></tr>
 <tr> 
-<td>4</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3259021" target="X">Bodke,Krishna</a></td> <td>3259021</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1691</td><td> 4</td> <td> 1.5</td> <td>1695</td> <td>-19</td> <td>1608</td></tr>
+<td>4</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3259021" target="X">Bodke,Krishna</a></td> <td>3259021</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1691</td><td> 5</td> <td> 2.5</td> <td>1680</td> <td>-3</td> <td>1680</td></tr>
 <tr> 
-<td>5</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3259072" target="X">Picone,James</a></td> <td>3259072</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1697</td><td> 4</td> <td> 0.0</td> <td>1676</td> <td>-42</td> <td> 876</td></tr>
+<td>5</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3259072" target="X">Picone,James</a></td> <td>3259072</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1697</td><td> 5</td> <td> 1.0</td> <td>1679</td> <td>-33</td> <td>1439</td></tr>
 <tr> 
-<td>6</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267849" target="X">Nguyen,Anh Kiet</a></td> <td>3267849</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1707</td><td> 4</td> <td> 3.0</td> <td>1676</td> <td>33</td> <td>1869</td></tr>
+<td>6</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267849" target="X">Nguyen,Anh Kiet</a></td> <td>3267849</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1707</td><td> 5</td> <td> 3.0</td> <td>1677</td> <td>12</td> <td>1749</td></tr>
 </tbody>
 </table>
 </div>		  </div>
