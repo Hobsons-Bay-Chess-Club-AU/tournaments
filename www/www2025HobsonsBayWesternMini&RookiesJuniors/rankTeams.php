@@ -45,31 +45,31 @@
 <div class="table-responsive"><table class="table table-striped"> 
 <thead><tr><th> Pos </th> <th> Team Name </th><th>Points</th></tr></thead> <tbody>
 <tr>
-<td>1</td> <td></td> <td>13</td> </tr>
+<td>1</td> <td></td> <td>16</td> </tr>
 </tbody>
 </table>
 <h5 class="mb-4 mt-4"> Team composition</h5>
 <table class="table table-striped "> 
-<thead><tr><th>1</th> <th> </th><th>13</th></tr></thead><tbody> 
+<thead><tr><th>1</th> <th> </th><th>16</th></tr></thead><tbody> 
 <tr> <td>17</td> <td>Nema,Nivaan </td><td>4</td></tr> 
+<tr> <td>2</td> <td>Stefan Tham,Keanu </td><td>4</td></tr> 
+<tr> <td>6</td> <td>Yendru,Sriram </td><td>4</td></tr> 
+<tr> <td>18</td> <td>Vemula,Thamoghna </td><td>4</td></tr> 
 <tr> <td>5</td> <td>Guggilla,Krithvik </td><td>3</td></tr> 
-<tr> <td>2</td> <td>Stefan Tham,Keanu </td><td>3</td></tr> 
-<tr> <td>18</td> <td>Vemula,Thamoghna </td><td>3</td></tr> 
-<tr> <td>6</td> <td>Yendru,Sriram </td><td>3</td></tr> 
+<tr> <td>7</td> <td>Chan,Abby </td><td>3</td></tr> 
+<tr> <td>16</td> <td>Mukunth,Ganesh Kumar </td><td>3</td></tr> 
+<tr> <td>11</td> <td>Kaki,Vihas </td><td>3</td></tr> 
+<tr> <td>3</td> <td>Goh,Julian </td><td>3</td></tr> 
 <tr> <td>1</td> <td>Bodke,Aryan </td><td>2.5</td></tr> 
-<tr> <td>13</td> <td>Kantharaju,Aryan </td><td>2</td></tr> 
-<tr> <td>7</td> <td>Chan,Abby </td><td>2</td></tr> 
 <tr> <td>9</td> <td>Aryan,Srivatsav Yegnavajjula </td><td>2</td></tr> 
-<tr> <td>11</td> <td>Kaki,Vihas </td><td>2</td></tr> 
-<tr> <td>16</td> <td>Mukunth,Ganesh Kumar </td><td>2</td></tr> 
 <tr> <td>4</td> <td>Rawat,Pratyax Singh </td><td>2</td></tr> 
-<tr> <td>3</td> <td>Goh,Julian </td><td>2</td></tr> 
+<tr> <td>13</td> <td>Kantharaju,Aryan </td><td>2</td></tr> 
+<tr> <td>10</td> <td>Fang,Candice </td><td>2</td></tr> 
+<tr> <td>19</td> <td>Venkat,Nyra </td><td>1.5</td></tr> 
+<tr> <td>14</td> <td>Kelly,Jackson </td><td>1.5</td></tr> 
 <tr> <td>15</td> <td>Kwek,Alexander </td><td>1.5</td></tr> 
-<tr> <td>10</td> <td>Fang,Candice </td><td>1.5</td></tr> 
-<tr> <td>19</td> <td>Venkat,Nyra </td><td>1</td></tr> 
 <tr> <td>8</td> <td>Goh,Daphne </td><td>1</td></tr> 
-<tr> <td>14</td> <td>Kelly,Jackson </td><td>0.5</td></tr> 
-<tr> <td>12</td> <td>Kantharaju,Aarna </td><td>0</td></tr> 
+<tr> <td>12</td> <td>Kantharaju,Aarna </td><td>1</td></tr> 
 </tbody>
 </table>
 <h5 class="mb-4 mt-4"> Best boards</h5>
@@ -77,11 +77,11 @@
 <thead><tr><th>Board 0</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
 <tr> <td></td> <td>1 </td><td>Nema,Nivaan </td><td> </td><td>4</td></tr> 
 <thead><tr><th>Board 1</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Guggilla,Krithvik </td><td> </td><td>3</td></tr> 
+<tr> <td></td> <td>1 </td><td>Stefan Tham,Keanu </td><td> </td><td>4</td></tr> 
 <thead><tr><th>Board 2</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Stefan Tham,Keanu </td><td> </td><td>3</td></tr> 
+<tr> <td></td> <td>1 </td><td>Yendru,Sriram </td><td> </td><td>4</td></tr> 
 <thead><tr><th>Board 3</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Vemula,Thamoghna </td><td> </td><td>3</td></tr> 
+<tr> <td></td> <td>1 </td><td>Vemula,Thamoghna </td><td> </td><td>4</td></tr> 
 </tbody>
 </table></div>
 		  </div>
