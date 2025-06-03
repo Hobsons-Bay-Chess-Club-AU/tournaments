@@ -52,59 +52,72 @@
 <table class="table caption-top table-striped "> 
 <caption> Pairing</caption>
 <thead><tr><th>Bo.</th><th></th><th>White Player</th> <th>Pts</th><th>NW</th><th>Result</th><th>NB</th><th>Pts</th><th>Black Player</th><th></th></tr></thead><tbody>
+<tr>  <td>1</td><td></td><td class="name">  <a href="playercard.php#6">  Ashok,Arjun </a> </td><td>(3.0)</td><td>6</td>  <td class="result">1 - 0</td><td>5</td><td>(3.5)</td><td class="name"> <a href="playercard.php#5">  Veginati,Cherish </a></td><td></td></tr>
+<tr>  <td>2</td><td></td><td class="name">  <a href="playercard.php#16">  Balaji,Sai Sivesh </a> </td><td>(3.0)</td><td>16</td>  <td class="result">1 - 0</td><td>1</td><td>(3.0)</td><td class="name"> <a href="playercard.php#1">  Kirk,Ian </a></td><td></td></tr>
+<tr>  <td>3</td><td></td><td class="name">  <a href="playercard.php#12">  Batyrbekov,Kuanysh </a> </td><td>(2.5)</td><td>12</td>  <td class="result">½ - ½</td><td>21</td><td>(3.0)</td><td class="name"> <a href="playercard.php#21">  Jyothi Nikhil,Neev </a></td><td></td></tr>
+<tr>  <td>4</td><td></td><td class="name">  <a href="playercard.php#20">  Jagannathan,Shashvath </a> </td><td>(2.5)</td><td>20</td>  <td class="result">0 - 1</td><td>4</td><td>(2.5)</td><td class="name"> <a href="playercard.php#4">  Batyrbekov,Kaisar </a></td><td></td></tr>
+<tr>  <td>5</td><td></td><td class="name">  <a href="playercard.php#2">  Yendru,Srikrishna </a> </td><td>(2.0)</td><td>2</td>  <td class="result">0 - 1</td><td>18</td><td>(2.5)</td><td class="name"> <a href="playercard.php#18">  Huang,Michael </a></td><td></td></tr>
+<tr>  <td>6</td><td></td><td class="name">  <a href="playercard.php#8">  Nguyen,Tuan Kiet </a> </td><td>(2.0)</td><td>8</td>  <td class="result">0 - 1</td><td>11</td><td>(2.0)</td><td class="name"> <a href="playercard.php#11">  Karthick,Deepshika </a></td><td></td></tr>
+<tr>  <td>7</td><td></td><td class="name">  <a href="playercard.php#3">  Wei,Andrew </a> </td><td>(1.5)</td><td>3</td>  <td class="result">1 - 0</td><td>23</td><td>(1.5)</td><td class="name"> <a href="playercard.php#23">  Shaiek,Nihal </a></td><td></td></tr>
+<tr>  <td>8</td><td></td><td class="name">  <a href="playercard.php#7">  Batyrbekov,Aidan </a> </td><td>(1.5)</td><td>7</td>  <td class="result">1 - 0</td><td>22</td><td>(1.5)</td><td class="name"> <a href="playercard.php#22">  Morris,Elijah </a></td><td></td></tr>
+<tr>  <td>9</td><td></td><td class="name">  <a href="playercard.php#13">  Goh,Nicholas </a> </td><td>(1.0)</td><td>13</td>  <td class="result">0 - 1</td><td>9</td><td>(1.0)</td><td class="name"> <a href="playercard.php#9">  Ruaya,Rohan </a></td><td></td></tr>
+<tr>  <td>10</td><td></td><td class="name">  <a href="playercard.php#24">  Shinde,Yug </a> </td><td>(1.0)</td><td>24</td>  <td class="result">1 - 0</td><td>19</td><td>(1.0)</td><td class="name"> <a href="playercard.php#19">  Husain,Lamiah </a></td><td></td></tr>
+<tr>  <td>11</td><td></td><td class="name">  <a href="playercard.php#14">  Das,Ayush </a> </td><td>(0.0)</td><td>14</td>  <td class="result">1 - 0</td><td>17</td><td>(1.0)</td><td class="name"> <a href="playercard.php#17">  Balamurugan,Soorya </a></td><td></td></tr>
+<tr>  <td>12</td><td></td><td class="name">  <a href="playercard.php#15">  Ahmad,Ihtiram </a> </td><td>(4.0)</td><td>15</td>  <td class="result">0    </td><td>0</td><td>(0.0)</td><td class="name"> <a href="playercard.php#0">  BYE </a></td><td></td></tr>
+<tr>  <td>13</td><td></td><td class="name">  <a href="playercard.php#10">  Saha,Avinandan (Arjun) </a> </td><td>(0.5)</td><td>10</td>  <td class="result">0    </td><td>0</td><td>(0.0)</td><td class="name"> <a href="playercard.php#0">  BYE </a></td><td></td></tr>
 </tbody>
 </table>
 <table class="table caption-top table-striped "> 
 <caption> Standings</caption>
 <thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th>Rtg</th> <th>PRtg</th> <th>Fed</th><th>Origin</th><th>Pts</th> <th>     BH </th><th>  BH-C1 </th><th>     SB </th>
  </tr></thead> <tbody>
-<tr> <td>1</td> <td>15</td> <td>   </td> <td> <a href="playercard.php#15"> Ahmad,Ihtiram (W) </a></td> <td >   0</td> <td >1942</td><td ><img class="shadow" src="flag/os.png" alt="OS"></td> <td></td> <td class="score"> 4.0</td> <td>   11.0 </td><td>    9.0 </td><td>  11.00 </td>
+<tr> <td>1</td> <td>6</td> <td>   </td> <td> <a href="playercard.php#6"> Ashok,Arjun </a></td> <td > 795</td> <td >1527</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 4.0</td> <td>   17.0 </td><td>   15.5 </td><td>  12.50 </td>
 </tr> 
-<tr> <td>2</td> <td>5</td> <td>   </td> <td> <a href="playercard.php#5"> Veginati,Cherish </a></td> <td > 835</td> <td >1387</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 3.5</td> <td>    7.5 </td><td>    6.5 </td><td>   6.25 </td>
+<tr> <td>2</td> <td>15</td> <td>   </td> <td> <a href="playercard.php#15"> Ahmad,Ihtiram (W) </a></td> <td >   0</td> <td >1942</td><td ><img class="shadow" src="flag/os.png" alt="OS"></td> <td></td> <td class="score"> 4.0</td> <td>   17.0 </td><td>   13.0 </td><td>  13.00 </td>
 </tr> 
-<tr> <td>3</td> <td>6</td> <td>   </td> <td> <a href="playercard.php#6"> Ashok,Arjun </a></td> <td > 795</td> <td >1593</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 3.0</td> <td>   11.0 </td><td>    9.5 </td><td>   7.00 </td>
+<tr> <td>3</td> <td>16</td> <td>   </td> <td> <a href="playercard.php#16"> Balaji,Sai Sivesh </a></td> <td >   0</td> <td >1269</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 4.0</td> <td>   15.0 </td><td>   13.0 </td><td>  11.00 </td>
 </tr> 
-<tr> <td>4</td> <td>21</td> <td>   </td> <td> <a href="playercard.php#21"> Jyothi Nikhil,Neev </a></td> <td >   0</td> <td >1231</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 3.0</td> <td>    9.0 </td><td>    8.0 </td><td>   5.00 </td>
+<tr> <td>4</td> <td>21</td> <td>   </td> <td> <a href="playercard.php#21"> Jyothi Nikhil,Neev </a></td> <td >   0</td> <td >1102</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 3.5</td> <td>   14.5 </td><td>   12.5 </td><td>   8.50 </td>
 </tr> 
-<tr> <td>5</td> <td>16</td> <td>   </td> <td> <a href="playercard.php#16"> Balaji,Sai Sivesh </a></td> <td >   0</td> <td >1135</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 3.0</td> <td>    9.0 </td><td>    7.5 </td><td>   6.00 </td>
+<tr> <td>5</td> <td>18</td> <td>   </td> <td> <a href="playercard.php#18"> Huang,Michael </a></td> <td >   0</td> <td >1294</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 3.5</td> <td>   14.5 </td><td>   11.0 </td><td>   8.75 </td>
 </tr> 
-<tr> <td>6</td> <td>1</td> <td>   </td> <td> <a href="playercard.php#1"> Kirk,Ian </a></td> <td >1377</td> <td >1010</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 3.0</td> <td>    8.0 </td><td>    7.0 </td><td>   4.00 </td>
+<tr> <td>6</td> <td>4</td> <td>   </td> <td> <a href="playercard.php#4"> Batyrbekov,Kaisar </a></td> <td > 871</td> <td >1424</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 3.5</td> <td>   13.5 </td><td>   10.0 </td><td>   7.75 </td>
 </tr> 
-<tr> <td>7</td> <td>20</td> <td>   </td> <td> <a href="playercard.php#20"> Jagannathan,Shashvath </a></td> <td >   0</td> <td > 737</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.5</td> <td>   10.5 </td><td>    8.5 </td><td>   6.25 </td>
+<tr> <td>7</td> <td>5</td> <td>   </td> <td> <a href="playercard.php#5"> Veginati,Cherish </a></td> <td > 835</td> <td >1149</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 3.5</td> <td>   13.0 </td><td>   12.0 </td><td>   7.75 </td>
 </tr> 
-<tr> <td>8</td> <td>18</td> <td>   </td> <td> <a href="playercard.php#18"> Huang,Michael </a></td> <td >   0</td> <td >1098</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.5</td> <td>    9.5 </td><td>    7.0 </td><td>   5.25 </td>
+<tr> <td>8</td> <td>12</td> <td>   </td> <td> <a href="playercard.php#12"> Batyrbekov,Kuanysh </a></td> <td > 615</td> <td >1354</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 3.0</td> <td>   14.5 </td><td>   11.5 </td><td>   7.75 </td>
 </tr> 
-<tr> <td>9</td> <td>12</td> <td>   </td> <td> <a href="playercard.php#12"> Batyrbekov,Kuanysh </a></td> <td > 615</td> <td >1337</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.5</td> <td>    9.5 </td><td>    7.0 </td><td>   4.75 </td>
+<tr> <td>9</td> <td>1</td> <td>   </td> <td> <a href="playercard.php#1"> Kirk,Ian </a></td> <td >1377</td> <td >1006</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 3.0</td> <td>   13.5 </td><td>   12.5 </td><td>   5.00 </td>
 </tr> 
-<tr> <td>10</td> <td>4</td> <td>   </td> <td> <a href="playercard.php#4"> Batyrbekov,Kaisar </a></td> <td > 871</td> <td >1299</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.5</td> <td>    7.5 </td><td>    5.0 </td><td>   3.25 </td>
+<tr> <td>10</td> <td>11</td> <td>   </td> <td> <a href="playercard.php#11"> Karthick,Deepshika </a></td> <td > 712</td> <td >1178</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 3.0</td> <td>   11.0 </td><td>    8.0 </td><td>   4.50 </td>
 </tr> 
-<tr> <td>11</td> <td>2</td> <td>   </td> <td> <a href="playercard.php#2"> Yendru,Srikrishna </a></td> <td >1313</td> <td >1275</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.0</td> <td>    8.0 </td><td>    8.0 </td><td>   2.00 </td>
+<tr> <td>11</td> <td>20</td> <td>   </td> <td> <a href="playercard.php#20"> Jagannathan,Shashvath </a></td> <td >   0</td> <td > 684</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.5</td> <td>   14.5 </td><td>   12.5 </td><td>   6.25 </td>
 </tr> 
-<tr> <td>12</td> <td>11</td> <td>   </td> <td> <a href="playercard.php#11"> Karthick,Deepshika </a></td> <td > 712</td> <td >1185</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.0</td> <td>    7.5 </td><td>    5.5 </td><td>   2.50 </td>
+<tr> <td>12</td> <td>7</td> <td>   </td> <td> <a href="playercard.php#7"> Batyrbekov,Aidan </a></td> <td > 788</td> <td >1259</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.5</td> <td>   12.5 </td><td>   10.0 </td><td>   3.75 </td>
 </tr> 
-<tr> <td>13</td> <td>8</td> <td>   </td> <td> <a href="playercard.php#8"> Nguyen,Tuan Kiet </a></td> <td > 761</td> <td >1394</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.0</td> <td>    6.5 </td><td>    6.5 </td><td>   1.00 </td>
+<tr> <td>13</td> <td>3</td> <td>   </td> <td> <a href="playercard.php#3"> Wei,Andrew </a></td> <td > 997</td> <td >1495</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.5</td> <td>   11.0 </td><td>    8.5 </td><td>   3.25 </td>
 </tr> 
-<tr> <td>14</td> <td>7</td> <td>   </td> <td> <a href="playercard.php#7"> Batyrbekov,Aidan </a></td> <td > 788</td> <td >1087</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.5</td> <td>    9.0 </td><td>    7.5 </td><td>   1.75 </td>
+<tr> <td>14</td> <td>2</td> <td>   </td> <td> <a href="playercard.php#2"> Yendru,Srikrishna </a></td> <td >1313</td> <td >1207</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.0</td> <td>   14.0 </td><td>   13.0 </td><td>   3.00 </td>
 </tr> 
-<tr> <td>15</td> <td>22</td> <td>   </td> <td> <a href="playercard.php#22"> Morris,Elijah </a></td> <td >   0</td> <td > 892</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.5</td> <td>    8.5 </td><td>    7.5 </td><td>   2.00 </td>
+<tr> <td>15</td> <td>8</td> <td>   </td> <td> <a href="playercard.php#8"> Nguyen,Tuan Kiet </a></td> <td > 761</td> <td >1186</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.0</td> <td>   11.5 </td><td>   10.5 </td><td>   3.00 </td>
 </tr> 
-<tr> <td>16</td> <td>3</td> <td>   </td> <td> <a href="playercard.php#3"> Wei,Andrew </a></td> <td > 997</td> <td >1400</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.5</td> <td>    8.0 </td><td>    6.5 </td><td>   1.75 </td>
+<tr> <td>16</td> <td>9</td> <td>   </td> <td> <a href="playercard.php#9"> Ruaya,Rohan </a></td> <td > 727</td> <td >1139</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.0</td> <td>   11.0 </td><td>    9.0 </td><td>   2.50 </td>
 </tr> 
-<tr> <td>17</td> <td>23</td> <td>   </td> <td> <a href="playercard.php#23"> Shaiek,Nihal </a></td> <td >   0</td> <td > 973</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.5</td> <td>    4.0 </td><td>    4.0 </td><td>   0.50 </td>
+<tr> <td>17</td> <td>24</td> <td>   </td> <td> <a href="playercard.php#24"> Shinde,Yug </a></td> <td >   0</td> <td > 733</td><td ><img class="shadow" src="flag/os.png" alt="OS"></td> <td></td> <td class="score"> 2.0</td> <td>   10.5 </td><td>    9.5 </td><td>   2.00 </td>
 </tr> 
-<tr> <td>18</td> <td>9</td> <td>   </td> <td> <a href="playercard.php#9"> Ruaya,Rohan </a></td> <td > 727</td> <td >1267</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    8.5 </td><td>    7.5 </td><td>   1.50 </td>
+<tr> <td>18</td> <td>22</td> <td>   </td> <td> <a href="playercard.php#22"> Morris,Elijah </a></td> <td >   0</td> <td > 791</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.5</td> <td>   14.0 </td><td>   12.5 </td><td>   2.75 </td>
 </tr> 
-<tr> <td>19</td> <td>24</td> <td>   </td> <td> <a href="playercard.php#24"> Shinde,Yug </a></td> <td >   0</td> <td > 464</td><td ><img class="shadow" src="flag/os.png" alt="OS"></td> <td></td> <td class="score"> 1.0</td> <td>    8.0 </td><td>    7.0 </td><td>   1.00 </td>
+<tr> <td>19</td> <td>23</td> <td>   </td> <td> <a href="playercard.php#23"> Shaiek,Nihal </a></td> <td >   0</td> <td > 898</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.5</td> <td>    9.5 </td><td>    8.5 </td><td>   1.50 </td>
 </tr> 
-<tr> <td>20</td> <td>17</td> <td>   </td> <td> <a href="playercard.php#17"> Balamurugan,Soorya </a></td> <td >   0</td> <td > 925</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    7.0 </td><td>    6.0 </td><td>   1.25 </td>
+<tr> <td>20</td> <td>13</td> <td>   </td> <td> <a href="playercard.php#13"> Goh,Nicholas </a></td> <td > 380</td> <td > 883</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>   11.0 </td><td>   10.0 </td><td>   1.00 </td>
 </tr> 
-<tr> <td>21</td> <td>13</td> <td>   </td> <td> <a href="playercard.php#13"> Goh,Nicholas </a></td> <td > 380</td> <td >1029</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    7.0 </td><td>    6.0 </td><td>   1.00 </td>
+<tr> <td>21</td> <td>19</td> <td>   </td> <td> <a href="playercard.php#19"> Husain,Lamiah </a></td> <td >   0</td> <td > 753</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    9.0 </td><td>    8.0 </td><td>   1.00 </td>
 </tr> 
-<tr> <td>22</td> <td>19</td> <td>   </td> <td> <a href="playercard.php#19"> Husain,Lamiah </a></td> <td >   0</td> <td > 698</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    4.5 </td><td>    4.5 </td><td>   0.00 </td>
+<tr> <td>22</td> <td>17</td> <td>   </td> <td> <a href="playercard.php#17"> Balamurugan,Soorya </a></td> <td >   0</td> <td > 939</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    8.0 </td><td>    7.0 </td><td>   1.25 </td>
 </tr> 
-<tr> <td>23</td> <td>10</td> <td>   </td> <td> <a href="playercard.php#10"> Saha,Avinandan (Arjun) (W) </a></td> <td > 722</td> <td > 336</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.5</td> <td>    5.0 </td><td>    4.5 </td><td>   0.25 </td>
+<tr> <td>23</td> <td>14</td> <td>   </td> <td> <a href="playercard.php#14"> Das,Ayush </a></td> <td >   0</td> <td >1015</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    7.5 </td><td>    6.5 </td><td>   1.00 </td>
 </tr> 
-<tr> <td>24</td> <td>14</td> <td>   </td> <td> <a href="playercard.php#14"> Das,Ayush </a></td> <td >   0</td> <td > 419</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.0</td> <td>    6.5 </td><td>    5.5 </td><td>   0.00 </td>
+<tr> <td>24</td> <td>10</td> <td>   </td> <td> <a href="playercard.php#10"> Saha,Avinandan (Arjun) (W) </a></td> <td > 722</td> <td > 336</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.5</td> <td>    6.5 </td><td>    6.0 </td><td>   0.25 </td>
 </tr> 
 </tbody>
 </table><hr>
