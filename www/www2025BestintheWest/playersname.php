@@ -40,19 +40,25 @@
   <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players sorted by name</h3><div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>#</th><th>Player</th><th>Fed</th><th>Rtg</th><th>RtgF</th><th>RtgN</th></tr></thead><tbody>
 <tr> 
-<td><span class="idn"> 5</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3204685" target="X"> Brockman,Roland </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1248</td><td>1543</td><td>1248</td> </tr>
+<td><span class="idn"> 1</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3204685" target="X"> Brockman,Roland </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1257</td><td>1544</td><td>1257</td> </tr>
 <tr> 
-<td><span class="idn"> 4</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3264068" target="X"> Gurkan,Ahmet </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1425</td><td>1425</td><td>0</td> </tr>
+<td><span class="idn"> 2</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3264068" target="X"> Gurkan,Ahmet </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1712</td><td>1412</td><td>1712</td> </tr>
 <tr> 
-<td><span class="idn"> 1</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3201414" target="X"> Hogan,Steven </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1515</td><td>1669</td><td>1515</td> </tr>
+<td><span class="idn"> 3</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3227685" target="X"> Gurkan,Mehmet </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1072</td><td>1568</td><td>1072</td> </tr>
 <tr> 
-<td><span class="idn"> 3</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3211576" target="X"> Humphreys,Scott </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1471</td><td>1769</td><td>1471</td> </tr>
+<td><span class="idn"> 4</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3201414" target="X"> Hogan,Steven </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1485</td><td>1648</td><td>1485</td> </tr>
 <tr> 
-<td><span class="idn"> 7</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3266583" target="X"> Karthick,Deepshika </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>712</td><td>1411</td><td>712</td> </tr>
+<td><span class="idn"> 5</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3211576" target="X"> Humphreys,Scott </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1471</td><td>1769</td><td>1471</td> </tr>
 <tr> 
-<td><span class="idn"> 2</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3259072" target="X"> Picone,James </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1502</td><td>1703</td><td>1502</td> </tr>
+<td><span class="idn"> 6</span></td><td> <span class="notitle female"> </span> <a href="http://ratings.fide.com/card.phtml?event=3266583" target="X"> Karthick,Deepshika </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>711</td><td>0</td><td>711</td> </tr>
 <tr> 
-<td><span class="idn"> 6</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3255689" target="X"> Wilkinson,Greg </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1208</td><td>1517</td><td>1208</td> </tr>
+<td><span class="idn"> 7</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3255425" target="X"> Laffey,Julian </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>984</td><td>1448</td><td>984</td> </tr>
+<tr> 
+<td><span class="idn"> 8</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3259072" target="X"> Picone,James </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1464</td><td>1624</td><td>1464</td> </tr>
+<tr> 
+<td><span class="idn"> 9</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286380" target="X"> Shaiek,Nihal </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>648</td><td>1538</td><td>648</td> </tr>
+<tr> 
+<td><span class="idn"> 10</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3255689" target="X"> Wilkinson,Greg </a></td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1523</td><td>1528</td><td>1523</td> </tr>
 </tbody>
 <tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</tr></td></tfoot></table></div>
 		  </div>

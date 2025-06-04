@@ -31,7 +31,17 @@
   <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players sorted by rating and title</h3><div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>#</th><th>Player</th><th>Fed</th><th>Origin</th><th>Rtg</th><th>RtgF</th><th>RtgN</th></tr></thead><tbody>
 <tr> 
-<td><span class="idn"> 1</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3201414" target="X"> Hogan,Steven </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1515</td><td>0</td><td>1515</td> </tr>
+<td><span class="idn"> 1</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3204332" target="X"> Hogg,Dean </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1847</td><td>1946</td><td>1847</td> </tr>
+<tr> 
+<td><span class="idn"> 2</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3201414" target="X"> Hogan,Steven </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1485</td><td>1648</td><td>1485</td> </tr>
+<tr> 
+<td><span class="idn"> 3</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286371" target="X"> Ramprasad,Nachiket </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1205</td><td>1448</td><td>1205</td> </tr>
+<tr> 
+<td><span class="idn"> 4</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3255689" target="X"> Wilkinson,Greg </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1180</td><td>1528</td><td>1180</td> </tr>
+<tr> 
+<td><span class="idn"> 5</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3267857" target="X"> Nicdao,Joseph </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>653</td><td>1408</td><td>653</td> </tr>
+<tr> 
+<td><span class="idn"> 6</span></td><td> <span class="notitle male"> </span> Sheikh,Tahmid </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 </tbody>
 <tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</tr></td></tfoot></table></div>
 		  </div>
