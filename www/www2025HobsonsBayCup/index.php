@@ -33,27 +33,35 @@
 <tr> 
 <td><span class="idn"> 1</span></td><td><span class="notitle male"> </span></td><td> Hogg,Dean </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1847</td><td>1946</td><td>1847</td> </tr>
 <tr> 
-<td><span class="idn"> 2</span></td><td><span class="notitle male"> </span></td><td> Enano,Ronald </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1554</td><td>1741</td><td>1554</td> </tr>
+<td><span class="idn"> 2</span></td><td><span class="notitle male"> </span></td><td> Lingineni,Khushal </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1631</td><td>1810</td><td>1631</td> </tr>
 <tr> 
-<td><span class="idn"> 3</span></td><td><span class="notitle male"> </span></td><td> Hogan,Steven </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1485</td><td>1648</td><td>1485</td> </tr>
+<td><span class="idn"> 3</span></td><td><span class="notitle male"> </span></td><td> Enano,Ronald </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1554</td><td>1741</td><td>1554</td> </tr>
 <tr> 
-<td><span class="idn"> 4</span></td><td><span class="notitle male"> </span></td><td> Nowak,Ruben </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1467</td><td>1683</td><td>1467</td> </tr>
+<td><span class="idn"> 4</span></td><td><span class="notitle male"> </span></td><td> Nguyen,Anh Kiet </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1534</td><td>1881</td><td>1534</td> </tr>
 <tr> 
-<td><span class="idn"> 5</span></td><td><span class="notitle male"> </span></td><td> Yang,Yifan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1234</td><td>1598</td><td>1234</td> </tr>
+<td><span class="idn"> 5</span></td><td><span class="notitle male"> </span></td><td> Hogan,Steven </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1485</td><td>1648</td><td>1485</td> </tr>
 <tr> 
-<td><span class="idn"> 6</span></td><td><span class="notitle male"> </span></td><td> Ramprasad,Nachiket </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1205</td><td>1448</td><td>1205</td> </tr>
+<td><span class="idn"> 6</span></td><td><span class="notitle male"> </span></td><td> Nowak,Ruben </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1467</td><td>1683</td><td>1467</td> </tr>
 <tr> 
-<td><span class="idn"> 7</span></td><td><span class="notitle male"> </span></td><td> Wilkinson,Greg </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1180</td><td>1528</td><td>1180</td> </tr>
+<td><span class="idn"> 7</span></td><td><span class="notitle male"> </span></td><td> Picone,James </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1464</td><td>1624</td><td>1464</td> </tr>
 <tr> 
-<td><span class="idn"> 8</span></td><td><span class="notitle male"> </span></td><td> Veginati,Cherish </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>838</td><td>1445</td><td>838</td> </tr>
+<td><span class="idn"> 8</span></td><td><span class="notitle male"> </span></td><td> Annapureddy,Dhruthin Reddy </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1326</td><td>1469</td><td>1326</td> </tr>
 <tr> 
-<td><span class="idn"> 9</span></td><td><span class="notitle male"> </span></td><td> Singh,Abhyuday </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>801</td><td>1619</td><td>801</td> </tr>
+<td><span class="idn"> 9</span></td><td><span class="notitle male"> </span></td><td> Yang,Yifan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1234</td><td>1598</td><td>1234</td> </tr>
 <tr> 
-<td><span class="idn"> 10</span></td><td><span class="notitle male"> </span></td><td> Nicdao,Joseph </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>653</td><td>1408</td><td>653</td> </tr>
+<td><span class="idn"> 10</span></td><td><span class="notitle male"> </span></td><td> Ramprasad,Nachiket </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1205</td><td>1448</td><td>1205</td> </tr>
 <tr> 
-<td><span class="idn"> 11</span></td><td><span class="notitle male"> </span></td><td> Shaiek,Nihal </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>648</td><td>1538</td><td>648</td> </tr>
+<td><span class="idn"> 11</span></td><td><span class="notitle male"> </span></td><td> Wilkinson,Greg </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1180</td><td>1528</td><td>1180</td> </tr>
 <tr> 
-<td><span class="idn"> 12</span></td><td><span class="notitle male"> </span></td><td> Sheikh,Tahmid </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 12</span></td><td><span class="notitle male"> </span></td><td> Veginati,Cherish </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>838</td><td>1445</td><td>838</td> </tr>
+<tr> 
+<td><span class="idn"> 13</span></td><td><span class="notitle male"> </span></td><td> Singh,Abhyuday </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>801</td><td>1619</td><td>801</td> </tr>
+<tr> 
+<td><span class="idn"> 14</span></td><td><span class="notitle male"> </span></td><td> Nicdao,Joseph </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>653</td><td>1408</td><td>653</td> </tr>
+<tr> 
+<td><span class="idn"> 15</span></td><td><span class="notitle male"> </span></td><td> Shaiek,Nihal </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>648</td><td>1538</td><td>648</td> </tr>
+<tr> 
+<td><span class="idn"> 16</span></td><td><span class="notitle male"> </span></td><td> Sheikh,Tahmid </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 </tbody>
 <tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</td></tr></tfoot></table></div>
   <script type="text/javascript"> function init(){tsorter.create('players-table');} window.onload = init;</script>
