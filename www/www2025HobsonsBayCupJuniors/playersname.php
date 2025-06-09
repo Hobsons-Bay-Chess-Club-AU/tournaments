@@ -84,7 +84,7 @@
 <tr> 
 <td><span class="idn"> 22</span></td><td> <span class="notitle male"> </span> Sethi, Vivaan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 23</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=537082183" target="X"> Shinde, Yug </a></td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td>1488</td><td>1488</td><td>565</td> </tr>
+<td><span class="idn"> 23</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=537082183" target="X"> Shinde, Yug </a></td><td ><img class="shadow" src="flag/ind.png" alt="IND"></td><td>1488</td><td>1488</td><td>565</td> </tr>
 <tr> 
 <td><span class="idn"> 24</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3289974" target="X"> Spriggs, Harvey </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 

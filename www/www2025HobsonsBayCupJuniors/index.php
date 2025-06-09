@@ -54,7 +54,7 @@
 <tr> 
 <td><span class="idn"> 7</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3286258" target="X"> Balaji, Sai Sivesh </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1526</td><td>1526</td><td>886</td> </tr>
 <tr> 
-<td><span class="idn"> 8</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=537082183" target="X"> Shinde, Yug </a></td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td>1488</td><td>1488</td><td>565</td> </tr>
+<td><span class="idn"> 8</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=537082183" target="X"> Shinde, Yug </a></td><td ><img class="shadow" src="flag/ind.png" alt="IND"></td><td>1488</td><td>1488</td><td>565</td> </tr>
 <tr> 
 <td><span class="idn"> 9</span></td><td> <span class="notitle male"> </span> <a href="http://ratings.fide.com/card.phtml?event=3254917" target="X"> Goh, Nicholas </a></td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1467</td><td>1467</td><td>539</td> </tr>
 <tr> 
