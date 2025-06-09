@@ -47,11 +47,13 @@
 <tr> 
 <td><span class="idn"> 8</span></td><td><span class="notitle male"> </span></td><td> Veginati,Cherish </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>838</td><td>1445</td><td>838</td> </tr>
 <tr> 
-<td><span class="idn"> 9</span></td><td><span class="notitle male"> </span></td><td> Nicdao,Joseph </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>653</td><td>1408</td><td>653</td> </tr>
+<td><span class="idn"> 9</span></td><td><span class="notitle male"> </span></td><td> Singh,Abhyuday </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>801</td><td>1619</td><td>801</td> </tr>
 <tr> 
-<td><span class="idn"> 10</span></td><td><span class="notitle male"> </span></td><td> Shaiek,Nihal </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>648</td><td>1538</td><td>648</td> </tr>
+<td><span class="idn"> 10</span></td><td><span class="notitle male"> </span></td><td> Nicdao,Joseph </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>653</td><td>1408</td><td>653</td> </tr>
 <tr> 
-<td><span class="idn"> 11</span></td><td><span class="notitle male"> </span></td><td> Sheikh,Tahmid </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 11</span></td><td><span class="notitle male"> </span></td><td> Shaiek,Nihal </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>648</td><td>1538</td><td>648</td> </tr>
+<tr> 
+<td><span class="idn"> 12</span></td><td><span class="notitle male"> </span></td><td> Sheikh,Tahmid </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 </tbody>
 <tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</td></tr></tfoot></table></div>
   <script type="text/javascript"> function init(){tsorter.create('players-table');} window.onload = init;</script>
