@@ -49,11 +49,11 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1847</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td> </td></tr>
+</td><td class="score"> 0.0</td><td><div class="res"> ½ </div><div class="cf">BYE</div></tr>
 <tr> 
 <td> <span class="idn"> 2 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -67,7 +67,7 @@
  <div class="title2 male">CM</div>
 			</div>
 			<div class="rating">1774</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -85,7 +85,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1763</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -103,11 +103,11 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1631</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td> </td></tr>
+</td><td class="score"> 0.0</td><td><div class="res"> ½ </div><div class="cf">BYE</div></tr>
 <tr> 
 <td> <span class="idn"> 5 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -121,7 +121,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1554</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -139,11 +139,11 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1534</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td> </td></tr>
+</td><td class="score"> 0.0</td><td><div class="res">1</div><div class="cb">17  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 7 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -157,7 +157,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1518</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/os.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/ina.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -175,7 +175,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1513</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -193,11 +193,11 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1485</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td> </td></tr>
+</td><td class="score"> 0.0</td><td><div class="res"> ½ </div><div class="cf">BYE</div></tr>
 <tr> 
 <td> <span class="idn"> 10 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -211,7 +211,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1467</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -229,11 +229,11 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1464</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td> </td></tr>
+</td><td class="score"> 0.0</td><td><div class="res">1</div><div class="cb">25  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 12 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -247,11 +247,11 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1447</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td> </td></tr>
+</td><td class="score"> 0.0</td><td><div class="res">1</div><div class="cw">27  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 13 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -265,7 +265,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1407</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -283,7 +283,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1401</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -301,7 +301,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1326</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -319,7 +319,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1240</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -337,11 +337,11 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1234</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td> </td></tr>
+</td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">6   </div></td></tr>
 <tr> 
 <td> <span class="idn"> 18 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -355,7 +355,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1205</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -370,14 +370,14 @@
 		<div class="player-data-box">
 			<div class="sort-num"> 19</div> 
 			<div class="title-box"> 
- <div class="notitle2 female">-</div>
+ <div class="notitle2 male">-</div>
 			</div>
-			<div class="rating">1180</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="rating">1523</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td> </td></tr>
+</td><td class="score"> 0.0</td><td><div class="res"> ½ </div><div class="cf">BYE</div></tr>
 <tr> 
 <td> <span class="idn"> 20 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -391,11 +391,11 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1029</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td> </td></tr>
+</td><td class="score"> 0.0</td><td><div class="res"> ½ </div><div class="cf">BYE</div></tr>
 <tr> 
 <td> <span class="idn"> 21 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -409,7 +409,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1029</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -427,11 +427,11 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1025</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td> </td></tr>
+</td><td class="score"> 0.0</td><td><div class="res"> ½ </div><div class="cf">BYE</div></tr>
 <tr> 
 <td> <span class="idn"> 23 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -444,12 +444,12 @@
 			<div class="title-box"> 
  <div class="notitle2 female">-</div>
 			</div>
-			<div class="rating">857</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="rating">1756</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td> </td></tr>
+</td><td class="score"> 0.0</td><td><div class="res">1</div><div class="cb">30  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 24 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -463,7 +463,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">838</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -481,11 +481,11 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">801</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td> </td></tr>
+</td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">11  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 26 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -499,11 +499,11 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">653</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td> </td></tr>
+</td><td class="score"> 0.0</td><td><div class="res"> ½ </div><div class="cf">BYE</div></tr>
 <tr> 
 <td> <span class="idn"> 27 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -517,11 +517,11 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">648</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td> </td></tr>
+</td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">12  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 28 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -539,7 +539,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td> </td></tr>
+</td><td class="score"> 0.0</td><td><div class="res"> ½ </div><div class="cf">BYE</div></tr>
 <tr> 
 <td> <span class="idn"> 29 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -575,7 +575,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td> </td></tr>
+</td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">23  </div></td></tr>
 </tbody>
 </table>
 </DIV>
