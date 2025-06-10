@@ -42,7 +42,7 @@
 <tr> 
 <td><span class="idn"> 3</span></td><td><span class="notitle male"> </span></td><td> Krishnan,Anirudh </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1763</td><td>1844</td><td>1763</td> </tr>
 <tr> 
-<td><span class="idn"> 23</span></td><td><span class="notitle female"> </span></td><td> Ruaya,Rohan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1756</td><td>1466</td><td>1756</td> </tr>
+<td><span class="idn"> 23</span></td><td><span class="notitle male"> </span></td><td> Ruaya,Rohan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1756</td><td>1466</td><td>1756</td> </tr>
 <tr> 
 <td><span class="idn"> 4</span></td><td><span class="notitle male"> </span></td><td> Lingineni,Khushal </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1631</td><td>1810</td><td>1631</td> </tr>
 <tr> 
