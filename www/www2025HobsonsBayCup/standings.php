@@ -49,7 +49,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1847</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -67,7 +67,7 @@
  <div class="title2 male">CM</div>
 			</div>
 			<div class="rating">1774</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -85,7 +85,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1763</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -103,7 +103,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1631</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -121,7 +121,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1554</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -139,7 +139,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1534</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -157,7 +157,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1518</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/ina.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/os.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -175,7 +175,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1513</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -193,7 +193,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1485</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -211,7 +211,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1467</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -229,7 +229,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1464</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -265,7 +265,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1407</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -283,7 +283,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1401</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -301,7 +301,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1326</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -319,7 +319,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1240</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -337,7 +337,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1234</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -355,7 +355,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1205</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -373,7 +373,7 @@
  <div class="notitle2 female">-</div>
 			</div>
 			<div class="rating">1180</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -391,7 +391,7 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1029</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -437,15 +437,15 @@
    <div class="left-box2">
 <a href="playercard.php#23"></a> 
  <div class="player-name-box2">
-			<span>Veginati,Cherish</span>
+			<span>Ruaya,Rohan</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 23</div> 
 			<div class="title-box"> 
- <div class="notitle2 male">-</div>
+ <div class="notitle2 female">-</div>
 			</div>
-			<div class="rating">838</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="rating">857</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -455,15 +455,15 @@
    <div class="left-box2">
 <a href="playercard.php#24"></a> 
  <div class="player-name-box2">
-			<span>Singh,Abhyuday</span>
+			<span>Veginati,Cherish</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 24</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
-			<div class="rating">801</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="rating">838</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -473,15 +473,15 @@
    <div class="left-box2">
 <a href="playercard.php#25"></a> 
  <div class="player-name-box2">
-			<span>Nicdao,Joseph</span>
+			<span>Singh,Abhyuday</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 25</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
-			<div class="rating">653</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="rating">801</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -491,15 +491,15 @@
    <div class="left-box2">
 <a href="playercard.php#26"></a> 
  <div class="player-name-box2">
-			<span>Shaiek,Nihal</span>
+			<span>Nicdao,Joseph</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 26</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
-			<div class="rating">648</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="rating">653</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -509,14 +509,14 @@
    <div class="left-box2">
 <a href="playercard.php#27"></a> 
  <div class="player-name-box2">
-			<span>Cox,Aiden</span>
+			<span>Shaiek,Nihal</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 27</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
-			<div class="rating">0</div>
+			<div class="rating">648</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
@@ -527,7 +527,7 @@
    <div class="left-box2">
 <a href="playercard.php#28"></a> 
  <div class="player-name-box2">
-			<span>Sheikh,Tahmid</span>
+			<span>Butler,Julian</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 28</div> 
@@ -545,14 +545,14 @@
    <div class="left-box2">
 <a href="playercard.php#29"></a> 
  <div class="player-name-box2">
-			<span>Ruaya,Rohan</span>
+			<span>Cox,Aiden</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 29</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
-			<div class="rating">857</div>
+			<div class="rating">0</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
@@ -563,7 +563,7 @@
    <div class="left-box2">
 <a href="playercard.php#30"></a> 
  <div class="player-name-box2">
-			<span>Butler,Julian</span>
+			<span>Sheikh,Tahmid</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 30</div> 

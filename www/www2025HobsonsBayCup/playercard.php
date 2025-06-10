@@ -255,7 +255,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  23   <strong>Veginati,Cherish    </strong>, K= 0, Elo= 838, ID=3211466
+<caption>  23   <strong>Ruaya,Rohan         </strong>, K= 0, Elo= 857, ID=3203980
 <br>
 <a class="anchor" name="23"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -265,7 +265,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  24   <strong>Singh,Abhyuday      </strong>, K= 0, Elo= 801, ID=3204735
+<caption>  24   <strong>Veginati,Cherish    </strong>, K= 0, Elo= 838, ID=3211466
 <br>
 <a class="anchor" name="24"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -275,7 +275,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  25   <strong>Nicdao,Joseph       </strong>, K= 0, Elo= 653, ID=3207782
+<caption>  25   <strong>Singh,Abhyuday      </strong>, K= 0, Elo= 801, ID=3204735
 <br>
 <a class="anchor" name="25"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -285,7 +285,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  26   <strong>Shaiek,Nihal        </strong>, K= 0, Elo= 648, ID=3217011
+<caption>  26   <strong>Nicdao,Joseph       </strong>, K= 0, Elo= 653, ID=3207782
 <br>
 <a class="anchor" name="26"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -295,7 +295,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  27   <strong>Cox,Aiden           </strong>, K= 0, Elo=   0, ID=3197665
+<caption>  27   <strong>Shaiek,Nihal        </strong>, K= 0, Elo= 648, ID=3217011
 <br>
 <a class="anchor" name="27"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -305,7 +305,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  28   <strong>Sheikh,Tahmid       </strong>, K= 0, Elo=   0, ID=0
+<caption>  28   <strong>Butler,Julian       </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="28"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -315,7 +315,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  29   <strong>Ruaya,Rohan         </strong>, K= 0, Elo= 857, ID=3203980
+<caption>  29   <strong>Cox,Aiden           </strong>, K= 0, Elo=   0, ID=3197665
 <br>
 <a class="anchor" name="29"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -325,7 +325,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  30   <strong>Butler,Julian       </strong>, K= 0, Elo=   0, ID=0
+<caption>  30   <strong>Sheikh,Tahmid       </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="30"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
