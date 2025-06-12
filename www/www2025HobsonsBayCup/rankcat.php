@@ -57,22 +57,22 @@
 <td>3</td><td>6</td><td></td><td> <a href="playercard.php#6">Nguyen,Anh Kiet     </a> </td><td>1534</td><td>2034</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td>
 </tr> 
 <tr> 
-<td>4</td><td>7</td><td></td><td> <a href="playercard.php#7">Wongso,Renaldo      </a> </td><td>1518</td><td>2005</td><td ><img class="shadow" src="flag/ina.png" alt="INA"></td><td></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td>
+<td>4</td><td>8</td><td></td><td> <a href="playercard.php#8">Wongso,Renaldo      </a> </td><td>1518</td><td>2005</td><td ><img class="shadow" src="flag/ina.png" alt="INA"></td><td></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td>
 </tr> 
 <tr> 
-<td>5</td><td>8</td><td></td><td> <a href="playercard.php#8">Pasukov,Leo         </a> </td><td>1513</td><td>1829</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td>
+<td>5</td><td>9</td><td></td><td> <a href="playercard.php#9">Pasukov,Leo         </a> </td><td>1513</td><td>1829</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td>
 </tr> 
 <tr> 
-<td>6</td><td>11</td><td></td><td> <a href="playercard.php#11">Picone,James        </a> </td><td>1464</td><td>1601</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td>
+<td>6</td><td>12</td><td></td><td> <a href="playercard.php#12">Picone,James        </a> </td><td>1464</td><td>1601</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td>
 </tr> 
 <tr> 
-<td>7</td><td>12</td><td></td><td> <a href="playercard.php#12">Whitford,Matthew    </a> </td><td>1447</td><td>1448</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td>
+<td>7</td><td>13</td><td></td><td> <a href="playercard.php#13">Whitford,Matthew    </a> </td><td>1447</td><td>1448</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td>
 </tr> 
 <tr> 
-<td>8</td><td>13</td><td></td><td> <a href="playercard.php#13">Bodke,Krishna       </a> </td><td>1407</td><td>2200</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td>
+<td>8</td><td>14</td><td></td><td> <a href="playercard.php#14">Bodke,Krishna       </a> </td><td>1407</td><td>2200</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td>
 </tr> 
 <tr> 
-<td>9</td><td>23</td><td></td><td> <a href="playercard.php#23">Ruaya,Rohan         </a> </td><td>1756</td><td>2200</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td>
+<td>9</td><td>23</td><td></td><td> <a href="playercard.php#23">Ruaya,Rohan         </a> </td><td>857</td><td>2200</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td>
 </tr> 
 <tr> 
 <td>10</td><td>1</td><td></td><td> <a href="playercard.php#1">Hogg,Dean           </a> </td><td>1847</td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.5</td><td>    0.5 </td><td>    0.0 </td><td>    0.3 </td>
@@ -81,13 +81,13 @@
 <td>11</td><td>4</td><td></td><td> <a href="playercard.php#4">Lingineni,Khushal   </a> </td><td>1631</td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.5</td><td>    0.5 </td><td>    0.0 </td><td>    0.3 </td>
 </tr> 
 <tr> 
-<td>12</td><td>9</td><td></td><td> <a href="playercard.php#9">Hogan,Steven        </a> </td><td>1485</td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.5</td><td>    0.5 </td><td>    0.0 </td><td>    0.3 </td>
+<td>12</td><td>7</td><td></td><td> <a href="playercard.php#7">Wilkinson,Greg      </a> </td><td>1523</td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.5</td><td>    0.5 </td><td>    0.0 </td><td>    0.3 </td>
 </tr> 
 <tr> 
-<td>13</td><td>10</td><td></td><td> <a href="playercard.php#10">Nowak,Ruben         </a> </td><td>1467</td><td>838</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.5</td><td>    0.5 </td><td>    0.0 </td><td>    0.3 </td>
+<td>13</td><td>10</td><td></td><td> <a href="playercard.php#10">Hogan,Steven        </a> </td><td>1485</td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.5</td><td>    0.5 </td><td>    0.0 </td><td>    0.3 </td>
 </tr> 
 <tr> 
-<td>14</td><td>19</td><td></td><td> <a href="playercard.php#19">Wilkinson,Greg      </a> </td><td>1523</td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.5</td><td>    0.5 </td><td>    0.0 </td><td>    0.3 </td>
+<td>14</td><td>11</td><td></td><td> <a href="playercard.php#11">Nowak,Ruben         </a> </td><td>1467</td><td>838</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.5</td><td>    0.5 </td><td>    0.0 </td><td>    0.3 </td>
 </tr> 
 <tr> 
 <td>15</td><td>20</td><td></td><td> <a href="playercard.php#20">Annadasu,Shreyansh  </a> </td><td>1029</td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.5</td><td>    0.5 </td><td>    0.0 </td><td>    0.3 </td>
@@ -105,19 +105,19 @@
 <td>19</td><td>28</td><td></td><td> <a href="playercard.php#28">Butler,Julian       </a> </td><td>0</td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.5</td><td>    0.5 </td><td>    0.0 </td><td>    0.3 </td>
 </tr> 
 <tr> 
-<td>20</td><td>14</td><td></td><td> <a href="playercard.php#14">Matijas,Dejan       </a> </td><td>1401</td><td>974</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>    0.0 </td>
+<td>20</td><td>15</td><td></td><td> <a href="playercard.php#15">Matijas,Dejan       </a> </td><td>1401</td><td>974</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>    0.0 </td>
 </tr> 
 <tr> 
-<td>21</td><td>15</td><td></td><td> <a href="playercard.php#15">Annapureddy,Dhruthin</a> </td><td>1326</td><td>963</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>    0.0 </td>
+<td>21</td><td>16</td><td></td><td> <a href="playercard.php#16">Annapureddy,Dhruthin</a> </td><td>1326</td><td>963</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>    0.0 </td>
 </tr> 
 <tr> 
-<td>22</td><td>16</td><td></td><td> <a href="playercard.php#16">Nawar,Mena          </a> </td><td>1240</td><td>754</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>    0.0 </td>
+<td>22</td><td>17</td><td></td><td> <a href="playercard.php#17">Nawar,Mena          </a> </td><td>1240</td><td>754</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>    0.0 </td>
 </tr> 
 <tr> 
-<td>23</td><td>17</td><td></td><td> <a href="playercard.php#17">Yang,Yifan          </a> </td><td>1234</td><td>734</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>    0.0 </td>
+<td>23</td><td>18</td><td></td><td> <a href="playercard.php#18">Yang,Yifan          </a> </td><td>1234</td><td>734</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>    0.0 </td>
 </tr> 
 <tr> 
-<td>24</td><td>18</td><td></td><td> <a href="playercard.php#18">Ramprasad,Nachiket  </a> </td><td>1205</td><td>718</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>    0.0 </td>
+<td>24</td><td>19</td><td></td><td> <a href="playercard.php#19">Ramprasad,Nachiket  </a> </td><td>1205</td><td>718</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>    0.0 </td>
 </tr> 
 <tr> 
 <td>25</td><td>21</td><td></td><td> <a href="playercard.php#21">Cox,Tyler           </a> </td><td>1029</td><td>713</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>    0.0 </td>
@@ -132,7 +132,7 @@
 <td>28</td><td>29</td><td></td><td> <a href="playercard.php#29">Cox,Aiden           </a> </td><td>0</td><td>607</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>    0.0 </td>
 </tr> 
 <tr> 
-<td>29</td><td>30</td><td></td><td> <a href="playercard.php#30">Sheikh,Tahmid       </a> </td><td>0</td><td>956</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>    0.0 </td>
+<td>29</td><td>30</td><td></td><td> <a href="playercard.php#30">Sheikh,Tahmid       </a> </td><td>0</td><td>57</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.0</td><td>    1.0 </td><td>    0.0 </td><td>    0.0 </td>
 </tr> 
 </tbody>
 </table> <br><br>
