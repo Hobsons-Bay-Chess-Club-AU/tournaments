@@ -118,7 +118,7 @@
 <tr> 
 <td>36</td><td><span class="notitle male"> </span> <a href="playercard.php#31">Naidu, Aarush                 </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">12  </div></td><td><div class="res">0</div><div class="cb">25  </div></td><td> </td><td>    2.5 </td><td>    1.5 </td><td>    0.0 </td></tr>
 <tr> 
-<td>37</td><td><span class="notitle female"> </span> <a href="playercard.php#20">Bodke, Aryan                  </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">24  </div></td><td><div class="res">0</div><div class="cb">23  </div></td><td> </td><td>    2.0 </td><td>    1.0 </td><td>    0.0 </td></tr>
+<td>37</td><td><span class="notitle male"> </span> <a href="playercard.php#20">Bodke, Aryan                  </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">24  </div></td><td><div class="res">0</div><div class="cb">23  </div></td><td> </td><td>    2.0 </td><td>    1.0 </td><td>    0.0 </td></tr>
 <tr> 
 <td>38</td><td><span class="notitle male"> </span> <a href="playercard.php#35">Sethi, Vivaan                 </a> </td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">18  </div></td><td><div class="res">0</div><div class="cb">21  </div></td><td> </td><td>    2.0 </td><td>    1.0 </td><td>    0.0 </td></tr>
 <tr> 
