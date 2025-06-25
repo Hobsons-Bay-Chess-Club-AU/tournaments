@@ -67,11 +67,14 @@ function generateIndexFile(list) {
         console.log(files);
 
         const $ = cheerio.load(html);
-        var roundLink = files.pop();
         const td = $("td").toArray();
 
         const standings = readStanding(path.dirname(x));
-
+        let round = 0;
+        if (files.length) {
+          var roundLink = files.pop();
+          round = roundLink.match(/\d+/)?.[0];
+        }
         //console.log(x, standings);
         // if (x.includes("wwwPurdyCup2024")) throw new Error("aaa");
         return {
@@ -84,7 +87,7 @@ function generateIndexFile(list) {
           ts: +$(td[7]).text().trim().split("/").reverse().join(""),
           end: $(td[9]).text().trim(),
           year: $(td[9]).text().trim().split("/").pop(),
-          round: roundLink != null ? +roundLink.match(/\d+/)?.[0] : 1,
+          round,
           category: standings?.standings.find((x) => IsSeniorPlayer(x.NAME))
             ? "senior"
             : "junior",
