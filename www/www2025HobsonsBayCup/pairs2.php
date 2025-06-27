@@ -552,7 +552,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>0</td><td class="result">0 - 1</td><td>0</td><td><div class="player-container" 
+</td><td>0</td><td class="result">1 - 0</td><td>0</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#21"></a> 
  <div class="player-name-box2">

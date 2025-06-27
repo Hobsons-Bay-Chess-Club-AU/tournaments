@@ -354,7 +354,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>1</td><td class="result">1 - 0</td><td>0</td><td><div class="player-container" 
+</td><td>0</td><td class="result">1 - 0</td><td>0</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#29"></a> 
  <div class="player-name-box2">
@@ -453,7 +453,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>0</td><td class="result">1 - 0</td><td>1</td><td><div class="player-container" 
+</td><td>1</td><td class="result">1 - 0</td><td>1</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#18"></a> 
  <div class="player-name-box2">

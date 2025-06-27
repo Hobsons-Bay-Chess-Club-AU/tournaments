@@ -125,16 +125,16 @@
 </div>
 </td><td>2.5</td><td class="result"> ... </td><td>2</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#10"></a> 
+<a href="playercard.php#6"></a> 
  <div class="player-name-box2">
-			<span>Pasukov,Leo</span>
+			<span>McIntyre,Julian</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 10</div> 
+			<div class="sort-num"> 6</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
-			<div class="rating">1513</div>
+			<div class="rating">1543</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
@@ -158,16 +158,16 @@
 </div>
 </td><td>2</td><td class="result"> ... </td><td>2</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#21"></a> 
+<a href="playercard.php#10"></a> 
  <div class="player-name-box2">
-			<span>Clerk,Max</span>
+			<span>Pasukov,Leo</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 21</div> 
+			<div class="sort-num"> 10</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
-			<div class="rating">1060</div>
+			<div class="rating">1513</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
@@ -356,16 +356,16 @@
 </div>
 </td><td>1</td><td class="result"> ... </td><td>1</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#6"></a> 
+<a href="playercard.php#16"></a> 
  <div class="player-name-box2">
-			<span>McIntyre,Julian</span>
+			<span>Matijas,Dejan</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 6</div> 
+			<div class="sort-num"> 16</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
-			<div class="rating">1543</div>
+			<div class="rating">1401</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
@@ -389,16 +389,16 @@
 </div>
 </td><td>1</td><td class="result"> ... </td><td>1</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#16"></a> 
+<a href="playercard.php#21"></a> 
  <div class="player-name-box2">
-			<span>Matijas,Dejan</span>
+			<span>Clerk,Max</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 16</div> 
+			<div class="sort-num"> 21</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
-			<div class="rating">1401</div>
+			<div class="rating">1060</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 

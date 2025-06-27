@@ -136,7 +136,7 @@
 <tr> <td>1</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>21</td> <td></td> <td> <a href="playercard.php#21"> Clerk,Max            </a>  <td>1060</td>
-<td> 0.0</td> <td> 2.0</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>18</td> <td></td> <td> <a href="playercard.php#18"> Nawar,Mena           </a>  <td>1240</td>
 <td> 1.0</td> <td> 1.0</td>
@@ -362,7 +362,7 @@
 <td> 1.0</td> <td> 0.5</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>6</td> <td></td> <td> <a href="playercard.php#6"> McIntyre,Julian      </a>  <td>1543</td>
-<td> 0.0</td> <td> 1.0</td>
+<td> 0.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>4</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
@@ -415,7 +415,7 @@
 <tr> <td>1</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>6</td> <td></td> <td> <a href="playercard.php#6"> McIntyre,Julian      </a>  <td>1543</td>
-<td> 1.0</td> <td> 1.0</td>
+<td> 0.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>29</td> <td></td> <td> <a href="playercard.php#29"> Shaiek,Nihal         </a>  <td>648</td>
 <td> 1.0</td> <td> 0.0</td>
@@ -565,7 +565,7 @@
 <td> 0.0</td> <td> 1.5</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>21</td> <td></td> <td> <a href="playercard.php#21"> Clerk,Max            </a>  <td>1060</td>
-<td> 0.0</td> <td> 2.0</td>
+<td> 0.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>4</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 

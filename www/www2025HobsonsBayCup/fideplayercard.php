@@ -70,7 +70,7 @@
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="6"></a> N = 6<a href="http://ratings.fide.com/profile/3232182" target="X"> McIntyre,Julian </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
- <td>2</td><td>W </td><td>21</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#21">Clerk,Max</td><td>3234134</td><td>AUS</td><td>1481</td><td>0</td></tr><tr> 
+ <td>2</td><td>W </td><td>21</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#21">Clerk,Max</td><td>3234134</td><td>AUS</td><td>1481</td><td>1</td></tr><tr> 
  <td>3</td><td>W </td><td>18</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#18">Nawar,Mena</td><td>3237796</td><td>AUS</td><td>1676</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
@@ -166,7 +166,7 @@
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="21"></a> N = 21<a href="http://ratings.fide.com/profile/3234134" target="X"> Clerk,Max </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
- <td>2</td><td> B</td><td>6</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#6">McIntyre,Julian</td><td>3232182</td><td>AUS</td><td>1731</td><td>1</td></tr><tr> 
+ <td>2</td><td> B</td><td>6</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#6">McIntyre,Julian</td><td>3232182</td><td>AUS</td><td>1731</td><td>0</td></tr><tr> 
  <td>3</td><td>W </td><td>29</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#29">Shaiek,Nihal</td><td>3286380</td><td>AUS</td><td>1538</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
