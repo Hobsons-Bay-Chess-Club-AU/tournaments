@@ -59,45 +59,51 @@
 <tr> 
 <td><span class="idn"> 14</span></td><td><span class="notitle male"> </span></td><td> Huang,Michael </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>895</td><td>0</td><td>895</td> </tr>
 <tr> 
-<td><span class="idn"> 15</span></td><td><span class="notitle female"> </span></td><td> Santoso,Crystin </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>744</td><td>1453</td><td>744</td> </tr>
+<td><span class="idn"> 15</span></td><td><span class="notitle male"> </span></td><td> Cox,Tyler </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>838</td><td>0</td><td>838</td> </tr>
 <tr> 
-<td><span class="idn"> 16</span></td><td><span class="notitle male"> </span></td><td> Nguyen,Tuan Kiet </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>738</td><td>0</td><td>738</td> </tr>
+<td><span class="idn"> 16</span></td><td><span class="notitle female"> </span></td><td> Santoso,Crystin </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>744</td><td>1453</td><td>744</td> </tr>
 <tr> 
-<td><span class="idn"> 17</span></td><td><span class="notitle male"> </span></td><td> Shaiek,Nihal </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>582</td><td>0</td><td>582</td> </tr>
+<td><span class="idn"> 17</span></td><td><span class="notitle male"> </span></td><td> Nguyen,Tuan Kiet </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>738</td><td>0</td><td>738</td> </tr>
 <tr> 
-<td><span class="idn"> 18</span></td><td><span class="notitle male"> </span></td><td> Shinde,Yug </td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td></td><td>565</td><td>0</td><td>565</td> </tr>
+<td><span class="idn"> 18</span></td><td><span class="notitle male"> </span></td><td> Shaiek,Nihal </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>582</td><td>0</td><td>582</td> </tr>
 <tr> 
-<td><span class="idn"> 19</span></td><td><span class="notitle male"> </span></td><td> Singh,Abhyuday </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>479</td><td>0</td><td>479</td> </tr>
+<td><span class="idn"> 19</span></td><td><span class="notitle male"> </span></td><td> Shinde,Yug </td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td></td><td>565</td><td>0</td><td>565</td> </tr>
 <tr> 
-<td><span class="idn"> 20</span></td><td><span class="notitle male"> </span></td><td> Pathiyassery,Emir </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>415</td><td>0</td><td>415</td> </tr>
+<td><span class="idn"> 20</span></td><td><span class="notitle male"> </span></td><td> Singh,Abhyuday </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>479</td><td>0</td><td>479</td> </tr>
 <tr> 
-<td><span class="idn"> 21</span></td><td><span class="notitle male"> </span></td><td> Balamurugan,Soorya </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>411</td><td>1408</td><td>411</td> </tr>
+<td><span class="idn"> 21</span></td><td><span class="notitle male"> </span></td><td> Cox,Aiden </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>474</td><td>0</td><td>474</td> </tr>
 <tr> 
-<td><span class="idn"> 22</span></td><td><span class="notitle male"> </span></td><td> Yegnavajjula,Aryan Srivatsav </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>363</td><td>0</td><td>363</td> </tr>
+<td><span class="idn"> 22</span></td><td><span class="notitle male"> </span></td><td> Pathiyassery,Emir </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>415</td><td>0</td><td>415</td> </tr>
 <tr> 
-<td><span class="idn"> 23</span></td><td><span class="notitle male"> </span></td><td> Yendru,Sriram </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>245</td><td>0</td><td>245</td> </tr>
+<td><span class="idn"> 23</span></td><td><span class="notitle male"> </span></td><td> Balamurugan,Soorya </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>411</td><td>1408</td><td>411</td> </tr>
 <tr> 
-<td><span class="idn"> 24</span></td><td><span class="notitle male"> </span></td><td> Barar,Ridam </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 24</span></td><td><span class="notitle male"> </span></td><td> Yegnavajjula,Aryan Srivatsav </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>363</td><td>0</td><td>363</td> </tr>
 <tr> 
-<td><span class="idn"> 25</span></td><td><span class="notitle male"> </span></td><td> Garg,Arjun </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 25</span></td><td><span class="notitle male"> </span></td><td> Yendru,Sriram </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>245</td><td>0</td><td>245</td> </tr>
 <tr> 
-<td><span class="idn"> 26</span></td><td><span class="notitle male"> </span></td><td> Gould,Declan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 26</span></td><td><span class="notitle male"> </span></td><td> Barar,Ridam </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 27</span></td><td><span class="notitle male"> </span></td><td> Kantharaju,Aryan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 27</span></td><td><span class="notitle male"> </span></td><td> Garg,Arjun </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 28</span></td><td><span class="notitle female"> </span></td><td> Menezes,Angelica </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 28</span></td><td><span class="notitle male"> </span></td><td> Gould,Declan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 29</span></td><td><span class="notitle male"> </span></td><td> Nguyen,Lucas </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 29</span></td><td><span class="notitle male"> </span></td><td> Kantharaju,Aryan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 30</span></td><td><span class="notitle male"> </span></td><td> Paul,Vivaan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 30</span></td><td><span class="notitle female"> </span></td><td> Menezes,Angelica </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 31</span></td><td><span class="notitle male"> </span></td><td> Spriggs,Harvey </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 31</span></td><td><span class="notitle male"> </span></td><td> Nguyen,Lucas </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 32</span></td><td><span class="notitle male"> </span></td><td> Ung,Lawrence </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 32</span></td><td><span class="notitle male"> </span></td><td> Paul,Vivaan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 33</span></td><td><span class="notitle male"> </span></td><td> Vemula,Thamoghna </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 33</span></td><td><span class="notitle male"> </span></td><td> Sheikh,Tahmid </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 34</span></td><td><span class="notitle male"> </span></td><td> Yegnavajjula,Venkata </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 34</span></td><td><span class="notitle male"> </span></td><td> Spriggs,Harvey </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 35</span></td><td><span class="notitle male"> </span></td><td> Ung,Lawrence </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 36</span></td><td><span class="notitle male"> </span></td><td> Vemula,Thamoghna </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 37</span></td><td><span class="notitle male"> </span></td><td> Yegnavajjula,Venkata </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 </tbody>
 <tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</td></tr></tfoot></table></div>
   <script type="text/javascript"> function init(){tsorter.create('players-table');} window.onload = init;</script>
