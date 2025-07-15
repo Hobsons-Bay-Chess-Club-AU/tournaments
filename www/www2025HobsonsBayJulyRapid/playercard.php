@@ -230,7 +230,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  26   <strong>Kantharaju,Aryan    </strong>, K= 0, Elo=   0, ID=3212096
+<caption>  26   <strong>Menezes,Angelica    </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="26"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -238,7 +238,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  27   <strong>Menezes,Angelica    </strong>, K= 0, Elo=   0, ID=0
+<caption>  27   <strong>Nguyen,Lucas        </strong>, K= 0, Elo=   0, ID=3218621
 <br>
 <a class="anchor" name="27"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -246,7 +246,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  28   <strong>Nguyen,Lucas        </strong>, K= 0, Elo=   0, ID=3218621
+<caption>  28   <strong>Paul,Vivaan         </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="28"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -254,7 +254,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  29   <strong>Paul,Vivaan         </strong>, K= 0, Elo=   0, ID=0
+<caption>  29   <strong>Spriggs,Harvey      </strong>, K= 0, Elo=   0, ID=3217545
 <br>
 <a class="anchor" name="29"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -262,7 +262,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  30   <strong>Spriggs,Harvey      </strong>, K= 0, Elo=   0, ID=3217545
+<caption>  30   <strong>Ung,Lawrence        </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="30"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -270,7 +270,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  31   <strong>Ung,Lawrence        </strong>, K= 0, Elo=   0, ID=0
+<caption>  31   <strong>Vemula,Thamoghna    </strong>, K= 0, Elo=   0, ID=3218676
 <br>
 <a class="anchor" name="31"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -278,17 +278,9 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  32   <strong>Vemula,Thamoghna    </strong>, K= 0, Elo=   0, ID=3218676
+<caption>  32   <strong>Yegnavajjula,Venkata</strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="32"></a></caption>
-<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
-</tr> </thead><tbody>
-</tbody>
-</table><br>
-<table class="table caption-top table-striped "> 
-<caption>  33   <strong>Yegnavajjula,Venkata</strong>, K= 0, Elo=   0, ID=0
-<br>
-<a class="anchor" name="33"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 </tbody>
