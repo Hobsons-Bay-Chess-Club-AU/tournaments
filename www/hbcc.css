@@ -3,3 +3,34 @@
         display: none;
     }
 }
+
+.custom-snackbar {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: rgba(40,40,40,0.95);
+  color: #fff;
+  padding: 14px 28px 18px 28px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  font-size: 1.1em;
+  z-index: 9999;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.4s, transform 0.4s;
+  pointer-events: none;
+}
+.custom-snackbar.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.custom-snackbar-loader {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  background: #4caf50;
+  border-radius: 0 0 8px 8px;
+  width: 100%;
+  transition: width 5s linear;
+}
