@@ -42,6 +42,11 @@ async function fetchAndWriteHtml(filePath, retry = 1) {
                 `<script src="../scripts/ratinggroup.js"></script>`
             );
         }
+
+        $("head").append(
+            `<script src="../scripts/table.js"></script>`
+        );
+
         fs.writeFileSync(htmlFilePath, $.html());
         console.log(`Successful mirror ${pathUrl} => ${htmlFilePath}`);
     } catch (error) {
