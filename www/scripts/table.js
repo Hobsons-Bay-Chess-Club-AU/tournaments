@@ -20,7 +20,27 @@ $(document).ready(function () {
             $(this).find("tbody tr").each(function () {
                 const row = [];
                 $(this).find("td").each(function () {
-                    row.push($(this).text().trim());
+                    let cellText = $(this).text().trim();
+                    const playerDiv = $(this).find('.player-container');
+                    if (playerDiv.length) {
+                        // Extract player name
+                        let name = playerDiv.find('.player-name-box2 span').text().trim();
+                        // Extract rating
+                        let rating = playerDiv.find('.rating').text().trim();
+                        // Extract federation (country)
+                        let fedImg = playerDiv.find('.fed img');
+                        let country = '';
+                        if (fedImg.length) {
+                            country = fedImg.attr('alt') || '';
+                        }
+                        // Format: Name (Rating, Country)
+                        cellText = name + " - (" + rating + ")";
+
+                        // if (rating) cellText += ` (${rating}`;
+                        // if (country) cellText += `, ${country}`;
+                        // if (rating) cellText += ')';
+                    }
+                    row.push(cellText);
                 });
                 rows.push(row);
             });
@@ -53,19 +73,19 @@ $(document).ready(function () {
         snackbar.appendChild(loader);
         document.body.appendChild(snackbar);
         // Trigger animation
-        setTimeout(function() {
+        setTimeout(function () {
             snackbar.classList.add('show');
         }, 10);
         // Animate loader bar
         loader.style.width = '100%';
         loader.style.transition = 'width 5s linear';
-        setTimeout(function() {
+        setTimeout(function () {
             loader.style.width = '0%';
         }, 20);
         // Hide after 5s
-        setTimeout(function() {
+        setTimeout(function () {
             snackbar.classList.remove('show');
-            setTimeout(function() {
+            setTimeout(function () {
                 if (snackbar.parentNode) snackbar.parentNode.removeChild(snackbar);
             }, 500);
         }, 5000);
