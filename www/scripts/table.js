@@ -63,6 +63,31 @@ $(document).ready(function () {
         textArea.select();
         document.execCommand("copy");
         document.body.removeChild(textArea);
-        alert("Copied to clipboard!");
+        // Snackbar notification with animation and loader bar
+        let snackbar = document.createElement('div');
+        snackbar.innerText = "Copied table as text to clipboard!";
+        snackbar.className = 'custom-snackbar';
+        // Loader bar
+        let loader = document.createElement('div');
+        loader.className = 'custom-snackbar-loader';
+        snackbar.appendChild(loader);
+        document.body.appendChild(snackbar);
+        // Trigger animation
+        setTimeout(function () {
+            snackbar.classList.add('show');
+        }, 10);
+        // Animate loader bar
+        loader.style.width = '100%';
+        loader.style.transition = 'width 5s linear';
+        setTimeout(function () {
+            loader.style.width = '0%';
+        }, 20);
+        // Hide after 5s
+        setTimeout(function () {
+            snackbar.classList.remove('show');
+            setTimeout(function () {
+                if (snackbar.parentNode) snackbar.parentNode.removeChild(snackbar);
+            }, 500);
+        }, 5000);
     })
 });
