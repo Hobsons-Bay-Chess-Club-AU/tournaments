@@ -33,6 +33,7 @@ $(document).ready(function () {
                             country = fedImg.attr('alt') || '';
                         }
                         // Format: Name (Rating, Country)
+                        cellText = `${name} (${rating})`;
 
                     } else if ($(this).find('.res').length && $(this).find('.cb').length) {
                         // Handle result/cb cell
