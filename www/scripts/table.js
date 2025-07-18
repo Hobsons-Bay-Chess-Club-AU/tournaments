@@ -6,7 +6,6 @@ $(document).ready(function () {
     $("#cccode").click(function () {
         const tablesText = [];
         $("table").each(function () {
-            // Collect all rows (header + body) as arrays of cell strings
             const rows = [];
             // Get headers
             const headers = [];
@@ -34,11 +33,12 @@ $(document).ready(function () {
                             country = fedImg.attr('alt') || '';
                         }
                         // Format: Name (Rating, Country)
-                        cellText = name + " - (" + rating + ")";
 
-                        // if (rating) cellText += ` (${rating}`;
-                        // if (country) cellText += `, ${country}`;
-                        // if (rating) cellText += ')';
+                    } else if ($(this).find('.res').length && $(this).find('.cb').length) {
+                        // Handle result/cb cell
+                        let res = $(this).find('.res').text().trim();
+                        let cb = $(this).find('.cb').text().trim();
+                        cellText = `${res} <-> ${cb}`;
                     }
                     row.push(cellText);
                 });
@@ -63,31 +63,6 @@ $(document).ready(function () {
         textArea.select();
         document.execCommand("copy");
         document.body.removeChild(textArea);
-        // Snackbar notification with animation and loader bar
-        let snackbar = document.createElement('div');
-        snackbar.innerText = "Copied table as text to clipboard!";
-        snackbar.className = 'custom-snackbar';
-        // Loader bar
-        let loader = document.createElement('div');
-        loader.className = 'custom-snackbar-loader';
-        snackbar.appendChild(loader);
-        document.body.appendChild(snackbar);
-        // Trigger animation
-        setTimeout(function () {
-            snackbar.classList.add('show');
-        }, 10);
-        // Animate loader bar
-        loader.style.width = '100%';
-        loader.style.transition = 'width 5s linear';
-        setTimeout(function () {
-            loader.style.width = '0%';
-        }, 20);
-        // Hide after 5s
-        setTimeout(function () {
-            snackbar.classList.remove('show');
-            setTimeout(function () {
-                if (snackbar.parentNode) snackbar.parentNode.removeChild(snackbar);
-            }, 500);
-        }, 5000);
-    });
+        alert("Copied to clipboard!");
+    })
 });
