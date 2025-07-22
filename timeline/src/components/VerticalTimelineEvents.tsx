@@ -62,7 +62,7 @@ export default function VerticalTimelineEvents({ events }: { events: TimelineEve
     if (filterYear) {
         filteredEvents = filteredEvents.filter((ev: TimelineEvent) => ev.year === filterYear);
     }
-
+    const origin = window.location.origin;
     return (
         <div>
             <div className="mb-4 flex gap-2 flex-wrap">
@@ -147,7 +147,7 @@ export default function VerticalTimelineEvents({ events }: { events: TimelineEve
                                 </div>
                                 <div className="flex justify-end mt-2">
                                     <a
-                                        href={`../${event.url}`}
+                                        href={`${origin}/${event.url}`}
                                         className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-semibold border border-blue-600 bg-white text-blue-600 hover:bg-blue-50 transition-colors shadow-sm"
                                         target="_blank"
                                         rel="noopener noreferrer"
