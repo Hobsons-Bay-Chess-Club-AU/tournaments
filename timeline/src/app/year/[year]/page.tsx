@@ -8,7 +8,7 @@ const VerticalTimelineEvents = dynamic(() => import('../../../components/Vertica
 export default function YearTimelinePage() {
     const params = useParams();
     const year = typeof params.year === 'string' ? params.year : Array.isArray(params.year) ? params.year[0] : '';
-    const events = useTournamentData('./data.json', year);
+    const events = useTournamentData('../data.json', year);
 
     return (
         <div className="font-sans min-h-screen p-8 pb-20">
