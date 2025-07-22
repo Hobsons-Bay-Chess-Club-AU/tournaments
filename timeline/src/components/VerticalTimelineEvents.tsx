@@ -147,7 +147,7 @@ export default function VerticalTimelineEvents({ events }: { events: TimelineEve
                                 </div>
                                 <div className="flex justify-end mt-2">
                                     <a
-                                        href={event.url}
+                                        href={`../${event.url}`}
                                         className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-semibold border border-blue-600 bg-white text-blue-600 hover:bg-blue-50 transition-colors shadow-sm"
                                         target="_blank"
                                         rel="noopener noreferrer"
