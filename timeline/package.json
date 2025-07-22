@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:export": "NEXT_PUBLIC_EXPORT_STATIC=true next build"
   },
   "dependencies": {
     "next": "15.4.2",

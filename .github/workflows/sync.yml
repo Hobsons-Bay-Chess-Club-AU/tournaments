@@ -100,7 +100,6 @@ jobs:
           cd timeline
           npm install
           npm run build
-          npm run export
           cd ..
         env:
           NEXT_PUBLIC_BASE_PATH: "/timeline"

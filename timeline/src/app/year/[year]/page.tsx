@@ -1,19 +1,20 @@
-"use client";
-import dynamic from 'next/dynamic';
-import { useParams } from 'next/navigation';
-import useTournamentData from '../../../hooks/useTournamentData';
 
-const VerticalTimelineEvents = dynamic(() => import('../../../components/VerticalTimelineEvents'), { ssr: false });
 
-export default function YearTimelinePage() {
-    const params = useParams();
-    const year = typeof params.year === 'string' ? params.year : Array.isArray(params.year) ? params.year[0] : '';
-    const events = useTournamentData('../data.json', year);
 
-    return (
-        <div className="font-sans min-h-screen p-8 pb-20">
-            <h1 className="text-2xl font-bold mb-8 text-center" >Tournament Timeline {year}</h1>
-            <VerticalTimelineEvents events={events} />
-        </div>
-    );
+import YearTimelineClient from './YearTimelineClient';
+
+export default async function YearTimelinePage({ params }: { params: Promise<{ year: string }> }) {
+    const { year } = await params;
+
+    const yearValue = typeof year === 'string' ? year : Array.isArray(year) ? year[0] : '';
+    return <YearTimelineClient year={yearValue} />;
+}
+
+export function generateStaticParams() {
+    const currentYear = new Date().getFullYear();
+    const years = [];
+    for (let y = currentYear; y >= 2022; y--) {
+        years.push({ year: y.toString() });
+    }
+    return years;
 }
