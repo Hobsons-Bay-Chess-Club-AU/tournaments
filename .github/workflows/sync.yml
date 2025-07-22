@@ -87,11 +87,30 @@ jobs:
           node src/update-html.mjs
           docker compose down
 
+
       - name: run Sync.mjs
         if: steps.check_change_id.outputs.skip_steps != 'true'
         run: |
           sudo chown -R $(whoami) ./www
           node src/sync.mjs
+
+      - name: Build Timeline App
+        if: steps.check_change_id.outputs.skip_steps != 'true'
+        run: |
+          cd timeline
+          npm install
+          npm run build
+          npm run export
+          cd ..
+        env:
+          NEXT_PUBLIC_BASE_PATH: "/timeline"
+          NEXT_PUBLIC_EXPORT_STATIC: "true"
+
+      - name: Copy Timeline Output
+        if: steps.check_change_id.outputs.skip_steps != 'true'
+        run: |
+          rm -rf www/timeline
+          cp -r timeline/out www/timeline
 
       - name: Replace PHP links with HTML links
         if: steps.check_change_id.outputs.skip_steps != 'true'

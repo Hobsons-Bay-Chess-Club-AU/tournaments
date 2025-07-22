@@ -145,6 +145,8 @@ function generateIndexFile(list) {
   // })
   uniqueList.sort((a, b) => b.ts - a.ts);
 
+  fs.writeFileSync("./timeline/public/data.json", JSON.stringify(uniqueList, null, 2));
+
   const juniors = uniqueList.filter((x) => x.category == "junior");
   const seniors = uniqueList.filter((x) => x.category === "senior");
 
@@ -177,6 +179,7 @@ function generateIndexFile(list) {
     item.seniors.push(t);
     passTournaments[t.year] = item;
   }
+
 
   fs.writeFileSync(
     "www/index.html",
