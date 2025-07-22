@@ -16,7 +16,9 @@ graph TD;
     FTP-->Github_Action;
     Github_Action-->Php_to_Html;
     Github_Action-->Populate_Html_With_NodeJS
+    Github_Action-->BuildTimeLine
     Php_to_Html-->www
     Populate_Html_With_NodeJS-->www
+    BuildTimeLine-->Copy_To_WWW_Timeline
     www-->Deploy_to_GH_Pages
 ```
