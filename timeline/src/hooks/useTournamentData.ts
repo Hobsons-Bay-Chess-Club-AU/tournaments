@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { TimelineEvent, Period } from '../components/VerticalTimelineEvents';
+import { TimelineEvent, Period } from '../types/timeline';
 
 function parseDate(dateStr?: string): Date | undefined {
     if (!dateStr) return undefined;
@@ -31,6 +31,22 @@ export default function useTournamentData(jsonUrl: string, year?: string) {
                     } else if (StartDate) {
                         period = now > StartDate ? 'Past' : 'Future';
                     }
+                    // Add ratingType field based on event name
+                    let ratingType: 'standard' | 'rapid' | 'blitz' = 'standard';
+                    const nameLower = (ev.name || ev.title || '').toLowerCase();
+                    if (nameLower.includes('rapid')) {
+                        ratingType = 'rapid';
+                    } else if (nameLower.includes('blitz')) {
+                        ratingType = 'blitz';
+                    }
+                    // Split into 6 categories: junior/senior + ratingType
+                    let splitCategory = '';
+                    const cat = (ev.category || '').toLowerCase();
+                    if (cat === 'junior') {
+                        splitCategory = `junior-${ratingType}`;
+                    } else {
+                        splitCategory = `senior-${ratingType}`;
+                    }
                     return {
                         ...ev,
                         start: ev.start,
@@ -41,6 +57,8 @@ export default function useTournamentData(jsonUrl: string, year?: string) {
                         StartDate,
                         EndDate,
                         period,
+                        ratingType,
+                        splitCategory,
                     };
                 });
                 if (year) {

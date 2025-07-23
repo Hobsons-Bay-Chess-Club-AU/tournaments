@@ -18,6 +18,7 @@ export interface TimelineEvent {
     year?: string;
     site?: string;
     arbiter?: string;
+    ratingType?: 'standard' | 'rapid' | 'blitz';
 }
 
 export default function VerticalTimelineEvents({ events }: { events: TimelineEvent[] }) {

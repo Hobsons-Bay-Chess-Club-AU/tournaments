@@ -10,8 +10,10 @@
     "build:export": "NEXT_PUBLIC_EXPORT_STATIC=true next build"
   },
   "dependencies": {
+    "moment": "^2.30.1",
     "next": "15.4.2",
     "react": "19.1.0",
+    "react-calendar-timeline": "^0.30.0-beta.3",
     "react-dom": "19.1.0",
     "react-icons": "^5.5.0",
     "react-vertical-timeline-component": "^3.5.3"
