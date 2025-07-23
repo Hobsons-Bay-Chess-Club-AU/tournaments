@@ -27,6 +27,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Cache node_modules
+        uses: actions/cache@v4
+        with:
+          path: timeline/node_modules
+          key: ${{ runner.os }}-timeline-node-${{ hashFiles('timeline/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-timeline-node-
+
+      - name: Cache Next.js build cache
+        uses: actions/cache@v4
+        with:
+          path: timeline/.next/cache
+          key: ${{ runner.os }}-timeline-nextjs-${{ hashFiles('timeline/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-timeline-nextjs-
+
       - name: Check change_id
         id: check_change_id
         env:
