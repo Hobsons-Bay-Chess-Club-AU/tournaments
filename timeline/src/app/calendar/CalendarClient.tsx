@@ -78,37 +78,58 @@ export default function CalendarClient() {
                     />
                 </div>
                 {selectedEvent && (
-                    <div className="mt-8 w-full max-w-xl">
-                        <h2 className="text-lg font-semibold mb-4 text-center">
-                            {selectedEvent.title}
-                        </h2>
-                        <div className="border rounded-lg p-4 bg-white shadow">
-                            <div className="font-bold text-blue-700">
-                                {selectedEvent.title}
-                            </div>
-                            <div className="text-base text-gray-600">
-                                {selectedEvent.category ? selectedEvent.category.charAt(0).toUpperCase() + selectedEvent.category.slice(1) : ''}
-                                {selectedEvent.site ? ` | ${selectedEvent.site}` : ""}
-                            </div>
-                            <div className="text-sm text-gray-500">
-                                Arbiter: {selectedEvent.arbiter}
-                            </div>
-                            {selectedEvent.url && (
-                                <a
-                                    href={`${origin}/${selectedEvent.url}`}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-blue-600 underline text-sm mt-2 inline-block"
-                                >
-                                    View Detail
-                                </a>
-                            )}
+                    <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black bg-opacity-50">
+                        <div className="bg-white rounded-lg shadow-lg max-w-xl w-full p-6 relative">
                             <button
-                                className="mt-4 px-3 py-1 rounded bg-gray-200 hover:bg-gray-300"
+                                className="absolute top-2 right-2 text-gray-500 hover:text-gray-700 text-xl font-bold"
                                 onClick={() => setSelectedEvent(null)}
+                                aria-label="Close"
                             >
-                                Close
+                                &times;
                             </button>
+                            <h2 className="text-2xl font-extrabold mb-6 text-center text-blue-700">
+                                {selectedEvent.title}
+                            </h2>
+                            <div className="space-y-3">
+                                <h2 className="text-center text-bold text-3xl">{selectedEvent.name}</h2>
+                                <div className="flex justify-between items-center">
+                                    <span className="font-semibold text-gray-600">Category</span>
+                                    <span>{selectedEvent.category ? selectedEvent.category.charAt(0).toUpperCase() + selectedEvent.category.slice(1) : ""}</span>
+                                </div>
+                                <div className="flex justify-between items-center">
+                                    <span className="font-semibold text-gray-600">Rating Type</span>
+                                    <span className="capitalize">{selectedEvent.ratingType || "Standard"}</span>
+                                </div>
+                                <div className="flex justify-between items-center">
+                                    <span className="font-semibold text-gray-600">Site</span>
+                                    <span>{selectedEvent.site || "N/A"}</span>
+                                </div>
+                                <div className="flex justify-between items-center">
+                                    <span className="font-semibold text-gray-600">Start</span>
+                                    <span>{selectedEvent.StartDate ? moment(selectedEvent.StartDate).format("YYYY-MM-DD") : "N/A"}</span>
+                                </div>
+                                <div className="flex justify-between items-center">
+                                    <span className="font-semibold text-gray-600">End</span>
+                                    <span>{selectedEvent.EndDate ? moment(selectedEvent.EndDate).format("YYYY-MM-DD") : "N/A"}</span>
+                                </div>
+                                <div className="flex justify-between items-center">
+                                    <span className="font-semibold text-gray-600">Arbiter</span>
+                                    <span>{selectedEvent.arbiter || "N/A"}</span>
+                                </div>
+                                {selectedEvent.url && (
+                                    <div className="flex justify-between items-center">
+                                        <span className="font-semibold text-gray-600">Link</span>
+                                        <a
+                                            href={`${origin}/${selectedEvent.url}`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-blue-600 underline text-sm"
+                                        >
+                                            View Detail
+                                        </a>
+                                    </div>
+                                )}
+                            </div>
                         </div>
                     </div>
                 )}
