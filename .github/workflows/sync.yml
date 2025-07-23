@@ -73,8 +73,6 @@ jobs:
       - name: Install dependencies
         if: steps.check_change_id.outputs.skip_steps != 'true'
         run: |
-          sudo apt update
-          sudo apt install lftp rename
           npm install
 
       - name: Descrypt vault files
