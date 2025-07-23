@@ -10,7 +10,7 @@ import "react-calendar-timeline/style.css";
 
 //
 export default function CalendarClient() {
-    const events = useTournamentData("../data.json") as TimelineEvent[];
+    const events = useTournamentData("./data.json") as TimelineEvent[];
     // Remove year navigation, show all events
     const [selectedEvent, setSelectedEvent] = useState<TimelineEvent | null>(null);
 
