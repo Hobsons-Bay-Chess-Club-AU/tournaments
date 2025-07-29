@@ -5,7 +5,7 @@
 <meta name="author" content="www.vegachess.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-<title>2025 Best in the West</title>
+<title>2025 Hobsons Bay Chess Club Best in The West</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <link rel="stylesheet" href="stylenew.css" type="text/css" >
     </head>
@@ -27,7 +27,7 @@
                 <div class="container-fluid">
                     <div class="row items-center">
                         <div class="col-12">
-                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Best in the West</h1>		    <h5 class="mb-1">Hobsons Bay (AUS)</h5>		    <h5> 30/08/2025 - 31/08/2025</h5>   </div>
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Chess Club Best in The West</h1>		    <h5 class="mb-1">Hobsons Bay Chess Club (AUS)</h5>		    <h5> 28/07/2025 - 28/07/2025</h5>   </div>
  </div> 
  </div>
  </div> 
@@ -38,27 +38,69 @@
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
   <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players</h3><div class="table-responsive"><table class="table table-striped" id="players-table"> 
-<thead><tr><th>#</th><th>Title</th><th> &#8597; Player</th><th>Fed</th><th data-tsorter="numeric"> &#8597; Rtg</th><th data-tsorter="numeric"> &#8597; RtgF</th><th data-tsorter="numeric"> &#8597; RtgN</th></tr></thead><tbody>
+<thead><tr><th>#</th><th>Title</th><th> &#8597; Player</th><th>Fed</th><th>Origin</th><th data-tsorter="numeric"> &#8597; Rtg</th><th data-tsorter="numeric"> &#8597; RtgF</th><th data-tsorter="numeric"> &#8597; RtgN</th></tr></thead><tbody>
 <tr> 
-<td><span class="idn"> 1</span></td><td><span class="notitle male"> </span></td><td> Gurkan,Ahmet </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1712</td><td>1412</td><td>1712</td> </tr>
+<td><span class="idn"> 1</span></td><td><span class="title male"> FM</span></td><td> Dragicevic,Domagoj </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>2154</td><td>0</td><td>2154</td> </tr>
 <tr> 
-<td><span class="idn"> 2</span></td><td><span class="notitle male"> </span></td><td> Wilkinson,Greg </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1523</td><td>1528</td><td>1523</td> </tr>
+<td><span class="idn"> 2</span></td><td><span class="title female"> WFM</span></td><td> Chibnall,Alana </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>1766</td><td>0</td><td>1766</td> </tr>
 <tr> 
-<td><span class="idn"> 3</span></td><td><span class="notitle male"> </span></td><td> Hogan,Steven </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1485</td><td>1648</td><td>1485</td> </tr>
+<td><span class="idn"> 3</span></td><td><span class="notitle male"> </span></td><td> Lim,Jongmin </td><td ><img class="shadow" src="flag/nsw.png" alt="NSW"> NSW</td><td></td><td>1676</td><td>0</td><td>1676</td> </tr>
 <tr> 
-<td><span class="idn"> 4</span></td><td><span class="notitle male"> </span></td><td> Humphreys,Scott </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1471</td><td>1769</td><td>1471</td> </tr>
+<td><span class="idn"> 4</span></td><td><span class="notitle male"> </span></td><td> Lingineni,Khushal </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>1631</td><td>0</td><td>1631</td> </tr>
 <tr> 
-<td><span class="idn"> 5</span></td><td><span class="notitle male"> </span></td><td> Picone,James </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1464</td><td>1624</td><td>1464</td> </tr>
+<td><span class="idn"> 5</span></td><td><span class="notitle male"> </span></td><td> Hari,Dhruv </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>1554</td><td>0</td><td>1554</td> </tr>
 <tr> 
-<td><span class="idn"> 6</span></td><td><span class="notitle male"> </span></td><td> Brockman,Roland </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1257</td><td>1544</td><td>1257</td> </tr>
+<td><span class="idn"> 6</span></td><td><span class="title female"> WIM</span></td><td> Szuveges,Narelle S </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>1546</td><td>0</td><td>1546</td> </tr>
 <tr> 
-<td><span class="idn"> 7</span></td><td><span class="notitle male"> </span></td><td> Gurkan,Mehmet </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1072</td><td>1568</td><td>1072</td> </tr>
+<td><span class="idn"> 7</span></td><td><span class="notitle male"> </span></td><td> Nguyen,Anh Kiet </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>1534</td><td>0</td><td>1534</td> </tr>
 <tr> 
-<td><span class="idn"> 8</span></td><td><span class="notitle male"> </span></td><td> Laffey,Julian </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>984</td><td>1448</td><td>984</td> </tr>
+<td><span class="idn"> 8</span></td><td><span class="notitle male"> </span></td><td> Li,LiYuan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>1530</td><td>0</td><td>1530</td> </tr>
 <tr> 
-<td><span class="idn"> 9</span></td><td><span class="notitle female"> </span></td><td> Karthick,Deepshika </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>711</td><td>0</td><td>711</td> </tr>
+<td><span class="idn"> 9</span></td><td><span class="notitle male"> </span></td><td> Hogan,Steven </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>1485</td><td>0</td><td>1485</td> </tr>
 <tr> 
-<td><span class="idn"> 10</span></td><td><span class="notitle male"> </span></td><td> Shaiek,Nihal </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>648</td><td>1538</td><td>648</td> </tr>
+<td><span class="idn"> 10</span></td><td><span class="notitle male"> </span></td><td> Humphreys,Scott </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>1471</td><td>0</td><td>1471</td> </tr>
+<tr> 
+<td><span class="idn"> 11</span></td><td><span class="notitle male"> </span></td><td> Picone,James </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>1464</td><td>0</td><td>1464</td> </tr>
+<tr> 
+<td><span class="idn"> 12</span></td><td><span class="notitle male"> </span></td><td> Rehill,Paul </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>1451</td><td>0</td><td>1451</td> </tr>
+<tr> 
+<td><span class="idn"> 13</span></td><td><span class="notitle male"> </span></td><td> Parker,Lucas </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>1333</td><td>0</td><td>1333</td> </tr>
+<tr> 
+<td><span class="idn"> 14</span></td><td><span class="notitle female"> </span></td><td> Scenna,Luna </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>1304</td><td>0</td><td>1304</td> </tr>
+<tr> 
+<td><span class="idn"> 15</span></td><td><span class="notitle male"> </span></td><td> Brockman,Roland </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>1257</td><td>0</td><td>1257</td> </tr>
+<tr> 
+<td><span class="idn"> 16</span></td><td><span class="notitle male"> </span></td><td> Wilkinson,Greg </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>1180</td><td>0</td><td>1180</td> </tr>
+<tr> 
+<td><span class="idn"> 17</span></td><td><span class="notitle male"> </span></td><td> Gurkan,Mehmet </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>1072</td><td>0</td><td>1072</td> </tr>
+<tr> 
+<td><span class="idn"> 18</span></td><td><span class="notitle female"> </span></td><td> Zhou,Emma </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>1058</td><td>0</td><td>1058</td> </tr>
+<tr> 
+<td><span class="idn"> 19</span></td><td><span class="notitle male"> </span></td><td> Batyrbekov,Kaisar </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>1007</td><td>0</td><td>1007</td> </tr>
+<tr> 
+<td><span class="idn"> 20</span></td><td><span class="notitle male"> </span></td><td> Laffey,Julian </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>984</td><td>0</td><td>984</td> </tr>
+<tr> 
+<td><span class="idn"> 21</span></td><td><span class="notitle male"> </span></td><td> Gurkan,Ahmet </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>978</td><td>0</td><td>978</td> </tr>
+<tr> 
+<td><span class="idn"> 22</span></td><td><span class="notitle male"> </span></td><td> Scenna,George </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>946</td><td>0</td><td>946</td> </tr>
+<tr> 
+<td><span class="idn"> 23</span></td><td><span class="notitle female"> </span></td><td> Yates,Anna </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>935</td><td>0</td><td>935</td> </tr>
+<tr> 
+<td><span class="idn"> 24</span></td><td><span class="notitle male"> </span></td><td> Batyrbekov,Aidan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>898</td><td>0</td><td>898</td> </tr>
+<tr> 
+<td><span class="idn"> 25</span></td><td><span class="notitle male"> </span></td><td> Zhou,Teng </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>798</td><td>0</td><td>798</td> </tr>
+<tr> 
+<td><span class="idn"> 26</span></td><td><span class="notitle female"> </span></td><td> Karthick,Deepshika </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>711</td><td>0</td><td>711</td> </tr>
+<tr> 
+<td><span class="idn"> 27</span></td><td><span class="notitle male"> </span></td><td> Shaiek,Nihal </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>648</td><td>0</td><td>648</td> </tr>
+<tr> 
+<td><span class="idn"> 28</span></td><td><span class="notitle male"> </span></td><td> Jyothi Nikhil,Neev </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>498</td><td>0</td><td>498</td> </tr>
+<tr> 
+<td><span class="idn"> 29</span></td><td><span class="notitle female"> </span></td><td> Husain,Lamiah </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>324</td><td>0</td><td>324</td> </tr>
+<tr> 
+<td><span class="idn"> 30</span></td><td><span class="notitle male"> </span></td><td> Arun,Devsankar </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 31</span></td><td><span class="notitle male"> </span></td><td> Sharma,Rudra </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"> VIC</td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 </tbody>
 <tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</td></tr></tfoot></table></div>
   <script type="text/javascript"> function init(){tsorter.create('players-table');} window.onload = init;</script>
@@ -78,7 +120,7 @@ var tsorter=function(){"use strict";var a,b,c,d=!!document.addEventListener;retu
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Casey Goh - AUS)
+                        <div class="d-flex flex-column align-items-center text-center text-dark"><p> <a class="text-primary" href="http://www.vegachess.com" target="_blank">Generated by Vega</a> </p><p class="text-body-secondary">(This copy cannot be used for tournament with more than 20 players)) </p>
   <?php if (file_exists($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php')) include($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php'); ?>    </div>  </div>  </div> </div> 
    </footer>
      </div>
