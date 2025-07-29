@@ -129,7 +129,7 @@
  <td>3</td><td>W </td><td>3</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#3">Krishnan,Anirudh</td><td>3254925</td><td>AUS</td><td>1844</td><td>0</td></tr><tr> 
  <td>4</td><td> B</td><td>19</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#19">Yang,Yifan</td><td>3275272</td><td>AUS</td><td>1598</td><td>0.5</td></tr><tr> 
  <td>5</td><td>W </td><td>17</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#17">Annapureddy,Dhruthin Reddy</td><td>3239683</td><td>AUS</td><td>1469</td><td>0.5</td></tr><tr> 
- <td>6</td><td> B</td><td>18</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#18">Nawar,Mena</td><td>3237796</td><td>AUS</td><td>1676</td><td>1</td></tr></tbody>
+ <td>6</td><td> B</td><td>18</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#18">Nawar,Mena</td><td>3237796</td><td>AUS</td><td>1676</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="12"></a> N = 12<a href="http://ratings.fide.com/profile/3214915" target="X"> Nowak,Ruben </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -192,7 +192,7 @@
  <td>3</td><td> B</td><td>6</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#6">McIntyre,Julian</td><td>3232182</td><td>AUS</td><td>1731</td><td>0</td></tr><tr> 
  <td>4</td><td>W </td><td>21</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#21">Clerk,Max</td><td>3234134</td><td>AUS</td><td>1481</td><td>1</td></tr><tr> 
  <td>5</td><td> B</td><td>25</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#25">Ruaya,Rohan</td><td>3281345</td><td>AUS</td><td>1466</td><td>1</td></tr><tr> 
- <td>6</td><td>W </td><td>11</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#11">Hogan,Steven</td><td>3201414</td><td>AUS</td><td>1648</td><td>0</td></tr></tbody>
+ <td>6</td><td>W </td><td>11</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#11">Hogan,Steven</td><td>3201414</td><td>AUS</td><td>1648</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="19"></a> N = 19<a href="http://ratings.fide.com/profile/3275272" target="X"> Yang,Yifan </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>

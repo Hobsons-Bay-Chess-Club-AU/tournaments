@@ -189,7 +189,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>3</td><td class="result">0 - 1</td><td>2.5</td><td><div class="player-container" 
+</td><td>3</td><td class="result">1 - 0</td><td>2.5</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#11"></a> 
  <div class="player-name-box2">
