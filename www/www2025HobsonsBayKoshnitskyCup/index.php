@@ -31,13 +31,13 @@
   <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players</h3><div class="table-responsive"><table class="table table-striped" id="players-table"> 
 <thead><tr><th>#</th><th>Title</th><th> &#8597; Player</th><th>Fed</th><th>Origin</th><th data-tsorter="numeric"> &#8597; Rtg</th><th data-tsorter="numeric"> &#8597; RtgF</th><th data-tsorter="numeric"> &#8597; RtgN</th></tr></thead><tbody>
 <tr> 
-<td><span class="idn"> 1</span></td><td><span class="notitle male"> </span></td><td> Lingineni,Khushal </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1631</td><td>0</td><td>1631</td> </tr>
+<td><span class="idn"> 1</span></td><td><span class="notitle male"> </span></td><td> Lingineni,Khushal </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1631</td><td>1830</td><td>1631</td> </tr>
 <tr> 
-<td><span class="idn"> 2</span></td><td><span class="notitle male"> </span></td><td> Hari,Dhruv </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1554</td><td>0</td><td>1554</td> </tr>
+<td><span class="idn"> 2</span></td><td><span class="notitle male"> </span></td><td> Hari,Dhruv </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1554</td><td>1737</td><td>1554</td> </tr>
 <tr> 
-<td><span class="idn"> 3</span></td><td><span class="notitle male"> </span></td><td> Hogan,Steven </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1485</td><td>0</td><td>1485</td> </tr>
+<td><span class="idn"> 3</span></td><td><span class="notitle male"> </span></td><td> Hogan,Steven </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1485</td><td>1648</td><td>1485</td> </tr>
 <tr> 
-<td><span class="idn"> 4</span></td><td><span class="notitle male"> </span></td><td> Ramanathan,Ashwin </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1192</td><td>0</td><td>1192</td> </tr>
+<td><span class="idn"> 4</span></td><td><span class="notitle male"> </span></td><td> Ramanathan,Ashwin </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1192</td><td>1643</td><td>1192</td> </tr>
 </tbody>
 <tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</td></tr></tfoot></table></div>
   <script type="text/javascript"> function init(){tsorter.create('players-table');} window.onload = init;</script>
