@@ -39,7 +39,7 @@
 <tr> 
 <td><span class="idn"> 4</span></td><td><span class="notitle male"> </span></td><td> Hogan,Steven </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1485</td><td>1620</td><td>1485</td> </tr>
 <tr> 
-<td><span class="idn"> 5</span></td><td><span class="notitle male"> </span></td><td> Nowak,Ruben </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1467</td><td>0</td><td>1467</td> </tr>
+<td><span class="idn"> 5</span></td><td><span class="notitle male"> </span></td><td> Nowak,Ruben </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1467</td><td>1667</td><td>1467</td> </tr>
 <tr> 
 <td><span class="idn"> 6</span></td><td><span class="notitle male"> </span></td><td> Bodke,Krishna </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1407</td><td>1696</td><td>1407</td> </tr>
 <tr> 
