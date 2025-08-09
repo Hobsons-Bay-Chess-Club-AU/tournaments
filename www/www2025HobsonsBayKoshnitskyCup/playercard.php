@@ -117,6 +117,22 @@
 </tr> </thead><tbody>
 </tbody>
 </table><br>
+<table class="table caption-top table-striped "> 
+<caption>  12   <strong>Smyth,Ben           </strong>, K= 0, Elo=1233, ID=4564064
+<br>
+<a class="anchor" name="12"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  13   <strong>Singh,Aradhya       </strong>, K= 0, Elo=   0, ID=3216156
+<br>
+<a class="anchor" name="13"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
 </DIV>
 		  </div>
 		      </div>
