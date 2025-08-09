@@ -62,7 +62,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   5   <strong>Bodke,Krishna       </strong>, K= 0, Elo=1407, ID=3202576
+<caption>   5   <strong>Nowak,Ruben         </strong>, K= 0, Elo=1467, ID=3127464
 <br>
 <a class="anchor" name="5"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -70,7 +70,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   6   <strong>Ramanathan,Ashwin   </strong>, K= 0, Elo=1192, ID=3206231
+<caption>   6   <strong>Bodke,Krishna       </strong>, K= 0, Elo=1407, ID=3202576
 <br>
 <a class="anchor" name="6"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -78,7 +78,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   7   <strong>Annadasu,Shreyansh  </strong>, K= 0, Elo=1029, ID=3210254
+<caption>   7   <strong>Smyth,Ben           </strong>, K= 0, Elo=1233, ID=4564064
 <br>
 <a class="anchor" name="7"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -86,7 +86,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   8   <strong>Singh,Abhyuday      </strong>, K= 0, Elo= 801, ID=3204735
+<caption>   8   <strong>Ramanathan,Ashwin   </strong>, K= 0, Elo=1192, ID=3206231
 <br>
 <a class="anchor" name="8"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -94,7 +94,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   9   <strong>Nicdao,Joseph       </strong>, K= 0, Elo= 653, ID=3207782
+<caption>   9   <strong>Annadasu,Shreyansh  </strong>, K= 0, Elo=1029, ID=3210254
 <br>
 <a class="anchor" name="9"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -102,7 +102,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  10   <strong>Sheikh,Tahmid       </strong>, K= 0, Elo=   0, ID=0
+<caption>  10   <strong>Singh,Abhyuday      </strong>, K= 0, Elo= 801, ID=3204735
 <br>
 <a class="anchor" name="10"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -110,7 +110,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  11   <strong>Nowak,Ruben         </strong>, K= 0, Elo=1467, ID=3127464
+<caption>  11   <strong>Nicdao,Joseph       </strong>, K= 0, Elo= 653, ID=3207782
 <br>
 <a class="anchor" name="11"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -118,17 +118,9 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  12   <strong>Smyth,Ben           </strong>, K= 0, Elo=1233, ID=4564064
+<caption>  12   <strong>Sheikh,Tahmid       </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="12"></a></caption>
-<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
-</tr> </thead><tbody>
-</tbody>
-</table><br>
-<table class="table caption-top table-striped "> 
-<caption>  13   <strong>Singh,Aradhya       </strong>, K= 0, Elo=   0, ID=3216156
-<br>
-<a class="anchor" name="13"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 </tbody>
