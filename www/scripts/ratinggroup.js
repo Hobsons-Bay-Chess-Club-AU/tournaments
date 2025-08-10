@@ -6,7 +6,17 @@ $(document).ready(function () {
             return $(this).index() >= 0;
         });
         t.each((index, el) => girls.push($(el).clone()));
-        //girls = [...girls, ...t]
+    });
+    // Sort girls by up to 4 tiebreaker columns (columns 5,6,7,8)
+    girls.sort(function (a, b) {
+        for (let i = 5; i <= 8; i++) {
+            const valA = parseFloat($('td:eq(' + i + ')', a).text()) || 0;
+            const valB = parseFloat($('td:eq(' + i + ')', b).text()) || 0;
+            if (valA !== valB) {
+                return valB - valA; // Descending order
+            }
+        }
+        return 0;
     });
     $('table thead tr').append('<th>Prize</th>')
     const existingTable = $("table:first").clone();
