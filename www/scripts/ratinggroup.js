@@ -32,11 +32,11 @@ $(document).ready(function () {
                 if (index1 == 3)
                     prizeCount = 2;
                 if (index > prizeCount) {
-                    $(this).css('background-color', '#333');
-                    $(this).css('color', 'gray');
-                    $(this).css('opacity', '0.25')
+                    // $(this).css('background-color', '#333');
+                    // $(this).css('color', 'gray');
+                    // $(this).css('opacity', '0.25')
                 } else {
-                    td.text(prizes[index])
+                    //td.text(prizes[index])
                 }
             });
         });
