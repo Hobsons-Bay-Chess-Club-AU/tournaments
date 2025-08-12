@@ -190,6 +190,55 @@ export function readPlayerList(rootPath) {
 
   return x.data;
 }
+
+export function readPlayerListHtml(rootPath) {
+  const playerFile = path.join(rootPath, "index.html");
+  if (!fs.existsSync(playerFile)) {
+    return null
+  }
+  const raw = fs.readFileSync(playerFile, "utf8");
+  const $ = cheerio.load(raw);
+  const tr = $("table tr").toArray();
+
+  const headers = $("th", tr[0])
+    .toArray()
+    .map((x) => $(x).text().trim());
+
+  const list = tr.slice(1).map((t) => {
+
+    const td = $("td", t).toArray();
+    const item = {};
+
+    headers.forEach((h, i) => {
+
+      item[h] = $(td[i]).text().trim();
+
+      if (h === "NAME" || h.includes("Player")) {
+        item.Player = item[h];
+        item[h] = $("a", $(td[i])).text().trim().replace(" (W)", "");
+        item.N = $("span", $(td[i])).text().trim();
+      }
+    });
+
+    if (rootPath.includes("www2025HobsonsBayKoshnitskyCup")) {
+
+      // console.log(item);
+    }
+
+    if ($('.player-container', td)) {
+      item["NAME"] = $('.player-container span', td).text()
+    }
+    if (!item["NAME"] && !item["Player"]) return null;
+    item["NAME"] = item["NAME"] || item["Player"];
+
+    if (rootPath.includes("www2025HobsonsBayKoshnitskyCup")) {
+      console.log("tet", item);
+    }
+
+    return item;
+  })
+  return list.filter(Boolean)
+}
 export function accumulatePoint(current, tournament) {
   const { standings } = readStanding(tournament.path);
   current.tournaments = current.tournaments || [];
@@ -246,7 +295,6 @@ export function generateRewardPage(folderPath) {
     }),
     {}
   );
-  console.log("standingList", standingList)
   rewards.push({
     category: 'Unrated',
     data: standingList.filter(x => +x.Rtg === 0)

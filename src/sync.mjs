@@ -1,4 +1,4 @@
-import fs, { promises as fsPromises, createReadStream } from "fs";
+import fs, { promises as fsPromises, createReadStream, read } from "fs";
 import path from "path";
 import Handlebars from "handlebars";
 import cheerio from "cheerio";
@@ -7,6 +7,8 @@ import {
   accumulatePoint,
   generateRewardPage,
   readStanding,
+  readPlayerList,
+  readPlayerListHtml,
 } from "./shared.mjs";
 import { IsSeniorPlayer } from "./ref.mjs";
 
@@ -64,12 +66,16 @@ function generateIndexFile(list) {
           .readdirSync(path.dirname(x))
           .filter((x) => x.includes("pairs") && x.endsWith(".html"));
 
-        console.log(files);
+        //console.log(files);
 
         const $ = cheerio.load(html);
         const td = $("td").toArray();
 
-        const standings = readStanding(path.dirname(x));
+        //const standings = readStanding(path.dirname(x));
+        const players = readPlayerListHtml(path.dirname(x));
+        if (x.includes("www2025HobsonsBayKoshnitskyCup")) {
+          console.log(players);
+        }
         let round = 0;
         if (files.length) {
           var roundLink = files.pop();
@@ -77,7 +83,7 @@ function generateIndexFile(list) {
         }
         //console.log(x, standings);
         // if (x.includes("wwwPurdyCup2024")) throw new Error("aaa");
-        return {
+        const tItem = {
           path: path.dirname(x),
           url: x.split("/")[1],
           arbiter: $(td[11]).text().trim(),
@@ -88,14 +94,15 @@ function generateIndexFile(list) {
           end: $(td[9]).text().trim(),
           year: $(td[9]).text().trim().split("/").pop(),
           round,
-          category: standings?.standings.find((x) => IsSeniorPlayer(x.NAME))
+          category: players?.find((x) => IsSeniorPlayer(x.NAME || x.Player))
             ? "senior"
             : "junior",
         };
+        return tItem
       } else {
         const html = fs.readFileSync(x, "utf8");
 
-        console.log(files);
+        //console.log(files);
         const $ = cheerio.load(html);
 
         return {
