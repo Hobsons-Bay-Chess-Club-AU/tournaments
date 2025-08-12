@@ -121,7 +121,7 @@
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="44"></a> N = 44<a href="http://ratings.fide.com/profile/3288510" target="X"> Yegnavajjula,Aryan Srivatsav </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
- <td>1</td><td> B</td><td>2</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#2">Verma, Vivaan</td><td>3292380</td><td>AUS</td><td>1641</td><td>0.5</td></tr></tbody>
+ <td>1</td><td> B</td><td>2</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#2">Verma, Vivaan</td><td>3292380</td><td>AUS</td><td>1641</td><td>0.5</td></tr></tbody>
 </table><br><br>
 </div>
 		  </div>
