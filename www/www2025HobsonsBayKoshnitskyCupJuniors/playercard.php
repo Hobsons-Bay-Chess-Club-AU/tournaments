@@ -20,7 +20,12 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li></ul> </div>
+</li><li class="nav-item"><a class="nav-link " href="pairs1.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
  <section id="hero" class="d-flex align-items-center">
@@ -39,331 +44,483 @@
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
   <div class="d-flex flex-column"><h3 class="mb-4 mt-4">National History Cards </h3>
 <div class="table-responsive"><table class="table caption-top table-striped "> 
-<caption>   1   <strong>Ahmad,Ihtiram       </strong>, K= 0, Elo= 841, ID=0012854
+<caption>   1   <strong>Venkat,Nyra         </strong>, K= 0, Elo=1721, ID=3216996
 <br>
 <a class="anchor" name="1"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>25</td> <td></td> <td> <a href="playercard.php#25"> Chan,Abby            </a>  <td>0</td>
+<td> 0.5</td> <td> 0.5</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   2   <strong>Ashok,Arjun         </strong>, K= 0, Elo= 930, ID=3204632
+<caption>   2   <strong>Verma, Vivaan       </strong>, K= 0, Elo=1641, ID=0
 <br>
 <a class="anchor" name="2"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>44</td> <td></td> <td> <a href="playercard.php#44"> Yegnavajjula,Aryan S </a>  <td>0</td>
+<td> 0.5</td> <td> 0.5</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   3   <strong>Balaji,Sai Sivesh   </strong>, K= 0, Elo= 886, ID=3209381
+<caption>   3   <strong>Rawat, Vivaan       </strong>, K= 0, Elo=1459, ID=0
 <br>
 <a class="anchor" name="3"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   4   <strong>Balamurugan,Soorya  </strong>, K= 0, Elo= 328, ID=3212435
+<caption>   4   <strong>Yendru,Srikrishna   </strong>, K= 0, Elo=1258, ID=3202252
 <br>
 <a class="anchor" name="4"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>26</td> <td></td> <td> <a href="playercard.php#26"> Dash,Dibya           </a>  <td>0</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   5   <strong>Barar,Ridam         </strong>, K= 0, Elo=   0, ID=0
+<caption>   5   <strong>Batyrbekov,Kaisar   </strong>, K= 0, Elo=1007, ID=3204363
 <br>
 <a class="anchor" name="5"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   6   <strong>Batyrbekov,Aidan    </strong>, K= 0, Elo= 898, ID=3203840
+<caption>   6   <strong>Wei,Andrew          </strong>, K= 0, Elo= 944, ID=3204083
 <br>
 <a class="anchor" name="6"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>27</td> <td></td> <td> <a href="playercard.php#27"> Fang,Candice         </a>  <td>0</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   7   <strong>Batyrbekov,Kaisar   </strong>, K= 0, Elo=1007, ID=3204363
+<caption>   7   <strong>Ashok,Arjun         </strong>, K= 0, Elo= 930, ID=3204632
 <br>
 <a class="anchor" name="7"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>28</td> <td></td> <td> <a href="playercard.php#28"> Ganesh Kumar,Mukunth </a>  <td>0</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   8   <strong>Batyrbekov,Kuanysh  </strong>, K= 0, Elo= 730, ID=3209731
+<caption>   8   <strong>Jagannathan,Shashvat</strong>, K= 0, Elo= 919, ID=3206253
 <br>
 <a class="anchor" name="8"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>29</td> <td></td> <td> <a href="playercard.php#29"> Goh,Daphne           </a>  <td>0</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   9   <strong>Bodke,Aryan         </strong>, K= 0, Elo=   0, ID=3211735
+<caption>   9   <strong>Batyrbekov,Aidan    </strong>, K= 0, Elo= 898, ID=3203840
 <br>
 <a class="anchor" name="9"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  10   <strong>Chan,Abby           </strong>, K= 0, Elo=   0, ID=3201541
+<caption>  10   <strong>Balaji,Sai Sivesh   </strong>, K= 0, Elo= 886, ID=3209381
 <br>
 <a class="anchor" name="10"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>30</td> <td></td> <td> <a href="playercard.php#30"> Goh,Julian           </a>  <td>0</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  11   <strong>Fang,Candice        </strong>, K= 0, Elo=   0, ID=3211746
+<caption>  11   <strong>Ruaya,Rohan         </strong>, K= 0, Elo= 857, ID=3203980
 <br>
 <a class="anchor" name="11"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>31</td> <td></td> <td> <a href="playercard.php#31"> Guggilla,Krithvik    </a>  <td>0</td>
+<td> 0.5</td> <td> 0.5</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  12   <strong>Ganesh Kumar,Mukunth</strong>, K= 0, Elo=   0, ID=3217475
+<caption>  12   <strong>Ahmad,Ihtiram       </strong>, K= 0, Elo= 841, ID=0012854
 <br>
 <a class="anchor" name="12"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>32</td> <td></td> <td> <a href="playercard.php#32"> Kantharaju,Aryan     </a>  <td>0</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  13   <strong>Goh,Daphne          </strong>, K= 0, Elo=   0, ID=3214852
+<caption>  13   <strong>Huang,Michael       </strong>, K= 0, Elo= 829, ID=3204621
 <br>
 <a class="anchor" name="13"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>33</td> <td></td> <td> <a href="playercard.php#33"> Kaur,Mishleen        </a>  <td>0</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  14   <strong>Goh,Julian          </strong>, K= 0, Elo=   0, ID=3214863
+<caption>  14   <strong>Batyrbekov,Kuanysh  </strong>, K= 0, Elo= 730, ID=3209731
 <br>
 <a class="anchor" name="14"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  15   <strong>Goh,Nicholas        </strong>, K= 0, Elo= 539, ID=3200270
+<caption>  15   <strong>Shinde,Yug          </strong>, K= 0, Elo= 565, ID=0013284
 <br>
 <a class="anchor" name="15"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>34</td> <td></td> <td> <a href="playercard.php#34"> Kwek,Alexander       </a>  <td>0</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  16   <strong>Guggilla,Krithvik   </strong>, K= 0, Elo=   0, ID=3209510
+<caption>  16   <strong>Goh,Nicholas        </strong>, K= 0, Elo= 539, ID=3200270
 <br>
 <a class="anchor" name="16"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>35</td> <td></td> <td> <a href="playercard.php#35"> Lacson,Alexandria    </a>  <td>0</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  17   <strong>Huang,Michael       </strong>, K= 0, Elo= 829, ID=3204621
+<caption>  17   <strong>Morris,Elijah       </strong>, K= 0, Elo= 538, ID=3208784
 <br>
 <a class="anchor" name="17"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>36</td> <td></td> <td> <a href="playercard.php#36"> Manoj,Dev            </a>  <td>0</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  18   <strong>Husain,Lamiah       </strong>, K= 0, Elo= 324, ID=3209576
+<caption>  18   <strong>Yendru,Sriram       </strong>, K= 0, Elo= 499, ID=3207771
 <br>
 <a class="anchor" name="18"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>37</td> <td></td> <td> <a href="playercard.php#37"> Nema,Nivaan          </a>  <td>0</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  19   <strong>Jagannathan,Shashvat</strong>, K= 0, Elo= 919, ID=3206253
+<caption>  19   <strong>Jyothi Nikhil,Neev  </strong>, K= 0, Elo= 498, ID=3214874
 <br>
 <a class="anchor" name="19"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>38</td> <td></td> <td> <a href="playercard.php#38"> Palta,Sameer         </a>  <td>0</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  20   <strong>Jyothi Nikhil,Neev  </strong>, K= 0, Elo= 498, ID=3214874
+<caption>  20   <strong>Balamurugan,Soorya  </strong>, K= 0, Elo= 328, ID=3212435
 <br>
 <a class="anchor" name="20"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>39</td> <td></td> <td> <a href="playercard.php#39"> Shayan,Ray           </a>  <td>0</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  21   <strong>Kaur,Mishleen       </strong>, K= 0, Elo=   0, ID=0
+<caption>  21   <strong>Husain,Lamiah       </strong>, K= 0, Elo= 324, ID=3209576
 <br>
 <a class="anchor" name="21"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>40</td> <td></td> <td> <a href="playercard.php#40"> Spriggs,Harvey       </a>  <td>0</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  22   <strong>Kwek,Alexander      </strong>, K= 0, Elo=   0, ID=3218606
+<caption>  22   <strong>Das,Ayush           </strong>, K= 0, Elo= 252, ID=3204584
 <br>
 <a class="anchor" name="22"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>41</td> <td></td> <td> <a href="playercard.php#41"> Subramanya,Aarya     </a>  <td>0</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  23   <strong>Morris,Elijah       </strong>, K= 0, Elo= 538, ID=3208784
+<caption>  23   <strong>Barar,Ridam         </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="23"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>42</td> <td></td> <td> <a href="playercard.php#42"> Veeragandham,Gowtham </a>  <td>0</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  24   <strong>Nema,Nivaan         </strong>, K= 0, Elo=   0, ID=3217486
+<caption>  24   <strong>Bodke,Aryan         </strong>, K= 0, Elo=   0, ID=3211735
 <br>
 <a class="anchor" name="24"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>43</td> <td></td> <td> <a href="playercard.php#43"> Vemula,Thamoghna     </a>  <td>0</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  25   <strong>Palta,Sameer        </strong>, K= 0, Elo=   0, ID=0
+<caption>  25   <strong>Chan,Abby           </strong>, K= 0, Elo=   0, ID=3201541
 <br>
 <a class="anchor" name="25"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>1</td> <td></td> <td> <a href="playercard.php#1"> Venkat,Nyra          </a>  <td>1721</td>
+<td> 0.5</td> <td> 0.5</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  26   <strong>Rawat, Vivaan       </strong>, K= 0, Elo=1459, ID=0
+<caption>  26   <strong>Dash,Dibya          </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="26"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>4</td> <td></td> <td> <a href="playercard.php#4"> Yendru,Srikrishna    </a>  <td>1258</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  27   <strong>Ruaya,Rohan         </strong>, K= 0, Elo= 857, ID=3203980
+<caption>  27   <strong>Fang,Candice        </strong>, K= 0, Elo=   0, ID=3211746
 <br>
 <a class="anchor" name="27"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>6</td> <td></td> <td> <a href="playercard.php#6"> Wei,Andrew           </a>  <td>944</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  28   <strong>Shayan,Ray          </strong>, K= 0, Elo=   0, ID=0
+<caption>  28   <strong>Ganesh Kumar,Mukunth</strong>, K= 0, Elo=   0, ID=3217475
 <br>
 <a class="anchor" name="28"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>7</td> <td></td> <td> <a href="playercard.php#7"> Ashok,Arjun          </a>  <td>930</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  29   <strong>Shinde,Yug          </strong>, K= 0, Elo= 565, ID=0013284
+<caption>  29   <strong>Goh,Daphne          </strong>, K= 0, Elo=   0, ID=3214852
 <br>
 <a class="anchor" name="29"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>8</td> <td></td> <td> <a href="playercard.php#8"> Jagannathan,Shashvat </a>  <td>919</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  30   <strong>Spriggs,Harvey      </strong>, K= 0, Elo=   0, ID=3217545
+<caption>  30   <strong>Goh,Julian          </strong>, K= 0, Elo=   0, ID=3214863
 <br>
 <a class="anchor" name="30"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>10</td> <td></td> <td> <a href="playercard.php#10"> Balaji,Sai Sivesh    </a>  <td>886</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  31   <strong>Subramanya,Aarya    </strong>, K= 0, Elo=   0, ID=0
+<caption>  31   <strong>Guggilla,Krithvik   </strong>, K= 0, Elo=   0, ID=3209510
 <br>
 <a class="anchor" name="31"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>11</td> <td></td> <td> <a href="playercard.php#11"> Ruaya,Rohan          </a>  <td>857</td>
+<td> 0.5</td> <td> 0.5</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  32   <strong>Veeragandham,Gowtham</strong>, K= 0, Elo=   0, ID=0
+<caption>  32   <strong>Kantharaju,Aryan    </strong>, K= 0, Elo=   0, ID=3212096
 <br>
 <a class="anchor" name="32"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>12</td> <td></td> <td> <a href="playercard.php#12"> Ahmad,Ihtiram        </a>  <td>841</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  33   <strong>Vemula,Thamoghna    </strong>, K= 0, Elo=   0, ID=3218676
+<caption>  33   <strong>Kaur,Mishleen       </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="33"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>13</td> <td></td> <td> <a href="playercard.php#13"> Huang,Michael        </a>  <td>829</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  34   <strong>Venkat,Nyra         </strong>, K= 0, Elo=1721, ID=3216996
+<caption>  34   <strong>Kwek,Alexander      </strong>, K= 0, Elo=   0, ID=3218606
 <br>
 <a class="anchor" name="34"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>15</td> <td></td> <td> <a href="playercard.php#15"> Shinde,Yug           </a>  <td>565</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  35   <strong>Verma, Vivaan       </strong>, K= 0, Elo=1641, ID=0
+<caption>  35   <strong>Lacson,Alexandria   </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="35"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>16</td> <td></td> <td> <a href="playercard.php#16"> Goh,Nicholas         </a>  <td>539</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  36   <strong>Wei,Andrew          </strong>, K= 0, Elo= 944, ID=3204083
+<caption>  36   <strong>Manoj,Dev           </strong>, K= 0, Elo=   0, ID=3212483
 <br>
 <a class="anchor" name="36"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>17</td> <td></td> <td> <a href="playercard.php#17"> Morris,Elijah        </a>  <td>538</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  37   <strong>Yegnavajjula,Aryan S</strong>, K= 0, Elo=   0, ID=3217453
+<caption>  37   <strong>Nema,Nivaan         </strong>, K= 0, Elo=   0, ID=3217486
 <br>
 <a class="anchor" name="37"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>18</td> <td></td> <td> <a href="playercard.php#18"> Yendru,Sriram        </a>  <td>499</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  38   <strong>Yendru,Srikrishna   </strong>, K= 0, Elo=1258, ID=3202252
+<caption>  38   <strong>Palta,Sameer        </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="38"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>19</td> <td></td> <td> <a href="playercard.php#19"> Jyothi Nikhil,Neev   </a>  <td>498</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  39   <strong>Yendru,Sriram       </strong>, K= 0, Elo= 499, ID=3207771
+<caption>  39   <strong>Shayan,Ray          </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="39"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>20</td> <td></td> <td> <a href="playercard.php#20"> Balamurugan,Soorya   </a>  <td>328</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  40   <strong>Manoj,Dev           </strong>, K= 0, Elo=   0, ID=3212483
+<caption>  40   <strong>Spriggs,Harvey      </strong>, K= 0, Elo=   0, ID=3217545
 <br>
 <a class="anchor" name="40"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>21</td> <td></td> <td> <a href="playercard.php#21"> Husain,Lamiah        </a>  <td>324</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  41   <strong>Lacson,Alexandria   </strong>, K= 0, Elo=   0, ID=0
+<caption>  41   <strong>Subramanya,Aarya    </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="41"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>22</td> <td></td> <td> <a href="playercard.php#22"> Das,Ayush            </a>  <td>252</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  42   <strong>Veeragandham,Gowtham</strong>, K= 0, Elo=   0, ID=0
+<br>
+<a class="anchor" name="42"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+<tr> <td>1</td> <td>W </td> <td>23</td> <td></td> <td> <a href="playercard.php#23"> Barar,Ridam          </a>  <td>0</td>
+<td> 0.0</td> <td> 1.0</td>
+</tr> 
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  43   <strong>Vemula,Thamoghna    </strong>, K= 0, Elo=   0, ID=3218676
+<br>
+<a class="anchor" name="43"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>24</td> <td></td> <td> <a href="playercard.php#24"> Bodke,Aryan          </a>  <td>0</td>
+<td> 1.0</td> <td> 0.0</td>
+</tr> 
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  44   <strong>Yegnavajjula,Aryan S</strong>, K= 0, Elo=   0, ID=3217453
+<br>
+<a class="anchor" name="44"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+<tr> <td>1</td> <td> B</td> <td>2</td> <td></td> <td> <a href="playercard.php#2"> Verma, Vivaan        </a>  <td>1641</td>
+<td> 0.5</td> <td> 0.5</td>
+</tr> 
 </tbody>
 </table><br>
 </DIV>

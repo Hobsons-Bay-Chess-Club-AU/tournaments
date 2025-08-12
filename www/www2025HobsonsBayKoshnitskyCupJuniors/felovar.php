@@ -20,7 +20,12 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li></ul> </div>
+</li><li class="nav-item"><a class="nav-link " href="pairs1.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
  <section id="hero" class="d-flex align-items-center">
@@ -37,9 +42,41 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4">  FIDE rating variation at round 0</h3>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4">  FIDE rating variation at round 1</h3>
 <div class="table-responsive"><table class="table table-striped "> 
-<thead> <tr> <th>#</th> <th>Player</th> <th>FIDE ID</th> <th>Fed</th> <th>Rtg</th>  <th>Ng</th> <th>Pts</th> <th>ARO</th> <th>var</th> <th>Rp</th> </tr></thead><tbody></tbody>
+<thead> <tr> <th>#</th> <th>Player</th> <th>FIDE ID</th> <th>Fed</th> <th>Rtg</th>  <th>Ng</th> <th>Pts</th> <th>ARO</th> <th>var</th> <th>Rp</th> </tr></thead><tbody><tr> 
+<td>25</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/profile/3286282" target="X">Chan,Abby</a></td> <td>3286282</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.5</td> <td>1721</td> <td>+0.00</td> <td>1721</td></tr>
+<tr> 
+<td>26</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/0" target="X">Dash,Dibya</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1642</td> <td>+0.00</td> <td> 842</td></tr>
+<tr> 
+<td>27</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/profile/3291154" target="X">Fang,Candice</a></td> <td>3291154</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1562</td> <td>+0.00</td> <td> 762</td></tr>
+<tr> 
+<td>28</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3289915" target="X">Ganesh Kumar,Mukunth</a></td> <td>3289915</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 1.0</td> <td>1557</td> <td>+0.00</td> <td>1577</td></tr>
+<tr> 
+<td>29</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/profile/3286304" target="X">Goh,Daphne</a></td> <td>3286304</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1548</td> <td>+0.00</td> <td> 748</td></tr>
+<tr> 
+<td>30</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3286312" target="X">Goh,Julian</a></td> <td>3286312</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1526</td> <td>+0.00</td> <td> 726</td></tr>
+<tr> 
+<td>31</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3290522" target="X">Guggilla,Krithvik</a></td> <td>3290522</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.5</td> <td>1459</td> <td>+0.00</td> <td>1459</td></tr>
+<tr> 
+<td>32</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3286860" target="X">Kantharaju,Aryan</a></td> <td>3286860</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1682</td> <td>+0.00</td> <td> 882</td></tr>
+<tr> 
+<td>33</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/profile/3292347" target="X">Kaur,Mishleen</a></td> <td>3292347</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1739</td> <td>+0.00</td> <td> 939</td></tr>
+<tr> 
+<td>34</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3291189" target="X">Kwek,Alexander</a></td> <td>3291189</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1471</td> <td>+0.00</td> <td> 671</td></tr>
+<tr> 
+<td>35</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/0" target="X">Lacson,Alexandria</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1432</td> <td>+0.00</td> <td> 632</td></tr>
+<tr> 
+<td>36</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3283470" target="X">Manoj,Dev</a></td> <td>3283470</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 1.0</td> <td>1582</td> <td>+0.00</td> <td>1602</td></tr>
+<tr> 
+<td>38</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3292355" target="X">Palta,Sameer</a></td> <td>3292355</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1505</td> <td>+0.00</td> <td> 705</td></tr>
+<tr> 
+<td>39</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/0" target="X">Shayan,Ray</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1401</td> <td>+0.00</td> <td> 601</td></tr>
+<tr> 
+<td>41</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/0" target="X">Subramanya,Aarya</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 1.0</td> <td>1430</td> <td>+0.00</td> <td>1450</td></tr>
+<tr> 
+<td>44</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3288510" target="X">Yegnavajjula,Aryan Srivatsav</a></td> <td>3288510</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.5</td> <td>1641</td> <td>+0.00</td> <td>1641</td></tr>
+</tbody>
 </table>
 </div>		  </div>
 		      </div>
