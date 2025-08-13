@@ -61,7 +61,7 @@
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="28"></a> N = 28<a href="http://ratings.fide.com/profile/3289915" target="X"> Ganesh Kumar,Mukunth </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
- <td>1</td><td>W </td><td>7</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#7">Ashok,Arjun</td><td>3275108</td><td>AUS</td><td>1557</td><td>1</td></tr></tbody>
+ <td>1</td><td>W </td><td>7</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#7">Ashok,Arjun</td><td>3275108</td><td>AUS</td><td>1557</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="29"></a> N = 29<a href="http://ratings.fide.com/profile/3286304" target="X"> Goh,Daphne </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>

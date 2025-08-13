@@ -170,7 +170,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">28  </div></td></tr>
+</td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">28  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 8 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -548,7 +548,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cw">7   </div></td></tr>
+</td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">7   </div></td></tr>
 <tr> 
 <td> <span class="idn"> 29 </span></td><td><div class="player-container" 
    <div class="left-box2">
