@@ -114,7 +114,7 @@
  <td>1</td><td> B</td><td>20</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#20">Balamurugan,Soorya</td><td>3286266</td><td>AUS</td><td>1401</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
-<caption> <a class="anchor" name="41"></a> N = 41<a href="http://ratings.fide.com/profile/0" target="X"> Subramanya,Aarya </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
+<caption> <a class="anchor" name="41"></a> N = 41<a href="http://ratings.fide.com/profile/3292339" target="X"> Gadham, Aarya Subramanya </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
  <td>1</td><td> B</td><td>22</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#22">Das,Ayush</td><td>3286290</td><td>AUS</td><td>1430</td><td>1</td></tr></tbody>
 </table><br><br>

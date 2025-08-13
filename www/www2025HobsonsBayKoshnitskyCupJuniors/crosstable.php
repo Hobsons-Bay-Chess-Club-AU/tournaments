@@ -770,7 +770,7 @@
    <div class="left-box2">
 <a href="playercard.php#41"></a> 
  <div class="player-name-box2">
-			<span>Subramanya,Aarya</span>
+			<span>Gadham, Aarya Subramanya</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 41</div> 
@@ -793,7 +793,7 @@
 		<div class="player-data-box">
 			<div class="sort-num"> 42</div> 
 			<div class="title-box"> 
- <div class="notitle2 male">-</div>
+ <div class="notitle2 female">-</div>
 			</div>
 			<div class="rating">0</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
