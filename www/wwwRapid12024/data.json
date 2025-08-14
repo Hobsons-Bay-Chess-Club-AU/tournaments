@@ -1,0 +1,3514 @@
+{
+  "page": {
+    "crosstable.html": {
+      "pageHeading": "Cross Table at round 5",
+      "tables": [
+        {
+          "headers": [
+            "Player",
+            "Rtg",
+            "Fed",
+            "Pts",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "rows": [
+            {
+              "1": "07",
+              "2": "011",
+              "3": "12",
+              "4": "18",
+              "5": "06",
+              "Player": "1   McIntyre,Julian",
+              "Rtg": "1547",
+              "Fed": "",
+              "Pts": "2.0"
+            },
+            {
+              "1": "½8",
+              "2": "04",
+              "3": "01",
+              "4": "½11",
+              "5": "114",
+              "Player": "2   Hogan,Steven",
+              "Rtg": "1494",
+              "Fed": "",
+              "Pts": "2.0"
+            },
+            {
+              "1": "19",
+              "2": "17",
+              "3": "16",
+              "4": "½4",
+              "5": "012",
+              "Player": "3   Picone,James",
+              "Rtg": "1482",
+              "Fed": "",
+              "Pts": "3.5"
+            },
+            {
+              "1": "½ BYE",
+              "2": "12",
+              "3": "112",
+              "4": "½3",
+              "5": "17",
+              "Player": "4   Nguyen,Anh Kiet",
+              "Rtg": "1276",
+              "Fed": "",
+              "Pts": "4.0"
+            },
+            {
+              "1": "110",
+              "2": "06",
+              "3": "111",
+              "4": "07",
+              "5": "013",
+              "Player": "5   Richards,Derek",
+              "Rtg": "1207",
+              "Fed": "",
+              "Pts": "2.0"
+            },
+            {
+              "1": "111",
+              "2": "15",
+              "3": "03",
+              "4": "113",
+              "5": "11",
+              "Player": "6   Temizel,Hazar",
+              "Rtg": "1100",
+              "Fed": "",
+              "Pts": "4.0"
+            },
+            {
+              "1": "11",
+              "2": "03",
+              "3": "110",
+              "4": "15",
+              "5": "04",
+              "Player": "7   Bodke,Krishna",
+              "Rtg": "1044",
+              "Fed": "",
+              "Pts": "3.0"
+            },
+            {
+              "1": "½2",
+              "2": "½12",
+              "3": "013",
+              "4": "01",
+              "5": "011",
+              "Player": "8   Clerk,Max",
+              "Rtg": "1032",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "03",
+              "2": "010",
+              "3": "014",
+              "4": "1BYE",
+              "5": "",
+              "Player": "9   Liu,Tina         (W)",
+              "Rtg": "495",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "05",
+              "2": "19",
+              "3": "07",
+              "4": "",
+              "5": "",
+              "Player": "10   Nicdao,Joseph    (W)",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "06",
+              "2": "11",
+              "3": "05",
+              "4": "½2",
+              "5": "18",
+              "Player": "11   Sicurella,Lucas",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.5"
+            },
+            {
+              "1": "113",
+              "2": "½8",
+              "3": "04",
+              "4": "114",
+              "5": "13",
+              "Player": "12   Ilic,Milan",
+              "Rtg": "1541",
+              "Fed": "",
+              "Pts": "3.5"
+            },
+            {
+              "1": "012",
+              "2": "1BYE",
+              "3": "18",
+              "4": "06",
+              "5": "15",
+              "Player": "13   Nawar,Mena",
+              "Rtg": "613",
+              "Fed": "",
+              "Pts": "3.0"
+            },
+            {
+              "1": "",
+              "2": "",
+              "3": "19",
+              "4": "012",
+              "5": "02",
+              "Player": "14   Whitford,Matthew",
+              "Rtg": "1562",
+              "Fed": "",
+              "Pts": "1.0"
+            }
+          ]
+        }
+      ]
+    },
+    "crosstablescore.html": {
+      "pageHeading": "Cross Table at round 5",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Player",
+            "Rtg",
+            "Fed",
+            "Pts",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "BH",
+            "BH-C1"
+          ],
+          "rows": [
+            {
+              "1": "½ BYE",
+              "2": "110",
+              "3": "14",
+              "4": "½3",
+              "5": "15",
+              "Pos": "1",
+              "Player": "Nguyen,Anh Kiet",
+              "Rtg": "1276",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "14.5",
+              "BH-C1": "12.5"
+            },
+            {
+              "1": "17",
+              "2": "18",
+              "3": "03",
+              "4": "16",
+              "5": "19",
+              "Pos": "2",
+              "Player": "Temizel,Hazar",
+              "Rtg": "1100",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "12.5",
+              "BH-C1": "10.5"
+            },
+            {
+              "1": "114",
+              "2": "15",
+              "3": "12",
+              "4": "½1",
+              "5": "04",
+              "Pos": "3",
+              "Player": "Picone,James",
+              "Rtg": "1482",
+              "Fed": "",
+              "Pts": "3.5",
+              "BH": "15.5",
+              "BH-C1": "14.5"
+            },
+            {
+              "1": "16",
+              "2": "½12",
+              "3": "01",
+              "4": "111",
+              "5": "13",
+              "Pos": "4",
+              "Player": "Ilic,Milan",
+              "Rtg": "1541",
+              "Fed": "",
+              "Pts": "3.5",
+              "BH": "12.5",
+              "BH-C1": "11.5"
+            },
+            {
+              "1": "19",
+              "2": "03",
+              "3": "113",
+              "4": "18",
+              "5": "01",
+              "Pos": "5",
+              "Player": "Bodke,Krishna",
+              "Rtg": "1044",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "14.0",
+              "BH-C1": "12.0"
+            },
+            {
+              "1": "04",
+              "2": "1 BYE",
+              "3": "112",
+              "4": "02",
+              "5": "18",
+              "Pos": "6",
+              "Player": "Nawar,Mena",
+              "Rtg": "613",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "12.0",
+              "BH-C1": "11.0"
+            },
+            {
+              "1": "02",
+              "2": "19",
+              "3": "08",
+              "4": "½10",
+              "5": "112",
+              "Pos": "7",
+              "Player": "Sicurella,Lucas",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.5",
+              "BH": "11.5",
+              "BH-C1": "10.5"
+            },
+            {
+              "1": "113",
+              "2": "02",
+              "3": "17",
+              "4": "05",
+              "5": "06",
+              "Pos": "8",
+              "Player": "Richards,Derek",
+              "Rtg": "1207",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "14.5",
+              "BH-C1": "12.5"
+            },
+            {
+              "1": "05",
+              "2": "07",
+              "3": "110",
+              "4": "112",
+              "5": "02",
+              "Pos": "9",
+              "Player": "McIntyre,Julian",
+              "Rtg": "1547",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "11.5"
+            },
+            {
+              "1": "½12",
+              "2": "01",
+              "3": "09",
+              "4": "½7",
+              "5": "111",
+              "Pos": "10",
+              "Player": "Hogan,Steven",
+              "Rtg": "1494",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "10.5"
+            },
+            {
+              "1": "",
+              "2": "",
+              "3": "114",
+              "4": "04",
+              "5": "010",
+              "Pos": "11",
+              "Player": "Whitford,Matthew",
+              "Rtg": "1562",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "12.0",
+              "BH-C1": "11.0"
+            },
+            {
+              "1": "½10",
+              "2": "½4",
+              "3": "06",
+              "4": "09",
+              "5": "07",
+              "Pos": "12",
+              "Player": "Clerk,Max",
+              "Rtg": "1032",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "12.0",
+              "BH-C1": "10.0"
+            },
+            {
+              "1": "08",
+              "2": "114",
+              "3": "05",
+              "4": "",
+              "5": "",
+              "Pos": "13",
+              "Player": "Nicdao,Joseph              (W)",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "11.0",
+              "BH-C1": "10.0"
+            },
+            {
+              "1": "03",
+              "2": "013",
+              "3": "011",
+              "4": "1 BYE",
+              "5": "",
+              "Pos": "14",
+              "Player": "Liu,Tina                   (W)",
+              "Rtg": "495",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "10.0",
+              "BH-C1": "9.5"
+            }
+          ]
+        }
+      ]
+    },
+    "felovar.html": {
+      "pageHeading": "FIDE rating variation at round 5",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "FIDE ID",
+            "Fed",
+            "Rtg",
+            "Ng",
+            "Pts",
+            "ARO",
+            "var",
+            "Rp"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "fideplayercard.html": {
+      "pageHeading": "FIDE History Cards",
+      "tables": []
+    },
+    "games.html": {
+      "pageHeading": "",
+      "tables": []
+    },
+    "index.html": {
+      "pageHeading": "Registered players sorted by rating and title",
+      "tables": [
+        {
+          "headers": [
+            "N",
+            "NAME",
+            "Fed",
+            "Title",
+            "Rtg",
+            "RtgF",
+            "RtgN"
+          ],
+          "rows": [
+            {
+              "N": "14",
+              "NAME": "Whitford,Matthew",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1562",
+              "RtgF": "0",
+              "RtgN": "1562"
+            },
+            {
+              "N": "1",
+              "NAME": "McIntyre,Julian",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1547",
+              "RtgF": "0",
+              "RtgN": "1547"
+            },
+            {
+              "N": "12",
+              "NAME": "Ilic,Milan",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1541",
+              "RtgF": "0",
+              "RtgN": "1541"
+            },
+            {
+              "N": "2",
+              "NAME": "Hogan,Steven",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1494",
+              "RtgF": "0",
+              "RtgN": "1494"
+            },
+            {
+              "N": "3",
+              "NAME": "Picone,James",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1482",
+              "RtgF": "0",
+              "RtgN": "1482"
+            },
+            {
+              "N": "4",
+              "NAME": "Nguyen,Anh Kiet",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1276",
+              "RtgF": "0",
+              "RtgN": "1276"
+            },
+            {
+              "N": "5",
+              "NAME": "Richards,Derek",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1207",
+              "RtgF": "0",
+              "RtgN": "1207"
+            },
+            {
+              "N": "6",
+              "NAME": "Temizel,Hazar",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1100",
+              "RtgF": "0",
+              "RtgN": "1100"
+            },
+            {
+              "N": "7",
+              "NAME": "Bodke,Krishna",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1044",
+              "RtgF": "0",
+              "RtgN": "1044"
+            },
+            {
+              "N": "8",
+              "NAME": "Clerk,Max",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1032",
+              "RtgF": "0",
+              "RtgN": "1032"
+            },
+            {
+              "N": "13",
+              "NAME": "Nawar,Mena",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "613",
+              "RtgF": "0",
+              "RtgN": "613"
+            },
+            {
+              "N": "9",
+              "NAME": "Liu,Tina",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "495",
+              "RtgF": "0",
+              "RtgN": "495"
+            },
+            {
+              "N": "10",
+              "NAME": "Nicdao,Joseph",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "N": "11",
+              "NAME": "Sicurella,Lucas",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            }
+          ]
+        }
+      ]
+    },
+    "nelovar.html": {
+      "pageHeading": "National rating at round 5",
+      "tables": [
+        {
+          "headers": [
+            "N",
+            "Name",
+            "K",
+            "Elo",
+            "Var",
+            "Per"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "pairs1.html": {
+      "pageHeading": "Pairings",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "7   Bodke,Krishna",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "1   McIntyre,Julian"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "2   Hogan,Steven",
+              "Pts": "0",
+              "Result": "½ - ½",
+              "Black Player": "8   Clerk,Max"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "9   Liu,Tina",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "3   Picone,James"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "5   Richards,Derek",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "10   Nicdao,Joseph"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "",
+              "White Player": "11   Sicurella,Lucas",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "6   Temizel,Hazar"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "",
+              "White Player": "12   Ilic,Milan",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "13   Nawar,Mena"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "",
+              "White Player": "4   Nguyen,Anh Kiet",
+              "Pts": "0",
+              "Result": "½",
+              "Black Player": "( half point bye )"
+            },
+            {
+              "Bo.": "8",
+              "Fed": "",
+              "White Player": "14   Whitford,Matthew",
+              "Pts": "0",
+              "Result": "0",
+              "Black Player": "( not paired )"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs2.html": {
+      "pageHeading": "Pairings",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "3   Picone,James",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Black Player": "7   Bodke,Krishna"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "6   Temizel,Hazar",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Black Player": "5   Richards,Derek"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "8   Clerk,Max",
+              "Pts": "1",
+              "Result": "½ - ½",
+              "Black Player": "12   Ilic,Milan"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "4   Nguyen,Anh Kiet",
+              "Pts": "0.5",
+              "Result": "1 - 0",
+              "Black Player": "2   Hogan,Steven"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "",
+              "White Player": "1   McIntyre,Julian",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "11   Sicurella,Lucas"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "",
+              "White Player": "10   Nicdao,Joseph",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "9   Liu,Tina"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "",
+              "White Player": "13   Nawar,Mena",
+              "Pts": "0",
+              "Result": "1",
+              "Black Player": "( bye )"
+            },
+            {
+              "Bo.": "8",
+              "Fed": "",
+              "White Player": "14   Whitford,Matthew",
+              "Pts": "0",
+              "Result": "0",
+              "Black Player": "( not paired )"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs3.html": {
+      "pageHeading": "Pairings",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "6   Temizel,Hazar",
+              "Pts": "2",
+              "Result": "0 - 1",
+              "Black Player": "3   Picone,James"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "12   Ilic,Milan",
+              "Pts": "1.5",
+              "Result": "0 - 1",
+              "Black Player": "4   Nguyen,Anh Kiet"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "5   Richards,Derek",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Black Player": "11   Sicurella,Lucas"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "7   Bodke,Krishna",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Black Player": "10   Nicdao,Joseph"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "",
+              "White Player": "13   Nawar,Mena",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Black Player": "8   Clerk,Max"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "",
+              "White Player": "2   Hogan,Steven",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "1   McIntyre,Julian"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "",
+              "White Player": "9   Liu,Tina",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "14   Whitford,Matthew"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs4.html": {
+      "pageHeading": "Pairings",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "3   Picone,James",
+              "Pts": "2.5",
+              "Result": "½ - ½",
+              "Black Player": "4   Nguyen,Anh Kiet"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "7   Bodke,Krishna",
+              "Pts": "2",
+              "Result": "1 - 0",
+              "Black Player": "5   Richards,Derek"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "13   Nawar,Mena",
+              "Pts": "2",
+              "Result": "0 - 1",
+              "Black Player": "6   Temizel,Hazar"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "14   Whitford,Matthew",
+              "Pts": "1.5",
+              "Result": "0 - 1",
+              "Black Player": "12   Ilic,Milan"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "",
+              "White Player": "1   McIntyre,Julian",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Black Player": "8   Clerk,Max"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "",
+              "White Player": "11   Sicurella,Lucas",
+              "Pts": "0.5",
+              "Result": "½ - ½",
+              "Black Player": "2   Hogan,Steven"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "",
+              "White Player": "9   Liu,Tina",
+              "Pts": "0",
+              "Result": "1",
+              "Black Player": "( bye )"
+            },
+            {
+              "Bo.": "8",
+              "Fed": "",
+              "White Player": "10   Nicdao,Joseph",
+              "Pts": "0",
+              "Result": "0",
+              "Black Player": "( not paired )"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs5.html": {
+      "pageHeading": "Pairings",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "12   Ilic,Milan",
+              "Pts": "3.5",
+              "Result": "1 - 0",
+              "Black Player": "3   Picone,James"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "4   Nguyen,Anh Kiet",
+              "Pts": "3",
+              "Result": "1 - 0",
+              "Black Player": "7   Bodke,Krishna"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "6   Temizel,Hazar",
+              "Pts": "2",
+              "Result": "1 - 0",
+              "Black Player": "1   McIntyre,Julian"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "5   Richards,Derek",
+              "Pts": "2",
+              "Result": "0F-1F",
+              "Black Player": "13   Nawar,Mena"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "",
+              "White Player": "8   Clerk,Max",
+              "Pts": "1.5",
+              "Result": "0 - 1",
+              "Black Player": "11   Sicurella,Lucas"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "",
+              "White Player": "2   Hogan,Steven",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Black Player": "14   Whitford,Matthew"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "",
+              "White Player": "9   Liu,Tina",
+              "Pts": "0",
+              "Result": "0",
+              "Black Player": "( not paired )"
+            },
+            {
+              "Bo.": "8",
+              "Fed": "",
+              "White Player": "10   Nicdao,Joseph",
+              "Pts": "0",
+              "Result": "0",
+              "Black Player": "( not paired )"
+            }
+          ]
+        }
+      ]
+    },
+    "playercard.html": {
+      "pageHeading": "National History Cards",
+      "tables": [
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Bodke,Krishna",
+              "Rtg": "1044",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "11",
+              "Cat": "",
+              "OPPONENT": "Sicurella,Lucas",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Hogan,Steven",
+              "Rtg": "1494",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Clerk,Max",
+              "Rtg": "1032",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Temizel,Hazar",
+              "Rtg": "1100",
+              "res": "0.0",
+              "Pts": "4.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Clerk,Max",
+              "Rtg": "1032",
+              "res": "0.5",
+              "Pts": "1.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1276",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "McIntyre,Julian",
+              "Rtg": "1547",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "11",
+              "Cat": "",
+              "OPPONENT": "Sicurella,Lucas",
+              "Rtg": "0",
+              "res": "0.5",
+              "Pts": "2.5"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "14",
+              "Cat": "",
+              "OPPONENT": "Whitford,Matthew",
+              "Rtg": "1562",
+              "res": "1.0",
+              "Pts": "1.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "9",
+              "Cat": "",
+              "OPPONENT": "Liu,Tina",
+              "Rtg": "495",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Bodke,Krishna",
+              "Rtg": "1044",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Temizel,Hazar",
+              "Rtg": "1100",
+              "res": "1.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1276",
+              "res": "0.5",
+              "Pts": "4.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "12",
+              "Cat": "",
+              "OPPONENT": "Ilic,Milan",
+              "Rtg": "1541",
+              "res": "0.0",
+              "Pts": "3.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.5",
+              "Pts": "0.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Hogan,Steven",
+              "Rtg": "1494",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "12",
+              "Cat": "",
+              "OPPONENT": "Ilic,Milan",
+              "Rtg": "1541",
+              "res": "1.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Picone,James",
+              "Rtg": "1482",
+              "res": "0.5",
+              "Pts": "3.5"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Bodke,Krishna",
+              "Rtg": "1044",
+              "res": "1.0",
+              "Pts": "3.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "10",
+              "Cat": "",
+              "OPPONENT": "Nicdao,Joseph",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Temizel,Hazar",
+              "Rtg": "1100",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "11",
+              "Cat": "",
+              "OPPONENT": "Sicurella,Lucas",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Bodke,Krishna",
+              "Rtg": "1044",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "11",
+              "Cat": "",
+              "OPPONENT": "Sicurella,Lucas",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Richards,Derek",
+              "Rtg": "1207",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Picone,James",
+              "Rtg": "1482",
+              "res": "0.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "13",
+              "Cat": "",
+              "OPPONENT": "Nawar,Mena",
+              "Rtg": "613",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "McIntyre,Julian",
+              "Rtg": "1547",
+              "res": "1.0",
+              "Pts": "2.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "McIntyre,Julian",
+              "Rtg": "1547",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Picone,James",
+              "Rtg": "1482",
+              "res": "0.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "10",
+              "Cat": "",
+              "OPPONENT": "Nicdao,Joseph",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Richards,Derek",
+              "Rtg": "1207",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1276",
+              "res": "0.0",
+              "Pts": "4.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Hogan,Steven",
+              "Rtg": "1494",
+              "res": "0.5",
+              "Pts": "2.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "12",
+              "Cat": "",
+              "OPPONENT": "Ilic,Milan",
+              "Rtg": "1541",
+              "res": "0.5",
+              "Pts": "3.5"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "13",
+              "Cat": "",
+              "OPPONENT": "Nawar,Mena",
+              "Rtg": "613",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "McIntyre,Julian",
+              "Rtg": "1547",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "11",
+              "Cat": "",
+              "OPPONENT": "Sicurella,Lucas",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "2.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Picone,James",
+              "Rtg": "1482",
+              "res": "0.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "10",
+              "Cat": "",
+              "OPPONENT": "Nicdao,Joseph",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "14",
+              "Cat": "",
+              "OPPONENT": "Whitford,Matthew",
+              "Rtg": "1562",
+              "res": "0.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "4",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Richards,Derek",
+              "Rtg": "1207",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "9",
+              "Cat": "",
+              "OPPONENT": "Liu,Tina",
+              "Rtg": "495",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Bodke,Krishna",
+              "Rtg": "1044",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "4",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Temizel,Hazar",
+              "Rtg": "1100",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "McIntyre,Julian",
+              "Rtg": "1547",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Richards,Derek",
+              "Rtg": "1207",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Hogan,Steven",
+              "Rtg": "1494",
+              "res": "0.5",
+              "Pts": "2.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Clerk,Max",
+              "Rtg": "1032",
+              "res": "1.0",
+              "Pts": "1.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "13",
+              "Cat": "",
+              "OPPONENT": "Nawar,Mena",
+              "Rtg": "613",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Clerk,Max",
+              "Rtg": "1032",
+              "res": "0.5",
+              "Pts": "1.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1276",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "14",
+              "Cat": "",
+              "OPPONENT": "Whitford,Matthew",
+              "Rtg": "1562",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Picone,James",
+              "Rtg": "1482",
+              "res": "1.0",
+              "Pts": "3.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "12",
+              "Cat": "",
+              "OPPONENT": "Ilic,Milan",
+              "Rtg": "1541",
+              "res": "0.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "2",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Clerk,Max",
+              "Rtg": "1032",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Temizel,Hazar",
+              "Rtg": "1100",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "2",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "9",
+              "Cat": "",
+              "OPPONENT": "Liu,Tina",
+              "Rtg": "495",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "12",
+              "Cat": "",
+              "OPPONENT": "Ilic,Milan",
+              "Rtg": "1541",
+              "res": "0.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Hogan,Steven",
+              "Rtg": "1494",
+              "res": "0.0",
+              "Pts": "2.0"
+            }
+          ]
+        }
+      ]
+    },
+    "playersname.html": {
+      "pageHeading": "Registered players sorted by name",
+      "tables": [
+        {
+          "headers": [
+            "N",
+            "NAME",
+            "Fed",
+            "Title",
+            "Rtg",
+            "RtgF",
+            "RtgN"
+          ],
+          "rows": [
+            {
+              "N": "7",
+              "NAME": "Bodke,Krishna",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1044",
+              "RtgF": "0",
+              "RtgN": "1044"
+            },
+            {
+              "N": "8",
+              "NAME": "Clerk,Max",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1032",
+              "RtgF": "0",
+              "RtgN": "1032"
+            },
+            {
+              "N": "2",
+              "NAME": "Hogan,Steven",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1494",
+              "RtgF": "0",
+              "RtgN": "1494"
+            },
+            {
+              "N": "12",
+              "NAME": "Ilic,Milan",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1541",
+              "RtgF": "0",
+              "RtgN": "1541"
+            },
+            {
+              "N": "9",
+              "NAME": "Liu,Tina",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "495",
+              "RtgF": "0",
+              "RtgN": "495"
+            },
+            {
+              "N": "1",
+              "NAME": "McIntyre,Julian",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1547",
+              "RtgF": "0",
+              "RtgN": "1547"
+            },
+            {
+              "N": "13",
+              "NAME": "Nawar,Mena",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "613",
+              "RtgF": "0",
+              "RtgN": "613"
+            },
+            {
+              "N": "4",
+              "NAME": "Nguyen,Anh Kiet",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1276",
+              "RtgF": "0",
+              "RtgN": "1276"
+            },
+            {
+              "N": "10",
+              "NAME": "Nicdao,Joseph",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "N": "3",
+              "NAME": "Picone,James",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1482",
+              "RtgF": "0",
+              "RtgN": "1482"
+            },
+            {
+              "N": "5",
+              "NAME": "Richards,Derek",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1207",
+              "RtgF": "0",
+              "RtgN": "1207"
+            },
+            {
+              "N": "11",
+              "NAME": "Sicurella,Lucas",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "N": "6",
+              "NAME": "Temizel,Hazar",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1100",
+              "RtgF": "0",
+              "RtgN": "1100"
+            },
+            {
+              "N": "14",
+              "NAME": "Whitford,Matthew",
+              "Fed": "",
+              "Title": "",
+              "Rtg": "1562",
+              "RtgF": "0",
+              "RtgN": "1562"
+            }
+          ]
+        }
+      ]
+    },
+    "rankTeams.html": {
+      "pageHeading": "Team ranking based on 4 best players of each team",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Team Name",
+            "Points"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Team Name": "",
+              "Points": "15"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "1",
+            "",
+            "15"
+          ],
+          "rows": [
+            {
+              "1": "4",
+              "15": "4",
+              "col2": "Nguyen,Anh Kiet"
+            },
+            {
+              "1": "6",
+              "15": "4",
+              "col2": "Temizel,Hazar"
+            },
+            {
+              "1": "3",
+              "15": "3.5",
+              "col2": "Picone,James"
+            },
+            {
+              "1": "12",
+              "15": "3.5",
+              "col2": "Ilic,Milan"
+            },
+            {
+              "1": "7",
+              "15": "3",
+              "col2": "Bodke,Krishna"
+            },
+            {
+              "1": "13",
+              "15": "3",
+              "col2": "Nawar,Mena"
+            },
+            {
+              "1": "11",
+              "15": "2.5",
+              "col2": "Sicurella,Lucas"
+            },
+            {
+              "1": "5",
+              "15": "2",
+              "col2": "Richards,Derek"
+            },
+            {
+              "1": "1",
+              "15": "2",
+              "col2": "McIntyre,Julian"
+            },
+            {
+              "1": "2",
+              "15": "2",
+              "col2": "Hogan,Steven"
+            },
+            {
+              "1": "14",
+              "15": "1",
+              "col2": "Whitford,Matthew"
+            },
+            {
+              "1": "8",
+              "15": "1",
+              "col2": "Clerk,Max"
+            },
+            {
+              "1": "10",
+              "15": "1",
+              "col2": "Nicdao,Joseph"
+            },
+            {
+              "1": "9",
+              "15": "1",
+              "col2": "Liu,Tina"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Board 0",
+            "Pos",
+            "Player",
+            "Team",
+            "Points",
+            "Board 1",
+            "Pos",
+            "Player",
+            "Team",
+            "Points",
+            "Board 2",
+            "Pos",
+            "Player",
+            "Team",
+            "Points",
+            "Board 3",
+            "Pos",
+            "Player",
+            "Team",
+            "Points"
+          ],
+          "rows": [
+            {
+              "Board 0": "",
+              "Pos": "1",
+              "Player": "Nguyen,Anh Kiet",
+              "Team": "",
+              "Points": "4"
+            },
+            {
+              "Board 0": "",
+              "Pos": "1",
+              "Player": "Temizel,Hazar",
+              "Team": "",
+              "Points": "4"
+            },
+            {
+              "Board 0": "",
+              "Pos": "1",
+              "Player": "Picone,James",
+              "Team": "",
+              "Points": "3.5"
+            },
+            {
+              "Board 0": "",
+              "Pos": "1",
+              "Player": "Ilic,Milan",
+              "Team": "",
+              "Points": "3.5"
+            }
+          ]
+        }
+      ]
+    },
+    "rankcat.html": {
+      "pageHeading": "Standings at round 5 sorted by category",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "PRtg",
+            "Fed",
+            "Pts",
+            "BH",
+            "BH-C1"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "4",
+              "T": "",
+              "NAME": "Nguyen,Anh Kiet",
+              "Rtg": "1276",
+              "PRtg": "1726",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "14.5",
+              "BH-C1": "12.5"
+            },
+            {
+              "Pos": "2",
+              "N": "6",
+              "T": "",
+              "NAME": "Temizel,Hazar",
+              "Rtg": "1100",
+              "PRtg": "1410",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "12.5",
+              "BH-C1": "10.5"
+            },
+            {
+              "Pos": "3",
+              "N": "3",
+              "T": "",
+              "NAME": "Picone,James",
+              "Rtg": "1482",
+              "PRtg": "1240",
+              "Fed": "",
+              "Pts": "3.5",
+              "BH": "15.5",
+              "BH-C1": "14.5"
+            },
+            {
+              "Pos": "4",
+              "N": "12",
+              "T": "",
+              "NAME": "Ilic,Milan",
+              "Rtg": "1541",
+              "PRtg": "1342",
+              "Fed": "",
+              "Pts": "3.5",
+              "BH": "12.5",
+              "BH-C1": "11.5"
+            },
+            {
+              "Pos": "5",
+              "N": "7",
+              "T": "",
+              "NAME": "Bodke,Krishna",
+              "Rtg": "1044",
+              "PRtg": "1374",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "14.0",
+              "BH-C1": "12.0"
+            },
+            {
+              "Pos": "6",
+              "N": "13",
+              "T": "",
+              "NAME": "Nawar,Mena",
+              "Rtg": "613",
+              "PRtg": "1099",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "12.0",
+              "BH-C1": "11.0"
+            },
+            {
+              "Pos": "7",
+              "N": "11",
+              "T": "",
+              "NAME": "Sicurella,Lucas",
+              "Rtg": "0",
+              "PRtg": "1276",
+              "Fed": "",
+              "Pts": "2.5",
+              "BH": "11.5",
+              "BH-C1": "10.5"
+            },
+            {
+              "Pos": "8",
+              "N": "5",
+              "T": "",
+              "NAME": "Richards,Derek",
+              "Rtg": "1207",
+              "PRtg": "1036",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "14.5",
+              "BH-C1": "12.5"
+            },
+            {
+              "Pos": "9",
+              "N": "1",
+              "T": "",
+              "NAME": "McIntyre,Julian",
+              "Rtg": "1547",
+              "PRtg": "1062",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "11.5"
+            },
+            {
+              "Pos": "10",
+              "N": "2",
+              "T": "",
+              "NAME": "Hogan,Steven",
+              "Rtg": "1494",
+              "PRtg": "1211",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "10.5"
+            },
+            {
+              "Pos": "11",
+              "N": "14",
+              "T": "",
+              "NAME": "Whitford,Matthew",
+              "Rtg": "1562",
+              "PRtg": "1052",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "12.0",
+              "BH-C1": "11.0"
+            },
+            {
+              "Pos": "12",
+              "N": "8",
+              "T": "",
+              "NAME": "Clerk,Max",
+              "Rtg": "1032",
+              "PRtg": "999",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "12.0",
+              "BH-C1": "10.0"
+            },
+            {
+              "Pos": "13",
+              "N": "10",
+              "T": "",
+              "NAME": "Nicdao,Joseph    (W)",
+              "Rtg": "0",
+              "PRtg": "790",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "11.0",
+              "BH-C1": "10.0"
+            },
+            {
+              "Pos": "14",
+              "N": "9",
+              "T": "",
+              "NAME": "Liu,Tina         (W)",
+              "Rtg": "495",
+              "PRtg": "548",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "10.0",
+              "BH-C1": "9.5"
+            }
+          ]
+        }
+      ]
+    },
+    "rankingagegroup.html": {
+      "pageHeading": "Player Groups by date at round 5",
+      "tables": []
+    },
+    "rankinggroup.html": {
+      "pageHeading": "Rated Player Groups at round 5",
+      "tables": []
+    },
+    "schedule.html": {
+      "pageHeading": "Schedule",
+      "tables": [
+        {
+          "headers": [
+            "Round",
+            "Time",
+            "Date"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "standings.html": {
+      "pageHeading": "Standings at round 5 (last round)",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "NAME",
+            "Rtg",
+            "Fed",
+            "Pts",
+            "BH",
+            "BH-C1"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "NAME": "4    Nguyen,Anh Kiet",
+              "Rtg": "1276",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "14.5",
+              "BH-C1": "12.5"
+            },
+            {
+              "Pos": "2",
+              "NAME": "6    Temizel,Hazar",
+              "Rtg": "1100",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "12.5",
+              "BH-C1": "10.5"
+            },
+            {
+              "Pos": "3",
+              "NAME": "3    Picone,James",
+              "Rtg": "1482",
+              "Fed": "",
+              "Pts": "3.5",
+              "BH": "15.5",
+              "BH-C1": "14.5"
+            },
+            {
+              "Pos": "4",
+              "NAME": "12    Ilic,Milan",
+              "Rtg": "1541",
+              "Fed": "",
+              "Pts": "3.5",
+              "BH": "12.5",
+              "BH-C1": "11.5"
+            },
+            {
+              "Pos": "5",
+              "NAME": "7    Bodke,Krishna",
+              "Rtg": "1044",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "14.0",
+              "BH-C1": "12.0"
+            },
+            {
+              "Pos": "6",
+              "NAME": "13    Nawar,Mena",
+              "Rtg": "613",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "12.0",
+              "BH-C1": "11.0"
+            },
+            {
+              "Pos": "7",
+              "NAME": "11    Sicurella,Lucas",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.5",
+              "BH": "11.5",
+              "BH-C1": "10.5"
+            },
+            {
+              "Pos": "8",
+              "NAME": "5    Richards,Derek",
+              "Rtg": "1207",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "14.5",
+              "BH-C1": "12.5"
+            },
+            {
+              "Pos": "9",
+              "NAME": "1    McIntyre,Julian",
+              "Rtg": "1547",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "11.5"
+            },
+            {
+              "Pos": "10",
+              "NAME": "2    Hogan,Steven",
+              "Rtg": "1494",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "10.5"
+            },
+            {
+              "Pos": "11",
+              "NAME": "14    Whitford,Matthew",
+              "Rtg": "1562",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "12.0",
+              "BH-C1": "11.0"
+            },
+            {
+              "Pos": "12",
+              "NAME": "8    Clerk,Max",
+              "Rtg": "1032",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "12.0",
+              "BH-C1": "10.0"
+            },
+            {
+              "Pos": "13",
+              "NAME": "10    Nicdao,Joseph (W)",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "11.0",
+              "BH-C1": "10.0"
+            },
+            {
+              "Pos": "14",
+              "NAME": "9    Liu,Tina (W)",
+              "Rtg": "495",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "10.0",
+              "BH-C1": "9.5"
+            }
+          ]
+        }
+      ]
+    },
+    "summaryFederations.html": {
+      "pageHeading": "Summary by Federations",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Name",
+            "Points"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Name": "VIC",
+              "Points": "4"
+            },
+            {
+              "Pos": "2",
+              "Name": "AUS",
+              "Points": "2.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "",
+            "White Player",
+            "Pts",
+            "NW",
+            "Result",
+            "NB",
+            "Pts",
+            "Black Player",
+            ""
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "col2": "",
+              "White Player": "Ilic,Milan",
+              "Pts": "(3.5)",
+              "NW": "12",
+              "Result": "1 - 0",
+              "NB": "3",
+              "Black Player": "Picone,James",
+              "col10": ""
+            },
+            {
+              "Bo.": "2",
+              "col2": "",
+              "White Player": "Nguyen,Anh Kiet",
+              "Pts": "(3.0)",
+              "NW": "4",
+              "Result": "1 - 0",
+              "NB": "7",
+              "Black Player": "Bodke,Krishna",
+              "col10": ""
+            },
+            {
+              "Bo.": "3",
+              "col2": "",
+              "White Player": "Temizel,Hazar",
+              "Pts": "(2.0)",
+              "NW": "6",
+              "Result": "1 - 0",
+              "NB": "1",
+              "Black Player": "McIntyre,Julian",
+              "col10": ""
+            },
+            {
+              "Bo.": "4",
+              "col2": "",
+              "White Player": "Richards,Derek",
+              "Pts": "(2.0)",
+              "NW": "5",
+              "Result": "0F-1F",
+              "NB": "13",
+              "Black Player": "Nawar,Mena",
+              "col10": ""
+            },
+            {
+              "Bo.": "5",
+              "col2": "",
+              "White Player": "Clerk,Max",
+              "Pts": "(1.5)",
+              "NW": "8",
+              "Result": "0 - 1",
+              "NB": "11",
+              "Black Player": "Sicurella,Lucas",
+              "col10": ""
+            },
+            {
+              "Bo.": "6",
+              "col2": "",
+              "White Player": "Hogan,Steven",
+              "Pts": "(1.0)",
+              "NW": "2",
+              "Result": "1 - 0",
+              "NB": "14",
+              "Black Player": "Whitford,Matthew",
+              "col10": ""
+            },
+            {
+              "Bo.": "7",
+              "col2": "",
+              "White Player": "Liu,Tina",
+              "Pts": "(0.0)",
+              "NW": "9",
+              "Result": "0",
+              "NB": "0",
+              "Black Player": "BYE",
+              "col10": ""
+            },
+            {
+              "Bo.": "8",
+              "col2": "",
+              "White Player": "Nicdao,Joseph",
+              "Pts": "(0.0)",
+              "NW": "10",
+              "Result": "0",
+              "NB": "0",
+              "Black Player": "BYE",
+              "col10": ""
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "PRtg",
+            "Fed",
+            "Origin",
+            "Pts",
+            "BH",
+            "BH-C1"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "4",
+              "T": "",
+              "NAME": "Nguyen,Anh Kiet",
+              "Rtg": "1276",
+              "PRtg": "1726",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "14.5",
+              "BH-C1": "12.5"
+            },
+            {
+              "Pos": "2",
+              "N": "6",
+              "T": "",
+              "NAME": "Temizel,Hazar",
+              "Rtg": "1100",
+              "PRtg": "1410",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "12.5",
+              "BH-C1": "10.5"
+            },
+            {
+              "Pos": "3",
+              "N": "3",
+              "T": "",
+              "NAME": "Picone,James",
+              "Rtg": "1482",
+              "PRtg": "1240",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "15.5",
+              "BH-C1": "14.5"
+            },
+            {
+              "Pos": "4",
+              "N": "12",
+              "T": "",
+              "NAME": "Ilic,Milan",
+              "Rtg": "1541",
+              "PRtg": "1342",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "12.5",
+              "BH-C1": "11.5"
+            },
+            {
+              "Pos": "5",
+              "N": "7",
+              "T": "",
+              "NAME": "Bodke,Krishna",
+              "Rtg": "1044",
+              "PRtg": "1374",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "14.0",
+              "BH-C1": "12.0"
+            },
+            {
+              "Pos": "6",
+              "N": "13",
+              "T": "",
+              "NAME": "Nawar,Mena",
+              "Rtg": "613",
+              "PRtg": "1099",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "12.0",
+              "BH-C1": "11.0"
+            },
+            {
+              "Pos": "8",
+              "N": "5",
+              "T": "",
+              "NAME": "Richards,Derek",
+              "Rtg": "1207",
+              "PRtg": "1036",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "14.5",
+              "BH-C1": "12.5"
+            },
+            {
+              "Pos": "9",
+              "N": "1",
+              "T": "",
+              "NAME": "McIntyre,Julian",
+              "Rtg": "1547",
+              "PRtg": "1062",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "11.5"
+            },
+            {
+              "Pos": "10",
+              "N": "2",
+              "T": "",
+              "NAME": "Hogan,Steven",
+              "Rtg": "1494",
+              "PRtg": "1211",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "10.5"
+            },
+            {
+              "Pos": "11",
+              "N": "14",
+              "T": "",
+              "NAME": "Whitford,Matthew",
+              "Rtg": "1562",
+              "PRtg": "1052",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "12.0",
+              "BH-C1": "11.0"
+            },
+            {
+              "Pos": "12",
+              "N": "8",
+              "T": "",
+              "NAME": "Clerk,Max",
+              "Rtg": "1032",
+              "PRtg": "999",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "12.0",
+              "BH-C1": "10.0"
+            },
+            {
+              "Pos": "13",
+              "N": "10",
+              "T": "",
+              "NAME": "Nicdao,Joseph (W)",
+              "Rtg": "0",
+              "PRtg": "790",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "11.0",
+              "BH-C1": "10.0"
+            },
+            {
+              "Pos": "14",
+              "N": "9",
+              "T": "",
+              "NAME": "Liu,Tina (W)",
+              "Rtg": "495",
+              "PRtg": "548",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "10.0",
+              "BH-C1": "9.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "",
+            "White Player",
+            "Pts",
+            "NW",
+            "Result",
+            "NB",
+            "Pts",
+            "Black Player",
+            ""
+          ],
+          "rows": [
+            {
+              "Bo.": "5",
+              "col2": "",
+              "White Player": "Clerk,Max",
+              "Pts": "(1.5)",
+              "NW": "8",
+              "Result": "0 - 1",
+              "NB": "11",
+              "Black Player": "Sicurella,Lucas",
+              "col10": ""
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "PRtg",
+            "Fed",
+            "Origin",
+            "Pts",
+            "BH",
+            "BH-C1"
+          ],
+          "rows": [
+            {
+              "Pos": "7",
+              "N": "11",
+              "T": "",
+              "NAME": "Sicurella,Lucas",
+              "Rtg": "0",
+              "PRtg": "1276",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.5",
+              "BH": "11.5",
+              "BH-C1": "10.5"
+            }
+          ]
+        }
+      ]
+    },
+    "summaryOrigin.html": {
+      "pageHeading": "Summary by Origin",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Name",
+            "Points"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Name": "",
+              "Points": "4"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "",
+            "White Player",
+            "Pts",
+            "NW",
+            "Result",
+            "NB",
+            "Pts",
+            "Black Player",
+            ""
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "col2": "",
+              "White Player": "Ilic,Milan",
+              "Pts": "(3.5)",
+              "NW": "12",
+              "Result": "1 - 0",
+              "NB": "3",
+              "Black Player": "Picone,James",
+              "col10": ""
+            },
+            {
+              "Bo.": "2",
+              "col2": "",
+              "White Player": "Nguyen,Anh Kiet",
+              "Pts": "(3.0)",
+              "NW": "4",
+              "Result": "1 - 0",
+              "NB": "7",
+              "Black Player": "Bodke,Krishna",
+              "col10": ""
+            },
+            {
+              "Bo.": "3",
+              "col2": "",
+              "White Player": "Temizel,Hazar",
+              "Pts": "(2.0)",
+              "NW": "6",
+              "Result": "1 - 0",
+              "NB": "1",
+              "Black Player": "McIntyre,Julian",
+              "col10": ""
+            },
+            {
+              "Bo.": "4",
+              "col2": "",
+              "White Player": "Richards,Derek",
+              "Pts": "(2.0)",
+              "NW": "5",
+              "Result": "0F-1F",
+              "NB": "13",
+              "Black Player": "Nawar,Mena",
+              "col10": ""
+            },
+            {
+              "Bo.": "5",
+              "col2": "",
+              "White Player": "Clerk,Max",
+              "Pts": "(1.5)",
+              "NW": "8",
+              "Result": "0 - 1",
+              "NB": "11",
+              "Black Player": "Sicurella,Lucas",
+              "col10": ""
+            },
+            {
+              "Bo.": "6",
+              "col2": "",
+              "White Player": "Hogan,Steven",
+              "Pts": "(1.0)",
+              "NW": "2",
+              "Result": "1 - 0",
+              "NB": "14",
+              "Black Player": "Whitford,Matthew",
+              "col10": ""
+            },
+            {
+              "Bo.": "7",
+              "col2": "",
+              "White Player": "Liu,Tina",
+              "Pts": "(0.0)",
+              "NW": "9",
+              "Result": "0",
+              "NB": "0",
+              "Black Player": "BYE",
+              "col10": ""
+            },
+            {
+              "Bo.": "8",
+              "col2": "",
+              "White Player": "Nicdao,Joseph",
+              "Pts": "(0.0)",
+              "NW": "10",
+              "Result": "0",
+              "NB": "0",
+              "Black Player": "BYE",
+              "col10": ""
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "PRtg",
+            "Fed",
+            "Origin",
+            "Pts",
+            "BH",
+            "BH-C1"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "4",
+              "T": "",
+              "NAME": "Nguyen,Anh Kiet",
+              "Rtg": "1276",
+              "PRtg": "1726",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "14.5",
+              "BH-C1": "12.5"
+            },
+            {
+              "Pos": "2",
+              "N": "6",
+              "T": "",
+              "NAME": "Temizel,Hazar",
+              "Rtg": "1100",
+              "PRtg": "1410",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "12.5",
+              "BH-C1": "10.5"
+            },
+            {
+              "Pos": "3",
+              "N": "3",
+              "T": "",
+              "NAME": "Picone,James",
+              "Rtg": "1482",
+              "PRtg": "1240",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "15.5",
+              "BH-C1": "14.5"
+            },
+            {
+              "Pos": "4",
+              "N": "12",
+              "T": "",
+              "NAME": "Ilic,Milan",
+              "Rtg": "1541",
+              "PRtg": "1342",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "12.5",
+              "BH-C1": "11.5"
+            },
+            {
+              "Pos": "5",
+              "N": "7",
+              "T": "",
+              "NAME": "Bodke,Krishna",
+              "Rtg": "1044",
+              "PRtg": "1374",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "14.0",
+              "BH-C1": "12.0"
+            },
+            {
+              "Pos": "6",
+              "N": "13",
+              "T": "",
+              "NAME": "Nawar,Mena",
+              "Rtg": "613",
+              "PRtg": "1099",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "12.0",
+              "BH-C1": "11.0"
+            },
+            {
+              "Pos": "7",
+              "N": "11",
+              "T": "",
+              "NAME": "Sicurella,Lucas",
+              "Rtg": "0",
+              "PRtg": "1276",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.5",
+              "BH": "11.5",
+              "BH-C1": "10.5"
+            },
+            {
+              "Pos": "8",
+              "N": "5",
+              "T": "",
+              "NAME": "Richards,Derek",
+              "Rtg": "1207",
+              "PRtg": "1036",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "14.5",
+              "BH-C1": "12.5"
+            },
+            {
+              "Pos": "9",
+              "N": "1",
+              "T": "",
+              "NAME": "McIntyre,Julian",
+              "Rtg": "1547",
+              "PRtg": "1062",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "11.5"
+            },
+            {
+              "Pos": "10",
+              "N": "2",
+              "T": "",
+              "NAME": "Hogan,Steven",
+              "Rtg": "1494",
+              "PRtg": "1211",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "10.5"
+            },
+            {
+              "Pos": "11",
+              "N": "14",
+              "T": "",
+              "NAME": "Whitford,Matthew",
+              "Rtg": "1562",
+              "PRtg": "1052",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "12.0",
+              "BH-C1": "11.0"
+            },
+            {
+              "Pos": "12",
+              "N": "8",
+              "T": "",
+              "NAME": "Clerk,Max",
+              "Rtg": "1032",
+              "PRtg": "999",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "12.0",
+              "BH-C1": "10.0"
+            },
+            {
+              "Pos": "13",
+              "N": "10",
+              "T": "",
+              "NAME": "Nicdao,Joseph (W)",
+              "Rtg": "0",
+              "PRtg": "790",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "11.0",
+              "BH-C1": "10.0"
+            },
+            {
+              "Pos": "14",
+              "N": "9",
+              "T": "",
+              "NAME": "Liu,Tina (W)",
+              "Rtg": "495",
+              "PRtg": "548",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "10.0",
+              "BH-C1": "9.5"
+            }
+          ]
+        }
+      ]
+    },
+    "tourstat.html": {
+      "pageHeading": "Tournament summary",
+      "tables": [
+        {
+          "headers": [],
+          "rows": [
+            {
+              "col1": "Tournament Name",
+              "col2": "Rapid 1 2024"
+            },
+            {
+              "col1": "Place",
+              "col2": "myTown"
+            },
+            {
+              "col1": "Federation",
+              "col2": "AUS"
+            },
+            {
+              "col1": "Date Begin",
+              "col2": "02/04/2024"
+            },
+            {
+              "col1": "Date End",
+              "col2": "02/04/2024"
+            },
+            {
+              "col1": "Arbiter(s)",
+              "col2": "Steven Hogan"
+            },
+            {
+              "col1": "Play System",
+              "col2": "swiss FIDE Dutch (JaVaFo)"
+            },
+            {
+              "col1": "Rounds",
+              "col2": "5"
+            },
+            {
+              "col1": "Score game",
+              "col2": "0-0.5-1"
+            },
+            {
+              "col1": "Tie break",
+              "col2": "BH   BH-C1"
+            },
+            {
+              "col1": "Registered Players",
+              "col2": "14"
+            },
+            {
+              "col1": "Number of Federations",
+              "col2": "2"
+            },
+            {
+              "col1": "Average Rating (all)",
+              "col2": "1028"
+            },
+            {
+              "col1": "Average Rating (only FIDE rated)",
+              "col2": "0"
+            },
+            {
+              "col1": "Players from AUS Federation",
+              "col2": "1"
+            },
+            {
+              "col1": "Players NOT from AUS Federation",
+              "col2": "13"
+            },
+            {
+              "col1": "FIDE rated players",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players",
+              "col2": "14"
+            },
+            {
+              "col1": "unrated players from AUS Federation",
+              "col2": "1"
+            },
+            {
+              "col1": "unrated players NOT from AUS Federation",
+              "col2": "13"
+            },
+            {
+              "col1": "unrated Federations",
+              "col2": "2"
+            },
+            {
+              "col1": "FIDE titled players",
+              "col2": "0"
+            },
+            {
+              "col1": "GM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WGM players",
+              "col2": "0"
+            },
+            {
+              "col1": "IM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WIM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WFM players",
+              "col2": "0"
+            },
+            {
+              "col1": "CM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WCM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player NOT from AUS Federation",
+              "col2": "0"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "menu": [
+    {
+      "text": "Info",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Schedule",
+          "href": "schedule.html"
+        },
+        {
+          "text": "Statistics",
+          "href": "tourstat.html"
+        }
+      ]
+    },
+    {
+      "text": "Players",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Sorted by Rating",
+          "href": "index.html"
+        },
+        {
+          "text": "Sorted by Name",
+          "href": "playersname.html"
+        }
+      ]
+    },
+    {
+      "text": "Pairings",
+      "href": "pairs5.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Standings",
+      "href": "standings.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Tables",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Schedule",
+          "href": "schedule.html"
+        },
+        {
+          "text": "Cross table by score",
+          "href": "crosstablescore.html"
+        },
+        {
+          "text": "Standings by Rtg groups",
+          "href": "rankinggroup.html"
+        },
+        {
+          "text": "Standings by age groups",
+          "href": "rankingagegroup.html"
+        },
+        {
+          "text": "Standings by title",
+          "href": "rankcat.html"
+        },
+        {
+          "text": "Rank Teams",
+          "href": "rankTeams.html"
+        },
+        {
+          "text": "Summary Federations",
+          "href": "summaryFederations.html"
+        },
+        {
+          "text": "Summary Origin",
+          "href": "summaryOrigin.html"
+        }
+      ]
+    },
+    {
+      "text": "Reports",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "FIDE Rating",
+          "href": "felovar.html"
+        },
+        {
+          "text": "FIDE Player Card",
+          "href": "fideplayercard.html"
+        },
+        {
+          "text": "National rating",
+          "href": "nelovar.html"
+        },
+        {
+          "text": "National Player Card",
+          "href": "playercard.html"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "Tournament Name": "Rapid 1 2024",
+    "Place": "myTown",
+    "Federation": "AUS",
+    "Date Begin": "02/04/2024",
+    "Date End": "02/04/2024",
+    "Arbiter(s)": "Steven Hogan",
+    "Play System": "swiss FIDE Dutch (JaVaFo)",
+    "Rounds": "5",
+    "Score game": "0-0.5-1",
+    "Tie break": "BH BH-C1",
+    "Registered Players": "14",
+    "Number of Federations": "2",
+    "Average Rating (all)": "1028",
+    "Average Rating (only FIDE rated)": "0",
+    "Players from AUS Federation": "1",
+    "Players NOT from AUS Federation": "13",
+    "FIDE rated players": "0",
+    "unrated players": "14",
+    "unrated players from AUS Federation": "1",
+    "unrated players NOT from AUS Federation": "13",
+    "unrated Federations": "2",
+    "FIDE titled players": "0",
+    "GM players": "0",
+    "WGM players": "0",
+    "IM players": "0",
+    "WIM players": "0",
+    "FM players": "0",
+    "WFM players": "0",
+    "CM players": "0",
+    "WCM players": "0",
+    "FIDE titled player from AUS Federation": "0",
+    "FIDE titled player NOT from AUS Federation": "0"
+  }
+}

@@ -1,0 +1,719 @@
+{
+  "page": {
+    "felovar.html": {
+      "pageHeading": "FIDE rating variation at round 0",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "FIDE ID",
+            "Fed",
+            "Rtg",
+            "Ng",
+            "Pts",
+            "ARO",
+            "var",
+            "Rp"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "fideplayercard.html": {
+      "pageHeading": "FIDE History Cards",
+      "tables": []
+    },
+    "game.html": {
+      "pageHeading": "",
+      "tables": []
+    },
+    "games.html": {
+      "pageHeading": "",
+      "tables": []
+    },
+    "index.html": {
+      "pageHeading": "Registered players",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Title",
+            "↕ Player",
+            "Fed",
+            "↕ Rtg",
+            "↕ RtgF",
+            "↕ RtgN"
+          ],
+          "rows": [
+            {
+              "#": "1",
+              "Title": "",
+              "↕ Player": "Parker,Lucas",
+              "Fed": "",
+              "↕ Rtg": "1442",
+              "↕ RtgF": "1633",
+              "↕ RtgN": "1442"
+            },
+            {
+              "#": "2",
+              "Title": "",
+              "↕ Player": "Arora,Daanish",
+              "Fed": "",
+              "↕ Rtg": "948",
+              "↕ RtgF": "1402",
+              "↕ RtgN": "948"
+            },
+            {
+              "#": "3",
+              "Title": "",
+              "↕ Player": "Ahmad,Ihtiram",
+              "Fed": "",
+              "↕ Rtg": "889",
+              "↕ RtgF": "1554",
+              "↕ RtgN": "889"
+            },
+            {
+              "#": "4",
+              "Title": "",
+              "↕ Player": "Ngo,William",
+              "Fed": "",
+              "↕ Rtg": "863",
+              "↕ RtgF": "1454",
+              "↕ RtgN": "863"
+            },
+            {
+              "#": "5",
+              "Title": "",
+              "↕ Player": "Balaji,Sai Sivesh",
+              "Fed": "",
+              "↕ Rtg": "710",
+              "↕ RtgF": "1491",
+              "↕ RtgN": "710"
+            },
+            {
+              "#": "6",
+              "Title": "",
+              "↕ Player": "Shaiek,Nihal",
+              "Fed": "",
+              "↕ Rtg": "582",
+              "↕ RtgF": "1442",
+              "↕ RtgN": "582"
+            },
+            {
+              "#": "7",
+              "Title": "",
+              "↕ Player": "Shinde,Yug",
+              "Fed": "",
+              "↕ Rtg": "565",
+              "↕ RtgF": "1438",
+              "↕ RtgN": "565"
+            },
+            {
+              "#": "8",
+              "Title": "",
+              "↕ Player": "Goh,Nicholas",
+              "Fed": "",
+              "↕ Rtg": "564",
+              "↕ RtgF": "1413",
+              "↕ RtgN": "564"
+            },
+            {
+              "#": "9",
+              "Title": "",
+              "↕ Player": "Gajula,Karan",
+              "Fed": "",
+              "↕ Rtg": "377",
+              "↕ RtgF": "0",
+              "↕ RtgN": "377"
+            },
+            {
+              "#": "10",
+              "Title": "",
+              "↕ Player": "Goh,Julian",
+              "Fed": "",
+              "↕ Rtg": "239",
+              "↕ RtgF": "0",
+              "↕ RtgN": "239"
+            },
+            {
+              "#": "11",
+              "Title": "",
+              "↕ Player": "Goh,Daphne",
+              "Fed": "",
+              "↕ Rtg": "100",
+              "↕ RtgF": "0",
+              "↕ RtgN": "100"
+            },
+            {
+              "#": "12",
+              "Title": "",
+              "↕ Player": "Barar,Ridam",
+              "Fed": "",
+              "↕ Rtg": "0",
+              "↕ RtgF": "0",
+              "↕ RtgN": "0"
+            },
+            {
+              "#": "13",
+              "Title": "",
+              "↕ Player": "Bhatia,Sannah",
+              "Fed": "",
+              "↕ Rtg": "0",
+              "↕ RtgF": "0",
+              "↕ RtgN": "0"
+            },
+            {
+              "#": "14",
+              "Title": "",
+              "↕ Player": "Gajula,Nishitha",
+              "Fed": "",
+              "↕ Rtg": "0",
+              "↕ RtgF": "0",
+              "↕ RtgN": "0"
+            },
+            {
+              "#": "15",
+              "Title": "",
+              "↕ Player": "Hii,Elliott",
+              "Fed": "",
+              "↕ Rtg": "0",
+              "↕ RtgF": "0",
+              "↕ RtgN": "0"
+            },
+            {
+              "#": "16",
+              "Title": "",
+              "↕ Player": "Padoli,Darsh",
+              "Fed": "",
+              "↕ Rtg": "0",
+              "↕ RtgF": "0",
+              "↕ RtgN": "0"
+            },
+            {
+              "#": "17",
+              "Title": "",
+              "↕ Player": "Shetty,Yohan",
+              "Fed": "",
+              "↕ Rtg": "0",
+              "↕ RtgF": "0",
+              "↕ RtgN": "0"
+            },
+            {
+              "#": "18",
+              "Title": "",
+              "↕ Player": "Spriggs,Harvey",
+              "Fed": "",
+              "↕ Rtg": "0",
+              "↕ RtgF": "0",
+              "↕ RtgN": "0"
+            }
+          ]
+        }
+      ]
+    },
+    "nelovar.html": {
+      "pageHeading": "National rating at round 0",
+      "tables": [
+        {
+          "headers": [
+            "N",
+            "Name",
+            "K",
+            "Elo",
+            "Var",
+            "Per"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "pairing.html": {
+      "pageHeading": "",
+      "tables": []
+    },
+    "playercard.html": {
+      "pageHeading": "National History Cards",
+      "tables": [
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "schedule.html": {
+      "pageHeading": "Schedule",
+      "tables": [
+        {
+          "headers": [
+            "Round",
+            "Time",
+            "Date"
+          ],
+          "rows": [
+            {
+              "Round": "1",
+              "Time": "09:00",
+              "Date": "18/10/2025"
+            },
+            {
+              "Round": "2",
+              "Time": "10:10",
+              "Date": "18/10/2025"
+            },
+            {
+              "Round": "3",
+              "Time": "11:20",
+              "Date": "18/10/2025"
+            },
+            {
+              "Round": "4",
+              "Time": "13:00",
+              "Date": "18/10/2025"
+            },
+            {
+              "Round": "5",
+              "Time": "14:10",
+              "Date": "18/10/2025"
+            },
+            {
+              "Round": "6",
+              "Time": "15:20",
+              "Date": "18/10/2025"
+            },
+            {
+              "Round": "7",
+              "Time": "16:30",
+              "Date": "18/10/2025"
+            }
+          ]
+        }
+      ]
+    },
+    "tourstat.html": {
+      "pageHeading": "Tournament summary",
+      "tables": [
+        {
+          "headers": [],
+          "rows": [
+            {
+              "col1": "Tournament Name",
+              "col2": "2025 Hobsons Bay Juniors Rapid Championship"
+            },
+            {
+              "col1": "Place",
+              "col2": "Hobsons Bay Chess Club"
+            },
+            {
+              "col1": "Federation",
+              "col2": "AUS"
+            },
+            {
+              "col1": "Date Begin",
+              "col2": "18/10/2025"
+            },
+            {
+              "col1": "Date End",
+              "col2": "18/10/2025"
+            },
+            {
+              "col1": "Arbiter(s)",
+              "col2": "NA Dwyer, Lachlan (AUS) 3254119 (VIC)"
+            },
+            {
+              "col1": "Play System",
+              "col2": "swiss FIDE Dutch (JaVaFo)"
+            },
+            {
+              "col1": "Rounds",
+              "col2": "7"
+            },
+            {
+              "col1": "Score game",
+              "col2": "0-0.5-1"
+            },
+            {
+              "col1": "Tie break",
+              "col2": "BH   BH/C1      SB"
+            },
+            {
+              "col1": "Registered Players",
+              "col2": "18"
+            },
+            {
+              "col1": "Number of Federations",
+              "col2": "4"
+            },
+            {
+              "col1": "Average Rating (all)",
+              "col2": "697"
+            },
+            {
+              "col1": "Average Rating (only FIDE rated)",
+              "col2": "1478"
+            },
+            {
+              "col1": "Players from AUS Federation",
+              "col2": "10"
+            },
+            {
+              "col1": "Players NOT from AUS Federation",
+              "col2": "8"
+            },
+            {
+              "col1": "FIDE rated players",
+              "col2": "8"
+            },
+            {
+              "col1": "unrated players",
+              "col2": "10"
+            },
+            {
+              "col1": "unrated players from AUS Federation",
+              "col2": "4"
+            },
+            {
+              "col1": "unrated players NOT from AUS Federation",
+              "col2": "6"
+            },
+            {
+              "col1": "unrated Federations",
+              "col2": "2"
+            },
+            {
+              "col1": "FIDE titled players",
+              "col2": "0"
+            },
+            {
+              "col1": "GM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WGM players",
+              "col2": "0"
+            },
+            {
+              "col1": "IM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WIM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WFM players",
+              "col2": "0"
+            },
+            {
+              "col1": "CM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WCM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player NOT from AUS Federation",
+              "col2": "0"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "menu": [
+    {
+      "text": "Info",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Schedule",
+          "href": "schedule.html"
+        },
+        {
+          "text": "Statistics",
+          "href": "tourstat.html"
+        }
+      ]
+    },
+    {
+      "text": "Players",
+      "href": "index.html",
+      "isDropdown": true,
+      "children": []
+    }
+  ],
+  "metadata": {
+    "Tournament Name": "2025 Hobsons Bay Juniors Rapid Championship",
+    "Place": "Hobsons Bay Chess Club",
+    "Federation": "AUS",
+    "Date Begin": "18/10/2025",
+    "Date End": "18/10/2025",
+    "Arbiter(s)": "NA Dwyer, Lachlan (AUS) 3254119 (VIC)",
+    "Play System": "swiss FIDE Dutch (JaVaFo)",
+    "Rounds": "7",
+    "Score game": "0-0.5-1",
+    "Tie break": "BH BH/C1 SB",
+    "Registered Players": "18",
+    "Number of Federations": "4",
+    "Average Rating (all)": "697",
+    "Average Rating (only FIDE rated)": "1478",
+    "Players from AUS Federation": "10",
+    "Players NOT from AUS Federation": "8",
+    "FIDE rated players": "8",
+    "unrated players": "10",
+    "unrated players from AUS Federation": "4",
+    "unrated players NOT from AUS Federation": "6",
+    "unrated Federations": "2",
+    "FIDE titled players": "0",
+    "GM players": "0",
+    "WGM players": "0",
+    "IM players": "0",
+    "WIM players": "0",
+    "FM players": "0",
+    "WFM players": "0",
+    "CM players": "0",
+    "WCM players": "0",
+    "FIDE titled player from AUS Federation": "0",
+    "FIDE titled player NOT from AUS Federation": "0"
+  }
+}

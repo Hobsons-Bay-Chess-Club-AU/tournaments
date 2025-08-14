@@ -1,0 +1,1695 @@
+{
+  "page": {
+    "felovar.html": {
+      "pageHeading": "FIDE rating variation at round 0",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "FIDE ID",
+            "Fed",
+            "Rtg",
+            "Ng",
+            "Pts",
+            "ARO",
+            "var",
+            "Rp"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "fideplayercard.html": {
+      "pageHeading": "FIDE History Cards",
+      "tables": []
+    },
+    "game.html": {
+      "pageHeading": "",
+      "tables": []
+    },
+    "games.html": {
+      "pageHeading": "",
+      "tables": []
+    },
+    "index.html": {
+      "pageHeading": "Registered players",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Title",
+            "↕ Player",
+            "Fed",
+            "Origin",
+            "↕ Rtg",
+            "↕ RtgF",
+            "↕ RtgN"
+          ],
+          "rows": [
+            {
+              "#": "1",
+              "Title": "FM",
+              "↕ Player": "Soo,Kai Jie",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "2262",
+              "↕ RtgF": "0",
+              "↕ RtgN": "2262"
+            },
+            {
+              "#": "2",
+              "Title": "FM",
+              "↕ Player": "Dragicevic,Domagoj",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "2154",
+              "↕ RtgF": "0",
+              "↕ RtgN": "2154"
+            },
+            {
+              "#": "3",
+              "Title": "FM",
+              "↕ Player": "Yang,Ray",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "2112",
+              "↕ RtgF": "0",
+              "↕ RtgN": "2112"
+            },
+            {
+              "#": "4",
+              "Title": "FM",
+              "↕ Player": "Bassig,Hamish",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "2065",
+              "↕ RtgF": "0",
+              "↕ RtgN": "2065"
+            },
+            {
+              "#": "5",
+              "Title": "",
+              "↕ Player": "Pitono,Abraham",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1771",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1771"
+            },
+            {
+              "#": "6",
+              "Title": "WFM",
+              "↕ Player": "Chibnall,Alana",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1766",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1766"
+            },
+            {
+              "#": "7",
+              "Title": "",
+              "↕ Player": "Herlihy,Brian",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1748",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1748"
+            },
+            {
+              "#": "8",
+              "Title": "",
+              "↕ Player": "Lim,Jongmin",
+              "Fed": "NSW",
+              "Origin": "",
+              "↕ Rtg": "1676",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1676"
+            },
+            {
+              "#": "9",
+              "Title": "",
+              "↕ Player": "Lingineni,Khushal",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1631",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1631"
+            },
+            {
+              "#": "10",
+              "Title": "",
+              "↕ Player": "Hari,Dhruv",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1554",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1554"
+            },
+            {
+              "#": "11",
+              "Title": "WIM",
+              "↕ Player": "Szuveges,Narelle S",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1546",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1546"
+            },
+            {
+              "#": "12",
+              "Title": "",
+              "↕ Player": "Cheema,Mohammad",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1542",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1542"
+            },
+            {
+              "#": "13",
+              "Title": "",
+              "↕ Player": "Nguyen,Anh Kiet",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1534",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1534"
+            },
+            {
+              "#": "14",
+              "Title": "",
+              "↕ Player": "Li,LiYuan",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1530",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1530"
+            },
+            {
+              "#": "15",
+              "Title": "",
+              "↕ Player": "Hogan,Steven",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1485",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1485"
+            },
+            {
+              "#": "16",
+              "Title": "",
+              "↕ Player": "Humphreys,Scott",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1471",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1471"
+            },
+            {
+              "#": "17",
+              "Title": "",
+              "↕ Player": "Nowak,Ruben",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1467",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1467"
+            },
+            {
+              "#": "18",
+              "Title": "",
+              "↕ Player": "Picone,James",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1464",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1464"
+            },
+            {
+              "#": "19",
+              "Title": "",
+              "↕ Player": "Rehill,Paul",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1451",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1451"
+            },
+            {
+              "#": "20",
+              "Title": "",
+              "↕ Player": "Whitford,Matthew",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1447",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1447"
+            },
+            {
+              "#": "21",
+              "Title": "",
+              "↕ Player": "Bodke,Krishna",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1407",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1407"
+            },
+            {
+              "#": "22",
+              "Title": "",
+              "↕ Player": "Tang,Fergus",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1365",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1365"
+            },
+            {
+              "#": "23",
+              "Title": "",
+              "↕ Player": "Parker,Lucas",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1333",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1333"
+            },
+            {
+              "#": "24",
+              "Title": "",
+              "↕ Player": "Scenna,Luna",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1304",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1304"
+            },
+            {
+              "#": "25",
+              "Title": "",
+              "↕ Player": "Brockman,Roland",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1257",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1257"
+            },
+            {
+              "#": "26",
+              "Title": "",
+              "↕ Player": "Gupta,Aadyah",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1245",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1245"
+            },
+            {
+              "#": "27",
+              "Title": "",
+              "↕ Player": "Rathore,Akshobhya",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1227",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1227"
+            },
+            {
+              "#": "28",
+              "Title": "",
+              "↕ Player": "Ramanathan,Ashwin",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1192",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1192"
+            },
+            {
+              "#": "29",
+              "Title": "",
+              "↕ Player": "Wilkinson,Greg",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1180",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1180"
+            },
+            {
+              "#": "30",
+              "Title": "",
+              "↕ Player": "Gurkan,Mehmet",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1072",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1072"
+            },
+            {
+              "#": "31",
+              "Title": "",
+              "↕ Player": "Zhou,Emma",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1058",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1058"
+            },
+            {
+              "#": "32",
+              "Title": "",
+              "↕ Player": "Huang,Joshua Kai-En",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1045",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1045"
+            },
+            {
+              "#": "33",
+              "Title": "",
+              "↕ Player": "Sheth,Adidev",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1027",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1027"
+            },
+            {
+              "#": "34",
+              "Title": "",
+              "↕ Player": "Batyrbekov,Kaisar",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "1007",
+              "↕ RtgF": "0",
+              "↕ RtgN": "1007"
+            },
+            {
+              "#": "35",
+              "Title": "",
+              "↕ Player": "Laffey,Julian",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "984",
+              "↕ RtgF": "0",
+              "↕ RtgN": "984"
+            },
+            {
+              "#": "36",
+              "Title": "",
+              "↕ Player": "Gurkan,Ahmet",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "978",
+              "↕ RtgF": "0",
+              "↕ RtgN": "978"
+            },
+            {
+              "#": "37",
+              "Title": "",
+              "↕ Player": "Ngo,William",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "975",
+              "↕ RtgF": "0",
+              "↕ RtgN": "975"
+            },
+            {
+              "#": "38",
+              "Title": "",
+              "↕ Player": "Scenna,George",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "946",
+              "↕ RtgF": "0",
+              "↕ RtgN": "946"
+            },
+            {
+              "#": "39",
+              "Title": "",
+              "↕ Player": "Yates,Anna",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "935",
+              "↕ RtgF": "0",
+              "↕ RtgN": "935"
+            },
+            {
+              "#": "40",
+              "Title": "",
+              "↕ Player": "Ashok,Arjun",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "930",
+              "↕ RtgF": "0",
+              "↕ RtgN": "930"
+            },
+            {
+              "#": "41",
+              "Title": "",
+              "↕ Player": "Wang,Adelyn",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "929",
+              "↕ RtgF": "0",
+              "↕ RtgN": "929"
+            },
+            {
+              "#": "42",
+              "Title": "",
+              "↕ Player": "Jagannathan,Shashvath",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "919",
+              "↕ RtgF": "0",
+              "↕ RtgN": "919"
+            },
+            {
+              "#": "43",
+              "Title": "",
+              "↕ Player": "Batyrbekov,Aidan",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "898",
+              "↕ RtgF": "0",
+              "↕ RtgN": "898"
+            },
+            {
+              "#": "44",
+              "Title": "",
+              "↕ Player": "Ruaya,Rohan",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "857",
+              "↕ RtgF": "0",
+              "↕ RtgN": "857"
+            },
+            {
+              "#": "45",
+              "Title": "",
+              "↕ Player": "Ahmad,Ihtiram",
+              "Fed": "OS",
+              "Origin": "",
+              "↕ Rtg": "841",
+              "↕ RtgF": "0",
+              "↕ RtgN": "841"
+            },
+            {
+              "#": "46",
+              "Title": "",
+              "↕ Player": "Zhou,Teng",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "798",
+              "↕ RtgF": "0",
+              "↕ RtgN": "798"
+            },
+            {
+              "#": "47",
+              "Title": "",
+              "↕ Player": "Wales,Sam",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "771",
+              "↕ RtgF": "0",
+              "↕ RtgN": "771"
+            },
+            {
+              "#": "48",
+              "Title": "",
+              "↕ Player": "Verma,Vivaan",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "700",
+              "↕ RtgF": "1641",
+              "↕ RtgN": "700"
+            },
+            {
+              "#": "49",
+              "Title": "",
+              "↕ Player": "Shaiek,Nihal",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "648",
+              "↕ RtgF": "0",
+              "↕ RtgN": "648"
+            },
+            {
+              "#": "50",
+              "Title": "",
+              "↕ Player": "Venkat,Nyra",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "400",
+              "↕ RtgF": "0",
+              "↕ RtgN": "400"
+            },
+            {
+              "#": "51",
+              "Title": "",
+              "↕ Player": "Husain,Lamiah",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "324",
+              "↕ RtgF": "0",
+              "↕ RtgN": "324"
+            },
+            {
+              "#": "52",
+              "Title": "",
+              "↕ Player": "Arora,Daanish",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "0",
+              "↕ RtgF": "0",
+              "↕ RtgN": "948"
+            },
+            {
+              "#": "53",
+              "Title": "",
+              "↕ Player": "Arun,Devsankar",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "0",
+              "↕ RtgF": "0",
+              "↕ RtgN": "0"
+            },
+            {
+              "#": "54",
+              "Title": "",
+              "↕ Player": "Denny,William",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "0",
+              "↕ RtgF": "0",
+              "↕ RtgN": "0"
+            },
+            {
+              "#": "55",
+              "Title": "",
+              "↕ Player": "Moser,Luke",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "0",
+              "↕ RtgF": "0",
+              "↕ RtgN": "0"
+            },
+            {
+              "#": "56",
+              "Title": "",
+              "↕ Player": "Moser,William",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "0",
+              "↕ RtgF": "0",
+              "↕ RtgN": "0"
+            },
+            {
+              "#": "57",
+              "Title": "",
+              "↕ Player": "Palta,Sameer",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "0",
+              "↕ RtgF": "0",
+              "↕ RtgN": "0"
+            },
+            {
+              "#": "58",
+              "Title": "",
+              "↕ Player": "Shahadat,Aladean",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "0",
+              "↕ RtgF": "0",
+              "↕ RtgN": "0"
+            },
+            {
+              "#": "59",
+              "Title": "",
+              "↕ Player": "Sharma,Rudra",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "0",
+              "↕ RtgF": "0",
+              "↕ RtgN": "0"
+            },
+            {
+              "#": "60",
+              "Title": "",
+              "↕ Player": "Vigneshwar,Krishanth",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "0",
+              "↕ RtgF": "0",
+              "↕ RtgN": "0"
+            },
+            {
+              "#": "61",
+              "Title": "",
+              "↕ Player": "Zhang,Chi Long",
+              "Fed": "VIC",
+              "Origin": "",
+              "↕ Rtg": "0",
+              "↕ RtgF": "0",
+              "↕ RtgN": "895"
+            }
+          ]
+        }
+      ]
+    },
+    "nelovar.html": {
+      "pageHeading": "National rating at round 0",
+      "tables": [
+        {
+          "headers": [
+            "N",
+            "Name",
+            "K",
+            "Elo",
+            "Var",
+            "Per"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "pairing.html": {
+      "pageHeading": "",
+      "tables": []
+    },
+    "playercard.html": {
+      "pageHeading": "National History Cards",
+      "tables": [
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "playersname.html": {
+      "pageHeading": "",
+      "tables": []
+    },
+    "schedule.html": {
+      "pageHeading": "Schedule",
+      "tables": [
+        {
+          "headers": [
+            "Round",
+            "Time",
+            "Date"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "tourstat.html": {
+      "pageHeading": "Tournament summary",
+      "tables": [
+        {
+          "headers": [],
+          "rows": [
+            {
+              "col1": "Tournament Name",
+              "col2": "2025 Hobsons Bay Chess Club Best in The West"
+            },
+            {
+              "col1": "Place",
+              "col2": "Hobsons Bay Chess Club"
+            },
+            {
+              "col1": "Federation",
+              "col2": "AUS"
+            },
+            {
+              "col1": "Date Begin",
+              "col2": "28/07/2025"
+            },
+            {
+              "col1": "Date End",
+              "col2": "28/07/2025"
+            },
+            {
+              "col1": "Arbiter(s)",
+              "col2": "IA Casey Goh"
+            },
+            {
+              "col1": "Play System",
+              "col2": "swiss FIDE Dutch (JaVaFo)"
+            },
+            {
+              "col1": "Rounds",
+              "col2": "5"
+            },
+            {
+              "col1": "Score game",
+              "col2": "0-0.5-1"
+            },
+            {
+              "col1": "Tie break",
+              "col2": "BH"
+            },
+            {
+              "col1": "Registered Players",
+              "col2": "61"
+            },
+            {
+              "col1": "Number of Federations",
+              "col2": "3"
+            },
+            {
+              "col1": "Average Rating (all)",
+              "col2": "1099"
+            },
+            {
+              "col1": "Average Rating (only FIDE rated)",
+              "col2": "1641"
+            },
+            {
+              "col1": "Players from AUS Federation",
+              "col2": "1"
+            },
+            {
+              "col1": "Players NOT from AUS Federation",
+              "col2": "60"
+            },
+            {
+              "col1": "FIDE rated players",
+              "col2": "1"
+            },
+            {
+              "col1": "unrated players",
+              "col2": "60"
+            },
+            {
+              "col1": "unrated players from AUS Federation",
+              "col2": "1"
+            },
+            {
+              "col1": "unrated players NOT from AUS Federation",
+              "col2": "59"
+            },
+            {
+              "col1": "unrated Federations",
+              "col2": "3"
+            },
+            {
+              "col1": "FIDE titled players",
+              "col2": "6"
+            },
+            {
+              "col1": "GM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WGM players",
+              "col2": "0"
+            },
+            {
+              "col1": "IM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WIM players",
+              "col2": "1"
+            },
+            {
+              "col1": "FM players",
+              "col2": "4"
+            },
+            {
+              "col1": "WFM players",
+              "col2": "1"
+            },
+            {
+              "col1": "CM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WCM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player NOT from AUS Federation",
+              "col2": "6"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "menu": [
+    {
+      "text": "Info",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Schedule",
+          "href": "schedule.html"
+        },
+        {
+          "text": "Statistics",
+          "href": "tourstat.html"
+        }
+      ]
+    },
+    {
+      "text": "Players",
+      "href": "index.html",
+      "isDropdown": true,
+      "children": []
+    }
+  ],
+  "metadata": {
+    "Tournament Name": "2025 Hobsons Bay Chess Club Best in The West",
+    "Place": "Hobsons Bay Chess Club",
+    "Federation": "AUS",
+    "Date Begin": "28/07/2025",
+    "Date End": "28/07/2025",
+    "Arbiter(s)": "IA Casey Goh",
+    "Play System": "swiss FIDE Dutch (JaVaFo)",
+    "Rounds": "5",
+    "Score game": "0-0.5-1",
+    "Tie break": "BH",
+    "Registered Players": "61",
+    "Number of Federations": "3",
+    "Average Rating (all)": "1099",
+    "Average Rating (only FIDE rated)": "1641",
+    "Players from AUS Federation": "1",
+    "Players NOT from AUS Federation": "60",
+    "FIDE rated players": "1",
+    "unrated players": "60",
+    "unrated players from AUS Federation": "1",
+    "unrated players NOT from AUS Federation": "59",
+    "unrated Federations": "3",
+    "FIDE titled players": "6",
+    "GM players": "0",
+    "WGM players": "0",
+    "IM players": "0",
+    "WIM players": "1",
+    "FM players": "4",
+    "WFM players": "1",
+    "CM players": "0",
+    "WCM players": "0",
+    "FIDE titled player from AUS Federation": "0",
+    "FIDE titled player NOT from AUS Federation": "6"
+  }
+}

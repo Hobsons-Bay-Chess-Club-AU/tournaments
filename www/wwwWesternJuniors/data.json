@@ -1,0 +1,645 @@
+{
+  "page": {
+    "crosstable.html": {
+      "pageHeading": "Cross Table at round 2",
+      "tables": [
+        {
+          "headers": [
+            "Player",
+            "Rtg",
+            "Fed",
+            "Pts",
+            "1",
+            "2"
+          ],
+          "rows": [
+            {
+              "1": "113",
+              "2": "015",
+              "Player": "1   Kirk,Ian",
+              "Rtg": "1377",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "114",
+              "2": "016",
+              "Player": "2   Yendru,Srikrishna",
+              "Rtg": "1313",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "015",
+              "2": "119",
+              "Player": "3   Wei,Andrew",
+              "Rtg": "997",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "016",
+              "2": "½ BYE",
+              "Player": "4   Batyrbekov,Kaisar",
+              "Rtg": "871",
+              "Fed": "",
+              "Pts": "0.5"
+            },
+            {
+              "1": "117",
+              "2": "½20",
+              "Player": "5   Veginati,Cherish",
+              "Rtg": "835",
+              "Fed": "",
+              "Pts": "1.5"
+            },
+            {
+              "1": "118",
+              "2": "122",
+              "Player": "6   Ashok,Arjun",
+              "Rtg": "795",
+              "Fed": "",
+              "Pts": "2.0"
+            },
+            {
+              "1": "119",
+              "2": "½ BYE",
+              "Player": "7   Batyrbekov,Aidan",
+              "Rtg": "788",
+              "Fed": "",
+              "Pts": "1.5"
+            },
+            {
+              "1": "020",
+              "2": "114",
+              "Player": "8   Nguyen,Tuan Kiet",
+              "Rtg": "761",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "021",
+              "2": "123",
+              "Player": "9   Ruaya,Rohan",
+              "Rtg": "727",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "022",
+              "2": "½ BYE",
+              "Player": "10   Saha,Avinandan (Arju",
+              "Rtg": "722",
+              "Fed": "",
+              "Pts": "0.5"
+            },
+            {
+              "1": "123",
+              "2": "021",
+              "Player": "11   Karthick,Deepshika",
+              "Rtg": "712",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "124",
+              "2": "½ BYE",
+              "Player": "12   Batyrbekov,Kuanysh",
+              "Rtg": "615",
+              "Fed": "",
+              "Pts": "1.5"
+            },
+            {
+              "1": "01",
+              "2": "024",
+              "Player": "13   Goh,Nicholas",
+              "Rtg": "380",
+              "Fed": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "02",
+              "2": "08",
+              "Player": "14   Das,Ayush",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "13",
+              "2": "11",
+              "Player": "15   Ahmad,Ihtiram",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.0"
+            },
+            {
+              "1": "14",
+              "2": "12",
+              "Player": "16   Balaji,Sai Sivesh",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.0"
+            },
+            {
+              "1": "05",
+              "2": "½ BYE",
+              "Player": "17   Balamurugan,Soorya",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "0.5"
+            },
+            {
+              "1": "06",
+              "2": "1BYE",
+              "Player": "18   Huang,Michael",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "07",
+              "2": "03",
+              "Player": "19   Husain,Lamiah",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "18",
+              "2": "½5",
+              "Player": "20   Jagannathan,Shashvat",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5"
+            },
+            {
+              "1": "19",
+              "2": "111",
+              "Player": "21   Jyothi Nikhil,Neev",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.0"
+            },
+            {
+              "1": "110",
+              "2": "06",
+              "Player": "22   Morris,Elijah",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "011",
+              "2": "09",
+              "Player": "23   Shaiek,Nihal",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "012",
+              "2": "113",
+              "Player": "24   Shinde,Yug",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0"
+            }
+          ]
+        }
+      ]
+    },
+    "crosstablescore.html": {
+      "pageHeading": "Cross Table at round 2",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Player",
+            "Rtg",
+            "Fed",
+            "Pts",
+            "1",
+            "2",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "1": "19",
+              "2": "110",
+              "Pos": "1",
+              "Player": "Ashok,Arjun",
+              "Rtg": "795",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "2.00"
+            },
+            {
+              "1": "113",
+              "2": "111",
+              "Pos": "2",
+              "Player": "Ahmad,Ihtiram",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "2.00"
+            },
+            {
+              "1": "114",
+              "2": "115",
+              "Pos": "3",
+              "Player": "Jyothi Nikhil,Neev",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "2.00"
+            },
+            {
+              "1": "118",
+              "2": "112",
+              "Pos": "4",
+              "Player": "Balaji,Sai Sivesh",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "1.5",
+              "BH-C1": "1.0",
+              "SB": "1.50"
+            },
+            {
+              "1": "116",
+              "2": "½7",
+              "Pos": "5",
+              "Player": "Jagannathan,Shashvath",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "2.5",
+              "BH-C1": "1.5",
+              "SB": "1.75"
+            },
+            {
+              "1": "117",
+              "2": "½ BYE",
+              "Pos": "6",
+              "Player": "Batyrbekov,Kuanysh",
+              "Rtg": "615",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "2.5",
+              "BH-C1": "1.0",
+              "SB": "1.75"
+            },
+            {
+              "1": "119",
+              "2": "½5",
+              "Pos": "7",
+              "Player": "Veginati,Cherish",
+              "Rtg": "835",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "2.0",
+              "BH-C1": "1.5",
+              "SB": "1.25"
+            },
+            {
+              "1": "121",
+              "2": "½ BYE",
+              "Pos": "8",
+              "Player": "Batyrbekov,Aidan",
+              "Rtg": "788",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "1.5",
+              "BH-C1": "0.0",
+              "SB": "0.75"
+            },
+            {
+              "1": "01",
+              "2": "1 BYE",
+              "Pos": "9",
+              "Player": "Huang,Michael",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "3.0",
+              "BH-C1": "2.0",
+              "SB": "1.00"
+            },
+            {
+              "1": "120",
+              "2": "01",
+              "Pos": "10",
+              "Player": "Morris,Elijah",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.5",
+              "BH-C1": "2.0",
+              "SB": "0.50"
+            },
+            {
+              "1": "122",
+              "2": "02",
+              "Pos": "11",
+              "Player": "Kirk,Ian",
+              "Rtg": "1377",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "1": "123",
+              "2": "04",
+              "Pos": "12",
+              "Player": "Yendru,Srikrishna",
+              "Rtg": "1313",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "1": "02",
+              "2": "121",
+              "Pos": "13",
+              "Player": "Wei,Andrew",
+              "Rtg": "997",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "1": "03",
+              "2": "124",
+              "Pos": "14",
+              "Player": "Ruaya,Rohan",
+              "Rtg": "727",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "1": "124",
+              "2": "03",
+              "Pos": "15",
+              "Player": "Karthick,Deepshika",
+              "Rtg": "712",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "1": "05",
+              "2": "123",
+              "Pos": "16",
+              "Player": "Nguyen,Tuan Kiet",
+              "Rtg": "761",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "1.5",
+              "BH-C1": "1.5",
+              "SB": "0.00"
+            },
+            {
+              "1": "06",
+              "2": "122",
+              "Pos": "17",
+              "Player": "Shinde,Yug",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "1.5",
+              "BH-C1": "1.5",
+              "SB": "0.00"
+            },
+            {
+              "1": "04",
+              "2": "½ BYE",
+              "Pos": "18",
+              "Player": "Batyrbekov,Kaisar",
+              "Rtg": "871",
+              "Fed": "",
+              "Pts": "0.5",
+              "BH": "2.5",
+              "BH-C1": "2.0",
+              "SB": "0.25"
+            },
+            {
+              "1": "07",
+              "2": "½ BYE",
+              "Pos": "19",
+              "Player": "Balamurugan,Soorya",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "0.5",
+              "BH": "2.0",
+              "BH-C1": "1.5",
+              "SB": "0.25"
+            },
+            {
+              "1": "010",
+              "2": "½ BYE",
+              "Pos": "20",
+              "Player": "Saha,Avinandan (Arjun)",
+              "Rtg": "722",
+              "Fed": "",
+              "Pts": "0.5",
+              "BH": "1.5",
+              "BH-C1": "1.0",
+              "SB": "0.25"
+            },
+            {
+              "1": "08",
+              "2": "013",
+              "Pos": "21",
+              "Player": "Husain,Lamiah",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "2.5",
+              "BH-C1": "1.5",
+              "SB": "0.00"
+            },
+            {
+              "1": "011",
+              "2": "017",
+              "Pos": "22",
+              "Player": "Goh,Nicholas",
+              "Rtg": "380",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "0.00"
+            },
+            {
+              "1": "012",
+              "2": "016",
+              "Pos": "23",
+              "Player": "Das,Ayush",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "0.00"
+            },
+            {
+              "1": "015",
+              "2": "014",
+              "Pos": "24",
+              "Player": "Shaiek,Nihal",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "0.00"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs3.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "6    Ashok,Arjun",
+              "Pts": "2",
+              "Result": "...",
+              "Black Player": "16    Balaji,Sai Sivesh"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "15    Ahmad,Ihtiram",
+              "Pts": "2",
+              "Result": "...",
+              "Black Player": "21    Jyothi Nikhil,Neev"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "7    Batyrbekov,Aidan",
+              "Pts": "1.5",
+              "Result": "...",
+              "Black Player": "5    Veginati,Cherish"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "20    Jagannathan,Shashvath",
+              "Pts": "1.5",
+              "Result": "...",
+              "Black Player": "12    Batyrbekov,Kuanysh"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "",
+              "White Player": "9    Ruaya,Rohan",
+              "Pts": "1",
+              "Result": "...",
+              "Black Player": "1    Kirk,Ian"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "",
+              "White Player": "2    Yendru,Srikrishna",
+              "Pts": "1",
+              "Result": "...",
+              "Black Player": "11    Karthick,Deepshika"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "",
+              "White Player": "18    Huang,Michael",
+              "Pts": "1",
+              "Result": "...",
+              "Black Player": "3    Wei,Andrew"
+            },
+            {
+              "Bo.": "8",
+              "Fed": "",
+              "White Player": "8    Nguyen,Tuan Kiet",
+              "Pts": "1",
+              "Result": "...",
+              "Black Player": "22    Morris,Elijah"
+            },
+            {
+              "Bo.": "9",
+              "Fed": "",
+              "White Player": "24    Shinde,Yug",
+              "Pts": "0.5",
+              "Result": "...",
+              "Black Player": "4    Batyrbekov,Kaisar"
+            },
+            {
+              "Bo.": "10",
+              "Fed": "",
+              "White Player": "13    Goh,Nicholas",
+              "Pts": "0.5",
+              "Result": "...",
+              "Black Player": "10    Saha,Avinandan (Arjun)"
+            },
+            {
+              "Bo.": "11",
+              "Fed": "",
+              "White Player": "19    Husain,Lamiah",
+              "Pts": "0",
+              "Result": "...",
+              "Black Player": "14    Das,Ayush"
+            },
+            {
+              "Bo.": "12",
+              "Fed": "",
+              "White Player": "23    Shaiek,Nihal",
+              "Pts": "0",
+              "Result": "1",
+              "Black Player": "( bye )"
+            },
+            {
+              "Bo.": "13",
+              "Fed": "",
+              "White Player": "17    Balamurugan,Soorya",
+              "Pts": "0",
+              "Result": "0",
+              "Black Player": "( not paired )"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2127 @@
+{
+  "page": {
+    "felovar.html": {
+      "pageHeading": "FIDE rating variation at round 7",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "FIDE ID",
+            "Fed",
+            "Rtg",
+            "Ng",
+            "Pts",
+            "ARO",
+            "var",
+            "Rp"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "fideplayercard.html": {
+      "pageHeading": "FIDE History Cards",
+      "tables": []
+    },
+    "games.html": {
+      "pageHeading": "",
+      "tables": []
+    },
+    "index.html": {
+      "pageHeading": "Registered players sorted by rating and title",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "Fed",
+            "Rtg",
+            "RtgF",
+            "RtgN"
+          ],
+          "rows": [
+            {
+              "#": "7",
+              "Player": "Annapureddy,Rheyansh Reddy",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "2095"
+            },
+            {
+              "#": "5",
+              "Player": "Hogg,Dean",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "1964"
+            },
+            {
+              "#": "4",
+              "Player": "CM  Davis,Tony J",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "1790"
+            },
+            {
+              "#": "8",
+              "Player": "Lacson,Joemar",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "1727"
+            },
+            {
+              "#": "1",
+              "Player": "Picone,James",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "1521"
+            },
+            {
+              "#": "6",
+              "Player": "Nowak,Ruben",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "1490"
+            },
+            {
+              "#": "3",
+              "Player": "Lingineni,Khushal",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "1483"
+            },
+            {
+              "#": "2",
+              "Player": "Salanowski,Mark",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "1482"
+            }
+          ]
+        }
+      ]
+    },
+    "nelovar.html": {
+      "pageHeading": "National rating at round 7",
+      "tables": [
+        {
+          "headers": [
+            "N",
+            "Name",
+            "K",
+            "Elo",
+            "Var",
+            "Per"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "pairs1.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "1    Picone,James",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "8    Lacson,Joemar"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "2    Salanowski,Mark",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "7    Annapureddy,Rheyansh Reddy"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "3    Lingineni,Khushal",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "6    Nowak,Ruben"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "4  CM  Davis,Tony J",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "5    Hogg,Dean"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs2.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "8    Lacson,Joemar",
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Black Player": "5    Hogg,Dean"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "6    Nowak,Ruben",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "4  CM  Davis,Tony J"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "7    Annapureddy,Rheyansh Reddy",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "3    Lingineni,Khushal"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "1    Picone,James",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "2    Salanowski,Mark"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs3.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "2    Salanowski,Mark",
+              "Pts": "1",
+              "Result": "½ - ½",
+              "Black Player": "8    Lacson,Joemar"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "3    Lingineni,Khushal",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "1    Picone,James"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "4  CM  Davis,Tony J",
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Black Player": "7    Annapureddy,Rheyansh Reddy"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "5    Hogg,Dean",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Black Player": "6    Nowak,Ruben"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs4.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "8    Lacson,Joemar",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Black Player": "6    Nowak,Ruben"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "7    Annapureddy,Rheyansh Reddy",
+              "Pts": "3",
+              "Result": "1 - 0",
+              "Black Player": "5    Hogg,Dean"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "1    Picone,James",
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Black Player": "4  CM  Davis,Tony J"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "2    Salanowski,Mark",
+              "Pts": "2",
+              "Result": "0 - 1",
+              "Black Player": "3    Lingineni,Khushal"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs5.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "3    Lingineni,Khushal",
+              "Pts": "1.5",
+              "Result": "0 - 1",
+              "Black Player": "8    Lacson,Joemar"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "4  CM  Davis,Tony J",
+              "Pts": "1.5",
+              "Result": "1 - 0",
+              "Black Player": "2    Salanowski,Mark"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "5    Hogg,Dean",
+              "Pts": "0",
+              "Result": "½ - ½",
+              "Black Player": "1    Picone,James"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "6    Nowak,Ruben",
+              "Pts": "3",
+              "Result": "1 - 0",
+              "Black Player": "7    Annapureddy,Rheyansh Reddy"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs6.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "8    Lacson,Joemar",
+              "Pts": "3",
+              "Result": "0 - 1",
+              "Black Player": "7    Annapureddy,Rheyansh Reddy"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "1    Picone,James",
+              "Pts": "2",
+              "Result": "1 - 0",
+              "Black Player": "6    Nowak,Ruben"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "2    Salanowski,Mark",
+              "Pts": "3.5",
+              "Result": "0 - 1",
+              "Black Player": "5    Hogg,Dean"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "3    Lingineni,Khushal",
+              "Pts": "3",
+              "Result": "0 - 1",
+              "Black Player": "4  CM  Davis,Tony J"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs7.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "4  CM  Davis,Tony J",
+              "Pts": "3.5",
+              "Result": "0F-1F",
+              "Black Player": "8    Lacson,Joemar"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "5    Hogg,Dean",
+              "Pts": "3",
+              "Result": "0F-1F",
+              "Black Player": "3    Lingineni,Khushal"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "6    Nowak,Ruben",
+              "Pts": "1.5",
+              "Result": "1 - 0",
+              "Black Player": "2    Salanowski,Mark"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "7    Annapureddy,Rheyansh Reddy",
+              "Pts": "1.5",
+              "Result": "1 - 0",
+              "Black Player": "1    Picone,James"
+            }
+          ]
+        }
+      ]
+    },
+    "playercard.html": {
+      "pageHeading": "National History Cards",
+      "tables": [
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Lacson,Joemar",
+              "Rtg": "1727",
+              "res": "0.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Salanowski,Mark",
+              "Rtg": "1482",
+              "res": "0.0",
+              "Pts": "1.5"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Lingineni,Khushal",
+              "Rtg": "1483",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "4",
+              "Cat": "CM",
+              "OPPONENT": "Davis,Tony J",
+              "Rtg": "1790",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Hogg,Dean",
+              "Rtg": "1964",
+              "res": "0.5",
+              "Pts": "4.5"
+            },
+            {
+              "R": "6",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Nowak,Ruben",
+              "Rtg": "1490",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "7",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Annapureddy,Rheyansh",
+              "Rtg": "2095",
+              "res": "0.0",
+              "Pts": "5.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Annapureddy,Rheyansh",
+              "Rtg": "2095",
+              "res": "0.0",
+              "Pts": "5.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Picone,James",
+              "Rtg": "1521",
+              "res": "1.0",
+              "Pts": "1.5"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Lacson,Joemar",
+              "Rtg": "1727",
+              "res": "0.5",
+              "Pts": "4.5"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Lingineni,Khushal",
+              "Rtg": "1483",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "4",
+              "Cat": "CM",
+              "OPPONENT": "Davis,Tony J",
+              "Rtg": "1790",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "6",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Hogg,Dean",
+              "Rtg": "1964",
+              "res": "0.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "7",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Nowak,Ruben",
+              "Rtg": "1490",
+              "res": "0.0",
+              "Pts": "3.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Nowak,Ruben",
+              "Rtg": "1490",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Annapureddy,Rheyansh",
+              "Rtg": "2095",
+              "res": "1.0",
+              "Pts": "5.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Picone,James",
+              "Rtg": "1521",
+              "res": "1.0",
+              "Pts": "1.5"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Salanowski,Mark",
+              "Rtg": "1482",
+              "res": "1.0",
+              "Pts": "1.5"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Lacson,Joemar",
+              "Rtg": "1727",
+              "res": "0.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "6",
+              "C": "W",
+              "N": "4",
+              "Cat": "CM",
+              "OPPONENT": "Davis,Tony J",
+              "Rtg": "1790",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Hogg,Dean",
+              "Rtg": "1964",
+              "res": "0.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Nowak,Ruben",
+              "Rtg": "1490",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Annapureddy,Rheyansh",
+              "Rtg": "2095",
+              "res": "0.0",
+              "Pts": "5.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Picone,James",
+              "Rtg": "1521",
+              "res": "1.0",
+              "Pts": "1.5"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Salanowski,Mark",
+              "Rtg": "1482",
+              "res": "1.0",
+              "Pts": "1.5"
+            },
+            {
+              "R": "6",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Lingineni,Khushal",
+              "Rtg": "1483",
+              "res": "1.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "4",
+              "Cat": "CM",
+              "OPPONENT": "Davis,Tony J",
+              "Rtg": "1790",
+              "res": "1.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Lacson,Joemar",
+              "Rtg": "1727",
+              "res": "1.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Nowak,Ruben",
+              "Rtg": "1490",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Annapureddy,Rheyansh",
+              "Rtg": "2095",
+              "res": "0.0",
+              "Pts": "5.0"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Picone,James",
+              "Rtg": "1521",
+              "res": "0.5",
+              "Pts": "1.5"
+            },
+            {
+              "R": "6",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Salanowski,Mark",
+              "Rtg": "1482",
+              "res": "1.0",
+              "Pts": "1.5"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Lingineni,Khushal",
+              "Rtg": "1483",
+              "res": "1.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "4",
+              "Cat": "CM",
+              "OPPONENT": "Davis,Tony J",
+              "Rtg": "1790",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Hogg,Dean",
+              "Rtg": "1964",
+              "res": "0.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Lacson,Joemar",
+              "Rtg": "1727",
+              "res": "0.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Annapureddy,Rheyansh",
+              "Rtg": "2095",
+              "res": "1.0",
+              "Pts": "5.0"
+            },
+            {
+              "R": "6",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Picone,James",
+              "Rtg": "1521",
+              "res": "0.0",
+              "Pts": "1.5"
+            },
+            {
+              "R": "7",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Salanowski,Mark",
+              "Rtg": "1482",
+              "res": "1.0",
+              "Pts": "1.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Salanowski,Mark",
+              "Rtg": "1482",
+              "res": "1.0",
+              "Pts": "1.5"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Lingineni,Khushal",
+              "Rtg": "1483",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "4",
+              "Cat": "CM",
+              "OPPONENT": "Davis,Tony J",
+              "Rtg": "1790",
+              "res": "1.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Hogg,Dean",
+              "Rtg": "1964",
+              "res": "1.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Nowak,Ruben",
+              "Rtg": "1490",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "6",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Lacson,Joemar",
+              "Rtg": "1727",
+              "res": "1.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "7",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Picone,James",
+              "Rtg": "1521",
+              "res": "1.0",
+              "Pts": "1.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Picone,James",
+              "Rtg": "1521",
+              "res": "1.0",
+              "Pts": "1.5"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Hogg,Dean",
+              "Rtg": "1964",
+              "res": "0.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Salanowski,Mark",
+              "Rtg": "1482",
+              "res": "0.5",
+              "Pts": "1.5"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Nowak,Ruben",
+              "Rtg": "1490",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Lingineni,Khushal",
+              "Rtg": "1483",
+              "res": "1.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "6",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Annapureddy,Rheyansh",
+              "Rtg": "2095",
+              "res": "0.0",
+              "Pts": "5.0"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ]
+        }
+      ]
+    },
+    "playersname.html": {
+      "pageHeading": "Registered players sorted by name",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "Fed",
+            "Rtg",
+            "RtgF",
+            "RtgN"
+          ],
+          "rows": [
+            {
+              "#": "7",
+              "Player": "Annapureddy,Rheyansh Reddy",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "2095"
+            },
+            {
+              "#": "4",
+              "Player": "CM  Davis,Tony J",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "1790"
+            },
+            {
+              "#": "5",
+              "Player": "Hogg,Dean",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "1964"
+            },
+            {
+              "#": "8",
+              "Player": "Lacson,Joemar",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "1727"
+            },
+            {
+              "#": "3",
+              "Player": "Lingineni,Khushal",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "1483"
+            },
+            {
+              "#": "6",
+              "Player": "Nowak,Ruben",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "1490"
+            },
+            {
+              "#": "1",
+              "Player": "Picone,James",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "1521"
+            },
+            {
+              "#": "2",
+              "Player": "Salanowski,Mark",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "1482"
+            }
+          ]
+        }
+      ]
+    },
+    "schedule.html": {
+      "pageHeading": "Schedule",
+      "tables": [
+        {
+          "headers": [
+            "Round",
+            "Time",
+            "Date"
+          ],
+          "rows": [
+            {
+              "Round": "1",
+              "Time": "19:30",
+              "Date": "08/10/2024"
+            },
+            {
+              "Round": "2",
+              "Time": "19:30",
+              "Date": "15/10/2024"
+            },
+            {
+              "Round": "3",
+              "Time": "19:30",
+              "Date": "22/10/2024"
+            },
+            {
+              "Round": "4",
+              "Time": "19:30",
+              "Date": "29/10/2024"
+            },
+            {
+              "Round": "5",
+              "Time": "19:30",
+              "Date": "12/11/2024"
+            },
+            {
+              "Round": "6",
+              "Time": "19:30",
+              "Date": "19/11/2024"
+            },
+            {
+              "Round": "7",
+              "Time": "19:30",
+              "Date": "03/12/2024"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "NW",
+            "Result",
+            "NB",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "Picone,James",
+              "NW": "1",
+              "Result": "0 - 1",
+              "NB": "8",
+              "Black Player": "Lacson,Joemar"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "Salanowski,Mark",
+              "NW": "2",
+              "Result": "0 - 1",
+              "NB": "7",
+              "Black Player": "Annapureddy,Rheyansh Reddy"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "Lingineni,Khushal",
+              "NW": "3",
+              "Result": "0 - 1",
+              "NB": "6",
+              "Black Player": "Nowak,Ruben"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "CM Davis,Tony J",
+              "NW": "4",
+              "Result": "0 - 1",
+              "NB": "5",
+              "Black Player": "Hogg,Dean"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "NW",
+            "Result",
+            "NB",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "Lacson,Joemar",
+              "NW": "8",
+              "Result": "0 - 1",
+              "NB": "5",
+              "Black Player": "Hogg,Dean"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "Nowak,Ruben",
+              "NW": "6",
+              "Result": "0 - 1",
+              "NB": "4",
+              "Black Player": "CM Davis,Tony J"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "Annapureddy,Rheyansh Reddy",
+              "NW": "7",
+              "Result": "0 - 1",
+              "NB": "3",
+              "Black Player": "Lingineni,Khushal"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "Picone,James",
+              "NW": "1",
+              "Result": "0 - 1",
+              "NB": "2",
+              "Black Player": "Salanowski,Mark"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "NW",
+            "Result",
+            "NB",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "Salanowski,Mark",
+              "NW": "2",
+              "Result": "½ - ½",
+              "NB": "8",
+              "Black Player": "Lacson,Joemar"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "Lingineni,Khushal",
+              "NW": "3",
+              "Result": "1 - 0",
+              "NB": "1",
+              "Black Player": "Picone,James"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "CM Davis,Tony J",
+              "NW": "4",
+              "Result": "0 - 1",
+              "NB": "7",
+              "Black Player": "Annapureddy,Rheyansh Reddy"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "Hogg,Dean",
+              "NW": "5",
+              "Result": "1 - 0",
+              "NB": "6",
+              "Black Player": "Nowak,Ruben"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "NW",
+            "Result",
+            "NB",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "Lacson,Joemar",
+              "NW": "8",
+              "Result": "1 - 0",
+              "NB": "6",
+              "Black Player": "Nowak,Ruben"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "Annapureddy,Rheyansh Reddy",
+              "NW": "7",
+              "Result": "1 - 0",
+              "NB": "5",
+              "Black Player": "Hogg,Dean"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "Picone,James",
+              "NW": "1",
+              "Result": "0 - 1",
+              "NB": "4",
+              "Black Player": "CM Davis,Tony J"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "Salanowski,Mark",
+              "NW": "2",
+              "Result": "0 - 1",
+              "NB": "3",
+              "Black Player": "Lingineni,Khushal"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "NW",
+            "Result",
+            "NB",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "Lingineni,Khushal",
+              "NW": "3",
+              "Result": "0 - 1",
+              "NB": "8",
+              "Black Player": "Lacson,Joemar"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "CM Davis,Tony J",
+              "NW": "4",
+              "Result": "1 - 0",
+              "NB": "2",
+              "Black Player": "Salanowski,Mark"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "Hogg,Dean",
+              "NW": "5",
+              "Result": "½ - ½",
+              "NB": "1",
+              "Black Player": "Picone,James"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "Nowak,Ruben",
+              "NW": "6",
+              "Result": "1 - 0",
+              "NB": "7",
+              "Black Player": "Annapureddy,Rheyansh Reddy"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "NW",
+            "Result",
+            "NB",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "Lacson,Joemar",
+              "NW": "8",
+              "Result": "0 - 1",
+              "NB": "7",
+              "Black Player": "Annapureddy,Rheyansh Reddy"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "Picone,James",
+              "NW": "1",
+              "Result": "1 - 0",
+              "NB": "6",
+              "Black Player": "Nowak,Ruben"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "Salanowski,Mark",
+              "NW": "2",
+              "Result": "0 - 1",
+              "NB": "5",
+              "Black Player": "Hogg,Dean"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "Lingineni,Khushal",
+              "NW": "3",
+              "Result": "0 - 1",
+              "NB": "4",
+              "Black Player": "CM Davis,Tony J"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "NW",
+            "Result",
+            "NB",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "CM Davis,Tony J",
+              "NW": "4",
+              "Result": "0F-1F",
+              "NB": "8",
+              "Black Player": "Lacson,Joemar"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "Hogg,Dean",
+              "NW": "5",
+              "Result": "0F-1F",
+              "NB": "3",
+              "Black Player": "Lingineni,Khushal"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "Nowak,Ruben",
+              "NW": "6",
+              "Result": "1 - 0",
+              "NB": "2",
+              "Black Player": "Salanowski,Mark"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "Annapureddy,Rheyansh Reddy",
+              "NW": "7",
+              "Result": "1 - 0",
+              "NB": "1",
+              "Black Player": "Picone,James"
+            }
+          ]
+        }
+      ]
+    },
+    "sortedcrosstable.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "#",
+            "NAME",
+            "Rtg",
+            "Fed",
+            "Pts",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "rows": [
+            {
+              "1": "",
+              "2": "1",
+              "3": "1",
+              "4": "1",
+              "5": "0",
+              "6": "0",
+              "7": "1",
+              "8": "1",
+              "Pos": "1",
+              "#": "7",
+              "NAME": "Annapureddy,Rheyansh Reddy",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "5.0"
+            },
+            {
+              "1": "0",
+              "2": "",
+              "3": "1",
+              "4": "1",
+              "5": "-",
+              "6": "1",
+              "7": "1",
+              "8": "½",
+              "Pos": "2",
+              "#": "5",
+              "NAME": "Hogg,Dean",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "4.5"
+            },
+            {
+              "1": "0",
+              "2": "0",
+              "3": "",
+              "4": "+",
+              "5": "1",
+              "6": "1",
+              "7": "½",
+              "8": "1",
+              "Pos": "3",
+              "#": "8",
+              "NAME": "Lacson,Joemar",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "4.5"
+            },
+            {
+              "1": "0",
+              "2": "0",
+              "3": "-",
+              "4": "",
+              "5": "1",
+              "6": "1",
+              "7": "1",
+              "8": "1",
+              "Pos": "4",
+              "#": "4",
+              "NAME": "CM Davis,Tony J",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "4.0"
+            },
+            {
+              "1": "1",
+              "2": "+",
+              "3": "0",
+              "4": "0",
+              "5": "",
+              "6": "0",
+              "7": "1",
+              "8": "1",
+              "Pos": "5",
+              "#": "3",
+              "NAME": "Lingineni,Khushal",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "4.0"
+            },
+            {
+              "1": "1",
+              "2": "0",
+              "3": "0",
+              "4": "0",
+              "5": "1",
+              "6": "",
+              "7": "1",
+              "8": "0",
+              "Pos": "6",
+              "#": "6",
+              "NAME": "Nowak,Ruben",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0"
+            },
+            {
+              "1": "0",
+              "2": "0",
+              "3": "½",
+              "4": "0",
+              "5": "0",
+              "6": "0",
+              "7": "",
+              "8": "1",
+              "Pos": "7",
+              "#": "2",
+              "NAME": "Salanowski,Mark",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5"
+            },
+            {
+              "1": "0",
+              "2": "½",
+              "3": "0",
+              "4": "0",
+              "5": "0",
+              "6": "1",
+              "7": "0",
+              "8": "",
+              "Pos": "8",
+              "#": "1",
+              "NAME": "Picone,James",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5"
+            }
+          ]
+        }
+      ]
+    },
+    "standings.html": {
+      "pageHeading": "Standings at round 7",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Player",
+            "Rtg",
+            "Fed",
+            "Pts",
+            "DE"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Player": "7     Annapureddy,Rheyansh Reddy",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "5.0",
+              "DE": "0"
+            },
+            {
+              "Pos": "2",
+              "Player": "5     Hogg,Dean",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "4.5",
+              "DE": "1"
+            },
+            {
+              "Pos": "3",
+              "Player": "8     Lacson,Joemar",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "4.5",
+              "DE": "2"
+            },
+            {
+              "Pos": "4",
+              "Player": "4   CM  Davis,Tony J",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "4.0",
+              "DE": "1"
+            },
+            {
+              "Pos": "5",
+              "Player": "3     Lingineni,Khushal",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "4.0",
+              "DE": "2"
+            },
+            {
+              "Pos": "6",
+              "Player": "6     Nowak,Ruben",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0",
+              "DE": "0"
+            },
+            {
+              "Pos": "7",
+              "Player": "2     Salanowski,Mark",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5",
+              "DE": "1"
+            },
+            {
+              "Pos": "8",
+              "Player": "1     Picone,James",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5",
+              "DE": "2"
+            }
+          ]
+        }
+      ]
+    },
+    "tourstat.html": {
+      "pageHeading": "Tournament summary",
+      "tables": [
+        {
+          "headers": [],
+          "rows": [
+            {
+              "col1": "Tournament Name",
+              "col2": "Hobsons Bay Club Championship 2024"
+            },
+            {
+              "col1": "Place",
+              "col2": "Hobsons Bay"
+            },
+            {
+              "col1": "Federation",
+              "col2": "AUS"
+            },
+            {
+              "col1": "Date Begin",
+              "col2": "08/10/2024"
+            },
+            {
+              "col1": "Date End",
+              "col2": "03/12/2024"
+            },
+            {
+              "col1": "Arbiter(s)",
+              "col2": "Matthew Whitford"
+            },
+            {
+              "col1": "Play System",
+              "col2": "Single Round Robin"
+            },
+            {
+              "col1": "Rounds",
+              "col2": "7"
+            },
+            {
+              "col1": "Score game",
+              "col2": "0-0.5-1"
+            },
+            {
+              "col1": "Tie break",
+              "col2": "DE"
+            },
+            {
+              "col1": "Registered Players",
+              "col2": "8"
+            },
+            {
+              "col1": "Number of Federations",
+              "col2": "1"
+            },
+            {
+              "col1": "Average Rating (all)",
+              "col2": "1694"
+            },
+            {
+              "col1": "Average Rating (only FIDE rated)",
+              "col2": "0"
+            },
+            {
+              "col1": "Players from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "Players NOT from AUS Federation",
+              "col2": "8"
+            },
+            {
+              "col1": "FIDE rated players",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players",
+              "col2": "8"
+            },
+            {
+              "col1": "unrated players from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players NOT from AUS Federation",
+              "col2": "8"
+            },
+            {
+              "col1": "unrated Federations",
+              "col2": "1"
+            },
+            {
+              "col1": "FIDE titled players",
+              "col2": "1"
+            },
+            {
+              "col1": "GM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WGM players",
+              "col2": "0"
+            },
+            {
+              "col1": "IM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WIM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WFM players",
+              "col2": "0"
+            },
+            {
+              "col1": "CM players",
+              "col2": "1"
+            },
+            {
+              "col1": "WCM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player NOT from AUS Federation",
+              "col2": "1"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "menu": [
+    {
+      "text": "Info",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Schedule",
+          "href": "schedule.html"
+        },
+        {
+          "text": "Statistics",
+          "href": "tourstat.html"
+        }
+      ]
+    },
+    {
+      "text": "Players",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Sorted by Rating",
+          "href": "index.html"
+        },
+        {
+          "text": "Sorted by Name",
+          "href": "playersname.html"
+        }
+      ]
+    },
+    {
+      "text": "Pairings",
+      "href": "pairs7.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Standings",
+      "href": "standings.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Tables",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Cross table by score",
+          "href": "sortedcrosstable.html"
+        }
+      ]
+    },
+    {
+      "text": "Reports",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "FIDE Rating",
+          "href": "felovar.html"
+        },
+        {
+          "text": "FIDE Player Card",
+          "href": "fideplayercard.html"
+        },
+        {
+          "text": "National rating",
+          "href": "nelovar.html"
+        },
+        {
+          "text": "National Player Card",
+          "href": "playercard.html"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "Tournament Name": "Hobsons Bay Club Championship 2024",
+    "Place": "Hobsons Bay",
+    "Federation": "AUS",
+    "Date Begin": "08/10/2024",
+    "Date End": "03/12/2024",
+    "Arbiter(s)": "Matthew Whitford",
+    "Play System": "Single Round Robin",
+    "Rounds": "7",
+    "Score game": "0-0.5-1",
+    "Tie break": "DE",
+    "Registered Players": "8",
+    "Number of Federations": "1",
+    "Average Rating (all)": "1694",
+    "Average Rating (only FIDE rated)": "0",
+    "Players from AUS Federation": "0",
+    "Players NOT from AUS Federation": "8",
+    "FIDE rated players": "0",
+    "unrated players": "8",
+    "unrated players from AUS Federation": "0",
+    "unrated players NOT from AUS Federation": "8",
+    "unrated Federations": "1",
+    "FIDE titled players": "1",
+    "GM players": "0",
+    "WGM players": "0",
+    "IM players": "0",
+    "WIM players": "0",
+    "FM players": "0",
+    "WFM players": "0",
+    "CM players": "1",
+    "WCM players": "0",
+    "FIDE titled player from AUS Federation": "0",
+    "FIDE titled player NOT from AUS Federation": "1"
+  }
+}

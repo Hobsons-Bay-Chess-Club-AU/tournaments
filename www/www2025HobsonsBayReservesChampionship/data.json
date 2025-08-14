@@ -1,0 +1,90 @@
+{
+  "page": {
+    "index.html": {
+      "pageHeading": "Registered players sorted by rating and title",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "Fed",
+            "Origin",
+            "Rtg",
+            "RtgF",
+            "RtgN"
+          ],
+          "rows": [
+            {
+              "#": "1",
+              "Player": "Hogan,Steven",
+              "Fed": "",
+              "Origin": "",
+              "Rtg": "1515",
+              "RtgF": "0",
+              "RtgN": "1515"
+            }
+          ]
+        }
+      ]
+    },
+    "playersname.html": {
+      "pageHeading": "Registered players sorted by name",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "Fed",
+            "Origin",
+            "Rtg",
+            "RtgF",
+            "RtgN"
+          ],
+          "rows": [
+            {
+              "#": "1",
+              "Player": "Hogan,Steven",
+              "Fed": "",
+              "Origin": "",
+              "Rtg": "1515",
+              "RtgF": "0",
+              "RtgN": "1515"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "menu": [
+    {
+      "text": "Info",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Schedule",
+          "href": "schedule.html"
+        },
+        {
+          "text": "Statistics",
+          "href": "tourstat.html"
+        }
+      ]
+    },
+    {
+      "text": "Players",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Sorted by Rating",
+          "href": "index.html"
+        },
+        {
+          "text": "Sorted by Name",
+          "href": "playersname.html"
+        }
+      ]
+    }
+  ]
+}

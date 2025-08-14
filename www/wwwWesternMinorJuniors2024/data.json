@@ -1,0 +1,3944 @@
+{
+  "page": {
+    "crosstable.html": {
+      "pageHeading": "Cross Table at round 5",
+      "tables": [
+        {
+          "headers": [
+            "Player",
+            "Rtg",
+            "Fed",
+            "Pts",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "rows": [
+            {
+              "1": "08",
+              "2": "010",
+              "3": "111",
+              "4": "06",
+              "5": "1BYE",
+              "Player": "1   Bo,Jeremie",
+              "Rtg": "753",
+              "Fed": "",
+              "Pts": "2.0"
+            },
+            {
+              "1": "09",
+              "2": "07",
+              "3": "012",
+              "4": "013",
+              "5": "15",
+              "Player": "2   Bo,Jamie",
+              "Rtg": "277",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "110",
+              "2": "18",
+              "3": "04",
+              "4": "112",
+              "5": "07",
+              "Player": "3   Chan,Abby",
+              "Rtg": "212",
+              "Fed": "",
+              "Pts": "3.0"
+            },
+            {
+              "1": "111",
+              "2": "112",
+              "3": "13",
+              "4": "07",
+              "5": "19",
+              "Player": "4   Husain,Lamiah",
+              "Rtg": "139",
+              "Fed": "",
+              "Pts": "4.0"
+            },
+            {
+              "1": "012",
+              "2": "111",
+              "3": "010",
+              "4": "½8",
+              "5": "02",
+              "Player": "5   Amutha Raja,Nalan",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5"
+            },
+            {
+              "1": "½ BYE",
+              "2": "½ BYE",
+              "3": "07",
+              "4": "11",
+              "5": "112",
+              "Player": "6   Ashok,Arjun",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0"
+            },
+            {
+              "1": "113",
+              "2": "12",
+              "3": "16",
+              "4": "14",
+              "5": "13",
+              "Player": "7   Ashwin,Aswin",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "5.0"
+            },
+            {
+              "1": "11",
+              "2": "03",
+              "3": "09",
+              "4": "½5",
+              "5": "111",
+              "Player": "8   Bodke,Aryan",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.5"
+            },
+            {
+              "1": "12",
+              "2": "113",
+              "3": "18",
+              "4": "110",
+              "5": "04",
+              "Player": "9   Jagannathan,Shashvat",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "4.0"
+            },
+            {
+              "1": "03",
+              "2": "11",
+              "3": "15",
+              "4": "09",
+              "5": "113",
+              "Player": "10   Luan,William",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0"
+            },
+            {
+              "1": "04",
+              "2": "05",
+              "3": "01",
+              "4": "1BYE",
+              "5": "08",
+              "Player": "11   Nethi,Karthika",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "15",
+              "2": "04",
+              "3": "12",
+              "4": "03",
+              "5": "06",
+              "Player": "12   Shenbaga,Kabilan",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.0"
+            },
+            {
+              "1": "07",
+              "2": "09",
+              "3": "1BYE",
+              "4": "12",
+              "5": "010",
+              "Player": "13   Singh,Abhyuday",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.0"
+            }
+          ]
+        }
+      ]
+    },
+    "crosstablescore.html": {
+      "pageHeading": "Cross Table at round 5",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Player",
+            "Rtg",
+            "Fed",
+            "Pts",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "1": "18",
+              "2": "112",
+              "3": "15",
+              "4": "12",
+              "5": "14",
+              "Pos": "1",
+              "Player": "Ashwin,Aswin",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "5.0",
+              "BH": "13.0",
+              "BH-C1": "12.0",
+              "SB": "13.00"
+            },
+            {
+              "1": "113",
+              "2": "110",
+              "3": "14",
+              "4": "01",
+              "5": "13",
+              "Pos": "2",
+              "Player": "Husain,Lamiah",
+              "Rtg": "139",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "15.0",
+              "BH-C1": "14.0",
+              "SB": "10.00"
+            },
+            {
+              "1": "112",
+              "2": "18",
+              "3": "17",
+              "4": "16",
+              "5": "02",
+              "Pos": "3",
+              "Player": "Jagannathan,Shashvath",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "SB": "8.50"
+            },
+            {
+              "1": "16",
+              "2": "17",
+              "3": "02",
+              "4": "110",
+              "5": "01",
+              "Pos": "4",
+              "Player": "Chan,Abby",
+              "Rtg": "212",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "17.5",
+              "BH-C1": "15.0",
+              "SB": "8.50"
+            },
+            {
+              "1": "½ BYE",
+              "2": "½ BYE",
+              "3": "01",
+              "4": "19",
+              "5": "110",
+              "Pos": "5",
+              "Player": "Ashok,Arjun",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "15.0",
+              "BH-C1": "12.0",
+              "SB": "7.00"
+            },
+            {
+              "1": "04",
+              "2": "19",
+              "3": "111",
+              "4": "03",
+              "5": "18",
+              "Pos": "6",
+              "Player": "Luan,William",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "12.5",
+              "BH-C1": "11.0",
+              "SB": "5.50"
+            },
+            {
+              "1": "19",
+              "2": "04",
+              "3": "03",
+              "4": "½11",
+              "5": "113",
+              "Pos": "7",
+              "Player": "Bodke,Aryan",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.5",
+              "BH": "11.5",
+              "BH-C1": "10.5",
+              "SB": "3.75"
+            },
+            {
+              "1": "01",
+              "2": "03",
+              "3": "1 BYE",
+              "4": "112",
+              "5": "06",
+              "Pos": "8",
+              "Player": "Singh,Abhyuday",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "15.0",
+              "BH-C1": "14.0",
+              "SB": "3.00"
+            },
+            {
+              "1": "07",
+              "2": "06",
+              "3": "113",
+              "4": "05",
+              "5": "1 BYE",
+              "Pos": "9",
+              "Player": "Bo,Jeremie",
+              "Rtg": "753",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "10.5",
+              "SB": "3.00"
+            },
+            {
+              "1": "111",
+              "2": "02",
+              "3": "112",
+              "4": "04",
+              "5": "05",
+              "Pos": "10",
+              "Player": "Shenbaga,Kabilan",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "9.5",
+              "SB": "2.50"
+            },
+            {
+              "1": "010",
+              "2": "113",
+              "3": "06",
+              "4": "½7",
+              "5": "012",
+              "Pos": "11",
+              "Player": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "9.5",
+              "BH-C1": "8.5",
+              "SB": "2.25"
+            },
+            {
+              "1": "03",
+              "2": "01",
+              "3": "010",
+              "4": "08",
+              "5": "111",
+              "Pos": "12",
+              "Player": "Bo,Jamie",
+              "Rtg": "277",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "14.5",
+              "BH-C1": "13.0",
+              "SB": "1.50"
+            },
+            {
+              "1": "02",
+              "2": "011",
+              "3": "09",
+              "4": "1 BYE",
+              "5": "07",
+              "Pos": "13",
+              "Player": "Nethi,Karthika",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "11.0",
+              "BH-C1": "10.0",
+              "SB": "1.00"
+            }
+          ]
+        }
+      ]
+    },
+    "felovar.html": {
+      "pageHeading": "FIDE rating variation at round 5",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "FIDE ID",
+            "Fed",
+            "Rtg",
+            "Ng",
+            "Pts",
+            "ARO",
+            "var",
+            "Rp"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "fideplayercard.html": {
+      "pageHeading": "FIDE History Cards",
+      "tables": []
+    },
+    "games.html": {
+      "pageHeading": "",
+      "tables": []
+    },
+    "index.html": {
+      "pageHeading": "Registered players sorted by rating and title",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "Fed",
+            "Rtg",
+            "RtgF",
+            "RtgN"
+          ],
+          "rows": [
+            {
+              "#": "1",
+              "Player": "Bo,Jeremie",
+              "Fed": "",
+              "Rtg": "753",
+              "RtgF": "0",
+              "RtgN": "753"
+            },
+            {
+              "#": "2",
+              "Player": "Bo,Jamie",
+              "Fed": "",
+              "Rtg": "277",
+              "RtgF": "0",
+              "RtgN": "277"
+            },
+            {
+              "#": "3",
+              "Player": "Chan,Abby",
+              "Fed": "",
+              "Rtg": "212",
+              "RtgF": "0",
+              "RtgN": "212"
+            },
+            {
+              "#": "4",
+              "Player": "Husain,Lamiah",
+              "Fed": "",
+              "Rtg": "139",
+              "RtgF": "0",
+              "RtgN": "139"
+            },
+            {
+              "#": "5",
+              "Player": "Amutha Raja,Nalan",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "6",
+              "Player": "Ashok,Arjun",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "7",
+              "Player": "Ashwin,Aswin",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "8",
+              "Player": "Bodke,Aryan",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "9",
+              "Player": "Jagannathan,Shashvath",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "10",
+              "Player": "Luan,William",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "11",
+              "Player": "Nethi,Karthika",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "12",
+              "Player": "Shenbaga,Kabilan",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "13",
+              "Player": "Singh,Abhyuday",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            }
+          ]
+        }
+      ]
+    },
+    "nelovar.html": {
+      "pageHeading": "National rating at round 5",
+      "tables": [
+        {
+          "headers": [
+            "N",
+            "Name",
+            "K",
+            "Elo",
+            "Var",
+            "Per"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "pairs1.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "1    Bo,Jeremie",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "8    Bodke,Aryan"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "9    Jagannathan,Shashvath",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "2    Bo,Jamie"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "3    Chan,Abby",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "10    Luan,William"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "11    Nethi,Karthika",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "4    Husain,Lamiah"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "",
+              "White Player": "5    Amutha Raja,Nalan",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "12    Shenbaga,Kabilan"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "",
+              "White Player": "13    Singh,Abhyuday",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "7    Ashwin,Aswin"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "",
+              "White Player": "6    Ashok,Arjun",
+              "Pts": "0",
+              "Result": "½",
+              "Black Player": "( half point bye )"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs2.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "2    Bo,Jamie",
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Black Player": "7    Ashwin,Aswin"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "8    Bodke,Aryan",
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Black Player": "3    Chan,Abby"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "4    Husain,Lamiah",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Black Player": "12    Shenbaga,Kabilan"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "10    Luan,William",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "1    Bo,Jeremie"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "",
+              "White Player": "11    Nethi,Karthika",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "5    Amutha Raja,Nalan"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "",
+              "White Player": "13    Singh,Abhyuday",
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Black Player": "9    Jagannathan,Shashvath"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "",
+              "White Player": "6    Ashok,Arjun",
+              "Pts": "0",
+              "Result": "½",
+              "Black Player": "( half point bye )"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs3.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "3    Chan,Abby",
+              "Pts": "2",
+              "Result": "0 - 1",
+              "Black Player": "4    Husain,Lamiah"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "7    Ashwin,Aswin",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Black Player": "6    Ashok,Arjun"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "12    Shenbaga,Kabilan",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "2    Bo,Jamie"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "5    Amutha Raja,Nalan",
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Black Player": "10    Luan,William"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "",
+              "White Player": "9    Jagannathan,Shashvath",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Black Player": "8    Bodke,Aryan"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "",
+              "White Player": "1    Bo,Jeremie",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "11    Nethi,Karthika"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "",
+              "White Player": "13    Singh,Abhyuday",
+              "Pts": "0",
+              "Result": "1",
+              "Black Player": "( bye )"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs4.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "4    Husain,Lamiah",
+              "Pts": "3",
+              "Result": "0 - 1",
+              "Black Player": "7    Ashwin,Aswin"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "12    Shenbaga,Kabilan",
+              "Pts": "2",
+              "Result": "0F-1F",
+              "Black Player": "3    Chan,Abby"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "10    Luan,William",
+              "Pts": "3",
+              "Result": "0 - 1",
+              "Black Player": "9    Jagannathan,Shashvath"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "6    Ashok,Arjun",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Black Player": "1    Bo,Jeremie"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "",
+              "White Player": "2    Bo,Jamie",
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Black Player": "13    Singh,Abhyuday"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "",
+              "White Player": "8    Bodke,Aryan",
+              "Pts": "1",
+              "Result": "½ - ½",
+              "Black Player": "5    Amutha Raja,Nalan"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "",
+              "White Player": "11    Nethi,Karthika",
+              "Pts": "0",
+              "Result": "1",
+              "Black Player": "( bye )"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs5.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "7    Ashwin,Aswin",
+              "Pts": "3",
+              "Result": "1 - 0",
+              "Black Player": "3    Chan,Abby"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "9    Jagannathan,Shashvath",
+              "Pts": "3",
+              "Result": "0 - 1",
+              "Black Player": "4    Husain,Lamiah"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "12    Shenbaga,Kabilan",
+              "Pts": "2",
+              "Result": "0 - 1",
+              "Black Player": "6    Ashok,Arjun"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "10    Luan,William",
+              "Pts": "2",
+              "Result": "1 - 0",
+              "Black Player": "13    Singh,Abhyuday"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "",
+              "White Player": "5    Amutha Raja,Nalan",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "2    Bo,Jamie"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "",
+              "White Player": "8    Bodke,Aryan",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Black Player": "11    Nethi,Karthika"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "",
+              "White Player": "1    Bo,Jeremie",
+              "Pts": "0",
+              "Result": "1",
+              "Black Player": "( bye )"
+            }
+          ]
+        }
+      ]
+    },
+    "playercard.html": {
+      "pageHeading": "National History Cards",
+      "tables": [
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Bodke,Aryan",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "10",
+              "Cat": "",
+              "OPPONENT": "Luan,William",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "11",
+              "Cat": "",
+              "OPPONENT": "Nethi,Karthika",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Ashok,Arjun",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "9",
+              "Cat": "",
+              "OPPONENT": "Jagannathan,Shashvat",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Ashwin,Aswin",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "5.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "12",
+              "Cat": "",
+              "OPPONENT": "Shenbaga,Kabilan",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "13",
+              "Cat": "",
+              "OPPONENT": "Singh,Abhyuday",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "10",
+              "Cat": "",
+              "OPPONENT": "Luan,William",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Bodke,Aryan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Husain,Lamiah",
+              "Rtg": "139",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "4",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Ashwin,Aswin",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "5.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "11",
+              "Cat": "",
+              "OPPONENT": "Nethi,Karthika",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "12",
+              "Cat": "",
+              "OPPONENT": "Shenbaga,Kabilan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Chan,Abby",
+              "Rtg": "212",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Ashwin,Aswin",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "5.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "9",
+              "Cat": "",
+              "OPPONENT": "Jagannathan,Shashvat",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "4.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "12",
+              "Cat": "",
+              "OPPONENT": "Shenbaga,Kabilan",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "11",
+              "Cat": "",
+              "OPPONENT": "Nethi,Karthika",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "10",
+              "Cat": "",
+              "OPPONENT": "Luan,William",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Bodke,Aryan",
+              "Rtg": "0",
+              "res": "0.5",
+              "Pts": "2.5"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Bo,Jamie",
+              "Rtg": "277",
+              "res": "0.0",
+              "Pts": "1.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.5",
+              "Pts": "0.0"
+            },
+            {
+              "R": "2",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.5",
+              "Pts": "0.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Ashwin,Aswin",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "5.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Bo,Jeremie",
+              "Rtg": "753",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "12",
+              "Cat": "",
+              "OPPONENT": "Shenbaga,Kabilan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "13",
+              "Cat": "",
+              "OPPONENT": "Singh,Abhyuday",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Bo,Jamie",
+              "Rtg": "277",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Ashok,Arjun",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Husain,Lamiah",
+              "Rtg": "139",
+              "res": "1.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Chan,Abby",
+              "Rtg": "212",
+              "res": "1.0",
+              "Pts": "3.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Bo,Jeremie",
+              "Rtg": "753",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Chan,Abby",
+              "Rtg": "212",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "9",
+              "Cat": "",
+              "OPPONENT": "Jagannathan,Shashvat",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "res": "0.5",
+              "Pts": "1.5"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "11",
+              "Cat": "",
+              "OPPONENT": "Nethi,Karthika",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Bo,Jamie",
+              "Rtg": "277",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "13",
+              "Cat": "",
+              "OPPONENT": "Singh,Abhyuday",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Bodke,Aryan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "10",
+              "Cat": "",
+              "OPPONENT": "Luan,William",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Husain,Lamiah",
+              "Rtg": "139",
+              "res": "0.0",
+              "Pts": "4.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Chan,Abby",
+              "Rtg": "212",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Bo,Jeremie",
+              "Rtg": "753",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.5"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "9",
+              "Cat": "",
+              "OPPONENT": "Jagannathan,Shashvat",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "13",
+              "Cat": "",
+              "OPPONENT": "Singh,Abhyuday",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Husain,Lamiah",
+              "Rtg": "139",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "1.5"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Bo,Jeremie",
+              "Rtg": "753",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "4",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Bodke,Aryan",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "2.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.5"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Husain,Lamiah",
+              "Rtg": "139",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Bo,Jamie",
+              "Rtg": "277",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "4",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Ashok,Arjun",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "3.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Ashwin,Aswin",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "5.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "9",
+              "Cat": "",
+              "OPPONENT": "Jagannathan,Shashvat",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "3",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Bo,Jamie",
+              "Rtg": "277",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "10",
+              "Cat": "",
+              "OPPONENT": "Luan,William",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "3.0"
+            }
+          ]
+        }
+      ]
+    },
+    "playersname.html": {
+      "pageHeading": "Registered players sorted by name",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "Fed",
+            "Rtg",
+            "RtgF",
+            "RtgN"
+          ],
+          "rows": [
+            {
+              "#": "5",
+              "Player": "Amutha Raja,Nalan",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "6",
+              "Player": "Ashok,Arjun",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "7",
+              "Player": "Ashwin,Aswin",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "2",
+              "Player": "Bo,Jamie",
+              "Fed": "",
+              "Rtg": "277",
+              "RtgF": "0",
+              "RtgN": "277"
+            },
+            {
+              "#": "1",
+              "Player": "Bo,Jeremie",
+              "Fed": "",
+              "Rtg": "753",
+              "RtgF": "0",
+              "RtgN": "753"
+            },
+            {
+              "#": "8",
+              "Player": "Bodke,Aryan",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "3",
+              "Player": "Chan,Abby",
+              "Fed": "",
+              "Rtg": "212",
+              "RtgF": "0",
+              "RtgN": "212"
+            },
+            {
+              "#": "4",
+              "Player": "Husain,Lamiah",
+              "Fed": "",
+              "Rtg": "139",
+              "RtgF": "0",
+              "RtgN": "139"
+            },
+            {
+              "#": "9",
+              "Player": "Jagannathan,Shashvath",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "10",
+              "Player": "Luan,William",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "11",
+              "Player": "Nethi,Karthika",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "12",
+              "Player": "Shenbaga,Kabilan",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "13",
+              "Player": "Singh,Abhyuday",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            }
+          ]
+        }
+      ]
+    },
+    "rankTeams.html": {
+      "pageHeading": "Team ranking based on 4 best players of each team",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Team Name",
+            "Points"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Team Name": "",
+              "Points": "16"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "1",
+            "",
+            "16"
+          ],
+          "rows": [
+            {
+              "1": "7",
+              "16": "5",
+              "col2": "Ashwin,Aswin"
+            },
+            {
+              "1": "4",
+              "16": "4",
+              "col2": "Husain,Lamiah"
+            },
+            {
+              "1": "9",
+              "16": "4",
+              "col2": "Jagannathan,Shashvath"
+            },
+            {
+              "1": "3",
+              "16": "3",
+              "col2": "Chan,Abby"
+            },
+            {
+              "1": "6",
+              "16": "3",
+              "col2": "Ashok,Arjun"
+            },
+            {
+              "1": "10",
+              "16": "3",
+              "col2": "Luan,William"
+            },
+            {
+              "1": "8",
+              "16": "2.5",
+              "col2": "Bodke,Aryan"
+            },
+            {
+              "1": "13",
+              "16": "2",
+              "col2": "Singh,Abhyuday"
+            },
+            {
+              "1": "1",
+              "16": "2",
+              "col2": "Bo,Jeremie"
+            },
+            {
+              "1": "12",
+              "16": "2",
+              "col2": "Shenbaga,Kabilan"
+            },
+            {
+              "1": "5",
+              "16": "1.5",
+              "col2": "Amutha Raja,Nalan"
+            },
+            {
+              "1": "2",
+              "16": "1",
+              "col2": "Bo,Jamie"
+            },
+            {
+              "1": "11",
+              "16": "1",
+              "col2": "Nethi,Karthika"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Board 0",
+            "Pos",
+            "Player",
+            "Team",
+            "Points",
+            "Board 1",
+            "Pos",
+            "Player",
+            "Team",
+            "Points",
+            "Board 2",
+            "Pos",
+            "Player",
+            "Team",
+            "Points",
+            "Board 3",
+            "Pos",
+            "Player",
+            "Team",
+            "Points"
+          ],
+          "rows": [
+            {
+              "Board 0": "",
+              "Pos": "1",
+              "Player": "Ashwin,Aswin",
+              "Team": "",
+              "Points": "5"
+            },
+            {
+              "Board 0": "",
+              "Pos": "1",
+              "Player": "Husain,Lamiah",
+              "Team": "",
+              "Points": "4"
+            },
+            {
+              "Board 0": "",
+              "Pos": "1",
+              "Player": "Jagannathan,Shashvath",
+              "Team": "",
+              "Points": "4"
+            },
+            {
+              "Board 0": "",
+              "Pos": "1",
+              "Player": "Chan,Abby",
+              "Team": "",
+              "Points": "3"
+            }
+          ]
+        }
+      ]
+    },
+    "rankcat.html": {
+      "pageHeading": "Standings at round 5 sorted by category",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "Player",
+            "Rtg",
+            "PRtg",
+            "Fed",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "7",
+              "T": "",
+              "Player": "Ashwin,Aswin",
+              "Rtg": "0",
+              "PRtg": "1326",
+              "Fed": "",
+              "Pts": "5.0",
+              "BH": "13.0",
+              "BH-C1": "12.0",
+              "SB": "13.00"
+            },
+            {
+              "Pos": "2",
+              "N": "4",
+              "T": "",
+              "Player": "Husain,Lamiah",
+              "Rtg": "139",
+              "PRtg": "1082",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "15.0",
+              "BH-C1": "14.0",
+              "SB": "10.00"
+            },
+            {
+              "Pos": "3",
+              "N": "9",
+              "T": "",
+              "Player": "Jagannathan,Shashvat",
+              "Rtg": "0",
+              "PRtg": "923",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "SB": "8.50"
+            },
+            {
+              "Pos": "4",
+              "N": "3",
+              "T": "",
+              "Player": "Chan,Abby",
+              "Rtg": "212",
+              "PRtg": "785",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "17.5",
+              "BH-C1": "15.0",
+              "SB": "8.50"
+            },
+            {
+              "Pos": "5",
+              "N": "6",
+              "T": "",
+              "Player": "Ashok,Arjun",
+              "Rtg": "0",
+              "PRtg": "1043",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "15.0",
+              "BH-C1": "12.0",
+              "SB": "7.00"
+            },
+            {
+              "Pos": "6",
+              "N": "10",
+              "T": "",
+              "Player": "Luan,William",
+              "Rtg": "0",
+              "PRtg": "865",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "12.5",
+              "BH-C1": "11.0",
+              "SB": "5.50"
+            },
+            {
+              "Pos": "7",
+              "N": "8",
+              "T": "",
+              "Player": "Bodke,Aryan",
+              "Rtg": "0",
+              "PRtg": "793",
+              "Fed": "",
+              "Pts": "2.5",
+              "BH": "11.5",
+              "BH-C1": "10.5",
+              "SB": "3.75"
+            },
+            {
+              "Pos": "8",
+              "N": "13",
+              "T": "",
+              "Player": "Singh,Abhyuday",
+              "Rtg": "0",
+              "PRtg": "626",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "15.0",
+              "BH-C1": "14.0",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "9",
+              "N": "1",
+              "T": "",
+              "Player": "Bo,Jeremie",
+              "Rtg": "753",
+              "PRtg": "807",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "10.5",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "10",
+              "N": "12",
+              "T": "",
+              "Player": "Shenbaga,Kabilan",
+              "Rtg": "0",
+              "PRtg": "604",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "9.5",
+              "SB": "2.50"
+            },
+            {
+              "Pos": "11",
+              "N": "5",
+              "T": "",
+              "Player": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "PRtg": "706",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "9.5",
+              "BH-C1": "8.5",
+              "SB": "2.25"
+            },
+            {
+              "Pos": "12",
+              "N": "2",
+              "T": "",
+              "Player": "Bo,Jamie",
+              "Rtg": "277",
+              "PRtg": "760",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "14.5",
+              "BH-C1": "13.0",
+              "SB": "1.50"
+            },
+            {
+              "Pos": "13",
+              "N": "11",
+              "T": "",
+              "Player": "Nethi,Karthika",
+              "Rtg": "0",
+              "PRtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "11.0",
+              "BH-C1": "10.0",
+              "SB": "1.00"
+            }
+          ]
+        }
+      ]
+    },
+    "rankingagegroup.html": {
+      "pageHeading": "Player Groups by date at round 5",
+      "tables": []
+    },
+    "rankinggroup.html": {
+      "pageHeading": "Rated Player Groups at round 5",
+      "tables": []
+    },
+    "rewards.html": {
+      "pageHeading": "Open",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "U",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "Reward"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "7",
+              "T": "",
+              "NAME": "Ashwin,Aswin",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "5.0",
+              "BH": "13.0",
+              "BH-C1": "12.0",
+              "Reward": "🏆 Winner"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "U",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "Reward"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "4",
+              "T": "",
+              "NAME": "Husain,Lamiah",
+              "Rtg": "139",
+              "U": "U12",
+              "Pts": "4.0",
+              "BH": "15.0",
+              "BH-C1": "14.0",
+              "Reward": "🏆 Winner"
+            },
+            {
+              "Pos": "2",
+              "N": "3",
+              "T": "",
+              "NAME": "Chan,Abby",
+              "Rtg": "212",
+              "U": "U12",
+              "Pts": "3.0",
+              "BH": "17.5",
+              "BH-C1": "15.0",
+              "Reward": "🥈 1st runner up"
+            },
+            {
+              "Pos": "3",
+              "N": "2",
+              "T": "",
+              "NAME": "Bo,Jamie",
+              "Rtg": "277",
+              "U": "U10",
+              "Pts": "1.0",
+              "BH": "14.5",
+              "BH-C1": "13.0",
+              "Reward": "🥉 2nd runner up"
+            },
+            {
+              "Pos": "4",
+              "N": "11",
+              "T": "",
+              "NAME": "Nethi,Karthika",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "1.0",
+              "BH": "11.0",
+              "BH-C1": "10.0",
+              "Reward": ""
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "U",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "Reward"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "9",
+              "T": "",
+              "NAME": "Jagannathan,Shashvath",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "4.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "Reward": "🏆 Winner"
+            },
+            {
+              "Pos": "2",
+              "N": "10",
+              "T": "",
+              "NAME": "Luan,William",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "3.0",
+              "BH": "12.5",
+              "BH-C1": "11.0",
+              "Reward": "🥈 1st runner up"
+            },
+            {
+              "Pos": "3",
+              "N": "8",
+              "T": "",
+              "NAME": "Bodke,Aryan",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "2.5",
+              "BH": "11.5",
+              "BH-C1": "10.5",
+              "Reward": "🥉 2nd runner up"
+            },
+            {
+              "Pos": "4",
+              "N": "12",
+              "T": "",
+              "NAME": "Shenbaga,Kabilan",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "9.5",
+              "Reward": ""
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "U",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "Reward"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "6",
+              "T": "",
+              "NAME": "Ashok,Arjun",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "3.0",
+              "BH": "15.0",
+              "BH-C1": "12.0",
+              "Reward": "🏆 Winner"
+            },
+            {
+              "Pos": "2",
+              "N": "13",
+              "T": "",
+              "NAME": "Singh,Abhyuday",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "2.0",
+              "BH": "15.0",
+              "BH-C1": "14.0",
+              "Reward": "🥈 1st runner up"
+            },
+            {
+              "Pos": "3",
+              "N": "1",
+              "T": "",
+              "NAME": "Bo,Jeremie",
+              "Rtg": "753",
+              "U": "U10",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "10.5",
+              "Reward": "🥉 2nd runner up"
+            },
+            {
+              "Pos": "4",
+              "N": "5",
+              "T": "",
+              "NAME": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "1.5",
+              "BH": "9.5",
+              "BH-C1": "8.5",
+              "Reward": ""
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "U",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "Reward"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "U",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "Reward"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "7",
+              "T": "",
+              "NAME": "Ashwin,Aswin",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "5.0",
+              "BH": "13.0",
+              "BH-C1": "12.0",
+              "Reward": ""
+            },
+            {
+              "Pos": "3",
+              "N": "9",
+              "T": "",
+              "NAME": "Jagannathan,Shashvath",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "4.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "5",
+              "N": "6",
+              "T": "",
+              "NAME": "Ashok,Arjun",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "3.0",
+              "BH": "15.0",
+              "BH-C1": "12.0",
+              "Reward": ""
+            },
+            {
+              "Pos": "6",
+              "N": "10",
+              "T": "",
+              "NAME": "Luan,William",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "3.0",
+              "BH": "12.5",
+              "BH-C1": "11.0",
+              "Reward": ""
+            },
+            {
+              "Pos": "7",
+              "N": "8",
+              "T": "",
+              "NAME": "Bodke,Aryan",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "2.5",
+              "BH": "11.5",
+              "BH-C1": "10.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "8",
+              "N": "13",
+              "T": "",
+              "NAME": "Singh,Abhyuday",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "2.0",
+              "BH": "15.0",
+              "BH-C1": "14.0",
+              "Reward": ""
+            },
+            {
+              "Pos": "10",
+              "N": "12",
+              "T": "",
+              "NAME": "Shenbaga,Kabilan",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "9.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "11",
+              "N": "5",
+              "T": "",
+              "NAME": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "1.5",
+              "BH": "9.5",
+              "BH-C1": "8.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "13",
+              "N": "11",
+              "T": "",
+              "NAME": "Nethi,Karthika",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "1.0",
+              "BH": "11.0",
+              "BH-C1": "10.0",
+              "Reward": ""
+            }
+          ]
+        }
+      ]
+    },
+    "rewards_locked.html": {
+      "pageHeading": "U10",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "U",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "Reward"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "9",
+              "T": "",
+              "NAME": "Jagannathan,Shashvath",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "4.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "Reward": "🏆 Winner"
+            },
+            {
+              "Pos": "2",
+              "N": "6",
+              "T": "",
+              "NAME": "Ashok,Arjun",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "3.0",
+              "BH": "15.0",
+              "BH-C1": "12.0",
+              "Reward": "🥈 1st runner up"
+            },
+            {
+              "Pos": "3",
+              "N": "10",
+              "T": "",
+              "NAME": "Luan,William",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "3.0",
+              "BH": "12.5",
+              "BH-C1": "11.0",
+              "Reward": "🥉 2nd runner up"
+            },
+            {
+              "Pos": "4",
+              "N": "8",
+              "T": "",
+              "NAME": "Bodke,Aryan",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "2.5",
+              "BH": "11.5",
+              "BH-C1": "10.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "5",
+              "N": "13",
+              "T": "",
+              "NAME": "Singh,Abhyuday",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "2.0",
+              "BH": "15.0",
+              "BH-C1": "14.0",
+              "Reward": ""
+            },
+            {
+              "Pos": "6",
+              "N": "12",
+              "T": "",
+              "NAME": "Shenbaga,Kabilan",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "9.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "7",
+              "N": "5",
+              "T": "",
+              "NAME": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "1.5",
+              "BH": "9.5",
+              "BH-C1": "8.5",
+              "Reward": ""
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "U",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "Reward"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "4",
+              "T": "",
+              "NAME": "Husain,Lamiah",
+              "Rtg": "139",
+              "U": "U10",
+              "Pts": "4.0",
+              "BH": "15.0",
+              "BH-C1": "14.0",
+              "Reward": "🏆 Winner"
+            },
+            {
+              "Pos": "2",
+              "N": "3",
+              "T": "",
+              "NAME": "Chan,Abby",
+              "Rtg": "212",
+              "U": "U10",
+              "Pts": "3.0",
+              "BH": "17.5",
+              "BH-C1": "15.0",
+              "Reward": "🥈 1st runner up"
+            },
+            {
+              "Pos": "3",
+              "N": "2",
+              "T": "",
+              "NAME": "Bo,Jamie",
+              "Rtg": "277",
+              "U": "U10",
+              "Pts": "1.0",
+              "BH": "14.5",
+              "BH-C1": "13.0",
+              "Reward": ""
+            },
+            {
+              "Pos": "4",
+              "N": "11",
+              "T": "",
+              "NAME": "Nethi,Karthika",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "1.0",
+              "BH": "11.0",
+              "BH-C1": "10.0",
+              "Reward": ""
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "U",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "Reward"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "7",
+              "T": "",
+              "NAME": "Ashwin,Aswin",
+              "Rtg": "0",
+              "U": "U8",
+              "Pts": "5.0",
+              "BH": "13.0",
+              "BH-C1": "12.0",
+              "Reward": "🏆 Winner"
+            },
+            {
+              "Pos": "2",
+              "N": "1",
+              "T": "",
+              "NAME": "Bo,Jeremie",
+              "Rtg": "753",
+              "U": "U8",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "10.5",
+              "Reward": "🥈 1st runner up"
+            }
+          ]
+        }
+      ]
+    },
+    "schedule.html": {
+      "pageHeading": "Schedule",
+      "tables": [
+        {
+          "headers": [
+            "Round",
+            "Time",
+            "Date"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "standings.html": {
+      "pageHeading": "Standings at round 5 (last round)",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Player",
+            "Rtg",
+            "Fed",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Player": "7     Ashwin,Aswin",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "5.0",
+              "BH": "13.0",
+              "BH-C1": "12.0",
+              "SB": "13.00"
+            },
+            {
+              "Pos": "2",
+              "Player": "4     Husain,Lamiah",
+              "Rtg": "139",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "15.0",
+              "BH-C1": "14.0",
+              "SB": "10.00"
+            },
+            {
+              "Pos": "3",
+              "Player": "9     Jagannathan,Shashvath",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "SB": "8.50"
+            },
+            {
+              "Pos": "4",
+              "Player": "3     Chan,Abby",
+              "Rtg": "212",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "17.5",
+              "BH-C1": "15.0",
+              "SB": "8.50"
+            },
+            {
+              "Pos": "5",
+              "Player": "6     Ashok,Arjun",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "15.0",
+              "BH-C1": "12.0",
+              "SB": "7.00"
+            },
+            {
+              "Pos": "6",
+              "Player": "10     Luan,William",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "12.5",
+              "BH-C1": "11.0",
+              "SB": "5.50"
+            },
+            {
+              "Pos": "7",
+              "Player": "8     Bodke,Aryan",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.5",
+              "BH": "11.5",
+              "BH-C1": "10.5",
+              "SB": "3.75"
+            },
+            {
+              "Pos": "8",
+              "Player": "13     Singh,Abhyuday",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "15.0",
+              "BH-C1": "14.0",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "9",
+              "Player": "1     Bo,Jeremie",
+              "Rtg": "753",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "10.5",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "10",
+              "Player": "12     Shenbaga,Kabilan",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "9.5",
+              "SB": "2.50"
+            },
+            {
+              "Pos": "11",
+              "Player": "5     Amutha Raja,Nalan",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "9.5",
+              "BH-C1": "8.5",
+              "SB": "2.25"
+            },
+            {
+              "Pos": "12",
+              "Player": "2     Bo,Jamie",
+              "Rtg": "277",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "14.5",
+              "BH-C1": "13.0",
+              "SB": "1.50"
+            },
+            {
+              "Pos": "13",
+              "Player": "11     Nethi,Karthika",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "11.0",
+              "BH-C1": "10.0",
+              "SB": "1.00"
+            }
+          ]
+        }
+      ]
+    },
+    "summaryFederations.html": {
+      "pageHeading": "Summary by Federations",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Name",
+            "Points"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Name": "VIC",
+              "Points": "5"
+            },
+            {
+              "Pos": "2",
+              "Name": "AUS",
+              "Points": "2.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "",
+            "White Player",
+            "Pts",
+            "NW",
+            "Result",
+            "NB",
+            "Pts",
+            "Black Player",
+            ""
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "col2": "",
+              "White Player": "Ashwin,Aswin",
+              "Pts": "(3.0)",
+              "NW": "7",
+              "Result": "1 - 0",
+              "NB": "3",
+              "Black Player": "Chan,Abby",
+              "col10": ""
+            },
+            {
+              "Bo.": "2",
+              "col2": "",
+              "White Player": "Jagannathan,Shashvath",
+              "Pts": "(3.0)",
+              "NW": "9",
+              "Result": "0 - 1",
+              "NB": "4",
+              "Black Player": "Husain,Lamiah",
+              "col10": ""
+            },
+            {
+              "Bo.": "3",
+              "col2": "",
+              "White Player": "Shenbaga,Kabilan",
+              "Pts": "(2.0)",
+              "NW": "12",
+              "Result": "0 - 1",
+              "NB": "6",
+              "Black Player": "Ashok,Arjun",
+              "col10": ""
+            },
+            {
+              "Bo.": "4",
+              "col2": "",
+              "White Player": "Luan,William",
+              "Pts": "(2.0)",
+              "NW": "10",
+              "Result": "1 - 0",
+              "NB": "13",
+              "Black Player": "Singh,Abhyuday",
+              "col10": ""
+            },
+            {
+              "Bo.": "5",
+              "col2": "",
+              "White Player": "Amutha Raja,Nalan",
+              "Pts": "(0.0)",
+              "NW": "5",
+              "Result": "0 - 1",
+              "NB": "2",
+              "Black Player": "Bo,Jamie",
+              "col10": ""
+            },
+            {
+              "Bo.": "6",
+              "col2": "",
+              "White Player": "Bodke,Aryan",
+              "Pts": "(1.0)",
+              "NW": "8",
+              "Result": "1 - 0",
+              "NB": "11",
+              "Black Player": "Nethi,Karthika",
+              "col10": ""
+            },
+            {
+              "Bo.": "7",
+              "col2": "",
+              "White Player": "Bo,Jeremie",
+              "Pts": "(0.0)",
+              "NW": "1",
+              "Result": "1",
+              "NB": "0",
+              "Black Player": "BYE",
+              "col10": ""
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "Player",
+            "Rtg",
+            "PRtg",
+            "Fed",
+            "Origin",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "7",
+              "T": "",
+              "Player": "Ashwin,Aswin",
+              "Rtg": "0",
+              "PRtg": "1326",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "5.0",
+              "BH": "13.0",
+              "BH-C1": "12.0",
+              "SB": "13.00"
+            },
+            {
+              "Pos": "2",
+              "N": "4",
+              "T": "",
+              "Player": "Husain,Lamiah",
+              "Rtg": "139",
+              "PRtg": "1082",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "15.0",
+              "BH-C1": "14.0",
+              "SB": "10.00"
+            },
+            {
+              "Pos": "3",
+              "N": "9",
+              "T": "",
+              "Player": "Jagannathan,Shashvath",
+              "Rtg": "0",
+              "PRtg": "923",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "SB": "8.50"
+            },
+            {
+              "Pos": "4",
+              "N": "3",
+              "T": "",
+              "Player": "Chan,Abby",
+              "Rtg": "212",
+              "PRtg": "785",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "17.5",
+              "BH-C1": "15.0",
+              "SB": "8.50"
+            },
+            {
+              "Pos": "5",
+              "N": "6",
+              "T": "",
+              "Player": "Ashok,Arjun",
+              "Rtg": "0",
+              "PRtg": "1043",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "15.0",
+              "BH-C1": "12.0",
+              "SB": "7.00"
+            },
+            {
+              "Pos": "6",
+              "N": "10",
+              "T": "",
+              "Player": "Luan,William",
+              "Rtg": "0",
+              "PRtg": "865",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "12.5",
+              "BH-C1": "11.0",
+              "SB": "5.50"
+            },
+            {
+              "Pos": "8",
+              "N": "13",
+              "T": "",
+              "Player": "Singh,Abhyuday",
+              "Rtg": "0",
+              "PRtg": "626",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "15.0",
+              "BH-C1": "14.0",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "9",
+              "N": "1",
+              "T": "",
+              "Player": "Bo,Jeremie",
+              "Rtg": "753",
+              "PRtg": "807",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "10.5",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "10",
+              "N": "12",
+              "T": "",
+              "Player": "Shenbaga,Kabilan",
+              "Rtg": "0",
+              "PRtg": "604",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "9.5",
+              "SB": "2.50"
+            },
+            {
+              "Pos": "11",
+              "N": "5",
+              "T": "",
+              "Player": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "PRtg": "706",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.5",
+              "BH": "9.5",
+              "BH-C1": "8.5",
+              "SB": "2.25"
+            },
+            {
+              "Pos": "12",
+              "N": "2",
+              "T": "",
+              "Player": "Bo,Jamie",
+              "Rtg": "277",
+              "PRtg": "760",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "14.5",
+              "BH-C1": "13.0",
+              "SB": "1.50"
+            },
+            {
+              "Pos": "13",
+              "N": "11",
+              "T": "",
+              "Player": "Nethi,Karthika",
+              "Rtg": "0",
+              "PRtg": "0",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "11.0",
+              "BH-C1": "10.0",
+              "SB": "1.00"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "",
+            "White Player",
+            "Pts",
+            "NW",
+            "Result",
+            "NB",
+            "Pts",
+            "Black Player",
+            ""
+          ],
+          "rows": [
+            {
+              "Bo.": "6",
+              "col2": "",
+              "White Player": "Bodke,Aryan",
+              "Pts": "(1.0)",
+              "NW": "8",
+              "Result": "1 - 0",
+              "NB": "11",
+              "Black Player": "Nethi,Karthika",
+              "col10": ""
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "Player",
+            "Rtg",
+            "PRtg",
+            "Fed",
+            "Origin",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "Pos": "7",
+              "N": "8",
+              "T": "",
+              "Player": "Bodke,Aryan",
+              "Rtg": "0",
+              "PRtg": "793",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.5",
+              "BH": "11.5",
+              "BH-C1": "10.5",
+              "SB": "3.75"
+            }
+          ]
+        }
+      ]
+    },
+    "summaryOrigin.html": {
+      "pageHeading": "Summary by Origin",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Name",
+            "Points"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Name": "",
+              "Points": "5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "",
+            "White Player",
+            "Pts",
+            "NW",
+            "Result",
+            "NB",
+            "Pts",
+            "Black Player",
+            ""
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "col2": "",
+              "White Player": "Ashwin,Aswin",
+              "Pts": "(3.0)",
+              "NW": "7",
+              "Result": "1 - 0",
+              "NB": "3",
+              "Black Player": "Chan,Abby",
+              "col10": ""
+            },
+            {
+              "Bo.": "2",
+              "col2": "",
+              "White Player": "Jagannathan,Shashvath",
+              "Pts": "(3.0)",
+              "NW": "9",
+              "Result": "0 - 1",
+              "NB": "4",
+              "Black Player": "Husain,Lamiah",
+              "col10": ""
+            },
+            {
+              "Bo.": "3",
+              "col2": "",
+              "White Player": "Shenbaga,Kabilan",
+              "Pts": "(2.0)",
+              "NW": "12",
+              "Result": "0 - 1",
+              "NB": "6",
+              "Black Player": "Ashok,Arjun",
+              "col10": ""
+            },
+            {
+              "Bo.": "4",
+              "col2": "",
+              "White Player": "Luan,William",
+              "Pts": "(2.0)",
+              "NW": "10",
+              "Result": "1 - 0",
+              "NB": "13",
+              "Black Player": "Singh,Abhyuday",
+              "col10": ""
+            },
+            {
+              "Bo.": "5",
+              "col2": "",
+              "White Player": "Amutha Raja,Nalan",
+              "Pts": "(0.0)",
+              "NW": "5",
+              "Result": "0 - 1",
+              "NB": "2",
+              "Black Player": "Bo,Jamie",
+              "col10": ""
+            },
+            {
+              "Bo.": "6",
+              "col2": "",
+              "White Player": "Bodke,Aryan",
+              "Pts": "(1.0)",
+              "NW": "8",
+              "Result": "1 - 0",
+              "NB": "11",
+              "Black Player": "Nethi,Karthika",
+              "col10": ""
+            },
+            {
+              "Bo.": "7",
+              "col2": "",
+              "White Player": "Bo,Jeremie",
+              "Pts": "(0.0)",
+              "NW": "1",
+              "Result": "1",
+              "NB": "0",
+              "Black Player": "BYE",
+              "col10": ""
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "Player",
+            "Rtg",
+            "PRtg",
+            "Fed",
+            "Origin",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "7",
+              "T": "",
+              "Player": "Ashwin,Aswin",
+              "Rtg": "0",
+              "PRtg": "1326",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "5.0",
+              "BH": "13.0",
+              "BH-C1": "12.0",
+              "SB": "13.00"
+            },
+            {
+              "Pos": "2",
+              "N": "4",
+              "T": "",
+              "Player": "Husain,Lamiah",
+              "Rtg": "139",
+              "PRtg": "1082",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "15.0",
+              "BH-C1": "14.0",
+              "SB": "10.00"
+            },
+            {
+              "Pos": "3",
+              "N": "9",
+              "T": "",
+              "Player": "Jagannathan,Shashvath",
+              "Rtg": "0",
+              "PRtg": "923",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "SB": "8.50"
+            },
+            {
+              "Pos": "4",
+              "N": "3",
+              "T": "",
+              "Player": "Chan,Abby",
+              "Rtg": "212",
+              "PRtg": "785",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "17.5",
+              "BH-C1": "15.0",
+              "SB": "8.50"
+            },
+            {
+              "Pos": "5",
+              "N": "6",
+              "T": "",
+              "Player": "Ashok,Arjun",
+              "Rtg": "0",
+              "PRtg": "1043",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "15.0",
+              "BH-C1": "12.0",
+              "SB": "7.00"
+            },
+            {
+              "Pos": "6",
+              "N": "10",
+              "T": "",
+              "Player": "Luan,William",
+              "Rtg": "0",
+              "PRtg": "865",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "12.5",
+              "BH-C1": "11.0",
+              "SB": "5.50"
+            },
+            {
+              "Pos": "7",
+              "N": "8",
+              "T": "",
+              "Player": "Bodke,Aryan",
+              "Rtg": "0",
+              "PRtg": "793",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.5",
+              "BH": "11.5",
+              "BH-C1": "10.5",
+              "SB": "3.75"
+            },
+            {
+              "Pos": "8",
+              "N": "13",
+              "T": "",
+              "Player": "Singh,Abhyuday",
+              "Rtg": "0",
+              "PRtg": "626",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "15.0",
+              "BH-C1": "14.0",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "9",
+              "N": "1",
+              "T": "",
+              "Player": "Bo,Jeremie",
+              "Rtg": "753",
+              "PRtg": "807",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "10.5",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "10",
+              "N": "12",
+              "T": "",
+              "Player": "Shenbaga,Kabilan",
+              "Rtg": "0",
+              "PRtg": "604",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "11.5",
+              "BH-C1": "9.5",
+              "SB": "2.50"
+            },
+            {
+              "Pos": "11",
+              "N": "5",
+              "T": "",
+              "Player": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "PRtg": "706",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.5",
+              "BH": "9.5",
+              "BH-C1": "8.5",
+              "SB": "2.25"
+            },
+            {
+              "Pos": "12",
+              "N": "2",
+              "T": "",
+              "Player": "Bo,Jamie",
+              "Rtg": "277",
+              "PRtg": "760",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "14.5",
+              "BH-C1": "13.0",
+              "SB": "1.50"
+            },
+            {
+              "Pos": "13",
+              "N": "11",
+              "T": "",
+              "Player": "Nethi,Karthika",
+              "Rtg": "0",
+              "PRtg": "0",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "11.0",
+              "BH-C1": "10.0",
+              "SB": "1.00"
+            }
+          ]
+        }
+      ]
+    },
+    "tourstat.html": {
+      "pageHeading": "Tournament summary",
+      "tables": [
+        {
+          "headers": [],
+          "rows": [
+            {
+              "col1": "Tournament Name",
+              "col2": "Western Minor Juniors 2024"
+            },
+            {
+              "col1": "Place",
+              "col2": "Hobsons Bay Chess Club"
+            },
+            {
+              "col1": "Federation",
+              "col2": "AUS"
+            },
+            {
+              "col1": "Date Begin",
+              "col2": "30/04/2024"
+            },
+            {
+              "col1": "Date End",
+              "col2": "04/06/2024"
+            },
+            {
+              "col1": "Arbiter(s)",
+              "col2": "NA Sophie Davis"
+            },
+            {
+              "col1": "Play System",
+              "col2": "swiss FIDE Dutch (JaVaFo)"
+            },
+            {
+              "col1": "Rounds",
+              "col2": "5"
+            },
+            {
+              "col1": "Score game",
+              "col2": "0-0.5-1"
+            },
+            {
+              "col1": "Tie break",
+              "col2": "BH   BH-C1      SB"
+            },
+            {
+              "col1": "Registered Players",
+              "col2": "13"
+            },
+            {
+              "col1": "Number of Federations",
+              "col2": "2"
+            },
+            {
+              "col1": "Average Rating (all)",
+              "col2": "106"
+            },
+            {
+              "col1": "Average Rating (only FIDE rated)",
+              "col2": "0"
+            },
+            {
+              "col1": "Players from AUS Federation",
+              "col2": "1"
+            },
+            {
+              "col1": "Players NOT from AUS Federation",
+              "col2": "12"
+            },
+            {
+              "col1": "FIDE rated players",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players",
+              "col2": "13"
+            },
+            {
+              "col1": "unrated players from AUS Federation",
+              "col2": "1"
+            },
+            {
+              "col1": "unrated players NOT from AUS Federation",
+              "col2": "12"
+            },
+            {
+              "col1": "unrated Federations",
+              "col2": "2"
+            },
+            {
+              "col1": "FIDE titled players",
+              "col2": "0"
+            },
+            {
+              "col1": "GM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WGM players",
+              "col2": "0"
+            },
+            {
+              "col1": "IM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WIM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WFM players",
+              "col2": "0"
+            },
+            {
+              "col1": "CM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WCM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player NOT from AUS Federation",
+              "col2": "0"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "menu": [
+    {
+      "text": "Info",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Schedule",
+          "href": "schedule.html"
+        },
+        {
+          "text": "Statistics",
+          "href": "tourstat.html"
+        }
+      ]
+    },
+    {
+      "text": "Players",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Sorted by Rating",
+          "href": "index.html"
+        },
+        {
+          "text": "Sorted by Name",
+          "href": "playersname.html"
+        }
+      ]
+    },
+    {
+      "text": "Pairings",
+      "href": "pairs5.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Standings",
+      "href": "standings.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Tables",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Cross table",
+          "href": "crosstable.html"
+        },
+        {
+          "text": "Cross table and standings",
+          "href": "crosstablescore.html"
+        },
+        {
+          "text": "Standings by Rtg groups",
+          "href": "rankinggroup.html"
+        },
+        {
+          "text": "Standings by age groups",
+          "href": "rankingagegroup.html"
+        },
+        {
+          "text": "Standings by title",
+          "href": "rankcat.html"
+        },
+        {
+          "text": "Rank Teams",
+          "href": "rankTeams.html"
+        },
+        {
+          "text": "Summary Federations",
+          "href": "summaryFederations.html"
+        },
+        {
+          "text": "Summary Origin",
+          "href": "summaryOrigin.html"
+        }
+      ]
+    },
+    {
+      "text": "Reports",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "FIDE Rating",
+          "href": "felovar.html"
+        },
+        {
+          "text": "FIDE Player Card",
+          "href": "fideplayercard.html"
+        },
+        {
+          "text": "National rating",
+          "href": "nelovar.html"
+        },
+        {
+          "text": "National Player Card",
+          "href": "playercard.html"
+        }
+      ]
+    },
+    {
+      "text": "Rewards",
+      "href": "rewards.html",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Open",
+          "href": "rewards_locked.html"
+        },
+        {
+          "text": "U12",
+          "href": "rewards_locked.html#U12"
+        },
+        {
+          "text": "U10",
+          "href": "rewards_locked.html#U10"
+        },
+        {
+          "text": "U8",
+          "href": "rewards_locked.html#U8"
+        },
+        {
+          "text": "Girls",
+          "href": "rewards_locked.html#Girl"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "Tournament Name": "Western Minor Juniors 2024",
+    "Place": "Hobsons Bay Chess Club",
+    "Federation": "AUS",
+    "Date Begin": "30/04/2024",
+    "Date End": "04/06/2024",
+    "Arbiter(s)": "NA Sophie Davis",
+    "Play System": "swiss FIDE Dutch (JaVaFo)",
+    "Rounds": "5",
+    "Score game": "0-0.5-1",
+    "Tie break": "BH BH-C1 SB",
+    "Registered Players": "13",
+    "Number of Federations": "2",
+    "Average Rating (all)": "106",
+    "Average Rating (only FIDE rated)": "0",
+    "Players from AUS Federation": "1",
+    "Players NOT from AUS Federation": "12",
+    "FIDE rated players": "0",
+    "unrated players": "13",
+    "unrated players from AUS Federation": "1",
+    "unrated players NOT from AUS Federation": "12",
+    "unrated Federations": "2",
+    "FIDE titled players": "0",
+    "GM players": "0",
+    "WGM players": "0",
+    "IM players": "0",
+    "WIM players": "0",
+    "FM players": "0",
+    "WFM players": "0",
+    "CM players": "0",
+    "WCM players": "0",
+    "FIDE titled player from AUS Federation": "0",
+    "FIDE titled player NOT from AUS Federation": "0"
+  }
+}

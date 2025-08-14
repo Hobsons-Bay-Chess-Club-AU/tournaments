@@ -115,6 +115,7 @@ jobs:
         run: |
           sudo chown -R $(whoami) ./www
           node src/sync.mjs
+          node src/prepare-data.mjs
 
       - name: Build Timeline App
         if: steps.check_change_id.outputs.skip_steps != 'true'

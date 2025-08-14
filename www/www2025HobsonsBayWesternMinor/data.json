@@ -1,0 +1,1922 @@
+{
+  "page": {
+    "felovar.html": {
+      "pageHeading": "FIDE rating variation at round 5",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "FIDE ID",
+            "Fed",
+            "Rtg",
+            "Ng",
+            "Pts",
+            "ARO",
+            "var",
+            "Rp"
+          ],
+          "rows": [
+            {
+              "#": "1",
+              "Player": "Whitford,Matthew",
+              "FIDE ID": "3232220",
+              "Fed": "",
+              "Rtg": "1692",
+              "Ng": "5",
+              "Pts": "3.0",
+              "ARO": "1680",
+              "var": "8",
+              "Rp": "1752"
+            },
+            {
+              "#": "2",
+              "Player": "Matijas,Dejan",
+              "FIDE ID": "3242838",
+              "Fed": "",
+              "Rtg": "1622",
+              "Ng": "5",
+              "Pts": "1.0",
+              "ARO": "1694",
+              "var": "-20",
+              "Rp": "1454"
+            },
+            {
+              "#": "3",
+              "Player": "Wongso,Renaldo",
+              "FIDE ID": "7134827",
+              "Fed": "",
+              "Rtg": "1682",
+              "Ng": "5",
+              "Pts": "4.5",
+              "ARO": "1682",
+              "var": "40",
+              "Rp": "2048"
+            },
+            {
+              "#": "4",
+              "Player": "Bodke,Krishna",
+              "FIDE ID": "3259021",
+              "Fed": "",
+              "Rtg": "1691",
+              "Ng": "5",
+              "Pts": "2.5",
+              "ARO": "1680",
+              "var": "-3",
+              "Rp": "1680"
+            },
+            {
+              "#": "5",
+              "Player": "Picone,James",
+              "FIDE ID": "3259072",
+              "Fed": "",
+              "Rtg": "1697",
+              "Ng": "5",
+              "Pts": "1.0",
+              "ARO": "1679",
+              "var": "-33",
+              "Rp": "1439"
+            },
+            {
+              "#": "6",
+              "Player": "Nguyen,Anh Kiet",
+              "FIDE ID": "3267849",
+              "Fed": "",
+              "Rtg": "1707",
+              "Ng": "5",
+              "Pts": "3.0",
+              "ARO": "1677",
+              "var": "12",
+              "Rp": "1749"
+            }
+          ]
+        }
+      ]
+    },
+    "fideplayercard.html": {
+      "pageHeading": "FIDE History Cards",
+      "tables": [
+        {
+          "headers": [
+            "Rnd",
+            "Col",
+            "N opp",
+            "Opponent Name",
+            "FIDE ID",
+            "Fed",
+            "Rtg",
+            "res"
+          ],
+          "rows": [
+            {
+              "Rnd": "1",
+              "Col": "W",
+              "N opp": "6",
+              "Opponent Name": "Nguyen,Anh Kiet",
+              "FIDE ID": "3267849",
+              "Fed": "VIC",
+              "Rtg": "1707",
+              "res": "1"
+            },
+            {
+              "Rnd": "2",
+              "Col": "W",
+              "N opp": "2",
+              "Opponent Name": "Matijas,Dejan",
+              "FIDE ID": "3242838",
+              "Fed": "VIC",
+              "Rtg": "1622",
+              "res": "1"
+            },
+            {
+              "Rnd": "3",
+              "Col": "B",
+              "N opp": "3",
+              "Opponent Name": "Wongso,Renaldo",
+              "FIDE ID": "7134827",
+              "Fed": "OS",
+              "Rtg": "1682",
+              "res": "0"
+            },
+            {
+              "Rnd": "4",
+              "Col": "W",
+              "N opp": "4",
+              "Opponent Name": "Bodke,Krishna",
+              "FIDE ID": "3259021",
+              "Fed": "VIC",
+              "Rtg": "1691",
+              "res": "1"
+            },
+            {
+              "Rnd": "5",
+              "Col": "B",
+              "N opp": "5",
+              "Opponent Name": "Picone,James",
+              "FIDE ID": "3259072",
+              "Fed": "VIC",
+              "Rtg": "1697",
+              "res": "0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Rnd",
+            "Col",
+            "N opp",
+            "Opponent Name",
+            "FIDE ID",
+            "Fed",
+            "Rtg",
+            "res"
+          ],
+          "rows": [
+            {
+              "Rnd": "1",
+              "Col": "W",
+              "N opp": "5",
+              "Opponent Name": "Picone,James",
+              "FIDE ID": "3259072",
+              "Fed": "VIC",
+              "Rtg": "1697",
+              "res": "1"
+            },
+            {
+              "Rnd": "2",
+              "Col": "B",
+              "N opp": "1",
+              "Opponent Name": "Whitford,Matthew",
+              "FIDE ID": "3232220",
+              "Fed": "VIC",
+              "Rtg": "1692",
+              "res": "0"
+            },
+            {
+              "Rnd": "3",
+              "Col": "W",
+              "N opp": "6",
+              "Opponent Name": "Nguyen,Anh Kiet",
+              "FIDE ID": "3267849",
+              "Fed": "VIC",
+              "Rtg": "1707",
+              "res": "0"
+            },
+            {
+              "Rnd": "4",
+              "Col": "W",
+              "N opp": "3",
+              "Opponent Name": "Wongso,Renaldo",
+              "FIDE ID": "7134827",
+              "Fed": "OS",
+              "Rtg": "1682",
+              "res": "0"
+            },
+            {
+              "Rnd": "5",
+              "Col": "B",
+              "N opp": "4",
+              "Opponent Name": "Bodke,Krishna",
+              "FIDE ID": "3259021",
+              "Fed": "VIC",
+              "Rtg": "1691",
+              "res": "0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Rnd",
+            "Col",
+            "N opp",
+            "Opponent Name",
+            "FIDE ID",
+            "Fed",
+            "Rtg",
+            "res"
+          ],
+          "rows": [
+            {
+              "Rnd": "1",
+              "Col": "W",
+              "N opp": "4",
+              "Opponent Name": "Bodke,Krishna",
+              "FIDE ID": "3259021",
+              "Fed": "VIC",
+              "Rtg": "1691",
+              "res": "0.5"
+            },
+            {
+              "Rnd": "2",
+              "Col": "B",
+              "N opp": "5",
+              "Opponent Name": "Picone,James",
+              "FIDE ID": "3259072",
+              "Fed": "VIC",
+              "Rtg": "1697",
+              "res": "1"
+            },
+            {
+              "Rnd": "3",
+              "Col": "W",
+              "N opp": "1",
+              "Opponent Name": "Whitford,Matthew",
+              "FIDE ID": "3232220",
+              "Fed": "VIC",
+              "Rtg": "1692",
+              "res": "1"
+            },
+            {
+              "Rnd": "4",
+              "Col": "B",
+              "N opp": "2",
+              "Opponent Name": "Matijas,Dejan",
+              "FIDE ID": "3242838",
+              "Fed": "VIC",
+              "Rtg": "1622",
+              "res": "1"
+            },
+            {
+              "Rnd": "5",
+              "Col": "W",
+              "N opp": "6",
+              "Opponent Name": "Nguyen,Anh Kiet",
+              "FIDE ID": "3267849",
+              "Fed": "VIC",
+              "Rtg": "1707",
+              "res": "1"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Rnd",
+            "Col",
+            "N opp",
+            "Opponent Name",
+            "FIDE ID",
+            "Fed",
+            "Rtg",
+            "res"
+          ],
+          "rows": [
+            {
+              "Rnd": "1",
+              "Col": "B",
+              "N opp": "3",
+              "Opponent Name": "Wongso,Renaldo",
+              "FIDE ID": "7134827",
+              "Fed": "OS",
+              "Rtg": "1682",
+              "res": "0.5"
+            },
+            {
+              "Rnd": "2",
+              "Col": "B",
+              "N opp": "6",
+              "Opponent Name": "Nguyen,Anh Kiet",
+              "FIDE ID": "3267849",
+              "Fed": "VIC",
+              "Rtg": "1707",
+              "res": "0"
+            },
+            {
+              "Rnd": "3",
+              "Col": "W",
+              "N opp": "5",
+              "Opponent Name": "Picone,James",
+              "FIDE ID": "3259072",
+              "Fed": "VIC",
+              "Rtg": "1697",
+              "res": "1"
+            },
+            {
+              "Rnd": "4",
+              "Col": "B",
+              "N opp": "1",
+              "Opponent Name": "Whitford,Matthew",
+              "FIDE ID": "3232220",
+              "Fed": "VIC",
+              "Rtg": "1692",
+              "res": "0"
+            },
+            {
+              "Rnd": "5",
+              "Col": "W",
+              "N opp": "2",
+              "Opponent Name": "Matijas,Dejan",
+              "FIDE ID": "3242838",
+              "Fed": "VIC",
+              "Rtg": "1622",
+              "res": "1"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Rnd",
+            "Col",
+            "N opp",
+            "Opponent Name",
+            "FIDE ID",
+            "Fed",
+            "Rtg",
+            "res"
+          ],
+          "rows": [
+            {
+              "Rnd": "1",
+              "Col": "B",
+              "N opp": "2",
+              "Opponent Name": "Matijas,Dejan",
+              "FIDE ID": "3242838",
+              "Fed": "VIC",
+              "Rtg": "1622",
+              "res": "0"
+            },
+            {
+              "Rnd": "2",
+              "Col": "W",
+              "N opp": "3",
+              "Opponent Name": "Wongso,Renaldo",
+              "FIDE ID": "7134827",
+              "Fed": "OS",
+              "Rtg": "1682",
+              "res": "0"
+            },
+            {
+              "Rnd": "3",
+              "Col": "B",
+              "N opp": "4",
+              "Opponent Name": "Bodke,Krishna",
+              "FIDE ID": "3259021",
+              "Fed": "VIC",
+              "Rtg": "1691",
+              "res": "0"
+            },
+            {
+              "Rnd": "4",
+              "Col": "B",
+              "N opp": "6",
+              "Opponent Name": "Nguyen,Anh Kiet",
+              "FIDE ID": "3267849",
+              "Fed": "VIC",
+              "Rtg": "1707",
+              "res": "0"
+            },
+            {
+              "Rnd": "5",
+              "Col": "W",
+              "N opp": "1",
+              "Opponent Name": "Whitford,Matthew",
+              "FIDE ID": "3232220",
+              "Fed": "VIC",
+              "Rtg": "1692",
+              "res": "1"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Rnd",
+            "Col",
+            "N opp",
+            "Opponent Name",
+            "FIDE ID",
+            "Fed",
+            "Rtg",
+            "res"
+          ],
+          "rows": [
+            {
+              "Rnd": "1",
+              "Col": "B",
+              "N opp": "1",
+              "Opponent Name": "Whitford,Matthew",
+              "FIDE ID": "3232220",
+              "Fed": "VIC",
+              "Rtg": "1692",
+              "res": "0"
+            },
+            {
+              "Rnd": "2",
+              "Col": "W",
+              "N opp": "4",
+              "Opponent Name": "Bodke,Krishna",
+              "FIDE ID": "3259021",
+              "Fed": "VIC",
+              "Rtg": "1691",
+              "res": "1"
+            },
+            {
+              "Rnd": "3",
+              "Col": "B",
+              "N opp": "2",
+              "Opponent Name": "Matijas,Dejan",
+              "FIDE ID": "3242838",
+              "Fed": "VIC",
+              "Rtg": "1622",
+              "res": "1"
+            },
+            {
+              "Rnd": "4",
+              "Col": "W",
+              "N opp": "5",
+              "Opponent Name": "Picone,James",
+              "FIDE ID": "3259072",
+              "Fed": "VIC",
+              "Rtg": "1697",
+              "res": "1"
+            },
+            {
+              "Rnd": "5",
+              "Col": "B",
+              "N opp": "3",
+              "Opponent Name": "Wongso,Renaldo",
+              "FIDE ID": "7134827",
+              "Fed": "OS",
+              "Rtg": "1682",
+              "res": "0"
+            }
+          ]
+        }
+      ]
+    },
+    "index.html": {
+      "pageHeading": "Registered players sorted by rating and title",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "Fed",
+            "Origin",
+            "Rtg",
+            "RtgF",
+            "RtgN"
+          ],
+          "rows": [
+            {
+              "#": "1",
+              "Player": "Whitford,Matthew",
+              "Fed": "",
+              "Origin": "",
+              "Rtg": "1505",
+              "RtgF": "1692",
+              "RtgN": "1505"
+            },
+            {
+              "#": "5",
+              "Player": "Picone,James",
+              "Fed": "",
+              "Origin": "",
+              "Rtg": "1502",
+              "RtgF": "1697",
+              "RtgN": "1502"
+            },
+            {
+              "#": "3",
+              "Player": "Wongso,Renaldo",
+              "Fed": "",
+              "Origin": "",
+              "Rtg": "1486",
+              "RtgF": "1682",
+              "RtgN": "1486"
+            },
+            {
+              "#": "4",
+              "Player": "Bodke,Krishna",
+              "Fed": "",
+              "Origin": "",
+              "Rtg": "1445",
+              "RtgF": "1691",
+              "RtgN": "1445"
+            },
+            {
+              "#": "6",
+              "Player": "Nguyen,Anh Kiet",
+              "Fed": "",
+              "Origin": "",
+              "Rtg": "1416",
+              "RtgF": "1707",
+              "RtgN": "1416"
+            },
+            {
+              "#": "2",
+              "Player": "Matijas,Dejan",
+              "Fed": "",
+              "Origin": "",
+              "Rtg": "1411",
+              "RtgF": "1622",
+              "RtgN": "1411"
+            }
+          ]
+        }
+      ]
+    },
+    "nelovar.html": {
+      "pageHeading": "National rating at round 5",
+      "tables": [
+        {
+          "headers": [
+            "N",
+            "Name",
+            "K",
+            "Elo",
+            "Var",
+            "Per"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "pairs1.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "White Player": "Whitford,Matthew\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t1505",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "Nguyen,Anh Kiet\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1416"
+            },
+            {
+              "Bo.": "2",
+              "White Player": "Matijas,Dejan\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t1411",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "Picone,James\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1502"
+            },
+            {
+              "Bo.": "3",
+              "White Player": "Wongso,Renaldo\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1486",
+              "Pts": "0",
+              "Result": "½ - ½",
+              "Black Player": "Bodke,Krishna\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1445"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs2.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "White Player": "Nguyen,Anh Kiet\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1416",
+              "Pts": "0.5",
+              "Result": "1 - 0",
+              "Black Player": "Bodke,Krishna\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1445"
+            },
+            {
+              "Bo.": "2",
+              "White Player": "Picone,James\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1502",
+              "Pts": "0.5",
+              "Result": "0 - 1",
+              "Black Player": "Wongso,Renaldo\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1486"
+            },
+            {
+              "Bo.": "3",
+              "White Player": "Whitford,Matthew\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t1505",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "Matijas,Dejan\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t1411"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs3.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "White Player": "Matijas,Dejan\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t1411",
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Black Player": "Nguyen,Anh Kiet\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1416"
+            },
+            {
+              "Bo.": "2",
+              "White Player": "Wongso,Renaldo\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1486",
+              "Pts": "2",
+              "Result": "1 - 0",
+              "Black Player": "Whitford,Matthew\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t1505"
+            },
+            {
+              "Bo.": "3",
+              "White Player": "Bodke,Krishna\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1445",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "Picone,James\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1502"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs4.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "White Player": "Nguyen,Anh Kiet\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1416",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "Picone,James\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1502"
+            },
+            {
+              "Bo.": "2",
+              "White Player": "Whitford,Matthew\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t1505",
+              "Pts": "1.5",
+              "Result": "1 - 0",
+              "Black Player": "Bodke,Krishna\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1445"
+            },
+            {
+              "Bo.": "3",
+              "White Player": "Matijas,Dejan\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t1411",
+              "Pts": "1.5",
+              "Result": "0 - 1",
+              "Black Player": "Wongso,Renaldo\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1486"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs5.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "White Player": "Wongso,Renaldo\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1486",
+              "Pts": "3",
+              "Result": "1 - 0",
+              "Black Player": "Nguyen,Anh Kiet\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1416"
+            },
+            {
+              "Bo.": "2",
+              "White Player": "Bodke,Krishna\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1445",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Black Player": "Matijas,Dejan\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t1411"
+            },
+            {
+              "Bo.": "3",
+              "White Player": "Picone,James\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1502",
+              "Pts": "3",
+              "Result": "1 - 0",
+              "Black Player": "Whitford,Matthew\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t1505"
+            }
+          ]
+        }
+      ]
+    },
+    "playercard.html": {
+      "pageHeading": "National History Cards",
+      "tables": [
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1416",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Matijas,Dejan",
+              "Rtg": "1411",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Wongso,Renaldo",
+              "Rtg": "1486",
+              "res": "0.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Bodke,Krishna",
+              "Rtg": "1445",
+              "res": "1.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Picone,James",
+              "Rtg": "1502",
+              "res": "0.0",
+              "Pts": "1.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Picone,James",
+              "Rtg": "1502",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Whitford,Matthew",
+              "Rtg": "1505",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1416",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Wongso,Renaldo",
+              "Rtg": "1486",
+              "res": "0.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Bodke,Krishna",
+              "Rtg": "1445",
+              "res": "0.0",
+              "Pts": "2.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Bodke,Krishna",
+              "Rtg": "1445",
+              "res": "0.5",
+              "Pts": "2.5"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Picone,James",
+              "Rtg": "1502",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Whitford,Matthew",
+              "Rtg": "1505",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Matijas,Dejan",
+              "Rtg": "1411",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1416",
+              "res": "1.0",
+              "Pts": "3.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Wongso,Renaldo",
+              "Rtg": "1486",
+              "res": "0.5",
+              "Pts": "4.5"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1416",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Picone,James",
+              "Rtg": "1502",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Whitford,Matthew",
+              "Rtg": "1505",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Matijas,Dejan",
+              "Rtg": "1411",
+              "res": "1.0",
+              "Pts": "1.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Matijas,Dejan",
+              "Rtg": "1411",
+              "res": "0.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Wongso,Renaldo",
+              "Rtg": "1486",
+              "res": "0.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Bodke,Krishna",
+              "Rtg": "1445",
+              "res": "0.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1416",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Whitford,Matthew",
+              "Rtg": "1505",
+              "res": "1.0",
+              "Pts": "3.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Whitford,Matthew",
+              "Rtg": "1505",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Bodke,Krishna",
+              "Rtg": "1445",
+              "res": "1.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Matijas,Dejan",
+              "Rtg": "1411",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Picone,James",
+              "Rtg": "1502",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Wongso,Renaldo",
+              "Rtg": "1486",
+              "res": "0.0",
+              "Pts": "4.5"
+            }
+          ]
+        }
+      ]
+    },
+    "playersname.html": {
+      "pageHeading": "Registered players sorted by name",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "Fed",
+            "Origin",
+            "Rtg",
+            "RtgF",
+            "RtgN"
+          ],
+          "rows": [
+            {
+              "#": "4",
+              "Player": "Bodke,Krishna",
+              "Fed": "",
+              "Origin": "",
+              "Rtg": "1445",
+              "RtgF": "1691",
+              "RtgN": "1445"
+            },
+            {
+              "#": "2",
+              "Player": "Matijas,Dejan",
+              "Fed": "",
+              "Origin": "",
+              "Rtg": "1411",
+              "RtgF": "1622",
+              "RtgN": "1411"
+            },
+            {
+              "#": "6",
+              "Player": "Nguyen,Anh Kiet",
+              "Fed": "",
+              "Origin": "",
+              "Rtg": "1416",
+              "RtgF": "1707",
+              "RtgN": "1416"
+            },
+            {
+              "#": "5",
+              "Player": "Picone,James",
+              "Fed": "",
+              "Origin": "",
+              "Rtg": "1502",
+              "RtgF": "1697",
+              "RtgN": "1502"
+            },
+            {
+              "#": "1",
+              "Player": "Whitford,Matthew",
+              "Fed": "",
+              "Origin": "",
+              "Rtg": "1505",
+              "RtgF": "1692",
+              "RtgN": "1505"
+            },
+            {
+              "#": "3",
+              "Player": "Wongso,Renaldo",
+              "Fed": "",
+              "Origin": "",
+              "Rtg": "1486",
+              "RtgF": "1682",
+              "RtgN": "1486"
+            }
+          ]
+        }
+      ]
+    },
+    "schedule.html": {
+      "pageHeading": "Schedule",
+      "tables": [
+        {
+          "headers": [
+            "Round",
+            "Time",
+            "Date"
+          ],
+          "rows": [
+            {
+              "Round": "1",
+              "Time": "17:30",
+              "Date": "29/04/2025"
+            },
+            {
+              "Round": "2",
+              "Time": "17:30",
+              "Date": "06/05/2025"
+            },
+            {
+              "Round": "3",
+              "Time": "17:30",
+              "Date": "13/05/2025"
+            },
+            {
+              "Round": "4",
+              "Time": "17:30",
+              "Date": "20/05/2025"
+            },
+            {
+              "Round": "5",
+              "Time": "17:30",
+              "Date": "03/06/2025"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "Origin",
+            "White Player",
+            "NW",
+            "Result",
+            "NB",
+            "Black Player",
+            "Origin",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "Origin": "",
+              "White Player": "Whitford,Matthew",
+              "NW": "1",
+              "Result": "1 - 0",
+              "NB": "6",
+              "Black Player": "Nguyen,Anh Kiet"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "Origin": "",
+              "White Player": "Matijas,Dejan",
+              "NW": "2",
+              "Result": "1 - 0",
+              "NB": "5",
+              "Black Player": "Picone,James"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "Origin": "",
+              "White Player": "Wongso,Renaldo",
+              "NW": "3",
+              "Result": "½ - ½",
+              "NB": "4",
+              "Black Player": "Bodke,Krishna"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "Origin",
+            "White Player",
+            "NW",
+            "Result",
+            "NB",
+            "Black Player",
+            "Origin",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "Origin": "",
+              "White Player": "Nguyen,Anh Kiet",
+              "NW": "6",
+              "Result": "1 - 0",
+              "NB": "4",
+              "Black Player": "Bodke,Krishna"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "Origin": "",
+              "White Player": "Picone,James",
+              "NW": "5",
+              "Result": "0 - 1",
+              "NB": "3",
+              "Black Player": "Wongso,Renaldo"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "Origin": "",
+              "White Player": "Whitford,Matthew",
+              "NW": "1",
+              "Result": "1 - 0",
+              "NB": "2",
+              "Black Player": "Matijas,Dejan"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "Origin",
+            "White Player",
+            "NW",
+            "Result",
+            "NB",
+            "Black Player",
+            "Origin",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "Origin": "",
+              "White Player": "Matijas,Dejan",
+              "NW": "2",
+              "Result": "0 - 1",
+              "NB": "6",
+              "Black Player": "Nguyen,Anh Kiet"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "Origin": "",
+              "White Player": "Wongso,Renaldo",
+              "NW": "3",
+              "Result": "1 - 0",
+              "NB": "1",
+              "Black Player": "Whitford,Matthew"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "Origin": "",
+              "White Player": "Bodke,Krishna",
+              "NW": "4",
+              "Result": "1 - 0",
+              "NB": "5",
+              "Black Player": "Picone,James"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "Origin",
+            "White Player",
+            "NW",
+            "Result",
+            "NB",
+            "Black Player",
+            "Origin",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "Origin": "",
+              "White Player": "Nguyen,Anh Kiet",
+              "NW": "6",
+              "Result": "1 - 0",
+              "NB": "5",
+              "Black Player": "Picone,James"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "Origin": "",
+              "White Player": "Whitford,Matthew",
+              "NW": "1",
+              "Result": "1 - 0",
+              "NB": "4",
+              "Black Player": "Bodke,Krishna"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "Origin": "",
+              "White Player": "Matijas,Dejan",
+              "NW": "2",
+              "Result": "0 - 1",
+              "NB": "3",
+              "Black Player": "Wongso,Renaldo"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "Origin",
+            "White Player",
+            "NW",
+            "Result",
+            "NB",
+            "Black Player",
+            "Origin",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "Origin": "",
+              "White Player": "Wongso,Renaldo",
+              "NW": "3",
+              "Result": "1 - 0",
+              "NB": "6",
+              "Black Player": "Nguyen,Anh Kiet"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "Origin": "",
+              "White Player": "Bodke,Krishna",
+              "NW": "4",
+              "Result": "1 - 0",
+              "NB": "2",
+              "Black Player": "Matijas,Dejan"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "Origin": "",
+              "White Player": "Picone,James",
+              "NW": "5",
+              "Result": "1 - 0",
+              "NB": "1",
+              "Black Player": "Whitford,Matthew"
+            }
+          ]
+        }
+      ]
+    },
+    "sortedcrosstable.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "#",
+            "NAME",
+            "Rtg",
+            "Fed",
+            "Pts",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "rows": [
+            {
+              "1": "4.5",
+              "2": "",
+              "3": "1",
+              "4": "1",
+              "5": "½",
+              "6": "1",
+              "Pos": "1",
+              "#": "3",
+              "NAME": "Wongso,Renaldo",
+              "Rtg": "1486",
+              "Fed": "",
+              "Pts": "",
+              "col13": "1"
+            },
+            {
+              "1": "3.0",
+              "2": "0",
+              "3": "",
+              "4": "1",
+              "5": "1",
+              "6": "0",
+              "Pos": "2",
+              "#": "1",
+              "NAME": "Whitford,Matthew",
+              "Rtg": "1505",
+              "Fed": "",
+              "Pts": "",
+              "col13": "1"
+            },
+            {
+              "1": "3.0",
+              "2": "0",
+              "3": "0",
+              "4": "",
+              "5": "1",
+              "6": "1",
+              "Pos": "3",
+              "#": "6",
+              "NAME": "Nguyen,Anh Kiet",
+              "Rtg": "1416",
+              "Fed": "",
+              "Pts": "",
+              "col13": "1"
+            },
+            {
+              "1": "2.5",
+              "2": "½",
+              "3": "0",
+              "4": "0",
+              "5": "",
+              "6": "1",
+              "Pos": "4",
+              "#": "4",
+              "NAME": "Bodke,Krishna",
+              "Rtg": "1445",
+              "Fed": "",
+              "Pts": "",
+              "col13": "1"
+            },
+            {
+              "1": "1.0",
+              "2": "0",
+              "3": "1",
+              "4": "0",
+              "5": "0",
+              "6": "",
+              "Pos": "5",
+              "#": "5",
+              "NAME": "Picone,James",
+              "Rtg": "1502",
+              "Fed": "",
+              "Pts": "",
+              "col13": "0"
+            },
+            {
+              "1": "1.0",
+              "2": "0",
+              "3": "0",
+              "4": "0",
+              "5": "0",
+              "6": "1",
+              "Pos": "6",
+              "#": "2",
+              "NAME": "Matijas,Dejan",
+              "Rtg": "1411",
+              "Fed": "",
+              "Pts": "",
+              "col13": ""
+            }
+          ]
+        }
+      ]
+    },
+    "standings.html": {
+      "pageHeading": "Standings at round 5",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Player",
+            "Origin",
+            "Pts",
+            "SB",
+            "ARO"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Player": "Wongso,Renaldo\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1486",
+              "Origin": "",
+              "Pts": "4.5",
+              "SB": "9.25",
+              "ARO": "1456"
+            },
+            {
+              "Pos": "2",
+              "Player": "Whitford,Matthew\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t1505",
+              "Origin": "",
+              "Pts": "3.0",
+              "SB": "6.50",
+              "ARO": "1452"
+            },
+            {
+              "Pos": "3",
+              "Player": "Nguyen,Anh Kiet\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1416",
+              "Origin": "",
+              "Pts": "3.0",
+              "SB": "4.50",
+              "ARO": "1470"
+            },
+            {
+              "Pos": "4",
+              "Player": "Bodke,Krishna\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1445",
+              "Origin": "",
+              "Pts": "2.5",
+              "SB": "4.25",
+              "ARO": "1464"
+            },
+            {
+              "Pos": "5",
+              "Player": "Picone,James\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1502",
+              "Origin": "",
+              "Pts": "1.0",
+              "SB": "3.00",
+              "ARO": "1453"
+            },
+            {
+              "Pos": "6",
+              "Player": "Matijas,Dejan\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t1411",
+              "Origin": "",
+              "Pts": "1.0",
+              "SB": "1.00",
+              "ARO": "1471"
+            }
+          ]
+        }
+      ]
+    },
+    "tourstat.html": {
+      "pageHeading": "Tournament summary",
+      "tables": [
+        {
+          "headers": [],
+          "rows": [
+            {
+              "col1": "Tournament Name",
+              "col2": "2025 Hobsons Bay Western Minor"
+            },
+            {
+              "col1": "Place",
+              "col2": "Hobsons Bay"
+            },
+            {
+              "col1": "Federation",
+              "col2": "AUS"
+            },
+            {
+              "col1": "Date Begin",
+              "col2": "29/04/2025"
+            },
+            {
+              "col1": "Date End",
+              "col2": "03/06/2025"
+            },
+            {
+              "col1": "Arbiter(s)",
+              "col2": "NA Dwyer, Lachlan (AUS) 3254119 (VIC)"
+            },
+            {
+              "col1": "Play System",
+              "col2": "Single Round Robin"
+            },
+            {
+              "col1": "Rounds",
+              "col2": "5"
+            },
+            {
+              "col1": "Score game",
+              "col2": "0-0.5-1"
+            },
+            {
+              "col1": "Tie break",
+              "col2": "SB     ARO"
+            },
+            {
+              "col1": "Registered Players",
+              "col2": "6"
+            },
+            {
+              "col1": "Number of Federations",
+              "col2": "2"
+            },
+            {
+              "col1": "Average Rating (all)",
+              "col2": "1682"
+            },
+            {
+              "col1": "Average Rating (only FIDE rated)",
+              "col2": "1682"
+            },
+            {
+              "col1": "Players from AUS Federation",
+              "col2": "1"
+            },
+            {
+              "col1": "Players NOT from AUS Federation",
+              "col2": "5"
+            },
+            {
+              "col1": "FIDE rated players",
+              "col2": "6"
+            },
+            {
+              "col1": "unrated players",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players NOT from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated Federations",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled players",
+              "col2": "0"
+            },
+            {
+              "col1": "GM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WGM players",
+              "col2": "0"
+            },
+            {
+              "col1": "IM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WIM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WFM players",
+              "col2": "0"
+            },
+            {
+              "col1": "CM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WCM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player NOT from AUS Federation",
+              "col2": "0"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "menu": [
+    {
+      "text": "Info",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Schedule",
+          "href": "schedule.html"
+        },
+        {
+          "text": "Statistics",
+          "href": "tourstat.html"
+        }
+      ]
+    },
+    {
+      "text": "Players",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Sorted by Rating",
+          "href": "index.html"
+        },
+        {
+          "text": "Sorted by Name",
+          "href": "playersname.html"
+        }
+      ]
+    },
+    {
+      "text": "Pairings",
+      "href": "pairs5.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Standings",
+      "href": "standings.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Tables",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Cross table by score",
+          "href": "sortedcrosstable.html"
+        }
+      ]
+    },
+    {
+      "text": "Reports",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "FIDE Rating",
+          "href": "felovar.html"
+        },
+        {
+          "text": "FIDE Player Card",
+          "href": "fideplayercard.html"
+        },
+        {
+          "text": "National rating",
+          "href": "nelovar.html"
+        },
+        {
+          "text": "National Player Card",
+          "href": "playercard.html"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "Tournament Name": "2025 Hobsons Bay Western Minor",
+    "Place": "Hobsons Bay",
+    "Federation": "AUS",
+    "Date Begin": "29/04/2025",
+    "Date End": "03/06/2025",
+    "Arbiter(s)": "NA Dwyer, Lachlan (AUS) 3254119 (VIC)",
+    "Play System": "Single Round Robin",
+    "Rounds": "5",
+    "Score game": "0-0.5-1",
+    "Tie break": "SB ARO",
+    "Registered Players": "6",
+    "Number of Federations": "2",
+    "Average Rating (all)": "1682",
+    "Average Rating (only FIDE rated)": "1682",
+    "Players from AUS Federation": "1",
+    "Players NOT from AUS Federation": "5",
+    "FIDE rated players": "6",
+    "unrated players": "0",
+    "unrated players from AUS Federation": "0",
+    "unrated players NOT from AUS Federation": "0",
+    "unrated Federations": "0",
+    "FIDE titled players": "0",
+    "GM players": "0",
+    "WGM players": "0",
+    "IM players": "0",
+    "WIM players": "0",
+    "FM players": "0",
+    "WFM players": "0",
+    "CM players": "0",
+    "WCM players": "0",
+    "FIDE titled player from AUS Federation": "0",
+    "FIDE titled player NOT from AUS Federation": "0"
+  }
+}

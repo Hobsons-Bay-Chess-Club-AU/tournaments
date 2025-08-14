@@ -1,0 +1,4980 @@
+{
+  "page": {
+    "crosstable.html": {
+      "pageHeading": "Cross Table at round 5",
+      "tables": [
+        {
+          "headers": [
+            "Player",
+            "Rtg",
+            "Fed",
+            "Pts",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "rows": [
+            {
+              "1": "19",
+              "2": "111",
+              "3": "13",
+              "4": "",
+              "5": "117",
+              "Player": "1   Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "Fed": "",
+              "Pts": "4.0"
+            },
+            {
+              "1": "110",
+              "2": "16",
+              "3": "15",
+              "4": "",
+              "5": "13",
+              "Player": "2   Wei,Andrew",
+              "Rtg": "1055",
+              "Fed": "",
+              "Pts": "4.0"
+            },
+            {
+              "1": "114",
+              "2": "115",
+              "3": "01",
+              "4": "18",
+              "5": "02",
+              "Player": "3   Morris,Elijah",
+              "Rtg": "702",
+              "Fed": "",
+              "Pts": "3.0"
+            },
+            {
+              "1": "011",
+              "2": "017",
+              "3": "17",
+              "4": "½13",
+              "5": "115",
+              "Player": "4   Nguyen,Tuan Kiet",
+              "Rtg": "610",
+              "Fed": "",
+              "Pts": "2.5"
+            },
+            {
+              "1": "112",
+              "2": "116",
+              "3": "02",
+              "4": "017",
+              "5": "014",
+              "Player": "5   Ruaya,Rohan",
+              "Rtg": "608",
+              "Fed": "",
+              "Pts": "2.0"
+            },
+            {
+              "1": "113",
+              "2": "02",
+              "3": "½17",
+              "4": "19",
+              "5": "½10",
+              "Player": "6   Huang,Michael",
+              "Rtg": "536",
+              "Fed": "",
+              "Pts": "3.0"
+            },
+            {
+              "1": "016",
+              "2": "08",
+              "3": "04",
+              "4": "014",
+              "5": "09",
+              "Player": "7   Guggilla,Krithvik",
+              "Rtg": "357",
+              "Fed": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "½17",
+              "2": "17",
+              "3": "19",
+              "4": "03",
+              "5": "011",
+              "Player": "8   Pathiyassery,Emir",
+              "Rtg": "338",
+              "Fed": "",
+              "Pts": "2.5"
+            },
+            {
+              "1": "01",
+              "2": "112",
+              "3": "08",
+              "4": "06",
+              "5": "17",
+              "Player": "9   Venkatesh,Arvind",
+              "Rtg": "182",
+              "Fed": "",
+              "Pts": "2.0"
+            },
+            {
+              "1": "02",
+              "2": "½14",
+              "3": "112",
+              "4": "115",
+              "5": "½6",
+              "Player": "10   Aahan,Arora",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0"
+            },
+            {
+              "1": "14",
+              "2": "01",
+              "3": "½15",
+              "4": "116",
+              "5": "18",
+              "Player": "11   Annadasu,Shreyansh",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.5"
+            },
+            {
+              "1": "05",
+              "2": "09",
+              "3": "010",
+              "4": "",
+              "5": "1BYE",
+              "Player": "12   Bruno,Iris",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "06",
+              "2": "1BYE",
+              "3": "",
+              "4": "½4",
+              "5": "016",
+              "Player": "13   Das,Ayush",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5"
+            },
+            {
+              "1": "03",
+              "2": "½10",
+              "3": "½16",
+              "4": "17",
+              "5": "15",
+              "Player": "14   Ishan,Rai",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0"
+            },
+            {
+              "1": "1BYE",
+              "2": "03",
+              "3": "½11",
+              "4": "010",
+              "5": "04",
+              "Player": "15   Kukdeja,Aarav",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5"
+            },
+            {
+              "1": "17",
+              "2": "05",
+              "3": "½14",
+              "4": "011",
+              "5": "113",
+              "Player": "16   Vijayakumar,Rithvik",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.5"
+            },
+            {
+              "1": "½8",
+              "2": "14",
+              "3": "½6",
+              "4": "15",
+              "5": "01",
+              "Player": "17   Yang,Yifan",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0"
+            }
+          ]
+        }
+      ]
+    },
+    "crosstablescore.html": {
+      "pageHeading": "Cross Table at round 5",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Player",
+            "Rtg",
+            "Fed",
+            "Pts",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "1": "112",
+              "2": "13",
+              "3": "14",
+              "4": "",
+              "5": "15",
+              "Pos": "1",
+              "Player": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "15.5",
+              "BH-C1": "11.5",
+              "SB": "11.50"
+            },
+            {
+              "1": "17",
+              "2": "16",
+              "3": "113",
+              "4": "",
+              "5": "14",
+              "Pos": "2",
+              "Player": "Wei,Andrew",
+              "Rtg": "1055",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "15.0",
+              "BH-C1": "11.0",
+              "SB": "11.00"
+            },
+            {
+              "1": "111",
+              "2": "01",
+              "3": "½14",
+              "4": "110",
+              "5": "19",
+              "Pos": "3",
+              "Player": "Annadasu,Shreyansh",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.5",
+              "BH": "14.0",
+              "BH-C1": "12.5",
+              "SB": "9.25"
+            },
+            {
+              "1": "18",
+              "2": "114",
+              "3": "01",
+              "4": "19",
+              "5": "02",
+              "Pos": "4",
+              "Player": "Morris,Elijah",
+              "Rtg": "702",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "15.0",
+              "BH-C1": "13.5",
+              "SB": "7.00"
+            },
+            {
+              "1": "½9",
+              "2": "111",
+              "3": "½6",
+              "4": "113",
+              "5": "01",
+              "Pos": "5",
+              "Player": "Yang,Yifan",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "14.0",
+              "BH-C1": "12.0",
+              "SB": "7.25"
+            },
+            {
+              "1": "115",
+              "2": "02",
+              "3": "½5",
+              "4": "112",
+              "5": "½7",
+              "Pos": "6",
+              "Player": "Huang,Michael",
+              "Rtg": "536",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "13.5",
+              "BH-C1": "12.0",
+              "SB": "6.50"
+            },
+            {
+              "1": "02",
+              "2": "½8",
+              "3": "116",
+              "4": "114",
+              "5": "½6",
+              "Pos": "7",
+              "Player": "Aahan,Arora",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "SB": "5.50"
+            },
+            {
+              "1": "04",
+              "2": "½7",
+              "3": "½10",
+              "4": "117",
+              "5": "113",
+              "Pos": "8",
+              "Player": "Ishan,Rai",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "11.5",
+              "BH-C1": "8.5",
+              "SB": "5.75"
+            },
+            {
+              "1": "½5",
+              "2": "117",
+              "3": "112",
+              "4": "04",
+              "5": "03",
+              "Pos": "9",
+              "Player": "Pathiyassery,Emir",
+              "Rtg": "338",
+              "Fed": "",
+              "Pts": "2.5",
+              "BH": "10.5",
+              "BH-C1": "8.0",
+              "SB": "3.50"
+            },
+            {
+              "1": "117",
+              "2": "013",
+              "3": "½8",
+              "4": "03",
+              "5": "115",
+              "Pos": "10",
+              "Player": "Vijayakumar,Rithvik",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.5",
+              "BH": "10.0",
+              "BH-C1": "10.0",
+              "SB": "3.00"
+            },
+            {
+              "1": "03",
+              "2": "05",
+              "3": "117",
+              "4": "½15",
+              "5": "114",
+              "Pos": "11",
+              "Player": "Nguyen,Tuan Kiet",
+              "Rtg": "610",
+              "Fed": "",
+              "Pts": "2.5",
+              "BH": "9.5",
+              "BH-C1": "9.5",
+              "SB": "2.25"
+            },
+            {
+              "1": "01",
+              "2": "116",
+              "3": "09",
+              "4": "06",
+              "5": "117",
+              "Pos": "12",
+              "Player": "Venkatesh,Arvind",
+              "Rtg": "182",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "SB": "3.00"
+            },
+            {
+              "1": "116",
+              "2": "110",
+              "3": "02",
+              "4": "05",
+              "5": "08",
+              "Pos": "13",
+              "Player": "Ruaya,Rohan",
+              "Rtg": "608",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "10.5",
+              "SB": "3.50"
+            },
+            {
+              "1": "1 BYE",
+              "2": "04",
+              "3": "½3",
+              "4": "07",
+              "5": "011",
+              "Pos": "14",
+              "Player": "Kukdeja,Aarav",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "13.5",
+              "BH-C1": "12.0",
+              "SB": "3.25"
+            },
+            {
+              "1": "06",
+              "2": "1 BYE",
+              "3": "",
+              "4": "½11",
+              "5": "010",
+              "Pos": "15",
+              "Player": "Das,Ayush",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "11.0",
+              "BH-C1": "9.5",
+              "SB": "2.75"
+            },
+            {
+              "1": "013",
+              "2": "012",
+              "3": "07",
+              "4": "",
+              "5": "1 BYE",
+              "Pos": "16",
+              "Player": "Bruno,Iris",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "9.0",
+              "BH-C1": "8.0",
+              "SB": "1.00"
+            },
+            {
+              "1": "010",
+              "2": "09",
+              "3": "011",
+              "4": "08",
+              "5": "012",
+              "Pos": "17",
+              "Player": "Guggilla,Krithvik",
+              "Rtg": "357",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "10.5",
+              "BH-C1": "10.5",
+              "SB": "0.00"
+            }
+          ]
+        }
+      ]
+    },
+    "felovar.html": {
+      "pageHeading": "FIDE rating variation at round 5",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "FIDE ID",
+            "Fed",
+            "Rtg",
+            "Ng",
+            "Pts",
+            "ARO",
+            "var",
+            "Rp"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "fideplayercard.html": {
+      "pageHeading": "FIDE History Cards",
+      "tables": []
+    },
+    "games.html": {
+      "pageHeading": "",
+      "tables": []
+    },
+    "index.html": {
+      "pageHeading": "Registered players sorted by rating and title",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "Fed",
+            "Rtg",
+            "RtgF",
+            "RtgN"
+          ],
+          "rows": [
+            {
+              "#": "1",
+              "Player": "Nguyen,Anh Kiet",
+              "Fed": "",
+              "Rtg": "1086",
+              "RtgF": "0",
+              "RtgN": "1086"
+            },
+            {
+              "#": "2",
+              "Player": "Wei,Andrew",
+              "Fed": "",
+              "Rtg": "1055",
+              "RtgF": "0",
+              "RtgN": "1055"
+            },
+            {
+              "#": "3",
+              "Player": "Morris,Elijah",
+              "Fed": "",
+              "Rtg": "702",
+              "RtgF": "0",
+              "RtgN": "702"
+            },
+            {
+              "#": "4",
+              "Player": "Nguyen,Tuan Kiet",
+              "Fed": "",
+              "Rtg": "610",
+              "RtgF": "0",
+              "RtgN": "610"
+            },
+            {
+              "#": "5",
+              "Player": "Ruaya,Rohan",
+              "Fed": "",
+              "Rtg": "608",
+              "RtgF": "0",
+              "RtgN": "608"
+            },
+            {
+              "#": "6",
+              "Player": "Huang,Michael",
+              "Fed": "",
+              "Rtg": "536",
+              "RtgF": "0",
+              "RtgN": "536"
+            },
+            {
+              "#": "7",
+              "Player": "Guggilla,Krithvik",
+              "Fed": "",
+              "Rtg": "357",
+              "RtgF": "0",
+              "RtgN": "357"
+            },
+            {
+              "#": "8",
+              "Player": "Pathiyassery,Emir",
+              "Fed": "",
+              "Rtg": "338",
+              "RtgF": "0",
+              "RtgN": "338"
+            },
+            {
+              "#": "9",
+              "Player": "Venkatesh,Arvind",
+              "Fed": "",
+              "Rtg": "182",
+              "RtgF": "0",
+              "RtgN": "182"
+            },
+            {
+              "#": "10",
+              "Player": "Aahan,Arora",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "11",
+              "Player": "Annadasu,Shreyansh",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "12",
+              "Player": "Bruno,Iris",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "13",
+              "Player": "Das,Ayush",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "14",
+              "Player": "Ishan,Rai",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "15",
+              "Player": "Kukdeja,Aarav",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "16",
+              "Player": "Vijayakumar,Rithvik",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "17",
+              "Player": "Yang,Yifan",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            }
+          ]
+        }
+      ]
+    },
+    "nelovar.html": {
+      "pageHeading": "National rating at round 5",
+      "tables": [
+        {
+          "headers": [
+            "N",
+            "Name",
+            "K",
+            "Elo",
+            "Var",
+            "Per"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "pairs1.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "1    Nguyen,Anh Kiet",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "9    Venkatesh,Arvind"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "10    Aahan,Arora",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "2    Wei,Andrew"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "4    Nguyen,Tuan Kiet",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "11    Annadasu,Shreyansh"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "12    Bruno,Iris",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "5    Ruaya,Rohan"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "",
+              "White Player": "6    Huang,Michael",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "13    Das,Ayush"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "",
+              "White Player": "16    Vijayakumar,Rithvik",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "7    Guggilla,Krithvik"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "",
+              "White Player": "8    Pathiyassery,Emir",
+              "Pts": "0",
+              "Result": "½ - ½",
+              "Black Player": "17    Yang,Yifan"
+            },
+            {
+              "Bo.": "8",
+              "Fed": "",
+              "White Player": "3    Morris,Elijah",
+              "Pts": "0",
+              "Result": "1F-0F",
+              "Black Player": "14    Ishan,Rai"
+            },
+            {
+              "Bo.": "9",
+              "Fed": "",
+              "White Player": "15    Kukdeja,Aarav",
+              "Pts": "0",
+              "Result": "1",
+              "Black Player": "( bye )"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs2.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "11    Annadasu,Shreyansh",
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Black Player": "1    Nguyen,Anh Kiet"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "2    Wei,Andrew",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Black Player": "6    Huang,Michael"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "3    Morris,Elijah",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Black Player": "15    Kukdeja,Aarav"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "5    Ruaya,Rohan",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Black Player": "16    Vijayakumar,Rithvik"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "",
+              "White Player": "7    Guggilla,Krithvik",
+              "Pts": "0.5",
+              "Result": "0 - 1",
+              "Black Player": "8    Pathiyassery,Emir"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "",
+              "White Player": "17    Yang,Yifan",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "4    Nguyen,Tuan Kiet"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "",
+              "White Player": "9    Venkatesh,Arvind",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "12    Bruno,Iris"
+            },
+            {
+              "Bo.": "8",
+              "Fed": "",
+              "White Player": "14    Ishan,Rai",
+              "Pts": "0",
+              "Result": "½ - ½",
+              "Black Player": "10    Aahan,Arora"
+            },
+            {
+              "Bo.": "9",
+              "Fed": "",
+              "White Player": "13    Das,Ayush",
+              "Pts": "0",
+              "Result": "1",
+              "Black Player": "( bye )"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs3.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "1    Nguyen,Anh Kiet",
+              "Pts": "2",
+              "Result": "1 - 0",
+              "Black Player": "3    Morris,Elijah"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "5    Ruaya,Rohan",
+              "Pts": "2",
+              "Result": "0 - 1",
+              "Black Player": "2    Wei,Andrew"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "8    Pathiyassery,Emir",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Black Player": "9    Venkatesh,Arvind"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "6    Huang,Michael",
+              "Pts": "1.5",
+              "Result": "½ - ½",
+              "Black Player": "17    Yang,Yifan"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "",
+              "White Player": "15    Kukdeja,Aarav",
+              "Pts": "1",
+              "Result": "½ - ½",
+              "Black Player": "11    Annadasu,Shreyansh"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "",
+              "White Player": "16    Vijayakumar,Rithvik",
+              "Pts": "0.5",
+              "Result": "½ - ½",
+              "Black Player": "14    Ishan,Rai"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "",
+              "White Player": "10    Aahan,Arora",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "12    Bruno,Iris"
+            },
+            {
+              "Bo.": "8",
+              "Fed": "",
+              "White Player": "4    Nguyen,Tuan Kiet",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "7    Guggilla,Krithvik"
+            },
+            {
+              "Bo.": "9",
+              "Fed": "",
+              "White Player": "13    Das,Ayush",
+              "Pts": "0",
+              "Result": "0",
+              "Black Player": "( not paired )"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs4.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "3    Morris,Elijah",
+              "Pts": "2.5",
+              "Result": "1 - 0",
+              "Black Player": "8    Pathiyassery,Emir"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "17    Yang,Yifan",
+              "Pts": "2",
+              "Result": "1 - 0",
+              "Black Player": "5    Ruaya,Rohan"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "15    Kukdeja,Aarav",
+              "Pts": "1.5",
+              "Result": "0 - 1",
+              "Black Player": "10    Aahan,Arora"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "11    Annadasu,Shreyansh",
+              "Pts": "1.5",
+              "Result": "1 - 0",
+              "Black Player": "16    Vijayakumar,Rithvik"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "",
+              "White Player": "9    Venkatesh,Arvind",
+              "Pts": "1.5",
+              "Result": "0 - 1",
+              "Black Player": "6    Huang,Michael"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "",
+              "White Player": "13    Das,Ayush",
+              "Pts": "1",
+              "Result": "½ - ½",
+              "Black Player": "4    Nguyen,Tuan Kiet"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "",
+              "White Player": "7    Guggilla,Krithvik",
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Black Player": "14    Ishan,Rai"
+            },
+            {
+              "Bo.": "8",
+              "Fed": "",
+              "White Player": "1    Nguyen,Anh Kiet",
+              "Pts": "0",
+              "Result": "0",
+              "Black Player": "( not paired )"
+            },
+            {
+              "Bo.": "9",
+              "Fed": "",
+              "White Player": "2    Wei,Andrew",
+              "Pts": "0",
+              "Result": "0",
+              "Black Player": "( not paired )"
+            },
+            {
+              "Bo.": "10",
+              "Fed": "",
+              "White Player": "12    Bruno,Iris",
+              "Pts": "0",
+              "Result": "0",
+              "Black Player": "( not paired )"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs5.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "17    Yang,Yifan",
+              "Pts": "3",
+              "Result": "0 - 1",
+              "Black Player": "1    Nguyen,Anh Kiet"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "2    Wei,Andrew",
+              "Pts": "3",
+              "Result": "1 - 0",
+              "Black Player": "3    Morris,Elijah"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "6    Huang,Michael",
+              "Pts": "2.5",
+              "Result": "½ - ½",
+              "Black Player": "10    Aahan,Arora"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "8    Pathiyassery,Emir",
+              "Pts": "2.5",
+              "Result": "0F-1F",
+              "Black Player": "11    Annadasu,Shreyansh"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "",
+              "White Player": "14    Ishan,Rai",
+              "Pts": "2",
+              "Result": "1F-0F",
+              "Black Player": "5    Ruaya,Rohan"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "",
+              "White Player": "4    Nguyen,Tuan Kiet",
+              "Pts": "1.5",
+              "Result": "1 - 0",
+              "Black Player": "15    Kukdeja,Aarav"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "",
+              "White Player": "16    Vijayakumar,Rithvik",
+              "Pts": "1.5",
+              "Result": "1 - 0",
+              "Black Player": "13    Das,Ayush"
+            },
+            {
+              "Bo.": "8",
+              "Fed": "",
+              "White Player": "7    Guggilla,Krithvik",
+              "Pts": "1",
+              "Result": "0F-1F",
+              "Black Player": "9    Venkatesh,Arvind"
+            },
+            {
+              "Bo.": "9",
+              "Fed": "",
+              "White Player": "12    Bruno,Iris",
+              "Pts": "0",
+              "Result": "1",
+              "Black Player": "( bye )"
+            }
+          ]
+        }
+      ]
+    },
+    "playercard.html": {
+      "pageHeading": "National History Cards",
+      "tables": [
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "9",
+              "Cat": "",
+              "OPPONENT": "Venkatesh,Arvind",
+              "Rtg": "182",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "11",
+              "Cat": "",
+              "OPPONENT": "Annadasu,Shreyansh",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Morris,Elijah",
+              "Rtg": "702",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "4",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "17",
+              "Cat": "",
+              "OPPONENT": "Yang,Yifan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "3.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "10",
+              "Cat": "",
+              "OPPONENT": "Aahan,Arora",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Huang,Michael",
+              "Rtg": "536",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Ruaya,Rohan",
+              "Rtg": "608",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "4",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Morris,Elijah",
+              "Rtg": "702",
+              "res": "1.0",
+              "Pts": "3.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "15",
+              "Cat": "",
+              "OPPONENT": "Kukdeja,Aarav",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.5"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Pathiyassery,Emir",
+              "Rtg": "338",
+              "res": "1.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1055",
+              "res": "0.0",
+              "Pts": "4.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "11",
+              "Cat": "",
+              "OPPONENT": "Annadasu,Shreyansh",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "17",
+              "Cat": "",
+              "OPPONENT": "Yang,Yifan",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Guggilla,Krithvik",
+              "Rtg": "357",
+              "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "13",
+              "Cat": "",
+              "OPPONENT": "Das,Ayush",
+              "Rtg": "0",
+              "res": "0.5",
+              "Pts": "1.5"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "15",
+              "Cat": "",
+              "OPPONENT": "Kukdeja,Aarav",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "12",
+              "Cat": "",
+              "OPPONENT": "Bruno,Iris",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "16",
+              "Cat": "",
+              "OPPONENT": "Vijayakumar,Rithvik",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1055",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "17",
+              "Cat": "",
+              "OPPONENT": "Yang,Yifan",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "13",
+              "Cat": "",
+              "OPPONENT": "Das,Ayush",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.5"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1055",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "17",
+              "Cat": "",
+              "OPPONENT": "Yang,Yifan",
+              "Rtg": "0",
+              "res": "0.5",
+              "Pts": "3.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "9",
+              "Cat": "",
+              "OPPONENT": "Venkatesh,Arvind",
+              "Rtg": "182",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "10",
+              "Cat": "",
+              "OPPONENT": "Aahan,Arora",
+              "Rtg": "0",
+              "res": "0.5",
+              "Pts": "3.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "16",
+              "Cat": "",
+              "OPPONENT": "Vijayakumar,Rithvik",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Pathiyassery,Emir",
+              "Rtg": "338",
+              "res": "0.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Tuan Kiet",
+              "Rtg": "610",
+              "res": "0.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "14",
+              "Cat": "",
+              "OPPONENT": "Ishan,Rai",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "17",
+              "Cat": "",
+              "OPPONENT": "Yang,Yifan",
+              "Rtg": "0",
+              "res": "0.5",
+              "Pts": "3.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Guggilla,Krithvik",
+              "Rtg": "357",
+              "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "9",
+              "Cat": "",
+              "OPPONENT": "Venkatesh,Arvind",
+              "Rtg": "182",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Morris,Elijah",
+              "Rtg": "702",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "12",
+              "Cat": "",
+              "OPPONENT": "Bruno,Iris",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Pathiyassery,Emir",
+              "Rtg": "338",
+              "res": "0.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Huang,Michael",
+              "Rtg": "536",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1055",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "14",
+              "Cat": "",
+              "OPPONENT": "Ishan,Rai",
+              "Rtg": "0",
+              "res": "0.5",
+              "Pts": "3.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "12",
+              "Cat": "",
+              "OPPONENT": "Bruno,Iris",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "15",
+              "Cat": "",
+              "OPPONENT": "Kukdeja,Aarav",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.5"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Huang,Michael",
+              "Rtg": "536",
+              "res": "0.5",
+              "Pts": "3.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Tuan Kiet",
+              "Rtg": "610",
+              "res": "1.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "15",
+              "Cat": "",
+              "OPPONENT": "Kukdeja,Aarav",
+              "Rtg": "0",
+              "res": "0.5",
+              "Pts": "1.5"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "16",
+              "Cat": "",
+              "OPPONENT": "Vijayakumar,Rithvik",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Ruaya,Rohan",
+              "Rtg": "608",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "9",
+              "Cat": "",
+              "OPPONENT": "Venkatesh,Arvind",
+              "Rtg": "182",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "10",
+              "Cat": "",
+              "OPPONENT": "Aahan,Arora",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "4",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Huang,Michael",
+              "Rtg": "536",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "2",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "3",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Tuan Kiet",
+              "Rtg": "610",
+              "res": "0.5",
+              "Pts": "2.5"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "16",
+              "Cat": "",
+              "OPPONENT": "Vijayakumar,Rithvik",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "2.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "10",
+              "Cat": "",
+              "OPPONENT": "Aahan,Arora",
+              "Rtg": "0",
+              "res": "0.5",
+              "Pts": "3.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "16",
+              "Cat": "",
+              "OPPONENT": "Vijayakumar,Rithvik",
+              "Rtg": "0",
+              "res": "0.5",
+              "Pts": "2.5"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Guggilla,Krithvik",
+              "Rtg": "357",
+              "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Morris,Elijah",
+              "Rtg": "702",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "11",
+              "Cat": "",
+              "OPPONENT": "Annadasu,Shreyansh",
+              "Rtg": "0",
+              "res": "0.5",
+              "Pts": "3.5"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "10",
+              "Cat": "",
+              "OPPONENT": "Aahan,Arora",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Tuan Kiet",
+              "Rtg": "610",
+              "res": "0.0",
+              "Pts": "2.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Guggilla,Krithvik",
+              "Rtg": "357",
+              "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Ruaya,Rohan",
+              "Rtg": "608",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "14",
+              "Cat": "",
+              "OPPONENT": "Ishan,Rai",
+              "Rtg": "0",
+              "res": "0.5",
+              "Pts": "3.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "11",
+              "Cat": "",
+              "OPPONENT": "Annadasu,Shreyansh",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "13",
+              "Cat": "",
+              "OPPONENT": "Das,Ayush",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Pathiyassery,Emir",
+              "Rtg": "338",
+              "res": "0.5",
+              "Pts": "2.5"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Tuan Kiet",
+              "Rtg": "610",
+              "res": "1.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Huang,Michael",
+              "Rtg": "536",
+              "res": "0.5",
+              "Pts": "3.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Ruaya,Rohan",
+              "Rtg": "608",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "res": "0.0",
+              "Pts": "4.0"
+            }
+          ]
+        }
+      ]
+    },
+    "playersname.html": {
+      "pageHeading": "Registered players sorted by name",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "Fed",
+            "Rtg",
+            "RtgF",
+            "RtgN"
+          ],
+          "rows": [
+            {
+              "#": "10",
+              "Player": "Aahan,Arora",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "11",
+              "Player": "Annadasu,Shreyansh",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "12",
+              "Player": "Bruno,Iris",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "13",
+              "Player": "Das,Ayush",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "7",
+              "Player": "Guggilla,Krithvik",
+              "Fed": "",
+              "Rtg": "357",
+              "RtgF": "0",
+              "RtgN": "357"
+            },
+            {
+              "#": "6",
+              "Player": "Huang,Michael",
+              "Fed": "",
+              "Rtg": "536",
+              "RtgF": "0",
+              "RtgN": "536"
+            },
+            {
+              "#": "14",
+              "Player": "Ishan,Rai",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "15",
+              "Player": "Kukdeja,Aarav",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "3",
+              "Player": "Morris,Elijah",
+              "Fed": "",
+              "Rtg": "702",
+              "RtgF": "0",
+              "RtgN": "702"
+            },
+            {
+              "#": "1",
+              "Player": "Nguyen,Anh Kiet",
+              "Fed": "",
+              "Rtg": "1086",
+              "RtgF": "0",
+              "RtgN": "1086"
+            },
+            {
+              "#": "4",
+              "Player": "Nguyen,Tuan Kiet",
+              "Fed": "",
+              "Rtg": "610",
+              "RtgF": "0",
+              "RtgN": "610"
+            },
+            {
+              "#": "8",
+              "Player": "Pathiyassery,Emir",
+              "Fed": "",
+              "Rtg": "338",
+              "RtgF": "0",
+              "RtgN": "338"
+            },
+            {
+              "#": "5",
+              "Player": "Ruaya,Rohan",
+              "Fed": "",
+              "Rtg": "608",
+              "RtgF": "0",
+              "RtgN": "608"
+            },
+            {
+              "#": "9",
+              "Player": "Venkatesh,Arvind",
+              "Fed": "",
+              "Rtg": "182",
+              "RtgF": "0",
+              "RtgN": "182"
+            },
+            {
+              "#": "16",
+              "Player": "Vijayakumar,Rithvik",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "2",
+              "Player": "Wei,Andrew",
+              "Fed": "",
+              "Rtg": "1055",
+              "RtgF": "0",
+              "RtgN": "1055"
+            },
+            {
+              "#": "17",
+              "Player": "Yang,Yifan",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            }
+          ]
+        }
+      ]
+    },
+    "rankTeams.html": {
+      "pageHeading": "Team ranking based on 4 best players of each team",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Team Name",
+            "Points"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Team Name": "",
+              "Points": "14.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "1",
+            "",
+            "14.5"
+          ],
+          "rows": [
+            {
+              "1": "1",
+              "col2": "Nguyen,Anh Kiet",
+              "14.5": "4"
+            },
+            {
+              "1": "2",
+              "col2": "Wei,Andrew",
+              "14.5": "4"
+            },
+            {
+              "1": "11",
+              "col2": "Annadasu,Shreyansh",
+              "14.5": "3.5"
+            },
+            {
+              "1": "3",
+              "col2": "Morris,Elijah",
+              "14.5": "3"
+            },
+            {
+              "1": "17",
+              "col2": "Yang,Yifan",
+              "14.5": "3"
+            },
+            {
+              "1": "6",
+              "col2": "Huang,Michael",
+              "14.5": "3"
+            },
+            {
+              "1": "10",
+              "col2": "Aahan,Arora",
+              "14.5": "3"
+            },
+            {
+              "1": "14",
+              "col2": "Ishan,Rai",
+              "14.5": "3"
+            },
+            {
+              "1": "8",
+              "col2": "Pathiyassery,Emir",
+              "14.5": "2.5"
+            },
+            {
+              "1": "16",
+              "col2": "Vijayakumar,Rithvik",
+              "14.5": "2.5"
+            },
+            {
+              "1": "4",
+              "col2": "Nguyen,Tuan Kiet",
+              "14.5": "2.5"
+            },
+            {
+              "1": "9",
+              "col2": "Venkatesh,Arvind",
+              "14.5": "2"
+            },
+            {
+              "1": "5",
+              "col2": "Ruaya,Rohan",
+              "14.5": "2"
+            },
+            {
+              "1": "15",
+              "col2": "Kukdeja,Aarav",
+              "14.5": "1.5"
+            },
+            {
+              "1": "13",
+              "col2": "Das,Ayush",
+              "14.5": "1.5"
+            },
+            {
+              "1": "12",
+              "col2": "Bruno,Iris",
+              "14.5": "1"
+            },
+            {
+              "1": "7",
+              "col2": "Guggilla,Krithvik",
+              "14.5": "0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Board 0",
+            "Pos",
+            "Player",
+            "Team",
+            "Points",
+            "Board 1",
+            "Pos",
+            "Player",
+            "Team",
+            "Points",
+            "Board 2",
+            "Pos",
+            "Player",
+            "Team",
+            "Points",
+            "Board 3",
+            "Pos",
+            "Player",
+            "Team",
+            "Points"
+          ],
+          "rows": [
+            {
+              "Board 0": "",
+              "Pos": "1",
+              "Player": "Nguyen,Anh Kiet",
+              "Team": "",
+              "Points": "4"
+            },
+            {
+              "Board 0": "",
+              "Pos": "1",
+              "Player": "Wei,Andrew",
+              "Team": "",
+              "Points": "4"
+            },
+            {
+              "Board 0": "",
+              "Pos": "1",
+              "Player": "Annadasu,Shreyansh",
+              "Team": "",
+              "Points": "3.5"
+            },
+            {
+              "Board 0": "",
+              "Pos": "1",
+              "Player": "Morris,Elijah",
+              "Team": "",
+              "Points": "3"
+            }
+          ]
+        }
+      ]
+    },
+    "rankcat.html": {
+      "pageHeading": "Standings at round 5 sorted by category",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "Player",
+            "Rtg",
+            "PRtg",
+            "Fed",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "1",
+              "T": "",
+              "Player": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "PRtg": "1521",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "15.5",
+              "BH-C1": "11.5",
+              "SB": "11.50"
+            },
+            {
+              "Pos": "2",
+              "N": "2",
+              "T": "",
+              "Player": "Wei,Andrew",
+              "Rtg": "1055",
+              "PRtg": "1512",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "15.0",
+              "BH-C1": "11.0",
+              "SB": "11.00"
+            },
+            {
+              "Pos": "3",
+              "N": "11",
+              "T": "",
+              "Player": "Annadasu,Shreyansh",
+              "Rtg": "0",
+              "PRtg": "1019",
+              "Fed": "",
+              "Pts": "3.5",
+              "BH": "14.0",
+              "BH-C1": "12.5",
+              "SB": "9.25"
+            },
+            {
+              "Pos": "4",
+              "N": "3",
+              "T": "",
+              "Player": "Morris,Elijah",
+              "Rtg": "702",
+              "PRtg": "870",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "15.0",
+              "BH-C1": "13.5",
+              "SB": "7.00"
+            },
+            {
+              "Pos": "5",
+              "N": "17",
+              "T": "",
+              "Player": "Yang,Yifan",
+              "Rtg": "0",
+              "PRtg": "708",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "14.0",
+              "BH-C1": "12.0",
+              "SB": "7.25"
+            },
+            {
+              "Pos": "6",
+              "N": "6",
+              "T": "",
+              "Player": "Huang,Michael",
+              "Rtg": "536",
+              "PRtg": "919",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "13.5",
+              "BH-C1": "12.0",
+              "SB": "6.50"
+            },
+            {
+              "Pos": "7",
+              "N": "10",
+              "T": "",
+              "Player": "Aahan,Arora",
+              "Rtg": "0",
+              "PRtg": "990",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "SB": "5.50"
+            },
+            {
+              "Pos": "8",
+              "N": "14",
+              "T": "",
+              "Player": "Ishan,Rai",
+              "Rtg": "0",
+              "PRtg": "911",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "11.5",
+              "BH-C1": "8.5",
+              "SB": "5.75"
+            },
+            {
+              "Pos": "9",
+              "N": "8",
+              "T": "",
+              "Player": "Pathiyassery,Emir",
+              "Rtg": "338",
+              "PRtg": "655",
+              "Fed": "",
+              "Pts": "2.5",
+              "BH": "10.5",
+              "BH-C1": "8.0",
+              "SB": "3.50"
+            },
+            {
+              "Pos": "10",
+              "N": "16",
+              "T": "",
+              "Player": "Vijayakumar,Rithvik",
+              "Rtg": "0",
+              "PRtg": "793",
+              "Fed": "",
+              "Pts": "2.5",
+              "BH": "10.0",
+              "BH-C1": "10.0",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "11",
+              "N": "4",
+              "T": "",
+              "Player": "Nguyen,Tuan Kiet",
+              "Rtg": "610",
+              "PRtg": "871",
+              "Fed": "",
+              "Pts": "2.5",
+              "BH": "9.5",
+              "BH-C1": "9.5",
+              "SB": "2.25"
+            },
+            {
+              "Pos": "12",
+              "N": "9",
+              "T": "",
+              "Player": "Venkatesh,Arvind",
+              "Rtg": "182",
+              "PRtg": "547",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "13",
+              "N": "5",
+              "T": "",
+              "Player": "Ruaya,Rohan",
+              "Rtg": "608",
+              "PRtg": "1014",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "10.5",
+              "SB": "3.50"
+            },
+            {
+              "Pos": "14",
+              "N": "15",
+              "T": "",
+              "Player": "Kukdeja,Aarav",
+              "Rtg": "0",
+              "PRtg": "506",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "13.5",
+              "BH-C1": "12.0",
+              "SB": "3.25"
+            },
+            {
+              "Pos": "15",
+              "N": "13",
+              "T": "",
+              "Player": "Das,Ayush",
+              "Rtg": "0",
+              "PRtg": "442",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "11.0",
+              "BH-C1": "9.5",
+              "SB": "2.75"
+            },
+            {
+              "Pos": "16",
+              "N": "12",
+              "T": "",
+              "Player": "Bruno,Iris",
+              "Rtg": "0",
+              "PRtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "9.0",
+              "BH-C1": "8.0",
+              "SB": "1.00"
+            },
+            {
+              "Pos": "17",
+              "N": "7",
+              "T": "",
+              "Player": "Guggilla,Krithvik",
+              "Rtg": "357",
+              "PRtg": "0",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "10.5",
+              "BH-C1": "10.5",
+              "SB": "0.00"
+            }
+          ]
+        }
+      ]
+    },
+    "rankingagegroup.html": {
+      "pageHeading": "Player Groups by date at round 5",
+      "tables": []
+    },
+    "rankinggroup.html": {
+      "pageHeading": "Rated Player Groups at round 5",
+      "tables": []
+    },
+    "rewards.html": {
+      "pageHeading": "Open",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "U",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "Reward"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "1",
+              "T": "",
+              "NAME": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "U": "Open",
+              "Pts": "4.0",
+              "BH": "15.5",
+              "BH-C1": "11.5",
+              "Reward": "🏆 Winner"
+            },
+            {
+              "Pos": "2",
+              "N": "3",
+              "T": "",
+              "NAME": "Morris,Elijah",
+              "Rtg": "702",
+              "U": "Open",
+              "Pts": "3.0",
+              "BH": "15.0",
+              "BH-C1": "13.5",
+              "Reward": "🥈 1st runner up"
+            },
+            {
+              "Pos": "3",
+              "N": "10",
+              "T": "",
+              "NAME": "Aahan,Arora",
+              "Rtg": "0",
+              "U": "Open",
+              "Pts": "3.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "Reward": "🥉 2nd runner up"
+            },
+            {
+              "Pos": "4",
+              "N": "14",
+              "T": "",
+              "NAME": "Ishan,Rai",
+              "Rtg": "0",
+              "U": "Open",
+              "Pts": "3.0",
+              "BH": "11.5",
+              "BH-C1": "8.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "5",
+              "N": "9",
+              "T": "",
+              "NAME": "Venkatesh,Arvind",
+              "Rtg": "182",
+              "U": "Open",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "6",
+              "N": "15",
+              "T": "",
+              "NAME": "Kukdeja,Aarav",
+              "Rtg": "0",
+              "U": "Open",
+              "Pts": "1.5",
+              "BH": "13.5",
+              "BH-C1": "12.0",
+              "Reward": ""
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "U",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "Reward"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "17",
+              "T": "",
+              "NAME": "Yang,Yifan",
+              "Rtg": "0",
+              "U": "Open",
+              "Pts": "3.0",
+              "BH": "14.0",
+              "BH-C1": "12.0",
+              "Reward": "🏆 Winner"
+            },
+            {
+              "Pos": "2",
+              "N": "12",
+              "T": "",
+              "NAME": "Bruno,Iris",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "1.0",
+              "BH": "9.0",
+              "BH-C1": "8.0",
+              "Reward": "🥈 1st runner up"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "U",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "Reward"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "2",
+              "T": "",
+              "NAME": "Wei,Andrew",
+              "Rtg": "1055",
+              "U": "U12",
+              "Pts": "4.0",
+              "BH": "15.0",
+              "BH-C1": "11.0",
+              "Reward": "🏆 Winner"
+            },
+            {
+              "Pos": "2",
+              "N": "11",
+              "T": "",
+              "NAME": "Annadasu,Shreyansh",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "3.5",
+              "BH": "14.0",
+              "BH-C1": "12.5",
+              "Reward": "🥈 1st runner up"
+            },
+            {
+              "Pos": "3",
+              "N": "6",
+              "T": "",
+              "NAME": "Huang,Michael",
+              "Rtg": "536",
+              "U": "U12",
+              "Pts": "3.0",
+              "BH": "13.5",
+              "BH-C1": "12.0",
+              "Reward": "🥉 2nd runner up"
+            },
+            {
+              "Pos": "4",
+              "N": "8",
+              "T": "",
+              "NAME": "Pathiyassery,Emir",
+              "Rtg": "338",
+              "U": "U12",
+              "Pts": "2.5",
+              "BH": "10.5",
+              "BH-C1": "8.0",
+              "Reward": ""
+            },
+            {
+              "Pos": "5",
+              "N": "4",
+              "T": "",
+              "NAME": "Nguyen,Tuan Kiet",
+              "Rtg": "610",
+              "U": "U12",
+              "Pts": "2.5",
+              "BH": "9.5",
+              "BH-C1": "9.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "6",
+              "N": "5",
+              "T": "",
+              "NAME": "Ruaya,Rohan",
+              "Rtg": "608",
+              "U": "U12",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "10.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "7",
+              "N": "13",
+              "T": "",
+              "NAME": "Das,Ayush",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "1.5",
+              "BH": "11.0",
+              "BH-C1": "9.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "8",
+              "N": "7",
+              "T": "",
+              "NAME": "Guggilla,Krithvik",
+              "Rtg": "357",
+              "U": "U12",
+              "Pts": "0.0",
+              "BH": "10.5",
+              "BH-C1": "10.5",
+              "Reward": ""
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "U",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "Reward"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "16",
+              "T": "",
+              "NAME": "Vijayakumar,Rithvik",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "2.5",
+              "BH": "10.0",
+              "BH-C1": "10.0",
+              "Reward": "🏆 Winner"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "U",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "Reward"
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "U",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "Reward"
+          ],
+          "rows": [
+            {
+              "Pos": "3",
+              "N": "11",
+              "T": "",
+              "NAME": "Annadasu,Shreyansh",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "3.5",
+              "BH": "14.0",
+              "BH-C1": "12.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "5",
+              "N": "17",
+              "T": "",
+              "NAME": "Yang,Yifan",
+              "Rtg": "0",
+              "U": "Open",
+              "Pts": "3.0",
+              "BH": "14.0",
+              "BH-C1": "12.0",
+              "Reward": ""
+            },
+            {
+              "Pos": "7",
+              "N": "10",
+              "T": "",
+              "NAME": "Aahan,Arora",
+              "Rtg": "0",
+              "U": "Open",
+              "Pts": "3.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "8",
+              "N": "14",
+              "T": "",
+              "NAME": "Ishan,Rai",
+              "Rtg": "0",
+              "U": "Open",
+              "Pts": "3.0",
+              "BH": "11.5",
+              "BH-C1": "8.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "10",
+              "N": "16",
+              "T": "",
+              "NAME": "Vijayakumar,Rithvik",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "2.5",
+              "BH": "10.0",
+              "BH-C1": "10.0",
+              "Reward": ""
+            },
+            {
+              "Pos": "14",
+              "N": "15",
+              "T": "",
+              "NAME": "Kukdeja,Aarav",
+              "Rtg": "0",
+              "U": "Open",
+              "Pts": "1.5",
+              "BH": "13.5",
+              "BH-C1": "12.0",
+              "Reward": ""
+            },
+            {
+              "Pos": "15",
+              "N": "13",
+              "T": "",
+              "NAME": "Das,Ayush",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "1.5",
+              "BH": "11.0",
+              "BH-C1": "9.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "16",
+              "N": "12",
+              "T": "",
+              "NAME": "Bruno,Iris",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "1.0",
+              "BH": "9.0",
+              "BH-C1": "8.0",
+              "Reward": ""
+            }
+          ]
+        }
+      ]
+    },
+    "rewards_locked.html": {
+      "pageHeading": "Open",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "U",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "Reward"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "1",
+              "T": "",
+              "NAME": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "U": "U12",
+              "Pts": "4.0",
+              "BH": "15.5",
+              "BH-C1": "11.5",
+              "Reward": "🏆 Winner"
+            },
+            {
+              "Pos": "2",
+              "N": "3",
+              "T": "",
+              "NAME": "Morris,Elijah",
+              "Rtg": "702",
+              "U": "Open",
+              "Pts": "3.0",
+              "BH": "15.0",
+              "BH-C1": "13.5",
+              "Reward": "🥈 1st runner up"
+            },
+            {
+              "Pos": "3",
+              "N": "17",
+              "T": "",
+              "NAME": "Yang,Yifan",
+              "Rtg": "0",
+              "U": "Open",
+              "Pts": "3.0",
+              "BH": "14.0",
+              "BH-C1": "12.0",
+              "Reward": "🥉 2nd runner up"
+            },
+            {
+              "Pos": "3",
+              "N": "10",
+              "T": "",
+              "NAME": "Aahan,Arora",
+              "Rtg": "0",
+              "U": "Open",
+              "Pts": "3.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "5",
+              "N": "14",
+              "T": "",
+              "NAME": "Ishan,Rai",
+              "Rtg": "0",
+              "U": "Open",
+              "Pts": "3.0",
+              "BH": "11.5",
+              "BH-C1": "8.5",
+              "Reward": ""
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "NAME",
+            "Rtg",
+            "U",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "Reward"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "2",
+              "T": "",
+              "NAME": "Wei,Andrew",
+              "Rtg": "1055",
+              "U": "U12",
+              "Pts": "4.0",
+              "BH": "15.0",
+              "BH-C1": "11.0",
+              "Reward": "🏆 Winner"
+            },
+            {
+              "Pos": "2",
+              "N": "11",
+              "T": "",
+              "NAME": "Annadasu,Shreyansh",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "3.5",
+              "BH": "14.0",
+              "BH-C1": "12.5",
+              "Reward": "🥈 1st runner up"
+            },
+            {
+              "Pos": "2",
+              "N": "6",
+              "T": "",
+              "NAME": "Huang,Michael",
+              "Rtg": "536",
+              "U": "U10",
+              "Pts": "3.0",
+              "BH": "13.5",
+              "BH-C1": "12.0",
+              "Reward": "🥉 2nd runner up"
+            },
+            {
+              "Pos": "2",
+              "N": "8",
+              "T": "",
+              "NAME": "Pathiyassery,Emir",
+              "Rtg": "338",
+              "U": "U12",
+              "Pts": "2.5",
+              "BH": "10.5",
+              "BH-C1": "8.0",
+              "Reward": ""
+            },
+            {
+              "Pos": "3",
+              "N": "4",
+              "T": "",
+              "NAME": "Nguyen,Tuan Kiet",
+              "Rtg": "610",
+              "U": "U12",
+              "Pts": "2.5",
+              "BH": "9.5",
+              "BH-C1": "9.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "4",
+              "N": "9",
+              "T": "",
+              "NAME": "Venkatesh,Arvind",
+              "Rtg": "182",
+              "U": "U12",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "6",
+              "N": "5",
+              "T": "",
+              "NAME": "Ruaya,Rohan",
+              "Rtg": "608",
+              "U": "U10",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "10.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "7",
+              "N": "15",
+              "T": "",
+              "NAME": "Kukdeja,Aarav",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "1.5",
+              "BH": "13.5",
+              "BH-C1": "12.0",
+              "Reward": ""
+            },
+            {
+              "Pos": "8",
+              "N": "13",
+              "T": "",
+              "NAME": "Das,Ayush",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "1.5",
+              "BH": "11.0",
+              "BH-C1": "9.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "9",
+              "N": "16",
+              "T": "",
+              "NAME": "Vijayakumar,Rithvik",
+              "Rtg": "0",
+              "U": "U10",
+              "Pts": "2.5",
+              "BH": "10.0",
+              "BH-C1": "10.0",
+              "Reward": ""
+            },
+            {
+              "Pos": "10",
+              "N": "7",
+              "T": "",
+              "NAME": "Guggilla,Krithvik",
+              "Rtg": "357",
+              "U": "U12",
+              "Pts": "0.0",
+              "BH": "10.5",
+              "BH-C1": "10.5",
+              "Reward": ""
+            }
+          ]
+        }
+      ]
+    },
+    "schedule.html": {
+      "pageHeading": "Schedule",
+      "tables": [
+        {
+          "headers": [
+            "Round",
+            "Time",
+            "Date"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "standings.html": {
+      "pageHeading": "Standings at round 5 (last round)",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Player",
+            "Rtg",
+            "Fed",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Player": "1     Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "15.5",
+              "BH-C1": "11.5",
+              "SB": "11.50"
+            },
+            {
+              "Pos": "2",
+              "Player": "2     Wei,Andrew",
+              "Rtg": "1055",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "15.0",
+              "BH-C1": "11.0",
+              "SB": "11.00"
+            },
+            {
+              "Pos": "3",
+              "Player": "11     Annadasu,Shreyansh",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.5",
+              "BH": "14.0",
+              "BH-C1": "12.5",
+              "SB": "9.25"
+            },
+            {
+              "Pos": "4",
+              "Player": "3     Morris,Elijah",
+              "Rtg": "702",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "15.0",
+              "BH-C1": "13.5",
+              "SB": "7.00"
+            },
+            {
+              "Pos": "5",
+              "Player": "17     Yang,Yifan",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "14.0",
+              "BH-C1": "12.0",
+              "SB": "7.25"
+            },
+            {
+              "Pos": "6",
+              "Player": "6     Huang,Michael",
+              "Rtg": "536",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "13.5",
+              "BH-C1": "12.0",
+              "SB": "6.50"
+            },
+            {
+              "Pos": "7",
+              "Player": "10     Aahan,Arora",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "SB": "5.50"
+            },
+            {
+              "Pos": "8",
+              "Player": "14     Ishan,Rai",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "11.5",
+              "BH-C1": "8.5",
+              "SB": "5.75"
+            },
+            {
+              "Pos": "9",
+              "Player": "8     Pathiyassery,Emir",
+              "Rtg": "338",
+              "Fed": "",
+              "Pts": "2.5",
+              "BH": "10.5",
+              "BH-C1": "8.0",
+              "SB": "3.50"
+            },
+            {
+              "Pos": "10",
+              "Player": "16     Vijayakumar,Rithvik",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.5",
+              "BH": "10.0",
+              "BH-C1": "10.0",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "11",
+              "Player": "4     Nguyen,Tuan Kiet",
+              "Rtg": "610",
+              "Fed": "",
+              "Pts": "2.5",
+              "BH": "9.5",
+              "BH-C1": "9.5",
+              "SB": "2.25"
+            },
+            {
+              "Pos": "12",
+              "Player": "9     Venkatesh,Arvind",
+              "Rtg": "182",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "13",
+              "Player": "5     Ruaya,Rohan",
+              "Rtg": "608",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "10.5",
+              "SB": "3.50"
+            },
+            {
+              "Pos": "14",
+              "Player": "15     Kukdeja,Aarav",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "13.5",
+              "BH-C1": "12.0",
+              "SB": "3.25"
+            },
+            {
+              "Pos": "15",
+              "Player": "13     Das,Ayush",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "11.0",
+              "BH-C1": "9.5",
+              "SB": "2.75"
+            },
+            {
+              "Pos": "16",
+              "Player": "12     Bruno,Iris",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "9.0",
+              "BH-C1": "8.0",
+              "SB": "1.00"
+            },
+            {
+              "Pos": "17",
+              "Player": "7     Guggilla,Krithvik",
+              "Rtg": "357",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "10.5",
+              "BH-C1": "10.5",
+              "SB": "0.00"
+            }
+          ]
+        }
+      ]
+    },
+    "standings1.html": {
+      "pageHeading": "Standings at round 5 (last round)",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Player",
+            "Rtg",
+            "Fed",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Player": "1     Nguyen,Anh\n                                                                              Kiet",
+              "Rtg": "1086",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "15.5",
+              "BH-C1": "11.5",
+              "SB": "11.50"
+            },
+            {
+              "Pos": "2",
+              "Player": "2     Wei,Andrew",
+              "Rtg": "1055",
+              "Fed": "",
+              "Pts": "4.0",
+              "BH": "15.0",
+              "BH-C1": "11.0",
+              "SB": "11.00"
+            },
+            {
+              "Pos": "3",
+              "Player": "11    \n                                                                              Annadasu,Shreyansh",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.5",
+              "BH": "14.0",
+              "BH-C1": "12.5",
+              "SB": "9.25"
+            },
+            {
+              "Pos": "4",
+              "Player": "3    \n                                                                              Morris,Elijah",
+              "Rtg": "702",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "15.0",
+              "BH-C1": "13.5",
+              "SB": "7.00"
+            },
+            {
+              "Pos": "5",
+              "Player": "17     Yang,Yifan",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "14.0",
+              "BH-C1": "12.0",
+              "SB": "7.25"
+            },
+            {
+              "Pos": "6",
+              "Player": "6    \n                                                                              Huang,Michael",
+              "Rtg": "536",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "13.5",
+              "BH-C1": "12.0",
+              "SB": "6.50"
+            },
+            {
+              "Pos": "7",
+              "Player": "10     Aahan,Arora",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "SB": "5.50"
+            },
+            {
+              "Pos": "8",
+              "Player": "14     Ishan,Rai",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "3.0",
+              "BH": "11.5",
+              "BH-C1": "8.5",
+              "SB": "5.75"
+            },
+            {
+              "Pos": "9",
+              "Player": "8    \n                                                                              Pathiyassery,Emir",
+              "Rtg": "338",
+              "Fed": "",
+              "Pts": "2.5",
+              "BH": "10.5",
+              "BH-C1": "8.0",
+              "SB": "3.50"
+            },
+            {
+              "Pos": "10",
+              "Player": "16    \n                                                                              Vijayakumar,Rithvik",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.5",
+              "BH": "10.0",
+              "BH-C1": "10.0",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "11",
+              "Player": "4     Nguyen,Tuan\n                                                                              Kiet",
+              "Rtg": "610",
+              "Fed": "",
+              "Pts": "2.5",
+              "BH": "9.5",
+              "BH-C1": "9.5",
+              "SB": "2.25"
+            },
+            {
+              "Pos": "12",
+              "Player": "9    \n                                                                              Venkatesh,Arvind",
+              "Rtg": "182",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "13",
+              "Player": "5     Ruaya,Rohan",
+              "Rtg": "608",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "10.5",
+              "SB": "3.50"
+            },
+            {
+              "Pos": "14",
+              "Player": "15    \n                                                                              Kukdeja,Aarav",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "13.5",
+              "BH-C1": "12.0",
+              "SB": "3.25"
+            },
+            {
+              "Pos": "15",
+              "Player": "13     Das,Ayush",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "11.0",
+              "BH-C1": "9.5",
+              "SB": "2.75"
+            },
+            {
+              "Pos": "16",
+              "Player": "12     Bruno,Iris",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "9.0",
+              "BH-C1": "8.0",
+              "SB": "1.00"
+            },
+            {
+              "Pos": "17",
+              "Player": "7    \n                                                                              Guggilla,Krithvik",
+              "Rtg": "357",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "10.5",
+              "BH-C1": "10.5",
+              "SB": "0.00"
+            }
+          ]
+        }
+      ]
+    },
+    "summaryFederations.html": {
+      "pageHeading": "Summary by Federations",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Name",
+            "Points"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Name": "VIC",
+              "Points": "4"
+            },
+            {
+              "Pos": "2",
+              "Name": "AUS",
+              "Points": "3"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "",
+            "White Player",
+            "Pts",
+            "NW",
+            "Result",
+            "NB",
+            "Pts",
+            "Black Player",
+            ""
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "col2": "",
+              "White Player": "Yang,Yifan",
+              "Pts": "(3.0)",
+              "NW": "17",
+              "Result": "0 - 1",
+              "NB": "1",
+              "Black Player": "Nguyen,Anh Kiet",
+              "col10": ""
+            },
+            {
+              "Bo.": "2",
+              "col2": "",
+              "White Player": "Wei,Andrew",
+              "Pts": "(3.0)",
+              "NW": "2",
+              "Result": "1 - 0",
+              "NB": "3",
+              "Black Player": "Morris,Elijah",
+              "col10": ""
+            },
+            {
+              "Bo.": "3",
+              "col2": "",
+              "White Player": "Huang,Michael",
+              "Pts": "(2.5)",
+              "NW": "6",
+              "Result": "½ - ½",
+              "NB": "10",
+              "Black Player": "Aahan,Arora",
+              "col10": ""
+            },
+            {
+              "Bo.": "4",
+              "col2": "",
+              "White Player": "Pathiyassery,Emir",
+              "Pts": "(2.5)",
+              "NW": "8",
+              "Result": "0F-1F",
+              "NB": "11",
+              "Black Player": "Annadasu,Shreyansh",
+              "col10": ""
+            },
+            {
+              "Bo.": "5",
+              "col2": "",
+              "White Player": "Ishan,Rai",
+              "Pts": "(2.0)",
+              "NW": "14",
+              "Result": "1F-0F",
+              "NB": "5",
+              "Black Player": "Ruaya,Rohan",
+              "col10": ""
+            },
+            {
+              "Bo.": "6",
+              "col2": "",
+              "White Player": "Nguyen,Tuan Kiet",
+              "Pts": "(1.5)",
+              "NW": "4",
+              "Result": "1 - 0",
+              "NB": "15",
+              "Black Player": "Kukdeja,Aarav",
+              "col10": ""
+            },
+            {
+              "Bo.": "7",
+              "col2": "",
+              "White Player": "Vijayakumar,Rithvik",
+              "Pts": "(1.5)",
+              "NW": "16",
+              "Result": "1 - 0",
+              "NB": "13",
+              "Black Player": "Das,Ayush",
+              "col10": ""
+            },
+            {
+              "Bo.": "8",
+              "col2": "",
+              "White Player": "Guggilla,Krithvik",
+              "Pts": "(1.0)",
+              "NW": "7",
+              "Result": "0F-1F",
+              "NB": "9",
+              "Black Player": "Venkatesh,Arvind",
+              "col10": ""
+            },
+            {
+              "Bo.": "9",
+              "col2": "",
+              "White Player": "Bruno,Iris",
+              "Pts": "(0.0)",
+              "NW": "12",
+              "Result": "1",
+              "NB": "0",
+              "Black Player": "BYE",
+              "col10": ""
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "Player",
+            "Rtg",
+            "PRtg",
+            "Fed",
+            "Origin",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "1",
+              "T": "",
+              "Player": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "PRtg": "1521",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "15.5",
+              "BH-C1": "11.5",
+              "SB": "11.50"
+            },
+            {
+              "Pos": "2",
+              "N": "2",
+              "T": "",
+              "Player": "Wei,Andrew",
+              "Rtg": "1055",
+              "PRtg": "1512",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "15.0",
+              "BH-C1": "11.0",
+              "SB": "11.00"
+            },
+            {
+              "Pos": "3",
+              "N": "11",
+              "T": "",
+              "Player": "Annadasu,Shreyansh",
+              "Rtg": "0",
+              "PRtg": "1019",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "14.0",
+              "BH-C1": "12.5",
+              "SB": "9.25"
+            },
+            {
+              "Pos": "4",
+              "N": "3",
+              "T": "",
+              "Player": "Morris,Elijah",
+              "Rtg": "702",
+              "PRtg": "870",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "15.0",
+              "BH-C1": "13.5",
+              "SB": "7.00"
+            },
+            {
+              "Pos": "5",
+              "N": "17",
+              "T": "",
+              "Player": "Yang,Yifan",
+              "Rtg": "0",
+              "PRtg": "708",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "14.0",
+              "BH-C1": "12.0",
+              "SB": "7.25"
+            },
+            {
+              "Pos": "6",
+              "N": "6",
+              "T": "",
+              "Player": "Huang,Michael",
+              "Rtg": "536",
+              "PRtg": "919",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "13.5",
+              "BH-C1": "12.0",
+              "SB": "6.50"
+            },
+            {
+              "Pos": "9",
+              "N": "8",
+              "T": "",
+              "Player": "Pathiyassery,Emir",
+              "Rtg": "338",
+              "PRtg": "655",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.5",
+              "BH": "10.5",
+              "BH-C1": "8.0",
+              "SB": "3.50"
+            },
+            {
+              "Pos": "10",
+              "N": "16",
+              "T": "",
+              "Player": "Vijayakumar,Rithvik",
+              "Rtg": "0",
+              "PRtg": "793",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.5",
+              "BH": "10.0",
+              "BH-C1": "10.0",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "11",
+              "N": "4",
+              "T": "",
+              "Player": "Nguyen,Tuan Kiet",
+              "Rtg": "610",
+              "PRtg": "871",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.5",
+              "BH": "9.5",
+              "BH-C1": "9.5",
+              "SB": "2.25"
+            },
+            {
+              "Pos": "12",
+              "N": "9",
+              "T": "",
+              "Player": "Venkatesh,Arvind",
+              "Rtg": "182",
+              "PRtg": "547",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "13",
+              "N": "5",
+              "T": "",
+              "Player": "Ruaya,Rohan",
+              "Rtg": "608",
+              "PRtg": "1014",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "10.5",
+              "SB": "3.50"
+            },
+            {
+              "Pos": "14",
+              "N": "15",
+              "T": "",
+              "Player": "Kukdeja,Aarav",
+              "Rtg": "0",
+              "PRtg": "506",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.5",
+              "BH": "13.5",
+              "BH-C1": "12.0",
+              "SB": "3.25"
+            },
+            {
+              "Pos": "15",
+              "N": "13",
+              "T": "",
+              "Player": "Das,Ayush",
+              "Rtg": "0",
+              "PRtg": "442",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.5",
+              "BH": "11.0",
+              "BH-C1": "9.5",
+              "SB": "2.75"
+            },
+            {
+              "Pos": "16",
+              "N": "12",
+              "T": "",
+              "Player": "Bruno,Iris",
+              "Rtg": "0",
+              "PRtg": "0",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "9.0",
+              "BH-C1": "8.0",
+              "SB": "1.00"
+            },
+            {
+              "Pos": "17",
+              "N": "7",
+              "T": "",
+              "Player": "Guggilla,Krithvik",
+              "Rtg": "357",
+              "PRtg": "0",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "10.5",
+              "BH-C1": "10.5",
+              "SB": "0.00"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "",
+            "White Player",
+            "Pts",
+            "NW",
+            "Result",
+            "NB",
+            "Pts",
+            "Black Player",
+            ""
+          ],
+          "rows": [
+            {
+              "Bo.": "3",
+              "col2": "",
+              "White Player": "Huang,Michael",
+              "Pts": "(2.5)",
+              "NW": "6",
+              "Result": "½ - ½",
+              "NB": "10",
+              "Black Player": "Aahan,Arora",
+              "col10": ""
+            },
+            {
+              "Bo.": "5",
+              "col2": "",
+              "White Player": "Ishan,Rai",
+              "Pts": "(2.0)",
+              "NW": "14",
+              "Result": "1F-0F",
+              "NB": "5",
+              "Black Player": "Ruaya,Rohan",
+              "col10": ""
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "Player",
+            "Rtg",
+            "PRtg",
+            "Fed",
+            "Origin",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "Pos": "7",
+              "N": "10",
+              "T": "",
+              "Player": "Aahan,Arora",
+              "Rtg": "0",
+              "PRtg": "990",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "SB": "5.50"
+            },
+            {
+              "Pos": "8",
+              "N": "14",
+              "T": "",
+              "Player": "Ishan,Rai",
+              "Rtg": "0",
+              "PRtg": "911",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "11.5",
+              "BH-C1": "8.5",
+              "SB": "5.75"
+            }
+          ]
+        }
+      ]
+    },
+    "summaryOrigin.html": {
+      "pageHeading": "Summary by Origin",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Name",
+            "Points"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Name": "",
+              "Points": "4"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "",
+            "White Player",
+            "Pts",
+            "NW",
+            "Result",
+            "NB",
+            "Pts",
+            "Black Player",
+            ""
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "col2": "",
+              "White Player": "Yang,Yifan",
+              "Pts": "(3.0)",
+              "NW": "17",
+              "Result": "0 - 1",
+              "NB": "1",
+              "Black Player": "Nguyen,Anh Kiet",
+              "col10": ""
+            },
+            {
+              "Bo.": "2",
+              "col2": "",
+              "White Player": "Wei,Andrew",
+              "Pts": "(3.0)",
+              "NW": "2",
+              "Result": "1 - 0",
+              "NB": "3",
+              "Black Player": "Morris,Elijah",
+              "col10": ""
+            },
+            {
+              "Bo.": "3",
+              "col2": "",
+              "White Player": "Huang,Michael",
+              "Pts": "(2.5)",
+              "NW": "6",
+              "Result": "½ - ½",
+              "NB": "10",
+              "Black Player": "Aahan,Arora",
+              "col10": ""
+            },
+            {
+              "Bo.": "4",
+              "col2": "",
+              "White Player": "Pathiyassery,Emir",
+              "Pts": "(2.5)",
+              "NW": "8",
+              "Result": "0F-1F",
+              "NB": "11",
+              "Black Player": "Annadasu,Shreyansh",
+              "col10": ""
+            },
+            {
+              "Bo.": "5",
+              "col2": "",
+              "White Player": "Ishan,Rai",
+              "Pts": "(2.0)",
+              "NW": "14",
+              "Result": "1F-0F",
+              "NB": "5",
+              "Black Player": "Ruaya,Rohan",
+              "col10": ""
+            },
+            {
+              "Bo.": "6",
+              "col2": "",
+              "White Player": "Nguyen,Tuan Kiet",
+              "Pts": "(1.5)",
+              "NW": "4",
+              "Result": "1 - 0",
+              "NB": "15",
+              "Black Player": "Kukdeja,Aarav",
+              "col10": ""
+            },
+            {
+              "Bo.": "7",
+              "col2": "",
+              "White Player": "Vijayakumar,Rithvik",
+              "Pts": "(1.5)",
+              "NW": "16",
+              "Result": "1 - 0",
+              "NB": "13",
+              "Black Player": "Das,Ayush",
+              "col10": ""
+            },
+            {
+              "Bo.": "8",
+              "col2": "",
+              "White Player": "Guggilla,Krithvik",
+              "Pts": "(1.0)",
+              "NW": "7",
+              "Result": "0F-1F",
+              "NB": "9",
+              "Black Player": "Venkatesh,Arvind",
+              "col10": ""
+            },
+            {
+              "Bo.": "9",
+              "col2": "",
+              "White Player": "Bruno,Iris",
+              "Pts": "(0.0)",
+              "NW": "12",
+              "Result": "1",
+              "NB": "0",
+              "Black Player": "BYE",
+              "col10": ""
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "Player",
+            "Rtg",
+            "PRtg",
+            "Fed",
+            "Origin",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "1",
+              "T": "",
+              "Player": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "PRtg": "1521",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "15.5",
+              "BH-C1": "11.5",
+              "SB": "11.50"
+            },
+            {
+              "Pos": "2",
+              "N": "2",
+              "T": "",
+              "Player": "Wei,Andrew",
+              "Rtg": "1055",
+              "PRtg": "1512",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "15.0",
+              "BH-C1": "11.0",
+              "SB": "11.00"
+            },
+            {
+              "Pos": "3",
+              "N": "11",
+              "T": "",
+              "Player": "Annadasu,Shreyansh",
+              "Rtg": "0",
+              "PRtg": "1019",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "14.0",
+              "BH-C1": "12.5",
+              "SB": "9.25"
+            },
+            {
+              "Pos": "4",
+              "N": "3",
+              "T": "",
+              "Player": "Morris,Elijah",
+              "Rtg": "702",
+              "PRtg": "870",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "15.0",
+              "BH-C1": "13.5",
+              "SB": "7.00"
+            },
+            {
+              "Pos": "5",
+              "N": "17",
+              "T": "",
+              "Player": "Yang,Yifan",
+              "Rtg": "0",
+              "PRtg": "708",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "14.0",
+              "BH-C1": "12.0",
+              "SB": "7.25"
+            },
+            {
+              "Pos": "6",
+              "N": "6",
+              "T": "",
+              "Player": "Huang,Michael",
+              "Rtg": "536",
+              "PRtg": "919",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "13.5",
+              "BH-C1": "12.0",
+              "SB": "6.50"
+            },
+            {
+              "Pos": "7",
+              "N": "10",
+              "T": "",
+              "Player": "Aahan,Arora",
+              "Rtg": "0",
+              "PRtg": "990",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "SB": "5.50"
+            },
+            {
+              "Pos": "8",
+              "N": "14",
+              "T": "",
+              "Player": "Ishan,Rai",
+              "Rtg": "0",
+              "PRtg": "911",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "11.5",
+              "BH-C1": "8.5",
+              "SB": "5.75"
+            },
+            {
+              "Pos": "9",
+              "N": "8",
+              "T": "",
+              "Player": "Pathiyassery,Emir",
+              "Rtg": "338",
+              "PRtg": "655",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.5",
+              "BH": "10.5",
+              "BH-C1": "8.0",
+              "SB": "3.50"
+            },
+            {
+              "Pos": "10",
+              "N": "16",
+              "T": "",
+              "Player": "Vijayakumar,Rithvik",
+              "Rtg": "0",
+              "PRtg": "793",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.5",
+              "BH": "10.0",
+              "BH-C1": "10.0",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "11",
+              "N": "4",
+              "T": "",
+              "Player": "Nguyen,Tuan Kiet",
+              "Rtg": "610",
+              "PRtg": "871",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.5",
+              "BH": "9.5",
+              "BH-C1": "9.5",
+              "SB": "2.25"
+            },
+            {
+              "Pos": "12",
+              "N": "9",
+              "T": "",
+              "Player": "Venkatesh,Arvind",
+              "Rtg": "182",
+              "PRtg": "547",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "11.5",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "13",
+              "N": "5",
+              "T": "",
+              "Player": "Ruaya,Rohan",
+              "Rtg": "608",
+              "PRtg": "1014",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "12.5",
+              "BH-C1": "10.5",
+              "SB": "3.50"
+            },
+            {
+              "Pos": "14",
+              "N": "15",
+              "T": "",
+              "Player": "Kukdeja,Aarav",
+              "Rtg": "0",
+              "PRtg": "506",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.5",
+              "BH": "13.5",
+              "BH-C1": "12.0",
+              "SB": "3.25"
+            },
+            {
+              "Pos": "15",
+              "N": "13",
+              "T": "",
+              "Player": "Das,Ayush",
+              "Rtg": "0",
+              "PRtg": "442",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.5",
+              "BH": "11.0",
+              "BH-C1": "9.5",
+              "SB": "2.75"
+            },
+            {
+              "Pos": "16",
+              "N": "12",
+              "T": "",
+              "Player": "Bruno,Iris",
+              "Rtg": "0",
+              "PRtg": "0",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "9.0",
+              "BH-C1": "8.0",
+              "SB": "1.00"
+            },
+            {
+              "Pos": "17",
+              "N": "7",
+              "T": "",
+              "Player": "Guggilla,Krithvik",
+              "Rtg": "357",
+              "PRtg": "0",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "10.5",
+              "BH-C1": "10.5",
+              "SB": "0.00"
+            }
+          ]
+        }
+      ]
+    },
+    "tourstat.html": {
+      "pageHeading": "Tournament summary",
+      "tables": [
+        {
+          "headers": [],
+          "rows": [
+            {
+              "col1": "Tournament Name",
+              "col2": "Western Masters Juniors 2024"
+            },
+            {
+              "col1": "Place",
+              "col2": "Hobsons Bay Chess Club"
+            },
+            {
+              "col1": "Federation",
+              "col2": "AUS"
+            },
+            {
+              "col1": "Date Begin",
+              "col2": "30/04/2024"
+            },
+            {
+              "col1": "Date End",
+              "col2": "04/06/2024"
+            },
+            {
+              "col1": "Arbiter(s)",
+              "col2": "NA Davis,Sophie"
+            },
+            {
+              "col1": "Play System",
+              "col2": "swiss FIDE Dutch (JaVaFo)"
+            },
+            {
+              "col1": "Rounds",
+              "col2": "5"
+            },
+            {
+              "col1": "Score game",
+              "col2": "0-0.5-1"
+            },
+            {
+              "col1": "Tie break",
+              "col2": "BH   BH-C1      SB"
+            },
+            {
+              "col1": "Registered Players",
+              "col2": "17"
+            },
+            {
+              "col1": "Number of Federations",
+              "col2": "2"
+            },
+            {
+              "col1": "Average Rating (all)",
+              "col2": "322"
+            },
+            {
+              "col1": "Average Rating (only FIDE rated)",
+              "col2": "0"
+            },
+            {
+              "col1": "Players from AUS Federation",
+              "col2": "2"
+            },
+            {
+              "col1": "Players NOT from AUS Federation",
+              "col2": "15"
+            },
+            {
+              "col1": "FIDE rated players",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players",
+              "col2": "17"
+            },
+            {
+              "col1": "unrated players from AUS Federation",
+              "col2": "2"
+            },
+            {
+              "col1": "unrated players NOT from AUS Federation",
+              "col2": "15"
+            },
+            {
+              "col1": "unrated Federations",
+              "col2": "2"
+            },
+            {
+              "col1": "FIDE titled players",
+              "col2": "0"
+            },
+            {
+              "col1": "GM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WGM players",
+              "col2": "0"
+            },
+            {
+              "col1": "IM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WIM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WFM players",
+              "col2": "0"
+            },
+            {
+              "col1": "CM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WCM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player NOT from AUS Federation",
+              "col2": "0"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "menu": [
+    {
+      "text": "Info",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Schedule",
+          "href": "schedule.html"
+        },
+        {
+          "text": "Statistics",
+          "href": "tourstat.html"
+        }
+      ]
+    },
+    {
+      "text": "Players",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Sorted by Rating",
+          "href": "index.html"
+        },
+        {
+          "text": "Sorted by Name",
+          "href": "playersname.html"
+        }
+      ]
+    },
+    {
+      "text": "Pairings",
+      "href": "pairs5.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Standings",
+      "href": "standings.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Tables",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Cross table",
+          "href": "crosstable.html"
+        },
+        {
+          "text": "Cross table and standings",
+          "href": "crosstablescore.html"
+        },
+        {
+          "text": "Standings by Rtg groups",
+          "href": "rankinggroup.html"
+        },
+        {
+          "text": "Standings by age groups",
+          "href": "rankingagegroup.html"
+        },
+        {
+          "text": "Standings by title",
+          "href": "rankcat.html"
+        },
+        {
+          "text": "Rank Teams",
+          "href": "rankTeams.html"
+        },
+        {
+          "text": "Summary Federations",
+          "href": "summaryFederations.html"
+        },
+        {
+          "text": "Summary Origin",
+          "href": "summaryOrigin.html"
+        }
+      ]
+    },
+    {
+      "text": "Reports",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "FIDE Rating",
+          "href": "felovar.html"
+        },
+        {
+          "text": "FIDE Player Card",
+          "href": "fideplayercard.html"
+        },
+        {
+          "text": "National rating",
+          "href": "nelovar.html"
+        },
+        {
+          "text": "National Player Card",
+          "href": "playercard.html"
+        }
+      ]
+    },
+    {
+      "text": "Rewards",
+      "href": "rewards.html",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Open",
+          "href": "rewards_locked.html"
+        },
+        {
+          "text": "U12",
+          "href": "rewards_locked.html#U12"
+        },
+        {
+          "text": "U10",
+          "href": "rewards_locked.html#U10"
+        },
+        {
+          "text": "U8",
+          "href": "rewards_locked.html#U8"
+        },
+        {
+          "text": "Girls",
+          "href": "rewards_locked.html#Girl"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "Tournament Name": "Western Masters Juniors 2024",
+    "Place": "Hobsons Bay Chess Club",
+    "Federation": "AUS",
+    "Date Begin": "30/04/2024",
+    "Date End": "04/06/2024",
+    "Arbiter(s)": "NA Davis,Sophie",
+    "Play System": "swiss FIDE Dutch (JaVaFo)",
+    "Rounds": "5",
+    "Score game": "0-0.5-1",
+    "Tie break": "BH BH-C1 SB",
+    "Registered Players": "17",
+    "Number of Federations": "2",
+    "Average Rating (all)": "322",
+    "Average Rating (only FIDE rated)": "0",
+    "Players from AUS Federation": "2",
+    "Players NOT from AUS Federation": "15",
+    "FIDE rated players": "0",
+    "unrated players": "17",
+    "unrated players from AUS Federation": "2",
+    "unrated players NOT from AUS Federation": "15",
+    "unrated Federations": "2",
+    "FIDE titled players": "0",
+    "GM players": "0",
+    "WGM players": "0",
+    "IM players": "0",
+    "WIM players": "0",
+    "FM players": "0",
+    "WFM players": "0",
+    "CM players": "0",
+    "WCM players": "0",
+    "FIDE titled player from AUS Federation": "0",
+    "FIDE titled player NOT from AUS Federation": "0"
+  }
+}

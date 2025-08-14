@@ -1,0 +1,3406 @@
+{
+  "page": {
+    "crosstable.html": {
+      "pageHeading": "Cross Table at round 2",
+      "tables": [
+        {
+          "headers": [
+            "Player",
+            "Rtg",
+            "Fed",
+            "Pts",
+            "1",
+            "2"
+          ],
+          "rows": [
+            {
+              "1": "19",
+              "2": "16",
+              "Player": "1   Bodke,Aryan",
+              "Rtg": "423",
+              "Fed": "",
+              "Pts": "2.0"
+            },
+            {
+              "1": "110",
+              "2": "½16",
+              "Player": "2   Stefan Tham,Keanu",
+              "Rtg": "382",
+              "Fed": "",
+              "Pts": "1.5"
+            },
+            {
+              "1": "011",
+              "2": "013",
+              "Player": "3   Goh,Julian",
+              "Rtg": "309",
+              "Fed": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "112",
+              "2": "017",
+              "Player": "4   Rawat,Pratyax Singh",
+              "Rtg": "302",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "113",
+              "2": "111",
+              "Player": "5   Guggilla,Krithvik",
+              "Rtg": "289",
+              "Fed": "",
+              "Pts": "2.0"
+            },
+            {
+              "1": "114",
+              "2": "01",
+              "Player": "6   Yendru,Sriram",
+              "Rtg": "245",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "015",
+              "2": "119",
+              "Player": "7   Chan,Abby",
+              "Rtg": "242",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "016",
+              "2": "010",
+              "Player": "8   Goh,Daphne",
+              "Rtg": "107",
+              "Fed": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "01",
+              "2": "112",
+              "Player": "9   Fang,Candice",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "02",
+              "2": "18",
+              "Player": "10   Mukunth,Ganesh Kumar",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "13",
+              "2": "05",
+              "Player": "11   Kaki,Vihas",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "04",
+              "2": "09",
+              "Player": "12   Kantharaju,Aarna",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "05",
+              "2": "13",
+              "Player": "13   Kantharaju,Aryan",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "06",
+              "2": "½ BYE",
+              "Player": "14   Kelly,Jackson",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "0.5"
+            },
+            {
+              "1": "17",
+              "2": "018",
+              "Player": "15   Nema,Nivaan",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0"
+            },
+            {
+              "1": "18",
+              "2": "½2",
+              "Player": "16   Aryan,Srivatsav Yegn",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5"
+            },
+            {
+              "1": "119",
+              "2": "14",
+              "Player": "17   Vemula,Thamoghna",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.0"
+            },
+            {
+              "1": "½ BYE",
+              "2": "115",
+              "Player": "18   Kwek,Alexander",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5"
+            },
+            {
+              "1": "017",
+              "2": "07",
+              "Player": "19   Venkat,Nyra",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "0.0"
+            }
+          ]
+        }
+      ]
+    },
+    "crosstablescore.html": {
+      "pageHeading": "Cross Table at round 2",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Player",
+            "Rtg",
+            "Fed",
+            "Pts",
+            "1",
+            "2",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "1": "110",
+              "2": "17",
+              "Pos": "1",
+              "Player": "Bodke,Aryan",
+              "Rtg": "423",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "2.00"
+            },
+            {
+              "1": "112",
+              "2": "111",
+              "Pos": "2",
+              "Player": "Guggilla,Krithvik",
+              "Rtg": "289",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "2.00"
+            },
+            {
+              "1": "116",
+              "2": "19",
+              "Pos": "3",
+              "Player": "Vemula,Thamoghna",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "1.0",
+              "BH-C1": "1.0",
+              "SB": "1.00"
+            },
+            {
+              "1": "113",
+              "2": "½6",
+              "Pos": "4",
+              "Player": "Stefan Tham,Keanu",
+              "Rtg": "382",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "2.5",
+              "BH-C1": "1.5",
+              "SB": "1.75"
+            },
+            {
+              "1": "½ BYE",
+              "2": "18",
+              "Pos": "5",
+              "Player": "Kwek,Alexander",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "2.5",
+              "BH-C1": "1.0",
+              "SB": "1.75"
+            },
+            {
+              "1": "117",
+              "2": "½4",
+              "Pos": "6",
+              "Player": "Aryan,Srivatsav Yegnavajjula",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "1.5",
+              "BH-C1": "1.5",
+              "SB": "0.75"
+            },
+            {
+              "1": "115",
+              "2": "01",
+              "Pos": "7",
+              "Player": "Yendru,Sriram",
+              "Rtg": "245",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.5",
+              "BH-C1": "2.0",
+              "SB": "0.50"
+            },
+            {
+              "1": "114",
+              "2": "05",
+              "Pos": "8",
+              "Player": "Nema,Nivaan",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.5",
+              "BH-C1": "1.5",
+              "SB": "1.00"
+            },
+            {
+              "1": "119",
+              "2": "03",
+              "Pos": "9",
+              "Player": "Rawat,Pratyax Singh",
+              "Rtg": "302",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "1": "01",
+              "2": "119",
+              "Pos": "10",
+              "Player": "Fang,Candice",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "1": "118",
+              "2": "02",
+              "Pos": "11",
+              "Player": "Kaki,Vihas",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "1": "02",
+              "2": "118",
+              "Pos": "12",
+              "Player": "Kantharaju,Aryan",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "1": "04",
+              "2": "117",
+              "Pos": "13",
+              "Player": "Mukunth,Ganesh Kumar",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "1.5",
+              "BH-C1": "1.5",
+              "SB": "0.00"
+            },
+            {
+              "1": "08",
+              "2": "116",
+              "Pos": "14",
+              "Player": "Chan,Abby",
+              "Rtg": "242",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "1.0",
+              "BH-C1": "1.0",
+              "SB": "0.00"
+            },
+            {
+              "1": "07",
+              "2": "½ BYE",
+              "Pos": "15",
+              "Player": "Kelly,Jackson",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "0.5",
+              "BH": "1.5",
+              "BH-C1": "1.0",
+              "SB": "0.25"
+            },
+            {
+              "1": "03",
+              "2": "014",
+              "Pos": "16",
+              "Player": "Venkat,Nyra",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "3.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "1": "06",
+              "2": "013",
+              "Pos": "17",
+              "Player": "Goh,Daphne",
+              "Rtg": "107",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "2.5",
+              "BH-C1": "1.5",
+              "SB": "0.00"
+            },
+            {
+              "1": "011",
+              "2": "012",
+              "Pos": "18",
+              "Player": "Goh,Julian",
+              "Rtg": "309",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "0.00"
+            },
+            {
+              "1": "09",
+              "2": "010",
+              "Pos": "19",
+              "Player": "Kantharaju,Aarna",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "0.00"
+            }
+          ]
+        }
+      ]
+    },
+    "felovar.html": {
+      "pageHeading": "FIDE rating variation at round 2",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "FIDE ID",
+            "Fed",
+            "Rtg",
+            "Ng",
+            "Pts",
+            "ARO",
+            "var",
+            "Rp"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "fideplayercard.html": {
+      "pageHeading": "FIDE History Cards",
+      "tables": []
+    },
+    "games.html": {
+      "pageHeading": "",
+      "tables": []
+    },
+    "index.html": {
+      "pageHeading": "Registered players sorted by rating and title",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "Fed",
+            "Rtg",
+            "RtgF",
+            "RtgN"
+          ],
+          "rows": [
+            {
+              "#": "1",
+              "Player": "Bodke,Aryan",
+              "Fed": "",
+              "Rtg": "423",
+              "RtgF": "0",
+              "RtgN": "423"
+            },
+            {
+              "#": "2",
+              "Player": "Stefan Tham,Keanu",
+              "Fed": "",
+              "Rtg": "382",
+              "RtgF": "0",
+              "RtgN": "382"
+            },
+            {
+              "#": "3",
+              "Player": "Goh,Julian",
+              "Fed": "",
+              "Rtg": "309",
+              "RtgF": "0",
+              "RtgN": "309"
+            },
+            {
+              "#": "4",
+              "Player": "Rawat,Pratyax Singh",
+              "Fed": "",
+              "Rtg": "302",
+              "RtgF": "0",
+              "RtgN": "302"
+            },
+            {
+              "#": "5",
+              "Player": "Guggilla,Krithvik",
+              "Fed": "",
+              "Rtg": "289",
+              "RtgF": "0",
+              "RtgN": "289"
+            },
+            {
+              "#": "6",
+              "Player": "Yendru,Sriram",
+              "Fed": "",
+              "Rtg": "245",
+              "RtgF": "0",
+              "RtgN": "245"
+            },
+            {
+              "#": "7",
+              "Player": "Chan,Abby",
+              "Fed": "",
+              "Rtg": "242",
+              "RtgF": "0",
+              "RtgN": "242"
+            },
+            {
+              "#": "8",
+              "Player": "Goh,Daphne",
+              "Fed": "",
+              "Rtg": "107",
+              "RtgF": "0",
+              "RtgN": "107"
+            },
+            {
+              "#": "16",
+              "Player": "Aryan,Srivatsav Yegnavajjula",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "9",
+              "Player": "Fang,Candice",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "11",
+              "Player": "Kaki,Vihas",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "12",
+              "Player": "Kantharaju,Aarna",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "13",
+              "Player": "Kantharaju,Aryan",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "14",
+              "Player": "Kelly,Jackson",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "18",
+              "Player": "Kwek,Alexander",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "10",
+              "Player": "Mukunth,Ganesh Kumar",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "15",
+              "Player": "Nema,Nivaan",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "17",
+              "Player": "Vemula,Thamoghna",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "19",
+              "Player": "Venkat,Nyra",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            }
+          ]
+        }
+      ]
+    },
+    "nelovar.html": {
+      "pageHeading": "National rating at round 3",
+      "tables": [
+        {
+          "headers": [
+            "N",
+            "Name",
+            "K",
+            "Elo",
+            "Var",
+            "Per"
+          ],
+          "rows": []
+        }
+      ]
+    },
+    "pairs1.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "1    Bodke,Aryan",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "9    Fang,Candice"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "10    Ganesh Kumar,Mukunth",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "2    Stefan Tham,Keanu"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "3    Goh,Julian",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "11    Kaki,Vihas"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "12    Kantharaju,Aarna",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "4    Rawat,Pratyax Singh"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "",
+              "White Player": "5    Guggilla,Krithvik",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "13    Kantharaju,Aryan"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "",
+              "White Player": "14    Kelly,Jackson",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "6    Yendru,Sriram"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "",
+              "White Player": "7    Chan,Abby",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "15    Nema,Nivaan"
+            },
+            {
+              "Bo.": "8",
+              "Fed": "",
+              "White Player": "16    Srivatsav Yegnavajjula,Aryan",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "8    Goh,Daphne"
+            },
+            {
+              "Bo.": "9",
+              "Fed": "",
+              "White Player": "17    Vemula,Thamoghna",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "19    Venkat,Nyra"
+            },
+            {
+              "Bo.": "10",
+              "Fed": "",
+              "White Player": "18    Kwek,Alexander",
+              "Pts": "0",
+              "Result": "½",
+              "Black Player": "( half point bye )"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs2.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "6    Yendru,Sriram",
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Black Player": "1    Bodke,Aryan"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "2    Stefan Tham,Keanu",
+              "Pts": "1",
+              "Result": "½ - ½",
+              "Black Player": "16    Aryan,Srivatsav Yegnavajjula"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "4    Rawat,Pratyax Singh",
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Black Player": "17    Vemula,Thamoghna"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "11    Kaki,Vihas",
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Black Player": "5    Guggilla,Krithvik"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "",
+              "White Player": "15    Nema,Nivaan",
+              "Pts": "0.5",
+              "Result": "0 - 1",
+              "Black Player": "18    Kwek,Alexander"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "",
+              "White Player": "13    Kantharaju,Aryan",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "3    Goh,Julian"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "",
+              "White Player": "19    Venkat,Nyra",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "7    Chan,Abby"
+            },
+            {
+              "Bo.": "8",
+              "Fed": "",
+              "White Player": "8    Goh,Daphne",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Black Player": "10    Mukunth,Ganesh Kumar"
+            },
+            {
+              "Bo.": "9",
+              "Fed": "",
+              "White Player": "9    Fang,Candice",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Black Player": "12    Kantharaju,Aarna"
+            },
+            {
+              "Bo.": "10",
+              "Fed": "",
+              "White Player": "14    Kelly,Jackson",
+              "Pts": "0",
+              "Result": "½",
+              "Black Player": "( bye )"
+            }
+          ]
+        }
+      ]
+    },
+    "pairs3.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            "Bo.",
+            "Fed",
+            "White Player",
+            "Pts",
+            "Result",
+            "Pts",
+            "Black Player",
+            "Fed"
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "",
+              "White Player": "1    Bodke,Aryan",
+              "Pts": "2",
+              "Result": "...",
+              "Black Player": "5    Guggilla,Krithvik"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "",
+              "White Player": "17    Vemula,Thamoghna",
+              "Pts": "1.5",
+              "Result": "...",
+              "Black Player": "2    Stefan Tham,Keanu"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "",
+              "White Player": "18    Kwek,Alexander",
+              "Pts": "1.5",
+              "Result": "...",
+              "Black Player": "16    Aryan,Srivatsav Yegnavajjula"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "",
+              "White Player": "10    Mukunth,Ganesh Kumar",
+              "Pts": "1",
+              "Result": "...",
+              "Black Player": "4    Rawat,Pratyax Singh"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "",
+              "White Player": "11    Kaki,Vihas",
+              "Pts": "1",
+              "Result": "...",
+              "Black Player": "6    Yendru,Sriram"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "",
+              "White Player": "7    Chan,Abby",
+              "Pts": "1",
+              "Result": "...",
+              "Black Player": "13    Kantharaju,Aryan"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "",
+              "White Player": "15    Nema,Nivaan",
+              "Pts": "1",
+              "Result": "...",
+              "Black Player": "9    Fang,Candice"
+            },
+            {
+              "Bo.": "8",
+              "Fed": "",
+              "White Player": "3    Goh,Julian",
+              "Pts": "0.5",
+              "Result": "...",
+              "Black Player": "14    Kelly,Jackson"
+            },
+            {
+              "Bo.": "9",
+              "Fed": "",
+              "White Player": "12    Kantharaju,Aarna",
+              "Pts": "0",
+              "Result": "...",
+              "Black Player": "8    Goh,Daphne"
+            },
+            {
+              "Bo.": "10",
+              "Fed": "",
+              "White Player": "19    Venkat,Nyra",
+              "Pts": "0",
+              "Result": "½",
+              "Black Player": "( bye )"
+            }
+          ]
+        }
+      ]
+    },
+    "playercard.html": {
+      "pageHeading": "National History Cards",
+      "tables": [
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "9",
+              "Cat": "",
+              "OPPONENT": "Fang,Candice",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Yendru,Sriram",
+              "Rtg": "245",
+              "res": "1.0",
+              "Pts": "1.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "10",
+              "Cat": "",
+              "OPPONENT": "Mukunth,Ganesh Kumar",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "16",
+              "Cat": "",
+              "OPPONENT": "Aryan,Srivatsav Yegn",
+              "Rtg": "0",
+              "res": "0.5",
+              "Pts": "1.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "11",
+              "Cat": "",
+              "OPPONENT": "Kaki,Vihas",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "13",
+              "Cat": "",
+              "OPPONENT": "Kantharaju,Aryan",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "1.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "12",
+              "Cat": "",
+              "OPPONENT": "Kantharaju,Aarna",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "17",
+              "Cat": "",
+              "OPPONENT": "Vemula,Thamoghna",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "2.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "13",
+              "Cat": "",
+              "OPPONENT": "Kantharaju,Aryan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "11",
+              "Cat": "",
+              "OPPONENT": "Kaki,Vihas",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "14",
+              "Cat": "",
+              "OPPONENT": "Kelly,Jackson",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "0.5"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Bodke,Aryan",
+              "Rtg": "423",
+              "res": "0.0",
+              "Pts": "2.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "15",
+              "Cat": "",
+              "OPPONENT": "Nema,Nivaan",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "19",
+              "Cat": "",
+              "OPPONENT": "Venkat,Nyra",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "16",
+              "Cat": "",
+              "OPPONENT": "Aryan,Srivatsav Yegn",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "1.5"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "10",
+              "Cat": "",
+              "OPPONENT": "Mukunth,Ganesh Kumar",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "1.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Bodke,Aryan",
+              "Rtg": "423",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "12",
+              "Cat": "",
+              "OPPONENT": "Kantharaju,Aarna",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Stefan Tham,Keanu",
+              "Rtg": "382",
+              "res": "0.0",
+              "Pts": "1.5"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Goh,Daphne",
+              "Rtg": "107",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Goh,Julian",
+              "Rtg": "309",
+              "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Guggilla,Krithvik",
+              "Rtg": "289",
+              "res": "0.0",
+              "Pts": "2.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Rawat,Pratyax Singh",
+              "Rtg": "302",
+              "res": "0.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "9",
+              "Cat": "",
+              "OPPONENT": "Fang,Candice",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "1.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Guggilla,Krithvik",
+              "Rtg": "289",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Goh,Julian",
+              "Rtg": "309",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Yendru,Sriram",
+              "Rtg": "245",
+              "res": "0.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "2",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.5",
+              "Pts": "0.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Chan,Abby",
+              "Rtg": "242",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "18",
+              "Cat": "",
+              "OPPONENT": "Kwek,Alexander",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "1.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Goh,Daphne",
+              "Rtg": "107",
+              "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Stefan Tham,Keanu",
+              "Rtg": "382",
+              "res": "0.5",
+              "Pts": "1.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "19",
+              "Cat": "",
+              "OPPONENT": "Venkat,Nyra",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Rawat,Pratyax Singh",
+              "Rtg": "302",
+              "res": "1.0",
+              "Pts": "1.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.5",
+              "Pts": "0.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "15",
+              "Cat": "",
+              "OPPONENT": "Nema,Nivaan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "17",
+              "Cat": "",
+              "OPPONENT": "Vemula,Thamoghna",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Chan,Abby",
+              "Rtg": "242",
+              "res": "0.0",
+              "Pts": "1.0"
+            }
+          ]
+        }
+      ]
+    },
+    "playersname.html": {
+      "pageHeading": "Registered players sorted by name",
+      "tables": [
+        {
+          "headers": [
+            "#",
+            "Player",
+            "Fed",
+            "Rtg",
+            "RtgF",
+            "RtgN"
+          ],
+          "rows": [
+            {
+              "#": "16",
+              "Player": "Aryan,Srivatsav Yegnavajjula",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "1",
+              "Player": "Bodke,Aryan",
+              "Fed": "",
+              "Rtg": "423",
+              "RtgF": "0",
+              "RtgN": "423"
+            },
+            {
+              "#": "7",
+              "Player": "Chan,Abby",
+              "Fed": "",
+              "Rtg": "242",
+              "RtgF": "0",
+              "RtgN": "242"
+            },
+            {
+              "#": "9",
+              "Player": "Fang,Candice",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "8",
+              "Player": "Goh,Daphne",
+              "Fed": "",
+              "Rtg": "107",
+              "RtgF": "0",
+              "RtgN": "107"
+            },
+            {
+              "#": "3",
+              "Player": "Goh,Julian",
+              "Fed": "",
+              "Rtg": "309",
+              "RtgF": "0",
+              "RtgN": "309"
+            },
+            {
+              "#": "5",
+              "Player": "Guggilla,Krithvik",
+              "Fed": "",
+              "Rtg": "289",
+              "RtgF": "0",
+              "RtgN": "289"
+            },
+            {
+              "#": "11",
+              "Player": "Kaki,Vihas",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "12",
+              "Player": "Kantharaju,Aarna",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "13",
+              "Player": "Kantharaju,Aryan",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "14",
+              "Player": "Kelly,Jackson",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "18",
+              "Player": "Kwek,Alexander",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "10",
+              "Player": "Mukunth,Ganesh Kumar",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "15",
+              "Player": "Nema,Nivaan",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "4",
+              "Player": "Rawat,Pratyax Singh",
+              "Fed": "",
+              "Rtg": "302",
+              "RtgF": "0",
+              "RtgN": "302"
+            },
+            {
+              "#": "2",
+              "Player": "Stefan Tham,Keanu",
+              "Fed": "",
+              "Rtg": "382",
+              "RtgF": "0",
+              "RtgN": "382"
+            },
+            {
+              "#": "17",
+              "Player": "Vemula,Thamoghna",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "19",
+              "Player": "Venkat,Nyra",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "6",
+              "Player": "Yendru,Sriram",
+              "Fed": "",
+              "Rtg": "245",
+              "RtgF": "0",
+              "RtgN": "245"
+            }
+          ]
+        }
+      ]
+    },
+    "rankTeams.html": {
+      "pageHeading": "Team ranking based on 4 best players of each team",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Team Name",
+            "Points"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Team Name": "",
+              "Points": "7.5"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "1",
+            "",
+            "7.5"
+          ],
+          "rows": [
+            {
+              "1": "1",
+              "col2": "Bodke,Aryan",
+              "7.5": "2"
+            },
+            {
+              "1": "5",
+              "col2": "Guggilla,Krithvik",
+              "7.5": "2"
+            },
+            {
+              "1": "17",
+              "col2": "Vemula,Thamoghna",
+              "7.5": "2"
+            },
+            {
+              "1": "2",
+              "col2": "Stefan Tham,Keanu",
+              "7.5": "1.5"
+            },
+            {
+              "1": "18",
+              "col2": "Kwek,Alexander",
+              "7.5": "1.5"
+            },
+            {
+              "1": "16",
+              "col2": "Aryan,Srivatsav Yegnavajjula",
+              "7.5": "1.5"
+            },
+            {
+              "1": "6",
+              "col2": "Yendru,Sriram",
+              "7.5": "1"
+            },
+            {
+              "1": "15",
+              "col2": "Nema,Nivaan",
+              "7.5": "1"
+            },
+            {
+              "1": "4",
+              "col2": "Rawat,Pratyax Singh",
+              "7.5": "1"
+            },
+            {
+              "1": "9",
+              "col2": "Fang,Candice",
+              "7.5": "1"
+            },
+            {
+              "1": "11",
+              "col2": "Kaki,Vihas",
+              "7.5": "1"
+            },
+            {
+              "1": "13",
+              "col2": "Kantharaju,Aryan",
+              "7.5": "1"
+            },
+            {
+              "1": "10",
+              "col2": "Mukunth,Ganesh Kumar",
+              "7.5": "1"
+            },
+            {
+              "1": "7",
+              "col2": "Chan,Abby",
+              "7.5": "1"
+            },
+            {
+              "1": "14",
+              "col2": "Kelly,Jackson",
+              "7.5": "0.5"
+            },
+            {
+              "1": "19",
+              "col2": "Venkat,Nyra",
+              "7.5": "0"
+            },
+            {
+              "1": "8",
+              "col2": "Goh,Daphne",
+              "7.5": "0"
+            },
+            {
+              "1": "3",
+              "col2": "Goh,Julian",
+              "7.5": "0"
+            },
+            {
+              "1": "12",
+              "col2": "Kantharaju,Aarna",
+              "7.5": "0"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Board 0",
+            "Pos",
+            "Player",
+            "Team",
+            "Points",
+            "Board 1",
+            "Pos",
+            "Player",
+            "Team",
+            "Points",
+            "Board 2",
+            "Pos",
+            "Player",
+            "Team",
+            "Points",
+            "Board 3",
+            "Pos",
+            "Player",
+            "Team",
+            "Points"
+          ],
+          "rows": [
+            {
+              "Board 0": "",
+              "Pos": "1",
+              "Player": "Bodke,Aryan",
+              "Team": "",
+              "Points": "2"
+            },
+            {
+              "Board 0": "",
+              "Pos": "1",
+              "Player": "Guggilla,Krithvik",
+              "Team": "",
+              "Points": "2"
+            },
+            {
+              "Board 0": "",
+              "Pos": "1",
+              "Player": "Vemula,Thamoghna",
+              "Team": "",
+              "Points": "2"
+            },
+            {
+              "Board 0": "",
+              "Pos": "1",
+              "Player": "Stefan Tham,Keanu",
+              "Team": "",
+              "Points": "1.5"
+            }
+          ]
+        }
+      ]
+    },
+    "rankcat.html": {
+      "pageHeading": "Standings at round 3 sorted by category",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "Player",
+            "Rtg",
+            "PRtg",
+            "Fed",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "1",
+              "T": "",
+              "Player": "Bodke,Aryan",
+              "Rtg": "423",
+              "PRtg": "1623",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "2.00"
+            },
+            {
+              "Pos": "2",
+              "N": "5",
+              "T": "",
+              "Player": "Guggilla,Krithvik",
+              "Rtg": "289",
+              "PRtg": "2200",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "2.00"
+            },
+            {
+              "Pos": "3",
+              "N": "17",
+              "T": "",
+              "Player": "Vemula,Thamoghna",
+              "Rtg": "0",
+              "PRtg": "1651",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "1.0",
+              "BH-C1": "1.0",
+              "SB": "1.00"
+            },
+            {
+              "Pos": "4",
+              "N": "2",
+              "T": "",
+              "Player": "Stefan Tham,Keanu",
+              "Rtg": "382",
+              "PRtg": "1593",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "2.5",
+              "BH-C1": "1.5",
+              "SB": "1.75"
+            },
+            {
+              "Pos": "5",
+              "N": "18",
+              "T": "",
+              "Player": "Kwek,Alexander",
+              "Rtg": "0",
+              "PRtg": "2200",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "2.5",
+              "BH-C1": "1.0",
+              "SB": "1.75"
+            },
+            {
+              "Pos": "6",
+              "N": "16",
+              "T": "",
+              "Player": "Aryan,Srivatsav Yegn",
+              "Rtg": "0",
+              "PRtg": "438",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "1.5",
+              "BH-C1": "1.5",
+              "SB": "0.75"
+            },
+            {
+              "Pos": "7",
+              "N": "6",
+              "T": "",
+              "Player": "Yendru,Sriram",
+              "Rtg": "245",
+              "PRtg": "912",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.5",
+              "BH-C1": "2.0",
+              "SB": "0.50"
+            },
+            {
+              "Pos": "8",
+              "N": "15",
+              "T": "",
+              "Player": "Nema,Nivaan",
+              "Rtg": "0",
+              "PRtg": "821",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.5",
+              "BH-C1": "1.5",
+              "SB": "1.00"
+            },
+            {
+              "Pos": "9",
+              "N": "4",
+              "T": "",
+              "Player": "Rawat,Pratyax Singh",
+              "Rtg": "302",
+              "PRtg": "1400",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "10",
+              "N": "9",
+              "T": "",
+              "Player": "Fang,Candice",
+              "Rtg": "0",
+              "PRtg": "912",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "11",
+              "N": "11",
+              "T": "",
+              "Player": "Kaki,Vihas",
+              "Rtg": "0",
+              "PRtg": "299",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "12",
+              "N": "13",
+              "T": "",
+              "Player": "Kantharaju,Aryan",
+              "Rtg": "0",
+              "PRtg": "299",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "13",
+              "N": "10",
+              "T": "",
+              "Player": "Mukunth,Ganesh Kumar",
+              "Rtg": "0",
+              "PRtg": "245",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "1.5",
+              "BH-C1": "1.5",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "14",
+              "N": "7",
+              "T": "",
+              "Player": "Chan,Abby",
+              "Rtg": "242",
+              "PRtg": "1400",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "1.0",
+              "BH-C1": "1.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "15",
+              "N": "14",
+              "T": "",
+              "Player": "Kelly,Jackson",
+              "Rtg": "0",
+              "PRtg": "0",
+              "Fed": "",
+              "Pts": "0.5",
+              "BH": "1.5",
+              "BH-C1": "1.0",
+              "SB": "0.25"
+            },
+            {
+              "Pos": "16",
+              "N": "19",
+              "T": "",
+              "Player": "Venkat,Nyra",
+              "Rtg": "0",
+              "PRtg": "21",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "3.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "17",
+              "N": "8",
+              "T": "",
+              "Player": "Goh,Daphne",
+              "Rtg": "107",
+              "PRtg": "600",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "2.5",
+              "BH-C1": "1.5",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "18",
+              "N": "3",
+              "T": "",
+              "Player": "Goh,Julian",
+              "Rtg": "309",
+              "PRtg": "600",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "19",
+              "N": "12",
+              "T": "",
+              "Player": "Kantharaju,Aarna",
+              "Rtg": "0",
+              "PRtg": "51",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "0.00"
+            }
+          ]
+        }
+      ]
+    },
+    "rankingagegroup.html": {
+      "pageHeading": "Player Groups by date at round 3",
+      "tables": []
+    },
+    "rankinggroup.html": {
+      "pageHeading": "Rated Player Groups at round 2",
+      "tables": []
+    },
+    "schedule.html": {
+      "pageHeading": "Schedule",
+      "tables": [
+        {
+          "headers": [
+            "Round",
+            "Time",
+            "Date"
+          ],
+          "rows": [
+            {
+              "Round": "1",
+              "Time": "18:30",
+              "Date": "29/04/2025"
+            },
+            {
+              "Round": "2",
+              "Time": "18:30",
+              "Date": "06/05/2025"
+            },
+            {
+              "Round": "3",
+              "Time": "18:30",
+              "Date": "13/05/2025"
+            },
+            {
+              "Round": "4",
+              "Time": "18:30",
+              "Date": "20/05/2025"
+            },
+            {
+              "Round": "5",
+              "Time": "18:30",
+              "Date": "03/06/2025"
+            }
+          ]
+        }
+      ]
+    },
+    "standings.html": {
+      "pageHeading": "Standings at round 2",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Player",
+            "Rtg",
+            "Fed",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Player": "1     Bodke,Aryan",
+              "Rtg": "423",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "2.00"
+            },
+            {
+              "Pos": "2",
+              "Player": "5     Guggilla,Krithvik",
+              "Rtg": "289",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "2.00"
+            },
+            {
+              "Pos": "3",
+              "Player": "17     Vemula,Thamoghna",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "2.0",
+              "BH": "1.0",
+              "BH-C1": "1.0",
+              "SB": "1.00"
+            },
+            {
+              "Pos": "4",
+              "Player": "2     Stefan Tham,Keanu",
+              "Rtg": "382",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "2.5",
+              "BH-C1": "1.5",
+              "SB": "1.75"
+            },
+            {
+              "Pos": "5",
+              "Player": "18     Kwek,Alexander",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "2.5",
+              "BH-C1": "1.0",
+              "SB": "1.75"
+            },
+            {
+              "Pos": "6",
+              "Player": "16     Aryan,Srivatsav Yegnavajjula",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.5",
+              "BH": "1.5",
+              "BH-C1": "1.5",
+              "SB": "0.75"
+            },
+            {
+              "Pos": "7",
+              "Player": "6     Yendru,Sriram",
+              "Rtg": "245",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.5",
+              "BH-C1": "2.0",
+              "SB": "0.50"
+            },
+            {
+              "Pos": "8",
+              "Player": "15     Nema,Nivaan",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.5",
+              "BH-C1": "1.5",
+              "SB": "1.00"
+            },
+            {
+              "Pos": "9",
+              "Player": "4     Rawat,Pratyax Singh",
+              "Rtg": "302",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "10",
+              "Player": "9     Fang,Candice",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "11",
+              "Player": "11     Kaki,Vihas",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "12",
+              "Player": "13     Kantharaju,Aryan",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "13",
+              "Player": "10     Mukunth,Ganesh Kumar",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "1.5",
+              "BH-C1": "1.5",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "14",
+              "Player": "7     Chan,Abby",
+              "Rtg": "242",
+              "Fed": "",
+              "Pts": "1.0",
+              "BH": "1.0",
+              "BH-C1": "1.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "15",
+              "Player": "14     Kelly,Jackson",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "0.5",
+              "BH": "1.5",
+              "BH-C1": "1.0",
+              "SB": "0.25"
+            },
+            {
+              "Pos": "16",
+              "Player": "19     Venkat,Nyra",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "3.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "17",
+              "Player": "8     Goh,Daphne",
+              "Rtg": "107",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "2.5",
+              "BH-C1": "1.5",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "18",
+              "Player": "3     Goh,Julian",
+              "Rtg": "309",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "19",
+              "Player": "12     Kantharaju,Aarna",
+              "Rtg": "0",
+              "Fed": "",
+              "Pts": "0.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "0.00"
+            }
+          ]
+        }
+      ]
+    },
+    "summaryFederations.html": {
+      "pageHeading": "Summary by Federations",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Name",
+            "Points"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Name": "AUS",
+              "Points": "2"
+            },
+            {
+              "Pos": "2",
+              "Name": "VIC",
+              "Points": "2"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "",
+            "White Player",
+            "Pts",
+            "NW",
+            "Result",
+            "NB",
+            "Pts",
+            "Black Player",
+            ""
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "Player",
+            "Rtg",
+            "PRtg",
+            "Fed",
+            "Origin",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "Pos": "3",
+              "N": "17",
+              "T": "",
+              "Player": "Vemula,Thamoghna",
+              "Rtg": "0",
+              "PRtg": "1651",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "1.0",
+              "BH-C1": "1.0",
+              "SB": "1.00"
+            },
+            {
+              "Pos": "5",
+              "N": "18",
+              "T": "",
+              "Player": "Kwek,Alexander",
+              "Rtg": "0",
+              "PRtg": "2200",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.5",
+              "BH": "2.5",
+              "BH-C1": "1.0",
+              "SB": "1.75"
+            },
+            {
+              "Pos": "6",
+              "N": "16",
+              "T": "",
+              "Player": "Aryan,Srivatsav Yegnavajjula",
+              "Rtg": "0",
+              "PRtg": "438",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.5",
+              "BH": "1.5",
+              "BH-C1": "1.5",
+              "SB": "0.75"
+            },
+            {
+              "Pos": "8",
+              "N": "15",
+              "T": "",
+              "Player": "Nema,Nivaan",
+              "Rtg": "0",
+              "PRtg": "821",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "2.5",
+              "BH-C1": "1.5",
+              "SB": "1.00"
+            },
+            {
+              "Pos": "11",
+              "N": "11",
+              "T": "",
+              "Player": "Kaki,Vihas",
+              "Rtg": "0",
+              "PRtg": "299",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "13",
+              "N": "10",
+              "T": "",
+              "Player": "Mukunth,Ganesh Kumar",
+              "Rtg": "0",
+              "PRtg": "245",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "1.5",
+              "BH-C1": "1.5",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "15",
+              "N": "14",
+              "T": "",
+              "Player": "Kelly,Jackson",
+              "Rtg": "0",
+              "PRtg": "0",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "0.5",
+              "BH": "1.5",
+              "BH-C1": "1.0",
+              "SB": "0.25"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "",
+            "White Player",
+            "Pts",
+            "NW",
+            "Result",
+            "NB",
+            "Pts",
+            "Black Player",
+            ""
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "Player",
+            "Rtg",
+            "PRtg",
+            "Fed",
+            "Origin",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "1",
+              "T": "",
+              "Player": "Bodke,Aryan",
+              "Rtg": "423",
+              "PRtg": "1623",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "2.00"
+            },
+            {
+              "Pos": "2",
+              "N": "5",
+              "T": "",
+              "Player": "Guggilla,Krithvik",
+              "Rtg": "289",
+              "PRtg": "2200",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "2.00"
+            },
+            {
+              "Pos": "4",
+              "N": "2",
+              "T": "",
+              "Player": "Stefan Tham,Keanu",
+              "Rtg": "382",
+              "PRtg": "1593",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.5",
+              "BH": "2.5",
+              "BH-C1": "1.5",
+              "SB": "1.75"
+            },
+            {
+              "Pos": "7",
+              "N": "6",
+              "T": "",
+              "Player": "Yendru,Sriram",
+              "Rtg": "245",
+              "PRtg": "912",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "2.5",
+              "BH-C1": "2.0",
+              "SB": "0.50"
+            },
+            {
+              "Pos": "9",
+              "N": "4",
+              "T": "",
+              "Player": "Rawat,Pratyax Singh",
+              "Rtg": "302",
+              "PRtg": "1400",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "10",
+              "N": "9",
+              "T": "",
+              "Player": "Fang,Candice",
+              "Rtg": "0",
+              "PRtg": "912",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "12",
+              "N": "13",
+              "T": "",
+              "Player": "Kantharaju,Aryan",
+              "Rtg": "0",
+              "PRtg": "299",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "14",
+              "N": "7",
+              "T": "",
+              "Player": "Chan,Abby",
+              "Rtg": "242",
+              "PRtg": "1400",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "1.0",
+              "BH-C1": "1.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "16",
+              "N": "19",
+              "T": "",
+              "Player": "Venkat,Nyra",
+              "Rtg": "0",
+              "PRtg": "21",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "3.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "17",
+              "N": "8",
+              "T": "",
+              "Player": "Goh,Daphne",
+              "Rtg": "107",
+              "PRtg": "600",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "2.5",
+              "BH-C1": "1.5",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "18",
+              "N": "3",
+              "T": "",
+              "Player": "Goh,Julian",
+              "Rtg": "309",
+              "PRtg": "600",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "19",
+              "N": "12",
+              "T": "",
+              "Player": "Kantharaju,Aarna",
+              "Rtg": "0",
+              "PRtg": "51",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "0.00"
+            }
+          ]
+        }
+      ]
+    },
+    "summaryOrigin.html": {
+      "pageHeading": "Summary by Origin",
+      "tables": [
+        {
+          "headers": [
+            "Pos",
+            "Name",
+            "Points"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Name": "",
+              "Points": "2"
+            }
+          ]
+        },
+        {
+          "headers": [
+            "Bo.",
+            "",
+            "White Player",
+            "Pts",
+            "NW",
+            "Result",
+            "NB",
+            "Pts",
+            "Black Player",
+            ""
+          ],
+          "rows": []
+        },
+        {
+          "headers": [
+            "Pos",
+            "N",
+            "T",
+            "Player",
+            "Rtg",
+            "PRtg",
+            "Fed",
+            "Origin",
+            "Pts",
+            "BH",
+            "BH-C1",
+            "SB"
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "N": "1",
+              "T": "",
+              "Player": "Bodke,Aryan",
+              "Rtg": "423",
+              "PRtg": "1623",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "2.00"
+            },
+            {
+              "Pos": "2",
+              "N": "5",
+              "T": "",
+              "Player": "Guggilla,Krithvik",
+              "Rtg": "289",
+              "PRtg": "2200",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "2.00"
+            },
+            {
+              "Pos": "3",
+              "N": "17",
+              "T": "",
+              "Player": "Vemula,Thamoghna",
+              "Rtg": "0",
+              "PRtg": "1651",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "1.0",
+              "BH-C1": "1.0",
+              "SB": "1.00"
+            },
+            {
+              "Pos": "4",
+              "N": "2",
+              "T": "",
+              "Player": "Stefan Tham,Keanu",
+              "Rtg": "382",
+              "PRtg": "1593",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.5",
+              "BH": "2.5",
+              "BH-C1": "1.5",
+              "SB": "1.75"
+            },
+            {
+              "Pos": "5",
+              "N": "18",
+              "T": "",
+              "Player": "Kwek,Alexander",
+              "Rtg": "0",
+              "PRtg": "2200",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.5",
+              "BH": "2.5",
+              "BH-C1": "1.0",
+              "SB": "1.75"
+            },
+            {
+              "Pos": "6",
+              "N": "16",
+              "T": "",
+              "Player": "Aryan,Srivatsav Yegnavajjula",
+              "Rtg": "0",
+              "PRtg": "438",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.5",
+              "BH": "1.5",
+              "BH-C1": "1.5",
+              "SB": "0.75"
+            },
+            {
+              "Pos": "7",
+              "N": "6",
+              "T": "",
+              "Player": "Yendru,Sriram",
+              "Rtg": "245",
+              "PRtg": "912",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "2.5",
+              "BH-C1": "2.0",
+              "SB": "0.50"
+            },
+            {
+              "Pos": "8",
+              "N": "15",
+              "T": "",
+              "Player": "Nema,Nivaan",
+              "Rtg": "0",
+              "PRtg": "821",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "2.5",
+              "BH-C1": "1.5",
+              "SB": "1.00"
+            },
+            {
+              "Pos": "9",
+              "N": "4",
+              "T": "",
+              "Player": "Rawat,Pratyax Singh",
+              "Rtg": "302",
+              "PRtg": "1400",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "10",
+              "N": "9",
+              "T": "",
+              "Player": "Fang,Candice",
+              "Rtg": "0",
+              "PRtg": "912",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "11",
+              "N": "11",
+              "T": "",
+              "Player": "Kaki,Vihas",
+              "Rtg": "0",
+              "PRtg": "299",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "12",
+              "N": "13",
+              "T": "",
+              "Player": "Kantharaju,Aryan",
+              "Rtg": "0",
+              "PRtg": "299",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "13",
+              "N": "10",
+              "T": "",
+              "Player": "Mukunth,Ganesh Kumar",
+              "Rtg": "0",
+              "PRtg": "245",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "1.5",
+              "BH-C1": "1.5",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "14",
+              "N": "7",
+              "T": "",
+              "Player": "Chan,Abby",
+              "Rtg": "242",
+              "PRtg": "1400",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "1.0",
+              "BH-C1": "1.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "15",
+              "N": "14",
+              "T": "",
+              "Player": "Kelly,Jackson",
+              "Rtg": "0",
+              "PRtg": "0",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "0.5",
+              "BH": "1.5",
+              "BH-C1": "1.0",
+              "SB": "0.25"
+            },
+            {
+              "Pos": "16",
+              "N": "19",
+              "T": "",
+              "Player": "Venkat,Nyra",
+              "Rtg": "0",
+              "PRtg": "21",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "3.0",
+              "BH-C1": "2.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "17",
+              "N": "8",
+              "T": "",
+              "Player": "Goh,Daphne",
+              "Rtg": "107",
+              "PRtg": "600",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "2.5",
+              "BH-C1": "1.5",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "18",
+              "N": "3",
+              "T": "",
+              "Player": "Goh,Julian",
+              "Rtg": "309",
+              "PRtg": "600",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "19",
+              "N": "12",
+              "T": "",
+              "Player": "Kantharaju,Aarna",
+              "Rtg": "0",
+              "PRtg": "51",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "2.0",
+              "BH-C1": "1.0",
+              "SB": "0.00"
+            }
+          ]
+        }
+      ]
+    },
+    "tourstat.html": {
+      "pageHeading": "Tournament summary",
+      "tables": [
+        {
+          "headers": [],
+          "rows": [
+            {
+              "col1": "Tournament Name",
+              "col2": "2025 Hobsons Bay Western Mini And Rookies Juniors"
+            },
+            {
+              "col1": "Place",
+              "col2": "Hobsons Bay Chess Club"
+            },
+            {
+              "col1": "Federation",
+              "col2": "AUS"
+            },
+            {
+              "col1": "Date Begin",
+              "col2": "29/04/2025"
+            },
+            {
+              "col1": "Date End",
+              "col2": "03/06/2025"
+            },
+            {
+              "col1": "Arbiter(s)",
+              "col2": "Nguyen, Truong 3281701 ()"
+            },
+            {
+              "col1": "Play System",
+              "col2": "swiss FIDE Dutch (JaVaFo)"
+            },
+            {
+              "col1": "Rounds",
+              "col2": "5"
+            },
+            {
+              "col1": "Score game",
+              "col2": "0-0.5-1"
+            },
+            {
+              "col1": "Tie break",
+              "col2": "BH   BH-C1      SB"
+            },
+            {
+              "col1": "Registered Players",
+              "col2": "19"
+            },
+            {
+              "col1": "Number of Federations",
+              "col2": "2"
+            },
+            {
+              "col1": "Average Rating (all)",
+              "col2": "121"
+            },
+            {
+              "col1": "Average Rating (only FIDE rated)",
+              "col2": "0"
+            },
+            {
+              "col1": "Players from AUS Federation",
+              "col2": "7"
+            },
+            {
+              "col1": "Players NOT from AUS Federation",
+              "col2": "12"
+            },
+            {
+              "col1": "FIDE rated players",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players",
+              "col2": "19"
+            },
+            {
+              "col1": "unrated players from AUS Federation",
+              "col2": "7"
+            },
+            {
+              "col1": "unrated players NOT from AUS Federation",
+              "col2": "12"
+            },
+            {
+              "col1": "unrated Federations",
+              "col2": "2"
+            },
+            {
+              "col1": "FIDE titled players",
+              "col2": "0"
+            },
+            {
+              "col1": "GM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WGM players",
+              "col2": "0"
+            },
+            {
+              "col1": "IM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WIM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WFM players",
+              "col2": "0"
+            },
+            {
+              "col1": "CM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WCM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player NOT from AUS Federation",
+              "col2": "0"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "menu": [
+    {
+      "text": "Info",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Schedule",
+          "href": "schedule.html"
+        },
+        {
+          "text": "Statistics",
+          "href": "tourstat.html"
+        }
+      ]
+    },
+    {
+      "text": "Players",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Sorted by Rating",
+          "href": "index.html"
+        },
+        {
+          "text": "Sorted by Name",
+          "href": "playersname.html"
+        }
+      ]
+    },
+    {
+      "text": "Pairings",
+      "href": "pairs3.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Standings",
+      "href": "standings.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Tables",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Cross table",
+          "href": "crosstable.html"
+        },
+        {
+          "text": "Cross table and standings",
+          "href": "crosstablescore.html"
+        },
+        {
+          "text": "Standings by Rtg groups",
+          "href": "rankinggroup.html"
+        },
+        {
+          "text": "Standings by age groups",
+          "href": "rankingagegroup.html"
+        },
+        {
+          "text": "Standings by title",
+          "href": "rankcat.html"
+        },
+        {
+          "text": "Rank Teams",
+          "href": "rankTeams.html"
+        },
+        {
+          "text": "Summary Federations",
+          "href": "summaryFederations.html"
+        },
+        {
+          "text": "Summary Origin",
+          "href": "summaryOrigin.html"
+        }
+      ]
+    },
+    {
+      "text": "Reports",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "FIDE Rating",
+          "href": "felovar.html"
+        },
+        {
+          "text": "FIDE Player Card",
+          "href": "fideplayercard.html"
+        },
+        {
+          "text": "National rating",
+          "href": "nelovar.html"
+        },
+        {
+          "text": "National Player Card",
+          "href": "playercard.html"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "Tournament Name": "2025 Hobsons Bay Western Mini And Rookies Juniors",
+    "Place": "Hobsons Bay Chess Club",
+    "Federation": "AUS",
+    "Date Begin": "29/04/2025",
+    "Date End": "03/06/2025",
+    "Arbiter(s)": "Nguyen, Truong 3281701 ()",
+    "Play System": "swiss FIDE Dutch (JaVaFo)",
+    "Rounds": "5",
+    "Score game": "0-0.5-1",
+    "Tie break": "BH BH-C1 SB",
+    "Registered Players": "19",
+    "Number of Federations": "2",
+    "Average Rating (all)": "121",
+    "Average Rating (only FIDE rated)": "0",
+    "Players from AUS Federation": "7",
+    "Players NOT from AUS Federation": "12",
+    "FIDE rated players": "0",
+    "unrated players": "19",
+    "unrated players from AUS Federation": "7",
+    "unrated players NOT from AUS Federation": "12",
+    "unrated Federations": "2",
+    "FIDE titled players": "0",
+    "GM players": "0",
+    "WGM players": "0",
+    "IM players": "0",
+    "WIM players": "0",
+    "FM players": "0",
+    "WFM players": "0",
+    "CM players": "0",
+    "WCM players": "0",
+    "FIDE titled player from AUS Federation": "0",
+    "FIDE titled player NOT from AUS Federation": "0"
+  }
+}
