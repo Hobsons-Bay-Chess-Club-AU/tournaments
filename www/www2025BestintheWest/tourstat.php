@@ -27,7 +27,7 @@
                 <div class="container-fluid">
                     <div class="row items-center">
                         <div class="col-12">
-                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Chess Club Best in The West</h1>		    <h5 class="mb-1">Hobsons Bay Chess Club (AUS)</h5>		    <h5> 28/07/2025 - 28/07/2025</h5>   </div>
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Chess Club Best in The West</h1>		    <h5 class="mb-1">Hobsons Bay Chess Club (AUS)</h5>		    <h5> 30/08/2025 - 31/08/2025</h5>   </div>
  </div> 
  </div>
  </div> 
@@ -42,35 +42,35 @@
 <tr><td> Tournament Name </td> <td> 2025 Hobsons Bay Chess Club Best in The West</td> </tr>
 <tr><td >Place </td> <td> Hobsons Bay Chess Club</td> </tr>
 <tr><td >Federation</td> <td> AUS</td> </tr>
-<tr><td >Date Begin</td> <td> 28/07/2025</td> </tr>
-<tr><td >Date End</td> <td> 28/07/2025</td> </tr>
+<tr><td >Date Begin</td> <td> 30/08/2025</td> </tr>
+<tr><td >Date End</td> <td> 31/08/2025</td> </tr>
 <tr><td >Arbiter(s)</td> <td> IA Casey Goh</td> </tr>
 <tr><td > Play System</td> <td> swiss FIDE Dutch (JaVaFo)</td> </tr>
 <tr><td >Rounds</td> <td> 5</td> </tr>
 <tr><td >Score game</td> <td> 0-0.5-1</td> </tr>
 <tr><td >Tie break</td> <td>      BH </td> </tr>
-<tr><td >Registered Players</td> <td> 63</td> </tr>
-<tr><td > Number of Federations</td> <td> 3</td> </tr>
-<tr><td >Average Rating (all) </td> <td> 1092</td> </tr>
+<tr><td >Registered Players</td> <td> 65</td> </tr>
+<tr><td > Number of Federations</td> <td> 4</td> </tr>
+<tr><td >Average Rating (all) </td> <td> 1117</td> </tr>
 <tr><td >Average Rating (only FIDE rated) </td> <td> 1641</td> </tr>
 <tr ><td > Players from AUS Federation</td> <td> 1</td> </tr>
-<tr><td > Players NOT from AUS Federation</td> <td> 62</td> </tr>
+<tr><td > Players NOT from AUS Federation</td> <td> 64</td> </tr>
 <tr><td > FIDE rated players </td> <td> 1</td> </tr>
-<tr><td > unrated players </td> <td> 62</td> </tr>
+<tr><td > unrated players </td> <td> 64</td> </tr>
 <tr><td > unrated players from AUS Federation</td> <td> 1</td> </tr>
-<tr><td >unrated players NOT from AUS Federation</td> <td> 61</td> </tr>
-<tr><td > unrated Federations</td> <td> 3</td> </tr>
-<tr><td > FIDE titled players </td> <td> 6</td> </tr>
+<tr><td >unrated players NOT from AUS Federation</td> <td> 63</td> </tr>
+<tr><td > unrated Federations</td> <td> 4</td> </tr>
+<tr><td > FIDE titled players </td> <td> 7</td> </tr>
 <tr><td > GM players </td> <td> 0</td> </tr>
 <tr><td >WGM players </td> <td> 0</td> </tr>
 <tr><td > IM players </td> <td> 0</td> </tr>
 <tr><td >WIM players</td> <td> 1</td> </tr>
-<tr><td >FM players</td> <td> 4</td> </tr>
+<tr><td >FM players</td> <td> 5</td> </tr>
 <tr><td >WFM players</td> <td> 1</td> </tr>
 <tr><td >CM players</td> <td> 0</td> </tr>
 <tr><td >WCM players</td> <td> 0</td> </tr>
 <tr><td >FIDE titled player from AUS Federation </td> <td> 0</td> </tr>
-<tr><td >FIDE titled player NOT from AUS Federation</td> <td> 6</td> </tr>
+<tr><td >FIDE titled player NOT from AUS Federation</td> <td> 7</td> </tr>
 </tbody>
 </table>
 </div>
