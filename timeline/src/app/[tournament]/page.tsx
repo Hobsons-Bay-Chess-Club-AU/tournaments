@@ -119,7 +119,7 @@ export default function TournamentPage({ params }: { params: Promise<{ tournamen
             {/* Menu bar below hero - full width */}
             <TournamentMenu menu={data?.menu ?? []} activePage={page} onSelectPage={handleSelectPage} />
             {/* Main content: page heading and tables */}
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <div className="">
                 <div className="bg-white rounded-xl shadow-sm border border-gray-100 px-6 py-6">
                 {!data && (
                     <div className="flex flex-col items-center justify-center py-12">
