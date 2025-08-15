@@ -126,7 +126,7 @@ jobs:
           npm run build
           cd ..
         env:
-          NEXT_PUBLIC_BASE_PATH: "/timeline/"
+          NEXT_PUBLIC_BASE_PATH: "/timeline"
           NEXT_PUBLIC_EXPORT_STATIC: "true"
           NEXT_PUBLIC_APP_URL: ""
 
