@@ -30,7 +30,7 @@ export default function RootLayout({
           <header className="bg-white shadow flex items-center justify-between px-6 py-4">
             <div className="flex items-center gap-4">
               <Link href="/" className="flex items-center gap-4">
-                <img src="/Logo.png" alt="HBCC Logo" width={40} height={40} className="rounded-full border border-blue-300" />
+                <img src="https://tournament.hobsonsbaychess.com/timeline/Logo.png" alt="HBCC Logo" width={40} height={40} className="rounded-full border border-blue-300" />
                 <span className="text-2xl font-bold text-blue-700 tracking-wide">Hobsons Bay Chess Club</span>
               </Link>
             </div>
