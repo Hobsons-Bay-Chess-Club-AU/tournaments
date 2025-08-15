@@ -3,9 +3,11 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
-  output: process.env.NEXT_PUBLIC_EXPORT_STATIC === 'true' ? 'export' : undefined,
-  // Note: staticFolder is not a valid Next.js config option
-  // Static files should be served via http-server or similar for the www folder
+  // Disabled static export to allow client-side dynamic routing
+  // output: process.env.NEXT_PUBLIC_EXPORT_STATIC === 'true' ? 'export' : undefined,
+  
+  // Enable client-side routing for dynamic routes
+  trailingSlash: false,
   
   /* config options here */
 };
