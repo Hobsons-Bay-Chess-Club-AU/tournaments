@@ -70,6 +70,133 @@ function parseCaptionToPlayerInfo($caption) {
     };
 }
 
+// Function to parse White Player and Black Player columns (pairing tables)
+function readPairPlayer($td) {
+    let id = '';
+    let gender = '';
+    let playerName = '';
+    let href = '';
+    
+    // Look for ID in various locations
+    const idSpan = $td.find('span.idwhite, span.idblack');
+    if (idSpan.length > 0) {
+        id = idSpan.text().trim();
+    } else {
+        // Look for ID in sort-num div (newer format)
+        const sortNumDiv = $td.find('.sort-num');
+        if (sortNumDiv.length > 0) {
+            id = sortNumDiv.text().trim();
+        }
+    }
+    
+    // Look for gender in various locations
+    const genderSpan = $td.find('span.male, span.female, span.notitle');
+    if (genderSpan.hasClass('male')) {
+        gender = 'male';
+    } else if (genderSpan.hasClass('female')) {
+        gender = 'female';
+    } else if (genderSpan.hasClass('notitle')) {
+        gender = 'notitle';
+    } else {
+        // Look for gender in div classes (newer format)
+        const genderDiv = $td.find('.male, .female, .notitle2');
+        if (genderDiv.hasClass('male')) {
+            gender = 'male';
+        } else if (genderDiv.hasClass('female')) {
+            gender = 'female';
+        } else if (genderDiv.hasClass('notitle2')) {
+            gender = 'notitle';
+        } else {
+            gender = 'notitle'; // default
+        }
+    }
+    
+    // Look for player name
+    const anchor = $td.find('a');
+    if (anchor.length > 0) {
+        href = anchor.attr('href') || '';
+        // Try to get player name from anchor text first
+        playerName = anchor.text().trim();
+        
+        // If anchor text is empty, look for player name in player-name-box2 span
+        if (!playerName) {
+            const nameSpan = $td.find('.player-name-box2 span');
+            if (nameSpan.length > 0) {
+                playerName = nameSpan.text().trim();
+            }
+        }
+    }
+    
+    return {
+        id,
+        playerName,
+        gender,
+        href
+    };
+}
+
+// Function to parse Player column (standings tables)
+function readPlayer($td) {
+    let id = '';
+    let gender = '';
+    let playerName = '';
+    let href = '';
+    
+    // Pattern 1: <span class="idn"> 3 </span> <span class="notitle male"> </span> <a href="playercard.html#3"> Name</a>
+    let idSpan = $td.find('span.idn');
+    if (idSpan.length > 0) {
+        id = idSpan.text().trim();
+    } else {
+        // Pattern 2: Complex div structure - look for .sort-num
+        const sortNumDiv = $td.find('.sort-num');
+        if (sortNumDiv.length > 0) {
+            id = sortNumDiv.text().trim();
+        } else {
+            // Pattern 3: Badge with ID - <span class="badge text-bg-primary"> &nbsp;&nbsp;8 </span>
+            const badgeSpan = $td.find('span.badge');
+            if (badgeSpan.length > 0) {
+                id = badgeSpan.text().replace(/\s+/g, ' ').trim();
+            }
+        }
+    }
+    
+    // Look for gender in span classes
+    const genderSpan = $td.find('span.male, span.female, span.notitle, .male, .female, .notitle2');
+    if (genderSpan.hasClass('male') || (genderSpan.hasClass('notitle') && genderSpan.hasClass('male'))) {
+        gender = 'male';
+    } else if (genderSpan.hasClass('female') || (genderSpan.hasClass('notitle') && genderSpan.hasClass('female'))) {
+        gender = 'female';
+    } else if (genderSpan.hasClass('notitle') || genderSpan.hasClass('notitle2')) {
+        gender = 'notitle';
+    } else {
+        gender = 'notitle'; // default
+    }
+    
+    // Look for player name in anchor tag or span within player-name-box2
+    let anchor = $td.find('a');
+    if (anchor.length > 0) {
+        playerName = anchor.text().trim();
+        href = anchor.attr('href') || '';
+    }
+    
+    // If no player name from anchor, check for player name in nested span (Pattern 2)
+    if (!playerName || playerName === '') {
+        const nameSpan = $td.find('.player-name-box2 span');
+        if (nameSpan.length > 0) {
+            playerName = nameSpan.text().trim();
+        }
+    }
+    
+    // Debug logging for standings parsing - removed for production
+    
+    return {
+        id,
+        playerName,
+        gender,
+        href
+    };
+}
+
 function parseTableToJson($table) {
     // Parse caption if it exists
     let caption = null;
@@ -86,91 +213,26 @@ function parseTableToJson($table) {
     $table.find('tbody tr').each((i, tr) => {
         const rowObj = {};
         cheerio(tr).find('td').each((j, td) => {
-            // Special handling for player cell
+            // Special handling for player cells
             const header = headers[j] || `col${j + 1}`;
             if (header === 'White Player' || header === 'Black Player' || header === 'Player') {
                 const $td = cheerio(td);
-
                 
-                if ($td.hasClass('name') || header === 'Player') {
-                    // Check if the cell has structured content (child elements)
-                    const hasChildElements = $td.find('span, a').length > 0;
-                    
-                    if (hasChildElements) {
-                        let id = '';
-                        let gender = '';
-                        let playerName = '';
-                        let href = '';
-                        
-                        if (header === 'Player') {
-                            // Handle Player column specifically (standings tables)
-                            // Multiple formats need to be handled:
-                            
-                            // Pattern 1: <span class="idn"> 3 </span> <span class="notitle male"> </span> <a href="playercard.html#3"> Whitford,Matthew</a>
-                            let idSpan = $td.find('span.idn, span.idwhite, span.idblack');
-                            if (idSpan.length > 0) {
-                                id = idSpan.text().trim();
-                            } else {
-                                // Pattern 2: Complex div structure - look for .sort-num
-                                const sortNumDiv = $td.find('.sort-num');
-                                if (sortNumDiv.length > 0) {
-                                    id = sortNumDiv.text().trim();
-                                } else {
-                                    // Pattern 3: Badge with ID - <span class="badge text-bg-primary"> &nbsp;&nbsp;8 </span>
-                                    const badgeSpan = $td.find('span.badge');
-                                    if (badgeSpan.length > 0) {
-                                        id = badgeSpan.text().replace(/\s+/g, ' ').trim();
-                                    }
-                                }
-                            }
-                            
-                            // Look for gender in span classes
-                            const genderSpan = $td.find('span.male, span.female, span.notitle, .male, .female, .notitle2');
-                            if (genderSpan.hasClass('male') || genderSpan.hasClass('notitle') && genderSpan.hasClass('male')) {
-                                gender = 'male';
-                            } else if (genderSpan.hasClass('female') || genderSpan.hasClass('notitle') && genderSpan.hasClass('female')) {
-                                gender = 'female';
-                            } else if (genderSpan.hasClass('notitle') || genderSpan.hasClass('notitle2')) {
-                                gender = 'notitle';
-                            } else {
-                                gender = 'notitle'; // default
-                            }
-                            
-                            // Look for player name in anchor tag or span within player-name-box2
-                            let anchor = $td.find('a');
-                            if (anchor.length > 0) {
-                                playerName = anchor.text().trim();
-                                href = anchor.attr('href') || '';
-                            } else {
-                                // Check for player name in nested span (Pattern 2)
-                                const nameSpan = $td.find('.player-name-box2 span');
-                                if (nameSpan.length > 0) {
-                                    playerName = nameSpan.text().trim();
-                                }
-                            }
-                        } else {
-                            // Original logic for White Player/Black Player columns
-                            id = $td.find('span.idwhite, span.idblack').text().trim();
-                            const genderSpan = $td.find('span.male, span.female, span.notitle');
-                            if (genderSpan.hasClass('male')) gender = 'male';
-                            else if (genderSpan.hasClass('female')) gender = 'female';
-                            else gender = 'notitle';
-                            playerName = $td.find('a').text().trim();
-                            href = $td.find('a').attr('href') || '';
-                        }
-                        
-                        rowObj[header] = {
-                            id,
-                            playerName,
-                            gender,
-                            href
-                        };
+                // Check if the cell has structured content (child elements)
+                const hasChildElements = $td.find('span, a').length > 0;
+                
+                if (hasChildElements) {
+                    // Use specialized parsing functions
+                    if (header === 'Player') {
+                        // Standings tables - use readPlayer function
+                        rowObj[header] = readPlayer($td);
                     } else {
-                        // Fallback: td has 'name' class but only contains text (e.g., "( half point bye )")
-                        rowObj[header] = $td.text().trim();
+                        // Pairing tables (White Player/Black Player) - use readPairPlayer function
+                        rowObj[header] = readPairPlayer($td);
                     }
                 } else {
-                    rowObj[header] = cheerio(td).text().trim();
+                    // Fallback: cell only contains text (e.g., "( half point bye )")
+                    rowObj[header] = $td.text().trim();
                 }
             } else {
                 rowObj[header] = cheerio(td).text().trim();
@@ -312,7 +374,7 @@ async function processFolder(folderName) {
     return null;
 }
 
-const debugTournament = ""; // set to empty to process all tournaments
+const debugTournament = ""; // Set to empty to process all tournaments
 async function main() {
     const allFolders = await fs.readdir(WWW_FOLDER, { withFileTypes: true });
     const wwwFolders = allFolders.filter(dirent => dirent.isDirectory() && dirent.name.startsWith('www')).map(dirent => dirent.name);

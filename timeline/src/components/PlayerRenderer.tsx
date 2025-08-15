@@ -17,51 +17,24 @@ interface PlayerRendererProps {
     tournamentPath?: string; // Add tournament path to generate correct URLs
 }
 
-// Gender icon component
-const GenderIcon: React.FC<{ gender: string }> = ({ gender }) => {
+// Helper function to get gender-based styling
+const getGenderStyles = (gender: string) => {
     const normalizedGender = gender?.toLowerCase().trim();
     
-    if (normalizedGender === 'm' || normalizedGender === 'male') {
-        return (
-            <svg 
-                className="inline-block w-4 h-4 text-blue-500" 
-                fill="currentColor" 
-                viewBox="0 0 24 24"
-            >
-                {/* Mars symbol (♂) - Male */}
-                <path d="M15.5 2h6v6M21.5 2l-7.1 7.1M12 9a5 5 0 1 0 0 10 5 5 0 0 0 0-10z" 
-                      stroke="currentColor" 
-                      strokeWidth="2" 
-                      fill="none" 
-                      strokeLinecap="round" 
-                      strokeLinejoin="round"/>
-            </svg>
-        );
-    }
-    
     if (normalizedGender === 'f' || normalizedGender === 'female') {
-        return (
-            <svg 
-                className="inline-block w-4 h-4 text-pink-500" 
-                fill="currentColor" 
-                viewBox="0 0 24 24"
-            >
-                {/* Venus symbol (♀) - Female */}
-                <circle cx="12" cy="8" r="5" 
-                        stroke="currentColor" 
-                        strokeWidth="2" 
-                        fill="none"/>
-                <path d="M12 13v8M9 18h6" 
-                      stroke="currentColor" 
-                      strokeWidth="2" 
-                      strokeLinecap="round" 
-                      strokeLinejoin="round"/>
-            </svg>
-        );
+        return {
+            nameColor: 'text-pink-600',
+            linkColor: 'text-pink-600 hover:text-pink-800',
+            linkHoverColor: 'hover:text-pink-800'
+        };
     }
     
-    // Return null for unknown genders
-    return null;
+    // Default styling for male/other
+    return {
+        nameColor: 'text-gray-900',
+        linkColor: 'text-blue-600 hover:text-blue-800',
+        linkHoverColor: 'hover:text-blue-800'
+    };
 };
 
 const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", onPlayerClick, tournamentPath }) => {
@@ -87,17 +60,20 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
         const title = playerObj.title;
         const href = playerObj.href;
 
-        // If we have a player name, render detailed player info
-        if (playerName) {
+        // If we have a player name and it's not empty, render detailed player info
+        if (playerName && playerName.trim() !== '') {
             const handlePlayerClick = () => {
-                if (onPlayerClick && playerId) {
+                if (onPlayerClick && playerId && String(playerId).trim() !== '') {
                     onPlayerClick(playerId);
                 }
             };
 
+            // Get gender-based styling
+            const genderStyles = getGenderStyles(gender || '');
+
             // Generate correct tournament URL if href exists
             let tournamentUrl = href;
-            if (href && tournamentPath && playerId) {
+            if (href && tournamentPath && playerId && String(playerId).trim() !== '') {
                 // Convert href like "playercard.html#16" to tournament-scoped URL
                 const params = new URLSearchParams();
                 params.set('page', 'playercard.html');
@@ -110,42 +86,62 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
                     {href ? (
                         <a 
                             href={tournamentUrl} 
-                            className="text-blue-600 hover:text-blue-800 hover:underline font-medium"
+                            className={`${genderStyles.linkColor} hover:underline font-medium`}
                             onClick={(e) => {
                                 // Prevent default and use our navigation instead
                                 e.preventDefault();
-                                if (onPlayerClick && playerId) {
+                                if (onPlayerClick && playerId && String(playerId).trim() !== '') {
                                     onPlayerClick(playerId);
                                 }
                             }}
                         >
                             {playerName}
                         </a>
-                    ) : playerId && onPlayerClick ? (
+                    ) : playerId && String(playerId).trim() !== '' && onPlayerClick ? (
                         <button
                             onClick={handlePlayerClick}
-                            className="text-blue-600 hover:text-blue-800 hover:underline font-medium cursor-pointer bg-transparent border-none p-0 text-left"
+                            className={`${genderStyles.linkColor} hover:underline font-medium cursor-pointer bg-transparent border-none p-0 text-left`}
                         >
                             {playerName}
                         </button>
                     ) : (
-                        <span className="font-medium text-gray-900">{playerName}</span>
+                        <span className={`font-medium ${genderStyles.nameColor}`}>{playerName}</span>
                     )}
                     
                     {/* Display additional info in a subtle way */}
                     <div className="text-xs text-gray-500 mt-1 flex items-center gap-2 flex-wrap">
-                        {playerId && <span className="bg-gray-100 px-2 py-0.5 rounded-full">ID: {playerId}</span>}
+                        {playerId && String(playerId).trim() !== '' && <span className="bg-gray-100 px-2 py-0.5 rounded-full">ID: {playerId}</span>}
                         {title && <span className="font-semibold text-blue-600 bg-blue-50 px-2 py-0.5 rounded-full">{title}</span>}
                         {rating && <span className="bg-green-50 text-green-700 px-2 py-0.5 rounded-full">({rating})</span>}
-                        {gender && <GenderIcon gender={gender} />}
                     </div>
                 </div>
             );
         }
 
         // If it's an object but no player name, try to render key-value pairs
+        // For debugging, let's be more explicit about what we show
         const entries = Object.entries(playerObj);
         if (entries.length > 0) {
+            // Special handling for common player object patterns
+            if ('playerName' in playerObj && 'id' in playerObj) {
+                // This looks like a player object, show the name prominently
+                const genderStyles = getGenderStyles(String(playerObj.gender || ''));
+                
+                return (
+                    <div className={`player-fallback ${className}`}>
+                        <span className={`font-medium ${genderStyles.nameColor}`}>
+                            {String(playerObj.playerName || 'Unknown Player')}
+                        </span>
+                        {playerObj.id && String(playerObj.id).trim() !== '' && (
+                            <span className="text-xs text-gray-500 ml-2">
+                                (ID: {String(playerObj.id)})
+                            </span>
+                        )}
+                    </div>
+                );
+            }
+            
+            // Generic object display
             return (
                 <div className={`object-data ${className}`}>
                     {entries.map(([key, value], index) => (
