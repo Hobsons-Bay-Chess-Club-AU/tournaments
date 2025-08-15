@@ -113,14 +113,20 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
             const aVal = a[sortConfig.key];
             const bVal = b[sortConfig.key];
 
-            // Handle different data types
-            if (typeof aVal === 'number' && typeof bVal === 'number') {
-                return sortConfig.direction === 'asc' ? aVal - bVal : bVal - aVal;
-            }
-
+            // Convert to strings for comparison
             const aStr = String(aVal || '');
             const bStr = String(bVal || '');
 
+            // Check if both values are numeric (including decimal numbers)
+            const aNum = parseFloat(aStr);
+            const bNum = parseFloat(bStr);
+            
+            if (!isNaN(aNum) && !isNaN(bNum)) {
+                // Both are valid numbers, sort numerically
+                return sortConfig.direction === 'asc' ? aNum - bNum : bNum - aNum;
+            }
+
+            // At least one is not a number, sort as strings
             if (sortConfig.direction === 'asc') {
                 return aStr.localeCompare(bStr);
             } else {

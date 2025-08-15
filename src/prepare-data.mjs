@@ -187,6 +187,22 @@ function readPlayer($td) {
         }
     }
     
+    // Pattern 4: Unrated players - <td> <span class="notitle male"> </span> Balaji,Sai Sivesh </td>
+    // The player name is direct text content after the gender span
+    if (!playerName || playerName === '') {
+        // Get all text content and remove the gender span text
+        const allText = $td.text().trim();
+        const genderSpanText = $td.find('span.male, span.female, span.notitle, .male, .female, .notitle2').text().trim();
+        
+        // Remove the gender span text from the total text to get just the player name
+        if (genderSpanText && allText !== genderSpanText) {
+            playerName = allText.replace(genderSpanText, '').trim();
+        } else if (allText) {
+            // If no gender span found or they're the same, use all text
+            playerName = allText;
+        }
+    }
+    
     // Debug logging for standings parsing - removed for production
     
     return {
@@ -219,7 +235,7 @@ function parseTableToJson($table) {
                 const $td = cheerio(td);
                 
                 // Check if the cell has structured content (child elements)
-                const hasChildElements = $td.find('span, a').length > 0;
+                const hasChildElements = $td.find('span').length > 0 || $td.find('a').length > 0;
                 
                 if (hasChildElements) {
                     // Use specialized parsing functions
@@ -321,7 +337,7 @@ async function processFolder(folderName) {
         try {
             const pageData = await processHtmlFile(filePath);
             result.page[file] = pageData;
-            console.log(`[${folderName}] Processed: ${file}`);
+            // console.log(`[${folderName}] Processed: ${file}`);
         } catch (err) {
             console.error(`[${folderName}] Error processing ${file}:`, err);
         }
