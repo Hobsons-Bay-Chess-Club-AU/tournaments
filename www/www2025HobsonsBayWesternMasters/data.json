@@ -619,24 +619,54 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Paul,Cijo\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t1611",
+              "White Player": {
+                "id": "1",
+                "playerName": "Paul,Cijo",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "Lacson,Joemar\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1727"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Davis,Tony J\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n CM\n\t\t\t\n\t\t\t1735",
+              "White Player": {
+                "id": "2",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "Krishnan,Anirudh\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1774"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Hogg,Dean\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1911",
+              "White Player": {
+                "id": "3",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "Lingineni,Khushal\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1606"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             }
           ]
         }
@@ -657,24 +687,54 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Lacson,Joemar\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1727",
+              "White Player": {
+                "id": "6",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "1",
               "Result": "0F-1F",
-              "Black Player": "Lingineni,Khushal\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1606"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Krishnan,Anirudh\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1774",
+              "White Player": {
+                "id": "5",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "Hogg,Dean\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1911"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Paul,Cijo\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t1611",
+              "White Player": {
+                "id": "1",
+                "playerName": "Paul,Cijo",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "Davis,Tony J\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n CM\n\t\t\t\n\t\t\t1735"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#2"
+              }
             }
           ]
         }
@@ -695,24 +755,54 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Davis,Tony J\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n CM\n\t\t\t\n\t\t\t1735",
+              "White Player": {
+                "id": "2",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "0",
               "Result": "1F-0F",
-              "Black Player": "Lacson,Joemar\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1727"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Hogg,Dean\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1911",
+              "White Player": {
+                "id": "3",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "Paul,Cijo\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t1611"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Paul,Cijo",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Lingineni,Khushal\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1606",
+              "White Player": {
+                "id": "4",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "0",
               "Result": "½ - ½",
-              "Black Player": "Krishnan,Anirudh\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1774"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             }
           ]
         }
@@ -733,24 +823,54 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Lacson,Joemar\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1727",
+              "White Player": {
+                "id": "6",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "1.5",
               "Result": "0F-1F",
-              "Black Player": "Krishnan,Anirudh\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1774"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Paul,Cijo\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t1611",
+              "White Player": {
+                "id": "1",
+                "playerName": "Paul,Cijo",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "2.5",
               "Result": "0 - 1",
-              "Black Player": "Lingineni,Khushal\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1606"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Davis,Tony J\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n CM\n\t\t\t\n\t\t\t1735",
+              "White Player": {
+                "id": "2",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "2",
               "Result": "0 - 1",
-              "Black Player": "Hogg,Dean\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1911"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             }
           ]
         }
@@ -771,24 +891,54 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Hogg,Dean\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1911",
+              "White Player": {
+                "id": "3",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "0",
               "Result": "1F-0F",
-              "Black Player": "Lacson,Joemar\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1727"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Lingineni,Khushal\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1606",
+              "White Player": {
+                "id": "4",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "2",
               "Result": "½ - ½",
-              "Black Player": "Davis,Tony J\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n CM\n\t\t\t\n\t\t\t1735"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Krishnan,Anirudh\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1774",
+              "White Player": {
+                "id": "5",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "Paul,Cijo\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t1611"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Paul,Cijo",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             }
           ]
         }
@@ -1900,7 +2050,7 @@
               "Pos": "1",
               "Player": {
                 "id": "4",
-                "playerName": "",
+                "playerName": "Lingineni,Khushal",
                 "gender": "male",
                 "href": "playercard.html#4"
               },
@@ -1913,7 +2063,7 @@
               "Pos": "2",
               "Player": {
                 "id": "3",
-                "playerName": "",
+                "playerName": "Hogg,Dean",
                 "gender": "male",
                 "href": "playercard.html#3"
               },
@@ -1926,7 +2076,7 @@
               "Pos": "3",
               "Player": {
                 "id": "5",
-                "playerName": "",
+                "playerName": "Krishnan,Anirudh",
                 "gender": "male",
                 "href": "playercard.html#5"
               },
@@ -1939,7 +2089,7 @@
               "Pos": "4",
               "Player": {
                 "id": "2",
-                "playerName": "",
+                "playerName": "Davis,Tony J",
                 "gender": "male",
                 "href": "playercard.html#2"
               },
@@ -1952,7 +2102,7 @@
               "Pos": "5",
               "Player": {
                 "id": "1",
-                "playerName": "",
+                "playerName": "Paul,Cijo",
                 "gender": "male",
                 "href": "playercard.html#1"
               },
@@ -1965,7 +2115,7 @@
               "Pos": "6",
               "Player": {
                 "id": "6",
-                "playerName": "",
+                "playerName": "Lacson,Joemar",
                 "gender": "male",
                 "href": "playercard.html#6"
               },

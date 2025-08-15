@@ -189,31 +189,71 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Morris,Elijah\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t654",
+              "White Player": {
+                "id": "1",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "Wei,Andrew\n\t\t \n\t\t\n\t\t\t 8 \n\t\t\t \n -\n\t\t\t\n\t\t\t1031"
+              "Black Player": {
+                "id": "8",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#8"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Bo,Jeremie\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t753",
+              "White Player": {
+                "id": "2",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "Ashok,Arjun\n\t\t \n\t\t\n\t\t\t 7 \n\t\t\t \n -\n\t\t\t\n\t\t\t776"
+              "Black Player": {
+                "id": "7",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#7"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Nguyen,Anh Kiet\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1013",
+              "White Player": {
+                "id": "3",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "Majety,Rohan\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t859"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "4",
-              "White Player": "Ruaya,Rohan\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t418",
+              "White Player": {
+                "id": "4",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "0",
               "Result": "0F-1F",
-              "Black Player": "Huang,Michael\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t537"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Huang,Michael",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             }
           ]
         }
@@ -234,31 +274,71 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Wei,Andrew\n\t\t \n\t\t\n\t\t\t 8 \n\t\t\t \n -\n\t\t\t\n\t\t\t1031",
+              "White Player": {
+                "id": "8",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#8"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "Huang,Michael\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t537"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Huang,Michael",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Majety,Rohan\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t859",
+              "White Player": {
+                "id": "6",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "Ruaya,Rohan\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t418"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Ashok,Arjun\n\t\t \n\t\t\n\t\t\t 7 \n\t\t\t \n -\n\t\t\t\n\t\t\t776",
+              "White Player": {
+                "id": "7",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "Nguyen,Anh Kiet\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1013"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "4",
-              "White Player": "Morris,Elijah\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t654",
+              "White Player": {
+                "id": "1",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "0",
               "Result": "adj",
-              "Black Player": "Bo,Jeremie\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t753"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "playercard.html#2"
+              }
             }
           ]
         }
@@ -279,31 +359,71 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Bo,Jeremie\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t753",
+              "White Player": {
+                "id": "2",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "Wei,Andrew\n\t\t \n\t\t\n\t\t\t 8 \n\t\t\t \n -\n\t\t\t\n\t\t\t1031"
+              "Black Player": {
+                "id": "8",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#8"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Nguyen,Anh Kiet\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1013",
+              "White Player": {
+                "id": "3",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "Morris,Elijah\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t654"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Ruaya,Rohan\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t418",
+              "White Player": {
+                "id": "4",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "Ashok,Arjun\n\t\t \n\t\t\n\t\t\t 7 \n\t\t\t \n -\n\t\t\t\n\t\t\t776"
+              "Black Player": {
+                "id": "7",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#7"
+              }
             },
             {
               "Bo.": "4",
-              "White Player": "Huang,Michael\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t537",
+              "White Player": {
+                "id": "5",
+                "playerName": "Huang,Michael",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "Majety,Rohan\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t859"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             }
           ]
         }
@@ -324,31 +444,71 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Wei,Andrew\n\t\t \n\t\t\n\t\t\t 8 \n\t\t\t \n -\n\t\t\t\n\t\t\t1031",
+              "White Player": {
+                "id": "8",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#8"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "Majety,Rohan\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t859"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Ashok,Arjun\n\t\t \n\t\t\n\t\t\t 7 \n\t\t\t \n -\n\t\t\t\n\t\t\t776",
+              "White Player": {
+                "id": "7",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
               "Pts": "2",
               "Result": "0 - 1",
-              "Black Player": "Huang,Michael\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t537"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Huang,Michael",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Morris,Elijah\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t654",
+              "White Player": {
+                "id": "1",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "Ruaya,Rohan\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t418"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "4",
-              "White Player": "Bo,Jeremie\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t753",
+              "White Player": {
+                "id": "2",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "3",
               "Result": "0 - 1",
-              "Black Player": "Nguyen,Anh Kiet\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1013"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             }
           ]
         }
@@ -369,31 +529,71 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Nguyen,Anh Kiet\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1013",
+              "White Player": {
+                "id": "3",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "3",
               "Result": "1 - 0",
-              "Black Player": "Wei,Andrew\n\t\t \n\t\t\n\t\t\t 8 \n\t\t\t \n -\n\t\t\t\n\t\t\t1031"
+              "Black Player": {
+                "id": "8",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#8"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Ruaya,Rohan\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t418",
+              "White Player": {
+                "id": "4",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "Bo,Jeremie\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t753"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Huang,Michael\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t537",
+              "White Player": {
+                "id": "5",
+                "playerName": "Huang,Michael",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "Morris,Elijah\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t654"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "4",
-              "White Player": "Majety,Rohan\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t859",
+              "White Player": {
+                "id": "6",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "2",
               "Result": "½ - ½",
-              "Black Player": "Ashok,Arjun\n\t\t \n\t\t\n\t\t\t 7 \n\t\t\t \n -\n\t\t\t\n\t\t\t776"
+              "Black Player": {
+                "id": "7",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#7"
+              }
             }
           ]
         }
@@ -414,31 +614,71 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Wei,Andrew\n\t\t \n\t\t\n\t\t\t 8 \n\t\t\t \n -\n\t\t\t\n\t\t\t1031",
+              "White Player": {
+                "id": "8",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#8"
+              },
               "Pts": "2.5",
               "Result": "1 - 0",
-              "Black Player": "Ashok,Arjun\n\t\t \n\t\t\n\t\t\t 7 \n\t\t\t \n -\n\t\t\t\n\t\t\t776"
+              "Black Player": {
+                "id": "7",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#7"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Morris,Elijah\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t654",
+              "White Player": {
+                "id": "1",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "1.5",
               "Result": "0 - 1",
-              "Black Player": "Majety,Rohan\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t859"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Bo,Jeremie\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t753",
+              "White Player": {
+                "id": "2",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "3",
               "Result": "1 - 0",
-              "Black Player": "Huang,Michael\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t537"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Huang,Michael",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "4",
-              "White Player": "Nguyen,Anh Kiet\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1013",
+              "White Player": {
+                "id": "3",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "3",
               "Result": "1 - 0",
-              "Black Player": "Ruaya,Rohan\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t418"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             }
           ]
         }
@@ -459,31 +699,71 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Ruaya,Rohan\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t418",
+              "White Player": {
+                "id": "4",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "4",
               "Result": "1 - 0",
-              "Black Player": "Wei,Andrew\n\t\t \n\t\t\n\t\t\t 8 \n\t\t\t \n -\n\t\t\t\n\t\t\t1031"
+              "Black Player": {
+                "id": "8",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#8"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Huang,Michael\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t537",
+              "White Player": {
+                "id": "5",
+                "playerName": "Huang,Michael",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "6",
               "Result": "0 - 1",
-              "Black Player": "Nguyen,Anh Kiet\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1013"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Majety,Rohan\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t859",
+              "White Player": {
+                "id": "6",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "Bo,Jeremie\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t753"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "4",
-              "White Player": "Ashok,Arjun\n\t\t \n\t\t\n\t\t\t 7 \n\t\t\t \n -\n\t\t\t\n\t\t\t776",
+              "White Player": {
+                "id": "7",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
               "Pts": "2",
               "Result": "1 - 0",
-              "Black Player": "Morris,Elijah\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t654"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             }
           ]
         }
@@ -2248,7 +2528,7 @@
               "Pos": "1",
               "Player": {
                 "id": "3",
-                "playerName": "",
+                "playerName": "Nguyen,Anh Kiet",
                 "gender": "male",
                 "href": "playercard.html#3"
               },
@@ -2262,7 +2542,7 @@
               "Pos": "2",
               "Player": {
                 "id": "4",
-                "playerName": "",
+                "playerName": "Ruaya,Rohan",
                 "gender": "male",
                 "href": "playercard.html#4"
               },
@@ -2276,7 +2556,7 @@
               "Pos": "3",
               "Player": {
                 "id": "8",
-                "playerName": "",
+                "playerName": "Wei,Andrew",
                 "gender": "male",
                 "href": "playercard.html#8"
               },
@@ -2290,7 +2570,7 @@
               "Pos": "4",
               "Player": {
                 "id": "7",
-                "playerName": "",
+                "playerName": "Ashok,Arjun",
                 "gender": "male",
                 "href": "playercard.html#7"
               },
@@ -2304,7 +2584,7 @@
               "Pos": "5",
               "Player": {
                 "id": "6",
-                "playerName": "",
+                "playerName": "Majety,Rohan",
                 "gender": "male",
                 "href": "playercard.html#6"
               },
@@ -2318,7 +2598,7 @@
               "Pos": "6",
               "Player": {
                 "id": "5",
-                "playerName": "",
+                "playerName": "Huang,Michael",
                 "gender": "male",
                 "href": "playercard.html#5"
               },
@@ -2332,7 +2612,7 @@
               "Pos": "7",
               "Player": {
                 "id": "1",
-                "playerName": "",
+                "playerName": "Morris,Elijah",
                 "gender": "male",
                 "href": "playercard.html#1"
               },
@@ -2346,7 +2626,7 @@
               "Pos": "8",
               "Player": {
                 "id": "2",
-                "playerName": "",
+                "playerName": "Bo,Jeremie",
                 "gender": "male",
                 "href": "playercard.html#2"
               },

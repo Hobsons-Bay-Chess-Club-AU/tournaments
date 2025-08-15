@@ -699,24 +699,54 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Whitford,Matthew\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t1505",
+              "White Player": {
+                "id": "1",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "Nguyen,Anh Kiet\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1416"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Matijas,Dejan\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t1411",
+              "White Player": {
+                "id": "2",
+                "playerName": "Matijas,Dejan",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "Picone,James\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1502"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Wongso,Renaldo\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1486",
+              "White Player": {
+                "id": "3",
+                "playerName": "Wongso,Renaldo",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "0",
               "Result": "½ - ½",
-              "Black Player": "Bodke,Krishna\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1445"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Bodke,Krishna",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             }
           ]
         }
@@ -737,24 +767,54 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Nguyen,Anh Kiet\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1416",
+              "White Player": {
+                "id": "6",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "0.5",
               "Result": "1 - 0",
-              "Black Player": "Bodke,Krishna\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1445"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Bodke,Krishna",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Picone,James\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1502",
+              "White Player": {
+                "id": "5",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "0.5",
               "Result": "0 - 1",
-              "Black Player": "Wongso,Renaldo\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1486"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Wongso,Renaldo",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Whitford,Matthew\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t1505",
+              "White Player": {
+                "id": "1",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "Matijas,Dejan\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t1411"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Matijas,Dejan",
+                "gender": "male",
+                "href": "playercard.html#2"
+              }
             }
           ]
         }
@@ -775,24 +835,54 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Matijas,Dejan\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t1411",
+              "White Player": {
+                "id": "2",
+                "playerName": "Matijas,Dejan",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "Nguyen,Anh Kiet\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1416"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Wongso,Renaldo\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1486",
+              "White Player": {
+                "id": "3",
+                "playerName": "Wongso,Renaldo",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "2",
               "Result": "1 - 0",
-              "Black Player": "Whitford,Matthew\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t1505"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Bodke,Krishna\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1445",
+              "White Player": {
+                "id": "4",
+                "playerName": "Bodke,Krishna",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "Picone,James\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1502"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             }
           ]
         }
@@ -813,24 +903,54 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Nguyen,Anh Kiet\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1416",
+              "White Player": {
+                "id": "6",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "Picone,James\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1502"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Whitford,Matthew\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t1505",
+              "White Player": {
+                "id": "1",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "1.5",
               "Result": "1 - 0",
-              "Black Player": "Bodke,Krishna\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1445"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Bodke,Krishna",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Matijas,Dejan\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t1411",
+              "White Player": {
+                "id": "2",
+                "playerName": "Matijas,Dejan",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "1.5",
               "Result": "0 - 1",
-              "Black Player": "Wongso,Renaldo\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1486"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Wongso,Renaldo",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             }
           ]
         }
@@ -851,24 +971,54 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Wongso,Renaldo\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1486",
+              "White Player": {
+                "id": "3",
+                "playerName": "Wongso,Renaldo",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "3",
               "Result": "1 - 0",
-              "Black Player": "Nguyen,Anh Kiet\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1416"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Bodke,Krishna\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1445",
+              "White Player": {
+                "id": "4",
+                "playerName": "Bodke,Krishna",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "Matijas,Dejan\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t1411"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Matijas,Dejan",
+                "gender": "male",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Picone,James\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1502",
+              "White Player": {
+                "id": "5",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "3",
               "Result": "1 - 0",
-              "Black Player": "Whitford,Matthew\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t1505"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             }
           ]
         }
@@ -1980,7 +2130,7 @@
               "Pos": "1",
               "Player": {
                 "id": "3",
-                "playerName": "",
+                "playerName": "Wongso,Renaldo",
                 "gender": "male",
                 "href": "playercard.html#3"
               },
@@ -1993,7 +2143,7 @@
               "Pos": "2",
               "Player": {
                 "id": "1",
-                "playerName": "",
+                "playerName": "Whitford,Matthew",
                 "gender": "male",
                 "href": "playercard.html#1"
               },
@@ -2006,7 +2156,7 @@
               "Pos": "3",
               "Player": {
                 "id": "6",
-                "playerName": "",
+                "playerName": "Nguyen,Anh Kiet",
                 "gender": "male",
                 "href": "playercard.html#6"
               },
@@ -2019,7 +2169,7 @@
               "Pos": "4",
               "Player": {
                 "id": "4",
-                "playerName": "",
+                "playerName": "Bodke,Krishna",
                 "gender": "male",
                 "href": "playercard.html#4"
               },
@@ -2032,7 +2182,7 @@
               "Pos": "5",
               "Player": {
                 "id": "5",
-                "playerName": "",
+                "playerName": "Picone,James",
                 "gender": "male",
                 "href": "playercard.html#5"
               },
@@ -2045,7 +2195,7 @@
               "Pos": "6",
               "Player": {
                 "id": "2",
-                "playerName": "",
+                "playerName": "Matijas,Dejan",
                 "gender": "male",
                 "href": "playercard.html#2"
               },

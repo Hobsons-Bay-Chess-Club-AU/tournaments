@@ -699,24 +699,54 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Szuveges,Narelle S\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n WIM\n\t\t\t\n\t\t\t1550",
+              "White Player": {
+                "id": "1",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "playercard.html#1"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "Hari,Dhruv\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1534"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Pasukov,Leo\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t1536",
+              "White Player": {
+                "id": "2",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "0",
               "Result": "½ - ½",
-              "Black Player": "Enano,Ronald\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1575"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "McIntyre,Julian\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1529",
+              "White Player": {
+                "id": "3",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "Hogan,Steven\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1493"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             }
           ]
         }
@@ -737,24 +767,54 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Hari,Dhruv\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1534",
+              "White Player": {
+                "id": "6",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "Hogan,Steven\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1493"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Enano,Ronald\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1575",
+              "White Player": {
+                "id": "5",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "McIntyre,Julian\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1529"
+              "Black Player": {
+                "id": "3",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Szuveges,Narelle S\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n WIM\n\t\t\t\n\t\t\t1550",
+              "White Player": {
+                "id": "1",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "playercard.html#1"
+              },
               "Pts": "0.5",
               "Result": "1 - 0",
-              "Black Player": "Pasukov,Leo\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t1536"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "playercard.html#2"
+              }
             }
           ]
         }
@@ -775,24 +835,54 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Pasukov,Leo\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t1536",
+              "White Player": {
+                "id": "2",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "2",
               "Result": "1 - 0",
-              "Black Player": "Hari,Dhruv\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1534"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "McIntyre,Julian\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1529",
+              "White Player": {
+                "id": "3",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "1",
               "Result": "½ - ½",
-              "Black Player": "Szuveges,Narelle S\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n WIM\n\t\t\t\n\t\t\t1550"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Hogan,Steven\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1493",
+              "White Player": {
+                "id": "4",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "0.5",
               "Result": "½ - ½",
-              "Black Player": "Enano,Ronald\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1575"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             }
           ]
         }
@@ -813,24 +903,54 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "Hari,Dhruv\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1534",
+              "White Player": {
+                "id": "6",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "Enano,Ronald\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1575"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Szuveges,Narelle S\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n WIM\n\t\t\t\n\t\t\t1550",
+              "White Player": {
+                "id": "1",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "playercard.html#1"
+              },
               "Pts": "0.5",
               "Result": "1 - 0",
-              "Black Player": "Hogan,Steven\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1493"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Pasukov,Leo\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t1536",
+              "White Player": {
+                "id": "2",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "2.5",
               "Result": "½ - ½",
-              "Black Player": "McIntyre,Julian\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1529"
+              "Black Player": {
+                "id": "3",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             }
           ]
         }
@@ -851,24 +971,54 @@
           "rows": [
             {
               "Bo.": "1",
-              "White Player": "McIntyre,Julian\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1529",
+              "White Player": {
+                "id": "3",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "2",
               "Result": "0 - 1",
-              "Black Player": "Hari,Dhruv\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1534"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
-              "White Player": "Hogan,Steven\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1493",
+              "White Player": {
+                "id": "4",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "2",
               "Result": "½ - ½",
-              "Black Player": "Pasukov,Leo\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t1536"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "3",
-              "White Player": "Enano,Ronald\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1575",
+              "White Player": {
+                "id": "5",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "2.5",
               "Result": "1 - 0",
-              "Black Player": "Szuveges,Narelle S\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n WIM\n\t\t\t\n\t\t\t1550"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "playercard.html#1"
+              }
             }
           ]
         }
@@ -1980,7 +2130,7 @@
               "Pos": "1",
               "Player": {
                 "id": "5",
-                "playerName": "",
+                "playerName": "Enano,Ronald",
                 "gender": "male",
                 "href": "playercard.html#5"
               },
@@ -1993,7 +2143,7 @@
               "Pos": "2",
               "Player": {
                 "id": "3",
-                "playerName": "",
+                "playerName": "McIntyre,Julian",
                 "gender": "male",
                 "href": "playercard.html#3"
               },
@@ -2006,7 +2156,7 @@
               "Pos": "3",
               "Player": {
                 "id": "6",
-                "playerName": "",
+                "playerName": "Hari,Dhruv",
                 "gender": "male",
                 "href": "playercard.html#6"
               },
@@ -2019,7 +2169,7 @@
               "Pos": "4",
               "Player": {
                 "id": "2",
-                "playerName": "",
+                "playerName": "Pasukov,Leo",
                 "gender": "male",
                 "href": "playercard.html#2"
               },
@@ -2032,7 +2182,7 @@
               "Pos": "5",
               "Player": {
                 "id": "1",
-                "playerName": "",
+                "playerName": "Szuveges,Narelle S",
                 "gender": "female",
                 "href": "playercard.html#1"
               },
@@ -2045,7 +2195,7 @@
               "Pos": "6",
               "Player": {
                 "id": "4",
-                "playerName": "",
+                "playerName": "Hogan,Steven",
                 "gender": "male",
                 "href": "playercard.html#4"
               },
