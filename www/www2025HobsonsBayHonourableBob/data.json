@@ -2888,7 +2888,11 @@
               "RtgF": "0",
               "RtgN": "0"
             }
-          ]
+          ],
+          "footer": {
+            "text": "Rating legend: Rtg: Rating used for pairing and standings - RtgF: Fide Rating - RtgN: National Rating",
+            "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
+          }
         }
       ]
     },
@@ -7284,7 +7288,11 @@
               "RtgF": "0",
               "RtgN": "1328"
             }
-          ]
+          ],
+          "footer": {
+            "text": "Rating legend: Rtg: Rating used for pairing and standings - RtgF: Fide Rating - RtgN: National Rating",
+            "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
+          }
         }
       ]
     },
@@ -9377,7 +9385,11 @@
               "BH": "10.0",
               "BH-C1": "9.0"
             }
-          ]
+          ],
+          "footer": {
+            "text": "Tie Break legend:\n     BH  :  Buchholz Total * \n  BH-C1  :  Buchholz Cut 1 *",
+            "html": "Tie Break legend:<br>\n     BH  :  Buchholz Total * <br>\n  BH-C1  :  Buchholz Cut 1 * <br>"
+          }
         }
       ]
     },

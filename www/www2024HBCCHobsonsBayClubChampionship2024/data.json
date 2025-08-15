@@ -154,7 +154,11 @@
               "RtgF": "0",
               "RtgN": "418"
             }
-          ]
+          ],
+          "footer": {
+            "text": "Rating legend: Rtg: Rating used for pairing and standings - RtgF: Fide Rating - RtgN: National Rating",
+            "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
+          }
         }
       ]
     },
@@ -1660,7 +1664,11 @@
               "RtgF": "0",
               "RtgN": "1031"
             }
-          ]
+          ],
+          "footer": {
+            "text": "Rating legend: Rtg: Rating used for pairing and standings - RtgF: Fide Rating - RtgN: National Rating",
+            "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
+          }
         }
       ]
     },
@@ -2636,7 +2644,11 @@
               "SB": "3.00",
               "DE": "0"
             }
-          ]
+          ],
+          "footer": {
+            "text": "Tie Break legend:     KS  :  Koya System * \n     SB  :  Sonneborn-Berger * \n     DE  :  Direct Encounter *",
+            "html": "Tie Break legend:<br>     KS  :  Koya System * <br>\n     SB  :  Sonneborn-Berger * <br>\n     DE  :  Direct Encounter * <br>"
+          }
         }
       ]
     },

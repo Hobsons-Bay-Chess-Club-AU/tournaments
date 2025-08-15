@@ -676,7 +676,11 @@
               "RtgF": "1622",
               "RtgN": "1411"
             }
-          ]
+          ],
+          "footer": {
+            "text": "Rating legend: Rtg: Rating used for pairing and standings - RtgF: Fide Rating - RtgN: National Rating",
+            "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
+          }
         }
       ]
     },
@@ -1589,7 +1593,11 @@
               "RtgF": "1682",
               "RtgN": "1486"
             }
-          ]
+          ],
+          "footer": {
+            "text": "Rating legend: Rtg: Rating used for pairing and standings - RtgF: Fide Rating - RtgN: National Rating",
+            "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
+          }
         }
       ]
     },
@@ -2216,7 +2224,11 @@
               "SB": "1.00",
               "ARO": "1471"
             }
-          ]
+          ],
+          "footer": {
+            "text": "Tie Break legend:     SB  :  Sonneborn-Berger * \n    ARO  :  Average Rating of Opponents *",
+            "html": "Tie Break legend:<br>     SB  :  Sonneborn-Berger * <br>\n    ARO  :  Average Rating of Opponents * <br>"
+          }
         }
       ]
     },

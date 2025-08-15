@@ -21,6 +21,10 @@ type PageData = {
         headers?: string[];
         rows?: Record<string, unknown>[];
         caption?: TableCaption;
+        footer?: {
+            text: string;
+            html: string;
+        };
     }[];
 };
 
@@ -291,6 +295,15 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                         </tr>
                                                     )}
                                                 </tbody>
+                                                {table.footer && (
+                                                    <tfoot>
+                                                        <tr>
+                                                            <td colSpan={table.headers?.length || 1} className="px-6 py-3 text-sm text-gray-600 bg-gray-50 border-t border-gray-200">
+                                                                <div dangerouslySetInnerHTML={{ __html: table.footer.html }} />
+                                                            </td>
+                                                        </tr>
+                                                    </tfoot>
+                                                )}
                                                 </table>
                                             </div>
 
@@ -328,6 +341,13 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                     </div>
                                                 )}
                                             </div>
+                                            {table.footer && (
+                                                <div className="lg:hidden p-4 bg-gray-50 border-t border-gray-200">
+                                                    <div className="text-sm text-gray-600">
+                                                        <div dangerouslySetInnerHTML={{ __html: table.footer.html }} />
+                                                    </div>
+                                                </div>
+                                            )}
                                         </div>
                                     </div>
                                 ))}

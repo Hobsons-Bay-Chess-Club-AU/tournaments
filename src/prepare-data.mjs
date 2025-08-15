@@ -240,6 +240,20 @@ function parseTableToJson($table) {
         caption = parseCaptionToPlayerInfo($caption);
     }
     
+    // Parse footer if it exists
+    let footer = null;
+    const $tfoot = $table.find('tfoot');
+    if ($tfoot.length > 0) {
+        const $footerRow = $tfoot.find('tr').first();
+        const $footerCell = $footerRow.find('td').first();
+        if ($footerCell.length > 0) {
+            footer = {
+                text: $footerCell.text().trim(),
+                html: $footerCell.html().trim()
+            };
+        }
+    }
+    
     const headers = [];
     $table.find('thead tr th').each((i, el) => {
         headers.push(cheerio(el).text().trim().replace("↕ ", ""));
@@ -295,10 +309,13 @@ function parseTableToJson($table) {
         rows.push(rowObj);
     });
     
-    // Return table data with caption if it exists
+    // Return table data with caption and footer if they exist
     const result = { headers, rows };
     if (caption) {
         result.caption = caption;
+    }
+    if (footer) {
+        result.footer = footer;
     }
     return result;
 }
