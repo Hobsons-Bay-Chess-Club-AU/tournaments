@@ -80,6 +80,9 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
 
     // Sorting state
     const [sortConfig, setSortConfig] = useState<{ tableIdx: number; key: string; direction: "asc" | "desc" } | null>(null);
+    
+    // Search state
+    const [searchQuery, setSearchQuery] = useState<string>("");
 
     // Pairing selector logic
     const isPairingPage = page.startsWith("pair");
@@ -108,35 +111,68 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
         router.push(`?page=playercard.html&id=${playerId}`);
     };
 
-    // Sorting function
-    const getSortedRows = (table: { rows?: Record<string, unknown>[] }, idx: number) => {
-        const rows = table.rows || [];
-        if (!sortConfig || sortConfig.tableIdx !== idx) return rows;
 
-        return [...rows].sort((a, b) => {
-            const aVal = a[sortConfig.key];
-            const bVal = b[sortConfig.key];
 
-            // Convert to strings for comparison
-            const aStr = String(aVal || '');
-            const bStr = String(bVal || '');
+    // Search filtering function
+    const getFilteredAndSortedRows = (table: { rows?: Record<string, unknown>[] }, idx: number) => {
+        let rows = table.rows || [];
+        
+        // Apply search filter
+        if (searchQuery.trim()) {
+            const query = searchQuery.toLowerCase().trim();
+            rows = rows.filter(row => {
+                // Check if any cell in the row contains the search query
+                return Object.values(row).some(value => {
+                    if (typeof value === 'string') {
+                        return value.toLowerCase().includes(query);
+                    } else if (typeof value === 'object' && value !== null) {
+                        // Handle player objects and other structured data
+                        if ('playerName' in value) {
+                            return String(value.playerName).toLowerCase().includes(query);
+                        }
+                        // Handle crosstable cells
+                        if ('result' in value) {
+                            return String(value.result).toLowerCase().includes(query);
+                        }
+                        // Recursively check object values
+                        return Object.values(value).some(v => 
+                            String(v).toLowerCase().includes(query)
+                        );
+                    }
+                    return String(value).toLowerCase().includes(query);
+                });
+            });
+        }
+        
+        // Apply sorting
+        if (sortConfig && sortConfig.tableIdx === idx) {
+            return rows.sort((a, b) => {
+                const aVal = a[sortConfig.key];
+                const bVal = b[sortConfig.key];
 
-            // Check if both values are numeric (including decimal numbers)
-            const aNum = parseFloat(aStr);
-            const bNum = parseFloat(bStr);
-            
-            if (!isNaN(aNum) && !isNaN(bNum)) {
-                // Both are valid numbers, sort numerically
-                return sortConfig.direction === 'asc' ? aNum - bNum : bNum - aNum;
-            }
+                // Convert to strings for comparison
+                const aStr = String(aVal || '');
+                const bStr = String(bVal || '');
 
-            // At least one is not a number, sort as strings
-            if (sortConfig.direction === 'asc') {
-                return aStr.localeCompare(bStr);
-            } else {
-                return bStr.localeCompare(aStr);
-            }
-        });
+                // Check if both values are numeric (including decimal numbers)
+                const aNum = parseFloat(aStr);
+                const bNum = parseFloat(bStr);
+                
+                if (!isNaN(aNum) && !isNaN(bNum)) {
+                    // Both are valid numbers, sort numerically
+                    return sortConfig.direction === 'asc' ? aNum - bNum : bNum - aNum;
+                }
+
+                // At least one is not a number, sort as strings
+                if (sortConfig.direction === 'asc') {
+                    return aStr.localeCompare(bStr);
+                } else {
+                    return bStr.localeCompare(aStr);
+                }
+            });
+        }
+        
+        return rows;
     };
 
     if (!data) {
@@ -243,6 +279,25 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                 )}
                                             </div>
                                         )}
+                                        
+                                        {/* Search Input */}
+                                        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
+                                            <div className="relative">
+                                                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                                    <svg className="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                                    </svg>
+                                                </div>
+                                                <input
+                                                    type="text"
+                                                    placeholder="Search in table..."
+                                                    value={searchQuery}
+                                                    onChange={(e) => setSearchQuery(e.target.value)}
+                                                    className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-gray-900"
+                                                />
+                                            </div>
+                                        </div>
+                                        
                                         <div className="overflow-hidden rounded-xl shadow-lg border border-gray-200/50 bg-white">
                                             {/* Desktop Table */}
                                             <div className="hidden lg:block overflow-x-auto">
@@ -269,7 +324,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                 </thead>
                                                 <tbody className="bg-white divide-y divide-gray-100">
                                                     {table.rows && table.rows.length > 0 ? (
-                                                        getSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
+                                                        getFilteredAndSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
                                                             <tr key={ridx} className={`transition-all duration-150 hover:bg-blue-50/50 hover:shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
                                                                 {table.headers?.map((header: string, hidx: number) => (
                                                                     <td key={hidx} className="px-6 py-4 text-sm text-gray-900 font-medium">
@@ -289,7 +344,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                                     <svg className="w-8 h-8 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                                                                     </svg>
-                                                                    <span>No data available</span>
+                                                                    <span>{searchQuery.trim() ? 'No results found for your search' : 'No data available'}</span>
                                                                 </div>
                                                             </td>
                                                         </tr>
@@ -311,7 +366,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                             <div className="lg:hidden">
                                                 {table.rows && table.rows.length > 0 ? (
                                                     <div className="space-y-3 p-4">
-                                                        {getSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
+                                                        {getFilteredAndSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
                                                             <div key={ridx} className={`bg-white rounded-lg border border-gray-200 p-4 shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
                                                                 {table.headers?.map((header: string, hidx: number) => (
                                                                     <div key={hidx} className="flex justify-between items-center py-2 border-b border-gray-100 last:border-b-0">
@@ -336,7 +391,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                             <svg className="w-8 h-8 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                                                             </svg>
-                                                            <span>No data available</span>
+                                                            <span>{searchQuery.trim() ? 'No results found for your search' : 'No data available'}</span>
                                                         </div>
                                                     </div>
                                                 )}
