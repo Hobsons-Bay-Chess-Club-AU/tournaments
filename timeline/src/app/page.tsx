@@ -19,7 +19,7 @@ function getYear(dateStr: string): string {
   return match ? match[1] : new Date().getFullYear().toString(); // Default to current year if no match
 }
 
-const CATEGORIES = ["All", "Senior", "Junior"];
+const CATEGORIES = ["All", "Senior", "Junior", "Rapid", "Blitz"];
 
 export default function Home() {
   const [tournaments, setTournaments] = useState<Tournament[]>([]);

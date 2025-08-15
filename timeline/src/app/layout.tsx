@@ -29,7 +29,7 @@ export default function RootLayout({
         <div className="bg-gradient-to-br from-blue-50 to-blue-200 min-h-screen font-sans">
           <header className="bg-white shadow flex items-center justify-between px-6 py-4">
             <div className="flex items-center gap-4">
-              <Link href="/" className="flex items-center gap-4">
+              <Link href={process.env.NEXT_PUBLIC_BASE_PATH || "/"} className="flex items-center gap-4">
                 <img src="https://tournament.hobsonsbaychess.com/timeline/Logo.png" alt="HBCC Logo" width={40} height={40} className="rounded-full border border-blue-300" />
                 <span className="text-2xl font-bold text-blue-700 tracking-wide">Hobsons Bay Chess Club</span>
               </Link>
