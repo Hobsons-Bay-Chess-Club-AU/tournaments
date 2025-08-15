@@ -43,7 +43,12 @@
           "rows": [
             {
               "#": "7",
-              "Player": "Annapureddy,Rheyansh Reddy",
+              "Player": {
+                "id": "",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3244806"
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -51,7 +56,12 @@
             },
             {
               "#": "5",
-              "Player": "Hogg,Dean",
+              "Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3204332"
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -59,7 +69,12 @@
             },
             {
               "#": "4",
-              "Player": "CM  Davis,Tony J",
+              "Player": {
+                "id": "",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3205550"
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -67,7 +82,12 @@
             },
             {
               "#": "8",
-              "Player": "Lacson,Joemar",
+              "Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3257762"
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -75,7 +95,12 @@
             },
             {
               "#": "1",
-              "Player": "Picone,James",
+              "Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3259072"
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -83,7 +108,12 @@
             },
             {
               "#": "6",
-              "Player": "Nowak,Ruben",
+              "Player": {
+                "id": "",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3214915"
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -91,7 +121,12 @@
             },
             {
               "#": "3",
-              "Player": "Lingineni,Khushal",
+              "Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3259056"
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -99,7 +134,12 @@
             },
             {
               "#": "2",
-              "Player": "Salanowski,Mark",
+              "Player": {
+                "id": "",
+                "playerName": "Salanowski,Mark",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3220613"
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -143,34 +183,74 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "1    Picone,James",
+              "White Player": {
+                "id": "1",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "8    Lacson,Joemar"
+              "Black Player": {
+                "id": "8",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#8"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "2    Salanowski,Mark",
+              "White Player": {
+                "id": "2",
+                "playerName": "Salanowski,Mark",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "7    Annapureddy,Rheyansh Reddy"
+              "Black Player": {
+                "id": "7",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "playercard.html#7"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "3    Lingineni,Khushal",
+              "White Player": {
+                "id": "3",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "6    Nowak,Ruben"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "4  CM  Davis,Tony J",
+              "White Player": {
+                "id": "4",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "5    Hogg,Dean"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             }
           ]
         }
@@ -194,34 +274,74 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "8    Lacson,Joemar",
+              "White Player": {
+                "id": "8",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#8"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "5    Hogg,Dean"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "6    Nowak,Ruben",
+              "White Player": {
+                "id": "6",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "4  CM  Davis,Tony J"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "7    Annapureddy,Rheyansh Reddy",
+              "White Player": {
+                "id": "7",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "3    Lingineni,Khushal"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "1    Picone,James",
+              "White Player": {
+                "id": "1",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "2    Salanowski,Mark"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Salanowski,Mark",
+                "gender": "male",
+                "href": "playercard.html#2"
+              }
             }
           ]
         }
@@ -245,34 +365,74 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "2    Salanowski,Mark",
+              "White Player": {
+                "id": "2",
+                "playerName": "Salanowski,Mark",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "1",
               "Result": "½ - ½",
-              "Black Player": "8    Lacson,Joemar"
+              "Black Player": {
+                "id": "8",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#8"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "3    Lingineni,Khushal",
+              "White Player": {
+                "id": "3",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "1    Picone,James"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "4  CM  Davis,Tony J",
+              "White Player": {
+                "id": "4",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "7    Annapureddy,Rheyansh Reddy"
+              "Black Player": {
+                "id": "7",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "playercard.html#7"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "5    Hogg,Dean",
+              "White Player": {
+                "id": "5",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "6    Nowak,Ruben"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             }
           ]
         }
@@ -296,34 +456,74 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "8    Lacson,Joemar",
+              "White Player": {
+                "id": "8",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#8"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "6    Nowak,Ruben"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "7    Annapureddy,Rheyansh Reddy",
+              "White Player": {
+                "id": "7",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
               "Pts": "3",
               "Result": "1 - 0",
-              "Black Player": "5    Hogg,Dean"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "1    Picone,James",
+              "White Player": {
+                "id": "1",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "4  CM  Davis,Tony J"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "2    Salanowski,Mark",
+              "White Player": {
+                "id": "2",
+                "playerName": "Salanowski,Mark",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "2",
               "Result": "0 - 1",
-              "Black Player": "3    Lingineni,Khushal"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             }
           ]
         }
@@ -347,34 +547,74 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "3    Lingineni,Khushal",
+              "White Player": {
+                "id": "3",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "1.5",
               "Result": "0 - 1",
-              "Black Player": "8    Lacson,Joemar"
+              "Black Player": {
+                "id": "8",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#8"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "4  CM  Davis,Tony J",
+              "White Player": {
+                "id": "4",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "1.5",
               "Result": "1 - 0",
-              "Black Player": "2    Salanowski,Mark"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Salanowski,Mark",
+                "gender": "male",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "5    Hogg,Dean",
+              "White Player": {
+                "id": "5",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "0",
               "Result": "½ - ½",
-              "Black Player": "1    Picone,James"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "6    Nowak,Ruben",
+              "White Player": {
+                "id": "6",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "3",
               "Result": "1 - 0",
-              "Black Player": "7    Annapureddy,Rheyansh Reddy"
+              "Black Player": {
+                "id": "7",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "playercard.html#7"
+              }
             }
           ]
         }
@@ -398,34 +638,74 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "8    Lacson,Joemar",
+              "White Player": {
+                "id": "8",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#8"
+              },
               "Pts": "3",
               "Result": "0 - 1",
-              "Black Player": "7    Annapureddy,Rheyansh Reddy"
+              "Black Player": {
+                "id": "7",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "playercard.html#7"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "1    Picone,James",
+              "White Player": {
+                "id": "1",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "2",
               "Result": "1 - 0",
-              "Black Player": "6    Nowak,Ruben"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "2    Salanowski,Mark",
+              "White Player": {
+                "id": "2",
+                "playerName": "Salanowski,Mark",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "3.5",
               "Result": "0 - 1",
-              "Black Player": "5    Hogg,Dean"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "3    Lingineni,Khushal",
+              "White Player": {
+                "id": "3",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "3",
               "Result": "0 - 1",
-              "Black Player": "4  CM  Davis,Tony J"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             }
           ]
         }
@@ -449,34 +729,74 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "4  CM  Davis,Tony J",
+              "White Player": {
+                "id": "4",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "3.5",
               "Result": "0F-1F",
-              "Black Player": "8    Lacson,Joemar"
+              "Black Player": {
+                "id": "8",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#8"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "5    Hogg,Dean",
+              "White Player": {
+                "id": "5",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "3",
               "Result": "0F-1F",
-              "Black Player": "3    Lingineni,Khushal"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "6    Nowak,Ruben",
+              "White Player": {
+                "id": "6",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "1.5",
               "Result": "1 - 0",
-              "Black Player": "2    Salanowski,Mark"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Salanowski,Mark",
+                "gender": "male",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "7    Annapureddy,Rheyansh Reddy",
+              "White Player": {
+                "id": "7",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
               "Pts": "1.5",
               "Result": "1 - 0",
-              "Black Player": "1    Picone,James"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             }
           ]
         }
@@ -567,7 +887,18 @@
               "res": "0.0",
               "Pts": "5.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Picone,James",
+            "id": "5206812",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1521",
+              "anchor": "1"
+            },
+            "rawText": "1   Picone,James        , K= 0, Elo=1521, ID=5206812",
+            "rawHtml": "   1   <strong>Picone,James        </strong>, K= 0, Elo=1521, ID=5206812\n<br>\n<a class=\"anchor\" name=\"1\"></a>"
+          }
         },
         {
           "headers": [
@@ -651,7 +982,18 @@
               "res": "0.0",
               "Pts": "3.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Salanowski,Mark",
+            "id": "3084291",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1482",
+              "anchor": "2"
+            },
+            "rawText": "2   Salanowski,Mark     , K= 0, Elo=1482, ID=3084291",
+            "rawHtml": "   2   <strong>Salanowski,Mark     </strong>, K= 0, Elo=1482, ID=3084291\n<br>\n<a class=\"anchor\" name=\"2\"></a>"
+          }
         },
         {
           "headers": [
@@ -735,7 +1077,18 @@
               "res": "1.0",
               "Pts": "0.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Lingineni,Khushal",
+            "id": "3202532",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1483",
+              "anchor": "3"
+            },
+            "rawText": "3   Lingineni,Khushal   , K= 0, Elo=1483, ID=3202532",
+            "rawHtml": "   3   <strong>Lingineni,Khushal   </strong>, K= 0, Elo=1483, ID=3202532\n<br>\n<a class=\"anchor\" name=\"3\"></a>"
+          }
         },
         {
           "headers": [
@@ -819,7 +1172,18 @@
               "res": "0.0",
               "Pts": "0.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Davis,Tony J",
+            "id": "3073264",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1790",
+              "anchor": "4"
+            },
+            "rawText": "4  CM Davis,Tony J        , K= 0, Elo=1790, ID=3073264",
+            "rawHtml": "   4  CM <strong>Davis,Tony J        </strong>, K= 0, Elo=1790, ID=3073264\n<br>\n<a class=\"anchor\" name=\"4\"></a>"
+          }
         },
         {
           "headers": [
@@ -903,7 +1267,18 @@
               "res": "0.0",
               "Pts": "0.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Hogg,Dean",
+            "id": "3093306",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1964",
+              "anchor": "5"
+            },
+            "rawText": "5   Hogg,Dean           , K= 0, Elo=1964, ID=3093306",
+            "rawHtml": "   5   <strong>Hogg,Dean           </strong>, K= 0, Elo=1964, ID=3093306\n<br>\n<a class=\"anchor\" name=\"5\"></a>"
+          }
         },
         {
           "headers": [
@@ -987,7 +1362,18 @@
               "res": "1.0",
               "Pts": "1.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Nowak,Ruben",
+            "id": "3127464",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1490",
+              "anchor": "6"
+            },
+            "rawText": "6   Nowak,Ruben         , K= 0, Elo=1490, ID=3127464",
+            "rawHtml": "   6   <strong>Nowak,Ruben         </strong>, K= 0, Elo=1490, ID=3127464\n<br>\n<a class=\"anchor\" name=\"6\"></a>"
+          }
         },
         {
           "headers": [
@@ -1071,7 +1457,18 @@
               "res": "1.0",
               "Pts": "1.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Annapureddy,Rheyansh",
+            "id": "3197035",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "2095",
+              "anchor": "7"
+            },
+            "rawText": "7   Annapureddy,Rheyansh, K= 0, Elo=2095, ID=3197035",
+            "rawHtml": "   7   <strong>Annapureddy,Rheyansh</strong>, K= 0, Elo=2095, ID=3197035\n<br>\n<a class=\"anchor\" name=\"7\"></a>"
+          }
         },
         {
           "headers": [
@@ -1155,7 +1552,18 @@
               "res": "1.0",
               "Pts": "0.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Lacson,Joemar",
+            "id": "3112506",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1727",
+              "anchor": "8"
+            },
+            "rawText": "8   Lacson,Joemar       , K= 0, Elo=1727, ID=3112506",
+            "rawHtml": "   8   <strong>Lacson,Joemar       </strong>, K= 0, Elo=1727, ID=3112506\n<br>\n<a class=\"anchor\" name=\"8\"></a>"
+          }
         }
       ]
     },
@@ -1174,7 +1582,12 @@
           "rows": [
             {
               "#": "7",
-              "Player": "Annapureddy,Rheyansh Reddy",
+              "Player": {
+                "id": "",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3244806"
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -1182,7 +1595,12 @@
             },
             {
               "#": "4",
-              "Player": "CM  Davis,Tony J",
+              "Player": {
+                "id": "",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3205550"
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -1190,7 +1608,12 @@
             },
             {
               "#": "5",
-              "Player": "Hogg,Dean",
+              "Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3204332"
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -1198,7 +1621,12 @@
             },
             {
               "#": "8",
-              "Player": "Lacson,Joemar",
+              "Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3257762"
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -1206,7 +1634,12 @@
             },
             {
               "#": "3",
-              "Player": "Lingineni,Khushal",
+              "Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3259056"
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -1214,7 +1647,12 @@
             },
             {
               "#": "6",
-              "Player": "Nowak,Ruben",
+              "Player": {
+                "id": "",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3214915"
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -1222,7 +1660,12 @@
             },
             {
               "#": "1",
-              "Player": "Picone,James",
+              "Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3259072"
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -1230,7 +1673,12 @@
             },
             {
               "#": "2",
-              "Player": "Salanowski,Mark",
+              "Player": {
+                "id": "",
+                "playerName": "Salanowski,Mark",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3220613"
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -1302,38 +1750,78 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "Picone,James",
+              "White Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "0 - 1",
               "NB": "8",
-              "Black Player": "Lacson,Joemar"
+              "Black Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "Salanowski,Mark",
+              "White Player": {
+                "id": "",
+                "playerName": "Salanowski,Mark",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "0 - 1",
               "NB": "7",
-              "Black Player": "Annapureddy,Rheyansh Reddy"
+              "Black Player": {
+                "id": "",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "notitle",
+                "href": "playercard.html#7"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "Lingineni,Khushal",
+              "White Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "0 - 1",
               "NB": "6",
-              "Black Player": "Nowak,Ruben"
+              "Black Player": {
+                "id": "",
+                "playerName": "Nowak,Ruben",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "CM Davis,Tony J",
+              "White Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "NW": "4",
               "Result": "0 - 1",
               "NB": "5",
-              "Black Player": "Hogg,Dean"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             }
           ]
         },
@@ -1352,38 +1840,78 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "Lacson,Joemar",
+              "White Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              },
               "NW": "8",
               "Result": "0 - 1",
               "NB": "5",
-              "Black Player": "Hogg,Dean"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "Nowak,Ruben",
+              "White Player": {
+                "id": "",
+                "playerName": "Nowak,Ruben",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "NW": "6",
               "Result": "0 - 1",
               "NB": "4",
-              "Black Player": "CM Davis,Tony J"
+              "Black Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "Annapureddy,Rheyansh Reddy",
+              "White Player": {
+                "id": "",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "notitle",
+                "href": "playercard.html#7"
+              },
               "NW": "7",
               "Result": "0 - 1",
               "NB": "3",
-              "Black Player": "Lingineni,Khushal"
+              "Black Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "Picone,James",
+              "White Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "0 - 1",
               "NB": "2",
-              "Black Player": "Salanowski,Mark"
+              "Black Player": {
+                "id": "",
+                "playerName": "Salanowski,Mark",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              }
             }
           ]
         },
@@ -1402,38 +1930,78 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "Salanowski,Mark",
+              "White Player": {
+                "id": "",
+                "playerName": "Salanowski,Mark",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "½ - ½",
               "NB": "8",
-              "Black Player": "Lacson,Joemar"
+              "Black Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "Lingineni,Khushal",
+              "White Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "1 - 0",
               "NB": "1",
-              "Black Player": "Picone,James"
+              "Black Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "CM Davis,Tony J",
+              "White Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "NW": "4",
               "Result": "0 - 1",
               "NB": "7",
-              "Black Player": "Annapureddy,Rheyansh Reddy"
+              "Black Player": {
+                "id": "",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "notitle",
+                "href": "playercard.html#7"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "Hogg,Dean",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "NW": "5",
               "Result": "1 - 0",
               "NB": "6",
-              "Black Player": "Nowak,Ruben"
+              "Black Player": {
+                "id": "",
+                "playerName": "Nowak,Ruben",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             }
           ]
         },
@@ -1452,38 +2020,78 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "Lacson,Joemar",
+              "White Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              },
               "NW": "8",
               "Result": "1 - 0",
               "NB": "6",
-              "Black Player": "Nowak,Ruben"
+              "Black Player": {
+                "id": "",
+                "playerName": "Nowak,Ruben",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "Annapureddy,Rheyansh Reddy",
+              "White Player": {
+                "id": "",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "notitle",
+                "href": "playercard.html#7"
+              },
               "NW": "7",
               "Result": "1 - 0",
               "NB": "5",
-              "Black Player": "Hogg,Dean"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "Picone,James",
+              "White Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "0 - 1",
               "NB": "4",
-              "Black Player": "CM Davis,Tony J"
+              "Black Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "Salanowski,Mark",
+              "White Player": {
+                "id": "",
+                "playerName": "Salanowski,Mark",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "0 - 1",
               "NB": "3",
-              "Black Player": "Lingineni,Khushal"
+              "Black Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              }
             }
           ]
         },
@@ -1502,38 +2110,78 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "Lingineni,Khushal",
+              "White Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "0 - 1",
               "NB": "8",
-              "Black Player": "Lacson,Joemar"
+              "Black Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "CM Davis,Tony J",
+              "White Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "NW": "4",
               "Result": "1 - 0",
               "NB": "2",
-              "Black Player": "Salanowski,Mark"
+              "Black Player": {
+                "id": "",
+                "playerName": "Salanowski,Mark",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "Hogg,Dean",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "NW": "5",
               "Result": "½ - ½",
               "NB": "1",
-              "Black Player": "Picone,James"
+              "Black Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "Nowak,Ruben",
+              "White Player": {
+                "id": "",
+                "playerName": "Nowak,Ruben",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "NW": "6",
               "Result": "1 - 0",
               "NB": "7",
-              "Black Player": "Annapureddy,Rheyansh Reddy"
+              "Black Player": {
+                "id": "",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "notitle",
+                "href": "playercard.html#7"
+              }
             }
           ]
         },
@@ -1552,38 +2200,78 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "Lacson,Joemar",
+              "White Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              },
               "NW": "8",
               "Result": "0 - 1",
               "NB": "7",
-              "Black Player": "Annapureddy,Rheyansh Reddy"
+              "Black Player": {
+                "id": "",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "notitle",
+                "href": "playercard.html#7"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "Picone,James",
+              "White Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "1 - 0",
               "NB": "6",
-              "Black Player": "Nowak,Ruben"
+              "Black Player": {
+                "id": "",
+                "playerName": "Nowak,Ruben",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "Salanowski,Mark",
+              "White Player": {
+                "id": "",
+                "playerName": "Salanowski,Mark",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "0 - 1",
               "NB": "5",
-              "Black Player": "Hogg,Dean"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "Lingineni,Khushal",
+              "White Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "0 - 1",
               "NB": "4",
-              "Black Player": "CM Davis,Tony J"
+              "Black Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             }
           ]
         },
@@ -1602,38 +2290,78 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "CM Davis,Tony J",
+              "White Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "NW": "4",
               "Result": "0F-1F",
               "NB": "8",
-              "Black Player": "Lacson,Joemar"
+              "Black Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "Hogg,Dean",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "NW": "5",
               "Result": "0F-1F",
               "NB": "3",
-              "Black Player": "Lingineni,Khushal"
+              "Black Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "Nowak,Ruben",
+              "White Player": {
+                "id": "",
+                "playerName": "Nowak,Ruben",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "NW": "6",
               "Result": "1 - 0",
               "NB": "2",
-              "Black Player": "Salanowski,Mark"
+              "Black Player": {
+                "id": "",
+                "playerName": "Salanowski,Mark",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "Annapureddy,Rheyansh Reddy",
+              "White Player": {
+                "id": "",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "notitle",
+                "href": "playercard.html#7"
+              },
               "NW": "7",
               "Result": "1 - 0",
               "NB": "1",
-              "Black Player": "Picone,James"
+              "Black Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              }
             }
           ]
         }
@@ -1807,7 +2535,12 @@
           "rows": [
             {
               "Pos": "1",
-              "Player": "7     Annapureddy,Rheyansh Reddy",
+              "Player": {
+                "id": "7",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "5.0",
@@ -1815,7 +2548,12 @@
             },
             {
               "Pos": "2",
-              "Player": "5     Hogg,Dean",
+              "Player": {
+                "id": "5",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "4.5",
@@ -1823,7 +2561,12 @@
             },
             {
               "Pos": "3",
-              "Player": "8     Lacson,Joemar",
+              "Player": {
+                "id": "8",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#8"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "4.5",
@@ -1831,7 +2574,12 @@
             },
             {
               "Pos": "4",
-              "Player": "4   CM  Davis,Tony J",
+              "Player": {
+                "id": "4",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "4.0",
@@ -1839,7 +2587,12 @@
             },
             {
               "Pos": "5",
-              "Player": "3     Lingineni,Khushal",
+              "Player": {
+                "id": "3",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "4.0",
@@ -1847,7 +2600,12 @@
             },
             {
               "Pos": "6",
-              "Player": "6     Nowak,Ruben",
+              "Player": {
+                "id": "6",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "3.0",
@@ -1855,7 +2613,12 @@
             },
             {
               "Pos": "7",
-              "Player": "2     Salanowski,Mark",
+              "Player": {
+                "id": "2",
+                "playerName": "Salanowski,Mark",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "1.5",
@@ -1863,7 +2626,12 @@
             },
             {
               "Pos": "8",
-              "Player": "1     Picone,James",
+              "Player": {
+                "id": "1",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "1.5",
@@ -2090,6 +2858,113 @@
       ]
     }
   ],
+  "players": [
+    {
+      "#": "7",
+      "Player": {
+        "id": "",
+        "playerName": "Annapureddy,Rheyansh Reddy",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3244806"
+      },
+      "Fed": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "2095"
+    },
+    {
+      "#": "5",
+      "Player": {
+        "id": "",
+        "playerName": "Hogg,Dean",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3204332"
+      },
+      "Fed": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "1964"
+    },
+    {
+      "#": "4",
+      "Player": {
+        "id": "",
+        "playerName": "Davis,Tony J",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3205550"
+      },
+      "Fed": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "1790"
+    },
+    {
+      "#": "8",
+      "Player": {
+        "id": "",
+        "playerName": "Lacson,Joemar",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3257762"
+      },
+      "Fed": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "1727"
+    },
+    {
+      "#": "1",
+      "Player": {
+        "id": "",
+        "playerName": "Picone,James",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3259072"
+      },
+      "Fed": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "1521"
+    },
+    {
+      "#": "6",
+      "Player": {
+        "id": "",
+        "playerName": "Nowak,Ruben",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3214915"
+      },
+      "Fed": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "1490"
+    },
+    {
+      "#": "3",
+      "Player": {
+        "id": "",
+        "playerName": "Lingineni,Khushal",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3259056"
+      },
+      "Fed": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "1483"
+    },
+    {
+      "#": "2",
+      "Player": {
+        "id": "",
+        "playerName": "Salanowski,Mark",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3220613"
+      },
+      "Fed": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "1482"
+    }
+  ],
+  "category": "Senior",
   "metadata": {
     "Tournament Name": "Hobsons Bay Club Championship 2024",
     "Place": "Hobsons Bay",
@@ -2122,6 +2997,7 @@
     "CM players": "1",
     "WCM players": "0",
     "FIDE titled player from AUS Federation": "0",
-    "FIDE titled player NOT from AUS Federation": "1"
+    "FIDE titled player NOT from AUS Federation": "1",
+    "category": "Senior"
   }
 }

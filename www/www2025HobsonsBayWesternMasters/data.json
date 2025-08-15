@@ -19,7 +19,12 @@
           "rows": [
             {
               "#": "1",
-              "Player": "Paul,Cijo",
+              "Player": {
+                "id": "",
+                "playerName": "Paul,Cijo",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=2054515"
+              },
               "FIDE ID": "2054515",
               "Fed": "",
               "Rtg": "1742",
@@ -31,7 +36,12 @@
             },
             {
               "#": "2",
-              "Player": "CM Davis,Tony J",
+              "Player": {
+                "id": "",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3205550"
+              },
               "FIDE ID": "3205550",
               "Fed": "",
               "Rtg": "1819",
@@ -43,7 +53,12 @@
             },
             {
               "#": "3",
-              "Player": "Hogg,Dean",
+              "Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3204332"
+              },
               "FIDE ID": "3204332",
               "Fed": "",
               "Rtg": "1976",
@@ -55,7 +70,12 @@
             },
             {
               "#": "4",
-              "Player": "Lingineni,Khushal",
+              "Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3259056"
+              },
               "FIDE ID": "3259056",
               "Fed": "",
               "Rtg": "1835",
@@ -67,7 +87,12 @@
             },
             {
               "#": "5",
-              "Player": "Krishnan,Anirudh",
+              "Player": {
+                "id": "",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3254925"
+              },
               "FIDE ID": "3254925",
               "Fed": "",
               "Rtg": "1841",
@@ -79,7 +104,12 @@
             },
             {
               "#": "6",
-              "Player": "Lacson,Joemar",
+              "Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3257762"
+              },
               "FIDE ID": "3257762",
               "Fed": "",
               "Rtg": "1831",
@@ -158,7 +188,16 @@
               "Rtg": "1841",
               "res": "1"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "",
+            "id": "",
+            "moreInfo": {
+              "anchor": "1"
+            },
+            "rawText": "N = 1 Paul,Cijo",
+            "rawHtml": " <a class=\"anchor\" name=\"1\"></a> N = 1<a href=\"http://ratings.fide.com/card.phtml?event=2054515\" target=\"X\"> Paul,Cijo </a>"
+          }
         },
         {
           "headers": [
@@ -212,7 +251,16 @@
               "Rtg": "1835",
               "res": "0.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "",
+            "id": "",
+            "moreInfo": {
+              "anchor": "2"
+            },
+            "rawText": "N = 2 Davis,Tony J",
+            "rawHtml": " <a class=\"anchor\" name=\"2\"></a> N = 2<a href=\"http://ratings.fide.com/card.phtml?event=3205550\" target=\"X\"> Davis,Tony J </a>"
+          }
         },
         {
           "headers": [
@@ -266,7 +314,16 @@
               "Rtg": "1819",
               "res": "1"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "",
+            "id": "",
+            "moreInfo": {
+              "anchor": "3"
+            },
+            "rawText": "N = 3 Hogg,Dean",
+            "rawHtml": " <a class=\"anchor\" name=\"3\"></a> N = 3<a href=\"http://ratings.fide.com/card.phtml?event=3204332\" target=\"X\"> Hogg,Dean </a>"
+          }
         },
         {
           "headers": [
@@ -320,7 +377,16 @@
               "Rtg": "1819",
               "res": "0.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "",
+            "id": "",
+            "moreInfo": {
+              "anchor": "4"
+            },
+            "rawText": "N = 4 Lingineni,Khushal",
+            "rawHtml": " <a class=\"anchor\" name=\"4\"></a> N = 4<a href=\"http://ratings.fide.com/card.phtml?event=3259056\" target=\"X\"> Lingineni,Khushal </a>"
+          }
         },
         {
           "headers": [
@@ -374,7 +440,16 @@
               "Rtg": "1742",
               "res": "0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "",
+            "id": "",
+            "moreInfo": {
+              "anchor": "5"
+            },
+            "rawText": "N = 5 Krishnan,Anirudh",
+            "rawHtml": " <a class=\"anchor\" name=\"5\"></a> N = 5<a href=\"http://ratings.fide.com/card.phtml?event=3254925\" target=\"X\"> Krishnan,Anirudh </a>"
+          }
         },
         {
           "headers": [
@@ -398,7 +473,16 @@
               "Rtg": "1742",
               "res": "0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "",
+            "id": "",
+            "moreInfo": {
+              "anchor": "6"
+            },
+            "rawText": "N = 6 Lacson,Joemar",
+            "rawHtml": " <a class=\"anchor\" name=\"6\"></a> N = 6<a href=\"http://ratings.fide.com/card.phtml?event=3257762\" target=\"X\"> Lacson,Joemar </a>"
+          }
         }
       ]
     },
@@ -418,7 +502,12 @@
           "rows": [
             {
               "#": "3",
-              "Player": "Hogg,Dean",
+              "Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3204332"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1911",
@@ -427,7 +516,12 @@
             },
             {
               "#": "5",
-              "Player": "Krishnan,Anirudh",
+              "Player": {
+                "id": "",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3254925"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1774",
@@ -436,7 +530,12 @@
             },
             {
               "#": "2",
-              "Player": "CM  Davis,Tony J",
+              "Player": {
+                "id": "",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3205550"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1735",
@@ -445,7 +544,12 @@
             },
             {
               "#": "6",
-              "Player": "Lacson,Joemar",
+              "Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3257762"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1727",
@@ -454,7 +558,12 @@
             },
             {
               "#": "1",
-              "Player": "Paul,Cijo",
+              "Player": {
+                "id": "",
+                "playerName": "Paul,Cijo",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=2054515"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1611",
@@ -463,7 +572,12 @@
             },
             {
               "#": "4",
-              "Player": "Lingineni,Khushal",
+              "Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3259056"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1606",
@@ -745,7 +859,18 @@
               "res": "1.0",
               "Pts": "2.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Paul,Cijo",
+            "id": "3194913",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1611",
+              "anchor": "1"
+            },
+            "rawText": "1   Paul,Cijo           , K= 0, Elo=1611, ID=3194913",
+            "rawHtml": "   1   <strong>Paul,Cijo           </strong>, K= 0, Elo=1611, ID=3194913\n<br>\n<a class=\"anchor\" name=\"1\"></a>"
+          }
         },
         {
           "headers": [
@@ -809,7 +934,18 @@
               "res": "0.5",
               "Pts": "4.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Davis,Tony J",
+            "id": "3073264",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1735",
+              "anchor": "2"
+            },
+            "rawText": "2  CM Davis,Tony J        , K= 0, Elo=1735, ID=3073264",
+            "rawHtml": "   2  CM <strong>Davis,Tony J        </strong>, K= 0, Elo=1735, ID=3073264\n<br>\n<a class=\"anchor\" name=\"2\"></a>"
+          }
         },
         {
           "headers": [
@@ -873,7 +1009,18 @@
               "res": "1.0",
               "Pts": "0.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Hogg,Dean",
+            "id": "3093306",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1911",
+              "anchor": "3"
+            },
+            "rawText": "3   Hogg,Dean           , K= 0, Elo=1911, ID=3093306",
+            "rawHtml": "   3   <strong>Hogg,Dean           </strong>, K= 0, Elo=1911, ID=3093306\n<br>\n<a class=\"anchor\" name=\"3\"></a>"
+          }
         },
         {
           "headers": [
@@ -937,7 +1084,18 @@
               "res": "0.5",
               "Pts": "2.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Lingineni,Khushal",
+            "id": "3202532",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1606",
+              "anchor": "4"
+            },
+            "rawText": "4   Lingineni,Khushal   , K= 0, Elo=1606, ID=3202532",
+            "rawHtml": "   4   <strong>Lingineni,Khushal   </strong>, K= 0, Elo=1606, ID=3202532\n<br>\n<a class=\"anchor\" name=\"4\"></a>"
+          }
         },
         {
           "headers": [
@@ -1001,7 +1159,18 @@
               "res": "0.0",
               "Pts": "2.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Krishnan,Anirudh",
+            "id": "3200222",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1774",
+              "anchor": "5"
+            },
+            "rawText": "5   Krishnan,Anirudh    , K= 0, Elo=1774, ID=3200222",
+            "rawHtml": "   5   <strong>Krishnan,Anirudh    </strong>, K= 0, Elo=1774, ID=3200222\n<br>\n<a class=\"anchor\" name=\"5\"></a>"
+          }
         },
         {
           "headers": [
@@ -1065,7 +1234,18 @@
               "res": "0.0",
               "Pts": "0.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Lacson,Joemar",
+            "id": "3112506",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1727",
+              "anchor": "6"
+            },
+            "rawText": "6   Lacson,Joemar       , K= 0, Elo=1727, ID=3112506",
+            "rawHtml": "   6   <strong>Lacson,Joemar       </strong>, K= 0, Elo=1727, ID=3112506\n<br>\n<a class=\"anchor\" name=\"6\"></a>"
+          }
         }
       ]
     },
@@ -1085,7 +1265,12 @@
           "rows": [
             {
               "#": "2",
-              "Player": "CM  Davis,Tony J",
+              "Player": {
+                "id": "",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3205550"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1735",
@@ -1094,7 +1279,12 @@
             },
             {
               "#": "3",
-              "Player": "Hogg,Dean",
+              "Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3204332"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1911",
@@ -1103,7 +1293,12 @@
             },
             {
               "#": "5",
-              "Player": "Krishnan,Anirudh",
+              "Player": {
+                "id": "",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3254925"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1774",
@@ -1112,7 +1307,12 @@
             },
             {
               "#": "6",
-              "Player": "Lacson,Joemar",
+              "Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3257762"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1727",
@@ -1121,7 +1321,12 @@
             },
             {
               "#": "4",
-              "Player": "Lingineni,Khushal",
+              "Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3259056"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1606",
@@ -1130,7 +1335,12 @@
             },
             {
               "#": "1",
-              "Player": "Paul,Cijo",
+              "Player": {
+                "id": "",
+                "playerName": "Paul,Cijo",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=2054515"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1611",
@@ -1196,31 +1406,61 @@
               "Bo.": "1",
               "Fed": "",
               "Origin": "",
-              "White Player": "Paul,Cijo",
+              "White Player": {
+                "id": "",
+                "playerName": "Paul,Cijo",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "1 - 0",
               "NB": "6",
-              "Black Player": "Lacson,Joemar"
+              "Black Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
               "Origin": "",
-              "White Player": "CM Davis,Tony J",
+              "White Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "0 - 1",
               "NB": "5",
-              "Black Player": "Krishnan,Anirudh"
+              "Black Player": {
+                "id": "",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
               "Origin": "",
-              "White Player": "Hogg,Dean",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "0 - 1",
               "NB": "4",
-              "Black Player": "Lingineni,Khushal"
+              "Black Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             }
           ]
         },
@@ -1242,31 +1482,61 @@
               "Bo.": "1",
               "Fed": "",
               "Origin": "",
-              "White Player": "Lacson,Joemar",
+              "White Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "NW": "6",
               "Result": "0F-1F",
               "NB": "4",
-              "Black Player": "Lingineni,Khushal"
+              "Black Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
               "Origin": "",
-              "White Player": "Krishnan,Anirudh",
+              "White Player": {
+                "id": "",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "NW": "5",
               "Result": "0 - 1",
               "NB": "3",
-              "Black Player": "Hogg,Dean"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
               "Origin": "",
-              "White Player": "Paul,Cijo",
+              "White Player": {
+                "id": "",
+                "playerName": "Paul,Cijo",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "0 - 1",
               "NB": "2",
-              "Black Player": "CM Davis,Tony J"
+              "Black Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              }
             }
           ]
         },
@@ -1288,31 +1558,61 @@
               "Bo.": "1",
               "Fed": "",
               "Origin": "",
-              "White Player": "CM Davis,Tony J",
+              "White Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "1F-0F",
               "NB": "6",
-              "Black Player": "Lacson,Joemar"
+              "Black Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
               "Origin": "",
-              "White Player": "Hogg,Dean",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "1 - 0",
               "NB": "1",
-              "Black Player": "Paul,Cijo"
+              "Black Player": {
+                "id": "",
+                "playerName": "Paul,Cijo",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
               "Origin": "",
-              "White Player": "Lingineni,Khushal",
+              "White Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "NW": "4",
               "Result": "½ - ½",
               "NB": "5",
-              "Black Player": "Krishnan,Anirudh"
+              "Black Player": {
+                "id": "",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             }
           ]
         },
@@ -1334,31 +1634,61 @@
               "Bo.": "1",
               "Fed": "",
               "Origin": "",
-              "White Player": "Lacson,Joemar",
+              "White Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "NW": "6",
               "Result": "0F-1F",
               "NB": "5",
-              "Black Player": "Krishnan,Anirudh"
+              "Black Player": {
+                "id": "",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
               "Origin": "",
-              "White Player": "Paul,Cijo",
+              "White Player": {
+                "id": "",
+                "playerName": "Paul,Cijo",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "0 - 1",
               "NB": "4",
-              "Black Player": "Lingineni,Khushal"
+              "Black Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
               "Origin": "",
-              "White Player": "CM Davis,Tony J",
+              "White Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "0 - 1",
               "NB": "3",
-              "Black Player": "Hogg,Dean"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              }
             }
           ]
         },
@@ -1380,31 +1710,61 @@
               "Bo.": "1",
               "Fed": "",
               "Origin": "",
-              "White Player": "Hogg,Dean",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "1F-0F",
               "NB": "6",
-              "Black Player": "Lacson,Joemar"
+              "Black Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
               "Origin": "",
-              "White Player": "Lingineni,Khushal",
+              "White Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "NW": "4",
               "Result": "½ - ½",
               "NB": "2",
-              "Black Player": "CM Davis,Tony J"
+              "Black Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
               "Origin": "",
-              "White Player": "Krishnan,Anirudh",
+              "White Player": {
+                "id": "",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "NW": "5",
               "Result": "0 - 1",
               "NB": "1",
-              "Black Player": "Paul,Cijo"
+              "Black Player": {
+                "id": "",
+                "playerName": "Paul,Cijo",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              }
             }
           ]
         }
@@ -1538,7 +1898,12 @@
           "rows": [
             {
               "Pos": "1",
-              "Player": "Lingineni,Khushal\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1606",
+              "Player": {
+                "id": "4",
+                "playerName": "",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Origin": "",
               "Pts": "4.0",
               "SB": "8.50",
@@ -1546,7 +1911,12 @@
             },
             {
               "Pos": "2",
-              "Player": "Hogg,Dean\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1911",
+              "Player": {
+                "id": "3",
+                "playerName": "",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Origin": "",
               "Pts": "4.0",
               "SB": "7.00",
@@ -1554,7 +1924,12 @@
             },
             {
               "Pos": "3",
-              "Player": "Krishnan,Anirudh\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1774",
+              "Player": {
+                "id": "5",
+                "playerName": "",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Origin": "",
               "Pts": "2.5",
               "SB": "4.50",
@@ -1562,7 +1937,12 @@
             },
             {
               "Pos": "4",
-              "Player": "Davis,Tony J\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n CM\n\t\t\t\n\t\t\t1735",
+              "Player": {
+                "id": "2",
+                "playerName": "",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Origin": "",
               "Pts": "2.5",
               "SB": "4.00",
@@ -1570,7 +1950,12 @@
             },
             {
               "Pos": "5",
-              "Player": "Paul,Cijo\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t1611",
+              "Player": {
+                "id": "1",
+                "playerName": "",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Origin": "",
               "Pts": "2.0",
               "SB": "2.50",
@@ -1578,7 +1963,12 @@
             },
             {
               "Pos": "6",
-              "Player": "Lacson,Joemar\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1727",
+              "Player": {
+                "id": "6",
+                "playerName": "",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Origin": "",
               "Pts": "0.0",
               "SB": "0.00",
@@ -1805,6 +2195,93 @@
       ]
     }
   ],
+  "players": [
+    {
+      "#": "3",
+      "Player": {
+        "id": "",
+        "playerName": "Hogg,Dean",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3204332"
+      },
+      "Fed": "",
+      "Origin": "",
+      "Rtg": "1911",
+      "RtgF": "1976",
+      "RtgN": "1911"
+    },
+    {
+      "#": "5",
+      "Player": {
+        "id": "",
+        "playerName": "Krishnan,Anirudh",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3254925"
+      },
+      "Fed": "",
+      "Origin": "",
+      "Rtg": "1774",
+      "RtgF": "1841",
+      "RtgN": "1774"
+    },
+    {
+      "#": "2",
+      "Player": {
+        "id": "",
+        "playerName": "Davis,Tony J",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3205550"
+      },
+      "Fed": "",
+      "Origin": "",
+      "Rtg": "1735",
+      "RtgF": "1819",
+      "RtgN": "1735"
+    },
+    {
+      "#": "6",
+      "Player": {
+        "id": "",
+        "playerName": "Lacson,Joemar",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3257762"
+      },
+      "Fed": "",
+      "Origin": "",
+      "Rtg": "1727",
+      "RtgF": "1831",
+      "RtgN": "1727"
+    },
+    {
+      "#": "1",
+      "Player": {
+        "id": "",
+        "playerName": "Paul,Cijo",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=2054515"
+      },
+      "Fed": "",
+      "Origin": "",
+      "Rtg": "1611",
+      "RtgF": "1742",
+      "RtgN": "1611"
+    },
+    {
+      "#": "4",
+      "Player": {
+        "id": "",
+        "playerName": "Lingineni,Khushal",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3259056"
+      },
+      "Fed": "",
+      "Origin": "",
+      "Rtg": "1606",
+      "RtgF": "1835",
+      "RtgN": "1606"
+    }
+  ],
+  "category": "Senior",
   "metadata": {
     "Tournament Name": "2025 Hobsons Bay Western Masters",
     "Place": "Hobsons Bay",
@@ -1837,6 +2314,7 @@
     "CM players": "1",
     "WCM players": "0",
     "FIDE titled player from AUS Federation": "0",
-    "FIDE titled player NOT from AUS Federation": "1"
+    "FIDE titled player NOT from AUS Federation": "1",
+    "category": "Senior"
   }
 }

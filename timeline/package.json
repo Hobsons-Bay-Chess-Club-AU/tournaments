@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "concurrently \"next dev --turbopack\" \"http-server ../www -p 5555 --cors\"",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "build:export": "NEXT_PUBLIC_EXPORT_STATIC=true next build"
   },
   "dependencies": {
+    "concurrently": "^9.2.0",
     "moment": "^2.30.1",
     "next": "15.4.2",
     "react": "19.1.0",

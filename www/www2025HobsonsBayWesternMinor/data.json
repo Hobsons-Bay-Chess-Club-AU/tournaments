@@ -19,7 +19,12 @@
           "rows": [
             {
               "#": "1",
-              "Player": "Whitford,Matthew",
+              "Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3232220"
+              },
               "FIDE ID": "3232220",
               "Fed": "",
               "Rtg": "1692",
@@ -31,7 +36,12 @@
             },
             {
               "#": "2",
-              "Player": "Matijas,Dejan",
+              "Player": {
+                "id": "",
+                "playerName": "Matijas,Dejan",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3242838"
+              },
               "FIDE ID": "3242838",
               "Fed": "",
               "Rtg": "1622",
@@ -43,7 +53,12 @@
             },
             {
               "#": "3",
-              "Player": "Wongso,Renaldo",
+              "Player": {
+                "id": "",
+                "playerName": "Wongso,Renaldo",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=7134827"
+              },
               "FIDE ID": "7134827",
               "Fed": "",
               "Rtg": "1682",
@@ -55,7 +70,12 @@
             },
             {
               "#": "4",
-              "Player": "Bodke,Krishna",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3259021"
+              },
               "FIDE ID": "3259021",
               "Fed": "",
               "Rtg": "1691",
@@ -67,7 +87,12 @@
             },
             {
               "#": "5",
-              "Player": "Picone,James",
+              "Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3259072"
+              },
               "FIDE ID": "3259072",
               "Fed": "",
               "Rtg": "1697",
@@ -79,7 +104,12 @@
             },
             {
               "#": "6",
-              "Player": "Nguyen,Anh Kiet",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3267849"
+              },
               "FIDE ID": "3267849",
               "Fed": "",
               "Rtg": "1707",
@@ -158,7 +188,16 @@
               "Rtg": "1697",
               "res": "0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "",
+            "id": "",
+            "moreInfo": {
+              "anchor": "1"
+            },
+            "rawText": "N = 1 Whitford,Matthew",
+            "rawHtml": " <a class=\"anchor\" name=\"1\"></a> N = 1<a href=\"http://ratings.fide.com/card.phtml?event=3232220\" target=\"X\"> Whitford,Matthew </a>"
+          }
         },
         {
           "headers": [
@@ -222,7 +261,16 @@
               "Rtg": "1691",
               "res": "0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "",
+            "id": "",
+            "moreInfo": {
+              "anchor": "2"
+            },
+            "rawText": "N = 2 Matijas,Dejan",
+            "rawHtml": " <a class=\"anchor\" name=\"2\"></a> N = 2<a href=\"http://ratings.fide.com/card.phtml?event=3242838\" target=\"X\"> Matijas,Dejan </a>"
+          }
         },
         {
           "headers": [
@@ -286,7 +334,16 @@
               "Rtg": "1707",
               "res": "1"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "",
+            "id": "",
+            "moreInfo": {
+              "anchor": "3"
+            },
+            "rawText": "N = 3 Wongso,Renaldo",
+            "rawHtml": " <a class=\"anchor\" name=\"3\"></a> N = 3<a href=\"http://ratings.fide.com/card.phtml?event=7134827\" target=\"X\"> Wongso,Renaldo </a>"
+          }
         },
         {
           "headers": [
@@ -350,7 +407,16 @@
               "Rtg": "1622",
               "res": "1"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "",
+            "id": "",
+            "moreInfo": {
+              "anchor": "4"
+            },
+            "rawText": "N = 4 Bodke,Krishna",
+            "rawHtml": " <a class=\"anchor\" name=\"4\"></a> N = 4<a href=\"http://ratings.fide.com/card.phtml?event=3259021\" target=\"X\"> Bodke,Krishna </a>"
+          }
         },
         {
           "headers": [
@@ -414,7 +480,16 @@
               "Rtg": "1692",
               "res": "1"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "",
+            "id": "",
+            "moreInfo": {
+              "anchor": "5"
+            },
+            "rawText": "N = 5 Picone,James",
+            "rawHtml": " <a class=\"anchor\" name=\"5\"></a> N = 5<a href=\"http://ratings.fide.com/card.phtml?event=3259072\" target=\"X\"> Picone,James </a>"
+          }
         },
         {
           "headers": [
@@ -478,7 +553,16 @@
               "Rtg": "1682",
               "res": "0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "",
+            "id": "",
+            "moreInfo": {
+              "anchor": "6"
+            },
+            "rawText": "N = 6 Nguyen,Anh Kiet",
+            "rawHtml": " <a class=\"anchor\" name=\"6\"></a> N = 6<a href=\"http://ratings.fide.com/card.phtml?event=3267849\" target=\"X\"> Nguyen,Anh Kiet </a>"
+          }
         }
       ]
     },
@@ -498,7 +582,12 @@
           "rows": [
             {
               "#": "1",
-              "Player": "Whitford,Matthew",
+              "Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3232220"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1505",
@@ -507,7 +596,12 @@
             },
             {
               "#": "5",
-              "Player": "Picone,James",
+              "Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3259072"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1502",
@@ -516,7 +610,12 @@
             },
             {
               "#": "3",
-              "Player": "Wongso,Renaldo",
+              "Player": {
+                "id": "",
+                "playerName": "Wongso,Renaldo",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=7134827"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1486",
@@ -525,7 +624,12 @@
             },
             {
               "#": "4",
-              "Player": "Bodke,Krishna",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3259021"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1445",
@@ -534,7 +638,12 @@
             },
             {
               "#": "6",
-              "Player": "Nguyen,Anh Kiet",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3267849"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1416",
@@ -543,7 +652,12 @@
             },
             {
               "#": "2",
-              "Player": "Matijas,Dejan",
+              "Player": {
+                "id": "",
+                "playerName": "Matijas,Dejan",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3242838"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1411",
@@ -825,7 +939,18 @@
               "res": "0.0",
               "Pts": "1.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Whitford,Matthew",
+            "id": "3137603",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1505",
+              "anchor": "1"
+            },
+            "rawText": "1   Whitford,Matthew    , K= 0, Elo=1505, ID=3137603",
+            "rawHtml": "   1   <strong>Whitford,Matthew    </strong>, K= 0, Elo=1505, ID=3137603\n<br>\n<a class=\"anchor\" name=\"1\"></a>"
+          }
         },
         {
           "headers": [
@@ -889,7 +1014,18 @@
               "res": "0.0",
               "Pts": "2.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Matijas,Dejan",
+            "id": "3194880",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1411",
+              "anchor": "2"
+            },
+            "rawText": "2   Matijas,Dejan       , K= 0, Elo=1411, ID=3194880",
+            "rawHtml": "   2   <strong>Matijas,Dejan       </strong>, K= 0, Elo=1411, ID=3194880\n<br>\n<a class=\"anchor\" name=\"2\"></a>"
+          }
         },
         {
           "headers": [
@@ -953,7 +1089,18 @@
               "res": "1.0",
               "Pts": "3.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Wongso,Renaldo",
+            "id": "2454845",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1486",
+              "anchor": "3"
+            },
+            "rawText": "3   Wongso,Renaldo      , K= 0, Elo=1486, ID=2454845",
+            "rawHtml": "   3   <strong>Wongso,Renaldo      </strong>, K= 0, Elo=1486, ID=2454845\n<br>\n<a class=\"anchor\" name=\"3\"></a>"
+          }
         },
         {
           "headers": [
@@ -1017,7 +1164,18 @@
               "res": "1.0",
               "Pts": "1.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Bodke,Krishna",
+            "id": "3202576",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1445",
+              "anchor": "4"
+            },
+            "rawText": "4   Bodke,Krishna       , K= 0, Elo=1445, ID=3202576",
+            "rawHtml": "   4   <strong>Bodke,Krishna       </strong>, K= 0, Elo=1445, ID=3202576\n<br>\n<a class=\"anchor\" name=\"4\"></a>"
+          }
         },
         {
           "headers": [
@@ -1081,7 +1239,18 @@
               "res": "1.0",
               "Pts": "3.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Picone,James",
+            "id": "5206812",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1502",
+              "anchor": "5"
+            },
+            "rawText": "5   Picone,James        , K= 0, Elo=1502, ID=5206812",
+            "rawHtml": "   5   <strong>Picone,James        </strong>, K= 0, Elo=1502, ID=5206812\n<br>\n<a class=\"anchor\" name=\"5\"></a>"
+          }
         },
         {
           "headers": [
@@ -1145,7 +1314,18 @@
               "res": "0.0",
               "Pts": "4.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Nguyen,Anh Kiet",
+            "id": "3206205",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1416",
+              "anchor": "6"
+            },
+            "rawText": "6   Nguyen,Anh Kiet     , K= 0, Elo=1416, ID=3206205",
+            "rawHtml": "   6   <strong>Nguyen,Anh Kiet     </strong>, K= 0, Elo=1416, ID=3206205\n<br>\n<a class=\"anchor\" name=\"6\"></a>"
+          }
         }
       ]
     },
@@ -1165,7 +1345,12 @@
           "rows": [
             {
               "#": "4",
-              "Player": "Bodke,Krishna",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3259021"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1445",
@@ -1174,7 +1359,12 @@
             },
             {
               "#": "2",
-              "Player": "Matijas,Dejan",
+              "Player": {
+                "id": "",
+                "playerName": "Matijas,Dejan",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3242838"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1411",
@@ -1183,7 +1373,12 @@
             },
             {
               "#": "6",
-              "Player": "Nguyen,Anh Kiet",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3267849"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1416",
@@ -1192,7 +1387,12 @@
             },
             {
               "#": "5",
-              "Player": "Picone,James",
+              "Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3259072"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1502",
@@ -1201,7 +1401,12 @@
             },
             {
               "#": "1",
-              "Player": "Whitford,Matthew",
+              "Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3232220"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1505",
@@ -1210,7 +1415,12 @@
             },
             {
               "#": "3",
-              "Player": "Wongso,Renaldo",
+              "Player": {
+                "id": "",
+                "playerName": "Wongso,Renaldo",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=7134827"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1486",
@@ -1276,31 +1486,61 @@
               "Bo.": "1",
               "Fed": "",
               "Origin": "",
-              "White Player": "Whitford,Matthew",
+              "White Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "1 - 0",
               "NB": "6",
-              "Black Player": "Nguyen,Anh Kiet"
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
               "Origin": "",
-              "White Player": "Matijas,Dejan",
+              "White Player": {
+                "id": "",
+                "playerName": "Matijas,Dejan",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "1 - 0",
               "NB": "5",
-              "Black Player": "Picone,James"
+              "Black Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
               "Origin": "",
-              "White Player": "Wongso,Renaldo",
+              "White Player": {
+                "id": "",
+                "playerName": "Wongso,Renaldo",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "½ - ½",
               "NB": "4",
-              "Black Player": "Bodke,Krishna"
+              "Black Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             }
           ]
         },
@@ -1322,31 +1562,61 @@
               "Bo.": "1",
               "Fed": "",
               "Origin": "",
-              "White Player": "Nguyen,Anh Kiet",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "NW": "6",
               "Result": "1 - 0",
               "NB": "4",
-              "Black Player": "Bodke,Krishna"
+              "Black Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
               "Origin": "",
-              "White Player": "Picone,James",
+              "White Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "NW": "5",
               "Result": "0 - 1",
               "NB": "3",
-              "Black Player": "Wongso,Renaldo"
+              "Black Player": {
+                "id": "",
+                "playerName": "Wongso,Renaldo",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
               "Origin": "",
-              "White Player": "Whitford,Matthew",
+              "White Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "1 - 0",
               "NB": "2",
-              "Black Player": "Matijas,Dejan"
+              "Black Player": {
+                "id": "",
+                "playerName": "Matijas,Dejan",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              }
             }
           ]
         },
@@ -1368,31 +1638,61 @@
               "Bo.": "1",
               "Fed": "",
               "Origin": "",
-              "White Player": "Matijas,Dejan",
+              "White Player": {
+                "id": "",
+                "playerName": "Matijas,Dejan",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "0 - 1",
               "NB": "6",
-              "Black Player": "Nguyen,Anh Kiet"
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
               "Origin": "",
-              "White Player": "Wongso,Renaldo",
+              "White Player": {
+                "id": "",
+                "playerName": "Wongso,Renaldo",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "1 - 0",
               "NB": "1",
-              "Black Player": "Whitford,Matthew"
+              "Black Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
               "Origin": "",
-              "White Player": "Bodke,Krishna",
+              "White Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "NW": "4",
               "Result": "1 - 0",
               "NB": "5",
-              "Black Player": "Picone,James"
+              "Black Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             }
           ]
         },
@@ -1414,31 +1714,61 @@
               "Bo.": "1",
               "Fed": "",
               "Origin": "",
-              "White Player": "Nguyen,Anh Kiet",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "NW": "6",
               "Result": "1 - 0",
               "NB": "5",
-              "Black Player": "Picone,James"
+              "Black Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
               "Origin": "",
-              "White Player": "Whitford,Matthew",
+              "White Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "1 - 0",
               "NB": "4",
-              "Black Player": "Bodke,Krishna"
+              "Black Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
               "Origin": "",
-              "White Player": "Matijas,Dejan",
+              "White Player": {
+                "id": "",
+                "playerName": "Matijas,Dejan",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "0 - 1",
               "NB": "3",
-              "Black Player": "Wongso,Renaldo"
+              "Black Player": {
+                "id": "",
+                "playerName": "Wongso,Renaldo",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              }
             }
           ]
         },
@@ -1460,31 +1790,61 @@
               "Bo.": "1",
               "Fed": "",
               "Origin": "",
-              "White Player": "Wongso,Renaldo",
+              "White Player": {
+                "id": "",
+                "playerName": "Wongso,Renaldo",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "1 - 0",
               "NB": "6",
-              "Black Player": "Nguyen,Anh Kiet"
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
               "Origin": "",
-              "White Player": "Bodke,Krishna",
+              "White Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "NW": "4",
               "Result": "1 - 0",
               "NB": "2",
-              "Black Player": "Matijas,Dejan"
+              "Black Player": {
+                "id": "",
+                "playerName": "Matijas,Dejan",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
               "Origin": "",
-              "White Player": "Picone,James",
+              "White Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "NW": "5",
               "Result": "1 - 0",
               "NB": "1",
-              "Black Player": "Whitford,Matthew"
+              "Black Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              }
             }
           ]
         }
@@ -1618,7 +1978,12 @@
           "rows": [
             {
               "Pos": "1",
-              "Player": "Wongso,Renaldo\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1486",
+              "Player": {
+                "id": "3",
+                "playerName": "",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Origin": "",
               "Pts": "4.5",
               "SB": "9.25",
@@ -1626,7 +1991,12 @@
             },
             {
               "Pos": "2",
-              "Player": "Whitford,Matthew\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n -\n\t\t\t\n\t\t\t1505",
+              "Player": {
+                "id": "1",
+                "playerName": "",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Origin": "",
               "Pts": "3.0",
               "SB": "6.50",
@@ -1634,7 +2004,12 @@
             },
             {
               "Pos": "3",
-              "Player": "Nguyen,Anh Kiet\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1416",
+              "Player": {
+                "id": "6",
+                "playerName": "",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Origin": "",
               "Pts": "3.0",
               "SB": "4.50",
@@ -1642,7 +2017,12 @@
             },
             {
               "Pos": "4",
-              "Player": "Bodke,Krishna\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1445",
+              "Player": {
+                "id": "4",
+                "playerName": "",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Origin": "",
               "Pts": "2.5",
               "SB": "4.25",
@@ -1650,7 +2030,12 @@
             },
             {
               "Pos": "5",
-              "Player": "Picone,James\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1502",
+              "Player": {
+                "id": "5",
+                "playerName": "",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Origin": "",
               "Pts": "1.0",
               "SB": "3.00",
@@ -1658,7 +2043,12 @@
             },
             {
               "Pos": "6",
-              "Player": "Matijas,Dejan\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t1411",
+              "Player": {
+                "id": "2",
+                "playerName": "",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Origin": "",
               "Pts": "1.0",
               "SB": "1.00",
@@ -1885,6 +2275,93 @@
       ]
     }
   ],
+  "players": [
+    {
+      "#": "1",
+      "Player": {
+        "id": "",
+        "playerName": "Whitford,Matthew",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3232220"
+      },
+      "Fed": "",
+      "Origin": "",
+      "Rtg": "1505",
+      "RtgF": "1692",
+      "RtgN": "1505"
+    },
+    {
+      "#": "5",
+      "Player": {
+        "id": "",
+        "playerName": "Picone,James",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3259072"
+      },
+      "Fed": "",
+      "Origin": "",
+      "Rtg": "1502",
+      "RtgF": "1697",
+      "RtgN": "1502"
+    },
+    {
+      "#": "3",
+      "Player": {
+        "id": "",
+        "playerName": "Wongso,Renaldo",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=7134827"
+      },
+      "Fed": "",
+      "Origin": "",
+      "Rtg": "1486",
+      "RtgF": "1682",
+      "RtgN": "1486"
+    },
+    {
+      "#": "4",
+      "Player": {
+        "id": "",
+        "playerName": "Bodke,Krishna",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3259021"
+      },
+      "Fed": "",
+      "Origin": "",
+      "Rtg": "1445",
+      "RtgF": "1691",
+      "RtgN": "1445"
+    },
+    {
+      "#": "6",
+      "Player": {
+        "id": "",
+        "playerName": "Nguyen,Anh Kiet",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3267849"
+      },
+      "Fed": "",
+      "Origin": "",
+      "Rtg": "1416",
+      "RtgF": "1707",
+      "RtgN": "1416"
+    },
+    {
+      "#": "2",
+      "Player": {
+        "id": "",
+        "playerName": "Matijas,Dejan",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3242838"
+      },
+      "Fed": "",
+      "Origin": "",
+      "Rtg": "1411",
+      "RtgF": "1622",
+      "RtgN": "1411"
+    }
+  ],
+  "category": "Senior",
   "metadata": {
     "Tournament Name": "2025 Hobsons Bay Western Minor",
     "Place": "Hobsons Bay",
@@ -1917,6 +2394,7 @@
     "CM players": "0",
     "WCM players": "0",
     "FIDE titled player from AUS Federation": "0",
-    "FIDE titled player NOT from AUS Federation": "0"
+    "FIDE titled player NOT from AUS Federation": "0",
+    "category": "Senior"
   }
 }

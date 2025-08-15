@@ -43,7 +43,12 @@
           "rows": [
             {
               "#": "1",
-              "Player": "Enano,Ronald",
+              "Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3227480"
+              },
               "Fed": "",
               "Rtg": "1572",
               "RtgF": "0",
@@ -51,7 +56,12 @@
             },
             {
               "#": "4",
-              "Player": "Whitford,Matthew",
+              "Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3232220"
+              },
               "Fed": "",
               "Rtg": "1562",
               "RtgF": "0",
@@ -59,7 +69,12 @@
             },
             {
               "#": "2",
-              "Player": "WIM  Szuveges,Narelle S",
+              "Player": {
+                "id": "",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "http://ratings.fide.com/card.phtml?event=3202640"
+              },
               "Fed": "",
               "Rtg": "1556",
               "RtgF": "0",
@@ -67,7 +82,12 @@
             },
             {
               "#": "6",
-              "Player": "McIntyre,Julian",
+              "Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3232182"
+              },
               "Fed": "",
               "Rtg": "1547",
               "RtgF": "0",
@@ -75,7 +95,12 @@
             },
             {
               "#": "3",
-              "Player": "Ilic,Milan",
+              "Player": {
+                "id": "",
+                "playerName": "Ilic,Milan",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3207293"
+              },
               "Fed": "",
               "Rtg": "1541",
               "RtgF": "0",
@@ -83,7 +108,12 @@
             },
             {
               "#": "5",
-              "Player": "Hogan,Steven",
+              "Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3201414"
+              },
               "Fed": "",
               "Rtg": "1494",
               "RtgF": "0",
@@ -127,26 +157,56 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "1    Enano,Ronald",
+              "White Player": {
+                "id": "1",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "0",
               "Result": "½ - ½",
-              "Black Player": "6    McIntyre,Julian"
+              "Black Player": {
+                "id": "6",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "2  WIM  Szuveges,Narelle S",
+              "White Player": {
+                "id": "2",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "playercard.html#2"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "5    Hogan,Steven"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "3    Ilic,Milan",
+              "White Player": {
+                "id": "3",
+                "playerName": "Ilic,Milan",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "4    Whitford,Matthew"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             }
           ]
         }
@@ -170,26 +230,56 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "6    McIntyre,Julian",
+              "White Player": {
+                "id": "6",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "4    Whitford,Matthew"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "5    Hogan,Steven",
+              "White Player": {
+                "id": "5",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "3    Ilic,Milan"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Ilic,Milan",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "1    Enano,Ronald",
+              "White Player": {
+                "id": "1",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "2  WIM  Szuveges,Narelle S"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "playercard.html#2"
+              }
             }
           ]
         }
@@ -213,26 +303,56 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "2  WIM  Szuveges,Narelle S",
+              "White Player": {
+                "id": "2",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "playercard.html#2"
+              },
               "Pts": "1.5",
               "Result": "0 - 1",
-              "Black Player": "6    McIntyre,Julian"
+              "Black Player": {
+                "id": "6",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "3    Ilic,Milan",
+              "White Player": {
+                "id": "3",
+                "playerName": "Ilic,Milan",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "0.5",
               "Result": "1 - 0",
-              "Black Player": "1    Enano,Ronald"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "4    Whitford,Matthew",
+              "White Player": {
+                "id": "4",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "2",
               "Result": "0 - 1",
-              "Black Player": "5    Hogan,Steven"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             }
           ]
         }
@@ -256,26 +376,56 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "6    McIntyre,Julian",
+              "White Player": {
+                "id": "6",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "3",
               "Result": "½ - ½",
-              "Black Player": "5    Hogan,Steven"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "1    Enano,Ronald",
+              "White Player": {
+                "id": "1",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "4    Whitford,Matthew"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "2  WIM  Szuveges,Narelle S",
+              "White Player": {
+                "id": "2",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "playercard.html#2"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "3    Ilic,Milan"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Ilic,Milan",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             }
           ]
         }
@@ -299,26 +449,56 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "3    Ilic,Milan",
+              "White Player": {
+                "id": "3",
+                "playerName": "Ilic,Milan",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "3",
               "Result": "½ - ½",
-              "Black Player": "6    McIntyre,Julian"
+              "Black Player": {
+                "id": "6",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "4    Whitford,Matthew",
+              "White Player": {
+                "id": "4",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "2",
               "Result": "0 - 1",
-              "Black Player": "2  WIM  Szuveges,Narelle S"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "5    Hogan,Steven",
+              "White Player": {
+                "id": "5",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "1.5",
               "Result": "1F-0F",
-              "Black Player": "1    Enano,Ronald"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             }
           ]
         }
@@ -389,7 +569,18 @@
               "res": "0.0",
               "Pts": "0.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Enano,Ronald",
+            "id": "3096714",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1572",
+              "anchor": "1"
+            },
+            "rawText": "1   Enano,Ronald        , K= 0, Elo=1572, ID=3096714",
+            "rawHtml": "   1   <strong>Enano,Ronald        </strong>, K= 0, Elo=1572, ID=3096714\n<br>\n<a class=\"anchor\" name=\"1\"></a>"
+          }
         },
         {
           "headers": [
@@ -453,7 +644,18 @@
               "res": "1.0",
               "Pts": "1.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Szuveges,Narelle S",
+            "id": "3096051",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1556",
+              "anchor": "2"
+            },
+            "rawText": "2  WIM Szuveges,Narelle S  , K= 0, Elo=1556, ID=3096051",
+            "rawHtml": "   2  WIM <strong>Szuveges,Narelle S  </strong>, K= 0, Elo=1556, ID=3096051\n<br>\n<a class=\"anchor\" name=\"2\"></a>"
+          }
         },
         {
           "headers": [
@@ -517,7 +719,18 @@
               "res": "0.5",
               "Pts": "3.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Ilic,Milan",
+            "id": "3077066",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1541",
+              "anchor": "3"
+            },
+            "rawText": "3   Ilic,Milan          , K= 0, Elo=1541, ID=3077066",
+            "rawHtml": "   3   <strong>Ilic,Milan          </strong>, K= 0, Elo=1541, ID=3077066\n<br>\n<a class=\"anchor\" name=\"3\"></a>"
+          }
         },
         {
           "headers": [
@@ -581,7 +794,18 @@
               "res": "0.0",
               "Pts": "3.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Whitford,Matthew",
+            "id": "3137603",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1562",
+              "anchor": "4"
+            },
+            "rawText": "4   Whitford,Matthew    , K= 0, Elo=1562, ID=3137603",
+            "rawHtml": "   4   <strong>Whitford,Matthew    </strong>, K= 0, Elo=1562, ID=3137603\n<br>\n<a class=\"anchor\" name=\"4\"></a>"
+          }
         },
         {
           "headers": [
@@ -645,7 +869,18 @@
               "res": "1.0",
               "Pts": "0.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Hogan,Steven",
+            "id": "3112941",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1494",
+              "anchor": "5"
+            },
+            "rawText": "5   Hogan,Steven        , K= 0, Elo=1494, ID=3112941",
+            "rawHtml": "   5   <strong>Hogan,Steven        </strong>, K= 0, Elo=1494, ID=3112941\n<br>\n<a class=\"anchor\" name=\"5\"></a>"
+          }
         },
         {
           "headers": [
@@ -709,7 +944,18 @@
               "res": "0.5",
               "Pts": "1.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "McIntyre,Julian",
+            "id": "3176061",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1547",
+              "anchor": "6"
+            },
+            "rawText": "6   McIntyre,Julian     , K= 0, Elo=1547, ID=3176061",
+            "rawHtml": "   6   <strong>McIntyre,Julian     </strong>, K= 0, Elo=1547, ID=3176061\n<br>\n<a class=\"anchor\" name=\"6\"></a>"
+          }
         }
       ]
     },
@@ -728,7 +974,12 @@
           "rows": [
             {
               "#": "1",
-              "Player": "Enano,Ronald",
+              "Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3227480"
+              },
               "Fed": "",
               "Rtg": "1572",
               "RtgF": "0",
@@ -736,7 +987,12 @@
             },
             {
               "#": "5",
-              "Player": "Hogan,Steven",
+              "Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3201414"
+              },
               "Fed": "",
               "Rtg": "1494",
               "RtgF": "0",
@@ -744,7 +1000,12 @@
             },
             {
               "#": "3",
-              "Player": "Ilic,Milan",
+              "Player": {
+                "id": "",
+                "playerName": "Ilic,Milan",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3207293"
+              },
               "Fed": "",
               "Rtg": "1541",
               "RtgF": "0",
@@ -752,7 +1013,12 @@
             },
             {
               "#": "6",
-              "Player": "McIntyre,Julian",
+              "Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3232182"
+              },
               "Fed": "",
               "Rtg": "1547",
               "RtgF": "0",
@@ -760,7 +1026,12 @@
             },
             {
               "#": "2",
-              "Player": "WIM  Szuveges,Narelle S",
+              "Player": {
+                "id": "",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "http://ratings.fide.com/card.phtml?event=3202640"
+              },
               "Fed": "",
               "Rtg": "1556",
               "RtgF": "0",
@@ -768,7 +1039,12 @@
             },
             {
               "#": "4",
-              "Player": "Whitford,Matthew",
+              "Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3232220"
+              },
               "Fed": "",
               "Rtg": "1562",
               "RtgF": "0",
@@ -830,29 +1106,59 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "Enano,Ronald",
+              "White Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "½ - ½",
               "NB": "6",
-              "Black Player": "McIntyre,Julian"
+              "Black Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "WIM Szuveges,Narelle S",
+              "White Player": {
+                "id": "",
+                "playerName": "WIM Szuveges,Narelle S",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "0 - 1",
               "NB": "5",
-              "Black Player": "Hogan,Steven"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "Ilic,Milan",
+              "White Player": {
+                "id": "",
+                "playerName": "Ilic,Milan",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "0 - 1",
               "NB": "4",
-              "Black Player": "Whitford,Matthew"
+              "Black Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             }
           ]
         },
@@ -871,29 +1177,59 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "McIntyre,Julian",
+              "White Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "NW": "6",
               "Result": "1 - 0",
               "NB": "4",
-              "Black Player": "Whitford,Matthew"
+              "Black Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "Hogan,Steven",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "NW": "5",
               "Result": "1 - 0",
               "NB": "3",
-              "Black Player": "Ilic,Milan"
+              "Black Player": {
+                "id": "",
+                "playerName": "Ilic,Milan",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "Enano,Ronald",
+              "White Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "0 - 1",
               "NB": "2",
-              "Black Player": "WIM Szuveges,Narelle S"
+              "Black Player": {
+                "id": "",
+                "playerName": "WIM Szuveges,Narelle S",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              }
             }
           ]
         },
@@ -912,29 +1248,59 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "WIM Szuveges,Narelle S",
+              "White Player": {
+                "id": "",
+                "playerName": "WIM Szuveges,Narelle S",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "0 - 1",
               "NB": "6",
-              "Black Player": "McIntyre,Julian"
+              "Black Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "Ilic,Milan",
+              "White Player": {
+                "id": "",
+                "playerName": "Ilic,Milan",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "1 - 0",
               "NB": "1",
-              "Black Player": "Enano,Ronald"
+              "Black Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "Whitford,Matthew",
+              "White Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "NW": "4",
               "Result": "0 - 1",
               "NB": "5",
-              "Black Player": "Hogan,Steven"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             }
           ]
         },
@@ -953,29 +1319,59 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "McIntyre,Julian",
+              "White Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "NW": "6",
               "Result": "½ - ½",
               "NB": "5",
-              "Black Player": "Hogan,Steven"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "Enano,Ronald",
+              "White Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "1 - 0",
               "NB": "4",
-              "Black Player": "Whitford,Matthew"
+              "Black Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "WIM Szuveges,Narelle S",
+              "White Player": {
+                "id": "",
+                "playerName": "WIM Szuveges,Narelle S",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "1 - 0",
               "NB": "3",
-              "Black Player": "Ilic,Milan"
+              "Black Player": {
+                "id": "",
+                "playerName": "Ilic,Milan",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              }
             }
           ]
         },
@@ -994,29 +1390,59 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "Ilic,Milan",
+              "White Player": {
+                "id": "",
+                "playerName": "Ilic,Milan",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "½ - ½",
               "NB": "6",
-              "Black Player": "McIntyre,Julian"
+              "Black Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "Whitford,Matthew",
+              "White Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "NW": "4",
               "Result": "0 - 1",
               "NB": "2",
-              "Black Player": "WIM Szuveges,Narelle S"
+              "Black Player": {
+                "id": "",
+                "playerName": "WIM Szuveges,Narelle S",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "Hogan,Steven",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "NW": "5",
               "Result": "1F-0F",
               "NB": "1",
-              "Black Player": "Enano,Ronald"
+              "Black Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              }
             }
           ]
         }
@@ -1144,7 +1570,12 @@
           "rows": [
             {
               "Pos": "1",
-              "Player": "5     Hogan,Steven",
+              "Player": {
+                "id": "5",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Rtg": "1494",
               "Fed": "",
               "Pts": "4.5",
@@ -1152,7 +1583,12 @@
             },
             {
               "Pos": "2",
-              "Player": "6     McIntyre,Julian",
+              "Player": {
+                "id": "6",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Rtg": "1547",
               "Fed": "",
               "Pts": "3.5",
@@ -1160,7 +1596,12 @@
             },
             {
               "Pos": "3",
-              "Player": "2   WIM  Szuveges,Narelle S",
+              "Player": {
+                "id": "2",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "playercard.html#2"
+              },
               "Rtg": "1556",
               "Fed": "",
               "Pts": "3.0",
@@ -1168,7 +1609,12 @@
             },
             {
               "Pos": "4",
-              "Player": "1     Enano,Ronald",
+              "Player": {
+                "id": "1",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Rtg": "1572",
               "Fed": "",
               "Pts": "1.5",
@@ -1176,7 +1622,12 @@
             },
             {
               "Pos": "5",
-              "Player": "3     Ilic,Milan",
+              "Player": {
+                "id": "3",
+                "playerName": "Ilic,Milan",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Rtg": "1541",
               "Fed": "",
               "Pts": "1.5",
@@ -1184,7 +1635,12 @@
             },
             {
               "Pos": "6",
-              "Player": "4     Whitford,Matthew",
+              "Player": {
+                "id": "4",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Rtg": "1562",
               "Fed": "",
               "Pts": "1.0",
@@ -1411,6 +1867,87 @@
       ]
     }
   ],
+  "players": [
+    {
+      "#": "1",
+      "Player": {
+        "id": "",
+        "playerName": "Enano,Ronald",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3227480"
+      },
+      "Fed": "",
+      "Rtg": "1572",
+      "RtgF": "0",
+      "RtgN": "1572"
+    },
+    {
+      "#": "4",
+      "Player": {
+        "id": "",
+        "playerName": "Whitford,Matthew",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3232220"
+      },
+      "Fed": "",
+      "Rtg": "1562",
+      "RtgF": "0",
+      "RtgN": "1562"
+    },
+    {
+      "#": "2",
+      "Player": {
+        "id": "",
+        "playerName": "Szuveges,Narelle S",
+        "gender": "female",
+        "href": "http://ratings.fide.com/card.phtml?event=3202640"
+      },
+      "Fed": "",
+      "Rtg": "1556",
+      "RtgF": "0",
+      "RtgN": "1556"
+    },
+    {
+      "#": "6",
+      "Player": {
+        "id": "",
+        "playerName": "McIntyre,Julian",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3232182"
+      },
+      "Fed": "",
+      "Rtg": "1547",
+      "RtgF": "0",
+      "RtgN": "1547"
+    },
+    {
+      "#": "3",
+      "Player": {
+        "id": "",
+        "playerName": "Ilic,Milan",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3207293"
+      },
+      "Fed": "",
+      "Rtg": "1541",
+      "RtgF": "0",
+      "RtgN": "1541"
+    },
+    {
+      "#": "5",
+      "Player": {
+        "id": "",
+        "playerName": "Hogan,Steven",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3201414"
+      },
+      "Fed": "",
+      "Rtg": "1494",
+      "RtgF": "0",
+      "RtgN": "1494"
+    }
+  ],
+  "category": "Senior",
   "metadata": {
     "Tournament Name": "Western Major 2024",
     "Place": "myTown",
@@ -1443,6 +1980,7 @@
     "CM players": "0",
     "WCM players": "0",
     "FIDE titled player from AUS Federation": "0",
-    "FIDE titled player NOT from AUS Federation": "1"
+    "FIDE titled player NOT from AUS Federation": "1",
+    "category": "Senior"
   }
 }

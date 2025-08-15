@@ -19,7 +19,12 @@
           "rows": [
             {
               "#": "1",
-              "Player": "WIM Szuveges,Narelle S",
+              "Player": {
+                "id": "",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "http://ratings.fide.com/card.phtml?event=3202640"
+              },
               "FIDE ID": "3202640",
               "Fed": "",
               "Rtg": "1701",
@@ -31,7 +36,12 @@
             },
             {
               "#": "2",
-              "Player": "Pasukov,Leo",
+              "Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3242900"
+              },
               "FIDE ID": "3242900",
               "Fed": "",
               "Rtg": "1709",
@@ -43,7 +53,12 @@
             },
             {
               "#": "3",
-              "Player": "McIntyre,Julian",
+              "Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3232182"
+              },
               "FIDE ID": "3232182",
               "Fed": "",
               "Rtg": "1705",
@@ -55,7 +70,12 @@
             },
             {
               "#": "4",
-              "Player": "Hogan,Steven",
+              "Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3201414"
+              },
               "FIDE ID": "3201414",
               "Fed": "",
               "Rtg": "1669",
@@ -67,7 +87,12 @@
             },
             {
               "#": "5",
-              "Player": "Enano,Ronald",
+              "Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3227480"
+              },
               "FIDE ID": "3227480",
               "Fed": "",
               "Rtg": "1753",
@@ -79,7 +104,12 @@
             },
             {
               "#": "6",
-              "Player": "Hari,Dhruv",
+              "Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3255360"
+              },
               "FIDE ID": "3255360",
               "Fed": "",
               "Rtg": "1720",
@@ -158,7 +188,16 @@
               "Rtg": "1753",
               "res": "0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "",
+            "id": "",
+            "moreInfo": {
+              "anchor": "1"
+            },
+            "rawText": "N = 1 Szuveges,Narelle S",
+            "rawHtml": " <a class=\"anchor\" name=\"1\"></a> N = 1<a href=\"http://ratings.fide.com/card.phtml?event=3202640\" target=\"X\"> Szuveges,Narelle S </a>"
+          }
         },
         {
           "headers": [
@@ -222,7 +261,16 @@
               "Rtg": "1669",
               "res": "0.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "",
+            "id": "",
+            "moreInfo": {
+              "anchor": "2"
+            },
+            "rawText": "N = 2 Pasukov,Leo",
+            "rawHtml": " <a class=\"anchor\" name=\"2\"></a> N = 2<a href=\"http://ratings.fide.com/card.phtml?event=3242900\" target=\"X\"> Pasukov,Leo </a>"
+          }
         },
         {
           "headers": [
@@ -286,7 +334,16 @@
               "Rtg": "1720",
               "res": "0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "",
+            "id": "",
+            "moreInfo": {
+              "anchor": "3"
+            },
+            "rawText": "N = 3 McIntyre,Julian",
+            "rawHtml": " <a class=\"anchor\" name=\"3\"></a> N = 3<a href=\"http://ratings.fide.com/card.phtml?event=3232182\" target=\"X\"> McIntyre,Julian </a>"
+          }
         },
         {
           "headers": [
@@ -350,7 +407,16 @@
               "Rtg": "1709",
               "res": "0.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "",
+            "id": "",
+            "moreInfo": {
+              "anchor": "4"
+            },
+            "rawText": "N = 4 Hogan,Steven",
+            "rawHtml": " <a class=\"anchor\" name=\"4\"></a> N = 4<a href=\"http://ratings.fide.com/card.phtml?event=3201414\" target=\"X\"> Hogan,Steven </a>"
+          }
         },
         {
           "headers": [
@@ -414,7 +480,16 @@
               "Rtg": "1701",
               "res": "1"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "",
+            "id": "",
+            "moreInfo": {
+              "anchor": "5"
+            },
+            "rawText": "N = 5 Enano,Ronald",
+            "rawHtml": " <a class=\"anchor\" name=\"5\"></a> N = 5<a href=\"http://ratings.fide.com/card.phtml?event=3227480\" target=\"X\"> Enano,Ronald </a>"
+          }
         },
         {
           "headers": [
@@ -478,7 +553,16 @@
               "Rtg": "1705",
               "res": "1"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "",
+            "id": "",
+            "moreInfo": {
+              "anchor": "6"
+            },
+            "rawText": "N = 6 Hari,Dhruv",
+            "rawHtml": " <a class=\"anchor\" name=\"6\"></a> N = 6<a href=\"http://ratings.fide.com/card.phtml?event=3255360\" target=\"X\"> Hari,Dhruv </a>"
+          }
         }
       ]
     },
@@ -498,7 +582,12 @@
           "rows": [
             {
               "#": "5",
-              "Player": "Enano,Ronald",
+              "Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3227480"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1575",
@@ -507,7 +596,12 @@
             },
             {
               "#": "1",
-              "Player": "WIM  Szuveges,Narelle S",
+              "Player": {
+                "id": "",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "http://ratings.fide.com/card.phtml?event=3202640"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1550",
@@ -516,7 +610,12 @@
             },
             {
               "#": "2",
-              "Player": "Pasukov,Leo",
+              "Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3242900"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1536",
@@ -525,7 +624,12 @@
             },
             {
               "#": "6",
-              "Player": "Hari,Dhruv",
+              "Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3255360"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1534",
@@ -534,7 +638,12 @@
             },
             {
               "#": "3",
-              "Player": "McIntyre,Julian",
+              "Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3232182"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1529",
@@ -543,7 +652,12 @@
             },
             {
               "#": "4",
-              "Player": "Hogan,Steven",
+              "Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3201414"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1493",
@@ -825,7 +939,18 @@
               "res": "0.0",
               "Pts": "3.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Szuveges,Narelle S",
+            "id": "3096051",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1550",
+              "anchor": "1"
+            },
+            "rawText": "1  WIM Szuveges,Narelle S  , K= 0, Elo=1550, ID=3096051",
+            "rawHtml": "   1  WIM <strong>Szuveges,Narelle S  </strong>, K= 0, Elo=1550, ID=3096051\n<br>\n<a class=\"anchor\" name=\"1\"></a>"
+          }
         },
         {
           "headers": [
@@ -889,7 +1014,18 @@
               "res": "0.5",
               "Pts": "1.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Pasukov,Leo",
+            "id": "3194935",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1536",
+              "anchor": "2"
+            },
+            "rawText": "2   Pasukov,Leo         , K= 0, Elo=1536, ID=3194935",
+            "rawHtml": "   2   <strong>Pasukov,Leo         </strong>, K= 0, Elo=1536, ID=3194935\n<br>\n<a class=\"anchor\" name=\"2\"></a>"
+          }
         },
         {
           "headers": [
@@ -953,7 +1089,18 @@
               "res": "0.0",
               "Pts": "3.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "McIntyre,Julian",
+            "id": "3176061",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1529",
+              "anchor": "3"
+            },
+            "rawText": "3   McIntyre,Julian     , K= 0, Elo=1529, ID=3176061",
+            "rawHtml": "   3   <strong>McIntyre,Julian     </strong>, K= 0, Elo=1529, ID=3176061\n<br>\n<a class=\"anchor\" name=\"3\"></a>"
+          }
         },
         {
           "headers": [
@@ -1017,7 +1164,18 @@
               "res": "0.5",
               "Pts": "2.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Hogan,Steven",
+            "id": "3112941",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1493",
+              "anchor": "4"
+            },
+            "rawText": "4   Hogan,Steven        , K= 0, Elo=1493, ID=3112941",
+            "rawHtml": "   4   <strong>Hogan,Steven        </strong>, K= 0, Elo=1493, ID=3112941\n<br>\n<a class=\"anchor\" name=\"4\"></a>"
+          }
         },
         {
           "headers": [
@@ -1081,7 +1239,18 @@
               "res": "1.0",
               "Pts": "2.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Enano,Ronald",
+            "id": "3096714",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1575",
+              "anchor": "5"
+            },
+            "rawText": "5   Enano,Ronald        , K= 0, Elo=1575, ID=3096714",
+            "rawHtml": "   5   <strong>Enano,Ronald        </strong>, K= 0, Elo=1575, ID=3096714\n<br>\n<a class=\"anchor\" name=\"5\"></a>"
+          }
         },
         {
           "headers": [
@@ -1145,7 +1314,18 @@
               "res": "1.0",
               "Pts": "3.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Hari,Dhruv",
+            "id": "3195311",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1534",
+              "anchor": "6"
+            },
+            "rawText": "6   Hari,Dhruv          , K= 0, Elo=1534, ID=3195311",
+            "rawHtml": "   6   <strong>Hari,Dhruv          </strong>, K= 0, Elo=1534, ID=3195311\n<br>\n<a class=\"anchor\" name=\"6\"></a>"
+          }
         }
       ]
     },
@@ -1165,7 +1345,12 @@
           "rows": [
             {
               "#": "5",
-              "Player": "Enano,Ronald",
+              "Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3227480"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1575",
@@ -1174,7 +1359,12 @@
             },
             {
               "#": "6",
-              "Player": "Hari,Dhruv",
+              "Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3255360"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1534",
@@ -1183,7 +1373,12 @@
             },
             {
               "#": "4",
-              "Player": "Hogan,Steven",
+              "Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3201414"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1493",
@@ -1192,7 +1387,12 @@
             },
             {
               "#": "3",
-              "Player": "McIntyre,Julian",
+              "Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3232182"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1529",
@@ -1201,7 +1401,12 @@
             },
             {
               "#": "2",
-              "Player": "Pasukov,Leo",
+              "Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3242900"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1536",
@@ -1210,7 +1415,12 @@
             },
             {
               "#": "1",
-              "Player": "WIM  Szuveges,Narelle S",
+              "Player": {
+                "id": "",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "http://ratings.fide.com/card.phtml?event=3202640"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1550",
@@ -1276,31 +1486,61 @@
               "Bo.": "1",
               "Fed": "",
               "Origin": "",
-              "White Player": "WIM Szuveges,Narelle S",
+              "White Player": {
+                "id": "",
+                "playerName": "WIM Szuveges,Narelle S",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "0 - 1",
               "NB": "6",
-              "Black Player": "Hari,Dhruv"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
               "Origin": "",
-              "White Player": "Pasukov,Leo",
+              "White Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "½ - ½",
               "NB": "5",
-              "Black Player": "Enano,Ronald"
+              "Black Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
               "Origin": "",
-              "White Player": "McIntyre,Julian",
+              "White Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "1 - 0",
               "NB": "4",
-              "Black Player": "Hogan,Steven"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             }
           ]
         },
@@ -1322,31 +1562,61 @@
               "Bo.": "1",
               "Fed": "",
               "Origin": "",
-              "White Player": "Hari,Dhruv",
+              "White Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "NW": "6",
               "Result": "1 - 0",
               "NB": "4",
-              "Black Player": "Hogan,Steven"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
               "Origin": "",
-              "White Player": "Enano,Ronald",
+              "White Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "NW": "5",
               "Result": "0 - 1",
               "NB": "3",
-              "Black Player": "McIntyre,Julian"
+              "Black Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
               "Origin": "",
-              "White Player": "WIM Szuveges,Narelle S",
+              "White Player": {
+                "id": "",
+                "playerName": "WIM Szuveges,Narelle S",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "1 - 0",
               "NB": "2",
-              "Black Player": "Pasukov,Leo"
+              "Black Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              }
             }
           ]
         },
@@ -1368,31 +1638,61 @@
               "Bo.": "1",
               "Fed": "",
               "Origin": "",
-              "White Player": "Pasukov,Leo",
+              "White Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "1 - 0",
               "NB": "6",
-              "Black Player": "Hari,Dhruv"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
               "Origin": "",
-              "White Player": "McIntyre,Julian",
+              "White Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "½ - ½",
               "NB": "1",
-              "Black Player": "WIM Szuveges,Narelle S"
+              "Black Player": {
+                "id": "",
+                "playerName": "WIM Szuveges,Narelle S",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
               "Origin": "",
-              "White Player": "Hogan,Steven",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "NW": "4",
               "Result": "½ - ½",
               "NB": "5",
-              "Black Player": "Enano,Ronald"
+              "Black Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             }
           ]
         },
@@ -1414,31 +1714,61 @@
               "Bo.": "1",
               "Fed": "",
               "Origin": "",
-              "White Player": "Hari,Dhruv",
+              "White Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "NW": "6",
               "Result": "0 - 1",
               "NB": "5",
-              "Black Player": "Enano,Ronald"
+              "Black Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
               "Origin": "",
-              "White Player": "WIM Szuveges,Narelle S",
+              "White Player": {
+                "id": "",
+                "playerName": "WIM Szuveges,Narelle S",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "1 - 0",
               "NB": "4",
-              "Black Player": "Hogan,Steven"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
               "Origin": "",
-              "White Player": "Pasukov,Leo",
+              "White Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "½ - ½",
               "NB": "3",
-              "Black Player": "McIntyre,Julian"
+              "Black Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              }
             }
           ]
         },
@@ -1460,31 +1790,61 @@
               "Bo.": "1",
               "Fed": "",
               "Origin": "",
-              "White Player": "McIntyre,Julian",
+              "White Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "0 - 1",
               "NB": "6",
-              "Black Player": "Hari,Dhruv"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
               "Origin": "",
-              "White Player": "Hogan,Steven",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "NW": "4",
               "Result": "½ - ½",
               "NB": "2",
-              "Black Player": "Pasukov,Leo"
+              "Black Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
               "Origin": "",
-              "White Player": "Enano,Ronald",
+              "White Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "NW": "5",
               "Result": "1 - 0",
               "NB": "1",
-              "Black Player": "WIM Szuveges,Narelle S"
+              "Black Player": {
+                "id": "",
+                "playerName": "WIM Szuveges,Narelle S",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              }
             }
           ]
         }
@@ -1618,7 +1978,12 @@
           "rows": [
             {
               "Pos": "1",
-              "Player": "Enano,Ronald\n\t\t \n\t\t\n\t\t\t 5 \n\t\t\t \n -\n\t\t\t\n\t\t\t1575",
+              "Player": {
+                "id": "5",
+                "playerName": "",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Origin": "",
               "Pts": "3.0",
               "SB": "7.25",
@@ -1626,7 +1991,12 @@
             },
             {
               "Pos": "2",
-              "Player": "McIntyre,Julian\n\t\t \n\t\t\n\t\t\t 3 \n\t\t\t \n -\n\t\t\t\n\t\t\t1529",
+              "Player": {
+                "id": "3",
+                "playerName": "",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Origin": "",
               "Pts": "3.0",
               "SB": "6.50",
@@ -1634,7 +2004,12 @@
             },
             {
               "Pos": "3",
-              "Player": "Hari,Dhruv\n\t\t \n\t\t\n\t\t\t 6 \n\t\t\t \n -\n\t\t\t\n\t\t\t1534",
+              "Player": {
+                "id": "6",
+                "playerName": "",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Origin": "",
               "Pts": "3.0",
               "SB": "6.50",
@@ -1642,7 +2017,12 @@
             },
             {
               "Pos": "4",
-              "Player": "Pasukov,Leo\n\t\t \n\t\t\n\t\t\t 2 \n\t\t\t \n -\n\t\t\t\n\t\t\t1536",
+              "Player": {
+                "id": "2",
+                "playerName": "",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Origin": "",
               "Pts": "2.5",
               "SB": "6.50",
@@ -1650,7 +2030,12 @@
             },
             {
               "Pos": "5",
-              "Player": "Szuveges,Narelle S\n\t\t \n\t\t\n\t\t\t 1 \n\t\t\t \n WIM\n\t\t\t\n\t\t\t1550",
+              "Player": {
+                "id": "1",
+                "playerName": "",
+                "gender": "female",
+                "href": "playercard.html#1"
+              },
               "Origin": "",
               "Pts": "2.5",
               "SB": "5.00",
@@ -1658,7 +2043,12 @@
             },
             {
               "Pos": "6",
-              "Player": "Hogan,Steven\n\t\t \n\t\t\n\t\t\t 4 \n\t\t\t \n -\n\t\t\t\n\t\t\t1493",
+              "Player": {
+                "id": "4",
+                "playerName": "",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Origin": "",
               "Pts": "1.0",
               "SB": "2.75",
@@ -1885,6 +2275,93 @@
       ]
     }
   ],
+  "players": [
+    {
+      "#": "5",
+      "Player": {
+        "id": "",
+        "playerName": "Enano,Ronald",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3227480"
+      },
+      "Fed": "",
+      "Origin": "",
+      "Rtg": "1575",
+      "RtgF": "1753",
+      "RtgN": "1575"
+    },
+    {
+      "#": "1",
+      "Player": {
+        "id": "",
+        "playerName": "Szuveges,Narelle S",
+        "gender": "female",
+        "href": "http://ratings.fide.com/card.phtml?event=3202640"
+      },
+      "Fed": "",
+      "Origin": "",
+      "Rtg": "1550",
+      "RtgF": "1701",
+      "RtgN": "1550"
+    },
+    {
+      "#": "2",
+      "Player": {
+        "id": "",
+        "playerName": "Pasukov,Leo",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3242900"
+      },
+      "Fed": "",
+      "Origin": "",
+      "Rtg": "1536",
+      "RtgF": "1709",
+      "RtgN": "1536"
+    },
+    {
+      "#": "6",
+      "Player": {
+        "id": "",
+        "playerName": "Hari,Dhruv",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3255360"
+      },
+      "Fed": "",
+      "Origin": "",
+      "Rtg": "1534",
+      "RtgF": "1720",
+      "RtgN": "1534"
+    },
+    {
+      "#": "3",
+      "Player": {
+        "id": "",
+        "playerName": "McIntyre,Julian",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3232182"
+      },
+      "Fed": "",
+      "Origin": "",
+      "Rtg": "1529",
+      "RtgF": "1705",
+      "RtgN": "1529"
+    },
+    {
+      "#": "4",
+      "Player": {
+        "id": "",
+        "playerName": "Hogan,Steven",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3201414"
+      },
+      "Fed": "",
+      "Origin": "",
+      "Rtg": "1493",
+      "RtgF": "1669",
+      "RtgN": "1493"
+    }
+  ],
+  "category": "Senior",
   "metadata": {
     "Tournament Name": "2025 Hobsons Bay Western Major",
     "Place": "Hobsons Bay",
@@ -1917,6 +2394,7 @@
     "CM players": "0",
     "WCM players": "0",
     "FIDE titled player from AUS Federation": "0",
-    "FIDE titled player NOT from AUS Federation": "1"
+    "FIDE titled player NOT from AUS Federation": "1",
+    "category": "Senior"
   }
 }

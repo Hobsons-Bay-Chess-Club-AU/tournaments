@@ -24,11 +24,25 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <div className="bg-gradient-to-br from-blue-50 to-blue-200 min-h-screen font-sans">
+          <header className="bg-white shadow flex items-center justify-between px-6 py-4">
+            <div className="flex items-center gap-4">
+              <a href="/" className="flex items-center gap-4">
+                <img src="/logo.png" alt="HBCC Logo" className="h-10 w-10 rounded-full border border-blue-300" />
+                <span className="text-2xl font-bold text-blue-700 tracking-wide">Hobsons Bay Chess Club</span>
+              </a>
+            </div>
+            <nav>
+              <a href="/timeline" className="text-blue-600 hover:text-blue-900 font-semibold px-4 py-2 rounded transition">Timeline</a>
+            </nav>
+          </header>
+          <main className="container mx-auto px-4 py-8">{children}</main>
+          <footer className="bg-white border-t mt-12 py-6 text-center text-gray-500 text-sm">
+            &copy; {new Date().getFullYear()} Hobsons Bay Chess Club. All rights reserved.
+          </footer>
+        </div>
       </body>
     </html>
-  );
-}
+  )
+};

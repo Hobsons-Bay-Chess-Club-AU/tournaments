@@ -536,95 +536,210 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "6    Ashok,Arjun",
+              "White Player": {
+                "id": "6",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "2",
               "Result": "...",
-              "Black Player": "16    Balaji,Sai Sivesh"
+              "Black Player": {
+                "id": "16",
+                "playerName": "Balaji,Sai Sivesh",
+                "gender": "male",
+                "href": "playercard.html#16"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "15    Ahmad,Ihtiram",
+              "White Player": {
+                "id": "15",
+                "playerName": "Ahmad,Ihtiram",
+                "gender": "male",
+                "href": "playercard.html#15"
+              },
               "Pts": "2",
               "Result": "...",
-              "Black Player": "21    Jyothi Nikhil,Neev"
+              "Black Player": {
+                "id": "21",
+                "playerName": "Jyothi Nikhil,Neev",
+                "gender": "male",
+                "href": "playercard.html#21"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "7    Batyrbekov,Aidan",
+              "White Player": {
+                "id": "7",
+                "playerName": "Batyrbekov,Aidan",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
               "Pts": "1.5",
               "Result": "...",
-              "Black Player": "5    Veginati,Cherish"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Veginati,Cherish",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "20    Jagannathan,Shashvath",
+              "White Player": {
+                "id": "20",
+                "playerName": "Jagannathan,Shashvath",
+                "gender": "male",
+                "href": "playercard.html#20"
+              },
               "Pts": "1.5",
               "Result": "...",
-              "Black Player": "12    Batyrbekov,Kuanysh"
+              "Black Player": {
+                "id": "12",
+                "playerName": "Batyrbekov,Kuanysh",
+                "gender": "male",
+                "href": "playercard.html#12"
+              }
             },
             {
               "Bo.": "5",
               "Fed": "",
-              "White Player": "9    Ruaya,Rohan",
+              "White Player": {
+                "id": "9",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#9"
+              },
               "Pts": "1",
               "Result": "...",
-              "Black Player": "1    Kirk,Ian"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Kirk,Ian",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "6",
               "Fed": "",
-              "White Player": "2    Yendru,Srikrishna",
+              "White Player": {
+                "id": "2",
+                "playerName": "Yendru,Srikrishna",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "1",
               "Result": "...",
-              "Black Player": "11    Karthick,Deepshika"
+              "Black Player": {
+                "id": "11",
+                "playerName": "Karthick,Deepshika",
+                "gender": "female",
+                "href": "playercard.html#11"
+              }
             },
             {
               "Bo.": "7",
               "Fed": "",
-              "White Player": "18    Huang,Michael",
+              "White Player": {
+                "id": "18",
+                "playerName": "Huang,Michael",
+                "gender": "male",
+                "href": "playercard.html#18"
+              },
               "Pts": "1",
               "Result": "...",
-              "Black Player": "3    Wei,Andrew"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "8",
               "Fed": "",
-              "White Player": "8    Nguyen,Tuan Kiet",
+              "White Player": {
+                "id": "8",
+                "playerName": "Nguyen,Tuan Kiet",
+                "gender": "male",
+                "href": "playercard.html#8"
+              },
               "Pts": "1",
               "Result": "...",
-              "Black Player": "22    Morris,Elijah"
+              "Black Player": {
+                "id": "22",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "playercard.html#22"
+              }
             },
             {
               "Bo.": "9",
               "Fed": "",
-              "White Player": "24    Shinde,Yug",
+              "White Player": {
+                "id": "24",
+                "playerName": "Shinde,Yug",
+                "gender": "male",
+                "href": "playercard.html#24"
+              },
               "Pts": "0.5",
               "Result": "...",
-              "Black Player": "4    Batyrbekov,Kaisar"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Batyrbekov,Kaisar",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "10",
               "Fed": "",
-              "White Player": "13    Goh,Nicholas",
+              "White Player": {
+                "id": "13",
+                "playerName": "Goh,Nicholas",
+                "gender": "male",
+                "href": "playercard.html#13"
+              },
               "Pts": "0.5",
               "Result": "...",
-              "Black Player": "10    Saha,Avinandan (Arjun)"
+              "Black Player": {
+                "id": "10",
+                "playerName": "Saha,Avinandan (Arjun)",
+                "gender": "male",
+                "href": "playercard.html#10"
+              }
             },
             {
               "Bo.": "11",
               "Fed": "",
-              "White Player": "19    Husain,Lamiah",
+              "White Player": {
+                "id": "19",
+                "playerName": "Husain,Lamiah",
+                "gender": "female",
+                "href": "playercard.html#19"
+              },
               "Pts": "0",
               "Result": "...",
-              "Black Player": "14    Das,Ayush"
+              "Black Player": {
+                "id": "14",
+                "playerName": "Das,Ayush",
+                "gender": "male",
+                "href": "playercard.html#14"
+              }
             },
             {
               "Bo.": "12",
               "Fed": "",
-              "White Player": "23    Shaiek,Nihal",
+              "White Player": {
+                "id": "23",
+                "playerName": "Shaiek,Nihal",
+                "gender": "male",
+                "href": "playercard.html#23"
+              },
               "Pts": "0",
               "Result": "1",
               "Black Player": "( bye )"
@@ -632,7 +747,12 @@
             {
               "Bo.": "13",
               "Fed": "",
-              "White Player": "17    Balamurugan,Soorya",
+              "White Player": {
+                "id": "17",
+                "playerName": "Balamurugan,Soorya",
+                "gender": "male",
+                "href": "playercard.html#17"
+              },
               "Pts": "0",
               "Result": "0",
               "Black Player": "( not paired )"
@@ -641,5 +761,9 @@
         }
       ]
     }
+  },
+  "category": "Junior",
+  "metadata": {
+    "category": "Junior"
   }
 }

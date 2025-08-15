@@ -26,7 +26,12 @@
               "5": "½ BYE",
               "6": "03",
               "7": "18",
-              "Player": "1   Yang,Yifan",
+              "Player": {
+                "id": "1",
+                "playerName": "Yang,Yifan",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Rtg": "1080",
               "Fed": "",
               "Pts": "5.5"
@@ -39,7 +44,12 @@
               "5": "122",
               "6": "04",
               "7": "15",
-              "Player": "2   Wei,Andrew",
+              "Player": {
+                "id": "2",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Rtg": "1031",
               "Fed": "",
               "Pts": "4.5"
@@ -52,7 +62,12 @@
               "5": "17",
               "6": "11",
               "7": "124",
-              "Player": "3   Nguyen,Anh Kiet",
+              "Player": {
+                "id": "3",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Rtg": "1013",
               "Fed": "",
               "Pts": "6.0"
@@ -65,7 +80,12 @@
               "5": "½24",
               "6": "12",
               "7": "110",
-              "Player": "4   Majety,Rohan",
+              "Player": {
+                "id": "4",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Rtg": "859",
               "Fed": "",
               "Pts": "5.5"
@@ -78,7 +98,12 @@
               "5": "010",
               "6": "123",
               "7": "02",
-              "Player": "5   Ashok,Arjun",
+              "Player": {
+                "id": "5",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Rtg": "776",
               "Fed": "",
               "Pts": "3.5"
@@ -91,7 +116,12 @@
               "5": "120",
               "6": "119",
               "7": "17",
-              "Player": "6   Bo,Jeremie",
+              "Player": {
+                "id": "6",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Rtg": "753",
               "Fed": "",
               "Pts": "4.5"
@@ -104,7 +134,12 @@
               "5": "03",
               "6": "122",
               "7": "06",
-              "Player": "7   Nguyen,Tuan Kiet",
+              "Player": {
+                "id": "7",
+                "playerName": "Nguyen,Tuan Kiet",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
               "Rtg": "728",
               "Fed": "",
               "Pts": "4.0"
@@ -117,7 +152,12 @@
               "5": "113",
               "6": "111",
               "7": "01",
-              "Player": "8   Husain,Lamiah",
+              "Player": {
+                "id": "8",
+                "playerName": "Husain,Lamiah",
+                "gender": "female",
+                "href": "playercard.html#8"
+              },
               "Rtg": "572",
               "Fed": "",
               "Pts": "4.0"
@@ -130,7 +170,12 @@
               "5": "023",
               "6": "113",
               "7": "011",
-              "Player": "9   Pathiyassery,Emir",
+              "Player": {
+                "id": "9",
+                "playerName": "Pathiyassery,Emir",
+                "gender": "male",
+                "href": "playercard.html#9"
+              },
               "Rtg": "420",
               "Fed": "",
               "Pts": "3.0"
@@ -143,7 +188,12 @@
               "5": "15",
               "6": "½24",
               "7": "04",
-              "Player": "10   Ruaya,Rohan",
+              "Player": {
+                "id": "10",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#10"
+              },
               "Rtg": "418",
               "Fed": "",
               "Pts": "4.0"
@@ -156,7 +206,12 @@
               "5": "114",
               "6": "08",
               "7": "19",
-              "Player": "11   Goh,Nicholas",
+              "Player": {
+                "id": "11",
+                "playerName": "Goh,Nicholas",
+                "gender": "male",
+                "href": "playercard.html#11"
+              },
               "Rtg": "347",
               "Fed": "",
               "Pts": "4.0"
@@ -169,7 +224,12 @@
               "5": "019",
               "6": "116",
               "7": "022",
-              "Player": "12   Bo,Jamie",
+              "Player": {
+                "id": "12",
+                "playerName": "Bo,Jamie",
+                "gender": "female",
+                "href": "playercard.html#12"
+              },
               "Rtg": "277",
               "Fed": "",
               "Pts": "2.5"
@@ -182,7 +242,12 @@
               "5": "08",
               "6": "09",
               "7": "016",
-              "Player": "13   Venkatesh,Arvind",
+              "Player": {
+                "id": "13",
+                "playerName": "Venkatesh,Arvind",
+                "gender": "male",
+                "href": "playercard.html#13"
+              },
               "Rtg": "179",
               "Fed": "",
               "Pts": "2.0"
@@ -195,7 +260,12 @@
               "5": "011",
               "6": "117",
               "7": "015",
-              "Player": "14   Shenbaga,Kabilan",
+              "Player": {
+                "id": "14",
+                "playerName": "Shenbaga,Kabilan",
+                "gender": "male",
+                "href": "playercard.html#14"
+              },
               "Rtg": "116",
               "Fed": "",
               "Pts": "3.0"
@@ -208,7 +278,12 @@
               "5": "017",
               "6": "125",
               "7": "014",
-              "Player": "15   Chan,Abby",
+              "Player": {
+                "id": "15",
+                "playerName": "Chan,Abby",
+                "gender": "female",
+                "href": "playercard.html#15"
+              },
               "Rtg": "100",
               "Fed": "",
               "Pts": "2.0"
@@ -221,7 +296,12 @@
               "5": "125",
               "6": "012",
               "7": "113",
-              "Player": "16   Balamurgan,Soorya",
+              "Player": {
+                "id": "16",
+                "playerName": "Balamurgan,Soorya",
+                "gender": "male",
+                "href": "playercard.html#16"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "3.0"
@@ -234,7 +314,12 @@
               "5": "115",
               "6": "014",
               "7": "020",
-              "Player": "17   Bodke,Aryan",
+              "Player": {
+                "id": "17",
+                "playerName": "Bodke,Aryan",
+                "gender": "male",
+                "href": "playercard.html#17"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "2.0"
@@ -247,7 +332,12 @@
               "5": "021",
               "6": "021",
               "7": "125",
-              "Player": "18   Bodke,Sahasra",
+              "Player": {
+                "id": "18",
+                "playerName": "Bodke,Sahasra",
+                "gender": "female",
+                "href": "playercard.html#18"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "1.0"
@@ -260,7 +350,12 @@
               "5": "112",
               "6": "06",
               "7": "121",
-              "Player": "19   Das,Ayush",
+              "Player": {
+                "id": "19",
+                "playerName": "Das,Ayush",
+                "gender": "male",
+                "href": "playercard.html#19"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "3.5"
@@ -273,7 +368,12 @@
               "5": "06",
               "6": "",
               "7": "117",
-              "Player": "20   Kukdeja,Aarav",
+              "Player": {
+                "id": "20",
+                "playerName": "Kukdeja,Aarav",
+                "gender": "male",
+                "href": "playercard.html#20"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "2.5"
@@ -286,7 +386,12 @@
               "5": "118",
               "6": "118",
               "7": "019",
-              "Player": "21   Nethi,Karthika",
+              "Player": {
+                "id": "21",
+                "playerName": "Nethi,Karthika",
+                "gender": "female",
+                "href": "playercard.html#21"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "2.0"
@@ -299,7 +404,12 @@
               "5": "02",
               "6": "07",
               "7": "112",
-              "Player": "22   Rai,Ishaan",
+              "Player": {
+                "id": "22",
+                "playerName": "Rai,Ishaan",
+                "gender": "male",
+                "href": "playercard.html#22"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "4.0"
@@ -312,7 +422,12 @@
               "5": "19",
               "6": "05",
               "7": "",
-              "Player": "23   Vijayakumar,Rithv(W)",
+              "Player": {
+                "id": "23",
+                "playerName": "Vijayakumar,Rithv(W)",
+                "gender": "male",
+                "href": "playercard.html#23"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "3.0"
@@ -325,7 +440,12 @@
               "5": "½4",
               "6": "½10",
               "7": "03",
-              "Player": "24   Morris,Elijah",
+              "Player": {
+                "id": "24",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "playercard.html#24"
+              },
               "Rtg": "654",
               "Fed": "",
               "Pts": "4.0"
@@ -338,7 +458,12 @@
               "5": "016",
               "6": "015",
               "7": "018",
-              "Player": "25   Naidu,Aarush",
+              "Player": {
+                "id": "25",
+                "playerName": "Naidu,Aarush",
+                "gender": "male",
+                "href": "playercard.html#25"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "1.0"
@@ -378,7 +503,12 @@
               "6": "12",
               "7": "18",
               "Pos": "1",
-              "Player": "Nguyen,Anh Kiet",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Rtg": "1013",
               "Fed": "",
               "Pts": "6.0",
@@ -395,7 +525,12 @@
               "6": "01",
               "7": "19",
               "Pos": "2",
-              "Player": "Yang,Yifan",
+              "Player": {
+                "id": "",
+                "playerName": "Yang,Yifan",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Rtg": "1080",
               "Fed": "",
               "Pts": "5.5",
@@ -412,7 +547,12 @@
               "6": "14",
               "7": "17",
               "Pos": "3",
-              "Player": "Majety,Rohan",
+              "Player": {
+                "id": "",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Rtg": "859",
               "Fed": "",
               "Pts": "5.5",
@@ -429,7 +569,12 @@
               "6": "03",
               "7": "112",
               "Pos": "4",
-              "Player": "Wei,Andrew",
+              "Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Rtg": "1031",
               "Fed": "",
               "Pts": "4.5",
@@ -446,7 +591,12 @@
               "6": "113",
               "7": "16",
               "Pos": "5",
-              "Player": "Bo,Jeremie",
+              "Player": {
+                "id": "",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Rtg": "753",
               "Fed": "",
               "Pts": "4.5",
@@ -463,7 +613,12 @@
               "6": "110",
               "7": "05",
               "Pos": "6",
-              "Player": "Nguyen,Tuan Kiet",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Tuan Kiet",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
               "Rtg": "728",
               "Fed": "",
               "Pts": "4.0",
@@ -480,7 +635,12 @@
               "6": "½8",
               "7": "03",
               "Pos": "7",
-              "Player": "Ruaya,Rohan",
+              "Player": {
+                "id": "",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#10"
+              },
               "Rtg": "418",
               "Fed": "",
               "Pts": "4.0",
@@ -497,7 +657,12 @@
               "6": "½7",
               "7": "01",
               "Pos": "8",
-              "Player": "Morris,Elijah",
+              "Player": {
+                "id": "",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "playercard.html#24"
+              },
               "Rtg": "654",
               "Fed": "",
               "Pts": "4.0",
@@ -514,7 +679,12 @@
               "6": "111",
               "7": "02",
               "Pos": "9",
-              "Player": "Husain,Lamiah",
+              "Player": {
+                "id": "",
+                "playerName": "Husain,Lamiah",
+                "gender": "female",
+                "href": "playercard.html#8"
+              },
               "Rtg": "572",
               "Fed": "",
               "Pts": "4.0",
@@ -531,7 +701,12 @@
               "6": "06",
               "7": "118",
               "Pos": "10",
-              "Player": "Rai,Ishaan",
+              "Player": {
+                "id": "",
+                "playerName": "Rai,Ishaan",
+                "gender": "male",
+                "href": "playercard.html#22"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "4.0",
@@ -548,7 +723,12 @@
               "6": "09",
               "7": "114",
               "Pos": "11",
-              "Player": "Goh,Nicholas",
+              "Player": {
+                "id": "",
+                "playerName": "Goh,Nicholas",
+                "gender": "male",
+                "href": "playercard.html#11"
+              },
               "Rtg": "347",
               "Fed": "",
               "Pts": "4.0",
@@ -565,7 +745,12 @@
               "6": "117",
               "7": "04",
               "Pos": "12",
-              "Player": "Ashok,Arjun",
+              "Player": {
+                "id": "",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Rtg": "776",
               "Fed": "",
               "Pts": "3.5",
@@ -582,7 +767,12 @@
               "6": "05",
               "7": "123",
               "Pos": "13",
-              "Player": "Das,Ayush",
+              "Player": {
+                "id": "",
+                "playerName": "Das,Ayush",
+                "gender": "male",
+                "href": "playercard.html#19"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "3.5",
@@ -599,7 +789,12 @@
               "6": "120",
               "7": "011",
               "Pos": "14",
-              "Player": "Pathiyassery,Emir",
+              "Player": {
+                "id": "",
+                "playerName": "Pathiyassery,Emir",
+                "gender": "male",
+                "href": "playercard.html#9"
+              },
               "Rtg": "420",
               "Fed": "",
               "Pts": "3.0",
@@ -616,7 +811,12 @@
               "6": "122",
               "7": "021",
               "Pos": "15",
-              "Player": "Shenbaga,Kabilan",
+              "Player": {
+                "id": "",
+                "playerName": "Shenbaga,Kabilan",
+                "gender": "male",
+                "href": "playercard.html#14"
+              },
               "Rtg": "116",
               "Fed": "",
               "Pts": "3.0",
@@ -633,7 +833,12 @@
               "6": "018",
               "7": "120",
               "Pos": "16",
-              "Player": "Balamurgan,Soorya",
+              "Player": {
+                "id": "",
+                "playerName": "Balamurgan,Soorya",
+                "gender": "male",
+                "href": "playercard.html#16"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "3.0",
@@ -650,7 +855,12 @@
               "6": "012",
               "7": "",
               "Pos": "17",
-              "Player": "Vijayakumar,Rithvik        (W)",
+              "Player": {
+                "id": "",
+                "playerName": "Vijayakumar,Rithvik        (W)",
+                "gender": "male",
+                "href": "playercard.html#23"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "3.0",
@@ -667,7 +877,12 @@
               "6": "116",
               "7": "010",
               "Pos": "18",
-              "Player": "Bo,Jamie",
+              "Player": {
+                "id": "",
+                "playerName": "Bo,Jamie",
+                "gender": "female",
+                "href": "playercard.html#12"
+              },
               "Rtg": "277",
               "Fed": "",
               "Pts": "2.5",
@@ -684,7 +899,12 @@
               "6": "",
               "7": "122",
               "Pos": "19",
-              "Player": "Kukdeja,Aarav",
+              "Player": {
+                "id": "",
+                "playerName": "Kukdeja,Aarav",
+                "gender": "male",
+                "href": "playercard.html#20"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "2.5",
@@ -701,7 +921,12 @@
               "6": "014",
               "7": "016",
               "Pos": "20",
-              "Player": "Venkatesh,Arvind",
+              "Player": {
+                "id": "",
+                "playerName": "Venkatesh,Arvind",
+                "gender": "male",
+                "href": "playercard.html#13"
+              },
               "Rtg": "179",
               "Fed": "",
               "Pts": "2.0",
@@ -718,7 +943,12 @@
               "6": "125",
               "7": "015",
               "Pos": "21",
-              "Player": "Chan,Abby",
+              "Player": {
+                "id": "",
+                "playerName": "Chan,Abby",
+                "gender": "female",
+                "href": "playercard.html#15"
+              },
               "Rtg": "100",
               "Fed": "",
               "Pts": "2.0",
@@ -735,7 +965,12 @@
               "6": "015",
               "7": "019",
               "Pos": "22",
-              "Player": "Bodke,Aryan",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Aryan",
+                "gender": "male",
+                "href": "playercard.html#17"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "2.0",
@@ -752,7 +987,12 @@
               "6": "124",
               "7": "013",
               "Pos": "23",
-              "Player": "Nethi,Karthika",
+              "Player": {
+                "id": "",
+                "playerName": "Nethi,Karthika",
+                "gender": "female",
+                "href": "playercard.html#21"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "2.0",
@@ -769,7 +1009,12 @@
               "6": "023",
               "7": "125",
               "Pos": "24",
-              "Player": "Bodke,Sahasra",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Sahasra",
+                "gender": "female",
+                "href": "playercard.html#18"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "1.0",
@@ -786,7 +1031,12 @@
               "6": "021",
               "7": "024",
               "Pos": "25",
-              "Player": "Naidu,Aarush",
+              "Player": {
+                "id": "",
+                "playerName": "Naidu,Aarush",
+                "gender": "male",
+                "href": "playercard.html#25"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "1.0",
@@ -841,7 +1091,12 @@
           "rows": [
             {
               "#": "1",
-              "Player": "Yang,Yifan",
+              "Player": {
+                "id": "",
+                "playerName": "Yang,Yifan",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3275272"
+              },
               "Fed": "",
               "Rtg": "1080",
               "RtgF": "0",
@@ -849,7 +1104,12 @@
             },
             {
               "#": "2",
-              "Player": "Wei,Andrew",
+              "Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3265277"
+              },
               "Fed": "",
               "Rtg": "1031",
               "RtgF": "0",
@@ -857,7 +1117,12 @@
             },
             {
               "#": "3",
-              "Player": "Nguyen,Anh Kiet",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3267849"
+              },
               "Fed": "",
               "Rtg": "1013",
               "RtgF": "0",
@@ -865,7 +1130,12 @@
             },
             {
               "#": "4",
-              "Player": "Majety,Rohan",
+              "Player": {
+                "id": "",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3260062"
+              },
               "Fed": "",
               "Rtg": "859",
               "RtgF": "0",
@@ -873,7 +1143,12 @@
             },
             {
               "#": "5",
-              "Player": "Ashok,Arjun",
+              "Player": {
+                "id": "",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3275108"
+              },
               "Fed": "",
               "Rtg": "776",
               "RtgF": "0",
@@ -881,7 +1156,12 @@
             },
             {
               "#": "6",
-              "Player": "Bo,Jeremie",
+              "Player": {
+                "id": "",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3264696"
+              },
               "Fed": "",
               "Rtg": "753",
               "RtgF": "0",
@@ -889,7 +1169,12 @@
             },
             {
               "#": "7",
-              "Player": "Nguyen,Tuan Kiet",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Tuan Kiet",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3270335"
+              },
               "Fed": "",
               "Rtg": "728",
               "RtgF": "0",
@@ -897,7 +1182,12 @@
             },
             {
               "#": "24",
-              "Player": "Morris,Elijah",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "654",
               "RtgF": "0",
@@ -905,7 +1195,12 @@
             },
             {
               "#": "8",
-              "Player": "Husain,Lamiah",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "female",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "572",
               "RtgF": "0",
@@ -913,7 +1208,12 @@
             },
             {
               "#": "9",
-              "Player": "Pathiyassery,Emir",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "420",
               "RtgF": "0",
@@ -921,7 +1221,12 @@
             },
             {
               "#": "10",
-              "Player": "Ruaya,Rohan",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "418",
               "RtgF": "0",
@@ -929,7 +1234,12 @@
             },
             {
               "#": "11",
-              "Player": "Goh,Nicholas",
+              "Player": {
+                "id": "",
+                "playerName": "Goh,Nicholas",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3254917"
+              },
               "Fed": "",
               "Rtg": "347",
               "RtgF": "0",
@@ -937,7 +1247,12 @@
             },
             {
               "#": "12",
-              "Player": "Bo,Jamie",
+              "Player": {
+                "id": "",
+                "playerName": "Bo,Jamie",
+                "gender": "female",
+                "href": "http://ratings.fide.com/card.phtml?event=3264688"
+              },
               "Fed": "",
               "Rtg": "277",
               "RtgF": "0",
@@ -945,7 +1260,12 @@
             },
             {
               "#": "13",
-              "Player": "Venkatesh,Arvind",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "179",
               "RtgF": "0",
@@ -953,7 +1273,12 @@
             },
             {
               "#": "14",
-              "Player": "Shenbaga,Kabilan",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "116",
               "RtgF": "0",
@@ -961,7 +1286,12 @@
             },
             {
               "#": "15",
-              "Player": "Chan,Abby",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "female",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "100",
               "RtgF": "0",
@@ -969,7 +1299,12 @@
             },
             {
               "#": "16",
-              "Player": "Balamurgan,Soorya",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -977,7 +1312,12 @@
             },
             {
               "#": "17",
-              "Player": "Bodke,Aryan",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -985,7 +1325,12 @@
             },
             {
               "#": "18",
-              "Player": "Bodke,Sahasra",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Sahasra",
+                "gender": "female",
+                "href": "http://ratings.fide.com/card.phtml?event=3259030"
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -993,7 +1338,12 @@
             },
             {
               "#": "19",
-              "Player": "Das,Ayush",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -1001,7 +1351,12 @@
             },
             {
               "#": "20",
-              "Player": "Kukdeja,Aarav",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -1009,7 +1364,12 @@
             },
             {
               "#": "25",
-              "Player": "Naidu,Aarush",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -1017,7 +1377,12 @@
             },
             {
               "#": "21",
-              "Player": "Nethi,Karthika",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "female",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -1025,7 +1390,12 @@
             },
             {
               "#": "22",
-              "Player": "Rai,Ishaan",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -1033,7 +1403,12 @@
             },
             {
               "#": "23",
-              "Player": "Vijayakumar,Rithvik",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -1077,95 +1452,210 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "13    Venkatesh,Arvind",
+              "White Player": {
+                "id": "13",
+                "playerName": "Venkatesh,Arvind",
+                "gender": "male",
+                "href": "playercard.html#13"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "1    Yang,Yifan"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Yang,Yifan",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "2    Wei,Andrew",
+              "White Player": {
+                "id": "2",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "14    Shenbaga,Kabilan"
+              "Black Player": {
+                "id": "14",
+                "playerName": "Shenbaga,Kabilan",
+                "gender": "male",
+                "href": "playercard.html#14"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "15    Chan,Abby",
+              "White Player": {
+                "id": "15",
+                "playerName": "Chan,Abby",
+                "gender": "female",
+                "href": "playercard.html#15"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "3    Nguyen,Anh Kiet"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "4    Majety,Rohan",
+              "White Player": {
+                "id": "4",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "16    Balamurgan,Soorya"
+              "Black Player": {
+                "id": "16",
+                "playerName": "Balamurgan,Soorya",
+                "gender": "male",
+                "href": "playercard.html#16"
+              }
             },
             {
               "Bo.": "5",
               "Fed": "",
-              "White Player": "17    Bodke,Aryan",
+              "White Player": {
+                "id": "17",
+                "playerName": "Bodke,Aryan",
+                "gender": "male",
+                "href": "playercard.html#17"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "5    Ashok,Arjun"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "6",
               "Fed": "",
-              "White Player": "6    Bo,Jeremie",
+              "White Player": {
+                "id": "6",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "18    Bodke,Sahasra"
+              "Black Player": {
+                "id": "18",
+                "playerName": "Bodke,Sahasra",
+                "gender": "female",
+                "href": "playercard.html#18"
+              }
             },
             {
               "Bo.": "7",
               "Fed": "",
-              "White Player": "19    Das,Ayush",
+              "White Player": {
+                "id": "19",
+                "playerName": "Das,Ayush",
+                "gender": "male",
+                "href": "playercard.html#19"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "7    Nguyen,Tuan Kiet"
+              "Black Player": {
+                "id": "7",
+                "playerName": "Nguyen,Tuan Kiet",
+                "gender": "male",
+                "href": "playercard.html#7"
+              }
             },
             {
               "Bo.": "8",
               "Fed": "",
-              "White Player": "8    Husain,Lamiah",
+              "White Player": {
+                "id": "8",
+                "playerName": "Husain,Lamiah",
+                "gender": "female",
+                "href": "playercard.html#8"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "20    Kukdeja,Aarav"
+              "Black Player": {
+                "id": "20",
+                "playerName": "Kukdeja,Aarav",
+                "gender": "male",
+                "href": "playercard.html#20"
+              }
             },
             {
               "Bo.": "9",
               "Fed": "",
-              "White Player": "21    Nethi,Karthika",
+              "White Player": {
+                "id": "21",
+                "playerName": "Nethi,Karthika",
+                "gender": "female",
+                "href": "playercard.html#21"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "9    Pathiyassery,Emir"
+              "Black Player": {
+                "id": "9",
+                "playerName": "Pathiyassery,Emir",
+                "gender": "male",
+                "href": "playercard.html#9"
+              }
             },
             {
               "Bo.": "10",
               "Fed": "",
-              "White Player": "11    Goh,Nicholas",
+              "White Player": {
+                "id": "11",
+                "playerName": "Goh,Nicholas",
+                "gender": "male",
+                "href": "playercard.html#11"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "22    Rai,Ishaan"
+              "Black Player": {
+                "id": "22",
+                "playerName": "Rai,Ishaan",
+                "gender": "male",
+                "href": "playercard.html#22"
+              }
             },
             {
               "Bo.": "11",
               "Fed": "",
-              "White Player": "23    Vijayakumar,Rithvik",
+              "White Player": {
+                "id": "23",
+                "playerName": "Vijayakumar,Rithvik",
+                "gender": "male",
+                "href": "playercard.html#23"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "12    Bo,Jamie"
+              "Black Player": {
+                "id": "12",
+                "playerName": "Bo,Jamie",
+                "gender": "female",
+                "href": "playercard.html#12"
+              }
             },
             {
               "Bo.": "12",
               "Fed": "",
-              "White Player": "10    Ruaya,Rohan",
+              "White Player": {
+                "id": "10",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#10"
+              },
               "Pts": "0",
               "Result": "½",
               "Black Player": "( half point bye )"
@@ -1173,7 +1663,12 @@
             {
               "Bo.": "13",
               "Fed": "",
-              "White Player": "24    Morris,Elijah",
+              "White Player": {
+                "id": "24",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "playercard.html#24"
+              },
               "Pts": "0",
               "Result": "0",
               "Black Player": "( not paired )"
@@ -1181,7 +1676,12 @@
             {
               "Bo.": "14",
               "Fed": "",
-              "White Player": "25    Naidu,Aarush",
+              "White Player": {
+                "id": "25",
+                "playerName": "Naidu,Aarush",
+                "gender": "male",
+                "href": "playercard.html#25"
+              },
               "Pts": "0",
               "Result": "0",
               "Black Player": "( not paired )"
@@ -1208,103 +1708,228 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "1    Yang,Yifan",
+              "White Player": {
+                "id": "1",
+                "playerName": "Yang,Yifan",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "6    Bo,Jeremie"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "7    Nguyen,Tuan Kiet",
+              "White Player": {
+                "id": "7",
+                "playerName": "Nguyen,Tuan Kiet",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "2    Wei,Andrew"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "3    Nguyen,Anh Kiet",
+              "White Player": {
+                "id": "3",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "8    Husain,Lamiah"
+              "Black Player": {
+                "id": "8",
+                "playerName": "Husain,Lamiah",
+                "gender": "female",
+                "href": "playercard.html#8"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "9    Pathiyassery,Emir",
+              "White Player": {
+                "id": "9",
+                "playerName": "Pathiyassery,Emir",
+                "gender": "male",
+                "href": "playercard.html#9"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "4    Majety,Rohan"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "5",
               "Fed": "",
-              "White Player": "5    Ashok,Arjun",
+              "White Player": {
+                "id": "5",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "12    Bo,Jamie"
+              "Black Player": {
+                "id": "12",
+                "playerName": "Bo,Jamie",
+                "gender": "female",
+                "href": "playercard.html#12"
+              }
             },
             {
               "Bo.": "6",
               "Fed": "",
-              "White Player": "22    Rai,Ishaan",
+              "White Player": {
+                "id": "22",
+                "playerName": "Rai,Ishaan",
+                "gender": "male",
+                "href": "playercard.html#22"
+              },
               "Pts": "0.5",
               "Result": "0 - 1",
-              "Black Player": "10    Ruaya,Rohan"
+              "Black Player": {
+                "id": "10",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#10"
+              }
             },
             {
               "Bo.": "7",
               "Fed": "",
-              "White Player": "18    Bodke,Sahasra",
+              "White Player": {
+                "id": "18",
+                "playerName": "Bodke,Sahasra",
+                "gender": "female",
+                "href": "playercard.html#18"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "11    Goh,Nicholas"
+              "Black Player": {
+                "id": "11",
+                "playerName": "Goh,Nicholas",
+                "gender": "male",
+                "href": "playercard.html#11"
+              }
             },
             {
               "Bo.": "8",
               "Fed": "",
-              "White Player": "20    Kukdeja,Aarav",
+              "White Player": {
+                "id": "20",
+                "playerName": "Kukdeja,Aarav",
+                "gender": "male",
+                "href": "playercard.html#20"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "13    Venkatesh,Arvind"
+              "Black Player": {
+                "id": "13",
+                "playerName": "Venkatesh,Arvind",
+                "gender": "male",
+                "href": "playercard.html#13"
+              }
             },
             {
               "Bo.": "9",
               "Fed": "",
-              "White Player": "24    Morris,Elijah",
+              "White Player": {
+                "id": "24",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "playercard.html#24"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "15    Chan,Abby"
+              "Black Player": {
+                "id": "15",
+                "playerName": "Chan,Abby",
+                "gender": "female",
+                "href": "playercard.html#15"
+              }
             },
             {
               "Bo.": "10",
               "Fed": "",
-              "White Player": "16    Balamurgan,Soorya",
+              "White Player": {
+                "id": "16",
+                "playerName": "Balamurgan,Soorya",
+                "gender": "male",
+                "href": "playercard.html#16"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "21    Nethi,Karthika"
+              "Black Player": {
+                "id": "21",
+                "playerName": "Nethi,Karthika",
+                "gender": "female",
+                "href": "playercard.html#21"
+              }
             },
             {
               "Bo.": "11",
               "Fed": "",
-              "White Player": "25    Naidu,Aarush",
+              "White Player": {
+                "id": "25",
+                "playerName": "Naidu,Aarush",
+                "gender": "male",
+                "href": "playercard.html#25"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "17    Bodke,Aryan"
+              "Black Player": {
+                "id": "17",
+                "playerName": "Bodke,Aryan",
+                "gender": "male",
+                "href": "playercard.html#17"
+              }
             },
             {
               "Bo.": "12",
               "Fed": "",
-              "White Player": "14    Shenbaga,Kabilan",
+              "White Player": {
+                "id": "14",
+                "playerName": "Shenbaga,Kabilan",
+                "gender": "male",
+                "href": "playercard.html#14"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "23    Vijayakumar,Rithvik"
+              "Black Player": {
+                "id": "23",
+                "playerName": "Vijayakumar,Rithvik",
+                "gender": "male",
+                "href": "playercard.html#23"
+              }
             },
             {
               "Bo.": "13",
               "Fed": "",
-              "White Player": "19    Das,Ayush",
+              "White Player": {
+                "id": "19",
+                "playerName": "Das,Ayush",
+                "gender": "male",
+                "href": "playercard.html#19"
+              },
               "Pts": "0",
               "Result": "0",
               "Black Player": "( not paired )"
@@ -1331,95 +1956,210 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "4    Majety,Rohan",
+              "White Player": {
+                "id": "4",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "2",
               "Result": "0 - 1",
-              "Black Player": "1    Yang,Yifan"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Yang,Yifan",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "5    Ashok,Arjun",
+              "White Player": {
+                "id": "5",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "2",
               "Result": "0 - 1",
-              "Black Player": "3    Nguyen,Anh Kiet"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "10    Ruaya,Rohan",
+              "White Player": {
+                "id": "10",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#10"
+              },
               "Pts": "2",
               "Result": "0 - 1",
-              "Black Player": "7    Nguyen,Tuan Kiet"
+              "Black Player": {
+                "id": "7",
+                "playerName": "Nguyen,Tuan Kiet",
+                "gender": "male",
+                "href": "playercard.html#7"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "2    Wei,Andrew",
+              "White Player": {
+                "id": "2",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "16    Balamurgan,Soorya"
+              "Black Player": {
+                "id": "16",
+                "playerName": "Balamurgan,Soorya",
+                "gender": "male",
+                "href": "playercard.html#16"
+              }
             },
             {
               "Bo.": "5",
               "Fed": "",
-              "White Player": "8    Husain,Lamiah",
+              "White Player": {
+                "id": "8",
+                "playerName": "Husain,Lamiah",
+                "gender": "female",
+                "href": "playercard.html#8"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "14    Shenbaga,Kabilan"
+              "Black Player": {
+                "id": "14",
+                "playerName": "Shenbaga,Kabilan",
+                "gender": "male",
+                "href": "playercard.html#14"
+              }
             },
             {
               "Bo.": "6",
               "Fed": "",
-              "White Player": "22    Rai,Ishaan",
+              "White Player": {
+                "id": "22",
+                "playerName": "Rai,Ishaan",
+                "gender": "male",
+                "href": "playercard.html#22"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "9    Pathiyassery,Emir"
+              "Black Player": {
+                "id": "9",
+                "playerName": "Pathiyassery,Emir",
+                "gender": "male",
+                "href": "playercard.html#9"
+              }
             },
             {
               "Bo.": "7",
               "Fed": "",
-              "White Player": "11    Goh,Nicholas",
+              "White Player": {
+                "id": "11",
+                "playerName": "Goh,Nicholas",
+                "gender": "male",
+                "href": "playercard.html#11"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "24    Morris,Elijah"
+              "Black Player": {
+                "id": "24",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "playercard.html#24"
+              }
             },
             {
               "Bo.": "8",
               "Fed": "",
-              "White Player": "13    Venkatesh,Arvind",
+              "White Player": {
+                "id": "13",
+                "playerName": "Venkatesh,Arvind",
+                "gender": "male",
+                "href": "playercard.html#13"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "25    Naidu,Aarush"
+              "Black Player": {
+                "id": "25",
+                "playerName": "Naidu,Aarush",
+                "gender": "male",
+                "href": "playercard.html#25"
+              }
             },
             {
               "Bo.": "9",
               "Fed": "",
-              "White Player": "15    Chan,Abby",
+              "White Player": {
+                "id": "15",
+                "playerName": "Chan,Abby",
+                "gender": "female",
+                "href": "playercard.html#15"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "20    Kukdeja,Aarav"
+              "Black Player": {
+                "id": "20",
+                "playerName": "Kukdeja,Aarav",
+                "gender": "male",
+                "href": "playercard.html#20"
+              }
             },
             {
               "Bo.": "10",
               "Fed": "",
-              "White Player": "17    Bodke,Aryan",
+              "White Player": {
+                "id": "17",
+                "playerName": "Bodke,Aryan",
+                "gender": "male",
+                "href": "playercard.html#17"
+              },
               "Pts": "0",
               "Result": "1F-0F",
-              "Black Player": "21    Nethi,Karthika"
+              "Black Player": {
+                "id": "21",
+                "playerName": "Nethi,Karthika",
+                "gender": "female",
+                "href": "playercard.html#21"
+              }
             },
             {
               "Bo.": "11",
               "Fed": "",
-              "White Player": "23    Vijayakumar,Rithvik",
+              "White Player": {
+                "id": "23",
+                "playerName": "Vijayakumar,Rithvik",
+                "gender": "male",
+                "href": "playercard.html#23"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "18    Bodke,Sahasra"
+              "Black Player": {
+                "id": "18",
+                "playerName": "Bodke,Sahasra",
+                "gender": "female",
+                "href": "playercard.html#18"
+              }
             },
             {
               "Bo.": "12",
               "Fed": "",
-              "White Player": "6    Bo,Jeremie",
+              "White Player": {
+                "id": "6",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "0",
               "Result": "½",
               "Black Player": "( half point bye )"
@@ -1427,7 +2167,12 @@
             {
               "Bo.": "13",
               "Fed": "",
-              "White Player": "12    Bo,Jamie",
+              "White Player": {
+                "id": "12",
+                "playerName": "Bo,Jamie",
+                "gender": "female",
+                "href": "playercard.html#12"
+              },
               "Pts": "0",
               "Result": "½",
               "Black Player": "( half point bye )"
@@ -1435,7 +2180,12 @@
             {
               "Bo.": "14",
               "Fed": "",
-              "White Player": "19    Das,Ayush",
+              "White Player": {
+                "id": "19",
+                "playerName": "Das,Ayush",
+                "gender": "male",
+                "href": "playercard.html#19"
+              },
               "Pts": "0",
               "Result": "½",
               "Black Player": "( half point bye )"
@@ -1462,95 +2212,210 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "1    Yang,Yifan",
+              "White Player": {
+                "id": "1",
+                "playerName": "Yang,Yifan",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "3",
               "Result": "1 - 0",
-              "Black Player": "7    Nguyen,Tuan Kiet"
+              "Black Player": {
+                "id": "7",
+                "playerName": "Nguyen,Tuan Kiet",
+                "gender": "male",
+                "href": "playercard.html#7"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "3    Nguyen,Anh Kiet",
+              "White Player": {
+                "id": "3",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "2",
               "Result": "0 - 1",
-              "Black Player": "4    Majety,Rohan"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "8    Husain,Lamiah",
+              "White Player": {
+                "id": "8",
+                "playerName": "Husain,Lamiah",
+                "gender": "female",
+                "href": "playercard.html#8"
+              },
               "Pts": "2",
               "Result": "0 - 1",
-              "Black Player": "22    Rai,Ishaan"
+              "Black Player": {
+                "id": "22",
+                "playerName": "Rai,Ishaan",
+                "gender": "male",
+                "href": "playercard.html#22"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "24    Morris,Elijah",
+              "White Player": {
+                "id": "24",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "playercard.html#24"
+              },
               "Pts": "2",
               "Result": "1 - 0",
-              "Black Player": "13    Venkatesh,Arvind"
+              "Black Player": {
+                "id": "13",
+                "playerName": "Venkatesh,Arvind",
+                "gender": "male",
+                "href": "playercard.html#13"
+              }
             },
             {
               "Bo.": "5",
               "Fed": "",
-              "White Player": "6    Bo,Jeremie",
+              "White Player": {
+                "id": "6",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "1.5",
               "Result": "0 - 1",
-              "Black Player": "10    Ruaya,Rohan"
+              "Black Player": {
+                "id": "10",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#10"
+              }
             },
             {
               "Bo.": "6",
               "Fed": "",
-              "White Player": "12    Bo,Jamie",
+              "White Player": {
+                "id": "12",
+                "playerName": "Bo,Jamie",
+                "gender": "female",
+                "href": "playercard.html#12"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "11    Goh,Nicholas"
+              "Black Player": {
+                "id": "11",
+                "playerName": "Goh,Nicholas",
+                "gender": "male",
+                "href": "playercard.html#11"
+              }
             },
             {
               "Bo.": "7",
               "Fed": "",
-              "White Player": "9    Pathiyassery,Emir",
+              "White Player": {
+                "id": "9",
+                "playerName": "Pathiyassery,Emir",
+                "gender": "male",
+                "href": "playercard.html#9"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "17    Bodke,Aryan"
+              "Black Player": {
+                "id": "17",
+                "playerName": "Bodke,Aryan",
+                "gender": "male",
+                "href": "playercard.html#17"
+              }
             },
             {
               "Bo.": "8",
               "Fed": "",
-              "White Player": "14    Shenbaga,Kabilan",
+              "White Player": {
+                "id": "14",
+                "playerName": "Shenbaga,Kabilan",
+                "gender": "male",
+                "href": "playercard.html#14"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "25    Naidu,Aarush"
+              "Black Player": {
+                "id": "25",
+                "playerName": "Naidu,Aarush",
+                "gender": "male",
+                "href": "playercard.html#25"
+              }
             },
             {
               "Bo.": "9",
               "Fed": "",
-              "White Player": "16    Balamurgan,Soorya",
+              "White Player": {
+                "id": "16",
+                "playerName": "Balamurgan,Soorya",
+                "gender": "male",
+                "href": "playercard.html#16"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "23    Vijayakumar,Rithvik"
+              "Black Player": {
+                "id": "23",
+                "playerName": "Vijayakumar,Rithvik",
+                "gender": "male",
+                "href": "playercard.html#23"
+              }
             },
             {
               "Bo.": "10",
               "Fed": "",
-              "White Player": "18    Bodke,Sahasra",
+              "White Player": {
+                "id": "18",
+                "playerName": "Bodke,Sahasra",
+                "gender": "female",
+                "href": "playercard.html#18"
+              },
               "Pts": "0.5",
               "Result": "0 - 1",
-              "Black Player": "19    Das,Ayush"
+              "Black Player": {
+                "id": "19",
+                "playerName": "Das,Ayush",
+                "gender": "male",
+                "href": "playercard.html#19"
+              }
             },
             {
               "Bo.": "11",
               "Fed": "",
-              "White Player": "21    Nethi,Karthika",
+              "White Player": {
+                "id": "21",
+                "playerName": "Nethi,Karthika",
+                "gender": "female",
+                "href": "playercard.html#21"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "15    Chan,Abby"
+              "Black Player": {
+                "id": "15",
+                "playerName": "Chan,Abby",
+                "gender": "female",
+                "href": "playercard.html#15"
+              }
             },
             {
               "Bo.": "12",
               "Fed": "",
-              "White Player": "2    Wei,Andrew",
+              "White Player": {
+                "id": "2",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "0",
               "Result": "½",
               "Black Player": "( half point bye )"
@@ -1558,7 +2423,12 @@
             {
               "Bo.": "13",
               "Fed": "",
-              "White Player": "5    Ashok,Arjun",
+              "White Player": {
+                "id": "5",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "0",
               "Result": "½",
               "Black Player": "( half point bye )"
@@ -1566,7 +2436,12 @@
             {
               "Bo.": "14",
               "Fed": "",
-              "White Player": "20    Kukdeja,Aarav",
+              "White Player": {
+                "id": "20",
+                "playerName": "Kukdeja,Aarav",
+                "gender": "male",
+                "href": "playercard.html#20"
+              },
               "Pts": "0",
               "Result": "½",
               "Black Player": "( half point bye )"
@@ -1593,103 +2468,228 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "7    Nguyen,Tuan Kiet",
+              "White Player": {
+                "id": "7",
+                "playerName": "Nguyen,Tuan Kiet",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
               "Pts": "3",
               "Result": "0 - 1",
-              "Black Player": "3    Nguyen,Anh Kiet"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "4    Majety,Rohan",
+              "White Player": {
+                "id": "4",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "3",
               "Result": "½ - ½",
-              "Black Player": "24    Morris,Elijah"
+              "Black Player": {
+                "id": "24",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "playercard.html#24"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "22    Rai,Ishaan",
+              "White Player": {
+                "id": "22",
+                "playerName": "Rai,Ishaan",
+                "gender": "male",
+                "href": "playercard.html#22"
+              },
               "Pts": "2.5",
               "Result": "0 - 1",
-              "Black Player": "2    Wei,Andrew"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "10    Ruaya,Rohan",
+              "White Player": {
+                "id": "10",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#10"
+              },
               "Pts": "2.5",
               "Result": "1 - 0",
-              "Black Player": "5    Ashok,Arjun"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "5",
               "Fed": "",
-              "White Player": "13    Venkatesh,Arvind",
+              "White Player": {
+                "id": "13",
+                "playerName": "Venkatesh,Arvind",
+                "gender": "male",
+                "href": "playercard.html#13"
+              },
               "Pts": "2",
               "Result": "0 - 1",
-              "Black Player": "8    Husain,Lamiah"
+              "Black Player": {
+                "id": "8",
+                "playerName": "Husain,Lamiah",
+                "gender": "female",
+                "href": "playercard.html#8"
+              }
             },
             {
               "Bo.": "6",
               "Fed": "",
-              "White Player": "23    Vijayakumar,Rithvik",
+              "White Player": {
+                "id": "23",
+                "playerName": "Vijayakumar,Rithvik",
+                "gender": "male",
+                "href": "playercard.html#23"
+              },
               "Pts": "2",
               "Result": "1 - 0",
-              "Black Player": "9    Pathiyassery,Emir"
+              "Black Player": {
+                "id": "9",
+                "playerName": "Pathiyassery,Emir",
+                "gender": "male",
+                "href": "playercard.html#9"
+              }
             },
             {
               "Bo.": "7",
               "Fed": "",
-              "White Player": "11    Goh,Nicholas",
+              "White Player": {
+                "id": "11",
+                "playerName": "Goh,Nicholas",
+                "gender": "male",
+                "href": "playercard.html#11"
+              },
               "Pts": "2",
               "Result": "1 - 0",
-              "Black Player": "14    Shenbaga,Kabilan"
+              "Black Player": {
+                "id": "14",
+                "playerName": "Shenbaga,Kabilan",
+                "gender": "male",
+                "href": "playercard.html#14"
+              }
             },
             {
               "Bo.": "8",
               "Fed": "",
-              "White Player": "20    Kukdeja,Aarav",
+              "White Player": {
+                "id": "20",
+                "playerName": "Kukdeja,Aarav",
+                "gender": "male",
+                "href": "playercard.html#20"
+              },
               "Pts": "1.5",
               "Result": "0 - 1",
-              "Black Player": "6    Bo,Jeremie"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "9",
               "Fed": "",
-              "White Player": "12    Bo,Jamie",
+              "White Player": {
+                "id": "12",
+                "playerName": "Bo,Jamie",
+                "gender": "female",
+                "href": "playercard.html#12"
+              },
               "Pts": "1.5",
               "Result": "0 - 1",
-              "Black Player": "19    Das,Ayush"
+              "Black Player": {
+                "id": "19",
+                "playerName": "Das,Ayush",
+                "gender": "male",
+                "href": "playercard.html#19"
+              }
             },
             {
               "Bo.": "10",
               "Fed": "",
-              "White Player": "17    Bodke,Aryan",
+              "White Player": {
+                "id": "17",
+                "playerName": "Bodke,Aryan",
+                "gender": "male",
+                "href": "playercard.html#17"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "15    Chan,Abby"
+              "Black Player": {
+                "id": "15",
+                "playerName": "Chan,Abby",
+                "gender": "female",
+                "href": "playercard.html#15"
+              }
             },
             {
               "Bo.": "11",
               "Fed": "",
-              "White Player": "25    Naidu,Aarush",
+              "White Player": {
+                "id": "25",
+                "playerName": "Naidu,Aarush",
+                "gender": "male",
+                "href": "playercard.html#25"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "16    Balamurgan,Soorya"
+              "Black Player": {
+                "id": "16",
+                "playerName": "Balamurgan,Soorya",
+                "gender": "male",
+                "href": "playercard.html#16"
+              }
             },
             {
               "Bo.": "12",
               "Fed": "",
-              "White Player": "18    Bodke,Sahasra",
+              "White Player": {
+                "id": "18",
+                "playerName": "Bodke,Sahasra",
+                "gender": "female",
+                "href": "playercard.html#18"
+              },
               "Pts": "0",
               "Result": "0F-1F",
-              "Black Player": "21    Nethi,Karthika"
+              "Black Player": {
+                "id": "21",
+                "playerName": "Nethi,Karthika",
+                "gender": "female",
+                "href": "playercard.html#21"
+              }
             },
             {
               "Bo.": "13",
               "Fed": "",
-              "White Player": "1    Yang,Yifan",
+              "White Player": {
+                "id": "1",
+                "playerName": "Yang,Yifan",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "0",
               "Result": "½",
               "Black Player": "( half point bye )"
@@ -1716,103 +2716,228 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "3    Nguyen,Anh Kiet",
+              "White Player": {
+                "id": "3",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "4.5",
               "Result": "1 - 0",
-              "Black Player": "1    Yang,Yifan"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Yang,Yifan",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "2    Wei,Andrew",
+              "White Player": {
+                "id": "2",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "3.5",
               "Result": "0F-1F",
-              "Black Player": "4    Majety,Rohan"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "24    Morris,Elijah",
+              "White Player": {
+                "id": "24",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "playercard.html#24"
+              },
               "Pts": "3.5",
               "Result": "½ - ½",
-              "Black Player": "10    Ruaya,Rohan"
+              "Black Player": {
+                "id": "10",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#10"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "7    Nguyen,Tuan Kiet",
+              "White Player": {
+                "id": "7",
+                "playerName": "Nguyen,Tuan Kiet",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
               "Pts": "3",
               "Result": "1 - 0",
-              "Black Player": "22    Rai,Ishaan"
+              "Black Player": {
+                "id": "22",
+                "playerName": "Rai,Ishaan",
+                "gender": "male",
+                "href": "playercard.html#22"
+              }
             },
             {
               "Bo.": "5",
               "Fed": "",
-              "White Player": "8    Husain,Lamiah",
+              "White Player": {
+                "id": "8",
+                "playerName": "Husain,Lamiah",
+                "gender": "female",
+                "href": "playercard.html#8"
+              },
               "Pts": "3",
               "Result": "1 - 0",
-              "Black Player": "11    Goh,Nicholas"
+              "Black Player": {
+                "id": "11",
+                "playerName": "Goh,Nicholas",
+                "gender": "male",
+                "href": "playercard.html#11"
+              }
             },
             {
               "Bo.": "6",
               "Fed": "",
-              "White Player": "5    Ashok,Arjun",
+              "White Player": {
+                "id": "5",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "3",
               "Result": "1 - 0",
-              "Black Player": "23    Vijayakumar,Rithvik"
+              "Black Player": {
+                "id": "23",
+                "playerName": "Vijayakumar,Rithvik",
+                "gender": "male",
+                "href": "playercard.html#23"
+              }
             },
             {
               "Bo.": "7",
               "Fed": "",
-              "White Player": "19    Das,Ayush",
+              "White Player": {
+                "id": "19",
+                "playerName": "Das,Ayush",
+                "gender": "male",
+                "href": "playercard.html#19"
+              },
               "Pts": "2.5",
               "Result": "0 - 1",
-              "Black Player": "6    Bo,Jeremie"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "8",
               "Fed": "",
-              "White Player": "9    Pathiyassery,Emir",
+              "White Player": {
+                "id": "9",
+                "playerName": "Pathiyassery,Emir",
+                "gender": "male",
+                "href": "playercard.html#9"
+              },
               "Pts": "2",
               "Result": "1 - 0",
-              "Black Player": "13    Venkatesh,Arvind"
+              "Black Player": {
+                "id": "13",
+                "playerName": "Venkatesh,Arvind",
+                "gender": "male",
+                "href": "playercard.html#13"
+              }
             },
             {
               "Bo.": "9",
               "Fed": "",
-              "White Player": "14    Shenbaga,Kabilan",
+              "White Player": {
+                "id": "14",
+                "playerName": "Shenbaga,Kabilan",
+                "gender": "male",
+                "href": "playercard.html#14"
+              },
               "Pts": "2",
               "Result": "1 - 0",
-              "Black Player": "17    Bodke,Aryan"
+              "Black Player": {
+                "id": "17",
+                "playerName": "Bodke,Aryan",
+                "gender": "male",
+                "href": "playercard.html#17"
+              }
             },
             {
               "Bo.": "10",
               "Fed": "",
-              "White Player": "16    Balamurgan,Soorya",
+              "White Player": {
+                "id": "16",
+                "playerName": "Balamurgan,Soorya",
+                "gender": "male",
+                "href": "playercard.html#16"
+              },
               "Pts": "1.5",
               "Result": "0 - 1",
-              "Black Player": "12    Bo,Jamie"
+              "Black Player": {
+                "id": "12",
+                "playerName": "Bo,Jamie",
+                "gender": "female",
+                "href": "playercard.html#12"
+              }
             },
             {
               "Bo.": "11",
               "Fed": "",
-              "White Player": "15    Chan,Abby",
+              "White Player": {
+                "id": "15",
+                "playerName": "Chan,Abby",
+                "gender": "female",
+                "href": "playercard.html#15"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "25    Naidu,Aarush"
+              "Black Player": {
+                "id": "25",
+                "playerName": "Naidu,Aarush",
+                "gender": "male",
+                "href": "playercard.html#25"
+              }
             },
             {
               "Bo.": "12",
               "Fed": "",
-              "White Player": "18    Bodke,Sahasra",
+              "White Player": {
+                "id": "18",
+                "playerName": "Bodke,Sahasra",
+                "gender": "female",
+                "href": "playercard.html#18"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "21    Nethi,Karthika"
+              "Black Player": {
+                "id": "21",
+                "playerName": "Nethi,Karthika",
+                "gender": "female",
+                "href": "playercard.html#21"
+              }
             },
             {
               "Bo.": "13",
               "Fed": "",
-              "White Player": "20    Kukdeja,Aarav",
+              "White Player": {
+                "id": "20",
+                "playerName": "Kukdeja,Aarav",
+                "gender": "male",
+                "href": "playercard.html#20"
+              },
               "Pts": "0",
               "Result": "0",
               "Black Player": "( not paired )"
@@ -1839,103 +2964,228 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "3    Nguyen,Anh Kiet",
+              "White Player": {
+                "id": "3",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "4",
               "Result": "1 - 0",
-              "Black Player": "24    Morris,Elijah"
+              "Black Player": {
+                "id": "24",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "playercard.html#24"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "1    Yang,Yifan",
+              "White Player": {
+                "id": "1",
+                "playerName": "Yang,Yifan",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "4",
               "Result": "1 - 0",
-              "Black Player": "8    Husain,Lamiah"
+              "Black Player": {
+                "id": "8",
+                "playerName": "Husain,Lamiah",
+                "gender": "female",
+                "href": "playercard.html#8"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "10    Ruaya,Rohan",
+              "White Player": {
+                "id": "10",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#10"
+              },
               "Pts": "4.5",
               "Result": "0 - 1",
-              "Black Player": "4    Majety,Rohan"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "6    Bo,Jeremie",
+              "White Player": {
+                "id": "6",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "4",
               "Result": "1 - 0",
-              "Black Player": "7    Nguyen,Tuan Kiet"
+              "Black Player": {
+                "id": "7",
+                "playerName": "Nguyen,Tuan Kiet",
+                "gender": "male",
+                "href": "playercard.html#7"
+              }
             },
             {
               "Bo.": "5",
               "Fed": "",
-              "White Player": "2    Wei,Andrew",
+              "White Player": {
+                "id": "2",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "3.5",
               "Result": "1 - 0",
-              "Black Player": "5    Ashok,Arjun"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "6",
               "Fed": "",
-              "White Player": "11    Goh,Nicholas",
+              "White Player": {
+                "id": "11",
+                "playerName": "Goh,Nicholas",
+                "gender": "male",
+                "href": "playercard.html#11"
+              },
               "Pts": "3",
               "Result": "1 - 0",
-              "Black Player": "9    Pathiyassery,Emir"
+              "Black Player": {
+                "id": "9",
+                "playerName": "Pathiyassery,Emir",
+                "gender": "male",
+                "href": "playercard.html#9"
+              }
             },
             {
               "Bo.": "7",
               "Fed": "",
-              "White Player": "22    Rai,Ishaan",
+              "White Player": {
+                "id": "22",
+                "playerName": "Rai,Ishaan",
+                "gender": "male",
+                "href": "playercard.html#22"
+              },
               "Pts": "2.5",
               "Result": "1 - 0",
-              "Black Player": "12    Bo,Jamie"
+              "Black Player": {
+                "id": "12",
+                "playerName": "Bo,Jamie",
+                "gender": "female",
+                "href": "playercard.html#12"
+              }
             },
             {
               "Bo.": "8",
               "Fed": "",
-              "White Player": "15    Chan,Abby",
+              "White Player": {
+                "id": "15",
+                "playerName": "Chan,Abby",
+                "gender": "female",
+                "href": "playercard.html#15"
+              },
               "Pts": "3",
               "Result": "0F-0F",
-              "Black Player": "14    Shenbaga,Kabilan"
+              "Black Player": {
+                "id": "14",
+                "playerName": "Shenbaga,Kabilan",
+                "gender": "male",
+                "href": "playercard.html#14"
+              }
             },
             {
               "Bo.": "9",
               "Fed": "",
-              "White Player": "21    Nethi,Karthika",
+              "White Player": {
+                "id": "21",
+                "playerName": "Nethi,Karthika",
+                "gender": "female",
+                "href": "playercard.html#21"
+              },
               "Pts": "2.5",
               "Result": "0 - 1",
-              "Black Player": "19    Das,Ayush"
+              "Black Player": {
+                "id": "19",
+                "playerName": "Das,Ayush",
+                "gender": "male",
+                "href": "playercard.html#19"
+              }
             },
             {
               "Bo.": "10",
               "Fed": "",
-              "White Player": "13    Venkatesh,Arvind",
+              "White Player": {
+                "id": "13",
+                "playerName": "Venkatesh,Arvind",
+                "gender": "male",
+                "href": "playercard.html#13"
+              },
               "Pts": "2",
               "Result": "0 - 1",
-              "Black Player": "16    Balamurgan,Soorya"
+              "Black Player": {
+                "id": "16",
+                "playerName": "Balamurgan,Soorya",
+                "gender": "male",
+                "href": "playercard.html#16"
+              }
             },
             {
               "Bo.": "11",
               "Fed": "",
-              "White Player": "17    Bodke,Aryan",
+              "White Player": {
+                "id": "17",
+                "playerName": "Bodke,Aryan",
+                "gender": "male",
+                "href": "playercard.html#17"
+              },
               "Pts": "1.5",
               "Result": "0 - 1",
-              "Black Player": "20    Kukdeja,Aarav"
+              "Black Player": {
+                "id": "20",
+                "playerName": "Kukdeja,Aarav",
+                "gender": "male",
+                "href": "playercard.html#20"
+              }
             },
             {
               "Bo.": "12",
               "Fed": "",
-              "White Player": "25    Naidu,Aarush",
+              "White Player": {
+                "id": "25",
+                "playerName": "Naidu,Aarush",
+                "gender": "male",
+                "href": "playercard.html#25"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "18    Bodke,Sahasra"
+              "Black Player": {
+                "id": "18",
+                "playerName": "Bodke,Sahasra",
+                "gender": "female",
+                "href": "playercard.html#18"
+              }
             },
             {
               "Bo.": "13",
               "Fed": "",
-              "White Player": "23    Vijayakumar,Rithvik",
+              "White Player": {
+                "id": "23",
+                "playerName": "Vijayakumar,Rithvik",
+                "gender": "male",
+                "href": "playercard.html#23"
+              },
               "Pts": "0",
               "Result": "0",
               "Black Player": "( not paired )"
@@ -2029,7 +3279,18 @@
               "res": "1.0",
               "Pts": "4.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Yang,Yifan",
+            "id": "3210840",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1080",
+              "anchor": "1"
+            },
+            "rawText": "1   Yang,Yifan          , K= 0, Elo=1080, ID=3210840",
+            "rawHtml": "   1   <strong>Yang,Yifan          </strong>, K= 0, Elo=1080, ID=3210840\n<br>\n<a class=\"anchor\" name=\"1\"></a>"
+          }
         },
         {
           "headers": [
@@ -2113,7 +3374,18 @@
               "res": "1.0",
               "Pts": "3.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Wei,Andrew",
+            "id": "3204083",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1031",
+              "anchor": "2"
+            },
+            "rawText": "2   Wei,Andrew          , K= 0, Elo=1031, ID=3204083",
+            "rawHtml": "   2   <strong>Wei,Andrew          </strong>, K= 0, Elo=1031, ID=3204083\n<br>\n<a class=\"anchor\" name=\"2\"></a>"
+          }
         },
         {
           "headers": [
@@ -2197,7 +3469,18 @@
               "res": "1.0",
               "Pts": "4.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Nguyen,Anh Kiet",
+            "id": "3206205",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1013",
+              "anchor": "3"
+            },
+            "rawText": "3   Nguyen,Anh Kiet     , K= 0, Elo=1013, ID=3206205",
+            "rawHtml": "   3   <strong>Nguyen,Anh Kiet     </strong>, K= 0, Elo=1013, ID=3206205\n<br>\n<a class=\"anchor\" name=\"3\"></a>"
+          }
         },
         {
           "headers": [
@@ -2281,7 +3564,18 @@
               "res": "1.0",
               "Pts": "4.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Majety,Rohan",
+            "id": "3201585",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "859",
+              "anchor": "4"
+            },
+            "rawText": "4   Majety,Rohan        , K= 0, Elo= 859, ID=3201585",
+            "rawHtml": "   4   <strong>Majety,Rohan        </strong>, K= 0, Elo= 859, ID=3201585\n<br>\n<a class=\"anchor\" name=\"4\"></a>"
+          }
         },
         {
           "headers": [
@@ -2365,7 +3659,18 @@
               "res": "0.0",
               "Pts": "4.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Ashok,Arjun",
+            "id": "3204632",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "776",
+              "anchor": "5"
+            },
+            "rawText": "5   Ashok,Arjun         , K= 0, Elo= 776, ID=3204632",
+            "rawHtml": "   5   <strong>Ashok,Arjun         </strong>, K= 0, Elo= 776, ID=3204632\n<br>\n<a class=\"anchor\" name=\"5\"></a>"
+          }
         },
         {
           "headers": [
@@ -2449,7 +3754,18 @@
               "res": "1.0",
               "Pts": "4.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Bo,Jeremie",
+            "id": "3204606",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "753",
+              "anchor": "6"
+            },
+            "rawText": "6   Bo,Jeremie          , K= 0, Elo= 753, ID=3204606",
+            "rawHtml": "   6   <strong>Bo,Jeremie          </strong>, K= 0, Elo= 753, ID=3204606\n<br>\n<a class=\"anchor\" name=\"6\"></a>"
+          }
         },
         {
           "headers": [
@@ -2533,7 +3849,18 @@
               "res": "0.0",
               "Pts": "4.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Nguyen,Tuan Kiet",
+            "id": "3207340",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "728",
+              "anchor": "7"
+            },
+            "rawText": "7   Nguyen,Tuan Kiet    , K= 0, Elo= 728, ID=3207340",
+            "rawHtml": "   7   <strong>Nguyen,Tuan Kiet    </strong>, K= 0, Elo= 728, ID=3207340\n<br>\n<a class=\"anchor\" name=\"7\"></a>"
+          }
         },
         {
           "headers": [
@@ -2617,7 +3944,18 @@
               "res": "0.0",
               "Pts": "5.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Husain,Lamiah",
+            "id": "3209576",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "572",
+              "anchor": "8"
+            },
+            "rawText": "8   Husain,Lamiah       , K= 0, Elo= 572, ID=3209576",
+            "rawHtml": "   8   <strong>Husain,Lamiah       </strong>, K= 0, Elo= 572, ID=3209576\n<br>\n<a class=\"anchor\" name=\"8\"></a>"
+          }
         },
         {
           "headers": [
@@ -2701,7 +4039,18 @@
               "res": "0.0",
               "Pts": "4.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Pathiyassery,Emir",
+            "id": "3210265",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "420",
+              "anchor": "9"
+            },
+            "rawText": "9   Pathiyassery,Emir   , K= 0, Elo= 420, ID=3210265",
+            "rawHtml": "   9   <strong>Pathiyassery,Emir   </strong>, K= 0, Elo= 420, ID=3210265\n<br>\n<a class=\"anchor\" name=\"9\"></a>"
+          }
         },
         {
           "headers": [
@@ -2785,7 +4134,18 @@
               "res": "0.0",
               "Pts": "5.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Ruaya,Rohan",
+            "id": "3203980",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "418",
+              "anchor": "10"
+            },
+            "rawText": "10   Ruaya,Rohan         , K= 0, Elo= 418, ID=3203980",
+            "rawHtml": "  10   <strong>Ruaya,Rohan         </strong>, K= 0, Elo= 418, ID=3203980\n<br>\n<a class=\"anchor\" name=\"10\"></a>"
+          }
         },
         {
           "headers": [
@@ -2869,7 +4229,18 @@
               "res": "1.0",
               "Pts": "3.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Goh,Nicholas",
+            "id": "3200270",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "347",
+              "anchor": "11"
+            },
+            "rawText": "11   Goh,Nicholas        , K= 0, Elo= 347, ID=3200270",
+            "rawHtml": "  11   <strong>Goh,Nicholas        </strong>, K= 0, Elo= 347, ID=3200270\n<br>\n<a class=\"anchor\" name=\"11\"></a>"
+          }
         },
         {
           "headers": [
@@ -2953,7 +4324,18 @@
               "res": "0.0",
               "Pts": "4.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Bo,Jamie",
+            "id": "3205671",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "277",
+              "anchor": "12"
+            },
+            "rawText": "12   Bo,Jamie            , K= 0, Elo= 277, ID=3205671",
+            "rawHtml": "  12   <strong>Bo,Jamie            </strong>, K= 0, Elo= 277, ID=3205671\n<br>\n<a class=\"anchor\" name=\"12\"></a>"
+          }
         },
         {
           "headers": [
@@ -3037,7 +4419,18 @@
               "res": "0.0",
               "Pts": "3.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Venkatesh,Arvind",
+            "id": "3201644",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "179",
+              "anchor": "13"
+            },
+            "rawText": "13   Venkatesh,Arvind    , K= 0, Elo= 179, ID=3201644",
+            "rawHtml": "  13   <strong>Venkatesh,Arvind    </strong>, K= 0, Elo= 179, ID=3201644\n<br>\n<a class=\"anchor\" name=\"13\"></a>"
+          }
         },
         {
           "headers": [
@@ -3121,7 +4514,18 @@
               "res": "0.0",
               "Pts": "0.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Shenbaga,Kabilan",
+            "id": "3209495",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "116",
+              "anchor": "14"
+            },
+            "rawText": "14   Shenbaga,Kabilan    , K= 0, Elo= 116, ID=3209495",
+            "rawHtml": "  14   <strong>Shenbaga,Kabilan    </strong>, K= 0, Elo= 116, ID=3209495\n<br>\n<a class=\"anchor\" name=\"14\"></a>"
+          }
         },
         {
           "headers": [
@@ -3205,7 +4609,18 @@
               "res": "0.0",
               "Pts": "0.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Chan,Abby",
+            "id": "3201541",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "100",
+              "anchor": "15"
+            },
+            "rawText": "15   Chan,Abby           , K= 0, Elo= 100, ID=3201541",
+            "rawHtml": "  15   <strong>Chan,Abby           </strong>, K= 0, Elo= 100, ID=3201541\n<br>\n<a class=\"anchor\" name=\"15\"></a>"
+          }
         },
         {
           "headers": [
@@ -3289,7 +4704,18 @@
               "res": "1.0",
               "Pts": "2.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Balamurgan,Soorya",
+            "id": "0",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "16"
+            },
+            "rawText": "16   Balamurgan,Soorya   , K= 0, Elo=   0, ID=0",
+            "rawHtml": "  16   <strong>Balamurgan,Soorya   </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"16\"></a>"
+          }
         },
         {
           "headers": [
@@ -3373,7 +4799,18 @@
               "res": "0.0",
               "Pts": "2.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Bodke,Aryan",
+            "id": "3211735",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "17"
+            },
+            "rawText": "17   Bodke,Aryan         , K= 0, Elo=   0, ID=3211735",
+            "rawHtml": "  17   <strong>Bodke,Aryan         </strong>, K= 0, Elo=   0, ID=3211735\n<br>\n<a class=\"anchor\" name=\"17\"></a>"
+          }
         },
         {
           "headers": [
@@ -3457,7 +4894,18 @@
               "res": "1.0",
               "Pts": "1.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Bodke,Sahasra",
+            "id": "3202565",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "18"
+            },
+            "rawText": "18   Bodke,Sahasra       , K= 0, Elo=   0, ID=3202565",
+            "rawHtml": "  18   <strong>Bodke,Sahasra       </strong>, K= 0, Elo=   0, ID=3202565\n<br>\n<a class=\"anchor\" name=\"18\"></a>"
+          }
         },
         {
           "headers": [
@@ -3541,7 +4989,18 @@
               "res": "1.0",
               "Pts": "2.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Das,Ayush",
+            "id": "3204584",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "19"
+            },
+            "rawText": "19   Das,Ayush           , K= 0, Elo=   0, ID=3204584",
+            "rawHtml": "  19   <strong>Das,Ayush           </strong>, K= 0, Elo=   0, ID=3204584\n<br>\n<a class=\"anchor\" name=\"19\"></a>"
+          }
         },
         {
           "headers": [
@@ -3625,7 +5084,18 @@
               "res": "1.0",
               "Pts": "2.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Kukdeja,Aarav",
+            "id": "3209543",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "20"
+            },
+            "rawText": "20   Kukdeja,Aarav       , K= 0, Elo=   0, ID=3209543",
+            "rawHtml": "  20   <strong>Kukdeja,Aarav       </strong>, K= 0, Elo=   0, ID=3209543\n<br>\n<a class=\"anchor\" name=\"20\"></a>"
+          }
         },
         {
           "headers": [
@@ -3709,7 +5179,18 @@
               "res": "0.0",
               "Pts": "3.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Nethi,Karthika",
+            "id": "3209580",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "21"
+            },
+            "rawText": "21   Nethi,Karthika      , K= 0, Elo=   0, ID=3209580",
+            "rawHtml": "  21   <strong>Nethi,Karthika      </strong>, K= 0, Elo=   0, ID=3209580\n<br>\n<a class=\"anchor\" name=\"21\"></a>"
+          }
         },
         {
           "headers": [
@@ -3793,7 +5274,18 @@
               "res": "1.0",
               "Pts": "2.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Rai,Ishaan",
+            "id": "3208762",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "22"
+            },
+            "rawText": "22   Rai,Ishaan          , K= 0, Elo=   0, ID=3208762",
+            "rawHtml": "  22   <strong>Rai,Ishaan          </strong>, K= 0, Elo=   0, ID=3208762\n<br>\n<a class=\"anchor\" name=\"22\"></a>"
+          }
         },
         {
           "headers": [
@@ -3877,7 +5369,18 @@
               "res": "0.0",
               "Pts": "0.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Vijayakumar,Rithvik",
+            "id": "3211282",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "23"
+            },
+            "rawText": "23   Vijayakumar,Rithvik , K= 0, Elo=   0, ID=3211282",
+            "rawHtml": "  23   <strong>Vijayakumar,Rithvik </strong>, K= 0, Elo=   0, ID=3211282\n<br>\n<a class=\"anchor\" name=\"23\"></a>"
+          }
         },
         {
           "headers": [
@@ -3961,7 +5464,18 @@
               "res": "0.0",
               "Pts": "6.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Morris,Elijah",
+            "id": "3208784",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "654",
+              "anchor": "24"
+            },
+            "rawText": "24   Morris,Elijah       , K= 0, Elo= 654, ID=3208784",
+            "rawHtml": "  24   <strong>Morris,Elijah       </strong>, K= 0, Elo= 654, ID=3208784\n<br>\n<a class=\"anchor\" name=\"24\"></a>"
+          }
         },
         {
           "headers": [
@@ -4045,7 +5559,18 @@
               "res": "0.0",
               "Pts": "1.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Naidu,Aarush",
+            "id": "3211256",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "25"
+            },
+            "rawText": "25   Naidu,Aarush        , K= 0, Elo=   0, ID=3211256",
+            "rawHtml": "  25   <strong>Naidu,Aarush        </strong>, K= 0, Elo=   0, ID=3211256\n<br>\n<a class=\"anchor\" name=\"25\"></a>"
+          }
         }
       ]
     },
@@ -4064,7 +5589,12 @@
           "rows": [
             {
               "#": "5",
-              "Player": "Ashok,Arjun",
+              "Player": {
+                "id": "",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3275108"
+              },
               "Fed": "",
               "Rtg": "776",
               "RtgF": "0",
@@ -4072,7 +5602,12 @@
             },
             {
               "#": "16",
-              "Player": "Balamurgan,Soorya",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -4080,7 +5615,12 @@
             },
             {
               "#": "12",
-              "Player": "Bo,Jamie",
+              "Player": {
+                "id": "",
+                "playerName": "Bo,Jamie",
+                "gender": "female",
+                "href": "http://ratings.fide.com/card.phtml?event=3264688"
+              },
               "Fed": "",
               "Rtg": "277",
               "RtgF": "0",
@@ -4088,7 +5628,12 @@
             },
             {
               "#": "6",
-              "Player": "Bo,Jeremie",
+              "Player": {
+                "id": "",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3264696"
+              },
               "Fed": "",
               "Rtg": "753",
               "RtgF": "0",
@@ -4096,7 +5641,12 @@
             },
             {
               "#": "17",
-              "Player": "Bodke,Aryan",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -4104,7 +5654,12 @@
             },
             {
               "#": "18",
-              "Player": "Bodke,Sahasra",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Sahasra",
+                "gender": "female",
+                "href": "http://ratings.fide.com/card.phtml?event=3259030"
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -4112,7 +5667,12 @@
             },
             {
               "#": "15",
-              "Player": "Chan,Abby",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "female",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "100",
               "RtgF": "0",
@@ -4120,7 +5680,12 @@
             },
             {
               "#": "19",
-              "Player": "Das,Ayush",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -4128,7 +5693,12 @@
             },
             {
               "#": "11",
-              "Player": "Goh,Nicholas",
+              "Player": {
+                "id": "",
+                "playerName": "Goh,Nicholas",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3254917"
+              },
               "Fed": "",
               "Rtg": "347",
               "RtgF": "0",
@@ -4136,7 +5706,12 @@
             },
             {
               "#": "8",
-              "Player": "Husain,Lamiah",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "female",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "572",
               "RtgF": "0",
@@ -4144,7 +5719,12 @@
             },
             {
               "#": "20",
-              "Player": "Kukdeja,Aarav",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -4152,7 +5732,12 @@
             },
             {
               "#": "4",
-              "Player": "Majety,Rohan",
+              "Player": {
+                "id": "",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3260062"
+              },
               "Fed": "",
               "Rtg": "859",
               "RtgF": "0",
@@ -4160,7 +5745,12 @@
             },
             {
               "#": "24",
-              "Player": "Morris,Elijah",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "654",
               "RtgF": "0",
@@ -4168,7 +5758,12 @@
             },
             {
               "#": "25",
-              "Player": "Naidu,Aarush",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -4176,7 +5771,12 @@
             },
             {
               "#": "21",
-              "Player": "Nethi,Karthika",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "female",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -4184,7 +5784,12 @@
             },
             {
               "#": "3",
-              "Player": "Nguyen,Anh Kiet",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3267849"
+              },
               "Fed": "",
               "Rtg": "1013",
               "RtgF": "0",
@@ -4192,7 +5797,12 @@
             },
             {
               "#": "7",
-              "Player": "Nguyen,Tuan Kiet",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Tuan Kiet",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3270335"
+              },
               "Fed": "",
               "Rtg": "728",
               "RtgF": "0",
@@ -4200,7 +5810,12 @@
             },
             {
               "#": "9",
-              "Player": "Pathiyassery,Emir",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "420",
               "RtgF": "0",
@@ -4208,7 +5823,12 @@
             },
             {
               "#": "22",
-              "Player": "Rai,Ishaan",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -4216,7 +5836,12 @@
             },
             {
               "#": "10",
-              "Player": "Ruaya,Rohan",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "418",
               "RtgF": "0",
@@ -4224,7 +5849,12 @@
             },
             {
               "#": "14",
-              "Player": "Shenbaga,Kabilan",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "116",
               "RtgF": "0",
@@ -4232,7 +5862,12 @@
             },
             {
               "#": "13",
-              "Player": "Venkatesh,Arvind",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "179",
               "RtgF": "0",
@@ -4240,7 +5875,12 @@
             },
             {
               "#": "23",
-              "Player": "Vijayakumar,Rithvik",
+              "Player": {
+                "id": "",
+                "playerName": "",
+                "gender": "male",
+                "href": ""
+              },
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -4248,7 +5888,12 @@
             },
             {
               "#": "2",
-              "Player": "Wei,Andrew",
+              "Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3265277"
+              },
               "Fed": "",
               "Rtg": "1031",
               "RtgF": "0",
@@ -4256,7 +5901,12 @@
             },
             {
               "#": "1",
-              "Player": "Yang,Yifan",
+              "Player": {
+                "id": "",
+                "playerName": "Yang,Yifan",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3275272"
+              },
               "Fed": "",
               "Rtg": "1080",
               "RtgF": "0",
@@ -4495,7 +6145,12 @@
               "Pos": "1",
               "N": "3",
               "T": "",
-              "Player": "Nguyen,Anh Kiet",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "Rtg": "1013",
               "PRtg": "990",
               "Fed": "",
@@ -4508,7 +6163,12 @@
               "Pos": "2",
               "N": "1",
               "T": "",
-              "Player": "Yang,Yifan",
+              "Player": {
+                "id": "",
+                "playerName": "Yang,Yifan",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "Rtg": "1080",
               "PRtg": "957",
               "Fed": "",
@@ -4521,7 +6181,12 @@
               "Pos": "3",
               "N": "4",
               "T": "",
-              "Player": "Majety,Rohan",
+              "Player": {
+                "id": "",
+                "playerName": "Majety,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "Rtg": "859",
               "PRtg": "957",
               "Fed": "",
@@ -4534,7 +6199,12 @@
               "Pos": "4",
               "N": "2",
               "T": "",
-              "Player": "Wei,Andrew",
+              "Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "Rtg": "1031",
               "PRtg": "964",
               "Fed": "",
@@ -4547,7 +6217,12 @@
               "Pos": "5",
               "N": "6",
               "T": "",
-              "Player": "Bo,Jeremie",
+              "Player": {
+                "id": "",
+                "playerName": "Bo,Jeremie",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "Rtg": "753",
               "PRtg": "996",
               "Fed": "",
@@ -4560,7 +6235,12 @@
               "Pos": "6",
               "N": "7",
               "T": "",
-              "Player": "Nguyen,Tuan Kiet",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Tuan Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#7"
+              },
               "Rtg": "728",
               "PRtg": "949",
               "Fed": "",
@@ -4573,7 +6253,12 @@
               "Pos": "7",
               "N": "10",
               "T": "",
-              "Player": "Ruaya,Rohan",
+              "Player": {
+                "id": "",
+                "playerName": "Ruaya,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#10"
+              },
               "Rtg": "418",
               "PRtg": "852",
               "Fed": "",
@@ -4586,7 +6271,12 @@
               "Pos": "8",
               "N": "24",
               "T": "",
-              "Player": "Morris,Elijah",
+              "Player": {
+                "id": "",
+                "playerName": "Morris,Elijah",
+                "gender": "notitle",
+                "href": "playercard.html#24"
+              },
               "Rtg": "654",
               "PRtg": "611",
               "Fed": "",
@@ -4599,7 +6289,12 @@
               "Pos": "9",
               "N": "8",
               "T": "",
-              "Player": "Husain,Lamiah",
+              "Player": {
+                "id": "",
+                "playerName": "Husain,Lamiah",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              },
               "Rtg": "572",
               "PRtg": "726",
               "Fed": "",
@@ -4612,7 +6307,12 @@
               "Pos": "10",
               "N": "22",
               "T": "",
-              "Player": "Rai,Ishaan",
+              "Player": {
+                "id": "",
+                "playerName": "Rai,Ishaan",
+                "gender": "notitle",
+                "href": "playercard.html#22"
+              },
               "Rtg": "0",
               "PRtg": "592",
               "Fed": "",
@@ -4625,7 +6325,12 @@
               "Pos": "11",
               "N": "11",
               "T": "",
-              "Player": "Goh,Nicholas",
+              "Player": {
+                "id": "",
+                "playerName": "Goh,Nicholas",
+                "gender": "notitle",
+                "href": "playercard.html#11"
+              },
               "Rtg": "347",
               "PRtg": "627",
               "Fed": "",
@@ -4638,7 +6343,12 @@
               "Pos": "12",
               "N": "5",
               "T": "",
-              "Player": "Ashok,Arjun",
+              "Player": {
+                "id": "",
+                "playerName": "Ashok,Arjun",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "Rtg": "776",
               "PRtg": "790",
               "Fed": "",
@@ -4651,7 +6361,12 @@
               "Pos": "13",
               "N": "19",
               "T": "",
-              "Player": "Das,Ayush",
+              "Player": {
+                "id": "",
+                "playerName": "Das,Ayush",
+                "gender": "notitle",
+                "href": "playercard.html#19"
+              },
               "Rtg": "0",
               "PRtg": "824",
               "Fed": "",
@@ -4664,7 +6379,12 @@
               "Pos": "14",
               "N": "9",
               "T": "",
-              "Player": "Pathiyassery,Emir",
+              "Player": {
+                "id": "",
+                "playerName": "Pathiyassery,Emir",
+                "gender": "notitle",
+                "href": "playercard.html#9"
+              },
               "Rtg": "420",
               "PRtg": "719",
               "Fed": "",
@@ -4677,7 +6397,12 @@
               "Pos": "15",
               "N": "14",
               "T": "",
-              "Player": "Shenbaga,Kabilan",
+              "Player": {
+                "id": "",
+                "playerName": "Shenbaga,Kabilan",
+                "gender": "notitle",
+                "href": "playercard.html#14"
+              },
               "Rtg": "116",
               "PRtg": "825",
               "Fed": "",
@@ -4690,7 +6415,12 @@
               "Pos": "16",
               "N": "16",
               "T": "",
-              "Player": "Balamurgan,Soorya",
+              "Player": {
+                "id": "",
+                "playerName": "Balamurgan,Soorya",
+                "gender": "notitle",
+                "href": "playercard.html#16"
+              },
               "Rtg": "0",
               "PRtg": "714",
               "Fed": "",
@@ -4703,7 +6433,12 @@
               "Pos": "17",
               "N": "23",
               "T": "",
-              "Player": "Vijayakumar,Rithv(W)",
+              "Player": {
+                "id": "",
+                "playerName": "Vijayakumar,Rithv(W)",
+                "gender": "notitle",
+                "href": "playercard.html#23"
+              },
               "Rtg": "0",
               "PRtg": "598",
               "Fed": "",
@@ -4716,7 +6451,12 @@
               "Pos": "18",
               "N": "12",
               "T": "",
-              "Player": "Bo,Jamie",
+              "Player": {
+                "id": "",
+                "playerName": "Bo,Jamie",
+                "gender": "notitle",
+                "href": "playercard.html#12"
+              },
               "Rtg": "277",
               "PRtg": "729",
               "Fed": "",
@@ -4729,7 +6469,12 @@
               "Pos": "19",
               "N": "20",
               "T": "",
-              "Player": "Kukdeja,Aarav",
+              "Player": {
+                "id": "",
+                "playerName": "Kukdeja,Aarav",
+                "gender": "notitle",
+                "href": "playercard.html#20"
+              },
               "Rtg": "0",
               "PRtg": "449",
               "Fed": "",
@@ -4742,7 +6487,12 @@
               "Pos": "20",
               "N": "13",
               "T": "",
-              "Player": "Venkatesh,Arvind",
+              "Player": {
+                "id": "",
+                "playerName": "Venkatesh,Arvind",
+                "gender": "notitle",
+                "href": "playercard.html#13"
+              },
               "Rtg": "179",
               "PRtg": "660",
               "Fed": "",
@@ -4755,7 +6505,12 @@
               "Pos": "21",
               "N": "15",
               "T": "",
-              "Player": "Chan,Abby",
+              "Player": {
+                "id": "",
+                "playerName": "Chan,Abby",
+                "gender": "notitle",
+                "href": "playercard.html#15"
+              },
               "Rtg": "100",
               "PRtg": "820",
               "Fed": "",
@@ -4768,7 +6523,12 @@
               "Pos": "22",
               "N": "17",
               "T": "",
-              "Player": "Bodke,Aryan",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Aryan",
+                "gender": "notitle",
+                "href": "playercard.html#17"
+              },
               "Rtg": "0",
               "PRtg": "296",
               "Fed": "",
@@ -4781,7 +6541,12 @@
               "Pos": "23",
               "N": "21",
               "T": "",
-              "Player": "Nethi,Karthika",
+              "Player": {
+                "id": "",
+                "playerName": "Nethi,Karthika",
+                "gender": "notitle",
+                "href": "playercard.html#21"
+              },
               "Rtg": "0",
               "PRtg": "464",
               "Fed": "",
@@ -4794,7 +6559,12 @@
               "Pos": "24",
               "N": "18",
               "T": "",
-              "Player": "Bodke,Sahasra",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Sahasra",
+                "gender": "notitle",
+                "href": "playercard.html#18"
+              },
               "Rtg": "0",
               "PRtg": "577",
               "Fed": "",
@@ -4807,7 +6577,12 @@
               "Pos": "25",
               "N": "25",
               "T": "",
-              "Player": "Naidu,Aarush",
+              "Player": {
+                "id": "",
+                "playerName": "Naidu,Aarush",
+                "gender": "notitle",
+                "href": "playercard.html#25"
+              },
               "Rtg": "0",
               "PRtg": "293",
               "Fed": "",
@@ -4816,7 +6591,8 @@
               "BH-C1": "13.0",
               "SB": "2.00"
             }
-          ]
+          ],
+          "caption": "Ranking for category:"
         }
       ]
     },
@@ -4843,7 +6619,12 @@
             {
               "Pos": "1",
               "#": "3",
-              "Player": "Nguyen,Anh Kiet",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Rtg": "1013",
               "Fed": "",
               "Pts": "6.0",
@@ -4854,7 +6635,12 @@
             {
               "Pos": "2",
               "#": "1",
-              "Player": "Yang,Yifan",
+              "Player": {
+                "id": "",
+                "playerName": "Yang,Yifan",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Rtg": "1080",
               "Fed": "",
               "Pts": "5.5",
@@ -4865,7 +6651,12 @@
             {
               "Pos": "3",
               "#": "4",
-              "Player": "Majety,Rohan",
+              "Player": {
+                "id": "",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Rtg": "859",
               "Fed": "",
               "Pts": "5.5",
@@ -4876,7 +6667,12 @@
             {
               "Pos": "4",
               "#": "2",
-              "Player": "Wei,Andrew",
+              "Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Rtg": "1031",
               "Fed": "",
               "Pts": "4.5",
@@ -4887,7 +6683,12 @@
             {
               "Pos": "5",
               "#": "6",
-              "Player": "Bo,Jeremie",
+              "Player": {
+                "id": "",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Rtg": "753",
               "Fed": "",
               "Pts": "4.5",
@@ -4898,7 +6699,12 @@
             {
               "Pos": "6",
               "#": "7",
-              "Player": "Nguyen,Tuan Kiet",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Tuan Kiet",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
               "Rtg": "728",
               "Fed": "",
               "Pts": "4.0",
@@ -4909,7 +6715,12 @@
             {
               "Pos": "7",
               "#": "5",
-              "Player": "Ashok,Arjun",
+              "Player": {
+                "id": "",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Rtg": "776",
               "Fed": "",
               "Pts": "3.5",
@@ -4935,7 +6746,12 @@
             {
               "Pos": "1",
               "#": "10",
-              "Player": "Ruaya,Rohan",
+              "Player": {
+                "id": "",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#10"
+              },
               "Rtg": "418",
               "Fed": "",
               "Pts": "4.0",
@@ -4946,7 +6762,12 @@
             {
               "Pos": "2",
               "#": "24",
-              "Player": "Morris,Elijah",
+              "Player": {
+                "id": "",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "playercard.html#24"
+              },
               "Rtg": "654",
               "Fed": "",
               "Pts": "4.0",
@@ -4957,7 +6778,12 @@
             {
               "Pos": "3",
               "#": "8",
-              "Player": "Husain,Lamiah",
+              "Player": {
+                "id": "",
+                "playerName": "Husain,Lamiah",
+                "gender": "female",
+                "href": "playercard.html#8"
+              },
               "Rtg": "572",
               "Fed": "",
               "Pts": "4.0",
@@ -4968,7 +6794,12 @@
             {
               "Pos": "4",
               "#": "11",
-              "Player": "Goh,Nicholas",
+              "Player": {
+                "id": "",
+                "playerName": "Goh,Nicholas",
+                "gender": "male",
+                "href": "playercard.html#11"
+              },
               "Rtg": "347",
               "Fed": "",
               "Pts": "4.0",
@@ -4979,7 +6810,12 @@
             {
               "Pos": "5",
               "#": "9",
-              "Player": "Pathiyassery,Emir",
+              "Player": {
+                "id": "",
+                "playerName": "Pathiyassery,Emir",
+                "gender": "male",
+                "href": "playercard.html#9"
+              },
               "Rtg": "420",
               "Fed": "",
               "Pts": "3.0",
@@ -4990,7 +6826,12 @@
             {
               "Pos": "6",
               "#": "14",
-              "Player": "Shenbaga,Kabilan",
+              "Player": {
+                "id": "",
+                "playerName": "Shenbaga,Kabilan",
+                "gender": "male",
+                "href": "playercard.html#14"
+              },
               "Rtg": "116",
               "Fed": "",
               "Pts": "3.0",
@@ -5001,7 +6842,12 @@
             {
               "Pos": "7",
               "#": "12",
-              "Player": "Bo,Jamie",
+              "Player": {
+                "id": "",
+                "playerName": "Bo,Jamie",
+                "gender": "female",
+                "href": "playercard.html#12"
+              },
               "Rtg": "277",
               "Fed": "",
               "Pts": "2.5",
@@ -5012,7 +6858,12 @@
             {
               "Pos": "8",
               "#": "13",
-              "Player": "Venkatesh,Arvind",
+              "Player": {
+                "id": "",
+                "playerName": "Venkatesh,Arvind",
+                "gender": "male",
+                "href": "playercard.html#13"
+              },
               "Rtg": "179",
               "Fed": "",
               "Pts": "2.0",
@@ -5023,7 +6874,12 @@
             {
               "Pos": "9",
               "#": "15",
-              "Player": "Chan,Abby",
+              "Player": {
+                "id": "",
+                "playerName": "Chan,Abby",
+                "gender": "female",
+                "href": "playercard.html#15"
+              },
               "Rtg": "100",
               "Fed": "",
               "Pts": "2.0",
@@ -5049,7 +6905,12 @@
             {
               "Pos": "1",
               "#": "22",
-              "Player": "Rai,Ishaan",
+              "Player": {
+                "id": "",
+                "playerName": "Rai,Ishaan",
+                "gender": "male",
+                "href": "playercard.html#22"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "4.0",
@@ -5060,7 +6921,12 @@
             {
               "Pos": "2",
               "#": "19",
-              "Player": "Das,Ayush",
+              "Player": {
+                "id": "",
+                "playerName": "Das,Ayush",
+                "gender": "male",
+                "href": "playercard.html#19"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "3.5",
@@ -5071,7 +6937,12 @@
             {
               "Pos": "3",
               "#": "16",
-              "Player": "Balamurgan,Soorya",
+              "Player": {
+                "id": "",
+                "playerName": "Balamurgan,Soorya",
+                "gender": "male",
+                "href": "playercard.html#16"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "3.0",
@@ -5082,7 +6953,12 @@
             {
               "Pos": "4",
               "#": "23",
-              "Player": "Vijayakumar,Rithv(W)",
+              "Player": {
+                "id": "",
+                "playerName": "Vijayakumar,Rithv(W)",
+                "gender": "male",
+                "href": "playercard.html#23"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "3.0",
@@ -5093,7 +6969,12 @@
             {
               "Pos": "5",
               "#": "20",
-              "Player": "Kukdeja,Aarav",
+              "Player": {
+                "id": "",
+                "playerName": "Kukdeja,Aarav",
+                "gender": "male",
+                "href": "playercard.html#20"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "2.5",
@@ -5104,7 +6985,12 @@
             {
               "Pos": "6",
               "#": "17",
-              "Player": "Bodke,Aryan",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Aryan",
+                "gender": "male",
+                "href": "playercard.html#17"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "2.0",
@@ -5115,7 +7001,12 @@
             {
               "Pos": "7",
               "#": "21",
-              "Player": "Nethi,Karthika",
+              "Player": {
+                "id": "",
+                "playerName": "Nethi,Karthika",
+                "gender": "female",
+                "href": "playercard.html#21"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "2.0",
@@ -5126,7 +7017,12 @@
             {
               "Pos": "8",
               "#": "18",
-              "Player": "Bodke,Sahasra",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Sahasra",
+                "gender": "female",
+                "href": "playercard.html#18"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "1.0",
@@ -5137,7 +7033,12 @@
             {
               "Pos": "9",
               "#": "25",
-              "Player": "Naidu,Aarush",
+              "Player": {
+                "id": "",
+                "playerName": "Naidu,Aarush",
+                "gender": "male",
+                "href": "playercard.html#25"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "1.0",
@@ -5179,7 +7080,12 @@
           "rows": [
             {
               "Pos": "1",
-              "Player": "3     Nguyen,Anh Kiet",
+              "Player": {
+                "id": "3",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Rtg": "1013",
               "Fed": "",
               "Pts": "6.0",
@@ -5189,7 +7095,12 @@
             },
             {
               "Pos": "2",
-              "Player": "1     Yang,Yifan",
+              "Player": {
+                "id": "1",
+                "playerName": "Yang,Yifan",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Rtg": "1080",
               "Fed": "",
               "Pts": "5.5",
@@ -5199,7 +7110,12 @@
             },
             {
               "Pos": "3",
-              "Player": "4     Majety,Rohan",
+              "Player": {
+                "id": "4",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Rtg": "859",
               "Fed": "",
               "Pts": "5.5",
@@ -5209,7 +7125,12 @@
             },
             {
               "Pos": "4",
-              "Player": "2     Wei,Andrew",
+              "Player": {
+                "id": "2",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Rtg": "1031",
               "Fed": "",
               "Pts": "4.5",
@@ -5219,7 +7140,12 @@
             },
             {
               "Pos": "5",
-              "Player": "6     Bo,Jeremie",
+              "Player": {
+                "id": "6",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Rtg": "753",
               "Fed": "",
               "Pts": "4.5",
@@ -5229,7 +7155,12 @@
             },
             {
               "Pos": "6",
-              "Player": "7     Nguyen,Tuan Kiet",
+              "Player": {
+                "id": "7",
+                "playerName": "Nguyen,Tuan Kiet",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
               "Rtg": "728",
               "Fed": "",
               "Pts": "4.0",
@@ -5239,7 +7170,12 @@
             },
             {
               "Pos": "7",
-              "Player": "10     Ruaya,Rohan",
+              "Player": {
+                "id": "10",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#10"
+              },
               "Rtg": "418",
               "Fed": "",
               "Pts": "4.0",
@@ -5249,7 +7185,12 @@
             },
             {
               "Pos": "8",
-              "Player": "24     Morris,Elijah",
+              "Player": {
+                "id": "24",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "playercard.html#24"
+              },
               "Rtg": "654",
               "Fed": "",
               "Pts": "4.0",
@@ -5259,7 +7200,12 @@
             },
             {
               "Pos": "9",
-              "Player": "8     Husain,Lamiah",
+              "Player": {
+                "id": "8",
+                "playerName": "Husain,Lamiah",
+                "gender": "female",
+                "href": "playercard.html#8"
+              },
               "Rtg": "572",
               "Fed": "",
               "Pts": "4.0",
@@ -5269,7 +7215,12 @@
             },
             {
               "Pos": "10",
-              "Player": "22     Rai,Ishaan",
+              "Player": {
+                "id": "22",
+                "playerName": "Rai,Ishaan",
+                "gender": "male",
+                "href": "playercard.html#22"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "4.0",
@@ -5279,7 +7230,12 @@
             },
             {
               "Pos": "11",
-              "Player": "11     Goh,Nicholas",
+              "Player": {
+                "id": "11",
+                "playerName": "Goh,Nicholas",
+                "gender": "male",
+                "href": "playercard.html#11"
+              },
               "Rtg": "347",
               "Fed": "",
               "Pts": "4.0",
@@ -5289,7 +7245,12 @@
             },
             {
               "Pos": "12",
-              "Player": "5     Ashok,Arjun",
+              "Player": {
+                "id": "5",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Rtg": "776",
               "Fed": "",
               "Pts": "3.5",
@@ -5299,7 +7260,12 @@
             },
             {
               "Pos": "13",
-              "Player": "19     Das,Ayush",
+              "Player": {
+                "id": "19",
+                "playerName": "Das,Ayush",
+                "gender": "male",
+                "href": "playercard.html#19"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "3.5",
@@ -5309,7 +7275,12 @@
             },
             {
               "Pos": "14",
-              "Player": "9     Pathiyassery,Emir",
+              "Player": {
+                "id": "9",
+                "playerName": "Pathiyassery,Emir",
+                "gender": "male",
+                "href": "playercard.html#9"
+              },
               "Rtg": "420",
               "Fed": "",
               "Pts": "3.0",
@@ -5319,7 +7290,12 @@
             },
             {
               "Pos": "15",
-              "Player": "14     Shenbaga,Kabilan",
+              "Player": {
+                "id": "14",
+                "playerName": "Shenbaga,Kabilan",
+                "gender": "male",
+                "href": "playercard.html#14"
+              },
               "Rtg": "116",
               "Fed": "",
               "Pts": "3.0",
@@ -5329,7 +7305,12 @@
             },
             {
               "Pos": "16",
-              "Player": "16     Balamurgan,Soorya",
+              "Player": {
+                "id": "16",
+                "playerName": "Balamurgan,Soorya",
+                "gender": "male",
+                "href": "playercard.html#16"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "3.0",
@@ -5339,7 +7320,12 @@
             },
             {
               "Pos": "17",
-              "Player": "23     Vijayakumar,Rithvik (W)",
+              "Player": {
+                "id": "23",
+                "playerName": "Vijayakumar,Rithvik (W)",
+                "gender": "male",
+                "href": "playercard.html#23"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "3.0",
@@ -5349,7 +7335,12 @@
             },
             {
               "Pos": "18",
-              "Player": "12     Bo,Jamie",
+              "Player": {
+                "id": "12",
+                "playerName": "Bo,Jamie",
+                "gender": "female",
+                "href": "playercard.html#12"
+              },
               "Rtg": "277",
               "Fed": "",
               "Pts": "2.5",
@@ -5359,7 +7350,12 @@
             },
             {
               "Pos": "19",
-              "Player": "20     Kukdeja,Aarav",
+              "Player": {
+                "id": "20",
+                "playerName": "Kukdeja,Aarav",
+                "gender": "male",
+                "href": "playercard.html#20"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "2.5",
@@ -5369,7 +7365,12 @@
             },
             {
               "Pos": "20",
-              "Player": "13     Venkatesh,Arvind",
+              "Player": {
+                "id": "13",
+                "playerName": "Venkatesh,Arvind",
+                "gender": "male",
+                "href": "playercard.html#13"
+              },
               "Rtg": "179",
               "Fed": "",
               "Pts": "2.0",
@@ -5379,7 +7380,12 @@
             },
             {
               "Pos": "21",
-              "Player": "15     Chan,Abby",
+              "Player": {
+                "id": "15",
+                "playerName": "Chan,Abby",
+                "gender": "female",
+                "href": "playercard.html#15"
+              },
               "Rtg": "100",
               "Fed": "",
               "Pts": "2.0",
@@ -5389,7 +7395,12 @@
             },
             {
               "Pos": "22",
-              "Player": "17     Bodke,Aryan",
+              "Player": {
+                "id": "17",
+                "playerName": "Bodke,Aryan",
+                "gender": "male",
+                "href": "playercard.html#17"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "2.0",
@@ -5399,7 +7410,12 @@
             },
             {
               "Pos": "23",
-              "Player": "21     Nethi,Karthika",
+              "Player": {
+                "id": "21",
+                "playerName": "Nethi,Karthika",
+                "gender": "female",
+                "href": "playercard.html#21"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "2.0",
@@ -5409,7 +7425,12 @@
             },
             {
               "Pos": "24",
-              "Player": "18     Bodke,Sahasra",
+              "Player": {
+                "id": "18",
+                "playerName": "Bodke,Sahasra",
+                "gender": "female",
+                "href": "playercard.html#18"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "1.0",
@@ -5419,7 +7440,12 @@
             },
             {
               "Pos": "25",
-              "Player": "25     Naidu,Aarush",
+              "Player": {
+                "id": "25",
+                "playerName": "Naidu,Aarush",
+                "gender": "male",
+                "href": "playercard.html#25"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "1.0",
@@ -5470,147 +7496,278 @@
             {
               "Bo.": "1",
               "col2": "",
-              "White Player": "Nguyen,Anh Kiet",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "Pts": "(4.0)",
               "NW": "3",
               "Result": "1 - 0",
               "NB": "24",
-              "Black Player": "Morris,Elijah",
+              "Black Player": {
+                "id": "",
+                "playerName": "Morris,Elijah",
+                "gender": "notitle",
+                "href": "playercard.html#24"
+              },
               "col10": ""
             },
             {
               "Bo.": "2",
               "col2": "",
-              "White Player": "Yang,Yifan",
+              "White Player": {
+                "id": "",
+                "playerName": "Yang,Yifan",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "Pts": "(4.0)",
               "NW": "1",
               "Result": "1 - 0",
               "NB": "8",
-              "Black Player": "Husain,Lamiah",
+              "Black Player": {
+                "id": "",
+                "playerName": "Husain,Lamiah",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              },
               "col10": ""
             },
             {
               "Bo.": "3",
               "col2": "",
-              "White Player": "Ruaya,Rohan",
+              "White Player": {
+                "id": "",
+                "playerName": "Ruaya,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#10"
+              },
               "Pts": "(4.5)",
               "NW": "10",
               "Result": "0 - 1",
               "NB": "4",
-              "Black Player": "Majety,Rohan",
+              "Black Player": {
+                "id": "",
+                "playerName": "Majety,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "col10": ""
             },
             {
               "Bo.": "4",
               "col2": "",
-              "White Player": "Bo,Jeremie",
+              "White Player": {
+                "id": "",
+                "playerName": "Bo,Jeremie",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "Pts": "(4.0)",
               "NW": "6",
               "Result": "1 - 0",
               "NB": "7",
-              "Black Player": "Nguyen,Tuan Kiet",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Tuan Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#7"
+              },
               "col10": ""
             },
             {
               "Bo.": "5",
               "col2": "",
-              "White Player": "Wei,Andrew",
+              "White Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "Pts": "(3.5)",
               "NW": "2",
               "Result": "1 - 0",
               "NB": "5",
-              "Black Player": "Ashok,Arjun",
+              "Black Player": {
+                "id": "",
+                "playerName": "Ashok,Arjun",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "col10": ""
             },
             {
               "Bo.": "6",
               "col2": "",
-              "White Player": "Goh,Nicholas",
+              "White Player": {
+                "id": "",
+                "playerName": "Goh,Nicholas",
+                "gender": "notitle",
+                "href": "playercard.html#11"
+              },
               "Pts": "(3.0)",
               "NW": "11",
               "Result": "1 - 0",
               "NB": "9",
-              "Black Player": "Pathiyassery,Emir",
+              "Black Player": {
+                "id": "",
+                "playerName": "Pathiyassery,Emir",
+                "gender": "notitle",
+                "href": "playercard.html#9"
+              },
               "col10": ""
             },
             {
               "Bo.": "7",
               "col2": "",
-              "White Player": "Rai,Ishaan",
+              "White Player": {
+                "id": "",
+                "playerName": "Rai,Ishaan",
+                "gender": "notitle",
+                "href": "playercard.html#22"
+              },
               "Pts": "(2.5)",
               "NW": "22",
               "Result": "1 - 0",
               "NB": "12",
-              "Black Player": "Bo,Jamie",
+              "Black Player": {
+                "id": "",
+                "playerName": "Bo,Jamie",
+                "gender": "notitle",
+                "href": "playercard.html#12"
+              },
               "col10": ""
             },
             {
               "Bo.": "8",
               "col2": "",
-              "White Player": "Chan,Abby",
+              "White Player": {
+                "id": "",
+                "playerName": "Chan,Abby",
+                "gender": "notitle",
+                "href": "playercard.html#15"
+              },
               "Pts": "(3.0)",
               "NW": "15",
               "Result": "0F-0F",
               "NB": "14",
-              "Black Player": "Shenbaga,Kabilan",
+              "Black Player": {
+                "id": "",
+                "playerName": "Shenbaga,Kabilan",
+                "gender": "notitle",
+                "href": "playercard.html#14"
+              },
               "col10": ""
             },
             {
               "Bo.": "9",
               "col2": "",
-              "White Player": "Nethi,Karthika",
+              "White Player": {
+                "id": "",
+                "playerName": "Nethi,Karthika",
+                "gender": "notitle",
+                "href": "playercard.html#21"
+              },
               "Pts": "(2.5)",
               "NW": "21",
               "Result": "0 - 1",
               "NB": "19",
-              "Black Player": "Das,Ayush",
+              "Black Player": {
+                "id": "",
+                "playerName": "Das,Ayush",
+                "gender": "notitle",
+                "href": "playercard.html#19"
+              },
               "col10": ""
             },
             {
               "Bo.": "10",
               "col2": "",
-              "White Player": "Venkatesh,Arvind",
+              "White Player": {
+                "id": "",
+                "playerName": "Venkatesh,Arvind",
+                "gender": "notitle",
+                "href": "playercard.html#13"
+              },
               "Pts": "(2.0)",
               "NW": "13",
               "Result": "0 - 1",
               "NB": "16",
-              "Black Player": "Balamurgan,Soorya",
+              "Black Player": {
+                "id": "",
+                "playerName": "Balamurgan,Soorya",
+                "gender": "notitle",
+                "href": "playercard.html#16"
+              },
               "col10": ""
             },
             {
               "Bo.": "11",
               "col2": "",
-              "White Player": "Bodke,Aryan",
+              "White Player": {
+                "id": "",
+                "playerName": "Bodke,Aryan",
+                "gender": "notitle",
+                "href": "playercard.html#17"
+              },
               "Pts": "(1.5)",
               "NW": "17",
               "Result": "0 - 1",
               "NB": "20",
-              "Black Player": "Kukdeja,Aarav",
+              "Black Player": {
+                "id": "",
+                "playerName": "Kukdeja,Aarav",
+                "gender": "notitle",
+                "href": "playercard.html#20"
+              },
               "col10": ""
             },
             {
               "Bo.": "12",
               "col2": "",
-              "White Player": "Naidu,Aarush",
+              "White Player": {
+                "id": "",
+                "playerName": "Naidu,Aarush",
+                "gender": "notitle",
+                "href": "playercard.html#25"
+              },
               "Pts": "(0.0)",
               "NW": "25",
               "Result": "0 - 1",
               "NB": "18",
-              "Black Player": "Bodke,Sahasra",
+              "Black Player": {
+                "id": "",
+                "playerName": "Bodke,Sahasra",
+                "gender": "notitle",
+                "href": "playercard.html#18"
+              },
               "col10": ""
             },
             {
               "Bo.": "13",
               "col2": "",
-              "White Player": "Vijayakumar,Rithvik",
+              "White Player": {
+                "id": "",
+                "playerName": "Vijayakumar,Rithvik",
+                "gender": "notitle",
+                "href": "playercard.html#23"
+              },
               "Pts": "(0.0)",
               "NW": "23",
               "Result": "0",
               "NB": "0",
-              "Black Player": "BYE",
+              "Black Player": {
+                "id": "",
+                "playerName": "BYE",
+                "gender": "notitle",
+                "href": "playercard.html#0"
+              },
               "col10": ""
             }
-          ]
+          ],
+          "caption": "Pairing"
         },
         {
           "headers": [
@@ -5632,7 +7789,12 @@
               "Pos": "1",
               "N": "3",
               "T": "",
-              "Player": "Nguyen,Anh Kiet",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "Rtg": "1013",
               "PRtg": "990",
               "Fed": "",
@@ -5646,7 +7808,12 @@
               "Pos": "2",
               "N": "1",
               "T": "",
-              "Player": "Yang,Yifan",
+              "Player": {
+                "id": "",
+                "playerName": "Yang,Yifan",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "Rtg": "1080",
               "PRtg": "957",
               "Fed": "",
@@ -5660,7 +7827,12 @@
               "Pos": "3",
               "N": "4",
               "T": "",
-              "Player": "Majety,Rohan",
+              "Player": {
+                "id": "",
+                "playerName": "Majety,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "Rtg": "859",
               "PRtg": "957",
               "Fed": "",
@@ -5674,7 +7846,12 @@
               "Pos": "4",
               "N": "2",
               "T": "",
-              "Player": "Wei,Andrew",
+              "Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "Rtg": "1031",
               "PRtg": "964",
               "Fed": "",
@@ -5688,7 +7865,12 @@
               "Pos": "5",
               "N": "6",
               "T": "",
-              "Player": "Bo,Jeremie",
+              "Player": {
+                "id": "",
+                "playerName": "Bo,Jeremie",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "Rtg": "753",
               "PRtg": "996",
               "Fed": "",
@@ -5702,7 +7884,12 @@
               "Pos": "6",
               "N": "7",
               "T": "",
-              "Player": "Nguyen,Tuan Kiet",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Tuan Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#7"
+              },
               "Rtg": "728",
               "PRtg": "949",
               "Fed": "",
@@ -5716,7 +7903,12 @@
               "Pos": "7",
               "N": "10",
               "T": "",
-              "Player": "Ruaya,Rohan",
+              "Player": {
+                "id": "",
+                "playerName": "Ruaya,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#10"
+              },
               "Rtg": "418",
               "PRtg": "852",
               "Fed": "",
@@ -5730,7 +7922,12 @@
               "Pos": "8",
               "N": "24",
               "T": "",
-              "Player": "Morris,Elijah",
+              "Player": {
+                "id": "",
+                "playerName": "Morris,Elijah",
+                "gender": "notitle",
+                "href": "playercard.html#24"
+              },
               "Rtg": "654",
               "PRtg": "611",
               "Fed": "",
@@ -5744,7 +7941,12 @@
               "Pos": "9",
               "N": "8",
               "T": "",
-              "Player": "Husain,Lamiah",
+              "Player": {
+                "id": "",
+                "playerName": "Husain,Lamiah",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              },
               "Rtg": "572",
               "PRtg": "726",
               "Fed": "",
@@ -5758,7 +7960,12 @@
               "Pos": "10",
               "N": "22",
               "T": "",
-              "Player": "Rai,Ishaan",
+              "Player": {
+                "id": "",
+                "playerName": "Rai,Ishaan",
+                "gender": "notitle",
+                "href": "playercard.html#22"
+              },
               "Rtg": "0",
               "PRtg": "592",
               "Fed": "",
@@ -5772,7 +7979,12 @@
               "Pos": "11",
               "N": "11",
               "T": "",
-              "Player": "Goh,Nicholas",
+              "Player": {
+                "id": "",
+                "playerName": "Goh,Nicholas",
+                "gender": "notitle",
+                "href": "playercard.html#11"
+              },
               "Rtg": "347",
               "PRtg": "627",
               "Fed": "",
@@ -5786,7 +7998,12 @@
               "Pos": "12",
               "N": "5",
               "T": "",
-              "Player": "Ashok,Arjun",
+              "Player": {
+                "id": "",
+                "playerName": "Ashok,Arjun",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "Rtg": "776",
               "PRtg": "790",
               "Fed": "",
@@ -5800,7 +8017,12 @@
               "Pos": "13",
               "N": "19",
               "T": "",
-              "Player": "Das,Ayush",
+              "Player": {
+                "id": "",
+                "playerName": "Das,Ayush",
+                "gender": "notitle",
+                "href": "playercard.html#19"
+              },
               "Rtg": "0",
               "PRtg": "824",
               "Fed": "",
@@ -5814,7 +8036,12 @@
               "Pos": "14",
               "N": "9",
               "T": "",
-              "Player": "Pathiyassery,Emir",
+              "Player": {
+                "id": "",
+                "playerName": "Pathiyassery,Emir",
+                "gender": "notitle",
+                "href": "playercard.html#9"
+              },
               "Rtg": "420",
               "PRtg": "719",
               "Fed": "",
@@ -5828,7 +8055,12 @@
               "Pos": "15",
               "N": "14",
               "T": "",
-              "Player": "Shenbaga,Kabilan",
+              "Player": {
+                "id": "",
+                "playerName": "Shenbaga,Kabilan",
+                "gender": "notitle",
+                "href": "playercard.html#14"
+              },
               "Rtg": "116",
               "PRtg": "825",
               "Fed": "",
@@ -5842,7 +8074,12 @@
               "Pos": "17",
               "N": "23",
               "T": "",
-              "Player": "Vijayakumar,Rithvik (W)",
+              "Player": {
+                "id": "",
+                "playerName": "Vijayakumar,Rithvik (W)",
+                "gender": "notitle",
+                "href": "playercard.html#23"
+              },
               "Rtg": "0",
               "PRtg": "598",
               "Fed": "",
@@ -5856,7 +8093,12 @@
               "Pos": "18",
               "N": "12",
               "T": "",
-              "Player": "Bo,Jamie",
+              "Player": {
+                "id": "",
+                "playerName": "Bo,Jamie",
+                "gender": "notitle",
+                "href": "playercard.html#12"
+              },
               "Rtg": "277",
               "PRtg": "729",
               "Fed": "",
@@ -5870,7 +8112,12 @@
               "Pos": "19",
               "N": "20",
               "T": "",
-              "Player": "Kukdeja,Aarav",
+              "Player": {
+                "id": "",
+                "playerName": "Kukdeja,Aarav",
+                "gender": "notitle",
+                "href": "playercard.html#20"
+              },
               "Rtg": "0",
               "PRtg": "449",
               "Fed": "",
@@ -5884,7 +8131,12 @@
               "Pos": "20",
               "N": "13",
               "T": "",
-              "Player": "Venkatesh,Arvind",
+              "Player": {
+                "id": "",
+                "playerName": "Venkatesh,Arvind",
+                "gender": "notitle",
+                "href": "playercard.html#13"
+              },
               "Rtg": "179",
               "PRtg": "660",
               "Fed": "",
@@ -5898,7 +8150,12 @@
               "Pos": "21",
               "N": "15",
               "T": "",
-              "Player": "Chan,Abby",
+              "Player": {
+                "id": "",
+                "playerName": "Chan,Abby",
+                "gender": "notitle",
+                "href": "playercard.html#15"
+              },
               "Rtg": "100",
               "PRtg": "820",
               "Fed": "",
@@ -5912,7 +8169,12 @@
               "Pos": "22",
               "N": "17",
               "T": "",
-              "Player": "Bodke,Aryan",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Aryan",
+                "gender": "notitle",
+                "href": "playercard.html#17"
+              },
               "Rtg": "0",
               "PRtg": "296",
               "Fed": "",
@@ -5926,7 +8188,12 @@
               "Pos": "23",
               "N": "21",
               "T": "",
-              "Player": "Nethi,Karthika",
+              "Player": {
+                "id": "",
+                "playerName": "Nethi,Karthika",
+                "gender": "notitle",
+                "href": "playercard.html#21"
+              },
               "Rtg": "0",
               "PRtg": "464",
               "Fed": "",
@@ -5940,7 +8207,12 @@
               "Pos": "24",
               "N": "18",
               "T": "",
-              "Player": "Bodke,Sahasra",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Sahasra",
+                "gender": "notitle",
+                "href": "playercard.html#18"
+              },
               "Rtg": "0",
               "PRtg": "577",
               "Fed": "",
@@ -5954,7 +8226,12 @@
               "Pos": "25",
               "N": "25",
               "T": "",
-              "Player": "Naidu,Aarush",
+              "Player": {
+                "id": "",
+                "playerName": "Naidu,Aarush",
+                "gender": "notitle",
+                "href": "playercard.html#25"
+              },
               "Rtg": "0",
               "PRtg": "293",
               "Fed": "",
@@ -5964,7 +8241,8 @@
               "BH-C1": "13.0",
               "SB": "2.00"
             }
-          ]
+          ],
+          "caption": "Standings"
         },
         {
           "headers": [
@@ -5983,15 +8261,26 @@
             {
               "Bo.": "10",
               "col2": "",
-              "White Player": "Venkatesh,Arvind",
+              "White Player": {
+                "id": "",
+                "playerName": "Venkatesh,Arvind",
+                "gender": "notitle",
+                "href": "playercard.html#13"
+              },
               "Pts": "(2.0)",
               "NW": "13",
               "Result": "0 - 1",
               "NB": "16",
-              "Black Player": "Balamurgan,Soorya",
+              "Black Player": {
+                "id": "",
+                "playerName": "Balamurgan,Soorya",
+                "gender": "notitle",
+                "href": "playercard.html#16"
+              },
               "col10": ""
             }
-          ]
+          ],
+          "caption": "Pairing"
         },
         {
           "headers": [
@@ -6013,7 +8302,12 @@
               "Pos": "16",
               "N": "16",
               "T": "",
-              "Player": "Balamurgan,Soorya",
+              "Player": {
+                "id": "",
+                "playerName": "Balamurgan,Soorya",
+                "gender": "notitle",
+                "href": "playercard.html#16"
+              },
               "Rtg": "0",
               "PRtg": "714",
               "Fed": "",
@@ -6023,7 +8317,8 @@
               "BH-C1": "20.0",
               "SB": "5.00"
             }
-          ]
+          ],
+          "caption": "Standings"
         }
       ]
     },
@@ -6061,147 +8356,278 @@
             {
               "Bo.": "1",
               "col2": "",
-              "White Player": "Nguyen,Anh Kiet",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "Pts": "(4.0)",
               "NW": "3",
               "Result": "1 - 0",
               "NB": "24",
-              "Black Player": "Morris,Elijah",
+              "Black Player": {
+                "id": "",
+                "playerName": "Morris,Elijah",
+                "gender": "notitle",
+                "href": "playercard.html#24"
+              },
               "col10": ""
             },
             {
               "Bo.": "2",
               "col2": "",
-              "White Player": "Yang,Yifan",
+              "White Player": {
+                "id": "",
+                "playerName": "Yang,Yifan",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "Pts": "(4.0)",
               "NW": "1",
               "Result": "1 - 0",
               "NB": "8",
-              "Black Player": "Husain,Lamiah",
+              "Black Player": {
+                "id": "",
+                "playerName": "Husain,Lamiah",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              },
               "col10": ""
             },
             {
               "Bo.": "3",
               "col2": "",
-              "White Player": "Ruaya,Rohan",
+              "White Player": {
+                "id": "",
+                "playerName": "Ruaya,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#10"
+              },
               "Pts": "(4.5)",
               "NW": "10",
               "Result": "0 - 1",
               "NB": "4",
-              "Black Player": "Majety,Rohan",
+              "Black Player": {
+                "id": "",
+                "playerName": "Majety,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "col10": ""
             },
             {
               "Bo.": "4",
               "col2": "",
-              "White Player": "Bo,Jeremie",
+              "White Player": {
+                "id": "",
+                "playerName": "Bo,Jeremie",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "Pts": "(4.0)",
               "NW": "6",
               "Result": "1 - 0",
               "NB": "7",
-              "Black Player": "Nguyen,Tuan Kiet",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Tuan Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#7"
+              },
               "col10": ""
             },
             {
               "Bo.": "5",
               "col2": "",
-              "White Player": "Wei,Andrew",
+              "White Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "Pts": "(3.5)",
               "NW": "2",
               "Result": "1 - 0",
               "NB": "5",
-              "Black Player": "Ashok,Arjun",
+              "Black Player": {
+                "id": "",
+                "playerName": "Ashok,Arjun",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "col10": ""
             },
             {
               "Bo.": "6",
               "col2": "",
-              "White Player": "Goh,Nicholas",
+              "White Player": {
+                "id": "",
+                "playerName": "Goh,Nicholas",
+                "gender": "notitle",
+                "href": "playercard.html#11"
+              },
               "Pts": "(3.0)",
               "NW": "11",
               "Result": "1 - 0",
               "NB": "9",
-              "Black Player": "Pathiyassery,Emir",
+              "Black Player": {
+                "id": "",
+                "playerName": "Pathiyassery,Emir",
+                "gender": "notitle",
+                "href": "playercard.html#9"
+              },
               "col10": ""
             },
             {
               "Bo.": "7",
               "col2": "",
-              "White Player": "Rai,Ishaan",
+              "White Player": {
+                "id": "",
+                "playerName": "Rai,Ishaan",
+                "gender": "notitle",
+                "href": "playercard.html#22"
+              },
               "Pts": "(2.5)",
               "NW": "22",
               "Result": "1 - 0",
               "NB": "12",
-              "Black Player": "Bo,Jamie",
+              "Black Player": {
+                "id": "",
+                "playerName": "Bo,Jamie",
+                "gender": "notitle",
+                "href": "playercard.html#12"
+              },
               "col10": ""
             },
             {
               "Bo.": "8",
               "col2": "",
-              "White Player": "Chan,Abby",
+              "White Player": {
+                "id": "",
+                "playerName": "Chan,Abby",
+                "gender": "notitle",
+                "href": "playercard.html#15"
+              },
               "Pts": "(3.0)",
               "NW": "15",
               "Result": "0F-0F",
               "NB": "14",
-              "Black Player": "Shenbaga,Kabilan",
+              "Black Player": {
+                "id": "",
+                "playerName": "Shenbaga,Kabilan",
+                "gender": "notitle",
+                "href": "playercard.html#14"
+              },
               "col10": ""
             },
             {
               "Bo.": "9",
               "col2": "",
-              "White Player": "Nethi,Karthika",
+              "White Player": {
+                "id": "",
+                "playerName": "Nethi,Karthika",
+                "gender": "notitle",
+                "href": "playercard.html#21"
+              },
               "Pts": "(2.5)",
               "NW": "21",
               "Result": "0 - 1",
               "NB": "19",
-              "Black Player": "Das,Ayush",
+              "Black Player": {
+                "id": "",
+                "playerName": "Das,Ayush",
+                "gender": "notitle",
+                "href": "playercard.html#19"
+              },
               "col10": ""
             },
             {
               "Bo.": "10",
               "col2": "",
-              "White Player": "Venkatesh,Arvind",
+              "White Player": {
+                "id": "",
+                "playerName": "Venkatesh,Arvind",
+                "gender": "notitle",
+                "href": "playercard.html#13"
+              },
               "Pts": "(2.0)",
               "NW": "13",
               "Result": "0 - 1",
               "NB": "16",
-              "Black Player": "Balamurgan,Soorya",
+              "Black Player": {
+                "id": "",
+                "playerName": "Balamurgan,Soorya",
+                "gender": "notitle",
+                "href": "playercard.html#16"
+              },
               "col10": ""
             },
             {
               "Bo.": "11",
               "col2": "",
-              "White Player": "Bodke,Aryan",
+              "White Player": {
+                "id": "",
+                "playerName": "Bodke,Aryan",
+                "gender": "notitle",
+                "href": "playercard.html#17"
+              },
               "Pts": "(1.5)",
               "NW": "17",
               "Result": "0 - 1",
               "NB": "20",
-              "Black Player": "Kukdeja,Aarav",
+              "Black Player": {
+                "id": "",
+                "playerName": "Kukdeja,Aarav",
+                "gender": "notitle",
+                "href": "playercard.html#20"
+              },
               "col10": ""
             },
             {
               "Bo.": "12",
               "col2": "",
-              "White Player": "Naidu,Aarush",
+              "White Player": {
+                "id": "",
+                "playerName": "Naidu,Aarush",
+                "gender": "notitle",
+                "href": "playercard.html#25"
+              },
               "Pts": "(0.0)",
               "NW": "25",
               "Result": "0 - 1",
               "NB": "18",
-              "Black Player": "Bodke,Sahasra",
+              "Black Player": {
+                "id": "",
+                "playerName": "Bodke,Sahasra",
+                "gender": "notitle",
+                "href": "playercard.html#18"
+              },
               "col10": ""
             },
             {
               "Bo.": "13",
               "col2": "",
-              "White Player": "Vijayakumar,Rithvik",
+              "White Player": {
+                "id": "",
+                "playerName": "Vijayakumar,Rithvik",
+                "gender": "notitle",
+                "href": "playercard.html#23"
+              },
               "Pts": "(0.0)",
               "NW": "23",
               "Result": "0",
               "NB": "0",
-              "Black Player": "BYE",
+              "Black Player": {
+                "id": "",
+                "playerName": "BYE",
+                "gender": "notitle",
+                "href": "playercard.html#0"
+              },
               "col10": ""
             }
-          ]
+          ],
+          "caption": "Pairing"
         },
         {
           "headers": [
@@ -6223,7 +8649,12 @@
               "Pos": "1",
               "N": "3",
               "T": "",
-              "Player": "Nguyen,Anh Kiet",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "Rtg": "1013",
               "PRtg": "990",
               "Fed": "",
@@ -6237,7 +8668,12 @@
               "Pos": "2",
               "N": "1",
               "T": "",
-              "Player": "Yang,Yifan",
+              "Player": {
+                "id": "",
+                "playerName": "Yang,Yifan",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "Rtg": "1080",
               "PRtg": "957",
               "Fed": "",
@@ -6251,7 +8687,12 @@
               "Pos": "3",
               "N": "4",
               "T": "",
-              "Player": "Majety,Rohan",
+              "Player": {
+                "id": "",
+                "playerName": "Majety,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "Rtg": "859",
               "PRtg": "957",
               "Fed": "",
@@ -6265,7 +8706,12 @@
               "Pos": "4",
               "N": "2",
               "T": "",
-              "Player": "Wei,Andrew",
+              "Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "Rtg": "1031",
               "PRtg": "964",
               "Fed": "",
@@ -6279,7 +8725,12 @@
               "Pos": "5",
               "N": "6",
               "T": "",
-              "Player": "Bo,Jeremie",
+              "Player": {
+                "id": "",
+                "playerName": "Bo,Jeremie",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "Rtg": "753",
               "PRtg": "996",
               "Fed": "",
@@ -6293,7 +8744,12 @@
               "Pos": "6",
               "N": "7",
               "T": "",
-              "Player": "Nguyen,Tuan Kiet",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Tuan Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#7"
+              },
               "Rtg": "728",
               "PRtg": "949",
               "Fed": "",
@@ -6307,7 +8763,12 @@
               "Pos": "7",
               "N": "10",
               "T": "",
-              "Player": "Ruaya,Rohan",
+              "Player": {
+                "id": "",
+                "playerName": "Ruaya,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#10"
+              },
               "Rtg": "418",
               "PRtg": "852",
               "Fed": "",
@@ -6321,7 +8782,12 @@
               "Pos": "8",
               "N": "24",
               "T": "",
-              "Player": "Morris,Elijah",
+              "Player": {
+                "id": "",
+                "playerName": "Morris,Elijah",
+                "gender": "notitle",
+                "href": "playercard.html#24"
+              },
               "Rtg": "654",
               "PRtg": "611",
               "Fed": "",
@@ -6335,7 +8801,12 @@
               "Pos": "9",
               "N": "8",
               "T": "",
-              "Player": "Husain,Lamiah",
+              "Player": {
+                "id": "",
+                "playerName": "Husain,Lamiah",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              },
               "Rtg": "572",
               "PRtg": "726",
               "Fed": "",
@@ -6349,7 +8820,12 @@
               "Pos": "10",
               "N": "22",
               "T": "",
-              "Player": "Rai,Ishaan",
+              "Player": {
+                "id": "",
+                "playerName": "Rai,Ishaan",
+                "gender": "notitle",
+                "href": "playercard.html#22"
+              },
               "Rtg": "0",
               "PRtg": "592",
               "Fed": "",
@@ -6363,7 +8839,12 @@
               "Pos": "11",
               "N": "11",
               "T": "",
-              "Player": "Goh,Nicholas",
+              "Player": {
+                "id": "",
+                "playerName": "Goh,Nicholas",
+                "gender": "notitle",
+                "href": "playercard.html#11"
+              },
               "Rtg": "347",
               "PRtg": "627",
               "Fed": "",
@@ -6377,7 +8858,12 @@
               "Pos": "12",
               "N": "5",
               "T": "",
-              "Player": "Ashok,Arjun",
+              "Player": {
+                "id": "",
+                "playerName": "Ashok,Arjun",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "Rtg": "776",
               "PRtg": "790",
               "Fed": "",
@@ -6391,7 +8877,12 @@
               "Pos": "13",
               "N": "19",
               "T": "",
-              "Player": "Das,Ayush",
+              "Player": {
+                "id": "",
+                "playerName": "Das,Ayush",
+                "gender": "notitle",
+                "href": "playercard.html#19"
+              },
               "Rtg": "0",
               "PRtg": "824",
               "Fed": "",
@@ -6405,7 +8896,12 @@
               "Pos": "14",
               "N": "9",
               "T": "",
-              "Player": "Pathiyassery,Emir",
+              "Player": {
+                "id": "",
+                "playerName": "Pathiyassery,Emir",
+                "gender": "notitle",
+                "href": "playercard.html#9"
+              },
               "Rtg": "420",
               "PRtg": "719",
               "Fed": "",
@@ -6419,7 +8915,12 @@
               "Pos": "15",
               "N": "14",
               "T": "",
-              "Player": "Shenbaga,Kabilan",
+              "Player": {
+                "id": "",
+                "playerName": "Shenbaga,Kabilan",
+                "gender": "notitle",
+                "href": "playercard.html#14"
+              },
               "Rtg": "116",
               "PRtg": "825",
               "Fed": "",
@@ -6433,7 +8934,12 @@
               "Pos": "16",
               "N": "16",
               "T": "",
-              "Player": "Balamurgan,Soorya",
+              "Player": {
+                "id": "",
+                "playerName": "Balamurgan,Soorya",
+                "gender": "notitle",
+                "href": "playercard.html#16"
+              },
               "Rtg": "0",
               "PRtg": "714",
               "Fed": "",
@@ -6447,7 +8953,12 @@
               "Pos": "17",
               "N": "23",
               "T": "",
-              "Player": "Vijayakumar,Rithvik (W)",
+              "Player": {
+                "id": "",
+                "playerName": "Vijayakumar,Rithvik (W)",
+                "gender": "notitle",
+                "href": "playercard.html#23"
+              },
               "Rtg": "0",
               "PRtg": "598",
               "Fed": "",
@@ -6461,7 +8972,12 @@
               "Pos": "18",
               "N": "12",
               "T": "",
-              "Player": "Bo,Jamie",
+              "Player": {
+                "id": "",
+                "playerName": "Bo,Jamie",
+                "gender": "notitle",
+                "href": "playercard.html#12"
+              },
               "Rtg": "277",
               "PRtg": "729",
               "Fed": "",
@@ -6475,7 +8991,12 @@
               "Pos": "19",
               "N": "20",
               "T": "",
-              "Player": "Kukdeja,Aarav",
+              "Player": {
+                "id": "",
+                "playerName": "Kukdeja,Aarav",
+                "gender": "notitle",
+                "href": "playercard.html#20"
+              },
               "Rtg": "0",
               "PRtg": "449",
               "Fed": "",
@@ -6489,7 +9010,12 @@
               "Pos": "20",
               "N": "13",
               "T": "",
-              "Player": "Venkatesh,Arvind",
+              "Player": {
+                "id": "",
+                "playerName": "Venkatesh,Arvind",
+                "gender": "notitle",
+                "href": "playercard.html#13"
+              },
               "Rtg": "179",
               "PRtg": "660",
               "Fed": "",
@@ -6503,7 +9029,12 @@
               "Pos": "21",
               "N": "15",
               "T": "",
-              "Player": "Chan,Abby",
+              "Player": {
+                "id": "",
+                "playerName": "Chan,Abby",
+                "gender": "notitle",
+                "href": "playercard.html#15"
+              },
               "Rtg": "100",
               "PRtg": "820",
               "Fed": "",
@@ -6517,7 +9048,12 @@
               "Pos": "22",
               "N": "17",
               "T": "",
-              "Player": "Bodke,Aryan",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Aryan",
+                "gender": "notitle",
+                "href": "playercard.html#17"
+              },
               "Rtg": "0",
               "PRtg": "296",
               "Fed": "",
@@ -6531,7 +9067,12 @@
               "Pos": "23",
               "N": "21",
               "T": "",
-              "Player": "Nethi,Karthika",
+              "Player": {
+                "id": "",
+                "playerName": "Nethi,Karthika",
+                "gender": "notitle",
+                "href": "playercard.html#21"
+              },
               "Rtg": "0",
               "PRtg": "464",
               "Fed": "",
@@ -6545,7 +9086,12 @@
               "Pos": "24",
               "N": "18",
               "T": "",
-              "Player": "Bodke,Sahasra",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Sahasra",
+                "gender": "notitle",
+                "href": "playercard.html#18"
+              },
               "Rtg": "0",
               "PRtg": "577",
               "Fed": "",
@@ -6559,7 +9105,12 @@
               "Pos": "25",
               "N": "25",
               "T": "",
-              "Player": "Naidu,Aarush",
+              "Player": {
+                "id": "",
+                "playerName": "Naidu,Aarush",
+                "gender": "notitle",
+                "href": "playercard.html#25"
+              },
               "Rtg": "0",
               "PRtg": "293",
               "Fed": "",
@@ -6569,7 +9120,8 @@
               "BH-C1": "13.0",
               "SB": "2.00"
             }
-          ]
+          ],
+          "caption": "Standings"
         }
       ]
     },
@@ -6818,6 +9370,334 @@
       ]
     }
   ],
+  "players": [
+    {
+      "#": "1",
+      "Player": {
+        "id": "",
+        "playerName": "Yang,Yifan",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3275272"
+      },
+      "Fed": "",
+      "Rtg": "1080",
+      "RtgF": "0",
+      "RtgN": "1080"
+    },
+    {
+      "#": "2",
+      "Player": {
+        "id": "",
+        "playerName": "Wei,Andrew",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3265277"
+      },
+      "Fed": "",
+      "Rtg": "1031",
+      "RtgF": "0",
+      "RtgN": "1031"
+    },
+    {
+      "#": "3",
+      "Player": {
+        "id": "",
+        "playerName": "Nguyen,Anh Kiet",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3267849"
+      },
+      "Fed": "",
+      "Rtg": "1013",
+      "RtgF": "0",
+      "RtgN": "1013"
+    },
+    {
+      "#": "4",
+      "Player": {
+        "id": "",
+        "playerName": "Majety,Rohan",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3260062"
+      },
+      "Fed": "",
+      "Rtg": "859",
+      "RtgF": "0",
+      "RtgN": "859"
+    },
+    {
+      "#": "5",
+      "Player": {
+        "id": "",
+        "playerName": "Ashok,Arjun",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3275108"
+      },
+      "Fed": "",
+      "Rtg": "776",
+      "RtgF": "0",
+      "RtgN": "776"
+    },
+    {
+      "#": "6",
+      "Player": {
+        "id": "",
+        "playerName": "Bo,Jeremie",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3264696"
+      },
+      "Fed": "",
+      "Rtg": "753",
+      "RtgF": "0",
+      "RtgN": "753"
+    },
+    {
+      "#": "7",
+      "Player": {
+        "id": "",
+        "playerName": "Nguyen,Tuan Kiet",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3270335"
+      },
+      "Fed": "",
+      "Rtg": "728",
+      "RtgF": "0",
+      "RtgN": "728"
+    },
+    {
+      "#": "24",
+      "Player": {
+        "id": "",
+        "playerName": "",
+        "gender": "male",
+        "href": ""
+      },
+      "Fed": "",
+      "Rtg": "654",
+      "RtgF": "0",
+      "RtgN": "654"
+    },
+    {
+      "#": "8",
+      "Player": {
+        "id": "",
+        "playerName": "",
+        "gender": "female",
+        "href": ""
+      },
+      "Fed": "",
+      "Rtg": "572",
+      "RtgF": "0",
+      "RtgN": "572"
+    },
+    {
+      "#": "9",
+      "Player": {
+        "id": "",
+        "playerName": "",
+        "gender": "male",
+        "href": ""
+      },
+      "Fed": "",
+      "Rtg": "420",
+      "RtgF": "0",
+      "RtgN": "420"
+    },
+    {
+      "#": "10",
+      "Player": {
+        "id": "",
+        "playerName": "",
+        "gender": "male",
+        "href": ""
+      },
+      "Fed": "",
+      "Rtg": "418",
+      "RtgF": "0",
+      "RtgN": "418"
+    },
+    {
+      "#": "11",
+      "Player": {
+        "id": "",
+        "playerName": "Goh,Nicholas",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3254917"
+      },
+      "Fed": "",
+      "Rtg": "347",
+      "RtgF": "0",
+      "RtgN": "347"
+    },
+    {
+      "#": "12",
+      "Player": {
+        "id": "",
+        "playerName": "Bo,Jamie",
+        "gender": "female",
+        "href": "http://ratings.fide.com/card.phtml?event=3264688"
+      },
+      "Fed": "",
+      "Rtg": "277",
+      "RtgF": "0",
+      "RtgN": "277"
+    },
+    {
+      "#": "13",
+      "Player": {
+        "id": "",
+        "playerName": "",
+        "gender": "male",
+        "href": ""
+      },
+      "Fed": "",
+      "Rtg": "179",
+      "RtgF": "0",
+      "RtgN": "179"
+    },
+    {
+      "#": "14",
+      "Player": {
+        "id": "",
+        "playerName": "",
+        "gender": "male",
+        "href": ""
+      },
+      "Fed": "",
+      "Rtg": "116",
+      "RtgF": "0",
+      "RtgN": "116"
+    },
+    {
+      "#": "15",
+      "Player": {
+        "id": "",
+        "playerName": "",
+        "gender": "female",
+        "href": ""
+      },
+      "Fed": "",
+      "Rtg": "100",
+      "RtgF": "0",
+      "RtgN": "100"
+    },
+    {
+      "#": "16",
+      "Player": {
+        "id": "",
+        "playerName": "",
+        "gender": "male",
+        "href": ""
+      },
+      "Fed": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "17",
+      "Player": {
+        "id": "",
+        "playerName": "",
+        "gender": "male",
+        "href": ""
+      },
+      "Fed": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "18",
+      "Player": {
+        "id": "",
+        "playerName": "Bodke,Sahasra",
+        "gender": "female",
+        "href": "http://ratings.fide.com/card.phtml?event=3259030"
+      },
+      "Fed": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "19",
+      "Player": {
+        "id": "",
+        "playerName": "",
+        "gender": "male",
+        "href": ""
+      },
+      "Fed": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "20",
+      "Player": {
+        "id": "",
+        "playerName": "",
+        "gender": "male",
+        "href": ""
+      },
+      "Fed": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "25",
+      "Player": {
+        "id": "",
+        "playerName": "",
+        "gender": "male",
+        "href": ""
+      },
+      "Fed": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "21",
+      "Player": {
+        "id": "",
+        "playerName": "",
+        "gender": "female",
+        "href": ""
+      },
+      "Fed": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "22",
+      "Player": {
+        "id": "",
+        "playerName": "",
+        "gender": "male",
+        "href": ""
+      },
+      "Fed": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "23",
+      "Player": {
+        "id": "",
+        "playerName": "",
+        "gender": "male",
+        "href": ""
+      },
+      "Fed": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    }
+  ],
+  "category": "Junior",
   "metadata": {
     "Tournament Name": "Hobsons Bay Cup Juniors 2024",
     "Place": "Hobsons Bay Chess Club",
@@ -6850,6 +9730,7 @@
     "CM players": "0",
     "WCM players": "0",
     "FIDE titled player from AUS Federation": "0",
-    "FIDE titled player NOT from AUS Federation": "0"
+    "FIDE titled player NOT from AUS Federation": "0",
+    "category": "Junior"
   }
 }

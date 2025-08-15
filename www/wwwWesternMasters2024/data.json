@@ -43,7 +43,12 @@
           "rows": [
             {
               "#": "2",
-              "Player": "Annapureddy,Rheyansh Reddy",
+              "Player": {
+                "id": "",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3244806"
+              },
               "Fed": "",
               "Rtg": "1992",
               "RtgF": "0",
@@ -51,7 +56,12 @@
             },
             {
               "#": "4",
-              "Player": "Hogg,Dean",
+              "Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3204332"
+              },
               "Fed": "",
               "Rtg": "1920",
               "RtgF": "0",
@@ -59,7 +69,12 @@
             },
             {
               "#": "6",
-              "Player": "Nguyen,Gia Huy (Tony)",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Gia Huy (Tony)",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=12414077"
+              },
               "Fed": "",
               "Rtg": "1901",
               "RtgF": "0",
@@ -67,7 +82,12 @@
             },
             {
               "#": "3",
-              "Player": "CM  Davis,Tony J",
+              "Player": {
+                "id": "",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3205550"
+              },
               "Fed": "",
               "Rtg": "1833",
               "RtgF": "0",
@@ -75,7 +95,12 @@
             },
             {
               "#": "5",
-              "Player": "Lacson,Joemar",
+              "Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3257762"
+              },
               "Fed": "",
               "Rtg": "1764",
               "RtgF": "0",
@@ -83,7 +108,12 @@
             },
             {
               "#": "1",
-              "Player": "Paul,Cijo",
+              "Player": {
+                "id": "",
+                "playerName": "Paul,Cijo",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=2054515"
+              },
               "Fed": "",
               "Rtg": "1597",
               "RtgF": "0",
@@ -127,26 +157,56 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "1    Paul,Cijo",
+              "White Player": {
+                "id": "1",
+                "playerName": "Paul,Cijo",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "6    Nguyen,Gia Huy (Tony)"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Nguyen,Gia Huy (Tony)",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "2    Annapureddy,Rheyansh Reddy",
+              "White Player": {
+                "id": "2",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "5    Lacson,Joemar"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "3  CM  Davis,Tony J",
+              "White Player": {
+                "id": "3",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "4    Hogg,Dean"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             }
           ]
         }
@@ -170,26 +230,56 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "6    Nguyen,Gia Huy (Tony)",
+              "White Player": {
+                "id": "6",
+                "playerName": "Nguyen,Gia Huy (Tony)",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "4    Hogg,Dean"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "5    Lacson,Joemar",
+              "White Player": {
+                "id": "5",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "0",
               "Result": "½ - ½",
-              "Black Player": "3  CM  Davis,Tony J"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "1    Paul,Cijo",
+              "White Player": {
+                "id": "1",
+                "playerName": "Paul,Cijo",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "2    Annapureddy,Rheyansh Reddy"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "playercard.html#2"
+              }
             }
           ]
         }
@@ -213,26 +303,56 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "2    Annapureddy,Rheyansh Reddy",
+              "White Player": {
+                "id": "2",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "2",
               "Result": "1 - 0",
-              "Black Player": "6    Nguyen,Gia Huy (Tony)"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Nguyen,Gia Huy (Tony)",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "3  CM  Davis,Tony J",
+              "White Player": {
+                "id": "3",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "1    Paul,Cijo"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Paul,Cijo",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "4    Hogg,Dean",
+              "White Player": {
+                "id": "4",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "0.5",
               "Result": "1 - 0",
-              "Black Player": "5    Lacson,Joemar"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             }
           ]
         }
@@ -256,26 +376,56 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "6    Nguyen,Gia Huy (Tony)",
+              "White Player": {
+                "id": "6",
+                "playerName": "Nguyen,Gia Huy (Tony)",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "0.5",
               "Result": "½ - ½",
-              "Black Player": "5    Lacson,Joemar"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "1    Paul,Cijo",
+              "White Player": {
+                "id": "1",
+                "playerName": "Paul,Cijo",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "2",
               "Result": "0 - 1",
-              "Black Player": "4    Hogg,Dean"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "2    Annapureddy,Rheyansh Reddy",
+              "White Player": {
+                "id": "2",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "0.5",
               "Result": "1 - 0",
-              "Black Player": "3  CM  Davis,Tony J"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             }
           ]
         }
@@ -299,26 +449,56 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "3  CM  Davis,Tony J",
+              "White Player": {
+                "id": "3",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "2.5",
               "Result": "½ - ½",
-              "Black Player": "6    Nguyen,Gia Huy (Tony)"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Nguyen,Gia Huy (Tony)",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "4    Hogg,Dean",
+              "White Player": {
+                "id": "4",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "4",
               "Result": "½ - ½",
-              "Black Player": "2    Annapureddy,Rheyansh Reddy"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "5    Lacson,Joemar",
+              "White Player": {
+                "id": "5",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "1    Paul,Cijo"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Paul,Cijo",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             }
           ]
         }
@@ -389,7 +569,18 @@
               "res": "1.0",
               "Pts": "1.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Paul,Cijo",
+            "id": "3194913",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1597",
+              "anchor": "1"
+            },
+            "rawText": "1   Paul,Cijo           , K= 0, Elo=1597, ID=3194913",
+            "rawHtml": "   1   <strong>Paul,Cijo           </strong>, K= 0, Elo=1597, ID=3194913\n<br>\n<a class=\"anchor\" name=\"1\"></a>"
+          }
         },
         {
           "headers": [
@@ -453,7 +644,18 @@
               "res": "0.5",
               "Pts": "3.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Annapureddy,Rheyansh",
+            "id": "3197035",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1992",
+              "anchor": "2"
+            },
+            "rawText": "2   Annapureddy,Rheyansh, K= 0, Elo=1992, ID=3197035",
+            "rawHtml": "   2   <strong>Annapureddy,Rheyansh</strong>, K= 0, Elo=1992, ID=3197035\n<br>\n<a class=\"anchor\" name=\"2\"></a>"
+          }
         },
         {
           "headers": [
@@ -517,7 +719,18 @@
               "res": "0.5",
               "Pts": "3.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Davis,Tony J",
+            "id": "3073264",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1833",
+              "anchor": "3"
+            },
+            "rawText": "3  CM Davis,Tony J        , K= 0, Elo=1833, ID=3073264",
+            "rawHtml": "   3  CM <strong>Davis,Tony J        </strong>, K= 0, Elo=1833, ID=3073264\n<br>\n<a class=\"anchor\" name=\"3\"></a>"
+          }
         },
         {
           "headers": [
@@ -581,7 +794,18 @@
               "res": "0.5",
               "Pts": "4.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Hogg,Dean",
+            "id": "3093306",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1920",
+              "anchor": "4"
+            },
+            "rawText": "4   Hogg,Dean           , K= 0, Elo=1920, ID=3093306",
+            "rawHtml": "   4   <strong>Hogg,Dean           </strong>, K= 0, Elo=1920, ID=3093306\n<br>\n<a class=\"anchor\" name=\"4\"></a>"
+          }
         },
         {
           "headers": [
@@ -645,7 +869,18 @@
               "res": "0.0",
               "Pts": "2.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Lacson,Joemar",
+            "id": "3112506",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1764",
+              "anchor": "5"
+            },
+            "rawText": "5   Lacson,Joemar       , K= 0, Elo=1764, ID=3112506",
+            "rawHtml": "   5   <strong>Lacson,Joemar       </strong>, K= 0, Elo=1764, ID=3112506\n<br>\n<a class=\"anchor\" name=\"5\"></a>"
+          }
         },
         {
           "headers": [
@@ -709,7 +944,18 @@
               "res": "0.5",
               "Pts": "1.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Nguyen,Gia Huy (Tony",
+            "id": "0008480",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1901",
+              "anchor": "6"
+            },
+            "rawText": "6   Nguyen,Gia Huy (Tony, K= 0, Elo=1901, ID=0008480",
+            "rawHtml": "   6   <strong>Nguyen,Gia Huy (Tony</strong>, K= 0, Elo=1901, ID=0008480\n<br>\n<a class=\"anchor\" name=\"6\"></a>"
+          }
         }
       ]
     },
@@ -728,7 +974,12 @@
           "rows": [
             {
               "#": "2",
-              "Player": "Annapureddy,Rheyansh Reddy",
+              "Player": {
+                "id": "",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3244806"
+              },
               "Fed": "",
               "Rtg": "1992",
               "RtgF": "0",
@@ -736,7 +987,12 @@
             },
             {
               "#": "3",
-              "Player": "CM  Davis,Tony J",
+              "Player": {
+                "id": "",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3205550"
+              },
               "Fed": "",
               "Rtg": "1833",
               "RtgF": "0",
@@ -744,7 +1000,12 @@
             },
             {
               "#": "4",
-              "Player": "Hogg,Dean",
+              "Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3204332"
+              },
               "Fed": "",
               "Rtg": "1920",
               "RtgF": "0",
@@ -752,7 +1013,12 @@
             },
             {
               "#": "5",
-              "Player": "Lacson,Joemar",
+              "Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3257762"
+              },
               "Fed": "",
               "Rtg": "1764",
               "RtgF": "0",
@@ -760,7 +1026,12 @@
             },
             {
               "#": "6",
-              "Player": "Nguyen,Gia Huy (Tony)",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Gia Huy (Tony)",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=12414077"
+              },
               "Fed": "",
               "Rtg": "1901",
               "RtgF": "0",
@@ -768,7 +1039,12 @@
             },
             {
               "#": "1",
-              "Player": "Paul,Cijo",
+              "Player": {
+                "id": "",
+                "playerName": "Paul,Cijo",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=2054515"
+              },
               "Fed": "",
               "Rtg": "1597",
               "RtgF": "0",
@@ -830,29 +1106,59 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "Paul,Cijo",
+              "White Player": {
+                "id": "",
+                "playerName": "Paul,Cijo",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "0 - 1",
               "NB": "6",
-              "Black Player": "Nguyen,Gia Huy (Tony)"
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Gia Huy (Tony)",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "Annapureddy,Rheyansh Reddy",
+              "White Player": {
+                "id": "",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "1 - 0",
               "NB": "5",
-              "Black Player": "Lacson,Joemar"
+              "Black Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "CM Davis,Tony J",
+              "White Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "0 - 1",
               "NB": "4",
-              "Black Player": "Hogg,Dean"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             }
           ]
         },
@@ -871,29 +1177,59 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "Nguyen,Gia Huy (Tony)",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Gia Huy (Tony)",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "NW": "6",
               "Result": "1 - 0",
               "NB": "4",
-              "Black Player": "Hogg,Dean"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "Lacson,Joemar",
+              "White Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "NW": "5",
               "Result": "½ - ½",
               "NB": "3",
-              "Black Player": "CM Davis,Tony J"
+              "Black Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "Paul,Cijo",
+              "White Player": {
+                "id": "",
+                "playerName": "Paul,Cijo",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "0 - 1",
               "NB": "2",
-              "Black Player": "Annapureddy,Rheyansh Reddy"
+              "Black Player": {
+                "id": "",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              }
             }
           ]
         },
@@ -912,29 +1248,59 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "Annapureddy,Rheyansh Reddy",
+              "White Player": {
+                "id": "",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "1 - 0",
               "NB": "6",
-              "Black Player": "Nguyen,Gia Huy (Tony)"
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Gia Huy (Tony)",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "CM Davis,Tony J",
+              "White Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "0 - 1",
               "NB": "1",
-              "Black Player": "Paul,Cijo"
+              "Black Player": {
+                "id": "",
+                "playerName": "Paul,Cijo",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "Hogg,Dean",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "NW": "4",
               "Result": "1 - 0",
               "NB": "5",
-              "Black Player": "Lacson,Joemar"
+              "Black Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             }
           ]
         },
@@ -953,29 +1319,59 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "Nguyen,Gia Huy (Tony)",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Gia Huy (Tony)",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "NW": "6",
               "Result": "½ - ½",
               "NB": "5",
-              "Black Player": "Lacson,Joemar"
+              "Black Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "Paul,Cijo",
+              "White Player": {
+                "id": "",
+                "playerName": "Paul,Cijo",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "0 - 1",
               "NB": "4",
-              "Black Player": "Hogg,Dean"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "Annapureddy,Rheyansh Reddy",
+              "White Player": {
+                "id": "",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "1 - 0",
               "NB": "3",
-              "Black Player": "CM Davis,Tony J"
+              "Black Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              }
             }
           ]
         },
@@ -994,29 +1390,59 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "CM Davis,Tony J",
+              "White Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "½ - ½",
               "NB": "6",
-              "Black Player": "Nguyen,Gia Huy (Tony)"
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Gia Huy (Tony)",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "Hogg,Dean",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogg,Dean",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "NW": "4",
               "Result": "½ - ½",
               "NB": "2",
-              "Black Player": "Annapureddy,Rheyansh Reddy"
+              "Black Player": {
+                "id": "",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "Lacson,Joemar",
+              "White Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "NW": "5",
               "Result": "0 - 1",
               "NB": "1",
-              "Black Player": "Paul,Cijo"
+              "Black Player": {
+                "id": "",
+                "playerName": "Paul,Cijo",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              }
             }
           ]
         }
@@ -1144,7 +1570,12 @@
           "rows": [
             {
               "Pos": "1",
-              "Player": "2     Annapureddy,Rheyansh Reddy",
+              "Player": {
+                "id": "2",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Rtg": "1992",
               "Fed": "",
               "Pts": "4.5",
@@ -1152,7 +1583,12 @@
             },
             {
               "Pos": "2",
-              "Player": "4     Hogg,Dean",
+              "Player": {
+                "id": "4",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Rtg": "1920",
               "Fed": "",
               "Pts": "3.5",
@@ -1160,7 +1596,12 @@
             },
             {
               "Pos": "3",
-              "Player": "6     Nguyen,Gia Huy (Tony)",
+              "Player": {
+                "id": "6",
+                "playerName": "Nguyen,Gia Huy (Tony)",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Rtg": "1901",
               "Fed": "",
               "Pts": "3.0",
@@ -1168,7 +1609,12 @@
             },
             {
               "Pos": "4",
-              "Player": "1     Paul,Cijo",
+              "Player": {
+                "id": "1",
+                "playerName": "Paul,Cijo",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Rtg": "1597",
               "Fed": "",
               "Pts": "2.0",
@@ -1176,7 +1622,12 @@
             },
             {
               "Pos": "5",
-              "Player": "3   CM  Davis,Tony J",
+              "Player": {
+                "id": "3",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Rtg": "1833",
               "Fed": "",
               "Pts": "1.0",
@@ -1184,7 +1635,12 @@
             },
             {
               "Pos": "6",
-              "Player": "5     Lacson,Joemar",
+              "Player": {
+                "id": "5",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Rtg": "1764",
               "Fed": "",
               "Pts": "1.0",
@@ -1411,6 +1867,87 @@
       ]
     }
   ],
+  "players": [
+    {
+      "#": "2",
+      "Player": {
+        "id": "",
+        "playerName": "Annapureddy,Rheyansh Reddy",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3244806"
+      },
+      "Fed": "",
+      "Rtg": "1992",
+      "RtgF": "0",
+      "RtgN": "1992"
+    },
+    {
+      "#": "4",
+      "Player": {
+        "id": "",
+        "playerName": "Hogg,Dean",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3204332"
+      },
+      "Fed": "",
+      "Rtg": "1920",
+      "RtgF": "0",
+      "RtgN": "1920"
+    },
+    {
+      "#": "6",
+      "Player": {
+        "id": "",
+        "playerName": "Nguyen,Gia Huy (Tony)",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=12414077"
+      },
+      "Fed": "",
+      "Rtg": "1901",
+      "RtgF": "0",
+      "RtgN": "1901"
+    },
+    {
+      "#": "3",
+      "Player": {
+        "id": "",
+        "playerName": "Davis,Tony J",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3205550"
+      },
+      "Fed": "",
+      "Rtg": "1833",
+      "RtgF": "0",
+      "RtgN": "1833"
+    },
+    {
+      "#": "5",
+      "Player": {
+        "id": "",
+        "playerName": "Lacson,Joemar",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3257762"
+      },
+      "Fed": "",
+      "Rtg": "1764",
+      "RtgF": "0",
+      "RtgN": "1764"
+    },
+    {
+      "#": "1",
+      "Player": {
+        "id": "",
+        "playerName": "Paul,Cijo",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=2054515"
+      },
+      "Fed": "",
+      "Rtg": "1597",
+      "RtgF": "0",
+      "RtgN": "1597"
+    }
+  ],
+  "category": "Senior",
   "metadata": {
     "Tournament Name": "Western Masters 2024",
     "Place": "Hobsons Bay",
@@ -1443,6 +1980,7 @@
     "CM players": "1",
     "WCM players": "0",
     "FIDE titled player from AUS Federation": "0",
-    "FIDE titled player NOT from AUS Federation": "1"
+    "FIDE titled player NOT from AUS Federation": "1",
+    "category": "Senior"
   }
 }

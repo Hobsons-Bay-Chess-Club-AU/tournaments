@@ -43,7 +43,12 @@
           "rows": [
             {
               "#": "3",
-              "Player": "Picone,James",
+              "Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3259072"
+              },
               "Fed": "",
               "Rtg": "1482",
               "RtgF": "0",
@@ -51,7 +56,12 @@
             },
             {
               "#": "4",
-              "Player": "Nowak,Ruben",
+              "Player": {
+                "id": "",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3214915"
+              },
               "Fed": "",
               "Rtg": "1454",
               "RtgF": "0",
@@ -59,7 +69,12 @@
             },
             {
               "#": "1",
-              "Player": "Hari,Dhruv",
+              "Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3255360"
+              },
               "Fed": "",
               "Rtg": "1438",
               "RtgF": "0",
@@ -67,7 +82,12 @@
             },
             {
               "#": "5",
-              "Player": "Lingineni,Khushal",
+              "Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3259056"
+              },
               "Fed": "",
               "Rtg": "1432",
               "RtgF": "0",
@@ -75,7 +95,12 @@
             },
             {
               "#": "2",
-              "Player": "Pasukov,Leo",
+              "Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3242900"
+              },
               "Fed": "",
               "Rtg": "1431",
               "RtgF": "0",
@@ -83,7 +108,12 @@
             },
             {
               "#": "6",
-              "Player": "Kirk,Ian",
+              "Player": {
+                "id": "",
+                "playerName": "Kirk,Ian",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3247953"
+              },
               "Fed": "",
               "Rtg": "1331",
               "RtgF": "0",
@@ -127,26 +157,56 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "1    Hari,Dhruv",
+              "White Player": {
+                "id": "1",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "6    Kirk,Ian"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Kirk,Ian",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "2    Pasukov,Leo",
+              "White Player": {
+                "id": "2",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "5    Lingineni,Khushal"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "3    Picone,James",
+              "White Player": {
+                "id": "3",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "4    Nowak,Ruben"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             }
           ]
         }
@@ -170,26 +230,56 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "6    Kirk,Ian",
+              "White Player": {
+                "id": "6",
+                "playerName": "Kirk,Ian",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "1",
               "Result": "0 - 1",
-              "Black Player": "4    Nowak,Ruben"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "5    Lingineni,Khushal",
+              "White Player": {
+                "id": "5",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "0",
               "Result": "½ - ½",
-              "Black Player": "3    Picone,James"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "1    Hari,Dhruv",
+              "White Player": {
+                "id": "1",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "0",
               "Result": "½ - ½",
-              "Black Player": "2    Pasukov,Leo"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "playercard.html#2"
+              }
             }
           ]
         }
@@ -213,26 +303,56 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "2    Pasukov,Leo",
+              "White Player": {
+                "id": "2",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "6    Kirk,Ian"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Kirk,Ian",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "3    Picone,James",
+              "White Player": {
+                "id": "3",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "1.5",
               "Result": "1 - 0",
-              "Black Player": "1    Hari,Dhruv"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "4    Nowak,Ruben",
+              "White Player": {
+                "id": "4",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "0.5",
               "Result": "0 - 1",
-              "Black Player": "5    Lingineni,Khushal"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             }
           ]
         }
@@ -256,26 +376,56 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "6    Kirk,Ian",
+              "White Player": {
+                "id": "6",
+                "playerName": "Kirk,Ian",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Pts": "1.5",
               "Result": "1 - 0",
-              "Black Player": "5    Lingineni,Khushal"
+              "Black Player": {
+                "id": "5",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "1    Hari,Dhruv",
+              "White Player": {
+                "id": "1",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Pts": "2",
               "Result": "0 - 1",
-              "Black Player": "4    Nowak,Ruben"
+              "Black Player": {
+                "id": "4",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "2    Pasukov,Leo",
+              "White Player": {
+                "id": "2",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Pts": "1.5",
               "Result": "1 - 0",
-              "Black Player": "3    Picone,James"
+              "Black Player": {
+                "id": "3",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#3"
+              }
             }
           ]
         }
@@ -299,26 +449,56 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "3    Picone,James",
+              "White Player": {
+                "id": "3",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "6    Kirk,Ian"
+              "Black Player": {
+                "id": "6",
+                "playerName": "Kirk,Ian",
+                "gender": "male",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "4    Nowak,Ruben",
+              "White Player": {
+                "id": "4",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Pts": "3.5",
               "Result": "1 - 0",
-              "Black Player": "2    Pasukov,Leo"
+              "Black Player": {
+                "id": "2",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "5    Lingineni,Khushal",
+              "White Player": {
+                "id": "5",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Pts": "1.5",
               "Result": "0 - 1",
-              "Black Player": "1    Hari,Dhruv"
+              "Black Player": {
+                "id": "1",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "playercard.html#1"
+              }
             }
           ]
         }
@@ -389,7 +569,18 @@
               "res": "1.0",
               "Pts": "1.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Hari,Dhruv",
+            "id": "3195311",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1438",
+              "anchor": "1"
+            },
+            "rawText": "1   Hari,Dhruv          , K= 0, Elo=1438, ID=3195311",
+            "rawHtml": "   1   <strong>Hari,Dhruv          </strong>, K= 0, Elo=1438, ID=3195311\n<br>\n<a class=\"anchor\" name=\"1\"></a>"
+          }
         },
         {
           "headers": [
@@ -453,7 +644,18 @@
               "res": "0.0",
               "Pts": "4.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Pasukov,Leo",
+            "id": "3194935",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1431",
+              "anchor": "2"
+            },
+            "rawText": "2   Pasukov,Leo         , K= 0, Elo=1431, ID=3194935",
+            "rawHtml": "   2   <strong>Pasukov,Leo         </strong>, K= 0, Elo=1431, ID=3194935\n<br>\n<a class=\"anchor\" name=\"2\"></a>"
+          }
         },
         {
           "headers": [
@@ -517,7 +719,18 @@
               "res": "1.0",
               "Pts": "1.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Picone,James",
+            "id": "5206812",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1482",
+              "anchor": "3"
+            },
+            "rawText": "3   Picone,James        , K= 0, Elo=1482, ID=5206812",
+            "rawHtml": "   3   <strong>Picone,James        </strong>, K= 0, Elo=1482, ID=5206812\n<br>\n<a class=\"anchor\" name=\"3\"></a>"
+          }
         },
         {
           "headers": [
@@ -581,7 +794,18 @@
               "res": "1.0",
               "Pts": "3.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Nowak,Ruben",
+            "id": "3127464",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1454",
+              "anchor": "4"
+            },
+            "rawText": "4   Nowak,Ruben         , K= 0, Elo=1454, ID=3127464",
+            "rawHtml": "   4   <strong>Nowak,Ruben         </strong>, K= 0, Elo=1454, ID=3127464\n<br>\n<a class=\"anchor\" name=\"4\"></a>"
+          }
         },
         {
           "headers": [
@@ -645,7 +869,18 @@
               "res": "0.0",
               "Pts": "2.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Lingineni,Khushal",
+            "id": "3202532",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1432",
+              "anchor": "5"
+            },
+            "rawText": "5   Lingineni,Khushal   , K= 0, Elo=1432, ID=3202532",
+            "rawHtml": "   5   <strong>Lingineni,Khushal   </strong>, K= 0, Elo=1432, ID=3202532\n<br>\n<a class=\"anchor\" name=\"5\"></a>"
+          }
         },
         {
           "headers": [
@@ -709,7 +944,18 @@
               "res": "0.0",
               "Pts": "2.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Kirk,Ian",
+            "id": "3078341",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1331",
+              "anchor": "6"
+            },
+            "rawText": "6   Kirk,Ian            , K= 0, Elo=1331, ID=3078341",
+            "rawHtml": "   6   <strong>Kirk,Ian            </strong>, K= 0, Elo=1331, ID=3078341\n<br>\n<a class=\"anchor\" name=\"6\"></a>"
+          }
         }
       ]
     },
@@ -728,7 +974,12 @@
           "rows": [
             {
               "#": "1",
-              "Player": "Hari,Dhruv",
+              "Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3255360"
+              },
               "Fed": "",
               "Rtg": "1438",
               "RtgF": "0",
@@ -736,7 +987,12 @@
             },
             {
               "#": "6",
-              "Player": "Kirk,Ian",
+              "Player": {
+                "id": "",
+                "playerName": "Kirk,Ian",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3247953"
+              },
               "Fed": "",
               "Rtg": "1331",
               "RtgF": "0",
@@ -744,7 +1000,12 @@
             },
             {
               "#": "5",
-              "Player": "Lingineni,Khushal",
+              "Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3259056"
+              },
               "Fed": "",
               "Rtg": "1432",
               "RtgF": "0",
@@ -752,7 +1013,12 @@
             },
             {
               "#": "4",
-              "Player": "Nowak,Ruben",
+              "Player": {
+                "id": "",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3214915"
+              },
               "Fed": "",
               "Rtg": "1454",
               "RtgF": "0",
@@ -760,7 +1026,12 @@
             },
             {
               "#": "2",
-              "Player": "Pasukov,Leo",
+              "Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3242900"
+              },
               "Fed": "",
               "Rtg": "1431",
               "RtgF": "0",
@@ -768,7 +1039,12 @@
             },
             {
               "#": "3",
-              "Player": "Picone,James",
+              "Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3259072"
+              },
               "Fed": "",
               "Rtg": "1482",
               "RtgF": "0",
@@ -830,29 +1106,59 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "Hari,Dhruv",
+              "White Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "1 - 0",
               "NB": "6",
-              "Black Player": "Kirk,Ian"
+              "Black Player": {
+                "id": "",
+                "playerName": "Kirk,Ian",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "Pasukov,Leo",
+              "White Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "1 - 0",
               "NB": "5",
-              "Black Player": "Lingineni,Khushal"
+              "Black Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "Picone,James",
+              "White Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "0 - 1",
               "NB": "4",
-              "Black Player": "Nowak,Ruben"
+              "Black Player": {
+                "id": "",
+                "playerName": "Nowak,Ruben",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             }
           ]
         },
@@ -871,29 +1177,59 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "Kirk,Ian",
+              "White Player": {
+                "id": "",
+                "playerName": "Kirk,Ian",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "NW": "6",
               "Result": "0 - 1",
               "NB": "4",
-              "Black Player": "Nowak,Ruben"
+              "Black Player": {
+                "id": "",
+                "playerName": "Nowak,Ruben",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "Lingineni,Khushal",
+              "White Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "NW": "5",
               "Result": "½ - ½",
               "NB": "3",
-              "Black Player": "Picone,James"
+              "Black Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "Hari,Dhruv",
+              "White Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "½ - ½",
               "NB": "2",
-              "Black Player": "Pasukov,Leo"
+              "Black Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              }
             }
           ]
         },
@@ -912,29 +1248,59 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "Pasukov,Leo",
+              "White Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "1 - 0",
               "NB": "6",
-              "Black Player": "Kirk,Ian"
+              "Black Player": {
+                "id": "",
+                "playerName": "Kirk,Ian",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "Picone,James",
+              "White Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "1 - 0",
               "NB": "1",
-              "Black Player": "Hari,Dhruv"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "Nowak,Ruben",
+              "White Player": {
+                "id": "",
+                "playerName": "Nowak,Ruben",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "NW": "4",
               "Result": "0 - 1",
               "NB": "5",
-              "Black Player": "Lingineni,Khushal"
+              "Black Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             }
           ]
         },
@@ -953,29 +1319,59 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "Kirk,Ian",
+              "White Player": {
+                "id": "",
+                "playerName": "Kirk,Ian",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "NW": "6",
               "Result": "1 - 0",
               "NB": "5",
-              "Black Player": "Lingineni,Khushal"
+              "Black Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "Hari,Dhruv",
+              "White Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "NW": "1",
               "Result": "0 - 1",
               "NB": "4",
-              "Black Player": "Nowak,Ruben"
+              "Black Player": {
+                "id": "",
+                "playerName": "Nowak,Ruben",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "Pasukov,Leo",
+              "White Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "NW": "2",
               "Result": "1 - 0",
               "NB": "3",
-              "Black Player": "Picone,James"
+              "Black Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              }
             }
           ]
         },
@@ -994,29 +1390,59 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "Picone,James",
+              "White Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "NW": "3",
               "Result": "1 - 0",
               "NB": "6",
-              "Black Player": "Kirk,Ian"
+              "Black Player": {
+                "id": "",
+                "playerName": "Kirk,Ian",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "Nowak,Ruben",
+              "White Player": {
+                "id": "",
+                "playerName": "Nowak,Ruben",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "NW": "4",
               "Result": "1 - 0",
               "NB": "2",
-              "Black Player": "Pasukov,Leo"
+              "Black Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "Lingineni,Khushal",
+              "White Player": {
+                "id": "",
+                "playerName": "Lingineni,Khushal",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "NW": "5",
               "Result": "0 - 1",
               "NB": "1",
-              "Black Player": "Hari,Dhruv"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              }
             }
           ]
         }
@@ -1144,7 +1570,12 @@
           "rows": [
             {
               "Pos": "1",
-              "Player": "4     Nowak,Ruben",
+              "Player": {
+                "id": "4",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Rtg": "1454",
               "Fed": "",
               "Pts": "4.0",
@@ -1152,7 +1583,12 @@
             },
             {
               "Pos": "2",
-              "Player": "2     Pasukov,Leo",
+              "Player": {
+                "id": "2",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Rtg": "1431",
               "Fed": "",
               "Pts": "3.5",
@@ -1160,7 +1596,12 @@
             },
             {
               "Pos": "3",
-              "Player": "1     Hari,Dhruv",
+              "Player": {
+                "id": "1",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Rtg": "1438",
               "Fed": "",
               "Pts": "2.5",
@@ -1168,7 +1609,12 @@
             },
             {
               "Pos": "4",
-              "Player": "3     Picone,James",
+              "Player": {
+                "id": "3",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Rtg": "1482",
               "Fed": "",
               "Pts": "2.5",
@@ -1176,7 +1622,12 @@
             },
             {
               "Pos": "5",
-              "Player": "5     Lingineni,Khushal",
+              "Player": {
+                "id": "5",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Rtg": "1432",
               "Fed": "",
               "Pts": "1.5",
@@ -1184,7 +1635,12 @@
             },
             {
               "Pos": "6",
-              "Player": "6     Kirk,Ian",
+              "Player": {
+                "id": "6",
+                "playerName": "Kirk,Ian",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Rtg": "1331",
               "Fed": "",
               "Pts": "1.0",
@@ -1411,6 +1867,87 @@
       ]
     }
   ],
+  "players": [
+    {
+      "#": "3",
+      "Player": {
+        "id": "",
+        "playerName": "Picone,James",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3259072"
+      },
+      "Fed": "",
+      "Rtg": "1482",
+      "RtgF": "0",
+      "RtgN": "1482"
+    },
+    {
+      "#": "4",
+      "Player": {
+        "id": "",
+        "playerName": "Nowak,Ruben",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3214915"
+      },
+      "Fed": "",
+      "Rtg": "1454",
+      "RtgF": "0",
+      "RtgN": "1454"
+    },
+    {
+      "#": "1",
+      "Player": {
+        "id": "",
+        "playerName": "Hari,Dhruv",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3255360"
+      },
+      "Fed": "",
+      "Rtg": "1438",
+      "RtgF": "0",
+      "RtgN": "1438"
+    },
+    {
+      "#": "5",
+      "Player": {
+        "id": "",
+        "playerName": "Lingineni,Khushal",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3259056"
+      },
+      "Fed": "",
+      "Rtg": "1432",
+      "RtgF": "0",
+      "RtgN": "1432"
+    },
+    {
+      "#": "2",
+      "Player": {
+        "id": "",
+        "playerName": "Pasukov,Leo",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3242900"
+      },
+      "Fed": "",
+      "Rtg": "1431",
+      "RtgF": "0",
+      "RtgN": "1431"
+    },
+    {
+      "#": "6",
+      "Player": {
+        "id": "",
+        "playerName": "Kirk,Ian",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3247953"
+      },
+      "Fed": "",
+      "Rtg": "1331",
+      "RtgF": "0",
+      "RtgN": "1331"
+    }
+  ],
+  "category": "Senior",
   "metadata": {
     "Tournament Name": "Hobsons Bay Western Minor 2024",
     "Place": "Hobsons Bay",
@@ -1443,6 +1980,7 @@
     "CM players": "0",
     "WCM players": "0",
     "FIDE titled player from AUS Federation": "0",
-    "FIDE titled player NOT from AUS Federation": "0"
+    "FIDE titled player NOT from AUS Federation": "0",
+    "category": "Senior"
   }
 }

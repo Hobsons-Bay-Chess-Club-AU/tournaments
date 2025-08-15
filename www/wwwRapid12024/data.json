@@ -22,7 +22,12 @@
               "3": "12",
               "4": "18",
               "5": "06",
-              "Player": "1   McIntyre,Julian",
+              "Player": {
+                "id": "1",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Rtg": "1547",
               "Fed": "",
               "Pts": "2.0"
@@ -33,7 +38,12 @@
               "3": "01",
               "4": "½11",
               "5": "114",
-              "Player": "2   Hogan,Steven",
+              "Player": {
+                "id": "2",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Rtg": "1494",
               "Fed": "",
               "Pts": "2.0"
@@ -44,7 +54,12 @@
               "3": "16",
               "4": "½4",
               "5": "012",
-              "Player": "3   Picone,James",
+              "Player": {
+                "id": "3",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Rtg": "1482",
               "Fed": "",
               "Pts": "3.5"
@@ -55,7 +70,12 @@
               "3": "112",
               "4": "½3",
               "5": "17",
-              "Player": "4   Nguyen,Anh Kiet",
+              "Player": {
+                "id": "4",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Rtg": "1276",
               "Fed": "",
               "Pts": "4.0"
@@ -66,7 +86,12 @@
               "3": "111",
               "4": "07",
               "5": "013",
-              "Player": "5   Richards,Derek",
+              "Player": {
+                "id": "5",
+                "playerName": "Richards,Derek",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Rtg": "1207",
               "Fed": "",
               "Pts": "2.0"
@@ -77,7 +102,12 @@
               "3": "03",
               "4": "113",
               "5": "11",
-              "Player": "6   Temizel,Hazar",
+              "Player": {
+                "id": "6",
+                "playerName": "Temizel,Hazar",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Rtg": "1100",
               "Fed": "",
               "Pts": "4.0"
@@ -88,7 +118,12 @@
               "3": "110",
               "4": "15",
               "5": "04",
-              "Player": "7   Bodke,Krishna",
+              "Player": {
+                "id": "7",
+                "playerName": "Bodke,Krishna",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
               "Rtg": "1044",
               "Fed": "",
               "Pts": "3.0"
@@ -99,7 +134,12 @@
               "3": "013",
               "4": "01",
               "5": "011",
-              "Player": "8   Clerk,Max",
+              "Player": {
+                "id": "8",
+                "playerName": "Clerk,Max",
+                "gender": "male",
+                "href": "playercard.html#8"
+              },
               "Rtg": "1032",
               "Fed": "",
               "Pts": "1.0"
@@ -110,7 +150,12 @@
               "3": "014",
               "4": "1BYE",
               "5": "",
-              "Player": "9   Liu,Tina         (W)",
+              "Player": {
+                "id": "9",
+                "playerName": "Liu,Tina         (W)",
+                "gender": "female",
+                "href": "playercard.html#9"
+              },
               "Rtg": "495",
               "Fed": "",
               "Pts": "1.0"
@@ -121,7 +166,12 @@
               "3": "07",
               "4": "",
               "5": "",
-              "Player": "10   Nicdao,Joseph    (W)",
+              "Player": {
+                "id": "10",
+                "playerName": "Nicdao,Joseph    (W)",
+                "gender": "male",
+                "href": "playercard.html#10"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "1.0"
@@ -132,7 +182,12 @@
               "3": "05",
               "4": "½2",
               "5": "18",
-              "Player": "11   Sicurella,Lucas",
+              "Player": {
+                "id": "11",
+                "playerName": "Sicurella,Lucas",
+                "gender": "male",
+                "href": "playercard.html#11"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "2.5"
@@ -143,7 +198,12 @@
               "3": "04",
               "4": "114",
               "5": "13",
-              "Player": "12   Ilic,Milan",
+              "Player": {
+                "id": "12",
+                "playerName": "Ilic,Milan",
+                "gender": "male",
+                "href": "playercard.html#12"
+              },
               "Rtg": "1541",
               "Fed": "",
               "Pts": "3.5"
@@ -154,7 +214,12 @@
               "3": "18",
               "4": "06",
               "5": "15",
-              "Player": "13   Nawar,Mena",
+              "Player": {
+                "id": "13",
+                "playerName": "Nawar,Mena",
+                "gender": "male",
+                "href": "playercard.html#13"
+              },
               "Rtg": "613",
               "Fed": "",
               "Pts": "3.0"
@@ -165,7 +230,12 @@
               "3": "19",
               "4": "012",
               "5": "02",
-              "Player": "14   Whitford,Matthew",
+              "Player": {
+                "id": "14",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "playercard.html#14"
+              },
               "Rtg": "1562",
               "Fed": "",
               "Pts": "1.0"
@@ -200,7 +270,12 @@
               "4": "½3",
               "5": "15",
               "Pos": "1",
-              "Player": "Nguyen,Anh Kiet",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
               "Rtg": "1276",
               "Fed": "",
               "Pts": "4.0",
@@ -214,7 +289,12 @@
               "4": "16",
               "5": "19",
               "Pos": "2",
-              "Player": "Temizel,Hazar",
+              "Player": {
+                "id": "",
+                "playerName": "Temizel,Hazar",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
               "Rtg": "1100",
               "Fed": "",
               "Pts": "4.0",
@@ -228,7 +308,12 @@
               "4": "½1",
               "5": "04",
               "Pos": "3",
-              "Player": "Picone,James",
+              "Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
               "Rtg": "1482",
               "Fed": "",
               "Pts": "3.5",
@@ -242,7 +327,12 @@
               "4": "111",
               "5": "13",
               "Pos": "4",
-              "Player": "Ilic,Milan",
+              "Player": {
+                "id": "",
+                "playerName": "Ilic,Milan",
+                "gender": "male",
+                "href": "playercard.html#12"
+              },
               "Rtg": "1541",
               "Fed": "",
               "Pts": "3.5",
@@ -256,7 +346,12 @@
               "4": "18",
               "5": "01",
               "Pos": "5",
-              "Player": "Bodke,Krishna",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
               "Rtg": "1044",
               "Fed": "",
               "Pts": "3.0",
@@ -270,7 +365,12 @@
               "4": "02",
               "5": "18",
               "Pos": "6",
-              "Player": "Nawar,Mena",
+              "Player": {
+                "id": "",
+                "playerName": "Nawar,Mena",
+                "gender": "male",
+                "href": "playercard.html#13"
+              },
               "Rtg": "613",
               "Fed": "",
               "Pts": "3.0",
@@ -284,7 +384,12 @@
               "4": "½10",
               "5": "112",
               "Pos": "7",
-              "Player": "Sicurella,Lucas",
+              "Player": {
+                "id": "",
+                "playerName": "Sicurella,Lucas",
+                "gender": "male",
+                "href": "playercard.html#11"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "2.5",
@@ -298,7 +403,12 @@
               "4": "05",
               "5": "06",
               "Pos": "8",
-              "Player": "Richards,Derek",
+              "Player": {
+                "id": "",
+                "playerName": "Richards,Derek",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
               "Rtg": "1207",
               "Fed": "",
               "Pts": "2.0",
@@ -312,7 +422,12 @@
               "4": "112",
               "5": "02",
               "Pos": "9",
-              "Player": "McIntyre,Julian",
+              "Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
               "Rtg": "1547",
               "Fed": "",
               "Pts": "2.0",
@@ -326,7 +441,12 @@
               "4": "½7",
               "5": "111",
               "Pos": "10",
-              "Player": "Hogan,Steven",
+              "Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
               "Rtg": "1494",
               "Fed": "",
               "Pts": "2.0",
@@ -340,7 +460,12 @@
               "4": "04",
               "5": "010",
               "Pos": "11",
-              "Player": "Whitford,Matthew",
+              "Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "playercard.html#14"
+              },
               "Rtg": "1562",
               "Fed": "",
               "Pts": "1.0",
@@ -354,7 +479,12 @@
               "4": "09",
               "5": "07",
               "Pos": "12",
-              "Player": "Clerk,Max",
+              "Player": {
+                "id": "",
+                "playerName": "Clerk,Max",
+                "gender": "male",
+                "href": "playercard.html#8"
+              },
               "Rtg": "1032",
               "Fed": "",
               "Pts": "1.0",
@@ -368,7 +498,12 @@
               "4": "",
               "5": "",
               "Pos": "13",
-              "Player": "Nicdao,Joseph              (W)",
+              "Player": {
+                "id": "",
+                "playerName": "Nicdao,Joseph              (W)",
+                "gender": "male",
+                "href": "playercard.html#10"
+              },
               "Rtg": "0",
               "Fed": "",
               "Pts": "1.0",
@@ -382,7 +517,12 @@
               "4": "1 BYE",
               "5": "",
               "Pos": "14",
-              "Player": "Liu,Tina                   (W)",
+              "Player": {
+                "id": "",
+                "playerName": "Liu,Tina                   (W)",
+                "gender": "female",
+                "href": "playercard.html#9"
+              },
               "Rtg": "495",
               "Fed": "",
               "Pts": "1.0",
@@ -599,55 +739,120 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "7   Bodke,Krishna",
+              "White Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna",
+                "gender": "notitle",
+                "href": "playercard.html#7"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "1   McIntyre,Julian"
+              "Black Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "2   Hogan,Steven",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "Pts": "0",
               "Result": "½ - ½",
-              "Black Player": "8   Clerk,Max"
+              "Black Player": {
+                "id": "",
+                "playerName": "Clerk,Max",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "9   Liu,Tina",
+              "White Player": {
+                "id": "",
+                "playerName": "Liu,Tina",
+                "gender": "notitle",
+                "href": "playercard.html#9"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "3   Picone,James"
+              "Black Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "5   Richards,Derek",
+              "White Player": {
+                "id": "",
+                "playerName": "Richards,Derek",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "10   Nicdao,Joseph"
+              "Black Player": {
+                "id": "",
+                "playerName": "Nicdao,Joseph",
+                "gender": "notitle",
+                "href": "playercard.html#10"
+              }
             },
             {
               "Bo.": "5",
               "Fed": "",
-              "White Player": "11   Sicurella,Lucas",
+              "White Player": {
+                "id": "",
+                "playerName": "Sicurella,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#11"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "6   Temizel,Hazar"
+              "Black Player": {
+                "id": "",
+                "playerName": "Temizel,Hazar",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "6",
               "Fed": "",
-              "White Player": "12   Ilic,Milan",
+              "White Player": {
+                "id": "",
+                "playerName": "Ilic,Milan",
+                "gender": "notitle",
+                "href": "playercard.html#12"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "13   Nawar,Mena"
+              "Black Player": {
+                "id": "",
+                "playerName": "Nawar,Mena",
+                "gender": "notitle",
+                "href": "playercard.html#13"
+              }
             },
             {
               "Bo.": "7",
               "Fed": "",
-              "White Player": "4   Nguyen,Anh Kiet",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "Pts": "0",
               "Result": "½",
               "Black Player": "( half point bye )"
@@ -655,7 +860,12 @@
             {
               "Bo.": "8",
               "Fed": "",
-              "White Player": "14   Whitford,Matthew",
+              "White Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#14"
+              },
               "Pts": "0",
               "Result": "0",
               "Black Player": "( not paired )"
@@ -682,55 +892,120 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "3   Picone,James",
+              "White Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "7   Bodke,Krishna"
+              "Black Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna",
+                "gender": "notitle",
+                "href": "playercard.html#7"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "6   Temizel,Hazar",
+              "White Player": {
+                "id": "",
+                "playerName": "Temizel,Hazar",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "5   Richards,Derek"
+              "Black Player": {
+                "id": "",
+                "playerName": "Richards,Derek",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "8   Clerk,Max",
+              "White Player": {
+                "id": "",
+                "playerName": "Clerk,Max",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              },
               "Pts": "1",
               "Result": "½ - ½",
-              "Black Player": "12   Ilic,Milan"
+              "Black Player": {
+                "id": "",
+                "playerName": "Ilic,Milan",
+                "gender": "notitle",
+                "href": "playercard.html#12"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "4   Nguyen,Anh Kiet",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "Pts": "0.5",
               "Result": "1 - 0",
-              "Black Player": "2   Hogan,Steven"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "5",
               "Fed": "",
-              "White Player": "1   McIntyre,Julian",
+              "White Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "11   Sicurella,Lucas"
+              "Black Player": {
+                "id": "",
+                "playerName": "Sicurella,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#11"
+              }
             },
             {
               "Bo.": "6",
               "Fed": "",
-              "White Player": "10   Nicdao,Joseph",
+              "White Player": {
+                "id": "",
+                "playerName": "Nicdao,Joseph",
+                "gender": "notitle",
+                "href": "playercard.html#10"
+              },
               "Pts": "0",
               "Result": "1 - 0",
-              "Black Player": "9   Liu,Tina"
+              "Black Player": {
+                "id": "",
+                "playerName": "Liu,Tina",
+                "gender": "notitle",
+                "href": "playercard.html#9"
+              }
             },
             {
               "Bo.": "7",
               "Fed": "",
-              "White Player": "13   Nawar,Mena",
+              "White Player": {
+                "id": "",
+                "playerName": "Nawar,Mena",
+                "gender": "notitle",
+                "href": "playercard.html#13"
+              },
               "Pts": "0",
               "Result": "1",
               "Black Player": "( bye )"
@@ -738,7 +1013,12 @@
             {
               "Bo.": "8",
               "Fed": "",
-              "White Player": "14   Whitford,Matthew",
+              "White Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#14"
+              },
               "Pts": "0",
               "Result": "0",
               "Black Player": "( not paired )"
@@ -765,58 +1045,128 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "6   Temizel,Hazar",
+              "White Player": {
+                "id": "",
+                "playerName": "Temizel,Hazar",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "Pts": "2",
               "Result": "0 - 1",
-              "Black Player": "3   Picone,James"
+              "Black Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "12   Ilic,Milan",
+              "White Player": {
+                "id": "",
+                "playerName": "Ilic,Milan",
+                "gender": "notitle",
+                "href": "playercard.html#12"
+              },
               "Pts": "1.5",
               "Result": "0 - 1",
-              "Black Player": "4   Nguyen,Anh Kiet"
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "5   Richards,Derek",
+              "White Player": {
+                "id": "",
+                "playerName": "Richards,Derek",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "11   Sicurella,Lucas"
+              "Black Player": {
+                "id": "",
+                "playerName": "Sicurella,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#11"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "7   Bodke,Krishna",
+              "White Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna",
+                "gender": "notitle",
+                "href": "playercard.html#7"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "10   Nicdao,Joseph"
+              "Black Player": {
+                "id": "",
+                "playerName": "Nicdao,Joseph",
+                "gender": "notitle",
+                "href": "playercard.html#10"
+              }
             },
             {
               "Bo.": "5",
               "Fed": "",
-              "White Player": "13   Nawar,Mena",
+              "White Player": {
+                "id": "",
+                "playerName": "Nawar,Mena",
+                "gender": "notitle",
+                "href": "playercard.html#13"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "8   Clerk,Max"
+              "Black Player": {
+                "id": "",
+                "playerName": "Clerk,Max",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              }
             },
             {
               "Bo.": "6",
               "Fed": "",
-              "White Player": "2   Hogan,Steven",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "1   McIntyre,Julian"
+              "Black Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "7",
               "Fed": "",
-              "White Player": "9   Liu,Tina",
+              "White Player": {
+                "id": "",
+                "playerName": "Liu,Tina",
+                "gender": "notitle",
+                "href": "playercard.html#9"
+              },
               "Pts": "0",
               "Result": "0 - 1",
-              "Black Player": "14   Whitford,Matthew"
+              "Black Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#14"
+              }
             }
           ]
         }
@@ -840,55 +1190,120 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "3   Picone,James",
+              "White Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "Pts": "2.5",
               "Result": "½ - ½",
-              "Black Player": "4   Nguyen,Anh Kiet"
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "7   Bodke,Krishna",
+              "White Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna",
+                "gender": "notitle",
+                "href": "playercard.html#7"
+              },
               "Pts": "2",
               "Result": "1 - 0",
-              "Black Player": "5   Richards,Derek"
+              "Black Player": {
+                "id": "",
+                "playerName": "Richards,Derek",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "13   Nawar,Mena",
+              "White Player": {
+                "id": "",
+                "playerName": "Nawar,Mena",
+                "gender": "notitle",
+                "href": "playercard.html#13"
+              },
               "Pts": "2",
               "Result": "0 - 1",
-              "Black Player": "6   Temizel,Hazar"
+              "Black Player": {
+                "id": "",
+                "playerName": "Temizel,Hazar",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "14   Whitford,Matthew",
+              "White Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#14"
+              },
               "Pts": "1.5",
               "Result": "0 - 1",
-              "Black Player": "12   Ilic,Milan"
+              "Black Player": {
+                "id": "",
+                "playerName": "Ilic,Milan",
+                "gender": "notitle",
+                "href": "playercard.html#12"
+              }
             },
             {
               "Bo.": "5",
               "Fed": "",
-              "White Player": "1   McIntyre,Julian",
+              "White Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "8   Clerk,Max"
+              "Black Player": {
+                "id": "",
+                "playerName": "Clerk,Max",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              }
             },
             {
               "Bo.": "6",
               "Fed": "",
-              "White Player": "11   Sicurella,Lucas",
+              "White Player": {
+                "id": "",
+                "playerName": "Sicurella,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#11"
+              },
               "Pts": "0.5",
               "Result": "½ - ½",
-              "Black Player": "2   Hogan,Steven"
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              }
             },
             {
               "Bo.": "7",
               "Fed": "",
-              "White Player": "9   Liu,Tina",
+              "White Player": {
+                "id": "",
+                "playerName": "Liu,Tina",
+                "gender": "notitle",
+                "href": "playercard.html#9"
+              },
               "Pts": "0",
               "Result": "1",
               "Black Player": "( bye )"
@@ -896,7 +1311,12 @@
             {
               "Bo.": "8",
               "Fed": "",
-              "White Player": "10   Nicdao,Joseph",
+              "White Player": {
+                "id": "",
+                "playerName": "Nicdao,Joseph",
+                "gender": "notitle",
+                "href": "playercard.html#10"
+              },
               "Pts": "0",
               "Result": "0",
               "Black Player": "( not paired )"
@@ -923,55 +1343,120 @@
             {
               "Bo.": "1",
               "Fed": "",
-              "White Player": "12   Ilic,Milan",
+              "White Player": {
+                "id": "",
+                "playerName": "Ilic,Milan",
+                "gender": "notitle",
+                "href": "playercard.html#12"
+              },
               "Pts": "3.5",
               "Result": "1 - 0",
-              "Black Player": "3   Picone,James"
+              "Black Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              }
             },
             {
               "Bo.": "2",
               "Fed": "",
-              "White Player": "4   Nguyen,Anh Kiet",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "Pts": "3",
               "Result": "1 - 0",
-              "Black Player": "7   Bodke,Krishna"
+              "Black Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna",
+                "gender": "notitle",
+                "href": "playercard.html#7"
+              }
             },
             {
               "Bo.": "3",
               "Fed": "",
-              "White Player": "6   Temizel,Hazar",
+              "White Player": {
+                "id": "",
+                "playerName": "Temizel,Hazar",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "Pts": "2",
               "Result": "1 - 0",
-              "Black Player": "1   McIntyre,Julian"
+              "Black Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              }
             },
             {
               "Bo.": "4",
               "Fed": "",
-              "White Player": "5   Richards,Derek",
+              "White Player": {
+                "id": "",
+                "playerName": "Richards,Derek",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "Pts": "2",
               "Result": "0F-1F",
-              "Black Player": "13   Nawar,Mena"
+              "Black Player": {
+                "id": "",
+                "playerName": "Nawar,Mena",
+                "gender": "notitle",
+                "href": "playercard.html#13"
+              }
             },
             {
               "Bo.": "5",
               "Fed": "",
-              "White Player": "8   Clerk,Max",
+              "White Player": {
+                "id": "",
+                "playerName": "Clerk,Max",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              },
               "Pts": "1.5",
               "Result": "0 - 1",
-              "Black Player": "11   Sicurella,Lucas"
+              "Black Player": {
+                "id": "",
+                "playerName": "Sicurella,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#11"
+              }
             },
             {
               "Bo.": "6",
               "Fed": "",
-              "White Player": "2   Hogan,Steven",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "Pts": "1",
               "Result": "1 - 0",
-              "Black Player": "14   Whitford,Matthew"
+              "Black Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#14"
+              }
             },
             {
               "Bo.": "7",
               "Fed": "",
-              "White Player": "9   Liu,Tina",
+              "White Player": {
+                "id": "",
+                "playerName": "Liu,Tina",
+                "gender": "notitle",
+                "href": "playercard.html#9"
+              },
               "Pts": "0",
               "Result": "0",
               "Black Player": "( not paired )"
@@ -979,7 +1464,12 @@
             {
               "Bo.": "8",
               "Fed": "",
-              "White Player": "10   Nicdao,Joseph",
+              "White Player": {
+                "id": "",
+                "playerName": "Nicdao,Joseph",
+                "gender": "notitle",
+                "href": "playercard.html#10"
+              },
               "Pts": "0",
               "Result": "0",
               "Black Player": "( not paired )"
@@ -1053,7 +1543,18 @@
               "res": "0.0",
               "Pts": "4.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "McIntyre,Julian",
+            "id": "3176061",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1547",
+              "anchor": "1"
+            },
+            "rawText": "1   McIntyre,Julian     , K= 0, Elo=1547, ID=3176061",
+            "rawHtml": "   1   <strong>McIntyre,Julian     </strong>, K= 0, Elo=1547, ID=3176061\n<br>\n<a class=\"anchor\" name=\"1\"></a>"
+          }
         },
         {
           "headers": [
@@ -1117,7 +1618,18 @@
               "res": "1.0",
               "Pts": "1.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Hogan,Steven",
+            "id": "3112941",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1494",
+              "anchor": "2"
+            },
+            "rawText": "2   Hogan,Steven        , K= 0, Elo=1494, ID=3112941",
+            "rawHtml": "   2   <strong>Hogan,Steven        </strong>, K= 0, Elo=1494, ID=3112941\n<br>\n<a class=\"anchor\" name=\"2\"></a>"
+          }
         },
         {
           "headers": [
@@ -1181,7 +1693,18 @@
               "res": "0.0",
               "Pts": "3.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Picone,James",
+            "id": "5206812",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1482",
+              "anchor": "3"
+            },
+            "rawText": "3   Picone,James        , K= 0, Elo=1482, ID=5206812",
+            "rawHtml": "   3   <strong>Picone,James        </strong>, K= 0, Elo=1482, ID=5206812\n<br>\n<a class=\"anchor\" name=\"3\"></a>"
+          }
         },
         {
           "headers": [
@@ -1245,7 +1768,18 @@
               "res": "1.0",
               "Pts": "3.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Nguyen,Anh Kiet",
+            "id": "3206205",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1276",
+              "anchor": "4"
+            },
+            "rawText": "4   Nguyen,Anh Kiet     , K= 0, Elo=1276, ID=3206205",
+            "rawHtml": "   4   <strong>Nguyen,Anh Kiet     </strong>, K= 0, Elo=1276, ID=3206205\n<br>\n<a class=\"anchor\" name=\"4\"></a>"
+          }
         },
         {
           "headers": [
@@ -1309,7 +1843,18 @@
               "res": "0.0",
               "Pts": "0.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Richards,Derek",
+            "id": "3117491",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1207",
+              "anchor": "5"
+            },
+            "rawText": "5   Richards,Derek      , K= 0, Elo=1207, ID=3117491",
+            "rawHtml": "   5   <strong>Richards,Derek      </strong>, K= 0, Elo=1207, ID=3117491\n<br>\n<a class=\"anchor\" name=\"5\"></a>"
+          }
         },
         {
           "headers": [
@@ -1373,7 +1918,18 @@
               "res": "1.0",
               "Pts": "2.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Temizel,Hazar",
+            "id": "3205774",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1100",
+              "anchor": "6"
+            },
+            "rawText": "6   Temizel,Hazar       , K= 0, Elo=1100, ID=3205774",
+            "rawHtml": "   6   <strong>Temizel,Hazar       </strong>, K= 0, Elo=1100, ID=3205774\n<br>\n<a class=\"anchor\" name=\"6\"></a>"
+          }
         },
         {
           "headers": [
@@ -1437,7 +1993,18 @@
               "res": "0.0",
               "Pts": "4.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Bodke,Krishna",
+            "id": "3202576",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1044",
+              "anchor": "7"
+            },
+            "rawText": "7   Bodke,Krishna       , K= 0, Elo=1044, ID=3202576",
+            "rawHtml": "   7   <strong>Bodke,Krishna       </strong>, K= 0, Elo=1044, ID=3202576\n<br>\n<a class=\"anchor\" name=\"7\"></a>"
+          }
         },
         {
           "headers": [
@@ -1501,7 +2068,18 @@
               "res": "0.0",
               "Pts": "2.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Clerk,Max",
+            "id": "3161584",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1032",
+              "anchor": "8"
+            },
+            "rawText": "8   Clerk,Max           , K= 0, Elo=1032, ID=3161584",
+            "rawHtml": "   8   <strong>Clerk,Max           </strong>, K= 0, Elo=1032, ID=3161584\n<br>\n<a class=\"anchor\" name=\"8\"></a>"
+          }
         },
         {
           "headers": [
@@ -1565,7 +2143,18 @@
               "res": "0.0",
               "Pts": "0.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Liu,Tina",
+            "id": "3183572",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "495",
+              "anchor": "9"
+            },
+            "rawText": "9   Liu,Tina            , K= 0, Elo= 495, ID=3183572",
+            "rawHtml": "   9   <strong>Liu,Tina            </strong>, K= 0, Elo= 495, ID=3183572\n<br>\n<a class=\"anchor\" name=\"9\"></a>"
+          }
         },
         {
           "headers": [
@@ -1629,7 +2218,18 @@
               "res": "0.0",
               "Pts": "0.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Nicdao,Joseph",
+            "id": "3207782",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "10"
+            },
+            "rawText": "10   Nicdao,Joseph       , K= 0, Elo=   0, ID=3207782",
+            "rawHtml": "  10   <strong>Nicdao,Joseph       </strong>, K= 0, Elo=   0, ID=3207782\n<br>\n<a class=\"anchor\" name=\"10\"></a>"
+          }
         },
         {
           "headers": [
@@ -1693,7 +2293,18 @@
               "res": "1.0",
               "Pts": "1.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Sicurella,Lucas",
+            "id": "0",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "11"
+            },
+            "rawText": "11   Sicurella,Lucas     , K= 0, Elo=   0, ID=0",
+            "rawHtml": "  11   <strong>Sicurella,Lucas     </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"11\"></a>"
+          }
         },
         {
           "headers": [
@@ -1757,7 +2368,18 @@
               "res": "1.0",
               "Pts": "3.5"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Ilic,Milan",
+            "id": "3077066",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1541",
+              "anchor": "12"
+            },
+            "rawText": "12   Ilic,Milan          , K= 0, Elo=1541, ID=3077066",
+            "rawHtml": "  12   <strong>Ilic,Milan          </strong>, K= 0, Elo=1541, ID=3077066\n<br>\n<a class=\"anchor\" name=\"12\"></a>"
+          }
         },
         {
           "headers": [
@@ -1821,7 +2443,18 @@
               "res": "1.0",
               "Pts": "0.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Nawar,Mena",
+            "id": "3191633",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "613",
+              "anchor": "13"
+            },
+            "rawText": "13   Nawar,Mena          , K= 0, Elo= 613, ID=3191633",
+            "rawHtml": "  13   <strong>Nawar,Mena          </strong>, K= 0, Elo= 613, ID=3191633\n<br>\n<a class=\"anchor\" name=\"13\"></a>"
+          }
         },
         {
           "headers": [
@@ -1885,7 +2518,18 @@
               "res": "0.0",
               "Pts": "2.0"
             }
-          ]
+          ],
+          "caption": {
+            "playerName": "Whitford,Matthew",
+            "id": "3137603",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1562",
+              "anchor": "14"
+            },
+            "rawText": "14   Whitford,Matthew    , K= 0, Elo=1562, ID=3137603",
+            "rawHtml": "  14   <strong>Whitford,Matthew    </strong>, K= 0, Elo=1562, ID=3137603\n<br>\n<a class=\"anchor\" name=\"14\"></a>"
+          }
         }
       ]
     },
@@ -2370,7 +3014,8 @@
               "BH": "10.0",
               "BH-C1": "9.5"
             }
-          ]
+          ],
+          "caption": "Ranking for category:"
         }
       ]
     },
@@ -2578,92 +3223,173 @@
             {
               "Bo.": "1",
               "col2": "",
-              "White Player": "Ilic,Milan",
+              "White Player": {
+                "id": "",
+                "playerName": "Ilic,Milan",
+                "gender": "notitle",
+                "href": "playercard.html#12"
+              },
               "Pts": "(3.5)",
               "NW": "12",
               "Result": "1 - 0",
               "NB": "3",
-              "Black Player": "Picone,James",
+              "Black Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "col10": ""
             },
             {
               "Bo.": "2",
               "col2": "",
-              "White Player": "Nguyen,Anh Kiet",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "Pts": "(3.0)",
               "NW": "4",
               "Result": "1 - 0",
               "NB": "7",
-              "Black Player": "Bodke,Krishna",
+              "Black Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna",
+                "gender": "notitle",
+                "href": "playercard.html#7"
+              },
               "col10": ""
             },
             {
               "Bo.": "3",
               "col2": "",
-              "White Player": "Temizel,Hazar",
+              "White Player": {
+                "id": "",
+                "playerName": "Temizel,Hazar",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "Pts": "(2.0)",
               "NW": "6",
               "Result": "1 - 0",
               "NB": "1",
-              "Black Player": "McIntyre,Julian",
+              "Black Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "col10": ""
             },
             {
               "Bo.": "4",
               "col2": "",
-              "White Player": "Richards,Derek",
+              "White Player": {
+                "id": "",
+                "playerName": "Richards,Derek",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "Pts": "(2.0)",
               "NW": "5",
               "Result": "0F-1F",
               "NB": "13",
-              "Black Player": "Nawar,Mena",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nawar,Mena",
+                "gender": "notitle",
+                "href": "playercard.html#13"
+              },
               "col10": ""
             },
             {
               "Bo.": "5",
               "col2": "",
-              "White Player": "Clerk,Max",
+              "White Player": {
+                "id": "",
+                "playerName": "Clerk,Max",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              },
               "Pts": "(1.5)",
               "NW": "8",
               "Result": "0 - 1",
               "NB": "11",
-              "Black Player": "Sicurella,Lucas",
+              "Black Player": {
+                "id": "",
+                "playerName": "Sicurella,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#11"
+              },
               "col10": ""
             },
             {
               "Bo.": "6",
               "col2": "",
-              "White Player": "Hogan,Steven",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "Pts": "(1.0)",
               "NW": "2",
               "Result": "1 - 0",
               "NB": "14",
-              "Black Player": "Whitford,Matthew",
+              "Black Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#14"
+              },
               "col10": ""
             },
             {
               "Bo.": "7",
               "col2": "",
-              "White Player": "Liu,Tina",
+              "White Player": {
+                "id": "",
+                "playerName": "Liu,Tina",
+                "gender": "notitle",
+                "href": "playercard.html#9"
+              },
               "Pts": "(0.0)",
               "NW": "9",
               "Result": "0",
               "NB": "0",
-              "Black Player": "BYE",
+              "Black Player": {
+                "id": "",
+                "playerName": "BYE",
+                "gender": "notitle",
+                "href": "playercard.html#0"
+              },
               "col10": ""
             },
             {
               "Bo.": "8",
               "col2": "",
-              "White Player": "Nicdao,Joseph",
+              "White Player": {
+                "id": "",
+                "playerName": "Nicdao,Joseph",
+                "gender": "notitle",
+                "href": "playercard.html#10"
+              },
               "Pts": "(0.0)",
               "NW": "10",
               "Result": "0",
               "NB": "0",
-              "Black Player": "BYE",
+              "Black Player": {
+                "id": "",
+                "playerName": "BYE",
+                "gender": "notitle",
+                "href": "playercard.html#0"
+              },
               "col10": ""
             }
-          ]
+          ],
+          "caption": "Pairing"
         },
         {
           "headers": [
@@ -2849,7 +3575,8 @@
               "BH": "10.0",
               "BH-C1": "9.5"
             }
-          ]
+          ],
+          "caption": "Standings"
         },
         {
           "headers": [
@@ -2868,15 +3595,26 @@
             {
               "Bo.": "5",
               "col2": "",
-              "White Player": "Clerk,Max",
+              "White Player": {
+                "id": "",
+                "playerName": "Clerk,Max",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              },
               "Pts": "(1.5)",
               "NW": "8",
               "Result": "0 - 1",
               "NB": "11",
-              "Black Player": "Sicurella,Lucas",
+              "Black Player": {
+                "id": "",
+                "playerName": "Sicurella,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#11"
+              },
               "col10": ""
             }
-          ]
+          ],
+          "caption": "Pairing"
         },
         {
           "headers": [
@@ -2906,7 +3644,8 @@
               "BH": "11.5",
               "BH-C1": "10.5"
             }
-          ]
+          ],
+          "caption": "Standings"
         }
       ]
     },
@@ -2944,92 +3683,173 @@
             {
               "Bo.": "1",
               "col2": "",
-              "White Player": "Ilic,Milan",
+              "White Player": {
+                "id": "",
+                "playerName": "Ilic,Milan",
+                "gender": "notitle",
+                "href": "playercard.html#12"
+              },
               "Pts": "(3.5)",
               "NW": "12",
               "Result": "1 - 0",
               "NB": "3",
-              "Black Player": "Picone,James",
+              "Black Player": {
+                "id": "",
+                "playerName": "Picone,James",
+                "gender": "notitle",
+                "href": "playercard.html#3"
+              },
               "col10": ""
             },
             {
               "Bo.": "2",
               "col2": "",
-              "White Player": "Nguyen,Anh Kiet",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#4"
+              },
               "Pts": "(3.0)",
               "NW": "4",
               "Result": "1 - 0",
               "NB": "7",
-              "Black Player": "Bodke,Krishna",
+              "Black Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna",
+                "gender": "notitle",
+                "href": "playercard.html#7"
+              },
               "col10": ""
             },
             {
               "Bo.": "3",
               "col2": "",
-              "White Player": "Temizel,Hazar",
+              "White Player": {
+                "id": "",
+                "playerName": "Temizel,Hazar",
+                "gender": "notitle",
+                "href": "playercard.html#6"
+              },
               "Pts": "(2.0)",
               "NW": "6",
               "Result": "1 - 0",
               "NB": "1",
-              "Black Player": "McIntyre,Julian",
+              "Black Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#1"
+              },
               "col10": ""
             },
             {
               "Bo.": "4",
               "col2": "",
-              "White Player": "Richards,Derek",
+              "White Player": {
+                "id": "",
+                "playerName": "Richards,Derek",
+                "gender": "notitle",
+                "href": "playercard.html#5"
+              },
               "Pts": "(2.0)",
               "NW": "5",
               "Result": "0F-1F",
               "NB": "13",
-              "Black Player": "Nawar,Mena",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nawar,Mena",
+                "gender": "notitle",
+                "href": "playercard.html#13"
+              },
               "col10": ""
             },
             {
               "Bo.": "5",
               "col2": "",
-              "White Player": "Clerk,Max",
+              "White Player": {
+                "id": "",
+                "playerName": "Clerk,Max",
+                "gender": "notitle",
+                "href": "playercard.html#8"
+              },
               "Pts": "(1.5)",
               "NW": "8",
               "Result": "0 - 1",
               "NB": "11",
-              "Black Player": "Sicurella,Lucas",
+              "Black Player": {
+                "id": "",
+                "playerName": "Sicurella,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#11"
+              },
               "col10": ""
             },
             {
               "Bo.": "6",
               "col2": "",
-              "White Player": "Hogan,Steven",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#2"
+              },
               "Pts": "(1.0)",
               "NW": "2",
               "Result": "1 - 0",
               "NB": "14",
-              "Black Player": "Whitford,Matthew",
+              "Black Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#14"
+              },
               "col10": ""
             },
             {
               "Bo.": "7",
               "col2": "",
-              "White Player": "Liu,Tina",
+              "White Player": {
+                "id": "",
+                "playerName": "Liu,Tina",
+                "gender": "notitle",
+                "href": "playercard.html#9"
+              },
               "Pts": "(0.0)",
               "NW": "9",
               "Result": "0",
               "NB": "0",
-              "Black Player": "BYE",
+              "Black Player": {
+                "id": "",
+                "playerName": "BYE",
+                "gender": "notitle",
+                "href": "playercard.html#0"
+              },
               "col10": ""
             },
             {
               "Bo.": "8",
               "col2": "",
-              "White Player": "Nicdao,Joseph",
+              "White Player": {
+                "id": "",
+                "playerName": "Nicdao,Joseph",
+                "gender": "notitle",
+                "href": "playercard.html#10"
+              },
               "Pts": "(0.0)",
               "NW": "10",
               "Result": "0",
               "NB": "0",
-              "Black Player": "BYE",
+              "Black Player": {
+                "id": "",
+                "playerName": "BYE",
+                "gender": "notitle",
+                "href": "playercard.html#0"
+              },
               "col10": ""
             }
-          ]
+          ],
+          "caption": "Pairing"
         },
         {
           "headers": [
@@ -3228,7 +4048,8 @@
               "BH": "10.0",
               "BH-C1": "9.5"
             }
-          ]
+          ],
+          "caption": "Standings"
         }
       ]
     },
@@ -3477,6 +4298,135 @@
       ]
     }
   ],
+  "players": [
+    {
+      "N": "14",
+      "NAME": "Whitford,Matthew",
+      "Fed": "",
+      "Title": "",
+      "Rtg": "1562",
+      "RtgF": "0",
+      "RtgN": "1562"
+    },
+    {
+      "N": "1",
+      "NAME": "McIntyre,Julian",
+      "Fed": "",
+      "Title": "",
+      "Rtg": "1547",
+      "RtgF": "0",
+      "RtgN": "1547"
+    },
+    {
+      "N": "12",
+      "NAME": "Ilic,Milan",
+      "Fed": "",
+      "Title": "",
+      "Rtg": "1541",
+      "RtgF": "0",
+      "RtgN": "1541"
+    },
+    {
+      "N": "2",
+      "NAME": "Hogan,Steven",
+      "Fed": "",
+      "Title": "",
+      "Rtg": "1494",
+      "RtgF": "0",
+      "RtgN": "1494"
+    },
+    {
+      "N": "3",
+      "NAME": "Picone,James",
+      "Fed": "",
+      "Title": "",
+      "Rtg": "1482",
+      "RtgF": "0",
+      "RtgN": "1482"
+    },
+    {
+      "N": "4",
+      "NAME": "Nguyen,Anh Kiet",
+      "Fed": "",
+      "Title": "",
+      "Rtg": "1276",
+      "RtgF": "0",
+      "RtgN": "1276"
+    },
+    {
+      "N": "5",
+      "NAME": "Richards,Derek",
+      "Fed": "",
+      "Title": "",
+      "Rtg": "1207",
+      "RtgF": "0",
+      "RtgN": "1207"
+    },
+    {
+      "N": "6",
+      "NAME": "Temizel,Hazar",
+      "Fed": "",
+      "Title": "",
+      "Rtg": "1100",
+      "RtgF": "0",
+      "RtgN": "1100"
+    },
+    {
+      "N": "7",
+      "NAME": "Bodke,Krishna",
+      "Fed": "",
+      "Title": "",
+      "Rtg": "1044",
+      "RtgF": "0",
+      "RtgN": "1044"
+    },
+    {
+      "N": "8",
+      "NAME": "Clerk,Max",
+      "Fed": "",
+      "Title": "",
+      "Rtg": "1032",
+      "RtgF": "0",
+      "RtgN": "1032"
+    },
+    {
+      "N": "13",
+      "NAME": "Nawar,Mena",
+      "Fed": "",
+      "Title": "",
+      "Rtg": "613",
+      "RtgF": "0",
+      "RtgN": "613"
+    },
+    {
+      "N": "9",
+      "NAME": "Liu,Tina",
+      "Fed": "",
+      "Title": "",
+      "Rtg": "495",
+      "RtgF": "0",
+      "RtgN": "495"
+    },
+    {
+      "N": "10",
+      "NAME": "Nicdao,Joseph",
+      "Fed": "",
+      "Title": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "N": "11",
+      "NAME": "Sicurella,Lucas",
+      "Fed": "",
+      "Title": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    }
+  ],
+  "category": "Junior",
   "metadata": {
     "Tournament Name": "Rapid 1 2024",
     "Place": "myTown",
@@ -3509,6 +4459,7 @@
     "CM players": "0",
     "WCM players": "0",
     "FIDE titled player from AUS Federation": "0",
-    "FIDE titled player NOT from AUS Federation": "0"
+    "FIDE titled player NOT from AUS Federation": "0",
+    "category": "Junior"
   }
 }

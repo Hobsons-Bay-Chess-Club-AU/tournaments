@@ -16,7 +16,12 @@
           "rows": [
             {
               "#": "1",
-              "Player": "Hogan,Steven",
+              "Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3201414"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1515",
@@ -43,7 +48,12 @@
           "rows": [
             {
               "#": "1",
-              "Player": "Hogan,Steven",
+              "Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3201414"
+              },
               "Fed": "",
               "Origin": "",
               "Rtg": "1515",
@@ -86,5 +96,26 @@
         }
       ]
     }
-  ]
+  ],
+  "players": [
+    {
+      "#": "1",
+      "Player": {
+        "id": "",
+        "playerName": "Hogan,Steven",
+        "gender": "male",
+        "href": "http://ratings.fide.com/card.phtml?event=3201414"
+      },
+      "Fed": "",
+      "Origin": "",
+      "Rtg": "1515",
+      "RtgF": "0",
+      "RtgN": "1515"
+    }
+  ],
+  "category": "Senior",
+  "metadata": {
+    "Tournament Name": "2025 Hobsons Bay Club Championship",
+    "category": "Senior"
+  }
 }
