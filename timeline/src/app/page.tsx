@@ -26,7 +26,7 @@ export default function Home() {
   const [category, setCategory] = useState<string>("All");
   const [year, setYear] = useState<string>(new Date().getFullYear().toString());
   const [years, setYears] = useState<string[]>([]);
-  const [menuOpen, setMenuOpen] = useState(false);
+  // const [menuOpen, setMenuOpen] = useState(false); // Unused for now
 
   useEffect(() => {
     fetch(process.env.NEXT_PUBLIC_APP_URL + "/tournament.json?TS=" + new Date().getTime())
@@ -112,7 +112,7 @@ export default function Home() {
             >
               &larr;
             </button>
-            {years.map((y, i) => (
+            {years.map((y) => (
               <button
                 key={y}
                 className={`px-4 py-2 rounded-full font-semibold border transition shadow-sm ${year === y ? "bg-blue-600 text-white border-blue-700" : "bg-gray-50 text-blue-700 border-gray-200 hover:bg-gray-100"}`}

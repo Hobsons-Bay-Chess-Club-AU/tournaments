@@ -6,7 +6,7 @@ interface TournamentMetaProps {
         startDate?: string;
         endDate?: string;
         location?: string;
-        [key: string]: any;
+        [key: string]: unknown;
     };
 }
 
@@ -14,12 +14,12 @@ const TournamentMeta: React.FC<TournamentMetaProps> = ({ metadata }) => {
     if (!metadata) return null;
     
     // Map legacy keys to hero panel fields
-    const name = metadata["Tournament Name"];
-    const startDate = metadata["Date Begin"];
-    const endDate = metadata["Date End"];
-    const location = metadata["Place"];
-    const federation = metadata["Federation"];
-    const arbiter = metadata["Arbiter(s)"];
+    const name = String(metadata["Tournament Name"] || '');
+    const startDate = String(metadata["Date Begin"] || '');
+    const endDate = String(metadata["Date End"] || '');
+    const location = String(metadata["Place"] || '');
+    const federation = String(metadata["Federation"] || '');
+    const arbiter = String(metadata["Arbiter(s)"] || '');
     
     // Format date range
     const dateRange = startDate && endDate ? `${startDate} - ${endDate}` : startDate || endDate;

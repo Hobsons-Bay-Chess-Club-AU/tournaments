@@ -7,11 +7,11 @@ interface PlayerObject {
     href?: string;
     rating?: string | number;
     title?: string;
-    [key: string]: any; // Allow for additional properties
+    [key: string]: unknown; // Allow for additional properties
 }
 
 interface PlayerRendererProps {
-    data: string | PlayerObject | any;
+    data: string | PlayerObject | unknown;
     className?: string;
     onPlayerClick?: (playerId: string | number) => void;
     tournamentPath?: string; // Add tournament path to generate correct URLs
@@ -80,7 +80,7 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
         const playerObj = data as PlayerObject;
         
         // Check for common player object properties
-        const playerName = playerObj.playerName || playerObj.name || playerObj.player;
+        const playerName = String(playerObj.playerName || playerObj.name || playerObj.player || '');
         const playerId = playerObj.id;
         const gender = playerObj.gender;
         const rating = playerObj.rating;

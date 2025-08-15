@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Link from "next/link";
+import Image from "next/image";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -28,13 +30,13 @@ export default function RootLayout({
         <div className="bg-gradient-to-br from-blue-50 to-blue-200 min-h-screen font-sans">
           <header className="bg-white shadow flex items-center justify-between px-6 py-4">
             <div className="flex items-center gap-4">
-              <a href="/" className="flex items-center gap-4">
-                <img src="/logo.png" alt="HBCC Logo" className="h-10 w-10 rounded-full border border-blue-300" />
+              <Link href="/" className="flex items-center gap-4">
+                <Image src="/logo.png" alt="HBCC Logo" width={40} height={40} className="rounded-full border border-blue-300" />
                 <span className="text-2xl font-bold text-blue-700 tracking-wide">Hobsons Bay Chess Club</span>
-              </a>
+              </Link>
             </div>
             <nav>
-              <a href="/timeline" className="text-blue-600 hover:text-blue-900 font-semibold px-4 py-2 rounded transition">Timeline</a>
+              <Link href="/timeline/" className="text-blue-600 hover:text-blue-900 font-semibold px-4 py-2 rounded transition">Timeline</Link>
             </nav>
           </header>
           <main className="container mx-auto px-4 py-8">{children}</main>

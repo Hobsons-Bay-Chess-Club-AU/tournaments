@@ -55,7 +55,7 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
                 {/* Desktop menu - modern tab style */}
                 <div className="hidden lg:block">
                     <div className="flex border-b border-gray-200">
-                        {menu.map((item, index) => (
+                        {menu.map((item) => (
                             <div key={item.text} className="relative dropdown-container">
                                 {item.isDropdown === true ? (
                                     <>
@@ -80,7 +80,7 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
                                         {openDropdown === item.text && item.children && item.children.length > 0 && (
                                             <div className="absolute left-0 top-full mt-1 w-64 bg-white border border-gray-200 rounded-lg shadow-xl z-40 overflow-hidden">
                                                 <div className="py-2">
-                                                    {item.children.map((child, childIndex) => (
+                                                    {item.children.map((child) => (
                                                         <button
                                                             key={child.text}
                                                             className={`w-full text-left px-4 py-3 text-sm font-medium transition-all duration-150 ${

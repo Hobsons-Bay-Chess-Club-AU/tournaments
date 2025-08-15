@@ -1,15 +1,34 @@
 
 "use client";
-import React, { useEffect, useState, use, useRef } from "react";
+import React, { useEffect, useState, use } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import TournamentMeta from "@/components/TournamentMeta";
 import TournamentMenu from "@/components/TournamentMenu";
 import PlayerRenderer from "@/components/PlayerRenderer";
 
+type TableCaption = string | {
+    playerName?: string;
+    id?: string | number;
+    moreInfo?: {
+        anchor?: string;
+        [key: string]: unknown;
+    };
+    [key: string]: unknown;
+};
+
+type PageData = {
+    pageHeading?: string;
+    tables?: {
+        headers?: string[];
+        rows?: Record<string, unknown>[];
+        caption?: TableCaption;
+    }[];
+};
+
 type TournamentData = {
-    metadata: Record<string, any>;
+    metadata: Record<string, unknown>;
     menu: MenuItem[];
-    page: Record<string, any>;
+    page: Record<string, PageData>;
 };
 
 type MenuItem = {
@@ -81,10 +100,10 @@ export default function TournamentPage({ params }: { params: Promise<{ tournamen
             return { tableIdx, key: header, direction: "asc" };
         });
     };
-    const getSortedRows = (table: any, idx: number) => {
-        if (!sortConfig || sortConfig.tableIdx !== idx) return table.rows;
+    const getSortedRows = (table: { rows?: Record<string, unknown>[] }, idx: number) => {
+        if (!sortConfig || sortConfig.tableIdx !== idx) return table.rows || [];
         const { key, direction } = sortConfig;
-        return [...table.rows].sort((a, b) => {
+        return [...(table.rows || [])].sort((a, b) => {
             if (a[key] === undefined || b[key] === undefined) return 0;
             if (!isNaN(Number(a[key])) && !isNaN(Number(b[key]))) {
                 return direction === "asc"
@@ -159,9 +178,9 @@ export default function TournamentPage({ params }: { params: Promise<{ tournamen
                         )}
                         {/* Normal table rendering for other pages */}
                         {page !== "tourstat.html" && pageData.tables && pageData.tables.length > 0 && (
-                            pageData.tables.map((table: any, idx: number) => {
+                            pageData.tables.map((table, idx: number) => {
                                 // Get anchor ID for auto-scroll
-                                const anchorId = table.caption?.moreInfo?.anchor;
+                                const anchorId = typeof table.caption === 'object' && table.caption?.moreInfo?.anchor;
                                 const tableId = anchorId ? `table-anchor-${anchorId}` : undefined;
                                 
                                 return (
@@ -182,15 +201,15 @@ export default function TournamentPage({ params }: { params: Promise<{ tournamen
                                                 <div className="space-y-2">
                                                     <div className="flex items-center gap-4">
                                                         <h3 className="text-lg font-bold text-blue-800">
-                                                            {table.caption.playerName}
+                                                            {typeof table.caption === 'object' && table.caption.playerName ? String(table.caption.playerName) : ''}
                                                         </h3>
-                                                        {table.caption.id && (
+                                                        {typeof table.caption === 'object' && table.caption.id && (
                                                             <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm font-semibold">
-                                                                ID: {table.caption.id}
+                                                                ID: {String(table.caption.id)}
                                                             </span>
                                                         )}
                                                     </div>
-                                                    {table.caption.moreInfo && Object.keys(table.caption.moreInfo).length > 0 && (
+                                                    {typeof table.caption === 'object' && table.caption.moreInfo && Object.keys(table.caption.moreInfo).length > 0 && (
                                                         <div className="flex flex-wrap gap-3 text-sm text-gray-600">
                                                             {Object.entries(table.caption.moreInfo)
                                                                 .filter(([key]) => key !== 'anchor') // Hide anchor from display
@@ -210,10 +229,10 @@ export default function TournamentPage({ params }: { params: Promise<{ tournamen
                                             <table className="min-w-full">
                                             <thead>
                                                 <tr className="bg-gradient-to-r from-slate-50 to-gray-100/80">
-                                                    {table.headers && table.headers.map((header: string, hidx: number) => (
+                                                    {table.headers?.map((header: string, hidx: number) => (
                                                         <th
                                                             key={hidx}
-                                                            className={`px-6 py-4 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider cursor-pointer select-none transition-all duration-200 hover:bg-gray-200/50 ${hidx === 0 ? 'rounded-tl-xl' : ''} ${hidx === table.headers.length - 1 ? 'rounded-tr-xl' : ''}`}
+                                                            className={`px-6 py-4 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider cursor-pointer select-none transition-all duration-200 hover:bg-gray-200/50 ${hidx === 0 ? 'rounded-tl-xl' : ''} ${hidx === (table.headers?.length || 0) - 1 ? 'rounded-tr-xl' : ''}`}
                                                             onClick={() => handleHeaderClick(idx, header)}
                                                         >
                                                             <div className="flex items-center gap-2">
@@ -230,9 +249,9 @@ export default function TournamentPage({ params }: { params: Promise<{ tournamen
                                             </thead>
                                             <tbody className="bg-white divide-y divide-gray-100">
                                                 {table.rows && table.rows.length > 0 ? (
-                                                    getSortedRows(table, idx).map((row: any, ridx: number) => (
+                                                    getSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
                                                         <tr key={ridx} className={`transition-all duration-150 hover:bg-blue-50/50 hover:shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
-                                                            {table.headers.map((header: string, hidx: number) => (
+                                                            {table.headers?.map((header: string, hidx: number) => (
                                                                 <td key={hidx} className="px-6 py-4 text-sm text-gray-900 font-medium">
                                                                     <PlayerRenderer 
                                                                         data={row[header]} 
