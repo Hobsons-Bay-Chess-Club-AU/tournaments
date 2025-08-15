@@ -9,6 +9,11 @@ const nextConfig: NextConfig = {
   // Enable client-side routing for dynamic routes
   trailingSlash: false,
   
+  // Configure images for static export
+  images: {
+    unoptimized: process.env.NEXT_PUBLIC_EXPORT_STATIC === 'true',
+  },
+  
   /* config options here */
 };
 
