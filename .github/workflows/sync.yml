@@ -7,6 +7,7 @@ on:
     paths:
       - .github/workflows/sync.yml
       - src/*.*
+      - timeline/*.*
   workflow_dispatch:
     inputs:
       change_id:

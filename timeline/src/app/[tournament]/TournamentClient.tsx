@@ -155,14 +155,14 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
             <div className="container mx-auto px-4 py-8">
                 <TournamentMeta metadata={data.metadata} />
                 
-                <div className="mt-8">
+                <div className="mt-0">
                     <TournamentMenu menu={data.menu} activePage={page} onSelectPage={handleSelectPage} />
                 </div>
 
                 {currentPageData && (
-                    <div className="mt-8">
+                    <div className="my-8">
                         {currentPageData.pageHeading && (
-                            <h2 className="text-2xl font-bold text-gray-900 mb-6">{currentPageData.pageHeading}</h2>
+                            <h2 className="text-3xl font-bold text-gray-900 mb-6 w-full text-center ">{currentPageData.pageHeading}</h2>
                         )}
 
                         {/* Pairing page selector */}
@@ -211,11 +211,29 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                             <div className="flex flex-wrap gap-3 text-sm text-gray-600">
                                                                 {Object.entries(table.caption.moreInfo)
                                                                     .filter(([key]) => key !== 'anchor') // Hide anchor from display
-                                                                    .map(([key, value]) => (
-                                                                        <span key={key} className="bg-white px-2 py-1 rounded border">
-                                                                            <span className="font-medium">{key}:</span> {String(value)}
-                                                                        </span>
-                                                                    ))}
+                                                                    .map(([key, value]) => {
+                                                                        // Special handling for FIDE_ID to make it clickable
+                                                                        if (key === 'FIDE_ID' && value && String(value) !== '0') {
+                                                                            return (
+                                                                                <a
+                                                                                    key={key}
+                                                                                    href={`https://ratings.fide.com/profile/${value}`}
+                                                                                    target="_blank"
+                                                                                    rel="noopener noreferrer"
+                                                                                    className="bg-purple-50 text-purple-700 px-2 py-1 rounded border hover:bg-purple-100 hover:text-purple-800 transition-colors"
+                                                                                    onClick={(e) => e.stopPropagation()}
+                                                                                >
+                                                                                    <span className="font-medium">{key}:</span> {String(value)}
+                                                                                </a>
+                                                                            );
+                                                                        }
+                                                                        
+                                                                        return (
+                                                                            <span key={key} className="bg-white px-2 py-1 rounded border">
+                                                                                <span className="font-medium">{key}:</span> {String(value)}
+                                                                            </span>
+                                                                        );
+                                                                    })}
                                                             </div>
                                                         )}
                                                     </div>
@@ -226,11 +244,11 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                             <div className="overflow-x-auto">
                                                 <table className="min-w-full">
                                                 <thead>
-                                                    <tr className="bg-gradient-to-r from-slate-50 to-gray-100/80">
+                                                    <tr className="bg-gradient-to-r from-slate-50 to-gray-100/80 ">
                                                         {table.headers?.map((header: string, hidx: number) => (
                                                             <th
                                                                 key={hidx}
-                                                                className={`px-6 py-4 text-left text-xs font-semibold text-gray-700 uppercase tracking-wider cursor-pointer select-none transition-all duration-200 hover:bg-gray-200/50 ${hidx === 0 ? 'rounded-tl-xl' : ''} ${hidx === (table.headers?.length || 0) - 1 ? 'rounded-tr-xl' : ''}`}
+                                                                className={`px-6 py-4 text-left text-sm font-bold  text-gray-700 uppercase tracking-wider cursor-pointer select-none transition-all duration-200 hover:bg-gray-200/50 ${hidx === 0 ? 'rounded-tl-xl' : ''} ${hidx === (table.headers?.length || 0) - 1 ? 'rounded-tr-xl' : ''}`}
                                                                 onClick={() => handleHeaderClick(idx, header)}
                                                             >
                                                                 <div className="flex items-center gap-2">

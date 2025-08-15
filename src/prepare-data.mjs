@@ -38,16 +38,35 @@ function parseCaptionToPlayerInfo($caption) {
     const captionText = $caption.text();
     const captionHtml = $caption.html();
     
-    // Extract player name from <strong> tag
-    const playerName = $caption.find('strong').text().trim();
+    let playerName = '';
+    let playerId = '';
+    let moreInfo = {};
+    
+    // Pattern 1: Extract player name from <strong> tag (original format)
+    playerName = $caption.find('strong').text().trim();
+    
+    // Pattern 2: Extract player name from FIDE rating link (new format)
+    // <a href="http://ratings.fide.com/card.phtml?event=3244806" target="X"> Annapureddy, Rheyansh Reddy </a>
+    if (!playerName) {
+        const fideLink = $caption.find('a[href*="ratings.fide.com"]');
+        if (fideLink.length > 0) {
+            playerName = fideLink.text().trim();
+            // Extract FIDE ID from href
+            const fideIdMatch = fideLink.attr('href').match(/event=(\d+)/);
+            if (fideIdMatch) {
+                moreInfo.FIDE_ID = fideIdMatch[1];
+            }
+        }
+    }
     
     // Extract ID using regex from the full text
     // Looking for patterns like "ID=3217475"
     const idMatch = captionText.match(/ID\s*=\s*(\d+)/i);
-    const playerId = idMatch ? idMatch[1] : '';
+    playerId = idMatch ? idMatch[1] : '';
     
-    // Extract other information (K, Elo, etc.)
-    const moreInfo = {};
+    // Extract N value (player number) - new format
+    const nMatch = captionText.match(/N\s*=\s*(\d+)/i);
+    if (nMatch) moreInfo.N = nMatch[1].trim();
     
     // Extract K value
     const kMatch = captionText.match(/K\s*=\s*([^,]+)/i);
@@ -231,9 +250,9 @@ function parseTableToJson($table) {
         cheerio(tr).find('td').each((j, td) => {
             // Special handling for player cells
             const header = headers[j] || `col${j + 1}`;
+            const $td = cheerio(td);
+            
             if (header === 'White Player' || header === 'Black Player' || header === 'Player') {
-                const $td = cheerio(td);
-                
                 // Check if the cell has structured content (child elements)
                 const hasChildElements = $td.find('span').length > 0 || $td.find('a').length > 0;
                 
@@ -251,7 +270,26 @@ function parseTableToJson($table) {
                     rowObj[header] = $td.text().trim();
                 }
             } else {
-                rowObj[header] = cheerio(td).text().trim();
+                // Special handling for crosstable cells with result and opponent info
+                const resDiv = $td.find('div.res');
+                const cwDiv = $td.find('div.cw');
+                const cbDiv = $td.find('div.cb');
+                
+                if (resDiv.length > 0) {
+                    // This is a crosstable cell with result and opponent info
+                    const result = resDiv.text().trim();
+                    const whiteOpponent = cwDiv.length > 0 ? cwDiv.text().trim() : null;
+                    const blackOpponent = cbDiv.length > 0 ? cbDiv.text().trim() : null;
+                    
+                    rowObj[header] = {
+                        result,
+                        whiteOpponent,
+                        blackOpponent
+                    };
+                } else {
+                    // Regular cell content
+                    rowObj[header] = $td.text().trim();
+                }
             }
         });
         rows.push(rowObj);

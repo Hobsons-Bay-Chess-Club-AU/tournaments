@@ -18,11 +18,31 @@
           ],
           "rows": [
             {
-              "1": "½ BYE",
-              "2": "122",
-              "3": "013",
-              "4": "09",
-              "5": "026",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": "22",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "13"
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "6": "",
               "7": "",
               "#": "1",
@@ -35,13 +55,41 @@
               "Pts": "1.5"
             },
             {
-              "1": "116",
-              "2": "½10",
-              "3": "112",
-              "4": "07",
-              "5": "113",
-              "6": "115",
-              "7": "09",
+              "1": {
+                "result": "1",
+                "whiteOpponent": "16",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "10"
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": "12",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "7"
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": "13",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "15"
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": "9",
+                "blackOpponent": null
+              },
               "#": "2",
               "Player": {
                 "id": "2",
@@ -52,13 +100,41 @@
               "Pts": "4.5"
             },
             {
-              "1": "117",
-              "2": "½13",
-              "3": "111",
-              "4": "04",
-              "5": "114",
-              "6": "120",
-              "7": "17",
+              "1": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "17"
+              },
+              "2": {
+                "result": "½",
+                "whiteOpponent": "13",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "11"
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": "4",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "14"
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": "20",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": "7",
+                "blackOpponent": null
+              },
               "#": "3",
               "Player": {
                 "id": "3",
@@ -69,13 +145,41 @@
               "Pts": "5.5"
             },
             {
-              "1": "½ BYE",
-              "2": "124",
-              "3": "115",
-              "4": "13",
-              "5": "07",
-              "6": "09",
-              "7": "119",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "24"
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": "15",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "3"
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": "7",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "9"
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": "19",
+                "blackOpponent": null
+              },
               "#": "4",
               "Player": {
                 "id": "4",
@@ -86,13 +190,41 @@
               "Pts": "4.5"
             },
             {
-              "1": "118",
-              "2": "½15",
-              "3": "126",
-              "4": "½ BYE",
-              "5": "120",
-              "6": "07",
-              "7": "16",
+              "1": {
+                "result": "1",
+                "whiteOpponent": "18",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "15"
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": "26",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "20"
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "7"
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": "6",
+                "blackOpponent": null
+              },
               "#": "5",
               "Player": {
                 "id": "5",
@@ -104,12 +236,32 @@
             },
             {
               "1": "",
-              "2": "121",
-              "3": "118",
-              "4": "113",
-              "5": "½ BYE",
+              "2": {
+                "result": "1",
+                "whiteOpponent": "21",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": "18",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "13"
+              },
+              "5": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "6": "",
-              "7": "05",
+              "7": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "5"
+              },
               "#": "6",
               "Player": {
                 "id": "6",
@@ -120,13 +272,41 @@
               "Pts": "3.5"
             },
             {
-              "1": "119",
-              "2": "114",
-              "3": "19",
-              "4": "12",
-              "5": "14",
-              "6": "15",
-              "7": "03",
+              "1": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "19"
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": "14",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "9"
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": "2",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "4"
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": "5",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "3"
+              },
               "#": "7",
               "Player": {
                 "id": "7",
@@ -137,13 +317,41 @@
               "Pts": "6.0"
             },
             {
-              "1": "½ BYE",
-              "2": "026",
-              "3": "124",
-              "4": "015",
-              "5": "023",
-              "6": "127",
-              "7": "020",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "26"
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": "24",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "15"
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": "23",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "27"
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": "20",
+                "blackOpponent": null
+              },
               "#": "8",
               "Player": {
                 "id": "8",
@@ -154,13 +362,41 @@
               "Pts": "2.5"
             },
             {
-              "1": "120",
-              "2": "125",
-              "3": "07",
-              "4": "11",
-              "5": "112",
-              "6": "14",
-              "7": "12",
+              "1": {
+                "result": "1",
+                "whiteOpponent": "20",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "25"
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": "7",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "12"
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": "4",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "2"
+              },
               "#": "9",
               "Player": {
                 "id": "9",
@@ -171,13 +407,41 @@
               "Pts": "6.0"
             },
             {
-              "1": "123",
-              "2": "½2",
-              "3": "½ BYE",
-              "4": "020",
-              "5": "015",
-              "6": "125",
-              "7": "013",
+              "1": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "23"
+              },
+              "2": {
+                "result": "½",
+                "whiteOpponent": "2",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "20"
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": "15",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "25"
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": "13",
+                "blackOpponent": null
+              },
               "#": "10",
               "Player": {
                 "id": "10",
@@ -188,13 +452,41 @@
               "Pts": "3.0"
             },
             {
-              "1": "½ BYE",
-              "2": "128",
-              "3": "03",
-              "4": "½19",
-              "5": "½17",
-              "6": "018",
-              "7": "122",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "28"
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": "3",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "19"
+              },
+              "5": {
+                "result": "½",
+                "whiteOpponent": "17",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "18"
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": "22",
+                "blackOpponent": null
+              },
               "#": "11",
               "Player": {
                 "id": "11",
@@ -205,13 +497,41 @@
               "Pts": "3.5"
             },
             {
-              "1": "½26",
-              "2": "130",
-              "3": "02",
-              "4": "122",
-              "5": "09",
-              "6": "017",
-              "7": "131",
+              "1": {
+                "result": "½",
+                "whiteOpponent": "26",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "2"
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": "9",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "17"
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": "31",
+                "blackOpponent": null
+              },
               "#": "12",
               "Player": {
                 "id": "12",
@@ -222,13 +542,41 @@
               "Pts": "3.5"
             },
             {
-              "1": "127",
-              "2": "½3",
-              "3": "11",
-              "4": "06",
-              "5": "02",
-              "6": "026",
-              "7": "110",
+              "1": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "27"
+              },
+              "2": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "3"
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": "1",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": "6",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "2"
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": "26",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "10"
+              },
               "#": "13",
               "Player": {
                 "id": "13",
@@ -239,13 +587,41 @@
               "Pts": "3.5"
             },
             {
-              "1": "129",
-              "2": "07",
-              "3": "½19",
-              "4": "126",
-              "5": "03",
-              "6": "122",
-              "7": "118",
+              "1": {
+                "result": "1",
+                "whiteOpponent": "29",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "7"
+              },
+              "3": {
+                "result": "½",
+                "whiteOpponent": "19",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "26"
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": "3",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "22"
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": "18",
+                "blackOpponent": null
+              },
               "#": "14",
               "Player": {
                 "id": "14",
@@ -256,13 +632,41 @@
               "Pts": "4.5"
             },
             {
-              "1": "131",
-              "2": "½5",
-              "3": "04",
-              "4": "18",
-              "5": "110",
-              "6": "02",
-              "7": "126",
+              "1": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "31"
+              },
+              "2": {
+                "result": "½",
+                "whiteOpponent": "5",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "4"
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": "8",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "10"
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": "2",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "26"
+              },
               "#": "15",
               "Player": {
                 "id": "15",
@@ -273,13 +677,41 @@
               "Pts": "4.5"
             },
             {
-              "1": "02",
-              "2": "123",
-              "3": "020",
-              "4": "132",
-              "5": "½19",
-              "6": "123",
-              "7": "117",
+              "1": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "2"
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": "20",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "32"
+              },
+              "5": {
+                "result": "½",
+                "whiteOpponent": "19",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "23"
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": "17",
+                "blackOpponent": null
+              },
               "#": "16",
               "Player": {
                 "id": "16",
@@ -290,13 +722,41 @@
               "Pts": "4.5"
             },
             {
-              "1": "03",
-              "2": "127",
-              "3": "½25",
-              "4": "½ BYE",
-              "5": "½11",
-              "6": "112",
-              "7": "016",
+              "1": {
+                "result": "0",
+                "whiteOpponent": "3",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "27"
+              },
+              "3": {
+                "result": "½",
+                "whiteOpponent": "25",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "11"
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": "12",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "16"
+              },
               "#": "17",
               "Player": {
                 "id": "17",
@@ -307,13 +767,41 @@
               "Pts": "3.5"
             },
             {
-              "1": "05",
-              "2": "131",
-              "3": "06",
-              "4": "121",
-              "5": "125",
-              "6": "111",
-              "7": "014",
+              "1": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "5"
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": "31",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "6"
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": "21",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "25"
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": "11",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "14"
+              },
               "#": "18",
               "Player": {
                 "id": "18",
@@ -324,13 +812,41 @@
               "Pts": "4.0"
             },
             {
-              "1": "07",
-              "2": "129",
-              "3": "½14",
-              "4": "½11",
-              "5": "½16",
-              "6": "121",
-              "7": "04",
+              "1": {
+                "result": "0",
+                "whiteOpponent": "7",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "29"
+              },
+              "3": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "14"
+              },
+              "4": {
+                "result": "½",
+                "whiteOpponent": "11",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "16"
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": "21",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "4"
+              },
               "#": "19",
               "Player": {
                 "id": "19",
@@ -341,13 +857,41 @@
               "Pts": "3.5"
             },
             {
-              "1": "09",
-              "2": "132",
-              "3": "116",
-              "4": "110",
-              "5": "05",
-              "6": "03",
-              "7": "18",
+              "1": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "9"
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": "32",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "16"
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": "10",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": "5",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "3"
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "8"
+              },
               "#": "20",
               "Player": {
                 "id": "20",
@@ -359,12 +903,36 @@
             },
             {
               "1": "",
-              "2": "06",
-              "3": "129",
-              "4": "018",
-              "5": "132",
-              "6": "019",
-              "7": "125",
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "6"
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": "29",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "18"
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": "32",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "19"
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": "25",
+                "blackOpponent": null
+              },
               "#": "21",
               "Player": {
                 "id": "21",
@@ -375,13 +943,41 @@
               "Pts": "3.0"
             },
             {
-              "1": "½ BYE",
-              "2": "01",
-              "3": "128",
-              "4": "012",
-              "5": "131",
-              "6": "014",
-              "7": "011",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "1"
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": "28",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "31"
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": "14",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "11"
+              },
               "#": "22",
               "Player": {
                 "id": "22",
@@ -392,13 +988,41 @@
               "Pts": "2.5"
             },
             {
-              "1": "010",
-              "2": "016",
-              "3": "½31",
-              "4": "128",
-              "5": "18",
-              "6": "016",
-              "7": "028",
+              "1": {
+                "result": "0",
+                "whiteOpponent": "10",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "31"
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "8"
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": "16",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "#": "23",
               "Player": {
                 "id": "23",
@@ -409,11 +1033,31 @@
               "Pts": "2.5"
             },
             {
-              "1": "½ BYE",
-              "2": "04",
-              "3": "08",
-              "4": "031",
-              "5": "029",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": "4",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "8"
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": "31",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "6": "",
               "7": "",
               "#": "24",
@@ -426,13 +1070,41 @@
               "Pts": "0.5"
             },
             {
-              "1": "132",
-              "2": "09",
-              "3": "½17",
-              "4": "½ BYE",
-              "5": "018",
-              "6": "010",
-              "7": "021",
+              "1": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "32"
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": "9",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "17"
+              },
+              "4": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": "18",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": "10",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "21"
+              },
               "#": "25",
               "Player": {
                 "id": "25",
@@ -443,13 +1115,41 @@
               "Pts": "2.0"
             },
             {
-              "1": "½12",
-              "2": "18",
-              "3": "05",
-              "4": "014",
-              "5": "11",
-              "6": "113",
-              "7": "015",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "12"
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": "8",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "5"
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": "14",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "13"
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": "15",
+                "blackOpponent": null
+              },
               "#": "26",
               "Player": {
                 "id": "26",
@@ -460,13 +1160,41 @@
               "Pts": "3.5"
             },
             {
-              "1": "013",
-              "2": "017",
-              "3": "032",
-              "4": "½29",
-              "5": "028",
-              "6": "08",
-              "7": "1BYE",
+              "1": {
+                "result": "0",
+                "whiteOpponent": "13",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": "17",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "29"
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "28"
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": "8",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "#": "27",
               "Player": {
                 "id": "27",
@@ -477,13 +1205,41 @@
               "Pts": "1.5"
             },
             {
-              "1": "½ BYE",
-              "2": "011",
-              "3": "022",
-              "4": "023",
-              "5": "127",
-              "6": "129",
-              "7": "123",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": "11",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "22"
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": "27",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "29"
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "#": "28",
               "Player": {
                 "id": "28",
@@ -494,13 +1250,41 @@
               "Pts": "3.5"
             },
             {
-              "1": "014",
-              "2": "019",
-              "3": "021",
-              "4": "½27",
-              "5": "124",
-              "6": "028",
-              "7": "132",
+              "1": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "14"
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": "19",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "21"
+              },
+              "4": {
+                "result": "½",
+                "whiteOpponent": "27",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": "28",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "32"
+              },
               "#": "29",
               "Player": {
                 "id": "29",
@@ -511,9 +1295,21 @@
               "Pts": "2.5"
             },
             {
-              "1": "½ BYE",
-              "2": "012",
-              "3": "½ BYE",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "4": "",
               "5": "",
               "6": "",
@@ -528,13 +1324,41 @@
               "Pts": "1.0"
             },
             {
-              "1": "015",
-              "2": "018",
-              "3": "½23",
-              "4": "124",
-              "5": "022",
-              "6": "132",
-              "7": "012",
+              "1": {
+                "result": "0",
+                "whiteOpponent": "15",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "18"
+              },
+              "3": {
+                "result": "½",
+                "whiteOpponent": "23",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "24"
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": "22",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "32"
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "12"
+              },
               "#": "31",
               "Player": {
                 "id": "31",
@@ -545,13 +1369,41 @@
               "Pts": "2.5"
             },
             {
-              "1": "025",
-              "2": "020",
-              "3": "127",
-              "4": "016",
-              "5": "021",
-              "6": "031",
-              "7": "029",
+              "1": {
+                "result": "0",
+                "whiteOpponent": "25",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "20"
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": "16",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "21"
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": "31",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": "29",
+                "blackOpponent": null
+              },
               "#": "32",
               "Player": {
                 "id": "32",
@@ -586,13 +1438,41 @@
           ],
           "rows": [
             {
-              "1": "112",
-              "2": "17",
-              "3": "12",
-              "4": "16",
-              "5": "15",
-              "6": "14",
-              "7": "03",
+              "1": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "12"
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": "7",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "2"
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": "6",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "5"
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": "4",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "3"
+              },
               "#": "1",
               "Player": {
                 "id": "7",
@@ -606,13 +1486,41 @@
               "SB": "28.0"
             },
             {
-              "1": "110",
-              "2": "127",
-              "3": "01",
-              "4": "129",
-              "5": "113",
-              "6": "15",
-              "7": "16",
+              "1": {
+                "result": "1",
+                "whiteOpponent": "10",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "27"
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": "1",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "13"
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": "5",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "6"
+              },
               "#": "2",
               "Player": {
                 "id": "9",
@@ -626,13 +1534,41 @@
               "SB": "24.5"
             },
             {
-              "1": "118",
-              "2": "½17",
-              "3": "116",
-              "4": "05",
-              "5": "17",
-              "6": "110",
-              "7": "11",
+              "1": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "18"
+              },
+              "2": {
+                "result": "½",
+                "whiteOpponent": "17",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "16"
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": "5",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "7"
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": "10",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": "1",
+                "blackOpponent": null
+              },
               "#": "3",
               "Player": {
                 "id": "3",
@@ -646,13 +1582,41 @@
               "SB": "23.3"
             },
             {
-              "1": "111",
-              "2": "½8",
-              "3": "114",
-              "4": "½ BYE",
-              "5": "110",
-              "6": "01",
-              "7": "115",
+              "1": {
+                "result": "1",
+                "whiteOpponent": "11",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "8"
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": "14",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "10"
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "1"
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": "15",
+                "blackOpponent": null
+              },
               "#": "4",
               "Player": {
                 "id": "5",
@@ -666,13 +1630,41 @@
               "SB": "19.8"
             },
             {
-              "1": "½ BYE",
-              "2": "132",
-              "3": "18",
-              "4": "13",
-              "5": "01",
-              "6": "02",
-              "7": "112",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "32"
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": "8",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "3"
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": "1",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "2"
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": "12",
+                "blackOpponent": null
+              },
               "#": "5",
               "Player": {
                 "id": "4",
@@ -686,13 +1678,41 @@
               "SB": "17.3"
             },
             {
-              "1": "19",
-              "2": "½20",
-              "3": "113",
-              "4": "01",
-              "5": "117",
-              "6": "18",
-              "7": "02",
+              "1": {
+                "result": "1",
+                "whiteOpponent": "9",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "20"
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": "13",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "1"
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": "17",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "8"
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": "2",
+                "blackOpponent": null
+              },
               "#": "6",
               "Player": {
                 "id": "2",
@@ -706,13 +1726,41 @@
               "SB": "17.5"
             },
             {
-              "1": "125",
-              "2": "01",
-              "3": "½12",
-              "4": "114",
-              "5": "03",
-              "6": "122",
-              "7": "111",
+              "1": {
+                "result": "1",
+                "whiteOpponent": "25",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "1"
+              },
+              "3": {
+                "result": "½",
+                "whiteOpponent": "12",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "14"
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": "3",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "22"
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": "11",
+                "blackOpponent": null
+              },
               "#": "7",
               "Player": {
                 "id": "14",
@@ -726,13 +1774,41 @@
               "SB": "14.3"
             },
             {
-              "1": "126",
-              "2": "½4",
-              "3": "05",
-              "4": "124",
-              "5": "120",
-              "6": "06",
-              "7": "114",
+              "1": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "26"
+              },
+              "2": {
+                "result": "½",
+                "whiteOpponent": "4",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "5"
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": "24",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "20"
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": "6",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "14"
+              },
               "#": "8",
               "Player": {
                 "id": "15",
@@ -746,13 +1822,41 @@
               "SB": "14.0"
             },
             {
-              "1": "06",
-              "2": "123",
-              "3": "010",
-              "4": "130",
-              "5": "½12",
-              "6": "123",
-              "7": "118",
+              "1": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "6"
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": "10",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "30"
+              },
+              "5": {
+                "result": "½",
+                "whiteOpponent": "12",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "23"
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": "18",
+                "blackOpponent": null
+              },
               "#": "9",
               "Player": {
                 "id": "16",
@@ -766,13 +1870,41 @@
               "SB": "13.3"
             },
             {
-              "1": "02",
-              "2": "130",
-              "3": "19",
-              "4": "120",
-              "5": "04",
-              "6": "03",
-              "7": "124",
+              "1": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "2"
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": "30",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "9"
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": "20",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": "4",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "3"
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "24"
+              },
               "#": "10",
               "Player": {
                 "id": "20",
@@ -786,13 +1918,41 @@
               "SB": "11.0"
             },
             {
-              "1": "04",
-              "2": "126",
-              "3": "015",
-              "4": "121",
-              "5": "127",
-              "6": "116",
-              "7": "07",
+              "1": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "4"
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": "26",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "15"
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": "21",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "27"
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": "16",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "7"
+              },
               "#": "11",
               "Player": {
                 "id": "18",
@@ -806,13 +1966,41 @@
               "SB": "11.0"
             },
             {
-              "1": "01",
-              "2": "125",
-              "3": "½7",
-              "4": "½16",
-              "5": "½9",
-              "6": "121",
-              "7": "05",
+              "1": {
+                "result": "0",
+                "whiteOpponent": "1",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "25"
+              },
+              "3": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "7"
+              },
+              "4": {
+                "result": "½",
+                "whiteOpponent": "16",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "9"
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": "21",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "5"
+              },
               "#": "12",
               "Player": {
                 "id": "19",
@@ -826,13 +2014,41 @@
               "SB": "11.8"
             },
             {
-              "1": "½14",
-              "2": "131",
-              "3": "06",
-              "4": "122",
-              "5": "02",
-              "6": "018",
-              "7": "126",
+              "1": {
+                "result": "½",
+                "whiteOpponent": "14",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "6"
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": "2",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "18"
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": "26",
+                "blackOpponent": null
+              },
               "#": "13",
               "Player": {
                 "id": "12",
@@ -846,13 +2062,41 @@
               "SB": "11.3"
             },
             {
-              "1": "½13",
-              "2": "124",
-              "3": "04",
-              "4": "07",
-              "5": "129",
-              "6": "117",
-              "7": "08",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "13"
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": "24",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "4"
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": "7",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "17"
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": "8",
+                "blackOpponent": null
+              },
               "#": "14",
               "Player": {
                 "id": "26",
@@ -867,12 +2111,32 @@
             },
             {
               "1": "",
-              "2": "121",
-              "3": "111",
-              "4": "117",
-              "5": "½ BYE",
+              "2": {
+                "result": "1",
+                "whiteOpponent": "21",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": "11",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "17"
+              },
+              "5": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "6": "",
-              "7": "04",
+              "7": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "4"
+              },
               "#": "15",
               "Player": {
                 "id": "6",
@@ -886,13 +2150,41 @@
               "SB": "12.3"
             },
             {
-              "1": "½ BYE",
-              "2": "119",
-              "3": "03",
-              "4": "½12",
-              "5": "½18",
-              "6": "011",
-              "7": "122",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "19"
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": "3",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "12"
+              },
+              "5": {
+                "result": "½",
+                "whiteOpponent": "18",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "11"
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": "22",
+                "blackOpponent": null
+              },
               "#": "16",
               "Player": {
                 "id": "11",
@@ -906,13 +2198,41 @@
               "SB": "11.3"
             },
             {
-              "1": "128",
-              "2": "½3",
-              "3": "129",
-              "4": "015",
-              "5": "06",
-              "6": "014",
-              "7": "120",
+              "1": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "28"
+              },
+              "2": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "3"
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": "29",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": "15",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "6"
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": "14",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "20"
+              },
               "#": "17",
               "Player": {
                 "id": "13",
@@ -926,13 +2246,41 @@
               "SB": "9.8"
             },
             {
-              "1": "03",
-              "2": "128",
-              "3": "½27",
-              "4": "½ BYE",
-              "5": "½16",
-              "6": "113",
-              "7": "09",
+              "1": {
+                "result": "0",
+                "whiteOpponent": "3",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "28"
+              },
+              "3": {
+                "result": "½",
+                "whiteOpponent": "27",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "16"
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": "13",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "9"
+              },
               "#": "18",
               "Player": {
                 "id": "17",
@@ -946,13 +2294,41 @@
               "SB": "9.5"
             },
             {
-              "1": "½ BYE",
-              "2": "016",
-              "3": "022",
-              "4": "023",
-              "5": "128",
-              "6": "125",
-              "7": "123",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": "16",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "22"
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": "28",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "25"
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "#": "19",
               "Player": {
                 "id": "28",
@@ -966,13 +2342,41 @@
               "SB": "9.3"
             },
             {
-              "1": "123",
-              "2": "½6",
-              "3": "½ BYE",
-              "4": "010",
-              "5": "08",
-              "6": "127",
-              "7": "017",
+              "1": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "23"
+              },
+              "2": {
+                "result": "½",
+                "whiteOpponent": "6",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "10"
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": "8",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "27"
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": "17",
+                "blackOpponent": null
+              },
               "#": "20",
               "Player": {
                 "id": "10",
@@ -987,12 +2391,36 @@
             },
             {
               "1": "",
-              "2": "015",
-              "3": "125",
-              "4": "011",
-              "5": "130",
-              "6": "012",
-              "7": "127",
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "15"
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": "25",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "11"
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": "30",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "12"
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": "27",
+                "blackOpponent": null
+              },
               "#": "21",
               "Player": {
                 "id": "21",
@@ -1006,13 +2434,41 @@
               "SB": "5.5"
             },
             {
-              "1": "½ BYE",
-              "2": "029",
-              "3": "119",
-              "4": "013",
-              "5": "126",
-              "6": "07",
-              "7": "016",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "29"
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": "19",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "26"
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": "7",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "16"
+              },
               "#": "22",
               "Player": {
                 "id": "22",
@@ -1026,13 +2482,41 @@
               "SB": "7.3"
             },
             {
-              "1": "020",
-              "2": "09",
-              "3": "½26",
-              "4": "119",
-              "5": "124",
-              "6": "09",
-              "7": "019",
+              "1": {
+                "result": "0",
+                "whiteOpponent": "20",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "26"
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "24"
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": "9",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "#": "23",
               "Player": {
                 "id": "23",
@@ -1046,13 +2530,41 @@
               "SB": "6.3"
             },
             {
-              "1": "½ BYE",
-              "2": "014",
-              "3": "132",
-              "4": "08",
-              "5": "023",
-              "6": "128",
-              "7": "010",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "14"
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": "32",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "8"
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": "23",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "28"
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": "10",
+                "blackOpponent": null
+              },
               "#": "24",
               "Player": {
                 "id": "8",
@@ -1066,13 +2578,41 @@
               "SB": "4.3"
             },
             {
-              "1": "07",
-              "2": "012",
-              "3": "021",
-              "4": "½28",
-              "5": "132",
-              "6": "019",
-              "7": "130",
+              "1": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "7"
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": "12",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "21"
+              },
+              "4": {
+                "result": "½",
+                "whiteOpponent": "28",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": "19",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "30"
+              },
               "#": "25",
               "Player": {
                 "id": "29",
@@ -1086,13 +2626,41 @@
               "SB": "4.3"
             },
             {
-              "1": "08",
-              "2": "011",
-              "3": "½23",
-              "4": "132",
-              "5": "022",
-              "6": "130",
-              "7": "013",
+              "1": {
+                "result": "0",
+                "whiteOpponent": "8",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "11"
+              },
+              "3": {
+                "result": "½",
+                "whiteOpponent": "23",
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "32"
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": "22",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "30"
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "13"
+              },
               "#": "26",
               "Player": {
                 "id": "31",
@@ -1106,13 +2674,41 @@
               "SB": "3.8"
             },
             {
-              "1": "130",
-              "2": "02",
-              "3": "½18",
-              "4": "½ BYE",
-              "5": "011",
-              "6": "020",
-              "7": "021",
+              "1": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "30"
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": "2",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "18"
+              },
+              "4": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": "11",
+                "blackOpponent": null
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": "20",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "21"
+              },
               "#": "27",
               "Player": {
                 "id": "25",
@@ -1126,13 +2722,41 @@
               "SB": "3.8"
             },
             {
-              "1": "017",
-              "2": "018",
-              "3": "030",
-              "4": "½25",
-              "5": "019",
-              "6": "024",
-              "7": "1 BYE",
+              "1": {
+                "result": "0",
+                "whiteOpponent": "17",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": "18",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "25"
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "19"
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": "24",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "#": "28",
               "Player": {
                 "id": "27",
@@ -1146,11 +2770,31 @@
               "SB": "2.8"
             },
             {
-              "1": "½ BYE",
-              "2": "122",
-              "3": "017",
-              "4": "02",
-              "5": "014",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": "22",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "17"
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "6": "",
               "7": "",
               "#": "29",
@@ -1166,13 +2810,41 @@
               "SB": "3.3"
             },
             {
-              "1": "027",
-              "2": "010",
-              "3": "128",
-              "4": "09",
-              "5": "021",
-              "6": "026",
-              "7": "025",
+              "1": {
+                "result": "0",
+                "whiteOpponent": "27",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "10"
+              },
+              "3": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": "9",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "21"
+              },
+              "6": {
+                "result": "0",
+                "whiteOpponent": "26",
+                "blackOpponent": null
+              },
+              "7": {
+                "result": "0",
+                "whiteOpponent": "25",
+                "blackOpponent": null
+              },
               "#": "30",
               "Player": {
                 "id": "32",
@@ -1186,9 +2858,21 @@
               "SB": "1.0"
             },
             {
-              "1": "½ BYE",
-              "2": "013",
-              "3": "½ BYE",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "4": "",
               "5": "",
               "6": "",
@@ -1206,11 +2890,31 @@
               "SB": "1.0"
             },
             {
-              "1": "½ BYE",
-              "2": "05",
-              "3": "024",
-              "4": "026",
-              "5": "025",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": "5",
+                "blackOpponent": null
+              },
+              "3": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "24"
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": "26",
+                "blackOpponent": null
+              },
+              "5": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "6": "",
               "7": "",
               "#": "32",
@@ -1814,9 +3518,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Hogg,Dean",
             "id": "",
             "moreInfo": {
+              "N": "1",
               "anchor": "1"
             },
             "rawText": "N = 1 Hogg,Dean",
@@ -1907,9 +3612,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Davis,Tony J",
             "id": "",
             "moreInfo": {
+              "N": "2",
               "anchor": "2"
             },
             "rawText": "N = 2 Davis,Tony J",
@@ -2000,9 +3706,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Krishnan,Anirudh",
             "id": "",
             "moreInfo": {
+              "N": "3",
               "anchor": "3"
             },
             "rawText": "N = 3 Krishnan,Anirudh",
@@ -2083,9 +3790,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Lingineni,Khushal",
             "id": "",
             "moreInfo": {
+              "N": "4",
               "anchor": "4"
             },
             "rawText": "N = 4 Lingineni,Khushal",
@@ -2166,9 +3874,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Enano,Ronald",
             "id": "",
             "moreInfo": {
+              "N": "5",
               "anchor": "5"
             },
             "rawText": "N = 5 Enano,Ronald",
@@ -2229,9 +3938,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "McIntyre,Julian",
             "id": "",
             "moreInfo": {
+              "N": "6",
               "anchor": "6"
             },
             "rawText": "N = 6 McIntyre,Julian",
@@ -2322,9 +4032,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Nguyen,Anh Kiet",
             "id": "",
             "moreInfo": {
+              "N": "7",
               "anchor": "7"
             },
             "rawText": "N = 7 Nguyen,Anh Kiet",
@@ -2405,9 +4116,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Wilkinson,Greg",
             "id": "",
             "moreInfo": {
+              "N": "8",
               "anchor": "8"
             },
             "rawText": "N = 8 Wilkinson,Greg",
@@ -2488,9 +4200,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Wongso,Renaldo",
             "id": "",
             "moreInfo": {
+              "N": "9",
               "anchor": "9"
             },
             "rawText": "N = 9 Wongso,Renaldo",
@@ -2571,9 +4284,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Pasukov,Leo",
             "id": "",
             "moreInfo": {
+              "N": "10",
               "anchor": "10"
             },
             "rawText": "N = 10 Pasukov,Leo",
@@ -2654,9 +4368,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Hogan,Steven",
             "id": "",
             "moreInfo": {
+              "N": "11",
               "anchor": "11"
             },
             "rawText": "N = 11 Hogan,Steven",
@@ -2717,9 +4432,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Nowak,Ruben",
             "id": "",
             "moreInfo": {
+              "N": "12",
               "anchor": "12"
             },
             "rawText": "N = 12 Nowak,Ruben",
@@ -2810,9 +4526,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Picone,James",
             "id": "",
             "moreInfo": {
+              "N": "13",
               "anchor": "13"
             },
             "rawText": "N = 13 Picone,James",
@@ -2903,9 +4620,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Whitford,Matthew",
             "id": "",
             "moreInfo": {
+              "N": "14",
               "anchor": "14"
             },
             "rawText": "N = 14 Whitford,Matthew",
@@ -2986,9 +4704,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Bodke,Krishna",
             "id": "",
             "moreInfo": {
+              "N": "15",
               "anchor": "15"
             },
             "rawText": "N = 15 Bodke,Krishna",
@@ -3059,9 +4778,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Matijas,Dejan",
             "id": "",
             "moreInfo": {
+              "N": "16",
               "anchor": "16"
             },
             "rawText": "N = 16 Matijas,Dejan",
@@ -3142,9 +4862,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Annapureddy,Dhruthin Reddy",
             "id": "",
             "moreInfo": {
+              "N": "17",
               "anchor": "17"
             },
             "rawText": "N = 17 Annapureddy,Dhruthin Reddy",
@@ -3225,9 +4946,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Nawar,Mena",
             "id": "",
             "moreInfo": {
+              "N": "18",
               "anchor": "18"
             },
             "rawText": "N = 18 Nawar,Mena",
@@ -3318,9 +5040,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Yang,Yifan",
             "id": "",
             "moreInfo": {
+              "N": "19",
               "anchor": "19"
             },
             "rawText": "N = 19 Yang,Yifan",
@@ -3401,9 +5124,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Ramprasad,Nachiket",
             "id": "",
             "moreInfo": {
+              "N": "20",
               "anchor": "20"
             },
             "rawText": "N = 20 Ramprasad,Nachiket",
@@ -3474,9 +5198,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Clerk,Max",
             "id": "",
             "moreInfo": {
+              "N": "21",
               "anchor": "21"
             },
             "rawText": "N = 21 Clerk,Max",
@@ -3537,9 +5262,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Annadasu,Shreyansh",
             "id": "",
             "moreInfo": {
+              "N": "22",
               "anchor": "22"
             },
             "rawText": "N = 22 Annadasu,Shreyansh",
@@ -3590,9 +5316,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Cox,Tyler",
             "id": "",
             "moreInfo": {
+              "N": "23",
               "anchor": "23"
             },
             "rawText": "N = 23 Cox,Tyler",
@@ -3633,9 +5360,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Kostakakis,Angelo",
             "id": "",
             "moreInfo": {
+              "N": "24",
               "anchor": "24"
             },
             "rawText": "N = 24 Kostakakis,Angelo",
@@ -3706,9 +5434,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Ruaya,Rohan",
             "id": "",
             "moreInfo": {
+              "N": "25",
               "anchor": "25"
             },
             "rawText": "N = 25 Ruaya,Rohan",
@@ -3789,9 +5518,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Veginati,Cherish",
             "id": "",
             "moreInfo": {
+              "N": "26",
               "anchor": "26"
             },
             "rawText": "N = 26 Veginati,Cherish",
@@ -3862,9 +5592,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Singh,Abhyuday",
             "id": "",
             "moreInfo": {
+              "N": "27",
               "anchor": "27"
             },
             "rawText": "N = 27 Singh,Abhyuday",
@@ -3925,9 +5656,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Nicdao,Joseph",
             "id": "",
             "moreInfo": {
+              "N": "28",
               "anchor": "28"
             },
             "rawText": "N = 28 Nicdao,Joseph",
@@ -3998,9 +5730,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Shaiek,Nihal",
             "id": "",
             "moreInfo": {
+              "N": "29",
               "anchor": "29"
             },
             "rawText": "N = 29 Shaiek,Nihal",
@@ -4081,9 +5814,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Cox,Aiden",
             "id": "",
             "moreInfo": {
+              "N": "31",
               "anchor": "31"
             },
             "rawText": "N = 31 Cox,Aiden",
@@ -4154,9 +5888,10 @@
             }
           ],
           "caption": {
-            "playerName": "",
+            "playerName": "Sheikh,Tahmid",
             "id": "",
             "moreInfo": {
+              "N": "32",
               "anchor": "32"
             },
             "rawText": "N = 32 Sheikh,Tahmid",

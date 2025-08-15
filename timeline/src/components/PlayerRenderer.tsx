@@ -7,11 +7,21 @@ interface PlayerObject {
     href?: string;
     rating?: string | number;
     title?: string;
+    moreInfo?: {
+        FIDE_ID?: string;
+        [key: string]: unknown;
+    };
     [key: string]: unknown; // Allow for additional properties
 }
 
+interface CrosstableCell {
+    result: string;
+    whiteOpponent?: string | null;
+    blackOpponent?: string | null;
+}
+
 interface PlayerRendererProps {
-    data: string | PlayerObject | unknown;
+    data: string | PlayerObject | CrosstableCell | unknown;
     className?: string;
     onPlayerClick?: (playerId: string | number) => void;
     tournamentPath?: string; // Add tournament path to generate correct URLs
@@ -48,6 +58,26 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
         return <span className={className}>{String(data || '')}</span>;
     }
 
+    // Check if this is a crosstable cell object
+    if (typeof data === 'object' && data !== null && 'result' in data && 'whiteOpponent' in data) {
+        const crosstableData = data as CrosstableCell;
+        return (
+            <div className={`crosstable-cell ${className} flex flex-col items-center`}>
+                <span className="font-medium text-sm">{crosstableData.result}</span>
+                {crosstableData.whiteOpponent && (
+                    <span className="mt-1 inline-block w-6 h-6 bg-white border border-gray-300 text-center text-xs leading-6 text-gray-700">
+                        {crosstableData.whiteOpponent}
+                    </span>
+                )}
+                {crosstableData.blackOpponent && (
+                    <span className="mt-1 inline-block w-6 h-6 bg-gray-800 text-center text-xs leading-5 text-white">
+                        {crosstableData.blackOpponent}
+                    </span>
+                )}
+            </div>
+        );
+    }
+
     // If data is an object, try to extract player information
     if (typeof data === 'object') {
         const playerObj = data as PlayerObject;
@@ -59,6 +89,8 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
         const rating = playerObj.rating;
         const title = playerObj.title;
         const href = playerObj.href;
+        const moreInfo = playerObj.moreInfo;
+        const fideId = moreInfo?.FIDE_ID;
 
         // If we have a player name and it's not empty, render detailed player info
         if (playerName && playerName.trim() !== '') {
@@ -113,6 +145,17 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
                         {playerId && String(playerId).trim() !== '' && <span className="bg-gray-100 px-2 py-0.5 rounded-full">ID: {playerId}</span>}
                         {title && <span className="font-semibold text-blue-600 bg-blue-50 px-2 py-0.5 rounded-full">{title}</span>}
                         {rating && <span className="bg-green-50 text-green-700 px-2 py-0.5 rounded-full">({rating})</span>}
+                        {fideId && (
+                            <a 
+                                href={`https://ratings.fide.com/profile/${fideId}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-purple-50 text-purple-700 px-2 py-0.5 rounded-full hover:bg-purple-100 hover:text-purple-800 transition-colors"
+                                onClick={(e) => e.stopPropagation()}
+                            >
+                                FIDE: {fideId}
+                            </a>
+                        )}
                     </div>
                 </div>
             );
