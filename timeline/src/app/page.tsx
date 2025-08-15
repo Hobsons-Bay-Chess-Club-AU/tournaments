@@ -53,7 +53,7 @@ export default function Home() {
 
   const filtered = tournaments.filter((t) => {
     const tYear = getYear(t.data["Date Begin"] || t.data["Date"] || "");
-    const catMatch = category === "All" || t.category === category;
+    const catMatch = category === "All" || t.category === category || t.data["Tournament Name"]?.toLowerCase().includes(category.toLowerCase());
     const yearMatch = year === "All" || tYear === year;
     return catMatch && yearMatch;
   });
