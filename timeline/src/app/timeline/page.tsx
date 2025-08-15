@@ -9,8 +9,7 @@ export default function Home() {
   const events = useTournamentData('./data.json');
 
   return (
-    <div className="font-sans min-h-screen p-8 pb-20">
-      <h1 className="text-2xl font-bold mb-8 text-center">Tournament Timeline</h1>
+    <div className="font-sans min-h-screen pb-20">
       <VerticalTimelineEvents events={events} />
     </div>
   );

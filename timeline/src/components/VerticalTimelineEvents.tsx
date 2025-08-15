@@ -66,7 +66,7 @@ export default function VerticalTimelineEvents({ events }: { events: TimelineEve
     const origin = window.location.origin;
     return (
         <div>
-            <div className="mb-4 flex gap-2 flex-wrap">
+            <div className="mb-4 flex gap-2 flex-wrap justify-center">
                 {/* Category chips */}
                 {categories.map((cat: string) => (
                     <button

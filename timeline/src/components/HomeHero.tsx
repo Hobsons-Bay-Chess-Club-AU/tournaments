@@ -7,7 +7,7 @@ const HomeHero: React.FC = () => {
             {/* Decorative top border */}
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500"></div>
             
-            <div className="container mx-auto px-6 py-16">
+            <div className="px-6 py-16">
                 {/* Club Title */}
                 <div className="text-center mb-8">
                     <div className="flex items-center justify-center gap-4 mb-4">

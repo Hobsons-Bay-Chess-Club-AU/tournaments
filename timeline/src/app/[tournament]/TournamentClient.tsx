@@ -152,7 +152,6 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
-            <div className="container mx-auto px-4 py-8">
                 <TournamentMeta metadata={data.metadata} />
                 
                 <div className="mt-0">
@@ -168,12 +167,12 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                         {/* Pairing page selector */}
                         {isPairingPage && pairingPages.length > 1 && (
                             <div className="mb-6">
-                                <div className="flex flex-wrap gap-2">
+                                <div className="flex flex-wrap gap-2 justify-center sm:justify-start">
                                     {pairingPages.map((pairPage, idx) => (
                                         <button
                                             key={pairPage}
                                             onClick={() => handlePairingSelect(idx)}
-                                            className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 ${
+                                            className={`px-3 sm:px-4 py-2 rounded-lg font-medium transition-all duration-200 text-sm sm:text-base ${
                                                 page === pairPage
                                                     ? 'bg-blue-600 text-white shadow-lg'
                                                     : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-200'
@@ -241,14 +240,15 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                             </div>
                                         )}
                                         <div className="overflow-hidden rounded-xl shadow-lg border border-gray-200/50 bg-white">
-                                            <div className="overflow-x-auto">
+                                            {/* Desktop Table */}
+                                            <div className="hidden lg:block overflow-x-auto">
                                                 <table className="min-w-full">
                                                 <thead>
-                                                    <tr className="bg-gradient-to-r from-slate-50 to-gray-100/80 ">
+                                                    <tr className="bg-gradient-to-r from-slate-50 to-gray-100/80">
                                                         {table.headers?.map((header: string, hidx: number) => (
                                                             <th
                                                                 key={hidx}
-                                                                className={`px-6 py-4 text-left text-sm font-bold  text-gray-700 uppercase tracking-wider cursor-pointer select-none transition-all duration-200 hover:bg-gray-200/50 ${hidx === 0 ? 'rounded-tl-xl' : ''} ${hidx === (table.headers?.length || 0) - 1 ? 'rounded-tr-xl' : ''}`}
+                                                                className={`px-6 py-4 text-left text-sm font-bold text-gray-700 uppercase tracking-wider cursor-pointer select-none transition-all duration-200 hover:bg-gray-200/50 ${hidx === 0 ? 'rounded-tl-xl' : ''} ${hidx === (table.headers?.length || 0) - 1 ? 'rounded-tr-xl' : ''}`}
                                                                 onClick={() => handleHeaderClick(idx, header)}
                                                             >
                                                                 <div className="flex items-center gap-2">
@@ -293,6 +293,41 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                 </tbody>
                                                 </table>
                                             </div>
+
+                                            {/* Mobile Cards */}
+                                            <div className="lg:hidden">
+                                                {table.rows && table.rows.length > 0 ? (
+                                                    <div className="space-y-3 p-4">
+                                                        {getSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
+                                                            <div key={ridx} className={`bg-white rounded-lg border border-gray-200 p-4 shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
+                                                                {table.headers?.map((header: string, hidx: number) => (
+                                                                    <div key={hidx} className="flex justify-between items-center py-2 border-b border-gray-100 last:border-b-0">
+                                                                        <span className="text-sm font-medium text-gray-600 capitalize">
+                                                                            {header}
+                                                                        </span>
+                                                                        <div className="text-sm text-gray-900 font-medium">
+                                                                            <PlayerRenderer 
+                                                                                data={row[header]} 
+                                                                                onPlayerClick={handlePlayerClick}
+                                                                                tournamentPath={`/${resolvedParams.tournament}`}
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                ))}
+                                                            </div>
+                                                        ))}
+                                                    </div>
+                                                ) : (
+                                                    <div className="p-8 text-center text-gray-500 italic">
+                                                        <div className="flex flex-col items-center gap-2">
+                                                            <svg className="w-8 h-8 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                                            </svg>
+                                                            <span>No data available</span>
+                                                        </div>
+                                                    </div>
+                                                )}
+                                            </div>
                                         </div>
                                     </div>
                                 ))}
@@ -311,6 +346,5 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                     </div>
                 )}
             </div>
-        </div>
     );
 }

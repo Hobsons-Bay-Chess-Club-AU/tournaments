@@ -21,7 +21,7 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
             const target = event.target as Element;
-            if (!target.closest('.dropdown-container') && !target.closest('.mobile-menu-container')) {
+            if (!target.closest('.dropdown-') && !target.closest('.mobile-menu-')) {
                 setOpenDropdown(null);
                 setMobileMenuOpen(false);
             }
@@ -34,9 +34,9 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
     
     return (
         <nav className="bg-white border-b border-gray-200 mb-0 sticky top-0 z-30 shadow-sm">
-            <div className="container mx-auto px-4">
+            <div className="px-4">
                 {/* Mobile hamburger button */}
-                <div className="lg:hidden flex justify-between items-center py-4 mobile-menu-container">
+                <div className="lg:hidden flex justify-between items-center py-4 mobile-menu-">
                     <span className="text-lg font-semibold text-blue-800">Tournament Menu</span>
                     <button
                         className="p-2 rounded-md text-blue-700 hover:bg-blue-100 transition-colors duration-200"
@@ -56,7 +56,7 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
                 <div className="hidden lg:block">
                     <div className="flex border-b border-gray-200">
                         {menu.map((item) => (
-                            <div key={item.text} className="relative dropdown-container">
+                            <div key={item.text} className="relative dropdown-">
                                 {item.isDropdown === true ? (
                                     <>
                                         <button
@@ -122,7 +122,7 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
 
                 {/* Mobile menu dropdown */}
                 {mobileMenuOpen && (
-                    <div className="lg:hidden border-t border-gray-200 bg-gray-50 mobile-menu-container">
+                    <div className="lg:hidden border-t border-gray-200 bg-gray-50 mobile-menu-">
                         <div className="py-4 space-y-1">
                             {menu.map((item) => (
                                 <div key={item.text}>

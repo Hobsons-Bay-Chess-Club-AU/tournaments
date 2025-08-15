@@ -76,7 +76,7 @@ export default function Home() {
         />
 
         {/* Tournament Cards */}
-        <div className="container mx-auto px-4 py-8">
+        <div className="py-8 px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {filtered.length === 0 && (
           <div className="col-span-full text-center text-gray-500">No tournaments found for selected filters.</div>
@@ -103,7 +103,7 @@ export default function Home() {
         </div>
 
         {/* Year Paginator at Bottom */}
-        <div className="container mx-auto px-4 pb-8">
+        <div className="px-4 pb-8">
           <div className="flex justify-center gap-2 pt-8 border-t border-gray-100">
             <button
               className="px-3 py-2 rounded border bg-gray-50 text-blue-700 font-semibold shadow-sm disabled:opacity-50 hover:bg-gray-100 transition-colors"
@@ -131,6 +131,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
   );
 }

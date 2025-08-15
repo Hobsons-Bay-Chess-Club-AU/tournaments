@@ -9,7 +9,7 @@ interface FilterTabsProps {
 const FilterTabs: React.FC<FilterTabsProps> = ({ categories, activeCategory, onCategoryChange }) => {
     return (
         <nav className="bg-white border-b border-gray-200 shadow-sm">
-            <div className="container mx-auto px-4">
+            <div className="px-4">
                 {/* Desktop tabs */}
                 <div className="hidden lg:block">
                     <div className="flex justify-center border-b border-gray-200">
