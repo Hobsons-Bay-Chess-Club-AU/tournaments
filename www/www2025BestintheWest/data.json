@@ -629,6 +629,16 @@
             },
             {
               "#": "59",
+              "Title": "CM",
+              "Player": "Smith,Declan",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "1911"
+            },
+            {
+              "#": "60",
               "Title": "",
               "Player": "Arun,Devsankar",
               "Fed": "VIC",
@@ -638,7 +648,7 @@
               "RtgN": "0"
             },
             {
-              "#": "60",
+              "#": "61",
               "Title": "",
               "Player": "Denny,William",
               "Fed": "VIC",
@@ -648,7 +658,7 @@
               "RtgN": "0"
             },
             {
-              "#": "61",
+              "#": "62",
               "Title": "",
               "Player": "Moser,Luke",
               "Fed": "VIC",
@@ -658,7 +668,7 @@
               "RtgN": "0"
             },
             {
-              "#": "62",
+              "#": "63",
               "Title": "",
               "Player": "Moser,William",
               "Fed": "VIC",
@@ -668,7 +678,7 @@
               "RtgN": "0"
             },
             {
-              "#": "63",
+              "#": "64",
               "Title": "",
               "Player": "Palta,Sameer",
               "Fed": "VIC",
@@ -678,7 +688,7 @@
               "RtgN": "0"
             },
             {
-              "#": "64",
+              "#": "65",
               "Title": "",
               "Player": "Samrat,Avyay",
               "Fed": "VIC",
@@ -688,7 +698,7 @@
               "RtgN": "0"
             },
             {
-              "#": "65",
+              "#": "66",
               "Title": "",
               "Player": "Shahadat,Aladean",
               "Fed": "VIC",
@@ -698,7 +708,7 @@
               "RtgN": "0"
             },
             {
-              "#": "66",
+              "#": "67",
               "Title": "",
               "Player": "Sharma,Rudra",
               "Fed": "VIC",
@@ -708,7 +718,7 @@
               "RtgN": "0"
             },
             {
-              "#": "67",
+              "#": "68",
               "Title": "",
               "Player": "Vigneshwar,Krishanth",
               "Fed": "VIC",
@@ -718,7 +728,7 @@
               "RtgN": "0"
             },
             {
-              "#": "68",
+              "#": "69",
               "Title": "",
               "Player": "Zheng,Ryan",
               "Fed": "VIC",
@@ -2389,6 +2399,30 @@
             "rawText": "68   Zheng,Ryan          , K= 0, Elo=1768, ID=3210976",
             "rawHtml": "  68   <strong>Zheng,Ryan          </strong>, K= 0, Elo=1768, ID=3210976\n<br>\n<a class=\"anchor\" name=\"68\"></a>"
           }
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Smith,Declan",
+            "id": "3206544",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1911",
+              "anchor": "69"
+            },
+            "rawText": "69  CM Smith,Declan        , K= 0, Elo=1911, ID=3206544",
+            "rawHtml": "  69  CM <strong>Smith,Declan        </strong>, K= 0, Elo=1911, ID=3206544\n<br>\n<a class=\"anchor\" name=\"69\"></a>"
+          }
         }
       ]
     },
@@ -2457,7 +2491,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "68"
+              "col2": "69"
             },
             {
               "col1": "Number of Federations",
@@ -2465,7 +2499,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "1115"
+              "col2": "1126"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -2477,7 +2511,7 @@
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "67"
+              "col2": "68"
             },
             {
               "col1": "FIDE rated players",
@@ -2485,7 +2519,7 @@
             },
             {
               "col1": "unrated players",
-              "col2": "67"
+              "col2": "68"
             },
             {
               "col1": "unrated players from AUS Federation",
@@ -2493,7 +2527,7 @@
             },
             {
               "col1": "unrated players NOT from AUS Federation",
-              "col2": "66"
+              "col2": "67"
             },
             {
               "col1": "unrated Federations",
@@ -2501,7 +2535,7 @@
             },
             {
               "col1": "FIDE titled players",
-              "col2": "7"
+              "col2": "8"
             },
             {
               "col1": "GM players",
@@ -2529,7 +2563,7 @@
             },
             {
               "col1": "CM players",
-              "col2": "0"
+              "col2": "1"
             },
             {
               "col1": "WCM players",
@@ -2541,7 +2575,7 @@
             },
             {
               "col1": "FIDE titled player NOT from AUS Federation",
-              "col2": "7"
+              "col2": "8"
             }
           ]
         }
@@ -3154,6 +3188,16 @@
     },
     {
       "#": "59",
+      "Title": "CM",
+      "Player": "Smith,Declan",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "1911"
+    },
+    {
+      "#": "60",
       "Title": "",
       "Player": "Arun,Devsankar",
       "Fed": "VIC",
@@ -3163,7 +3207,7 @@
       "RtgN": "0"
     },
     {
-      "#": "60",
+      "#": "61",
       "Title": "",
       "Player": "Denny,William",
       "Fed": "VIC",
@@ -3173,7 +3217,7 @@
       "RtgN": "0"
     },
     {
-      "#": "61",
+      "#": "62",
       "Title": "",
       "Player": "Moser,Luke",
       "Fed": "VIC",
@@ -3183,7 +3227,7 @@
       "RtgN": "0"
     },
     {
-      "#": "62",
+      "#": "63",
       "Title": "",
       "Player": "Moser,William",
       "Fed": "VIC",
@@ -3193,7 +3237,7 @@
       "RtgN": "0"
     },
     {
-      "#": "63",
+      "#": "64",
       "Title": "",
       "Player": "Palta,Sameer",
       "Fed": "VIC",
@@ -3203,7 +3247,7 @@
       "RtgN": "0"
     },
     {
-      "#": "64",
+      "#": "65",
       "Title": "",
       "Player": "Samrat,Avyay",
       "Fed": "VIC",
@@ -3213,7 +3257,7 @@
       "RtgN": "0"
     },
     {
-      "#": "65",
+      "#": "66",
       "Title": "",
       "Player": "Shahadat,Aladean",
       "Fed": "VIC",
@@ -3223,7 +3267,7 @@
       "RtgN": "0"
     },
     {
-      "#": "66",
+      "#": "67",
       "Title": "",
       "Player": "Sharma,Rudra",
       "Fed": "VIC",
@@ -3233,7 +3277,7 @@
       "RtgN": "0"
     },
     {
-      "#": "67",
+      "#": "68",
       "Title": "",
       "Player": "Vigneshwar,Krishanth",
       "Fed": "VIC",
@@ -3243,7 +3287,7 @@
       "RtgN": "0"
     },
     {
-      "#": "68",
+      "#": "69",
       "Title": "",
       "Player": "Zheng,Ryan",
       "Fed": "VIC",
@@ -3265,28 +3309,28 @@
     "Rounds": "5",
     "Score game": "0-0.5-1",
     "Tie break": "BH",
-    "Registered Players": "68",
+    "Registered Players": "69",
     "Number of Federations": "4",
-    "Average Rating (all)": "1115",
+    "Average Rating (all)": "1126",
     "Average Rating (only FIDE rated)": "1641",
     "Players from AUS Federation": "1",
-    "Players NOT from AUS Federation": "67",
+    "Players NOT from AUS Federation": "68",
     "FIDE rated players": "1",
-    "unrated players": "67",
+    "unrated players": "68",
     "unrated players from AUS Federation": "1",
-    "unrated players NOT from AUS Federation": "66",
+    "unrated players NOT from AUS Federation": "67",
     "unrated Federations": "4",
-    "FIDE titled players": "7",
+    "FIDE titled players": "8",
     "GM players": "0",
     "WGM players": "0",
     "IM players": "0",
     "WIM players": "1",
     "FM players": "5",
     "WFM players": "1",
-    "CM players": "0",
+    "CM players": "1",
     "WCM players": "0",
     "FIDE titled player from AUS Federation": "0",
-    "FIDE titled player NOT from AUS Federation": "7",
+    "FIDE titled player NOT from AUS Federation": "8",
     "category": "Senior"
   }
 }
