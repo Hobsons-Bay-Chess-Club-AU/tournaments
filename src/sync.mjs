@@ -52,6 +52,7 @@ function updatePoint(data) {
   fs.writeFileSync("www/2024.html", t(data));
 }
 function generateIndexFile(list) {
+  console.log("Generating index file...");
   const data = list
     .map((x) => {
       if (!fs.existsSync(x)) {
@@ -130,7 +131,7 @@ function generateIndexFile(list) {
       uniqueEntries.set(key, item);
     }
   });
-
+  fs.writeFileSync("./debug.json", JSON.stringify(Array.from(uniqueEntries.values()), null, 2));
   // Convert map values back to an array
   const uniqueList = Array.from(uniqueEntries.values()).sort((x, y) => x.start);
 
@@ -228,7 +229,7 @@ function generateIndexFile(list) {
 }
 // Call the function to extract all zip files in the folder
 // extractAllZipFiles("unzip", "www");
-var files = findFiles("www", "playersname.html");
+var files = findFiles("www", "index.html");
 // console.log(files);
 
 generateIndexFile(files);
