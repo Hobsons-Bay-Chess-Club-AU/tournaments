@@ -598,6 +598,38 @@
 </tr> </thead><tbody>
 </tbody>
 </table><br>
+<table class="table caption-top table-striped "> 
+<caption>  71   <strong>Tsagarakis,Angelo   </strong>, K= 0, Elo=1436, ID=3086435
+<br>
+<a class="anchor" name="71"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  72  CM <strong>Gao,Arthur          </strong>, K= 0, Elo=1997, ID=3190620
+<br>
+<a class="anchor" name="72"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  73  IM <strong>Cannon,David        </strong>, K= 0, Elo=2385, ID=3130371
+<br>
+<a class="anchor" name="73"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  74   <strong>Cauchi,John-Paul    </strong>, K= 0, Elo=1441, ID=3193340
+<br>
+<a class="anchor" name="74"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
 </DIV>
 		  </div>
 		      </div>
