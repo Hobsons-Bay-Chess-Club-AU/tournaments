@@ -1,4 +1,3 @@
-
 "use client";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
@@ -12,6 +11,7 @@ type Tournament = {
   data: TournamentMeta;
   path: string;
   category: string;
+  status?: string;
 };
 function getYear(dateStr: string): string {
   if (!dateStr) return new Date().getFullYear().toString(); // Default to current year
@@ -19,11 +19,12 @@ function getYear(dateStr: string): string {
   return match ? match[1] : new Date().getFullYear().toString(); // Default to current year if no match
 }
 
-const CATEGORIES = ["All", "Senior", "Junior", "Rapid", "Blitz"];
+const STATUS_FILTERS = ["All", "Planned", "In Progress"];
+const CATEGORY_OPTIONS = ["All", "Senior", "Junior", "Rapid", "Blitz", "Planned", "In Progress"];
 
 export default function Home() {
   const [tournaments, setTournaments] = useState<Tournament[]>([]);
-  const [category, setCategory] = useState<string>("All");
+  const [activeOption, setActiveOption] = useState<string>("All");
   const [year, setYear] = useState<string>(new Date().getFullYear().toString());
   const [years, setYears] = useState<string[]>([]);
   // const [menuOpen, setMenuOpen] = useState(false); // Unused for now
@@ -32,10 +33,25 @@ export default function Home() {
     fetch(process.env.NEXT_PUBLIC_APP_URL + "/tournament.json?TS=" + new Date().getTime())
       .then((res) => res.json())
       .then((data: Tournament[]) => {
-        setTournaments(data);
+        // Add status field to each tournament
+        const now = new Date();
+        const withStatus = data.map((t) => {
+          const date = t.data["Date Begin"] || t.data["Date"] || "";
+          const endDate = t.data["Date End"] || t.data["End Date"] || "";
+          const beginDateObj = parseAusDate(date);
+          const endDateObj = parseAusDate(endDate);
+          let status = "Completed";
+          if (beginDateObj.getTime() > now.getTime()) {
+            status = "Planned";
+          } else if (beginDateObj.getTime() <= now.getTime() && endDateObj.getTime() >= now.getTime()) {
+            status = "In Progress";
+          }
+          return { ...t, status };
+        });
+        setTournaments(withStatus);
         const allYears = Array.from(
           new Set(
-            data.map((t) => {
+            withStatus.map((t) => {
               const d = t.data["Date Begin"] || t.data["Date"] || "";
               return getYear(d);
             })
@@ -51,11 +67,40 @@ export default function Home() {
       });
   }, []);
 
-  const filtered = tournaments.filter((t) => {
+  // Sort tournaments by Date Begin descending
+  // Helper to parse Australian date format DD/MM/YYYY
+  function parseAusDate(dateStr: string): Date {
+    if (!dateStr) return new Date(0);
+    const parts = dateStr.split("/");
+    if (parts.length === 3) {
+      // DD/MM/YYYY
+      const [day, month, year] = parts.map(Number);
+      return new Date(year, month - 1, day);
+    }
+    // fallback to default parsing
+    return new Date(dateStr);
+  }
+
+  const sortedTournaments = [...tournaments].sort((a, b) => {
+    const dateA = a.data["Date Begin"] || a.data["Date"] || "";
+    const dateB = b.data["Date Begin"] || b.data["Date"] || "";
+    const dA = parseAusDate(dateA);
+    const dB = parseAusDate(dateB);
+    return dB.getTime() - dA.getTime();
+  });
+
+  const filtered = sortedTournaments.filter((t) => {
     const tYear = getYear(t.data["Date Begin"] || t.data["Date"] || "");
-    const catMatch = category === "All" || t.category === category || t.data["Tournament Name"]?.toLowerCase().includes(category.toLowerCase());
     const yearMatch = year === "All" || tYear === year;
-    return catMatch && yearMatch;
+    let match = false;
+    if (activeOption === "All") {
+      match = true;
+    } else if (activeOption === "Planned" || activeOption === "In Progress") {
+      match = t.status === activeOption;
+    } else {
+      match = t.category === activeOption || t.data["Tournament Name"]?.toLowerCase().includes(activeOption.toLowerCase());
+    }
+    return match && yearMatch;
   });
 
   // Pagination for years
@@ -68,37 +113,60 @@ export default function Home() {
 
       {/* Main content wrapper with white background */}
       <div className="bg-white min-h-screen">
-        {/* Category Filter Tabs */}
-        <FilterTabs 
-          categories={CATEGORIES} 
-          activeCategory={category} 
-          onCategoryChange={setCategory} 
+        {/* Status Filter Tabs */}
+        <FilterTabs
+          options={CATEGORY_OPTIONS}
+          activeOption={activeOption}
+          onOptionChange={setActiveOption}
         />
 
         {/* Tournament Cards */}
         <div className="py-8 px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        {filtered.length === 0 && (
-          <div className="col-span-full text-center text-gray-500">No tournaments found for selected filters.</div>
-        )}
-        {filtered.map((t, idx) => {
-          const title = t.data["Tournament Name"] || t.data["Place"] || "Untitled";
-          const date = t.data["Date Begin"] || t.data["Date"] || "";
-          const site = t.data["Site"] || t.data["Place"] || "";
-          const slug = t.path.replace(/^www/, "").replace(/\/data\.json$/, "");
-          return (
-            <Link
-              key={idx}
-              href={`/${slug}`}
-              className="block bg-white rounded-xl shadow-lg hover:shadow-2xl transition border border-blue-100 p-6 text-center group"
-            >
-              <div className="mb-2 text-lg font-bold text-blue-800 group-hover:text-blue-600 truncate">{title}</div>
-              <div className="mb-1 text-sm text-gray-500">{date}</div>
-              {site && <div className="mb-1 text-xs text-gray-400 italic">Site: {site}</div>}
-              <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold ${t.category === "Senior" ? "bg-yellow-100 text-yellow-800" : "bg-green-100 text-green-800"}`}>{t.category}</span>
-            </Link>
-          );
-        })}
+            {filtered.length === 0 && (
+              <div className="col-span-full text-center text-gray-500">No tournaments found for selected filters.</div>
+            )}
+            {filtered.map((t, idx) => {
+              const title = t.data["Tournament Name"] || t.data["Place"] || "Untitled";
+              const date = t.data["Date Begin"] || t.data["Date"] || "";
+              const endDate = t.data["Date End"] || t.data["End Date"] || "";
+              const site = t.data["Site"] || t.data["Place"] || "";
+              const slug = t.path.replace(/^www/, "").replace(/\/data\.json$/, "");
+              // Use the same parseAusDate helper
+              const beginDateObj = parseAusDate(date);
+              const endDateObj = parseAusDate(endDate);
+              const now = new Date();
+              let cardClass = "block bg-white rounded-xl shadow-lg hover:shadow-2xl transition border border-blue-100 p-6 text-center group";
+              let status = "Completed";
+              let statusClass = "bg-gray-300 text-gray-800";
+              // Future tournament: begin date > now
+              if (beginDateObj.getTime() > now.getTime()) {
+                cardClass += " bg-gray-100";
+                status = "Planned";
+                statusClass = "bg-gray-200 text-gray-700";
+              }
+              // In-progress: now between begin and end
+              else if (beginDateObj.getTime() <= now.getTime() && endDateObj.getTime() >= now.getTime()) {
+                cardClass += " border-green-500";
+                status = "In Progress";
+                statusClass = "bg-green-200 text-green-800";
+              }
+              // If completed, go to standings page
+              const linkUrl = status === "Completed" ? `/${slug}?page=standings.html` : `/${slug}`;
+              return (
+                <Link
+                  key={idx}
+                  href={linkUrl}
+                  className={cardClass}
+                >
+                  <div className="mb-2 text-lg font-bold text-blue-800 group-hover:text-blue-600">{title}</div>
+                  <div className="mb-1 text-sm text-gray-500">{date}</div>
+                  {site && <div className="mb-1 text-xs text-gray-400 italic">Site: {site}</div>}
+                  <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold mr-2 ${statusClass}`}>{status}</span>
+                  <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold ${t.category === "Senior" ? "bg-yellow-100 text-yellow-800" : "bg-green-100 text-green-800"}`}>{t.category}</span>
+                </Link>
+              );
+            })}
           </div>
         </div>
 
@@ -131,6 +199,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      </div>
+    </div>
   );
 }

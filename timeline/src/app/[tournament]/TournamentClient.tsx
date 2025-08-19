@@ -47,8 +47,8 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     const [data, setData] = useState<TournamentData | null>(null);
     const searchParams = useSearchParams();
     const router = useRouter();
-    const page = searchParams.get("page") || "index.html";
-    const playerId = searchParams.get("id"); // Get player ID for auto-scroll
+    const page = searchParams?.get("page") || "index.html";
+    const playerId = searchParams?.get("id"); // Get player ID for auto-scroll
 
     useEffect(() => {
         fetch(process.env.NEXT_PUBLIC_APP_URL + `/www${resolvedParams.tournament}/data.json?ts=${new Date().getTime()}`)
@@ -66,9 +66,9 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                 console.log(`Auto-scroll: Found element for table-anchor-${playerId}:`, targetElement);
                 if (targetElement) {
                     console.log(`Auto-scroll: Scrolling to player ${playerId}`);
-                    targetElement.scrollIntoView({ 
-                        behavior: 'smooth', 
-                        block: 'start' 
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
                     });
                 } else {
                     console.log(`Auto-scroll: No table found with anchor ${playerId}`);
@@ -80,13 +80,13 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
 
     // Sorting state
     const [sortConfig, setSortConfig] = useState<{ tableIdx: number; key: string; direction: "asc" | "desc" } | null>(null);
-    
+
     // Search state
     const [searchQuery, setSearchQuery] = useState<string>("");
 
     // Pairing selector logic
-    const isPairingPage = page.startsWith("pair");
-    const pairingPages = data?.page ? Object.keys(data.page).filter((k) => k.startsWith("pair")) : [];
+    const isPairingPage = page.startsWith("pairs");
+    const pairingPages = data?.page ? Object.keys(data.page).filter((k) => k.startsWith("pairs")) : [];
     // const currentPairingIdx = pairingPages.indexOf(page); // Unused variable
 
     // Handlers
@@ -116,7 +116,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     // Search filtering function
     const getFilteredAndSortedRows = (table: { rows?: Record<string, unknown>[] }, idx: number) => {
         let rows = table.rows || [];
-        
+
         // Apply search filter
         if (searchQuery.trim()) {
             const query = searchQuery.toLowerCase().trim();
@@ -135,7 +135,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                             return String(value.result).toLowerCase().includes(query);
                         }
                         // Recursively check object values
-                        return Object.values(value).some(v => 
+                        return Object.values(value).some(v =>
                             String(v).toLowerCase().includes(query)
                         );
                     }
@@ -143,7 +143,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                 });
             });
         }
-        
+
         // Apply sorting
         if (sortConfig && sortConfig.tableIdx === idx) {
             return rows.sort((a, b) => {
@@ -157,7 +157,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                 // Check if both values are numeric (including decimal numbers)
                 const aNum = parseFloat(aStr);
                 const bNum = parseFloat(bStr);
-                
+
                 if (!isNaN(aNum) && !isNaN(bNum)) {
                     // Both are valid numbers, sort numerically
                     return sortConfig.direction === 'asc' ? aNum - bNum : bNum - aNum;
@@ -171,7 +171,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                 }
             });
         }
-        
+
         return rows;
     };
 
@@ -192,116 +192,115 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
-                <TournamentMeta metadata={data.metadata} />
-                
-                <div className="mt-0">
-                    <TournamentMenu menu={data.menu} activePage={page} onSelectPage={handleSelectPage} />
-                </div>
+            <TournamentMeta metadata={data.metadata} />
 
-                {currentPageData && (
-                    <div className="my-8">
-                        {currentPageData.pageHeading && (
-                            <h2 className="text-3xl font-bold text-gray-900 mb-6 w-full text-center ">{currentPageData.pageHeading}</h2>
-                        )}
+            <div className="mt-0">
+                <TournamentMenu menu={data.menu} activePage={page} onSelectPage={handleSelectPage} />
+            </div>
 
-                        {/* Pairing page selector */}
-                        {isPairingPage && pairingPages.length > 1 && (
-                            <div className="mb-6">
-                                <div className="flex flex-wrap gap-2 justify-center sm:justify-start">
-                                    {pairingPages.map((pairPage, idx) => (
-                                        <button
-                                            key={pairPage}
-                                            onClick={() => handlePairingSelect(idx)}
-                                            className={`px-3 sm:px-4 py-2 rounded-lg font-medium transition-all duration-200 text-sm sm:text-base ${
-                                                page === pairPage
-                                                    ? 'bg-blue-600 text-white shadow-lg'
-                                                    : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-200'
+            {currentPageData && (
+                <div className="my-8">
+                    {currentPageData.pageHeading && (
+                        <h2 className="text-3xl font-bold text-gray-900 mb-6 w-full text-center ">{currentPageData.pageHeading}</h2>
+                    )}
+
+                    {/* Pairing page selector */}
+                    {isPairingPage && pairingPages.length > 1 && (
+                        <div className="mb-6">
+                            <div className="flex flex-wrap gap-2 justify-center sm:justify-start">
+                                {pairingPages.map((pairPage, idx) => (
+                                    <button
+                                        key={pairPage}
+                                        onClick={() => handlePairingSelect(idx)}
+                                        className={`px-3 sm:px-4 py-2 rounded-lg font-medium transition-all duration-200 text-sm sm:text-base ${page === pairPage
+                                            ? 'bg-blue-600 text-white shadow-lg'
+                                            : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-200'
                                             }`}
-                                        >
-                                            Round {idx + 1}
-                                        </button>
-                                    ))}
-                                </div>
+                                    >
+                                        Round {idx + 1}
+                                    </button>
+                                ))}
                             </div>
-                        )}
+                        </div>
+                    )}
 
-                        {currentPageData.tables && currentPageData.tables.length > 0 ? (
-                            <div className="space-y-8">
-                                {currentPageData.tables.map((table, idx) => (
-                                    <div key={idx} className="space-y-4">
-                                        {table.caption && (
-                                            <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
-                                                {typeof table.caption === 'string' ? (
-                                                    <h3 className="text-lg font-semibold text-gray-900">{table.caption}</h3>
-                                                ) : (
-                                                    // Structured player caption
-                                                    <div className="space-y-2">
-                                                        <div className="flex items-center gap-4">
-                                                            <h3 className="text-lg font-bold text-blue-800">
-                                                                {typeof table.caption === 'object' && table.caption.playerName ? String(table.caption.playerName) : ''}
-                                                            </h3>
-                                                            {typeof table.caption === 'object' && table.caption.id && (
-                                                                <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm font-semibold">
-                                                                    ID: {String(table.caption.id)}
-                                                                </span>
-                                                            )}
-                                                        </div>
-                                                        {typeof table.caption === 'object' && table.caption.moreInfo && Object.keys(table.caption.moreInfo).length > 0 && (
-                                                            <div className="flex flex-wrap gap-3 text-sm text-gray-600">
-                                                                {Object.entries(table.caption.moreInfo)
-                                                                    .filter(([key]) => key !== 'anchor') // Hide anchor from display
-                                                                    .map(([key, value]) => {
-                                                                        // Special handling for FIDE_ID to make it clickable
-                                                                        if (key === 'FIDE_ID' && value && String(value) !== '0') {
-                                                                            return (
-                                                                                <a
-                                                                                    key={key}
-                                                                                    href={`https://ratings.fide.com/profile/${value}`}
-                                                                                    target="_blank"
-                                                                                    rel="noopener noreferrer"
-                                                                                    className="bg-purple-50 text-purple-700 px-2 py-1 rounded border hover:bg-purple-100 hover:text-purple-800 transition-colors"
-                                                                                    onClick={(e) => e.stopPropagation()}
-                                                                                >
-                                                                                    <span className="font-medium">{key}:</span> {String(value)}
-                                                                                </a>
-                                                                            );
-                                                                        }
-                                                                        
-                                                                        return (
-                                                                            <span key={key} className="bg-white px-2 py-1 rounded border">
-                                                                                <span className="font-medium">{key}:</span> {String(value)}
-                                                                            </span>
-                                                                        );
-                                                                    })}
-                                                            </div>
+                    {currentPageData.tables && currentPageData.tables.length > 0 ? (
+                        <div className="space-y-8">
+                            {currentPageData.tables.map((table, idx) => (
+                                <div key={idx} className="space-y-4">
+                                    {table.caption && (
+                                        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+                                            {typeof table.caption === 'string' ? (
+                                                <h3 className="text-lg font-semibold text-gray-900">{table.caption}</h3>
+                                            ) : (
+                                                // Structured player caption
+                                                <div className="space-y-2">
+                                                    <div className="flex items-center gap-4">
+                                                        <h3 className="text-lg font-bold text-blue-800">
+                                                            {typeof table.caption === 'object' && table.caption.playerName ? String(table.caption.playerName) : ''}
+                                                        </h3>
+                                                        {typeof table.caption === 'object' && table.caption.id && (
+                                                            <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm font-semibold">
+                                                                ID: {String(table.caption.id)}
+                                                            </span>
                                                         )}
                                                     </div>
-                                                )}
-                                            </div>
-                                        )}
-                                        
-                                        {/* Search Input */}
-                                        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
-                                            <div className="relative">
-                                                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                                                    <svg className="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                                                    </svg>
+                                                    {typeof table.caption === 'object' && table.caption.moreInfo && Object.keys(table.caption.moreInfo).length > 0 && (
+                                                        <div className="flex flex-wrap gap-3 text-sm text-gray-600">
+                                                            {Object.entries(table.caption.moreInfo)
+                                                                .filter(([key]) => key !== 'anchor') // Hide anchor from display
+                                                                .map(([key, value]) => {
+                                                                    // Special handling for FIDE_ID to make it clickable
+                                                                    if (key === 'FIDE_ID' && value && String(value) !== '0') {
+                                                                        return (
+                                                                            <a
+                                                                                key={key}
+                                                                                href={`https://ratings.fide.com/profile/${value}`}
+                                                                                target="_blank"
+                                                                                rel="noopener noreferrer"
+                                                                                className="bg-purple-50 text-purple-700 px-2 py-1 rounded border hover:bg-purple-100 hover:text-purple-800 transition-colors"
+                                                                                onClick={(e) => e.stopPropagation()}
+                                                                            >
+                                                                                <span className="font-medium">{key}:</span> {String(value)}
+                                                                            </a>
+                                                                        );
+                                                                    }
+
+                                                                    return (
+                                                                        <span key={key} className="bg-white px-2 py-1 rounded border">
+                                                                            <span className="font-medium">{key}:</span> {String(value)}
+                                                                        </span>
+                                                                    );
+                                                                })}
+                                                        </div>
+                                                    )}
                                                 </div>
-                                                <input
-                                                    type="text"
-                                                    placeholder="Search in table..."
-                                                    value={searchQuery}
-                                                    onChange={(e) => setSearchQuery(e.target.value)}
-                                                    className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-gray-900"
-                                                />
-                                            </div>
+                                            )}
                                         </div>
-                                        
-                                        <div className="overflow-hidden rounded-xl shadow-lg border border-gray-200/50 bg-white">
-                                            {/* Desktop Table */}
-                                            <div className="hidden lg:block overflow-x-auto">
-                                                <table className="min-w-full">
+                                    )}
+
+                                    {/* Search Input */}
+                                    <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
+                                        <div className="relative">
+                                            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                                <svg className="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                                </svg>
+                                            </div>
+                                            <input
+                                                type="text"
+                                                placeholder="Search in table..."
+                                                value={searchQuery}
+                                                onChange={(e) => setSearchQuery(e.target.value)}
+                                                className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-gray-900"
+                                            />
+                                        </div>
+                                    </div>
+
+                                    <div className="overflow-hidden rounded-xl shadow-lg border border-gray-200/50 bg-white">
+                                        {/* Desktop Table */}
+                                        <div className="hidden lg:block overflow-x-auto">
+                                            <table className="min-w-full">
                                                 <thead>
                                                     <tr className="bg-gradient-to-r from-slate-50 to-gray-100/80">
                                                         {table.headers?.map((header: string, hidx: number) => (
@@ -328,8 +327,8 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                             <tr key={ridx} className={`transition-all duration-150 hover:bg-blue-50/50 hover:shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
                                                                 {table.headers?.map((header: string, hidx: number) => (
                                                                     <td key={hidx} className="px-6 py-4 text-sm text-gray-900 font-medium">
-                                                                        <PlayerRenderer 
-                                                                            data={row[header]} 
+                                                                        <PlayerRenderer
+                                                                            data={row[header]}
                                                                             onPlayerClick={handlePlayerClick}
                                                                             tournamentPath={`/${resolvedParams.tournament}`}
                                                                         />
@@ -359,67 +358,67 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                         </tr>
                                                     </tfoot>
                                                 )}
-                                                </table>
-                                            </div>
+                                            </table>
+                                        </div>
 
-                                            {/* Mobile Cards */}
-                                            <div className="lg:hidden">
-                                                {table.rows && table.rows.length > 0 ? (
-                                                    <div className="space-y-3 p-4">
-                                                        {getFilteredAndSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
-                                                            <div key={ridx} className={`bg-white rounded-lg border border-gray-200 p-4 shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
-                                                                {table.headers?.map((header: string, hidx: number) => (
-                                                                    <div key={hidx} className="flex justify-between items-center py-2 border-b border-gray-100 last:border-b-0">
-                                                                        <span className="text-sm font-medium text-gray-600 capitalize">
-                                                                            {header}
-                                                                        </span>
-                                                                        <div className="text-sm text-gray-900 font-medium">
-                                                                            <PlayerRenderer 
-                                                                                data={row[header]} 
-                                                                                onPlayerClick={handlePlayerClick}
-                                                                                tournamentPath={`/${resolvedParams.tournament}`}
-                                                                            />
-                                                                        </div>
+                                        {/* Mobile Cards */}
+                                        <div className="lg:hidden">
+                                            {table.rows && table.rows.length > 0 ? (
+                                                <div className="space-y-3 p-4">
+                                                    {getFilteredAndSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
+                                                        <div key={ridx} className={`bg-white rounded-lg border border-gray-200 p-4 shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
+                                                            {table.headers?.map((header: string, hidx: number) => (
+                                                                <div key={hidx} className="flex justify-between items-center py-2 border-b border-gray-100 last:border-b-0">
+                                                                    <span className="text-sm font-medium text-gray-600 capitalize">
+                                                                        {header}
+                                                                    </span>
+                                                                    <div className="text-sm text-gray-900 font-medium">
+                                                                        <PlayerRenderer
+                                                                            data={row[header]}
+                                                                            onPlayerClick={handlePlayerClick}
+                                                                            tournamentPath={`/${resolvedParams.tournament}`}
+                                                                        />
                                                                     </div>
-                                                                ))}
-                                                            </div>
-                                                        ))}
-                                                    </div>
-                                                ) : (
-                                                    <div className="p-8 text-center text-gray-500 italic">
-                                                        <div className="flex flex-col items-center gap-2">
-                                                            <svg className="w-8 h-8 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                                                            </svg>
-                                                            <span>{searchQuery.trim() ? 'No results found for your search' : 'No data available'}</span>
+                                                                </div>
+                                                            ))}
                                                         </div>
-                                                    </div>
-                                                )}
-                                            </div>
-                                            {table.footer && (
-                                                <div className="lg:hidden p-4 bg-gray-50 border-t border-gray-200">
-                                                    <div className="text-sm text-gray-600">
-                                                        <div dangerouslySetInnerHTML={{ __html: table.footer.html }} />
+                                                    ))}
+                                                </div>
+                                            ) : (
+                                                <div className="p-8 text-center text-gray-500 italic">
+                                                    <div className="flex flex-col items-center gap-2">
+                                                        <svg className="w-8 h-8 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                                        </svg>
+                                                        <span>{searchQuery.trim() ? 'No results found for your search' : 'No data available'}</span>
                                                     </div>
                                                 </div>
                                             )}
                                         </div>
+                                        {table.footer && (
+                                            <div className="lg:hidden p-4 bg-gray-50 border-t border-gray-200">
+                                                <div className="text-sm text-gray-600">
+                                                    <div dangerouslySetInnerHTML={{ __html: table.footer.html }} />
+                                                </div>
+                                            </div>
+                                        )}
                                     </div>
-                                ))}
-                            </div>
-                        ) : (
-                            <div className="text-center py-12">
-                                <div className="text-gray-500">
-                                    <svg className="mx-auto h-12 w-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                                    </svg>
-                                    <h3 className="mt-2 text-sm font-medium text-gray-900">No tables found</h3>
-                                    <p className="mt-1 text-sm text-gray-500">This page doesn&apos;t contain any table data.</p>
                                 </div>
+                            ))}
+                        </div>
+                    ) : (
+                        <div className="text-center py-12">
+                            <div className="text-gray-500">
+                                <svg className="mx-auto h-12 w-12 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                </svg>
+                                <h3 className="mt-2 text-sm font-medium text-gray-900">No tables found</h3>
+                                <p className="mt-1 text-sm text-gray-500">This page doesn&apos;t contain any table data.</p>
                             </div>
-                        )}
-                    </div>
-                )}
-            </div>
+                        </div>
+                    )}
+                </div>
+            )}
+        </div>
     );
 }
