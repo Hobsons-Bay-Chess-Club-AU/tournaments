@@ -153,7 +153,7 @@
    <div class="left-box2">
 <a href="playercard.php#28"></a> 
  <div class="player-name-box2">
-			<span>Ganesh Kumar,Mukunth</span>
+			<span>Gadham, Aarya Subramanya</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 28</div> 
@@ -202,12 +202,12 @@
    <div class="left-box2">
 <a href="playercard.php#29"></a> 
  <div class="player-name-box2">
-			<span>Goh,Daphne</span>
+			<span>Ganesh Kumar,Mukunth</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 29</div> 
 			<div class="title-box"> 
- <div class="notitle2 female">-</div>
+ <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">0</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
@@ -219,12 +219,12 @@
    <div class="left-box2">
 <a href="playercard.php#30"></a> 
  <div class="player-name-box2">
-			<span>Goh,Julian</span>
+			<span>Goh,Daphne</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 30</div> 
 			<div class="title-box"> 
- <div class="notitle2 male">-</div>
+ <div class="notitle2 female">-</div>
 			</div>
 			<div class="rating">0</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
@@ -268,7 +268,7 @@
    <div class="left-box2">
 <a href="playercard.php#31"></a> 
  <div class="player-name-box2">
-			<span>Guggilla,Krithvik</span>
+			<span>Goh,Julian</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 31</div> 
@@ -285,7 +285,7 @@
    <div class="left-box2">
 <a href="playercard.php#32"></a> 
  <div class="player-name-box2">
-			<span>Kantharaju,Aryan</span>
+			<span>Guggilla,Krithvik</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 32</div> 
@@ -334,12 +334,12 @@
    <div class="left-box2">
 <a href="playercard.php#33"></a> 
  <div class="player-name-box2">
-			<span>Kaur,Mishleen</span>
+			<span>Kantharaju,Aryan</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 33</div> 
 			<div class="title-box"> 
- <div class="notitle2 female">-</div>
+ <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">0</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
@@ -351,12 +351,12 @@
    <div class="left-box2">
 <a href="playercard.php#34"></a> 
  <div class="player-name-box2">
-			<span>Kwek,Alexander</span>
+			<span>Kaur,Mishleen</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 34</div> 
 			<div class="title-box"> 
- <div class="notitle2 male">-</div>
+ <div class="notitle2 female">-</div>
 			</div>
 			<div class="rating">0</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
@@ -400,7 +400,7 @@
    <div class="left-box2">
 <a href="playercard.php#35"></a> 
  <div class="player-name-box2">
-			<span>Lacson,Alexandria</span>
+			<span>Kwek,Alexander</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 35</div> 
@@ -417,7 +417,7 @@
    <div class="left-box2">
 <a href="playercard.php#36"></a> 
  <div class="player-name-box2">
-			<span>Manoj,Dev</span>
+			<span>Lacson,Alexandria</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 36</div> 
@@ -466,7 +466,7 @@
    <div class="left-box2">
 <a href="playercard.php#37"></a> 
  <div class="player-name-box2">
-			<span>Nema,Nivaan</span>
+			<span>Manoj,Dev</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 37</div> 
@@ -483,7 +483,7 @@
    <div class="left-box2">
 <a href="playercard.php#38"></a> 
  <div class="player-name-box2">
-			<span>Palta,Sameer</span>
+			<span>Nema,Nivaan</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 38</div> 
@@ -532,7 +532,7 @@
    <div class="left-box2">
 <a href="playercard.php#39"></a> 
  <div class="player-name-box2">
-			<span>Shayan,Ray</span>
+			<span>Palta,Sameer</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 39</div> 
@@ -549,7 +549,7 @@
    <div class="left-box2">
 <a href="playercard.php#40"></a> 
  <div class="player-name-box2">
-			<span>Spriggs,Harvey</span>
+			<span>Shayan,Ray</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 40</div> 
@@ -598,7 +598,7 @@
    <div class="left-box2">
 <a href="playercard.php#41"></a> 
  <div class="player-name-box2">
-			<span>Gadham, Aarya Subramanya</span>
+			<span>Spriggs,Harvey</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 41</div> 
@@ -712,6 +712,39 @@
 </td></tr>
 <tr> <td>21</td><td><div class="player-container" 
    <div class="left-box2">
+<a href="playercard.php#3"></a> 
+ <div class="player-name-box2">
+			<span>Rawat, Vivaan</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 3</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">1459</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td>0</td><td class="result">½    </td><td>0</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#0"></a> 
+ <div class="player-name-box2">
+			<span>BYE</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 0</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">0</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td></tr>
+<tr> <td>22</td><td><div class="player-container" 
+   <div class="left-box2">
 <a href="playercard.php#5"></a> 
  <div class="player-name-box2">
 			<span>Batyrbekov,Kaisar</span>
@@ -743,7 +776,7 @@
 	</div> 
 </div>
 </td></tr>
-<tr> <td>22</td><td><div class="player-container" 
+<tr> <td>23</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#9"></a> 
  <div class="player-name-box2">
@@ -776,7 +809,7 @@
 	</div> 
 </div>
 </td></tr>
-<tr> <td>23</td><td><div class="player-container" 
+<tr> <td>24</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#14"></a> 
  <div class="player-name-box2">
@@ -809,19 +842,19 @@
 	</div> 
 </div>
 </td></tr>
-<tr> <td>24</td><td><div class="player-container" 
+<tr> <td>25</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#3"></a> 
+<a href="playercard.php#45"></a> 
  <div class="player-name-box2">
-			<span>Rawat, Vivaan</span>
+			<span>Koppuravuri, Haneesh</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 3</div> 
+			<div class="sort-num"> 45</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
-			<div class="rating">1459</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="rating">0</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
