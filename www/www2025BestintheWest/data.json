@@ -720,7 +720,7 @@
             {
               "#": "68",
               "Title": "",
-              "Player": "Vigneshwar,Krishanth",
+              "Player": "Vemula,Thamoghna",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -729,6 +729,16 @@
             },
             {
               "#": "69",
+              "Title": "",
+              "Player": "Vigneshwar,Krishanth",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "70",
               "Title": "",
               "Player": "Zheng,Ryan",
               "Fed": "VIC",
@@ -2423,6 +2433,30 @@
             "rawText": "69  CM Smith,Declan        , K= 0, Elo=1911, ID=3206544",
             "rawHtml": "  69  CM <strong>Smith,Declan        </strong>, K= 0, Elo=1911, ID=3206544\n<br>\n<a class=\"anchor\" name=\"69\"></a>"
           }
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Vemula,Thamoghna",
+            "id": "3218676",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "70"
+            },
+            "rawText": "70   Vemula,Thamoghna    , K= 0, Elo=   0, ID=3218676",
+            "rawHtml": "  70   <strong>Vemula,Thamoghna    </strong>, K= 0, Elo=   0, ID=3218676\n<br>\n<a class=\"anchor\" name=\"70\"></a>"
+          }
         }
       ]
     },
@@ -2491,7 +2525,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "69"
+              "col2": "70"
             },
             {
               "col1": "Number of Federations",
@@ -2499,7 +2533,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "1126"
+              "col2": "1110"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -2511,7 +2545,7 @@
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "68"
+              "col2": "69"
             },
             {
               "col1": "FIDE rated players",
@@ -2519,7 +2553,7 @@
             },
             {
               "col1": "unrated players",
-              "col2": "68"
+              "col2": "69"
             },
             {
               "col1": "unrated players from AUS Federation",
@@ -2527,7 +2561,7 @@
             },
             {
               "col1": "unrated players NOT from AUS Federation",
-              "col2": "67"
+              "col2": "68"
             },
             {
               "col1": "unrated Federations",
@@ -3279,7 +3313,7 @@
     {
       "#": "68",
       "Title": "",
-      "Player": "Vigneshwar,Krishanth",
+      "Player": "Vemula,Thamoghna",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -3288,6 +3322,16 @@
     },
     {
       "#": "69",
+      "Title": "",
+      "Player": "Vigneshwar,Krishanth",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "70",
       "Title": "",
       "Player": "Zheng,Ryan",
       "Fed": "VIC",
@@ -3309,16 +3353,16 @@
     "Rounds": "5",
     "Score game": "0-0.5-1",
     "Tie break": "BH",
-    "Registered Players": "69",
+    "Registered Players": "70",
     "Number of Federations": "4",
-    "Average Rating (all)": "1126",
+    "Average Rating (all)": "1110",
     "Average Rating (only FIDE rated)": "1641",
     "Players from AUS Federation": "1",
-    "Players NOT from AUS Federation": "68",
+    "Players NOT from AUS Federation": "69",
     "FIDE rated players": "1",
-    "unrated players": "68",
+    "unrated players": "69",
     "unrated players from AUS Federation": "1",
-    "unrated players NOT from AUS Federation": "67",
+    "unrated players NOT from AUS Federation": "68",
     "unrated Federations": "4",
     "FIDE titled players": "8",
     "GM players": "0",
