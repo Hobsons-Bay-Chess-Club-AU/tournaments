@@ -151,12 +151,12 @@
 </td></tr>
 <tr> <td>4</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#28"></a> 
+<a href="playercard.php#29"></a> 
  <div class="player-name-box2">
 			<span>Ganesh Kumar,Mukunth</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 28</div> 
+			<div class="sort-num"> 29</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
@@ -200,12 +200,12 @@
 </div>
 </td><td>0</td><td class="result">1 - 0</td><td>0</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#29"></a> 
+<a href="playercard.php#30"></a> 
  <div class="player-name-box2">
 			<span>Goh,Daphne</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 29</div> 
+			<div class="sort-num"> 30</div> 
 			<div class="title-box"> 
  <div class="notitle2 female">-</div>
 			</div>
@@ -217,12 +217,12 @@
 </td></tr>
 <tr> <td>6</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#30"></a> 
+<a href="playercard.php#31"></a> 
  <div class="player-name-box2">
 			<span>Goh,Julian</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 30</div> 
+			<div class="sort-num"> 31</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
@@ -266,12 +266,12 @@
 </div>
 </td><td>0</td><td class="result">½ - ½</td><td>0</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#31"></a> 
+<a href="playercard.php#32"></a> 
  <div class="player-name-box2">
 			<span>Guggilla,Krithvik</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 31</div> 
+			<div class="sort-num"> 32</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
@@ -283,12 +283,12 @@
 </td></tr>
 <tr> <td>8</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#32"></a> 
+<a href="playercard.php#33"></a> 
  <div class="player-name-box2">
 			<span>Kantharaju,Aryan</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 32</div> 
+			<div class="sort-num"> 33</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
@@ -332,12 +332,12 @@
 </div>
 </td><td>0</td><td class="result">1 - 0</td><td>0</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#33"></a> 
+<a href="playercard.php#34"></a> 
  <div class="player-name-box2">
 			<span>Kaur,Mishleen</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 33</div> 
+			<div class="sort-num"> 34</div> 
 			<div class="title-box"> 
  <div class="notitle2 female">-</div>
 			</div>
@@ -349,12 +349,12 @@
 </td></tr>
 <tr> <td>10</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#34"></a> 
+<a href="playercard.php#36"></a> 
  <div class="player-name-box2">
 			<span>Kwek,Alexander</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 34</div> 
+			<div class="sort-num"> 36</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
@@ -398,12 +398,12 @@
 </div>
 </td><td>0</td><td class="result">1 - 0</td><td>0</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#35"></a> 
+<a href="playercard.php#37"></a> 
  <div class="player-name-box2">
 			<span>Lacson,Alexandria</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 35</div> 
+			<div class="sort-num"> 37</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
@@ -415,12 +415,12 @@
 </td></tr>
 <tr> <td>12</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#36"></a> 
+<a href="playercard.php#38"></a> 
  <div class="player-name-box2">
 			<span>Manoj,Dev</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 36</div> 
+			<div class="sort-num"> 38</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
@@ -464,12 +464,12 @@
 </div>
 </td><td>0</td><td class="result">1 - 0</td><td>0</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#37"></a> 
+<a href="playercard.php#39"></a> 
  <div class="player-name-box2">
 			<span>Nema,Nivaan</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 37</div> 
+			<div class="sort-num"> 39</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
@@ -481,12 +481,12 @@
 </td></tr>
 <tr> <td>14</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#38"></a> 
+<a href="playercard.php#40"></a> 
  <div class="player-name-box2">
 			<span>Palta,Sameer</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 38</div> 
+			<div class="sort-num"> 40</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
@@ -530,12 +530,12 @@
 </div>
 </td><td>0</td><td class="result">1 - 0</td><td>0</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#39"></a> 
+<a href="playercard.php#41"></a> 
  <div class="player-name-box2">
 			<span>Shayan,Ray</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 39</div> 
+			<div class="sort-num"> 41</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
@@ -547,12 +547,12 @@
 </td></tr>
 <tr> <td>16</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#40"></a> 
+<a href="playercard.php#42"></a> 
  <div class="player-name-box2">
 			<span>Spriggs,Harvey</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 40</div> 
+			<div class="sort-num"> 42</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
@@ -596,12 +596,12 @@
 </div>
 </td><td>0</td><td class="result">0 - 1</td><td>0</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#41"></a> 
+<a href="playercard.php#28"></a> 
  <div class="player-name-box2">
 			<span>Gadham, Aarya Subramanya</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 41</div> 
+			<div class="sort-num"> 28</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
@@ -613,12 +613,12 @@
 </td></tr>
 <tr> <td>18</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#42"></a> 
+<a href="playercard.php#43"></a> 
  <div class="player-name-box2">
 			<span>Veeragandham,Gowtham</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 42</div> 
+			<div class="sort-num"> 43</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
@@ -662,12 +662,12 @@
 </div>
 </td><td>0</td><td class="result">0 - 1</td><td>0</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#43"></a> 
+<a href="playercard.php#44"></a> 
  <div class="player-name-box2">
 			<span>Vemula,Thamoghna</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 43</div> 
+			<div class="sort-num"> 44</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
@@ -695,12 +695,12 @@
 </div>
 </td><td>0</td><td class="result">½ - ½</td><td>0</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#44"></a> 
+<a href="playercard.php#45"></a> 
  <div class="player-name-box2">
 			<span>Yegnavajjula,Aryan Srivatsav</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 44</div> 
+			<div class="sort-num"> 45</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
@@ -844,12 +844,12 @@
 </td></tr>
 <tr> <td>25</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#45"></a> 
+<a href="playercard.php#35"></a> 
  <div class="player-name-box2">
 			<span>Koppuravuri, Haneesh</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 45</div> 
+			<div class="sort-num"> 35</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
