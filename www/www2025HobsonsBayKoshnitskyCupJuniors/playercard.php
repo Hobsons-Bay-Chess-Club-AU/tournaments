@@ -241,7 +241,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>36</td> <td></td> <td> <a href="playercard.php#36"> Kwek,Alexander       </a>  <td>0</td>
-<td> 1.0</td> <td> 0.0</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>38</td> <td></td> <td> <a href="playercard.php#38"> Manoj,Dev            </a>  <td>0</td>
 <td> 1.0</td> <td> 1.0</td>
@@ -533,7 +533,7 @@
 <tr> <td>1</td> <td>W </td> <td>15</td> <td></td> <td> <a href="playercard.php#15"> Shinde,Yug           </a>  <td>565</td>
 <td> 0.0</td> <td> 2.0</td>
 </tr> 
-<tr> <td>2</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+<tr> <td>2</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>

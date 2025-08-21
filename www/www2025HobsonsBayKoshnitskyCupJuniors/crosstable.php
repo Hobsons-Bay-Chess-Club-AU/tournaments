@@ -692,7 +692,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">15  </div></td><td><div class="res">0</div><div class="cf">17  </div></td></tr>
+</td><td class="score"> 1.0</td><td><div class="res">0</div><div class="cw">15  </div></td><td><div class="res">1</div><div class="cf">17  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 37 </span></td><td><div class="player-container" 
    <div class="left-box2">

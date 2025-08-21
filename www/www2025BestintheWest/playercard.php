@@ -630,6 +630,38 @@
 </tr> </thead><tbody>
 </tbody>
 </table><br>
+<table class="table caption-top table-striped "> 
+<caption>  75   <strong>Kumar,Viney         </strong>, K= 0, Elo=1679, ID=2424784
+<br>
+<a class="anchor" name="75"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  76   <strong>Nema,Nivaan         </strong>, K= 0, Elo= 633, ID=3217486
+<br>
+<a class="anchor" name="76"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  77   <strong>Rodriguez,Maickel   </strong>, K= 0, Elo=1434, ID=3198380
+<br>
+<a class="anchor" name="77"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  78   <strong>Nandi,Jisha         </strong>, K= 0, Elo=   0, ID=3212494
+<br>
+<a class="anchor" name="78"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
 </DIV>
 		  </div>
 		      </div>

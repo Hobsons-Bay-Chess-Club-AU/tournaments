@@ -711,7 +711,7 @@
                 "blackOpponent": null
               },
               "2": {
-                "result": "0",
+                "result": "1",
                 "whiteOpponent": null,
                 "blackOpponent": null
               },
@@ -722,7 +722,7 @@
                 "gender": "male",
                 "href": "playercard.html#36"
               },
-              "Pts": "0.0"
+              "Pts": "1.0"
             },
             {
               "1": {
@@ -926,13 +926,13 @@
             {
               "1": {
                 "result": "1",
-                "whiteOpponent": "21",
+                "whiteOpponent": "22",
                 "blackOpponent": null
               },
               "2": {
                 "result": "1",
                 "whiteOpponent": null,
-                "blackOpponent": "20"
+                "blackOpponent": "21"
               },
               "#": "1",
               "Player": {
@@ -949,15 +949,38 @@
             {
               "1": {
                 "result": "1",
-                "whiteOpponent": "22",
+                "whiteOpponent": null,
+                "blackOpponent": "19"
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": "24",
+                "blackOpponent": null
+              },
+              "#": "2",
+              "Player": {
+                "id": "15",
+                "playerName": "Shinde,Yug",
+                "gender": "male",
+                "href": "playercard.html#15"
+              },
+              "Pts": "2.0",
+              "BH": "2.0",
+              "BH/C1": "1.0",
+              "SB": "2.0"
+            },
+            {
+              "1": {
+                "result": "1",
+                "whiteOpponent": "23",
                 "blackOpponent": null
               },
               "2": {
                 "result": "1",
                 "whiteOpponent": null,
-                "blackOpponent": "19"
+                "blackOpponent": "20"
               },
-              "#": "2",
+              "#": "3",
               "Player": {
                 "id": "16",
                 "playerName": "Goh,Nicholas",
@@ -972,7 +995,7 @@
             {
               "1": {
                 "result": "1",
-                "whiteOpponent": "37",
+                "whiteOpponent": "38",
                 "blackOpponent": null
               },
               "2": {
@@ -980,7 +1003,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": "16"
               },
-              "#": "3",
+              "#": "4",
               "Player": {
                 "id": "6",
                 "playerName": "Wei,Andrew",
@@ -996,14 +1019,14 @@
               "1": {
                 "result": "1",
                 "whiteOpponent": null,
-                "blackOpponent": "38"
+                "blackOpponent": "39"
               },
               "2": {
                 "result": "1",
                 "whiteOpponent": "15",
                 "blackOpponent": null
               },
-              "#": "4",
+              "#": "5",
               "Player": {
                 "id": "7",
                 "playerName": "Ashok,Arjun",
@@ -1019,14 +1042,14 @@
               "1": {
                 "result": "1",
                 "whiteOpponent": null,
-                "blackOpponent": "39"
+                "blackOpponent": "40"
               },
               "2": {
                 "result": "1",
                 "whiteOpponent": "17",
                 "blackOpponent": null
               },
-              "#": "5",
+              "#": "6",
               "Player": {
                 "id": "10",
                 "playerName": "Balaji,Sai Sivesh",
@@ -1042,14 +1065,14 @@
               "1": {
                 "result": "1",
                 "whiteOpponent": null,
-                "blackOpponent": "36"
+                "blackOpponent": "37"
               },
               "2": {
                 "result": "1",
                 "whiteOpponent": "18",
                 "blackOpponent": null
               },
-              "#": "6",
+              "#": "7",
               "Player": {
                 "id": "12",
                 "playerName": "Ahmad,Ihtiram",
@@ -1065,30 +1088,7 @@
               "1": {
                 "result": "1",
                 "whiteOpponent": null,
-                "blackOpponent": "41"
-              },
-              "2": {
-                "result": "1",
-                "whiteOpponent": "23",
-                "blackOpponent": null
-              },
-              "#": "7",
-              "Player": {
-                "id": "15",
-                "playerName": "Shinde,Yug",
-                "gender": "male",
-                "href": "playercard.html#15"
-              },
-              "Pts": "2.0",
-              "BH": "1.0",
-              "BH/C1": "1.0",
-              "SB": "1.0"
-            },
-            {
-              "1": {
-                "result": "1",
-                "whiteOpponent": null,
-                "blackOpponent": "28"
+                "blackOpponent": "29"
               },
               "2": {
                 "result": "½",
@@ -1115,7 +1115,7 @@
               },
               "2": {
                 "result": "1",
-                "whiteOpponent": "34",
+                "whiteOpponent": "35",
                 "blackOpponent": null
               },
               "#": "9",
@@ -1139,7 +1139,7 @@
               "2": {
                 "result": "1",
                 "whiteOpponent": null,
-                "blackOpponent": "33"
+                "blackOpponent": "34"
               },
               "#": "10",
               "Player": {
@@ -1156,7 +1156,7 @@
             {
               "1": {
                 "result": "1",
-                "whiteOpponent": "40",
+                "whiteOpponent": "41",
                 "blackOpponent": null
               },
               "2": {
@@ -1179,13 +1179,13 @@
             {
               "1": {
                 "result": "½",
-                "whiteOpponent": "32",
+                "whiteOpponent": "33",
                 "blackOpponent": null
               },
               "2": {
                 "result": "1",
                 "whiteOpponent": null,
-                "blackOpponent": "24"
+                "blackOpponent": "25"
               },
               "#": "12",
               "Player": {
@@ -1207,7 +1207,7 @@
               },
               "2": {
                 "result": "1",
-                "whiteOpponent": "36",
+                "whiteOpponent": "37",
                 "blackOpponent": null
               },
               "#": "13",
@@ -1225,13 +1225,13 @@
             {
               "1": {
                 "result": "½",
-                "whiteOpponent": "33",
+                "whiteOpponent": "34",
                 "blackOpponent": null
               },
               "2": {
                 "result": "1",
                 "whiteOpponent": null,
-                "blackOpponent": "32"
+                "blackOpponent": "33"
               },
               "#": "14",
               "Player": {
@@ -1248,13 +1248,13 @@
             {
               "1": {
                 "result": "1",
-                "whiteOpponent": "29",
+                "whiteOpponent": "30",
                 "blackOpponent": null
               },
               "2": {
                 "result": "0",
                 "whiteOpponent": null,
-                "blackOpponent": "4"
+                "blackOpponent": "5"
               },
               "#": "15",
               "Player": {
@@ -1272,11 +1272,11 @@
               "1": {
                 "result": "1",
                 "whiteOpponent": null,
-                "blackOpponent": "30"
+                "blackOpponent": "31"
               },
               "2": {
                 "result": "0",
-                "whiteOpponent": "3",
+                "whiteOpponent": "4",
                 "blackOpponent": null
               },
               "#": "16",
@@ -1294,13 +1294,13 @@
             {
               "1": {
                 "result": "1",
-                "whiteOpponent": "31",
+                "whiteOpponent": "32",
                 "blackOpponent": null
               },
               "2": {
                 "result": "0",
                 "whiteOpponent": null,
-                "blackOpponent": "5"
+                "blackOpponent": "6"
               },
               "#": "17",
               "Player": {
@@ -1318,12 +1318,12 @@
               "1": {
                 "result": "1",
                 "whiteOpponent": null,
-                "blackOpponent": "26"
+                "blackOpponent": "27"
               },
               "2": {
                 "result": "0",
                 "whiteOpponent": null,
-                "blackOpponent": "6"
+                "blackOpponent": "7"
               },
               "#": "18",
               "Player": {
@@ -1339,16 +1339,39 @@
             },
             {
               "1": {
+                "result": "0",
+                "whiteOpponent": "2",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "#": "19",
+              "Player": {
+                "id": "36",
+                "playerName": "Kwek,Alexander",
+                "gender": "male",
+                "href": "playercard.html#36"
+              },
+              "Pts": "1.0",
+              "BH": "3.0",
+              "BH/C1": "2.0",
+              "SB": "1.0"
+            },
+            {
+              "1": {
                 "result": "1",
                 "whiteOpponent": null,
                 "blackOpponent": "43"
               },
               "2": {
                 "result": "0",
-                "whiteOpponent": "2",
+                "whiteOpponent": "3",
                 "blackOpponent": null
               },
-              "#": "19",
+              "#": "20",
               "Player": {
                 "id": "4",
                 "playerName": "Yendru,Srikrishna",
@@ -1371,7 +1394,7 @@
                 "whiteOpponent": "1",
                 "blackOpponent": null
               },
-              "#": "20",
+              "#": "21",
               "Player": {
                 "id": "28",
                 "playerName": "Gadham, Aarya Subramanya",
@@ -1394,7 +1417,7 @@
                 "whiteOpponent": "42",
                 "blackOpponent": null
               },
-              "#": "21",
+              "#": "22",
               "Player": {
                 "id": "34",
                 "playerName": "Kaur,Mishleen",
@@ -1410,14 +1433,14 @@
               "1": {
                 "result": "0",
                 "whiteOpponent": null,
-                "blackOpponent": "2"
+                "blackOpponent": "3"
               },
               "2": {
                 "result": "1",
                 "whiteOpponent": "43",
                 "blackOpponent": null
               },
-              "#": "22",
+              "#": "23",
               "Player": {
                 "id": "37",
                 "playerName": "Lacson,Alexandria",
@@ -1438,9 +1461,9 @@
               "2": {
                 "result": "0",
                 "whiteOpponent": null,
-                "blackOpponent": "7"
+                "blackOpponent": "2"
               },
-              "#": "23",
+              "#": "24",
               "Player": {
                 "id": "38",
                 "playerName": "Manoj,Dev",
@@ -1456,14 +1479,14 @@
               "1": {
                 "result": "1",
                 "whiteOpponent": null,
-                "blackOpponent": "35"
+                "blackOpponent": "36"
               },
               "2": {
                 "result": "0",
                 "whiteOpponent": "12",
                 "blackOpponent": null
               },
-              "#": "24",
+              "#": "25",
               "Player": {
                 "id": "44",
                 "playerName": "Vemula,Thamoghna",
@@ -1478,7 +1501,7 @@
             {
               "1": {
                 "result": "½",
-                "whiteOpponent": "27",
+                "whiteOpponent": "28",
                 "blackOpponent": null
               },
               "2": {
@@ -1486,7 +1509,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": null
               },
-              "#": "25",
+              "#": "26",
               "Player": {
                 "id": "2",
                 "playerName": "Verma, Vivaan",
@@ -1509,7 +1532,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": null
               },
-              "#": "26",
+              "#": "27",
               "Player": {
                 "id": "43",
                 "playerName": "Veeragandham,Gowtham",
@@ -1525,14 +1548,14 @@
               "1": {
                 "result": "½",
                 "whiteOpponent": null,
-                "blackOpponent": "25"
+                "blackOpponent": "26"
               },
               "2": {
                 "result": "½",
                 "whiteOpponent": null,
                 "blackOpponent": null
               },
-              "#": "27",
+              "#": "28",
               "Player": {
                 "id": "45",
                 "playerName": "Yegnavajjula,Aryan Srivatsav",
@@ -1553,9 +1576,9 @@
               "2": {
                 "result": "1",
                 "whiteOpponent": null,
-                "blackOpponent": "40"
+                "blackOpponent": "41"
               },
-              "#": "28",
+              "#": "29",
               "Player": {
                 "id": "42",
                 "playerName": "Spriggs,Harvey",
@@ -1575,10 +1598,10 @@
               },
               "2": {
                 "result": "1",
-                "whiteOpponent": "38",
+                "whiteOpponent": "39",
                 "blackOpponent": null
               },
-              "#": "29",
+              "#": "30",
               "Player": {
                 "id": "39",
                 "playerName": "Nema,Nivaan",
@@ -1599,9 +1622,9 @@
               "2": {
                 "result": "1",
                 "whiteOpponent": null,
-                "blackOpponent": "37"
+                "blackOpponent": "38"
               },
-              "#": "30",
+              "#": "31",
               "Player": {
                 "id": "40",
                 "playerName": "Palta,Sameer",
@@ -1621,10 +1644,10 @@
               },
               "2": {
                 "result": "1",
-                "whiteOpponent": "39",
+                "whiteOpponent": "40",
                 "blackOpponent": null
               },
-              "#": "31",
+              "#": "32",
               "Player": {
                 "id": "41",
                 "playerName": "Shayan,Ray",
@@ -1647,7 +1670,7 @@
                 "whiteOpponent": "14",
                 "blackOpponent": null
               },
-              "#": "32",
+              "#": "33",
               "Player": {
                 "id": "25",
                 "playerName": "Chan,Abby",
@@ -1670,7 +1693,7 @@
                 "whiteOpponent": "10",
                 "blackOpponent": null
               },
-              "#": "33",
+              "#": "34",
               "Player": {
                 "id": "32",
                 "playerName": "Guggilla,Krithvik",
@@ -1693,7 +1716,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": "9"
               },
-              "#": "34",
+              "#": "35",
               "Player": {
                 "id": "14",
                 "playerName": "Batyrbekov,Kuanysh",
@@ -1708,7 +1731,7 @@
             {
               "1": {
                 "result": "0",
-                "whiteOpponent": "24",
+                "whiteOpponent": "25",
                 "blackOpponent": null
               },
               "2": {
@@ -1716,7 +1739,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": null
               },
-              "#": "35",
+              "#": "36",
               "Player": {
                 "id": "24",
                 "playerName": "Bodke,Aryan",
@@ -1731,7 +1754,7 @@
             {
               "1": {
                 "result": "0",
-                "whiteOpponent": "6",
+                "whiteOpponent": "7",
                 "blackOpponent": null
               },
               "2": {
@@ -1739,7 +1762,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": "13"
               },
-              "#": "36",
+              "#": "37",
               "Player": {
                 "id": "33",
                 "playerName": "Kantharaju,Aryan",
@@ -1755,42 +1778,19 @@
               "1": {
                 "result": "0",
                 "whiteOpponent": null,
-                "blackOpponent": "3"
+                "blackOpponent": "4"
               },
               "2": {
                 "result": "0",
-                "whiteOpponent": "30",
+                "whiteOpponent": "31",
                 "blackOpponent": null
               },
-              "#": "37",
+              "#": "38",
               "Player": {
                 "id": "27",
                 "playerName": "Fang,Candice",
                 "gender": "female",
                 "href": "playercard.html#27"
-              },
-              "Pts": "0.0",
-              "BH": "3.0",
-              "BH/C1": "2.0",
-              "SB": "0.0"
-            },
-            {
-              "1": {
-                "result": "0",
-                "whiteOpponent": "4",
-                "blackOpponent": null
-              },
-              "2": {
-                "result": "0",
-                "whiteOpponent": null,
-                "blackOpponent": "29"
-              },
-              "#": "38",
-              "Player": {
-                "id": "29",
-                "playerName": "Ganesh Kumar,Mukunth",
-                "gender": "male",
-                "href": "playercard.html#29"
               },
               "Pts": "0.0",
               "BH": "3.0",
@@ -1806,9 +1806,32 @@
               "2": {
                 "result": "0",
                 "whiteOpponent": null,
-                "blackOpponent": "31"
+                "blackOpponent": "30"
               },
               "#": "39",
+              "Player": {
+                "id": "29",
+                "playerName": "Ganesh Kumar,Mukunth",
+                "gender": "male",
+                "href": "playercard.html#29"
+              },
+              "Pts": "0.0",
+              "BH": "3.0",
+              "BH/C1": "2.0",
+              "SB": "0.0"
+            },
+            {
+              "1": {
+                "result": "0",
+                "whiteOpponent": "6",
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "32"
+              },
+              "#": "40",
               "Player": {
                 "id": "31",
                 "playerName": "Goh,Julian",
@@ -1828,10 +1851,10 @@
               },
               "2": {
                 "result": "0",
-                "whiteOpponent": "28",
+                "whiteOpponent": "29",
                 "blackOpponent": null
               },
-              "#": "40",
+              "#": "41",
               "Player": {
                 "id": "30",
                 "playerName": "Goh,Daphne",
@@ -1846,36 +1869,13 @@
             {
               "1": {
                 "result": "0",
-                "whiteOpponent": "7",
+                "whiteOpponent": "21",
                 "blackOpponent": null
               },
               "2": {
                 "result": "0",
                 "whiteOpponent": null,
-                "blackOpponent": null
-              },
-              "#": "41",
-              "Player": {
-                "id": "36",
-                "playerName": "Kwek,Alexander",
-                "gender": "male",
-                "href": "playercard.html#36"
-              },
-              "Pts": "0.0",
-              "BH": "2.0",
-              "BH/C1": "2.0",
-              "SB": "0.0"
-            },
-            {
-              "1": {
-                "result": "0",
-                "whiteOpponent": "20",
-                "blackOpponent": null
-              },
-              "2": {
-                "result": "0",
-                "whiteOpponent": null,
-                "blackOpponent": "21"
+                "blackOpponent": "22"
               },
               "#": "42",
               "Player": {
@@ -1892,13 +1892,13 @@
             {
               "1": {
                 "result": "0",
-                "whiteOpponent": "19",
+                "whiteOpponent": "20",
                 "blackOpponent": null
               },
               "2": {
                 "result": "0",
                 "whiteOpponent": null,
-                "blackOpponent": "22"
+                "blackOpponent": "23"
               },
               "#": "43",
               "Player": {
@@ -1916,7 +1916,7 @@
               "1": {
                 "result": "0",
                 "whiteOpponent": null,
-                "blackOpponent": "23"
+                "blackOpponent": "24"
               },
               "2": {
                 "result": "0",
@@ -4654,7 +4654,7 @@
                 "href": "playercard.html#17"
               },
               "Pts": "0",
-              "Result": "0F-0F",
+              "Result": "0F-1F",
               "Black Player": {
                 "id": "36",
                 "playerName": "Kwek,Alexander",
@@ -5506,7 +5506,7 @@
               "OPPONENT": "Kwek,Alexander",
               "Rtg": "0",
               "res": "1.0",
-              "Pts": "0.0"
+              "Pts": "1.0"
             },
             {
               "R": "2",
@@ -6460,7 +6460,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             }
           ],
@@ -6923,6 +6923,25 @@
             },
             {
               "Pos": "2",
+              "N": "15",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Shinde,Yug",
+                "gender": "notitle",
+                "href": "playercard.html#15"
+              },
+              "col5": "565",
+              "col6": "2200",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "2.0",
+              "BH/C1": "1.0",
+              "SB": "2.0"
+            },
+            {
+              "Pos": "3",
               "N": "16",
               "T": "",
               "Player": {
@@ -6941,7 +6960,7 @@
               "SB": "2.0"
             },
             {
-              "Pos": "3",
+              "Pos": "4",
               "N": "6",
               "T": "",
               "Player": {
@@ -6960,7 +6979,7 @@
               "SB": "1.0"
             },
             {
-              "Pos": "4",
+              "Pos": "5",
               "N": "7",
               "T": "",
               "Player": {
@@ -6979,7 +6998,7 @@
               "SB": "1.0"
             },
             {
-              "Pos": "5",
+              "Pos": "6",
               "N": "10",
               "T": "",
               "Player": {
@@ -6998,7 +7017,7 @@
               "SB": "1.0"
             },
             {
-              "Pos": "6",
+              "Pos": "7",
               "N": "12",
               "T": "",
               "Player": {
@@ -7008,25 +7027,6 @@
                 "href": "playercard.html#12"
               },
               "col5": "841",
-              "col6": "2200",
-              "Fed": "",
-              "Origin": "",
-              "Pts": "2.0",
-              "BH": "1.0",
-              "BH/C1": "1.0",
-              "SB": "1.0"
-            },
-            {
-              "Pos": "7",
-              "N": "15",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Shinde,Yug",
-                "gender": "notitle",
-                "href": "playercard.html#15"
-              },
-              "col5": "565",
               "col6": "2200",
               "Fed": "",
               "Origin": "",
@@ -7246,6 +7246,25 @@
             },
             {
               "Pos": "19",
+              "N": "36",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Kwek,Alexander",
+                "gender": "notitle",
+                "href": "playercard.html#36"
+              },
+              "col5": "0",
+              "col6": "0",
+              "Fed": "",
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "3.0",
+              "BH/C1": "2.0",
+              "SB": "1.0"
+            },
+            {
+              "Pos": "20",
               "N": "4",
               "T": "",
               "Player": {
@@ -7264,7 +7283,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "20",
+              "Pos": "21",
               "N": "28",
               "T": "",
               "Player": {
@@ -7283,7 +7302,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "21",
+              "Pos": "22",
               "N": "34",
               "T": "",
               "Player": {
@@ -7302,7 +7321,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "22",
+              "Pos": "23",
               "N": "37",
               "T": "",
               "Player": {
@@ -7321,7 +7340,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "23",
+              "Pos": "24",
               "N": "38",
               "T": "",
               "Player": {
@@ -7340,7 +7359,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "24",
+              "Pos": "25",
               "N": "44",
               "T": "",
               "Player": {
@@ -7359,7 +7378,7 @@
               "SB": "0.5"
             },
             {
-              "Pos": "25",
+              "Pos": "26",
               "N": "2",
               "T": "",
               "Player": {
@@ -7378,7 +7397,7 @@
               "SB": "1.0"
             },
             {
-              "Pos": "26",
+              "Pos": "27",
               "N": "43",
               "T": "",
               "Player": {
@@ -7397,7 +7416,7 @@
               "SB": "1.0"
             },
             {
-              "Pos": "27",
+              "Pos": "28",
               "N": "45",
               "T": "",
               "Player": {
@@ -7416,7 +7435,7 @@
               "SB": "1.0"
             },
             {
-              "Pos": "28",
+              "Pos": "29",
               "N": "42",
               "T": "",
               "Player": {
@@ -7435,7 +7454,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "29",
+              "Pos": "30",
               "N": "39",
               "T": "",
               "Player": {
@@ -7454,7 +7473,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "30",
+              "Pos": "31",
               "N": "40",
               "T": "",
               "Player": {
@@ -7473,7 +7492,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "31",
+              "Pos": "32",
               "N": "41",
               "T": "",
               "Player": {
@@ -7492,7 +7511,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "32",
+              "Pos": "33",
               "N": "25",
               "T": "",
               "Player": {
@@ -7511,7 +7530,7 @@
               "SB": "0.8"
             },
             {
-              "Pos": "33",
+              "Pos": "34",
               "N": "32",
               "T": "",
               "Player": {
@@ -7530,7 +7549,7 @@
               "SB": "0.8"
             },
             {
-              "Pos": "34",
+              "Pos": "35",
               "N": "14",
               "T": "",
               "Player": {
@@ -7549,7 +7568,7 @@
               "SB": "0.2"
             },
             {
-              "Pos": "35",
+              "Pos": "36",
               "N": "24",
               "T": "",
               "Player": {
@@ -7568,7 +7587,7 @@
               "SB": "0.2"
             },
             {
-              "Pos": "36",
+              "Pos": "37",
               "N": "33",
               "T": "",
               "Player": {
@@ -7587,7 +7606,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "37",
+              "Pos": "38",
               "N": "27",
               "T": "",
               "Player": {
@@ -7606,7 +7625,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "38",
+              "Pos": "39",
               "N": "29",
               "T": "",
               "Player": {
@@ -7625,7 +7644,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "39",
+              "Pos": "40",
               "N": "31",
               "T": "",
               "Player": {
@@ -7644,7 +7663,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "40",
+              "Pos": "41",
               "N": "30",
               "T": "",
               "Player": {
@@ -7660,25 +7679,6 @@
               "Pts": "0.0",
               "BH": "2.5",
               "BH/C1": "1.5",
-              "SB": "0.0"
-            },
-            {
-              "Pos": "41",
-              "N": "36",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Kwek,Alexander",
-                "gender": "notitle",
-                "href": "playercard.html#36"
-              },
-              "col5": "0",
-              "col6": "0",
-              "Fed": "",
-              "Origin": "",
-              "Pts": "0.0",
-              "BH": "2.0",
-              "BH/C1": "2.0",
               "SB": "0.0"
             },
             {
@@ -7850,6 +7850,20 @@
             {
               "Pos": "2",
               "Player": {
+                "id": "15",
+                "playerName": "Shinde,Yug",
+                "gender": "male",
+                "href": "playercard.html#15"
+              },
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "2.0",
+              "BH/C1": "1.0",
+              "SB": "2.0"
+            },
+            {
+              "Pos": "3",
+              "Player": {
                 "id": "16",
                 "playerName": "Goh,Nicholas",
                 "gender": "male",
@@ -7862,7 +7876,7 @@
               "SB": "2.0"
             },
             {
-              "Pos": "3",
+              "Pos": "4",
               "Player": {
                 "id": "6",
                 "playerName": "Wei,Andrew",
@@ -7876,7 +7890,7 @@
               "SB": "1.0"
             },
             {
-              "Pos": "4",
+              "Pos": "5",
               "Player": {
                 "id": "7",
                 "playerName": "Ashok,Arjun",
@@ -7890,7 +7904,7 @@
               "SB": "1.0"
             },
             {
-              "Pos": "5",
+              "Pos": "6",
               "Player": {
                 "id": "10",
                 "playerName": "Balaji,Sai Sivesh",
@@ -7904,26 +7918,12 @@
               "SB": "1.0"
             },
             {
-              "Pos": "6",
+              "Pos": "7",
               "Player": {
                 "id": "12",
                 "playerName": "Ahmad,Ihtiram",
                 "gender": "male",
                 "href": "playercard.html#12"
-              },
-              "Origin": "",
-              "Pts": "2.0",
-              "BH": "1.0",
-              "BH/C1": "1.0",
-              "SB": "1.0"
-            },
-            {
-              "Pos": "7",
-              "Player": {
-                "id": "15",
-                "playerName": "Shinde,Yug",
-                "gender": "male",
-                "href": "playercard.html#15"
               },
               "Origin": "",
               "Pts": "2.0",
@@ -8088,6 +8088,20 @@
             {
               "Pos": "19",
               "Player": {
+                "id": "36",
+                "playerName": "Kwek,Alexander",
+                "gender": "male",
+                "href": "playercard.html#36"
+              },
+              "Origin": "",
+              "Pts": "1.0",
+              "BH": "3.0",
+              "BH/C1": "2.0",
+              "SB": "1.0"
+            },
+            {
+              "Pos": "20",
+              "Player": {
                 "id": "4",
                 "playerName": "Yendru,Srikrishna",
                 "gender": "male",
@@ -8100,7 +8114,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "20",
+              "Pos": "21",
               "Player": {
                 "id": "28",
                 "playerName": "Gadham, Aarya Subramanya",
@@ -8114,7 +8128,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "21",
+              "Pos": "22",
               "Player": {
                 "id": "34",
                 "playerName": "Kaur,Mishleen",
@@ -8128,7 +8142,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "22",
+              "Pos": "23",
               "Player": {
                 "id": "37",
                 "playerName": "Lacson,Alexandria",
@@ -8142,7 +8156,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "23",
+              "Pos": "24",
               "Player": {
                 "id": "38",
                 "playerName": "Manoj,Dev",
@@ -8156,7 +8170,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "24",
+              "Pos": "25",
               "Player": {
                 "id": "44",
                 "playerName": "Vemula,Thamoghna",
@@ -8170,7 +8184,7 @@
               "SB": "0.5"
             },
             {
-              "Pos": "25",
+              "Pos": "26",
               "Player": {
                 "id": "2",
                 "playerName": "Verma, Vivaan",
@@ -8184,7 +8198,7 @@
               "SB": "1.0"
             },
             {
-              "Pos": "26",
+              "Pos": "27",
               "Player": {
                 "id": "43",
                 "playerName": "Veeragandham,Gowtham",
@@ -8198,7 +8212,7 @@
               "SB": "1.0"
             },
             {
-              "Pos": "27",
+              "Pos": "28",
               "Player": {
                 "id": "45",
                 "playerName": "Yegnavajjula,Aryan Srivatsav",
@@ -8212,7 +8226,7 @@
               "SB": "1.0"
             },
             {
-              "Pos": "28",
+              "Pos": "29",
               "Player": {
                 "id": "42",
                 "playerName": "Spriggs,Harvey",
@@ -8226,7 +8240,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "29",
+              "Pos": "30",
               "Player": {
                 "id": "39",
                 "playerName": "Nema,Nivaan",
@@ -8240,7 +8254,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "30",
+              "Pos": "31",
               "Player": {
                 "id": "40",
                 "playerName": "Palta,Sameer",
@@ -8254,7 +8268,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "31",
+              "Pos": "32",
               "Player": {
                 "id": "41",
                 "playerName": "Shayan,Ray",
@@ -8268,7 +8282,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "32",
+              "Pos": "33",
               "Player": {
                 "id": "25",
                 "playerName": "Chan,Abby",
@@ -8282,7 +8296,7 @@
               "SB": "0.8"
             },
             {
-              "Pos": "33",
+              "Pos": "34",
               "Player": {
                 "id": "32",
                 "playerName": "Guggilla,Krithvik",
@@ -8296,7 +8310,7 @@
               "SB": "0.8"
             },
             {
-              "Pos": "34",
+              "Pos": "35",
               "Player": {
                 "id": "14",
                 "playerName": "Batyrbekov,Kuanysh",
@@ -8310,7 +8324,7 @@
               "SB": "0.2"
             },
             {
-              "Pos": "35",
+              "Pos": "36",
               "Player": {
                 "id": "24",
                 "playerName": "Bodke,Aryan",
@@ -8324,7 +8338,7 @@
               "SB": "0.2"
             },
             {
-              "Pos": "36",
+              "Pos": "37",
               "Player": {
                 "id": "33",
                 "playerName": "Kantharaju,Aryan",
@@ -8338,7 +8352,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "37",
+              "Pos": "38",
               "Player": {
                 "id": "27",
                 "playerName": "Fang,Candice",
@@ -8352,7 +8366,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "38",
+              "Pos": "39",
               "Player": {
                 "id": "29",
                 "playerName": "Ganesh Kumar,Mukunth",
@@ -8366,7 +8380,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "39",
+              "Pos": "40",
               "Player": {
                 "id": "31",
                 "playerName": "Goh,Julian",
@@ -8380,7 +8394,7 @@
               "SB": "0.0"
             },
             {
-              "Pos": "40",
+              "Pos": "41",
               "Player": {
                 "id": "30",
                 "playerName": "Goh,Daphne",
@@ -8391,20 +8405,6 @@
               "Pts": "0.0",
               "BH": "2.5",
               "BH/C1": "1.5",
-              "SB": "0.0"
-            },
-            {
-              "Pos": "41",
-              "Player": {
-                "id": "36",
-                "playerName": "Kwek,Alexander",
-                "gender": "male",
-                "href": "playercard.html#36"
-              },
-              "Origin": "",
-              "Pts": "0.0",
-              "BH": "2.0",
-              "BH/C1": "2.0",
               "SB": "0.0"
             },
             {

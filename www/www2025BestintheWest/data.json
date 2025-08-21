@@ -710,17 +710,17 @@
             {
               "#": "67",
               "Title": "",
-              "Player": "Moser,Luke",
-              "Fed": "VIC",
+              "Player": "Kumar,Viney",
+              "Fed": "NSW",
               "Origin": "",
               "Rtg": "0",
               "RtgF": "0",
-              "RtgN": "0"
+              "RtgN": "1679"
             },
             {
               "#": "68",
               "Title": "",
-              "Player": "Moser,William",
+              "Player": "Moser,Luke",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -730,7 +730,7 @@
             {
               "#": "69",
               "Title": "",
-              "Player": "Palta,Sameer",
+              "Player": "Moser,William",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -740,7 +740,7 @@
             {
               "#": "70",
               "Title": "",
-              "Player": "Samrat,Avyay",
+              "Player": "Nandi,Jisha",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -750,17 +750,17 @@
             {
               "#": "71",
               "Title": "",
-              "Player": "Shahadat,Aladean",
+              "Player": "Nema,Nivaan",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
               "RtgF": "0",
-              "RtgN": "0"
+              "RtgN": "633"
             },
             {
               "#": "72",
               "Title": "",
-              "Player": "Sharma,Rudra",
+              "Player": "Palta,Sameer",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -770,6 +770,46 @@
             {
               "#": "73",
               "Title": "",
+              "Player": "Rodriguez,Maickel",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "1434"
+            },
+            {
+              "#": "74",
+              "Title": "",
+              "Player": "Samrat,Avyay",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "75",
+              "Title": "",
+              "Player": "Shahadat,Aladean",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "76",
+              "Title": "",
+              "Player": "Sharma,Rudra",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "77",
+              "Title": "",
               "Player": "Vemula,Thamoghna",
               "Fed": "VIC",
               "Origin": "",
@@ -778,7 +818,7 @@
               "RtgN": "0"
             },
             {
-              "#": "74",
+              "#": "78",
               "Title": "",
               "Player": "Vigneshwar,Krishanth",
               "Fed": "VIC",
@@ -2593,6 +2633,102 @@
             "rawText": "74   Yang,Yifan          , K= 0, Elo=1234, ID=3210840",
             "rawHtml": "  74   <strong>Yang,Yifan          </strong>, K= 0, Elo=1234, ID=3210840\n<br>\n<a class=\"anchor\" name=\"74\"></a>"
           }
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Kumar,Viney",
+            "id": "2424784",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1679",
+              "anchor": "75"
+            },
+            "rawText": "75   Kumar,Viney         , K= 0, Elo=1679, ID=2424784",
+            "rawHtml": "  75   <strong>Kumar,Viney         </strong>, K= 0, Elo=1679, ID=2424784\n<br>\n<a class=\"anchor\" name=\"75\"></a>"
+          }
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Nema,Nivaan",
+            "id": "3217486",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "633",
+              "anchor": "76"
+            },
+            "rawText": "76   Nema,Nivaan         , K= 0, Elo= 633, ID=3217486",
+            "rawHtml": "  76   <strong>Nema,Nivaan         </strong>, K= 0, Elo= 633, ID=3217486\n<br>\n<a class=\"anchor\" name=\"76\"></a>"
+          }
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Rodriguez,Maickel",
+            "id": "3198380",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1434",
+              "anchor": "77"
+            },
+            "rawText": "77   Rodriguez,Maickel   , K= 0, Elo=1434, ID=3198380",
+            "rawHtml": "  77   <strong>Rodriguez,Maickel   </strong>, K= 0, Elo=1434, ID=3198380\n<br>\n<a class=\"anchor\" name=\"77\"></a>"
+          }
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Nandi,Jisha",
+            "id": "3212494",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "78"
+            },
+            "rawText": "78   Nandi,Jisha         , K= 0, Elo=   0, ID=3212494",
+            "rawHtml": "  78   <strong>Nandi,Jisha         </strong>, K= 0, Elo=   0, ID=3212494\n<br>\n<a class=\"anchor\" name=\"78\"></a>"
+          }
         }
       ]
     },
@@ -2661,7 +2797,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "74"
+              "col2": "78"
             },
             {
               "col1": "Number of Federations",
@@ -2669,7 +2805,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "1148"
+              "col2": "1137"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -2681,7 +2817,7 @@
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "73"
+              "col2": "77"
             },
             {
               "col1": "FIDE rated players",
@@ -2689,7 +2825,7 @@
             },
             {
               "col1": "unrated players",
-              "col2": "73"
+              "col2": "77"
             },
             {
               "col1": "unrated players from AUS Federation",
@@ -2697,7 +2833,7 @@
             },
             {
               "col1": "unrated players NOT from AUS Federation",
-              "col2": "72"
+              "col2": "76"
             },
             {
               "col1": "unrated Federations",
@@ -3439,17 +3575,17 @@
     {
       "#": "67",
       "Title": "",
-      "Player": "Moser,Luke",
-      "Fed": "VIC",
+      "Player": "Kumar,Viney",
+      "Fed": "NSW",
       "Origin": "",
       "Rtg": "0",
       "RtgF": "0",
-      "RtgN": "0"
+      "RtgN": "1679"
     },
     {
       "#": "68",
       "Title": "",
-      "Player": "Moser,William",
+      "Player": "Moser,Luke",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -3459,7 +3595,7 @@
     {
       "#": "69",
       "Title": "",
-      "Player": "Palta,Sameer",
+      "Player": "Moser,William",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -3469,7 +3605,7 @@
     {
       "#": "70",
       "Title": "",
-      "Player": "Samrat,Avyay",
+      "Player": "Nandi,Jisha",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -3479,17 +3615,17 @@
     {
       "#": "71",
       "Title": "",
-      "Player": "Shahadat,Aladean",
+      "Player": "Nema,Nivaan",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
       "RtgF": "0",
-      "RtgN": "0"
+      "RtgN": "633"
     },
     {
       "#": "72",
       "Title": "",
-      "Player": "Sharma,Rudra",
+      "Player": "Palta,Sameer",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -3499,6 +3635,46 @@
     {
       "#": "73",
       "Title": "",
+      "Player": "Rodriguez,Maickel",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "1434"
+    },
+    {
+      "#": "74",
+      "Title": "",
+      "Player": "Samrat,Avyay",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "75",
+      "Title": "",
+      "Player": "Shahadat,Aladean",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "76",
+      "Title": "",
+      "Player": "Sharma,Rudra",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "77",
+      "Title": "",
       "Player": "Vemula,Thamoghna",
       "Fed": "VIC",
       "Origin": "",
@@ -3507,7 +3683,7 @@
       "RtgN": "0"
     },
     {
-      "#": "74",
+      "#": "78",
       "Title": "",
       "Player": "Vigneshwar,Krishanth",
       "Fed": "VIC",
@@ -3529,16 +3705,16 @@
     "Rounds": "5",
     "Score game": "0-0.5-1",
     "Tie break": "BH",
-    "Registered Players": "74",
+    "Registered Players": "78",
     "Number of Federations": "4",
-    "Average Rating (all)": "1148",
+    "Average Rating (all)": "1137",
     "Average Rating (only FIDE rated)": "1641",
     "Players from AUS Federation": "1",
-    "Players NOT from AUS Federation": "73",
+    "Players NOT from AUS Federation": "77",
     "FIDE rated players": "1",
-    "unrated players": "73",
+    "unrated players": "77",
     "unrated players from AUS Federation": "1",
-    "unrated players NOT from AUS Federation": "72",
+    "unrated players NOT from AUS Federation": "76",
     "unrated Federations": "4",
     "FIDE titled players": "10",
     "GM players": "0",
