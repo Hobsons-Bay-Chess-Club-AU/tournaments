@@ -329,7 +329,8 @@ async function processHtmlFile(filePath) {
     });
     // Extract h1 title
     const pageHeading = $('h3').first().text().trim();
-    return { pageHeading, tables: tablesJson };
+    const pairingScheduleText = $('.btn-toolbar h5').first().text().trim();
+    return { pageHeading, tables: tablesJson , pairingScheduleText: pairingScheduleText || undefined};
 }
 
 async function extractMenuStructure(indexHtmlPath) {

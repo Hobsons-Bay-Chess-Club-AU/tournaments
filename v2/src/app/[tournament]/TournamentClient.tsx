@@ -27,6 +27,7 @@ type PageData = {
             html: string;
         };
     }[];
+    pairingScheduleText?: string;
 };
 
 type TournamentData = {
@@ -208,28 +209,32 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
             </div>
 
             {currentPageData && (
-                <div className="my-8">
+                <div className="my-8 px-2 md:px-4 py-8">
                     {currentPageData.pageHeading && (
                         <h2 className="text-3xl font-bold text-gray-900 mb-6 w-full text-center ">{currentPageData.pageHeading}</h2>
                     )}
 
-                    {/* Pairing page selector */}
-                    {isPairingPage && pairingPages.length > 1 && (
-                        <div className="mb-6">
-                            <div className="flex flex-wrap gap-2 justify-center sm:justify-start">
-                                {pairingPages.map((pairPage, idx) => (
-                                    <button
-                                        key={pairPage}
-                                        onClick={() => handlePairingSelect(idx)}
-                                        className={`px-3 sm:px-4 py-2 rounded-lg font-medium transition-all duration-200 text-sm sm:text-base ${page === pairPage
-                                            ? 'bg-blue-600 text-white shadow-lg'
-                                            : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-200'
-                                            }`}
-                                    >
-                                        Round {idx + 1}
-                                    </button>
-                                ))}
+                    {isPairingPage && (currentPageData.pairingScheduleText || pairingPages.length > 1) && (
+                        <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
+                            <div className="text-gray-700 font-bold">
+                                {currentPageData.pairingScheduleText}
                             </div>
+                            {pairingPages.length > 1 && (
+                                <div className="flex flex-wrap gap-2 justify-end">
+                                    {pairingPages.map((pairPage, idx) => (
+                                        <button
+                                            key={pairPage}
+                                            onClick={() => handlePairingSelect(idx)}
+                                            className={`px-3 sm:px-4 py-2 rounded-lg font-medium transition-all duration-200 text-sm sm:text-base ${page === pairPage
+                                                ? 'bg-blue-600 text-white shadow-lg'
+                                                : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-200'
+                                                }`}
+                                        >
+                                            R{idx + 1}
+                                        </button>
+                                    ))}
+                                </div>
+                            )}
                         </div>
                     )}
 
