@@ -153,7 +153,7 @@ function generateIndexFile(list) {
   // })
   uniqueList.sort((a, b) => b.ts - a.ts);
 
-  fs.writeFileSync("./timeline/public/data.json", JSON.stringify(uniqueList, null, 2));
+  fs.writeFileSync("./v2/public/data.json", JSON.stringify(uniqueList, null, 2));
 
   const juniors = uniqueList.filter((x) => x.category == "junior");
   const seniors = uniqueList.filter((x) => x.category === "senior");
