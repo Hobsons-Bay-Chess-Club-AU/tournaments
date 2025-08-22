@@ -385,7 +385,9 @@ async function processFolder(folderName) {
     const TARGET_PATH = path.join(WWW_FOLDER, folderName);
     const OUTPUT_FILE = path.join(TARGET_PATH, 'data.json');
     const htmlFiles = await getHtmlFiles(TARGET_PATH);
-    const result = {};
+    const result = {
+        generatedAt: new Date().toISOString(),
+    };
     result.page = {};
     for (const file of htmlFiles) {
         const filePath = path.join(TARGET_PATH, file);
