@@ -69,11 +69,7 @@ export default function RootLayout({
                 Generated at : {buildTimeMelbourne}
               </div>
             </div>
-            <iframe
-    src="https://bytehost-caller-931827105431.australia-southeast2.run.app/?url=http://hbcc.byethost10.com/?ago=30"
-    style={{ width: 0, height: 0, border: 'none', visibility: 'hidden', position: 'absolute' }}
-    title="bytehost-caller"
-  ></iframe>
+           
           </footer>
         </div>
       </body>
