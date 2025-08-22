@@ -7,7 +7,7 @@ on:
     paths:
       - .github/workflows/sync.yml
       - src/*.*
-      - timeline/*.*
+      - v2/*.*
   workflow_dispatch:
     inputs:
       change_id:
@@ -39,18 +39,18 @@ jobs:
       - name: Cache node_modules
         uses: actions/cache@v4
         with:
-          path: timeline/node_modules
-          key: ${{ runner.os }}-timeline-node-${{ hashFiles('timeline/package-lock.json') }}
+          path: v2/node_modules
+          key: ${{ runner.os }}-v2-node-${{ hashFiles('v2/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-timeline-node-
+            ${{ runner.os }}-vw-node-
 
       - name: Cache Next.js build cache
         uses: actions/cache@v4
         with:
-          path: timeline/.next/cache
-          key: ${{ runner.os }}-timeline-nextjs-${{ hashFiles('timeline/package-lock.json') }}
+          path: v2/.next/cache
+          key: ${{ runner.os }}-v2-nextjs-${{ hashFiles('v2/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-timeline-nextjs-
+            ${{ runner.os }}-v2-nextjs-
 
       - name: Check change_id
         id: check_change_id
@@ -118,23 +118,23 @@ jobs:
           node src/sync.mjs
           node src/prepare-data.mjs
 
-      - name: Build Timeline App
+      - name: Build NextJS UI 
         if: steps.check_change_id.outputs.skip_steps != 'true'
         run: |
-          cd timeline
+          cd v2
           npm install
           npm run build
           cd ..
         env:
-          NEXT_PUBLIC_BASE_PATH: "/timeline"
+          NEXT_PUBLIC_BASE_PATH: "/v2"
           NEXT_PUBLIC_EXPORT_STATIC: "true"
           NEXT_PUBLIC_APP_URL: ""
 
-      - name: Copy Timeline Output
+      - name: Copy UI Output
         if: steps.check_change_id.outputs.skip_steps != 'true'
         run: |
-          rm -rf www/timeline
-          cp -r timeline/out www/timeline
+          rm -rf www/v2
+          cp -r v2/out www/v2
 
       - name: Replace PHP links with HTML links
         if: steps.check_change_id.outputs.skip_steps != 'true'
