@@ -49,28 +49,28 @@
 <tr><td >Rounds</td> <td> 5</td> </tr>
 <tr><td >Score game</td> <td> 0-0.5-1</td> </tr>
 <tr><td >Tie break</td> <td>      BH </td> </tr>
-<tr><td >Registered Players</td> <td> 78</td> </tr>
+<tr><td >Registered Players</td> <td> 83</td> </tr>
 <tr><td > Number of Federations</td> <td> 4</td> </tr>
-<tr><td >Average Rating (all) </td> <td> 1137</td> </tr>
+<tr><td >Average Rating (all) </td> <td> 1131</td> </tr>
 <tr><td >Average Rating (only FIDE rated) </td> <td> 1641</td> </tr>
-<tr ><td > Players from AUS Federation</td> <td> 1</td> </tr>
-<tr><td > Players NOT from AUS Federation</td> <td> 77</td> </tr>
+<tr ><td > Players from AUS Federation</td> <td> 2</td> </tr>
+<tr><td > Players NOT from AUS Federation</td> <td> 81</td> </tr>
 <tr><td > FIDE rated players </td> <td> 1</td> </tr>
-<tr><td > unrated players </td> <td> 77</td> </tr>
-<tr><td > unrated players from AUS Federation</td> <td> 1</td> </tr>
-<tr><td >unrated players NOT from AUS Federation</td> <td> 76</td> </tr>
+<tr><td > unrated players </td> <td> 82</td> </tr>
+<tr><td > unrated players from AUS Federation</td> <td> 2</td> </tr>
+<tr><td >unrated players NOT from AUS Federation</td> <td> 80</td> </tr>
 <tr><td > unrated Federations</td> <td> 4</td> </tr>
-<tr><td > FIDE titled players </td> <td> 10</td> </tr>
+<tr><td > FIDE titled players </td> <td> 11</td> </tr>
 <tr><td > GM players </td> <td> 0</td> </tr>
 <tr><td >WGM players </td> <td> 0</td> </tr>
 <tr><td > IM players </td> <td> 1</td> </tr>
 <tr><td >WIM players</td> <td> 1</td> </tr>
 <tr><td >FM players</td> <td> 5</td> </tr>
 <tr><td >WFM players</td> <td> 1</td> </tr>
-<tr><td >CM players</td> <td> 2</td> </tr>
+<tr><td >CM players</td> <td> 3</td> </tr>
 <tr><td >WCM players</td> <td> 0</td> </tr>
 <tr><td >FIDE titled player from AUS Federation </td> <td> 0</td> </tr>
-<tr><td >FIDE titled player NOT from AUS Federation</td> <td> 10</td> </tr>
+<tr><td >FIDE titled player NOT from AUS Federation</td> <td> 11</td> </tr>
 </tbody>
 </table>
 </div>

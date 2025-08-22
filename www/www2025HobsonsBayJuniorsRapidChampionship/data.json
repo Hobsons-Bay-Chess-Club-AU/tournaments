@@ -220,7 +220,7 @@
             {
               "#": "20",
               "Title": "",
-              "Player": "Shetty,Yohan",
+              "Player": "Saravanakumar,Thaswin",
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -228,6 +228,15 @@
             },
             {
               "#": "21",
+              "Title": "",
+              "Player": "Shetty,Yohan",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "22",
               "Title": "",
               "Player": "Spriggs,Harvey",
               "Fed": "",
@@ -769,6 +778,30 @@
             "rawText": "21   Spriggs,Harvey      , K= 0, Elo=   0, ID=3217545",
             "rawHtml": "  21   <strong>Spriggs,Harvey      </strong>, K= 0, Elo=   0, ID=3217545\n<br>\n<a class=\"anchor\" name=\"21\"></a>"
           }
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Saravanakumar,Thaswi",
+            "id": "0",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "22"
+            },
+            "rawText": "22   Saravanakumar,Thaswi, K= 0, Elo=   0, ID=0",
+            "rawHtml": "  22   <strong>Saravanakumar,Thaswi</strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"22\"></a>"
+          }
         }
       ]
     },
@@ -869,7 +902,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "21"
+              "col2": "22"
             },
             {
               "col1": "Number of Federations",
@@ -877,7 +910,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "669"
+              "col2": "639"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -889,7 +922,7 @@
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "10"
+              "col2": "11"
             },
             {
               "col1": "FIDE rated players",
@@ -897,7 +930,7 @@
             },
             {
               "col1": "unrated players",
-              "col2": "12"
+              "col2": "13"
             },
             {
               "col1": "unrated players from AUS Federation",
@@ -905,7 +938,7 @@
             },
             {
               "col1": "unrated players NOT from AUS Federation",
-              "col2": "8"
+              "col2": "9"
             },
             {
               "col1": "unrated Federations",
@@ -1158,7 +1191,7 @@
     {
       "#": "20",
       "Title": "",
-      "Player": "Shetty,Yohan",
+      "Player": "Saravanakumar,Thaswin",
       "Fed": "",
       "Rtg": "0",
       "RtgF": "0",
@@ -1166,6 +1199,15 @@
     },
     {
       "#": "21",
+      "Title": "",
+      "Player": "Shetty,Yohan",
+      "Fed": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "22",
       "Title": "",
       "Player": "Spriggs,Harvey",
       "Fed": "",
@@ -1186,16 +1228,16 @@
     "Rounds": "7",
     "Score game": "0-0.5-1",
     "Tie break": "BH BH/C1 SB",
-    "Registered Players": "21",
+    "Registered Players": "22",
     "Number of Federations": "4",
-    "Average Rating (all)": "669",
+    "Average Rating (all)": "639",
     "Average Rating (only FIDE rated)": "1482",
     "Players from AUS Federation": "11",
-    "Players NOT from AUS Federation": "10",
+    "Players NOT from AUS Federation": "11",
     "FIDE rated players": "9",
-    "unrated players": "12",
+    "unrated players": "13",
     "unrated players from AUS Federation": "4",
-    "unrated players NOT from AUS Federation": "8",
+    "unrated players NOT from AUS Federation": "9",
     "unrated Federations": "2",
     "FIDE titled players": "0",
     "GM players": "0",
