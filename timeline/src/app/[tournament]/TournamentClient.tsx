@@ -4,6 +4,7 @@ import { useSearchParams, useRouter } from "next/navigation";
 import TournamentMeta from "@/components/TournamentMeta";
 import TournamentMenu from "@/components/TournamentMenu";
 import PlayerRenderer from "@/components/PlayerRenderer";
+import KeyValueTable from "@/components/KeyValueTable";
 
 type TableCaption = string | {
     playerName?: string;
@@ -175,6 +176,14 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
         return rows;
     };
 
+    const isKeyValueTable = (table: { headers?: string[]; rows?: Record<string, unknown>[] }): boolean => {
+        if (!table) return false;
+        const hasNoHeaders = !table.headers || table.headers.length === 0;
+        const firstRow = table.rows && table.rows.length > 0 ? table.rows[0] : null;
+        const looksLikeKV = !!firstRow && Object.prototype.hasOwnProperty.call(firstRow, 'col1') && Object.prototype.hasOwnProperty.call(firstRow, 'col2');
+        return hasNoHeaders && looksLikeKV;
+    };
+
     if (!data) {
         return (
             <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
@@ -297,112 +306,125 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                         </div>
                                     </div>
 
-                                    <div className="overflow-hidden rounded-xl shadow-lg border border-gray-200/50 bg-white">
-                                        {/* Desktop Table */}
-                                        <div className="hidden lg:block overflow-x-auto">
-                                            <table className="min-w-full">
-                                                <thead>
-                                                    <tr className="bg-gradient-to-r from-slate-50 to-gray-100/80">
-                                                        {table.headers?.map((header: string, hidx: number) => (
-                                                            <th
-                                                                key={hidx}
-                                                                className={`px-6 py-4 text-left text-sm font-bold text-gray-700 uppercase tracking-wider cursor-pointer select-none transition-all duration-200 hover:bg-gray-200/50 ${hidx === 0 ? 'rounded-tl-xl' : ''} ${hidx === (table.headers?.length || 0) - 1 ? 'rounded-tr-xl' : ''}`}
-                                                                onClick={() => handleHeaderClick(idx, header)}
-                                                            >
-                                                                <div className="flex items-center gap-2">
-                                                                    <span>{header}</span>
-                                                                    {sortConfig && sortConfig.tableIdx === idx && sortConfig.key === header && (
-                                                                        <span className="text-blue-600 font-bold text-sm">
-                                                                            {sortConfig.direction === "asc" ? "↑" : "↓"}
-                                                                        </span>
-                                                                    )}
-                                                                </div>
-                                                            </th>
-                                                        ))}
-                                                    </tr>
-                                                </thead>
-                                                <tbody className="bg-white divide-y divide-gray-100">
-                                                    {table.rows && table.rows.length > 0 ? (
-                                                        getFilteredAndSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
-                                                            <tr key={ridx} className={`transition-all duration-150 hover:bg-blue-50/50 hover:shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
-                                                                {table.headers?.map((header: string, hidx: number) => (
-                                                                    <td key={hidx} className="px-6 py-4 text-sm text-gray-900 font-medium">
-                                                                        <PlayerRenderer
-                                                                            data={row[header]}
-                                                                            onPlayerClick={handlePlayerClick}
-                                                                            tournamentPath={`/${resolvedParams.tournament}`}
-                                                                        />
-                                                                    </td>
-                                                                ))}
-                                                            </tr>
-                                                        ))
-                                                    ) : (
-                                                        <tr>
-                                                            <td colSpan={table.headers?.length || 1} className="px-6 py-8 text-center text-gray-500 italic">
-                                                                <div className="flex flex-col items-center gap-2">
-                                                                    <svg className="w-8 h-8 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                                                                    </svg>
-                                                                    <span>{searchQuery.trim() ? 'No results found for your search' : 'No data available'}</span>
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                                                    )}
-                                                </tbody>
-                                                {table.footer && (
-                                                    <tfoot>
-                                                        <tr>
-                                                            <td colSpan={table.headers?.length || 1} className="px-6 py-3 text-sm text-gray-600 bg-gray-50 border-t border-gray-200">
-                                                                <div dangerouslySetInnerHTML={{ __html: table.footer.html }} />
-                                                            </td>
-                                                        </tr>
-                                                    </tfoot>
-                                                )}
-                                            </table>
-                                        </div>
-
-                                        {/* Mobile Cards */}
-                                        <div className="lg:hidden">
-                                            {table.rows && table.rows.length > 0 ? (
-                                                <div className="space-y-3 p-4">
-                                                    {getFilteredAndSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
-                                                        <div key={ridx} className={`bg-white rounded-lg border border-gray-200 p-4 shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
-                                                            {table.headers?.map((header: string, hidx: number) => (
-                                                                <div key={hidx} className="flex justify-between items-center py-2 border-b border-gray-100 last:border-b-0">
-                                                                    <span className="text-sm font-medium text-gray-600 capitalize">
-                                                                        {header}
-                                                                    </span>
-                                                                    <div className="text-sm text-gray-900 font-medium">
-                                                                        <PlayerRenderer
-                                                                            data={row[header]}
-                                                                            onPlayerClick={handlePlayerClick}
-                                                                            tournamentPath={`/${resolvedParams.tournament}`}
-                                                                        />
-                                                                    </div>
-                                                                </div>
-                                                            ))}
-                                                        </div>
-                                                    ))}
+                                    {isKeyValueTable(table) ? (
+                                        <>
+                                            <KeyValueTable rows={(table.rows || []) as { col1?: unknown; col2?: unknown }[]} searchQuery={searchQuery} />
+                                            {table.footer && (
+                                                <div className="p-4 bg-gray-50 border border-t-0 border-gray-200 rounded-b-xl">
+                                                    <div className="text-sm text-gray-600">
+                                                        <div dangerouslySetInnerHTML={{ __html: table.footer.html }} />
+                                                    </div>
                                                 </div>
-                                            ) : (
-                                                <div className="p-8 text-center text-gray-500 italic">
-                                                    <div className="flex flex-col items-center gap-2">
-                                                        <svg className="w-8 h-8 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                                                        </svg>
-                                                        <span>{searchQuery.trim() ? 'No results found for your search' : 'No data available'}</span>
+                                            )}
+                                        </>
+                                    ) : (
+                                        <div className="overflow-hidden rounded-xl shadow-lg border border-gray-200/50 bg-white">
+                                            {/* Desktop Table */}
+                                            <div className="hidden lg:block overflow-x-auto">
+                                                <table className="min-w-full">
+                                                    <thead>
+                                                        <tr className="bg-gradient-to-r from-slate-50 to-gray-100/80">
+                                                            {table.headers?.map((header: string, hidx: number) => (
+                                                                <th
+                                                                    key={hidx}
+                                                                    className={`px-6 py-4 text-left text-sm font-bold text-gray-700 uppercase tracking-wider cursor-pointer select-none transition-all duration-200 hover:bg-gray-200/50 ${hidx === 0 ? 'rounded-tl-xl' : ''} ${hidx === (table.headers?.length || 0) - 1 ? 'rounded-tr-xl' : ''}`}
+                                                                    onClick={() => handleHeaderClick(idx, header)}
+                                                                >
+                                                                    <div className="flex items-center gap-2">
+                                                                        <span>{header}</span>
+                                                                        {sortConfig && sortConfig.tableIdx === idx && sortConfig.key === header && (
+                                                                            <span className="text-blue-600 font-bold text-sm">
+                                                                                {sortConfig.direction === "asc" ? "↑" : "↓"}
+                                                                            </span>
+                                                                        )}
+                                                                    </div>
+                                                                </th>
+                                                            ))}
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody className="bg-white divide-y divide-gray-100">
+                                                        {table.rows && table.rows.length > 0 ? (
+                                                            getFilteredAndSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
+                                                                <tr key={ridx} className={`transition-all duration-150 hover:bg-blue-50/50 hover:shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
+                                                                    {table.headers?.map((header: string, hidx: number) => (
+                                                                        <td key={hidx} className="px-6 py-4 text-sm text-gray-900 font-medium">
+                                                                            <PlayerRenderer
+                                                                                data={row[header]}
+                                                                                onPlayerClick={handlePlayerClick}
+                                                                                tournamentPath={`/${resolvedParams.tournament}`}
+                                                                            />
+                                                                        </td>
+                                                                    ))}
+                                                                </tr>
+                                                            ))
+                                                        ) : (
+                                                            <tr>
+                                                                <td colSpan={table.headers?.length || 1} className="px-6 py-8 text-center text-gray-500 italic">
+                                                                    <div className="flex flex-col items-center gap-2">
+                                                                        <svg className="w-8 h-8 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                                                        </svg>
+                                                                        <span>{searchQuery.trim() ? 'No results found for your search' : 'No data available'}</span>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        )}
+                                                    </tbody>
+                                                    {table.footer && (
+                                                        <tfoot>
+                                                            <tr>
+                                                                <td colSpan={table.headers?.length || 1} className="px-6 py-3 text-sm text-gray-600 bg-gray-50 border-t border-gray-200">
+                                                                    <div dangerouslySetInnerHTML={{ __html: table.footer.html }} />
+                                                                </td>
+                                                            </tr>
+                                                        </tfoot>
+                                                    )}
+                                                </table>
+                                            </div>
+
+                                            {/* Mobile Cards */}
+                                            <div className="lg:hidden">
+                                                {table.rows && table.rows.length > 0 ? (
+                                                    <div className="space-y-3 p-4">
+                                                        {getFilteredAndSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
+                                                            <div key={ridx} className={`bg-white rounded-lg border border-gray-200 p-4 shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
+                                                                {table.headers?.map((header: string, hidx: number) => (
+                                                                    <div key={hidx} className="flex justify-between items-center py-2 border-b border-gray-100 last:border-b-0">
+                                                                        <span className="text-sm font-medium text-gray-600 capitalize">
+                                                                            {header}
+                                                                        </span>
+                                                                        <div className="text-sm text-gray-900 font-medium">
+                                                                            <PlayerRenderer
+                                                                                data={row[header]}
+                                                                                onPlayerClick={handlePlayerClick}
+                                                                                tournamentPath={`/${resolvedParams.tournament}`}
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                ))}
+                                                            </div>
+                                                        ))}
+                                                    </div>
+                                                ) : (
+                                                    <div className="p-8 text-center text-gray-500 italic">
+                                                        <div className="flex flex-col items-center gap-2">
+                                                            <svg className="w-8 h-8 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                                            </svg>
+                                                            <span>{searchQuery.trim() ? 'No results found for your search' : 'No data available'}</span>
+                                                        </div>
+                                                    </div>
+                                                )}
+                                            </div>
+                                            {table.footer && (
+                                                <div className="lg:hidden p-4 bg-gray-50 border-t border-gray-200">
+                                                    <div className="text-sm text-gray-600">
+                                                        <div dangerouslySetInnerHTML={{ __html: table.footer.html }} />
                                                     </div>
                                                 </div>
                                             )}
                                         </div>
-                                        {table.footer && (
-                                            <div className="lg:hidden p-4 bg-gray-50 border-t border-gray-200">
-                                                <div className="text-sm text-gray-600">
-                                                    <div dangerouslySetInnerHTML={{ __html: table.footer.html }} />
-                                                </div>
-                                            </div>
-                                        )}
-                                    </div>
+                                    )}
                                 </div>
                             ))}
                         </div>
