@@ -23,6 +23,18 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const buildTimeIso = process.env.NEXT_PUBLIC_BUILD_TIME;
+  const buildTimeMelbourne = buildTimeIso
+    ? new Date(buildTimeIso).toLocaleString('en-AU', {
+        timeZone: 'Australia/Melbourne',
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: true,
+      })
+    : undefined;
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
@@ -52,6 +64,9 @@ export default function RootLayout({
                   <span className="text-gray-300">|</span>
                   <a href="https://live.hobsonsbaychess.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-medium">Live Broadcast</a>
                 </div>
+              </div>
+              <div className="text-center text-gray-400 text-xs pt-3">
+                Generated at : {buildTimeMelbourne}
               </div>
             </div>
           </footer>

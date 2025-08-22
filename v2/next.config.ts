@@ -14,6 +14,11 @@ const nextConfig: NextConfig = {
     unoptimized: process.env.NEXT_PUBLIC_EXPORT_STATIC === 'true',
   },
   
+  // Build-time injected environment variables
+  env: {
+    NEXT_PUBLIC_BUILD_TIME: new Date().toISOString(),
+  },
+  
   /* config options here */
 };
 
