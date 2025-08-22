@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 
 interface MenuItem {
     text: string;
@@ -16,6 +16,20 @@ interface TournamentMenuProps {
 const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSelectPage }) => {
     const [openDropdown, setOpenDropdown] = useState<string | null>(null);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+    const normalizedMenu = useMemo(() => {
+        const normalizeMenuItems = (items: MenuItem[]): MenuItem[] => {
+            return (items || []).map((item) => {
+                const children = item.children && item.children.length > 0 ? normalizeMenuItems(item.children) : undefined;
+                const hasChildren = !!(children && children.length > 0);
+                return {
+                    ...item,
+                    isDropdown: hasChildren,
+                    children: hasChildren ? children : undefined,
+                };
+            });
+        };
+        return normalizeMenuItems(menu);
+    }, [menu]);
     
     // Close dropdown and mobile menu when clicking outside
     useEffect(() => {
@@ -55,7 +69,7 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
                 {/* Desktop menu - modern tab style */}
                 <div className="hidden lg:block">
                     <div className="flex border-b border-gray-200">
-                        {menu.map((item) => (
+                        {normalizedMenu.map((item) => (
                             <div key={item.text} className="relative dropdown-">
                                 {item.isDropdown === true ? (
                                     <>
@@ -71,11 +85,13 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
                                             }}
                                         >
                                             {item.text}
-                                            <span className={`transition-transform duration-200 ${openDropdown === item.text ? 'rotate-180' : ''}`}>
-                                                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                                                </svg>
-                                            </span>
+                                            {item.children && item.children.length > 0 && (
+                                                <span className={`transition-transform duration-200 ${openDropdown === item.text ? 'rotate-180' : ''}`}>
+                                                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                                                    </svg>
+                                                </span>
+                                            )}
                                         </button>
                                         {openDropdown === item.text && item.children && item.children.length > 0 && (
                                             <div className="absolute left-0 top-full mt-1 w-64 bg-white border border-gray-200 rounded-lg shadow-xl z-40 overflow-hidden">
@@ -124,7 +140,7 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
                 {mobileMenuOpen && (
                     <div className="lg:hidden border-t border-gray-200 bg-gray-50 mobile-menu-">
                         <div className="py-4 space-y-1">
-                            {menu.map((item) => (
+                            {normalizedMenu.map((item) => (
                                 <div key={item.text}>
                                     {item.isDropdown === true ? (
                                         <>
@@ -140,11 +156,13 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
                                                 }}
                                             >
                                                 {item.text}
-                                                <span className={`transition-transform duration-200 ${openDropdown === item.text ? 'rotate-180' : ''}`}>
-                                                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                                                    </svg>
-                                                </span>
+                                                {item.children && item.children.length > 0 && (
+                                                    <span className={`transition-transform duration-200 ${openDropdown === item.text ? 'rotate-180' : ''}`}>
+                                                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                                                        </svg>
+                                                    </span>
+                                                )}
                                             </button>
                                             {openDropdown === item.text && item.children && item.children.length > 0 && (
                                                 <div className="ml-6 mt-2 space-y-1 border-l-2 border-gray-200 pl-4">
