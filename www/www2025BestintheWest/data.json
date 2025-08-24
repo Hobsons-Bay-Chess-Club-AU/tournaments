@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-08-24T07:47:01.190Z",
+  "generatedAt": "2025-08-24T08:27:30.382Z",
   "page": {
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 0",
@@ -861,17 +861,17 @@
             {
               "#": "82",
               "Title": "",
-              "Player": "Moser,Luke",
+              "Player": "Milojevic,Miodrag",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
               "RtgF": "0",
-              "RtgN": "0"
+              "RtgN": "1854"
             },
             {
               "#": "83",
               "Title": "",
-              "Player": "Moser,William",
+              "Player": "Moser,Luke",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -881,7 +881,7 @@
             {
               "#": "84",
               "Title": "",
-              "Player": "Nandi,Jisha",
+              "Player": "Moser,William",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -891,7 +891,7 @@
             {
               "#": "85",
               "Title": "",
-              "Player": "Palta,Sameer",
+              "Player": "Nandi,Jisha",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -901,7 +901,7 @@
             {
               "#": "86",
               "Title": "",
-              "Player": "Samraat,Aayush",
+              "Player": "Palta,Sameer",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -911,7 +911,7 @@
             {
               "#": "87",
               "Title": "",
-              "Player": "Samrat,Avyay",
+              "Player": "Samraat,Aayush",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -921,7 +921,7 @@
             {
               "#": "88",
               "Title": "",
-              "Player": "Saravanakumar,Thaswin",
+              "Player": "Samrat,Avyay",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -931,7 +931,7 @@
             {
               "#": "89",
               "Title": "",
-              "Player": "Shahadat,Aladean",
+              "Player": "Saravanakumar,Thaswin",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -941,7 +941,7 @@
             {
               "#": "90",
               "Title": "",
-              "Player": "Sharma,Rudra",
+              "Player": "Shahadat,Aladean",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -951,7 +951,7 @@
             {
               "#": "91",
               "Title": "",
-              "Player": "Vemula,Thamoghna",
+              "Player": "Sharma,Rudra",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -960,6 +960,16 @@
             },
             {
               "#": "92",
+              "Title": "",
+              "Player": "Vemula,Thamoghna",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "93",
               "Title": "",
               "Player": "Vigneshwar,Krishanth",
               "Fed": "VIC",
@@ -3206,6 +3216,30 @@
             "rawText": "92  CM Hartley,James       , K= 0, Elo=1959, ID=3197573",
             "rawHtml": "  92  CM <strong>Hartley,James       </strong>, K= 0, Elo=1959, ID=3197573\n<br>\n<a class=\"anchor\" name=\"92\"></a>"
           }
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Milojevic,Miodrag",
+            "id": "3145648",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1854",
+              "anchor": "93"
+            },
+            "rawText": "93   Milojevic,Miodrag   , K= 0, Elo=1854, ID=3145648",
+            "rawHtml": "  93   <strong>Milojevic,Miodrag   </strong>, K= 0, Elo=1854, ID=3145648\n<br>\n<a class=\"anchor\" name=\"93\"></a>"
+          }
         }
       ]
     },
@@ -3274,7 +3308,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "92"
+              "col2": "93"
             },
             {
               "col1": "Number of Federations",
@@ -3282,7 +3316,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "1120"
+              "col2": "1128"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -3294,7 +3328,7 @@
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "90"
+              "col2": "91"
             },
             {
               "col1": "FIDE rated players",
@@ -3302,7 +3336,7 @@
             },
             {
               "col1": "unrated players",
-              "col2": "91"
+              "col2": "92"
             },
             {
               "col1": "unrated players from AUS Federation",
@@ -3310,7 +3344,7 @@
             },
             {
               "col1": "unrated players NOT from AUS Federation",
-              "col2": "89"
+              "col2": "90"
             },
             {
               "col1": "unrated Federations",
@@ -4202,17 +4236,17 @@
     {
       "#": "82",
       "Title": "",
-      "Player": "Moser,Luke",
+      "Player": "Milojevic,Miodrag",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
       "RtgF": "0",
-      "RtgN": "0"
+      "RtgN": "1854"
     },
     {
       "#": "83",
       "Title": "",
-      "Player": "Moser,William",
+      "Player": "Moser,Luke",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -4222,7 +4256,7 @@
     {
       "#": "84",
       "Title": "",
-      "Player": "Nandi,Jisha",
+      "Player": "Moser,William",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -4232,7 +4266,7 @@
     {
       "#": "85",
       "Title": "",
-      "Player": "Palta,Sameer",
+      "Player": "Nandi,Jisha",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -4242,7 +4276,7 @@
     {
       "#": "86",
       "Title": "",
-      "Player": "Samraat,Aayush",
+      "Player": "Palta,Sameer",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -4252,7 +4286,7 @@
     {
       "#": "87",
       "Title": "",
-      "Player": "Samrat,Avyay",
+      "Player": "Samraat,Aayush",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -4262,7 +4296,7 @@
     {
       "#": "88",
       "Title": "",
-      "Player": "Saravanakumar,Thaswin",
+      "Player": "Samrat,Avyay",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -4272,7 +4306,7 @@
     {
       "#": "89",
       "Title": "",
-      "Player": "Shahadat,Aladean",
+      "Player": "Saravanakumar,Thaswin",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -4282,7 +4316,7 @@
     {
       "#": "90",
       "Title": "",
-      "Player": "Sharma,Rudra",
+      "Player": "Shahadat,Aladean",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -4292,7 +4326,7 @@
     {
       "#": "91",
       "Title": "",
-      "Player": "Vemula,Thamoghna",
+      "Player": "Sharma,Rudra",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -4301,6 +4335,16 @@
     },
     {
       "#": "92",
+      "Title": "",
+      "Player": "Vemula,Thamoghna",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "93",
       "Title": "",
       "Player": "Vigneshwar,Krishanth",
       "Fed": "VIC",
@@ -4322,16 +4366,16 @@
     "Rounds": "5",
     "Score game": "0-0.5-1",
     "Tie break": "BH",
-    "Registered Players": "92",
+    "Registered Players": "93",
     "Number of Federations": "5",
-    "Average Rating (all)": "1120",
+    "Average Rating (all)": "1128",
     "Average Rating (only FIDE rated)": "1641",
     "Players from AUS Federation": "2",
-    "Players NOT from AUS Federation": "90",
+    "Players NOT from AUS Federation": "91",
     "FIDE rated players": "1",
-    "unrated players": "91",
+    "unrated players": "92",
     "unrated players from AUS Federation": "2",
-    "unrated players NOT from AUS Federation": "89",
+    "unrated players NOT from AUS Federation": "90",
     "unrated Federations": "5",
     "FIDE titled players": "13",
     "GM players": "0",
