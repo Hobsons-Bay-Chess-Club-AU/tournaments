@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-08-25T10:28:22.081Z",
+  "generatedAt": "2025-08-25T13:55:23.024Z",
   "page": {
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 0",
@@ -131,6 +131,24 @@
             {
               "#": "10",
               "Title": "",
+              "Player": "Bo,Jeremie",
+              "Fed": "",
+              "Rtg": "429",
+              "RtgF": "0",
+              "RtgN": "429"
+            },
+            {
+              "#": "11",
+              "Title": "",
+              "Player": "Balamurugan,Soorya",
+              "Fed": "",
+              "Rtg": "411",
+              "RtgF": "0",
+              "RtgN": "411"
+            },
+            {
+              "#": "12",
+              "Title": "",
               "Player": "Gajula,Karan",
               "Fed": "",
               "Rtg": "377",
@@ -138,7 +156,16 @@
               "RtgN": "377"
             },
             {
-              "#": "11",
+              "#": "13",
+              "Title": "",
+              "Player": "Bo,Jamie",
+              "Fed": "",
+              "Rtg": "371",
+              "RtgF": "0",
+              "RtgN": "371"
+            },
+            {
+              "#": "14",
               "Title": "",
               "Player": "Goh,Julian",
               "Fed": "",
@@ -147,7 +174,7 @@
               "RtgN": "239"
             },
             {
-              "#": "12",
+              "#": "15",
               "Title": "",
               "Player": "Goh,Daphne",
               "Fed": "",
@@ -156,7 +183,7 @@
               "RtgN": "100"
             },
             {
-              "#": "13",
+              "#": "16",
               "Title": "",
               "Player": "Barar,Ridam",
               "Fed": "",
@@ -165,7 +192,7 @@
               "RtgN": "0"
             },
             {
-              "#": "14",
+              "#": "17",
               "Title": "",
               "Player": "Bhatia,Sannah",
               "Fed": "",
@@ -174,7 +201,7 @@
               "RtgN": "0"
             },
             {
-              "#": "15",
+              "#": "18",
               "Title": "",
               "Player": "Gajula,Nishitha",
               "Fed": "",
@@ -183,7 +210,7 @@
               "RtgN": "0"
             },
             {
-              "#": "16",
+              "#": "19",
               "Title": "",
               "Player": "Gunathilake,Sithev",
               "Fed": "",
@@ -192,7 +219,7 @@
               "RtgN": "0"
             },
             {
-              "#": "17",
+              "#": "20",
               "Title": "",
               "Player": "Hii,Elliott",
               "Fed": "",
@@ -201,7 +228,7 @@
               "RtgN": "0"
             },
             {
-              "#": "18",
+              "#": "21",
               "Title": "",
               "Player": "Kaur,Mishleen",
               "Fed": "",
@@ -210,7 +237,7 @@
               "RtgN": "0"
             },
             {
-              "#": "19",
+              "#": "22",
               "Title": "",
               "Player": "Padoli,Darsh",
               "Fed": "",
@@ -219,7 +246,7 @@
               "RtgN": "0"
             },
             {
-              "#": "20",
+              "#": "23",
               "Title": "",
               "Player": "Saravanakumar,Thaswin",
               "Fed": "",
@@ -228,7 +255,7 @@
               "RtgN": "0"
             },
             {
-              "#": "21",
+              "#": "24",
               "Title": "",
               "Player": "Shetty,Yohan",
               "Fed": "",
@@ -237,9 +264,18 @@
               "RtgN": "0"
             },
             {
-              "#": "22",
+              "#": "25",
               "Title": "",
               "Player": "Spriggs,Harvey",
+              "Fed": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "26",
+              "Title": "",
+              "Player": "Vignesh,Prajeeth",
               "Fed": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -505,15 +541,87 @@
           ],
           "rows": [],
           "caption": {
+            "playerName": "Bo,Jeremie",
+            "id": "3204606",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "429",
+              "anchor": "10"
+            },
+            "rawText": "10   Bo,Jeremie          , K= 0, Elo= 429, ID=3204606",
+            "rawHtml": "  10   <strong>Bo,Jeremie          </strong>, K= 0, Elo= 429, ID=3204606\n<br>\n<a class=\"anchor\" name=\"10\"></a>"
+          }
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Balamurugan,Soorya",
+            "id": "3212435",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "411",
+              "anchor": "11"
+            },
+            "rawText": "11   Balamurugan,Soorya  , K= 0, Elo= 411, ID=3212435",
+            "rawHtml": "  11   <strong>Balamurugan,Soorya  </strong>, K= 0, Elo= 411, ID=3212435\n<br>\n<a class=\"anchor\" name=\"11\"></a>"
+          }
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [],
+          "caption": {
             "playerName": "Gajula,Karan",
             "id": "3211050",
             "moreInfo": {
               "K": "0",
               "Elo": "377",
-              "anchor": "10"
+              "anchor": "12"
             },
-            "rawText": "10   Gajula,Karan        , K= 0, Elo= 377, ID=3211050",
-            "rawHtml": "  10   <strong>Gajula,Karan        </strong>, K= 0, Elo= 377, ID=3211050\n<br>\n<a class=\"anchor\" name=\"10\"></a>"
+            "rawText": "12   Gajula,Karan        , K= 0, Elo= 377, ID=3211050",
+            "rawHtml": "  12   <strong>Gajula,Karan        </strong>, K= 0, Elo= 377, ID=3211050\n<br>\n<a class=\"anchor\" name=\"12\"></a>"
+          }
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Bo,Jamie",
+            "id": "3205671",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "371",
+              "anchor": "13"
+            },
+            "rawText": "13   Bo,Jamie            , K= 0, Elo= 371, ID=3205671",
+            "rawHtml": "  13   <strong>Bo,Jamie            </strong>, K= 0, Elo= 371, ID=3205671\n<br>\n<a class=\"anchor\" name=\"13\"></a>"
           }
         },
         {
@@ -534,10 +642,10 @@
             "moreInfo": {
               "K": "0",
               "Elo": "239",
-              "anchor": "11"
+              "anchor": "14"
             },
-            "rawText": "11   Goh,Julian          , K= 0, Elo= 239, ID=3214863",
-            "rawHtml": "  11   <strong>Goh,Julian          </strong>, K= 0, Elo= 239, ID=3214863\n<br>\n<a class=\"anchor\" name=\"11\"></a>"
+            "rawText": "14   Goh,Julian          , K= 0, Elo= 239, ID=3214863",
+            "rawHtml": "  14   <strong>Goh,Julian          </strong>, K= 0, Elo= 239, ID=3214863\n<br>\n<a class=\"anchor\" name=\"14\"></a>"
           }
         },
         {
@@ -558,10 +666,10 @@
             "moreInfo": {
               "K": "0",
               "Elo": "100",
-              "anchor": "12"
+              "anchor": "15"
             },
-            "rawText": "12   Goh,Daphne          , K= 0, Elo= 100, ID=3214852",
-            "rawHtml": "  12   <strong>Goh,Daphne          </strong>, K= 0, Elo= 100, ID=3214852\n<br>\n<a class=\"anchor\" name=\"12\"></a>"
+            "rawText": "15   Goh,Daphne          , K= 0, Elo= 100, ID=3214852",
+            "rawHtml": "  15   <strong>Goh,Daphne          </strong>, K= 0, Elo= 100, ID=3214852\n<br>\n<a class=\"anchor\" name=\"15\"></a>"
           }
         },
         {
@@ -582,10 +690,10 @@
             "moreInfo": {
               "K": "0",
               "Elo": "0",
-              "anchor": "13"
+              "anchor": "16"
             },
-            "rawText": "13   Barar,Ridam         , K= 0, Elo=   0, ID=0",
-            "rawHtml": "  13   <strong>Barar,Ridam         </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"13\"></a>"
+            "rawText": "16   Barar,Ridam         , K= 0, Elo=   0, ID=0",
+            "rawHtml": "  16   <strong>Barar,Ridam         </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"16\"></a>"
           }
         },
         {
@@ -606,10 +714,10 @@
             "moreInfo": {
               "K": "0",
               "Elo": "0",
-              "anchor": "14"
+              "anchor": "17"
             },
-            "rawText": "14   Bhatia,Sannah       , K= 0, Elo=   0, ID=3214384",
-            "rawHtml": "  14   <strong>Bhatia,Sannah       </strong>, K= 0, Elo=   0, ID=3214384\n<br>\n<a class=\"anchor\" name=\"14\"></a>"
+            "rawText": "17   Bhatia,Sannah       , K= 0, Elo=   0, ID=3214384",
+            "rawHtml": "  17   <strong>Bhatia,Sannah       </strong>, K= 0, Elo=   0, ID=3214384\n<br>\n<a class=\"anchor\" name=\"17\"></a>"
           }
         },
         {
@@ -630,10 +738,10 @@
             "moreInfo": {
               "K": "0",
               "Elo": "0",
-              "anchor": "15"
+              "anchor": "18"
             },
-            "rawText": "15   Gajula,Nishitha     , K= 0, Elo=   0, ID=3218584",
-            "rawHtml": "  15   <strong>Gajula,Nishitha     </strong>, K= 0, Elo=   0, ID=3218584\n<br>\n<a class=\"anchor\" name=\"15\"></a>"
+            "rawText": "18   Gajula,Nishitha     , K= 0, Elo=   0, ID=3218584",
+            "rawHtml": "  18   <strong>Gajula,Nishitha     </strong>, K= 0, Elo=   0, ID=3218584\n<br>\n<a class=\"anchor\" name=\"18\"></a>"
           }
         },
         {
@@ -654,10 +762,10 @@
             "moreInfo": {
               "K": "0",
               "Elo": "0",
-              "anchor": "16"
+              "anchor": "19"
             },
-            "rawText": "16   Gunathilake,Sithev  , K= 0, Elo=   0, ID=0",
-            "rawHtml": "  16   <strong>Gunathilake,Sithev  </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"16\"></a>"
+            "rawText": "19   Gunathilake,Sithev  , K= 0, Elo=   0, ID=0",
+            "rawHtml": "  19   <strong>Gunathilake,Sithev  </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"19\"></a>"
           }
         },
         {
@@ -678,10 +786,10 @@
             "moreInfo": {
               "K": "0",
               "Elo": "0",
-              "anchor": "17"
+              "anchor": "20"
             },
-            "rawText": "17   Hii,Elliott         , K= 0, Elo=   0, ID=0",
-            "rawHtml": "  17   <strong>Hii,Elliott         </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"17\"></a>"
+            "rawText": "20   Hii,Elliott         , K= 0, Elo=   0, ID=0",
+            "rawHtml": "  20   <strong>Hii,Elliott         </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"20\"></a>"
           }
         },
         {
@@ -702,10 +810,10 @@
             "moreInfo": {
               "K": "0",
               "Elo": "0",
-              "anchor": "18"
+              "anchor": "21"
             },
-            "rawText": "18   Kaur,Mishleen       , K= 0, Elo=   0, ID=0",
-            "rawHtml": "  18   <strong>Kaur,Mishleen       </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"18\"></a>"
+            "rawText": "21   Kaur,Mishleen       , K= 0, Elo=   0, ID=0",
+            "rawHtml": "  21   <strong>Kaur,Mishleen       </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"21\"></a>"
           }
         },
         {
@@ -726,58 +834,10 @@
             "moreInfo": {
               "K": "0",
               "Elo": "0",
-              "anchor": "19"
+              "anchor": "22"
             },
-            "rawText": "19   Padoli,Darsh        , K= 0, Elo=   0, ID=0",
-            "rawHtml": "  19   <strong>Padoli,Darsh        </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"19\"></a>"
-          }
-        },
-        {
-          "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
-          ],
-          "rows": [],
-          "caption": {
-            "playerName": "Shetty,Yohan",
-            "id": "3218643",
-            "moreInfo": {
-              "K": "0",
-              "Elo": "0",
-              "anchor": "20"
-            },
-            "rawText": "20   Shetty,Yohan        , K= 0, Elo=   0, ID=3218643",
-            "rawHtml": "  20   <strong>Shetty,Yohan        </strong>, K= 0, Elo=   0, ID=3218643\n<br>\n<a class=\"anchor\" name=\"20\"></a>"
-          }
-        },
-        {
-          "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
-          ],
-          "rows": [],
-          "caption": {
-            "playerName": "Spriggs,Harvey",
-            "id": "3217545",
-            "moreInfo": {
-              "K": "0",
-              "Elo": "0",
-              "anchor": "21"
-            },
-            "rawText": "21   Spriggs,Harvey      , K= 0, Elo=   0, ID=3217545",
-            "rawHtml": "  21   <strong>Spriggs,Harvey      </strong>, K= 0, Elo=   0, ID=3217545\n<br>\n<a class=\"anchor\" name=\"21\"></a>"
+            "rawText": "22   Padoli,Darsh        , K= 0, Elo=   0, ID=0",
+            "rawHtml": "  22   <strong>Padoli,Darsh        </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"22\"></a>"
           }
         },
         {
@@ -798,10 +858,82 @@
             "moreInfo": {
               "K": "0",
               "Elo": "0",
-              "anchor": "22"
+              "anchor": "23"
             },
-            "rawText": "22   Saravanakumar,Thaswi, K= 0, Elo=   0, ID=0",
-            "rawHtml": "  22   <strong>Saravanakumar,Thaswi</strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"22\"></a>"
+            "rawText": "23   Saravanakumar,Thaswi, K= 0, Elo=   0, ID=0",
+            "rawHtml": "  23   <strong>Saravanakumar,Thaswi</strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"23\"></a>"
+          }
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Shetty,Yohan",
+            "id": "3218643",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "24"
+            },
+            "rawText": "24   Shetty,Yohan        , K= 0, Elo=   0, ID=3218643",
+            "rawHtml": "  24   <strong>Shetty,Yohan        </strong>, K= 0, Elo=   0, ID=3218643\n<br>\n<a class=\"anchor\" name=\"24\"></a>"
+          }
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Spriggs,Harvey",
+            "id": "3217545",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "25"
+            },
+            "rawText": "25   Spriggs,Harvey      , K= 0, Elo=   0, ID=3217545",
+            "rawHtml": "  25   <strong>Spriggs,Harvey      </strong>, K= 0, Elo=   0, ID=3217545\n<br>\n<a class=\"anchor\" name=\"25\"></a>"
+          }
+        },
+        {
+          "headers": [
+            "R",
+            "C",
+            "N",
+            "Cat",
+            "OPPONENT",
+            "Rtg",
+            "res",
+            "Pts"
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Vignesh,Prajeeth",
+            "id": "0",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "26"
+            },
+            "rawText": "26   Vignesh,Prajeeth    , K= 0, Elo=   0, ID=0",
+            "rawHtml": "  26   <strong>Vignesh,Prajeeth    </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"26\"></a>"
           }
         }
       ]
@@ -903,7 +1035,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "22"
+              "col2": "26"
             },
             {
               "col1": "Number of Federations",
@@ -911,7 +1043,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "639"
+              "col2": "587"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -923,7 +1055,7 @@
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "11"
+              "col2": "15"
             },
             {
               "col1": "FIDE rated players",
@@ -931,7 +1063,7 @@
             },
             {
               "col1": "unrated players",
-              "col2": "13"
+              "col2": "17"
             },
             {
               "col1": "unrated players from AUS Federation",
@@ -939,7 +1071,7 @@
             },
             {
               "col1": "unrated players NOT from AUS Federation",
-              "col2": "9"
+              "col2": "13"
             },
             {
               "col1": "unrated Federations",
@@ -1102,6 +1234,24 @@
     {
       "#": "10",
       "Title": "",
+      "Player": "Bo,Jeremie",
+      "Fed": "",
+      "Rtg": "429",
+      "RtgF": "0",
+      "RtgN": "429"
+    },
+    {
+      "#": "11",
+      "Title": "",
+      "Player": "Balamurugan,Soorya",
+      "Fed": "",
+      "Rtg": "411",
+      "RtgF": "0",
+      "RtgN": "411"
+    },
+    {
+      "#": "12",
+      "Title": "",
       "Player": "Gajula,Karan",
       "Fed": "",
       "Rtg": "377",
@@ -1109,7 +1259,16 @@
       "RtgN": "377"
     },
     {
-      "#": "11",
+      "#": "13",
+      "Title": "",
+      "Player": "Bo,Jamie",
+      "Fed": "",
+      "Rtg": "371",
+      "RtgF": "0",
+      "RtgN": "371"
+    },
+    {
+      "#": "14",
       "Title": "",
       "Player": "Goh,Julian",
       "Fed": "",
@@ -1118,7 +1277,7 @@
       "RtgN": "239"
     },
     {
-      "#": "12",
+      "#": "15",
       "Title": "",
       "Player": "Goh,Daphne",
       "Fed": "",
@@ -1127,7 +1286,7 @@
       "RtgN": "100"
     },
     {
-      "#": "13",
+      "#": "16",
       "Title": "",
       "Player": "Barar,Ridam",
       "Fed": "",
@@ -1136,7 +1295,7 @@
       "RtgN": "0"
     },
     {
-      "#": "14",
+      "#": "17",
       "Title": "",
       "Player": "Bhatia,Sannah",
       "Fed": "",
@@ -1145,7 +1304,7 @@
       "RtgN": "0"
     },
     {
-      "#": "15",
+      "#": "18",
       "Title": "",
       "Player": "Gajula,Nishitha",
       "Fed": "",
@@ -1154,7 +1313,7 @@
       "RtgN": "0"
     },
     {
-      "#": "16",
+      "#": "19",
       "Title": "",
       "Player": "Gunathilake,Sithev",
       "Fed": "",
@@ -1163,7 +1322,7 @@
       "RtgN": "0"
     },
     {
-      "#": "17",
+      "#": "20",
       "Title": "",
       "Player": "Hii,Elliott",
       "Fed": "",
@@ -1172,7 +1331,7 @@
       "RtgN": "0"
     },
     {
-      "#": "18",
+      "#": "21",
       "Title": "",
       "Player": "Kaur,Mishleen",
       "Fed": "",
@@ -1181,7 +1340,7 @@
       "RtgN": "0"
     },
     {
-      "#": "19",
+      "#": "22",
       "Title": "",
       "Player": "Padoli,Darsh",
       "Fed": "",
@@ -1190,7 +1349,7 @@
       "RtgN": "0"
     },
     {
-      "#": "20",
+      "#": "23",
       "Title": "",
       "Player": "Saravanakumar,Thaswin",
       "Fed": "",
@@ -1199,7 +1358,7 @@
       "RtgN": "0"
     },
     {
-      "#": "21",
+      "#": "24",
       "Title": "",
       "Player": "Shetty,Yohan",
       "Fed": "",
@@ -1208,9 +1367,18 @@
       "RtgN": "0"
     },
     {
-      "#": "22",
+      "#": "25",
       "Title": "",
       "Player": "Spriggs,Harvey",
+      "Fed": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "26",
+      "Title": "",
+      "Player": "Vignesh,Prajeeth",
       "Fed": "",
       "Rtg": "0",
       "RtgF": "0",
@@ -1229,16 +1397,16 @@
     "Rounds": "7",
     "Score game": "0-0.5-1",
     "Tie break": "BH BH/C1 SB",
-    "Registered Players": "22",
+    "Registered Players": "26",
     "Number of Federations": "4",
-    "Average Rating (all)": "639",
+    "Average Rating (all)": "587",
     "Average Rating (only FIDE rated)": "1482",
     "Players from AUS Federation": "11",
-    "Players NOT from AUS Federation": "11",
+    "Players NOT from AUS Federation": "15",
     "FIDE rated players": "9",
-    "unrated players": "13",
+    "unrated players": "17",
     "unrated players from AUS Federation": "4",
-    "unrated players NOT from AUS Federation": "9",
+    "unrated players NOT from AUS Federation": "13",
     "unrated Federations": "2",
     "FIDE titled players": "0",
     "GM players": "0",
