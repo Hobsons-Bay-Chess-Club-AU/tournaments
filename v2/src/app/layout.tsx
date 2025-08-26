@@ -46,9 +46,6 @@ export default function RootLayout({
                 <span className="text-xl md:text-2xl font-bold text-blue-700 tracking-wide">Hobsons Bay Chess Club</span>
               </Link>
             </div>
-            <nav>
-              <Link href="/timeline/" className="text-blue-600 hover:text-blue-900 font-semibold px-4 py-2 rounded transition">Timeline</Link>
-            </nav>
           </header>
           <main className="px0 md:px-4 pb-8">{children}</main>
           <footer className="bg-white border-t mt-12 py-6 text-gray-500 text-sm">
