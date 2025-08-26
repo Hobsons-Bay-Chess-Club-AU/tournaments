@@ -49,28 +49,28 @@
 <tr><td >Rounds</td> <td> 5</td> </tr>
 <tr><td >Score game</td> <td> 0-0.5-1</td> </tr>
 <tr><td >Tie break</td> <td>      BH </td> </tr>
-<tr><td >Registered Players</td> <td> 95</td> </tr>
-<tr><td > Number of Federations</td> <td> 6</td> </tr>
-<tr><td >Average Rating (all) </td> <td> 1121</td> </tr>
+<tr><td >Registered Players</td> <td> 101</td> </tr>
+<tr><td > Number of Federations</td> <td> 8</td> </tr>
+<tr><td >Average Rating (all) </td> <td> 1126</td> </tr>
 <tr><td >Average Rating (only FIDE rated) </td> <td> 1641</td> </tr>
-<tr ><td > Players from AUS Federation</td> <td> 3</td> </tr>
-<tr><td > Players NOT from AUS Federation</td> <td> 92</td> </tr>
+<tr ><td > Players from AUS Federation</td> <td> 1</td> </tr>
+<tr><td > Players NOT from AUS Federation</td> <td> 100</td> </tr>
 <tr><td > FIDE rated players </td> <td> 1</td> </tr>
-<tr><td > unrated players </td> <td> 94</td> </tr>
-<tr><td > unrated players from AUS Federation</td> <td> 3</td> </tr>
-<tr><td >unrated players NOT from AUS Federation</td> <td> 91</td> </tr>
-<tr><td > unrated Federations</td> <td> 5</td> </tr>
-<tr><td > FIDE titled players </td> <td> 13</td> </tr>
+<tr><td > unrated players </td> <td> 100</td> </tr>
+<tr><td > unrated players from AUS Federation</td> <td> 1</td> </tr>
+<tr><td >unrated players NOT from AUS Federation</td> <td> 99</td> </tr>
+<tr><td > unrated Federations</td> <td> 8</td> </tr>
+<tr><td > FIDE titled players </td> <td> 14</td> </tr>
 <tr><td > GM players </td> <td> 0</td> </tr>
 <tr><td >WGM players </td> <td> 0</td> </tr>
 <tr><td > IM players </td> <td> 1</td> </tr>
 <tr><td >WIM players</td> <td> 1</td> </tr>
 <tr><td >FM players</td> <td> 6</td> </tr>
 <tr><td >WFM players</td> <td> 1</td> </tr>
-<tr><td >CM players</td> <td> 4</td> </tr>
+<tr><td >CM players</td> <td> 5</td> </tr>
 <tr><td >WCM players</td> <td> 0</td> </tr>
 <tr><td >FIDE titled player from AUS Federation </td> <td> 0</td> </tr>
-<tr><td >FIDE titled player NOT from AUS Federation</td> <td> 13</td> </tr>
+<tr><td >FIDE titled player NOT from AUS Federation</td> <td> 14</td> </tr>
 </tbody>
 </table>
 </div>
