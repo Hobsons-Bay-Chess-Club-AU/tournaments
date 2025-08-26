@@ -12,7 +12,7 @@ interface TournamentMetaProps {
 
 const TournamentMeta: React.FC<TournamentMetaProps> = ({ metadata }) => {
     if (!metadata) return null;
-    
+
     // Map legacy keys to hero panel fields
     const name = String(metadata["Tournament Name"] || '');
     const startDate = String(metadata["Date Begin"] || '');
@@ -20,16 +20,16 @@ const TournamentMeta: React.FC<TournamentMetaProps> = ({ metadata }) => {
     const location = String(metadata["Place"] || '');
     const federation = String(metadata["Federation"] || '');
     const arbiter = String(metadata["Arbiter(s)"] || '');
-    
+
     // Format date range
     const dateRange = startDate && endDate ? `${startDate} - ${endDate}` : startDate || endDate;
-    
+
     return (
         <section className="relative w-full bg-gradient-to-br from-blue-900 via-blue-700 to-indigo-800 text-white shadow-2xl">
             {/* Decorative top border */}
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500"></div>
-            
-            <div className="px-6 py-12">
+
+            <div className="px-4 md:px-6 py-8 md:py-12">
                 {/* Tournament Title - Row 1 */}
                 {name && (
                     <div className="text-center mb-6">
@@ -39,7 +39,7 @@ const TournamentMeta: React.FC<TournamentMetaProps> = ({ metadata }) => {
                         <div className="w-24 h-1 bg-gradient-to-r from-yellow-400 to-orange-500 mx-auto rounded-full"></div>
                     </div>
                 )}
-                
+
                 {/* Location - Row 2 */}
                 {location && (
                     <div className="text-center mb-6">
@@ -54,7 +54,7 @@ const TournamentMeta: React.FC<TournamentMetaProps> = ({ metadata }) => {
                         </div>
                     </div>
                 )}
-                
+
                 {/* Date Range - Row 3 */}
                 {dateRange && (
                     <div className="text-center mb-8">
@@ -68,7 +68,7 @@ const TournamentMeta: React.FC<TournamentMetaProps> = ({ metadata }) => {
                         </div>
                     </div>
                 )}
-                
+
                 {/* Additional Information - Row 4 */}
                 {arbiter && (
                     <div className="text-center">
@@ -83,7 +83,7 @@ const TournamentMeta: React.FC<TournamentMetaProps> = ({ metadata }) => {
                     </div>
                 )}
             </div>
-            
+
             {/* Decorative elements */}
             <div className="absolute top-4 right-4 w-20 h-20 bg-white/5 rounded-full blur-xl"></div>
             <div className="absolute bottom-4 left-4 w-16 h-16 bg-yellow-400/10 rounded-full blur-lg"></div>
