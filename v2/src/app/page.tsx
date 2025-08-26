@@ -121,7 +121,7 @@ export default function Home() {
         />
 
         {/* Tournament Cards */}
-        <div className="py-8 px-4">
+        <div className="px-2 py-8 md:px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {filtered.length === 0 && (
               <div className="col-span-full text-center text-gray-500">No tournaments found for selected filters.</div>
@@ -200,10 +200,10 @@ export default function Home() {
         </div>
       </div>
       <iframe
-    src="https://bytehost-caller-931827105431.australia-southeast2.run.app/?url=http://hbcc.byethost10.com/?ago=30"
-    style={{ width: 0, height: 0, border: 'none', visibility: 'hidden', position: 'absolute' }}
-    title="bytehost-caller"
-  ></iframe>
+        src="https://bytehost-caller-931827105431.australia-southeast2.run.app/?url=http://hbcc.byethost10.com/?ago=30"
+        style={{ width: 0, height: 0, border: 'none', visibility: 'hidden', position: 'absolute' }}
+        title="bytehost-caller"
+      ></iframe>
 
     </div>
   );

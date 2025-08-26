@@ -26,31 +26,31 @@ export default function RootLayout({
   const buildTimeIso = process.env.NEXT_PUBLIC_BUILD_TIME;
   const buildTimeMelbourne = buildTimeIso
     ? new Date(buildTimeIso).toLocaleString('en-AU', {
-        timeZone: 'Australia/Melbourne',
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-        hour: 'numeric',
-        minute: '2-digit',
-        hour12: true,
-      })
+      timeZone: 'Australia/Melbourne',
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+      hour12: true,
+    })
     : undefined;
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <div className="bg-gradient-to-br from-blue-50 to-blue-200 min-h-screen font-sans">
-          <header className="bg-white shadow flex items-center justify-between px-6 py-4">
+          <header className="bg-white shadow flex items-center justify-between px-2 md:px-6 py-4">
             <div className="flex items-center gap-4">
-              <Link href= "/" className="flex items-center gap-4">
+              <Link href="/" className="flex items-center gap-4">
                 <img src="https://tournament.hobsonsbaychess.com/timeline/Logo.png" alt="HBCC Logo" width={40} height={40} className="rounded-full border border-blue-300" />
-                <span className="text-2xl font-bold text-blue-700 tracking-wide">Hobsons Bay Chess Club</span>
+                <span className="text-xl md:text-2xl font-bold text-blue-700 tracking-wide">Hobsons Bay Chess Club</span>
               </Link>
             </div>
             <nav>
               <Link href="/timeline/" className="text-blue-600 hover:text-blue-900 font-semibold px-4 py-2 rounded transition">Timeline</Link>
             </nav>
           </header>
-          <main className="px-4 pb-8">{children}</main>
+          <main className="px0 md:px-4 pb-8">{children}</main>
           <footer className="bg-white border-t mt-12 py-6 text-gray-500 text-sm">
             <div className="max-w-6xl mx-auto px-4">
               <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
@@ -69,7 +69,7 @@ export default function RootLayout({
                 Generated at : {buildTimeMelbourne}
               </div>
             </div>
-           
+
           </footer>
         </div>
       </body>

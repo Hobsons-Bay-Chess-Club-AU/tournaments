@@ -10,18 +10,17 @@ interface FilterTabsProps {
 const FilterTabs: React.FC<FilterTabsProps> = ({ options, activeOption, onOptionChange }) => {
     return (
         <nav className="bg-white border-b border-gray-200 shadow-sm">
-            <div className="px-4">
+            <div className="px-0 md:px-4">
                 {/* Desktop tabs */}
                 <div className="hidden lg:block">
                     <div className="flex justify-center border-b border-gray-200">
                         {options.map((option: string) => (
                             <button
                                 key={option}
-                                className={`relative px-8 py-4 font-medium text-sm transition-all duration-200 border-b-2 -mb-px ${
-                                    activeOption === option 
-                                        ? "text-blue-600 border-blue-600 bg-blue-50" 
-                                        : "text-gray-500 border-transparent hover:text-gray-700 hover:border-gray-300"
-                                }`}
+                                className={`relative px-8 py-4 font-medium text-sm transition-all duration-200 border-b-2 -mb-px ${activeOption === option
+                                    ? "text-blue-600 border-blue-600 bg-blue-50"
+                                    : "text-gray-500 border-transparent hover:text-gray-700 hover:border-gray-300"
+                                    }`}
                                 onClick={() => onOptionChange(option)}
                             >
                                 {option}
@@ -39,11 +38,10 @@ const FilterTabs: React.FC<FilterTabsProps> = ({ options, activeOption, onOption
                         {options.map((option: string) => (
                             <button
                                 key={option}
-                                className={`flex-1 px-4 py-4 font-medium text-sm transition-all duration-200 border-b-2 -mb-px ${
-                                    activeOption === option 
-                                        ? "text-blue-600 border-blue-600 bg-blue-50" 
-                                        : "text-gray-500 border-transparent hover:text-gray-700 hover:border-gray-300"
-                                }`}
+                                className={`flex-1 px-1 md:px-4 py-4 font-medium text-sm transition-all duration-200 border-b-2 -mb-px ${activeOption === option
+                                    ? "text-blue-600 border-blue-600 bg-blue-50"
+                                    : "text-gray-500 border-transparent hover:text-gray-700 hover:border-gray-300"
+                                    }`}
                                 onClick={() => onOptionChange(option)}
                             >
                                 {option}
