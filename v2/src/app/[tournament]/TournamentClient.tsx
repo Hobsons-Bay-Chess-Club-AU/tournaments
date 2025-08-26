@@ -390,7 +390,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                             {/* Mobile Cards */}
                                             <div className="lg:hidden">
                                                 {table.rows && table.rows.length > 0 ? (
-                                                    <div className="space-y-3 p-4">
+                                                    <div className="space-y-6 md:space-y-4 p-0 md:p-4">
                                                         {getFilteredAndSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
                                                             <div key={ridx} className={`bg-white rounded-lg border border-gray-200 p-4 shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
                                                                 {table.headers?.map((header: string, hidx: number) => (
