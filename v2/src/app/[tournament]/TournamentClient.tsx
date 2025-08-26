@@ -61,6 +61,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     // Auto-scroll effect for player cards
     useEffect(() => {
         if (data && page === "playercard.html" && playerId) {
+            console.log("should i scrolling ")
             console.log(`Auto-scroll: Looking for player ID ${playerId}`);
             // Small delay to ensure DOM is rendered
             const timer = setTimeout(() => {
@@ -75,7 +76,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                 } else {
                     console.log(`Auto-scroll: No table found with anchor ${playerId}`);
                 }
-            }, 100);
+            }, 500);
             return () => clearTimeout(timer);
         }
     }, [data, page, playerId]);
@@ -209,7 +210,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
             </div>
 
             {currentPageData && (
-                <div className="my-8 px-2 md:px-4 py-8">
+                <div className="my-8 px-2 md:px-4 py-0 md:py-8">
                     {currentPageData.pageHeading && (
                         <h2 className="text-3xl font-bold text-gray-900 mb-6 w-full text-center ">{currentPageData.pageHeading}</h2>
                     )}
@@ -243,7 +244,14 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                             {currentPageData.tables.map((table, idx) => (
                                 <div key={idx} className="space-y-4">
                                     {table.caption && (
-                                        <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+                                        <div
+                                            className="bg-white rounded-lg shadow-sm border border-gray-200 p-6"
+                                            id={
+                                                typeof table.caption === "object" && table.caption.moreInfo?.anchor
+                                                    ? "table-anchor-" + table.caption.moreInfo.anchor
+                                                    : undefined
+                                            }
+                                        >
                                             {typeof table.caption === 'string' ? (
                                                 <h3 className="text-lg font-semibold text-gray-900">{table.caption}</h3>
                                             ) : (
@@ -259,35 +267,6 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                             </span>
                                                         )}
                                                     </div>
-                                                    {typeof table.caption === 'object' && table.caption.moreInfo && Object.keys(table.caption.moreInfo).length > 0 && (
-                                                        <div className="flex flex-wrap gap-3 text-sm text-gray-600">
-                                                            {Object.entries(table.caption.moreInfo)
-                                                                .filter(([key]) => key !== 'anchor') // Hide anchor from display
-                                                                .map(([key, value]) => {
-                                                                    // Special handling for FIDE_ID to make it clickable
-                                                                    if (key === 'FIDE_ID' && value && String(value) !== '0') {
-                                                                        return (
-                                                                            <a
-                                                                                key={key}
-                                                                                href={`https://ratings.fide.com/profile/${value}`}
-                                                                                target="_blank"
-                                                                                rel="noopener noreferrer"
-                                                                                className="bg-purple-50 text-purple-700 px-2 py-1 rounded border hover:bg-purple-100 hover:text-purple-800 transition-colors"
-                                                                                onClick={(e) => e.stopPropagation()}
-                                                                            >
-                                                                                <span className="font-medium">{key}:</span> {String(value)}
-                                                                            </a>
-                                                                        );
-                                                                    }
-
-                                                                    return (
-                                                                        <span key={key} className="bg-white px-2 py-1 rounded border">
-                                                                            <span className="font-medium">{key}:</span> {String(value)}
-                                                                        </span>
-                                                                    );
-                                                                })}
-                                                        </div>
-                                                    )}
                                                 </div>
                                             )}
                                         </div>
