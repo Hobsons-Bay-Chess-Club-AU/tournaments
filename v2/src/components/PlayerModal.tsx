@@ -40,10 +40,10 @@ export default function PlayerModal({ player, onClose }: PlayerModalProps) {
   }, [ratings, hasAnyRatings]);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center">
+    <div className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto">
       <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" onClick={onClose} />
 
-      <div className="relative z-10 w-[96%] max-w-5xl rounded-2xl bg-white shadow-2xl border border-gray-200">
+      <div className="relative pb-5 z-10 w-[96%] max-w-5xl rounded-2xl bg-white shadow-2xl border border-gray-200 my-6 max-h-[90vh] overflow-y-auto">
         <div className="flex items-start justify-between p-5 border-b border-gray-100 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-2xl">
           <div className="flex items-start gap-3">
             <div className="mt-0.5 h-10 w-10 rounded-full bg-gradient-to-br from-indigo-100 to-blue-100 flex items-center justify-center text-indigo-700 shadow-inner">
@@ -80,41 +80,43 @@ export default function PlayerModal({ player, onClose }: PlayerModalProps) {
           </button>
         </div>
 
-        <div className="p-5 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="p-3 md:p-5 grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="md:col-span-1">
-            <div className="h-16 w-16 rounded-full bg-gradient-to-br from-indigo-100 to-blue-100 flex items-center justify-center text-indigo-700 font-bold text-2xl shadow-inner">
+            <div className="hidden p-5 md:block h-16 w-16 rounded-full bg-gradient-to-br from-indigo-100 to-blue-100 flex items-center justify-center text-indigo-700 font-bold text-2xl shadow-inner">
               {player.name.charAt(0).toUpperCase()}
             </div>
-            <div className="mt-4 space-y-2 text-sm">
-              <div className="text-gray-500">IDs</div>
-              <div className="flex items-center gap-2">
-                <span className="text-gray-600 inline-flex items-center gap-1"><FaIdCard className="opacity-70" /> FIDE:</span>
-                {player.fideId ? (
-                  <a
-                    href={`https://ratings.fide.com/profile/${player.fideId}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-600 hover:text-blue-800 hover:underline"
-                  >
-                    {player.fideId}
-                  </a>
-                ) : (
-                  <span className="text-gray-400">N/A</span>
-                )}
-              </div>
-              <div className="flex items-center gap-2">
-                <span className="text-gray-600 inline-flex items-center gap-1"><FaIdCard className="opacity-70" /> ACF:</span>
-                {player.acfId ? (
-                  <span className="text-gray-800">{player.acfId}</span>
-                ) : (
-                  <span className="text-gray-400">N/A</span>
-                )}
+            <div className="mt-1 md:mt-4 text-sm">
+              <div className="hidden md:block text-gray-500 mb-2">IDs</div>
+              <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+                <div className="inline-flex items-center gap-2">
+                  <span className="text-gray-600 inline-flex items-center gap-1"><FaIdCard className="opacity-70" /> FIDE:</span>
+                  {player.fideId ? (
+                    <a
+                      href={`https://ratings.fide.com/profile/${player.fideId}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:text-blue-800 hover:underline"
+                    >
+                      {player.fideId}
+                    </a>
+                  ) : (
+                    <span className="text-gray-400">N/A</span>
+                  )}
+                </div>
+                <div className="inline-flex items-center gap-2">
+                  <span className="text-gray-600 inline-flex items-center gap-1"><FaIdCard className="opacity-70" /> ACF:</span>
+                  {player.acfId ? (
+                    <span className="text-gray-800">{player.acfId}</span>
+                  ) : (
+                    <span className="text-gray-400">N/A</span>
+                  )}
+                </div>
               </div>
             </div>
           </div>
 
           <div className="md:col-span-2">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
               <div className="rounded-lg border border-gray-100 p-4 bg-gray-50">
                 <div className="text-xs uppercase tracking-wider text-gray-500 mb-2 inline-flex items-center gap-2">
                   <FaChessBoard />
@@ -157,8 +159,8 @@ export default function PlayerModal({ player, onClose }: PlayerModalProps) {
 
             <div className="mt-6 rounded-lg border border-gray-200">
               <div className="flex items-center justify-between px-4 py-3 border-b border-gray-200 bg-gray-50">
-                <div className="text-sm font-semibold text-gray-700">Rating Progress</div>
-                <div className="flex gap-2">
+                <div className="hidden sm:block text-sm font-semibold text-gray-700">Rating Progress</div>
+                <div className="flex gap-2  justify-end md:justify-start w-full md:w-auto ">
                   <button
                     type="button"
                     onClick={() => setMetric("standard")}
