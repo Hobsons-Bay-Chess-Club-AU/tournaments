@@ -6,8 +6,8 @@ on:
   push:
     paths:
       - .github/workflows/sync.yml
-      - src/*.*
-      - v2/*.*
+      - src/**
+      - v2/**
   workflow_dispatch:
     inputs:
       change_id:
@@ -27,6 +27,15 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Debug workflow trigger
+        run: |
+          echo "Workflow triggered by: ${{ github.event_name }}"
+          echo "Event payload: ${{ toJSON(github.event) }}"
+          echo "Changed files:"
+          git diff --name-only HEAD~1 || echo "No previous commit to compare"
+          echo "Current branch: ${{ github.ref }}"
+          echo "Repository: ${{ github.repository }}"
 
       - name: Cache top-level node_modules
         uses: actions/cache@v4
