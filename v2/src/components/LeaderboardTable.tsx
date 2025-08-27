@@ -15,22 +15,33 @@ type LeaderboardData = {
 
 const RATING_CATEGORIES = ["FIDE Standard", "FIDE Rapid", "FIDE Blitz", "ACF Classic", "ACF Quick"];
 
-export default function OpenLeaderboardPage() {
+type LeaderboardType = 'open' | 'junior';
+
+interface LeaderboardTableProps {
+  type: LeaderboardType;
+}
+
+export default function LeaderboardTable({ type }: LeaderboardTableProps) {
   const [players, setPlayers] = useState<Player[]>([]);
   const [activeCategory, setActiveCategory] = useState<string>("FIDE Standard");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [ageFilter, setAgeFilter] = useState<string>("under18");
 
+  const isJunior = type === 'junior';
+  const dataFile = isJunior ? 'junior-ratings.json' : 'open-ratings.json';
+  const title = isJunior ? 'Junior Leaderboard' : 'Open Leaderboard';
+  const colorScheme = isJunior ? 'green' : 'yellow';
+  const loadingColor = isJunior ? 'green' : 'yellow';
 
   useEffect(() => {
     const loadLeaderboardData = async () => {
       try {
         setLoading(true);
         
-        // Load open players data
-        const response = await fetch(`/open-ratings.json?t=${Date.now()}`);
+        const response = await fetch(`${process.env.NEXT_PUBLIC_APP_URL}/${dataFile}?t=${Date.now()}`);
         if (!response.ok) {
-          throw new Error('Failed to load open players data');
+          throw new Error(`Failed to load ${type} players data`);
         }
         
         const data: LeaderboardData = await response.json();
@@ -44,7 +55,7 @@ export default function OpenLeaderboardPage() {
     };
 
     loadLeaderboardData();
-  }, []);
+  }, [dataFile, type]);
 
   const getRatingForCategory = (player: Player, category: string): number => {
     switch (category) {
@@ -63,28 +74,115 @@ export default function OpenLeaderboardPage() {
     }
   };
 
+  const filterPlayersByAge = (players: Player[], filter: string): Player[] => {
+    if (!isJunior) return players; // No filtering for open leaderboard
+    
+    return players.filter(player => {
+      if (!player.birthYear) return true; // Include players without birth year
+      
+      const age = calculateAge(player.birthYear);
+      
+      // For junior leaderboard, always filter out players 18 and older
+      if (age >= 18) return false;
+      
+      switch (filter) {
+        case "under18":
+          return age < 18;
+        case "under16":
+          return age < 16;
+        case "under14":
+          return age < 14;
+        case "under12":
+          return age < 12;
+        case "under10":
+          return age < 10;
+        case "under8":
+          return age < 8;
+        case "all":
+          return true; // This will now only include players under 18 due to the filter above
+        default:
+          return age < 18;
+      }
+    });
+  };
 
+  const filteredPlayers = filterPlayersByAge(players, ageFilter);
   
-  const sortedPlayers = [...players].sort((a, b) => {
+  const sortedPlayers = [...filteredPlayers].sort((a, b) => {
     const ratingA = getRatingForCategory(a, activeCategory);
     const ratingB = getRatingForCategory(b, activeCategory);
     return ratingB - ratingA; // Sort by rating descending
   });
 
   const getRatingColor = (rating: number): string => {
-    if (rating >= 2000) return "text-purple-600 font-bold";
-    if (rating >= 1800) return "text-blue-600 font-semibold";
-    if (rating >= 1600) return "text-green-600 font-semibold";
-    if (rating >= 1400) return "text-yellow-600";
-    return "text-gray-600";
+    if (isJunior) {
+      if (rating >= 1600) return "text-purple-600 font-bold";
+      if (rating >= 1400) return "text-blue-600 font-semibold";
+      if (rating >= 1200) return "text-green-600 font-semibold";
+      if (rating >= 1000) return "text-yellow-600";
+      return "text-gray-600";
+    } else {
+      if (rating >= 2000) return "text-purple-600 font-bold";
+      if (rating >= 1800) return "text-blue-600 font-semibold";
+      if (rating >= 1600) return "text-green-600 font-semibold";
+      if (rating >= 1400) return "text-yellow-600";
+      return "text-gray-600";
+    }
   };
 
   const getAgeColor = (birthYear: number): string => {
     const age = calculateAge(birthYear);
-    if (age < 18) return "text-green-600 bg-green-100";
-    if (age < 25) return "text-blue-600 bg-blue-100";
-    if (age < 35) return "text-yellow-600 bg-yellow-100";
-    return "text-purple-600 bg-purple-100";
+    if (isJunior) {
+      if (age < 8) return "text-purple-600 bg-purple-100";
+      if (age < 10) return "text-blue-600 bg-blue-100";
+      if (age < 12) return "text-green-600 bg-green-100";
+      if (age < 14) return "text-yellow-600 bg-yellow-100";
+      if (age < 16) return "text-orange-600 bg-orange-100";
+      return "text-red-600 bg-red-100";
+    } else {
+      if (age < 18) return "text-green-600 bg-green-100";
+      if (age < 25) return "text-blue-600 bg-blue-100";
+      if (age < 35) return "text-yellow-600 bg-yellow-100";
+      return "text-purple-600 bg-purple-100";
+    }
+  };
+
+  const getAvatarColor = () => {
+    return isJunior ? 'bg-green-100' : 'bg-yellow-100';
+  };
+
+  const getAvatarTextColor = () => {
+    return isJunior ? 'text-green-600' : 'text-yellow-600';
+  };
+
+  const getHeaderGradient = () => {
+    return isJunior 
+      ? 'bg-gradient-to-r from-green-400 to-green-600' 
+      : 'bg-gradient-to-r from-yellow-400 to-yellow-600';
+  };
+
+  const getHeaderTextColor = () => {
+    return isJunior ? 'text-green-100' : 'text-yellow-100';
+  };
+
+  const getBackButtonColor = () => {
+    return isJunior ? 'text-green-600 hover:bg-green-50' : 'text-yellow-600 hover:bg-yellow-50';
+  };
+
+  const getInfoSectionColor = () => {
+    return isJunior ? 'bg-green-50' : 'bg-yellow-50';
+  };
+
+  const getInfoTextColor = () => {
+    return isJunior ? 'text-green-900' : 'text-yellow-900';
+  };
+
+  const getInfoContentColor = () => {
+    return isJunior ? 'text-green-800' : 'text-yellow-800';
+  };
+
+  const getInfoListColor = () => {
+    return isJunior ? 'text-green-700' : 'text-yellow-700';
   };
 
   if (loading) {
@@ -93,8 +191,8 @@ export default function OpenLeaderboardPage() {
         <HomeHero />
         <div className="bg-white min-h-screen flex items-center justify-center">
           <div className="text-center">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-yellow-600 mx-auto mb-4"></div>
-            <p className="text-gray-600">Loading open leaderboard...</p>
+            <div className={`animate-spin rounded-full h-12 w-12 border-b-2 border-${loadingColor}-600 mx-auto mb-4`}></div>
+            <p className="text-gray-600">Loading {type} leaderboard...</p>
           </div>
         </div>
       </div>
@@ -125,16 +223,16 @@ export default function OpenLeaderboardPage() {
       
       <div className="bg-white min-h-screen">
         {/* Header */}
-        <div className="bg-gradient-to-r from-yellow-400 to-yellow-600 text-white py-8">
+        <div className={`${getHeaderGradient()} text-white py-8`}>
           <div className="max-w-7xl mx-auto px-4">
             <div className="flex items-center justify-between">
               <div>
-                <h1 className="text-3xl font-bold">Open Leaderboard</h1>
-                <p className="text-yellow-100 mt-2">
-                  {players.length} players • {sortedPlayers[0]?.tournamentCount || 0} tournaments max participation
+                <h1 className="text-3xl font-bold">{title}</h1>
+                <p className={`${getHeaderTextColor()} mt-2`}>
+                  {filteredPlayers.length} players • {sortedPlayers[0]?.tournamentCount || 0} tournaments max participation
                 </p>
               </div>
-              <Link href="/leaderboard" className="bg-white text-yellow-600 px-4 py-2 rounded-lg font-semibold hover:bg-yellow-50 transition-colors">
+              <Link href="/leaderboard" className={`bg-white ${getBackButtonColor()} px-4 py-2 rounded-lg font-semibold transition-colors`}>
                 ← Back
               </Link>
             </div>
@@ -148,7 +246,32 @@ export default function OpenLeaderboardPage() {
           onOptionChange={setActiveCategory}
         />
 
-
+        {/* Age Filter - Only for Junior */}
+        {isJunior && (
+          <div className="max-w-7xl mx-auto px-4 py-4">
+            <div className="flex items-center justify-between bg-green-50 rounded-lg p-4 border border-green-200">
+              <div className="flex items-center space-x-4">
+                <label className="text-sm font-medium text-green-800">Age Filter:</label>
+                <select
+                  value={ageFilter}
+                  onChange={(e) => setAgeFilter(e.target.value)}
+                  className="border border-green-300 rounded-md px-3 py-1 text-sm bg-white text-green-800"
+                >
+                  <option value="under18">Under 18</option>
+                  <option value="under16">Under 16</option>
+                  <option value="under14">Under 14</option>
+                  <option value="under12">Under 12</option>
+                  <option value="under10">Under 10</option>
+                  <option value="under8">Under 8</option>
+                  <option value="all">All Junior Players</option>
+                </select>
+              </div>
+              <div className="text-sm text-green-700">
+                Showing {filteredPlayers.length} of {players.length} players
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Leaderboard Table */}
         <div className="max-w-7xl mx-auto px-4 py-8">
@@ -200,8 +323,8 @@ export default function OpenLeaderboardPage() {
                         <td className="px-6 py-4 whitespace-nowrap">
                           <div className="flex items-center">
                             <div className="flex-shrink-0 h-10 w-10">
-                              <div className="h-10 w-10 rounded-full bg-yellow-100 flex items-center justify-center">
-                                <span className="text-yellow-600 font-semibold">
+                              <div className={`h-10 w-10 rounded-full ${getAvatarColor()} flex items-center justify-center`}>
+                                <span className={`font-semibold ${getAvatarTextColor()}`}>
                                   {player.name.charAt(0).toUpperCase()}
                                 </span>
                               </div>
@@ -253,20 +376,22 @@ export default function OpenLeaderboardPage() {
           </div>
 
           {/* Info Section */}
-          <div className="mt-8 bg-yellow-50 rounded-lg p-6">
-            <h3 className="text-lg font-semibold text-yellow-900 mb-3">
-              About Open Players
+          <div className={`mt-8 ${getInfoSectionColor()} rounded-lg p-6`}>
+            <h3 className={`text-lg font-semibold ${getInfoTextColor()} mb-3`}>
+              About {isJunior ? 'Junior' : 'Open'} Players
             </h3>
-            <p className="text-yellow-800 mb-4">
-              These players have demonstrated consistent participation in open tournaments throughout the year, 
-              showing their dedication and competitive spirit in the chess community.
+            <p className={`${getInfoContentColor()} mb-4`}>
+              {isJunior 
+                ? 'These young players have shown exceptional dedication by participating in multiple junior tournaments throughout the year, demonstrating their growing skills and passion for chess.'
+                : 'These players have demonstrated consistent participation in open tournaments throughout the year, showing their dedication and competitive spirit in the chess community.'
+              }
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm text-yellow-700">
+            <div className={`grid grid-cols-1 md:grid-cols-3 gap-4 text-sm ${getInfoListColor()}`}>
               <div>
                 <strong>Eligibility:</strong>
                 <ul className="list-disc list-inside mt-1 ml-4">
                   <li>Multiple tournament participation</li>
-                  <li>Open category tournaments</li>
+                  <li>{isJunior ? 'Junior' : 'Open'} category tournaments</li>
                   <li>Active in current year</li>
                 </ul>
               </div>
@@ -284,8 +409,17 @@ export default function OpenLeaderboardPage() {
                 <strong>Age Groups:</strong>
                 <ul className="list-disc list-inside mt-1 ml-4">
                   <li>U8, U10, U12, U14, U16, U18</li>
-                  <li>U21, Open</li>
-                  <li>Filter by age range</li>
+                  {isJunior ? (
+                    <>
+                      <li>Filter by age range</li>
+                      <li>Focus on development</li>
+                    </>
+                  ) : (
+                    <>
+                      <li>U21, Open</li>
+                      <li>Filter by age range</li>
+                    </>
+                  )}
                 </ul>
               </div>
             </div>

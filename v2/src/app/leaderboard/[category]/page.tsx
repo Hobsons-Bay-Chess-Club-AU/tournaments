@@ -1,27 +1,26 @@
-import { notFound } from "next/navigation";
-import LeaderboardPage from "@/components/LeaderboardPage";
+"use client";
+import { useParams } from "next/navigation";
+import LeaderboardTable from "@/components/LeaderboardTable";
 
-interface CategoryPageProps {
-  params: Promise<{
-    category: string;
-  }>;
-}
+export default function CategoryLeaderboardPage() {
+  const params = useParams();
+  const category = params?.category as string;
 
-export default async function CategoryPage({ params }: CategoryPageProps) {
-  const { category } = await params;
-  
   // Validate category parameter
-  if (category !== "junior" && category !== "open") {
-    notFound();
+  if (category !== 'open' && category !== 'junior') {
+    return (
+      <div className="font-sans min-h-screen bg-gradient-to-br from-blue-50 to-blue-200 flex items-center justify-center">
+        <div className="text-center">
+          <div className="text-red-600 text-6xl mb-4">⚠️</div>
+          <p className="text-red-600 mb-4">Invalid leaderboard category</p>
+          <p className="text-gray-600 mb-4">Please use 'open' or 'junior'</p>
+          <a href="/leaderboard" className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+            Back to Leaderboards
+          </a>
+        </div>
+      </div>
+    );
   }
 
-  return <LeaderboardPage category={category} />;
-}
-
-// Generate static params for the categories
-export function generateStaticParams() {
-  return [
-    { category: "junior" },
-    { category: "open" }
-  ];
+  return <LeaderboardTable type={category as 'open' | 'junior'} />;
 }
