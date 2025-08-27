@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import HomeHero from "@/components/HomeHero";
 import FilterTabs from "@/components/FilterTabs";
 import { Player, calculateAge, getAgeGroup } from "@/utils/ratingLoader";
 
@@ -187,7 +186,6 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
   if (loading) {
     return (
       <div className="font-sans min-h-screen bg-gradient-to-br from-blue-50 to-blue-200">
-        <HomeHero />
         <div className="bg-white min-h-screen flex items-center justify-center">
           <div className="text-center">
             <div className={`animate-spin rounded-full h-12 w-12 border-b-2 border-${loadingColor}-600 mx-auto mb-4`}></div>
@@ -201,7 +199,6 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
   if (error) {
     return (
       <div className="font-sans min-h-screen bg-gradient-to-br from-blue-50 to-blue-200">
-        <HomeHero />
         <div className="bg-white min-h-screen flex items-center justify-center">
           <div className="text-center">
             <div className="text-red-600 text-6xl mb-4">⚠️</div>
@@ -218,7 +215,6 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
 
   return (
     <div className="font-sans min-h-screen bg-gradient-to-br from-blue-50 to-blue-200">
-      <HomeHero />
       
       <div className="bg-white min-h-screen">
         {/* Header */}
