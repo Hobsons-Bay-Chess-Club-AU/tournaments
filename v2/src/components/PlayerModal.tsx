@@ -1,12 +1,16 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { Player } from "@/utils/ratingLoader";
 import { FaIdCard, FaTransgender, FaBirthdayCake, FaChessBoard, FaTachometerAlt, FaBolt, FaAward, FaClock, FaUser } from "react-icons/fa";
+import { usePlayerRatings } from "@/hooks/usePlayerRatings";
+import { ResponsiveContainer, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from "recharts";
 
 interface PlayerModalProps {
   player: Player;
   onClose: () => void;
 }
+
+type MetricKey = "standard" | "rapid" | "blitz";
 
 export default function PlayerModal({ player, onClose }: PlayerModalProps) {
   useEffect(() => {
@@ -20,14 +24,26 @@ export default function PlayerModal({ player, onClose }: PlayerModalProps) {
   const birthYear = player.birthYear ?? null;
   const age = birthYear ? new Date().getFullYear() - birthYear : null;
 
+  const [metric, setMetric] = useState<MetricKey>("standard");
+  const ratings = usePlayerRatings(player.fideId || "");
+
+  const hasAnyRatings = ratings && ratings.length > 0;
+
+  const chartRows = useMemo(() => {
+    if (!hasAnyRatings) return [] as { date: string; standard: number | null; rapid: number | null; blitz: number | null }[];
+    return ratings.map((r) => ({
+      date: r.date_2 || "",
+      standard: r.rating,
+      rapid: r.rapid_rtng,
+      blitz: r.blitz_rtng,
+    }));
+  }, [ratings, hasAnyRatings]);
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center">
-      {/* Backdrop */}
       <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" onClick={onClose} />
 
-      {/* Modal Card */}
-      <div className="relative z-10 w-[92%] max-w-2xl rounded-2xl bg-white shadow-2xl border border-gray-200">
-        {/* Header */}
+      <div className="relative z-10 w-[96%] max-w-5xl rounded-2xl bg-white shadow-2xl border border-gray-200">
         <div className="flex items-start justify-between p-5 border-b border-gray-100 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-2xl">
           <div className="flex items-start gap-3">
             <div className="mt-0.5 h-10 w-10 rounded-full bg-gradient-to-br from-indigo-100 to-blue-100 flex items-center justify-center text-indigo-700 shadow-inner">
@@ -64,9 +80,7 @@ export default function PlayerModal({ player, onClose }: PlayerModalProps) {
           </button>
         </div>
 
-        {/* Content */}
         <div className="p-5 grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Avatar + Links */}
           <div className="md:col-span-1">
             <div className="h-16 w-16 rounded-full bg-gradient-to-br from-indigo-100 to-blue-100 flex items-center justify-center text-indigo-700 font-bold text-2xl shadow-inner">
               {player.name.charAt(0).toUpperCase()}
@@ -99,12 +113,13 @@ export default function PlayerModal({ player, onClose }: PlayerModalProps) {
             </div>
           </div>
 
-          {/* Ratings */}
           <div className="md:col-span-2">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="rounded-lg border border-gray-100 p-4 bg-gray-50">
                 <div className="text-xs uppercase tracking-wider text-gray-500 mb-2 inline-flex items-center gap-2">
-                  <span className=" sm:inline">FIDE Rating</span>
+                  <FaChessBoard />
+                  <span className="hidden sm:inline">FIDE Standard</span>
+                  <span className="sm:hidden">Standard</span>
                 </div>
                 <ul className="space-y-1 text-sm">
                   <li className="flex items-center justify-between">
@@ -123,7 +138,9 @@ export default function PlayerModal({ player, onClose }: PlayerModalProps) {
               </div>
               <div className="rounded-lg border border-gray-100 p-4 bg-gray-50">
                 <div className="text-xs uppercase tracking-wider text-gray-500 mb-2 inline-flex items-center gap-2">
-                  <span className="sm:inline">ACF Classic</span>
+                  <FaAward />
+                  <span className="hidden sm:inline">ACF Classic</span>
+                  <span className="sm:hidden">Classic</span>
                 </div>
                 <ul className="space-y-1 text-sm">
                   <li className="flex items-center justify-between">
@@ -138,7 +155,65 @@ export default function PlayerModal({ player, onClose }: PlayerModalProps) {
               </div>
             </div>
 
-            {/* Participation */}
+            <div className="mt-6 rounded-lg border border-gray-200">
+              <div className="flex items-center justify-between px-4 py-3 border-b border-gray-200 bg-gray-50">
+                <div className="text-sm font-semibold text-gray-700">Rating Progress</div>
+                <div className="flex gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setMetric("standard")}
+                    className={`px-3 py-1.5 rounded-md text-sm inline-flex items-center gap-2 ${metric === "standard" ? "bg-blue-600 text-white" : "bg-white text-gray-700 border"}`}
+                  >
+                    <FaChessBoard /> <span className="hidden sm:inline">Standard</span><span className="sm:hidden">Std</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setMetric("rapid")}
+                    className={`px-3 py-1.5 rounded-md text-sm inline-flex items-center gap-2 ${metric === "rapid" ? "bg-blue-600 text-white" : "bg-white text-gray-700 border"}`}
+                  >
+                    <FaTachometerAlt /> <span className="hidden sm:inline">Rapid</span><span className="sm:hidden">Rap</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setMetric("blitz")}
+                    className={`px-3 py-1.5 rounded-md text-sm inline-flex items-center gap-2 ${metric === "blitz" ? "bg-blue-600 text-white" : "bg-white text-gray-700 border"}`}
+                  >
+                    <FaBolt /> <span className="hidden sm:inline">Blitz</span><span className="sm:hidden">Blz</span>
+                  </button>
+                </div>
+              </div>
+              <div className="p-4">
+                {!player.fideId && (
+                  <div className="text-sm text-gray-500">No FIDE ID available. Rating progress is unavailable.</div>
+                )}
+                {player.fideId && !hasAnyRatings && (
+                  <div className="text-sm text-gray-500">No rating history found.</div>
+                )}
+                {player.fideId && hasAnyRatings && (
+                  <div className="w-full h-64">
+                    <ResponsiveContainer width="100%" height="100%">
+                      <LineChart data={chartRows} margin={{ top: 8, right: 16, bottom: 8, left: 0 }}>
+                        <CartesianGrid strokeDasharray="3 3" />
+                        <XAxis dataKey="date" tick={{ fontSize: 12 }} minTickGap={24} />
+                        <YAxis allowDecimals={false} domain={["dataMin - 20", "dataMax + 20"]} tick={{ fontSize: 12 }} />
+                        <Tooltip />
+                        <Legend />
+                        {metric === "standard" && (
+                          <Line type="monotone" dataKey="standard" name="FIDE Standard" stroke="#2563eb" strokeWidth={2} dot={false} />
+                        )}
+                        {metric === "rapid" && (
+                          <Line type="monotone" dataKey="rapid" name="FIDE Rapid" stroke="#16a34a" strokeWidth={2} dot={false} />
+                        )}
+                        {metric === "blitz" && (
+                          <Line type="monotone" dataKey="blitz" name="FIDE Blitz" stroke="#f59e0b" strokeWidth={2} dot={false} />
+                        )}
+                      </LineChart>
+                    </ResponsiveContainer>
+                  </div>
+                )}
+              </div>
+            </div>
+
             <div className="mt-4">
               <div className="text-xs uppercase tracking-wider text-gray-500 mb-2">Participation</div>
               <div className="text-sm text-gray-700">
@@ -148,7 +223,6 @@ export default function PlayerModal({ player, onClose }: PlayerModalProps) {
           </div>
         </div>
 
-        {/* Footer */}
         <div className="flex items-center justify-end gap-3 px-5 pb-5">
           <button
             onClick={onClose}

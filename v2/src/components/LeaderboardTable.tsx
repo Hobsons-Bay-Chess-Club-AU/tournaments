@@ -332,7 +332,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
                                 </div>
                               </div>
                               <div className="ml-4">
-                                <div className="text-sm font-medium text-gray-900 hover:text-blue-600">
+                                <div className="text-sm font-medium text-gray-900 hover:text-blue-600 cursor-pointer" onClick={() => setSelectedPlayer(player)}>
                                   {player.name}
                                   {player.title && <span className="ml-2 text-xs text-blue-600 font-semibold">{player.title}</span>}
                                 </div>
