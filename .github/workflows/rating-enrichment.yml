@@ -1,0 +1,83 @@
+name: Daily Rating Enrichment
+
+on:
+  schedule:
+    # Run daily at 2:00 AM UTC (10:00 AM AEST)
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  enrich-ratings:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          npm install
+
+      - name: Run rating enrichment script
+        run: |
+          node src/rating-enrichment.mjs
+        env:
+          # Add any environment variables if needed for the script
+          NODE_ENV: production
+
+      - name: Copy updated files to v2/public
+        run: |
+          cp www/junior-ratings.json v2/public/
+          cp www/open-ratings.json v2/public/
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet; then
+            echo "no_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "no_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Configure Git
+        if: steps.check_changes.outputs.no_changes != 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.no_changes != 'true'
+        run: |
+          git add www/junior-ratings.json www/open-ratings.json v2/public/junior-ratings.json v2/public/open-ratings.json
+          git commit -m "🤖 Auto-update: Refresh FIDE and ACF ratings data
+
+          - Updated junior and senior player ratings
+          - Fetched latest FIDE and ACF rating lists
+          - Generated on $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Comment on commit
+        if: steps.check_changes.outputs.no_changes != 'true'
+        run: |
+          echo "✅ Rating enrichment completed successfully!"
+          echo "📊 Updated files:"
+          echo "  - www/junior-ratings.json"
+          echo "  - www/open-ratings.json"
+          echo "  - v2/public/junior-ratings.json"
+          echo "  - v2/public/open-ratings.json"
+
+      - name: No changes notification
+        if: steps.check_changes.outputs.no_changes == 'true'
+        run: |
+          echo "ℹ️ No changes detected - ratings are already up to date"
