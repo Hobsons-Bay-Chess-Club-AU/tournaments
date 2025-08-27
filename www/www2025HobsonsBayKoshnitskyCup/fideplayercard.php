@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs3.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs4.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
@@ -54,12 +54,19 @@
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="6"></a> N = 6<a href="http://ratings.fide.com/profile/2054515" target="X"> Paul,Cijo </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
- <td>1</td><td>W </td><td>24</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#24">Annadasu,Shreyansh</td><td>3275779</td><td>AUS</td><td>1506</td><td>1</td></tr></tbody>
+ <td>1</td><td>W </td><td>24</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#24">Annadasu,Shreyansh</td><td>3275779</td><td>AUS</td><td>1506</td><td>1</td></tr><tr> 
+ <td>3</td><td> B</td><td>1</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#1">Hogg,Dean</td><td>3204332</td><td>AUS</td><td>1930</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="10"></a> N = 10<a href="http://ratings.fide.com/profile/7134827" target="X"> Wongso,Renaldo </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
- <td>1</td><td>W </td><td>27</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#27">Singh,Abhyuday</td><td>3275795</td><td>AUS</td><td>1542</td><td>1</td></tr></tbody>
+ <td>1</td><td>W </td><td>27</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#27">Singh,Abhyuday</td><td>3275795</td><td>AUS</td><td>1542</td><td>1</td></tr><tr> 
+ <td>3</td><td>W </td><td>7</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#7">Hari,Dhruv</td><td>3255360</td><td>AUS</td><td>1737</td><td>0.5</td></tr></tbody>
+</table><br><br>
+<table class="table caption-top table-striped "> 
+<caption> <a class="anchor" name="11"></a> N = 11<a href="http://ratings.fide.com/profile/3242900" target="X"> Pasukov,Leo </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
+<tr> 
+ <td>3</td><td>W </td><td>17</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#17">Bodke,Krishna</td><td>3259021</td><td>AUS</td><td>1696</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="12"></a> N = 12<a href="http://ratings.fide.com/profile/3201414" target="X"> Hogan,Steven </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -69,7 +76,8 @@
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="13"></a> N = 13<a href="http://ratings.fide.com/profile/3214915" target="X"> Nowak,Ruben </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
- <td>2</td><td> B</td><td>5</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#5">Lingineni,Khushal</td><td>3259056</td><td>AUS</td><td>1835</td><td>0</td></tr></tbody>
+ <td>2</td><td> B</td><td>5</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#5">Lingineni,Khushal</td><td>3259056</td><td>AUS</td><td>1835</td><td>0</td></tr><tr> 
+ <td>3</td><td>W </td><td>21</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#21">Ramanathan,Ashwin</td><td>3275221</td><td>AUS</td><td>1613</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="17"></a> N = 17<a href="http://ratings.fide.com/profile/3259021" target="X"> Bodke,Krishna </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -84,12 +92,19 @@
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="21"></a> N = 21<a href="http://ratings.fide.com/profile/3275221" target="X"> Ramanathan,Ashwin </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
- <td>1</td><td>W </td><td>5</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#5">Lingineni,Khushal</td><td>3259056</td><td>AUS</td><td>1835</td><td>0</td></tr></tbody>
+ <td>1</td><td>W </td><td>5</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#5">Lingineni,Khushal</td><td>3259056</td><td>AUS</td><td>1835</td><td>0</td></tr><tr> 
+ <td>3</td><td> B</td><td>13</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#13">Nowak,Ruben</td><td>3214915</td><td>AUS</td><td>1667</td><td>1</td></tr></tbody>
+</table><br><br>
+<table class="table caption-top table-striped "> 
+<caption> <a class="anchor" name="22"></a> N = 22<a href="http://ratings.fide.com/profile/3255689" target="X"> Wilkinson,Greg </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
+<tr> 
+ <td>3</td><td>W </td><td>12</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#12">Hogan,Steven</td><td>3201414</td><td>AUS</td><td>1620</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="23"></a> N = 23<a href="http://ratings.fide.com/profile/3234134" target="X"> Clerk,Max </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
- <td>2</td><td> B</td><td>7</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#7">Hari,Dhruv</td><td>3255360</td><td>AUS</td><td>1737</td><td>0</td></tr></tbody>
+ <td>2</td><td> B</td><td>7</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#7">Hari,Dhruv</td><td>3255360</td><td>AUS</td><td>1737</td><td>0</td></tr><tr> 
+ <td>3</td><td>W </td><td>24</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#24">Annadasu,Shreyansh</td><td>3275779</td><td>AUS</td><td>1506</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="28"></a> N = 28<a href="http://ratings.fide.com/profile/3270335" target="X"> Nguyen,Tuan Kiet </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -101,6 +116,11 @@
 <caption> <a class="anchor" name="30"></a> N = 30<a href="http://ratings.fide.com/profile/3286380" target="X"> Shaiek,Nihal </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
  <td>1</td><td> B</td><td>13</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#13">Nowak,Ruben</td><td>3214915</td><td>AUS</td><td>1667</td><td>0</td></tr></tbody>
+</table><br><br>
+<table class="table caption-top table-striped "> 
+<caption> <a class="anchor" name="33"></a> N = 33<a href="http://ratings.fide.com/profile/0" target="X"> Sheikh,Tahmid </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
+<tr> 
+ <td>3</td><td>W </td><td>27</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#27">Singh,Abhyuday</td><td>3275795</td><td>AUS</td><td>1542</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="34"></a> N = 34<a href="http://ratings.fide.com/profile/0" target="X"> Singh,Aradhya </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
