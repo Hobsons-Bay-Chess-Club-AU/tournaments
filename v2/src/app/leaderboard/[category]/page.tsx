@@ -10,13 +10,13 @@ export function generateStaticParams() {
 }
 
 interface CategoryLeaderboardPageProps {
-  params: {
+  params: Promise<{
     category: string;
-  };
+  }>;
 }
 
-export default function CategoryLeaderboardPage({ params }: CategoryLeaderboardPageProps) {
-  const { category } = params;
+export default async function CategoryLeaderboardPage({ params }: CategoryLeaderboardPageProps) {
+  const { category } = await params;
 
   // Validate category parameter
   if (category !== 'open' && category !== 'junior') {
