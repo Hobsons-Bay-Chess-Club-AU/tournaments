@@ -189,17 +189,7 @@ async function enrichRatings(inputPath, outputPath, fideMap = null, acfClassicMa
         }
       }
       
-      // Debug: Check for Venkat,Nyra specifically
-      if (player.name === "Venkat,Nyra") {
-        console.log(`🔍 Debugging Venkat,Nyra:`);
-        console.log(`  - normName: "${normName}"`);
-        console.log(`  - fideId: "${player.fideId}"`);
-        console.log(`  - fideMap.has(normName): ${fideMap.has(normName)}`);
-        console.log(`  - fideMap.has(player.fideId): ${player.fideId ? fideMap.has(player.fideId) : 'no fideId'}`);
-        if (fideMap.has(normName)) {
-          console.log(`  - Found match:`, fideMap.get(normName));
-        }
-      }
+
     }
     // Update FIDE ID if we found a match
     let updatedFideId = player.fideId || "";
@@ -316,66 +306,9 @@ async function main() {
     if (p.name) wantedNames.add(normaliseName(p.name));
   });
   
-  // Debug: Check if Venkat,Nyra is in wantedNames
-  console.log(`🔍 Checking wantedNames for "venkat,nyra": ${wantedNames.has('venkat,nyra')}`);
-  console.log(`🔍 Wanted names count: ${wantedNames.size}`);
-  console.log(`🔍 Wanted IDs count: ${wantedIds.size}`);
-  // Parse ALL FIDE players (not just matching ones) for debugging
-  const allFidePlayers = parseFideTxt(txtFile, new Set(), new Set());
-  const allFideMap = buildFideMap(allFidePlayers);
-  
-  // Parse only matching FIDE players for actual enrichment
+  // Parse FIDE players for enrichment
   const fidePlayers = parseFideTxt(txtFile, wantedIds, wantedNames);
   const fideMap = buildFideMap(fidePlayers);
-  
-  // Debug: Write sample of ALL FIDE map keys to JSON file (first 1000 entries)
-  const fideKeysDebug = {
-    totalKeys: allFideMap.size,
-    lastUpdated: new Date().toISOString(),
-    matchingKeys: fideMap.size,
-    sampleSize: 1000,
-    keys: []
-  };
-  
-  // Debug: Search for specific player
-  const searchName = "venkat,nyra";
-  console.log(`🔍 Searching for player: "${searchName}"`);
-  if (allFideMap.has(searchName)) {
-    const player = allFideMap.get(searchName);
-    console.log(`✅ Found player:`, player);
-  } else {
-    console.log(`❌ Player "${searchName}" not found in FIDE dataset`);
-    // Search for partial matches
-    let found = false;
-    for (const [key, value] of allFideMap.entries()) {
-      if (key.includes('venkat') || key.includes('nyra')) {
-        console.log(`🔍 Partial match found: key="${key}", player=`, value);
-        found = true;
-      }
-    }
-    if (!found) {
-      console.log(`❌ No partial matches found for "venkat" or "nyra"`);
-    }
-  }
-  
-  let count = 0;
-  for (const [key, value] of allFideMap.entries()) {
-    if (count >= 1000) break; // Limit to first 1000 entries
-    fideKeysDebug.keys.push({
-      key: key,
-      fideId: value.fideid,
-      name: value.name,
-      title: value.title,
-      rating: value.rating,
-      rapid_rating: value.rapid_rating,
-      blitz_rating: value.blitz_rating
-    });
-    count++;
-  }
-  
-  const debugPath = join(__dirname, '../www/fide-keys-debug.json');
-  writeFileSync(debugPath, JSON.stringify(fideKeysDebug, null, 2), 'utf8');
-  console.log(`🔍 Debug: Sample FIDE keys written to ${debugPath} (${allFideMap.size} total keys, ${fideMap.size} matching keys, showing first 1000)`);
   
   // Parse ACF Classic and Quick
   const acfClassicMap = parseVegFile(acfClassicVeg);
