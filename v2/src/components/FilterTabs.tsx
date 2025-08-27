@@ -45,9 +45,6 @@ const FilterTabs: React.FC<FilterTabsProps> = ({ options, activeOption, onOption
                                 onClick={() => onOptionChange(option)}
                             >
                                 {option}
-                                {activeOption === option && (
-                                    <div className="absolute inset-x-0 bottom-0 h-0.5 bg-blue-600"></div>
-                                )}
                             </button>
                         ))}
                     </div>

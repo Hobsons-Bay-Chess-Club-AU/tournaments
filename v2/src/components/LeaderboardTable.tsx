@@ -28,6 +28,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
   const [error, setError] = useState<string | null>(null);
   const [ageFilter, setAgeFilter] = useState<string>("under18");
   const [selectedPlayer, setSelectedPlayer] = useState<Player | null>(null);
+  const [genderFilter, setGenderFilter] = useState<string>("all");
 
   const isJunior = type === 'junior';
   const dataFile = isJunior ? 'junior-ratings.json' : 'open-ratings.json';
@@ -78,6 +79,12 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
     if (!isJunior) return players; // No filtering for open leaderboard
     
     return players.filter(player => {
+      // Gender filter: only apply for junior and when girls selected
+      if (genderFilter === 'girls') {
+        const isFemale = (player.gender || '').toLowerCase() === 'female';
+        if (!isFemale) return false;
+      }
+
       if (!player.birthYear) return true; // Include players without birth year
       
       const age = calculateAge(player.birthYear);
@@ -261,6 +268,17 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
                   <option value="under10">Under 10</option>
                   <option value="under8">Under 8</option>
                   <option value="all">All Junior Players</option>
+                </select>
+              </div>
+              <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 w-full sm:w-auto">
+                <label className="text-sm font-medium text-green-800 mb-2 sm:mb-0">Gender:</label>
+                <select
+                  value={genderFilter}
+                  onChange={(e) => setGenderFilter(e.target.value)}
+                  className="border border-green-300 rounded-md px-3 py-2 text-sm bg-white text-green-800 w-full sm:w-56"
+                >
+                  <option value="all">All</option>
+                  <option value="girls">Girls</option>
                 </select>
               </div>
               <div className="text-sm text-green-700 w-full sm:w-auto sm:text-right">
