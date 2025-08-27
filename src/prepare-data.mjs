@@ -516,13 +516,12 @@ function isCurrentYearTournament(metadata) {
 // Function to generate unique players files
 async function generateUniquePlayersFiles(tournaments) {
     const currentYear = new Date().getFullYear().toString();
-    const seniorPlayers = new Map(); // Map to track player participation
-    const juniorPlayers = new Map(); // Map to track player participation
-    const playerTournaments = new Map(); // Track which tournaments each player participated in
+    const seniorPlayers = new Map(); // Map to track senior tournament participation
+    const juniorPlayers = new Map(); // Map to track junior tournament participation
     
     console.log(`Processing tournaments for year ${currentYear}...`);
     
-    // First pass: collect all players and their tournament participation
+    // First pass: collect all players and their tournament participation by category
     for (const tournament of tournaments) {
         // Check if tournament is from current year
         if (!isCurrentYearTournament(tournament.data)) {
@@ -540,24 +539,28 @@ async function generateUniquePlayersFiles(tournaments) {
             // Extract players from this tournament
             const players = extractUniquePlayers(tournamentData);
             
-            // Track tournament participation for each player
+            // Track tournament participation by category
             players.forEach(player => {
                 const playerKey = player.name;
                 
-                if (!playerTournaments.has(playerKey)) {
-                    playerTournaments.set(playerKey, {
-                        player: player,
-                        tournaments: [],
-                        category: tournament.category
-                    });
-                }
-                
-                const playerData = playerTournaments.get(playerKey);
-                playerData.tournaments.push(tournament.path);
-                
-                // Update category if this is a senior tournament and player isn't already categorized as senior
                 if (tournament.category === 'Senior') {
-                    playerData.category = 'Senior';
+                    // Track senior tournament participation
+                    if (!seniorPlayers.has(playerKey)) {
+                        seniorPlayers.set(playerKey, {
+                            player: player,
+                            tournaments: []
+                        });
+                    }
+                    seniorPlayers.get(playerKey).tournaments.push(tournament.path);
+                } else {
+                    // Track junior tournament participation
+                    if (!juniorPlayers.has(playerKey)) {
+                        juniorPlayers.set(playerKey, {
+                            player: player,
+                            tournaments: []
+                        });
+                    }
+                    juniorPlayers.get(playerKey).tournaments.push(tournament.path);
                 }
             });
             
@@ -569,20 +572,26 @@ async function generateUniquePlayersFiles(tournaments) {
     }
     
     // Count total tournaments for the year
-    const currentYearTournaments = Array.from(playerTournaments.values())
-        .flatMap(p => p.tournaments)
-        .filter((tournament, index, arr) => arr.indexOf(tournament) === index); // Remove duplicates
-    
-    const totalTournaments = currentYearTournaments.length;
+    const allTournaments = new Set();
+    for (const tournament of tournaments) {
+        if (isCurrentYearTournament(tournament.data)) {
+            allTournaments.add(tournament.path);
+        }
+    }
+    const totalTournaments = allTournaments.size;
     console.log(`Total tournaments in ${currentYear}: ${totalTournaments}`);
     
-    // Second pass: filter players based on participation criteria
-    for (const [playerName, playerData] of playerTournaments) {
+    // Second pass: filter players based on participation criteria for each category
+    const seniorPlayersArray = [];
+    const juniorPlayersArray = [];
+    
+    // Process senior players
+    for (const [playerName, playerData] of seniorPlayers) {
         const uniqueTournaments = [...new Set(playerData.tournaments)]; // Remove duplicate tournament entries
         const tournamentCount = uniqueTournaments.length;
         
         // Keep player if:
-        // 1. They played in more than 1 tournament, OR
+        // 1. They played in more than 1 senior tournament, OR
         // 2. There's only 1 tournament total for the year (beginning of year case)
         if (tournamentCount > 1 || totalTournaments === 1) {
             const player = {
@@ -590,18 +599,31 @@ async function generateUniquePlayersFiles(tournaments) {
                 tournamentCount: tournamentCount,
                 tournaments: uniqueTournaments
             };
-            
-            if (playerData.category === 'Senior') {
-                seniorPlayers.set(playerName, player);
-            } else {
-                juniorPlayers.set(playerName, player);
-            }
+            seniorPlayersArray.push(player);
         }
     }
     
-    // Convert Maps to arrays and sort by name
-    const seniorPlayersArray = Array.from(seniorPlayers.values()).sort((a, b) => a.name.localeCompare(b.name));
-    const juniorPlayersArray = Array.from(juniorPlayers.values()).sort((a, b) => a.name.localeCompare(b.name));
+    // Process junior players
+    for (const [playerName, playerData] of juniorPlayers) {
+        const uniqueTournaments = [...new Set(playerData.tournaments)]; // Remove duplicate tournament entries
+        const tournamentCount = uniqueTournaments.length;
+        
+        // Keep player if:
+        // 1. They played in more than 1 junior tournament, OR
+        // 2. There's only 1 tournament total for the year (beginning of year case)
+        if (tournamentCount > 1 || totalTournaments === 1) {
+            const player = {
+                ...playerData.player,
+                tournamentCount: tournamentCount,
+                tournaments: uniqueTournaments
+            };
+            juniorPlayersArray.push(player);
+        }
+    }
+    
+    // Sort arrays by name
+    seniorPlayersArray.sort((a, b) => a.name.localeCompare(b.name));
+    juniorPlayersArray.sort((a, b) => a.name.localeCompare(b.name));
     
     // Write senior players file
     const seniorPlayersPath = path.join(WWW_FOLDER, 'senior-players.json');

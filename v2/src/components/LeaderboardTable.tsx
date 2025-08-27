@@ -365,7 +365,20 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
                           </div>
                         </td>
                         <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                          {player.fideId || 'N/A'}
+                          {player.fideId ? (
+                            <a
+                              href={`https://ratings.fide.com/profile/${player.fideId}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center text-blue-600 hover:text-blue-800 hover:underline transition-colors font-medium"
+                              title={`View ${player.name}'s FIDE Profile`}
+                            >
+                              {player.fideId}
+                              <span className="ml-1 text-xs opacity-70">↗</span>
+                            </a>
+                          ) : (
+                            'N/A'
+                          )}
                         </td>
                       </tr>
                     );

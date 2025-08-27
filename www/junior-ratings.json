@@ -1,9 +1,52 @@
 {
-  "generatedAt": "2025-08-27T00:07:54.303Z",
+  "generatedAt": "2025-08-27T05:17:21.685Z",
   "year": "2025",
-  "count": 23,
-  "totalTournaments": 20,
+  "count": 58,
+  "totalTournaments": 27,
   "players": [
+    {
+      "name": "Ahmad,Ihtiram",
+      "id": "",
+      "fideId": "532011059",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=532011059",
+      "tournamentCount": 4,
+      "tournaments": [
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json",
+        "www2025WesternJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 1682,
+      "fideRapid": 1554,
+      "fideBlitz": 1560,
+      "acfClassic": 841,
+      "acfQuick": 889,
+      "acfId": "0012854"
+    },
+    {
+      "name": "Annadasu,Shreyansh",
+      "id": "",
+      "fideId": "3275779",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=3275779",
+      "tournamentCount": 3,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json"
+      ],
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 1506,
+      "fideRapid": 1417,
+      "fideBlitz": 1542,
+      "acfClassic": 1029,
+      "acfQuick": 954,
+      "acfId": "3210254"
+    },
     {
       "name": "Aryan,Srivatsav Yegnavajjula",
       "id": "",
@@ -23,6 +66,75 @@
       "acfClassic": 0,
       "acfQuick": 0,
       "acfId": ""
+    },
+    {
+      "name": "Ashok,Arjun",
+      "id": "",
+      "fideId": "3275108",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=3275108",
+      "tournamentCount": 5,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json",
+        "www2025WesternJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2015,
+      "fideStandard": 1557,
+      "fideRapid": 1538,
+      "fideBlitz": 0,
+      "acfClassic": 930,
+      "acfQuick": 808,
+      "acfId": "3204632"
+    },
+    {
+      "name": "Balaji,Sai Sivesh",
+      "id": "",
+      "fideId": "3286258",
+      "gender": "male",
+      "href": "",
+      "tournamentCount": 5,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json",
+        "www2025WesternJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 1526,
+      "fideRapid": 1491,
+      "fideBlitz": 1496,
+      "acfClassic": 886,
+      "acfQuick": 710,
+      "acfId": "3209381"
+    },
+    {
+      "name": "Balamurugan,Soorya",
+      "id": "",
+      "fideId": "3286266",
+      "gender": "male",
+      "href": "",
+      "tournamentCount": 5,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json",
+        "www2025WesternJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 1401,
+      "fideRapid": 0,
+      "fideBlitz": 1499,
+      "acfClassic": 328,
+      "acfQuick": 411,
+      "acfId": "3212435"
     },
     {
       "name": "Batyrbekov,Aidan",
@@ -95,7 +207,7 @@
     {
       "name": "Bodke,Aryan",
       "id": "",
-      "fideId": "",
+      "fideId": "3286274",
       "gender": "male",
       "href": "",
       "tournamentCount": 5,
@@ -116,9 +228,75 @@
       "acfId": "3211735"
     },
     {
+      "name": "Bodke,Krishna",
+      "id": "",
+      "fideId": "3259021",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=3259021",
+      "tournamentCount": 2,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json"
+      ],
+      "title": "",
+      "birthYear": 2010,
+      "fideStandard": 1696,
+      "fideRapid": 1641,
+      "fideBlitz": 1765,
+      "acfClassic": 1407,
+      "acfQuick": 1440,
+      "acfId": "3202576"
+    },
+    {
+      "name": "Chan,Abby",
+      "id": "",
+      "fideId": "3286282",
+      "gender": "female",
+      "href": "",
+      "tournamentCount": 5,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
+        "www2025HobsonsBayWesternMiniAndRookiesJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json"
+      ],
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 270,
+      "acfId": "3201541"
+    },
+    {
+      "name": "Das,Ayush",
+      "id": "",
+      "fideId": "3286290",
+      "gender": "male",
+      "href": "",
+      "tournamentCount": 5,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json",
+        "www2025WesternJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2013,
+      "fideStandard": 1430,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 252,
+      "acfQuick": 302,
+      "acfId": "3204584"
+    },
+    {
       "name": "Fang,Candice",
       "id": "",
-      "fideId": "",
+      "fideId": "3291154",
       "gender": "female",
       "href": "",
       "tournamentCount": 3,
@@ -135,6 +313,137 @@
       "acfClassic": 0,
       "acfQuick": 521,
       "acfId": "3211746"
+    },
+    {
+      "name": "Goh,Daphne",
+      "id": "",
+      "fideId": "3286304",
+      "gender": "female",
+      "href": "",
+      "tournamentCount": 5,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
+        "www2025HobsonsBayWesternMiniAndRookiesJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json"
+      ],
+      "title": "",
+      "birthYear": 2018,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 100,
+      "acfId": "3214852"
+    },
+    {
+      "name": "Goh,Julian",
+      "id": "",
+      "fideId": "3286312",
+      "gender": "male",
+      "href": "",
+      "tournamentCount": 5,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
+        "www2025HobsonsBayWesternMiniAndRookiesJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json"
+      ],
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 239,
+      "acfId": "3214863"
+    },
+    {
+      "name": "Goh,Nicholas",
+      "id": "",
+      "fideId": "3254917",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=3254917",
+      "tournamentCount": 5,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json",
+        "www2025WesternJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2012,
+      "fideStandard": 1432,
+      "fideRapid": 1413,
+      "fideBlitz": 1484,
+      "acfClassic": 539,
+      "acfQuick": 564,
+      "acfId": "3200270"
+    },
+    {
+      "name": "Guggilla,Krithvik",
+      "id": "",
+      "fideId": "3290522",
+      "gender": "male",
+      "href": "",
+      "tournamentCount": 2,
+      "tournaments": [
+        "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
+        "www2025HobsonsBayWesternMiniAndRookiesJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2013,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 396,
+      "acfId": "3209510"
+    },
+    {
+      "name": "Hari,Dhruv",
+      "id": "",
+      "fideId": "3255360",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=3255360",
+      "tournamentCount": 2,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json"
+      ],
+      "title": "",
+      "birthYear": 2011,
+      "fideStandard": 1737,
+      "fideRapid": 1636,
+      "fideBlitz": 0,
+      "acfClassic": 1554,
+      "acfQuick": 1292,
+      "acfId": "3195311"
+    },
+    {
+      "name": "Huang,Michael",
+      "id": "",
+      "fideId": "3286320",
+      "gender": "male",
+      "href": "",
+      "tournamentCount": 4,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternJuniors/data.json",
+        "www2025WesternJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 1739,
+      "fideRapid": 1539,
+      "fideBlitz": 1663,
+      "acfClassic": 829,
+      "acfQuick": 895,
+      "acfId": "3204621"
     },
     {
       "name": "Husain,Lamiah",
@@ -180,6 +489,51 @@
       "acfId": "3190211"
     },
     {
+      "name": "Jagannathan,Shashvath",
+      "id": "",
+      "fideId": "3286339",
+      "gender": "male",
+      "href": "",
+      "tournamentCount": 5,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json",
+        "www2025WesternJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 1547,
+      "fideRapid": 1598,
+      "fideBlitz": 1518,
+      "acfClassic": 919,
+      "acfQuick": 663,
+      "acfId": "3206253"
+    },
+    {
+      "name": "Jyothi Nikhil,Neev",
+      "id": "",
+      "fideId": "3284670",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=3284670",
+      "tournamentCount": 4,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayWesternJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json",
+        "www2025WesternJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2017,
+      "fideStandard": 1505,
+      "fideRapid": 1436,
+      "fideBlitz": 1476,
+      "acfClassic": 498,
+      "acfQuick": 498,
+      "acfId": "3214874"
+    },
+    {
       "name": "Kaki,Vihas",
       "id": "",
       "fideId": "",
@@ -198,6 +552,48 @@
       "acfClassic": 0,
       "acfQuick": 0,
       "acfId": ""
+    },
+    {
+      "name": "Kantharaju,Aarna",
+      "id": "",
+      "fideId": "3286851",
+      "gender": "female",
+      "href": "",
+      "tournamentCount": 3,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
+        "www2025HobsonsBayWesternMiniAndRookiesJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3215810"
+    },
+    {
+      "name": "Kantharaju,Aryan",
+      "id": "",
+      "fideId": "3286860",
+      "gender": "male",
+      "href": "",
+      "tournamentCount": 3,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
+        "www2025HobsonsBayWesternMiniAndRookiesJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3212096"
     },
     {
       "name": "Karthick,Deepshika",
@@ -224,7 +620,7 @@
     {
       "name": "Kelly,Jackson",
       "id": "",
-      "fideId": "",
+      "fideId": "3289940",
       "gender": "male",
       "href": "",
       "tournamentCount": 4,
@@ -244,9 +640,30 @@
       "acfId": "3217512"
     },
     {
+      "name": "Kirk,Ian",
+      "id": "",
+      "fideId": "3247953",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=3247953",
+      "tournamentCount": 3,
+      "tournaments": [
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternJuniors/data.json",
+        "www2025WesternJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 1956,
+      "fideStandard": 1605,
+      "fideRapid": 1599,
+      "fideBlitz": 0,
+      "acfClassic": 1371,
+      "acfQuick": 1371,
+      "acfId": "3078341"
+    },
+    {
       "name": "Kwek,Alexander",
       "id": "",
-      "fideId": "",
+      "fideId": "3291189",
       "gender": "male",
       "href": "",
       "tournamentCount": 2,
@@ -262,6 +679,27 @@
       "acfClassic": 0,
       "acfQuick": 0,
       "acfId": "3218606"
+    },
+    {
+      "name": "Majety,Rohan",
+      "id": "",
+      "fideId": "3260062",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=3260062",
+      "tournamentCount": 3,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json"
+      ],
+      "title": "",
+      "birthYear": 2013,
+      "fideStandard": 1456,
+      "fideRapid": 1455,
+      "fideBlitz": 1430,
+      "acfClassic": 1067,
+      "acfQuick": 796,
+      "acfId": "3201585"
     },
     {
       "name": "Manoj,Dev",
@@ -282,6 +720,49 @@
       "acfClassic": 0,
       "acfQuick": 402,
       "acfId": "3212483"
+    },
+    {
+      "name": "Matijas,Dejan",
+      "id": "",
+      "fideId": "3242838",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=3242838",
+      "tournamentCount": 2,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 1971,
+      "fideStandard": 1594,
+      "fideRapid": 1578,
+      "fideBlitz": 0,
+      "acfClassic": 1401,
+      "acfQuick": 1401,
+      "acfId": "3194880"
+    },
+    {
+      "name": "Morris,Elijah",
+      "id": "",
+      "fideId": "3286347",
+      "gender": "male",
+      "href": "",
+      "tournamentCount": 5,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json",
+        "www2025WesternJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2009,
+      "fideStandard": 1582,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 538,
+      "acfQuick": 608,
+      "acfId": "3208784"
     },
     {
       "name": "Mukunth,Ganesh Kumar",
@@ -306,7 +787,7 @@
     {
       "name": "Naidu,Aarush",
       "id": "",
-      "fideId": "",
+      "fideId": "3286355",
       "gender": "male",
       "href": "",
       "tournamentCount": 2,
@@ -322,6 +803,72 @@
       "acfClassic": 0,
       "acfQuick": 100,
       "acfId": "3211256"
+    },
+    {
+      "name": "Nema,Nivaan",
+      "id": "",
+      "fideId": "3289923",
+      "gender": "male",
+      "href": "",
+      "tournamentCount": 4,
+      "tournaments": [
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
+        "www2025HobsonsBayWesternMiniAndRookiesJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json"
+      ],
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 0,
+      "fideRapid": 1411,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 633,
+      "acfId": "3217486"
+    },
+    {
+      "name": "Nguyen,Anh Kiet",
+      "id": "",
+      "fideId": "3267849",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=3267849",
+      "tournamentCount": 3,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json"
+      ],
+      "title": "",
+      "birthYear": 2012,
+      "fideStandard": 1965,
+      "fideRapid": 1842,
+      "fideBlitz": 1789,
+      "acfClassic": 1534,
+      "acfQuick": 1542,
+      "acfId": "3206205"
+    },
+    {
+      "name": "Nguyen,Tuan Kiet",
+      "id": "",
+      "fideId": "3270335",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=3270335",
+      "tournamentCount": 5,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json",
+        "www2025WesternJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2013,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 1528,
+      "acfClassic": 727,
+      "acfQuick": 738,
+      "acfId": "3207340"
     },
     {
       "name": "Prince,Aliza",
@@ -344,6 +891,114 @@
       "acfId": "3196103"
     },
     {
+      "name": "Ramanathan,Ashwin",
+      "id": "",
+      "fideId": "3275221",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=3275221",
+      "tournamentCount": 3,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json"
+      ],
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 1613,
+      "fideRapid": 1609,
+      "fideBlitz": 1632,
+      "acfClassic": 1192,
+      "acfQuick": 1262,
+      "acfId": "3206231"
+    },
+    {
+      "name": "Ramprasad,Nachiket",
+      "id": "",
+      "fideId": "3286371",
+      "gender": "male",
+      "href": "",
+      "tournamentCount": 2,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2013,
+      "fideStandard": 1489,
+      "fideRapid": 1625,
+      "fideBlitz": 1618,
+      "acfClassic": 1205,
+      "acfQuick": 890,
+      "acfId": "3217416"
+    },
+    {
+      "name": "Rawat,Pratyax Singh",
+      "id": "",
+      "fideId": "3287440",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=3287440",
+      "tournamentCount": 3,
+      "tournaments": [
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
+        "www2025HobsonsBayWesternMiniAndRookiesJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2017,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 302,
+      "acfId": "3216145"
+    },
+    {
+      "name": "Ruaya,Rohan",
+      "id": "",
+      "fideId": "3281345",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=3281345",
+      "tournamentCount": 5,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json",
+        "www2025WesternJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 1459,
+      "fideRapid": 1430,
+      "fideBlitz": 1537,
+      "acfClassic": 857,
+      "acfQuick": 794,
+      "acfId": "3203980"
+    },
+    {
+      "name": "Saha,Avinandan (Arjun)",
+      "id": "",
+      "fideId": "3264173",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=3264173",
+      "tournamentCount": 5,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json",
+        "www2025WesternJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 1419,
+      "fideRapid": 1478,
+      "fideBlitz": 1616,
+      "acfClassic": 853,
+      "acfQuick": 982,
+      "acfId": "3203991"
+    },
+    {
       "name": "Settu,Karthick",
       "id": "",
       "fideId": "3267865",
@@ -364,9 +1019,54 @@
       "acfId": "3207756"
     },
     {
+      "name": "Shaiek,Nihal",
+      "id": "",
+      "fideId": "3286380",
+      "gender": "male",
+      "href": "",
+      "tournamentCount": 5,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternJuniors/data.json",
+        "www2025WesternJuniorRapidChampionship/data.json",
+        "www2025WesternJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2015,
+      "fideStandard": 1473,
+      "fideRapid": 1442,
+      "fideBlitz": 0,
+      "acfClassic": 648,
+      "acfQuick": 582,
+      "acfId": "3217011"
+    },
+    {
+      "name": "Shinde,Yug",
+      "id": "",
+      "fideId": "537082183",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=537082183",
+      "tournamentCount": 4,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternJuniors/data.json",
+        "www2025WesternJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 1471,
+      "fideRapid": 1438,
+      "fideBlitz": 0,
+      "acfClassic": 565,
+      "acfQuick": 565,
+      "acfId": "0013284"
+    },
+    {
       "name": "Spriggs,Harvey",
       "id": "",
-      "fideId": "",
+      "fideId": "3289974",
       "gender": "male",
       "href": "",
       "tournamentCount": 2,
@@ -404,9 +1104,30 @@
       "acfId": "3217022"
     },
     {
+      "name": "Veginati,Cherish",
+      "id": "",
+      "fideId": "3275248",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=3275248",
+      "tournamentCount": 3,
+      "tournaments": [
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternJuniors/data.json",
+        "www2025WesternJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2009,
+      "fideStandard": 1483,
+      "fideRapid": 1522,
+      "fideBlitz": 1564,
+      "acfClassic": 838,
+      "acfQuick": 1125,
+      "acfId": "3211466"
+    },
+    {
       "name": "Vemula,Thamoghna",
       "id": "",
-      "fideId": "",
+      "fideId": "3291251",
       "gender": "male",
       "href": "",
       "tournamentCount": 3,
@@ -427,7 +1148,7 @@
     {
       "name": "Venkat,Nyra",
       "id": "",
-      "fideId": "",
+      "fideId": "3286410",
       "gender": "female",
       "href": "",
       "tournamentCount": 5,
@@ -468,6 +1189,47 @@
       "acfClassic": 944,
       "acfQuick": 1092,
       "acfId": "3204083"
+    },
+    {
+      "name": "Yang,Yifan",
+      "id": "",
+      "fideId": "3275272",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=3275272",
+      "tournamentCount": 2,
+      "tournaments": [
+        "www2025HBCCHonourableBobJuniors/data.json",
+        "www2025HobsonsBayPurdyCupJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 2010,
+      "fideStandard": 1627,
+      "fideRapid": 1475,
+      "fideBlitz": 1564,
+      "acfClassic": 1234,
+      "acfQuick": 1118,
+      "acfId": "3210840"
+    },
+    {
+      "name": "Yendru,Srikrishna",
+      "id": "",
+      "fideId": "3262952",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=3262952",
+      "tournamentCount": 3,
+      "tournaments": [
+        "www2025HobsonsBayPurdyCupJuniors/data.json",
+        "www2025HobsonsBayWesternJuniors/data.json",
+        "www2025WesternJuniors/data.json"
+      ],
+      "title": "",
+      "birthYear": 1982,
+      "fideStandard": 1642,
+      "fideRapid": 0,
+      "fideBlitz": 1637,
+      "acfClassic": 1258,
+      "acfQuick": 1211,
+      "acfId": "3202252"
     },
     {
       "name": "Yendru,Sriram",

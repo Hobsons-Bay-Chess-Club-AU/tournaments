@@ -201,6 +201,21 @@ async function enrichRatings(inputPath, outputPath, fideMap = null, acfClassicMa
         }
       }
     }
+    // Update FIDE ID if we found a match
+    let updatedFideId = player.fideId || "";
+    if (fideMatch && fideMatch.fideid) {
+      updatedFideId = fideMatch.fideid;
+    } else if (acfClassicMatch && acfClassicMatch.fideId) {
+      updatedFideId = acfClassicMatch.fideId;
+    } else if (acfQuickMatch && acfQuickMatch.fideId) {
+      updatedFideId = acfQuickMatch.fideId;
+    }
+    
+    // Debug: Show when FIDE ID is being updated
+    if (updatedFideId && updatedFideId !== player.fideId) {
+      console.log(`🆔 Updated FIDE ID for ${player.name}: "${player.fideId}" -> "${updatedFideId}"`);
+    }
+    
     let acfId = player.acfId || "";
     if (acfClassicMatch && acfClassicMatch.acfId) acfId = acfClassicMatch.acfId;
     else if (acfQuickMatch && acfQuickMatch.acfId) acfId = acfQuickMatch.acfId;
@@ -225,6 +240,7 @@ async function enrichRatings(inputPath, outputPath, fideMap = null, acfClassicMa
     
     enrichedPlayers.push({
       ...player,
+      fideId: updatedFideId, // Update with the found FIDE ID
       title,
       birthYear,
       fideStandard: fideMatch ? fideMatch.rating : 0,
@@ -286,8 +302,8 @@ async function main() {
   }
   if (!acfQuickVeg) throw new Error('No Quick .veg file found');
   // Build wanted sets from local player files
-  const juniorPath = join(__dirname, '../v2/public/junior-players.json');
-  const seniorPath = join(__dirname, '../v2/public/senior-players.json');
+  const juniorPath = join(__dirname, '../www/junior-players.json');
+  const seniorPath = join(__dirname, '../www/senior-players.json');
   const juniorOut = join(__dirname, '../www/junior-ratings.json');
   const seniorOut = join(__dirname, '../www/open-ratings.json');
   const juniorData = JSON.parse(readFileSync(juniorPath, 'utf8'));
