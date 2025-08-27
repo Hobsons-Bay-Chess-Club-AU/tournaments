@@ -1,11 +1,22 @@
-"use client";
-import { useParams } from "next/navigation";
 import Link from "next/link";
 import LeaderboardTable from "@/components/LeaderboardTable";
 
-export default function CategoryLeaderboardPage() {
-  const params = useParams();
-  const category = params?.category as string;
+// Generate static parameters for the dynamic route
+export function generateStaticParams() {
+  return [
+    { category: 'open' },
+    { category: 'junior' }
+  ];
+}
+
+interface CategoryLeaderboardPageProps {
+  params: {
+    category: string;
+  };
+}
+
+export default function CategoryLeaderboardPage({ params }: CategoryLeaderboardPageProps) {
+  const { category } = params;
 
   // Validate category parameter
   if (category !== 'open' && category !== 'junior') {
