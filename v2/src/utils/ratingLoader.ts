@@ -13,6 +13,7 @@ export type RatingData = {
 
 export type Player = {
   name: string;
+  title?: string;
   id: string;
   fideId: string;
   acfId?: string;

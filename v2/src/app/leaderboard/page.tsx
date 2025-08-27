@@ -1,14 +1,11 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import HomeHero from "@/components/HomeHero";
 
 export default function LeaderboardPage() {
   return (
     <div className="font-sans min-h-screen bg-gradient-to-br from-blue-50 to-blue-200">
       {/* Hero section */}
-      <HomeHero />
-
       {/* Main content wrapper with white background */}
       <div className="bg-white min-h-screen">
         <div className="px-4 py-8 md:px-8">

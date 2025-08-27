@@ -2,6 +2,7 @@ import React from "react";
 
 export type Player = {
   name: string;
+  title?: string;
   id: string;
   fideId: string;
   acfId?: string;
@@ -66,7 +67,14 @@ export default function LeaderboardTable({ players, activeCategory, getRatingFor
           {players.map((player, idx) => (
             <tr key={player.id || player.fideId || player.name || idx} className={idx % 2 === 0 ? "bg-white" : "bg-blue-50 hover:bg-blue-100 transition-colors"}>
               <td className="px-4 py-2 text-gray-500 font-medium">{getBadge(idx)}{idx + 1}</td>
-              <td className="px-4 py-2 text-blue-900 font-semibold whitespace-nowrap">{player.name}</td>
+              <td className="px-4 py-2 text-blue-900 font-semibold whitespace-nowrap">
+                {player.title && (
+                  <span className="inline-block px-2 py-1 rounded bg-purple-600 text-white font-bold text-xs mr-2">
+                    {player.title}
+                  </span>
+                )}
+                {player.name}
+              </td>
               <td className="px-4 py-2">{getIdCell(player, activeCategory)}</td>
               <td className="px-4 py-2 text-gray-700 capitalize">{player.gender}</td>
               <td className="px-4 py-2 text-gray-700">{player.tournamentCount}</td>

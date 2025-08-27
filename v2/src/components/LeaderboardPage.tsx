@@ -1,13 +1,13 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import HomeHero from "@/components/HomeHero";
 import FilterTabs from "@/components/FilterTabs";
 import LeaderboardTable from "@/app/components/LeaderboardTable";
 import { useLeaderboard } from "@/app/hooks/useLeaderboard";
 
 type Player = {
   name: string;
+  title?: string;
   id: string;
   fideId: string;
   gender: string;
@@ -124,7 +124,6 @@ export default function LeaderboardPage({ category }: LeaderboardPageProps) {
   if (loading) {
     return (
       <div className="font-sans min-h-screen bg-gradient-to-br from-blue-50 to-blue-200">
-        <HomeHero />
         <div className="bg-white min-h-screen flex items-center justify-center">
           <div className="text-center">
             <div className={`animate-spin rounded-full h-12 w-12 border-b-2 ${config.loadingColor} mx-auto mb-4`}></div>
@@ -138,7 +137,6 @@ export default function LeaderboardPage({ category }: LeaderboardPageProps) {
   if (error) {
     return (
       <div className="font-sans min-h-screen bg-gradient-to-br from-blue-50 to-blue-200">
-        <HomeHero />
         <div className="bg-white min-h-screen flex items-center justify-center">
           <div className="text-center">
             <div className="text-red-600 text-6xl mb-4">⚠️</div>
@@ -155,8 +153,6 @@ export default function LeaderboardPage({ category }: LeaderboardPageProps) {
 
   return (
     <div className="font-sans min-h-screen bg-gradient-to-br from-blue-50 to-blue-200">
-      <HomeHero />
-      
       <div className="bg-white min-h-screen">
         {/* Header */}
         <div className={`bg-gradient-to-r ${config.gradient} text-white py-8`}>
