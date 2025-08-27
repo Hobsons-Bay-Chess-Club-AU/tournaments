@@ -1,5 +1,6 @@
 "use client";
 import { useParams } from "next/navigation";
+import Link from "next/link";
 import LeaderboardTable from "@/components/LeaderboardTable";
 
 export default function CategoryLeaderboardPage() {
@@ -13,10 +14,10 @@ export default function CategoryLeaderboardPage() {
         <div className="text-center">
           <div className="text-red-600 text-6xl mb-4">⚠️</div>
           <p className="text-red-600 mb-4">Invalid leaderboard category</p>
-          <p className="text-gray-600 mb-4">Please use 'open' or 'junior'</p>
-          <a href="/leaderboard" className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+          <p className="text-gray-600 mb-4">Please use &apos;open&apos; or &apos;junior&apos;</p>
+          <Link href="/leaderboard" className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
             Back to Leaderboards
-          </a>
+          </Link>
         </div>
       </div>
     );

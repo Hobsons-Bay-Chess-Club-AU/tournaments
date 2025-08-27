@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import HomeHero from "@/components/HomeHero";
 import FilterTabs from "@/components/FilterTabs";
-import { Player, calculateAge, isAdult, getAgeGroup } from "@/utils/ratingLoader";
+import { Player, calculateAge, getAgeGroup } from "@/utils/ratingLoader";
 
 type LeaderboardData = {
   generatedAt: string;
@@ -31,7 +31,6 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
   const isJunior = type === 'junior';
   const dataFile = isJunior ? 'junior-ratings.json' : 'open-ratings.json';
   const title = isJunior ? 'Junior Leaderboard' : 'Open Leaderboard';
-  const colorScheme = isJunior ? 'green' : 'yellow';
   const loadingColor = isJunior ? 'green' : 'yellow';
 
   useEffect(() => {
