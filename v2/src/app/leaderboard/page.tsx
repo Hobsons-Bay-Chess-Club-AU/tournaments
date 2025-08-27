@@ -1,9 +1,62 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { FaTrophy, FaChessKing, FaChessPawn, FaUsers, FaChartLine, FaMedal } from "react-icons/fa";
+import CountUp from "@/components/CountUp";
+
+interface Player {
+  name: string;
+  id: string;
+  fideId: string;
+  gender: string;
+  href: string;
+  tournamentCount: number;
+  tournaments: string[];
+  title: string;
+  birthYear: number | null;
+  fideStandard: number;
+  fideRapid: number;
+  fideBlitz: number;
+  acfClassic: number;
+  acfQuick: number;
+  acfId: string;
+}
+
+interface LeaderboardData {
+  count: number;
+  totalTournaments: number;
+  players: Player[];
+}
 
 export default function LeaderboardPage() {
+  const [juniorData, setJuniorData] = useState<LeaderboardData | null>(null);
+  const [openData, setOpenData] = useState<LeaderboardData | null>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [juniorResponse, openResponse] = await Promise.all([
+          fetch('/junior-ratings.json'),
+          fetch('/open-ratings.json')
+        ]);
+
+        if (juniorResponse.ok && openResponse.ok) {
+          const junior = await juniorResponse.json();
+          const open = await openResponse.json();
+          setJuniorData(junior);
+          setOpenData(open);
+        }
+      } catch (error) {
+        console.error('Error fetching leaderboard data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   useEffect(() => {
     // Auto-scroll to main content after 3 seconds
     const timer = setTimeout(() => {
@@ -18,6 +71,10 @@ export default function LeaderboardPage() {
 
     return () => clearTimeout(timer);
   }, []);
+
+  // Calculate total players
+  const totalPlayers = (juniorData?.count || 0) + (openData?.count || 0);
+  const totalTournaments = juniorData?.totalTournaments || openData?.totalTournaments || 0;
 
   return (
     <div className="font-sans min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
@@ -53,7 +110,18 @@ export default function LeaderboardPage() {
                 <div className="flex items-center justify-center mb-3">
                   <FaUsers className="text-3xl text-blue-200" />
                 </div>
-                <div className="text-2xl font-bold text-white">100+</div>
+                <div className="text-2xl font-bold text-white">
+                  {loading ? (
+                    <div className="animate-pulse">...</div>
+                  ) : (
+                    <CountUp 
+                      end={totalPlayers} 
+                      duration={2000} 
+                      delay={500}
+                      suffix="+"
+                    />
+                  )}
+                </div>
                 <div className="text-blue-100">Active Players</div>
               </div>
               
@@ -61,7 +129,13 @@ export default function LeaderboardPage() {
                 <div className="flex items-center justify-center mb-3">
                   <FaChartLine className="text-3xl text-green-200" />
                 </div>
-                <div className="text-2xl font-bold text-white">5</div>
+                <div className="text-2xl font-bold text-white">
+                  <CountUp 
+                    end={5} 
+                    duration={1500} 
+                    delay={1000}
+                  />
+                </div>
                 <div className="text-blue-100">Rating Categories</div>
               </div>
               
@@ -69,7 +143,18 @@ export default function LeaderboardPage() {
                 <div className="flex items-center justify-center mb-3">
                   <FaMedal className="text-3xl text-yellow-200" />
                 </div>
-                <div className="text-2xl font-bold text-white">20+</div>
+                <div className="text-2xl font-bold text-white">
+                  {loading ? (
+                    <div className="animate-pulse">...</div>
+                  ) : (
+                    <CountUp 
+                      end={totalTournaments} 
+                      duration={2000} 
+                      delay={1500}
+                      suffix="+"
+                    />
+                  )}
+                </div>
                 <div className="text-blue-100">Tournaments</div>
               </div>
             </div>
@@ -124,11 +209,27 @@ export default function LeaderboardPage() {
                     {/* Features */}
                     <div className="grid grid-cols-2 gap-4 mb-8">
                       <div className="text-center">
-                        <div className="text-2xl font-bold text-yellow-600">77</div>
+                        <div className="text-2xl font-bold text-yellow-600">
+                          {loading ? (
+                            <div className="animate-pulse">...</div>
+                          ) : (
+                            <CountUp 
+                              end={openData?.count || 0} 
+                              duration={1500} 
+                              delay={200}
+                            />
+                          )}
+                        </div>
                         <div className="text-sm text-yellow-700">Players</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-2xl font-bold text-yellow-600">5</div>
+                        <div className="text-2xl font-bold text-yellow-600">
+                          <CountUp 
+                            end={5} 
+                            duration={1000} 
+                            delay={400}
+                          />
+                        </div>
                         <div className="text-sm text-yellow-700">Rating Types</div>
                       </div>
                     </div>
@@ -176,11 +277,27 @@ export default function LeaderboardPage() {
                     {/* Features */}
                     <div className="grid grid-cols-2 gap-4 mb-8">
                       <div className="text-center">
-                        <div className="text-2xl font-bold text-green-600">23</div>
+                        <div className="text-2xl font-bold text-green-600">
+                          {loading ? (
+                            <div className="animate-pulse">...</div>
+                          ) : (
+                            <CountUp 
+                              end={juniorData?.count || 0} 
+                              duration={1500} 
+                              delay={200}
+                            />
+                          )}
+                        </div>
                         <div className="text-sm text-green-700">Players</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-2xl font-bold text-green-600">6</div>
+                        <div className="text-2xl font-bold text-green-600">
+                          <CountUp 
+                            end={6} 
+                            duration={1000} 
+                            delay={400}
+                          />
+                        </div>
                         <div className="text-sm text-green-700">Age Groups</div>
                       </div>
                     </div>
