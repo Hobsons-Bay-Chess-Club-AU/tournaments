@@ -244,13 +244,13 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
         {/* Age Filter - Only for Junior */}
         {isJunior && (
           <div className="max-w-7xl mx-auto px-4 py-4">
-            <div className="flex items-center justify-between bg-green-50 rounded-lg p-4 border border-green-200">
-              <div className="flex items-center space-x-4">
-                <label className="text-sm font-medium text-green-800">Age Filter:</label>
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between bg-green-50 rounded-lg p-4 border border-green-200">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 w-full sm:w-auto">
+                <label className="text-sm font-medium text-green-800 mb-2 sm:mb-0">Age Filter:</label>
                 <select
                   value={ageFilter}
                   onChange={(e) => setAgeFilter(e.target.value)}
-                  className="border border-green-300 rounded-md px-3 py-1 text-sm bg-white text-green-800"
+                  className="border border-green-300 rounded-md px-3 py-2 text-sm bg-white text-green-800 w-full sm:w-56"
                 >
                   <option value="under18">Under 18</option>
                   <option value="under16">Under 16</option>
@@ -261,7 +261,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
                   <option value="all">All Junior Players</option>
                 </select>
               </div>
-              <div className="text-sm text-green-700">
+              <div className="text-sm text-green-700 w-full sm:w-auto sm:text-right">
                 Showing {filteredPlayers.length} of {players.length} players
               </div>
             </div>
@@ -269,28 +269,28 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
         )}
 
         {/* Leaderboard Table */}
-        <div className="max-w-7xl mx-auto px-4 py-8">
+        <div className="max-w-7xl mx-auto px-2 sm:px-4 py-6 sm:py-8">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="overflow-x-auto">
               <table className="w-full">
                 <thead className="bg-gray-50">
                   <tr>
-                    <th className="px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    <th className="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                       Rank
                     </th>
-                    <th className="px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    <th className="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                       Player
                     </th>
-                    <th className="px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    <th className="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                       {activeCategory} Rating
                     </th>
-                    <th className="px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    <th className="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider hidden sm:table-cell">
                       Age
                     </th>
-                    <th className="px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    <th className="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider hidden md:table-cell">
                       Tournaments
                     </th>
-                    <th className="px-6 py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    <th className="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider hidden lg:table-cell">
                       FIDE ID
                     </th>
                   </tr>
@@ -304,7 +304,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
                     
                     return (
                       <tr key={player.name} className="hover:bg-gray-50 transition-colors">
-                        <td className="px-6 py-4 whitespace-nowrap">
+                        <td className="px-3 py-3 sm:px-6 sm:py-4 whitespace-nowrap">
                           <div className="flex items-center">
                             <span className={`text-lg font-bold ${
                               rank === 1 ? 'text-yellow-500' : 
@@ -315,7 +315,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
                             </span>
                           </div>
                         </td>
-                        <td className="px-6 py-4 whitespace-nowrap">
+                        <td className="px-3 py-3 sm:px-6 sm:py-4">
                           <div className="flex items-center">
                             <div className="flex-shrink-0 h-10 w-10">
                               <div className={`h-10 w-10 rounded-full ${getAvatarColor()} flex items-center justify-center`}>
@@ -332,15 +332,26 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
                               <div className="text-sm text-gray-500">
                                 {player.gender === 'male' ? '♂' : player.gender === 'female' ? '♀' : '⚪'} {player.gender}
                               </div>
+                              {/* Mobile-only extra info */}
+                              <div className="mt-1 flex items-center gap-3 sm:hidden text-xs text-gray-500">
+                                <span className="">
+                                  Rating: <span className={`font-semibold ${getRatingColor(rating)}`}>{rating > 0 ? rating : 'N/A'}</span>
+                                </span>
+                                {age ? (
+                                  <span className="">
+                                    Age: <span className={`inline-block px-2 py-0.5 rounded-full ${getAgeColor(player.birthYear!)}`}>{age}</span>
+                                  </span>
+                                ) : null}
+                              </div>
                             </div>
                           </div>
                         </td>
-                        <td className="px-6 py-4 whitespace-nowrap">
+                        <td className="px-3 py-3 sm:px-6 sm:py-4 whitespace-nowrap">
                           <span className={`text-lg font-semibold ${getRatingColor(rating)}`}>
                             {rating > 0 ? rating : 'N/A'}
                           </span>
                         </td>
-                        <td className="px-6 py-4 whitespace-nowrap">
+                        <td className="px-3 py-3 sm:px-6 sm:py-4 whitespace-nowrap hidden sm:table-cell">
                           {age ? (
                             <div>
                               <span className={`inline-block px-2 py-1 rounded-full text-xs font-medium ${getAgeColor(player.birthYear!)}`}>
@@ -351,7 +362,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
                             <span className="text-gray-400 text-sm">N/A</span>
                           )}
                         </td>
-                        <td className="px-6 py-4 whitespace-nowrap">
+                        <td className="px-3 py-3 sm:px-6 sm:py-4 whitespace-nowrap hidden md:table-cell">
                           <div className="text-sm text-gray-900 font-medium">
                             {player.tournamentCount}
                           </div>
@@ -359,7 +370,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
                             tournaments
                           </div>
                         </td>
-                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                        <td className="px-3 py-3 sm:px-6 sm:py-4 whitespace-nowrap text-sm text-gray-500 hidden lg:table-cell">
                           {player.fideId ? (
                             <a
                               href={`https://ratings.fide.com/profile/${player.fideId}`}

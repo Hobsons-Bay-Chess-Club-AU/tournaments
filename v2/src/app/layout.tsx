@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
 import "./globals.css";
+import MobileNav from "@/components/MobileNav";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hobson Bay Chess Club Tournament Timeline",
+  title: "Hobson Bay Chess Club Tournaments & Leaderboards",
   description: "View all the tournaments held by the Hobson Bay Chess Club in chronological order.",
 };
 
@@ -40,7 +41,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <div className="bg-gradient-to-br from-blue-50 to-blue-200 min-h-screen font-sans">
-          <header className="bg-white shadow flex items-center justify-between px-2 md:px-6 py-4">
+          <header className="relative bg-white shadow flex items-center justify-between px-2 md:px-6 py-4">
             <div className="flex items-center gap-4">
               <Link href="/" className="flex items-center gap-4">
                 <Image src="/Logo.png" alt="HBCC Logo" width={40} height={40} className="rounded-full border border-blue-300" />
@@ -55,6 +56,7 @@ export default function RootLayout({
                 Leaderboards
               </Link>
             </nav>
+            <MobileNav />
           </header>
           <main className="px0 md:px-4 pb-8">{children}</main>
           <footer className="bg-white border-t mt-12 py-6 text-gray-500 text-sm">
