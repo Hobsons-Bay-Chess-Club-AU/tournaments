@@ -11,7 +11,7 @@ export function useLeaderboard(type: "junior" | "open") {
       try {
         setLoading(true);
         const fileName = `${type}-ratings.json`;
-        const response = await fetch(`/${fileName}?t=${Date.now()}`);
+        const response = await fetch(`${process.env.NEXT_PUBLIC_APP_URL}/${fileName}?t=${Date.now()}`);
         if (!response.ok) {
           throw new Error(`Failed to load ${type} ratings data`);
         }

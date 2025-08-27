@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, readdirSync, createReadStream, existsSync } from 'fs';
+import { readFileSync, writeFileSync, readdirSync, createReadStream, existsSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import unzipper from 'unzipper';
@@ -27,9 +27,7 @@ async function getAcfVegaLinks() {
   };
 }
 
-function randomRating() {
-  return Math.floor(Math.random() * (2200 - 1500 + 1)) + 1500;
-}
+
 
 async function downloadFile(url, dest) {
   console.log('Downloading file:', url);
@@ -66,6 +64,7 @@ function parseFideTxt(txtPath, wantedIds, wantedNames) {
   const nameIdx = header.indexOf('Name');
   const fedIdx = header.indexOf('Fed');
   const sexIdx = header.indexOf('Sex');
+  const titleIdx = header.indexOf('Tit');
   const srIdx = header.indexOf('SRtng');
   const rrIdx = header.indexOf('RRtng');
   const brIdx = header.indexOf('BRtng');
@@ -75,12 +74,13 @@ function parseFideTxt(txtPath, wantedIds, wantedNames) {
     if (!line || line.length < 10) continue;
     const fideid = line.substring(idIdx, idIdx + 9).trim();
     const name = line.substring(nameIdx, fedIdx).trim();
+    const title = titleIdx >= 0 ? line.substring(titleIdx, titleIdx + 3).trim() : '';
     const srating = Number(line.substring(srIdx, srIdx + 5).trim()) || 0;
     const rrating = Number(line.substring(rrIdx, rrIdx + 5).trim()) || 0;
     const brating = Number(line.substring(brIdx, brIdx + 5).trim()) || 0;
     // Only keep if in wantedIds or wantedNames
     if (wantedIds.has(fideid) || wantedNames.has(normaliseName(name))) {
-      players.push({ fideid, name, rating: srating, rapid_rating: rrating, blitz_rating: brating });
+      players.push({ fideid, name, title, rating: srating, rapid_rating: rrating, blitz_rating: brating });
     }
   }
   console.log(`Parsed ${players.length} matching FIDE players in ${(Date.now() - start) / 1000}s.`);
@@ -98,12 +98,13 @@ function parseVegFile(vegPath) {
     const parts = line.split(';');
     if (parts.length < 10) continue;
     const name = parts[0].replace(/'/g, '').trim();
+    const title = parts[4] ? parts[4].trim() : '';
     const fideId = parts[5].trim();
     const acfId = parts[8].trim();
     const rating = Number(parts[9].trim()) || 0;
-    acfMap.set(acfId, { name, fideId, acfId, rating });
-    if (fideId) acfMap.set(fideId, { name, fideId, acfId, rating });
-    acfMap.set(normaliseName(name), { name, fideId, acfId, rating });
+    acfMap.set(acfId, { name, title, fideId, acfId, rating });
+    if (fideId) acfMap.set(fideId, { name, title, fideId, acfId, rating });
+    acfMap.set(normaliseName(name), { name, title, fideId, acfId, rating });
   }
   console.log(`Parsed ${acfMap.size} ACF players in ${(Date.now() - start) / 1000}s.`);
   return acfMap;
@@ -146,8 +147,6 @@ async function enrichRatings(inputPath, outputPath, fideMap = null, acfClassicMa
         acfClassicMatch = acfClassicMap.get(player.acfId);
       } else if (player.fideId && acfClassicMap.has(player.fideId)) {
         acfClassicMatch = acfClassicMap.get(player.fideId);
-      } else if (acfClassicMap.has(normName)) {
-        acfClassicMatch = acfClassicMap.get(normName);
       }
     }
     if (acfQuickMap) {
@@ -155,20 +154,30 @@ async function enrichRatings(inputPath, outputPath, fideMap = null, acfClassicMa
         acfQuickMatch = acfQuickMap.get(player.acfId);
       } else if (player.fideId && acfQuickMap.has(player.fideId)) {
         acfQuickMatch = acfQuickMap.get(player.fideId);
-      } else if (acfQuickMap.has(normName)) {
-        acfQuickMatch = acfQuickMap.get(normName);
       }
     }
     let acfId = player.acfId || "";
     if (acfClassicMatch && acfClassicMatch.acfId) acfId = acfClassicMatch.acfId;
     else if (acfQuickMatch && acfQuickMatch.acfId) acfId = acfQuickMatch.acfId;
+    
+    // Extract title with priority: FIDE title > ACF title
+    let title = '';
+    if (fideMatch && fideMatch.title) {
+      title = fideMatch.title;
+    } else if (acfClassicMatch && acfClassicMatch.title) {
+      title = acfClassicMatch.title;
+    } else if (acfQuickMatch && acfQuickMatch.title) {
+      title = acfQuickMatch.title;
+    }
+    
     enrichedPlayers.push({
       ...player,
+      title,
       fideStandard: player.fideId && fideMatch ? fideMatch.rating : 0,
       fideRapid: player.fideId && fideMatch ? fideMatch.rapid_rating : 0,
       fideBlitz: player.fideId && fideMatch ? fideMatch.blitz_rating : 0,
-      acfClassic: acfClassicMatch ? acfClassicMatch.rating : randomRating(),
-      acfQuick: acfQuickMatch ? acfQuickMatch.rating : randomRating(),
+      acfClassic: acfClassicMatch ? acfClassicMatch.rating : 0,
+      acfQuick: acfQuickMatch ? acfQuickMatch.rating : 0,
       acfId
     });
   });
@@ -182,7 +191,7 @@ async function enrichRatings(inputPath, outputPath, fideMap = null, acfClassicMa
 
 async function main() {
   // Ensure tmp dir exists
-  try { require('fs').mkdirSync(TMP_DIR); } catch (e) {}
+  await mkdirSync(TMP_DIR, { recursive: true });
   // FIDE
   if (!existsSync(ZIP_PATH)) {
     await downloadFile(FIDE_URL, ZIP_PATH);
@@ -225,8 +234,8 @@ async function main() {
   // Build wanted sets from local player files
   const juniorPath = join(__dirname, '../v2/public/junior-players.json');
   const seniorPath = join(__dirname, '../v2/public/senior-players.json');
-  const juniorOut = join(__dirname, '../v2/public/junior-ratings.json');
-  const seniorOut = join(__dirname, '../v2/public/senior-ratings.json');
+  const juniorOut = join(__dirname, '../www/junior-ratings.json');
+  const seniorOut = join(__dirname, '../www/open-ratings.json');
   const juniorData = JSON.parse(readFileSync(juniorPath, 'utf8'));
   const seniorData = JSON.parse(readFileSync(seniorPath, 'utf8'));
   const wantedIds = new Set();

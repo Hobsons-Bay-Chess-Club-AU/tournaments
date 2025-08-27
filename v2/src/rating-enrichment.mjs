@@ -234,8 +234,8 @@ async function main() {
   // Build wanted sets from local player files
   const juniorPath = join(__dirname, '../public/junior-players.json');
   const seniorPath = join(__dirname, '../public/senior-players.json');
-  const juniorOut = join(__dirname, '../public/junior-ratings.json');
-  const seniorOut = join(__dirname, '../public/open-ratings.json');
+  const juniorOut = join(__dirname, './www/junior-ratings.json');
+  const seniorOut = join(__dirname, './www/open-ratings.json');
   const juniorData = JSON.parse(readFileSync(juniorPath, 'utf8'));
   const seniorData = JSON.parse(readFileSync(seniorPath, 'utf8'));
   const wantedIds = new Set();
