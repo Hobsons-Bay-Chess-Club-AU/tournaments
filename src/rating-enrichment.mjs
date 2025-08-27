@@ -98,13 +98,26 @@ function parseVegFile(vegPath) {
     const parts = line.split(';');
     if (parts.length < 10) continue;
     const name = parts[0].replace(/'/g, '').trim();
+    const dob = parts[2] ? parts[2].trim() : '';
     const title = parts[4] ? parts[4].trim() : '';
     const fideId = parts[5].trim();
     const acfId = parts[8].trim();
     const rating = Number(parts[9].trim()) || 0;
-    acfMap.set(acfId, { name, title, fideId, acfId, rating });
-    if (fideId) acfMap.set(fideId, { name, title, fideId, acfId, rating });
-    acfMap.set(normaliseName(name), { name, title, fideId, acfId, rating });
+    
+    // Extract birth year from DOB
+    let birthYear = null;
+    if (dob) {
+      // Handle different date formats: DD/MM/YYYY, YYYY-MM-DD, etc.
+      const yearMatch = dob.match(/(\d{4})/);
+      if (yearMatch) {
+        birthYear = parseInt(yearMatch[1]);
+      }
+    }
+    
+    const playerData = { name, title, fideId, acfId, rating, birthYear };
+    acfMap.set(acfId, playerData);
+    if (fideId) acfMap.set(fideId, playerData);
+    acfMap.set(normaliseName(name), playerData);
   }
   console.log(`Parsed ${acfMap.size} ACF players in ${(Date.now() - start) / 1000}s.`);
   return acfMap;
@@ -170,9 +183,18 @@ async function enrichRatings(inputPath, outputPath, fideMap = null, acfClassicMa
       title = acfQuickMatch.title;
     }
     
+    // Extract birth year with priority: ACF Classic > ACF Quick
+    let birthYear = null;
+    if (acfClassicMatch && acfClassicMatch.birthYear) {
+      birthYear = acfClassicMatch.birthYear;
+    } else if (acfQuickMatch && acfQuickMatch.birthYear) {
+      birthYear = acfQuickMatch.birthYear;
+    }
+    
     enrichedPlayers.push({
       ...player,
       title,
+      birthYear,
       fideStandard: player.fideId && fideMatch ? fideMatch.rating : 0,
       fideRapid: player.fideId && fideMatch ? fideMatch.rapid_rating : 0,
       fideBlitz: player.fideId && fideMatch ? fideMatch.blitz_rating : 0,

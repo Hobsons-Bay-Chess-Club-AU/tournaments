@@ -21,6 +21,7 @@ export type Player = {
   href: string;
   tournamentCount: number;
   tournaments: string[];
+  birthYear?: number;
   fideStandard?: number;
   fideRapid?: number;
   fideBlitz?: number;
@@ -34,15 +35,91 @@ export type PlayerRatings = Record<string, number | undefined>;
 export function generateSimulatedRatings(players: Player[], isSenior: boolean = true): Player[] {
   const baseRating = isSenior ? 1200 : 800;
   const range = isSenior ? 500 : 400;
+  const currentYear = new Date().getFullYear();
   
-  return players.map((player) => ({
-    ...player,
-    standard_rating: Math.floor(Math.random() * range) + baseRating,
-    rapid_rating: Math.floor(Math.random() * range) + baseRating,
-    blitz_rating: Math.floor(Math.random() * range) + baseRating,
-    acf_rating: Math.floor(Math.random() * range) + baseRating,
-    acf_quick_rating: Math.floor(Math.random() * range) + baseRating,
-  }));
+  return players.map((player) => {
+    // Generate realistic birth year based on category
+    let birthYear = player.birthYear;
+    if (!birthYear) {
+      if (isSenior) {
+        // Senior players: mostly 18+ years old
+        birthYear = currentYear - Math.floor(Math.random() * 50) - 18; // 18-68 years old
+      } else {
+        // Junior players: mostly under 18 years old
+        birthYear = currentYear - Math.floor(Math.random() * 18) - 1; // 1-18 years old
+      }
+    }
+    
+    return {
+      ...player,
+      birthYear,
+      fideStandard: Math.floor(Math.random() * range) + baseRating,
+      fideRapid: Math.floor(Math.random() * range) + baseRating,
+      fideBlitz: Math.floor(Math.random() * range) + baseRating,
+      acfClassic: Math.floor(Math.random() * range) + baseRating,
+      acfQuick: Math.floor(Math.random() * range) + baseRating,
+    };
+  });
+}
+
+// Utility functions for age calculations and filtering
+export function calculateAge(birthYear: number): number {
+  const currentYear = new Date().getFullYear();
+  return currentYear - birthYear;
+}
+
+export function isAdult(birthYear: number): boolean {
+  return calculateAge(birthYear) >= 18;
+}
+
+export function isJunior(birthYear: number): boolean {
+  return calculateAge(birthYear) < 18;
+}
+
+export function getAgeGroup(birthYear: number): string {
+  const age = calculateAge(birthYear);
+  if (age < 8) return 'U8';
+  if (age < 10) return 'U10';
+  if (age < 12) return 'U12';
+  if (age < 14) return 'U14';
+  if (age < 16) return 'U16';
+  if (age < 18) return 'U18';
+  if (age < 21) return 'U21';
+  return 'Open';
+}
+
+// Filter players by age criteria
+export function filterPlayersByAge(players: Player[], minAge?: number, maxAge?: number): Player[] {
+  return players.filter(player => {
+    if (!player.birthYear) return true; // Include players without birth year
+    
+    const age = calculateAge(player.birthYear);
+    
+    if (minAge !== undefined && age < minAge) return false;
+    if (maxAge !== undefined && age > maxAge) return false;
+    
+    return true;
+  });
+}
+
+// Find players who might be in wrong category (e.g., adults in junior tournaments)
+export function findMisclassifiedPlayers(players: Player[], expectedCategory: 'junior' | 'senior'): Player[] {
+  return players.filter(player => {
+    if (!player.birthYear) return false; // Skip players without birth year
+    
+    const age = calculateAge(player.birthYear);
+    const isAdultPlayer = age >= 18;
+    
+    if (expectedCategory === 'junior' && isAdultPlayer) {
+      return true; // Adult player in junior category
+    }
+    
+    if (expectedCategory === 'senior' && !isAdultPlayer) {
+      return true; // Junior player in senior category
+    }
+    
+    return false;
+  });
 }
 
 
