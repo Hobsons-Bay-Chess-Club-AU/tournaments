@@ -448,6 +448,193 @@ async function processFolder(folderName) {
     return null;
 }
 
+// Function to extract unique players from tournament data
+function extractUniquePlayers(tournamentData) {
+    const players = new Map(); // Use Map to ensure uniqueness by player name
+    
+    // Extract players from standings table (first table is usually standings)
+    const standingsTable = tournamentData.page['index.html']?.tables?.[0];
+    if (standingsTable && standingsTable.rows) {
+        standingsTable.rows.forEach(row => {
+            const playerData = row.Player;
+            if (playerData && typeof playerData === 'object' && playerData.playerName) {
+                const playerName = playerData.playerName.trim();
+                if (playerName && !players.has(playerName)) {
+                    // Extract FIDE ID from href if available
+                    let fideId = '';
+                    if (playerData.href && playerData.href.includes('ratings.fide.com')) {
+                        const fideIdMatch = playerData.href.match(/event=(\d+)/);
+                        if (fideIdMatch) {
+                            fideId = fideIdMatch[1];
+                        }
+                    }
+                    
+                    players.set(playerName, {
+                        name: playerName,
+                        id: playerData.id || '',
+                        fideId: fideId,
+                        gender: playerData.gender || '',
+                        href: playerData.href || ''
+                    });
+                }
+            }
+        });
+    }
+    
+    return Array.from(players.values());
+}
+
+// Function to check if tournament is from current year
+function isCurrentYearTournament(metadata) {
+    const currentYear = new Date().getFullYear().toString();
+    
+    // Check various date fields in metadata
+    if (metadata['Date']) {
+        const dateStr = metadata['Date'];
+        if (dateStr.includes(currentYear)) return true;
+    }
+    
+    if (metadata['Start Date']) {
+        const startDate = metadata['Start Date'];
+        if (startDate.includes(currentYear)) return true;
+    }
+    
+    if (metadata['End Date']) {
+        const endDate = metadata['End Date'];
+        if (endDate.includes(currentYear)) return true;
+    }
+    
+    // Check tournament name for year
+    if (metadata['Tournament Name']) {
+        const tournamentName = metadata['Tournament Name'];
+        if (tournamentName.includes(currentYear)) return true;
+    }
+    
+    return false;
+}
+
+// Function to generate unique players files
+async function generateUniquePlayersFiles(tournaments) {
+    const currentYear = new Date().getFullYear().toString();
+    const seniorPlayers = new Map(); // Map to track player participation
+    const juniorPlayers = new Map(); // Map to track player participation
+    const playerTournaments = new Map(); // Track which tournaments each player participated in
+    
+    console.log(`Processing tournaments for year ${currentYear}...`);
+    
+    // First pass: collect all players and their tournament participation
+    for (const tournament of tournaments) {
+        // Check if tournament is from current year
+        if (!isCurrentYearTournament(tournament.data)) {
+            continue;
+        }
+        
+        // Load tournament data
+        const tournamentPath = path.join(WWW_FOLDER, tournament.path.replace('/data.json', ''));
+        const dataJsonPath = path.join(tournamentPath, 'data.json');
+        
+        try {
+            const dataJson = await fs.readFile(dataJsonPath, 'utf-8');
+            const tournamentData = JSON.parse(dataJson);
+            
+            // Extract players from this tournament
+            const players = extractUniquePlayers(tournamentData);
+            
+            // Track tournament participation for each player
+            players.forEach(player => {
+                const playerKey = player.name;
+                
+                if (!playerTournaments.has(playerKey)) {
+                    playerTournaments.set(playerKey, {
+                        player: player,
+                        tournaments: [],
+                        category: tournament.category
+                    });
+                }
+                
+                const playerData = playerTournaments.get(playerKey);
+                playerData.tournaments.push(tournament.path);
+                
+                // Update category if this is a senior tournament and player isn't already categorized as senior
+                if (tournament.category === 'Senior') {
+                    playerData.category = 'Senior';
+                }
+            });
+            
+            console.log(`[${tournament.path}] Processed ${players.length} players for ${tournament.category} category`);
+            
+        } catch (err) {
+            console.error(`Error processing tournament ${tournament.path}:`, err);
+        }
+    }
+    
+    // Count total tournaments for the year
+    const currentYearTournaments = Array.from(playerTournaments.values())
+        .flatMap(p => p.tournaments)
+        .filter((tournament, index, arr) => arr.indexOf(tournament) === index); // Remove duplicates
+    
+    const totalTournaments = currentYearTournaments.length;
+    console.log(`Total tournaments in ${currentYear}: ${totalTournaments}`);
+    
+    // Second pass: filter players based on participation criteria
+    for (const [playerName, playerData] of playerTournaments) {
+        const uniqueTournaments = [...new Set(playerData.tournaments)]; // Remove duplicate tournament entries
+        const tournamentCount = uniqueTournaments.length;
+        
+        // Keep player if:
+        // 1. They played in more than 1 tournament, OR
+        // 2. There's only 1 tournament total for the year (beginning of year case)
+        if (tournamentCount > 1 || totalTournaments === 1) {
+            const player = {
+                ...playerData.player,
+                tournamentCount: tournamentCount,
+                tournaments: uniqueTournaments
+            };
+            
+            if (playerData.category === 'Senior') {
+                seniorPlayers.set(playerName, player);
+            } else {
+                juniorPlayers.set(playerName, player);
+            }
+        }
+    }
+    
+    // Convert Maps to arrays and sort by name
+    const seniorPlayersArray = Array.from(seniorPlayers.values()).sort((a, b) => a.name.localeCompare(b.name));
+    const juniorPlayersArray = Array.from(juniorPlayers.values()).sort((a, b) => a.name.localeCompare(b.name));
+    
+    // Write senior players file
+    const seniorPlayersPath = path.join(WWW_FOLDER, 'senior-players.json');
+    await fs.writeFile(seniorPlayersPath, JSON.stringify({
+        generatedAt: new Date().toISOString(),
+        year: currentYear,
+        count: seniorPlayersArray.length,
+        totalTournaments: totalTournaments,
+        players: seniorPlayersArray
+    }, null, 2), 'utf-8');
+    
+    // Write junior players file
+    const juniorPlayersPath = path.join(WWW_FOLDER, 'junior-players.json');
+    await fs.writeFile(juniorPlayersPath, JSON.stringify({
+        generatedAt: new Date().toISOString(),
+        year: currentYear,
+        count: juniorPlayersArray.length,
+        totalTournaments: totalTournaments,
+        players: juniorPlayersArray
+    }, null, 2), 'utf-8');
+    
+    console.log(`\nUnique Players Summary for ${currentYear}:`);
+    console.log(`Total tournaments in ${currentYear}: ${totalTournaments}`);
+    console.log(`Senior Players (played in >1 tournament or only tournament): ${seniorPlayersArray.length} players written to ${seniorPlayersPath}`);
+    console.log(`Junior Players (played in >1 tournament or only tournament): ${juniorPlayersArray.length} players written to ${juniorPlayersPath}`);
+    
+    return {
+        senior: seniorPlayersArray,
+        junior: juniorPlayersArray,
+        totalTournaments: totalTournaments
+    };
+}
+
 const debugTournament = ""; // Set to empty to process all tournaments
 async function main() {
     const allFolders = await fs.readdir(WWW_FOLDER, { withFileTypes: true });
@@ -475,6 +662,11 @@ async function main() {
     const tournamentJsonPath = path.join(WWW_FOLDER, 'tournament.json');
     await fs.writeFile(tournamentJsonPath, JSON.stringify(tournaments, null, 2), 'utf-8');
     console.log(`All tournaments metadata written to ${tournamentJsonPath}`);
+    
+    // Generate unique players files for current year
+    console.log('\nGenerating unique players files...');
+    await generateUniquePlayersFiles(tournaments);
+    
     if(debugTournament!==   "") {
         console.log(tournaments);
     }

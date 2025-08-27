@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
+import Image from "next/image";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -42,10 +43,18 @@ export default function RootLayout({
           <header className="bg-white shadow flex items-center justify-between px-2 md:px-6 py-4">
             <div className="flex items-center gap-4">
               <Link href="/" className="flex items-center gap-4">
-                <img src="https://tournament.hobsonsbaychess.com/timeline/Logo.png" alt="HBCC Logo" width={40} height={40} className="rounded-full border border-blue-300" />
+                <Image src="/Logo.png" alt="HBCC Logo" width={40} height={40} className="rounded-full border border-blue-300" />
                 <span className="text-xl md:text-2xl font-bold text-blue-700 tracking-wide">Hobsons Bay Chess Club</span>
               </Link>
             </div>
+            <nav className="hidden md:flex items-center gap-6">
+              <Link href="/" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">
+                Tournaments
+              </Link>
+              <Link href="/leaderboard" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">
+                Leaderboards
+              </Link>
+            </nav>
           </header>
           <main className="px0 md:px-4 pb-8">{children}</main>
           <footer className="bg-white border-t mt-12 py-6 text-gray-500 text-sm">

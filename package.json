@@ -14,12 +14,16 @@
     "axios": "^1.6.8",
     "cheerio": "^1.0.0-rc.12",
     "csv": "^6.3.6",
+    "fast-xml-parser": "^5.2.5",
     "glob": "^10.3.10",
     "handlebars": "^4.7.8",
+    "node-fetch": "^3.3.2",
     "papaparse": "^5.4.1",
     "puppeteer": "^24.1.1",
     "react-calendar": "^6.0.0",
     "react-icons": "^5.5.0",
-    "unzipper": "^0.10.14"
+    "sax": "^1.4.1",
+    "unzipper": "^0.10.14",
+    "xml2js": "^0.6.2"
   }
 }

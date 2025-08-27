@@ -19,7 +19,6 @@ function getYear(dateStr: string): string {
   return match ? match[1] : new Date().getFullYear().toString(); // Default to current year if no match
 }
 
-const STATUS_FILTERS = ["All", "Planned", "In Progress"];
 const CATEGORY_OPTIONS = ["All", "Senior", "Junior", "Rapid", "Blitz", "Planned", "In Progress"];
 
 export default function Home() {
