@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import FilterTabs from "@/components/FilterTabs";
 import { Player, calculateAge, getAgeGroup } from "@/utils/ratingLoader";
+import PlayerModal from "@/components/PlayerModal";
 
 type LeaderboardData = {
   generatedAt: string;
@@ -26,6 +27,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [ageFilter, setAgeFilter] = useState<string>("under18");
+  const [selectedPlayer, setSelectedPlayer] = useState<Player | null>(null);
 
   const isJunior = type === 'junior';
   const dataFile = isJunior ? 'junior-ratings.json' : 'open-ratings.json';
@@ -317,33 +319,39 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
                         </td>
                         <td className="px-3 py-3 sm:px-6 sm:py-4">
                           <div className="flex items-center">
-                            <div className="flex-shrink-0 h-10 w-10">
-                              <div className={`h-10 w-10 rounded-full ${getAvatarColor()} flex items-center justify-center`}>
-                                <span className={`font-semibold ${getAvatarTextColor()}`}>
-                                  {player.name.charAt(0).toUpperCase()}
-                                </span>
-                              </div>
-                            </div>
-                            <div className="ml-4">
-                              <div className="text-sm font-medium text-gray-900">
-                                {player.name}
-                                {player.title && <span className="ml-2 text-xs text-blue-600 font-semibold">{player.title}</span>}
-                              </div>
-                              <div className="text-sm text-gray-500">
-                                {player.gender === 'male' ? '♂' : player.gender === 'female' ? '♀' : '⚪'} {player.gender}
-                              </div>
-                              {/* Mobile-only extra info */}
-                              <div className="mt-1 flex items-center gap-3 sm:hidden text-xs text-gray-500">
-                                <span className="">
-                                  Rating: <span className={`font-semibold ${getRatingColor(rating)}`}>{rating > 0 ? rating : 'N/A'}</span>
-                                </span>
-                                {age ? (
-                                  <span className="">
-                                    Age: <span className={`inline-block px-2 py-0.5 rounded-full ${getAgeColor(player.birthYear!)}`}>{age}</span>
+                            <button
+                              type="button"
+                              onClick={() => setSelectedPlayer(player)}
+                              className="flex items-center text-left"
+                            >
+                              <div className="flex-shrink-0 h-10 w-10">
+                                <div className={`h-10 w-10 rounded-full ${getAvatarColor()} flex items-center justify-center`}>
+                                  <span className={`font-semibold ${getAvatarTextColor()}`}>
+                                    {player.name.charAt(0).toUpperCase()}
                                   </span>
-                                ) : null}
+                                </div>
                               </div>
-                            </div>
+                              <div className="ml-4">
+                                <div className="text-sm font-medium text-gray-900 hover:text-blue-600">
+                                  {player.name}
+                                  {player.title && <span className="ml-2 text-xs text-blue-600 font-semibold">{player.title}</span>}
+                                </div>
+                                <div className="text-sm text-gray-500">
+                                  {player.gender === 'male' ? '♂' : player.gender === 'female' ? '♀' : '⚪'} {player.gender}
+                                </div>
+                                {/* Mobile-only extra info */}
+                                <div className="mt-1 flex items-center gap-3 sm:hidden text-xs text-gray-500">
+                                  <span className="">
+                                    Rating: <span className={`font-semibold ${getRatingColor(rating)}`}>{rating > 0 ? rating : 'N/A'}</span>
+                                  </span>
+                                  {age ? (
+                                    <span className="">
+                                      Age: <span className={`inline-block px-2 py-0.5 rounded-full ${getAgeColor(player.birthYear!)}`}>{age}</span>
+                                    </span>
+                                  ) : null}
+                                </div>
+                              </div>
+                            </button>
                           </div>
                         </td>
                         <td className="px-3 py-3 sm:px-6 sm:py-4 whitespace-nowrap">
@@ -445,6 +453,9 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
           </div>
         </div>
       </div>
+      {selectedPlayer && (
+        <PlayerModal player={selectedPlayer} onClose={() => setSelectedPlayer(null)} />
+      )}
     </div>
   );
 }
