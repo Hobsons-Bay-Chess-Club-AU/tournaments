@@ -89,6 +89,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
 
     // Search state
     const [searchQuery, setSearchQuery] = useState<string>("");
+    const [copiedTableIdx, setCopiedTableIdx] = useState<number | null>(null);
 
     // Pairing selector logic
     const isPairingPage = page.startsWith("pairs");
@@ -179,6 +180,86 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
         }
 
         return rows;
+    };
+
+    // Generate a plain-text representation of a table (headers + current filtered/sorted rows)
+    const generateTableText = (table: { headers?: MixedHeader[]; rows?: Record<string, unknown>[] }, idx: number) => {
+        const normalizedHeaders: Header[] = (table.headers?.map(h => (typeof h === 'string' ? { name: h, key: h } : h)) || []);
+        const headerNames = normalizedHeaders.map(h => h.name);
+        const rows = getFilteredAndSortedRows(table, idx);
+
+        // Helper to serialize a cell value to text
+        const serializeCell = (value: unknown): string => {
+            if (value === null || value === undefined) return '';
+            if (typeof value === 'string' || typeof value === 'number') return String(value).trim();
+            if (typeof value === 'object') {
+                const obj = value as Record<string, unknown>;
+                // Crosstable cell
+                if ('result' in obj) {
+                    const res = String(obj.result || '').trim();
+                    const w = obj.whiteOpponent ? ` W:${String(obj.whiteOpponent)}` : '';
+                    const b = obj.blackOpponent ? ` B:${String(obj.blackOpponent)}` : '';
+                    return `${res}${w}${b}`.trim();
+                }
+                // Player object shape
+                const name = (obj.playerName || obj.name || obj.player) ? String(obj.playerName || obj.name || obj.player).trim() : '';
+                const rating = obj.rating !== undefined && obj.rating !== '' ? ` (${String(obj.rating)})` : '';
+                if (name) return `${name}${rating}`.trim();
+                try { return JSON.stringify(obj); } catch { return String(obj); }
+            }
+            return String(value);
+        };
+
+        // Build matrix [ [headers], ...rows ]
+        const matrix: string[][] = [];
+        if (headerNames.length > 0) matrix.push(headerNames);
+        rows.forEach(row => {
+            const line: string[] = normalizedHeaders.map(h => serializeCell((row as any)[h.key]));
+            matrix.push(line);
+        });
+
+        // Compute max width per column for padding
+        const colWidths: number[] = [];
+        matrix.forEach(r => {
+            r.forEach((cell, i) => {
+                const len = (cell || '').length;
+                colWidths[i] = Math.max(colWidths[i] || 0, len);
+            });
+        });
+
+        // Join rows with padded columns
+        const text = matrix
+            .map(r => r.map((cell, i) => (cell || '').padEnd(colWidths[i] || 0, ' ')).join('  '))
+            .join('\n');
+        return text.trim();
+    };
+
+    const copyTableToClipboard = async (table: { headers?: MixedHeader[]; rows?: Record<string, unknown>[] }, idx: number) => {
+        const text = generateTableText(table, idx);
+        try {
+            if (navigator && 'clipboard' in navigator && typeof navigator.clipboard.writeText === 'function') {
+                await navigator.clipboard.writeText(text);
+            } else {
+                const ta = document.createElement('textarea');
+                ta.value = text;
+                document.body.appendChild(ta);
+                ta.select();
+                document.execCommand('copy');
+                document.body.removeChild(ta);
+            }
+            setCopiedTableIdx(idx);
+            window.setTimeout(() => setCopiedTableIdx(null), 2000);
+        } catch {
+            // Fallback attempt
+            const ta = document.createElement('textarea');
+            ta.value = text;
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand('copy');
+            document.body.removeChild(ta);
+            setCopiedTableIdx(idx);
+            window.setTimeout(() => setCopiedTableIdx(null), 2000);
+        }
     };
 
     const isKeyValueTable = (table: { headers?: MixedHeader[]; rows?: Record<string, unknown>[] }): boolean => {
@@ -413,6 +494,14 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                     </div>
                                                 </div>
                                             )}
+                                            <div className="flex justify-end p-3 border-t border-gray-100 bg-white">
+                                                <button
+                                                    onClick={() => copyTableToClipboard(table as any, idx)}
+                                                    className={`px-3 py-1.5 text-sm rounded-md border ${copiedTableIdx === idx ? 'bg-green-100 text-green-700 border-green-300' : 'bg-gray-100 hover:bg-gray-200 text-gray-700 border-gray-300'}`}
+                                                >
+                                                    {copiedTableIdx === idx ? 'Copied!' : 'Copy table'}
+                                                </button>
+                                            </div>
                                         </div>
                                     )}
                                 </div>
