@@ -255,15 +255,15 @@ function parseTableToJson($table) {
     }
     
     const headers = [];
-    $table.find('thead tr th').each((i, el) => {
+    $table.find('thead tr th, thead tr td').each((i, el) => {
         headers.push(cheerio(el).text().trim().replace("↕ ", ""));
     });
     const rows = [];
     $table.find('tbody tr').each((i, tr) => {
         const rowObj = {};
         cheerio(tr).find('td').each((j, td) => {
-            // Special handling for player cells
-            const header = headers[j] || `col${j + 1}`;
+            // Improved column mapping - ensure we don't exceed header count
+            const header = j < headers.length ? headers[j] : `col${j + 1}`;
             const $td = cheerio(td);
             
             if (header === 'White Player' || header === 'Black Player' || header === 'Player') {
@@ -301,11 +301,51 @@ function parseTableToJson($table) {
                         blackOpponent
                     };
                 } else {
-                    // Regular cell content
-                    rowObj[header] = $td.text().trim();
+                    // Check if this is a hole cell (self-pairing)
+                    if ($td.hasClass('hole')) {
+                        rowObj[header] = "×";
+                    } else {
+                        // Check if this cell contains an image (flag)
+                        const $img = $td.find('img');
+                        if ($img.length > 0) {
+                            // Extract flag information from image
+                            const alt = $img.attr('alt');
+                            const src = $img.attr('src');
+                            // Use alt attribute if available, otherwise use src, and convert to uppercase
+                            rowObj[header] = (alt || src || '').toUpperCase();
+                        } else {
+                            // Regular cell content
+                            rowObj[header] = $td.text().trim();
+                        }
+                    }
                 }
             }
         });
+        
+        // Post-process the row to fix common mapping issues
+        // Only apply this fix to standings tables (tables with Player column)
+        const hasPlayerColumn = headers.includes('Player') || headers.includes('NAME');
+        const colKeys = Object.keys(rowObj).filter(key => key.startsWith('col'));
+        
+        if (colKeys.length > 0 && hasPlayerColumn) {
+            // Log when we detect potential column misalignment in standings tables
+            if (colKeys.length === 1 && colKeys[0] === 'col13' && (!rowObj['Pts'] || rowObj['Pts'] === '')) {
+                console.log(`[DEBUG] Detected col13 with value "${rowObj['col13']}" - mapping to Pts`);
+                rowObj['Pts'] = rowObj['col13'];
+                delete rowObj['col13'];
+            }
+            
+            // More general fix: if we have any col* keys and missing Pts, map the first one
+            if (!rowObj['Pts'] || rowObj['Pts'] === '') {
+                const firstColKey = colKeys.sort()[0];
+                if (firstColKey && rowObj[firstColKey]) {
+                    console.log(`[DEBUG] Mapping ${firstColKey}="${rowObj[firstColKey]}" to Pts`);
+                    rowObj['Pts'] = rowObj[firstColKey];
+                    delete rowObj[firstColKey];
+                }
+            }
+        }
+        
         rows.push(rowObj);
     });
     
