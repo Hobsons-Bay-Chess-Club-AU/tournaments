@@ -103,7 +103,7 @@
 <tr> 
 <td>36</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3291189" target="X">Kwek,Alexander</a></td> <td>3291189</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1471</td> <td>+0.00</td> <td> 671</td></tr>
 <tr> 
-<td>37</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/0" target="X">Lacson,Alexandria</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 2</td> <td> 0.0</td> <td>1537</td> <td>+0.00</td> <td> 737</td></tr>
+<td>37</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/profile/0" target="X">Lacson,Alexandria</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 2</td> <td> 0.0</td> <td>1537</td> <td>+0.00</td> <td> 737</td></tr>
 <tr> 
 <td>38</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3283470" target="X">Manoj,Dev</a></td> <td>3283470</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 3</td> <td> 1.0</td> <td>1565</td> <td>+0.00</td> <td>1440</td></tr>
 <tr> 
