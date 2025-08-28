@@ -317,7 +317,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>34</td> <td></td> <td> <a href="playercard.php#34"> Singh,Aradhya        </a>  <td>0</td>
-<td> 1.0</td> <td> 0.0</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>6</td> <td></td> <td> <a href="playercard.php#6"> Paul,Cijo            </a>  <td>1596</td>
 <td> 0.0</td> <td> 2.0</td>
@@ -339,7 +339,7 @@
 <td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>34</td> <td></td> <td> <a href="playercard.php#34"> Singh,Aradhya        </a>  <td>0</td>
-<td> 1.0</td> <td> 0.0</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>11</td> <td></td> <td> <a href="playercard.php#11"> Pasukov,Leo          </a>  <td>1513</td>
 <td> 0.0</td> <td> 2.0</td>
@@ -644,7 +644,7 @@
 <tr> <td>2</td> <td> B</td> <td>17</td> <td></td> <td> <a href="playercard.php#17"> Bodke,Krishna        </a>  <td>1407</td>
 <td> 0.0</td> <td> 1.0</td>
 </tr> 
-<tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+<tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>4</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 

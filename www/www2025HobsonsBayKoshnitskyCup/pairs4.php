@@ -373,17 +373,17 @@
 </td></tr>
 <tr> <td>11</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#17"></a> 
+<a href="playercard.php#34"></a> 
  <div class="player-name-box2">
-			<span>Bodke,Krishna</span>
+			<span>Singh,Aradhya</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 17</div> 
+			<div class="sort-num"> 34</div> 
 			<div class="title-box"> 
- <div class="notitle2 male">-</div>
+ <div class="notitle2 female">-</div>
 			</div>
-			<div class="rating">1407</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
+			<div class="rating">0</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -439,17 +439,17 @@
 </td></tr>
 <tr> <td>13</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#35"></a> 
+<a href="playercard.php#17"></a> 
  <div class="player-name-box2">
-			<span>Yegnavajjula,Venkata</span>
+			<span>Bodke,Krishna</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 35</div> 
+			<div class="sort-num"> 17</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
-			<div class="rating">0</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+			<div class="rating">1407</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -471,6 +471,39 @@
 </div>
 </td></tr>
 <tr> <td>14</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#29"></a> 
+ <div class="player-name-box2">
+			<span>Nicdao,Joseph</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 29</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">653</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td>0.5</td><td class="result"> ... </td><td>1</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#35"></a> 
+ <div class="player-name-box2">
+			<span>Yegnavajjula,Venkata</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 35</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">0</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td></tr>
+<tr> <td>15</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#33"></a> 
  <div class="player-name-box2">
@@ -498,39 +531,6 @@
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">1060</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-</div>
-</td></tr>
-<tr> <td>15</td><td><div class="player-container" 
-   <div class="left-box2">
-<a href="playercard.php#34"></a> 
- <div class="player-name-box2">
-			<span>Singh,Aradhya</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 34</div> 
-			<div class="title-box"> 
- <div class="notitle2 female">-</div>
-			</div>
-			<div class="rating">0</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-</div>
-</td><td>0</td><td class="result"> ... </td><td>0.5</td><td><div class="player-container" 
-   <div class="left-box2">
-<a href="playercard.php#29"></a> 
- <div class="player-name-box2">
-			<span>Nicdao,Joseph</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 29</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">653</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 

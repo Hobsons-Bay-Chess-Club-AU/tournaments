@@ -395,7 +395,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">3   </div></td><td><div class="res">0</div><div class="cf">26  </div></td><td> </td><td> </td></tr>
+</td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">3   </div></td><td><div class="res">0</div><div class="cf">26  </div></td><td><div class="res">0</div><div class="cf">34  </div></td><td> </td></tr>
 <tr> 
 <td> <span class="idn"> 21 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -575,7 +575,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 1.5</td><td><div class="res">0</div><div class="cb">13  </div></td><td><div class="res"> ½ </div><div class="cf">BYE</div><td><div class="res">1</div><div class="cf">34  </div></td><td> </td></tr>
+</td><td class="score"> 1.5</td><td><div class="res">0</div><div class="cb">13  </div></td><td><div class="res"> ½ </div><div class="cf">BYE</div><td><div class="res">1</div><div class="cf">31  </div></td><td> </td></tr>
 <tr> 
 <td> <span class="idn"> 31 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -593,7 +593,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.5</td><td><div class="res"> ½ </div><div class="cf">BYE</div><td><div class="res">0</div><div class="cf">21  </div></td><td> </td><td> </td></tr>
+</td><td class="score"> 0.5</td><td><div class="res"> ½ </div><div class="cf">BYE</div><td><div class="res">0</div><div class="cf">21  </div></td><td><div class="res">0</div><div class="cf">30  </div></td><td> </td></tr>
 <tr> 
 <td> <span class="idn"> 32 </span></td><td><div class="player-container" 
    <div class="left-box2">
@@ -647,7 +647,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">16  </div></td><td><div class="res">0</div><div class="cb">17  </div></td><td><div class="res">0</div><div class="cf">30  </div></td><td> </td></tr>
+</td><td class="score"> 1.0</td><td><div class="res">0</div><div class="cw">16  </div></td><td><div class="res">0</div><div class="cb">17  </div></td><td><div class="res">1</div><div class="cf">20  </div></td><td> </td></tr>
 <tr> 
 <td> <span class="idn"> 35 </span></td><td><div class="player-container" 
    <div class="left-box2">
