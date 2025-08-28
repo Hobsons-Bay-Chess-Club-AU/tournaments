@@ -1,4 +1,5 @@
 import React from "react";
+import { renderFederation } from "@/utils/federationMapping";
 
 interface PlayerObject {
     id?: string | number;
@@ -48,8 +49,19 @@ const getGenderStyles = (gender: string) => {
 };
 
 const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", onPlayerClick, tournamentPath }) => {
-    // If data is a string, render it directly
+    // If data is a string, check if it's a federation code
     if (typeof data === 'string') {
+        // Check if this looks like a federation code (3 letters, all caps)
+        const isFederationCode = /^[A-Z]{2,3}$/.test(data.trim());
+        
+        if (isFederationCode) {
+            return (
+                <span className={className}>
+                    {renderFederation(data.trim())}
+                </span>
+            );
+        }
+        
         return <span className={className}>{data}</span>;
     }
 
