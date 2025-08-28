@@ -337,6 +337,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                                                 data={row[header]}
                                                                                 onPlayerClick={handlePlayerClick}
                                                                                 tournamentPath={`/${resolvedParams.tournament}`}
+                                                                                columnHeader={header}
                                                                             />
                                                                         </td>
                                                                     ))}
@@ -383,6 +384,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                                                 data={row[header]}
                                                                                 onPlayerClick={handlePlayerClick}
                                                                                 tournamentPath={`/${resolvedParams.tournament}`}
+                                                                                columnHeader={header}
                                                                             />
                                                                         </div>
                                                                     </div>

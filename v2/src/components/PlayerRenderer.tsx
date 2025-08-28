@@ -1,5 +1,6 @@
 import React from "react";
 import { renderFederation } from "@/utils/federationMapping";
+import { renderTitle } from "@/utils/titleMapping";
 
 interface PlayerObject {
     id?: string | number;
@@ -26,6 +27,7 @@ interface PlayerRendererProps {
     className?: string;
     onPlayerClick?: (playerId: string | number) => void;
     tournamentPath?: string; // Add tournament path to generate correct URLs
+    columnHeader?: string; // Add column header to determine rendering type
 }
 
 // Helper function to get gender-based styling
@@ -48,9 +50,21 @@ const getGenderStyles = (gender: string) => {
     };
 };
 
-const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", onPlayerClick, tournamentPath }) => {
-    // If data is a string, check if it's a federation code
+const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", onPlayerClick, tournamentPath, columnHeader }) => {
+    // If data is a string, check if it's a title or federation code
     if (typeof data === 'string') {
+        // Check if this is a Title column and render as badge
+        if (columnHeader === 'Title') {
+            const titleElement = renderTitle(data.trim());
+            if (titleElement) {
+                return (
+                    <span className={className}>
+                        {titleElement}
+                    </span>
+                );
+            }
+        }
+        
         // Check if this looks like a federation code (3 letters, all caps)
         const isFederationCode = /^[A-Z]{2,3}$/.test(data.trim());
         
