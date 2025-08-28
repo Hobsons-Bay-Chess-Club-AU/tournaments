@@ -214,7 +214,8 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
         const matrix: string[][] = [];
         if (headerNames.length > 0) matrix.push(headerNames);
         rows.forEach(row => {
-            const line: string[] = normalizedHeaders.map(h => serializeCell((row as any)[h.key]));
+            const record = row as Record<string, unknown>;
+            const line: string[] = normalizedHeaders.map(h => serializeCell(record[h.key]));
             matrix.push(line);
         });
 
@@ -496,7 +497,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                             )}
                                             <div className="flex justify-end p-3 border-t border-gray-100 bg-white">
                                                 <button
-                                                    onClick={() => copyTableToClipboard(table as any, idx)}
+                                                    onClick={() => copyTableToClipboard(table, idx)}
                                                     className={`px-3 py-1.5 text-sm rounded-md border ${copiedTableIdx === idx ? 'bg-green-100 text-green-700 border-green-300' : 'bg-gray-100 hover:bg-gray-200 text-gray-700 border-gray-300'}`}
                                                 >
                                                     {copiedTableIdx === idx ? 'Copied!' : 'Copy table'}
