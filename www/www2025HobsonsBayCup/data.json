@@ -1,21 +1,51 @@
 {
-  "generatedAt": "2025-08-28T07:03:30.117Z",
+  "generatedAt": "2025-08-28T12:37:53.626Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 7",
       "tables": [
         {
           "headers": [
-            "#",
-            "Player",
-            "Pts",
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7"
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "1",
+              "key": "1"
+            },
+            {
+              "name": "2",
+              "key": "2"
+            },
+            {
+              "name": "3",
+              "key": "3"
+            },
+            {
+              "name": "4",
+              "key": "4"
+            },
+            {
+              "name": "5",
+              "key": "5"
+            },
+            {
+              "name": "6",
+              "key": "6"
+            },
+            {
+              "name": "7",
+              "key": "7"
+            }
           ],
           "rows": [
             {
@@ -1423,19 +1453,58 @@
       "tables": [
         {
           "headers": [
-            "#",
-            "Player",
-            "Pts",
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "BH",
-            "BH/C1",
-            "SB"
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "1",
+              "key": "1"
+            },
+            {
+              "name": "2",
+              "key": "2"
+            },
+            {
+              "name": "3",
+              "key": "3"
+            },
+            {
+              "name": "4",
+              "key": "4"
+            },
+            {
+              "name": "5",
+              "key": "5"
+            },
+            {
+              "name": "6",
+              "key": "6"
+            },
+            {
+              "name": "7",
+              "key": "7"
+            },
+            {
+              "name": "BH",
+              "key": "BH"
+            },
+            {
+              "name": "BH/C1",
+              "key": "BH/C1"
+            },
+            {
+              "name": "SB",
+              "key": "SB"
+            }
           ],
           "rows": [
             {
@@ -2939,16 +3008,46 @@
       "tables": [
         {
           "headers": [
-            "#",
-            "Player",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "Ng",
-            "Pts",
-            "ARO",
-            "var",
-            "Rp"
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "Ng",
+              "key": "Ng"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "ARO",
+              "key": "ARO"
+            },
+            {
+              "name": "var",
+              "key": "var"
+            },
+            {
+              "name": "Rp",
+              "key": "Rp"
+            }
           ],
           "rows": [
             {
@@ -3487,14 +3586,38 @@
       "tables": [
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -3531,14 +3654,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -3625,14 +3772,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -3719,14 +3890,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -3803,14 +3998,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -3887,14 +4106,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -3951,14 +4194,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -4045,14 +4312,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -4129,14 +4420,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -4213,14 +4528,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -4297,14 +4636,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -4381,14 +4744,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -4445,14 +4832,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -4539,14 +4950,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -4633,14 +5068,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -4717,14 +5176,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -4791,14 +5274,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -4875,14 +5382,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -4959,14 +5490,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -5053,14 +5608,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -5137,14 +5716,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -5211,14 +5814,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -5275,14 +5902,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -5329,14 +5980,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -5373,14 +6048,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -5447,14 +6146,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -5531,14 +6254,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -5605,14 +6352,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -5669,14 +6440,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -5743,14 +6538,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -5827,14 +6646,38 @@
         },
         {
           "headers": [
-            "Rnd",
-            "Col",
-            "N opp",
-            "Opponent Name",
-            "FIDE ID",
-            "Fed",
-            "Rtg",
-            "res"
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
           ],
           "rows": [
             {
@@ -5914,14 +6757,38 @@
       "tables": [
         {
           "headers": [
-            "#",
-            "Title",
-            "Player",
-            "Fed",
-            "Origin",
-            "Rtg",
-            "RtgF",
-            "RtgN"
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "Title",
+              "key": "Title"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "RtgF",
+              "key": "RtgF"
+            },
+            {
+              "name": "RtgN",
+              "key": "RtgN"
+            }
           ],
           "rows": [
             {
@@ -6257,12 +7124,30 @@
       "tables": [
         {
           "headers": [
-            "N",
-            "Name",
-            "K",
-            "Elo",
-            "Var",
-            "Per"
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Name",
+              "key": "Name"
+            },
+            {
+              "name": "K",
+              "key": "K"
+            },
+            {
+              "name": "Elo",
+              "key": "Elo"
+            },
+            {
+              "name": "Var",
+              "key": "Var"
+            },
+            {
+              "name": "Per",
+              "key": "Per"
+            }
           ],
           "rows": []
         }
@@ -6277,12 +7162,30 @@
       "tables": [
         {
           "headers": [
-            "Bo.",
-            "White Player",
-            "Pts",
-            "Result",
-            "Pts",
-            "Black Player"
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
           ],
           "rows": [
             {
@@ -6295,6 +7198,7 @@
               },
               "Pts": "0",
               "Result": "1 - 0",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "16",
                 "playerName": "Matijas,Dejan",
@@ -6312,6 +7216,7 @@
               },
               "Pts": "0",
               "Result": "0 - 1",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "3",
                 "playerName": "Krishnan,Anirudh",
@@ -6329,6 +7234,7 @@
               },
               "Pts": "0",
               "Result": "1 - 0",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "18",
                 "playerName": "Nawar,Mena",
@@ -6346,6 +7252,7 @@
               },
               "Pts": "0",
               "Result": "0 - 1",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "7",
                 "playerName": "Nguyen,Anh Kiet",
@@ -6363,6 +7270,7 @@
               },
               "Pts": "0",
               "Result": "1 - 0",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "20",
                 "playerName": "Ramprasad,Nachiket",
@@ -6380,6 +7288,7 @@
               },
               "Pts": "0",
               "Result": "0 - 1",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "10",
                 "playerName": "Pasukov,Leo",
@@ -6397,6 +7306,7 @@
               },
               "Pts": "0",
               "Result": "½ - ½",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "26",
                 "playerName": "Veginati,Cherish",
@@ -6414,6 +7324,7 @@
               },
               "Pts": "0",
               "Result": "0 - 1",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "13",
                 "playerName": "Picone,James",
@@ -6431,6 +7342,7 @@
               },
               "Pts": "0",
               "Result": "1 - 0",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "29",
                 "playerName": "Shaiek,Nihal",
@@ -6448,6 +7360,7 @@
               },
               "Pts": "0",
               "Result": "0 - 1",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "15",
                 "playerName": "Bodke,Krishna",
@@ -6465,6 +7378,7 @@
               },
               "Pts": "0",
               "Result": "0 - 1",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "25",
                 "playerName": "Ruaya,Rohan",
@@ -6482,6 +7396,7 @@
               },
               "Pts": "0",
               "Result": "½",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -6499,6 +7414,7 @@
               },
               "Pts": "0",
               "Result": "½",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -6516,6 +7432,7 @@
               },
               "Pts": "0",
               "Result": "½",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -6533,6 +7450,7 @@
               },
               "Pts": "0",
               "Result": "½",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -6550,6 +7468,7 @@
               },
               "Pts": "0",
               "Result": "½",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -6567,6 +7486,7 @@
               },
               "Pts": "0",
               "Result": "½",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -6584,6 +7504,7 @@
               },
               "Pts": "0",
               "Result": "½",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -6601,6 +7522,7 @@
               },
               "Pts": "0",
               "Result": "½",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -6618,6 +7540,7 @@
               },
               "Pts": "0",
               "Result": "0",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -6635,6 +7558,7 @@
               },
               "Pts": "0",
               "Result": "0",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -6652,12 +7576,30 @@
       "tables": [
         {
           "headers": [
-            "Bo.",
-            "White Player",
-            "Pts",
-            "Result",
-            "Pts",
-            "Black Player"
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
           ],
           "rows": [
             {
@@ -6670,6 +7612,7 @@
               },
               "Pts": "1",
               "Result": "½ - ½",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "2",
                 "playerName": "Davis,Tony J",
@@ -6687,6 +7630,7 @@
               },
               "Pts": "1",
               "Result": "½ - ½",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "13",
                 "playerName": "Picone,James",
@@ -6704,6 +7648,7 @@
               },
               "Pts": "1",
               "Result": "½ - ½",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "5",
                 "playerName": "Enano,Ronald",
@@ -6721,6 +7666,7 @@
               },
               "Pts": "1",
               "Result": "1 - 0",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "14",
                 "playerName": "Whitford,Matthew",
@@ -6738,6 +7684,7 @@
               },
               "Pts": "1",
               "Result": "0 - 1",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "9",
                 "playerName": "Wongso,Renaldo",
@@ -6755,6 +7702,7 @@
               },
               "Pts": "0.5",
               "Result": "1 - 0",
+              "Pts_1": "0.5",
               "Black Player": {
                 "id": "22",
                 "playerName": "Annadasu,Shreyansh",
@@ -6772,6 +7720,7 @@
               },
               "Pts": "0.5",
               "Result": "0 - 1",
+              "Pts_1": "0.5",
               "Black Player": {
                 "id": "4",
                 "playerName": "Lingineni,Khushal",
@@ -6789,6 +7738,7 @@
               },
               "Pts": "0.5",
               "Result": "1 - 0",
+              "Pts_1": "0.5",
               "Black Player": {
                 "id": "8",
                 "playerName": "Wilkinson,Greg",
@@ -6806,6 +7756,7 @@
               },
               "Pts": "0.5",
               "Result": "0 - 1",
+              "Pts_1": "0.5",
               "Black Player": {
                 "id": "11",
                 "playerName": "Hogan,Steven",
@@ -6823,6 +7774,7 @@
               },
               "Pts": "0.5",
               "Result": "0F-1F",
+              "Pts_1": "0.5",
               "Black Player": {
                 "id": "12",
                 "playerName": "Nowak,Ruben",
@@ -6840,6 +7792,7 @@
               },
               "Pts": "0",
               "Result": "1F-0F",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "23",
                 "playerName": "Cox,Tyler",
@@ -6857,6 +7810,7 @@
               },
               "Pts": "0",
               "Result": "0 - 1",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "17",
                 "playerName": "Annapureddy,Dhruthin Reddy",
@@ -6874,6 +7828,7 @@
               },
               "Pts": "0",
               "Result": "1 - 0",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "31",
                 "playerName": "Cox,Aiden",
@@ -6891,6 +7846,7 @@
               },
               "Pts": "0",
               "Result": "0 - 1",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "19",
                 "playerName": "Yang,Yifan",
@@ -6908,6 +7864,7 @@
               },
               "Pts": "0",
               "Result": "1 - 0",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "32",
                 "playerName": "Sheikh,Tahmid",
@@ -6925,6 +7882,7 @@
               },
               "Pts": "0",
               "Result": "1 - 0",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "21",
                 "playerName": "Clerk,Max",
@@ -6942,12 +7900,30 @@
       "tables": [
         {
           "headers": [
-            "Bo.",
-            "White Player",
-            "Pts",
-            "Result",
-            "Pts",
-            "Black Player"
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
           ],
           "rows": [
             {
@@ -6960,6 +7936,7 @@
               },
               "Pts": "2",
               "Result": "0 - 1",
+              "Pts_1": "2",
               "Black Player": {
                 "id": "7",
                 "playerName": "Nguyen,Anh Kiet",
@@ -6977,6 +7954,7 @@
               },
               "Pts": "1.5",
               "Result": "1 - 0",
+              "Pts_1": "1.5",
               "Black Player": {
                 "id": "1",
                 "playerName": "Hogg,Dean",
@@ -6994,6 +7972,7 @@
               },
               "Pts": "1.5",
               "Result": "1 - 0",
+              "Pts_1": "1.5",
               "Black Player": {
                 "id": "12",
                 "playerName": "Nowak,Ruben",
@@ -7011,6 +7990,7 @@
               },
               "Pts": "1.5",
               "Result": "0 - 1",
+              "Pts_1": "1.5",
               "Black Player": {
                 "id": "3",
                 "playerName": "Krishnan,Anirudh",
@@ -7028,6 +8008,7 @@
               },
               "Pts": "1.5",
               "Result": "1 - 0",
+              "Pts_1": "1.5",
               "Black Player": {
                 "id": "15",
                 "playerName": "Bodke,Krishna",
@@ -7045,6 +8026,7 @@
               },
               "Pts": "1.5",
               "Result": "1 - 0",
+              "Pts_1": "1.5",
               "Black Player": {
                 "id": "26",
                 "playerName": "Veginati,Cherish",
@@ -7062,6 +8044,7 @@
               },
               "Pts": "1",
               "Result": "½ - ½",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "19",
                 "playerName": "Yang,Yifan",
@@ -7079,6 +8062,7 @@
               },
               "Pts": "1",
               "Result": "0 - 1",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "20",
                 "playerName": "Ramprasad,Nachiket",
@@ -7096,6 +8080,7 @@
               },
               "Pts": "1",
               "Result": "½ - ½",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "25",
                 "playerName": "Ruaya,Rohan",
@@ -7113,6 +8098,7 @@
               },
               "Pts": "0",
               "Result": "1 - 0",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "29",
                 "playerName": "Shaiek,Nihal",
@@ -7130,6 +8116,7 @@
               },
               "Pts": "0.5",
               "Result": "1 - 0",
+              "Pts_1": "0.5",
               "Black Player": {
                 "id": "24",
                 "playerName": "Kostakakis,Angelo",
@@ -7147,6 +8134,7 @@
               },
               "Pts": "0.5",
               "Result": "1 - 0",
+              "Pts_1": "0.5",
               "Black Player": {
                 "id": "28",
                 "playerName": "Nicdao,Joseph",
@@ -7164,6 +8152,7 @@
               },
               "Pts": "1",
               "Result": "1 - 0",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "18",
                 "playerName": "Nawar,Mena",
@@ -7181,6 +8170,7 @@
               },
               "Pts": "0",
               "Result": "½ - ½",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "23",
                 "playerName": "Cox,Tyler",
@@ -7198,6 +8188,7 @@
               },
               "Pts": "0",
               "Result": "1F-0F",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "27",
                 "playerName": "Singh,Abhyuday",
@@ -7213,8 +8204,9 @@
                 "gender": "male",
                 "href": "playercard.html#10"
               },
-              "Pts": "0",
+              "Pts": "1.5",
               "Result": "½",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -7230,8 +8222,9 @@
                 "gender": "male",
                 "href": "playercard.html#30"
               },
-              "Pts": "0",
+              "Pts": "0.5",
               "Result": "½",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -7249,12 +8242,30 @@
       "tables": [
         {
           "headers": [
-            "Bo.",
-            "White Player",
-            "Pts",
-            "Result",
-            "Pts",
-            "Black Player"
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
           ],
           "rows": [
             {
@@ -7265,8 +8276,9 @@
                 "gender": "male",
                 "href": "playercard.html#7"
               },
-              "Pts": "2.5",
+              "Pts": "3",
               "Result": "1 - 0",
+              "Pts_1": "2.5",
               "Black Player": {
                 "id": "2",
                 "playerName": "Davis,Tony J",
@@ -7284,6 +8296,7 @@
               },
               "Pts": "2.5",
               "Result": "0 - 1",
+              "Pts_1": "2.5",
               "Black Player": {
                 "id": "4",
                 "playerName": "Lingineni,Khushal",
@@ -7299,8 +8312,9 @@
                 "gender": "male",
                 "href": "playercard.html#13"
               },
-              "Pts": "2",
+              "Pts": "2.5",
               "Result": "0 - 1",
+              "Pts_1": "2",
               "Black Player": {
                 "id": "6",
                 "playerName": "McIntyre,Julian",
@@ -7318,6 +8332,7 @@
               },
               "Pts": "2",
               "Result": "1 - 0",
+              "Pts_1": "2",
               "Black Player": {
                 "id": "10",
                 "playerName": "Pasukov,Leo",
@@ -7335,6 +8350,7 @@
               },
               "Pts": "1.5",
               "Result": "1 - 0",
+              "Pts_1": "1.5",
               "Black Player": {
                 "id": "8",
                 "playerName": "Wilkinson,Greg",
@@ -7352,6 +8368,7 @@
               },
               "Pts": "1.5",
               "Result": "½ - ½",
+              "Pts_1": "1.5",
               "Black Player": {
                 "id": "11",
                 "playerName": "Hogan,Steven",
@@ -7369,6 +8386,7 @@
               },
               "Pts": "1.5",
               "Result": "0 - 1",
+              "Pts_1": "1.5",
               "Black Player": {
                 "id": "14",
                 "playerName": "Whitford,Matthew",
@@ -7386,6 +8404,7 @@
               },
               "Pts": "1",
               "Result": "0 - 1",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "16",
                 "playerName": "Matijas,Dejan",
@@ -7403,6 +8422,7 @@
               },
               "Pts": "1",
               "Result": "1 - 0",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "21",
                 "playerName": "Clerk,Max",
@@ -7420,6 +8440,7 @@
               },
               "Pts": "0.5",
               "Result": "1F-0F",
+              "Pts_1": "0.5",
               "Black Player": {
                 "id": "28",
                 "playerName": "Nicdao,Joseph",
@@ -7437,6 +8458,7 @@
               },
               "Pts": "0.5",
               "Result": "0 - 1",
+              "Pts_1": "0.5",
               "Black Player": {
                 "id": "31",
                 "playerName": "Cox,Aiden",
@@ -7454,6 +8476,7 @@
               },
               "Pts": "0",
               "Result": "½ - ½",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "27",
                 "playerName": "Singh,Abhyuday",
@@ -7469,8 +8492,9 @@
                 "gender": "male",
                 "href": "playercard.html#1"
               },
-              "Pts": "2",
+              "Pts": "1.5",
               "Result": "0F-1F",
+              "Pts_1": "2",
               "Black Player": {
                 "id": "9",
                 "playerName": "Wongso,Renaldo",
@@ -7488,6 +8512,7 @@
               },
               "Pts": "1.5",
               "Result": "1F-0F",
+              "Pts_1": "1.5",
               "Black Player": {
                 "id": "22",
                 "playerName": "Annadasu,Shreyansh",
@@ -7503,8 +8528,9 @@
                 "gender": "male",
                 "href": "playercard.html#5"
               },
-              "Pts": "0",
+              "Pts": "2.5",
               "Result": "½",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -7520,8 +8546,9 @@
                 "gender": "male",
                 "href": "playercard.html#17"
               },
-              "Pts": "0",
+              "Pts": "1.5",
               "Result": "½",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -7537,8 +8564,9 @@
                 "gender": "male",
                 "href": "playercard.html#25"
               },
-              "Pts": "0",
+              "Pts": "1.5",
               "Result": "½",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -7554,8 +8582,9 @@
                 "gender": "male",
                 "href": "playercard.html#30"
               },
-              "Pts": "0",
+              "Pts": "1",
               "Result": "0",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -7573,12 +8602,30 @@
       "tables": [
         {
           "headers": [
-            "Bo.",
-            "White Player",
-            "Pts",
-            "Result",
-            "Pts",
-            "Black Player"
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
           ],
           "rows": [
             {
@@ -7589,8 +8636,9 @@
                 "gender": "male",
                 "href": "playercard.html#4"
               },
-              "Pts": "4",
+              "Pts": "3.5",
               "Result": "0 - 1",
+              "Pts_1": "4",
               "Black Player": {
                 "id": "7",
                 "playerName": "Nguyen,Anh Kiet",
@@ -7608,6 +8656,7 @@
               },
               "Pts": "3",
               "Result": "0 - 1",
+              "Pts_1": "3",
               "Black Player": {
                 "id": "5",
                 "playerName": "Enano,Ronald",
@@ -7623,8 +8672,9 @@
                 "gender": "male",
                 "href": "playercard.html#12"
               },
-              "Pts": "3",
+              "Pts": "2.5",
               "Result": "0 - 1",
+              "Pts_1": "3",
               "Black Player": {
                 "id": "9",
                 "playerName": "Wongso,Renaldo",
@@ -7642,6 +8692,7 @@
               },
               "Pts": "2.5",
               "Result": "1 - 0",
+              "Pts_1": "2.5",
               "Black Player": {
                 "id": "13",
                 "playerName": "Picone,James",
@@ -7659,6 +8710,7 @@
               },
               "Pts": "2.5",
               "Result": "0 - 1",
+              "Pts_1": "2.5",
               "Black Player": {
                 "id": "3",
                 "playerName": "Krishnan,Anirudh",
@@ -7674,8 +8726,9 @@
                 "gender": "male",
                 "href": "playercard.html#10"
               },
-              "Pts": "2.5",
+              "Pts": "2",
               "Result": "0 - 1",
+              "Pts_1": "2.5",
               "Black Player": {
                 "id": "15",
                 "playerName": "Bodke,Krishna",
@@ -7693,6 +8746,7 @@
               },
               "Pts": "2",
               "Result": "½ - ½",
+              "Pts_1": "2",
               "Black Player": {
                 "id": "17",
                 "playerName": "Annapureddy,Dhruthin Reddy",
@@ -7710,6 +8764,7 @@
               },
               "Pts": "2",
               "Result": "½ - ½",
+              "Pts_1": "2",
               "Black Player": {
                 "id": "19",
                 "playerName": "Yang,Yifan",
@@ -7727,6 +8782,7 @@
               },
               "Pts": "2",
               "Result": "0 - 1",
+              "Pts_1": "2",
               "Black Player": {
                 "id": "18",
                 "playerName": "Nawar,Mena",
@@ -7744,6 +8800,7 @@
               },
               "Pts": "1.5",
               "Result": "0 - 1",
+              "Pts_1": "1.5",
               "Black Player": {
                 "id": "23",
                 "playerName": "Cox,Tyler",
@@ -7761,6 +8818,7 @@
               },
               "Pts": "1.5",
               "Result": "0 - 1",
+              "Pts_1": "1.5",
               "Black Player": {
                 "id": "22",
                 "playerName": "Annadasu,Shreyansh",
@@ -7778,6 +8836,7 @@
               },
               "Pts": "1",
               "Result": "1 - 0",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "32",
                 "playerName": "Sheikh,Tahmid",
@@ -7795,6 +8854,7 @@
               },
               "Pts": "0.5",
               "Result": "1 - 0",
+              "Pts_1": "0.5",
               "Black Player": {
                 "id": "27",
                 "playerName": "Singh,Abhyuday",
@@ -7812,6 +8872,7 @@
               },
               "Pts": "1.5",
               "Result": "0F-1F",
+              "Pts_1": "1.5",
               "Black Player": {
                 "id": "26",
                 "playerName": "Veginati,Cherish",
@@ -7829,6 +8890,7 @@
               },
               "Pts": "0.5",
               "Result": "1F-0F",
+              "Pts_1": "0.5",
               "Black Player": {
                 "id": "24",
                 "playerName": "Kostakakis,Angelo",
@@ -7844,8 +8906,9 @@
                 "gender": "male",
                 "href": "playercard.html#6"
               },
-              "Pts": "0",
+              "Pts": "3",
               "Result": "½",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -7861,8 +8924,9 @@
                 "gender": "male",
                 "href": "playercard.html#30"
               },
-              "Pts": "0",
+              "Pts": "1",
               "Result": "0",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -7880,12 +8944,30 @@
       "tables": [
         {
           "headers": [
-            "Bo.",
-            "White Player",
-            "Pts",
-            "Result",
-            "Pts",
-            "Black Player"
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
           ],
           "rows": [
             {
@@ -7896,8 +8978,9 @@
                 "gender": "male",
                 "href": "playercard.html#7"
               },
-              "Pts": "4",
+              "Pts": "5",
               "Result": "1 - 0",
+              "Pts_1": "4",
               "Black Player": {
                 "id": "5",
                 "playerName": "Enano,Ronald",
@@ -7913,8 +8996,9 @@
                 "gender": "male",
                 "href": "playercard.html#9"
               },
-              "Pts": "3.5",
+              "Pts": "4",
               "Result": "1 - 0",
+              "Pts_1": "3.5",
               "Black Player": {
                 "id": "4",
                 "playerName": "Lingineni,Khushal",
@@ -7932,6 +9016,7 @@
               },
               "Pts": "3.5",
               "Result": "0 - 1",
+              "Pts_1": "3.5",
               "Black Player": {
                 "id": "2",
                 "playerName": "Davis,Tony J",
@@ -7947,8 +9032,9 @@
                 "gender": "male",
                 "href": "playercard.html#3"
               },
-              "Pts": "3",
+              "Pts": "3.5",
               "Result": "1 - 0",
+              "Pts_1": "3",
               "Black Player": {
                 "id": "20",
                 "playerName": "Ramprasad,Nachiket",
@@ -7964,8 +9050,9 @@
                 "gender": "male",
                 "href": "playercard.html#18"
               },
-              "Pts": "2.5",
+              "Pts": "3",
               "Result": "1 - 0",
+              "Pts_1": "2.5",
               "Black Player": {
                 "id": "11",
                 "playerName": "Hogan,Steven",
@@ -7983,6 +9070,7 @@
               },
               "Pts": "2.5",
               "Result": "1 - 0",
+              "Pts_1": "2.5",
               "Black Player": {
                 "id": "12",
                 "playerName": "Nowak,Ruben",
@@ -8000,6 +9088,7 @@
               },
               "Pts": "2.5",
               "Result": "0 - 1",
+              "Pts_1": "2.5",
               "Black Player": {
                 "id": "26",
                 "playerName": "Veginati,Cherish",
@@ -8017,6 +9106,7 @@
               },
               "Pts": "2.5",
               "Result": "0 - 1",
+              "Pts_1": "2.5",
               "Black Player": {
                 "id": "14",
                 "playerName": "Whitford,Matthew",
@@ -8034,6 +9124,7 @@
               },
               "Pts": "2.5",
               "Result": "0 - 1",
+              "Pts_1": "2.5",
               "Black Player": {
                 "id": "16",
                 "playerName": "Matijas,Dejan",
@@ -8049,8 +9140,9 @@
                 "gender": "male",
                 "href": "playercard.html#19"
               },
-              "Pts": "2",
+              "Pts": "2.5",
               "Result": "1 - 0",
+              "Pts_1": "2",
               "Black Player": {
                 "id": "21",
                 "playerName": "Clerk,Max",
@@ -8068,6 +9160,7 @@
               },
               "Pts": "2",
               "Result": "0 - 1",
+              "Pts_1": "2",
               "Black Player": {
                 "id": "10",
                 "playerName": "Pasukov,Leo",
@@ -8085,6 +9178,7 @@
               },
               "Pts": "1.5",
               "Result": "0 - 1",
+              "Pts_1": "1.5",
               "Black Player": {
                 "id": "28",
                 "playerName": "Nicdao,Joseph",
@@ -8100,8 +9194,9 @@
                 "gender": "male",
                 "href": "playercard.html#32"
               },
-              "Pts": "1.5",
+              "Pts": "1",
               "Result": "0 - 1",
+              "Pts_1": "1.5",
               "Black Player": {
                 "id": "31",
                 "playerName": "Cox,Aiden",
@@ -8117,8 +9212,9 @@
                 "gender": "male",
                 "href": "playercard.html#27"
               },
-              "Pts": "1.5",
+              "Pts": "0.5",
               "Result": "0 - 1",
+              "Pts_1": "1.5",
               "Black Player": {
                 "id": "8",
                 "playerName": "Wilkinson,Greg",
@@ -8134,8 +9230,9 @@
                 "gender": "male",
                 "href": "playercard.html#1"
               },
-              "Pts": "0",
+              "Pts": "1.5",
               "Result": "0",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -8151,8 +9248,9 @@
                 "gender": "male",
                 "href": "playercard.html#6"
               },
-              "Pts": "0",
+              "Pts": "3.5",
               "Result": "0",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -8168,8 +9266,9 @@
                 "gender": "male",
                 "href": "playercard.html#24"
               },
-              "Pts": "0",
+              "Pts": "0.5",
               "Result": "0",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -8185,8 +9284,9 @@
                 "gender": "male",
                 "href": "playercard.html#30"
               },
-              "Pts": "0",
+              "Pts": "1",
               "Result": "0",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -8204,12 +9304,30 @@
       "tables": [
         {
           "headers": [
-            "Bo.",
-            "White Player",
-            "Pts",
-            "Result",
-            "Pts",
-            "Black Player"
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
           ],
           "rows": [
             {
@@ -8220,8 +9338,9 @@
                 "gender": "male",
                 "href": "playercard.html#3"
               },
-              "Pts": "6",
+              "Pts": "4.5",
               "Result": "1 - 0",
+              "Pts_1": "6",
               "Black Player": {
                 "id": "7",
                 "playerName": "Nguyen,Anh Kiet",
@@ -8237,8 +9356,9 @@
                 "gender": "male",
                 "href": "playercard.html#2"
               },
-              "Pts": "5",
+              "Pts": "4.5",
               "Result": "0 - 1",
+              "Pts_1": "5",
               "Black Player": {
                 "id": "9",
                 "playerName": "Wongso,Renaldo",
@@ -8254,8 +9374,9 @@
                 "gender": "male",
                 "href": "playercard.html#5"
               },
-              "Pts": "3.5",
+              "Pts": "4",
               "Result": "1 - 0",
+              "Pts_1": "3.5",
               "Black Player": {
                 "id": "6",
                 "playerName": "McIntyre,Julian",
@@ -8271,8 +9392,9 @@
                 "gender": "male",
                 "href": "playercard.html#14"
               },
-              "Pts": "4",
+              "Pts": "3.5",
               "Result": "1 - 0",
+              "Pts_1": "4",
               "Black Player": {
                 "id": "18",
                 "playerName": "Nawar,Mena",
@@ -8290,6 +9412,7 @@
               },
               "Pts": "3.5",
               "Result": "1 - 0",
+              "Pts_1": "3.5",
               "Black Player": {
                 "id": "19",
                 "playerName": "Yang,Yifan",
@@ -8307,6 +9430,7 @@
               },
               "Pts": "3.5",
               "Result": "0 - 1",
+              "Pts_1": "3.5",
               "Black Player": {
                 "id": "15",
                 "playerName": "Bodke,Krishna",
@@ -8324,6 +9448,7 @@
               },
               "Pts": "3.5",
               "Result": "1 - 0",
+              "Pts_1": "3.5",
               "Black Player": {
                 "id": "17",
                 "playerName": "Annapureddy,Dhruthin Reddy",
@@ -8339,8 +9464,9 @@
                 "gender": "male",
                 "href": "playercard.html#10"
               },
-              "Pts": "2.5",
+              "Pts": "3",
               "Result": "0 - 1",
+              "Pts_1": "2.5",
               "Black Player": {
                 "id": "13",
                 "playerName": "Picone,James",
@@ -8356,8 +9482,9 @@
                 "gender": "male",
                 "href": "playercard.html#8"
               },
-              "Pts": "3",
+              "Pts": "2.5",
               "Result": "0 - 1",
+              "Pts_1": "3",
               "Black Player": {
                 "id": "20",
                 "playerName": "Ramprasad,Nachiket",
@@ -8375,6 +9502,7 @@
               },
               "Pts": "2.5",
               "Result": "1 - 0",
+              "Pts_1": "2.5",
               "Black Player": {
                 "id": "22",
                 "playerName": "Annadasu,Shreyansh",
@@ -8392,6 +9520,7 @@
               },
               "Pts": "2.5",
               "Result": "1 - 0",
+              "Pts_1": "2.5",
               "Black Player": {
                 "id": "31",
                 "playerName": "Cox,Aiden",
@@ -8409,6 +9538,7 @@
               },
               "Pts": "2",
               "Result": "1 - 0",
+              "Pts_1": "2",
               "Black Player": {
                 "id": "25",
                 "playerName": "Ruaya,Rohan",
@@ -8424,8 +9554,9 @@
                 "gender": "male",
                 "href": "playercard.html#32"
               },
-              "Pts": "1.5",
+              "Pts": "1",
               "Result": "0 - 1",
+              "Pts_1": "1.5",
               "Black Player": {
                 "id": "29",
                 "playerName": "Shaiek,Nihal",
@@ -8443,6 +9574,7 @@
               },
               "Pts": "2.5",
               "Result": "1F-0F",
+              "Pts_1": "2.5",
               "Black Player": {
                 "id": "23",
                 "playerName": "Cox,Tyler",
@@ -8458,8 +9590,9 @@
                 "gender": "male",
                 "href": "playercard.html#27"
               },
-              "Pts": "0",
+              "Pts": "0.5",
               "Result": "1",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -8475,8 +9608,9 @@
                 "gender": "male",
                 "href": "playercard.html#1"
               },
-              "Pts": "0",
+              "Pts": "1.5",
               "Result": "0",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -8492,8 +9626,9 @@
                 "gender": "male",
                 "href": "playercard.html#24"
               },
-              "Pts": "0",
+              "Pts": "0.5",
               "Result": "0",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -8509,8 +9644,9 @@
                 "gender": "male",
                 "href": "playercard.html#30"
               },
-              "Pts": "0",
+              "Pts": "1",
               "Result": "0",
+              "Pts_1": "0",
               "Black Player": {
                 "id": "0",
                 "playerName": "BYE",
@@ -8528,14 +9664,38 @@
       "tables": [
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -8623,14 +9783,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -8718,14 +9902,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -8813,14 +10021,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -8908,14 +10140,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -9003,14 +10259,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -9098,14 +10378,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -9193,14 +10497,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -9288,14 +10616,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -9383,14 +10735,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -9478,14 +10854,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -9573,14 +10973,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -9668,14 +11092,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -9763,14 +11211,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -9858,14 +11330,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -9953,14 +11449,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -10048,14 +11568,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -10143,14 +11687,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -10238,14 +11806,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -10333,14 +11925,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -10428,14 +12044,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -10523,14 +12163,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -10618,14 +12282,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -10713,14 +12401,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -10808,14 +12520,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -10903,14 +12639,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -10998,14 +12758,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -11093,14 +12877,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -11188,14 +12996,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -11283,14 +13115,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -11378,14 +13234,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -11473,14 +13353,38 @@
         },
         {
           "headers": [
-            "R",
-            "C",
-            "N",
-            "Cat",
-            "OPPONENT",
-            "Rtg",
-            "res",
-            "Pts"
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
           ],
           "rows": [
             {
@@ -11577,18 +13481,54 @@
       "tables": [
         {
           "headers": [
-            "Pos",
-            "N",
-            "T",
-            "Player",
-            "",
-            "",
-            "Fed",
-            "Origin",
-            "Pts",
-            "BH",
-            "BH/C1",
-            "SB"
+            {
+              "name": "Pos",
+              "key": "Pos"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "T",
+              "key": "T"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "col5",
+              "key": "col5"
+            },
+            {
+              "name": "col6",
+              "key": "col6"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "BH",
+              "key": "BH"
+            },
+            {
+              "name": "BH/C1",
+              "key": "BH/C1"
+            },
+            {
+              "name": "SB",
+              "key": "SB"
+            }
           ],
           "rows": [
             {
@@ -11601,7 +13541,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#7"
               },
-              "": "1869",
+              "col5": "1534",
+              "col6": "1869",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "6.0",
@@ -11619,7 +13560,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#9"
               },
-              "": "1684",
+              "col5": "1518",
+              "col6": "1684",
               "Fed": "INA",
               "Origin": "",
               "Pts": "6.0",
@@ -11637,7 +13579,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#3"
               },
-              "": "1672",
+              "col5": "1763",
+              "col6": "1672",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "5.5",
@@ -11655,7 +13598,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#5"
               },
-              "": "1488",
+              "col5": "1554",
+              "col6": "1488",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "5.0",
@@ -11673,7 +13617,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#4"
               },
-              "": "1539",
+              "col5": "1631",
+              "col6": "1539",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "4.5",
@@ -11691,7 +13636,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#14"
               },
-              "": "1286",
+              "col5": "1447",
+              "col6": "1286",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "4.5",
@@ -11709,7 +13655,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#15"
               },
-              "": "1564",
+              "col5": "1407",
+              "col6": "1564",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "4.5",
@@ -11727,7 +13674,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#16"
               },
-              "": "1385",
+              "col5": "1401",
+              "col6": "1385",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "4.5",
@@ -11745,7 +13693,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#20"
               },
-              "": "1575",
+              "col5": "1205",
+              "col6": "1575",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "4.0",
@@ -11763,7 +13712,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#18"
               },
-              "": "1385",
+              "col5": "1240",
+              "col6": "1385",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "4.0",
@@ -11781,7 +13731,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#19"
               },
-              "": "1315",
+              "col5": "1234",
+              "col6": "1315",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "3.5",
@@ -11799,7 +13750,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#12"
               },
-              "": "1222",
+              "col5": "1467",
+              "col6": "1222",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "3.5",
@@ -11817,7 +13769,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#26"
               },
-              "": "1420",
+              "col5": "838",
+              "col6": "1420",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "3.5",
@@ -11835,7 +13788,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#6"
               },
-              "": "1523",
+              "col5": "1543",
+              "col6": "1523",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "3.5",
@@ -11853,7 +13807,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#11"
               },
-              "": "1208",
+              "col5": "1485",
+              "col6": "1208",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "3.5",
@@ -11871,7 +13826,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#13"
               },
-              "": "1440",
+              "col5": "1464",
+              "col6": "1440",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "3.5",
@@ -11889,7 +13845,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#17"
               },
-              "": "1296",
+              "col5": "1326",
+              "col6": "1296",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "3.5",
@@ -11907,7 +13864,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#28"
               },
-              "": "991",
+              "col5": "653",
+              "col6": "991",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "3.5",
@@ -11925,7 +13883,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#10"
               },
-              "": "1232",
+              "col5": "1513",
+              "col6": "1232",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "3.0",
@@ -11943,7 +13902,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#21"
               },
-              "": "1154",
+              "col5": "1060",
+              "col6": "1154",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "3.0",
@@ -11961,7 +13921,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#22"
               },
-              "": "1294",
+              "col5": "1029",
+              "col6": "1294",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "2.5",
@@ -11979,7 +13940,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#23"
               },
-              "": "1372",
+              "col5": "1029",
+              "col6": "1372",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "2.5",
@@ -11997,7 +13959,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#8"
               },
-              "": "926",
+              "col5": "1523",
+              "col6": "926",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "2.5",
@@ -12015,7 +13978,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#29"
               },
-              "": "906",
+              "col5": "648",
+              "col6": "906",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "2.5",
@@ -12033,7 +13997,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#31"
               },
-              "": "1126",
+              "col5": "0",
+              "col6": "1126",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.5",
@@ -12051,7 +14016,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#25"
               },
-              "": "1150",
+              "col5": "857",
+              "col6": "1150",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "2.0",
@@ -12069,7 +14035,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#27"
               },
-              "": "757",
+              "col5": "801",
+              "col6": "757",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "1.5",
@@ -12087,7 +14054,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#1"
               },
-              "": "1247",
+              "col5": "1847",
+              "col6": "1247",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "1.5",
@@ -12105,7 +14073,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#32"
               },
-              "": "295",
+              "col5": "0",
+              "col6": "295",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "1.0",
@@ -12123,7 +14092,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#30"
               },
-              "": "0",
+              "col5": "0",
+              "col6": "0",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "1.0",
@@ -12141,7 +14111,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#24"
               },
-              "": "718",
+              "col5": "1025",
+              "col6": "718",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "0.5",
@@ -12154,18 +14125,54 @@
         },
         {
           "headers": [
-            "Pos",
-            "N",
-            "T",
-            "Player",
-            "",
-            "",
-            "Fed",
-            "Origin",
-            "Pts",
-            "BH",
-            "BH/C1",
-            "SB"
+            {
+              "name": "Pos",
+              "key": "Pos"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "T",
+              "key": "T"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "col5",
+              "key": "col5"
+            },
+            {
+              "name": "col6",
+              "key": "col6"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "BH",
+              "key": "BH"
+            },
+            {
+              "name": "BH/C1",
+              "key": "BH/C1"
+            },
+            {
+              "name": "SB",
+              "key": "SB"
+            }
           ],
           "rows": [
             {
@@ -12178,7 +14185,8 @@
                 "gender": "notitle",
                 "href": "playercard.html#2"
               },
-              "": "1574",
+              "col5": "1774",
+              "col6": "1574",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "4.5",
@@ -12204,9 +14212,18 @@
       "tables": [
         {
           "headers": [
-            "Round",
-            "Time",
-            "Date"
+            {
+              "name": "Round",
+              "key": "Round"
+            },
+            {
+              "name": "Time",
+              "key": "Time"
+            },
+            {
+              "name": "Date",
+              "key": "Date"
+            }
           ],
           "rows": [
             {
@@ -12253,13 +14270,34 @@
       "tables": [
         {
           "headers": [
-            "Pos",
-            "Player",
-            "Origin",
-            "Pts",
-            "BH",
-            "BH/C1",
-            "SB"
+            {
+              "name": "Pos",
+              "key": "Pos"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "BH",
+              "key": "BH"
+            },
+            {
+              "name": "BH/C1",
+              "key": "BH/C1"
+            },
+            {
+              "name": "SB",
+              "key": "SB"
+            }
           ],
           "rows": [
             {

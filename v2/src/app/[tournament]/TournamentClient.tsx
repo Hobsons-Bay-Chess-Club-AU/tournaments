@@ -16,10 +16,13 @@ type TableCaption = string | {
     [key: string]: unknown;
 };
 
+type Header = { name: string; key: string };
+type MixedHeader = Header | string;
+
 type PageData = {
     pageHeading?: string;
     tables?: {
-        headers?: string[];
+        headers?: MixedHeader[];
         rows?: Record<string, unknown>[];
         caption?: TableCaption;
         footer?: {
@@ -101,12 +104,12 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
             router.replace(`?page=${encodeURIComponent(pairingPages[idx])}`);
         }
     };
-    const handleHeaderClick = (tableIdx: number, header: string) => {
+    const handleHeaderClick = (tableIdx: number, headerKey: string) => {
         setSortConfig((prev) => {
-            if (prev && prev.tableIdx === tableIdx && prev.key === header) {
-                return { tableIdx, key: header, direction: prev.direction === "asc" ? "desc" : "asc" };
+            if (prev && prev.tableIdx === tableIdx && prev.key === headerKey) {
+                return { tableIdx, key: headerKey, direction: prev.direction === "asc" ? "desc" : "asc" };
             }
-            return { tableIdx, key: header, direction: "asc" };
+            return { tableIdx, key: headerKey, direction: "asc" };
         });
     };
 
@@ -178,7 +181,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
         return rows;
     };
 
-    const isKeyValueTable = (table: { headers?: string[]; rows?: Record<string, unknown>[] }): boolean => {
+    const isKeyValueTable = (table: { headers?: MixedHeader[]; rows?: Record<string, unknown>[] }): boolean => {
         if (!table) return false;
         const hasNoHeaders = !table.headers || table.headers.length === 0;
         const firstRow = table.rows && table.rows.length > 0 ? table.rows[0] : null;
@@ -309,15 +312,15 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                 <table className="min-w-full">
                                                     <thead>
                                                         <tr className="bg-gradient-to-r from-slate-50 to-gray-100/80">
-                                                            {table.headers?.map((header: string, hidx: number) => (
+                                                            {(table.headers?.map(h => (typeof h === 'string' ? { name: h, key: h } : h)) || []).map((header: Header, hidx: number) => (
                                                                 <th
                                                                     key={hidx}
                                                                     className={`px-6 py-4 text-left text-sm font-bold text-gray-700 uppercase tracking-wider cursor-pointer select-none transition-all duration-200 hover:bg-gray-200/50 ${hidx === 0 ? 'rounded-tl-xl' : ''} ${hidx === (table.headers?.length || 0) - 1 ? 'rounded-tr-xl' : ''}`}
-                                                                    onClick={() => handleHeaderClick(idx, header)}
+                                                                    onClick={() => handleHeaderClick(idx, header.key)}
                                                                 >
                                                                     <div className="flex items-center gap-2">
-                                                                        <span>{header}</span>
-                                                                        {sortConfig && sortConfig.tableIdx === idx && sortConfig.key === header && (
+                                                                        <span>{header.name}</span>
+                                                                        {sortConfig && sortConfig.tableIdx === idx && sortConfig.key === header.key && (
                                                                             <span className="text-blue-600 font-bold text-sm">
                                                                                 {sortConfig.direction === "asc" ? "↑" : "↓"}
                                                                             </span>
@@ -331,13 +334,13 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                         {table.rows && table.rows.length > 0 ? (
                                                             getFilteredAndSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
                                                                 <tr key={ridx} className={`transition-all duration-150 hover:bg-blue-50/50 hover:shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
-                                                                    {table.headers?.map((header: string, hidx: number) => (
+                                                                    {(table.headers?.map(h => (typeof h === 'string' ? { name: h, key: h } : h)) || []).map((header: Header, hidx: number) => (
                                                                         <td key={hidx} className="px-6 py-4 text-sm text-gray-900 font-medium">
                                                                             <PlayerRenderer
-                                                                                data={row[header]}
+                                                                                data={row[header.key]}
                                                                                 onPlayerClick={handlePlayerClick}
                                                                                 tournamentPath={`/${resolvedParams.tournament}`}
-                                                                                columnHeader={header}
+                                                                                columnHeader={header.name}
                                                                             />
                                                                         </td>
                                                                     ))}
@@ -374,17 +377,17 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                     <div className="space-y-6 md:space-y-4 p-0 md:p-4">
                                                         {getFilteredAndSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
                                                             <div key={ridx} className={`bg-white rounded-lg border border-gray-200 p-4 shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
-                                                                {table.headers?.map((header: string, hidx: number) => (
+                                                                {(table.headers?.map(h => (typeof h === 'string' ? { name: h, key: h } : h)) || []).map((header: Header, hidx: number) => (
                                                                     <div key={hidx} className="flex justify-between items-center py-2 border-b border-gray-100 last:border-b-0">
                                                                         <span className="text-sm font-medium text-gray-600 capitalize">
-                                                                            {header}
+                                                                            {header.name}
                                                                         </span>
                                                                         <div className="text-sm text-gray-900 font-medium">
                                                                             <PlayerRenderer
-                                                                                data={row[header]}
+                                                                                data={row[header.key]}
                                                                                 onPlayerClick={handlePlayerClick}
                                                                                 tournamentPath={`/${resolvedParams.tournament}`}
-                                                                                columnHeader={header}
+                                                                                columnHeader={header.name}
                                                                             />
                                                                         </div>
                                                                     </div>

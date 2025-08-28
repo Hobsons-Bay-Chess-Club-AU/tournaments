@@ -254,34 +254,43 @@ function parseTableToJson($table) {
         }
     }
     
+    // Build headers with unique keys to avoid overwriting duplicate column names
     const headers = [];
+    const headerNameCount = new Map();
     $table.find('thead tr th, thead tr td').each((i, el) => {
-        headers.push(cheerio(el).text().trim().replace("↕ ", ""));
+        const nameRaw = cheerio(el).text().trim().replace("↕ ", "");
+        const baseName = nameRaw || `col${i + 1}`;
+        const count = headerNameCount.get(baseName) || 0;
+        const key = count === 0 ? baseName : `${baseName}_${count}`;
+        headerNameCount.set(baseName, count + 1);
+        headers.push({ name: baseName, key });
     });
     const rows = [];
     $table.find('tbody tr').each((i, tr) => {
         const rowObj = {};
         cheerio(tr).find('td').each((j, td) => {
             // Improved column mapping - ensure we don't exceed header count
-            const header = j < headers.length ? headers[j] : `col${j + 1}`;
+            const headerObj = j < headers.length ? headers[j] : { name: `col${j + 1}`, key: `col${j + 1}` };
+            const headerName = typeof headerObj === 'string' ? headerObj : headerObj.name;
+            const headerKey = typeof headerObj === 'string' ? headerObj : headerObj.key;
             const $td = cheerio(td);
             
-            if (header === 'White Player' || header === 'Black Player' || header === 'Player') {
+            if (headerName === 'White Player' || headerName === 'Black Player' || headerName === 'Player') {
                 // Check if the cell has structured content (child elements)
                 const hasChildElements = $td.find('span').length > 0 || $td.find('a').length > 0;
                 
                 if (hasChildElements) {
                     // Use specialized parsing functions
-                    if (header === 'Player') {
+                    if (headerName === 'Player') {
                         // Standings tables - use readPlayer function
-                        rowObj[header] = readPlayer($td);
+                        rowObj[headerKey] = readPlayer($td);
                     } else {
                         // Pairing tables (White Player/Black Player) - use readPairPlayer function
-                        rowObj[header] = readPairPlayer($td);
+                        rowObj[headerKey] = readPairPlayer($td);
                     }
                 } else {
                     // Fallback: cell only contains text (e.g., "( half point bye )")
-                    rowObj[header] = $td.text().trim();
+                    rowObj[headerKey] = $td.text().trim();
                 }
             } else {
                 // Special handling for crosstable cells with result and opponent info
@@ -295,7 +304,7 @@ function parseTableToJson($table) {
                     const whiteOpponent = cwDiv.length > 0 ? cwDiv.text().trim() : null;
                     const blackOpponent = cbDiv.length > 0 ? cbDiv.text().trim() : null;
                     
-                    rowObj[header] = {
+                    rowObj[headerKey] = {
                         result,
                         whiteOpponent,
                         blackOpponent
@@ -303,7 +312,7 @@ function parseTableToJson($table) {
                 } else {
                     // Check if this is a hole cell (self-pairing)
                     if ($td.hasClass('hole')) {
-                        rowObj[header] = "×";
+                        rowObj[headerKey] = "×";
                     } else {
                         // Check if this cell contains an image (flag)
                         const $img = $td.find('img');
@@ -312,10 +321,10 @@ function parseTableToJson($table) {
                             const alt = $img.attr('alt');
                             const src = $img.attr('src');
                             // Use alt attribute if available, otherwise use src, and convert to uppercase
-                            rowObj[header] = (alt || src || '').toUpperCase();
+                            rowObj[headerKey] = (alt || src || '').toUpperCase();
                         } else {
                             // Regular cell content
-                            rowObj[header] = $td.text().trim();
+                            rowObj[headerKey] = $td.text().trim();
                         }
                     }
                 }
@@ -324,7 +333,8 @@ function parseTableToJson($table) {
         
         // Post-process the row to fix common mapping issues
         // Only apply this fix to standings tables (tables with Player column)
-        const hasPlayerColumn = headers.includes('Player') || headers.includes('NAME');
+        const headerNames = headers.map(h => typeof h === 'string' ? h : h.name);
+        const hasPlayerColumn = headerNames.includes('Player') || headerNames.includes('NAME');
         const colKeys = Object.keys(rowObj).filter(key => key.startsWith('col'));
         
         if (colKeys.length > 0 && hasPlayerColumn) {
