@@ -11,6 +11,14 @@ export type RatingData = {
   };
 };
 
+export type Tournament = {
+  tournament: string;
+  score: number;
+  name: string;
+  totalRounds: number;
+  ratingType: 'standard' | 'rapid' | 'blitz';
+};
+
 export type Player = {
   name: string;
   title?: string;
@@ -20,13 +28,18 @@ export type Player = {
   gender: string;
   href: string;
   tournamentCount: number;
-  tournaments: string[];
+  tournaments: Tournament[];
   birthYear?: number;
   fideStandard?: number;
   fideRapid?: number;
   fideBlitz?: number;
   acfClassic?: number;
   acfQuick?: number;
+  points?: {
+    standard: number;
+    rapid: number;
+    blitz: number;
+  };
 };
 
 export type PlayerRatings = Record<string, number | undefined>;

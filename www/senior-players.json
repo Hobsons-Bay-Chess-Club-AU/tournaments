@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-08-27T13:21:12.618Z",
+  "generatedAt": "2025-08-28T00:34:52.760Z",
   "year": "2025",
   "count": 63,
   "totalTournaments": 27,
@@ -12,10 +12,33 @@
       "href": "http://ratings.fide.com/card.phtml?event=532011059",
       "tournamentCount": 3,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 5,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 4.5,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 3,
+        "blitz": 9.5
+      }
     },
     {
       "name": "Annadasu,Shreyansh",
@@ -25,10 +48,33 @@
       "href": "http://ratings.fide.com/card.phtml?event=3275779",
       "tournamentCount": 3,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayWesternSwiss/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 5,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternSwiss/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Western Swiss",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3,
+        "rapid": 3,
+        "blitz": 5
+      }
     },
     {
       "name": "Annapureddy, Rheyansh Reddy",
@@ -38,9 +84,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3244806",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayFebruaryBlitz/data.json",
-        "www2025HobsonsBayPurdyCup/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 9,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 5,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 5,
+        "rapid": 0,
+        "blitz": 9
+      }
     },
     {
       "name": "Annapureddy,Dhruthin Reddy",
@@ -50,12 +113,47 @@
       "href": "http://ratings.fide.com/card.phtml?event=3239683",
       "tournamentCount": 5,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternSwiss/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 7,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternSwiss/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay Western Swiss",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 7.5,
+        "rapid": 4,
+        "blitz": 7
+      }
     },
     {
       "name": "Ashok,Arjun",
@@ -65,9 +163,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3275108",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 1.5,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 1.5,
+        "blitz": 4
+      }
     },
     {
       "name": "Balaji,Sai Sivesh",
@@ -77,9 +192,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3286258",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 5,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 8
+      }
     },
     {
       "name": "Balamurugan,Soorya",
@@ -89,10 +221,33 @@
       "href": "http://ratings.fide.com/card.phtml?event=3286266",
       "tournamentCount": 3,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 1.5,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 1.5,
+        "blitz": 7
+      }
     },
     {
       "name": "Bodke,Krishna",
@@ -102,12 +257,47 @@
       "href": "http://ratings.fide.com/card.phtml?event=3259021",
       "tournamentCount": 5,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json",
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternMinor/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 6.5,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 6,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternMinor/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay Western Minor",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 5,
+        "rapid": 2.5,
+        "blitz": 12.5
+      }
     },
     {
       "name": "Chan,Abby",
@@ -117,9 +307,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3286282",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 5
+      }
     },
     {
       "name": "Christodoulou,Anthony",
@@ -129,9 +336,26 @@
       "href": "",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 1.5,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 1.5,
+        "blitz": 3
+      }
     },
     {
       "name": "Clerk,Max",
@@ -141,9 +365,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3234134",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternSwiss/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternSwiss/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay Western Swiss",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3,
+        "rapid": 0,
+        "blitz": 0
+      }
     },
     {
       "name": "Cox,Aiden",
@@ -153,12 +394,47 @@
       "href": "http://ratings.fide.com/card.phtml?event=3247902",
       "tournamentCount": 5,
       "tournaments": [
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json",
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternSwiss/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternSwiss/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay Western Swiss",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2,
+        "rapid": 1,
+        "blitz": 3
+      }
     },
     {
       "name": "Cox,Tyler",
@@ -168,11 +444,40 @@
       "href": "http://ratings.fide.com/card.phtml?event=3247910",
       "tournamentCount": 4,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternSwiss/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 6,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 1.5,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternSwiss/data.json",
+          "score": 1.5,
+          "name": "2025 Hobsons Bay Western Swiss",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3.5,
+        "rapid": 1.5,
+        "blitz": 6
+      }
     },
     {
       "name": "Davis,Tony J",
@@ -182,10 +487,33 @@
       "href": "http://ratings.fide.com/card.phtml?event=3205550",
       "tournamentCount": 3,
       "tournaments": [
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternMasters/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternMasters/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay Western Masters",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 10,
+        "rapid": 0,
+        "blitz": 0
+      }
     },
     {
       "name": "Goh,Daphne",
@@ -195,10 +523,33 @@
       "href": "http://ratings.fide.com/card.phtml?event=3286304",
       "tournamentCount": 3,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 5.5
+      }
     },
     {
       "name": "Goh,Julian",
@@ -208,10 +559,33 @@
       "href": "http://ratings.fide.com/card.phtml?event=3286312",
       "tournamentCount": 3,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 6.5
+      }
     },
     {
       "name": "Goh,Nicholas",
@@ -221,9 +595,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3254917",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 1,
+        "blitz": 4
+      }
     },
     {
       "name": "Hari,Dhruv",
@@ -233,9 +624,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3255360",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternMajor/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternMajor/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Western Major",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 5.5,
+        "rapid": 0,
+        "blitz": 0
+      }
     },
     {
       "name": "Hogan,Steven",
@@ -245,16 +653,75 @@
       "href": "http://ratings.fide.com/card.phtml?event=3201414",
       "tournamentCount": 9,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayClubChampionship/data.json",
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayReservesChampionship/data.json",
-        "www2025HobsonsBaySeptemberBlitz/data.json",
-        "www2025HobsonsBaySeptemberRapid/data.json",
-        "www2025HobsonsBayWesternMajor/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 4.5,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayClubChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Club Championship",
+          "totalRounds": 0,
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayReservesChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Reserves Championship",
+          "totalRounds": 0,
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberBlitz/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay September Blitz",
+          "totalRounds": 0,
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": 0,
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternMajor/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay Western Major",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 6.5,
+        "rapid": 3.5,
+        "blitz": 4.5
+      }
     },
     {
       "name": "Hogg,Dean",
@@ -264,13 +731,54 @@
       "href": "http://ratings.fide.com/card.phtml?event=3204332",
       "tournamentCount": 6,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json",
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternMasters/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 8.5,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 7.5,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternMasters/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay Western Masters",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 10.5,
+        "rapid": 4,
+        "blitz": 16
+      }
     },
     {
       "name": "Huang,Michael",
@@ -280,10 +788,33 @@
       "href": "http://ratings.fide.com/card.phtml?event=3286320",
       "tournamentCount": 3,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 5.5,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 2,
+        "blitz": 9.5
+      }
     },
     {
       "name": "Ilic,Milan",
@@ -293,10 +824,33 @@
       "href": "http://ratings.fide.com/card.phtml?event=3207293",
       "tournamentCount": 3,
       "tournaments": [
-        "www2025HobsonsBayFebruaryBlitz/data.json",
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 5,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 1.5,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1.5,
+        "rapid": 0,
+        "blitz": 5
+      }
     },
     {
       "name": "Jagannathan,Shashvath",
@@ -306,9 +860,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3286339",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 2,
+        "blitz": 4
+      }
     },
     {
       "name": "Jothibabu,Anandaram",
@@ -318,9 +889,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=311214498",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 5.5,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 4,
+        "blitz": 5.5
+      }
     },
     {
       "name": "Kirk,Ian",
@@ -330,9 +918,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3247953",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayHonourableBob/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2,
+        "rapid": 2.5,
+        "blitz": 0
+      }
     },
     {
       "name": "Kostakakis,Angelo",
@@ -342,9 +947,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3227499",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternSwiss/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternSwiss/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay Western Swiss",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 4.5,
+        "rapid": 0,
+        "blitz": 0
+      }
     },
     {
       "name": "Krishnan,Anirudh",
@@ -354,11 +976,40 @@
       "href": "http://ratings.fide.com/card.phtml?event=3254925",
       "tournamentCount": 4,
       "tournaments": [
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json",
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayWesternMasters/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 6,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 4.5,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternMasters/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay Western Masters",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 7,
+        "rapid": 3,
+        "blitz": 6
+      }
     },
     {
       "name": "Lacson,Joemar",
@@ -368,13 +1019,54 @@
       "href": "http://ratings.fide.com/card.phtml?event=3257762",
       "tournamentCount": 6,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json",
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternMasters/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 6,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 6,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternMasters/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Western Masters",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 7,
+        "rapid": 3.5,
+        "blitz": 12
+      }
     },
     {
       "name": "Lingineni,Khushal",
@@ -384,11 +1076,40 @@
       "href": "http://ratings.fide.com/card.phtml?event=3259056",
       "tournamentCount": 4,
       "tournaments": [
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternMasters/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternMasters/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay Western Masters",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 11,
+        "rapid": 4,
+        "blitz": 0
+      }
     },
     {
       "name": "Lugton,James",
@@ -398,9 +1119,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3264726",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3.5,
+        "rapid": 0,
+        "blitz": 0
+      }
     },
     {
       "name": "Majety,Rohan",
@@ -410,10 +1148,33 @@
       "href": "http://ratings.fide.com/card.phtml?event=3260062",
       "tournamentCount": 3,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayWesternSwiss/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 4.5,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternSwiss/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay Western Swiss",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2,
+        "rapid": 3,
+        "blitz": 4.5
+      }
     },
     {
       "name": "Martin,Jamie R",
@@ -423,9 +1184,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3279324",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayWesternSwiss/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternSwiss/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Western Swiss",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3,
+        "rapid": 0,
+        "blitz": 4
+      }
     },
     {
       "name": "McIntyre,Julian",
@@ -435,9 +1213,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3232182",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternMajor/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternMajor/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Western Major",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 6,
+        "rapid": 0,
+        "blitz": 0
+      }
     },
     {
       "name": "Nawar,Mena",
@@ -447,13 +1242,54 @@
       "href": "http://ratings.fide.com/card.phtml?event=3237796",
       "tournamentCount": 6,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json",
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternSwiss/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 5,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 5,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternSwiss/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay Western Swiss",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 9,
+        "rapid": 2.5,
+        "blitz": 10
+      }
     },
     {
       "name": "Nguyen,Anh Kiet",
@@ -463,10 +1299,33 @@
       "href": "http://ratings.fide.com/card.phtml?event=3267849",
       "tournamentCount": 3,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayWesternMinor/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 7,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 4.5,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternMinor/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Western Minor",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3,
+        "rapid": 4.5,
+        "blitz": 7
+      }
     },
     {
       "name": "Nguyen,Tuan Kiet",
@@ -476,9 +1335,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3270335",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 3,
+        "blitz": 4
+      }
     },
     {
       "name": "Nicdao,Joseph",
@@ -488,11 +1364,40 @@
       "href": "http://ratings.fide.com/card.phtml?event=3267857",
       "tournamentCount": 4,
       "tournaments": [
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternSwiss/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 1.5,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 1.5,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternSwiss/data.json",
+          "score": 1.5,
+          "name": "2025 Hobsons Bay Western Swiss",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 4.5,
+        "rapid": 2.5,
+        "blitz": 0
+      }
     },
     {
       "name": "Nowak,Ruben",
@@ -502,12 +1407,47 @@
       "href": "http://ratings.fide.com/card.phtml?event=3214915",
       "tournamentCount": 5,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json",
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternSwiss/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 5,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 5,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternSwiss/data.json",
+          "score": 5,
+          "name": "2025 Hobsons Bay Western Swiss",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 10,
+        "rapid": 0,
+        "blitz": 10
+      }
     },
     {
       "name": "Pasukov,Leo",
@@ -517,10 +1457,33 @@
       "href": "http://ratings.fide.com/card.phtml?event=3242900",
       "tournamentCount": 3,
       "tournaments": [
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternMajor/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternMajor/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay Western Major",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 10.5,
+        "rapid": 0,
+        "blitz": 0
+      }
     },
     {
       "name": "Paul,Cijo",
@@ -530,12 +1493,47 @@
       "href": "http://ratings.fide.com/card.phtml?event=2054515",
       "tournamentCount": 5,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternMasters/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 0.5,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 0.5,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternMasters/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay Western Masters",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 8,
+        "rapid": 0.5,
+        "blitz": 0.5
+      }
     },
     {
       "name": "Paul,Nikash",
@@ -545,9 +1543,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3254003",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 6,
+        "rapid": 0,
+        "blitz": 0
+      }
     },
     {
       "name": "Picone,James",
@@ -557,10 +1572,33 @@
       "href": "http://ratings.fide.com/card.phtml?event=3259072",
       "tournamentCount": 3,
       "tournaments": [
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternMinor/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternMinor/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay Western Minor",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 7,
+        "rapid": 0,
+        "blitz": 0
+      }
     },
     {
       "name": "Ramanathan,Ashwin",
@@ -570,10 +1608,33 @@
       "href": "http://ratings.fide.com/card.phtml?event=3275221",
       "tournamentCount": 3,
       "tournaments": [
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json",
-        "www2025HobsonsBayWesternSwiss/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 5,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternSwiss/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Western Swiss",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3,
+        "rapid": 3,
+        "blitz": 5
+      }
     },
     {
       "name": "Ramprasad,Nachiket",
@@ -583,9 +1644,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3286371",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 4
+      }
     },
     {
       "name": "Rawat,Pratyax Singh",
@@ -595,9 +1673,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3287440",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 0.5,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 3.5
+      }
     },
     {
       "name": "Richards,Derek",
@@ -607,10 +1702,33 @@
       "href": "http://ratings.fide.com/card.phtml?event=3227545",
       "tournamentCount": 3,
       "tournaments": [
-        "www2025HobsonsBayFebruaryBlitz/data.json",
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 0.5,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 1.5,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2,
+        "rapid": 0,
+        "blitz": 3
+      }
     },
     {
       "name": "Ruaya,Chris Rodson",
@@ -620,10 +1738,33 @@
       "href": "http://ratings.fide.com/card.phtml?event=311214578",
       "tournamentCount": 3,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 0.5,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 6,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 2,
+        "blitz": 6.5
+      }
     },
     {
       "name": "Ruaya,Rohan",
@@ -633,9 +1774,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3281345",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 0.5,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 3,
+        "blitz": 0.5
+      }
     },
     {
       "name": "Saha,Avinandan (Arjun)",
@@ -645,9 +1803,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3264173",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 5.5,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 2.5,
+        "blitz": 5.5
+      }
     },
     {
       "name": "Salanowski,Mark",
@@ -657,9 +1832,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3220613",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayHonourableBob/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2.5,
+        "rapid": 2,
+        "blitz": 0
+      }
     },
     {
       "name": "Shaiek,Nihal",
@@ -669,10 +1861,33 @@
       "href": "http://ratings.fide.com/card.phtml?event=3286380",
       "tournamentCount": 3,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 2,
+        "blitz": 7
+      }
     },
     {
       "name": "Stefan Jiace Tham,Keanu",
@@ -682,10 +1897,33 @@
       "href": "http://ratings.fide.com/card.phtml?event=3286401",
       "tournamentCount": 3,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 0.5,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0.5,
+        "blitz": 6.5
+      }
     },
     {
       "name": "Szuveges,Narelle S",
@@ -695,9 +1933,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3202640",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternMajor/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternMajor/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay Western Major",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 4.5,
+        "rapid": 0,
+        "blitz": 0
+      }
     },
     {
       "name": "Thandhi,Mohan",
@@ -707,9 +1962,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3226735",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 5,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 3.5,
+        "blitz": 5
+      }
     },
     {
       "name": "Veginati,Cherish",
@@ -719,9 +1991,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3275248",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 6,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 3.5,
+        "blitz": 6
+      }
     },
     {
       "name": "Velkur,Gagan Saicharan",
@@ -731,9 +2020,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=311110985",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 2.5,
+        "blitz": 4
+      }
     },
     {
       "name": "Velkur,Raghav Sripad",
@@ -743,9 +2049,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3272605",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayAprilRapid/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 2,
+        "blitz": 3
+      }
     },
     {
       "name": "Whitford,Matthew",
@@ -755,12 +2078,47 @@
       "href": "http://ratings.fide.com/card.phtml?event=3232220",
       "tournamentCount": 5,
       "tournaments": [
-        "www2025HobsonsBayAprilBlitz/data.json",
-        "www2025HobsonsBayFebruaryBlitz/data.json",
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternMinor/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilBlitz/data.json",
+          "score": 6,
+          "name": "2025 Hobsons Bay April Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 5.5,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 1.5,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternMinor/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Western Minor",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 7.5,
+        "rapid": 0,
+        "blitz": 11.5
+      }
     },
     {
       "name": "Wilkinson,Greg",
@@ -770,11 +2128,40 @@
       "href": "http://ratings.fide.com/card.phtml?event=3255689",
       "tournamentCount": 4,
       "tournaments": [
-        "www2025HobsonsBayFebruaryBlitz/data.json",
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternSwiss/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 1.5,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternSwiss/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Western Swiss",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 6.5,
+        "rapid": 0,
+        "blitz": 4
+      }
     },
     {
       "name": "Windsor,Maximilian",
@@ -784,10 +2171,33 @@
       "href": "http://ratings.fide.com/card.phtml?event=3252264",
       "tournamentCount": 3,
       "tournaments": [
-        "www2025HobsonsBayFebruaryBlitz/data.json",
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayFebruaryBlitz/data.json",
+          "score": 6,
+          "name": "2025 Hobsons Bay February Blitz",
+          "totalRounds": "9",
+          "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 5,
+        "rapid": 0,
+        "blitz": 6
+      }
     },
     {
       "name": "Wongso,Renaldo",
@@ -797,10 +2207,33 @@
       "href": "http://ratings.fide.com/card.phtml?event=7134827",
       "tournamentCount": 3,
       "tournaments": [
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json",
-        "www2025HobsonsBayWesternMinor/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternMinor/data.json",
+          "score": 4.5,
+          "name": "2025 Hobsons Bay Western Minor",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 9.5,
+        "rapid": 0,
+        "blitz": 0
+      }
     },
     {
       "name": "Yang,Yifan",
@@ -810,9 +2243,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3275272",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayAprilRapid/data.json",
-        "www2025HobsonsBayWesternSwiss/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayAprilRapid/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay April Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayWesternSwiss/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Western Swiss",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3,
+        "rapid": 3.5,
+        "blitz": 0
+      }
     },
     {
       "name": "Yendru,Srikrishna",
@@ -822,9 +2272,26 @@
       "href": "http://ratings.fide.com/card.phtml?event=3262952",
       "tournamentCount": 2,
       "tournaments": [
-        "www2025HobsonsBayHonourableBob/data.json",
-        "www2025HobsonsBayPurdyCup/data.json"
-      ]
+        {
+          "tournament": "www2025HobsonsBayHonourableBob/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay Honorable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayPurdyCup/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Purdy Cup",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2,
+        "rapid": 0,
+        "blitz": 0
+      }
     }
   ]
 }

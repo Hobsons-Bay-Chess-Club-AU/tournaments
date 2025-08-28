@@ -1,21 +1,5 @@
 import React from "react";
-
-export type Player = {
-  name: string;
-  title?: string;
-  id: string;
-  fideId: string;
-  acfId?: string;
-  gender: string;
-  href: string;
-  tournamentCount: number;
-  tournaments: string[];
-  fideStandard?: number;
-  fideRapid?: number;
-  fideBlitz?: number;
-  acfClassic?: number;
-  acfQuick?: number;
-};
+import { Player } from "@/utils/ratingLoader";
 
 export type LeaderboardTableProps = {
   players: Player[];

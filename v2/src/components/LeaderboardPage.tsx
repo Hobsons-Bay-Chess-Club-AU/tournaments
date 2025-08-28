@@ -4,24 +4,7 @@ import Link from "next/link";
 import FilterTabs from "@/components/FilterTabs";
 import LeaderboardTable from "@/app/components/LeaderboardTable";
 import { useLeaderboard } from "@/app/hooks/useLeaderboard";
-
-type Player = {
-  name: string;
-  title?: string;
-  id: string;
-  fideId: string;
-  gender: string;
-  href: string;
-  tournamentCount: number;
-  tournaments: string[];
-  fideStandard?: number;
-  fideRapid?: number;
-  fideBlitz?: number;
-  acStandard?: number;
-  acRapid?: number;
-  acfClassic?: number;
-  acfQuick?: number;
-};
+import { Player } from "@/utils/ratingLoader";
 
 const RATING_CATEGORIES = ["FIDE Standard", "FIDE Rapid", "FIDE Blitz", "ACF Classic", "ACF Quick"];
 

@@ -513,6 +513,67 @@ function isCurrentYearTournament(metadata) {
     return false;
 }
 
+// Function to extract player points from existing tournament data
+function extractPlayerPoints(tournamentData) {
+    // Extract tournament name from metadata
+    const tournamentName = tournamentData.metadata['Tournament Name'] || 'Unknown Tournament';
+    
+    // Extract total rounds from metadata or default to 0
+    const totalRounds = tournamentData.metadata['Rounds'] || 0;
+    
+    // Parse standings table to get player points
+    const playerPoints = new Map();
+    
+    // Extract players and points from standings table (first table is usually standings)
+    const standingsTable = tournamentData.page['standings.html']?.tables?.[0];
+    if (standingsTable && standingsTable.rows) {
+        standingsTable.rows.forEach(row => {
+            const playerData = row.Player;
+            const pointsData = row.Pts; // Points column
+            
+            if (playerData && typeof playerData === 'object' && playerData.playerName) {
+                const playerName = playerData.playerName.trim();
+                let points = 0;
+                
+                // Extract points from the Pts column
+                if (pointsData) {
+                    if (typeof pointsData === 'string') {
+                        points = parseFloat(pointsData) || 0;
+                    } else if (typeof pointsData === 'number') {
+                        points = pointsData;
+                    }
+                }
+                
+                if (playerName && points >= 0) {
+                    playerPoints.set(playerName, points);
+                }
+            }
+        });
+    }
+    
+    return {
+        tournamentName,
+        totalRounds,
+        playerPoints
+    };
+}
+
+// Function to determine tournament rating type from metadata
+function getTournamentRatingType(metadata) {
+    const tournamentName = (metadata['Tournament Name'] || '').toLowerCase();
+    const timeControl = (metadata['Time Control'] || '').toLowerCase();
+    
+    // Check tournament name for rating type indicators
+    if (tournamentName.includes('blitz') || timeControl.includes('blitz')) {
+        return 'blitz';
+    }
+    if (tournamentName.includes('rapid') || timeControl.includes('rapid')) {
+        return 'rapid';
+    }
+    // Default to standard for classical tournaments
+    return 'standard';
+}
+
 // Function to generate unique players files
 async function generateUniquePlayersFiles(tournaments) {
     const currentYear = new Date().getFullYear().toString();
@@ -539,32 +600,59 @@ async function generateUniquePlayersFiles(tournaments) {
             // Extract players from this tournament
             const players = extractUniquePlayers(tournamentData);
             
+            // Extract standings data
+            const standingsData = extractPlayerPoints(tournamentData);
+            
+            // Determine tournament rating type
+            const ratingType = getTournamentRatingType(tournamentData.metadata);
+            
             // Track tournament participation by category
             players.forEach(player => {
                 const playerKey = player.name;
+                const playerPoints = standingsData.playerPoints.get(player.name) || 0;
+                
+                const tournamentInfo = {
+                    tournament: tournament.path,
+                    score: playerPoints,
+                    name: standingsData.tournamentName,
+                    totalRounds: standingsData.totalRounds,
+                    ratingType: ratingType
+                };
                 
                 if (tournament.category === 'Senior') {
                     // Track senior tournament participation
                     if (!seniorPlayers.has(playerKey)) {
                         seniorPlayers.set(playerKey, {
                             player: player,
-                            tournaments: []
+                            tournaments: [],
+                            points: {
+                                standard: 0,
+                                rapid: 0,
+                                blitz: 0
+                            }
                         });
                     }
-                    seniorPlayers.get(playerKey).tournaments.push(tournament.path);
+                    seniorPlayers.get(playerKey).tournaments.push(tournamentInfo);
+                    seniorPlayers.get(playerKey).points[ratingType] += playerPoints;
                 } else {
                     // Track junior tournament participation
                     if (!juniorPlayers.has(playerKey)) {
                         juniorPlayers.set(playerKey, {
                             player: player,
-                            tournaments: []
+                            tournaments: [],
+                            points: {
+                                standard: 0,
+                                rapid: 0,
+                                blitz: 0
+                            }
                         });
                     }
-                    juniorPlayers.get(playerKey).tournaments.push(tournament.path);
+                    juniorPlayers.get(playerKey).tournaments.push(tournamentInfo);
+                    juniorPlayers.get(playerKey).points[ratingType] += playerPoints;
                 }
             });
             
-            console.log(`[${tournament.path}] Processed ${players.length} players for ${tournament.category} category`);
+            console.log(`[${tournament.path}] Processed ${players.length} players for ${tournament.category} category (${ratingType})`);
             
         } catch (err) {
             console.error(`Error processing tournament ${tournament.path}:`, err);
@@ -587,7 +675,7 @@ async function generateUniquePlayersFiles(tournaments) {
     
     // Process senior players
     for (const [playerName, playerData] of seniorPlayers) {
-        const uniqueTournaments = [...new Set(playerData.tournaments)]; // Remove duplicate tournament entries
+        const uniqueTournaments = [...new Set(playerData.tournaments.map(t => t.tournament))]; // Remove duplicate tournament entries
         const tournamentCount = uniqueTournaments.length;
         
         // Keep player if:
@@ -597,7 +685,8 @@ async function generateUniquePlayersFiles(tournaments) {
             const player = {
                 ...playerData.player,
                 tournamentCount: tournamentCount,
-                tournaments: uniqueTournaments
+                tournaments: playerData.tournaments,
+                points: playerData.points
             };
             seniorPlayersArray.push(player);
         }
@@ -605,7 +694,7 @@ async function generateUniquePlayersFiles(tournaments) {
     
     // Process junior players
     for (const [playerName, playerData] of juniorPlayers) {
-        const uniqueTournaments = [...new Set(playerData.tournaments)]; // Remove duplicate tournament entries
+        const uniqueTournaments = [...new Set(playerData.tournaments.map(t => t.tournament))]; // Remove duplicate tournament entries
         const tournamentCount = uniqueTournaments.length;
         
         // Keep player if:
@@ -615,7 +704,8 @@ async function generateUniquePlayersFiles(tournaments) {
             const player = {
                 ...playerData.player,
                 tournamentCount: tournamentCount,
-                tournaments: uniqueTournaments
+                tournaments: playerData.tournaments,
+                points: playerData.points
             };
             juniorPlayersArray.push(player);
         }
