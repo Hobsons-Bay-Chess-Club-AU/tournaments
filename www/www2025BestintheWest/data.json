@@ -1,8 +1,1421 @@
 {
-  "generatedAt": "2025-08-30T00:53:48.398Z",
+  "generatedAt": "2025-08-30T01:04:26.982Z",
   "page": {
+    "crosstable.html": {
+      "pageHeading": "Cross Table at round 1",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "1",
+              "key": "1"
+            }
+          ],
+          "rows": [
+            {
+              "1": "",
+              "Player": {
+                "id": "1",
+                "playerName": "Morris,James",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
+              "Rtg": "2554",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "2",
+                "playerName": "Soo,Kai Jie",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
+              "Rtg": "2262",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "3",
+                "playerName": "Dai,Cheng",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
+              "Rtg": "2173",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "4",
+                "playerName": "Dragicevic,Domagoj",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
+              "Rtg": "2154",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "5",
+                "playerName": "Annapureddy,Rheyansh",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
+              "Rtg": "2148",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "6",
+                "playerName": "Yang,Ray",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
+              "Rtg": "2112",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "7",
+                "playerName": "Thogata,Randheer",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
+              "Rtg": "2031",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "8",
+                "playerName": "Gao,Arthur",
+                "gender": "male",
+                "href": "playercard.html#8"
+              },
+              "Rtg": "1997",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "9",
+                "playerName": "Hartley,James",
+                "gender": "male",
+                "href": "playercard.html#9"
+              },
+              "Rtg": "1959",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "10",
+                "playerName": "Smith,Declan",
+                "gender": "male",
+                "href": "playercard.html#10"
+              },
+              "Rtg": "1911",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "11",
+                "playerName": "Milojevic,Miodrag",
+                "gender": "male",
+                "href": "playercard.html#11"
+              },
+              "Rtg": "1854",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "12",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#12"
+              },
+              "Rtg": "1847",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "13",
+                "playerName": "Savige,Colin B",
+                "gender": "male",
+                "href": "playercard.html#13"
+              },
+              "Rtg": "1816",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "14",
+                "playerName": "Smith,Jack",
+                "gender": "male",
+                "href": "playercard.html#14"
+              },
+              "Rtg": "1797",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "15",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#15"
+              },
+              "Rtg": "1774",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "16",
+                "playerName": "Zheng,Ryan",
+                "gender": "male",
+                "href": "playercard.html#16"
+              },
+              "Rtg": "1768",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "17",
+                "playerName": "Chibnall,Alana",
+                "gender": "female",
+                "href": "playercard.html#17"
+              },
+              "Rtg": "1766",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "18",
+                "playerName": "Herlihy,Brian",
+                "gender": "male",
+                "href": "playercard.html#18"
+              },
+              "Rtg": "1748",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "19",
+                "playerName": "Venkat,Nyra",
+                "gender": "female",
+                "href": "playercard.html#19"
+              },
+              "Rtg": "1721",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "20",
+                "playerName": "Shen,Owen",
+                "gender": "male",
+                "href": "playercard.html#20"
+              },
+              "Rtg": "1713",
+              "Fed": "QLD",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "21",
+                "playerName": "Kumar,Viney",
+                "gender": "male",
+                "href": "playercard.html#21"
+              },
+              "Rtg": "1679",
+              "Fed": "NSW",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "22",
+                "playerName": "Lim,Jongmin",
+                "gender": "male",
+                "href": "playercard.html#22"
+              },
+              "Rtg": "1676",
+              "Fed": "NSW",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "23",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#23"
+              },
+              "Rtg": "1631",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "24",
+                "playerName": "Buhagiar,Aden",
+                "gender": "male",
+                "href": "playercard.html#24"
+              },
+              "Rtg": "1612",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "25",
+                "playerName": "Ilic,Goran",
+                "gender": "male",
+                "href": "playercard.html#25"
+              },
+              "Rtg": "1602",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "26",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "playercard.html#26"
+              },
+              "Rtg": "1554",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "27",
+                "playerName": "Ogden,Marcus W",
+                "gender": "male",
+                "href": "playercard.html#27"
+              },
+              "Rtg": "1547",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "28",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "playercard.html#28"
+              },
+              "Rtg": "1546",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "29",
+                "playerName": "Rodriguez,Maickel",
+                "gender": "male",
+                "href": "playercard.html#29"
+              },
+              "Rtg": "1543",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "30",
+                "playerName": "Tanner,Jonathan",
+                "gender": "male",
+                "href": "playercard.html#30"
+              },
+              "Rtg": "1536",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "31",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#31"
+              },
+              "Rtg": "1534",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "32",
+                "playerName": "Li,LiYuan",
+                "gender": "male",
+                "href": "playercard.html#32"
+              },
+              "Rtg": "1530",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "33",
+                "playerName": "Davis,Sophie",
+                "gender": "female",
+                "href": "playercard.html#33"
+              },
+              "Rtg": "1506",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "34",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "playercard.html#34"
+              },
+              "Rtg": "1485",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "35",
+                "playerName": "Humphreys,Scott",
+                "gender": "male",
+                "href": "playercard.html#35"
+              },
+              "Rtg": "1471",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "36",
+                "playerName": "Ruaya,Chris Rodson",
+                "gender": "male",
+                "href": "playercard.html#36"
+              },
+              "Rtg": "1468",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "37",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "playercard.html#37"
+              },
+              "Rtg": "1467",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "38",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#38"
+              },
+              "Rtg": "1464",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "39",
+                "playerName": "Hu,Tony",
+                "gender": "male",
+                "href": "playercard.html#39"
+              },
+              "Rtg": "1454",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "40",
+                "playerName": "Rehill,Paul",
+                "gender": "male",
+                "href": "playercard.html#40"
+              },
+              "Rtg": "1451",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "41",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "playercard.html#41"
+              },
+              "Rtg": "1447",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "42",
+                "playerName": "Windsor,Maximilian",
+                "gender": "male",
+                "href": "playercard.html#42"
+              },
+              "Rtg": "1445",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "43",
+                "playerName": "Cauchi,John-Paul",
+                "gender": "male",
+                "href": "playercard.html#43"
+              },
+              "Rtg": "1441",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "44",
+                "playerName": "Tsagarakis,Angelo",
+                "gender": "male",
+                "href": "playercard.html#44"
+              },
+              "Rtg": "1436",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "45",
+                "playerName": "Bodke,Krishna",
+                "gender": "male",
+                "href": "playercard.html#45"
+              },
+              "Rtg": "1407",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "46",
+                "playerName": "Tang,Fergus",
+                "gender": "male",
+                "href": "playercard.html#46"
+              },
+              "Rtg": "1365",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "47",
+                "playerName": "Parker,Lucas",
+                "gender": "male",
+                "href": "playercard.html#47"
+              },
+              "Rtg": "1333",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "48",
+                "playerName": "Annapureddy,Dhruthin",
+                "gender": "male",
+                "href": "playercard.html#48"
+              },
+              "Rtg": "1326",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "49",
+                "playerName": "Scenna,Luna",
+                "gender": "female",
+                "href": "playercard.html#49"
+              },
+              "Rtg": "1304",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "50",
+                "playerName": "Brockman,Roland",
+                "gender": "male",
+                "href": "playercard.html#50"
+              },
+              "Rtg": "1257",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "51",
+                "playerName": "Yang,Yifan",
+                "gender": "male",
+                "href": "playercard.html#51"
+              },
+              "Rtg": "1234",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "52",
+                "playerName": "Lees,Dane",
+                "gender": "male",
+                "href": "playercard.html#52"
+              },
+              "Rtg": "1215",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "53",
+                "playerName": "Ramanathan,Ashwin",
+                "gender": "male",
+                "href": "playercard.html#53"
+              },
+              "Rtg": "1192",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "54",
+                "playerName": "Wilkinson,Greg",
+                "gender": "male",
+                "href": "playercard.html#54"
+              },
+              "Rtg": "1180",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "55",
+                "playerName": "Gurkan,Mehmet",
+                "gender": "male",
+                "href": "playercard.html#55"
+              },
+              "Rtg": "1072",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "56",
+                "playerName": "Thompson,Selby",
+                "gender": "male",
+                "href": "playercard.html#56"
+              },
+              "Rtg": "1059",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "57",
+                "playerName": "Zhou,Emma",
+                "gender": "female",
+                "href": "playercard.html#57"
+              },
+              "Rtg": "1058",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "58",
+                "playerName": "Huang,Joshua Kai-En",
+                "gender": "male",
+                "href": "playercard.html#58"
+              },
+              "Rtg": "1045",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "59",
+                "playerName": "Sheth,Adidev",
+                "gender": "male",
+                "href": "playercard.html#59"
+              },
+              "Rtg": "1027",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "60",
+                "playerName": "Batyrbekov,Kaisar",
+                "gender": "male",
+                "href": "playercard.html#60"
+              },
+              "Rtg": "1007",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "61",
+                "playerName": "Laffey,Julian",
+                "gender": "male",
+                "href": "playercard.html#61"
+              },
+              "Rtg": "984",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "62",
+                "playerName": "Gurkan,Ahmet",
+                "gender": "male",
+                "href": "playercard.html#62"
+              },
+              "Rtg": "978",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "63",
+                "playerName": "Ngo,William",
+                "gender": "male",
+                "href": "playercard.html#63"
+              },
+              "Rtg": "975",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "64",
+                "playerName": "Scenna,George",
+                "gender": "male",
+                "href": "playercard.html#64"
+              },
+              "Rtg": "946",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "65",
+                "playerName": "Yates,Anna",
+                "gender": "female",
+                "href": "playercard.html#65"
+              },
+              "Rtg": "935",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "66",
+                "playerName": "Ha,Aeson",
+                "gender": "male",
+                "href": "playercard.html#66"
+              },
+              "Rtg": "933",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "67",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#67"
+              },
+              "Rtg": "930",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "68",
+                "playerName": "Wang,Adelyn",
+                "gender": "female",
+                "href": "playercard.html#68"
+              },
+              "Rtg": "929",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "69",
+                "playerName": "Jagannathan,Shashvat",
+                "gender": "male",
+                "href": "playercard.html#69"
+              },
+              "Rtg": "919",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "70",
+                "playerName": "Batyrbekov,Aidan",
+                "gender": "male",
+                "href": "playercard.html#70"
+              },
+              "Rtg": "898",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "71",
+                "playerName": "Zhang,Chi Long",
+                "gender": "male",
+                "href": "playercard.html#71"
+              },
+              "Rtg": "895",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "72",
+                "playerName": "Balaji,Sai Sivesh",
+                "gender": "male",
+                "href": "playercard.html#72"
+              },
+              "Rtg": "886",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "73",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#73"
+              },
+              "Rtg": "857",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "74",
+                "playerName": "Ahmad,Ihtiram",
+                "gender": "male",
+                "href": "playercard.html#74"
+              },
+              "Rtg": "841",
+              "Fed": "BAN",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "75",
+                "playerName": "Warren,Elizabeth",
+                "gender": "female",
+                "href": "playercard.html#75"
+              },
+              "Rtg": "837",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "76",
+                "playerName": "Zhou,Teng",
+                "gender": "male",
+                "href": "playercard.html#76"
+              },
+              "Rtg": "798",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "77",
+                "playerName": "Wales,Sam",
+                "gender": "male",
+                "href": "playercard.html#77"
+              },
+              "Rtg": "771",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "78",
+                "playerName": "Tan,Mia",
+                "gender": "female",
+                "href": "playercard.html#78"
+              },
+              "Rtg": "728",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "79",
+                "playerName": "Verma,Vivaan",
+                "gender": "male",
+                "href": "playercard.html#79"
+              },
+              "Rtg": "700",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "80",
+                "playerName": "Shaiek,Nihal",
+                "gender": "male",
+                "href": "playercard.html#80"
+              },
+              "Rtg": "648",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "81",
+                "playerName": "Husain,Lamiah",
+                "gender": "female",
+                "href": "playercard.html#81"
+              },
+              "Rtg": "324",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "82",
+                "playerName": "Lim,Darren",
+                "gender": "male",
+                "href": "playercard.html#82"
+              },
+              "Rtg": "205",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "83",
+                "playerName": "Arora,Daanish",
+                "gender": "male",
+                "href": "playercard.html#83"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "84",
+                "playerName": "Arun,Devsankar",
+                "gender": "male",
+                "href": "playercard.html#84"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "85",
+                "playerName": "Bakker,Andrew",
+                "gender": "male",
+                "href": "playercard.html#85"
+              },
+              "Rtg": "0",
+              "Fed": "TAS",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "86",
+                "playerName": "Black,Nick",
+                "gender": "male",
+                "href": "playercard.html#86"
+              },
+              "Rtg": "0",
+              "Fed": "QLD",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "87",
+                "playerName": "Chapnevis,Elmira",
+                "gender": "female",
+                "href": "playercard.html#87"
+              },
+              "Rtg": "0",
+              "Fed": "IRI",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "88",
+                "playerName": "Denny,William",
+                "gender": "male",
+                "href": "playercard.html#88"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "89",
+                "playerName": "Gowda,Likhil",
+                "gender": "male",
+                "href": "playercard.html#89"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "90",
+                "playerName": "Gupta,Riaan",
+                "gender": "male",
+                "href": "playercard.html#90"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "91",
+                "playerName": "Kitonga,Jack",
+                "gender": "male",
+                "href": "playercard.html#91"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "92",
+                "playerName": "Moser,Luke",
+                "gender": "male",
+                "href": "playercard.html#92"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "93",
+                "playerName": "Moser,William",
+                "gender": "male",
+                "href": "playercard.html#93"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "94",
+                "playerName": "Nandi,Jisha",
+                "gender": "female",
+                "href": "playercard.html#94"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "95",
+                "playerName": "Nema,Nivaan",
+                "gender": "male",
+                "href": "playercard.html#95"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "96",
+                "playerName": "Palta,Sameer",
+                "gender": "male",
+                "href": "playercard.html#96"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "97",
+                "playerName": "Samraat,Aayush",
+                "gender": "male",
+                "href": "playercard.html#97"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "98",
+                "playerName": "Samrat,Avyay",
+                "gender": "male",
+                "href": "playercard.html#98"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "99",
+                "playerName": "Saravanakumar,Thaswi",
+                "gender": "male",
+                "href": "playercard.html#99"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "100",
+                "playerName": "Shahadat,Aladean",
+                "gender": "male",
+                "href": "playercard.html#100"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "101",
+                "playerName": "Sharma,Rudra",
+                "gender": "male",
+                "href": "playercard.html#101"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "102",
+                "playerName": "Vemula,Thamoghna",
+                "gender": "male",
+                "href": "playercard.html#102"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "103",
+                "playerName": "Venkatesan,Sudharsun",
+                "gender": "male",
+                "href": "playercard.html#103"
+              },
+              "Rtg": "0",
+              "Fed": "IND",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "104",
+                "playerName": "Vignesh,Prajeeth Bal",
+                "gender": "male",
+                "href": "playercard.html#104"
+              },
+              "Rtg": "0",
+              "Fed": "NZL",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "105",
+                "playerName": "Vigneshwar,Krishanth",
+                "gender": "male",
+                "href": "playercard.html#105"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "106",
+                "playerName": "Yegnavajjula,Aryan S",
+                "gender": "male",
+                "href": "playercard.html#106"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0"
+            }
+          ]
+        }
+      ]
+    },
     "felovar.html": {
-      "pageHeading": "FIDE rating variation at round 0",
+      "pageHeading": "FIDE rating variation at round 1",
       "tables": [
         {
           "headers": [
@@ -1171,7 +2584,7 @@
       ]
     },
     "nelovar.html": {
-      "pageHeading": "National rating at round 0",
+      "pageHeading": "National rating at round 1",
       "tables": [
         {
           "headers": [
@@ -1207,6 +2620,1260 @@
     "pairing.html": {
       "pageHeading": "",
       "tables": []
+    },
+    "pairs1.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "1",
+                "playerName": "Morris,James",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "53",
+                "playerName": "Ramanathan,Ashwin",
+                "gender": "male",
+                "href": "playercard.html#53"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "54",
+                "playerName": "Wilkinson,Greg",
+                "gender": "male",
+                "href": "playercard.html#54"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "2",
+                "playerName": "Soo,Kai Jie",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "3",
+                "playerName": "Dai,Cheng",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "55",
+                "playerName": "Gurkan,Mehmet",
+                "gender": "male",
+                "href": "playercard.html#55"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "56",
+                "playerName": "Thompson,Selby",
+                "gender": "male",
+                "href": "playercard.html#56"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "4",
+                "playerName": "Dragicevic,Domagoj",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "5",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "57",
+                "playerName": "Zhou,Emma",
+                "gender": "female",
+                "href": "playercard.html#57"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "58",
+                "playerName": "Huang,Joshua Kai-En",
+                "gender": "male",
+                "href": "playercard.html#58"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "6",
+                "playerName": "Yang,Ray",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "7",
+                "playerName": "Thogata,Randheer",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "59",
+                "playerName": "Sheth,Adidev",
+                "gender": "male",
+                "href": "playercard.html#59"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "8",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "60",
+                "playerName": "Batyrbekov,Kaisar",
+                "gender": "male",
+                "href": "playercard.html#60"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "8",
+                "playerName": "Gao,Arthur",
+                "gender": "male",
+                "href": "playercard.html#8"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "9",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "9",
+                "playerName": "Hartley,James",
+                "gender": "male",
+                "href": "playercard.html#9"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "61",
+                "playerName": "Laffey,Julian",
+                "gender": "male",
+                "href": "playercard.html#61"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "10",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "62",
+                "playerName": "Gurkan,Ahmet",
+                "gender": "male",
+                "href": "playercard.html#62"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "10",
+                "playerName": "Smith,Declan",
+                "gender": "male",
+                "href": "playercard.html#10"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "11",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "11",
+                "playerName": "Milojevic,Miodrag",
+                "gender": "male",
+                "href": "playercard.html#11"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "63",
+                "playerName": "Ngo,William",
+                "gender": "male",
+                "href": "playercard.html#63"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "12",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "64",
+                "playerName": "Scenna,George",
+                "gender": "male",
+                "href": "playercard.html#64"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "12",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#12"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "13",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "13",
+                "playerName": "Savige,Colin B",
+                "gender": "male",
+                "href": "playercard.html#13"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "65",
+                "playerName": "Yates,Anna",
+                "gender": "female",
+                "href": "playercard.html#65"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "14",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "66",
+                "playerName": "Ha,Aeson",
+                "gender": "male",
+                "href": "playercard.html#66"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "14",
+                "playerName": "Smith,Jack",
+                "gender": "male",
+                "href": "playercard.html#14"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "15",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "15",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#15"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "67",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#67"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "16",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "68",
+                "playerName": "Wang,Adelyn",
+                "gender": "female",
+                "href": "playercard.html#68"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "16",
+                "playerName": "Zheng,Ryan",
+                "gender": "male",
+                "href": "playercard.html#16"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "17",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "17",
+                "playerName": "Chibnall,Alana",
+                "gender": "female",
+                "href": "playercard.html#17"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "69",
+                "playerName": "Jagannathan,Shashvath",
+                "gender": "male",
+                "href": "playercard.html#69"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "18",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "70",
+                "playerName": "Batyrbekov,Aidan",
+                "gender": "male",
+                "href": "playercard.html#70"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "18",
+                "playerName": "Herlihy,Brian",
+                "gender": "male",
+                "href": "playercard.html#18"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "19",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "19",
+                "playerName": "Venkat,Nyra",
+                "gender": "female",
+                "href": "playercard.html#19"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "71",
+                "playerName": "Zhang,Chi Long",
+                "gender": "male",
+                "href": "playercard.html#71"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "20",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "72",
+                "playerName": "Balaji,Sai Sivesh",
+                "gender": "male",
+                "href": "playercard.html#72"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "20",
+                "playerName": "Shen,Owen",
+                "gender": "male",
+                "href": "playercard.html#20"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/QLD.PNG"
+            },
+            {
+              "Bo.": "21",
+              "Fed": "FLAG/NSW.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "21",
+                "playerName": "Kumar,Viney",
+                "gender": "male",
+                "href": "playercard.html#21"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "73",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#73"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "22",
+              "Fed": "FLAG/BAN.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "74",
+                "playerName": "Ahmad,Ihtiram",
+                "gender": "male",
+                "href": "playercard.html#74"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "22",
+                "playerName": "Lim,Jongmin",
+                "gender": "male",
+                "href": "playercard.html#22"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/NSW.PNG"
+            },
+            {
+              "Bo.": "23",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "23",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#23"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "75",
+                "playerName": "Warren,Elizabeth",
+                "gender": "female",
+                "href": "playercard.html#75"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "24",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "76",
+                "playerName": "Zhou,Teng",
+                "gender": "male",
+                "href": "playercard.html#76"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "24",
+                "playerName": "Buhagiar,Aden",
+                "gender": "male",
+                "href": "playercard.html#24"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "25",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "25",
+                "playerName": "Ilic,Goran",
+                "gender": "male",
+                "href": "playercard.html#25"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "77",
+                "playerName": "Wales,Sam",
+                "gender": "male",
+                "href": "playercard.html#77"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "26",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "79",
+                "playerName": "Verma,Vivaan",
+                "gender": "male",
+                "href": "playercard.html#79"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "26",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "playercard.html#26"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "27",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "27",
+                "playerName": "Ogden,Marcus W",
+                "gender": "male",
+                "href": "playercard.html#27"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "80",
+                "playerName": "Shaiek,Nihal",
+                "gender": "male",
+                "href": "playercard.html#80"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "28",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "81",
+                "playerName": "Husain,Lamiah",
+                "gender": "female",
+                "href": "playercard.html#81"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "28",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "playercard.html#28"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "29",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "29",
+                "playerName": "Rodriguez,Maickel",
+                "gender": "male",
+                "href": "playercard.html#29"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "82",
+                "playerName": "Lim,Darren",
+                "gender": "male",
+                "href": "playercard.html#82"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "30",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "84",
+                "playerName": "Arun,Devsankar",
+                "gender": "male",
+                "href": "playercard.html#84"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "30",
+                "playerName": "Tanner,Jonathan",
+                "gender": "male",
+                "href": "playercard.html#30"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "31",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "32",
+                "playerName": "Li,LiYuan",
+                "gender": "male",
+                "href": "playercard.html#32"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "85",
+                "playerName": "Bakker,Andrew",
+                "gender": "male",
+                "href": "playercard.html#85"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/TAS.PNG"
+            },
+            {
+              "Bo.": "32",
+              "Fed": "FLAG/QLD.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "86",
+                "playerName": "Black,Nick",
+                "gender": "male",
+                "href": "playercard.html#86"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "33",
+                "playerName": "Davis,Sophie",
+                "gender": "female",
+                "href": "playercard.html#33"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "33",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "34",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "playercard.html#34"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "87",
+                "playerName": "Chapnevis,Elmira",
+                "gender": "female",
+                "href": "playercard.html#87"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/IRI.PNG"
+            },
+            {
+              "Bo.": "34",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "88",
+                "playerName": "Denny,William",
+                "gender": "male",
+                "href": "playercard.html#88"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "35",
+                "playerName": "Humphreys,Scott",
+                "gender": "male",
+                "href": "playercard.html#35"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "35",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "36",
+                "playerName": "Ruaya,Chris Rodson",
+                "gender": "male",
+                "href": "playercard.html#36"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "89",
+                "playerName": "Gowda,Likhil",
+                "gender": "male",
+                "href": "playercard.html#89"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "36",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "90",
+                "playerName": "Gupta,Riaan",
+                "gender": "male",
+                "href": "playercard.html#90"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "37",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "playercard.html#37"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "37",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "38",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#38"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "91",
+                "playerName": "Kitonga,Jack",
+                "gender": "male",
+                "href": "playercard.html#91"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "38",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "92",
+                "playerName": "Moser,Luke",
+                "gender": "male",
+                "href": "playercard.html#92"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "39",
+                "playerName": "Hu,Tony",
+                "gender": "male",
+                "href": "playercard.html#39"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "39",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "40",
+                "playerName": "Rehill,Paul",
+                "gender": "male",
+                "href": "playercard.html#40"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "93",
+                "playerName": "Moser,William",
+                "gender": "male",
+                "href": "playercard.html#93"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "40",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "94",
+                "playerName": "Nandi,Jisha",
+                "gender": "female",
+                "href": "playercard.html#94"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "41",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "playercard.html#41"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "41",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "42",
+                "playerName": "Windsor,Maximilian",
+                "gender": "male",
+                "href": "playercard.html#42"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "95",
+                "playerName": "Nema,Nivaan",
+                "gender": "male",
+                "href": "playercard.html#95"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "42",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "96",
+                "playerName": "Palta,Sameer",
+                "gender": "male",
+                "href": "playercard.html#96"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "43",
+                "playerName": "Cauchi,John-Paul",
+                "gender": "male",
+                "href": "playercard.html#43"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "43",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "44",
+                "playerName": "Tsagarakis,Angelo",
+                "gender": "male",
+                "href": "playercard.html#44"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "97",
+                "playerName": "Samraat,Aayush",
+                "gender": "male",
+                "href": "playercard.html#97"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "44",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "98",
+                "playerName": "Samrat,Avyay",
+                "gender": "male",
+                "href": "playercard.html#98"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "45",
+                "playerName": "Bodke,Krishna",
+                "gender": "male",
+                "href": "playercard.html#45"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "45",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "46",
+                "playerName": "Tang,Fergus",
+                "gender": "male",
+                "href": "playercard.html#46"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "99",
+                "playerName": "Saravanakumar,Thaswin",
+                "gender": "male",
+                "href": "playercard.html#99"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "46",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "100",
+                "playerName": "Shahadat,Aladean",
+                "gender": "male",
+                "href": "playercard.html#100"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "47",
+                "playerName": "Parker,Lucas",
+                "gender": "male",
+                "href": "playercard.html#47"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "47",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "48",
+                "playerName": "Annapureddy,Dhruthin Reddy",
+                "gender": "male",
+                "href": "playercard.html#48"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "101",
+                "playerName": "Sharma,Rudra",
+                "gender": "male",
+                "href": "playercard.html#101"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "48",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "102",
+                "playerName": "Vemula,Thamoghna",
+                "gender": "male",
+                "href": "playercard.html#102"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "49",
+                "playerName": "Scenna,Luna",
+                "gender": "female",
+                "href": "playercard.html#49"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "49",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "50",
+                "playerName": "Brockman,Roland",
+                "gender": "male",
+                "href": "playercard.html#50"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "103",
+                "playerName": "Venkatesan,Sudharsun",
+                "gender": "male",
+                "href": "playercard.html#103"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/IND.PNG"
+            },
+            {
+              "Bo.": "50",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "105",
+                "playerName": "Vigneshwar,Krishanth",
+                "gender": "male",
+                "href": "playercard.html#105"
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "52",
+                "playerName": "Lees,Dane",
+                "gender": "male",
+                "href": "playercard.html#52"
+              },
+              "Origin_1": "",
+              "Fed_1": "FLAG/VIC.PNG"
+            },
+            {
+              "Bo.": "51",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "106",
+                "playerName": "Yegnavajjula,Aryan Srivatsav",
+                "gender": "male",
+                "href": "playercard.html#106"
+              },
+              "Pts": "0",
+              "Result": "1",
+              "Pts_1": "0",
+              "Black Player": "( bye )",
+              "Origin_1": "",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "52",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "31",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#31"
+              },
+              "Pts": "0",
+              "Result": "½",
+              "Pts_1": "0",
+              "Black Player": "( half point bye )",
+              "Origin_1": "",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "53",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "51",
+                "playerName": "Yang,Yifan",
+                "gender": "male",
+                "href": "playercard.html#51"
+              },
+              "Pts": "0",
+              "Result": "½",
+              "Pts_1": "0",
+              "Black Player": "( half point bye )",
+              "Origin_1": "",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "54",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "78",
+                "playerName": "Tan,Mia",
+                "gender": "female",
+                "href": "playercard.html#78"
+              },
+              "Pts": "0",
+              "Result": "½",
+              "Pts_1": "0",
+              "Black Player": "( half point bye )",
+              "Origin_1": "",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "55",
+              "Fed": "FLAG/VIC.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "83",
+                "playerName": "Arora,Daanish",
+                "gender": "male",
+                "href": "playercard.html#83"
+              },
+              "Pts": "0",
+              "Result": "½",
+              "Pts_1": "0",
+              "Black Player": "( half point bye )",
+              "Origin_1": "",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "56",
+              "Fed": "FLAG/NZL.PNG",
+              "Origin": "",
+              "White Player": {
+                "id": "104",
+                "playerName": "Vignesh,Prajeeth Balaji",
+                "gender": "male",
+                "href": "playercard.html#104"
+              },
+              "Pts": "0",
+              "Result": "½",
+              "Pts_1": "0",
+              "Black Player": "( half point bye )",
+              "Origin_1": "",
+              "Fed_1": ""
+            }
+          ]
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 1"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -1246,7 +3913,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Morris,James",
             "id": "3205800",
@@ -1294,7 +3972,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Soo,Kai Jie",
             "id": "3164420",
@@ -1342,7 +4031,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Dai,Cheng",
             "id": "3164055",
@@ -1390,7 +4090,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Dragicevic,Domagoj",
             "id": "3101710",
@@ -1438,7 +4149,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Annapureddy,Rheyansh",
             "id": "3197035",
@@ -1486,7 +4208,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Yang,Ray",
             "id": "3144791",
@@ -1534,7 +4267,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Thogata,Randheer",
             "id": "3195554",
@@ -1582,7 +4326,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Gao,Arthur",
             "id": "3190620",
@@ -1630,7 +4385,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Hartley,James",
             "id": "3197573",
@@ -1678,7 +4444,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Smith,Declan",
             "id": "3206544",
@@ -1726,7 +4503,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Milojevic,Miodrag",
             "id": "3145648",
@@ -1774,7 +4562,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Hogg,Dean",
             "id": "3093306",
@@ -1822,7 +4621,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Savige,Colin B",
             "id": "3084420",
@@ -1870,7 +4680,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Smith,Jack",
             "id": "3187422",
@@ -1918,7 +4739,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Davis,Tony J",
             "id": "3073264",
@@ -1966,7 +4798,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Zheng,Ryan",
             "id": "3210976",
@@ -2014,7 +4857,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Chibnall,Alana",
             "id": "1293163",
@@ -2062,7 +4916,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Herlihy,Brian",
             "id": "3099190",
@@ -2110,7 +4975,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Venkat,Nyra",
             "id": "3216996",
@@ -2158,7 +5034,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Shen,Owen",
             "id": "4574730",
@@ -2206,7 +5093,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Kumar,Viney",
             "id": "2424784",
@@ -2254,7 +5152,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Lim,Jongmin",
             "id": "2430454",
@@ -2302,7 +5211,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Lingineni,Khushal",
             "id": "3202532",
@@ -2350,7 +5270,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Buhagiar,Aden",
             "id": "3197551",
@@ -2398,7 +5329,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Ilic,Goran",
             "id": "3096740",
@@ -2446,7 +5388,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Hari,Dhruv",
             "id": "3195311",
@@ -2494,7 +5447,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Ogden,Marcus W",
             "id": "3098114",
@@ -2542,7 +5506,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Szuveges,Narelle S",
             "id": "3096051",
@@ -2590,7 +5565,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Rodriguez,Maickel",
             "id": "3198380",
@@ -2638,7 +5624,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Tanner,Jonathan",
             "id": "3203221",
@@ -2686,7 +5683,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Nguyen,Anh Kiet",
             "id": "3206205",
@@ -2734,7 +5742,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Li,LiYuan",
             "id": "3204551",
@@ -2782,7 +5801,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Davis,Sophie",
             "id": "3138303",
@@ -2830,7 +5860,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Hogan,Steven",
             "id": "3112941",
@@ -2878,7 +5919,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Humphreys,Scott",
             "id": "3135621",
@@ -2926,7 +5978,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Ruaya,Chris Rodson",
             "id": "6253062",
@@ -2974,7 +6037,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Nowak,Ruben",
             "id": "3127464",
@@ -3022,7 +6096,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Picone,James",
             "id": "5206812",
@@ -3070,7 +6155,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Hu,Tony",
             "id": "3205446",
@@ -3118,7 +6214,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Rehill,Paul",
             "id": "3199463",
@@ -3166,7 +6273,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Whitford,Matthew",
             "id": "3137603",
@@ -3214,7 +6332,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Windsor,Maximilian",
             "id": "4578871",
@@ -3262,7 +6391,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Cauchi,John-Paul",
             "id": "3193340",
@@ -3310,7 +6450,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Tsagarakis,Angelo",
             "id": "3086435",
@@ -3358,7 +6509,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Bodke,Krishna",
             "id": "3202576",
@@ -3406,7 +6568,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Tang,Fergus",
             "id": "3202241",
@@ -3454,7 +6627,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Parker,Lucas",
             "id": "3209484",
@@ -3502,7 +6686,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Annapureddy,Dhruthin",
             "id": "3194401",
@@ -3550,7 +6745,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Scenna,Luna",
             "id": "3212505",
@@ -3598,7 +6804,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Brockman,Roland",
             "id": "3071676",
@@ -3646,7 +6863,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Yang,Yifan",
             "id": "3210840",
@@ -3694,7 +6922,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Lees,Dane",
             "id": "3214222",
@@ -3742,7 +6981,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Ramanathan,Ashwin",
             "id": "3206231",
@@ -3790,7 +7040,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Wilkinson,Greg",
             "id": "3200620",
@@ -3838,7 +7099,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Gurkan,Mehmet",
             "id": "3176116",
@@ -3886,7 +7158,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Thompson,Selby",
             "id": "3187190",
@@ -3934,7 +7217,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Zhou,Emma",
             "id": "3203766",
@@ -3982,7 +7276,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Huang,Joshua Kai-En",
             "id": "3205682",
@@ -4030,7 +7335,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Sheth,Adidev",
             "id": "3199651",
@@ -4078,7 +7394,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Batyrbekov,Kaisar",
             "id": "3204363",
@@ -4126,7 +7453,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Laffey,Julian",
             "id": "3199721",
@@ -4174,7 +7512,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Gurkan,Ahmet",
             "id": "3205100",
@@ -4222,7 +7571,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Ngo,William",
             "id": "3212170",
@@ -4270,7 +7630,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Scenna,George",
             "id": "3215666",
@@ -4318,7 +7689,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Yates,Anna",
             "id": "2415331",
@@ -4366,7 +7748,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Ha,Aeson",
             "id": "3214163",
@@ -4414,7 +7807,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Ashok,Arjun",
             "id": "3204632",
@@ -4462,7 +7866,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Wang,Adelyn",
             "id": "3210991",
@@ -4510,7 +7925,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Jagannathan,Shashvat",
             "id": "3206253",
@@ -4558,7 +7984,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Batyrbekov,Aidan",
             "id": "3203840",
@@ -4606,7 +8043,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Zhang,Chi Long",
             "id": "3213183",
@@ -4654,7 +8102,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Balaji,Sai Sivesh",
             "id": "3209381",
@@ -4702,7 +8161,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Ruaya,Rohan",
             "id": "3203980",
@@ -4750,7 +8220,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Ahmad,Ihtiram",
             "id": "0012854",
@@ -4798,7 +8279,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Warren,Elizabeth",
             "id": "3212645",
@@ -4846,7 +8338,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Zhou,Teng",
             "id": "3210825",
@@ -4894,7 +8397,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Wales,Sam",
             "id": "3210560",
@@ -4942,7 +8456,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Tan,Mia",
             "id": "3216462",
@@ -4990,7 +8515,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Verma,Vivaan",
             "id": "0",
@@ -5038,7 +8574,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Shaiek,Nihal",
             "id": "3217011",
@@ -5086,7 +8633,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Husain,Lamiah",
             "id": "3209576",
@@ -5134,7 +8692,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Lim,Darren",
             "id": "3204562",
@@ -5182,7 +8751,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Arora,Daanish",
             "id": "3218083",
@@ -5230,7 +8810,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Arun,Devsankar",
             "id": "0",
@@ -5278,7 +8869,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Bakker,Andrew",
             "id": "7979900",
@@ -5326,7 +8928,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Black,Nick",
             "id": "4568172",
@@ -5374,7 +8987,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Chapnevis,Elmira",
             "id": "0",
@@ -5422,7 +9046,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Denny,William",
             "id": "0",
@@ -5470,7 +9105,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Gowda,Likhil",
             "id": "0",
@@ -5518,7 +9164,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Gupta,Riaan",
             "id": "3215272",
@@ -5566,7 +9223,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Kitonga,Jack",
             "id": "3216086",
@@ -5614,7 +9282,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Moser,Luke",
             "id": "0",
@@ -5662,7 +9341,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Moser,William",
             "id": "0",
@@ -5710,7 +9400,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Nandi,Jisha",
             "id": "3212494",
@@ -5758,7 +9459,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Nema,Nivaan",
             "id": "3217486",
@@ -5806,7 +9518,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Palta,Sameer",
             "id": "0",
@@ -5854,7 +9577,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Samraat,Aayush",
             "id": "0",
@@ -5902,7 +9636,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Samrat,Avyay",
             "id": "3216963",
@@ -5950,7 +9695,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Saravanakumar,Thaswi",
             "id": "0",
@@ -5998,7 +9754,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Shahadat,Aladean",
             "id": "0",
@@ -6046,7 +9813,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Sharma,Rudra",
             "id": "0",
@@ -6094,7 +9872,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Vemula,Thamoghna",
             "id": "3218676",
@@ -6142,7 +9931,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Venkatesan,Sudharsun",
             "id": "0014172",
@@ -6190,7 +9990,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Vignesh,Prajeeth Bal",
             "id": "0",
@@ -6238,7 +10049,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Vigneshwar,Krishanth",
             "id": "0",
@@ -6286,7 +10108,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Yegnavajjula,Aryan S",
             "id": "3217453",
@@ -6324,6 +10157,1533 @@
             }
           ],
           "rows": []
+        }
+      ]
+    },
+    "standings.html": {
+      "pageHeading": "Standings at round 0",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Pos",
+              "key": "Pos"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "BH",
+              "key": "BH"
+            }
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Player": {
+                "id": "1",
+                "playerName": "Morris,James",
+                "gender": "male",
+                "href": "playercard.html#1"
+              },
+              "Rtg": "2554",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "2",
+              "Player": {
+                "id": "2",
+                "playerName": "Soo,Kai Jie",
+                "gender": "male",
+                "href": "playercard.html#2"
+              },
+              "Rtg": "2262",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "3",
+              "Player": {
+                "id": "3",
+                "playerName": "Dai,Cheng",
+                "gender": "male",
+                "href": "playercard.html#3"
+              },
+              "Rtg": "2173",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "4",
+              "Player": {
+                "id": "4",
+                "playerName": "Dragicevic,Domagoj",
+                "gender": "male",
+                "href": "playercard.html#4"
+              },
+              "Rtg": "2154",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "5",
+              "Player": {
+                "id": "5",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "male",
+                "href": "playercard.html#5"
+              },
+              "Rtg": "2148",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "6",
+              "Player": {
+                "id": "6",
+                "playerName": "Yang,Ray",
+                "gender": "male",
+                "href": "playercard.html#6"
+              },
+              "Rtg": "2112",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "7",
+              "Player": {
+                "id": "7",
+                "playerName": "Thogata,Randheer",
+                "gender": "male",
+                "href": "playercard.html#7"
+              },
+              "Rtg": "2031",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "8",
+              "Player": {
+                "id": "8",
+                "playerName": "Gao,Arthur",
+                "gender": "male",
+                "href": "playercard.html#8"
+              },
+              "Rtg": "1997",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "9",
+              "Player": {
+                "id": "9",
+                "playerName": "Hartley,James",
+                "gender": "male",
+                "href": "playercard.html#9"
+              },
+              "Rtg": "1959",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "10",
+              "Player": {
+                "id": "10",
+                "playerName": "Smith,Declan",
+                "gender": "male",
+                "href": "playercard.html#10"
+              },
+              "Rtg": "1911",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "11",
+              "Player": {
+                "id": "11",
+                "playerName": "Milojevic,Miodrag",
+                "gender": "male",
+                "href": "playercard.html#11"
+              },
+              "Rtg": "1854",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "12",
+              "Player": {
+                "id": "12",
+                "playerName": "Hogg,Dean",
+                "gender": "male",
+                "href": "playercard.html#12"
+              },
+              "Rtg": "1847",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "13",
+              "Player": {
+                "id": "13",
+                "playerName": "Savige,Colin B",
+                "gender": "male",
+                "href": "playercard.html#13"
+              },
+              "Rtg": "1816",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "14",
+              "Player": {
+                "id": "14",
+                "playerName": "Smith,Jack",
+                "gender": "male",
+                "href": "playercard.html#14"
+              },
+              "Rtg": "1797",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "15",
+              "Player": {
+                "id": "15",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#15"
+              },
+              "Rtg": "1774",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "16",
+              "Player": {
+                "id": "16",
+                "playerName": "Zheng,Ryan",
+                "gender": "male",
+                "href": "playercard.html#16"
+              },
+              "Rtg": "1768",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "17",
+              "Player": {
+                "id": "17",
+                "playerName": "Chibnall,Alana",
+                "gender": "female",
+                "href": "playercard.html#17"
+              },
+              "Rtg": "1766",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "18",
+              "Player": {
+                "id": "18",
+                "playerName": "Herlihy,Brian",
+                "gender": "male",
+                "href": "playercard.html#18"
+              },
+              "Rtg": "1748",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "19",
+              "Player": {
+                "id": "19",
+                "playerName": "Venkat,Nyra",
+                "gender": "female",
+                "href": "playercard.html#19"
+              },
+              "Rtg": "1721",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "20",
+              "Player": {
+                "id": "20",
+                "playerName": "Shen,Owen",
+                "gender": "male",
+                "href": "playercard.html#20"
+              },
+              "Rtg": "1713",
+              "Fed": "QLD",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "21",
+              "Player": {
+                "id": "21",
+                "playerName": "Kumar,Viney",
+                "gender": "male",
+                "href": "playercard.html#21"
+              },
+              "Rtg": "1679",
+              "Fed": "NSW",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "22",
+              "Player": {
+                "id": "22",
+                "playerName": "Lim,Jongmin",
+                "gender": "male",
+                "href": "playercard.html#22"
+              },
+              "Rtg": "1676",
+              "Fed": "NSW",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "23",
+              "Player": {
+                "id": "23",
+                "playerName": "Lingineni,Khushal",
+                "gender": "male",
+                "href": "playercard.html#23"
+              },
+              "Rtg": "1631",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "24",
+              "Player": {
+                "id": "24",
+                "playerName": "Buhagiar,Aden",
+                "gender": "male",
+                "href": "playercard.html#24"
+              },
+              "Rtg": "1612",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "25",
+              "Player": {
+                "id": "25",
+                "playerName": "Ilic,Goran",
+                "gender": "male",
+                "href": "playercard.html#25"
+              },
+              "Rtg": "1602",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "26",
+              "Player": {
+                "id": "26",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "playercard.html#26"
+              },
+              "Rtg": "1554",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "27",
+              "Player": {
+                "id": "27",
+                "playerName": "Ogden,Marcus W",
+                "gender": "male",
+                "href": "playercard.html#27"
+              },
+              "Rtg": "1547",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "28",
+              "Player": {
+                "id": "28",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "playercard.html#28"
+              },
+              "Rtg": "1546",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "29",
+              "Player": {
+                "id": "29",
+                "playerName": "Rodriguez,Maickel",
+                "gender": "male",
+                "href": "playercard.html#29"
+              },
+              "Rtg": "1543",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "30",
+              "Player": {
+                "id": "30",
+                "playerName": "Tanner,Jonathan",
+                "gender": "male",
+                "href": "playercard.html#30"
+              },
+              "Rtg": "1536",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "31",
+              "Player": {
+                "id": "31",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#31"
+              },
+              "Rtg": "1534",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "32",
+              "Player": {
+                "id": "32",
+                "playerName": "Li,LiYuan",
+                "gender": "male",
+                "href": "playercard.html#32"
+              },
+              "Rtg": "1530",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "33",
+              "Player": {
+                "id": "33",
+                "playerName": "Davis,Sophie",
+                "gender": "female",
+                "href": "playercard.html#33"
+              },
+              "Rtg": "1506",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "34",
+              "Player": {
+                "id": "34",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "playercard.html#34"
+              },
+              "Rtg": "1485",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "35",
+              "Player": {
+                "id": "35",
+                "playerName": "Humphreys,Scott",
+                "gender": "male",
+                "href": "playercard.html#35"
+              },
+              "Rtg": "1471",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "36",
+              "Player": {
+                "id": "36",
+                "playerName": "Ruaya,Chris Rodson",
+                "gender": "male",
+                "href": "playercard.html#36"
+              },
+              "Rtg": "1468",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "37",
+              "Player": {
+                "id": "37",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "playercard.html#37"
+              },
+              "Rtg": "1467",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "38",
+              "Player": {
+                "id": "38",
+                "playerName": "Picone,James",
+                "gender": "male",
+                "href": "playercard.html#38"
+              },
+              "Rtg": "1464",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "39",
+              "Player": {
+                "id": "39",
+                "playerName": "Hu,Tony",
+                "gender": "male",
+                "href": "playercard.html#39"
+              },
+              "Rtg": "1454",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "40",
+              "Player": {
+                "id": "40",
+                "playerName": "Rehill,Paul",
+                "gender": "male",
+                "href": "playercard.html#40"
+              },
+              "Rtg": "1451",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "41",
+              "Player": {
+                "id": "41",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "playercard.html#41"
+              },
+              "Rtg": "1447",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "42",
+              "Player": {
+                "id": "42",
+                "playerName": "Windsor,Maximilian",
+                "gender": "male",
+                "href": "playercard.html#42"
+              },
+              "Rtg": "1445",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "43",
+              "Player": {
+                "id": "43",
+                "playerName": "Cauchi,John-Paul",
+                "gender": "male",
+                "href": "playercard.html#43"
+              },
+              "Rtg": "1441",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "44",
+              "Player": {
+                "id": "44",
+                "playerName": "Tsagarakis,Angelo",
+                "gender": "male",
+                "href": "playercard.html#44"
+              },
+              "Rtg": "1436",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "45",
+              "Player": {
+                "id": "45",
+                "playerName": "Bodke,Krishna",
+                "gender": "male",
+                "href": "playercard.html#45"
+              },
+              "Rtg": "1407",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "46",
+              "Player": {
+                "id": "46",
+                "playerName": "Tang,Fergus",
+                "gender": "male",
+                "href": "playercard.html#46"
+              },
+              "Rtg": "1365",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "47",
+              "Player": {
+                "id": "47",
+                "playerName": "Parker,Lucas",
+                "gender": "male",
+                "href": "playercard.html#47"
+              },
+              "Rtg": "1333",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "48",
+              "Player": {
+                "id": "48",
+                "playerName": "Annapureddy,Dhruthin Reddy",
+                "gender": "male",
+                "href": "playercard.html#48"
+              },
+              "Rtg": "1326",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "49",
+              "Player": {
+                "id": "49",
+                "playerName": "Scenna,Luna",
+                "gender": "female",
+                "href": "playercard.html#49"
+              },
+              "Rtg": "1304",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "50",
+              "Player": {
+                "id": "50",
+                "playerName": "Brockman,Roland",
+                "gender": "male",
+                "href": "playercard.html#50"
+              },
+              "Rtg": "1257",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "51",
+              "Player": {
+                "id": "51",
+                "playerName": "Yang,Yifan",
+                "gender": "male",
+                "href": "playercard.html#51"
+              },
+              "Rtg": "1234",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "52",
+              "Player": {
+                "id": "52",
+                "playerName": "Lees,Dane",
+                "gender": "male",
+                "href": "playercard.html#52"
+              },
+              "Rtg": "1215",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "53",
+              "Player": {
+                "id": "53",
+                "playerName": "Ramanathan,Ashwin",
+                "gender": "male",
+                "href": "playercard.html#53"
+              },
+              "Rtg": "1192",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "54",
+              "Player": {
+                "id": "54",
+                "playerName": "Wilkinson,Greg",
+                "gender": "male",
+                "href": "playercard.html#54"
+              },
+              "Rtg": "1180",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "55",
+              "Player": {
+                "id": "55",
+                "playerName": "Gurkan,Mehmet",
+                "gender": "male",
+                "href": "playercard.html#55"
+              },
+              "Rtg": "1072",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "56",
+              "Player": {
+                "id": "56",
+                "playerName": "Thompson,Selby",
+                "gender": "male",
+                "href": "playercard.html#56"
+              },
+              "Rtg": "1059",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "57",
+              "Player": {
+                "id": "57",
+                "playerName": "Zhou,Emma",
+                "gender": "female",
+                "href": "playercard.html#57"
+              },
+              "Rtg": "1058",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "58",
+              "Player": {
+                "id": "58",
+                "playerName": "Huang,Joshua Kai-En",
+                "gender": "male",
+                "href": "playercard.html#58"
+              },
+              "Rtg": "1045",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "59",
+              "Player": {
+                "id": "59",
+                "playerName": "Sheth,Adidev",
+                "gender": "male",
+                "href": "playercard.html#59"
+              },
+              "Rtg": "1027",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "60",
+              "Player": {
+                "id": "60",
+                "playerName": "Batyrbekov,Kaisar",
+                "gender": "male",
+                "href": "playercard.html#60"
+              },
+              "Rtg": "1007",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "61",
+              "Player": {
+                "id": "61",
+                "playerName": "Laffey,Julian",
+                "gender": "male",
+                "href": "playercard.html#61"
+              },
+              "Rtg": "984",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "62",
+              "Player": {
+                "id": "62",
+                "playerName": "Gurkan,Ahmet",
+                "gender": "male",
+                "href": "playercard.html#62"
+              },
+              "Rtg": "978",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "63",
+              "Player": {
+                "id": "63",
+                "playerName": "Ngo,William",
+                "gender": "male",
+                "href": "playercard.html#63"
+              },
+              "Rtg": "975",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "64",
+              "Player": {
+                "id": "64",
+                "playerName": "Scenna,George",
+                "gender": "male",
+                "href": "playercard.html#64"
+              },
+              "Rtg": "946",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "65",
+              "Player": {
+                "id": "65",
+                "playerName": "Yates,Anna",
+                "gender": "female",
+                "href": "playercard.html#65"
+              },
+              "Rtg": "935",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "66",
+              "Player": {
+                "id": "66",
+                "playerName": "Ha,Aeson",
+                "gender": "male",
+                "href": "playercard.html#66"
+              },
+              "Rtg": "933",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "67",
+              "Player": {
+                "id": "67",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#67"
+              },
+              "Rtg": "930",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "68",
+              "Player": {
+                "id": "68",
+                "playerName": "Wang,Adelyn",
+                "gender": "female",
+                "href": "playercard.html#68"
+              },
+              "Rtg": "929",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "69",
+              "Player": {
+                "id": "69",
+                "playerName": "Jagannathan,Shashvath",
+                "gender": "male",
+                "href": "playercard.html#69"
+              },
+              "Rtg": "919",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "70",
+              "Player": {
+                "id": "70",
+                "playerName": "Batyrbekov,Aidan",
+                "gender": "male",
+                "href": "playercard.html#70"
+              },
+              "Rtg": "898",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "71",
+              "Player": {
+                "id": "71",
+                "playerName": "Zhang,Chi Long",
+                "gender": "male",
+                "href": "playercard.html#71"
+              },
+              "Rtg": "895",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "72",
+              "Player": {
+                "id": "72",
+                "playerName": "Balaji,Sai Sivesh",
+                "gender": "male",
+                "href": "playercard.html#72"
+              },
+              "Rtg": "886",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "73",
+              "Player": {
+                "id": "73",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#73"
+              },
+              "Rtg": "857",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "74",
+              "Player": {
+                "id": "74",
+                "playerName": "Ahmad,Ihtiram",
+                "gender": "male",
+                "href": "playercard.html#74"
+              },
+              "Rtg": "841",
+              "Fed": "BAN",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "75",
+              "Player": {
+                "id": "75",
+                "playerName": "Warren,Elizabeth",
+                "gender": "female",
+                "href": "playercard.html#75"
+              },
+              "Rtg": "837",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "76",
+              "Player": {
+                "id": "76",
+                "playerName": "Zhou,Teng",
+                "gender": "male",
+                "href": "playercard.html#76"
+              },
+              "Rtg": "798",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "77",
+              "Player": {
+                "id": "77",
+                "playerName": "Wales,Sam",
+                "gender": "male",
+                "href": "playercard.html#77"
+              },
+              "Rtg": "771",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "78",
+              "Player": {
+                "id": "78",
+                "playerName": "Tan,Mia",
+                "gender": "female",
+                "href": "playercard.html#78"
+              },
+              "Rtg": "728",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "79",
+              "Player": {
+                "id": "79",
+                "playerName": "Verma,Vivaan",
+                "gender": "male",
+                "href": "playercard.html#79"
+              },
+              "Rtg": "700",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "80",
+              "Player": {
+                "id": "80",
+                "playerName": "Shaiek,Nihal",
+                "gender": "male",
+                "href": "playercard.html#80"
+              },
+              "Rtg": "648",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "81",
+              "Player": {
+                "id": "81",
+                "playerName": "Husain,Lamiah",
+                "gender": "female",
+                "href": "playercard.html#81"
+              },
+              "Rtg": "324",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "82",
+              "Player": {
+                "id": "82",
+                "playerName": "Lim,Darren",
+                "gender": "male",
+                "href": "playercard.html#82"
+              },
+              "Rtg": "205",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "83",
+              "Player": {
+                "id": "83",
+                "playerName": "Arora,Daanish",
+                "gender": "male",
+                "href": "playercard.html#83"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "84",
+              "Player": {
+                "id": "84",
+                "playerName": "Arun,Devsankar",
+                "gender": "male",
+                "href": "playercard.html#84"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "85",
+              "Player": {
+                "id": "85",
+                "playerName": "Bakker,Andrew",
+                "gender": "male",
+                "href": "playercard.html#85"
+              },
+              "Rtg": "0",
+              "Fed": "TAS",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "86",
+              "Player": {
+                "id": "86",
+                "playerName": "Black,Nick",
+                "gender": "male",
+                "href": "playercard.html#86"
+              },
+              "Rtg": "0",
+              "Fed": "QLD",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "87",
+              "Player": {
+                "id": "87",
+                "playerName": "Chapnevis,Elmira",
+                "gender": "female",
+                "href": "playercard.html#87"
+              },
+              "Rtg": "0",
+              "Fed": "IRI",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "88",
+              "Player": {
+                "id": "88",
+                "playerName": "Denny,William",
+                "gender": "male",
+                "href": "playercard.html#88"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "89",
+              "Player": {
+                "id": "89",
+                "playerName": "Gowda,Likhil",
+                "gender": "male",
+                "href": "playercard.html#89"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "90",
+              "Player": {
+                "id": "90",
+                "playerName": "Gupta,Riaan",
+                "gender": "male",
+                "href": "playercard.html#90"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "91",
+              "Player": {
+                "id": "91",
+                "playerName": "Kitonga,Jack",
+                "gender": "male",
+                "href": "playercard.html#91"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "92",
+              "Player": {
+                "id": "92",
+                "playerName": "Moser,Luke",
+                "gender": "male",
+                "href": "playercard.html#92"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "93",
+              "Player": {
+                "id": "93",
+                "playerName": "Moser,William",
+                "gender": "male",
+                "href": "playercard.html#93"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "94",
+              "Player": {
+                "id": "94",
+                "playerName": "Nandi,Jisha",
+                "gender": "female",
+                "href": "playercard.html#94"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "95",
+              "Player": {
+                "id": "95",
+                "playerName": "Nema,Nivaan",
+                "gender": "male",
+                "href": "playercard.html#95"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "96",
+              "Player": {
+                "id": "96",
+                "playerName": "Palta,Sameer",
+                "gender": "male",
+                "href": "playercard.html#96"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "97",
+              "Player": {
+                "id": "97",
+                "playerName": "Samraat,Aayush",
+                "gender": "male",
+                "href": "playercard.html#97"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "98",
+              "Player": {
+                "id": "98",
+                "playerName": "Samrat,Avyay",
+                "gender": "male",
+                "href": "playercard.html#98"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "99",
+              "Player": {
+                "id": "99",
+                "playerName": "Saravanakumar,Thaswin",
+                "gender": "male",
+                "href": "playercard.html#99"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "100",
+              "Player": {
+                "id": "100",
+                "playerName": "Shahadat,Aladean",
+                "gender": "male",
+                "href": "playercard.html#100"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "101",
+              "Player": {
+                "id": "101",
+                "playerName": "Sharma,Rudra",
+                "gender": "male",
+                "href": "playercard.html#101"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "102",
+              "Player": {
+                "id": "102",
+                "playerName": "Vemula,Thamoghna",
+                "gender": "male",
+                "href": "playercard.html#102"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "103",
+              "Player": {
+                "id": "103",
+                "playerName": "Venkatesan,Sudharsun",
+                "gender": "male",
+                "href": "playercard.html#103"
+              },
+              "Rtg": "0",
+              "Fed": "IND",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "104",
+              "Player": {
+                "id": "104",
+                "playerName": "Vignesh,Prajeeth Balaji",
+                "gender": "male",
+                "href": "playercard.html#104"
+              },
+              "Rtg": "0",
+              "Fed": "NZL",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "105",
+              "Player": {
+                "id": "105",
+                "playerName": "Vigneshwar,Krishanth",
+                "gender": "male",
+                "href": "playercard.html#105"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            },
+            {
+              "Pos": "106",
+              "Player": {
+                "id": "106",
+                "playerName": "Yegnavajjula,Aryan Srivatsav",
+                "gender": "male",
+                "href": "playercard.html#106"
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0"
+            }
+          ],
+          "footer": {
+            "text": "Tie Break legend:\n     BH  :  Buchholz",
+            "html": "Tie Break legend:<br>\n     BH  :  Buchholz <br>"
+          }
         }
       ]
     },
@@ -6487,6 +11847,86 @@
       "href": "index.html",
       "isDropdown": true,
       "children": []
+    },
+    {
+      "text": "Pairings",
+      "href": "pairs1.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Standings",
+      "href": "#",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Tables",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Cross table",
+          "href": "crosstable.html"
+        },
+        {
+          "text": "Cross table and standings",
+          "href": "crosstablescore.html"
+        },
+        {
+          "text": "Standings by Rtg groups",
+          "href": "rankinggroup.html"
+        },
+        {
+          "text": "Standings by age groups",
+          "href": "rankingagegroup.html"
+        },
+        {
+          "text": "Standings by title",
+          "href": "rankcat.html"
+        },
+        {
+          "text": "Rank Teams",
+          "href": "rankTeams.html"
+        },
+        {
+          "text": "Summary Federations",
+          "href": "summaryFederations.html"
+        },
+        {
+          "text": "Summary Origin",
+          "href": "summaryOrigin.html"
+        }
+      ]
+    },
+    {
+      "text": "Games",
+      "href": "games.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Reports",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "FIDE Rating",
+          "href": "felovar.html"
+        },
+        {
+          "text": "FIDE Player Card",
+          "href": "fideplayercard.html"
+        },
+        {
+          "text": "National rating",
+          "href": "nelovar.html"
+        },
+        {
+          "text": "National Player Card",
+          "href": "playercard.html"
+        }
+      ]
     }
   ],
   "players": [
