@@ -78,11 +78,20 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
             );
         }
         
+        // Check if this is a "Pts" or "Result" column and render as bold
+        if (columnHeader === 'Pts' || columnHeader === 'Result') {
+            return <span className={`${className} font-bold`}>{data}</span>;
+        }
+        
         return <span className={className}>{data}</span>;
     }
 
     // If data is null, undefined, or a number, render it as string
     if (data === null || data === undefined || typeof data === 'number') {
+        // Check if this is a "Pts" or "Result" column and render as bold
+        if (columnHeader === 'Pts' || columnHeader === 'Result') {
+            return <span className={`${className} font-bold`}>{String(data || '')}</span>;
+        }
         return <span className={className}>{String(data || '')}</span>;
     }
 
