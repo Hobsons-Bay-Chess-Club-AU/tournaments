@@ -16,15 +16,30 @@ interface TournamentMenuProps {
 const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSelectPage }) => {
     const [openDropdown, setOpenDropdown] = useState<string | null>(null);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+    
     const normalizedMenu = useMemo(() => {
         const normalizeMenuItems = (items: MenuItem[]): MenuItem[] => {
             return (items || []).map((item) => {
                 const children = item.children && item.children.length > 0 ? normalizeMenuItems(item.children) : undefined;
                 const hasChildren = !!(children && children.length > 0);
+                
+                // Add "View Vega" item to Info menu
+                let finalChildren = children;
+                if (item.text === "Info" && hasChildren) {
+                    const vegaUrl = window.location.href.replace('/v2/', '/www/');
+                    finalChildren = [
+                        ...children!,
+                        {
+                            text: "View Vega",
+                            href: vegaUrl
+                        }
+                    ];
+                }
+                
                 return {
                     ...item,
                     isDropdown: hasChildren,
-                    children: hasChildren ? children : undefined,
+                    children: hasChildren ? finalChildren : undefined,
                 };
             });
         };
@@ -104,7 +119,12 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
                                                                 }`}
                                                             onClick={() => {
                                                                 setOpenDropdown(null);
-                                                                onSelectPage(child.href);
+                                                                // Handle external links (like View Vega)
+                                                                if (child.text === "View Vega") {
+                                                                    window.open(child.href, '_blank');
+                                                                } else {
+                                                                    onSelectPage(child.href);
+                                                                }
                                                             }}
                                                         >
                                                             {child.text}
@@ -172,7 +192,12 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
                                                             onClick={() => {
                                                                 setOpenDropdown(null);
                                                                 setMobileMenuOpen(false);
-                                                                onSelectPage(child.href);
+                                                                // Handle external links (like View Vega)
+                                                                if (child.text === "View Vega") {
+                                                                    window.open(child.href, '_blank');
+                                                                } else {
+                                                                    onSelectPage(child.href);
+                                                                }
                                                             }}
                                                         >
                                                             {child.text}

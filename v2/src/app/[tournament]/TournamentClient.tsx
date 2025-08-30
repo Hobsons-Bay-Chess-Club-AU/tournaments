@@ -214,8 +214,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
         const matrix: string[][] = [];
         if (headerNames.length > 0) matrix.push(headerNames);
         rows.forEach(row => {
-            const record = row as Record<string, unknown>;
-            const line: string[] = normalizedHeaders.map(h => serializeCell(record[h.key]));
+            const line: string[] = normalizedHeaders.map(h => serializeCell((row as Record<string, unknown>)[h.key]));
             matrix.push(line);
         });
 
