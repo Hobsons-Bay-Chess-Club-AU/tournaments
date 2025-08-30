@@ -1,1 +1,1 @@
- <h4>Download PGN:</h4> <div class="btn-toolbar"> <div class="btn-group"><a class="btn btn-default btn-sm" href="/2025 Best in the West1.pgn" > 1 </a> <a class="btn btn-default btn-sm" href="/2025 Best in the West2.pgn" > 2 </a> </div> </div>
+ <h4>Download PGN:</h4> <div class="btn-toolbar"> <div class="btn-group"><a class="btn btn-default btn-sm" href="/2025 Best in the West1.pgn" > 1 </a> <a class="btn btn-default btn-sm" href="/2025 Best in the West2.pgn" > 2 </a> <a class="btn btn-default btn-sm" href="/2025 Best in the West3.pgn" > 3 </a> </div> </div>
