@@ -65,13 +65,15 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
             }
         }
         
-        // Check if this looks like a federation code (3 letters, all caps)
-        const isFederationCode = /^[A-Z]{2,3}$/.test(data.trim());
+        // Check if this looks like a federation code (2-3 letters, all caps) or flag path format
+        const trimmedData = data.trim();
+        const isFederationCode = /^[A-Z]{2,3}$/.test(trimmedData) || 
+                                /^FLAG\/[A-Z]{2,3}\.(PNG|JPG|JPEG|GIF|SVG)$/i.test(trimmedData);
         
         if (isFederationCode) {
             return (
                 <span className={className}>
-                    {renderFederation(data.trim())}
+                    {renderFederation(trimmedData)}
                 </span>
             );
         }
