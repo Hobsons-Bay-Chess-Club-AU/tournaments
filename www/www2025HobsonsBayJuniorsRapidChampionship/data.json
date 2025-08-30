@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-08-30T08:29:38.159Z",
+  "generatedAt": "2025-08-30T10:30:45.033Z",
   "page": {
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 0",
@@ -299,6 +299,15 @@
             {
               "#": "23",
               "Title": "",
+              "Player": "Gunathilake,Sithev",
+              "Fed": "VIC",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "24",
+              "Title": "",
               "Player": "Hii,Elliott",
               "Fed": "AUS",
               "Rtg": "0",
@@ -306,7 +315,7 @@
               "RtgN": "0"
             },
             {
-              "#": "24",
+              "#": "25",
               "Title": "",
               "Player": "Kaur,Mishleen",
               "Fed": "VIC",
@@ -315,7 +324,7 @@
               "RtgN": "0"
             },
             {
-              "#": "25",
+              "#": "26",
               "Title": "",
               "Player": "Padoli,Darsh",
               "Fed": "AUS",
@@ -324,7 +333,7 @@
               "RtgN": "0"
             },
             {
-              "#": "26",
+              "#": "27",
               "Title": "",
               "Player": "Saravanakumar,Thaswin",
               "Fed": "VIC",
@@ -333,7 +342,7 @@
               "RtgN": "0"
             },
             {
-              "#": "27",
+              "#": "28",
               "Title": "",
               "Player": "Shetty,Yohan",
               "Fed": "VIC",
@@ -342,7 +351,7 @@
               "RtgN": "0"
             },
             {
-              "#": "28",
+              "#": "29",
               "Title": "",
               "Player": "Spriggs,Harvey",
               "Fed": "VIC",
@@ -351,7 +360,7 @@
               "RtgN": "0"
             },
             {
-              "#": "29",
+              "#": "30",
               "Title": "",
               "Player": "Vignesh,Prajeeth",
               "Fed": "VIC",
@@ -1799,6 +1808,54 @@
             "rawText": "29   Gowda,Likhil        , K= 0, Elo=   0, ID=0",
             "rawHtml": "  29   <strong>Gowda,Likhil        </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"29\"></a>"
           }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Gunathilake,Sithev",
+            "id": "0",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "30"
+            },
+            "rawText": "30   Gunathilake,Sithev  , K= 0, Elo=   0, ID=0",
+            "rawHtml": "  30   <strong>Gunathilake,Sithev  </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"30\"></a>"
+          }
         }
       ]
     },
@@ -1908,7 +1965,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "29"
+              "col2": "30"
             },
             {
               "col1": "Number of Federations",
@@ -1916,7 +1973,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "603"
+              "col2": "583"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -1928,7 +1985,7 @@
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "18"
+              "col2": "19"
             },
             {
               "col1": "FIDE rated players",
@@ -1936,7 +1993,7 @@
             },
             {
               "col1": "unrated players",
-              "col2": "20"
+              "col2": "21"
             },
             {
               "col1": "unrated players from AUS Federation",
@@ -1944,7 +2001,7 @@
             },
             {
               "col1": "unrated players NOT from AUS Federation",
-              "col2": "16"
+              "col2": "17"
             },
             {
               "col1": "unrated Federations",
@@ -2224,6 +2281,15 @@
     {
       "#": "23",
       "Title": "",
+      "Player": "Gunathilake,Sithev",
+      "Fed": "VIC",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "24",
+      "Title": "",
       "Player": "Hii,Elliott",
       "Fed": "AUS",
       "Rtg": "0",
@@ -2231,7 +2297,7 @@
       "RtgN": "0"
     },
     {
-      "#": "24",
+      "#": "25",
       "Title": "",
       "Player": "Kaur,Mishleen",
       "Fed": "VIC",
@@ -2240,7 +2306,7 @@
       "RtgN": "0"
     },
     {
-      "#": "25",
+      "#": "26",
       "Title": "",
       "Player": "Padoli,Darsh",
       "Fed": "AUS",
@@ -2249,7 +2315,7 @@
       "RtgN": "0"
     },
     {
-      "#": "26",
+      "#": "27",
       "Title": "",
       "Player": "Saravanakumar,Thaswin",
       "Fed": "VIC",
@@ -2258,7 +2324,7 @@
       "RtgN": "0"
     },
     {
-      "#": "27",
+      "#": "28",
       "Title": "",
       "Player": "Shetty,Yohan",
       "Fed": "VIC",
@@ -2267,7 +2333,7 @@
       "RtgN": "0"
     },
     {
-      "#": "28",
+      "#": "29",
       "Title": "",
       "Player": "Spriggs,Harvey",
       "Fed": "VIC",
@@ -2276,7 +2342,7 @@
       "RtgN": "0"
     },
     {
-      "#": "29",
+      "#": "30",
       "Title": "",
       "Player": "Vignesh,Prajeeth",
       "Fed": "VIC",
@@ -2297,16 +2363,16 @@
     "Rounds": "7",
     "Score game": "0-0.5-1",
     "Tie break": "BH BH/C1 SB",
-    "Registered Players": "29",
+    "Registered Players": "30",
     "Number of Federations": "4",
-    "Average Rating (all)": "603",
+    "Average Rating (all)": "583",
     "Average Rating (only FIDE rated)": "1482",
     "Players from AUS Federation": "11",
-    "Players NOT from AUS Federation": "18",
+    "Players NOT from AUS Federation": "19",
     "FIDE rated players": "9",
-    "unrated players": "20",
+    "unrated players": "21",
     "unrated players from AUS Federation": "4",
-    "unrated players NOT from AUS Federation": "16",
+    "unrated players NOT from AUS Federation": "17",
     "unrated Federations": "2",
     "FIDE titled players": "0",
     "GM players": "0",
