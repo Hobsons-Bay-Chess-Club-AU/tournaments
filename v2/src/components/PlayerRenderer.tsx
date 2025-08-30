@@ -1,6 +1,6 @@
 import React from "react";
 import { renderFederation } from "@/utils/federationMapping";
-import { renderTitle, getTitleInfo } from "@/utils/titleMapping";
+import { renderTitle } from "@/utils/titleMapping";
 
 interface PlayerObject {
     id?: string | number;
@@ -25,7 +25,7 @@ interface CrosstableCell {
 interface PlayerRendererProps {
     data: string | PlayerObject | CrosstableCell | unknown;
     className?: string;
-    onPlayerClick?: (playerId: string | number) => void;
+    onPlayerClick?: (playerId: string | number, playerData?: PlayerObject) => void;
     tournamentPath?: string; // Add tournament path to generate correct URLs
     columnHeader?: string; // Add column header to determine rendering type
 }
@@ -165,7 +165,7 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
                                     // Prevent default and use our navigation instead
                                     e.preventDefault();
                                     if (onPlayerClick && playerId && String(playerId).trim() !== '') {
-                                        onPlayerClick(playerId);
+                                        onPlayerClick(playerId, playerObj);
                                     }
                                 }}
                             >
@@ -173,7 +173,7 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
                             </a>
                         ) : playerId && String(playerId).trim() !== '' && onPlayerClick ? (
                             <button
-                                onClick={handlePlayerClick}
+                                onClick={() => onPlayerClick(playerId, playerObj)}
                                 className={`${genderStyles.linkColor} hover:underline font-medium cursor-pointer bg-transparent border-none p-0 text-left`}
                             >
                                 {playerName}

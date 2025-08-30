@@ -5,6 +5,7 @@ import TournamentMeta from "@/components/TournamentMeta";
 import TournamentMenu from "@/components/TournamentMenu";
 import PlayerRenderer from "@/components/PlayerRenderer";
 import KeyValueTable from "@/components/KeyValueTable";
+import PlayerPairingModal from "@/components/PlayerPairingModal";
 
 type TableCaption = string | {
     playerName?: string;
@@ -64,20 +65,14 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     // Auto-scroll effect for player cards
     useEffect(() => {
         if (data && page === "playercard.html" && playerId) {
-            console.log("should i scrolling ")
-            console.log(`Auto-scroll: Looking for player ID ${playerId}`);
             // Small delay to ensure DOM is rendered
             const timer = setTimeout(() => {
                 const targetElement = document.getElementById(`table-anchor-${playerId}`);
-                console.log(`Auto-scroll: Found element for table-anchor-${playerId}:`, targetElement);
                 if (targetElement) {
-                    console.log(`Auto-scroll: Scrolling to player ${playerId}`);
                     targetElement.scrollIntoView({
                         behavior: 'smooth',
                         block: 'start'
                     });
-                } else {
-                    console.log(`Auto-scroll: No table found with anchor ${playerId}`);
                 }
             }, 500);
             return () => clearTimeout(timer);
@@ -90,6 +85,10 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     // Search state
     const [searchQuery, setSearchQuery] = useState<string>("");
     const [copiedTableIdx, setCopiedTableIdx] = useState<number | null>(null);
+
+    // Player modal state
+    const [isPlayerModalOpen, setIsPlayerModalOpen] = useState(false);
+    const [selectedPlayerData, setSelectedPlayerData] = useState<Record<string, unknown> | null>(null);
 
     // Pairing selector logic
     const isPairingPage = page.startsWith("pairs");
@@ -114,8 +113,40 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
         });
     };
 
-    const handlePlayerClick = (playerId: string | number) => {
+    const handlePlayerClick = (playerId: string | number, playerData?: Record<string, unknown>) => {
+        // Find player data from playercard page
+        const playercardData = data?.page['playercard.html'];
+        
+        if (playercardData?.tables) {
+            // Look for the player in the playercard tables
+            for (let i = 0; i < playercardData.tables.length; i++) {
+                const table = playercardData.tables[i];
+                
+                // Check if this table belongs to the clicked player
+                const caption = table.caption as Record<string, unknown>;
+                const moreInfo = caption.moreInfo as Record<string, unknown> | undefined;
+                if (table.caption && typeof table.caption === 'object' && moreInfo?.anchor === String(playerId)) {
+                    // Create a comprehensive player data object from the table
+                    const modalPlayerData = {
+                        ...table.caption, // Include caption data (name, id, etc.)
+                        tables: [table], // Include the table data for detailed information
+                        clickedPlayerData: playerData // Include the clicked player data for title information
+                    };
+                    
+                    setSelectedPlayerData(modalPlayerData);
+                    setIsPlayerModalOpen(true);
+                    return;
+                }
+            }
+        }
+        
+        // Fallback: navigate to playercard page if modal data not found
         router.push(`?page=playercard.html&id=${playerId}`);
+    };
+
+    const handleClosePlayerModal = () => {
+        setIsPlayerModalOpen(false);
+        setSelectedPlayerData(null);
     };
 
 
@@ -228,12 +259,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
         const serializeCell = (value: unknown): string => {
             if (value === null || value === undefined) return '';
             if (typeof value === 'string' || typeof value === 'number') {
-                const result = String(value).trim();
-                // Debug: log federation codes to see what's happening
-                if (typeof value === 'string' && /^[A-Z]{2,3}$/.test(value)) {
-                    console.log(`[DEBUG] Serializing federation code: "${value}" -> "${result}"`);
-                }
-                return result;
+                return String(value).trim();
             }
             if (typeof value === 'object') {
                 const obj = value as Record<string, unknown>;
@@ -567,6 +593,13 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                     )}
                 </div>
             )}
+
+            {/* Player Pairing Modal */}
+            <PlayerPairingModal
+                isOpen={isPlayerModalOpen}
+                onClose={handleClosePlayerModal}
+                playerData={selectedPlayerData}
+            />
         </div>
     );
 }
