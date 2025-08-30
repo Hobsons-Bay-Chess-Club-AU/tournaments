@@ -238,6 +238,53 @@ function parseTableToJson($table) {
     const $caption = $table.find('caption');
     if ($caption.length > 0) {
         caption = parseCaptionToPlayerInfo($caption);
+    } else {
+        // If no caption, look for h5 element before the table
+        // First try direct previous sibling
+        let $prevH5 = $table.prev('h5');
+        
+        // If not found, try looking for h5 in the same container
+        if ($prevH5.length === 0) {
+            const $parent = $table.parent();
+            if ($parent.length > 0) {
+                // Look for h5 elements that come before this table in the same parent
+                const tableIndex = $parent.children().index($table);
+                $parent.children().each((i, el) => {
+                    if (i < tableIndex && cheerio(el).is('h5')) {
+                        $prevH5 = cheerio(el);
+                        return false; // break the loop
+                    }
+                });
+            }
+        }
+        
+        // If still not found, try looking for h5 in the parent's parent
+        if ($prevH5.length === 0) {
+            const $grandParent = $table.parent().parent();
+            if ($grandParent.length > 0) {
+                const tableParentIndex = $grandParent.children().index($table.parent());
+                $grandParent.children().each((i, el) => {
+                    if (i < tableParentIndex && cheerio(el).is('h5')) {
+                        $prevH5 = cheerio(el);
+                        return false; // break the loop
+                    }
+                });
+            }
+        }
+        
+        if ($prevH5.length > 0) {
+            const h5Text = $prevH5.text().trim();
+            if (h5Text) {
+                // Create a caption object from the h5 text
+                caption = {
+                    playerName: h5Text,
+                    id: '',
+                    moreInfo: {},
+                    rawText: h5Text,
+                    rawHtml: $prevH5.html().trim()
+                };
+            }
+        }
     }
     
     // Parse footer if it exists
