@@ -26,7 +26,7 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
                 // Add "View Vega" item to Info menu
                 let finalChildren = children;
                 if (item.text === "Info" && hasChildren) {
-                    const vegaUrl = window.location.href.replace('/v2/', '/www/');
+                    const vegaUrl = window.location.href.replace('/v2/', '/www');
                     finalChildren = [
                         ...children!,
                         {
