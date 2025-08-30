@@ -168,7 +168,7 @@ export function getCountryCode(federation: string): string {
   }
   
   const upperFederation = cleanFederation.toUpperCase();
-  return federationToCountry[upperFederation] || cleanFederation.toLowerCase();
+  return federationToCountry[upperFederation] || upperFederation;
 }
 
 /**
@@ -189,7 +189,7 @@ export function getFlagUrl(federation: string): string | null {
   }
   
   const countryCode = getCountryCode(cleanFederation);
-  if (!countryCode || countryCode === cleanFederation.toLowerCase()) {
+  if (!countryCode || countryCode === cleanFederation.toUpperCase()) {
     return null; // No mapping found, return null to show text instead
   }
   

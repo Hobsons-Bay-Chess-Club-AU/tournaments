@@ -182,16 +182,59 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
         return rows;
     };
 
+    // Function to check if a column is completely empty
+    const isColumnEmpty = (table: { headers?: MixedHeader[]; rows?: Record<string, unknown>[] }, headerKey: string): boolean => {
+        if (!table.rows || table.rows.length === 0) return true;
+        
+        return table.rows.every(row => {
+            const value = row[headerKey];
+            if (value === null || value === undefined || value === '') return true;
+            if (typeof value === 'string' && value.trim() === '') return true;
+            if (typeof value === 'object' && value !== null) {
+                // Check if it's a player object with empty name
+                if ('playerName' in value) {
+                    const playerObj = value as Record<string, unknown>;
+                    const playerName = playerObj.playerName || playerObj.name || playerObj.player;
+                    return !playerName || String(playerName).trim() === '';
+                }
+                // Check if it's a crosstable cell with empty result
+                if ('result' in value) {
+                    return !value.result || String(value.result).trim() === '';
+                }
+                // For other objects, check if all values are empty
+                return Object.values(value).every(v => 
+                    v === null || v === undefined || v === '' || 
+                    (typeof v === 'string' && v.trim() === '')
+                );
+            }
+            return false;
+        });
+    };
+
+    // Function to get filtered headers (excluding empty columns)
+    const getFilteredHeaders = (table: { headers?: MixedHeader[]; rows?: Record<string, unknown>[] }): Header[] => {
+        const normalizedHeaders: Header[] = (table.headers?.map(h => (typeof h === 'string' ? { name: h, key: h } : h)) || []);
+        
+        return normalizedHeaders.filter(header => !isColumnEmpty(table, header.key));
+    };
+
     // Generate a plain-text representation of a table (headers + current filtered/sorted rows)
     const generateTableText = (table: { headers?: MixedHeader[]; rows?: Record<string, unknown>[] }, idx: number) => {
-        const normalizedHeaders: Header[] = (table.headers?.map(h => (typeof h === 'string' ? { name: h, key: h } : h)) || []);
-        const headerNames = normalizedHeaders.map(h => h.name);
+        const filteredHeaders = getFilteredHeaders(table);
+        const headerNames = filteredHeaders.map(h => h.name);
         const rows = getFilteredAndSortedRows(table, idx);
 
         // Helper to serialize a cell value to text
         const serializeCell = (value: unknown): string => {
             if (value === null || value === undefined) return '';
-            if (typeof value === 'string' || typeof value === 'number') return String(value).trim();
+            if (typeof value === 'string' || typeof value === 'number') {
+                const result = String(value).trim();
+                // Debug: log federation codes to see what's happening
+                if (typeof value === 'string' && /^[A-Z]{2,3}$/.test(value)) {
+                    console.log(`[DEBUG] Serializing federation code: "${value}" -> "${result}"`);
+                }
+                return result;
+            }
             if (typeof value === 'object') {
                 const obj = value as Record<string, unknown>;
                 // Crosstable cell
@@ -204,7 +247,11 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                 // Player object shape
                 const name = (obj.playerName || obj.name || obj.player) ? String(obj.playerName || obj.name || obj.player).trim() : '';
                 const rating = obj.rating !== undefined && obj.rating !== '' ? ` (${String(obj.rating)})` : '';
-                if (name) return `${name}${rating}`.trim();
+                const title = obj.title ? String(obj.title).trim() : '';
+                if (name) {
+                    const titlePrefix = title ? `${title} ` : '';
+                    return `${titlePrefix}${name}${rating}`.trim();
+                }
                 try { return JSON.stringify(obj); } catch { return String(obj); }
             }
             return String(value);
@@ -214,7 +261,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
         const matrix: string[][] = [];
         if (headerNames.length > 0) matrix.push(headerNames);
         rows.forEach(row => {
-            const line: string[] = normalizedHeaders.map(h => serializeCell((row as Record<string, unknown>)[h.key]));
+            const line: string[] = filteredHeaders.map(h => serializeCell((row as Record<string, unknown>)[h.key]));
             matrix.push(line);
         });
 
@@ -393,7 +440,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                 <table className="min-w-full">
                                                     <thead>
                                                         <tr className="bg-gradient-to-r from-slate-50 to-gray-100/80">
-                                                            {(table.headers?.map(h => (typeof h === 'string' ? { name: h, key: h } : h)) || []).map((header: Header, hidx: number) => (
+                                                            {getFilteredHeaders(table).map((header: Header, hidx: number) => (
                                                                 <th
                                                                     key={hidx}
                                                                     className={`px-6 py-4 text-left text-sm font-bold text-gray-700 uppercase tracking-wider cursor-pointer select-none transition-all duration-200 hover:bg-gray-200/50 ${hidx === 0 ? 'rounded-tl-xl' : ''} ${hidx === (table.headers?.length || 0) - 1 ? 'rounded-tr-xl' : ''}`}
@@ -415,7 +462,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                         {table.rows && table.rows.length > 0 ? (
                                                             getFilteredAndSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
                                                                 <tr key={ridx} className={`transition-all duration-150 hover:bg-blue-50/50 hover:shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
-                                                                    {(table.headers?.map(h => (typeof h === 'string' ? { name: h, key: h } : h)) || []).map((header: Header, hidx: number) => (
+                                                                    {getFilteredHeaders(table).map((header: Header, hidx: number) => (
                                                                         <td key={hidx} className="px-6 py-4 text-sm text-gray-900 font-medium">
                                                                             <PlayerRenderer
                                                                                 data={row[header.key]}
@@ -429,7 +476,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                             ))
                                                         ) : (
                                                             <tr>
-                                                                <td colSpan={table.headers?.length || 1} className="px-6 py-8 text-center text-gray-500 italic">
+                                                                <td colSpan={getFilteredHeaders(table).length || 1} className="px-6 py-8 text-center text-gray-500 italic">
                                                                     <div className="flex flex-col items-center gap-2">
                                                                         <svg className="w-8 h-8 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -443,7 +490,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                     {table.footer && (
                                                         <tfoot>
                                                             <tr>
-                                                                <td colSpan={table.headers?.length || 1} className="px-6 py-3 text-sm text-gray-600 bg-gray-50 border-t border-gray-200">
+                                                                <td colSpan={getFilteredHeaders(table).length || 1} className="px-6 py-3 text-sm text-gray-600 bg-gray-50 border-t border-gray-200">
                                                                     <div dangerouslySetInnerHTML={{ __html: table.footer.html }} />
                                                                 </td>
                                                             </tr>
@@ -458,7 +505,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                     <div className="space-y-6 md:space-y-4 p-0 md:p-4">
                                                         {getFilteredAndSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
                                                             <div key={ridx} className={`bg-white rounded-lg border border-gray-200 p-4 shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
-                                                                {(table.headers?.map(h => (typeof h === 'string' ? { name: h, key: h } : h)) || []).map((header: Header, hidx: number) => (
+                                                                {getFilteredHeaders(table).map((header: Header, hidx: number) => (
                                                                     <div key={hidx} className="flex justify-between items-center py-2 border-b border-gray-100 last:border-b-0">
                                                                         <span className="text-sm font-medium text-gray-600 capitalize">
                                                                             {header.name}

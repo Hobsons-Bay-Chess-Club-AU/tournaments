@@ -95,6 +95,7 @@ function readPairPlayer($td) {
     let gender = '';
     let playerName = '';
     let href = '';
+    let title = '';
     
     // Look for ID in various locations
     const idSpan = $td.find('span.idwhite, span.idblack');
@@ -106,6 +107,12 @@ function readPairPlayer($td) {
         if (sortNumDiv.length > 0) {
             id = sortNumDiv.text().trim();
         }
+    }
+    
+    // Look for title in span with title class
+    const titleSpan = $td.find('span.title');
+    if (titleSpan.length > 0) {
+        title = titleSpan.text().trim();
     }
     
     // Look for gender in various locations
@@ -150,7 +157,8 @@ function readPairPlayer($td) {
         id,
         playerName,
         gender,
-        href
+        href,
+        title
     };
 }
 
@@ -160,6 +168,7 @@ function readPlayer($td) {
     let gender = '';
     let playerName = '';
     let href = '';
+    let title = '';
     
     // Pattern 1: <span class="idn"> 3 </span> <span class="notitle male"> </span> <a href="playercard.html#3"> Name</a>
     let idSpan = $td.find('span.idn');
@@ -177,6 +186,12 @@ function readPlayer($td) {
                 id = badgeSpan.text().replace(/\s+/g, ' ').trim();
             }
         }
+    }
+    
+    // Look for title in span with title class
+    const titleSpan = $td.find('span.title');
+    if (titleSpan.length > 0) {
+        title = titleSpan.text().trim();
     }
     
     // Look for gender in span classes
@@ -228,7 +243,8 @@ function readPlayer($td) {
         id,
         playerName,
         gender,
-        href
+        href,
+        title
     };
 }
 
@@ -367,11 +383,37 @@ function parseTableToJson($table) {
                             // Extract flag information from image
                             const alt = $img.attr('alt');
                             const src = $img.attr('src');
-                            // Use alt attribute if available, otherwise use src, and convert to uppercase
-                            rowObj[headerKey] = (alt || src || '').toUpperCase();
+                            
+                            let federationCode = '';
+                            if (alt && alt.trim() !== '') {
+                                // Use alt attribute if available
+                                federationCode = alt.toUpperCase();
+                            } else if (src && src.trim() !== '') {
+                                // Extract federation code from src path (e.g., "FLAG/VIC.PNG" -> "VIC")
+                                if (src.includes('/')) {
+                                    const parts = src.split('/');
+                                    if (parts.length > 1) {
+                                        const fileName = parts[parts.length - 1]; // Get the last part (VIC.PNG)
+                                        federationCode = fileName.split('.')[0].toUpperCase(); // Remove extension and convert to uppercase (VIC)
+                                    } else {
+                                        federationCode = src.toUpperCase();
+                                    }
+                                } else {
+                                    federationCode = src.toUpperCase();
+                                }
+                            }
+                            
+                            rowObj[headerKey] = federationCode.toUpperCase();
                         } else {
                             // Regular cell content
-                            rowObj[headerKey] = $td.text().trim();
+                            const cellText = $td.text().trim();
+                            
+                            // Check if this looks like a federation code (2-3 letters) and convert to uppercase
+                            if (/^[A-Za-z]{2,3}$/.test(cellText)) {
+                                rowObj[headerKey] = cellText.toUpperCase();
+                            } else {
+                                rowObj[headerKey] = cellText;
+                            }
                         }
                     }
                 }

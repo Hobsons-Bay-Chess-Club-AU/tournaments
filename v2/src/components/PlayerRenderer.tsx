@@ -1,6 +1,6 @@
 import React from "react";
 import { renderFederation } from "@/utils/federationMapping";
-import { renderTitle } from "@/utils/titleMapping";
+import { renderTitle, getTitleInfo } from "@/utils/titleMapping";
 
 interface PlayerObject {
     id?: string | number;
@@ -65,10 +65,10 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
             }
         }
         
-        // Check if this looks like a federation code (2-3 letters, all caps) or flag path format
+        // Check if this looks like a federation code (2-3 letters, case insensitive) or flag path format
         const trimmedData = data.trim();
-        const isFederationCode = /^[A-Z]{2,3}$/.test(trimmedData) || 
-                                /^FLAG\/[A-Z]{2,3}\.(PNG|JPG|JPEG|GIF|SVG)$/i.test(trimmedData);
+        const isFederationCode = /^[A-Za-z]{2,3}$/.test(trimmedData) || 
+                                /^FLAG\/[A-Za-z]{2,3}\.(PNG|JPG|JPEG|GIF|SVG)$/i.test(trimmedData);
         
         if (isFederationCode) {
             return (
@@ -150,37 +150,42 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
                 tournamentUrl = `${tournamentPath}?${params.toString()}`;
             }
 
+            // Render title badge if available
+            const titleBadge = title ? renderTitle(title) : null;
+            
             return (
                 <div className={`player-info ${className}`}>
-                    {href ? (
-                        <a 
-                            href={tournamentUrl} 
-                            className={`${genderStyles.linkColor} hover:underline font-medium`}
-                            onClick={(e) => {
-                                // Prevent default and use our navigation instead
-                                e.preventDefault();
-                                if (onPlayerClick && playerId && String(playerId).trim() !== '') {
-                                    onPlayerClick(playerId);
-                                }
-                            }}
-                        >
-                            {playerName}
-                        </a>
-                    ) : playerId && String(playerId).trim() !== '' && onPlayerClick ? (
-                        <button
-                            onClick={handlePlayerClick}
-                            className={`${genderStyles.linkColor} hover:underline font-medium cursor-pointer bg-transparent border-none p-0 text-left`}
-                        >
-                            {playerName}
-                        </button>
-                    ) : (
-                        <span className={`font-medium ${genderStyles.nameColor}`}>{playerName}</span>
-                    )}
+                    <div className="flex items-center gap-2">
+                        {titleBadge}
+                        {href ? (
+                            <a 
+                                href={tournamentUrl} 
+                                className={`${genderStyles.linkColor} hover:underline font-medium`}
+                                onClick={(e) => {
+                                    // Prevent default and use our navigation instead
+                                    e.preventDefault();
+                                    if (onPlayerClick && playerId && String(playerId).trim() !== '') {
+                                        onPlayerClick(playerId);
+                                    }
+                                }}
+                            >
+                                {playerName}
+                            </a>
+                        ) : playerId && String(playerId).trim() !== '' && onPlayerClick ? (
+                            <button
+                                onClick={handlePlayerClick}
+                                className={`${genderStyles.linkColor} hover:underline font-medium cursor-pointer bg-transparent border-none p-0 text-left`}
+                            >
+                                {playerName}
+                            </button>
+                        ) : (
+                            <span className={`font-medium ${genderStyles.nameColor}`}>{playerName}</span>
+                        )}
+                    </div>
                     
                     {/* Display additional info in a subtle way */}
                     <div className="text-xs text-gray-500 mt-1 flex items-center gap-2 flex-wrap">
                         {playerId && String(playerId).trim() !== '' && <span className="bg-gray-100 px-2 py-0.5 rounded-full">ID: {playerId}</span>}
-                        {title && <span className="font-semibold text-blue-600 bg-blue-50 px-2 py-0.5 rounded-full">{title}</span>}
                         {rating && <span className="bg-green-50 text-green-700 px-2 py-0.5 rounded-full">({rating})</span>}
                         {fideId && (
                             <a 
