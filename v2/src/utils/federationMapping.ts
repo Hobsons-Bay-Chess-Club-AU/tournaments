@@ -156,8 +156,19 @@ export const federationToCountry: Record<string, string> = {
 export function getCountryCode(federation: string): string {
   if (!federation) return '';
   
-  const upperFederation = federation.toUpperCase();
-  return federationToCountry[upperFederation] || federation.toLowerCase();
+  // Handle edge case where federation comes as "FLAG/VIC.PNG" format
+  let cleanFederation = federation;
+  if (federation.includes('/')) {
+    // Extract the federation code from path like "FLAG/VIC.PNG"
+    const parts = federation.split('/');
+    if (parts.length > 1) {
+      const fileName = parts[parts.length - 1]; // Get the last part (VIC.PNG)
+      cleanFederation = fileName.split('.')[0]; // Remove extension (VIC)
+    }
+  }
+  
+  const upperFederation = cleanFederation.toUpperCase();
+  return federationToCountry[upperFederation] || cleanFederation.toLowerCase();
 }
 
 /**
@@ -166,8 +177,19 @@ export function getCountryCode(federation: string): string {
  * @returns The flag image URL or null if not found
  */
 export function getFlagUrl(federation: string): string | null {
-  const countryCode = getCountryCode(federation);
-  if (!countryCode || countryCode === federation.toLowerCase()) {
+  // Handle edge case where federation comes as "FLAG/VIC.PNG" format
+  let cleanFederation = federation;
+  if (federation.includes('/')) {
+    // Extract the federation code from path like "FLAG/VIC.PNG"
+    const parts = federation.split('/');
+    if (parts.length > 1) {
+      const fileName = parts[parts.length - 1]; // Get the last part (VIC.PNG)
+      cleanFederation = fileName.split('.')[0]; // Remove extension (VIC)
+    }
+  }
+  
+  const countryCode = getCountryCode(cleanFederation);
+  if (!countryCode || countryCode === cleanFederation.toLowerCase()) {
     return null; // No mapping found, return null to show text instead
   }
   
