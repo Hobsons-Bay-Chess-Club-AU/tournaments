@@ -40,43 +40,43 @@
   <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players</h3><div class="table-responsive"><table class="table table-striped" id="players-table"> 
 <thead><tr><th>#</th><th>Title</th><th> &#8597; Player</th><th>Fed</th><th data-tsorter="numeric"> &#8597; Rtg</th><th data-tsorter="numeric"> &#8597; RtgF</th><th data-tsorter="numeric"> &#8597; RtgN</th></tr></thead><tbody>
 <tr> 
-<td><span class="idn"> 1</span></td><td><span class="notitle male"> </span></td><td> Tadakamadla,Ahaan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1509</td><td>1509</td><td>0</td> </tr>
+<td><span class="idn"> 1</span></td><td><span class="notitle male"> </span></td><td> Tadakamadla,Ahaan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1520</td><td>1520</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 2</span></td><td><span class="notitle male"> </span></td><td> Parker,Lucas </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1442</td><td>1633</td><td>1442</td> </tr>
+<td><span class="idn"> 2</span></td><td><span class="notitle male"> </span></td><td> Parker,Lucas </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1442</td><td>1638</td><td>1442</td> </tr>
 <tr> 
-<td><span class="idn"> 3</span></td><td><span class="notitle male"> </span></td><td> Batyrbekov,Kaisar </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1279</td><td>0</td><td>1279</td> </tr>
+<td><span class="idn"> 3</span></td><td><span class="notitle female"> </span></td><td> Bhatia, Sannah </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1414</td><td>1414</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 4</span></td><td><span class="notitle male"> </span></td><td> Batyrbekov,Aidan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>954</td><td>0</td><td>954</td> </tr>
+<td><span class="idn"> 4</span></td><td><span class="notitle male"> </span></td><td> Batyrbekov,Kaisar </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1279</td><td>1612</td><td>1279</td> </tr>
 <tr> 
-<td><span class="idn"> 5</span></td><td><span class="notitle male"> </span></td><td> Arora,Daanish </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>948</td><td>1402</td><td>948</td> </tr>
+<td><span class="idn"> 5</span></td><td><span class="notitle male"> </span></td><td> Batyrbekov,Aidan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>954</td><td>1434</td><td>954</td> </tr>
 <tr> 
-<td><span class="idn"> 6</span></td><td><span class="notitle male"> </span></td><td> Ahmad,Ihtiram </td><td ><img class="shadow" src="flag/ban.png" alt="BAN"></td><td>889</td><td>1554</td><td>889</td> </tr>
+<td><span class="idn"> 6</span></td><td><span class="notitle male"> </span></td><td> Arora,Daanish </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>948</td><td>1402</td><td>948</td> </tr>
 <tr> 
-<td><span class="idn"> 7</span></td><td><span class="notitle male"> </span></td><td> Ngo,William </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>863</td><td>1454</td><td>863</td> </tr>
+<td><span class="idn"> 7</span></td><td><span class="notitle male"> </span></td><td> Ahmad,Ihtiram </td><td ><img class="shadow" src="flag/ban.png" alt="BAN"></td><td>889</td><td>1568</td><td>889</td> </tr>
 <tr> 
-<td><span class="idn"> 8</span></td><td><span class="notitle male"> </span></td><td> Balaji,Sai Sivesh </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>710</td><td>1491</td><td>710</td> </tr>
+<td><span class="idn"> 8</span></td><td><span class="notitle male"> </span></td><td> Ngo,William </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>863</td><td>1454</td><td>863</td> </tr>
 <tr> 
-<td><span class="idn"> 9</span></td><td><span class="notitle male"> </span></td><td> Shaiek,Nihal </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>582</td><td>1442</td><td>582</td> </tr>
+<td><span class="idn"> 9</span></td><td><span class="notitle male"> </span></td><td> Balaji,Sai Sivesh </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>710</td><td>1491</td><td>710</td> </tr>
 <tr> 
-<td><span class="idn"> 10</span></td><td><span class="notitle male"> </span></td><td> Shinde,Yug </td><td ><img class="shadow" src="flag/ind.png" alt="IND"></td><td>565</td><td>1438</td><td>565</td> </tr>
+<td><span class="idn"> 10</span></td><td><span class="notitle male"> </span></td><td> Shaiek,Nihal </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>582</td><td>1442</td><td>582</td> </tr>
 <tr> 
-<td><span class="idn"> 11</span></td><td><span class="notitle male"> </span></td><td> Goh,Nicholas </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>564</td><td>1413</td><td>564</td> </tr>
+<td><span class="idn"> 11</span></td><td><span class="notitle male"> </span></td><td> Shinde,Yug </td><td ><img class="shadow" src="flag/ind.png" alt="IND"></td><td>565</td><td>1438</td><td>565</td> </tr>
 <tr> 
-<td><span class="idn"> 12</span></td><td><span class="notitle male"> </span></td><td> Bo,Jeremie </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>429</td><td>0</td><td>429</td> </tr>
+<td><span class="idn"> 12</span></td><td><span class="notitle male"> </span></td><td> Goh,Nicholas </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>564</td><td>1413</td><td>564</td> </tr>
 <tr> 
-<td><span class="idn"> 13</span></td><td><span class="notitle male"> </span></td><td> Balamurugan,Soorya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>411</td><td>0</td><td>411</td> </tr>
+<td><span class="idn"> 13</span></td><td><span class="notitle male"> </span></td><td> Bo,Jeremie </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>429</td><td>0</td><td>429</td> </tr>
 <tr> 
-<td><span class="idn"> 14</span></td><td><span class="notitle male"> </span></td><td> Gajula,Karan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>377</td><td>0</td><td>377</td> </tr>
+<td><span class="idn"> 14</span></td><td><span class="notitle male"> </span></td><td> Balamurugan,Soorya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>411</td><td>0</td><td>411</td> </tr>
 <tr> 
-<td><span class="idn"> 15</span></td><td><span class="notitle female"> </span></td><td> Bo,Jamie </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>371</td><td>0</td><td>371</td> </tr>
+<td><span class="idn"> 15</span></td><td><span class="notitle male"> </span></td><td> Gajula,Karan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>377</td><td>0</td><td>377</td> </tr>
 <tr> 
-<td><span class="idn"> 16</span></td><td><span class="notitle male"> </span></td><td> Goh,Julian </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>239</td><td>0</td><td>239</td> </tr>
+<td><span class="idn"> 16</span></td><td><span class="notitle female"> </span></td><td> Bo,Jamie </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>371</td><td>0</td><td>371</td> </tr>
 <tr> 
-<td><span class="idn"> 17</span></td><td><span class="notitle female"> </span></td><td> Goh,Daphne </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>100</td><td>0</td><td>100</td> </tr>
+<td><span class="idn"> 17</span></td><td><span class="notitle male"> </span></td><td> Goh,Julian </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>239</td><td>0</td><td>239</td> </tr>
 <tr> 
-<td><span class="idn"> 18</span></td><td><span class="notitle male"> </span></td><td> Barar,Ridam </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 18</span></td><td><span class="notitle female"> </span></td><td> Goh,Daphne </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>100</td><td>0</td><td>100</td> </tr>
 <tr> 
-<td><span class="idn"> 19</span></td><td><span class="notitle female"> </span></td><td> Bhatia,Sannah </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 19</span></td><td><span class="notitle male"> </span></td><td> Barar,Ridam </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 20</span></td><td><span class="notitle male"> </span></td><td> Gajula,Nishitha </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
@@ -98,7 +98,7 @@
 <tr> 
 <td><span class="idn"> 29</span></td><td><span class="notitle male"> </span></td><td> Spriggs,Harvey </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 30</span></td><td><span class="notitle male"> </span></td><td> Vignesh,Prajeeth </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 30</span></td><td><span class="notitle male"> </span></td><td> Vignesh, Prajeeth Balaji </td><td ><img class="shadow" src="flag/nzl.png" alt="NZL"></td><td>0</td><td>0</td><td>0</td> </tr>
 </tbody>
 <tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</td></tr></tfoot></table></div>
   <script type="text/javascript"> function init(){tsorter.create('players-table');} window.onload = init;</script>
