@@ -16,9 +16,33 @@ async function extractMetadataFromTourstat(tourstatPath) {
 import fs from 'fs/promises';
 import path from 'path';
 import cheerio from 'cheerio';
+import crypto from 'crypto';
 import { IsSeniorPlayer } from './ref.mjs';
 
 const WWW_FOLDER = path.join(process.cwd(), 'www');
+
+// Function to calculate MD5 hash of data object excluding generatedAt and md5Hash fields
+function calculateDataHash(data) {
+    // Create a deep copy and remove the fields we want to exclude
+    const dataCopy = JSON.parse(JSON.stringify(data));
+    delete dataCopy.generatedAt;
+    delete dataCopy.md5Hash;
+    
+    // Convert to string and calculate hash
+    const dataString = JSON.stringify(dataCopy, Object.keys(dataCopy).sort());
+    return crypto.createHash('md5').update(dataString).digest('hex');
+}
+
+// Function to read existing file and get its hash
+async function getExistingHash(filePath) {
+    try {
+        const existingData = await fs.readFile(filePath, 'utf8');
+        const parsed = JSON.parse(existingData);
+        return parsed.md5Hash || null;
+    } catch (error) {
+        return null; // File doesn't exist or can't be parsed
+    }
+}
 
 async function getHtmlFiles(dir) {
     const files = await fs.readdir(dir);
@@ -719,6 +743,139 @@ function enrichTablesWithPlayerData(pageData, playerLookup) {
     return enrichedPageData;
 }
 
+// Function to transform data to normalized structure
+function transformToNormalizedData(pageData, playerLookup, metadata, menu, category) {
+    // Create normalized player array
+    const players = Array.from(playerLookup.values()).map(player => ({
+        id: player.id,
+        name: player.playerName,
+        title: player.title || '',
+        federation: player.federation || '',
+        fideId: player.fideId || '',
+        fideRating: player.moreInfo?.fideRating ? parseInt(player.moreInfo.fideRating) : null,
+        fideFederation: player.moreInfo?.fideFederation || '',
+        gender: player.gender || 'notitle',
+        href: player.href || `playercard.html#${player.id}`,
+        origin: player.moreInfo?.origin || ''
+    }));
+
+    // Create player lookup map for quick access
+    const playerMap = new Map();
+    players.forEach(player => {
+        playerMap.set(player.id, player);
+    });
+
+    // Transform tables
+    const transformedPages = {};
+    
+    Object.keys(pageData).forEach(fileName => {
+        const page = pageData[fileName];
+        const transformedTables = page.tables?.map(table => {
+            if (!table.rows) return table;
+
+            // Determine table type
+            const tableType = determineTableType(table, fileName);
+            
+            const transformedRows = table.rows.map(row => {
+                const transformedRow = { ...row };
+                
+                // Transform player references to IDs
+                Object.keys(row).forEach(key => {
+                    const value = row[key];
+                    
+                    // Check if this is a player object
+                    if (typeof value === 'object' && value !== null && value.playerName && value.id) {
+                        // Replace player object with just the ID reference
+                        transformedRow[key] = value.id;
+                    }
+                });
+                
+                return transformedRow;
+            });
+
+            return {
+                ...table,
+                type: tableType,
+                rows: transformedRows
+            };
+        });
+
+        transformedPages[fileName] = {
+            ...page,
+            tables: transformedTables
+        };
+    });
+
+    // Create normalized tournament structure
+    const normalizedData = {
+        generatedAt: new Date().toISOString(),
+        tournament: {
+            id: metadata['Tournament Name']?.replace(/\s+/g, '-').toLowerCase() || 'unknown',
+            name: metadata['Tournament Name'] || 'Unknown Tournament',
+            category: category,
+            metadata: {
+                ...metadata,
+                // Normalize metadata keys to camelCase
+                tournamentName: metadata['Tournament Name'],
+                federation: metadata['Federation'],
+                dateBegin: metadata['Date Begin'],
+                dateEnd: metadata['Date End'],
+                arbiters: metadata['Arbiter(s)'],
+                playSystem: metadata['Play System'],
+                rounds: metadata['Rounds'] ? parseInt(metadata['Rounds']) : 0,
+                scoreGame: metadata['Score game'],
+                tieBreak: metadata['Tie break'],
+                registeredPlayers: metadata['Registered Players'] ? parseInt(metadata['Registered Players']) : 0,
+                averageRating: metadata['Average Rating (all)'] ? parseInt(metadata['Average Rating (all)']) : 0,
+                averageRatingFide: metadata['Average Rating (only FIDE rated)'] ? parseInt(metadata['Average Rating (only FIDE rated)']) : 0,
+                fideRatedPlayers: metadata['FIDE rated players'] ? parseInt(metadata['FIDE rated players']) : 0,
+                unratedPlayers: metadata['unrated players'] ? parseInt(metadata['unrated players']) : 0,
+                fideTitledPlayers: metadata['FIDE titled players'] ? parseInt(metadata['FIDE titled players']) : 0
+            }
+        },
+        players: players,
+        pages: transformedPages,
+        menu: menu
+    };
+
+    return normalizedData;
+}
+
+// Function to determine table type
+function determineTableType(table, fileName) {
+    const headers = table.headers?.map(h => typeof h === 'string' ? h : h.name) || [];
+    const headerKeys = headers.map(h => h.toLowerCase());
+    
+    // Check for pairing table indicators
+    const hasWhite = headerKeys.some(key => 
+        key.includes('white') || key === 'white' || key === 'w'
+    );
+    const hasBlack = headerKeys.some(key => 
+        key.includes('black') || key === 'black' || key === 'b'
+    );
+    
+    if (hasWhite && hasBlack) {
+        return 'pairing';
+    }
+    
+    // Check for standings table indicators
+    if (headerKeys.includes('player') && headerKeys.includes('pts')) {
+        return 'standings';
+    }
+    
+    // Check for crosstable indicators
+    if (fileName.includes('crosstable') || headerKeys.some(key => key.match(/^\d+$/))) {
+        return 'crosstable';
+    }
+    
+    // Check for statistics indicators
+    if (headerKeys.includes('statistics') || fileName.includes('stat')) {
+        return 'statistics';
+    }
+    
+    return 'other';
+}
+
 async function processFolder(folderName) {
     const TARGET_PATH = path.join(WWW_FOLDER, folderName);
     const OUTPUT_FILE = path.join(TARGET_PATH, 'data.json');
@@ -746,15 +903,18 @@ async function processFolder(folderName) {
     
     // Store the player lookup for reference
     result.playerLookup = Object.fromEntries(playerLookup);
+    
     // Extract menu structure from index.html
     const indexHtmlPath = path.join(TARGET_PATH, 'index.html');
+    let menu = [];
     try {
-        const menu = await extractMenuStructure(indexHtmlPath);
+        menu = await extractMenuStructure(indexHtmlPath);
         result['menu'] = menu;
         console.log(`[${folderName}] Menu structure extracted.`);
     } catch (err) {
         console.error(`[${folderName}] Error extracting menu:`, err);
     }
+    
     // Extract metadata from tourstat.html, fallback to index.html if not exist
     const tourstatPath = path.join(TARGET_PATH, 'tourstat.html');
     let metadata = {};
@@ -770,26 +930,57 @@ async function processFolder(folderName) {
             console.error(`[${folderName}] Error extracting minimal metadata from index.html:`, err2);
         }
     }
+    
     // Categorize tournament as Senior or Junior
     let category = 'Junior';
-        const players =  result.page['index.html']?.tables?.[0]?.rows;
-        if(players) {
+    const players = result.page['index.html']?.tables?.[0]?.rows;
+    if(players) {
         for (const player of players) {
             if (IsSeniorPlayer(player.Player) || IsSeniorPlayer(player.Player?.playerName)) {
                 category = 'Senior';
                 break;
             }
-        }}
-        // If any player is senior, set category to Senior
-        result['players'] = players;
-   
+        }
+    }
+    
+    // If any player is senior, set category to Senior
+    result['players'] = players;
     result['category'] = category;
     if (metadata) metadata['category'] = category;
     result['metadata'] = metadata;
+    
     if(players) {
-        await fs.writeFile(OUTPUT_FILE, JSON.stringify(result, null, 2), 'utf-8');
-        console.log(`[${folderName}] Data written to ${OUTPUT_FILE}`);
-        return result
+        // Calculate MD5 hash for original data
+        const originalHash = calculateDataHash(result);
+        const existingOriginalHash = await getExistingHash(OUTPUT_FILE);
+        
+        // Only write if data has changed
+        if (originalHash !== existingOriginalHash) {
+            result.md5Hash = originalHash;
+            await fs.writeFile(OUTPUT_FILE, JSON.stringify(result, null, 2), 'utf-8');
+            console.log(`[${folderName}] Data written to ${OUTPUT_FILE} (hash: ${originalHash})`);
+        } else {
+            console.log(`[${folderName}] Original data unchanged, skipping write to ${OUTPUT_FILE}`);
+        }
+        
+        // Generate and write clean data
+        const cleanData = transformToNormalizedData(result.page, playerLookup, metadata, menu, category);
+        const CLEAN_OUTPUT_FILE = path.join(TARGET_PATH, 'data_clean.json');
+        
+        // Calculate MD5 hash for clean data
+        const cleanHash = calculateDataHash(cleanData);
+        const existingCleanHash = await getExistingHash(CLEAN_OUTPUT_FILE);
+        
+        // Only write if clean data has changed
+        if (cleanHash !== existingCleanHash) {
+            cleanData.md5Hash = cleanHash;
+            await fs.writeFile(CLEAN_OUTPUT_FILE, JSON.stringify(cleanData, null, 2), 'utf-8');
+            console.log(`[${folderName}] Clean data written to ${CLEAN_OUTPUT_FILE} (hash: ${cleanHash})`);
+        } else {
+            console.log(`[${folderName}] Clean data unchanged, skipping write to ${CLEAN_OUTPUT_FILE}`);
+        }
+        
+        return result;
     }
     return null;
 }

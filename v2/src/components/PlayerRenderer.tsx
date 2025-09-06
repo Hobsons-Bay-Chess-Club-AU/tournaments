@@ -22,12 +22,26 @@ interface CrosstableCell {
     blackOpponent?: string | null;
 }
 
+interface Player {
+    id: string;
+    name: string;
+    title: string;
+    federation: string;
+    fideId: string;
+    fideRating: number | null;
+    fideFederation: string;
+    gender: string;
+    href: string;
+    origin: string;
+}
+
 interface PlayerRendererProps {
     data: string | PlayerObject | CrosstableCell | unknown;
     className?: string;
     onPlayerClick?: (playerId: string | number, playerData?: PlayerObject) => void;
     tournamentPath?: string; // Add tournament path to generate correct URLs
     columnHeader?: string; // Add column header to determine rendering type
+    players?: Player[]; // Add centralized players array for lookup
 }
 
 // Helper function to get gender-based styling
@@ -50,8 +64,8 @@ const getGenderStyles = (gender: string) => {
     };
 };
 
-const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", onPlayerClick, tournamentPath, columnHeader }) => {
-    // If data is a string, check if it's a title or federation code
+const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", onPlayerClick, tournamentPath, columnHeader, players = [] }) => {
+    // If data is a string, check if it's a title, federation code, or player ID
     if (typeof data === 'string') {
         // Check if this is a Title column and render as badge
         if (columnHeader === 'Title') {
@@ -76,6 +90,73 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
                     {renderFederation(trimmedData)}
                 </span>
             );
+        }
+        
+        // Check if this is a player ID (numeric string) and we have players data
+        // Only do this for specific player columns
+        const isPlayerId = /^\d+$/.test(trimmedData);
+        const isPlayerColumn = columnHeader && (
+            columnHeader.toLowerCase().includes('player') || 
+            columnHeader.toLowerCase() === 'white' || 
+            columnHeader.toLowerCase() === 'black'
+        );
+        if (isPlayerId && players.length > 0 && isPlayerColumn) {
+            const player = players.find(p => p.id === trimmedData);
+            if (player) {
+                const handlePlayerClick = () => {
+                    if (onPlayerClick) {
+                        onPlayerClick(player.id, {
+                            id: player.id,
+                            playerName: player.name,
+                            gender: player.gender,
+                            href: player.href,
+                            rating: player.fideRating || undefined,
+                            title: player.title,
+                            moreInfo: {
+                                FIDE_ID: player.fideId
+                            }
+                        });
+                    }
+                };
+
+                const genderStyles = getGenderStyles(player.gender || '');
+                const titleBadge = player.title ? renderTitle(player.title) : null;
+                
+                return (
+                    <div className={`player-info ${className}`}>
+                        <div className="flex items-center gap-2">
+                            {titleBadge}
+                            {onPlayerClick ? (
+                                <button
+                                    onClick={handlePlayerClick}
+                                    className={`${genderStyles.linkColor} hover:underline font-medium cursor-pointer bg-transparent border-none p-0 text-left`}
+                                >
+                                    {player.name}
+                                </button>
+                            ) : (
+                                <span className={`font-medium ${genderStyles.nameColor}`}>{player.name}</span>
+                            )}
+                        </div>
+                        
+                        {/* Display additional info in a subtle way */}
+                        <div className="text-xs text-gray-500 mt-1 flex items-center gap-2 flex-wrap">
+                            {player.id && <span className="bg-gray-100 px-2 py-0.5 rounded-full">ID: {player.id}</span>}
+                            {player.fideRating && <span className="bg-green-50 text-green-700 px-2 py-0.5 rounded-full">({player.fideRating})</span>}
+                            {player.fideId && (
+                                <a 
+                                    href={`https://ratings.fide.com/profile/${player.fideId}`}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="bg-purple-50 text-purple-700 px-2 py-0.5 rounded-full hover:bg-purple-100 hover:text-purple-800 transition-colors"
+                                    onClick={(e) => e.stopPropagation()}
+                                >
+                                    FIDE: {player.fideId}
+                                </a>
+                            )}
+                        </div>
+                    </div>
+                );
+            }
         }
         
         // Check if this is a "Pts" or "Result" column and render as bold

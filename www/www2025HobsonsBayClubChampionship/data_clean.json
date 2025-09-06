@@ -1,0 +1,187 @@
+{
+  "generatedAt": "2025-09-06T10:23:47.619Z",
+  "tournament": {
+    "id": "2025-hobsons-bay-club-championship",
+    "name": "2025 Hobsons Bay Club Championship",
+    "category": "Senior",
+    "metadata": {
+      "Tournament Name": "2025 Hobsons Bay Club Championship",
+      "category": "Senior",
+      "tournamentName": "2025 Hobsons Bay Club Championship",
+      "rounds": 0,
+      "registeredPlayers": 0,
+      "averageRating": 0,
+      "averageRatingFide": 0,
+      "fideRatedPlayers": 0,
+      "unratedPlayers": 0,
+      "fideTitledPlayers": 0
+    }
+  },
+  "players": [
+    {
+      "id": "1",
+      "name": "Hogan,Steven",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "http://ratings.fide.com/card.phtml?event=3201414",
+      "origin": ""
+    }
+  ],
+  "pages": {
+    "index.html": {
+      "pageHeading": "Registered players sorted by rating and title",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "RtgF",
+              "key": "RtgF"
+            },
+            {
+              "name": "RtgN",
+              "key": "RtgN"
+            }
+          ],
+          "rows": [
+            {
+              "#": "1",
+              "Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3201414",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1515",
+              "RtgF": "0",
+              "RtgN": "1515"
+            }
+          ],
+          "footer": {
+            "text": "Rating legend: Rtg: Rating used for pairing and standings - RtgF: Fide Rating - RtgN: National Rating",
+            "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
+          },
+          "type": "other"
+        }
+      ]
+    },
+    "playersname.html": {
+      "pageHeading": "Registered players sorted by name",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "RtgF",
+              "key": "RtgF"
+            },
+            {
+              "name": "RtgN",
+              "key": "RtgN"
+            }
+          ],
+          "rows": [
+            {
+              "#": "1",
+              "Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3201414",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1515",
+              "RtgF": "0",
+              "RtgN": "1515"
+            }
+          ],
+          "footer": {
+            "text": "Rating legend: Rtg: Rating used for pairing and standings - RtgF: Fide Rating - RtgN: National Rating",
+            "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
+          },
+          "type": "other"
+        }
+      ]
+    }
+  },
+  "menu": [
+    {
+      "text": "Info",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Schedule",
+          "href": "schedule.html"
+        },
+        {
+          "text": "Statistics",
+          "href": "tourstat.html"
+        }
+      ]
+    },
+    {
+      "text": "Players",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Sorted by Rating",
+          "href": "index.html"
+        },
+        {
+          "text": "Sorted by Name",
+          "href": "playersname.html"
+        }
+      ]
+    }
+  ],
+  "md5Hash": "e256e63231284ddbfd920b8ea38c2f02"
+}

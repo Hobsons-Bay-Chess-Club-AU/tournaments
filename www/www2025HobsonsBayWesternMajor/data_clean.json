@@ -1,0 +1,3216 @@
+{
+  "generatedAt": "2025-09-06T10:23:49.396Z",
+  "tournament": {
+    "id": "2025-hobsons-bay-western-major",
+    "name": "2025 Hobsons Bay Western Major",
+    "category": "Senior",
+    "metadata": {
+      "Tournament Name": "2025 Hobsons Bay Western Major",
+      "Place": "Hobsons Bay",
+      "Federation": "AUS",
+      "Date Begin": "29/04/2025",
+      "Date End": "03/06/2025",
+      "Arbiter(s)": "NA Dwyer, Lachlan (AUS) 3254119 (VIC)",
+      "Play System": "Single Round Robin",
+      "Rounds": "5",
+      "Score game": "0-0.5-1",
+      "Tie break": "SB ARO",
+      "Registered Players": "6",
+      "Number of Federations": "2",
+      "Average Rating (all)": "1710",
+      "Average Rating (only FIDE rated)": "1710",
+      "Players from AUS Federation": "0",
+      "Players NOT from AUS Federation": "6",
+      "FIDE rated players": "6",
+      "unrated players": "0",
+      "unrated players from AUS Federation": "0",
+      "unrated players NOT from AUS Federation": "0",
+      "unrated Federations": "0",
+      "FIDE titled players": "1",
+      "GM players": "0",
+      "WGM players": "0",
+      "IM players": "0",
+      "WIM players": "1",
+      "FM players": "0",
+      "WFM players": "0",
+      "CM players": "0",
+      "WCM players": "0",
+      "FIDE titled player from AUS Federation": "0",
+      "FIDE titled player NOT from AUS Federation": "1",
+      "category": "Senior",
+      "tournamentName": "2025 Hobsons Bay Western Major",
+      "federation": "AUS",
+      "dateBegin": "29/04/2025",
+      "dateEnd": "03/06/2025",
+      "arbiters": "NA Dwyer, Lachlan (AUS) 3254119 (VIC)",
+      "playSystem": "Single Round Robin",
+      "rounds": 5,
+      "scoreGame": "0-0.5-1",
+      "tieBreak": "SB ARO",
+      "registeredPlayers": 6,
+      "averageRating": 1710,
+      "averageRatingFide": 1710,
+      "fideRatedPlayers": 6,
+      "unratedPlayers": 0,
+      "fideTitledPlayers": 1
+    }
+  },
+  "players": [
+    {
+      "id": "5",
+      "name": "Enano,Ronald",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "3227480",
+      "fideRating": 1753,
+      "fideFederation": "VIC",
+      "gender": "male",
+      "href": "playercard.html#5",
+      "origin": ""
+    },
+    {
+      "id": "1",
+      "name": "Szuveges,Narelle S",
+      "title": "WIM",
+      "federation": "VIC",
+      "fideId": "3202640",
+      "fideRating": 1701,
+      "fideFederation": "VIC",
+      "gender": "female",
+      "href": "playercard.html#1",
+      "origin": ""
+    },
+    {
+      "id": "2",
+      "name": "Pasukov,Leo",
+      "title": "",
+      "federation": "QLD",
+      "fideId": "3242900",
+      "fideRating": 1709,
+      "fideFederation": "QLD",
+      "gender": "male",
+      "href": "playercard.html#2",
+      "origin": ""
+    },
+    {
+      "id": "6",
+      "name": "Hari,Dhruv",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "3255360",
+      "fideRating": 1720,
+      "fideFederation": "VIC",
+      "gender": "male",
+      "href": "playercard.html#6",
+      "origin": ""
+    },
+    {
+      "id": "3",
+      "name": "McIntyre,Julian",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "3232182",
+      "fideRating": 1705,
+      "fideFederation": "VIC",
+      "gender": "male",
+      "href": "playercard.html#3",
+      "origin": ""
+    },
+    {
+      "id": "4",
+      "name": "Hogan,Steven",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "3201414",
+      "fideRating": 1669,
+      "fideFederation": "VIC",
+      "gender": "male",
+      "href": "playercard.html#4",
+      "origin": ""
+    }
+  ],
+  "pages": {
+    "felovar.html": {
+      "pageHeading": "FIDE rating variation at round 5",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "Ng",
+              "key": "Ng"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "ARO",
+              "key": "ARO"
+            },
+            {
+              "name": "var",
+              "key": "var"
+            },
+            {
+              "name": "Rp",
+              "key": "Rp"
+            }
+          ],
+          "rows": [
+            {
+              "#": "1",
+              "Player": {
+                "id": "",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "http://ratings.fide.com/card.phtml?event=3202640",
+                "title": "WIM"
+              },
+              "FIDE ID": "3202640",
+              "Fed": "VIC",
+              "Rtg": "1701",
+              "Ng": "5",
+              "Pts": "2.5",
+              "ARO": "1711",
+              "var": "2",
+              "Rp": "1711"
+            },
+            {
+              "#": "2",
+              "Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3242900",
+                "title": ""
+              },
+              "FIDE ID": "3242900",
+              "Fed": "QLD",
+              "Rtg": "1709",
+              "Ng": "5",
+              "Pts": "2.5",
+              "ARO": "1710",
+              "var": "0",
+              "Rp": "1710"
+            },
+            {
+              "#": "3",
+              "Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3232182",
+                "title": ""
+              },
+              "FIDE ID": "3232182",
+              "Fed": "VIC",
+              "Rtg": "1705",
+              "Ng": "5",
+              "Pts": "3.0",
+              "ARO": "1710",
+              "var": "11",
+              "Rp": "1782"
+            },
+            {
+              "#": "4",
+              "Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3201414",
+                "title": ""
+              },
+              "FIDE ID": "3201414",
+              "Fed": "VIC",
+              "Rtg": "1669",
+              "Ng": "5",
+              "Pts": "1.0",
+              "ARO": "1718",
+              "var": "-23",
+              "Rp": "1478"
+            },
+            {
+              "#": "5",
+              "Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3227480",
+                "title": ""
+              },
+              "FIDE ID": "3227480",
+              "Fed": "VIC",
+              "Rtg": "1753",
+              "Ng": "5",
+              "Pts": "3.0",
+              "ARO": "1701",
+              "var": "3",
+              "Rp": "1773"
+            },
+            {
+              "#": "6",
+              "Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3255360",
+                "title": ""
+              },
+              "FIDE ID": "3255360",
+              "Fed": "VIC",
+              "Rtg": "1720",
+              "Ng": "5",
+              "Pts": "3.0",
+              "ARO": "1707",
+              "var": "16",
+              "Rp": "1779"
+            }
+          ],
+          "type": "standings"
+        }
+      ]
+    },
+    "fideplayercard.html": {
+      "pageHeading": "FIDE History Cards",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
+          ],
+          "rows": [
+            {
+              "Rnd": "1",
+              "Col": "W",
+              "N opp": "6",
+              "Opponent Name": "Hari,Dhruv",
+              "FIDE ID": "3255360",
+              "Fed": "VIC",
+              "Rtg": "1720",
+              "res": "0"
+            },
+            {
+              "Rnd": "2",
+              "Col": "W",
+              "N opp": "2",
+              "Opponent Name": "Pasukov,Leo",
+              "FIDE ID": "3242900",
+              "Fed": "QLD",
+              "Rtg": "1709",
+              "res": "1"
+            },
+            {
+              "Rnd": "3",
+              "Col": "B",
+              "N opp": "3",
+              "Opponent Name": "McIntyre,Julian",
+              "FIDE ID": "3232182",
+              "Fed": "VIC",
+              "Rtg": "1705",
+              "res": "0.5"
+            },
+            {
+              "Rnd": "4",
+              "Col": "W",
+              "N opp": "4",
+              "Opponent Name": "Hogan,Steven",
+              "FIDE ID": "3201414",
+              "Fed": "VIC",
+              "Rtg": "1669",
+              "res": "1"
+            },
+            {
+              "Rnd": "5",
+              "Col": "B",
+              "N opp": "5",
+              "Opponent Name": "Enano,Ronald",
+              "FIDE ID": "3227480",
+              "Fed": "VIC",
+              "Rtg": "1753",
+              "res": "0"
+            }
+          ],
+          "caption": {
+            "playerName": "Szuveges,Narelle S",
+            "id": "",
+            "moreInfo": {
+              "FIDE_ID": "3202640",
+              "N": "1",
+              "anchor": "1"
+            },
+            "rawText": "N = 1 Szuveges,Narelle S",
+            "rawHtml": " <a class=\"anchor\" name=\"1\"></a> N = 1<a href=\"http://ratings.fide.com/card.phtml?event=3202640\" target=\"X\"> Szuveges,Narelle S </a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
+          ],
+          "rows": [
+            {
+              "Rnd": "1",
+              "Col": "W",
+              "N opp": "5",
+              "Opponent Name": "Enano,Ronald",
+              "FIDE ID": "3227480",
+              "Fed": "VIC",
+              "Rtg": "1753",
+              "res": "0.5"
+            },
+            {
+              "Rnd": "2",
+              "Col": "B",
+              "N opp": "1",
+              "Opponent Name": "WIM Szuveges,Narelle S",
+              "FIDE ID": "3202640",
+              "Fed": "VIC",
+              "Rtg": "1701",
+              "res": "0"
+            },
+            {
+              "Rnd": "3",
+              "Col": "W",
+              "N opp": "6",
+              "Opponent Name": "Hari,Dhruv",
+              "FIDE ID": "3255360",
+              "Fed": "VIC",
+              "Rtg": "1720",
+              "res": "1"
+            },
+            {
+              "Rnd": "4",
+              "Col": "W",
+              "N opp": "3",
+              "Opponent Name": "McIntyre,Julian",
+              "FIDE ID": "3232182",
+              "Fed": "VIC",
+              "Rtg": "1705",
+              "res": "0.5"
+            },
+            {
+              "Rnd": "5",
+              "Col": "B",
+              "N opp": "4",
+              "Opponent Name": "Hogan,Steven",
+              "FIDE ID": "3201414",
+              "Fed": "VIC",
+              "Rtg": "1669",
+              "res": "0.5"
+            }
+          ],
+          "caption": {
+            "playerName": "Pasukov,Leo",
+            "id": "",
+            "moreInfo": {
+              "FIDE_ID": "3242900",
+              "N": "2",
+              "anchor": "2"
+            },
+            "rawText": "N = 2 Pasukov,Leo",
+            "rawHtml": " <a class=\"anchor\" name=\"2\"></a> N = 2<a href=\"http://ratings.fide.com/card.phtml?event=3242900\" target=\"X\"> Pasukov,Leo </a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
+          ],
+          "rows": [
+            {
+              "Rnd": "1",
+              "Col": "W",
+              "N opp": "4",
+              "Opponent Name": "Hogan,Steven",
+              "FIDE ID": "3201414",
+              "Fed": "VIC",
+              "Rtg": "1669",
+              "res": "1"
+            },
+            {
+              "Rnd": "2",
+              "Col": "B",
+              "N opp": "5",
+              "Opponent Name": "Enano,Ronald",
+              "FIDE ID": "3227480",
+              "Fed": "VIC",
+              "Rtg": "1753",
+              "res": "1"
+            },
+            {
+              "Rnd": "3",
+              "Col": "W",
+              "N opp": "1",
+              "Opponent Name": "WIM Szuveges,Narelle S",
+              "FIDE ID": "3202640",
+              "Fed": "VIC",
+              "Rtg": "1701",
+              "res": "0.5"
+            },
+            {
+              "Rnd": "4",
+              "Col": "B",
+              "N opp": "2",
+              "Opponent Name": "Pasukov,Leo",
+              "FIDE ID": "3242900",
+              "Fed": "QLD",
+              "Rtg": "1709",
+              "res": "0.5"
+            },
+            {
+              "Rnd": "5",
+              "Col": "W",
+              "N opp": "6",
+              "Opponent Name": "Hari,Dhruv",
+              "FIDE ID": "3255360",
+              "Fed": "VIC",
+              "Rtg": "1720",
+              "res": "0"
+            }
+          ],
+          "caption": {
+            "playerName": "McIntyre,Julian",
+            "id": "",
+            "moreInfo": {
+              "FIDE_ID": "3232182",
+              "N": "3",
+              "anchor": "3"
+            },
+            "rawText": "N = 3 McIntyre,Julian",
+            "rawHtml": " <a class=\"anchor\" name=\"3\"></a> N = 3<a href=\"http://ratings.fide.com/card.phtml?event=3232182\" target=\"X\"> McIntyre,Julian </a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
+          ],
+          "rows": [
+            {
+              "Rnd": "1",
+              "Col": "B",
+              "N opp": "3",
+              "Opponent Name": "McIntyre,Julian",
+              "FIDE ID": "3232182",
+              "Fed": "VIC",
+              "Rtg": "1705",
+              "res": "0"
+            },
+            {
+              "Rnd": "2",
+              "Col": "B",
+              "N opp": "6",
+              "Opponent Name": "Hari,Dhruv",
+              "FIDE ID": "3255360",
+              "Fed": "VIC",
+              "Rtg": "1720",
+              "res": "0"
+            },
+            {
+              "Rnd": "3",
+              "Col": "W",
+              "N opp": "5",
+              "Opponent Name": "Enano,Ronald",
+              "FIDE ID": "3227480",
+              "Fed": "VIC",
+              "Rtg": "1753",
+              "res": "0.5"
+            },
+            {
+              "Rnd": "4",
+              "Col": "B",
+              "N opp": "1",
+              "Opponent Name": "WIM Szuveges,Narelle S",
+              "FIDE ID": "3202640",
+              "Fed": "VIC",
+              "Rtg": "1701",
+              "res": "0"
+            },
+            {
+              "Rnd": "5",
+              "Col": "W",
+              "N opp": "2",
+              "Opponent Name": "Pasukov,Leo",
+              "FIDE ID": "3242900",
+              "Fed": "QLD",
+              "Rtg": "1709",
+              "res": "0.5"
+            }
+          ],
+          "caption": {
+            "playerName": "Hogan,Steven",
+            "id": "",
+            "moreInfo": {
+              "FIDE_ID": "3201414",
+              "N": "4",
+              "anchor": "4"
+            },
+            "rawText": "N = 4 Hogan,Steven",
+            "rawHtml": " <a class=\"anchor\" name=\"4\"></a> N = 4<a href=\"http://ratings.fide.com/card.phtml?event=3201414\" target=\"X\"> Hogan,Steven </a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
+          ],
+          "rows": [
+            {
+              "Rnd": "1",
+              "Col": "B",
+              "N opp": "2",
+              "Opponent Name": "Pasukov,Leo",
+              "FIDE ID": "3242900",
+              "Fed": "QLD",
+              "Rtg": "1709",
+              "res": "0.5"
+            },
+            {
+              "Rnd": "2",
+              "Col": "W",
+              "N opp": "3",
+              "Opponent Name": "McIntyre,Julian",
+              "FIDE ID": "3232182",
+              "Fed": "VIC",
+              "Rtg": "1705",
+              "res": "0"
+            },
+            {
+              "Rnd": "3",
+              "Col": "B",
+              "N opp": "4",
+              "Opponent Name": "Hogan,Steven",
+              "FIDE ID": "3201414",
+              "Fed": "VIC",
+              "Rtg": "1669",
+              "res": "0.5"
+            },
+            {
+              "Rnd": "4",
+              "Col": "B",
+              "N opp": "6",
+              "Opponent Name": "Hari,Dhruv",
+              "FIDE ID": "3255360",
+              "Fed": "VIC",
+              "Rtg": "1720",
+              "res": "1"
+            },
+            {
+              "Rnd": "5",
+              "Col": "W",
+              "N opp": "1",
+              "Opponent Name": "WIM Szuveges,Narelle S",
+              "FIDE ID": "3202640",
+              "Fed": "VIC",
+              "Rtg": "1701",
+              "res": "1"
+            }
+          ],
+          "caption": {
+            "playerName": "Enano,Ronald",
+            "id": "",
+            "moreInfo": {
+              "FIDE_ID": "3227480",
+              "N": "5",
+              "anchor": "5"
+            },
+            "rawText": "N = 5 Enano,Ronald",
+            "rawHtml": " <a class=\"anchor\" name=\"5\"></a> N = 5<a href=\"http://ratings.fide.com/card.phtml?event=3227480\" target=\"X\"> Enano,Ronald </a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
+          ],
+          "rows": [
+            {
+              "Rnd": "1",
+              "Col": "B",
+              "N opp": "1",
+              "Opponent Name": "WIM Szuveges,Narelle S",
+              "FIDE ID": "3202640",
+              "Fed": "VIC",
+              "Rtg": "1701",
+              "res": "1"
+            },
+            {
+              "Rnd": "2",
+              "Col": "W",
+              "N opp": "4",
+              "Opponent Name": "Hogan,Steven",
+              "FIDE ID": "3201414",
+              "Fed": "VIC",
+              "Rtg": "1669",
+              "res": "1"
+            },
+            {
+              "Rnd": "3",
+              "Col": "B",
+              "N opp": "2",
+              "Opponent Name": "Pasukov,Leo",
+              "FIDE ID": "3242900",
+              "Fed": "QLD",
+              "Rtg": "1709",
+              "res": "0"
+            },
+            {
+              "Rnd": "4",
+              "Col": "W",
+              "N opp": "5",
+              "Opponent Name": "Enano,Ronald",
+              "FIDE ID": "3227480",
+              "Fed": "VIC",
+              "Rtg": "1753",
+              "res": "0"
+            },
+            {
+              "Rnd": "5",
+              "Col": "B",
+              "N opp": "3",
+              "Opponent Name": "McIntyre,Julian",
+              "FIDE ID": "3232182",
+              "Fed": "VIC",
+              "Rtg": "1705",
+              "res": "1"
+            }
+          ],
+          "caption": {
+            "playerName": "Hari,Dhruv",
+            "id": "",
+            "moreInfo": {
+              "FIDE_ID": "3255360",
+              "N": "6",
+              "anchor": "6"
+            },
+            "rawText": "N = 6 Hari,Dhruv",
+            "rawHtml": " <a class=\"anchor\" name=\"6\"></a> N = 6<a href=\"http://ratings.fide.com/card.phtml?event=3255360\" target=\"X\"> Hari,Dhruv </a>"
+          },
+          "type": "other"
+        }
+      ]
+    },
+    "index.html": {
+      "pageHeading": "Registered players sorted by rating and title",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "RtgF",
+              "key": "RtgF"
+            },
+            {
+              "name": "RtgN",
+              "key": "RtgN"
+            }
+          ],
+          "rows": [
+            {
+              "#": "5",
+              "Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3227480",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1575",
+              "RtgF": "1753",
+              "RtgN": "1575"
+            },
+            {
+              "#": "1",
+              "Player": {
+                "id": "",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "http://ratings.fide.com/card.phtml?event=3202640",
+                "title": "WIM"
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1550",
+              "RtgF": "1701",
+              "RtgN": "1550"
+            },
+            {
+              "#": "2",
+              "Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3242900",
+                "title": ""
+              },
+              "Fed": "QLD",
+              "Origin": "",
+              "Rtg": "1536",
+              "RtgF": "1709",
+              "RtgN": "1536"
+            },
+            {
+              "#": "6",
+              "Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3255360",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1534",
+              "RtgF": "1720",
+              "RtgN": "1534"
+            },
+            {
+              "#": "3",
+              "Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3232182",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1529",
+              "RtgF": "1705",
+              "RtgN": "1529"
+            },
+            {
+              "#": "4",
+              "Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3201414",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1493",
+              "RtgF": "1669",
+              "RtgN": "1493"
+            }
+          ],
+          "footer": {
+            "text": "Rating legend: Rtg: Rating used for pairing and standings - RtgF: Fide Rating - RtgN: National Rating",
+            "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
+          },
+          "type": "other"
+        }
+      ]
+    },
+    "nelovar.html": {
+      "pageHeading": "National rating at round 5",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Name",
+              "key": "Name"
+            },
+            {
+              "name": "K",
+              "key": "K"
+            },
+            {
+              "name": "Elo",
+              "key": "Elo"
+            },
+            {
+              "name": "Var",
+              "key": "Var"
+            },
+            {
+              "name": "Per",
+              "key": "Per"
+            }
+          ],
+          "rows": [],
+          "type": "other"
+        }
+      ]
+    },
+    "pairs1.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "White Player": "1",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Pts_1": "0",
+              "Black Player": "6"
+            },
+            {
+              "Bo.": "2",
+              "White Player": "2",
+              "Pts": "0",
+              "Result": "½ - ½",
+              "Pts_1": "0",
+              "Black Player": "5"
+            },
+            {
+              "Bo.": "3",
+              "White Player": "3",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Pts_1": "0",
+              "Black Player": "4"
+            }
+          ],
+          "type": "pairing"
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 1, at 17:30 of 29/04/2025"
+    },
+    "pairs2.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "White Player": "6",
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Pts_1": "0",
+              "Black Player": "4"
+            },
+            {
+              "Bo.": "2",
+              "White Player": "5",
+              "Pts": "0.5",
+              "Result": "0 - 1",
+              "Pts_1": "1",
+              "Black Player": "3"
+            },
+            {
+              "Bo.": "3",
+              "White Player": "1",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Pts_1": "0.5",
+              "Black Player": "2"
+            }
+          ],
+          "type": "pairing"
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 2, at 17:30 of 06/05/2025"
+    },
+    "pairs3.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "White Player": "2",
+              "Pts": "0.5",
+              "Result": "1 - 0",
+              "Pts_1": "2",
+              "Black Player": "6"
+            },
+            {
+              "Bo.": "2",
+              "White Player": "3",
+              "Pts": "2",
+              "Result": "½ - ½",
+              "Pts_1": "1",
+              "Black Player": "1"
+            },
+            {
+              "Bo.": "3",
+              "White Player": "4",
+              "Pts": "0",
+              "Result": "½ - ½",
+              "Pts_1": "0.5",
+              "Black Player": "5"
+            }
+          ],
+          "type": "pairing"
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 3, at 17:30 of 13/05/2025"
+    },
+    "pairs4.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "White Player": "6",
+              "Pts": "2",
+              "Result": "0 - 1",
+              "Pts_1": "1",
+              "Black Player": "5"
+            },
+            {
+              "Bo.": "2",
+              "White Player": "1",
+              "Pts": "1.5",
+              "Result": "1 - 0",
+              "Pts_1": "0.5",
+              "Black Player": "4"
+            },
+            {
+              "Bo.": "3",
+              "White Player": "2",
+              "Pts": "1.5",
+              "Result": "½ - ½",
+              "Pts_1": "2.5",
+              "Black Player": "3"
+            }
+          ],
+          "type": "pairing"
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 4, at 17:30 of 20/05/2025"
+    },
+    "pairs5.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "White Player": "3",
+              "Pts": "3",
+              "Result": "0 - 1",
+              "Pts_1": "2",
+              "Black Player": "6"
+            },
+            {
+              "Bo.": "2",
+              "White Player": "4",
+              "Pts": "0.5",
+              "Result": "½ - ½",
+              "Pts_1": "2",
+              "Black Player": "2"
+            },
+            {
+              "Bo.": "3",
+              "White Player": "5",
+              "Pts": "2",
+              "Result": "1 - 0",
+              "Pts_1": "2.5",
+              "Black Player": "1"
+            }
+          ],
+          "type": "pairing"
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 5, at 17:30 of 03/06/2025"
+    },
+    "playercard.html": {
+      "pageHeading": "National History Cards",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Hari,Dhruv",
+              "Rtg": "1534",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Pasukov,Leo",
+              "Rtg": "1536",
+              "res": "1.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "McIntyre,Julian",
+              "Rtg": "1529",
+              "res": "0.5",
+              "Pts": "3.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Hogan,Steven",
+              "Rtg": "1493",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Enano,Ronald",
+              "Rtg": "1575",
+              "res": "0.0",
+              "Pts": "3.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Szuveges,Narelle S",
+            "id": "3096051",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1550",
+              "anchor": "1"
+            },
+            "rawText": "1  WIM Szuveges,Narelle S  , K= 0, Elo=1550, ID=3096051",
+            "rawHtml": "   1  WIM <strong>Szuveges,Narelle S  </strong>, K= 0, Elo=1550, ID=3096051\n<br>\n<a class=\"anchor\" name=\"1\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Enano,Ronald",
+              "Rtg": "1575",
+              "res": "0.5",
+              "Pts": "3.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "1",
+              "Cat": "WIM",
+              "OPPONENT": "Szuveges,Narelle S",
+              "Rtg": "1550",
+              "res": "0.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Hari,Dhruv",
+              "Rtg": "1534",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "McIntyre,Julian",
+              "Rtg": "1529",
+              "res": "0.5",
+              "Pts": "3.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Hogan,Steven",
+              "Rtg": "1493",
+              "res": "0.5",
+              "Pts": "1.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Pasukov,Leo",
+            "id": "3194935",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1536",
+              "anchor": "2"
+            },
+            "rawText": "2   Pasukov,Leo         , K= 0, Elo=1536, ID=3194935",
+            "rawHtml": "   2   <strong>Pasukov,Leo         </strong>, K= 0, Elo=1536, ID=3194935\n<br>\n<a class=\"anchor\" name=\"2\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Hogan,Steven",
+              "Rtg": "1493",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Enano,Ronald",
+              "Rtg": "1575",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "1",
+              "Cat": "WIM",
+              "OPPONENT": "Szuveges,Narelle S",
+              "Rtg": "1550",
+              "res": "0.5",
+              "Pts": "2.5"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Pasukov,Leo",
+              "Rtg": "1536",
+              "res": "0.5",
+              "Pts": "2.5"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Hari,Dhruv",
+              "Rtg": "1534",
+              "res": "0.0",
+              "Pts": "3.0"
+            }
+          ],
+          "caption": {
+            "playerName": "McIntyre,Julian",
+            "id": "3176061",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1529",
+              "anchor": "3"
+            },
+            "rawText": "3   McIntyre,Julian     , K= 0, Elo=1529, ID=3176061",
+            "rawHtml": "   3   <strong>McIntyre,Julian     </strong>, K= 0, Elo=1529, ID=3176061\n<br>\n<a class=\"anchor\" name=\"3\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "McIntyre,Julian",
+              "Rtg": "1529",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Hari,Dhruv",
+              "Rtg": "1534",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Enano,Ronald",
+              "Rtg": "1575",
+              "res": "0.5",
+              "Pts": "3.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "1",
+              "Cat": "WIM",
+              "OPPONENT": "Szuveges,Narelle S",
+              "Rtg": "1550",
+              "res": "0.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Pasukov,Leo",
+              "Rtg": "1536",
+              "res": "0.5",
+              "Pts": "2.5"
+            }
+          ],
+          "caption": {
+            "playerName": "Hogan,Steven",
+            "id": "3112941",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1493",
+              "anchor": "4"
+            },
+            "rawText": "4   Hogan,Steven        , K= 0, Elo=1493, ID=3112941",
+            "rawHtml": "   4   <strong>Hogan,Steven        </strong>, K= 0, Elo=1493, ID=3112941\n<br>\n<a class=\"anchor\" name=\"4\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Pasukov,Leo",
+              "Rtg": "1536",
+              "res": "0.5",
+              "Pts": "2.5"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "McIntyre,Julian",
+              "Rtg": "1529",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Hogan,Steven",
+              "Rtg": "1493",
+              "res": "0.5",
+              "Pts": "1.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Hari,Dhruv",
+              "Rtg": "1534",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "1",
+              "Cat": "WIM",
+              "OPPONENT": "Szuveges,Narelle S",
+              "Rtg": "1550",
+              "res": "1.0",
+              "Pts": "2.5"
+            }
+          ],
+          "caption": {
+            "playerName": "Enano,Ronald",
+            "id": "3096714",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1575",
+              "anchor": "5"
+            },
+            "rawText": "5   Enano,Ronald        , K= 0, Elo=1575, ID=3096714",
+            "rawHtml": "   5   <strong>Enano,Ronald        </strong>, K= 0, Elo=1575, ID=3096714\n<br>\n<a class=\"anchor\" name=\"5\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "1",
+              "Cat": "WIM",
+              "OPPONENT": "Szuveges,Narelle S",
+              "Rtg": "1550",
+              "res": "1.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Hogan,Steven",
+              "Rtg": "1493",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Pasukov,Leo",
+              "Rtg": "1536",
+              "res": "0.0",
+              "Pts": "2.5"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Enano,Ronald",
+              "Rtg": "1575",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "McIntyre,Julian",
+              "Rtg": "1529",
+              "res": "1.0",
+              "Pts": "3.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Hari,Dhruv",
+            "id": "3195311",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1534",
+              "anchor": "6"
+            },
+            "rawText": "6   Hari,Dhruv          , K= 0, Elo=1534, ID=3195311",
+            "rawHtml": "   6   <strong>Hari,Dhruv          </strong>, K= 0, Elo=1534, ID=3195311\n<br>\n<a class=\"anchor\" name=\"6\"></a>"
+          },
+          "type": "other"
+        }
+      ]
+    },
+    "playersname.html": {
+      "pageHeading": "Registered players sorted by name",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "RtgF",
+              "key": "RtgF"
+            },
+            {
+              "name": "RtgN",
+              "key": "RtgN"
+            }
+          ],
+          "rows": [
+            {
+              "#": "5",
+              "Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3227480",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1575",
+              "RtgF": "1753",
+              "RtgN": "1575"
+            },
+            {
+              "#": "6",
+              "Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3255360",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1534",
+              "RtgF": "1720",
+              "RtgN": "1534"
+            },
+            {
+              "#": "4",
+              "Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3201414",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1493",
+              "RtgF": "1669",
+              "RtgN": "1493"
+            },
+            {
+              "#": "3",
+              "Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3232182",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1529",
+              "RtgF": "1705",
+              "RtgN": "1529"
+            },
+            {
+              "#": "2",
+              "Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3242900",
+                "title": ""
+              },
+              "Fed": "QLD",
+              "Origin": "",
+              "Rtg": "1536",
+              "RtgF": "1709",
+              "RtgN": "1536"
+            },
+            {
+              "#": "1",
+              "Player": {
+                "id": "",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "http://ratings.fide.com/card.phtml?event=3202640",
+                "title": "WIM"
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1550",
+              "RtgF": "1701",
+              "RtgN": "1550"
+            }
+          ],
+          "footer": {
+            "text": "Rating legend: Rtg: Rating used for pairing and standings - RtgF: Fide Rating - RtgN: National Rating",
+            "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
+          },
+          "type": "other"
+        }
+      ]
+    },
+    "schedule.html": {
+      "pageHeading": "Schedule",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Round",
+              "key": "Round"
+            },
+            {
+              "name": "Time",
+              "key": "Time"
+            },
+            {
+              "name": "Date",
+              "key": "Date"
+            }
+          ],
+          "rows": [
+            {
+              "Round": "1",
+              "Time": "17:30",
+              "Date": "29/04/2025"
+            },
+            {
+              "Round": "2",
+              "Time": "17:30",
+              "Date": "06/05/2025"
+            },
+            {
+              "Round": "3",
+              "Time": "17:30",
+              "Date": "13/05/2025"
+            },
+            {
+              "Round": "4",
+              "Time": "17:30",
+              "Date": "20/05/2025"
+            },
+            {
+              "Round": "5",
+              "Time": "17:30",
+              "Date": "03/06/2025"
+            }
+          ],
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "WIM Szuveges,Narelle S",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "NW": "1",
+              "Result": "0 - 1",
+              "NB": "6",
+              "Black Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "QLD",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "NW": "2",
+              "Result": "½ - ½",
+              "NB": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "NW": "3",
+              "Result": "1 - 0",
+              "NB": "4",
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "NW": "6",
+              "Result": "1 - 0",
+              "NB": "4",
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "NW": "5",
+              "Result": "0 - 1",
+              "NB": "3",
+              "Black Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "WIM Szuveges,Narelle S",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "NW": "1",
+              "Result": "1 - 0",
+              "NB": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "QLD"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "QLD",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "NW": "2",
+              "Result": "1 - 0",
+              "NB": "6",
+              "Black Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "NW": "3",
+              "Result": "½ - ½",
+              "NB": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "WIM Szuveges,Narelle S",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "NW": "4",
+              "Result": "½ - ½",
+              "NB": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "NW": "6",
+              "Result": "0 - 1",
+              "NB": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "WIM Szuveges,Narelle S",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "NW": "1",
+              "Result": "1 - 0",
+              "NB": "4",
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "QLD",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "NW": "2",
+              "Result": "½ - ½",
+              "NB": "3",
+              "Black Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "NW": "3",
+              "Result": "0 - 1",
+              "NB": "6",
+              "Black Player": {
+                "id": "",
+                "playerName": "Hari,Dhruv",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "NW": "4",
+              "Result": "½ - ½",
+              "NB": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "QLD"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "NW": "5",
+              "Result": "1 - 0",
+              "NB": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "WIM Szuveges,Narelle S",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        }
+      ]
+    },
+    "sortedcrosstable.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Pos",
+              "key": "Pos"
+            },
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "NAME",
+              "key": "NAME"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "1",
+              "key": "1"
+            },
+            {
+              "name": "2",
+              "key": "2"
+            },
+            {
+              "name": "3",
+              "key": "3"
+            },
+            {
+              "name": "4",
+              "key": "4"
+            },
+            {
+              "name": "5",
+              "key": "5"
+            },
+            {
+              "name": "6",
+              "key": "6"
+            }
+          ],
+          "rows": [
+            {
+              "1": "×",
+              "2": "0",
+              "3": "1",
+              "4": "½",
+              "5": "1",
+              "6": "½",
+              "Pos": "1",
+              "#": "5",
+              "NAME": "Enano,Ronald",
+              "Rtg": "1575",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.0"
+            },
+            {
+              "1": "1",
+              "2": "×",
+              "3": "0",
+              "4": "½",
+              "5": "½",
+              "6": "1",
+              "Pos": "2",
+              "#": "3",
+              "NAME": "McIntyre,Julian",
+              "Rtg": "1529",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.0"
+            },
+            {
+              "1": "0",
+              "2": "1",
+              "3": "×",
+              "4": "0",
+              "5": "1",
+              "6": "1",
+              "Pos": "3",
+              "#": "6",
+              "NAME": "Hari,Dhruv",
+              "Rtg": "1534",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.0"
+            },
+            {
+              "1": "½",
+              "2": "½",
+              "3": "1",
+              "4": "×",
+              "5": "0",
+              "6": "½",
+              "Pos": "4",
+              "#": "2",
+              "NAME": "Pasukov,Leo",
+              "Rtg": "1536",
+              "Fed": "QLD",
+              "Origin": "",
+              "Pts": "2.5"
+            },
+            {
+              "1": "0",
+              "2": "½",
+              "3": "0",
+              "4": "1",
+              "5": "×",
+              "6": "1",
+              "Pos": "5",
+              "#": "1",
+              "NAME": "WIM Szuveges,Narelle S",
+              "Rtg": "1550",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "2.5"
+            },
+            {
+              "1": "½",
+              "2": "0",
+              "3": "0",
+              "4": "½",
+              "5": "0",
+              "6": "×",
+              "Pos": "6",
+              "#": "4",
+              "NAME": "Hogan,Steven",
+              "Rtg": "1493",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "1.0"
+            }
+          ],
+          "type": "crosstable"
+        }
+      ]
+    },
+    "standings.html": {
+      "pageHeading": "Standings at round 5",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Pos",
+              "key": "Pos"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "SB",
+              "key": "SB"
+            },
+            {
+              "name": "ARO",
+              "key": "ARO"
+            }
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Player": "5",
+              "Origin": "",
+              "Pts": "3.0",
+              "SB": "7.25",
+              "ARO": "1528"
+            },
+            {
+              "Pos": "2",
+              "Player": "3",
+              "Origin": "",
+              "Pts": "3.0",
+              "SB": "6.50",
+              "ARO": "1538"
+            },
+            {
+              "Pos": "3",
+              "Player": "6",
+              "Origin": "",
+              "Pts": "3.0",
+              "SB": "6.50",
+              "ARO": "1537"
+            },
+            {
+              "Pos": "4",
+              "Player": "2",
+              "Origin": "",
+              "Pts": "2.5",
+              "SB": "6.50",
+              "ARO": "1536"
+            },
+            {
+              "Pos": "5",
+              "Player": "1",
+              "Origin": "",
+              "Pts": "2.5",
+              "SB": "5.00",
+              "ARO": "1533"
+            },
+            {
+              "Pos": "6",
+              "Player": "4",
+              "Origin": "",
+              "Pts": "1.0",
+              "SB": "2.75",
+              "ARO": "1545"
+            }
+          ],
+          "footer": {
+            "text": "Tie Break legend:     SB  :  Sonneborn-Berger * \n    ARO  :  Average Rating of Opponents *",
+            "html": "Tie Break legend:<br>     SB  :  Sonneborn-Berger * <br>\n    ARO  :  Average Rating of Opponents * <br>"
+          },
+          "type": "standings"
+        }
+      ]
+    },
+    "tourstat.html": {
+      "pageHeading": "Tournament summary",
+      "tables": [
+        {
+          "headers": [],
+          "rows": [
+            {
+              "col1": "Tournament Name",
+              "col2": "2025 Hobsons Bay Western Major"
+            },
+            {
+              "col1": "Place",
+              "col2": "Hobsons Bay"
+            },
+            {
+              "col1": "Federation",
+              "col2": "AUS"
+            },
+            {
+              "col1": "Date Begin",
+              "col2": "29/04/2025"
+            },
+            {
+              "col1": "Date End",
+              "col2": "03/06/2025"
+            },
+            {
+              "col1": "Arbiter(s)",
+              "col2": "NA Dwyer, Lachlan (AUS) 3254119 (VIC)"
+            },
+            {
+              "col1": "Play System",
+              "col2": "Single Round Robin"
+            },
+            {
+              "col1": "Rounds",
+              "col2": "5"
+            },
+            {
+              "col1": "Score game",
+              "col2": "0-0.5-1"
+            },
+            {
+              "col1": "Tie break",
+              "col2": "SB     ARO"
+            },
+            {
+              "col1": "Registered Players",
+              "col2": "6"
+            },
+            {
+              "col1": "Number of Federations",
+              "col2": "2"
+            },
+            {
+              "col1": "Average Rating (all)",
+              "col2": "1710"
+            },
+            {
+              "col1": "Average Rating (only FIDE rated)",
+              "col2": "1710"
+            },
+            {
+              "col1": "Players from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "Players NOT from AUS Federation",
+              "col2": "6"
+            },
+            {
+              "col1": "FIDE rated players",
+              "col2": "6"
+            },
+            {
+              "col1": "unrated players",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players NOT from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated Federations",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled players",
+              "col2": "1"
+            },
+            {
+              "col1": "GM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WGM players",
+              "col2": "0"
+            },
+            {
+              "col1": "IM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WIM players",
+              "col2": "1"
+            },
+            {
+              "col1": "FM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WFM players",
+              "col2": "0"
+            },
+            {
+              "col1": "CM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WCM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player NOT from AUS Federation",
+              "col2": "1"
+            }
+          ],
+          "type": "statistics"
+        }
+      ]
+    }
+  },
+  "menu": [
+    {
+      "text": "Info",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Schedule",
+          "href": "schedule.html"
+        },
+        {
+          "text": "Statistics",
+          "href": "tourstat.html"
+        }
+      ]
+    },
+    {
+      "text": "Players",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Sorted by Rating",
+          "href": "index.html"
+        },
+        {
+          "text": "Sorted by Name",
+          "href": "playersname.html"
+        }
+      ]
+    },
+    {
+      "text": "Pairings",
+      "href": "pairs5.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Standings",
+      "href": "standings.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Tables",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Cross table by score",
+          "href": "sortedcrosstable.html"
+        }
+      ]
+    },
+    {
+      "text": "Reports",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "FIDE Rating",
+          "href": "felovar.html"
+        },
+        {
+          "text": "FIDE Player Card",
+          "href": "fideplayercard.html"
+        },
+        {
+          "text": "National rating",
+          "href": "nelovar.html"
+        },
+        {
+          "text": "National Player Card",
+          "href": "playercard.html"
+        }
+      ]
+    }
+  ],
+  "md5Hash": "c3ccf96e4d3829d2bffd1d6e1f022dc3"
+}

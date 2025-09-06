@@ -1,0 +1,6090 @@
+{
+  "generatedAt": "2025-09-06T10:23:50.941Z",
+  "tournament": {
+    "id": "bob-grieves-junior-blitz-cup-2024-open",
+    "name": "Bob Grieves Junior Blitz Cup 2024 Open",
+    "category": "Junior",
+    "metadata": {
+      "Tournament Name": "Bob Grieves Junior Blitz Cup 2024 Open",
+      "Place": "Altona",
+      "Federation": "AUS",
+      "Date Begin": "12/03/2024",
+      "Date End": "12/03/2024",
+      "Arbiter(s)": "IA Casey Goh",
+      "Play System": "Double Round Robin",
+      "Rounds": "14",
+      "Score game": "0-0.5-1",
+      "Tie break": "KS SB BWG",
+      "Registered Players": "8",
+      "Number of Federations": "1",
+      "Average Rating (all)": "409",
+      "Average Rating (only FIDE rated)": "0",
+      "Players from AUS Federation": "0",
+      "Players NOT from AUS Federation": "8",
+      "FIDE rated players": "0",
+      "unrated players": "8",
+      "unrated players from AUS Federation": "0",
+      "unrated players NOT from AUS Federation": "8",
+      "unrated Federations": "1",
+      "FIDE titled players": "0",
+      "GM players": "0",
+      "WGM players": "0",
+      "IM players": "0",
+      "WIM players": "0",
+      "FM players": "0",
+      "WFM players": "0",
+      "CM players": "0",
+      "WCM players": "0",
+      "FIDE titled player from AUS Federation": "0",
+      "FIDE titled player NOT from AUS Federation": "0",
+      "category": "Junior",
+      "tournamentName": "Bob Grieves Junior Blitz Cup 2024 Open",
+      "federation": "AUS",
+      "dateBegin": "12/03/2024",
+      "dateEnd": "12/03/2024",
+      "arbiters": "IA Casey Goh",
+      "playSystem": "Double Round Robin",
+      "rounds": 14,
+      "scoreGame": "0-0.5-1",
+      "tieBreak": "KS SB BWG",
+      "registeredPlayers": 8,
+      "averageRating": 409,
+      "averageRatingFide": 0,
+      "fideRatedPlayers": 0,
+      "unratedPlayers": 8,
+      "fideTitledPlayers": 0
+    }
+  },
+  "players": [],
+  "pages": {
+    "games.html": {
+      "pageHeading": "",
+      "tables": []
+    },
+    "index.html": {
+      "pageHeading": "Registered players sorted by rating and title",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "NAME",
+              "key": "NAME"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Title",
+              "key": "Title"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "RtgF",
+              "key": "RtgF"
+            },
+            {
+              "name": "RtgN",
+              "key": "RtgN"
+            }
+          ],
+          "rows": [
+            {
+              "N": "2",
+              "NAME": "Nguyen,Anh Kiet",
+              "Fed": "VIC",
+              "Title": "",
+              "Rtg": "1086",
+              "RtgF": "0",
+              "RtgN": "1086"
+            },
+            {
+              "N": "3",
+              "NAME": "Wei,Andrew",
+              "Fed": "VIC",
+              "Title": "",
+              "Rtg": "1055",
+              "RtgF": "0",
+              "RtgN": "1055"
+            },
+            {
+              "N": "6",
+              "NAME": "Parker,Lucas",
+              "Fed": "VIC",
+              "Title": "",
+              "Rtg": "765",
+              "RtgF": "0",
+              "RtgN": "765"
+            },
+            {
+              "N": "4",
+              "NAME": "Karthick,Deepshika",
+              "Fed": "VIC",
+              "Title": "",
+              "Rtg": "363",
+              "RtgF": "0",
+              "RtgN": "363"
+            },
+            {
+              "N": "1",
+              "NAME": "Amutha Raja,Nalan",
+              "Fed": "VIC",
+              "Title": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "N": "8",
+              "NAME": "Gopalan,Pradyun",
+              "Fed": "VIC",
+              "Title": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "N": "5",
+              "NAME": "Kukdeja,Reva",
+              "Fed": "VIC",
+              "Title": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "N": "7",
+              "NAME": "Vassallo,Romeo",
+              "Fed": "VIC",
+              "Title": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            }
+          ],
+          "type": "other"
+        }
+      ]
+    },
+    "pairs1.html": {
+      "pageHeading": "Pairings",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Pts": "0",
+              "Result": "½ - ½",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing of round 1",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing of round 1",
+            "rawHtml": "Pairing of round 1"
+          },
+          "type": "pairing"
+        }
+      ]
+    },
+    "pairs10.html": {
+      "pageHeading": "Pairings",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Pts": "7.5",
+              "Result": "0 - 1",
+              "Pts_1": "7",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Pts_1": "6.5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Pts": "2",
+              "Result": "0 - 1",
+              "Pts_1": "3",
+              "Black Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Pts": "8",
+              "Result": "1 - 0",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing of round 10",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing of round 10",
+            "rawHtml": "Pairing of round 10"
+          },
+          "type": "pairing"
+        }
+      ]
+    },
+    "pairs11.html": {
+      "pageHeading": "Pairings",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Pts": "9",
+              "Result": "1 - 0",
+              "Pts_1": "7.5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Pts_1": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Pts": "4",
+              "Result": "½ - ½",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Pts": "7.5",
+              "Result": "½ - ½",
+              "Pts_1": "8",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing of round 11",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing of round 11",
+            "rawHtml": "Pairing of round 11"
+          },
+          "type": "pairing"
+        }
+      ]
+    },
+    "pairs12.html": {
+      "pageHeading": "Pairings",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Pts": "7.5",
+              "Result": "1 - 0",
+              "Pts_1": "8",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Pts": "8.5",
+              "Result": "1 - 0",
+              "Pts_1": "4.5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Pts": "1.5",
+              "Result": "1 - 0",
+              "Pts_1": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Pts": "2",
+              "Result": "0 - 1",
+              "Pts_1": "10",
+              "Black Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing of round 12",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing of round 12",
+            "rawHtml": "Pairing of round 12"
+          },
+          "type": "pairing"
+        }
+      ]
+    },
+    "pairs13.html": {
+      "pageHeading": "Pairings",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Pts": "2",
+              "Result": "0 - 1",
+              "Pts_1": "8.5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Pts": "11",
+              "Result": "1 - 0",
+              "Pts_1": "2.5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Pts": "2",
+              "Result": "0 - 1",
+              "Pts_1": "9.5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Pts": "4.5",
+              "Result": "0 - 1",
+              "Pts_1": "8",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing of round 13",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing of round 13",
+            "rawHtml": "Pairing of round 13"
+          },
+          "type": "pairing"
+        }
+      ]
+    },
+    "pairs14.html": {
+      "pageHeading": "Pairings",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Pts": "9.5",
+              "Result": "1 - 0",
+              "Pts_1": "4.5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Pts": "9",
+              "Result": "1 - 0",
+              "Pts_1": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Pts": "10.5",
+              "Result": "0 - 1",
+              "Pts_1": "12",
+              "Black Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Pts": "2.5",
+              "Result": "1 - 0",
+              "Pts_1": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing of round 14",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing of round 14",
+            "rawHtml": "Pairing of round 14"
+          },
+          "type": "pairing"
+        }
+      ]
+    },
+    "pairs2.html": {
+      "pageHeading": "Pairings",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Pts": "0.5",
+              "Result": "1 - 0",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Pts_1": "0.5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing of round 2",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing of round 2",
+            "rawHtml": "Pairing of round 2"
+          },
+          "type": "pairing"
+        }
+      ]
+    },
+    "pairs3.html": {
+      "pageHeading": "Pairings",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Pts": "2",
+              "Result": "0 - 1",
+              "Pts_1": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Pts": "1.5",
+              "Result": "1 - 0",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Pts_1": "1.5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing of round 3",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing of round 3",
+            "rawHtml": "Pairing of round 3"
+          },
+          "type": "pairing"
+        }
+      ]
+    },
+    "pairs4.html": {
+      "pageHeading": "Pairings",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Pts": "3",
+              "Result": "½ - ½",
+              "Pts_1": "2.5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Pts_1": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Pts": "2",
+              "Result": "1 - 0",
+              "Pts_1": "2.5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing of round 4",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing of round 4",
+            "rawHtml": "Pairing of round 4"
+          },
+          "type": "pairing"
+        }
+      ]
+    },
+    "pairs5.html": {
+      "pageHeading": "Pairings",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Pts": "2.5",
+              "Result": "1 - 0",
+              "Pts_1": "3.5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Pts": "3",
+              "Result": "0 - 1",
+              "Pts_1": "3",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Pts": "3",
+              "Result": "1 - 0",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing of round 5",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing of round 5",
+            "rawHtml": "Pairing of round 5"
+          },
+          "type": "pairing"
+        }
+      ]
+    },
+    "pairs6.html": {
+      "pageHeading": "Pairings",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Pts": "3.5",
+              "Result": "1 - 0",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Pts_1": "4",
+              "Black Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Pts": "4",
+              "Result": "1 - 0",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Pts": "3.5",
+              "Result": "1 - 0",
+              "Pts_1": "3",
+              "Black Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing of round 6",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing of round 6",
+            "rawHtml": "Pairing of round 6"
+          },
+          "type": "pairing"
+        }
+      ]
+    },
+    "pairs7.html": {
+      "pageHeading": "Pairings",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Pts": "3",
+              "Result": "0 - 1",
+              "Pts_1": "4.5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Pts_1": "4.5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Pts": "5",
+              "Result": "1 - 0",
+              "Pts_1": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Pts": "1",
+              "Result": "1 - 0",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing of round 7",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing of round 7",
+            "rawHtml": "Pairing of round 7"
+          },
+          "type": "pairing"
+        }
+      ]
+    },
+    "pairs8.html": {
+      "pageHeading": "Pairings",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Pts": "5.5",
+              "Result": "1 - 0",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Pts": "2",
+              "Result": "0 - 1",
+              "Pts_1": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Pts": "6",
+              "Result": "1 - 0",
+              "Pts_1": "5.5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Pts_1": "3",
+              "Black Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing of round 8",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing of round 8",
+            "rawHtml": "Pairing of round 8"
+          },
+          "type": "pairing"
+        }
+      ]
+    },
+    "pairs9.html": {
+      "pageHeading": "Pairings",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Pts_1": "6.5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Pts": "3",
+              "Result": "0 - 1",
+              "Pts_1": "7",
+              "Black Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Pts": "5.5",
+              "Result": "1 - 0",
+              "Pts_1": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Pts": "6",
+              "Result": "1 - 0",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing of round 9",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing of round 9",
+            "rawHtml": "Pairing of round 9"
+          },
+          "type": "pairing"
+        }
+      ]
+    },
+    "playercard.html": {
+      "pageHeading": "National History Cards",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Gopalan,Pradyun",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "res": "0.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1055",
+              "res": "0.0",
+              "Pts": "10.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Karthick,Deepshika",
+              "Rtg": "363",
+              "res": "0.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Kukdeja,Reva",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "6",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Parker,Lucas",
+              "Rtg": "765",
+              "res": "0.0",
+              "Pts": "13.0"
+            },
+            {
+              "R": "7",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Vassallo,Romeo",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "8",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Gopalan,Pradyun",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "9",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "res": "0.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "10",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1055",
+              "res": "0.0",
+              "Pts": "10.0"
+            },
+            {
+              "R": "11",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Karthick,Deepshika",
+              "Rtg": "363",
+              "res": "0.5",
+              "Pts": "4.5"
+            },
+            {
+              "R": "12",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Kukdeja,Reva",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "13",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Parker,Lucas",
+              "Rtg": "765",
+              "res": "0.0",
+              "Pts": "13.0"
+            },
+            {
+              "R": "14",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Vassallo,Romeo",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Amutha Raja,Nalan",
+            "id": "3211234",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "1"
+            },
+            "rawText": "1   Amutha Raja,Nalan   , K= 0, Elo=   0, ID=3211234",
+            "rawHtml": "   1   <strong>Amutha Raja,Nalan   </strong>, K= 0, Elo=   0, ID=3211234\n<br>\n<a class=\"anchor\" name=\"1\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Vassallo,Romeo",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Gopalan,Pradyun",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1055",
+              "res": "1.0",
+              "Pts": "10.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Karthick,Deepshika",
+              "Rtg": "363",
+              "res": "1.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "6",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Kukdeja,Reva",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "7",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Parker,Lucas",
+              "Rtg": "765",
+              "res": "0.0",
+              "Pts": "13.0"
+            },
+            {
+              "R": "8",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Vassallo,Romeo",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "9",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "10",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Gopalan,Pradyun",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "11",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1055",
+              "res": "0.5",
+              "Pts": "10.0"
+            },
+            {
+              "R": "12",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Karthick,Deepshika",
+              "Rtg": "363",
+              "res": "1.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "13",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Kukdeja,Reva",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "14",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Parker,Lucas",
+              "Rtg": "765",
+              "res": "0.0",
+              "Pts": "13.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Nguyen,Anh Kiet",
+            "id": "3206205",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1086",
+              "anchor": "2"
+            },
+            "rawText": "2   Nguyen,Anh Kiet     , K= 0, Elo=1086, ID=3206205",
+            "rawHtml": "   2   <strong>Nguyen,Anh Kiet     </strong>, K= 0, Elo=1086, ID=3206205\n<br>\n<a class=\"anchor\" name=\"2\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Parker,Lucas",
+              "Rtg": "765",
+              "res": "0.5",
+              "Pts": "13.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Vassallo,Romeo",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "res": "0.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Gopalan,Pradyun",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "6",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Karthick,Deepshika",
+              "Rtg": "363",
+              "res": "1.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "7",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Kukdeja,Reva",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "8",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Parker,Lucas",
+              "Rtg": "765",
+              "res": "0.0",
+              "Pts": "13.0"
+            },
+            {
+              "R": "9",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Vassallo,Romeo",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "10",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "11",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "res": "0.5",
+              "Pts": "10.5"
+            },
+            {
+              "R": "12",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Gopalan,Pradyun",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "13",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Karthick,Deepshika",
+              "Rtg": "363",
+              "res": "1.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "14",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Kukdeja,Reva",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Wei,Andrew",
+            "id": "3204083",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1055",
+              "anchor": "3"
+            },
+            "rawText": "3   Wei,Andrew          , K= 0, Elo=1055, ID=3204083",
+            "rawHtml": "   3   <strong>Wei,Andrew          </strong>, K= 0, Elo=1055, ID=3204083\n<br>\n<a class=\"anchor\" name=\"3\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Kukdeja,Reva",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Parker,Lucas",
+              "Rtg": "765",
+              "res": "0.0",
+              "Pts": "13.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Vassallo,Romeo",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "res": "0.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "6",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1055",
+              "res": "0.0",
+              "Pts": "10.0"
+            },
+            {
+              "R": "7",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Gopalan,Pradyun",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "8",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Kukdeja,Reva",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "9",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Parker,Lucas",
+              "Rtg": "765",
+              "res": "0.0",
+              "Pts": "13.0"
+            },
+            {
+              "R": "10",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Vassallo,Romeo",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "11",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "res": "0.5",
+              "Pts": "3.5"
+            },
+            {
+              "R": "12",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "res": "0.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "13",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1055",
+              "res": "0.0",
+              "Pts": "10.0"
+            },
+            {
+              "R": "14",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Gopalan,Pradyun",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "10.5"
+            }
+          ],
+          "caption": {
+            "playerName": "Karthick,Deepshika",
+            "id": "3204610",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "363",
+              "anchor": "4"
+            },
+            "rawText": "4   Karthick,Deepshika  , K= 0, Elo= 363, ID=3204610",
+            "rawHtml": "   4   <strong>Karthick,Deepshika  </strong>, K= 0, Elo= 363, ID=3204610\n<br>\n<a class=\"anchor\" name=\"4\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Karthick,Deepshika",
+              "Rtg": "363",
+              "res": "0.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Gopalan,Pradyun",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Parker,Lucas",
+              "Rtg": "765",
+              "res": "0.0",
+              "Pts": "13.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Vassallo,Romeo",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "6",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "res": "0.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "7",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1055",
+              "res": "0.0",
+              "Pts": "10.0"
+            },
+            {
+              "R": "8",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Karthick,Deepshika",
+              "Rtg": "363",
+              "res": "1.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "9",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Gopalan,Pradyun",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "10",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Parker,Lucas",
+              "Rtg": "765",
+              "res": "0.0",
+              "Pts": "13.0"
+            },
+            {
+              "R": "11",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Vassallo,Romeo",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "12",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "13",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "res": "0.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "14",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1055",
+              "res": "0.0",
+              "Pts": "10.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Kukdeja,Reva",
+            "id": "3210280",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "5"
+            },
+            "rawText": "5   Kukdeja,Reva        , K= 0, Elo=   0, ID=3210280",
+            "rawHtml": "   5   <strong>Kukdeja,Reva        </strong>, K= 0, Elo=   0, ID=3210280\n<br>\n<a class=\"anchor\" name=\"5\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1055",
+              "res": "0.5",
+              "Pts": "10.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Karthick,Deepshika",
+              "Rtg": "363",
+              "res": "1.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Kukdeja,Reva",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Gopalan,Pradyun",
+              "Rtg": "0",
+              "res": "0.5",
+              "Pts": "10.5"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Vassallo,Romeo",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "6",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "7",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "res": "1.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "8",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1055",
+              "res": "1.0",
+              "Pts": "10.0"
+            },
+            {
+              "R": "9",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Karthick,Deepshika",
+              "Rtg": "363",
+              "res": "1.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "10",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Kukdeja,Reva",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "11",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Gopalan,Pradyun",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "12",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Vassallo,Romeo",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "13",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "14",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "res": "1.0",
+              "Pts": "10.5"
+            }
+          ],
+          "caption": {
+            "playerName": "Parker,Lucas",
+            "id": "3209484",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "765",
+              "anchor": "6"
+            },
+            "rawText": "6   Parker,Lucas        , K= 0, Elo= 765, ID=3209484",
+            "rawHtml": "   6   <strong>Parker,Lucas        </strong>, K= 0, Elo= 765, ID=3209484\n<br>\n<a class=\"anchor\" name=\"6\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "res": "0.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1055",
+              "res": "0.0",
+              "Pts": "10.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Karthick,Deepshika",
+              "Rtg": "363",
+              "res": "0.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Kukdeja,Reva",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Parker,Lucas",
+              "Rtg": "765",
+              "res": "0.0",
+              "Pts": "13.0"
+            },
+            {
+              "R": "6",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Gopalan,Pradyun",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "7",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "8",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "res": "0.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "9",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1055",
+              "res": "0.0",
+              "Pts": "10.0"
+            },
+            {
+              "R": "10",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Karthick,Deepshika",
+              "Rtg": "363",
+              "res": "0.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "11",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Kukdeja,Reva",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "12",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Parker,Lucas",
+              "Rtg": "765",
+              "res": "0.0",
+              "Pts": "13.0"
+            },
+            {
+              "R": "13",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Gopalan,Pradyun",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "14",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "res": "0.0",
+              "Pts": "3.5"
+            }
+          ],
+          "caption": {
+            "playerName": "Vassallo,Romeo",
+            "id": "3211271",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "7"
+            },
+            "rawText": "7   Vassallo,Romeo      , K= 0, Elo=   0, ID=3211271",
+            "rawHtml": "   7   <strong>Vassallo,Romeo      </strong>, K= 0, Elo=   0, ID=3211271\n<br>\n<a class=\"anchor\" name=\"7\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Kukdeja,Reva",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "res": "1.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Parker,Lucas",
+              "Rtg": "765",
+              "res": "0.5",
+              "Pts": "13.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1055",
+              "res": "0.0",
+              "Pts": "10.0"
+            },
+            {
+              "R": "6",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Vassallo,Romeo",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "7",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Karthick,Deepshika",
+              "Rtg": "363",
+              "res": "1.0",
+              "Pts": "4.5"
+            },
+            {
+              "R": "8",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "9",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Kukdeja,Reva",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "10",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "res": "0.0",
+              "Pts": "10.5"
+            },
+            {
+              "R": "11",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Parker,Lucas",
+              "Rtg": "765",
+              "res": "0.0",
+              "Pts": "13.0"
+            },
+            {
+              "R": "12",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1055",
+              "res": "1.0",
+              "Pts": "10.0"
+            },
+            {
+              "R": "13",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Vassallo,Romeo",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "14",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Karthick,Deepshika",
+              "Rtg": "363",
+              "res": "1.0",
+              "Pts": "4.5"
+            }
+          ],
+          "caption": {
+            "playerName": "Gopalan,Pradyun",
+            "id": "3202521",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "8"
+            },
+            "rawText": "8   Gopalan,Pradyun     , K= 0, Elo=   0, ID=3202521",
+            "rawHtml": "   8   <strong>Gopalan,Pradyun     </strong>, K= 0, Elo=   0, ID=3202521\n<br>\n<a class=\"anchor\" name=\"8\"></a>"
+          },
+          "type": "other"
+        }
+      ]
+    },
+    "playersname.html": {
+      "pageHeading": "Registered players sorted by name",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "NAME",
+              "key": "NAME"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Title",
+              "key": "Title"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "RtgF",
+              "key": "RtgF"
+            },
+            {
+              "name": "RtgN",
+              "key": "RtgN"
+            }
+          ],
+          "rows": [
+            {
+              "N": "1",
+              "NAME": "Amutha Raja,Nalan",
+              "Fed": "VIC",
+              "Title": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "N": "8",
+              "NAME": "Gopalan,Pradyun",
+              "Fed": "VIC",
+              "Title": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "N": "4",
+              "NAME": "Karthick,Deepshika",
+              "Fed": "VIC",
+              "Title": "",
+              "Rtg": "363",
+              "RtgF": "0",
+              "RtgN": "363"
+            },
+            {
+              "N": "5",
+              "NAME": "Kukdeja,Reva",
+              "Fed": "VIC",
+              "Title": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "N": "2",
+              "NAME": "Nguyen,Anh Kiet",
+              "Fed": "VIC",
+              "Title": "",
+              "Rtg": "1086",
+              "RtgF": "0",
+              "RtgN": "1086"
+            },
+            {
+              "N": "6",
+              "NAME": "Parker,Lucas",
+              "Fed": "VIC",
+              "Title": "",
+              "Rtg": "765",
+              "RtgF": "0",
+              "RtgN": "765"
+            },
+            {
+              "N": "7",
+              "NAME": "Vassallo,Romeo",
+              "Fed": "VIC",
+              "Title": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "N": "3",
+              "NAME": "Wei,Andrew",
+              "Fed": "VIC",
+              "Title": "",
+              "Rtg": "1055",
+              "RtgF": "0",
+              "RtgN": "1055"
+            }
+          ],
+          "type": "other"
+        }
+      ]
+    },
+    "schedule.html": {
+      "pageHeading": "Schedule",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Round",
+              "key": "Round"
+            },
+            {
+              "name": "Time",
+              "key": "Time"
+            },
+            {
+              "name": "Date",
+              "key": "Date"
+            }
+          ],
+          "rows": [],
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "NW": "1",
+              "Result": "0 - 1",
+              "NB": "8",
+              "Black Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "NW": "2",
+              "Result": "1 - 0",
+              "NB": "7",
+              "Black Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "NW": "3",
+              "Result": "½ - ½",
+              "NB": "6",
+              "Black Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "NW": "4",
+              "Result": "1 - 0",
+              "NB": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "NW": "8",
+              "Result": "1 - 0",
+              "NB": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "NW": "6",
+              "Result": "1 - 0",
+              "NB": "4",
+              "Black Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "NW": "7",
+              "Result": "0 - 1",
+              "NB": "3",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "NW": "1",
+              "Result": "0 - 1",
+              "NB": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "NW": "2",
+              "Result": "0 - 1",
+              "NB": "8",
+              "Black Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "NW": "3",
+              "Result": "1 - 0",
+              "NB": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "NW": "4",
+              "Result": "1 - 0",
+              "NB": "7",
+              "Black Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "NW": "5",
+              "Result": "0 - 1",
+              "NB": "6",
+              "Black Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "NW": "8",
+              "Result": "½ - ½",
+              "NB": "6",
+              "Black Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "NW": "7",
+              "Result": "1 - 0",
+              "NB": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "NW": "1",
+              "Result": "0 - 1",
+              "NB": "4",
+              "Black Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "NW": "2",
+              "Result": "1 - 0",
+              "NB": "3",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "NW": "3",
+              "Result": "1 - 0",
+              "NB": "8",
+              "Black Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "NW": "4",
+              "Result": "0 - 1",
+              "NB": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "NW": "5",
+              "Result": "0 - 1",
+              "NB": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "NW": "6",
+              "Result": "1 - 0",
+              "NB": "7",
+              "Black Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "NW": "8",
+              "Result": "1 - 0",
+              "NB": "7",
+              "Black Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "NW": "1",
+              "Result": "0 - 1",
+              "NB": "6",
+              "Black Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "NW": "2",
+              "Result": "1 - 0",
+              "NB": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "NW": "3",
+              "Result": "1 - 0",
+              "NB": "4",
+              "Black Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "NW": "4",
+              "Result": "0 - 1",
+              "NB": "8",
+              "Black Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "NW": "5",
+              "Result": "0 - 1",
+              "NB": "3",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "NW": "6",
+              "Result": "1 - 0",
+              "NB": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "NW": "7",
+              "Result": "1 - 0",
+              "NB": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "NW": "8",
+              "Result": "1 - 0",
+              "NB": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "NW": "7",
+              "Result": "0 - 1",
+              "NB": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "NW": "6",
+              "Result": "1 - 0",
+              "NB": "3",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "NW": "5",
+              "Result": "1 - 0",
+              "NB": "4",
+              "Black Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "NW": "5",
+              "Result": "0 - 1",
+              "NB": "8",
+              "Black Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "NW": "4",
+              "Result": "0 - 1",
+              "NB": "6",
+              "Black Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "NW": "3",
+              "Result": "1 - 0",
+              "NB": "7",
+              "Black Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "NW": "2",
+              "Result": "1 - 0",
+              "NB": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "NW": "8",
+              "Result": "0 - 1",
+              "NB": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "NW": "1",
+              "Result": "0 - 1",
+              "NB": "3",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "NW": "7",
+              "Result": "0 - 1",
+              "NB": "4",
+              "Black Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "NW": "6",
+              "Result": "1 - 0",
+              "NB": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "NW": "6",
+              "Result": "1 - 0",
+              "NB": "8",
+              "Black Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "NW": "5",
+              "Result": "1 - 0",
+              "NB": "7",
+              "Black Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "NW": "4",
+              "Result": "½ - ½",
+              "NB": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "NW": "3",
+              "Result": "½ - ½",
+              "NB": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "NW": "8",
+              "Result": "1 - 0",
+              "NB": "3",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "NW": "2",
+              "Result": "1 - 0",
+              "NB": "4",
+              "Black Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "NW": "1",
+              "Result": "1 - 0",
+              "NB": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "NW": "7",
+              "Result": "0 - 1",
+              "NB": "6",
+              "Black Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "NW": "7",
+              "Result": "0 - 1",
+              "NB": "8",
+              "Black Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "NW": "6",
+              "Result": "1 - 0",
+              "NB": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "NW": "5",
+              "Result": "0 - 1",
+              "NB": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "NW": "4",
+              "Result": "0 - 1",
+              "NB": "3",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Gopalan,Pradyun",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "NW": "8",
+              "Result": "1 - 0",
+              "NB": "4",
+              "Black Player": {
+                "id": "",
+                "playerName": "Karthick,Deepshika",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "NW": "3",
+              "Result": "1 - 0",
+              "NB": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Kukdeja,Reva",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "NW": "2",
+              "Result": "0 - 1",
+              "NB": "6",
+              "Black Player": {
+                "id": "",
+                "playerName": "Parker,Lucas",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "",
+                "playerName": "Amutha Raja,Nalan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "NW": "1",
+              "Result": "1 - 0",
+              "NB": "7",
+              "Black Player": {
+                "id": "",
+                "playerName": "Vassallo,Romeo",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        }
+      ]
+    },
+    "sortedcrosstable.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Pos",
+              "key": "Pos"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "NAME",
+              "key": "NAME"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "1",
+              "key": "1"
+            },
+            {
+              "name": "2",
+              "key": "2"
+            },
+            {
+              "name": "3",
+              "key": "3"
+            },
+            {
+              "name": "4",
+              "key": "4"
+            },
+            {
+              "name": "5",
+              "key": "5"
+            },
+            {
+              "name": "6",
+              "key": "6"
+            },
+            {
+              "name": "7",
+              "key": "7"
+            },
+            {
+              "name": "8",
+              "key": "8"
+            }
+          ],
+          "rows": [
+            {
+              "1": "×",
+              "2": "½1",
+              "3": "11",
+              "4": "½1",
+              "5": "11",
+              "6": "11",
+              "7": "11",
+              "8": "11",
+              "Pos": "1",
+              "N": "6",
+              "NAME": "Parker,Lucas",
+              "Rtg": "765",
+              "Fed": "VIC",
+              "Pts": "13.0"
+            },
+            {
+              "1": "½0",
+              "2": "×",
+              "3": "10",
+              "4": "01",
+              "5": "11",
+              "6": "11",
+              "7": "11",
+              "8": "11",
+              "Pos": "2",
+              "N": "8",
+              "NAME": "Gopalan,Pradyun",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Pts": "10.5"
+            },
+            {
+              "1": "00",
+              "2": "01",
+              "3": "×",
+              "4": "1½",
+              "5": "11",
+              "6": "11",
+              "7": "11",
+              "8": "11",
+              "Pos": "3",
+              "N": "2",
+              "NAME": "Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "Fed": "VIC",
+              "Pts": "10.5"
+            },
+            {
+              "1": "½0",
+              "2": "10",
+              "3": "0½",
+              "4": "×",
+              "5": "11",
+              "6": "11",
+              "7": "11",
+              "8": "11",
+              "Pos": "4",
+              "N": "3",
+              "NAME": "Wei,Andrew",
+              "Rtg": "1055",
+              "Fed": "VIC",
+              "Pts": "10.0"
+            },
+            {
+              "1": "00",
+              "2": "00",
+              "3": "00",
+              "4": "00",
+              "5": "×",
+              "6": "1½",
+              "7": "10",
+              "8": "11",
+              "Pos": "5",
+              "N": "4",
+              "NAME": "Karthick,Deepshika",
+              "Rtg": "363",
+              "Fed": "VIC",
+              "Pts": "4.5"
+            },
+            {
+              "1": "00",
+              "2": "00",
+              "3": "00",
+              "4": "00",
+              "5": "0½",
+              "6": "×",
+              "7": "11",
+              "8": "01",
+              "Pos": "6",
+              "N": "1",
+              "NAME": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Pts": "3.5"
+            },
+            {
+              "1": "00",
+              "2": "00",
+              "3": "00",
+              "4": "00",
+              "5": "01",
+              "6": "00",
+              "7": "×",
+              "8": "01",
+              "Pos": "7",
+              "N": "5",
+              "NAME": "Kukdeja,Reva",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Pts": "2.0"
+            },
+            {
+              "1": "00",
+              "2": "00",
+              "3": "00",
+              "4": "00",
+              "5": "00",
+              "6": "10",
+              "7": "10",
+              "8": "×",
+              "Pos": "8",
+              "N": "7",
+              "NAME": "Vassallo,Romeo",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Pts": "2.0"
+            }
+          ],
+          "type": "crosstable"
+        }
+      ]
+    },
+    "standings.html": {
+      "pageHeading": "Standings at round 14",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Pos",
+              "key": "Pos"
+            },
+            {
+              "name": "NAME",
+              "key": "NAME"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "KS",
+              "key": "KS"
+            },
+            {
+              "name": "SB",
+              "key": "SB"
+            },
+            {
+              "name": "BWG",
+              "key": "BWG"
+            }
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "NAME": "6    Parker,Lucas",
+              "Rtg": "765",
+              "Fed": "VIC",
+              "Pts": "13.0",
+              "KS": "0.00",
+              "SB": "75.75",
+              "BWG": "5"
+            },
+            {
+              "Pos": "2",
+              "NAME": "8    Gopalan,Pradyun",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Pts": "10.5",
+              "KS": "0.00",
+              "SB": "51.00",
+              "BWG": "5"
+            },
+            {
+              "Pos": "3",
+              "NAME": "2    Nguyen,Anh Kiet",
+              "Rtg": "1086",
+              "Fed": "VIC",
+              "Pts": "10.5",
+              "KS": "0.00",
+              "SB": "49.50",
+              "BWG": "5"
+            },
+            {
+              "Pos": "4",
+              "NAME": "3    Wei,Andrew",
+              "Rtg": "1055",
+              "Fed": "VIC",
+              "Pts": "10.0",
+              "KS": "0.00",
+              "SB": "46.25",
+              "BWG": "4"
+            },
+            {
+              "Pos": "5",
+              "NAME": "4    Karthick,Deepshika",
+              "Rtg": "363",
+              "Fed": "VIC",
+              "Pts": "4.5",
+              "KS": "0.00",
+              "SB": "11.25",
+              "BWG": "2"
+            },
+            {
+              "Pos": "6",
+              "NAME": "1    Amutha Raja,Nalan",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Pts": "3.5",
+              "KS": "0.00",
+              "SB": "8.25",
+              "BWG": "1"
+            },
+            {
+              "Pos": "7",
+              "NAME": "5    Kukdeja,Reva",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Pts": "2.0",
+              "KS": "0.00",
+              "SB": "6.50",
+              "BWG": "0"
+            },
+            {
+              "Pos": "8",
+              "NAME": "7    Vassallo,Romeo",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Pts": "2.0",
+              "KS": "0.00",
+              "SB": "5.50",
+              "BWG": "0"
+            }
+          ],
+          "footer": {
+            "text": "Tie Break legend:",
+            "html": "Tie Break legend:"
+          },
+          "type": "other"
+        }
+      ]
+    },
+    "tourstat.html": {
+      "pageHeading": "Tournament summary",
+      "tables": [
+        {
+          "headers": [],
+          "rows": [
+            {
+              "col1": "Tournament Name",
+              "col2": "Bob Grieves Junior Blitz Cup 2024 Open"
+            },
+            {
+              "col1": "Place",
+              "col2": "Altona"
+            },
+            {
+              "col1": "Federation",
+              "col2": "AUS"
+            },
+            {
+              "col1": "Date Begin",
+              "col2": "12/03/2024"
+            },
+            {
+              "col1": "Date End",
+              "col2": "12/03/2024"
+            },
+            {
+              "col1": "Arbiter(s)",
+              "col2": "IA Casey Goh"
+            },
+            {
+              "col1": "Play System",
+              "col2": "Double Round Robin"
+            },
+            {
+              "col1": "Rounds",
+              "col2": "14"
+            },
+            {
+              "col1": "Score game",
+              "col2": "0-0.5-1"
+            },
+            {
+              "col1": "Tie break",
+              "col2": "KS      SB     BWG"
+            },
+            {
+              "col1": "Registered Players",
+              "col2": "8"
+            },
+            {
+              "col1": "Number of Federations",
+              "col2": "1"
+            },
+            {
+              "col1": "Average Rating (all)",
+              "col2": "409"
+            },
+            {
+              "col1": "Average Rating (only FIDE rated)",
+              "col2": "0"
+            },
+            {
+              "col1": "Players from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "Players NOT from AUS Federation",
+              "col2": "8"
+            },
+            {
+              "col1": "FIDE rated players",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players",
+              "col2": "8"
+            },
+            {
+              "col1": "unrated players from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players NOT from AUS Federation",
+              "col2": "8"
+            },
+            {
+              "col1": "unrated Federations",
+              "col2": "1"
+            },
+            {
+              "col1": "FIDE titled players",
+              "col2": "0"
+            },
+            {
+              "col1": "GM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WGM players",
+              "col2": "0"
+            },
+            {
+              "col1": "IM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WIM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WFM players",
+              "col2": "0"
+            },
+            {
+              "col1": "CM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WCM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player NOT from AUS Federation",
+              "col2": "0"
+            }
+          ],
+          "type": "statistics"
+        }
+      ]
+    }
+  },
+  "menu": [
+    {
+      "text": "Info",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Schedule",
+          "href": "schedule.html"
+        },
+        {
+          "text": "Statistics",
+          "href": "tourstat.html"
+        }
+      ]
+    },
+    {
+      "text": "Players",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Sorted by Rating",
+          "href": "index.html"
+        },
+        {
+          "text": "Sorted by Name",
+          "href": "playersname.html"
+        }
+      ]
+    },
+    {
+      "text": "Pairings",
+      "href": "pairs14.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Standings",
+      "href": "standings.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Tables",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Schedule",
+          "href": "schedule.html"
+        },
+        {
+          "text": "Cross table by score",
+          "href": "sortedcrosstable.html"
+        }
+      ]
+    },
+    {
+      "text": "Reports",
+      "href": "#",
+      "isDropdown": true,
+      "children": []
+    }
+  ],
+  "md5Hash": "7f6828d3a2942aa3536a837e3183e526"
+}

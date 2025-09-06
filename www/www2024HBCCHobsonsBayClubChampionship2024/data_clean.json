@@ -1,0 +1,3594 @@
+{
+  "generatedAt": "2025-09-06T10:23:46.238Z",
+  "tournament": {
+    "id": "2024-hbcc-hobsons-bay-juniors-club-championship",
+    "name": "2024 HBCC Hobsons Bay Juniors Club Championship",
+    "category": "Junior",
+    "metadata": {
+      "Tournament Name": "2024 HBCC Hobsons Bay Juniors Club Championship",
+      "Place": "Hobsons Bay Chess Club",
+      "Federation": "AUS",
+      "Date Begin": "08/10/2024",
+      "Date End": "03/12/2024",
+      "Arbiter(s)": "NA Matthew Whitford",
+      "Play System": "Single Round Robin",
+      "Rounds": "7",
+      "Score game": "0-0.5-1",
+      "Tie break": "KS SB DE",
+      "Registered Players": "8",
+      "Number of Federations": "1",
+      "Average Rating (all)": "755",
+      "Average Rating (only FIDE rated)": "0",
+      "Players from AUS Federation": "0",
+      "Players NOT from AUS Federation": "8",
+      "FIDE rated players": "0",
+      "unrated players": "8",
+      "unrated players from AUS Federation": "0",
+      "unrated players NOT from AUS Federation": "8",
+      "unrated Federations": "1",
+      "FIDE titled players": "0",
+      "GM players": "0",
+      "WGM players": "0",
+      "IM players": "0",
+      "WIM players": "0",
+      "FM players": "0",
+      "WFM players": "0",
+      "CM players": "0",
+      "WCM players": "0",
+      "FIDE titled player from AUS Federation": "0",
+      "FIDE titled player NOT from AUS Federation": "0",
+      "category": "Junior",
+      "tournamentName": "2024 HBCC Hobsons Bay Juniors Club Championship",
+      "federation": "AUS",
+      "dateBegin": "08/10/2024",
+      "dateEnd": "03/12/2024",
+      "arbiters": "NA Matthew Whitford",
+      "playSystem": "Single Round Robin",
+      "rounds": 7,
+      "scoreGame": "0-0.5-1",
+      "tieBreak": "KS SB DE",
+      "registeredPlayers": 8,
+      "averageRating": 755,
+      "averageRatingFide": 0,
+      "fideRatedPlayers": 0,
+      "unratedPlayers": 8,
+      "fideTitledPlayers": 0
+    }
+  },
+  "players": [
+    {
+      "id": "8",
+      "name": "Wei,Andrew",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#8",
+      "origin": ""
+    },
+    {
+      "id": "3",
+      "name": "Nguyen,Anh Kiet",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#3",
+      "origin": ""
+    },
+    {
+      "id": "6",
+      "name": "Majety,Rohan",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#6",
+      "origin": ""
+    },
+    {
+      "id": "7",
+      "name": "Ashok,Arjun",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#7",
+      "origin": ""
+    },
+    {
+      "id": "2",
+      "name": "Bo,Jeremie",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#2",
+      "origin": ""
+    },
+    {
+      "id": "1",
+      "name": "Morris,Elijah",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#1",
+      "origin": ""
+    },
+    {
+      "id": "5",
+      "name": "Huang,Michael",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#5",
+      "origin": ""
+    },
+    {
+      "id": "4",
+      "name": "Ruaya,Rohan",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#4",
+      "origin": ""
+    }
+  ],
+  "pages": {
+    "felovar.html": {
+      "pageHeading": "FIDE rating variation at round 7",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "Ng",
+              "key": "Ng"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "ARO",
+              "key": "ARO"
+            },
+            {
+              "name": "var",
+              "key": "var"
+            },
+            {
+              "name": "Rp",
+              "key": "Rp"
+            }
+          ],
+          "rows": [],
+          "type": "standings"
+        }
+      ]
+    },
+    "fideplayercard.html": {
+      "pageHeading": "FIDE History Cards",
+      "tables": []
+    },
+    "games.html": {
+      "pageHeading": "",
+      "tables": []
+    },
+    "index.html": {
+      "pageHeading": "Registered players sorted by rating and title",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "RtgF",
+              "key": "RtgF"
+            },
+            {
+              "name": "RtgN",
+              "key": "RtgN"
+            }
+          ],
+          "rows": [
+            {
+              "#": "8",
+              "Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3265277",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1031",
+              "RtgF": "0",
+              "RtgN": "1031"
+            },
+            {
+              "#": "3",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3267849",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1013",
+              "RtgF": "0",
+              "RtgN": "1013"
+            },
+            {
+              "#": "6",
+              "Player": {
+                "id": "",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3260062",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "859",
+              "RtgF": "0",
+              "RtgN": "859"
+            },
+            {
+              "#": "7",
+              "Player": {
+                "id": "",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3275108",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "776",
+              "RtgF": "0",
+              "RtgN": "776"
+            },
+            {
+              "#": "2",
+              "Player": {
+                "id": "",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3264696",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "753",
+              "RtgF": "0",
+              "RtgN": "753"
+            },
+            {
+              "#": "1",
+              "Player": {
+                "id": "",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "654",
+              "RtgF": "0",
+              "RtgN": "654"
+            },
+            {
+              "#": "5",
+              "Player": {
+                "id": "",
+                "playerName": "Huang,Michael",
+                "gender": "male",
+                "href": "",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "537",
+              "RtgF": "0",
+              "RtgN": "537"
+            },
+            {
+              "#": "4",
+              "Player": {
+                "id": "",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "418",
+              "RtgF": "0",
+              "RtgN": "418"
+            }
+          ],
+          "footer": {
+            "text": "Rating legend: Rtg: Rating used for pairing and standings - RtgF: Fide Rating - RtgN: National Rating",
+            "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
+          },
+          "type": "other"
+        }
+      ]
+    },
+    "nelovar.html": {
+      "pageHeading": "National rating at round 7",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Name",
+              "key": "Name"
+            },
+            {
+              "name": "K",
+              "key": "K"
+            },
+            {
+              "name": "Elo",
+              "key": "Elo"
+            },
+            {
+              "name": "Var",
+              "key": "Var"
+            },
+            {
+              "name": "Per",
+              "key": "Per"
+            }
+          ],
+          "rows": [],
+          "type": "other"
+        }
+      ]
+    },
+    "pairs1.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "White Player": "1",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Pts_1": "0",
+              "Black Player": "8"
+            },
+            {
+              "Bo.": "2",
+              "White Player": "2",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Pts_1": "0",
+              "Black Player": "7"
+            },
+            {
+              "Bo.": "3",
+              "White Player": "3",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Pts_1": "0",
+              "Black Player": "6"
+            },
+            {
+              "Bo.": "4",
+              "White Player": "4",
+              "Pts": "0",
+              "Result": "0F-1F",
+              "Pts_1": "0",
+              "Black Player": "5"
+            }
+          ],
+          "type": "pairing"
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 1"
+    },
+    "pairs2.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "White Player": "8",
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Pts_1": "1",
+              "Black Player": "5"
+            },
+            {
+              "Bo.": "2",
+              "White Player": "6",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Pts_1": "0",
+              "Black Player": "4"
+            },
+            {
+              "Bo.": "3",
+              "White Player": "7",
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Pts_1": "1",
+              "Black Player": "3"
+            },
+            {
+              "Bo.": "4",
+              "White Player": "1",
+              "Pts": "0",
+              "Result": "ADJ",
+              "Pts_1": "0",
+              "Black Player": "2"
+            }
+          ],
+          "type": "pairing"
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 2"
+    },
+    "pairs3.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "White Player": "2",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Pts_1": "1",
+              "Black Player": "8"
+            },
+            {
+              "Bo.": "2",
+              "White Player": "3",
+              "Pts": "2",
+              "Result": "1 - 0",
+              "Pts_1": "0",
+              "Black Player": "1"
+            },
+            {
+              "Bo.": "3",
+              "White Player": "4",
+              "Pts": "1",
+              "Result": "0 - 1",
+              "Pts_1": "1",
+              "Black Player": "7"
+            },
+            {
+              "Bo.": "4",
+              "White Player": "5",
+              "Pts": "2",
+              "Result": "0 - 1",
+              "Pts_1": "0",
+              "Black Player": "6"
+            }
+          ],
+          "type": "pairing"
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 3"
+    },
+    "pairs4.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "White Player": "8",
+              "Pts": "2",
+              "Result": "1 - 0",
+              "Pts_1": "1",
+              "Black Player": "6"
+            },
+            {
+              "Bo.": "2",
+              "White Player": "7",
+              "Pts": "2",
+              "Result": "0 - 1",
+              "Pts_1": "2",
+              "Black Player": "5"
+            },
+            {
+              "Bo.": "3",
+              "White Player": "1",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Pts_1": "1",
+              "Black Player": "4"
+            },
+            {
+              "Bo.": "4",
+              "White Player": "2",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Pts_1": "3",
+              "Black Player": "3"
+            }
+          ],
+          "type": "pairing"
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 4"
+    },
+    "pairs5.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "White Player": "3",
+              "Pts": "4",
+              "Result": "1 - 0",
+              "Pts_1": "3",
+              "Black Player": "8"
+            },
+            {
+              "Bo.": "2",
+              "White Player": "4",
+              "Pts": "2",
+              "Result": "1 - 0",
+              "Pts_1": "0",
+              "Black Player": "2"
+            },
+            {
+              "Bo.": "3",
+              "White Player": "5",
+              "Pts": "3",
+              "Result": "0 - 1",
+              "Pts_1": "0",
+              "Black Player": "1"
+            },
+            {
+              "Bo.": "4",
+              "White Player": "6",
+              "Pts": "1",
+              "Result": "½ - ½",
+              "Pts_1": "2",
+              "Black Player": "7"
+            }
+          ],
+          "type": "pairing"
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 5"
+    },
+    "pairs6.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "White Player": "8",
+              "Pts": "3",
+              "Result": "1 - 0",
+              "Pts_1": "2.5",
+              "Black Player": "7"
+            },
+            {
+              "Bo.": "2",
+              "White Player": "1",
+              "Pts": "2",
+              "Result": "0 - 1",
+              "Pts_1": "1.5",
+              "Black Player": "6"
+            },
+            {
+              "Bo.": "3",
+              "White Player": "2",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Pts_1": "3",
+              "Black Player": "5"
+            },
+            {
+              "Bo.": "4",
+              "White Player": "3",
+              "Pts": "5",
+              "Result": "1 - 0",
+              "Pts_1": "3",
+              "Black Player": "4"
+            }
+          ],
+          "type": "pairing"
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 6"
+    },
+    "pairs7.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "White Player": "4",
+              "Pts": "3",
+              "Result": "1 - 0",
+              "Pts_1": "4",
+              "Black Player": "8"
+            },
+            {
+              "Bo.": "2",
+              "White Player": "5",
+              "Pts": "3",
+              "Result": "0 - 1",
+              "Pts_1": "6",
+              "Black Player": "3"
+            },
+            {
+              "Bo.": "3",
+              "White Player": "6",
+              "Pts": "2.5",
+              "Result": "1 - 0",
+              "Pts_1": "1",
+              "Black Player": "2"
+            },
+            {
+              "Bo.": "4",
+              "White Player": "7",
+              "Pts": "2.5",
+              "Result": "1 - 0",
+              "Pts_1": "2",
+              "Black Player": "1"
+            }
+          ],
+          "type": "pairing"
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 7"
+    },
+    "playercard.html": {
+      "pageHeading": "National History Cards",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1031",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Bo,Jeremie",
+              "Rtg": "753",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1013",
+              "res": "0.0",
+              "Pts": "7.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Ruaya,Rohan",
+              "Rtg": "418",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Huang,Michael",
+              "Rtg": "537",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "6",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Majety,Rohan",
+              "Rtg": "859",
+              "res": "0.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "7",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Ashok,Arjun",
+              "Rtg": "776",
+              "res": "0.0",
+              "Pts": "3.5"
+            }
+          ],
+          "caption": {
+            "playerName": "Morris,Elijah",
+            "id": "3208784",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "654",
+              "anchor": "1"
+            },
+            "rawText": "1   Morris,Elijah       , K= 0, Elo= 654, ID=3208784",
+            "rawHtml": "   1   <strong>Morris,Elijah       </strong>, K= 0, Elo= 654, ID=3208784\n<br>\n<a class=\"anchor\" name=\"1\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Ashok,Arjun",
+              "Rtg": "776",
+              "res": "0.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Morris,Elijah",
+              "Rtg": "654",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1031",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1013",
+              "res": "0.0",
+              "Pts": "7.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Ruaya,Rohan",
+              "Rtg": "418",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "6",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Huang,Michael",
+              "Rtg": "537",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "7",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Majety,Rohan",
+              "Rtg": "859",
+              "res": "0.0",
+              "Pts": "3.5"
+            }
+          ],
+          "caption": {
+            "playerName": "Bo,Jeremie",
+            "id": "3204606",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "753",
+              "anchor": "2"
+            },
+            "rawText": "2   Bo,Jeremie          , K= 0, Elo= 753, ID=3204606",
+            "rawHtml": "   2   <strong>Bo,Jeremie          </strong>, K= 0, Elo= 753, ID=3204606\n<br>\n<a class=\"anchor\" name=\"2\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Majety,Rohan",
+              "Rtg": "859",
+              "res": "1.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Ashok,Arjun",
+              "Rtg": "776",
+              "res": "1.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Morris,Elijah",
+              "Rtg": "654",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Bo,Jeremie",
+              "Rtg": "753",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1031",
+              "res": "1.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "6",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Ruaya,Rohan",
+              "Rtg": "418",
+              "res": "1.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "7",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Huang,Michael",
+              "Rtg": "537",
+              "res": "1.0",
+              "Pts": "3.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Nguyen,Anh Kiet",
+            "id": "3206205",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1013",
+              "anchor": "3"
+            },
+            "rawText": "3   Nguyen,Anh Kiet     , K= 0, Elo=1013, ID=3206205",
+            "rawHtml": "   3   <strong>Nguyen,Anh Kiet     </strong>, K= 0, Elo=1013, ID=3206205\n<br>\n<a class=\"anchor\" name=\"3\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Majety,Rohan",
+              "Rtg": "859",
+              "res": "1.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Ashok,Arjun",
+              "Rtg": "776",
+              "res": "0.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Morris,Elijah",
+              "Rtg": "654",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Bo,Jeremie",
+              "Rtg": "753",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "6",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1013",
+              "res": "0.0",
+              "Pts": "7.0"
+            },
+            {
+              "R": "7",
+              "C": "W",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1031",
+              "res": "1.0",
+              "Pts": "4.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Ruaya,Rohan",
+            "id": "3203980",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "418",
+              "anchor": "4"
+            },
+            "rawText": "4   Ruaya,Rohan         , K= 0, Elo= 418, ID=3203980",
+            "rawHtml": "   4   <strong>Ruaya,Rohan         </strong>, K= 0, Elo= 418, ID=3203980\n<br>\n<a class=\"anchor\" name=\"4\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "2",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1031",
+              "res": "1.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "3",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Majety,Rohan",
+              "Rtg": "859",
+              "res": "0.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Ashok,Arjun",
+              "Rtg": "776",
+              "res": "1.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Morris,Elijah",
+              "Rtg": "654",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "6",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Bo,Jeremie",
+              "Rtg": "753",
+              "res": "0.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "7",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1013",
+              "res": "0.0",
+              "Pts": "7.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Huang,Michael",
+            "id": "3204621",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "537",
+              "anchor": "5"
+            },
+            "rawText": "5   Huang,Michael       , K= 0, Elo= 537, ID=3204621",
+            "rawHtml": "   5   <strong>Huang,Michael       </strong>, K= 0, Elo= 537, ID=3204621\n<br>\n<a class=\"anchor\" name=\"5\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1013",
+              "res": "0.0",
+              "Pts": "7.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Ruaya,Rohan",
+              "Rtg": "418",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Huang,Michael",
+              "Rtg": "537",
+              "res": "1.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "4",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1031",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "5",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Ashok,Arjun",
+              "Rtg": "776",
+              "res": "0.5",
+              "Pts": "3.5"
+            },
+            {
+              "R": "6",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Morris,Elijah",
+              "Rtg": "654",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "7",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Bo,Jeremie",
+              "Rtg": "753",
+              "res": "1.0",
+              "Pts": "1.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Majety,Rohan",
+            "id": "3201585",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "859",
+              "anchor": "6"
+            },
+            "rawText": "6   Majety,Rohan        , K= 0, Elo= 859, ID=3201585",
+            "rawHtml": "   6   <strong>Majety,Rohan        </strong>, K= 0, Elo= 859, ID=3201585\n<br>\n<a class=\"anchor\" name=\"6\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Bo,Jeremie",
+              "Rtg": "753",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1013",
+              "res": "0.0",
+              "Pts": "7.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Ruaya,Rohan",
+              "Rtg": "418",
+              "res": "1.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Huang,Michael",
+              "Rtg": "537",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Majety,Rohan",
+              "Rtg": "859",
+              "res": "0.5",
+              "Pts": "3.5"
+            },
+            {
+              "R": "6",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "1031",
+              "res": "0.0",
+              "Pts": "4.0"
+            },
+            {
+              "R": "7",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Morris,Elijah",
+              "Rtg": "654",
+              "res": "1.0",
+              "Pts": "2.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Ashok,Arjun",
+            "id": "3204632",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "776",
+              "anchor": "7"
+            },
+            "rawText": "7   Ashok,Arjun         , K= 0, Elo= 776, ID=3204632",
+            "rawHtml": "   7   <strong>Ashok,Arjun         </strong>, K= 0, Elo= 776, ID=3204632\n<br>\n<a class=\"anchor\" name=\"7\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Morris,Elijah",
+              "Rtg": "654",
+              "res": "1.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "2",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Huang,Michael",
+              "Rtg": "537",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "3",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Bo,Jeremie",
+              "Rtg": "753",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "4",
+              "C": "W",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Majety,Rohan",
+              "Rtg": "859",
+              "res": "1.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "5",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1013",
+              "res": "0.0",
+              "Pts": "7.0"
+            },
+            {
+              "R": "6",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Ashok,Arjun",
+              "Rtg": "776",
+              "res": "1.0",
+              "Pts": "3.5"
+            },
+            {
+              "R": "7",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Ruaya,Rohan",
+              "Rtg": "418",
+              "res": "0.0",
+              "Pts": "4.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Wei,Andrew",
+            "id": "3204083",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1031",
+              "anchor": "8"
+            },
+            "rawText": "8   Wei,Andrew          , K= 0, Elo=1031, ID=3204083",
+            "rawHtml": "   8   <strong>Wei,Andrew          </strong>, K= 0, Elo=1031, ID=3204083\n<br>\n<a class=\"anchor\" name=\"8\"></a>"
+          },
+          "type": "other"
+        }
+      ]
+    },
+    "playersname.html": {
+      "pageHeading": "Registered players sorted by name",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "RtgF",
+              "key": "RtgF"
+            },
+            {
+              "name": "RtgN",
+              "key": "RtgN"
+            }
+          ],
+          "rows": [
+            {
+              "#": "7",
+              "Player": {
+                "id": "",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3275108",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "776",
+              "RtgF": "0",
+              "RtgN": "776"
+            },
+            {
+              "#": "2",
+              "Player": {
+                "id": "",
+                "playerName": "Bo,Jeremie",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3264696",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "753",
+              "RtgF": "0",
+              "RtgN": "753"
+            },
+            {
+              "#": "5",
+              "Player": {
+                "id": "",
+                "playerName": "Huang,Michael",
+                "gender": "male",
+                "href": "",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "537",
+              "RtgF": "0",
+              "RtgN": "537"
+            },
+            {
+              "#": "6",
+              "Player": {
+                "id": "",
+                "playerName": "Majety,Rohan",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3260062",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "859",
+              "RtgF": "0",
+              "RtgN": "859"
+            },
+            {
+              "#": "1",
+              "Player": {
+                "id": "",
+                "playerName": "Morris,Elijah",
+                "gender": "male",
+                "href": "",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "654",
+              "RtgF": "0",
+              "RtgN": "654"
+            },
+            {
+              "#": "3",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3267849",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1013",
+              "RtgF": "0",
+              "RtgN": "1013"
+            },
+            {
+              "#": "4",
+              "Player": {
+                "id": "",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "418",
+              "RtgF": "0",
+              "RtgN": "418"
+            },
+            {
+              "#": "8",
+              "Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "http://ratings.fide.com/card.phtml?event=3265277",
+                "title": ""
+              },
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1031",
+              "RtgF": "0",
+              "RtgN": "1031"
+            }
+          ],
+          "footer": {
+            "text": "Rating legend: Rtg: Rating used for pairing and standings - RtgF: Fide Rating - RtgN: National Rating",
+            "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
+          },
+          "type": "other"
+        }
+      ]
+    },
+    "schedule.html": {
+      "pageHeading": "Schedule",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Round",
+              "key": "Round"
+            },
+            {
+              "name": "Time",
+              "key": "Time"
+            },
+            {
+              "name": "Date",
+              "key": "Date"
+            }
+          ],
+          "rows": [],
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Morris,Elijah",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "NW": "1",
+              "Result": "0 - 1",
+              "NB": "8",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Bo,Jeremie",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "NW": "2",
+              "Result": "0 - 1",
+              "NB": "7",
+              "Black Player": {
+                "id": "",
+                "playerName": "Ashok,Arjun",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "NW": "3",
+              "Result": "1 - 0",
+              "NB": "6",
+              "Black Player": {
+                "id": "",
+                "playerName": "Majety,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Ruaya,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "NW": "4",
+              "Result": "0F-1F",
+              "NB": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Huang,Michael",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "NW": "8",
+              "Result": "0 - 1",
+              "NB": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Huang,Michael",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Majety,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "NW": "6",
+              "Result": "0 - 1",
+              "NB": "4",
+              "Black Player": {
+                "id": "",
+                "playerName": "Ruaya,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Ashok,Arjun",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "NW": "7",
+              "Result": "0 - 1",
+              "NB": "3",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Morris,Elijah",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "NW": "1",
+              "Result": "1 - 0",
+              "NB": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "Bo,Jeremie",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Bo,Jeremie",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "NW": "2",
+              "Result": "0 - 1",
+              "NB": "8",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "NW": "3",
+              "Result": "1 - 0",
+              "NB": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "Morris,Elijah",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Ruaya,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "NW": "4",
+              "Result": "0 - 1",
+              "NB": "7",
+              "Black Player": {
+                "id": "",
+                "playerName": "Ashok,Arjun",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Huang,Michael",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "NW": "5",
+              "Result": "0 - 1",
+              "NB": "6",
+              "Black Player": {
+                "id": "",
+                "playerName": "Majety,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "NW": "8",
+              "Result": "1 - 0",
+              "NB": "6",
+              "Black Player": {
+                "id": "",
+                "playerName": "Majety,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Ashok,Arjun",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "NW": "7",
+              "Result": "0 - 1",
+              "NB": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Huang,Michael",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Morris,Elijah",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "NW": "1",
+              "Result": "0 - 1",
+              "NB": "4",
+              "Black Player": {
+                "id": "",
+                "playerName": "Ruaya,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Bo,Jeremie",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "NW": "2",
+              "Result": "0 - 1",
+              "NB": "3",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "NW": "3",
+              "Result": "1 - 0",
+              "NB": "8",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Ruaya,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "NW": "4",
+              "Result": "1 - 0",
+              "NB": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "Bo,Jeremie",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Huang,Michael",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "NW": "5",
+              "Result": "0 - 1",
+              "NB": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "Morris,Elijah",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Majety,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "NW": "6",
+              "Result": "½ - ½",
+              "NB": "7",
+              "Black Player": {
+                "id": "",
+                "playerName": "Ashok,Arjun",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "NW": "8",
+              "Result": "1 - 0",
+              "NB": "7",
+              "Black Player": {
+                "id": "",
+                "playerName": "Ashok,Arjun",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Morris,Elijah",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "NW": "1",
+              "Result": "0 - 1",
+              "NB": "6",
+              "Black Player": {
+                "id": "",
+                "playerName": "Majety,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Bo,Jeremie",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "NW": "2",
+              "Result": "1 - 0",
+              "NB": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Huang,Michael",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "NW": "3",
+              "Result": "1 - 0",
+              "NB": "4",
+              "Black Player": {
+                "id": "",
+                "playerName": "Ruaya,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Ruaya,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "NW": "4",
+              "Result": "1 - 0",
+              "NB": "8",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Huang,Michael",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "NW": "5",
+              "Result": "0 - 1",
+              "NB": "3",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Majety,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "NW": "6",
+              "Result": "1 - 0",
+              "NB": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "Bo,Jeremie",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Ashok,Arjun",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "NW": "7",
+              "Result": "1 - 0",
+              "NB": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "Morris,Elijah",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        }
+      ]
+    },
+    "sortedcrosstable.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Pos",
+              "key": "Pos"
+            },
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "NAME",
+              "key": "NAME"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "1",
+              "key": "1"
+            },
+            {
+              "name": "2",
+              "key": "2"
+            },
+            {
+              "name": "3",
+              "key": "3"
+            },
+            {
+              "name": "4",
+              "key": "4"
+            },
+            {
+              "name": "5",
+              "key": "5"
+            },
+            {
+              "name": "6",
+              "key": "6"
+            },
+            {
+              "name": "7",
+              "key": "7"
+            },
+            {
+              "name": "8",
+              "key": "8"
+            }
+          ],
+          "rows": [
+            {
+              "1": "×",
+              "2": "1",
+              "3": "1",
+              "4": "1",
+              "5": "1",
+              "6": "1",
+              "7": "1",
+              "8": "1",
+              "Pos": "1",
+              "#": "3",
+              "NAME": "Nguyen,Anh Kiet",
+              "Rtg": "1013",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "7.0"
+            },
+            {
+              "1": "0",
+              "2": "×",
+              "3": "1",
+              "4": "0",
+              "5": "1",
+              "6": "-",
+              "7": "1",
+              "8": "1",
+              "Pos": "2",
+              "#": "4",
+              "NAME": "Ruaya,Rohan",
+              "Rtg": "418",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.0"
+            },
+            {
+              "1": "0",
+              "2": "0",
+              "3": "×",
+              "4": "1",
+              "5": "1",
+              "6": "0",
+              "7": "1",
+              "8": "1",
+              "Pos": "3",
+              "#": "8",
+              "NAME": "Wei,Andrew",
+              "Rtg": "1031",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.0"
+            },
+            {
+              "1": "0",
+              "2": "1",
+              "3": "0",
+              "4": "×",
+              "5": "½",
+              "6": "0",
+              "7": "1",
+              "8": "1",
+              "Pos": "4",
+              "#": "7",
+              "NAME": "Ashok,Arjun",
+              "Rtg": "776",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.5"
+            },
+            {
+              "1": "0",
+              "2": "0",
+              "3": "0",
+              "4": "½",
+              "5": "×",
+              "6": "1",
+              "7": "1",
+              "8": "1",
+              "Pos": "5",
+              "#": "6",
+              "NAME": "Majety,Rohan",
+              "Rtg": "859",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.5"
+            },
+            {
+              "1": "0",
+              "2": "+",
+              "3": "1",
+              "4": "1",
+              "5": "0",
+              "6": "×",
+              "7": "0",
+              "8": "0",
+              "Pos": "6",
+              "#": "5",
+              "NAME": "Huang,Michael",
+              "Rtg": "537",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.0"
+            },
+            {
+              "1": "0",
+              "2": "0",
+              "3": "0",
+              "4": "0",
+              "5": "0",
+              "6": "1",
+              "7": "×",
+              "8": "1",
+              "Pos": "7",
+              "#": "1",
+              "NAME": "Morris,Elijah",
+              "Rtg": "654",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "2.0"
+            },
+            {
+              "1": "0",
+              "2": "0",
+              "3": "0",
+              "4": "0",
+              "5": "0",
+              "6": "1",
+              "7": "0",
+              "8": "×",
+              "Pos": "8",
+              "#": "2",
+              "NAME": "Bo,Jeremie",
+              "Rtg": "753",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "1.0"
+            }
+          ],
+          "type": "crosstable"
+        }
+      ]
+    },
+    "standings.html": {
+      "pageHeading": "Standings at round 7",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Pos",
+              "key": "Pos"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "KS",
+              "key": "KS"
+            },
+            {
+              "name": "SB",
+              "key": "SB"
+            },
+            {
+              "name": "DE",
+              "key": "DE"
+            }
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Player": "3",
+              "Origin": "",
+              "Pts": "7.0",
+              "KS": "4.00",
+              "SB": "21.00",
+              "DE": "0"
+            },
+            {
+              "Pos": "2",
+              "Player": "4",
+              "Origin": "",
+              "Pts": "4.0",
+              "KS": "2.00",
+              "SB": "10.50",
+              "DE": "0"
+            },
+            {
+              "Pos": "3",
+              "Player": "8",
+              "Origin": "",
+              "Pts": "4.0",
+              "KS": "2.00",
+              "SB": "10.00",
+              "DE": "0"
+            },
+            {
+              "Pos": "4",
+              "Player": "7",
+              "Origin": "",
+              "Pts": "3.5",
+              "KS": "1.50",
+              "SB": "8.75",
+              "DE": "0"
+            },
+            {
+              "Pos": "5",
+              "Player": "6",
+              "Origin": "",
+              "Pts": "3.5",
+              "KS": "0.50",
+              "SB": "7.75",
+              "DE": "0"
+            },
+            {
+              "Pos": "6",
+              "Player": "5",
+              "Origin": "",
+              "Pts": "3.0",
+              "KS": "3.00",
+              "SB": "11.50",
+              "DE": "0"
+            },
+            {
+              "Pos": "7",
+              "Player": "1",
+              "Origin": "",
+              "Pts": "2.0",
+              "KS": "0.00",
+              "SB": "4.00",
+              "DE": "0"
+            },
+            {
+              "Pos": "8",
+              "Player": "2",
+              "Origin": "",
+              "Pts": "1.0",
+              "KS": "0.00",
+              "SB": "3.00",
+              "DE": "0"
+            }
+          ],
+          "footer": {
+            "text": "Tie Break legend:     KS  :  Koya System * \n     SB  :  Sonneborn-Berger * \n     DE  :  Direct Encounter *",
+            "html": "Tie Break legend:<br>     KS  :  Koya System * <br>\n     SB  :  Sonneborn-Berger * <br>\n     DE  :  Direct Encounter * <br>"
+          },
+          "type": "standings"
+        }
+      ]
+    },
+    "tourstat.html": {
+      "pageHeading": "Tournament summary",
+      "tables": [
+        {
+          "headers": [],
+          "rows": [
+            {
+              "col1": "Tournament Name",
+              "col2": "2024 HBCC Hobsons Bay Juniors Club Championship"
+            },
+            {
+              "col1": "Place",
+              "col2": "Hobsons Bay Chess Club"
+            },
+            {
+              "col1": "Federation",
+              "col2": "AUS"
+            },
+            {
+              "col1": "Date Begin",
+              "col2": "08/10/2024"
+            },
+            {
+              "col1": "Date End",
+              "col2": "03/12/2024"
+            },
+            {
+              "col1": "Arbiter(s)",
+              "col2": "NA Matthew Whitford"
+            },
+            {
+              "col1": "Play System",
+              "col2": "Single Round Robin"
+            },
+            {
+              "col1": "Rounds",
+              "col2": "7"
+            },
+            {
+              "col1": "Score game",
+              "col2": "0-0.5-1"
+            },
+            {
+              "col1": "Tie break",
+              "col2": "KS      SB      DE"
+            },
+            {
+              "col1": "Registered Players",
+              "col2": "8"
+            },
+            {
+              "col1": "Number of Federations",
+              "col2": "1"
+            },
+            {
+              "col1": "Average Rating (all)",
+              "col2": "755"
+            },
+            {
+              "col1": "Average Rating (only FIDE rated)",
+              "col2": "0"
+            },
+            {
+              "col1": "Players from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "Players NOT from AUS Federation",
+              "col2": "8"
+            },
+            {
+              "col1": "FIDE rated players",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players",
+              "col2": "8"
+            },
+            {
+              "col1": "unrated players from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players NOT from AUS Federation",
+              "col2": "8"
+            },
+            {
+              "col1": "unrated Federations",
+              "col2": "1"
+            },
+            {
+              "col1": "FIDE titled players",
+              "col2": "0"
+            },
+            {
+              "col1": "GM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WGM players",
+              "col2": "0"
+            },
+            {
+              "col1": "IM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WIM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WFM players",
+              "col2": "0"
+            },
+            {
+              "col1": "CM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WCM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player NOT from AUS Federation",
+              "col2": "0"
+            }
+          ],
+          "type": "statistics"
+        }
+      ]
+    }
+  },
+  "menu": [
+    {
+      "text": "Info",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Schedule",
+          "href": "schedule.html"
+        },
+        {
+          "text": "Statistics",
+          "href": "tourstat.html"
+        }
+      ]
+    },
+    {
+      "text": "Players",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Sorted by Rating",
+          "href": "index.html"
+        },
+        {
+          "text": "Sorted by Name",
+          "href": "playersname.html"
+        }
+      ]
+    },
+    {
+      "text": "Pairings",
+      "href": "pairs7.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Standings",
+      "href": "standings.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Tables",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Cross table by score",
+          "href": "sortedcrosstable.html"
+        }
+      ]
+    },
+    {
+      "text": "Reports",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "FIDE Rating",
+          "href": "felovar.html"
+        },
+        {
+          "text": "FIDE Player Card",
+          "href": "fideplayercard.html"
+        },
+        {
+          "text": "National rating",
+          "href": "nelovar.html"
+        },
+        {
+          "text": "National Player Card",
+          "href": "playercard.html"
+        }
+      ]
+    }
+  ],
+  "md5Hash": "040465d2b0115165ae1bf6a6a7ac7c54"
+}

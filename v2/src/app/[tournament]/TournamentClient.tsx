@@ -34,10 +34,30 @@ type PageData = {
     pairingScheduleText?: string;
 };
 
+type Player = {
+    id: string;
+    name: string;
+    title: string;
+    federation: string;
+    fideId: string;
+    fideRating: number | null;
+    fideFederation: string;
+    gender: string;
+    href: string;
+    origin: string;
+};
+
 type TournamentData = {
-    metadata: Record<string, unknown>;
+    generatedAt: string;
+    tournament: {
+        id: string;
+        name: string;
+        category: string;
+        metadata: Record<string, unknown>;
+    };
+    players: Player[];
+    pages: Record<string, PageData>;
     menu: MenuItem[];
-    page: Record<string, PageData>;
 };
 
 type MenuItem = {
@@ -57,7 +77,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     const playerId = searchParams?.get("id"); // Get player ID for auto-scroll
 
     useEffect(() => {
-        fetch(process.env.NEXT_PUBLIC_APP_URL + `/www${resolvedParams.tournament}/data.json?ts=${new Date().getTime()}`)
+        fetch(process.env.NEXT_PUBLIC_APP_URL + `/www${resolvedParams.tournament}/data_clean.json?ts=${new Date().getTime()}`)
             .then((res) => res.json())
             .then((json) => setData(json));
     }, [resolvedParams.tournament]);
@@ -92,7 +112,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
 
     // Pairing selector logic
     const isPairingPage = page.startsWith("pairs");
-    const pairingPages = data?.page ? Object.keys(data.page).filter((k) => k.startsWith("pairs")) : [];
+    const pairingPages = data?.pages ? Object.keys(data.pages).filter((k) => k.startsWith("pairs")) : [];
     // const currentPairingIdx = pairingPages.indexOf(page); // Unused variable
 
     // Handlers
@@ -114,28 +134,34 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     };
 
     const handlePlayerClick = (playerId: string | number, playerData?: Record<string, unknown>) => {
-        // Find player data from playercard page
-        const playercardData = data?.page['playercard.html'];
+        // Find player data from centralized players array
+        const player = data?.players.find(p => p.id === String(playerId));
         
-        if (playercardData?.tables) {
-            // Look for the player in the playercard tables
-            for (let i = 0; i < playercardData.tables.length; i++) {
-                const table = playercardData.tables[i];
-                
-                // Check if this table belongs to the clicked player
-                const caption = table.caption as Record<string, unknown>;
-                const moreInfo = caption.moreInfo as Record<string, unknown> | undefined;
-                if (table.caption && typeof table.caption === 'object' && moreInfo?.anchor === String(playerId)) {
-                    // Create a comprehensive player data object from the table
-                    const modalPlayerData = {
-                        ...table.caption, // Include caption data (name, id, etc.)
-                        tables: [table], // Include the table data for detailed information
-                        clickedPlayerData: playerData // Include the clicked player data for title information
-                    };
+        if (player) {
+            // Find player data from playercard page
+            const playercardData = data?.pages['playercard.html'];
+            
+            if (playercardData?.tables) {
+                // Look for the player in the playercard tables
+                for (let i = 0; i < playercardData.tables.length; i++) {
+                    const table = playercardData.tables[i];
                     
-                    setSelectedPlayerData(modalPlayerData);
-                    setIsPlayerModalOpen(true);
-                    return;
+                    // Check if this table belongs to the clicked player
+                    const caption = table.caption as Record<string, unknown>;
+                    const moreInfo = caption.moreInfo as Record<string, unknown> | undefined;
+                    if (table.caption && typeof table.caption === 'object' && moreInfo?.anchor === String(playerId)) {
+                        // Create a comprehensive player data object from the table
+                        const modalPlayerData = {
+                            ...table.caption, // Include caption data (name, id, etc.)
+                            tables: [table], // Include the table data for detailed information
+                            clickedPlayerData: playerData, // Include the clicked player data for title information
+                            player: player // Include the centralized player data
+                        };
+                        
+                        setSelectedPlayerData(modalPlayerData);
+                        setIsPlayerModalOpen(true);
+                        return;
+                    }
                 }
             }
         }
@@ -260,20 +286,15 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
         return hasWhite && hasBlack;
     };
 
-    // Simple function to get FIDE ID from player data (data is now pre-enriched)
-    const getFideId = (player: Record<string, unknown>): string | null => {
-        // Try direct fideId property first
-        if (player.fideId && typeof player.fideId === 'string') {
-            return player.fideId;
-        }
-        
-        // Try moreInfo.fideId (camelCase)
-        const moreInfo = player.moreInfo as Record<string, unknown> | undefined;
-        if (moreInfo?.fideId && typeof moreInfo.fideId === 'string') {
-            return moreInfo.fideId;
-        }
-        
-        return null;
+    // Function to get player data from centralized players array
+    const getPlayerData = (playerId: string | number): Player | null => {
+        return data?.players.find(p => p.id === String(playerId)) || null;
+    };
+
+    // Function to get FIDE ID from player ID
+    const getFideId = (playerId: string | number): string | null => {
+        const player = getPlayerData(playerId);
+        return player?.fideId || null;
     };
 
 
@@ -399,11 +420,11 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     }
 
     // Data is now pre-enriched, so we can use it directly
-    const currentPageData = data ? data.page[page] : null;
+    const currentPageData = data ? data.pages[page] : null;
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
-            <TournamentMeta metadata={data.metadata} />
+            <TournamentMeta metadata={data.tournament.metadata} />
 
             <div className="mt-0">
                 <TournamentMenu menu={data.menu} activePage={page} onSelectPage={handleSelectPage} />
@@ -544,10 +565,11 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                                                         key.toLowerCase().includes('black') || key.toLowerCase() === 'black' || key.toLowerCase() === 'b'
                                                                                     );
                                                                                     
-                                                                                    const whitePlayer = whiteKey ? row[whiteKey] : null;
-                                                                                    const blackPlayer = blackKey ? row[blackKey] : null;
-                                            const whiteFideId = getFideId(whitePlayer as Record<string, unknown>);
-                                            const blackFideId = getFideId(blackPlayer as Record<string, unknown>);
+                                                                                    const whitePlayerId = whiteKey ? row[whiteKey] : null;
+                                                                                    const blackPlayerId = blackKey ? row[blackKey] : null;
+                                                                                    
+                                                                                    const whiteFideId = (whitePlayerId && typeof whitePlayerId === 'string') ? getFideId(whitePlayerId) : null;
+                                                                                    const blackFideId = (blackPlayerId && typeof blackPlayerId === 'string') ? getFideId(blackPlayerId) : null;
                                                                                     
                                                                                     if (whiteFideId && blackFideId) {
                                                                                         const compareUrl = `https://fide-compare.truongthings.dev/?id=${whiteFideId},${blackFideId}`;
@@ -574,6 +596,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                                                     onPlayerClick={handlePlayerClick}
                                                                                     tournamentPath={`/${resolvedParams.tournament}`}
                                                                                     columnHeader={header.name}
+                                                                                    players={data.players}
                                                                                 />
                                                                             )}
                                                                         </td>
@@ -628,10 +651,11 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                                                         key.toLowerCase().includes('black') || key.toLowerCase() === 'black' || key.toLowerCase() === 'b'
                                                                                     );
                                                                                     
-                                                                                    const whitePlayer = whiteKey ? row[whiteKey] : null;
-                                                                                    const blackPlayer = blackKey ? row[blackKey] : null;
-                                            const whiteFideId = getFideId(whitePlayer as Record<string, unknown>);
-                                            const blackFideId = getFideId(blackPlayer as Record<string, unknown>);
+                                                                                    const whitePlayerId = whiteKey ? row[whiteKey] : null;
+                                                                                    const blackPlayerId = blackKey ? row[blackKey] : null;
+                                                                                    
+                                                                                    const whiteFideId = (whitePlayerId && typeof whitePlayerId === 'string') ? getFideId(whitePlayerId) : null;
+                                                                                    const blackFideId = (blackPlayerId && typeof blackPlayerId === 'string') ? getFideId(blackPlayerId) : null;
                                                                                     
                                                                                     if (whiteFideId && blackFideId) {
                                                                                         const compareUrl = `https://fide-compare.truongthings.dev/?id=${whiteFideId},${blackFideId}`;
@@ -658,6 +682,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                                                     onPlayerClick={handlePlayerClick}
                                                                                     tournamentPath={`/${resolvedParams.tournament}`}
                                                                                     columnHeader={header.name}
+                                                                                    players={data.players}
                                                                                 />
                                                                             )}
                                                                         </div>
