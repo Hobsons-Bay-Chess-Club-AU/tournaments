@@ -521,6 +521,204 @@ async function extractMinimalMetadataFromIndex(indexHtmlPath) {
     return meta;
 }
 
+// Function to build comprehensive player lookup from all sources
+function buildPlayerLookup(pageData, folderName) {
+    const playerMap = new Map(); // Key: player number (#), Value: enriched player data
+    
+    // Step 1: Collect basic player data from index.html
+    const indexData = pageData['index.html'];
+    if (indexData?.tables && indexData.tables.length > 0) {
+        const playerTable = indexData.tables[0];
+        if (playerTable.rows) {
+            playerTable.rows.forEach(row => {
+                const playerNumber = row['#'];
+                const playerObj = row['Player'];
+                const title = row['Title'];
+                const federation = row['Fed'];
+                const rating = row['Rtg'];
+                
+                // Handle both string and object Player data
+                let playerName = '';
+                let playerId = '';
+                let gender = '';
+                let href = '';
+                
+                if (typeof playerObj === 'string') {
+                    playerName = playerObj;
+                    playerId = String(playerNumber);
+                } else if (typeof playerObj === 'object' && playerObj !== null) {
+                    playerName = playerObj.playerName || '';
+                    playerId = playerObj.id || String(playerNumber);
+                    gender = playerObj.gender || '';
+                    href = playerObj.href || `playercard.html#${playerNumber}`;
+                }
+                
+                if (playerNumber && playerName) {
+                    const playerData = {
+                        id: playerId,
+                        playerName: playerName,
+                        title: title ? String(title) : '',
+                        federation: federation ? String(federation) : '',
+                        rating: rating ? String(rating) : '',
+                        gender: gender,
+                        fideId: '',
+                        href: href,
+                        moreInfo: {}
+                    };
+                    playerMap.set(String(playerNumber), playerData);
+                }
+            });
+        }
+    }
+    
+    // Step 2: Enrich with FIDE data from felovar.html
+    const felovarData = pageData['felovar.html'];
+    if (felovarData?.tables && felovarData.tables.length > 0) {
+        const felovarTable = felovarData.tables[0];
+        if (felovarTable.rows) {
+            felovarTable.rows.forEach(row => {
+                const playerNumber = row['#'];
+                const playerData = row['Player'];
+                const fideId = row['FIDE ID'];
+                const fideRating = row['Rtg'];
+                const federation = row['Fed'];
+                
+                if (playerNumber && playerData && fideId) {
+                    const existingPlayer = playerMap.get(String(playerNumber));
+                    if (existingPlayer) {
+                        // Enrich existing player with FIDE data
+                        existingPlayer.fideId = String(fideId);
+                        existingPlayer.gender = playerData.gender || existingPlayer.gender;
+                        existingPlayer.title = playerData.title || existingPlayer.title;
+                        existingPlayer.federation = federation || existingPlayer.federation;
+                        existingPlayer.rating = fideRating || existingPlayer.rating;
+                        existingPlayer.moreInfo = {
+                            ...existingPlayer.moreInfo,
+                            fideId: String(fideId),
+                            fideRating: fideRating ? String(fideRating) : '',
+                            fideFederation: federation ? String(federation) : ''
+                        };
+                    } else {
+                        // Create new player entry if not found in index
+                        const newPlayer = {
+                            id: String(playerNumber),
+                            playerName: playerData.playerName || '',
+                            title: playerData.title || '',
+                            federation: federation || '',
+                            rating: fideRating || '',
+                            gender: playerData.gender || '',
+                            fideId: String(fideId),
+                            href: `playercard.html#${playerNumber}`,
+                            moreInfo: {
+                                fideId: String(fideId),
+                                fideRating: fideRating ? String(fideRating) : '',
+                                fideFederation: federation ? String(federation) : ''
+                            }
+                        };
+                        playerMap.set(String(playerNumber), newPlayer);
+                    }
+                }
+            });
+        }
+    }
+    
+    // Step 3: Collect additional player data from pairing tables
+    Object.keys(pageData).forEach(fileName => {
+        if (fileName !== 'index.html' && fileName !== 'felovar.html') {
+            const pageTables = pageData[fileName]?.tables;
+            if (pageTables) {
+                pageTables.forEach(table => {
+                    if (table.rows) {
+                        table.rows.forEach(row => {
+                            // Check all columns for player objects
+                            Object.keys(row).forEach(columnKey => {
+                                const value = row[columnKey];
+                                
+                                // Check if this is a player object
+                                if (typeof value === 'object' && value !== null && value.playerName && value.id) {
+                                    const playerId = String(value.id);
+                                    const existingPlayer = playerMap.get(playerId);
+                                    
+                                    if (existingPlayer) {
+                                        // Merge additional data from pairing table
+                                        existingPlayer.gender = value.gender || existingPlayer.gender;
+                                        existingPlayer.title = value.title || existingPlayer.title;
+                                        existingPlayer.href = value.href || existingPlayer.href;
+                                        
+                                        // Merge moreInfo
+                                        existingPlayer.moreInfo = {
+                                            ...existingPlayer.moreInfo,
+                                            ...(value.moreInfo || {})
+                                        };
+                                    } else {
+                                        // Create new player entry from pairing data
+                                        const newPlayer = {
+                                            id: playerId,
+                                            playerName: value.playerName || '',
+                                            title: value.title || '',
+                                            federation: '',
+                                            rating: '',
+                                            gender: value.gender || '',
+                                            fideId: '',
+                                            href: value.href || `playercard.html#${playerId}`,
+                                            moreInfo: value.moreInfo || {}
+                                        };
+                                        playerMap.set(playerId, newPlayer);
+                                    }
+                                }
+                            });
+                        });
+                    }
+                });
+            }
+        }
+    });
+    
+    console.log(`[${folderName}] Built player lookup with ${playerMap.size} players`);
+    return playerMap;
+}
+
+// Function to enrich all tables with standardized player data
+function enrichTablesWithPlayerData(pageData, playerLookup) {
+    const enrichedPageData = {};
+    
+    Object.keys(pageData).forEach(fileName => {
+        const page = pageData[fileName];
+        enrichedPageData[fileName] = {
+            ...page,
+            tables: page.tables?.map(table => {
+                if (!table.rows) return table;
+                
+                const enrichedRows = table.rows.map(row => {
+                    const enrichedRow = { ...row };
+                    
+                    // Enrich all player fields in the row
+                    Object.keys(row).forEach(key => {
+                        const value = row[key];
+                        
+                        // Check if this is a player object
+                        if (typeof value === 'object' && value !== null && value.playerName && value.id) {
+                            const playerId = String(value.id);
+                            const fullPlayerData = playerLookup.get(playerId);
+                            
+                            if (fullPlayerData) {
+                                // Merge the original player data with the enriched data
+                                enrichedRow[key] = { ...value, ...fullPlayerData };
+                            }
+                        }
+                    });
+                    
+                    return enrichedRow;
+                });
+                
+                return { ...table, rows: enrichedRows };
+            })
+        };
+    });
+    
+    return enrichedPageData;
+}
+
 async function processFolder(folderName) {
     const TARGET_PATH = path.join(WWW_FOLDER, folderName);
     const OUTPUT_FILE = path.join(TARGET_PATH, 'data.json');
@@ -528,6 +726,8 @@ async function processFolder(folderName) {
     const result = {
         generatedAt: new Date().toISOString(),
     };
+    
+    // First pass: collect all page data
     result.page = {};
     for (const file of htmlFiles) {
         const filePath = path.join(TARGET_PATH, file);
@@ -539,6 +739,13 @@ async function processFolder(folderName) {
             console.error(`[${folderName}] Error processing ${file}:`, err);
         }
     }
+    
+    // Second pass: build comprehensive player lookup and enrich all data
+    const playerLookup = buildPlayerLookup(result.page, folderName);
+    result.page = enrichTablesWithPlayerData(result.page, playerLookup);
+    
+    // Store the player lookup for reference
+    result.playerLookup = Object.fromEntries(playerLookup);
     // Extract menu structure from index.html
     const indexHtmlPath = path.join(TARGET_PATH, 'index.html');
     try {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-05T08:33:06.861Z",
+  "generatedAt": "2025-09-06T05:07:37.356Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 5",
@@ -75,7 +75,11 @@
                 "playerName": "McIntyre,Julian",
                 "gender": "male",
                 "href": "playercard.html#1",
-                "title": ""
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
               },
               "Rtg": "1547",
               "Fed": "VIC",
@@ -112,7 +116,11 @@
                 "playerName": "Hogan,Steven",
                 "gender": "male",
                 "href": "playercard.html#2",
-                "title": ""
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
               },
               "Rtg": "1494",
               "Fed": "VIC",
@@ -149,7 +157,11 @@
                 "playerName": "Picone,James",
                 "gender": "male",
                 "href": "playercard.html#3",
-                "title": ""
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
               },
               "Rtg": "1482",
               "Fed": "VIC",
@@ -186,7 +198,11 @@
                 "playerName": "Nguyen,Anh Kiet",
                 "gender": "male",
                 "href": "playercard.html#4",
-                "title": ""
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
               },
               "Rtg": "1276",
               "Fed": "VIC",
@@ -223,7 +239,11 @@
                 "playerName": "Richards,Derek",
                 "gender": "male",
                 "href": "playercard.html#5",
-                "title": ""
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
               },
               "Rtg": "1207",
               "Fed": "VIC",
@@ -260,7 +280,11 @@
                 "playerName": "Temizel,Hazar",
                 "gender": "male",
                 "href": "playercard.html#6",
-                "title": ""
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
               },
               "Rtg": "1100",
               "Fed": "VIC",
@@ -297,7 +321,11 @@
                 "playerName": "Bodke,Krishna",
                 "gender": "male",
                 "href": "playercard.html#7",
-                "title": ""
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
               },
               "Rtg": "1044",
               "Fed": "VIC",
@@ -334,7 +362,11 @@
                 "playerName": "Clerk,Max",
                 "gender": "male",
                 "href": "playercard.html#8",
-                "title": ""
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
               },
               "Rtg": "1032",
               "Fed": "VIC",
@@ -367,7 +399,11 @@
                 "playerName": "Liu,Tina         (W)",
                 "gender": "female",
                 "href": "playercard.html#9",
-                "title": ""
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
               },
               "Rtg": "495",
               "Fed": "VIC",
@@ -396,7 +432,11 @@
                 "playerName": "Nicdao,Joseph    (W)",
                 "gender": "male",
                 "href": "playercard.html#10",
-                "title": ""
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
               },
               "Rtg": "0",
               "Fed": "VIC",
@@ -433,7 +473,11 @@
                 "playerName": "Sicurella,Lucas",
                 "gender": "male",
                 "href": "playercard.html#11",
-                "title": ""
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
               },
               "Rtg": "0",
               "Fed": "AUS",
@@ -470,7 +514,11 @@
                 "playerName": "Ilic,Milan",
                 "gender": "male",
                 "href": "playercard.html#12",
-                "title": ""
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
               },
               "Rtg": "1541",
               "Fed": "VIC",
@@ -507,7 +555,11 @@
                 "playerName": "Nawar,Mena",
                 "gender": "male",
                 "href": "playercard.html#13",
-                "title": ""
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
               },
               "Rtg": "613",
               "Fed": "VIC",
@@ -536,7 +588,11 @@
                 "playerName": "Whitford,Matthew",
                 "gender": "male",
                 "href": "playercard.html#14",
-                "title": ""
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
               },
               "Rtg": "1562",
               "Fed": "VIC",
@@ -5959,6 +6015,162 @@
           ]
         }
       ]
+    }
+  },
+  "playerLookup": {
+    "1": {
+      "id": "1",
+      "playerName": "McIntyre,Julian",
+      "title": "",
+      "federation": "",
+      "rating": "",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#1",
+      "moreInfo": {}
+    },
+    "2": {
+      "id": "2",
+      "playerName": "Hogan,Steven",
+      "title": "",
+      "federation": "",
+      "rating": "",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#2",
+      "moreInfo": {}
+    },
+    "3": {
+      "id": "3",
+      "playerName": "Picone,James",
+      "title": "",
+      "federation": "",
+      "rating": "",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#3",
+      "moreInfo": {}
+    },
+    "4": {
+      "id": "4",
+      "playerName": "Nguyen,Anh Kiet",
+      "title": "",
+      "federation": "",
+      "rating": "",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#4",
+      "moreInfo": {}
+    },
+    "5": {
+      "id": "5",
+      "playerName": "Richards,Derek",
+      "title": "",
+      "federation": "",
+      "rating": "",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#5",
+      "moreInfo": {}
+    },
+    "6": {
+      "id": "6",
+      "playerName": "Temizel,Hazar",
+      "title": "",
+      "federation": "",
+      "rating": "",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#6",
+      "moreInfo": {}
+    },
+    "7": {
+      "id": "7",
+      "playerName": "Bodke,Krishna",
+      "title": "",
+      "federation": "",
+      "rating": "",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#7",
+      "moreInfo": {}
+    },
+    "8": {
+      "id": "8",
+      "playerName": "Clerk,Max",
+      "title": "",
+      "federation": "",
+      "rating": "",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#8",
+      "moreInfo": {}
+    },
+    "9": {
+      "id": "9",
+      "playerName": "Liu,Tina         (W)",
+      "title": "",
+      "federation": "",
+      "rating": "",
+      "gender": "female",
+      "fideId": "",
+      "href": "playercard.html#9",
+      "moreInfo": {}
+    },
+    "10": {
+      "id": "10",
+      "playerName": "Nicdao,Joseph    (W)",
+      "title": "",
+      "federation": "",
+      "rating": "",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#10",
+      "moreInfo": {}
+    },
+    "11": {
+      "id": "11",
+      "playerName": "Sicurella,Lucas",
+      "title": "",
+      "federation": "",
+      "rating": "",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#11",
+      "moreInfo": {}
+    },
+    "12": {
+      "id": "12",
+      "playerName": "Ilic,Milan",
+      "title": "",
+      "federation": "",
+      "rating": "",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#12",
+      "moreInfo": {}
+    },
+    "13": {
+      "id": "13",
+      "playerName": "Nawar,Mena",
+      "title": "",
+      "federation": "",
+      "rating": "",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#13",
+      "moreInfo": {}
+    },
+    "14": {
+      "id": "14",
+      "playerName": "Whitford,Matthew",
+      "title": "",
+      "federation": "",
+      "rating": "",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#14",
+      "moreInfo": {}
     }
   },
   "menu": [

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-05T08:32:59.340Z",
+  "generatedAt": "2025-09-06T05:07:32.991Z",
   "page": {
     "index.html": {
       "pageHeading": "Registered players sorted by rating and title",
@@ -116,6 +116,19 @@
           }
         }
       ]
+    }
+  },
+  "playerLookup": {
+    "1": {
+      "id": "1",
+      "playerName": "Hogan,Steven",
+      "title": "",
+      "federation": "VIC",
+      "rating": "1515",
+      "gender": "male",
+      "fideId": "",
+      "href": "http://ratings.fide.com/card.phtml?event=3201414",
+      "moreInfo": {}
     }
   },
   "menu": [

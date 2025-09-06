@@ -242,11 +242,53 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
         });
     };
 
-    // Function to get filtered headers (excluding empty columns)
+    // Function to check if a table is a pairing table (has White and Black columns)
+    const isPairingTable = (table: { headers?: MixedHeader[]; rows?: Record<string, unknown>[] }): boolean => {
+        if (!table.headers || !table.rows || table.rows.length === 0) return false;
+        
+        const headerKeys = table.headers.map(h => (typeof h === 'string' ? h : h.key)).map(k => k.toLowerCase());
+        
+        // Check for various white/black column name patterns
+        const hasWhite = headerKeys.some(key => 
+            key.includes('white') || key === 'white' || key === 'w'
+        );
+        const hasBlack = headerKeys.some(key => 
+            key.includes('black') || key === 'black' || key === 'b'
+        );
+        
+        
+        return hasWhite && hasBlack;
+    };
+
+    // Simple function to get FIDE ID from player data (data is now pre-enriched)
+    const getFideId = (player: Record<string, unknown>): string | null => {
+        // Try direct fideId property first
+        if (player.fideId && typeof player.fideId === 'string') {
+            return player.fideId;
+        }
+        
+        // Try moreInfo.fideId (camelCase)
+        const moreInfo = player.moreInfo as Record<string, unknown> | undefined;
+        if (moreInfo?.fideId && typeof moreInfo.fideId === 'string') {
+            return moreInfo.fideId;
+        }
+        
+        return null;
+    };
+
+
+    // Function to get filtered headers (excluding empty columns) and add comparison column for pairing tables
     const getFilteredHeaders = (table: { headers?: MixedHeader[]; rows?: Record<string, unknown>[] }): Header[] => {
         const normalizedHeaders: Header[] = (table.headers?.map(h => (typeof h === 'string' ? { name: h, key: h } : h)) || []);
         
-        return normalizedHeaders.filter(header => !isColumnEmpty(table, header.key));
+        const filteredHeaders = normalizedHeaders.filter(header => !isColumnEmpty(table, header.key));
+        
+        // Add comparison column for pairing tables
+        if (isPairingTable(table)) {
+            filteredHeaders.push({ name: 'Compare', key: 'compare' });
+        }
+        
+        return filteredHeaders;
     };
 
     // Generate a plain-text representation of a table (headers + current filtered/sorted rows)
@@ -356,7 +398,8 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
         );
     }
 
-    const currentPageData = data.page[page];
+    // Data is now pre-enriched, so we can use it directly
+    const currentPageData = data ? data.page[page] : null;
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
@@ -490,12 +533,49 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                                 <tr key={ridx} className={`transition-all duration-150 hover:bg-blue-50/50 hover:shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
                                                                     {getFilteredHeaders(table).map((header: Header, hidx: number) => (
                                                                         <td key={hidx} className="px-6 py-4 text-sm text-gray-900 font-medium">
-                                                                            <PlayerRenderer
-                                                                                data={row[header.key]}
-                                                                                onPlayerClick={handlePlayerClick}
-                                                                                tournamentPath={`/${resolvedParams.tournament}`}
-                                                                                columnHeader={header.name}
-                                                                            />
+                                                                            {header.key === 'compare' ? (
+                                                                                // Comparison column for pairing tables
+                                                                                (() => {
+                                                                                    // Find white and black player columns dynamically
+                                                                                    const whiteKey = Object.keys(row).find(key => 
+                                                                                        key.toLowerCase().includes('white') || key.toLowerCase() === 'white' || key.toLowerCase() === 'w'
+                                                                                    );
+                                                                                    const blackKey = Object.keys(row).find(key => 
+                                                                                        key.toLowerCase().includes('black') || key.toLowerCase() === 'black' || key.toLowerCase() === 'b'
+                                                                                    );
+                                                                                    
+                                                                                    const whitePlayer = whiteKey ? row[whiteKey] : null;
+                                                                                    const blackPlayer = blackKey ? row[blackKey] : null;
+                                            const whiteFideId = getFideId(whitePlayer as Record<string, unknown>);
+                                            const blackFideId = getFideId(blackPlayer as Record<string, unknown>);
+                                                                                    
+                                                                                    if (whiteFideId && blackFideId) {
+                                                                                        const compareUrl = `https://fide-compare.truongthings.dev/?id=${whiteFideId},${blackFideId}`;
+                                                                                        return (
+                                                                                            <a
+                                                                                                href={compareUrl}
+                                                                                                target="_blank"
+                                                                                                rel="noopener noreferrer"
+                                                                                                className="inline-flex items-center gap-1 px-2 py-1 text-xs bg-blue-100 text-blue-700 rounded-md hover:bg-blue-200 transition-colors"
+                                                                                                title="Compare FIDE ratings"
+                                                                                            >
+                                                                                                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                                                                                                </svg>
+                                                                                                Compare
+                                                                                            </a>
+                                                                                        );
+                                                                                    }
+                                                                                    return <span className="text-gray-400 text-xs">—</span>;
+                                                                                })()
+                                                                            ) : (
+                                                                                <PlayerRenderer
+                                                                                    data={row[header.key]}
+                                                                                    onPlayerClick={handlePlayerClick}
+                                                                                    tournamentPath={`/${resolvedParams.tournament}`}
+                                                                                    columnHeader={header.name}
+                                                                                />
+                                                                            )}
                                                                         </td>
                                                                     ))}
                                                                 </tr>
@@ -537,12 +617,49 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                                             {header.name}
                                                                         </span>
                                                                         <div className="text-sm text-gray-900 font-medium">
-                                                                            <PlayerRenderer
-                                                                                data={row[header.key]}
-                                                                                onPlayerClick={handlePlayerClick}
-                                                                                tournamentPath={`/${resolvedParams.tournament}`}
-                                                                                columnHeader={header.name}
-                                                                            />
+                                                                            {header.key === 'compare' ? (
+                                                                                // Comparison column for pairing tables
+                                                                                (() => {
+                                                                                    // Find white and black player columns dynamically
+                                                                                    const whiteKey = Object.keys(row).find(key => 
+                                                                                        key.toLowerCase().includes('white') || key.toLowerCase() === 'white' || key.toLowerCase() === 'w'
+                                                                                    );
+                                                                                    const blackKey = Object.keys(row).find(key => 
+                                                                                        key.toLowerCase().includes('black') || key.toLowerCase() === 'black' || key.toLowerCase() === 'b'
+                                                                                    );
+                                                                                    
+                                                                                    const whitePlayer = whiteKey ? row[whiteKey] : null;
+                                                                                    const blackPlayer = blackKey ? row[blackKey] : null;
+                                            const whiteFideId = getFideId(whitePlayer as Record<string, unknown>);
+                                            const blackFideId = getFideId(blackPlayer as Record<string, unknown>);
+                                                                                    
+                                                                                    if (whiteFideId && blackFideId) {
+                                                                                        const compareUrl = `https://fide-compare.truongthings.dev/?id=${whiteFideId},${blackFideId}`;
+                                                                                        return (
+                                                                                            <a
+                                                                                                href={compareUrl}
+                                                                                                target="_blank"
+                                                                                                rel="noopener noreferrer"
+                                                                                                className="inline-flex items-center gap-1 px-2 py-1 text-xs bg-blue-100 text-blue-700 rounded-md hover:bg-blue-200 transition-colors"
+                                                                                                title="Compare FIDE ratings"
+                                                                                            >
+                                                                                                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                                                                                                </svg>
+                                                                                                Compare
+                                                                                            </a>
+                                                                                        );
+                                                                                    }
+                                                                                    return <span className="text-gray-400 text-xs">—</span>;
+                                                                                })()
+                                                                            ) : (
+                                                                                <PlayerRenderer
+                                                                                    data={row[header.key]}
+                                                                                    onPlayerClick={handlePlayerClick}
+                                                                                    tournamentPath={`/${resolvedParams.tournament}`}
+                                                                                    columnHeader={header.name}
+                                                                                />
+                                                                            )}
                                                                         </div>
                                                                     </div>
                                                                 ))}
