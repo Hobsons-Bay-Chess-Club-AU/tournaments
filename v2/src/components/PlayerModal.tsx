@@ -39,6 +39,27 @@ export default function PlayerModal({ player, onClose }: PlayerModalProps) {
     }));
   }, [ratings, hasAnyRatings]);
 
+  // Calculate total points for each rating type
+  const totalPoints = useMemo(() => {
+    if (!player.tournaments || player.tournaments.length === 0) {
+      return { standard: 0, rapid: 0, blitz: 0 };
+    }
+
+    return player.tournaments.reduce((acc, tournament) => {
+      acc[tournament.ratingType] += tournament.score;
+      return acc;
+    }, { standard: 0, rapid: 0, blitz: 0 });
+  }, [player.tournaments]);
+
+  // Get rating types in fixed order: Standard, Rapid, Blitz
+  const ratingTypes = useMemo(() => {
+    return [
+      { type: 'standard' as const, points: totalPoints.standard, icon: FaChessBoard, color: 'blue' },
+      { type: 'rapid' as const, points: totalPoints.rapid, icon: FaTachometerAlt, color: 'green' },
+      { type: 'blitz' as const, points: totalPoints.blitz, icon: FaBolt, color: 'orange' }
+    ];
+  }, [totalPoints]);
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto">
       <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" onClick={onClose} />
@@ -121,6 +142,42 @@ export default function PlayerModal({ player, onClose }: PlayerModalProps) {
                 </div>
               </div>
             </div>
+
+            {/* Rating Type Points */}
+            {ratingTypes.some(rt => rt.points > 0) && (
+              <div className="mt-4 space-y-2 text-sm">
+                <div className="text-gray-500 font-medium">Total Points</div>
+                <div className="flex gap-2">
+                  {ratingTypes.map((ratingType) => {
+                    const IconComponent = ratingType.icon;
+                    const colorClasses: Record<string, string> = {
+                      blue: 'bg-blue-100 text-blue-700 border-blue-200',
+                      green: 'bg-green-100 text-green-700 border-green-200',
+                      orange: 'bg-orange-100 text-orange-700 border-orange-200'
+                    };
+                    
+                    return (
+                      <div
+                        key={ratingType.type}
+                        className={`flex items-center gap-2 px-3 py-2 rounded-lg border font-semibold text-sm flex-1 ${
+                          colorClasses[ratingType.color]
+                        }`}
+                      >
+                        <IconComponent className="opacity-80" />
+                        <div className="text-center flex-1">
+                          <div className="font-bold text-base">
+                            {ratingType.points}
+                          </div>
+                          <div className="text-xs opacity-75">
+                            pts
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
 
             {/* Tournament Participation */}
             {player.tournaments && player.tournaments.length > 0 && (
