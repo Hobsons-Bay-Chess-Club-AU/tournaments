@@ -44,6 +44,14 @@ interface PlayerRendererProps {
     players?: Player[]; // Add centralized players array for lookup
 }
 
+// Helper function to validate FIDE ID
+const isValidFideId = (fideId: string | null | undefined): boolean => {
+    if (!fideId || fideId === '0' || fideId === 'null' || fideId === 'undefined' || fideId.trim() === '') {
+        return false;
+    }
+    return true;
+};
+
 // Helper function to get gender-based styling
 const getGenderStyles = (gender: string) => {
     const normalizedGender = gender?.toLowerCase().trim();
@@ -142,7 +150,7 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
                         <div className="text-xs text-gray-500 mt-1 flex items-center gap-2 flex-wrap">
                             {player.id && <span className="bg-gray-100 px-2 py-0.5 rounded-full">ID: {player.id}</span>}
                             {player.fideRating && <span className="bg-green-50 text-green-700 px-2 py-0.5 rounded-full">({player.fideRating})</span>}
-                            {player.fideId && (
+                            {isValidFideId(player.fideId) && (
                                 <a 
                                     href={`https://ratings.fide.com/profile/${player.fideId}`}
                                     target="_blank"
@@ -268,7 +276,7 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
                     <div className="text-xs text-gray-500 mt-1 flex items-center gap-2 flex-wrap">
                         {playerId && String(playerId).trim() !== '' && <span className="bg-gray-100 px-2 py-0.5 rounded-full">ID: {playerId}</span>}
                         {rating && <span className="bg-green-50 text-green-700 px-2 py-0.5 rounded-full">({rating})</span>}
-                        {fideId && (
+                        {isValidFideId(fideId) && (
                             <a 
                                 href={`https://ratings.fide.com/profile/${fideId}`}
                                 target="_blank"

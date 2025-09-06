@@ -294,7 +294,14 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     // Function to get FIDE ID from player ID
     const getFideId = (playerId: string | number): string | null => {
         const player = getPlayerData(playerId);
-        return player?.fideId || null;
+        const fideId = player?.fideId;
+        
+        // Validate FIDE ID - exclude "0", empty strings, and other invalid values
+        if (!fideId || fideId === '0' || fideId === 'null' || fideId === 'undefined' || fideId.trim() === '') {
+            return null;
+        }
+        
+        return fideId;
     };
 
 
