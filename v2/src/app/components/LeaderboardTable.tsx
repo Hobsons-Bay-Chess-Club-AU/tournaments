@@ -15,7 +15,9 @@ function getBadge(idx: number) {
 }
 
 function getIdCell(player: Player, activeCategory: string) {
-  if (activeCategory.startsWith("FIDE")) {
+  if (activeCategory === "Points") {
+    return <span className="text-gray-400">—</span>;
+  } else if (activeCategory === "Standard" || activeCategory === "Rapid" || activeCategory === "Blitz") {
     return player.fideId ? (
       <a
         href={`https://ratings.fide.com/profile/${player.fideId}`}

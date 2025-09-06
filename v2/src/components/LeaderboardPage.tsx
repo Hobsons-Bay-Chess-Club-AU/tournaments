@@ -6,7 +6,7 @@ import LeaderboardTable from "@/app/components/LeaderboardTable";
 import { useLeaderboard } from "@/app/hooks/useLeaderboard";
 import { Player } from "@/utils/ratingLoader";
 
-const RATING_CATEGORIES = ["FIDE Standard", "FIDE Rapid", "FIDE Blitz", "ACF Classic", "ACF Quick"];
+const RATING_CATEGORIES = ["Points", "Standard", "Rapid", "Blitz", "ACF Classic", "ACF Quick"];
 
 interface LeaderboardPageProps {
   category: "junior" | "open";
@@ -14,15 +14,21 @@ interface LeaderboardPageProps {
 
 export default function LeaderboardPage({ category }: LeaderboardPageProps) {
   const { players, loading, error } = useLeaderboard(category);
-  const [activeCategory, setActiveCategory] = useState<string>("FIDE Standard");
+  const [activeCategory, setActiveCategory] = useState<string>("Points");
 
   const getRatingForCategory = (player: Player, category: string): number => {
     switch (category) {
-      case "FIDE Standard":
+      case "Points":
+        // Calculate total points from classical (standard) games only
+        if (!player.tournaments || player.tournaments.length === 0) return 0;
+        return player.tournaments
+          .filter(tournament => tournament.ratingType === 'standard')
+          .reduce((total, tournament) => total + tournament.score, 0);
+      case "Standard":
         return player.fideStandard || 0;
-      case "FIDE Rapid":
+      case "Rapid":
         return player.fideRapid || 0;
-      case "FIDE Blitz":
+      case "Blitz":
         return player.fideBlitz || 0;
       case "ACF Classic":
         return player.acfClassic || 0;
@@ -58,9 +64,10 @@ export default function LeaderboardPage({ category }: LeaderboardPageProps) {
         "Active in current year"
       ],
       ratingCategories: [
-        "FIDE Standard",
-        "FIDE Rapid", 
-        "FIDE Blitz",
+        "Points",
+        "Standard",
+        "Rapid", 
+        "Blitz",
         "ACF Classic",
         "ACF Quick"
       ],
@@ -88,10 +95,11 @@ export default function LeaderboardPage({ category }: LeaderboardPageProps) {
         "Active in current year"
       ],
       ratingCategories: [
-        "Standard (Classical)",
+        "Points",
+        "Standard",
         "Rapid",
         "Blitz",
-        "ACF Rating",
+        "ACF Classic",
         "ACF Quick"
       ],
       developmentFocus: [
@@ -139,7 +147,7 @@ export default function LeaderboardPage({ category }: LeaderboardPageProps) {
       <div className="bg-white min-h-screen">
         {/* Header */}
         <div className={`bg-gradient-to-r ${config.gradient} text-white py-8`}>
-          <div className="max-w-7xl mx-auto px-4">
+          <div className="max-w-7xl mx-auto">
             <div className="flex items-center justify-between">
               <div>
                 <h1 className="text-3xl font-bold">{config.title}</h1>
@@ -155,11 +163,20 @@ export default function LeaderboardPage({ category }: LeaderboardPageProps) {
         </div>
 
         {/* Rating Category Tabs */}
-        <FilterTabs
-          options={RATING_CATEGORIES}
-          activeOption={activeCategory}
-          onOptionChange={setActiveCategory}
-        />
+        <div className="max-w-7xl mx-auto px-4 ">
+          <FilterTabs
+            options={RATING_CATEGORIES}
+            activeOption={activeCategory}
+            onOptionChange={setActiveCategory}
+          />
+          {activeCategory === "Points" && (
+            <div className="mt-3 p-3 bg-blue-50 border border-blue-200 rounded-lg">
+              <p className="text-sm text-blue-800">
+                <span className="font-semibold">Points:</span> Total accumulated points from all standard (classical) games across tournaments
+              </p>
+            </div>
+          )}
+        </div>
 
         {/* Leaderboard Table */}
         <div className="max-w-7xl mx-auto px-4 py-8">

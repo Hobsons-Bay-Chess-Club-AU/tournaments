@@ -13,7 +13,7 @@ type LeaderboardData = {
   players: Player[];
 };
 
-const RATING_CATEGORIES = ["FIDE Standard", "FIDE Rapid", "FIDE Blitz", "ACF Classic", "ACF Quick"];
+const RATING_CATEGORIES = ["Points", "Standard", "Rapid", "Blitz", "ACF Classic", "ACF Quick"];
 
 type LeaderboardType = 'open' | 'junior';
 
@@ -23,7 +23,7 @@ interface LeaderboardTableProps {
 
 export default function LeaderboardTable({ type }: LeaderboardTableProps) {
   const [players, setPlayers] = useState<Player[]>([]);
-  const [activeCategory, setActiveCategory] = useState<string>("FIDE Standard");
+  const [activeCategory, setActiveCategory] = useState<string>("Points");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [ageFilter, setAgeFilter] = useState<string>("under18");
@@ -60,11 +60,17 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
 
   const getRatingForCategory = (player: Player, category: string): number => {
     switch (category) {
-      case "FIDE Standard":
+      case "Points":
+        // Calculate total points from classical (standard) games only
+        if (!player.tournaments || player.tournaments.length === 0) return 0;
+        return player.tournaments
+          .filter(tournament => tournament.ratingType === 'standard')
+          .reduce((total, tournament) => total + tournament.score, 0);
+      case "Standard":
         return player.fideStandard || 0;
-      case "FIDE Rapid":
+      case "Rapid":
         return player.fideRapid || 0;
-      case "FIDE Blitz":
+      case "Blitz":
         return player.fideBlitz || 0;
       case "ACF Classic":
         return player.acfClassic || 0;
@@ -244,15 +250,24 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
         </div>
 
         {/* Rating Category Tabs */}
-        <FilterTabs
-          options={RATING_CATEGORIES}
-          activeOption={activeCategory}
-          onOptionChange={setActiveCategory}
-        />
+        <div className="max-w-7xl mx-auto px-0 md:px-4">
+          <FilterTabs
+            options={RATING_CATEGORIES}
+            activeOption={activeCategory}
+            onOptionChange={setActiveCategory}
+          />
+          {activeCategory === "Points" && (
+            <div className="mt-3 p-3 bg-blue-50 border border-blue-200 rounded-lg mx-2 md:mx-0">
+              <p className="text-sm text-blue-800">
+                <span className="font-semibold">Points:</span> Total accumulated points from all standard (classical) games across tournaments
+              </p>
+            </div>
+          )}
+        </div>
 
         {/* Age Filter - Only for Junior */}
         {isJunior && (
-          <div className="max-w-7xl mx-auto px-4 py-4">
+          <div className="max-w-7xl mx-auto px-2 md:px-4 py-4">
             <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between bg-green-50 rounded-lg p-4 border border-green-200">
               <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 w-full sm:w-auto">
                 <label className="text-sm font-medium text-green-800 mb-2 sm:mb-0">Age Filter:</label>
@@ -302,7 +317,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
                       Player
                     </th>
                     <th className="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      {activeCategory} Rating
+                      {activeCategory === "Points" ? "Total Points" : `${activeCategory} Rating`}
                     </th>
                     <th className="px-3 py-3 sm:px-6 sm:py-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider hidden sm:table-cell">
                       Age
@@ -443,9 +458,10 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
               <div>
                 <strong>Rating Categories:</strong>
                 <ul className="list-disc list-inside mt-1 ml-4">
-                  <li>FIDE Standard (Classical)</li>
-                  <li>FIDE Rapid</li>
-                  <li>FIDE Blitz</li>
+                  <li>Points (Classical Games)</li>
+                  <li>Standard</li>
+                  <li>Rapid</li>
+                  <li>Blitz</li>
                   <li>ACF Classic</li>
                   <li>ACF Quick</li>
                 </ul>
