@@ -65,6 +65,7 @@ export const federationToCountry: Record<string, string> = {
   'IND': 'in',
   'PAK': 'pk',
   'BGD': 'bd',
+  'BAN': 'bd', // Bangladesh (alternative code)
   'LKA': 'lk',
   'NPL': 'np',
   'BTN': 'bt',
