@@ -21,7 +21,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs4.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs5.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
@@ -57,7 +57,7 @@
 <tr><td >Tie break</td> <td>      BH   BH/C1      SB </td> </tr>
 <tr><td >Registered Players</td> <td> 45</td> </tr>
 <tr><td > Number of Federations</td> <td> 4</td> </tr>
-<tr><td >Average Rating (all) </td> <td> 706</td> </tr>
+<tr><td >Average Rating (all) </td> <td> 707</td> </tr>
 <tr><td >Average Rating (only FIDE rated) </td> <td> 1547</td> </tr>
 <tr ><td > Players from AUS Federation</td> <td> 18</td> </tr>
 <tr><td > Players NOT from AUS Federation</td> <td> 27</td> </tr>
