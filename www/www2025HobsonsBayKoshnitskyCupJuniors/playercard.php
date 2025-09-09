@@ -156,7 +156,7 @@
 <a class="anchor" name="6"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td>W </td> <td>27</td> <td></td> <td> <a href="playercard.php#27"> Fang,Candice         </a>  <td>1</td>
+<tr> <td>1</td> <td>W </td> <td>27</td> <td></td> <td> <a href="playercard.php#27"> Fang,Candice         </a>  <td>3</td>
 <td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>19</td> <td></td> <td> <a href="playercard.php#19"> Jyothi Nikhil,Neev   </a>  <td>498</td>
@@ -200,7 +200,7 @@
 <a class="anchor" name="8"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td>W </td> <td>30</td> <td></td> <td> <a href="playercard.php#30"> Goh,Daphne           </a>  <td>3</td>
+<tr> <td>1</td> <td>W </td> <td>30</td> <td></td> <td> <a href="playercard.php#30"> Goh,Daphne           </a>  <td>1</td>
 <td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>21</td> <td></td> <td> <a href="playercard.php#21"> Husain,Lamiah        </a>  <td>324</td>
@@ -508,7 +508,7 @@
 <tr> <td>2</td> <td> B</td> <td>34</td> <td></td> <td> <a href="playercard.php#34"> Kaur,Mishleen        </a>  <td>3</td>
 <td> 0.0</td> <td> 2.0</td>
 </tr> 
-<tr> <td>3</td> <td>W </td> <td>30</td> <td></td> <td> <a href="playercard.php#30"> Goh,Daphne           </a>  <td>3</td>
+<tr> <td>3</td> <td>W </td> <td>30</td> <td></td> <td> <a href="playercard.php#30"> Goh,Daphne           </a>  <td>1</td>
 <td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>41</td> <td></td> <td> <a href="playercard.php#41"> Shayan,Ray           </a>  <td>1</td>
@@ -605,7 +605,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  27   <strong>Fang,Candice        </strong>, K= 0, Elo=   1, ID=3211746
+<caption>  27   <strong>Fang,Candice        </strong>, K= 0, Elo=   3, ID=3211746
 <br>
 <a class="anchor" name="27"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -671,7 +671,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  30   <strong>Goh,Daphne          </strong>, K= 0, Elo=   3, ID=3214852
+<caption>  30   <strong>Goh,Daphne          </strong>, K= 0, Elo=   1, ID=3214852
 <br>
 <a class="anchor" name="30"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -748,10 +748,10 @@
 <tr> <td>2</td> <td> B</td> <td>3</td> <td></td> <td> <a href="playercard.php#3"> Rawat, Vivaan        </a>  <td>3</td>
 <td> 0.0</td> <td> 3.0</td>
 </tr> 
-<tr> <td>3</td> <td>W </td> <td>27</td> <td></td> <td> <a href="playercard.php#27"> Fang,Candice         </a>  <td>1</td>
+<tr> <td>3</td> <td>W </td> <td>27</td> <td></td> <td> <a href="playercard.php#27"> Fang,Candice         </a>  <td>3</td>
 <td> 0.0</td> <td> 1.0</td>
 </tr> 
-<tr> <td>4</td> <td> B</td> <td>30</td> <td></td> <td> <a href="playercard.php#30"> Goh,Daphne           </a>  <td>3</td>
+<tr> <td>4</td> <td> B</td> <td>30</td> <td></td> <td> <a href="playercard.php#30"> Goh,Daphne           </a>  <td>1</td>
 <td> 0.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
@@ -857,7 +857,7 @@
 <tr> <td>3</td> <td>W </td> <td>4</td> <td></td> <td> <a href="playercard.php#4"> Yendru,Srikrishna    </a>  <td>1258</td>
 <td> 0.0</td> <td> 3.0</td>
 </tr> 
-<tr> <td>4</td> <td> B</td> <td>27</td> <td></td> <td> <a href="playercard.php#27"> Fang,Candice         </a>  <td>1</td>
+<tr> <td>4</td> <td> B</td> <td>27</td> <td></td> <td> <a href="playercard.php#27"> Fang,Candice         </a>  <td>3</td>
 <td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
@@ -895,7 +895,7 @@
 <tr> <td>1</td> <td>W </td> <td>19</td> <td></td> <td> <a href="playercard.php#19"> Jyothi Nikhil,Neev   </a>  <td>498</td>
 <td> 0.0</td> <td> 2.0</td>
 </tr> 
-<tr> <td>2</td> <td> B</td> <td>27</td> <td></td> <td> <a href="playercard.php#27"> Fang,Candice         </a>  <td>1</td>
+<tr> <td>2</td> <td> B</td> <td>27</td> <td></td> <td> <a href="playercard.php#27"> Fang,Candice         </a>  <td>3</td>
 <td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>28</td> <td></td> <td> <a href="playercard.php#28"> Gadham, Aarya Subram </a>  <td>1</td>
@@ -938,7 +938,7 @@
 <tr> <td>1</td> <td>W </td> <td>21</td> <td></td> <td> <a href="playercard.php#21"> Husain,Lamiah        </a>  <td>324</td>
 <td> 0.0</td> <td> 2.0</td>
 </tr> 
-<tr> <td>2</td> <td> B</td> <td>30</td> <td></td> <td> <a href="playercard.php#30"> Goh,Daphne           </a>  <td>3</td>
+<tr> <td>2</td> <td> B</td> <td>30</td> <td></td> <td> <a href="playercard.php#30"> Goh,Daphne           </a>  <td>1</td>
 <td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>34</td> <td></td> <td> <a href="playercard.php#34"> Kaur,Mishleen        </a>  <td>3</td>

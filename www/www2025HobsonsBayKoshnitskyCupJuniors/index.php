@@ -88,7 +88,7 @@
 <tr> 
 <td><span class="idn"> 25</span></td><td><span class="notitle female"> </span></td><td> Chan,Abby </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>3</td><td>0</td><td>3</td> </tr>
 <tr> 
-<td><span class="idn"> 30</span></td><td><span class="notitle female"> </span></td><td> Goh,Daphne </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>3</td><td>0</td><td>3</td> </tr>
+<td><span class="idn"> 27</span></td><td><span class="notitle female"> </span></td><td> Fang,Candice </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>3</td><td>0</td><td>3</td> </tr>
 <tr> 
 <td><span class="idn"> 31</span></td><td><span class="notitle male"> </span></td><td> Goh,Julian </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>3</td><td>0</td><td>3</td> </tr>
 <tr> 
@@ -114,11 +114,11 @@
 <tr> 
 <td><span class="idn"> 26</span></td><td><span class="notitle male"> </span></td><td> Dash,Dibya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1</td><td>0</td><td>1</td> </tr>
 <tr> 
-<td><span class="idn"> 27</span></td><td><span class="notitle female"> </span></td><td> Fang,Candice </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1</td><td>0</td><td>1</td> </tr>
-<tr> 
 <td><span class="idn"> 28</span></td><td><span class="notitle male"> </span></td><td> Gadham, Aarya Subramanya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1</td><td>0</td><td>1</td> </tr>
 <tr> 
 <td><span class="idn"> 29</span></td><td><span class="notitle male"> </span></td><td> Ganesh Kumar,Mukunth </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1</td><td>0</td><td>1</td> </tr>
+<tr> 
+<td><span class="idn"> 30</span></td><td><span class="notitle female"> </span></td><td> Goh,Daphne </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1</td><td>0</td><td>1</td> </tr>
 <tr> 
 <td><span class="idn"> 33</span></td><td><span class="notitle male"> </span></td><td> Kantharaju,Aryan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1</td><td>0</td><td>1</td> </tr>
 <tr> 

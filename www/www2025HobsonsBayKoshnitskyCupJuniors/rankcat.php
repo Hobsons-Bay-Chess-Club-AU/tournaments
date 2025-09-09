@@ -151,7 +151,7 @@
 <td>34</td><td>31</td><td></td><td> <a href="playercard.php#31">Goh,Julian          </a> </td><td>3</td><td>164</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 1.0</td><td>    9.0 </td><td>    8.0 </td><td>    1.0 </td>
 </tr> 
 <tr> 
-<td>35</td><td>27</td><td></td><td> <a href="playercard.php#27">Fang,Candice        </a> </td><td>1</td><td>45</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 1.0</td><td>    8.5 </td><td>    8.5 </td><td>    0.0 </td>
+<td>35</td><td>27</td><td></td><td> <a href="playercard.php#27">Fang,Candice        </a> </td><td>3</td><td>45</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 1.0</td><td>    8.5 </td><td>    8.5 </td><td>    0.0 </td>
 </tr> 
 <tr> 
 <td>36</td><td>37</td><td></td><td> <a href="playercard.php#37">Lacson,Alexandria   </a> </td><td>1</td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 1.0</td><td>    8.0 </td><td>    7.0 </td><td>    1.0 </td>
@@ -172,7 +172,7 @@
 <td>41</td><td>26</td><td></td><td> <a href="playercard.php#26">Dash,Dibya          </a> </td><td>1</td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 1.0</td><td>    6.0 </td><td>    5.0 </td><td>    1.0 </td>
 </tr> 
 <tr> 
-<td>42</td><td>30</td><td></td><td> <a href="playercard.php#30">Goh,Daphne          </a> </td><td>3</td><td>100</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 1.0</td><td>    4.5 </td><td>    4.5 </td><td>    0.0 </td>
+<td>42</td><td>30</td><td></td><td> <a href="playercard.php#30">Goh,Daphne          </a> </td><td>1</td><td>100</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 1.0</td><td>    4.5 </td><td>    4.5 </td><td>    0.0 </td>
 </tr> 
 <tr> 
 <td>43</td><td>24</td><td></td><td> <a href="playercard.php#24">Bodke,Aryan         </a> </td><td>3</td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.5</td><td>    6.0 </td><td>    5.5 </td><td>    0.2 </td>
