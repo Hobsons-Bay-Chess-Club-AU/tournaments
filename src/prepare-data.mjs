@@ -29,7 +29,13 @@ function calculateDataHash(data) {
     delete dataCopy.md5Hash;
     
     // Convert to string and calculate hash
-    const dataString = JSON.stringify(dataCopy, Object.keys(dataCopy).sort());
+    // Debug: verify whether dynamic fields like `test` are included
+    try {
+        if (typeof dataCopy === 'object' && dataCopy !== null) {
+            console.log('[DEBUG] Hashing object keys count:', Object.keys(dataCopy), 'test value:', dataCopy.test);
+        }
+    } catch {}
+    const dataString = JSON.stringify(dataCopy);
     return crypto.createHash('md5').update(dataString).digest('hex');
 }
 
@@ -950,12 +956,11 @@ async function processFolder(folderName) {
     result['category'] = category;
     if (metadata) metadata['category'] = category;
     result['metadata'] = metadata;
-    
     if(players) {
         // Calculate MD5 hash for original data
         const originalHash = calculateDataHash(result);
         const existingOriginalHash = await getExistingHash(OUTPUT_FILE);
-        
+        console.log("HASH", originalHash, existingOriginalHash);
         // Only write if data has changed
         if (originalHash !== existingOriginalHash) {
             result.md5Hash = originalHash;
@@ -972,7 +977,7 @@ async function processFolder(folderName) {
         // Calculate MD5 hash for clean data
         const cleanHash = calculateDataHash(cleanData);
         const existingCleanHash = await getExistingHash(CLEAN_OUTPUT_FILE);
-        
+        console.log("HASH", cleanHash, existingCleanHash);
         // Only write if clean data has changed
         if (cleanHash !== existingCleanHash) {
             cleanData.md5Hash = cleanHash;
@@ -1356,8 +1361,8 @@ async function generateUniquePlayersFiles(tournaments) {
     };
 }
 
-//const debugTournament = "www2025HobsonsBayKoshnitskyCupJuniors"; // Set to empty to process all tournaments
-const debugTournament = ""; // Set to empty to process all tournaments
+const debugTournament = "www2025HobsonsBayKoshnitskyCupJuniors"; // Set to empty to process all tournaments
+//const debugTournament = ""; // Set to empty to process all tournaments
 async function main() {
     const allFolders = await fs.readdir(WWW_FOLDER, { withFileTypes: true });
     const wwwFolders = allFolders.filter(dirent => dirent.isDirectory() && dirent.name.startsWith('www')).map(dirent => dirent.name);
