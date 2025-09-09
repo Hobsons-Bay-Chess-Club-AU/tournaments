@@ -488,8 +488,10 @@ async function processHtmlFile(filePath) {
     const $ = cheerio.load(html);
     const tablesJson = [];
     $('table').each((i, table) => {
-        tablesJson.push(parseTableToJson($(table)));
+        const parsedTable = parseTableToJson($(table));
+        tablesJson.push(parsedTable);
     });
+    
     // Extract h1 title
     const pageHeading = $('h3').first().text().trim();
     const pairingScheduleText = $('.btn-toolbar h5').first().text().trim();
@@ -989,10 +991,11 @@ async function processFolder(folderName) {
 function extractUniquePlayers(tournamentData) {
     const players = new Map(); // Use Map to ensure uniqueness by player name
     
-    // Extract players from standings table (first table is usually standings)
-    const standingsTable = tournamentData.page['index.html']?.tables?.[0];
+    // Extract players from standings table
+    const standingsTable = tournamentData.page['standings.html']?.tables?.[0];
+    
     if (standingsTable && standingsTable.rows) {
-        standingsTable.rows.forEach(row => {
+        standingsTable.rows.forEach((row, index) => {
             const playerData = row.Player;
             if (playerData && typeof playerData === 'object' && playerData.playerName) {
                 const playerName = playerData.playerName.trim();
@@ -1017,7 +1020,6 @@ function extractUniquePlayers(tournamentData) {
             }
         });
     }
-    
     return Array.from(players.values());
 }
 
@@ -1029,6 +1031,16 @@ function isCurrentYearTournament(metadata) {
     if (metadata['Date']) {
         const dateStr = metadata['Date'];
         if (dateStr.includes(currentYear)) return true;
+    }
+    
+    if (metadata['Date Begin']) {
+        const dateBegin = metadata['Date Begin'];
+        if (dateBegin.includes(currentYear)) return true;
+    }
+    
+    if (metadata['Date End']) {
+        const dateEnd = metadata['Date End'];
+        if (dateEnd.includes(currentYear)) return true;
     }
     
     if (metadata['Start Date']) {
@@ -1272,10 +1284,70 @@ async function generateUniquePlayersFiles(tournaments) {
         players: juniorPlayersArray
     }, null, 2), 'utf-8');
     
+    // Write unified players file (combine senior and junior)
+    const combinedPlayersMap = new Map();
+    const mergePlayerEntry = (player) => {
+        const key = player.name;
+        if (!combinedPlayersMap.has(key)) {
+            // Clone to avoid mutating original arrays/objects
+            combinedPlayersMap.set(key, {
+                ...player,
+                tournaments: Array.isArray(player.tournaments) ? [...player.tournaments] : [],
+                points: player.points ? { ...player.points } : { standard: 0, rapid: 0, blitz: 0 },
+            });
+            return;
+        }
+        const existing = combinedPlayersMap.get(key);
+        // Merge primitive fields preferring existing non-empty, otherwise take from incoming
+        existing.id = existing.id || player.id || '';
+        existing.fideId = existing.fideId || player.fideId || '';
+        existing.gender = existing.gender || player.gender || '';
+        existing.href = existing.href || player.href || '';
+        // Merge tournaments (dedupe by tournament path)
+        const allTournaments = [...(existing.tournaments || []), ...(player.tournaments || [])];
+        const byTournament = new Map();
+        for (const t of allTournaments) {
+            if (!t || !t.tournament) continue;
+            if (!byTournament.has(t.tournament)) {
+                byTournament.set(t.tournament, t);
+            } else {
+                // If duplicate, prefer the one with defined score or ratingType
+                const cur = byTournament.get(t.tournament);
+                const better = (t.score ?? -Infinity) > (cur.score ?? -Infinity) ? t : cur;
+                byTournament.set(t.tournament, better);
+            }
+        }
+        existing.tournaments = Array.from(byTournament.values());
+        // Merge points by rating type
+        existing.points = existing.points || { standard: 0, rapid: 0, blitz: 0 };
+        const incomingPoints = player.points || { standard: 0, rapid: 0, blitz: 0 };
+        existing.points.standard = (existing.points.standard || 0) + (incomingPoints.standard || 0);
+        existing.points.rapid = (existing.points.rapid || 0) + (incomingPoints.rapid || 0);
+        existing.points.blitz = (existing.points.blitz || 0) + (incomingPoints.blitz || 0);
+        // Recompute tournamentCount based on unique tournaments
+        existing.tournamentCount = existing.tournaments.length;
+        combinedPlayersMap.set(key, existing);
+    };
+    // Merge senior first then junior
+    for (const p of seniorPlayersArray) mergePlayerEntry(p);
+    for (const p of juniorPlayersArray) mergePlayerEntry(p);
+    const combinedPlayersArray = Array.from(combinedPlayersMap.values()).sort((a, b) => a.name.localeCompare(b.name));
+    const unifiedPlayersPath = path.join(WWW_FOLDER, 'players.json');
+    await fs.writeFile(unifiedPlayersPath, JSON.stringify({
+        generatedAt: new Date().toISOString(),
+        year: currentYear,
+        count: combinedPlayersArray.length,
+        seniorCount: seniorPlayersArray.length,
+        juniorCount: juniorPlayersArray.length,
+        totalTournaments: totalTournaments,
+        players: combinedPlayersArray
+    }, null, 2), 'utf-8');
+    
     console.log(`\nUnique Players Summary for ${currentYear}:`);
     console.log(`Total tournaments in ${currentYear}: ${totalTournaments}`);
     console.log(`Senior Players (played in >1 tournament or only tournament): ${seniorPlayersArray.length} players written to ${seniorPlayersPath}`);
     console.log(`Junior Players (played in >1 tournament or only tournament): ${juniorPlayersArray.length} players written to ${juniorPlayersPath}`);
+    console.log(`Unified Players: ${combinedPlayersArray.length} players written to ${unifiedPlayersPath}`);
     
     return {
         senior: seniorPlayersArray,
@@ -1284,6 +1356,7 @@ async function generateUniquePlayersFiles(tournaments) {
     };
 }
 
+//const debugTournament = "www2025HobsonsBayKoshnitskyCupJuniors"; // Set to empty to process all tournaments
 const debugTournament = ""; // Set to empty to process all tournaments
 async function main() {
     const allFolders = await fs.readdir(WWW_FOLDER, { withFileTypes: true });
