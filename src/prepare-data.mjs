@@ -1361,8 +1361,8 @@ async function generateUniquePlayersFiles(tournaments) {
     };
 }
 
-const debugTournament = "www2025HobsonsBayKoshnitskyCupJuniors"; // Set to empty to process all tournaments
-//const debugTournament = ""; // Set to empty to process all tournaments
+// const debugTournament = "www2025HobsonsBayKoshnitskyCupJuniors"; // Set to empty to process all tournaments
+const debugTournament = ""; // Set to empty to process all tournaments
 async function main() {
     const allFolders = await fs.readdir(WWW_FOLDER, { withFileTypes: true });
     const wwwFolders = allFolders.filter(dirent => dirent.isDirectory() && dirent.name.startsWith('www')).map(dirent => dirent.name);
