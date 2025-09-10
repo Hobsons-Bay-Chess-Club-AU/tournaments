@@ -322,13 +322,32 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     // Generate a plain-text representation of a table (headers + current filtered/sorted rows)
     const generateTableText = (table: { headers?: MixedHeader[]; rows?: Record<string, unknown>[] }, idx: number) => {
         const filteredHeaders = getFilteredHeaders(table);
-        const headerNames = filteredHeaders.map(h => h.name);
+        // Exclude the dynamic compare column from copied text
+        const headersForCopy = filteredHeaders.filter(h => h.key !== 'compare');
+        const headerNames = headersForCopy.map(h => h.name);
         const rows = getFilteredAndSortedRows(table, idx);
 
         // Helper to serialize a cell value to text
-        const serializeCell = (value: unknown): string => {
+        const isLikelyPlayerHeader = (header: Header): boolean => {
+            const label = header.name.trim().toLowerCase();
+            return label === 'player' || label === 'white player' || label === 'black player';
+        };
+
+        const formatPlayerById = (candidateId: unknown): string | null => {
+            if (candidateId === null || candidateId === undefined) return null;
+            const idStr = String(candidateId).trim();
+            if (!idStr) return null;
+            const player = getPlayerData(idStr);
+            if (!player) return null;
+            return player.name || null;
+        };
+
+        const serializeCell = (value: unknown, header: Header): string => {
             if (value === null || value === undefined) return '';
             if (typeof value === 'string' || typeof value === 'number') {
+                // Prefer mapping to player name only when column is player-like
+                const mapped = isLikelyPlayerHeader(header) ? formatPlayerById(value) : null;
+                if (mapped) return mapped;
                 return String(value).trim();
             }
             if (typeof value === 'object') {
@@ -336,6 +355,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                 // Crosstable cell
                 if ('result' in obj) {
                     const res = String(obj.result || '').trim();
+                    // For crosstable cells, keep opponent identifiers as-is (no lookup)
                     const w = obj.whiteOpponent ? ` W:${String(obj.whiteOpponent)}` : '';
                     const b = obj.blackOpponent ? ` B:${String(obj.blackOpponent)}` : '';
                     return `${res}${w}${b}`.trim();
@@ -357,7 +377,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
         const matrix: string[][] = [];
         if (headerNames.length > 0) matrix.push(headerNames);
         rows.forEach(row => {
-            const line: string[] = filteredHeaders.map(h => serializeCell((row as Record<string, unknown>)[h.key]));
+            const line: string[] = headersForCopy.map(h => serializeCell((row as Record<string, unknown>)[h.key], h));
             matrix.push(line);
         });
 
