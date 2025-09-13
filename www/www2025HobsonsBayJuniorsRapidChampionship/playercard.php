@@ -423,7 +423,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  49   <strong>Verma,Vivaan        </strong>, K= 0, Elo= 983, ID=3219085
+<caption>  49   <strong>Verma,Vivaan        </strong>, K= 0, Elo=   0, ID=3219085
 <br>
 <a class="anchor" name="49"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
