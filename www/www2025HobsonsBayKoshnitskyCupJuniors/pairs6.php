@@ -713,39 +713,6 @@
 </td></tr>
 <tr> <td>21</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#35"></a> 
- <div class="player-name-box2">
-			<span>Koppuravuri, Haneesh</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 35</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-</div>
-</td><td>0</td><td class="result">1    </td><td>0</td><td><div class="player-container" 
-   <div class="left-box2">
-<a href="playercard.php#0"></a> 
- <div class="player-name-box2">
-			<span>BYE</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 0</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">0</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/.png" alt="flag"></div>
-		</div> 
-	</div> 
-</div>
-</td></tr>
-<tr> <td>22</td><td><div class="player-container" 
-   <div class="left-box2">
 <a href="playercard.php#5"></a> 
  <div class="player-name-box2">
 			<span>Batyrbekov,Kaisar</span>
@@ -777,7 +744,7 @@
 	</div> 
 </div>
 </td></tr>
-<tr> <td>23</td><td><div class="player-container" 
+<tr> <td>22</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#9"></a> 
  <div class="player-name-box2">
@@ -810,7 +777,7 @@
 	</div> 
 </div>
 </td></tr>
-<tr> <td>24</td><td><div class="player-container" 
+<tr> <td>23</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#14"></a> 
  <div class="player-name-box2">
@@ -843,7 +810,7 @@
 	</div> 
 </div>
 </td></tr>
-<tr> <td>25</td><td><div class="player-container" 
+<tr> <td>24</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#40"></a> 
  <div class="player-name-box2">
@@ -860,6 +827,39 @@
 	</div> 
 </div>
 </td><td>3</td><td class="result">0    </td><td>0</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#0"></a> 
+ <div class="player-name-box2">
+			<span>BYE</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 0</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">0</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td></tr>
+<tr> <td>25</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#35"></a> 
+ <div class="player-name-box2">
+			<span>Koppuravuri, Haneesh</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 35</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">1</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td>0</td><td class="result">0    </td><td>0</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#0"></a> 
  <div class="player-name-box2">

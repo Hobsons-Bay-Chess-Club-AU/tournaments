@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-16T14:04:06.152Z",
+  "generatedAt": "2025-09-17T11:17:33.022Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 6",
@@ -1704,11 +1704,7 @@
                 "blackOpponent": null
               },
               "5": "",
-              "6": {
-                "result": "1",
-                "whiteOpponent": null,
-                "blackOpponent": null
-              },
+              "6": "",
               "#": "35",
               "Player": {
                 "id": "35",
@@ -1721,7 +1717,7 @@
                 "fideId": "",
                 "moreInfo": {}
               },
-              "Pts": "1.0"
+              "Pts": "0.0"
             },
             {
               "1": {
@@ -2936,7 +2932,7 @@
               "1": {
                 "result": "1",
                 "whiteOpponent": null,
-                "blackOpponent": "45"
+                "blackOpponent": "44"
               },
               "2": {
                 "result": "0",
@@ -3670,7 +3666,7 @@
               },
               "4": {
                 "result": "1",
-                "whiteOpponent": "45",
+                "whiteOpponent": "44",
                 "blackOpponent": null
               },
               "5": {
@@ -3769,7 +3765,7 @@
               },
               "3": {
                 "result": "1",
-                "whiteOpponent": "45",
+                "whiteOpponent": "44",
                 "blackOpponent": null
               },
               "4": {
@@ -3973,7 +3969,7 @@
               },
               "3": {
                 "result": "1",
-                "whiteOpponent": "44",
+                "whiteOpponent": "45",
                 "blackOpponent": null
               },
               "4": {
@@ -4244,7 +4240,7 @@
               "5": {
                 "result": "1",
                 "whiteOpponent": null,
-                "blackOpponent": "45"
+                "blackOpponent": "44"
               },
               "6": {
                 "result": "1",
@@ -4348,7 +4344,7 @@
               },
               "6": {
                 "result": "1",
-                "whiteOpponent": "45",
+                "whiteOpponent": "44",
                 "blackOpponent": null
               },
               "#": "41",
@@ -4477,42 +4473,6 @@
               "SB": "1.0"
             },
             {
-              "1": "",
-              "2": "",
-              "3": {
-                "result": "0",
-                "whiteOpponent": null,
-                "blackOpponent": "34"
-              },
-              "4": {
-                "result": "0",
-                "whiteOpponent": null,
-                "blackOpponent": null
-              },
-              "5": "",
-              "6": {
-                "result": "1",
-                "whiteOpponent": null,
-                "blackOpponent": null
-              },
-              "#": "44",
-              "Player": {
-                "id": "35",
-                "playerName": "Koppuravuri, Haneesh",
-                "gender": "male",
-                "href": "playercard.html#35",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Pts": "1.0",
-              "BH": "7.0",
-              "BH/C1": "6.0",
-              "SB": "1.0"
-            },
-            {
               "1": {
                 "result": "0",
                 "whiteOpponent": "14",
@@ -4543,7 +4503,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": "41"
               },
-              "#": "45",
+              "#": "44",
               "Player": {
                 "id": "24",
                 "playerName": "Bodke,Aryan",
@@ -4559,6 +4519,38 @@
               "BH": "13.5",
               "BH/C1": "13.0",
               "SB": "0.2"
+            },
+            {
+              "1": "",
+              "2": "",
+              "3": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "34"
+              },
+              "4": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "5": "",
+              "6": "",
+              "#": "45",
+              "Player": {
+                "id": "35",
+                "playerName": "Koppuravuri, Haneesh",
+                "gender": "male",
+                "href": "playercard.html#35",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0.0",
+              "BH": "2.0",
+              "BH/C1": "2.0",
+              "SB": "0.0"
             }
           ]
         }
@@ -14041,34 +14033,6 @@
             {
               "Bo.": "21",
               "White Player": {
-                "id": "35",
-                "playerName": "Koppuravuri, Haneesh",
-                "gender": "male",
-                "href": "playercard.html#35",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Pts": "0",
-              "Result": "1",
-              "Pts_1": "0",
-              "Black Player": {
-                "id": "0",
-                "playerName": "BYE",
-                "gender": "male",
-                "href": "playercard.html#0",
-                "title": "",
-                "federation": "",
-                "rating": "",
-                "fideId": "",
-                "moreInfo": {}
-              }
-            },
-            {
-              "Bo.": "22",
-              "White Player": {
                 "id": "5",
                 "playerName": "Batyrbekov,Kaisar",
                 "gender": "male",
@@ -14099,7 +14063,7 @@
               }
             },
             {
-              "Bo.": "23",
+              "Bo.": "22",
               "White Player": {
                 "id": "9",
                 "playerName": "Batyrbekov,Aidan",
@@ -14131,7 +14095,7 @@
               }
             },
             {
-              "Bo.": "24",
+              "Bo.": "23",
               "White Player": {
                 "id": "14",
                 "playerName": "Batyrbekov,Kuanysh",
@@ -14163,7 +14127,7 @@
               }
             },
             {
-              "Bo.": "25",
+              "Bo.": "24",
               "White Player": {
                 "id": "40",
                 "playerName": "Palta,Sameer",
@@ -14180,6 +14144,34 @@
                 }
               },
               "Pts": "3",
+              "Result": "0",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "0",
+                "playerName": "BYE",
+                "gender": "male",
+                "href": "playercard.html#0",
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "25",
+              "White Player": {
+                "id": "35",
+                "playerName": "Koppuravuri, Haneesh",
+                "gender": "male",
+                "href": "playercard.html#35",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
               "Result": "0",
               "Pts_1": "0",
               "Black Player": {
@@ -17318,7 +17310,7 @@
               "OPPONENT": "Koppuravuri, Haneesh",
               "Rtg": "1",
               "res": "1.0",
-              "Pts": "1.0"
+              "Pts": "0.0"
             },
             {
               "R": "4",
@@ -18001,7 +17993,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "1.0",
+              "res": "0.0",
               "Pts": "0.0"
             }
           ],
@@ -20026,26 +20018,6 @@
             },
             {
               "Pos": "44",
-              "N": "35",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Koppuravuri, Haneesh",
-                "gender": "notitle",
-                "href": "playercard.html#35",
-                "title": ""
-              },
-              "col5": "1",
-              "col6": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "1.0",
-              "BH": "7.0",
-              "BH/C1": "6.0",
-              "SB": "1.0"
-            },
-            {
-              "Pos": "45",
               "N": "24",
               "T": "",
               "Player": {
@@ -20063,6 +20035,26 @@
               "BH": "13.5",
               "BH/C1": "13.0",
               "SB": "0.2"
+            },
+            {
+              "Pos": "45",
+              "N": "35",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Koppuravuri, Haneesh",
+                "gender": "notitle",
+                "href": "playercard.html#35",
+                "title": ""
+              },
+              "col5": "1",
+              "col6": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "2.0",
+              "BH/C1": "2.0",
+              "SB": "0.0"
             }
           ],
           "caption": "Ranking for category:"
@@ -20349,10 +20341,10 @@
               "Rtg": "1",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "1.0",
-              "BH": "7.0",
-              "BH/C1": "6.0",
-              "SB": "1.0"
+              "Pts": "0.0",
+              "BH": "2.0",
+              "BH/C1": "2.0",
+              "SB": "0.0"
             }
           ],
           "caption": {
@@ -22230,25 +22222,6 @@
             {
               "Pos": "44",
               "Player": {
-                "id": "35",
-                "playerName": "Koppuravuri, Haneesh",
-                "gender": "male",
-                "href": "playercard.html#35",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Origin": "",
-              "Pts": "1.0",
-              "BH": "7.0",
-              "BH/C1": "6.0",
-              "SB": "1.0"
-            },
-            {
-              "Pos": "45",
-              "Player": {
                 "id": "24",
                 "playerName": "Bodke,Aryan",
                 "gender": "male",
@@ -22264,6 +22237,25 @@
               "BH": "13.5",
               "BH/C1": "13.0",
               "SB": "0.2"
+            },
+            {
+              "Pos": "45",
+              "Player": {
+                "id": "35",
+                "playerName": "Koppuravuri, Haneesh",
+                "gender": "male",
+                "href": "playercard.html#35",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "2.0",
+              "BH/C1": "2.0",
+              "SB": "0.0"
             }
           ],
           "footer": {
@@ -24612,5 +24604,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "8152e84d7ef2b3c1a6cf17834016f371"
+  "md5Hash": "2f3f7dff0450f8b021120171e6d91390"
 }

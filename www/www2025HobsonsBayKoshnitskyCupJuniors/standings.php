@@ -823,24 +823,6 @@
 </tr>
 <tr> <td>44</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#35"></a> 
- <div class="player-name-box2">
-			<span>Koppuravuri, Haneesh</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 35</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-</div>
-</td><td></td><td class="score"> 1.0</td><td>    7.0 </td><td>    6.0 </td><td>    1.0 </td>
-</tr>
-<tr> <td>45</td><td><div class="player-container" 
-   <div class="left-box2">
 <a href="playercard.php#24"></a> 
  <div class="player-name-box2">
 			<span>Bodke,Aryan</span>
@@ -856,6 +838,24 @@
 	</div> 
 </div>
 </td><td></td><td class="score"> 0.5</td><td>   13.5 </td><td>   13.0 </td><td>    0.2 </td>
+</tr>
+<tr> <td>45</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#35"></a> 
+ <div class="player-name-box2">
+			<span>Koppuravuri, Haneesh</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 35</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">1</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td></td><td class="score"> 0.0</td><td>    2.0 </td><td>    2.0 </td><td>    0.0 </td>
 </tr>
 </tbody>
 <tfoot><tr><td colspan="5">Tie Break legend:<br>     BH  :  Buchholz <br>

@@ -769,7 +769,7 @@
 <td> 0.0</td> <td> 4.5</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>35</td> <td></td> <td> <a href="playercard.php#35"> Koppuravuri, Haneesh </a>  <td>1</td>
-<td> 1.0</td> <td> 1.0</td>
+<td> 1.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>43</td> <td></td> <td> <a href="playercard.php#43"> Veeragandham,Gowtham </a>  <td>1</td>
 <td> 1.0</td> <td> 2.0</td>
@@ -929,7 +929,7 @@
 </tr> 
 <tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
-<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>

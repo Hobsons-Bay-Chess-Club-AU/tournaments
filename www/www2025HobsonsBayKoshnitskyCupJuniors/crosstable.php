@@ -675,7 +675,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td class="score"> 1.0</td><td> </td><td> </td><td><div class="res">0</div><div class="cb">29  </div></td><td><div class="res">0</div><div class="cf">26  </div></td><td> </td><td><div class="res"> 1</div><div class="cf">BYE</div></tr>
+</td><td class="score"> 0.0</td><td> </td><td> </td><td><div class="res">0</div><div class="cb">29  </div></td><td><div class="res">0</div><div class="cf">26  </div></td><td> </td><td> </td></tr>
 <tr> 
 <td> <span class="idn"> 36 </span></td><td><div class="player-container" 
    <div class="left-box2">
