@@ -23,8 +23,7 @@
 </li><li class="nav-item"><a class="nav-link " href="pairs9.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
-</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
 <ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
@@ -62,7 +61,7 @@
 </tr> 
 <tr> <td>8</td><td><span class="idn"> 17 </span> <span class="notitle male"> </span> <a href="playercard.php#17"> Balaji,Sai Sivesh</a> </td><td>710</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 5.5</td><td>   52.0 </td><td>   49.0 </td>
 </tr> 
-<tr> <td>9</td><td><span class="idn"> 31 </span> <span class="notitle male"> </span> <a href="playercard.php#31"> Jyothi Nikhil,Neev</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 5.5</td><td>   44.5 </td><td>   41.5 </td>
+<tr> <td>9</td><td><span class="idn"> 31 </span> <span class="notitle male"> </span> <a href="playercard.php#31"> Jyothi Nikhil,Neev</a> </td><td>1476</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 5.5</td><td>   44.5 </td><td>   41.5 </td>
 </tr> 
 <tr> <td>10</td><td><span class="idn"> 2 </span> <span class="notitle male"> </span> <a href="playercard.php#2"> Picone,James</a> </td><td>1454</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 5.5</td><td>   41.5 </td><td>   38.5 </td>
 </tr> 
@@ -100,7 +99,7 @@
 </tr> 
 <tr> <td>27</td><td><span class="idn"> 8 </span> <span class="notitle male"> </span> <a href="playercard.php#8"> Goh,Casey (W)</a> </td><td>1143</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.0</td><td>   33.5 </td><td>   29.5 </td>
 </tr> 
-<tr> <td>28</td><td><span class="idn"> 34 </span> <span class="notitle male"> </span> <a href="playercard.php#34"> Krishanth,vigneshwar</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.0</td><td>   32.5 </td><td>   30.5 </td>
+<tr> <td>28</td><td><span class="idn"> 34 </span> <span class="notitle male"> </span> <a href="playercard.php#34"> Krishanth,Vigneshwar</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.0</td><td>   32.5 </td><td>   30.5 </td>
 </tr> 
 <tr> <td>29</td><td><span class="idn"> 32 </span> <span class="notitle male"> </span> <a href="playercard.php#32"> Jyothi Nikhil,Vihaan</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 4.0</td><td>   31.0 </td><td>   29.0 </td>
 </tr> 
@@ -112,7 +111,7 @@
 </tr> 
 <tr> <td>33</td><td><span class="idn"> 27 </span> <span class="notitle male"> </span> <a href="playercard.php#27"> Goh,Julian</a> </td><td>239</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>   34.0 </td><td>   32.0 </td>
 </tr> 
-<tr> <td>34</td><td><span class="idn"> 12 </span> <span class="notitle male"> </span> <a href="playercard.php#12"> Jamie,R Martin</a> </td><td>1000</td><td ><img src="flag/aus.png" alt="AUS"></td><td class="score"> 3.0</td><td>   32.0 </td><td>   30.0 </td>
+<tr> <td>34</td><td><span class="idn"> 12 </span> <span class="notitle male"> </span> <a href="playercard.php#12"> Jamie,R Martin</a> </td><td>0</td><td ><img src="flag/aus.png" alt="AUS"></td><td class="score"> 3.0</td><td>   32.0 </td><td>   30.0 </td>
 </tr> 
 <tr> <td>35</td><td><span class="idn"> 37 </span> <span class="notitle male"> </span> <a href="playercard.php#37"> Rod,Carlyle</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>   32.0 </td><td>   30.0 </td>
 </tr> 
