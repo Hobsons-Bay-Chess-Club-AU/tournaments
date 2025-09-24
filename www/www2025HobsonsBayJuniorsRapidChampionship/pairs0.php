@@ -37,43 +37,17 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Tournament summary</h3><div class="table-responsive"><table class="table table-striped"> 
-<tbody>
-<tr><td> Tournament Name </td> <td> 2025 Hobsons Bay Juniors Rapid Championship</td> </tr>
-<tr><td >Place </td> <td> Hobsons Bay Chess Club</td> </tr>
-<tr><td >Federation</td> <td> AUS</td> </tr>
-<tr><td >Date Begin</td> <td> 18/10/2025</td> </tr>
-<tr><td >Date End</td> <td> 18/10/2025</td> </tr>
-<tr><td >Arbiter(s)</td> <td> NA Dwyer, Lachlan (AUS) 3254119 (VIC)</td> </tr>
-<tr><td > Play System</td> <td> swiss FIDE Dutch (JaVaFo)</td> </tr>
-<tr><td >Rounds</td> <td> 7</td> </tr>
-<tr><td >Score game</td> <td> 0-0.5-1</td> </tr>
-<tr><td >Tie break</td> <td>      BH   BH/C1      SB </td> </tr>
-<tr><td >Registered Players</td> <td> 64</td> </tr>
-<tr><td > Number of Federations</td> <td> 5</td> </tr>
-<tr><td >Average Rating (all) </td> <td> 801</td> </tr>
-<tr><td >Average Rating (only FIDE rated) </td> <td> 1515</td> </tr>
-<tr ><td > Players from AUS Federation</td> <td> 35</td> </tr>
-<tr><td > Players NOT from AUS Federation</td> <td> 29</td> </tr>
-<tr><td > FIDE rated players </td> <td> 30</td> </tr>
-<tr><td > unrated players </td> <td> 34</td> </tr>
-<tr><td > unrated players from AUS Federation</td> <td> 7</td> </tr>
-<tr><td >unrated players NOT from AUS Federation</td> <td> 27</td> </tr>
-<tr><td > unrated Federations</td> <td> 3</td> </tr>
-<tr><td > FIDE titled players </td> <td> 0</td> </tr>
-<tr><td > GM players </td> <td> 0</td> </tr>
-<tr><td >WGM players </td> <td> 0</td> </tr>
-<tr><td > IM players </td> <td> 0</td> </tr>
-<tr><td >WIM players</td> <td> 0</td> </tr>
-<tr><td >FM players</td> <td> 0</td> </tr>
-<tr><td >WFM players</td> <td> 0</td> </tr>
-<tr><td >CM players</td> <td> 0</td> </tr>
-<tr><td >WCM players</td> <td> 0</td> </tr>
-<tr><td >FIDE titled player from AUS Federation </td> <td> 0</td> </tr>
-<tr><td >FIDE titled player NOT from AUS Federation</td> <td> 0</td> </tr>
+  <div class="d-flex flex-column"> <div class="btn-toolbar mb-4 mt-4 d-flex align-items-center"> 
+<h5>Pairing of round 0, at  of </h5>
+   	<div class="btn-group mx-5"> 
+<?php include("pairing.php"); ?>
+   	</div>
+ </div>
+<div class="table-responsive"><table class="table table-sm table-striped"> 
+<thead><tr><th>Bo.</th><th>White Player</th><th>Pts</th><th>Result</th><th>Pts</th><th>Black Player</th></tr></thead><tbody>
 </tbody>
 </table>
-</div>
+</DIV><hr>
 		  </div>
 		      </div>
          <div class="d-none d-lg-block col-1 pe-0">
