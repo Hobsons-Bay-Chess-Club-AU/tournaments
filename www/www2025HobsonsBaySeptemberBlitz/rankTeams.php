@@ -84,8 +84,8 @@
 <tr> <td>15</td> <td>Huang,Michael </td><td>3</td></tr> 
 <tr> <td>36</td> <td>Palta,Sameer </td><td>3</td></tr> 
 <tr> <td>27</td> <td>Goh,Julian </td><td>3</td></tr> 
-<tr> <td>12</td> <td>Jamie,R Martin </td><td>3</td></tr> 
-<tr> <td>37</td> <td>Rod,Carlyle </td><td>2</td></tr> 
+<tr> <td>12</td> <td>Martin, Jamie R </td><td>3</td></tr> 
+<tr> <td>37</td> <td>Carlyle,Rod </td><td>2</td></tr> 
 <tr> <td>38</td> <td>Sheikh,Tahmid </td><td>2</td></tr> 
 <tr> <td>35</td> <td>Mc kay,Peter </td><td>2</td></tr> 
 <tr> <td>33</td> <td>Kantharaju,Aryan </td><td>2</td></tr> 

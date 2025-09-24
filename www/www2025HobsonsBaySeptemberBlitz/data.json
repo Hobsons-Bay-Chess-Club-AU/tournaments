@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-24T00:37:12.909Z",
+  "generatedAt": "2025-09-24T01:07:36.742Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 9",
@@ -803,7 +803,7 @@
               },
               "Player": {
                 "id": "12",
-                "playerName": "Jamie,R Martin",
+                "playerName": "Martin, Jamie R",
                 "gender": "male",
                 "href": "playercard.html#12",
                 "title": "",
@@ -816,7 +816,7 @@
                   "fideFederation": "AUS"
                 }
               },
-              "Rtg": "0",
+              "Rtg": "696",
               "Fed": "AUS",
               "Pts": "3.0"
             },
@@ -2372,7 +2372,7 @@
               },
               "Player": {
                 "id": "37",
-                "playerName": "Rod,Carlyle",
+                "playerName": "Carlyle,Rod",
                 "gender": "male",
                 "href": "playercard.html#37",
                 "title": "",
@@ -4652,12 +4652,12 @@
               "Pos": "34",
               "Player": {
                 "id": "",
-                "playerName": "Jamie,R Martin",
+                "playerName": "Martin, Jamie R",
                 "gender": "male",
                 "href": "playercard.html#12",
                 "title": ""
               },
-              "Rtg": "0",
+              "Rtg": "696",
               "Fed": "AUS",
               "Pts": "3.0",
               "BH": "32.0",
@@ -4712,7 +4712,7 @@
               "Pos": "35",
               "Player": {
                 "id": "",
-                "playerName": "Rod,Carlyle",
+                "playerName": "Carlyle,Rod",
                 "gender": "male",
                 "href": "playercard.html#37",
                 "title": ""
@@ -5236,7 +5236,7 @@
               "#": "12",
               "Player": {
                 "id": "",
-                "playerName": "Jamie,R Martin",
+                "playerName": "Martin, Jamie R",
                 "gender": "male",
                 "href": "http://ratings.fide.com/profile/0",
                 "title": ""
@@ -5686,7 +5686,7 @@
               "#": "37",
               "Player": {
                 "id": "",
-                "playerName": "Rod,Carlyle",
+                "playerName": "Carlyle,Rod",
                 "gender": "male",
                 "href": "http://ratings.fide.com/profile/0",
                 "title": ""
@@ -7127,14 +7127,14 @@
             }
           ],
           "caption": {
-            "playerName": "Jamie,R Martin",
+            "playerName": "Martin, Jamie R",
             "id": "",
             "moreInfo": {
               "N": "12",
               "anchor": "12"
             },
-            "rawText": "N = 12 Jamie,R Martin",
-            "rawHtml": " <a class=\"anchor\" name=\"12\"></a> N = 12<a href=\"http://ratings.fide.com/profile/0\" target=\"X\"> Jamie,R Martin </a>"
+            "rawText": "N = 12 Martin, Jamie R",
+            "rawHtml": " <a class=\"anchor\" name=\"12\"></a> N = 12<a href=\"http://ratings.fide.com/profile/0\" target=\"X\"> Martin, Jamie R </a>"
           }
         },
         {
@@ -9507,14 +9507,14 @@
             }
           ],
           "caption": {
-            "playerName": "Rod,Carlyle",
+            "playerName": "Carlyle,Rod",
             "id": "",
             "moreInfo": {
               "N": "37",
               "anchor": "37"
             },
-            "rawText": "N = 37 Rod,Carlyle",
-            "rawHtml": " <a class=\"anchor\" name=\"37\"></a> N = 37<a href=\"http://ratings.fide.com/profile/0\" target=\"X\"> Rod,Carlyle </a>"
+            "rawText": "N = 37 Carlyle,Rod",
+            "rawHtml": " <a class=\"anchor\" name=\"37\"></a> N = 37<a href=\"http://ratings.fide.com/profile/0\" target=\"X\"> Carlyle,Rod </a>"
           }
         },
         {
@@ -10040,6 +10040,15 @@
               "RtgN": "710"
             },
             {
+              "#": "12",
+              "Title": "",
+              "Player": "Martin, Jamie R",
+              "Fed": "AUS",
+              "Rtg": "696",
+              "RtgF": "0",
+              "RtgN": "696"
+            },
+            {
               "#": "18",
               "Title": "",
               "Player": "Nema,Nivaan",
@@ -10157,10 +10166,10 @@
               "RtgN": "0"
             },
             {
-              "#": "12",
+              "#": "37",
               "Title": "",
-              "Player": "Jamie,R Martin",
-              "Fed": "AUS",
+              "Player": "Carlyle,Rod",
+              "Fed": "VIC",
               "Rtg": "0",
               "RtgF": "0",
               "RtgN": "0"
@@ -10205,15 +10214,6 @@
               "#": "36",
               "Title": "",
               "Player": "Palta,Sameer",
-              "Fed": "VIC",
-              "Rtg": "0",
-              "RtgF": "0",
-              "RtgN": "0"
-            },
-            {
-              "#": "37",
-              "Title": "",
-              "Player": "Rod,Carlyle",
               "Fed": "VIC",
               "Rtg": "0",
               "RtgF": "0",
@@ -10716,7 +10716,7 @@
               "Fed": "AUS",
               "White Player": {
                 "id": "12",
-                "playerName": "Jamie,R Martin",
+                "playerName": "Martin, Jamie R",
                 "gender": "male",
                 "href": "playercard.html#12",
                 "title": "",
@@ -10962,7 +10962,7 @@
               "Pts_1": "0",
               "Black Player": {
                 "id": "37",
-                "playerName": "Rod,Carlyle",
+                "playerName": "Carlyle,Rod",
                 "gender": "male",
                 "href": "playercard.html#37",
                 "title": "",
@@ -11416,7 +11416,7 @@
               "Fed": "VIC",
               "White Player": {
                 "id": "37",
-                "playerName": "Rod,Carlyle",
+                "playerName": "Carlyle,Rod",
                 "gender": "male",
                 "href": "playercard.html#37",
                 "title": "",
@@ -11548,7 +11548,7 @@
               "Pts_1": "0",
               "Black Player": {
                 "id": "12",
-                "playerName": "Jamie,R Martin",
+                "playerName": "Martin, Jamie R",
                 "gender": "male",
                 "href": "playercard.html#12",
                 "title": "",
@@ -12438,7 +12438,7 @@
               "Pts_1": "1",
               "Black Player": {
                 "id": "37",
-                "playerName": "Rod,Carlyle",
+                "playerName": "Carlyle,Rod",
                 "gender": "male",
                 "href": "playercard.html#37",
                 "title": "",
@@ -12534,7 +12534,7 @@
               "Fed": "AUS",
               "White Player": {
                 "id": "12",
-                "playerName": "Jamie,R Martin",
+                "playerName": "Martin, Jamie R",
                 "gender": "male",
                 "href": "playercard.html#12",
                 "title": "",
@@ -13214,7 +13214,7 @@
               "Pts_1": "1",
               "Black Player": {
                 "id": "12",
-                "playerName": "Jamie,R Martin",
+                "playerName": "Martin, Jamie R",
                 "gender": "male",
                 "href": "playercard.html#12",
                 "title": "",
@@ -13272,7 +13272,7 @@
               "Fed": "VIC",
               "White Player": {
                 "id": "37",
-                "playerName": "Rod,Carlyle",
+                "playerName": "Carlyle,Rod",
                 "gender": "male",
                 "href": "playercard.html#37",
                 "title": "",
@@ -14180,7 +14180,7 @@
               "Pts_1": "1",
               "Black Player": {
                 "id": "12",
-                "playerName": "Jamie,R Martin",
+                "playerName": "Martin, Jamie R",
                 "gender": "male",
                 "href": "playercard.html#12",
                 "title": "",
@@ -14256,7 +14256,7 @@
               "Pts_1": "1",
               "Black Player": {
                 "id": "37",
-                "playerName": "Rod,Carlyle",
+                "playerName": "Carlyle,Rod",
                 "gender": "male",
                 "href": "playercard.html#37",
                 "title": "",
@@ -14824,7 +14824,7 @@
               "Fed": "AUS",
               "White Player": {
                 "id": "12",
-                "playerName": "Jamie,R Martin",
+                "playerName": "Martin, Jamie R",
                 "gender": "male",
                 "href": "playercard.html#12",
                 "title": "",
@@ -15090,7 +15090,7 @@
               "Fed": "VIC",
               "White Player": {
                 "id": "37",
-                "playerName": "Rod,Carlyle",
+                "playerName": "Carlyle,Rod",
                 "gender": "male",
                 "href": "playercard.html#37",
                 "title": "",
@@ -15732,7 +15732,7 @@
               "Pts_1": "2",
               "Black Player": {
                 "id": "12",
-                "playerName": "Jamie,R Martin",
+                "playerName": "Martin, Jamie R",
                 "gender": "male",
                 "href": "playercard.html#12",
                 "title": "",
@@ -15884,7 +15884,7 @@
               "Pts_1": "1",
               "Black Player": {
                 "id": "37",
-                "playerName": "Rod,Carlyle",
+                "playerName": "Carlyle,Rod",
                 "gender": "male",
                 "href": "playercard.html#37",
                 "title": "",
@@ -16566,7 +16566,7 @@
               "Fed": "VIC",
               "White Player": {
                 "id": "37",
-                "playerName": "Rod,Carlyle",
+                "playerName": "Carlyle,Rod",
                 "gender": "male",
                 "href": "playercard.html#37",
                 "title": "",
@@ -16604,7 +16604,7 @@
               "Fed": "AUS",
               "White Player": {
                 "id": "12",
-                "playerName": "Jamie,R Martin",
+                "playerName": "Martin, Jamie R",
                 "gender": "male",
                 "href": "playercard.html#12",
                 "title": "",
@@ -17466,7 +17466,7 @@
               "Fed": "AUS",
               "White Player": {
                 "id": "12",
-                "playerName": "Jamie,R Martin",
+                "playerName": "Martin, Jamie R",
                 "gender": "male",
                 "href": "playercard.html#12",
                 "title": "",
@@ -17484,7 +17484,7 @@
               "Pts_1": "2",
               "Black Player": {
                 "id": "37",
-                "playerName": "Rod,Carlyle",
+                "playerName": "Carlyle,Rod",
                 "gender": "male",
                 "href": "playercard.html#37",
                 "title": "",
@@ -17831,8 +17831,8 @@
               "C": "W",
               "N": "12",
               "Cat": "",
-              "OPPONENT": "Jamie,R Martin",
-              "Rtg": "0",
+              "OPPONENT": "Martin, Jamie R",
+              "Rtg": "696",
               "res": "1.0",
               "Pts": "3.0"
             },
@@ -18943,7 +18943,7 @@
               "C": "B",
               "N": "37",
               "Cat": "",
-              "OPPONENT": "Rod,Carlyle",
+              "OPPONENT": "Carlyle,Rod",
               "Rtg": "0",
               "res": "1.0",
               "Pts": "2.0"
@@ -19291,22 +19291,22 @@
               "C": "W",
               "N": "37",
               "Cat": "",
-              "OPPONENT": "Rod,Carlyle",
+              "OPPONENT": "Carlyle,Rod",
               "Rtg": "0",
               "res": "1.0",
               "Pts": "2.0"
             }
           ],
           "caption": {
-            "playerName": "Jamie,R Martin",
-            "id": "0",
+            "playerName": "Martin, Jamie R",
+            "id": "3210090",
             "moreInfo": {
               "K": "0",
-              "Elo": "0",
+              "Elo": "696",
               "anchor": "12"
             },
-            "rawText": "12   Jamie,R Martin      , K= 0, Elo=   0, ID=0",
-            "rawHtml": "  12   <strong>Jamie,R Martin      </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"12\"></a>"
+            "rawText": "12   Martin, Jamie R     , K= 0, Elo= 696, ID=3210090",
+            "rawHtml": "  12   <strong>Martin, Jamie R     </strong>, K= 0, Elo= 696, ID=3210090\n<br>\n<a class=\"anchor\" name=\"12\"></a>"
           }
         },
         {
@@ -20045,7 +20045,7 @@
               "C": "W",
               "N": "37",
               "Cat": "",
-              "OPPONENT": "Rod,Carlyle",
+              "OPPONENT": "Carlyle,Rod",
               "Rtg": "0",
               "res": "0.0",
               "Pts": "2.0"
@@ -20343,7 +20343,7 @@
               "C": "W",
               "N": "37",
               "Cat": "",
-              "OPPONENT": "Rod,Carlyle",
+              "OPPONENT": "Carlyle,Rod",
               "Rtg": "0",
               "res": "1.0",
               "Pts": "2.0"
@@ -20909,7 +20909,7 @@
               "C": "B",
               "N": "37",
               "Cat": "",
-              "OPPONENT": "Rod,Carlyle",
+              "OPPONENT": "Carlyle,Rod",
               "Rtg": "0",
               "res": "1.0",
               "Pts": "2.0"
@@ -21475,7 +21475,7 @@
               "C": "W",
               "N": "37",
               "Cat": "",
-              "OPPONENT": "Rod,Carlyle",
+              "OPPONENT": "Carlyle,Rod",
               "Rtg": "0",
               "res": "1.0",
               "Pts": "2.0"
@@ -21495,8 +21495,8 @@
               "C": "W",
               "N": "12",
               "Cat": "",
-              "OPPONENT": "Jamie,R Martin",
-              "Rtg": "0",
+              "OPPONENT": "Martin, Jamie R",
+              "Rtg": "696",
               "res": "1.0",
               "Pts": "3.0"
             },
@@ -21773,7 +21773,7 @@
               "C": "W",
               "N": "37",
               "Cat": "",
-              "OPPONENT": "Rod,Carlyle",
+              "OPPONENT": "Carlyle,Rod",
               "Rtg": "0",
               "res": "0.0",
               "Pts": "2.0"
@@ -21852,8 +21852,8 @@
               "C": "B",
               "N": "12",
               "Cat": "",
-              "OPPONENT": "Jamie,R Martin",
-              "Rtg": "0",
+              "OPPONENT": "Martin, Jamie R",
+              "Rtg": "696",
               "res": "1.0",
               "Pts": "3.0"
             },
@@ -22041,8 +22041,8 @@
               "C": "B",
               "N": "12",
               "Cat": "",
-              "OPPONENT": "Jamie,R Martin",
-              "Rtg": "0",
+              "OPPONENT": "Martin, Jamie R",
+              "Rtg": "696",
               "res": "1.0",
               "Pts": "3.0"
             },
@@ -22061,7 +22061,7 @@
               "C": "B",
               "N": "37",
               "Cat": "",
-              "OPPONENT": "Rod,Carlyle",
+              "OPPONENT": "Carlyle,Rod",
               "Rtg": "0",
               "res": "1.0",
               "Pts": "2.0"
@@ -22150,8 +22150,8 @@
               "C": "B",
               "N": "12",
               "Cat": "",
-              "OPPONENT": "Jamie,R Martin",
-              "Rtg": "0",
+              "OPPONENT": "Martin, Jamie R",
+              "Rtg": "696",
               "res": "0.0",
               "Pts": "3.0"
             },
@@ -22180,7 +22180,7 @@
               "C": "B",
               "N": "37",
               "Cat": "",
-              "OPPONENT": "Rod,Carlyle",
+              "OPPONENT": "Carlyle,Rod",
               "Rtg": "0",
               "res": "1.0",
               "Pts": "2.0"
@@ -22448,8 +22448,8 @@
               "C": "W",
               "N": "12",
               "Cat": "",
-              "OPPONENT": "Jamie,R Martin",
-              "Rtg": "0",
+              "OPPONENT": "Martin, Jamie R",
+              "Rtg": "696",
               "res": "0.0",
               "Pts": "3.0"
             },
@@ -22577,8 +22577,8 @@
               "C": "W",
               "N": "12",
               "Cat": "",
-              "OPPONENT": "Jamie,R Martin",
-              "Rtg": "0",
+              "OPPONENT": "Martin, Jamie R",
+              "Rtg": "696",
               "res": "1.0",
               "Pts": "3.0"
             },
@@ -22766,22 +22766,22 @@
               "C": "B",
               "N": "12",
               "Cat": "",
-              "OPPONENT": "Jamie,R Martin",
-              "Rtg": "0",
+              "OPPONENT": "Martin, Jamie R",
+              "Rtg": "696",
               "res": "0.0",
               "Pts": "3.0"
             }
           ],
           "caption": {
-            "playerName": "Rod,Carlyle",
+            "playerName": "Carlyle,Rod",
             "id": "0",
             "moreInfo": {
               "K": "0",
               "Elo": "0",
               "anchor": "37"
             },
-            "rawText": "37   Rod,Carlyle         , K= 0, Elo=   0, ID=0",
-            "rawHtml": "  37   <strong>Rod,Carlyle         </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"37\"></a>"
+            "rawText": "37   Carlyle,Rod         , K= 0, Elo=   0, ID=0",
+            "rawHtml": "  37   <strong>Carlyle,Rod         </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"37\"></a>"
           }
         },
         {
@@ -23173,8 +23173,8 @@
               "C": "B",
               "N": "12",
               "Cat": "",
-              "OPPONENT": "Jamie,R Martin",
-              "Rtg": "0",
+              "OPPONENT": "Martin, Jamie R",
+              "Rtg": "696",
               "res": "1.0",
               "Pts": "3.0"
             },
@@ -23471,12 +23471,12 @@
             {
               "1": "12",
               "29": "3",
-              "col2": "Jamie,R Martin"
+              "col2": "Martin, Jamie R"
             },
             {
               "1": "37",
               "29": "2",
-              "col2": "Rod,Carlyle"
+              "col2": "Carlyle,Rod"
             },
             {
               "1": "38",
@@ -23838,7 +23838,7 @@
                 "title": ""
               },
               "col5": "1476",
-              "col6": "985",
+              "col6": "907",
               "Fed": "VIC",
               "Pts": "5.5",
               "BH": "44.5",
@@ -23856,7 +23856,7 @@
                 "title": ""
               },
               "col5": "1454",
-              "col6": "1058",
+              "col6": "979",
               "Fed": "VIC",
               "Pts": "5.5",
               "BH": "41.5",
@@ -24054,7 +24054,7 @@
                 "title": ""
               },
               "col5": "0",
-              "col6": "583",
+              "col6": "495",
               "Fed": "NZL",
               "Pts": "4.0",
               "BH": "39.5",
@@ -24090,7 +24090,7 @@
                 "title": ""
               },
               "col5": "100",
-              "col6": "949",
+              "col6": "871",
               "Fed": "VIC",
               "Pts": "4.0",
               "BH": "38.5",
@@ -24198,7 +24198,7 @@
                 "title": ""
               },
               "col5": "0",
-              "col6": "877",
+              "col6": "798",
               "Fed": "VIC",
               "Pts": "4.0",
               "BH": "31.0",
@@ -24252,7 +24252,7 @@
                 "title": ""
               },
               "col5": "0",
-              "col6": "631",
+              "col6": "553",
               "Fed": "VIC",
               "Pts": "3.0",
               "BH": "36.0",
@@ -24282,12 +24282,12 @@
               "T": "",
               "Player": {
                 "id": "",
-                "playerName": "Jamie,R Martin",
+                "playerName": "Martin, Jamie R",
                 "gender": "notitle",
                 "href": "playercard.html#12",
                 "title": ""
               },
-              "col5": "0",
+              "col5": "696",
               "col6": "1145",
               "Fed": "AUS",
               "Pts": "3.0",
@@ -24300,13 +24300,13 @@
               "T": "",
               "Player": {
                 "id": "",
-                "playerName": "Rod,Carlyle",
+                "playerName": "Carlyle,Rod",
                 "gender": "notitle",
                 "href": "playercard.html#37",
                 "title": ""
               },
               "col5": "0",
-              "col6": "709",
+              "col6": "630",
               "Fed": "VIC",
               "Pts": "2.0",
               "BH": "32.0",
@@ -24342,7 +24342,7 @@
                 "title": ""
               },
               "col5": "0",
-              "col6": "721",
+              "col6": "633",
               "Fed": "VIC",
               "Pts": "2.0",
               "BH": "29.0",
@@ -24360,7 +24360,7 @@
                 "title": ""
               },
               "col5": "0",
-              "col6": "934",
+              "col6": "855",
               "Fed": "VIC",
               "Pts": "2.0",
               "BH": "27.0",
@@ -25235,7 +25235,7 @@
               "Pos": "34",
               "Player": {
                 "id": "12",
-                "playerName": "Jamie,R Martin",
+                "playerName": "Martin, Jamie R",
                 "gender": "male",
                 "href": "playercard.html#12",
                 "title": "",
@@ -25248,7 +25248,7 @@
                   "fideFederation": "AUS"
                 }
               },
-              "Rtg": "0",
+              "Rtg": "696",
               "Fed": "AUS",
               "Pts": "3.0",
               "BH": "32.0",
@@ -25258,7 +25258,7 @@
               "Pos": "35",
               "Player": {
                 "id": "37",
-                "playerName": "Rod,Carlyle",
+                "playerName": "Carlyle,Rod",
                 "gender": "male",
                 "href": "playercard.html#37",
                 "title": "",
@@ -25876,7 +25876,7 @@
               "col2": "AUS",
               "White Player": {
                 "id": "",
-                "playerName": "Jamie,R Martin",
+                "playerName": "Martin, Jamie R",
                 "gender": "notitle",
                 "href": "playercard.html#12",
                 "title": ""
@@ -25888,7 +25888,7 @@
               "Pts_1": "(2.0)",
               "Black Player": {
                 "id": "",
-                "playerName": "Rod,Carlyle",
+                "playerName": "Carlyle,Rod",
                 "gender": "notitle",
                 "href": "playercard.html#37",
                 "title": ""
@@ -26230,7 +26230,7 @@
                 "title": ""
               },
               "Rtg": "1476",
-              "PRtg": "985",
+              "PRtg": "907",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "5.5",
@@ -26249,7 +26249,7 @@
                 "title": ""
               },
               "Rtg": "1454",
-              "PRtg": "1058",
+              "PRtg": "979",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "5.5",
@@ -26477,7 +26477,7 @@
                 "title": ""
               },
               "Rtg": "100",
-              "PRtg": "949",
+              "PRtg": "871",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "4.0",
@@ -26591,7 +26591,7 @@
                 "title": ""
               },
               "Rtg": "0",
-              "PRtg": "877",
+              "PRtg": "798",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "4.0",
@@ -26648,7 +26648,7 @@
                 "title": ""
               },
               "Rtg": "0",
-              "PRtg": "631",
+              "PRtg": "553",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "3.0",
@@ -26680,13 +26680,13 @@
               "T": "",
               "Player": {
                 "id": "",
-                "playerName": "Rod,Carlyle",
+                "playerName": "Carlyle,Rod",
                 "gender": "notitle",
                 "href": "playercard.html#37",
                 "title": ""
               },
               "Rtg": "0",
-              "PRtg": "709",
+              "PRtg": "630",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.0",
@@ -26724,7 +26724,7 @@
                 "title": ""
               },
               "Rtg": "0",
-              "PRtg": "721",
+              "PRtg": "633",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.0",
@@ -26743,7 +26743,7 @@
                 "title": ""
               },
               "Rtg": "0",
-              "PRtg": "934",
+              "PRtg": "855",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.0",
@@ -26922,7 +26922,7 @@
                 "title": ""
               },
               "Rtg": "0",
-              "PRtg": "583",
+              "PRtg": "495",
               "Fed": "NZL",
               "Origin": "",
               "Pts": "4.0",
@@ -26981,7 +26981,7 @@
               "col2": "AUS",
               "White Player": {
                 "id": "",
-                "playerName": "Jamie,R Martin",
+                "playerName": "Martin, Jamie R",
                 "gender": "notitle",
                 "href": "playercard.html#12",
                 "title": ""
@@ -26993,7 +26993,7 @@
               "Pts_1": "(2.0)",
               "Black Player": {
                 "id": "",
-                "playerName": "Rod,Carlyle",
+                "playerName": "Carlyle,Rod",
                 "gender": "notitle",
                 "href": "playercard.html#37",
                 "title": ""
@@ -27057,12 +27057,12 @@
               "T": "",
               "Player": {
                 "id": "",
-                "playerName": "Jamie,R Martin",
+                "playerName": "Martin, Jamie R",
                 "gender": "notitle",
                 "href": "playercard.html#12",
                 "title": ""
               },
-              "Rtg": "0",
+              "Rtg": "696",
               "PRtg": "1145",
               "Fed": "AUS",
               "Origin": "",
@@ -27541,7 +27541,7 @@
               "col2": "",
               "White Player": {
                 "id": "",
-                "playerName": "Jamie,R Martin",
+                "playerName": "Martin, Jamie R",
                 "gender": "notitle",
                 "href": "playercard.html#12",
                 "title": ""
@@ -27553,7 +27553,7 @@
               "Pts_1": "(2.0)",
               "Black Player": {
                 "id": "",
-                "playerName": "Rod,Carlyle",
+                "playerName": "Carlyle,Rod",
                 "gender": "notitle",
                 "href": "playercard.html#37",
                 "title": ""
@@ -27895,7 +27895,7 @@
                 "title": ""
               },
               "Rtg": "1476",
-              "PRtg": "985",
+              "PRtg": "907",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "5.5",
@@ -27914,7 +27914,7 @@
                 "title": ""
               },
               "Rtg": "1454",
-              "PRtg": "1058",
+              "PRtg": "979",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "5.5",
@@ -28123,7 +28123,7 @@
                 "title": ""
               },
               "Rtg": "0",
-              "PRtg": "583",
+              "PRtg": "495",
               "Fed": "NZL",
               "Origin": "",
               "Pts": "4.0",
@@ -28161,7 +28161,7 @@
                 "title": ""
               },
               "Rtg": "100",
-              "PRtg": "949",
+              "PRtg": "871",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "4.0",
@@ -28275,7 +28275,7 @@
                 "title": ""
               },
               "Rtg": "0",
-              "PRtg": "877",
+              "PRtg": "798",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "4.0",
@@ -28332,7 +28332,7 @@
                 "title": ""
               },
               "Rtg": "0",
-              "PRtg": "631",
+              "PRtg": "553",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "3.0",
@@ -28364,12 +28364,12 @@
               "T": "",
               "Player": {
                 "id": "",
-                "playerName": "Jamie,R Martin",
+                "playerName": "Martin, Jamie R",
                 "gender": "notitle",
                 "href": "playercard.html#12",
                 "title": ""
               },
-              "Rtg": "0",
+              "Rtg": "696",
               "PRtg": "1145",
               "Fed": "AUS",
               "Origin": "",
@@ -28383,13 +28383,13 @@
               "T": "",
               "Player": {
                 "id": "",
-                "playerName": "Rod,Carlyle",
+                "playerName": "Carlyle,Rod",
                 "gender": "notitle",
                 "href": "playercard.html#37",
                 "title": ""
               },
               "Rtg": "0",
-              "PRtg": "709",
+              "PRtg": "630",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.0",
@@ -28427,7 +28427,7 @@
                 "title": ""
               },
               "Rtg": "0",
-              "PRtg": "721",
+              "PRtg": "633",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.0",
@@ -28446,7 +28446,7 @@
                 "title": ""
               },
               "Rtg": "0",
-              "PRtg": "934",
+              "PRtg": "855",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.0",
@@ -28552,7 +28552,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "1014"
+              "col2": "1031"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -28803,7 +28803,7 @@
     },
     "12": {
       "id": "12",
-      "playerName": "Jamie,R Martin",
+      "playerName": "Martin, Jamie R",
       "title": "",
       "federation": "AUS",
       "rating": "0",
@@ -29178,7 +29178,7 @@
     },
     "37": {
       "id": "37",
-      "playerName": "Rod,Carlyle",
+      "playerName": "Carlyle,Rod",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -29489,6 +29489,15 @@
       "RtgN": "710"
     },
     {
+      "#": "12",
+      "Title": "",
+      "Player": "Martin, Jamie R",
+      "Fed": "AUS",
+      "Rtg": "696",
+      "RtgF": "0",
+      "RtgN": "696"
+    },
+    {
       "#": "18",
       "Title": "",
       "Player": "Nema,Nivaan",
@@ -29606,10 +29615,10 @@
       "RtgN": "0"
     },
     {
-      "#": "12",
+      "#": "37",
       "Title": "",
-      "Player": "Jamie,R Martin",
-      "Fed": "AUS",
+      "Player": "Carlyle,Rod",
+      "Fed": "VIC",
       "Rtg": "0",
       "RtgF": "0",
       "RtgN": "0"
@@ -29660,15 +29669,6 @@
       "RtgN": "0"
     },
     {
-      "#": "37",
-      "Title": "",
-      "Player": "Rod,Carlyle",
-      "Fed": "VIC",
-      "Rtg": "0",
-      "RtgF": "0",
-      "RtgN": "0"
-    },
-    {
       "#": "38",
       "Title": "",
       "Player": "Sheikh,Tahmid",
@@ -29710,7 +29710,7 @@
     "Tie break": "BH BH/C1",
     "Registered Players": "40",
     "Number of Federations": "3",
-    "Average Rating (all)": "1014",
+    "Average Rating (all)": "1031",
     "Average Rating (only FIDE rated)": "1587",
     "Players from AUS Federation": "1",
     "Players NOT from AUS Federation": "39",
@@ -29732,5 +29732,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Senior"
   },
-  "md5Hash": "42b5bcd54e0baba54640be8ecfb6efae"
+  "md5Hash": "7dd19f49f782b8baf9221bce2995f939"
 }
