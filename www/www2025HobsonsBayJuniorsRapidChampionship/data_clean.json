@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-24T04:08:21.094Z",
+  "generatedAt": "2025-09-24T04:31:30.127Z",
   "tournament": {
     "id": "2025-hobsons-bay-juniors-rapid-championship",
     "name": "2025 Hobsons Bay Juniors Rapid Championship",
@@ -58,7 +58,7 @@
   "players": [
     {
       "id": "1",
-      "name": "Tadakamadla,Ahaan",
+      "name": "Parker,Lucas",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -70,7 +70,7 @@
     },
     {
       "id": "2",
-      "name": "Munro,Lachlan",
+      "name": "Hari,Dhruv",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -82,7 +82,7 @@
     },
     {
       "id": "3",
-      "name": "Parker,Lucas",
+      "name": "Batyrbekov,Kaisar",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -94,7 +94,7 @@
     },
     {
       "id": "4",
-      "name": "Hari,Dhruv",
+      "name": "Le Nguyen, Khoi",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -106,7 +106,7 @@
     },
     {
       "id": "5",
-      "name": "Batyrbekov,Kaisar",
+      "name": "Wales,Sam",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -118,7 +118,7 @@
     },
     {
       "id": "6",
-      "name": "Le Nguyen, Khoi",
+      "name": "Wei,Andrew",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -130,7 +130,7 @@
     },
     {
       "id": "7",
-      "name": "Wales,Sam",
+      "name": "Batyrbekov,Aidan",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -142,7 +142,7 @@
     },
     {
       "id": "8",
-      "name": "Wei,Andrew",
+      "name": "Nguyen,Tristan",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -154,7 +154,7 @@
     },
     {
       "id": "9",
-      "name": "Batyrbekov,Aidan",
+      "name": "Munro,Lachlan",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -166,7 +166,7 @@
     },
     {
       "id": "10",
-      "name": "Nguyen,Tristan",
+      "name": "Tadakamadla,Ahaan",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -927,24 +927,6 @@
             {
               "#": "1",
               "Title": "",
-              "Player": "Tadakamadla,Ahaan",
-              "Fed": "AUS",
-              "Rtg": "1520",
-              "RtgF": "1520",
-              "RtgN": "0"
-            },
-            {
-              "#": "2",
-              "Title": "",
-              "Player": "Munro,Lachlan",
-              "Fed": "AUS",
-              "Rtg": "1494",
-              "RtgF": "1494",
-              "RtgN": "0"
-            },
-            {
-              "#": "3",
-              "Title": "",
               "Player": "Parker,Lucas",
               "Fed": "AUS",
               "Rtg": "1373",
@@ -952,7 +934,7 @@
               "RtgN": "1373"
             },
             {
-              "#": "4",
+              "#": "2",
               "Title": "",
               "Player": "Hari,Dhruv",
               "Fed": "AUS",
@@ -961,7 +943,7 @@
               "RtgN": "1293"
             },
             {
-              "#": "5",
+              "#": "3",
               "Title": "",
               "Player": "Batyrbekov,Kaisar",
               "Fed": "AUS",
@@ -970,7 +952,7 @@
               "RtgN": "1241"
             },
             {
-              "#": "6",
+              "#": "4",
               "Title": "",
               "Player": "Le Nguyen, Khoi",
               "Fed": "AUS",
@@ -979,7 +961,7 @@
               "RtgN": "1234"
             },
             {
-              "#": "7",
+              "#": "5",
               "Title": "",
               "Player": "Wales,Sam",
               "Fed": "AUS",
@@ -988,7 +970,7 @@
               "RtgN": "1187"
             },
             {
-              "#": "8",
+              "#": "6",
               "Title": "",
               "Player": "Wei,Andrew",
               "Fed": "AUS",
@@ -997,7 +979,7 @@
               "RtgN": "1033"
             },
             {
-              "#": "9",
+              "#": "7",
               "Title": "",
               "Player": "Batyrbekov,Aidan",
               "Fed": "AUS",
@@ -1006,13 +988,31 @@
               "RtgN": "1030"
             },
             {
-              "#": "10",
+              "#": "8",
               "Title": "",
               "Player": "Nguyen,Tristan",
               "Fed": "AUS",
               "Rtg": "1025",
               "RtgF": "1596",
               "RtgN": "1025"
+            },
+            {
+              "#": "9",
+              "Title": "",
+              "Player": "Munro,Lachlan",
+              "Fed": "AUS",
+              "Rtg": "1000",
+              "RtgF": "1494",
+              "RtgN": "1000"
+            },
+            {
+              "#": "10",
+              "Title": "",
+              "Player": "Tadakamadla,Ahaan",
+              "Fed": "AUS",
+              "Rtg": "1000",
+              "RtgF": "1520",
+              "RtgN": "1000"
             },
             {
               "#": "11",
@@ -3049,11 +3049,11 @@
             "id": "3218610",
             "moreInfo": {
               "K": "0",
-              "Elo": "1494",
+              "Elo": "1000",
               "anchor": "30"
             },
-            "rawText": "30   Munro,Lachlan       , K= 0, Elo=1494, ID=3218610",
-            "rawHtml": "  30   <strong>Munro,Lachlan       </strong>, K= 0, Elo=1494, ID=3218610\n<br>\n<a class=\"anchor\" name=\"30\"></a>"
+            "rawText": "30   Munro,Lachlan       , K= 0, Elo=1000, ID=3218610",
+            "rawHtml": "  30   <strong>Munro,Lachlan       </strong>, K= 0, Elo=1000, ID=3218610\n<br>\n<a class=\"anchor\" name=\"30\"></a>"
           },
           "type": "other"
         },
@@ -3882,11 +3882,11 @@
             "id": "3217965",
             "moreInfo": {
               "K": "0",
-              "Elo": "1520",
+              "Elo": "1000",
               "anchor": "47"
             },
-            "rawText": "47   Tadakamadla,Ahaan   , K= 0, Elo=1520, ID=3217965",
-            "rawHtml": "  47   <strong>Tadakamadla,Ahaan   </strong>, K= 0, Elo=1520, ID=3217965\n<br>\n<a class=\"anchor\" name=\"47\"></a>"
+            "rawText": "47   Tadakamadla,Ahaan   , K= 0, Elo=1000, ID=3217965",
+            "rawHtml": "  47   <strong>Tadakamadla,Ahaan   </strong>, K= 0, Elo=1000, ID=3217965\n<br>\n<a class=\"anchor\" name=\"47\"></a>"
           },
           "type": "other"
         },
@@ -4947,5 +4947,5 @@
       "children": []
     }
   ],
-  "md5Hash": "6724048e97da69aa82faea2e48f02359"
+  "md5Hash": "99e9fbb67cb1fe6601ef6b61db7c5df7"
 }
