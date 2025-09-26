@@ -311,7 +311,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  35   <strong>Munro,Lachlan       </strong>, K= 0, Elo=1494, ID=3218610
+<caption>  35   <strong>Munro,Lachlan       </strong>, K= 0, Elo= 800, ID=3218610
 <br>
 <a class="anchor" name="35"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -495,7 +495,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  58   <strong>Tadakamadla,Ahaan   </strong>, K= 0, Elo=1520, ID=3217965
+<caption>  58   <strong>Tadakamadla,Ahaan   </strong>, K= 0, Elo= 800, ID=3217965
 <br>
 <a class="anchor" name="58"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>

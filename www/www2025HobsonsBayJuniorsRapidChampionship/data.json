@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-26T05:00:24.855Z",
+  "generatedAt": "2025-09-26T06:17:49.840Z",
   "page": {
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 0",
@@ -101,24 +101,6 @@
             {
               "#": "1",
               "Title": "",
-              "Player": "Tadakamadla,Ahaan",
-              "Fed": "AUS",
-              "Rtg": "1520",
-              "RtgF": "1520",
-              "RtgN": "0"
-            },
-            {
-              "#": "2",
-              "Title": "",
-              "Player": "Munro,Lachlan",
-              "Fed": "AUS",
-              "Rtg": "1494",
-              "RtgF": "1494",
-              "RtgN": "0"
-            },
-            {
-              "#": "3",
-              "Title": "",
               "Player": "Bodke,Krishna",
               "Fed": "AUS",
               "Rtg": "1440",
@@ -126,7 +108,7 @@
               "RtgN": "1440"
             },
             {
-              "#": "4",
+              "#": "2",
               "Title": "",
               "Player": "Parker,Lucas",
               "Fed": "AUS",
@@ -135,7 +117,7 @@
               "RtgN": "1373"
             },
             {
-              "#": "5",
+              "#": "3",
               "Title": "",
               "Player": "Hari,Dhruv",
               "Fed": "AUS",
@@ -144,7 +126,7 @@
               "RtgN": "1293"
             },
             {
-              "#": "6",
+              "#": "4",
               "Title": "",
               "Player": "Batyrbekov,Kaisar",
               "Fed": "AUS",
@@ -153,7 +135,7 @@
               "RtgN": "1241"
             },
             {
-              "#": "7",
+              "#": "5",
               "Title": "",
               "Player": "Wales,Sam",
               "Fed": "AUS",
@@ -162,7 +144,7 @@
               "RtgN": "1187"
             },
             {
-              "#": "8",
+              "#": "6",
               "Title": "",
               "Player": "Wei,Andrew",
               "Fed": "AUS",
@@ -171,7 +153,7 @@
               "RtgN": "1033"
             },
             {
-              "#": "9",
+              "#": "7",
               "Title": "",
               "Player": "Batyrbekov,Aidan",
               "Fed": "AUS",
@@ -180,7 +162,7 @@
               "RtgN": "1030"
             },
             {
-              "#": "10",
+              "#": "8",
               "Title": "",
               "Player": "Nguyen,Tristan",
               "Fed": "VIC",
@@ -189,7 +171,7 @@
               "RtgN": "1025"
             },
             {
-              "#": "11",
+              "#": "9",
               "Title": "",
               "Player": "Verma,Vivaan",
               "Fed": "VIC",
@@ -198,7 +180,7 @@
               "RtgN": "983"
             },
             {
-              "#": "12",
+              "#": "10",
               "Title": "",
               "Player": "Saha,Avinandan (Arjun)",
               "Fed": "AUS",
@@ -207,7 +189,7 @@
               "RtgN": "982"
             },
             {
-              "#": "13",
+              "#": "11",
               "Title": "",
               "Player": "Sheth,Adidev",
               "Fed": "AUS",
@@ -216,7 +198,7 @@
               "RtgN": "981"
             },
             {
-              "#": "14",
+              "#": "12",
               "Title": "",
               "Player": "Rawat,Vivaan",
               "Fed": "AUS",
@@ -225,7 +207,7 @@
               "RtgN": "933"
             },
             {
-              "#": "15",
+              "#": "13",
               "Title": "",
               "Player": "Ahmad,Ihtiram",
               "Fed": "BAN",
@@ -234,7 +216,7 @@
               "RtgN": "889"
             },
             {
-              "#": "16",
+              "#": "14",
               "Title": "",
               "Player": "Ngo,William",
               "Fed": "AUS",
@@ -243,7 +225,7 @@
               "RtgN": "883"
             },
             {
-              "#": "17",
+              "#": "15",
               "Title": "",
               "Player": "Arora,Daanish",
               "Fed": "AUS",
@@ -252,13 +234,31 @@
               "RtgN": "856"
             },
             {
-              "#": "18",
+              "#": "16",
               "Title": "",
               "Player": "Scenna,Luna",
               "Fed": "AUS",
               "Rtg": "856",
               "RtgF": "1553",
               "RtgN": "856"
+            },
+            {
+              "#": "17",
+              "Title": "",
+              "Player": "Munro,Lachlan",
+              "Fed": "AUS",
+              "Rtg": "800",
+              "RtgF": "1494",
+              "RtgN": "800"
+            },
+            {
+              "#": "18",
+              "Title": "",
+              "Player": "Tadakamadla,Ahaan",
+              "Fed": "AUS",
+              "Rtg": "800",
+              "RtgF": "1520",
+              "RtgN": "800"
             },
             {
               "#": "19",
@@ -2467,11 +2467,11 @@
             "id": "3218610",
             "moreInfo": {
               "K": "0",
-              "Elo": "1494",
+              "Elo": "800",
               "anchor": "35"
             },
-            "rawText": "35   Munro,Lachlan       , K= 0, Elo=1494, ID=3218610",
-            "rawHtml": "  35   <strong>Munro,Lachlan       </strong>, K= 0, Elo=1494, ID=3218610\n<br>\n<a class=\"anchor\" name=\"35\"></a>"
+            "rawText": "35   Munro,Lachlan       , K= 0, Elo= 800, ID=3218610",
+            "rawHtml": "  35   <strong>Munro,Lachlan       </strong>, K= 0, Elo= 800, ID=3218610\n<br>\n<a class=\"anchor\" name=\"35\"></a>"
           }
         },
         {
@@ -3571,11 +3571,11 @@
             "id": "3217965",
             "moreInfo": {
               "K": "0",
-              "Elo": "1520",
+              "Elo": "800",
               "anchor": "58"
             },
-            "rawText": "58   Tadakamadla,Ahaan   , K= 0, Elo=1520, ID=3217965",
-            "rawHtml": "  58   <strong>Tadakamadla,Ahaan   </strong>, K= 0, Elo=1520, ID=3217965\n<br>\n<a class=\"anchor\" name=\"58\"></a>"
+            "rawText": "58   Tadakamadla,Ahaan   , K= 0, Elo= 800, ID=3217965",
+            "rawHtml": "  58   <strong>Tadakamadla,Ahaan   </strong>, K= 0, Elo= 800, ID=3217965\n<br>\n<a class=\"anchor\" name=\"58\"></a>"
           }
         },
         {
@@ -4260,28 +4260,6 @@
   "playerLookup": {
     "1": {
       "id": "1",
-      "playerName": "Tadakamadla,Ahaan",
-      "title": "",
-      "federation": "AUS",
-      "rating": "1520",
-      "gender": "",
-      "fideId": "",
-      "href": "",
-      "moreInfo": {}
-    },
-    "2": {
-      "id": "2",
-      "playerName": "Munro,Lachlan",
-      "title": "",
-      "federation": "AUS",
-      "rating": "1494",
-      "gender": "",
-      "fideId": "",
-      "href": "",
-      "moreInfo": {}
-    },
-    "3": {
-      "id": "3",
       "playerName": "Bodke,Krishna",
       "title": "",
       "federation": "AUS",
@@ -4291,8 +4269,8 @@
       "href": "",
       "moreInfo": {}
     },
-    "4": {
-      "id": "4",
+    "2": {
+      "id": "2",
       "playerName": "Parker,Lucas",
       "title": "",
       "federation": "AUS",
@@ -4302,8 +4280,8 @@
       "href": "",
       "moreInfo": {}
     },
-    "5": {
-      "id": "5",
+    "3": {
+      "id": "3",
       "playerName": "Hari,Dhruv",
       "title": "",
       "federation": "AUS",
@@ -4313,8 +4291,8 @@
       "href": "",
       "moreInfo": {}
     },
-    "6": {
-      "id": "6",
+    "4": {
+      "id": "4",
       "playerName": "Batyrbekov,Kaisar",
       "title": "",
       "federation": "AUS",
@@ -4324,8 +4302,8 @@
       "href": "",
       "moreInfo": {}
     },
-    "7": {
-      "id": "7",
+    "5": {
+      "id": "5",
       "playerName": "Wales,Sam",
       "title": "",
       "federation": "AUS",
@@ -4335,8 +4313,8 @@
       "href": "",
       "moreInfo": {}
     },
-    "8": {
-      "id": "8",
+    "6": {
+      "id": "6",
       "playerName": "Wei,Andrew",
       "title": "",
       "federation": "AUS",
@@ -4346,8 +4324,8 @@
       "href": "",
       "moreInfo": {}
     },
-    "9": {
-      "id": "9",
+    "7": {
+      "id": "7",
       "playerName": "Batyrbekov,Aidan",
       "title": "",
       "federation": "AUS",
@@ -4357,8 +4335,8 @@
       "href": "",
       "moreInfo": {}
     },
-    "10": {
-      "id": "10",
+    "8": {
+      "id": "8",
       "playerName": "Nguyen,Tristan",
       "title": "",
       "federation": "VIC",
@@ -4368,8 +4346,8 @@
       "href": "",
       "moreInfo": {}
     },
-    "11": {
-      "id": "11",
+    "9": {
+      "id": "9",
       "playerName": "Verma,Vivaan",
       "title": "",
       "federation": "VIC",
@@ -4379,8 +4357,8 @@
       "href": "",
       "moreInfo": {}
     },
-    "12": {
-      "id": "12",
+    "10": {
+      "id": "10",
       "playerName": "Saha,Avinandan (Arjun)",
       "title": "",
       "federation": "AUS",
@@ -4390,8 +4368,8 @@
       "href": "",
       "moreInfo": {}
     },
-    "13": {
-      "id": "13",
+    "11": {
+      "id": "11",
       "playerName": "Sheth,Adidev",
       "title": "",
       "federation": "AUS",
@@ -4401,8 +4379,8 @@
       "href": "",
       "moreInfo": {}
     },
-    "14": {
-      "id": "14",
+    "12": {
+      "id": "12",
       "playerName": "Rawat,Vivaan",
       "title": "",
       "federation": "AUS",
@@ -4412,8 +4390,8 @@
       "href": "",
       "moreInfo": {}
     },
-    "15": {
-      "id": "15",
+    "13": {
+      "id": "13",
       "playerName": "Ahmad,Ihtiram",
       "title": "",
       "federation": "BAN",
@@ -4423,8 +4401,8 @@
       "href": "",
       "moreInfo": {}
     },
-    "16": {
-      "id": "16",
+    "14": {
+      "id": "14",
       "playerName": "Ngo,William",
       "title": "",
       "federation": "AUS",
@@ -4434,8 +4412,8 @@
       "href": "",
       "moreInfo": {}
     },
-    "17": {
-      "id": "17",
+    "15": {
+      "id": "15",
       "playerName": "Arora,Daanish",
       "title": "",
       "federation": "AUS",
@@ -4445,12 +4423,34 @@
       "href": "",
       "moreInfo": {}
     },
-    "18": {
-      "id": "18",
+    "16": {
+      "id": "16",
       "playerName": "Scenna,Luna",
       "title": "",
       "federation": "AUS",
       "rating": "856",
+      "gender": "",
+      "fideId": "",
+      "href": "",
+      "moreInfo": {}
+    },
+    "17": {
+      "id": "17",
+      "playerName": "Munro,Lachlan",
+      "title": "",
+      "federation": "AUS",
+      "rating": "800",
+      "gender": "",
+      "fideId": "",
+      "href": "",
+      "moreInfo": {}
+    },
+    "18": {
+      "id": "18",
+      "playerName": "Tadakamadla,Ahaan",
+      "title": "",
+      "federation": "AUS",
+      "rating": "800",
       "gender": "",
       "fideId": "",
       "href": "",
@@ -5034,24 +5034,6 @@
     {
       "#": "1",
       "Title": "",
-      "Player": "Tadakamadla,Ahaan",
-      "Fed": "AUS",
-      "Rtg": "1520",
-      "RtgF": "1520",
-      "RtgN": "0"
-    },
-    {
-      "#": "2",
-      "Title": "",
-      "Player": "Munro,Lachlan",
-      "Fed": "AUS",
-      "Rtg": "1494",
-      "RtgF": "1494",
-      "RtgN": "0"
-    },
-    {
-      "#": "3",
-      "Title": "",
       "Player": "Bodke,Krishna",
       "Fed": "AUS",
       "Rtg": "1440",
@@ -5059,7 +5041,7 @@
       "RtgN": "1440"
     },
     {
-      "#": "4",
+      "#": "2",
       "Title": "",
       "Player": "Parker,Lucas",
       "Fed": "AUS",
@@ -5068,7 +5050,7 @@
       "RtgN": "1373"
     },
     {
-      "#": "5",
+      "#": "3",
       "Title": "",
       "Player": "Hari,Dhruv",
       "Fed": "AUS",
@@ -5077,7 +5059,7 @@
       "RtgN": "1293"
     },
     {
-      "#": "6",
+      "#": "4",
       "Title": "",
       "Player": "Batyrbekov,Kaisar",
       "Fed": "AUS",
@@ -5086,7 +5068,7 @@
       "RtgN": "1241"
     },
     {
-      "#": "7",
+      "#": "5",
       "Title": "",
       "Player": "Wales,Sam",
       "Fed": "AUS",
@@ -5095,7 +5077,7 @@
       "RtgN": "1187"
     },
     {
-      "#": "8",
+      "#": "6",
       "Title": "",
       "Player": "Wei,Andrew",
       "Fed": "AUS",
@@ -5104,7 +5086,7 @@
       "RtgN": "1033"
     },
     {
-      "#": "9",
+      "#": "7",
       "Title": "",
       "Player": "Batyrbekov,Aidan",
       "Fed": "AUS",
@@ -5113,7 +5095,7 @@
       "RtgN": "1030"
     },
     {
-      "#": "10",
+      "#": "8",
       "Title": "",
       "Player": "Nguyen,Tristan",
       "Fed": "VIC",
@@ -5122,7 +5104,7 @@
       "RtgN": "1025"
     },
     {
-      "#": "11",
+      "#": "9",
       "Title": "",
       "Player": "Verma,Vivaan",
       "Fed": "VIC",
@@ -5131,7 +5113,7 @@
       "RtgN": "983"
     },
     {
-      "#": "12",
+      "#": "10",
       "Title": "",
       "Player": "Saha,Avinandan (Arjun)",
       "Fed": "AUS",
@@ -5140,7 +5122,7 @@
       "RtgN": "982"
     },
     {
-      "#": "13",
+      "#": "11",
       "Title": "",
       "Player": "Sheth,Adidev",
       "Fed": "AUS",
@@ -5149,7 +5131,7 @@
       "RtgN": "981"
     },
     {
-      "#": "14",
+      "#": "12",
       "Title": "",
       "Player": "Rawat,Vivaan",
       "Fed": "AUS",
@@ -5158,7 +5140,7 @@
       "RtgN": "933"
     },
     {
-      "#": "15",
+      "#": "13",
       "Title": "",
       "Player": "Ahmad,Ihtiram",
       "Fed": "BAN",
@@ -5167,7 +5149,7 @@
       "RtgN": "889"
     },
     {
-      "#": "16",
+      "#": "14",
       "Title": "",
       "Player": "Ngo,William",
       "Fed": "AUS",
@@ -5176,7 +5158,7 @@
       "RtgN": "883"
     },
     {
-      "#": "17",
+      "#": "15",
       "Title": "",
       "Player": "Arora,Daanish",
       "Fed": "AUS",
@@ -5185,13 +5167,31 @@
       "RtgN": "856"
     },
     {
-      "#": "18",
+      "#": "16",
       "Title": "",
       "Player": "Scenna,Luna",
       "Fed": "AUS",
       "Rtg": "856",
       "RtgF": "1553",
       "RtgN": "856"
+    },
+    {
+      "#": "17",
+      "Title": "",
+      "Player": "Munro,Lachlan",
+      "Fed": "AUS",
+      "Rtg": "800",
+      "RtgF": "1494",
+      "RtgN": "800"
+    },
+    {
+      "#": "18",
+      "Title": "",
+      "Player": "Tadakamadla,Ahaan",
+      "Fed": "AUS",
+      "Rtg": "800",
+      "RtgF": "1520",
+      "RtgN": "800"
     },
     {
       "#": "19",
@@ -5680,5 +5680,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "95a79dad5cec0257ceaab3f049512747"
+  "md5Hash": "4eefd851eb8a0f7711d8836538cae662"
 }
