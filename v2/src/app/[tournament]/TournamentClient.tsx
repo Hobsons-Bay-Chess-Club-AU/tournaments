@@ -178,34 +178,71 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
 
 
     // Search filtering function
-    const getFilteredAndSortedRows = (table: { rows?: Record<string, unknown>[] }, idx: number) => {
+	// Helpers for player-aware serialization and search
+	const isLikelyPlayerHeader = (header: Header): boolean => {
+		const label = header.name.trim().toLowerCase();
+		return label === 'player' || label === 'white player' || label === 'black player' || label === 'white' || label === 'black';
+	};
+
+	const formatPlayerById = (candidateId: unknown): string | null => {
+		if (candidateId === null || candidateId === undefined) return null;
+		const idStr = String(candidateId).trim();
+		if (!idStr) return null;
+		const player = getPlayerData(idStr);
+		if (!player) return null;
+		return player.name || null;
+	};
+
+	const serializeCell = (value: unknown, header: Header): string => {
+		if (value === null || value === undefined) return '';
+		if (typeof value === 'string' || typeof value === 'number') {
+			// Prefer mapping to player name only when column is player-like
+			const mapped = isLikelyPlayerHeader(header) ? formatPlayerById(value) : null;
+			if (mapped) return mapped;
+			return String(value).trim();
+		}
+		if (typeof value === 'object') {
+			const obj = value as Record<string, unknown>;
+			// Crosstable cell
+			if ('result' in obj) {
+				const res = String(obj.result || '').trim();
+				// For crosstable cells, keep opponent identifiers as-is (no lookup)
+				const w = obj.whiteOpponent ? ` W:${String(obj.whiteOpponent)}` : '';
+				const b = obj.blackOpponent ? ` B:${String(obj.blackOpponent)}` : '';
+				return `${res}${w}${b}`.trim();
+			}
+			// Player object shape
+			const name = (obj.playerName || obj.name || obj.player) ? String(obj.playerName || obj.name || obj.player).trim() : '';
+			const rating = obj.rating !== undefined && obj.rating !== '' ? ` (${String(obj.rating)})` : '';
+			const title = obj.title ? String(obj.title).trim() : '';
+			if (name) {
+				const titlePrefix = title ? `${title} ` : '';
+				return `${titlePrefix}${name}${rating}`.trim();
+			}
+			try { return JSON.stringify(obj); } catch { return String(obj); }
+		}
+		return String(value);
+	};
+
+	const buildRowSearchText = (table: { headers?: MixedHeader[]; rows?: Record<string, unknown>[] }, row: Record<string, unknown>): string => {
+		const headers = getFilteredHeaders(table).filter(h => h.key !== 'compare');
+		if (headers.length === 0) {
+			// Fallback to raw values if headers are missing
+			return Object.values(row).map(v => String(v ?? '')).join(' ');
+		}
+		return headers.map(h => serializeCell(row[h.key], h)).join(' ');
+	};
+
+	const getFilteredAndSortedRows = (table: { rows?: Record<string, unknown>[] }, idx: number) => {
         let rows = table.rows || [];
 
         // Apply search filter
         if (searchQuery.trim()) {
             const query = searchQuery.toLowerCase().trim();
-            rows = rows.filter(row => {
-                // Check if any cell in the row contains the search query
-                return Object.values(row).some(value => {
-                    if (typeof value === 'string') {
-                        return value.toLowerCase().includes(query);
-                    } else if (typeof value === 'object' && value !== null) {
-                        // Handle player objects and other structured data
-                        if ('playerName' in value) {
-                            return String(value.playerName).toLowerCase().includes(query);
-                        }
-                        // Handle crosstable cells
-                        if ('result' in value) {
-                            return String(value.result).toLowerCase().includes(query);
-                        }
-                        // Recursively check object values
-                        return Object.values(value).some(v =>
-                            String(v).toLowerCase().includes(query)
-                        );
-                    }
-                    return String(value).toLowerCase().includes(query);
-                });
-            });
+			rows = rows.filter(row => {
+				const text = buildRowSearchText(table, row as Record<string, unknown>).toLowerCase();
+				return text.includes(query);
+			});
         }
 
         // Apply sorting
@@ -319,59 +356,13 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
         return filteredHeaders;
     };
 
-    // Generate a plain-text representation of a table (headers + current filtered/sorted rows)
+	// Generate a plain-text representation of a table (headers + current filtered/sorted rows)
     const generateTableText = (table: { headers?: MixedHeader[]; rows?: Record<string, unknown>[] }, idx: number) => {
         const filteredHeaders = getFilteredHeaders(table);
         // Exclude the dynamic compare column from copied text
         const headersForCopy = filteredHeaders.filter(h => h.key !== 'compare');
         const headerNames = headersForCopy.map(h => h.name);
         const rows = getFilteredAndSortedRows(table, idx);
-
-        // Helper to serialize a cell value to text
-        const isLikelyPlayerHeader = (header: Header): boolean => {
-            const label = header.name.trim().toLowerCase();
-            return label === 'player' || label === 'white player' || label === 'black player';
-        };
-
-        const formatPlayerById = (candidateId: unknown): string | null => {
-            if (candidateId === null || candidateId === undefined) return null;
-            const idStr = String(candidateId).trim();
-            if (!idStr) return null;
-            const player = getPlayerData(idStr);
-            if (!player) return null;
-            return player.name || null;
-        };
-
-        const serializeCell = (value: unknown, header: Header): string => {
-            if (value === null || value === undefined) return '';
-            if (typeof value === 'string' || typeof value === 'number') {
-                // Prefer mapping to player name only when column is player-like
-                const mapped = isLikelyPlayerHeader(header) ? formatPlayerById(value) : null;
-                if (mapped) return mapped;
-                return String(value).trim();
-            }
-            if (typeof value === 'object') {
-                const obj = value as Record<string, unknown>;
-                // Crosstable cell
-                if ('result' in obj) {
-                    const res = String(obj.result || '').trim();
-                    // For crosstable cells, keep opponent identifiers as-is (no lookup)
-                    const w = obj.whiteOpponent ? ` W:${String(obj.whiteOpponent)}` : '';
-                    const b = obj.blackOpponent ? ` B:${String(obj.blackOpponent)}` : '';
-                    return `${res}${w}${b}`.trim();
-                }
-                // Player object shape
-                const name = (obj.playerName || obj.name || obj.player) ? String(obj.playerName || obj.name || obj.player).trim() : '';
-                const rating = obj.rating !== undefined && obj.rating !== '' ? ` (${String(obj.rating)})` : '';
-                const title = obj.title ? String(obj.title).trim() : '';
-                if (name) {
-                    const titlePrefix = title ? `${title} ` : '';
-                    return `${titlePrefix}${name}${rating}`.trim();
-                }
-                try { return JSON.stringify(obj); } catch { return String(obj); }
-            }
-            return String(value);
-        };
 
         // Build matrix [ [headers], ...rows ]
         const matrix: string[][] = [];
