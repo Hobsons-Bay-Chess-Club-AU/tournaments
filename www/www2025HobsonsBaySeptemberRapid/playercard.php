@@ -301,6 +301,62 @@
 </tr> </thead><tbody>
 </tbody>
 </table><br>
+<table class="table caption-top table-striped "> 
+<caption>  35   <strong>Singh,Abhyuday      </strong>, K= 0, Elo= 559, ID=3204735
+<br>
+<a class="anchor" name="35"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  36   <strong>Paul,Cijo           </strong>, K= 0, Elo=1254, ID=3194913
+<br>
+<a class="anchor" name="36"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  37   <strong>Manoj,Dev           </strong>, K= 0, Elo= 336, ID=3212483
+<br>
+<a class="anchor" name="37"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  38   <strong>Lingineni,Khushal   </strong>, K= 0, Elo=1831, ID=3202532
+<br>
+<a class="anchor" name="38"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  39   <strong>Nema,Nivaan         </strong>, K= 0, Elo= 638, ID=3217486
+<br>
+<a class="anchor" name="39"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  40   <strong>Palta,Sameer        </strong>, K= 0, Elo= 453, ID=3219984
+<br>
+<a class="anchor" name="40"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  41   <strong>Jagannathan,Shashvat</strong>, K= 0, Elo= 664, ID=3206253
+<br>
+<a class="anchor" name="41"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
 </DIV>
 		  </div>
 		      </div>
