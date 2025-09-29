@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-29T03:40:05.096Z",
+  "generatedAt": "2025-09-29T06:30:07.997Z",
   "tournament": {
     "id": "2025-hobsons-bay-september-rapid",
     "name": "2025 Hobsons Bay September Rapid",
@@ -15,27 +15,27 @@
       "Rounds": "7",
       "Score game": "0-0.5-1",
       "Tie break": "BH BH/C1 SB",
-      "Registered Players": "33",
+      "Registered Players": "34",
       "Number of Federations": "3",
-      "Average Rating (all)": "838",
-      "Average Rating (only FIDE rated)": "1542",
-      "Players from AUS Federation": "14",
+      "Average Rating (all)": "869",
+      "Average Rating (only FIDE rated)": "1567",
+      "Players from AUS Federation": "15",
       "Players NOT from AUS Federation": "19",
-      "FIDE rated players": "13",
+      "FIDE rated players": "14",
       "unrated players": "20",
       "unrated players from AUS Federation": "1",
       "unrated players NOT from AUS Federation": "19",
       "unrated Federations": "2",
-      "FIDE titled players": "0",
+      "FIDE titled players": "1",
       "GM players": "0",
       "WGM players": "0",
       "IM players": "0",
       "WIM players": "0",
       "FM players": "0",
       "WFM players": "0",
-      "CM players": "0",
+      "CM players": "1",
       "WCM players": "0",
-      "FIDE titled player from AUS Federation": "0",
+      "FIDE titled player from AUS Federation": "1",
       "FIDE titled player NOT from AUS Federation": "0",
       "category": "Junior",
       "tournamentName": "2025 Hobsons Bay September Rapid",
@@ -47,19 +47,19 @@
       "rounds": 7,
       "scoreGame": "0-0.5-1",
       "tieBreak": "BH BH/C1 SB",
-      "registeredPlayers": 33,
-      "averageRating": 838,
-      "averageRatingFide": 1542,
-      "fideRatedPlayers": 13,
+      "registeredPlayers": 34,
+      "averageRating": 869,
+      "averageRatingFide": 1567,
+      "fideRatedPlayers": 14,
       "unratedPlayers": 20,
-      "fideTitledPlayers": 0
+      "fideTitledPlayers": 1
     }
   },
   "players": [
     {
       "id": "1",
-      "name": "Nguyen,Anh Kiet",
-      "title": "",
+      "name": "Hartley,James",
+      "title": "CM",
       "federation": "AUS",
       "fideId": "",
       "fideRating": null,
@@ -70,7 +70,7 @@
     },
     {
       "id": "2",
-      "name": "Bodke,Krishna",
+      "name": "Nguyen,Anh Kiet",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -82,7 +82,7 @@
     },
     {
       "id": "3",
-      "name": "Ramanathan,Ashwin",
+      "name": "Bodke,Krishna",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -94,9 +94,9 @@
     },
     {
       "id": "4",
-      "name": "Yendru,Srikrishna",
+      "name": "Ramanathan,Ashwin",
       "title": "",
-      "federation": "VIC",
+      "federation": "AUS",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -106,9 +106,9 @@
     },
     {
       "id": "5",
-      "name": "Wei,Andrew",
+      "name": "Yendru,Srikrishna",
       "title": "",
-      "federation": "AUS",
+      "federation": "VIC",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -118,7 +118,7 @@
     },
     {
       "id": "6",
-      "name": "Saha,Avinandan (Arjun)",
+      "name": "Wei,Andrew",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -130,7 +130,7 @@
     },
     {
       "id": "7",
-      "name": "Annadasu,Shreyansh",
+      "name": "Saha,Avinandan (Arjun)",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -142,7 +142,7 @@
     },
     {
       "id": "8",
-      "name": "Huang,Michael",
+      "name": "Annadasu,Shreyansh",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -154,9 +154,9 @@
     },
     {
       "id": "9",
-      "name": "Nguyen,Dinh An Quang",
+      "name": "Huang,Michael",
       "title": "",
-      "federation": "VIC",
+      "federation": "AUS",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -166,9 +166,9 @@
     },
     {
       "id": "10",
-      "name": "Ngo,William",
+      "name": "Nguyen,Dinh An Quang",
       "title": "",
-      "federation": "AUS",
+      "federation": "VIC",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -178,7 +178,7 @@
     },
     {
       "id": "11",
-      "name": "Ruaya,Rohan",
+      "name": "Ngo,William",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -190,7 +190,7 @@
     },
     {
       "id": "12",
-      "name": "Nguyen,Gavi",
+      "name": "Ruaya,Rohan",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -202,9 +202,9 @@
     },
     {
       "id": "13",
-      "name": "Nguyen,Tuan Kiet",
+      "name": "Nguyen,Gavi",
       "title": "",
-      "federation": "VIC",
+      "federation": "AUS",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -214,9 +214,9 @@
     },
     {
       "id": "14",
-      "name": "Balaji,Sai Sivesh",
+      "name": "Nguyen,Tuan Kiet",
       "title": "",
-      "federation": "AUS",
+      "federation": "VIC",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -226,7 +226,7 @@
     },
     {
       "id": "15",
-      "name": "Jyothi Nikhil,Neev",
+      "name": "Balaji,Sai Sivesh",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -238,9 +238,9 @@
     },
     {
       "id": "16",
-      "name": "Martin,Jamie R",
+      "name": "Jyothi Nikhil,Neev",
       "title": "",
-      "federation": "VIC",
+      "federation": "AUS",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -250,9 +250,9 @@
     },
     {
       "id": "17",
-      "name": "Shaiek,Nihal",
+      "name": "Martin,Jamie R",
       "title": "",
-      "federation": "AUS",
+      "federation": "VIC",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -262,9 +262,9 @@
     },
     {
       "id": "18",
-      "name": "Singh,Abhyuday",
+      "name": "Shaiek,Nihal",
       "title": "",
-      "federation": "VIC",
+      "federation": "AUS",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -274,7 +274,7 @@
     },
     {
       "id": "19",
-      "name": "Vemula,Thamoghna",
+      "name": "Singh,Abhyuday",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -286,7 +286,7 @@
     },
     {
       "id": "20",
-      "name": "Stefan Jiace Tham,Keanu",
+      "name": "Vemula,Thamoghna",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -298,7 +298,7 @@
     },
     {
       "id": "21",
-      "name": "Bodke,Aryan",
+      "name": "Stefan Jiace Tham,Keanu",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -310,7 +310,7 @@
     },
     {
       "id": "22",
-      "name": "Ganesh Kumar,Mukunth",
+      "name": "Bodke,Aryan",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -322,7 +322,7 @@
     },
     {
       "id": "23",
-      "name": "Balamurugan,Soorya",
+      "name": "Ganesh Kumar,Mukunth",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -334,7 +334,7 @@
     },
     {
       "id": "24",
-      "name": "Yendru,Sriram",
+      "name": "Balamurugan,Soorya",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -346,7 +346,7 @@
     },
     {
       "id": "25",
-      "name": "Yegnavajjula,Aryan Srivatsav",
+      "name": "Yendru,Sriram",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -358,7 +358,7 @@
     },
     {
       "id": "26",
-      "name": "Kantharaju,Aryan",
+      "name": "Yegnavajjula,Aryan Srivatsav",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -370,7 +370,7 @@
     },
     {
       "id": "27",
-      "name": "Jyothi Nikhil,Vihaan",
+      "name": "Kantharaju,Aryan",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -382,7 +382,7 @@
     },
     {
       "id": "28",
-      "name": "Le,Khoi Nguyen",
+      "name": "Jyothi Nikhil,Vihaan",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -394,7 +394,7 @@
     },
     {
       "id": "29",
-      "name": "Naveen,Hrudai",
+      "name": "Le,Khoi Nguyen",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -406,7 +406,7 @@
     },
     {
       "id": "30",
-      "name": "Subhash,Ryan",
+      "name": "Naveen,Hrudai",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -418,9 +418,9 @@
     },
     {
       "id": "31",
-      "name": "Vignesh,Prajeeth Balaji",
+      "name": "Subhash,Ryan",
       "title": "",
-      "federation": "OS",
+      "federation": "VIC",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -430,9 +430,9 @@
     },
     {
       "id": "32",
-      "name": "Vigneshwar,Krishanth",
+      "name": "Vignesh,Prajeeth Balaji",
       "title": "",
-      "federation": "VIC",
+      "federation": "OS",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -442,7 +442,7 @@
     },
     {
       "id": "33",
-      "name": "Yegnavajjula,Venkata",
+      "name": "Vigneshwar,Krishanth",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -450,6 +450,18 @@
       "fideFederation": "",
       "gender": "notitle",
       "href": "playercard.html#33",
+      "origin": ""
+    },
+    {
+      "id": "34",
+      "name": "Yegnavajjula,Venkata",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#34",
       "origin": ""
     }
   ],
@@ -558,6 +570,16 @@
           "rows": [
             {
               "#": "1",
+              "Title": "CM",
+              "Player": "Hartley,James",
+              "Fed": "AUS",
+              "Origin": "",
+              "Rtg": "1794",
+              "RtgF": "1892",
+              "RtgN": "1794"
+            },
+            {
+              "#": "2",
               "Title": "",
               "Player": "Nguyen,Anh Kiet",
               "Fed": "AUS",
@@ -567,7 +589,7 @@
               "RtgN": "1593"
             },
             {
-              "#": "2",
+              "#": "3",
               "Title": "",
               "Player": "Bodke,Krishna",
               "Fed": "AUS",
@@ -577,7 +599,7 @@
               "RtgN": "1440"
             },
             {
-              "#": "3",
+              "#": "4",
               "Title": "",
               "Player": "Ramanathan,Ashwin",
               "Fed": "AUS",
@@ -587,7 +609,7 @@
               "RtgN": "1287"
             },
             {
-              "#": "4",
+              "#": "5",
               "Title": "",
               "Player": "Yendru,Srikrishna",
               "Fed": "VIC",
@@ -597,7 +619,7 @@
               "RtgN": "1211"
             },
             {
-              "#": "5",
+              "#": "6",
               "Title": "",
               "Player": "Wei,Andrew",
               "Fed": "AUS",
@@ -607,7 +629,7 @@
               "RtgN": "1033"
             },
             {
-              "#": "6",
+              "#": "7",
               "Title": "",
               "Player": "Saha,Avinandan (Arjun)",
               "Fed": "AUS",
@@ -617,7 +639,7 @@
               "RtgN": "982"
             },
             {
-              "#": "7",
+              "#": "8",
               "Title": "",
               "Player": "Annadasu,Shreyansh",
               "Fed": "AUS",
@@ -627,7 +649,7 @@
               "RtgN": "954"
             },
             {
-              "#": "8",
+              "#": "9",
               "Title": "",
               "Player": "Huang,Michael",
               "Fed": "AUS",
@@ -637,7 +659,7 @@
               "RtgN": "953"
             },
             {
-              "#": "9",
+              "#": "10",
               "Title": "",
               "Player": "Nguyen,Dinh An Quang",
               "Fed": "VIC",
@@ -647,7 +669,7 @@
               "RtgN": "924"
             },
             {
-              "#": "10",
+              "#": "11",
               "Title": "",
               "Player": "Ngo,William",
               "Fed": "AUS",
@@ -657,7 +679,7 @@
               "RtgN": "883"
             },
             {
-              "#": "11",
+              "#": "12",
               "Title": "",
               "Player": "Ruaya,Rohan",
               "Fed": "AUS",
@@ -667,7 +689,7 @@
               "RtgN": "794"
             },
             {
-              "#": "12",
+              "#": "13",
               "Title": "",
               "Player": "Nguyen,Gavi",
               "Fed": "AUS",
@@ -677,7 +699,7 @@
               "RtgN": "762"
             },
             {
-              "#": "13",
+              "#": "14",
               "Title": "",
               "Player": "Nguyen,Tuan Kiet",
               "Fed": "VIC",
@@ -687,7 +709,7 @@
               "RtgN": "757"
             },
             {
-              "#": "14",
+              "#": "15",
               "Title": "",
               "Player": "Balaji,Sai Sivesh",
               "Fed": "AUS",
@@ -697,7 +719,7 @@
               "RtgN": "741"
             },
             {
-              "#": "15",
+              "#": "16",
               "Title": "",
               "Player": "Jyothi Nikhil,Neev",
               "Fed": "AUS",
@@ -707,7 +729,7 @@
               "RtgN": "700"
             },
             {
-              "#": "16",
+              "#": "17",
               "Title": "",
               "Player": "Martin,Jamie R",
               "Fed": "VIC",
@@ -717,7 +739,7 @@
               "RtgN": "696"
             },
             {
-              "#": "17",
+              "#": "18",
               "Title": "",
               "Player": "Shaiek,Nihal",
               "Fed": "AUS",
@@ -727,7 +749,7 @@
               "RtgN": "578"
             },
             {
-              "#": "18",
+              "#": "19",
               "Title": "",
               "Player": "Singh,Abhyuday",
               "Fed": "VIC",
@@ -737,7 +759,7 @@
               "RtgN": "559"
             },
             {
-              "#": "19",
+              "#": "20",
               "Title": "",
               "Player": "Vemula,Thamoghna",
               "Fed": "VIC",
@@ -747,7 +769,7 @@
               "RtgN": "551"
             },
             {
-              "#": "20",
+              "#": "21",
               "Title": "",
               "Player": "Stefan Jiace Tham,Keanu",
               "Fed": "VIC",
@@ -757,7 +779,7 @@
               "RtgN": "508"
             },
             {
-              "#": "21",
+              "#": "22",
               "Title": "",
               "Player": "Bodke,Aryan",
               "Fed": "VIC",
@@ -767,7 +789,7 @@
               "RtgN": "462"
             },
             {
-              "#": "22",
+              "#": "23",
               "Title": "",
               "Player": "Ganesh Kumar,Mukunth",
               "Fed": "VIC",
@@ -777,7 +799,7 @@
               "RtgN": "445"
             },
             {
-              "#": "23",
+              "#": "24",
               "Title": "",
               "Player": "Balamurugan,Soorya",
               "Fed": "VIC",
@@ -787,7 +809,7 @@
               "RtgN": "440"
             },
             {
-              "#": "24",
+              "#": "25",
               "Title": "",
               "Player": "Yendru,Sriram",
               "Fed": "VIC",
@@ -797,7 +819,7 @@
               "RtgN": "428"
             },
             {
-              "#": "25",
+              "#": "26",
               "Title": "",
               "Player": "Yegnavajjula,Aryan Srivatsav",
               "Fed": "VIC",
@@ -807,7 +829,7 @@
               "RtgN": "370"
             },
             {
-              "#": "26",
+              "#": "27",
               "Title": "",
               "Player": "Kantharaju,Aryan",
               "Fed": "VIC",
@@ -817,7 +839,7 @@
               "RtgN": "267"
             },
             {
-              "#": "27",
+              "#": "28",
               "Title": "",
               "Player": "Jyothi Nikhil,Vihaan",
               "Fed": "VIC",
@@ -827,7 +849,7 @@
               "RtgN": "0"
             },
             {
-              "#": "28",
+              "#": "29",
               "Title": "",
               "Player": "Le,Khoi Nguyen",
               "Fed": "VIC",
@@ -837,7 +859,7 @@
               "RtgN": "0"
             },
             {
-              "#": "29",
+              "#": "30",
               "Title": "",
               "Player": "Naveen,Hrudai",
               "Fed": "VIC",
@@ -847,7 +869,7 @@
               "RtgN": "0"
             },
             {
-              "#": "30",
+              "#": "31",
               "Title": "",
               "Player": "Subhash,Ryan",
               "Fed": "VIC",
@@ -857,7 +879,7 @@
               "RtgN": "0"
             },
             {
-              "#": "31",
+              "#": "32",
               "Title": "",
               "Player": "Vignesh,Prajeeth Balaji",
               "Fed": "OS",
@@ -867,7 +889,7 @@
               "RtgN": "0"
             },
             {
-              "#": "32",
+              "#": "33",
               "Title": "",
               "Player": "Vigneshwar,Krishanth",
               "Fed": "VIC",
@@ -877,7 +899,7 @@
               "RtgN": "0"
             },
             {
-              "#": "33",
+              "#": "34",
               "Title": "",
               "Player": "Yegnavajjula,Venkata",
               "Fed": "VIC",
@@ -2553,6 +2575,55 @@
             "rawHtml": "  33   <strong>Balaji,Sai Sivesh   </strong>, K= 0, Elo= 741, ID=3209381\n<br>\n<a class=\"anchor\" name=\"33\"></a>"
           },
           "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Hartley,James",
+            "id": "3197573",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1794",
+              "anchor": "34"
+            },
+            "rawText": "34  CM Hartley,James       , K= 0, Elo=1794, ID=3197573",
+            "rawHtml": "  34  CM <strong>Hartley,James       </strong>, K= 0, Elo=1794, ID=3197573\n<br>\n<a class=\"anchor\" name=\"34\"></a>"
+          },
+          "type": "other"
         }
       ]
     },
@@ -2667,7 +2738,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "33"
+              "col2": "34"
             },
             {
               "col1": "Number of Federations",
@@ -2675,15 +2746,15 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "838"
+              "col2": "869"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
-              "col2": "1542"
+              "col2": "1567"
             },
             {
               "col1": "Players from AUS Federation",
-              "col2": "14"
+              "col2": "15"
             },
             {
               "col1": "Players NOT from AUS Federation",
@@ -2691,7 +2762,7 @@
             },
             {
               "col1": "FIDE rated players",
-              "col2": "13"
+              "col2": "14"
             },
             {
               "col1": "unrated players",
@@ -2711,7 +2782,7 @@
             },
             {
               "col1": "FIDE titled players",
-              "col2": "0"
+              "col2": "1"
             },
             {
               "col1": "GM players",
@@ -2739,7 +2810,7 @@
             },
             {
               "col1": "CM players",
-              "col2": "0"
+              "col2": "1"
             },
             {
               "col1": "WCM players",
@@ -2747,7 +2818,7 @@
             },
             {
               "col1": "FIDE titled player from AUS Federation",
-              "col2": "0"
+              "col2": "1"
             },
             {
               "col1": "FIDE titled player NOT from AUS Federation",
@@ -2782,5 +2853,5 @@
       "children": []
     }
   ],
-  "md5Hash": "26e863692b0666892207382ff691c8d2"
+  "md5Hash": "34cbf00d676868f4341cf9c194dd842a"
 }
