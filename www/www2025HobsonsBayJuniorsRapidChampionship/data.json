@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-28T04:21:14.312Z",
+  "generatedAt": "2025-09-29T03:10:28.664Z",
   "page": {
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 0",
@@ -766,6 +766,15 @@
             },
             {
               "#": "75",
+              "Title": "",
+              "Player": "Wanniarachchie,Senaya",
+              "Fed": "VIC",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "76",
               "Title": "",
               "Player": "You,Henry",
               "Fed": "VIC",
@@ -4456,6 +4465,54 @@
             "rawText": "75   Tan,Lucas           , K= 0, Elo= 486, ID=3218654",
             "rawHtml": "  75   <strong>Tan,Lucas           </strong>, K= 0, Elo= 486, ID=3218654\n<br>\n<a class=\"anchor\" name=\"75\"></a>"
           }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Wanniarachchie,Senay",
+            "id": "3218680",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "76"
+            },
+            "rawText": "76   Wanniarachchie,Senay, K= 0, Elo=   0, ID=3218680",
+            "rawHtml": "  76   <strong>Wanniarachchie,Senay</strong>, K= 0, Elo=   0, ID=3218680\n<br>\n<a class=\"anchor\" name=\"76\"></a>"
+          }
         }
       ]
     },
@@ -4565,7 +4622,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "75"
+              "col2": "76"
             },
             {
               "col1": "Number of Federations",
@@ -4573,7 +4630,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "748"
+              "col2": "738"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -4585,7 +4642,7 @@
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "49"
+              "col2": "50"
             },
             {
               "col1": "FIDE rated players",
@@ -4593,7 +4650,7 @@
             },
             {
               "col1": "unrated players",
-              "col2": "45"
+              "col2": "46"
             },
             {
               "col1": "unrated players from AUS Federation",
@@ -4601,7 +4658,7 @@
             },
             {
               "col1": "unrated players NOT from AUS Federation",
-              "col2": "42"
+              "col2": "43"
             },
             {
               "col1": "unrated Federations",
@@ -5473,6 +5530,17 @@
     },
     "75": {
       "id": "75",
+      "playerName": "Wanniarachchie,Senaya",
+      "title": "",
+      "federation": "VIC",
+      "rating": "0",
+      "gender": "",
+      "fideId": "",
+      "href": "",
+      "moreInfo": {}
+    },
+    "76": {
+      "id": "76",
       "playerName": "You,Henry",
       "title": "",
       "federation": "VIC",
@@ -6176,6 +6244,15 @@
     {
       "#": "75",
       "Title": "",
+      "Player": "Wanniarachchie,Senaya",
+      "Fed": "VIC",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "76",
+      "Title": "",
       "Player": "You,Henry",
       "Fed": "VIC",
       "Rtg": "0",
@@ -6195,16 +6272,16 @@
     "Rounds": "7",
     "Score game": "0-0.5-1",
     "Tie break": "BH BH/C1 SB",
-    "Registered Players": "75",
+    "Registered Players": "76",
     "Number of Federations": "5",
-    "Average Rating (all)": "748",
+    "Average Rating (all)": "738",
     "Average Rating (only FIDE rated)": "1547",
     "Players from AUS Federation": "26",
-    "Players NOT from AUS Federation": "49",
+    "Players NOT from AUS Federation": "50",
     "FIDE rated players": "30",
-    "unrated players": "45",
+    "unrated players": "46",
     "unrated players from AUS Federation": "3",
-    "unrated players NOT from AUS Federation": "42",
+    "unrated players NOT from AUS Federation": "43",
     "unrated Federations": "2",
     "FIDE titled players": "1",
     "GM players": "0",
@@ -6219,5 +6296,5 @@
     "FIDE titled player NOT from AUS Federation": "1",
     "category": "Junior"
   },
-  "md5Hash": "76e61a653ef4946c31c4d3de1a8e4d5d"
+  "md5Hash": "df3e00ec2dafb6284c4995a5c08031b4"
 }
