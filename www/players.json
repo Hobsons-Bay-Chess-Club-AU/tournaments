@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2025-09-30T09:20:02.457Z",
+  "generatedAt": "2025-09-30T13:33:40.614Z",
   "year": "2025",
   "count": 112,
   "seniorCount": 85,
-  "juniorCount": 62,
+  "juniorCount": 68,
   "totalTournaments": 27,
   "players": [
     {
@@ -90,7 +90,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#26",
-      "tournamentCount": 9,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayAprilBlitz/data.json",
@@ -149,6 +149,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025WesternJuniorRapidChampionship/data.json",
           "score": 4,
           "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
@@ -158,7 +165,7 @@
       ],
       "points": {
         "standard": 14.5,
-        "rapid": 7,
+        "rapid": 10.5,
         "blitz": 10
       }
     },
@@ -197,7 +204,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#48",
-      "tournamentCount": 8,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -254,11 +261,25 @@
           "name": "2025 Hobsons Bay Western Swiss",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
+          "score": 5.5,
+          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 17,
-        "rapid": 4,
+        "rapid": 12.5,
         "blitz": 7
       }
     },
@@ -268,7 +289,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#5",
-      "tournamentCount": 2,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -283,11 +304,25 @@
           "name": "2025 Hobsons Bay April Rapid",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 5,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
+          "score": 7,
+          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 4.5,
-        "rapid": 5,
+        "rapid": 17,
         "blitz": 0
       }
     },
@@ -404,7 +439,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#72",
-      "tournamentCount": 10,
+      "tournamentCount": 11,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -456,6 +491,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
           "score": 4,
           "name": "2025 Hobsons Bay Western Juniors",
@@ -479,7 +521,7 @@
       ],
       "points": {
         "standard": 19,
-        "rapid": 4.5,
+        "rapid": 7.5,
         "blitz": 13.5
       }
     },
@@ -489,7 +531,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#31",
-      "tournamentCount": 11,
+      "tournamentCount": 12,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayAprilBlitz/data.json",
@@ -548,6 +590,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
           "score": 1,
           "name": "2025 Hobsons Bay Western Juniors",
@@ -571,7 +620,7 @@
       ],
       "points": {
         "standard": 9,
-        "rapid": 5.5,
+        "rapid": 6.5,
         "blitz": 10.5
       }
     },
@@ -803,7 +852,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#34",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -825,6 +874,13 @@
           "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
@@ -860,7 +916,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#45",
-      "tournamentCount": 12,
+      "tournamentCount": 13,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -940,6 +996,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025WesternJuniorRapidChampionship/data.json",
           "score": 5,
           "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
@@ -949,7 +1012,7 @@
       ],
       "points": {
         "standard": 20.5,
-        "rapid": 11.5,
+        "rapid": 14.5,
         "blitz": 18.5
       }
     },
@@ -1402,7 +1465,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#27",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -1410,6 +1473,13 @@
           "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
@@ -1435,7 +1505,7 @@
       ],
       "points": {
         "standard": 5,
-        "rapid": 4,
+        "rapid": 5,
         "blitz": 0
       }
     },
@@ -1787,7 +1857,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#26",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -1825,6 +1895,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025WesternJuniorRapidChampionship/data.json",
           "score": 5.5,
           "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
@@ -1834,7 +1911,7 @@
       ],
       "points": {
         "standard": 17.5,
-        "rapid": 5.5,
+        "rapid": 8.5,
         "blitz": 0
       }
     },
@@ -2007,7 +2084,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#22",
-      "tournamentCount": 10,
+      "tournamentCount": 11,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayAprilBlitz/data.json",
@@ -2066,6 +2143,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
           "score": 3.5,
           "name": "2025 Hobsons Bay Western Juniors",
@@ -2082,7 +2166,7 @@
       ],
       "points": {
         "standard": 13.5,
-        "rapid": 4.5,
+        "rapid": 7.5,
         "blitz": 12.5
       }
     },
@@ -2228,7 +2312,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#69",
-      "tournamentCount": 9,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -2273,6 +2357,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
           "score": 2.5,
           "name": "2025 Hobsons Bay Western Juniors",
@@ -2296,7 +2387,7 @@
       ],
       "points": {
         "standard": 13.5,
-        "rapid": 6,
+        "rapid": 8,
         "blitz": 4
       }
     },
@@ -2335,7 +2426,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#36",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayAprilRapid/data.json",
@@ -2366,6 +2457,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
           "score": 3.5,
           "name": "2025 Hobsons Bay Western Juniors",
@@ -2389,7 +2487,7 @@
       ],
       "points": {
         "standard": 11.5,
-        "rapid": 5,
+        "rapid": 8,
         "blitz": 5.5
       }
     },
@@ -2879,7 +2977,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#23",
-      "tournamentCount": 8,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -2936,11 +3034,25 @@
           "name": "2025 Hobsons Bay Western Masters",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 4.5,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
+          "score": 6,
+          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 24,
-        "rapid": 8.5,
+        "rapid": 19,
         "blitz": 0
       }
     },
@@ -3036,7 +3148,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#27",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -3053,6 +3165,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025WesternJuniorRapidChampionship/data.json",
           "score": 2,
           "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
@@ -3062,7 +3181,7 @@
       ],
       "points": {
         "standard": 4,
-        "rapid": 2,
+        "rapid": 4,
         "blitz": 0
       }
     },
@@ -3101,7 +3220,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#16",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayCup/data.json",
@@ -3144,11 +3263,18 @@
           "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 15,
-        "rapid": 2.5,
+        "rapid": 5.5,
         "blitz": 0
       }
     },
@@ -3394,7 +3520,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#95",
-      "tournamentCount": 8,
+      "tournamentCount": 9,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -3432,6 +3558,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
           "score": 4,
           "name": "2025 Hobsons Bay Western Mini And Rookies Juniors",
@@ -3455,7 +3588,7 @@
       ],
       "points": {
         "standard": 14,
-        "rapid": 5.5,
+        "rapid": 8.5,
         "blitz": 4
       }
     },
@@ -3465,7 +3598,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#63",
-      "tournamentCount": 2,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -3480,11 +3613,25 @@
           "name": "Hobsons Bay September Blitz",
           "totalRounds": "9",
           "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 2,
-        "rapid": 0,
+        "rapid": 6.5,
         "blitz": 4
       }
     },
@@ -3494,7 +3641,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#31",
-      "tournamentCount": 11,
+      "tournamentCount": 12,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -3567,6 +3714,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025WesternJuniorRapidChampionship/data.json",
           "score": 5,
           "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
@@ -3576,7 +3730,7 @@
       ],
       "points": {
         "standard": 27.5,
-        "rapid": 14,
+        "rapid": 18,
         "blitz": 15
       }
     },
@@ -3586,7 +3740,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#23",
-      "tournamentCount": 9,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayAprilBlitz/data.json",
@@ -3631,6 +3785,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 0.5,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
           "score": 2,
           "name": "2025 Hobsons Bay Western Juniors",
@@ -3654,7 +3815,7 @@
       ],
       "points": {
         "standard": 11.5,
-        "rapid": 10,
+        "rapid": 10.5,
         "blitz": 4
       }
     },
@@ -3806,7 +3967,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#96",
-      "tournamentCount": 2,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -3821,11 +3982,25 @@
           "name": "Hobsons Bay September Blitz",
           "totalRounds": "9",
           "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         }
       ],
       "points": {
-        "standard": 1,
-        "rapid": 0,
+        "standard": 4,
+        "rapid": 2.5,
         "blitz": 3
       }
     },
@@ -4121,7 +4296,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#53",
-      "tournamentCount": 9,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -4180,6 +4355,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025WesternJuniorRapidChampionship/data.json",
           "score": 5,
           "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
@@ -4189,7 +4371,7 @@
       ],
       "points": {
         "standard": 16.5,
-        "rapid": 8,
+        "rapid": 11,
         "blitz": 12.5
       }
     },
@@ -4378,7 +4560,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#73",
-      "tournamentCount": 10,
+      "tournamentCount": 11,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -4430,6 +4612,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
           "score": 2,
           "name": "2025 Hobsons Bay Western Juniors",
@@ -4453,7 +4642,7 @@
       ],
       "points": {
         "standard": 16.5,
-        "rapid": 7,
+        "rapid": 9,
         "blitz": 0.5
       }
     },
@@ -4463,7 +4652,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#18",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayAprilBlitz/data.json",
@@ -4494,6 +4683,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
           "score": 0.5,
           "name": "2025 Hobsons Bay Western Juniors",
@@ -4517,7 +4713,7 @@
       ],
       "points": {
         "standard": 7,
-        "rapid": 7.5,
+        "rapid": 8.5,
         "blitz": 5.5
       }
     },
@@ -4585,7 +4781,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#80",
-      "tournamentCount": 13,
+      "tournamentCount": 14,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -4658,6 +4854,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
           "score": 1.5,
           "name": "2025 Hobsons Bay Western Juniors",
@@ -4681,7 +4884,7 @@
       ],
       "points": {
         "standard": 13.5,
-        "rapid": 7.5,
+        "rapid": 10,
         "blitz": 12
       }
     },
@@ -4877,7 +5080,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#32",
-      "tournamentCount": 4,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayAprilBlitz/data.json",
@@ -4906,11 +5109,25 @@
           "name": "Hobsons Bay September Blitz",
           "totalRounds": "9",
           "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 0,
-        "rapid": 0.5,
+        "rapid": 6,
         "blitz": 10.5
       }
     },
@@ -5143,7 +5360,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#102",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -5174,6 +5391,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
           "score": 4,
           "name": "2025 Hobsons Bay Western Mini And Rookies Juniors",
@@ -5197,7 +5421,7 @@
       ],
       "points": {
         "standard": 11.5,
-        "rapid": 5.5,
+        "rapid": 7.5,
         "blitz": 5
       }
     },
@@ -5207,7 +5431,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#45",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -5229,6 +5453,13 @@
           "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
@@ -5254,7 +5485,7 @@
       ],
       "points": {
         "standard": 7.5,
-        "rapid": 3,
+        "rapid": 4,
         "blitz": 0
       }
     },
@@ -5322,7 +5553,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#13",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayJulyRapid/data.json",
@@ -5360,6 +5591,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
           "score": 2.5,
           "name": "2025 Hobsons Bay Western Juniors",
@@ -5376,7 +5614,7 @@
       ],
       "points": {
         "standard": 13.5,
-        "rapid": 3,
+        "rapid": 6.5,
         "blitz": 7.5
       }
     },
@@ -5671,7 +5909,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#106",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -5702,6 +5940,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025WesternJuniorRapidChampionship/data.json",
           "score": 3,
           "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
@@ -5711,7 +5956,7 @@
       ],
       "points": {
         "standard": 4.5,
-        "rapid": 4.5,
+        "rapid": 5.5,
         "blitz": 3
       }
     },
@@ -5750,7 +5995,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#20",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayHonourableBob/data.json",
@@ -5788,6 +6033,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
           "score": 2,
           "name": "2025 Hobsons Bay Western Juniors",
@@ -5804,7 +6056,7 @@
       ],
       "points": {
         "standard": 13.5,
-        "rapid": 0,
+        "rapid": 4,
         "blitz": 5
       }
     },
@@ -5814,7 +6066,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#18",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -5822,6 +6074,13 @@
           "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
@@ -5840,7 +6099,7 @@
       ],
       "points": {
         "standard": 8,
-        "rapid": 0,
+        "rapid": 2,
         "blitz": 0
       }
     }
