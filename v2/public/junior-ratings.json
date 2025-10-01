@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2025-09-29T23:00:33.902Z",
+  "generatedAt": "2025-09-30T13:33:40.612Z",
   "year": "2025",
-  "count": 62,
+  "count": 68,
   "totalTournaments": 27,
   "players": [
     {
@@ -68,7 +68,7 @@
       "fideId": "3275779",
       "gender": "male",
       "href": "playercard.html#8",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -85,6 +85,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025WesternJuniorRapidChampionship/data.json",
           "score": 4,
           "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
@@ -94,17 +101,91 @@
       ],
       "points": {
         "standard": 6.5,
-        "rapid": 4,
+        "rapid": 7.5,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2014,
-      "fideStandard": 1502,
+      "fideStandard": 1480,
       "fideRapid": 1568,
-      "fideBlitz": 1542,
+      "fideBlitz": 1572,
       "acfClassic": 1111,
       "acfQuick": 954,
       "acfId": "3210254"
+    },
+    {
+      "name": "Annapureddy,Dhruthin Reddy",
+      "id": "7",
+      "fideId": "3239683",
+      "gender": "male",
+      "href": "playercard.html#7",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
+          "score": 5.5,
+          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 8.5,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2011,
+      "fideStandard": 1496,
+      "fideRapid": 1587,
+      "fideBlitz": 1721,
+      "acfClassic": 1267,
+      "acfQuick": 1436,
+      "acfId": "3194401"
+    },
+    {
+      "name": "Annapureddy,Rheyansh Reddy",
+      "id": "1",
+      "fideId": "3244806",
+      "gender": "male",
+      "href": "playercard.html#1",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 5,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
+          "score": 7,
+          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 12,
+        "blitz": 0
+      },
+      "title": "CM",
+      "birthYear": 2014,
+      "fideStandard": 2151,
+      "fideRapid": 2011,
+      "fideBlitz": 2213,
+      "acfClassic": 2169,
+      "acfQuick": 2238,
+      "acfId": "3197035"
     },
     {
       "name": "Aryan,Srivatsav Yegnavajjula",
@@ -201,7 +282,7 @@
       },
       "title": "",
       "birthYear": 2015,
-      "fideStandard": 1615,
+      "fideStandard": 1561,
       "fideRapid": 1539,
       "fideBlitz": 0,
       "acfClassic": 1087,
@@ -214,7 +295,7 @@
       "fideId": "3286258",
       "gender": "male",
       "href": "playercard.html#17",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -236,6 +317,13 @@
           "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
@@ -261,14 +349,14 @@
       ],
       "points": {
         "standard": 17,
-        "rapid": 4.5,
+        "rapid": 7.5,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2014,
-      "fideStandard": 1540,
+      "fideStandard": 1576,
       "fideRapid": 1491,
-      "fideBlitz": 1496,
+      "fideBlitz": 1553,
       "acfClassic": 1006,
       "acfQuick": 741,
       "acfId": "3209381"
@@ -279,7 +367,7 @@
       "fideId": "3286266",
       "gender": "male",
       "href": "playercard.html#31",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -301,6 +389,13 @@
           "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
@@ -326,14 +421,14 @@
       ],
       "points": {
         "standard": 9,
-        "rapid": 2,
+        "rapid": 3,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2016,
-      "fideStandard": 0,
+      "fideStandard": 1456,
       "fideRapid": 0,
-      "fideBlitz": 1499,
+      "fideBlitz": 1494,
       "acfClassic": 346,
       "acfQuick": 440,
       "acfId": "3212435"
@@ -396,8 +491,8 @@
       },
       "title": "",
       "birthYear": 2017,
-      "fideStandard": 1480,
-      "fideRapid": 1434,
+      "fideStandard": 1560,
+      "fideRapid": 1448,
       "fideBlitz": 1557,
       "acfClassic": 947,
       "acfQuick": 1030,
@@ -461,9 +556,9 @@
       },
       "title": "",
       "birthYear": 2016,
-      "fideStandard": 1646,
-      "fideRapid": 1612,
-      "fideBlitz": 1664,
+      "fideStandard": 1656,
+      "fideRapid": 1610,
+      "fideBlitz": 1666,
       "acfClassic": 1110,
       "acfQuick": 1241,
       "acfId": "3204363"
@@ -519,7 +614,7 @@
       },
       "title": "",
       "birthYear": 1985,
-      "fideStandard": 1468,
+      "fideStandard": 1495,
       "fideRapid": 1529,
       "fideBlitz": 1488,
       "acfClassic": 800,
@@ -532,7 +627,7 @@
       "fideId": "3286274",
       "gender": "male",
       "href": "playercard.html#34",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -554,6 +649,13 @@
           "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
@@ -597,7 +699,7 @@
       "fideId": "3259021",
       "gender": "male",
       "href": "playercard.html#4",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -605,6 +707,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025WesternJuniorRapidChampionship/data.json",
@@ -616,14 +725,14 @@
       ],
       "points": {
         "standard": 4,
-        "rapid": 5,
+        "rapid": 8,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2010,
-      "fideStandard": 1682,
+      "fideStandard": 1748,
       "fideRapid": 1647,
-      "fideBlitz": 1765,
+      "fideBlitz": 1752,
       "acfClassic": 1511,
       "acfQuick": 1440,
       "acfId": "3202576"
@@ -751,7 +860,7 @@
       },
       "title": "",
       "birthYear": 2013,
-      "fideStandard": 1430,
+      "fideStandard": 1435,
       "fideRapid": 0,
       "fideBlitz": 0,
       "acfClassic": 245,
@@ -764,7 +873,7 @@
       "fideId": "3291154",
       "gender": "female",
       "href": "playercard.html#27",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -772,6 +881,13 @@
           "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
@@ -797,7 +913,7 @@
       ],
       "points": {
         "standard": 5,
-        "rapid": 4,
+        "rapid": 5,
         "blitz": 0
       },
       "title": "",
@@ -906,7 +1022,7 @@
       "birthYear": 2018,
       "fideStandard": 0,
       "fideRapid": 0,
-      "fideBlitz": 0,
+      "fideBlitz": 1589,
       "acfClassic": 0,
       "acfQuick": 100,
       "acfId": "3214852"
@@ -1034,9 +1150,9 @@
       },
       "title": "",
       "birthYear": 2012,
-      "fideStandard": 1448,
+      "fideStandard": 1465,
       "fideRapid": 1413,
-      "fideBlitz": 1484,
+      "fideBlitz": 1443,
       "acfClassic": 516,
       "acfQuick": 564,
       "acfId": "3200270"
@@ -1078,7 +1194,7 @@
       },
       "title": "",
       "birthYear": 2013,
-      "fideStandard": 1517,
+      "fideStandard": 1512,
       "fideRapid": 0,
       "fideBlitz": 0,
       "acfClassic": 782,
@@ -1091,7 +1207,7 @@
       "fideId": "3255360",
       "gender": "male",
       "href": "playercard.html#1",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -1099,6 +1215,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025WesternJuniorRapidChampionship/data.json",
@@ -1110,12 +1233,12 @@
       ],
       "points": {
         "standard": 4.5,
-        "rapid": 5.5,
+        "rapid": 8.5,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2011,
-      "fideStandard": 1747,
+      "fideStandard": 1801,
       "fideRapid": 1647,
       "fideBlitz": 0,
       "acfClassic": 1542,
@@ -1128,7 +1251,7 @@
       "fideId": "3286320",
       "gender": "male",
       "href": "playercard.html#12",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -1152,6 +1275,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
           "score": 3.5,
           "name": "2025 Hobsons Bay Western Juniors",
@@ -1168,14 +1298,14 @@
       ],
       "points": {
         "standard": 13.5,
-        "rapid": 0,
+        "rapid": 3,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2014,
-      "fideStandard": 1709,
+      "fideStandard": 1666,
       "fideRapid": 1540,
-      "fideBlitz": 1663,
+      "fideBlitz": 1637,
       "acfClassic": 1000,
       "acfQuick": 953,
       "acfId": "3204621"
@@ -1238,9 +1368,9 @@
       },
       "title": "",
       "birthYear": 2014,
-      "fideStandard": 1528,
+      "fideStandard": 1487,
       "fideRapid": 0,
-      "fideBlitz": 0,
+      "fideBlitz": 1524,
       "acfClassic": 305,
       "acfQuick": 484,
       "acfId": "3209576"
@@ -1288,7 +1418,7 @@
       "fideId": "3286339",
       "gender": "male",
       "href": "playercard.html#22",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -1310,6 +1440,13 @@
           "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
@@ -1335,12 +1472,12 @@
       ],
       "points": {
         "standard": 11.5,
-        "rapid": 4,
+        "rapid": 6,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2014,
-      "fideStandard": 1564,
+      "fideStandard": 1504,
       "fideRapid": 1599,
       "fideBlitz": 1519,
       "acfClassic": 859,
@@ -1353,7 +1490,7 @@
       "fideId": "3284670",
       "gender": "male",
       "href": "playercard.html#28",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -1368,6 +1505,13 @@
           "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
@@ -1393,14 +1537,14 @@
       ],
       "points": {
         "standard": 11.5,
-        "rapid": 4,
+        "rapid": 7,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2017,
-      "fideStandard": 1488,
+      "fideStandard": 1514,
       "fideRapid": 1436,
-      "fideBlitz": 1476,
+      "fideBlitz": 1556,
       "acfClassic": 744,
       "acfQuick": 700,
       "acfId": "3214874"
@@ -1676,7 +1820,7 @@
       },
       "title": "",
       "birthYear": 1956,
-      "fideStandard": 1598,
+      "fideStandard": 1587,
       "fideRapid": 1599,
       "fideBlitz": 0,
       "acfClassic": 1223,
@@ -1719,6 +1863,43 @@
       "acfClassic": 0,
       "acfQuick": 0,
       "acfId": "3218606"
+    },
+    {
+      "name": "Lingineni,Khushal",
+      "id": "2",
+      "fideId": "3259056",
+      "gender": "male",
+      "href": "playercard.html#2",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 4.5,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
+          "score": 6,
+          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 10.5,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 1960,
+      "fideRapid": 1774,
+      "fideBlitz": 1979,
+      "acfClassic": 1688,
+      "acfQuick": 1831,
+      "acfId": "3202532"
     },
     {
       "name": "Majety,Rohan",
@@ -1770,7 +1951,7 @@
       "fideId": "3283470",
       "gender": "male",
       "href": "playercard.html#27",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -1787,6 +1968,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025WesternJuniorRapidChampionship/data.json",
           "score": 2,
           "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
@@ -1796,12 +1984,12 @@
       ],
       "points": {
         "standard": 4,
-        "rapid": 2,
+        "rapid": 4,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2018,
-      "fideStandard": 1593,
+      "fideStandard": 1541,
       "fideRapid": 0,
       "fideBlitz": 0,
       "acfClassic": 542,
@@ -1814,7 +2002,7 @@
       "fideId": "3242838",
       "gender": "male",
       "href": "playercard.html#3",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -1829,16 +2017,23 @@
           "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 6.5,
-        "rapid": 0,
+        "rapid": 3,
         "blitz": 0
       },
       "title": "",
       "birthYear": 1971,
-      "fideStandard": 1618,
+      "fideStandard": 1619,
       "fideRapid": 1578,
       "fideBlitz": 0,
       "acfClassic": 1364,
@@ -1903,7 +2098,7 @@
       },
       "title": "",
       "birthYear": 2009,
-      "fideStandard": 1582,
+      "fideStandard": 1555,
       "fideRapid": 0,
       "fideBlitz": 0,
       "acfClassic": 657,
@@ -1990,7 +2185,7 @@
       "fideId": "3289923",
       "gender": "male",
       "href": "playercard.html#39",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -2005,6 +2200,13 @@
           "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
@@ -2030,17 +2232,54 @@
       ],
       "points": {
         "standard": 11.5,
-        "rapid": 3.5,
+        "rapid": 6.5,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2014,
-      "fideStandard": 1589,
+      "fideStandard": 1602,
       "fideRapid": 1432,
-      "fideBlitz": 0,
+      "fideBlitz": 1528,
       "acfClassic": 692,
       "acfQuick": 638,
       "acfId": "3217486"
+    },
+    {
+      "name": "Ngo,William",
+      "id": "23",
+      "fideId": "3288986",
+      "gender": "male",
+      "href": "playercard.html#23",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 6.5,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2012,
+      "fideStandard": 1747,
+      "fideRapid": 1454,
+      "fideBlitz": 1688,
+      "acfClassic": 1038,
+      "acfQuick": 883,
+      "acfId": "3212170"
     },
     {
       "name": "Nguyen,Anh Kiet",
@@ -2048,7 +2287,7 @@
       "fideId": "3267849",
       "gender": "male",
       "href": "playercard.html#2",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -2065,6 +2304,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025WesternJuniorRapidChampionship/data.json",
           "score": 5,
           "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
@@ -2074,14 +2320,14 @@
       ],
       "points": {
         "standard": 9.5,
-        "rapid": 5,
+        "rapid": 9,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2012,
-      "fideStandard": 1889,
+      "fideStandard": 1986,
       "fideRapid": 1842,
-      "fideBlitz": 1789,
+      "fideBlitz": 1835,
       "acfClassic": 1706,
       "acfQuick": 1593,
       "acfId": "3206205"
@@ -2092,7 +2338,7 @@
       "fideId": "3270335",
       "gender": "male",
       "href": "playercard.html#14",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -2107,6 +2353,13 @@
           "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 0.5,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
@@ -2132,17 +2385,54 @@
       ],
       "points": {
         "standard": 8.5,
-        "rapid": 4,
+        "rapid": 4.5,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2013,
-      "fideStandard": 1460,
+      "fideStandard": 1482,
       "fideRapid": 0,
       "fideBlitz": 1528,
       "acfClassic": 698,
       "acfQuick": 757,
       "acfId": "3207340"
+    },
+    {
+      "name": "Palta,Sameer",
+      "id": "40",
+      "fideId": "3292355",
+      "gender": "male",
+      "href": "playercard.html#40",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 3,
+        "rapid": 2.5,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 1518,
+      "acfClassic": 453,
+      "acfQuick": 453,
+      "acfId": "3219984"
     },
     {
       "name": "Prince,Aliza",
@@ -2187,7 +2477,7 @@
       "fideId": "3275221",
       "gender": "male",
       "href": "playercard.html#6",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -2204,6 +2494,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025WesternJuniorRapidChampionship/data.json",
           "score": 5,
           "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
@@ -2213,14 +2510,14 @@
       ],
       "points": {
         "standard": 7.5,
-        "rapid": 5,
+        "rapid": 8,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2016,
-      "fideStandard": 1627,
+      "fideStandard": 1674,
       "fideRapid": 1642,
-      "fideBlitz": 1632,
+      "fideBlitz": 1707,
       "acfClassic": 1274,
       "acfQuick": 1287,
       "acfId": "3206231"
@@ -2255,7 +2552,7 @@
       },
       "title": "",
       "birthYear": 2013,
-      "fideStandard": 1561,
+      "fideStandard": 1583,
       "fideRapid": 1625,
       "fideBlitz": 1618,
       "acfClassic": 1174,
@@ -2312,7 +2609,7 @@
       "fideId": "3281345",
       "gender": "male",
       "href": "playercard.html#21",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -2334,6 +2631,13 @@
           "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
@@ -2359,12 +2663,12 @@
       ],
       "points": {
         "standard": 12.5,
-        "rapid": 4,
+        "rapid": 6,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2014,
-      "fideStandard": 1440,
+      "fideStandard": 1437,
       "fideRapid": 1430,
       "fideBlitz": 1538,
       "acfClassic": 795,
@@ -2377,7 +2681,7 @@
       "fideId": "3264173",
       "gender": "male",
       "href": "playercard.html#16",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -2392,6 +2696,13 @@
           "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
@@ -2417,7 +2728,7 @@
       ],
       "points": {
         "standard": 7,
-        "rapid": 5,
+        "rapid": 6,
         "blitz": 0
       },
       "title": "",
@@ -2472,7 +2783,7 @@
       "fideId": "3286380",
       "gender": "male",
       "href": "playercard.html#41",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -2487,6 +2798,13 @@
           "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
@@ -2512,14 +2830,14 @@
       ],
       "points": {
         "standard": 6.5,
-        "rapid": 3.5,
+        "rapid": 6,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2015,
-      "fideStandard": 1463,
+      "fideStandard": 1434,
       "fideRapid": 1442,
-      "fideBlitz": 0,
+      "fideBlitz": 1540,
       "acfClassic": 539,
       "acfQuick": 578,
       "acfId": "3217011"
@@ -2627,6 +2945,43 @@
       "acfId": "3217545"
     },
     {
+      "name": "Stefan Jiace Tham,Keanu",
+      "id": "35",
+      "fideId": "3286401",
+      "gender": "male",
+      "href": "playercard.html#35",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 5.5,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 1448,
+      "acfClassic": 401,
+      "acfQuick": 508,
+      "acfId": "3217022"
+    },
+    {
       "name": "Stefan Tham,Keanu",
       "id": "2",
       "fideId": "",
@@ -2700,9 +3055,9 @@
       },
       "title": "",
       "birthYear": 2009,
-      "fideStandard": 1471,
+      "fideStandard": 1445,
       "fideRapid": 1522,
-      "fideBlitz": 1564,
+      "fideBlitz": 1579,
       "acfClassic": 1099,
       "acfQuick": 1160,
       "acfId": "3211466"
@@ -2713,7 +3068,7 @@
       "fideId": "3291251",
       "gender": "male",
       "href": "playercard.html#44",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -2721,6 +3076,13 @@
           "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
@@ -2746,14 +3108,14 @@
       ],
       "points": {
         "standard": 9.5,
-        "rapid": 3,
+        "rapid": 5,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2017,
-      "fideStandard": 0,
+      "fideStandard": 1479,
       "fideRapid": 0,
-      "fideBlitz": 0,
+      "fideBlitz": 1706,
       "acfClassic": 685,
       "acfQuick": 551,
       "acfId": "3218676"
@@ -2764,7 +3126,7 @@
       "fideId": "3286410",
       "gender": "female",
       "href": "playercard.html#45",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -2786,6 +3148,13 @@
           "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
@@ -2811,12 +3180,12 @@
       ],
       "points": {
         "standard": 7.5,
-        "rapid": 3,
+        "rapid": 4,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2018,
-      "fideStandard": 1624,
+      "fideStandard": 1562,
       "fideRapid": 0,
       "fideBlitz": 0,
       "acfClassic": 441,
@@ -2853,7 +3222,7 @@
       },
       "title": "",
       "birthYear": 2015,
-      "fideStandard": 1655,
+      "fideStandard": 1532,
       "fideRapid": 0,
       "fideBlitz": 0,
       "acfClassic": 983,
@@ -2866,7 +3235,7 @@
       "fideId": "3265277",
       "gender": "male",
       "href": "playercard.html#11",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -2890,6 +3259,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
           "score": 2.5,
           "name": "2025 Hobsons Bay Western Juniors",
@@ -2906,14 +3282,14 @@
       ],
       "points": {
         "standard": 13.5,
-        "rapid": 0,
+        "rapid": 3.5,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2013,
-      "fideStandard": 1585,
+      "fideStandard": 1640,
       "fideRapid": 1614,
-      "fideBlitz": 1421,
+      "fideBlitz": 1601,
       "acfClassic": 931,
       "acfQuick": 1033,
       "acfId": "3204083"
@@ -2948,7 +3324,7 @@
       },
       "title": "",
       "birthYear": 2010,
-      "fideStandard": 1618,
+      "fideStandard": 1587,
       "fideRapid": 1475,
       "fideBlitz": 1564,
       "acfClassic": 1226,
@@ -2961,7 +3337,7 @@
       "fideId": "3288510",
       "gender": "male",
       "href": "playercard.html#45",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -2969,6 +3345,13 @@
           "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025WesternJuniorRapidChampionship/data.json",
@@ -2980,12 +3363,12 @@
       ],
       "points": {
         "standard": 3,
-        "rapid": 3,
+        "rapid": 4,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2015,
-      "fideStandard": 1606,
+      "fideStandard": 1531,
       "fideRapid": 0,
       "fideBlitz": 0,
       "acfClassic": 445,
@@ -2998,7 +3381,7 @@
       "fideId": "3262952",
       "gender": "male",
       "href": "playercard.html#4",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -3013,6 +3396,13 @@
           "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 4,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayWesternJuniors/data.json",
@@ -3031,14 +3421,14 @@
       ],
       "points": {
         "standard": 11.5,
-        "rapid": 0,
+        "rapid": 4,
         "blitz": 0
       },
       "title": "",
       "birthYear": 1982,
-      "fideStandard": 1616,
+      "fideStandard": 1639,
       "fideRapid": 0,
-      "fideBlitz": 1637,
+      "fideBlitz": 1638,
       "acfClassic": 1108,
       "acfQuick": 1211,
       "acfId": "3202252"
@@ -3049,7 +3439,7 @@
       "fideId": "3267881",
       "gender": "male",
       "href": "playercard.html#18",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -3057,6 +3447,13 @@
           "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
@@ -3075,14 +3472,14 @@
       ],
       "points": {
         "standard": 8,
-        "rapid": 0,
+        "rapid": 2,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2014,
-      "fideStandard": 1478,
+      "fideStandard": 1457,
       "fideRapid": 0,
-      "fideBlitz": 0,
+      "fideBlitz": 1465,
       "acfClassic": 619,
       "acfQuick": 428,
       "acfId": "3207771"
