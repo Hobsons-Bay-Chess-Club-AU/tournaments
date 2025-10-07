@@ -67,7 +67,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>5.5</td><td class="result"> ... </td><td>5</td><td><div class="player-container" 
+</td><td>5.5</td><td class="result">0 - 1</td><td>5</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#4"></a> 
  <div class="player-name-box2">
@@ -100,7 +100,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>4.5</td><td class="result"> ... </td><td>5</td><td><div class="player-container" 
+</td><td>4.5</td><td class="result">½ - ½</td><td>5</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#10"></a> 
  <div class="player-name-box2">
@@ -133,7 +133,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>4</td><td class="result"> ... </td><td>4.5</td><td><div class="player-container" 
+</td><td>4</td><td class="result">0 - 1</td><td>4.5</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#12"></a> 
  <div class="player-name-box2">
@@ -166,7 +166,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>4</td><td class="result"> ... </td><td>4</td><td><div class="player-container" 
+</td><td>4</td><td class="result">0 - 1</td><td>4</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#3"></a> 
  <div class="player-name-box2">
@@ -199,7 +199,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>4</td><td class="result"> ... </td><td>4</td><td><div class="player-container" 
+</td><td>4</td><td class="result">0 - 1</td><td>4</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#5"></a> 
  <div class="player-name-box2">
@@ -232,7 +232,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>3.5</td><td class="result"> ... </td><td>4</td><td><div class="player-container" 
+</td><td>3.5</td><td class="result">½ - ½</td><td>4</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#11"></a> 
  <div class="player-name-box2">
@@ -265,7 +265,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>3.5</td><td class="result"> ... </td><td>3.5</td><td><div class="player-container" 
+</td><td>3.5</td><td class="result">1 - 0</td><td>3.5</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#8"></a> 
  <div class="player-name-box2">
@@ -298,7 +298,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>3</td><td class="result"> ... </td><td>3</td><td><div class="player-container" 
+</td><td>3</td><td class="result">0 - 1</td><td>3</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#32"></a> 
  <div class="player-name-box2">
@@ -331,7 +331,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>3</td><td class="result"> ... </td><td>3</td><td><div class="player-container" 
+</td><td>3</td><td class="result">1F-0F</td><td>3</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#2"></a> 
  <div class="player-name-box2">
@@ -364,7 +364,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>3</td><td class="result"> ... </td><td>3</td><td><div class="player-container" 
+</td><td>3</td><td class="result">1 - 0</td><td>3</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#21"></a> 
  <div class="player-name-box2">
@@ -397,7 +397,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>3</td><td class="result"> ... </td><td>3</td><td><div class="player-container" 
+</td><td>3</td><td class="result">1 - 0</td><td>3</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#34"></a> 
  <div class="player-name-box2">
@@ -430,7 +430,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>3</td><td class="result"> ... </td><td>3</td><td><div class="player-container" 
+</td><td>3</td><td class="result">1 - 0</td><td>3</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#15"></a> 
  <div class="player-name-box2">
@@ -463,7 +463,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>3</td><td class="result"> ... </td><td>3</td><td><div class="player-container" 
+</td><td>3</td><td class="result">1F-0F</td><td>3</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#45"></a> 
  <div class="player-name-box2">
@@ -496,7 +496,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>3</td><td class="result"> ... </td><td>3</td><td><div class="player-container" 
+</td><td>3</td><td class="result">0 - 1</td><td>3</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#19"></a> 
  <div class="player-name-box2">
@@ -529,7 +529,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>2.5</td><td class="result"> ... </td><td>2.5</td><td><div class="player-container" 
+</td><td>2.5</td><td class="result">0 - 1</td><td>2.5</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#23"></a> 
  <div class="player-name-box2">
@@ -562,7 +562,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>2.5</td><td class="result"> ... </td><td>2.5</td><td><div class="player-container" 
+</td><td>2.5</td><td class="result">1 - 0</td><td>2.5</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#25"></a> 
  <div class="player-name-box2">
@@ -595,7 +595,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>2</td><td class="result"> ... </td><td>2</td><td><div class="player-container" 
+</td><td>2</td><td class="result">1 - 0</td><td>2</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#27"></a> 
  <div class="player-name-box2">
@@ -628,7 +628,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>2</td><td class="result"> ... </td><td>2</td><td><div class="player-container" 
+</td><td>2</td><td class="result">1 - 0</td><td>2</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#31"></a> 
  <div class="player-name-box2">
@@ -661,7 +661,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>2</td><td class="result"> ... </td><td>2</td><td><div class="player-container" 
+</td><td>2</td><td class="result">1 - 0</td><td>2</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#36"></a> 
  <div class="player-name-box2">
@@ -694,7 +694,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>2</td><td class="result"> ... </td><td>2</td><td><div class="player-container" 
+</td><td>2</td><td class="result">0 - 1</td><td>2</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#43"></a> 
  <div class="player-name-box2">
@@ -727,7 +727,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>2</td><td class="result"> ... </td><td>1</td><td><div class="player-container" 
+</td><td>2</td><td class="result">1F-0F</td><td>1</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#26"></a> 
  <div class="player-name-box2">
@@ -760,7 +760,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>0.5</td><td class="result"> ... </td><td>1</td><td><div class="player-container" 
+</td><td>0.5</td><td class="result">1F-0F</td><td>1</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#37"></a> 
  <div class="player-name-box2">
@@ -822,7 +822,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Casey Goh - AUS)
+                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Hobsons Bay Chess Club - AUS)
   <?php if (file_exists($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php')) include($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php'); ?>    </div>  </div>  </div> </div> 
    </footer>
      </div>
