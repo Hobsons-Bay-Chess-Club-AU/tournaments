@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-07T09:47:25.639Z",
+  "generatedAt": "2025-10-07T10:24:59.126Z",
   "year": "2025",
   "count": 68,
   "totalTournaments": 27,
@@ -539,20 +539,13 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#34",
-      "tournamentCount": 7,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
           "score": 2,
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
-          "score": 1.5,
-          "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
-          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -592,7 +585,7 @@
         }
       ],
       "points": {
-        "standard": 10,
+        "standard": 8.5,
         "rapid": 3,
         "blitz": 0
       }
@@ -749,19 +742,12 @@
     },
     {
       "name": "Fang,Candice",
-      "id": "27",
+      "id": "41",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#27",
-      "tournamentCount": 5,
+      "href": "playercard.html#41",
+      "tournamentCount": 4,
       "tournaments": [
-        {
-          "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
-          "score": 2,
-          "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
-          "totalRounds": "7",
-          "ratingType": "standard"
-        },
         {
           "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
           "score": 1,
@@ -792,7 +778,7 @@
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 3,
         "rapid": 5,
         "blitz": 0
       }
@@ -1594,19 +1580,12 @@
     },
     {
       "name": "Kwek,Alexander",
-      "id": "36",
+      "id": "15",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#36",
-      "tournamentCount": 3,
+      "href": "playercard.html#15",
+      "tournamentCount": 2,
       "tournaments": [
-        {
-          "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
-          "score": 2,
-          "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
-          "totalRounds": "7",
-          "ratingType": "standard"
-        },
         {
           "tournament": "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
           "score": 1.5,
@@ -1623,7 +1602,7 @@
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
