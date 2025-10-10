@@ -45,7 +45,7 @@
 <tr><td >Federation</td> <td> AUS</td> </tr>
 <tr><td >Date Begin</td> <td> 14/10/2025</td> </tr>
 <tr><td >Date End</td> <td> 09/12/2025</td> </tr>
-<tr><td >Arbiter(s)</td> <td> NA Dwyer, Lachlan (AUS) 3254119 (VIC)</td> </tr>
+<tr><td >Arbiter(s)</td> <td> IA Goh, Casey (AUS) (SI,LSI) 3251098 (VIC)</td> </tr>
 <tr><td > Play System</td> <td> swiss FIDE Dutch (JaVaFo)</td> </tr>
 <tr><td >Rounds</td> <td> 7</td> </tr>
 <tr><td >Score game</td> <td> 0-0.5-1</td> </tr>
