@@ -1,0 +1,865 @@
+{
+  "generatedAt": "2025-10-10T00:32:32.428Z",
+  "tournament": {
+    "id": "2025-hobsons-bay-junior-club-championship",
+    "name": "2025 Hobsons Bay Junior Club Championship",
+    "category": "Junior",
+    "metadata": {
+      "Tournament Name": "2025 Hobsons Bay Junior Club Championship",
+      "Place": "Melbourne",
+      "Federation": "AUS",
+      "Date Begin": "14/10/2025",
+      "Date End": "09/12/2025",
+      "Arbiter(s)": "IA Goh, Casey 3251098 (AUS)",
+      "Play System": "Single Round Robin",
+      "Rounds": "7",
+      "Score game": "0-0.5-1",
+      "Tie break": "DirE SB SB/C1 BPG",
+      "Registered Players": "8",
+      "Number of Federations": "1",
+      "Average Rating (all)": "1587",
+      "Average Rating (only FIDE rated)": "1587",
+      "Players from AUS Federation": "8",
+      "Players NOT from AUS Federation": "0",
+      "FIDE rated players": "8",
+      "unrated players": "0",
+      "unrated players from AUS Federation": "0",
+      "unrated players NOT from AUS Federation": "0",
+      "unrated Federations": "0",
+      "FIDE titled players": "0",
+      "GM players": "0",
+      "WGM players": "0",
+      "IM players": "0",
+      "WIM players": "0",
+      "FM players": "0",
+      "WFM players": "0",
+      "CM players": "0",
+      "WCM players": "0",
+      "FIDE titled player from AUS Federation": "0",
+      "FIDE titled player NOT from AUS Federation": "0",
+      "category": "Junior",
+      "tournamentName": "2025 Hobsons Bay Junior Club Championship",
+      "federation": "AUS",
+      "dateBegin": "14/10/2025",
+      "dateEnd": "09/12/2025",
+      "arbiters": "IA Goh, Casey 3251098 (AUS)",
+      "playSystem": "Single Round Robin",
+      "rounds": 7,
+      "scoreGame": "0-0.5-1",
+      "tieBreak": "DirE SB SB/C1 BPG",
+      "registeredPlayers": 8,
+      "averageRating": 1587,
+      "averageRatingFide": 1587,
+      "fideRatedPlayers": 8,
+      "unratedPlayers": 0,
+      "fideTitledPlayers": 0
+    }
+  },
+  "players": [
+    {
+      "id": "1",
+      "name": "Batyrbekov, Kaisar",
+      "title": "",
+      "federation": "AUS",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#1",
+      "origin": ""
+    },
+    {
+      "id": "2",
+      "name": "Ashok, Arjun",
+      "title": "",
+      "federation": "AUS",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#2",
+      "origin": ""
+    },
+    {
+      "id": "3",
+      "name": "Balaji, Sai Sivesh",
+      "title": "",
+      "federation": "AUS",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#3",
+      "origin": ""
+    },
+    {
+      "id": "4",
+      "name": "Huang, Michael",
+      "title": "",
+      "federation": "AUS",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#4",
+      "origin": ""
+    },
+    {
+      "id": "5",
+      "name": "Batyrbekov, Aidan",
+      "title": "",
+      "federation": "AUS",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#5",
+      "origin": ""
+    },
+    {
+      "id": "6",
+      "name": "Wei, Andrew",
+      "title": "",
+      "federation": "AUS",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#6",
+      "origin": ""
+    },
+    {
+      "id": "7",
+      "name": "Ruaya, Rohan",
+      "title": "",
+      "federation": "AUS",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#7",
+      "origin": ""
+    },
+    {
+      "id": "8",
+      "name": "Nema, Nivaan",
+      "title": "",
+      "federation": "AUS",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#8",
+      "origin": ""
+    }
+  ],
+  "pages": {
+    "games.html": {
+      "pageHeading": "",
+      "tables": []
+    },
+    "index.html": {
+      "pageHeading": "Registered players",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "Title",
+              "key": "Title"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "RtgF",
+              "key": "RtgF"
+            },
+            {
+              "name": "RtgN",
+              "key": "RtgN"
+            }
+          ],
+          "rows": [
+            {
+              "#": "1",
+              "Title": "",
+              "Player": "Batyrbekov, Kaisar",
+              "Fed": "AUS",
+              "Rtg": "1110",
+              "RtgF": "1656",
+              "RtgN": "1110"
+            },
+            {
+              "#": "2",
+              "Title": "",
+              "Player": "Ashok, Arjun",
+              "Fed": "AUS",
+              "Rtg": "1087",
+              "RtgF": "1561",
+              "RtgN": "1087"
+            },
+            {
+              "#": "3",
+              "Title": "",
+              "Player": "Balaji, Sai Sivesh",
+              "Fed": "AUS",
+              "Rtg": "1006",
+              "RtgF": "1576",
+              "RtgN": "1006"
+            },
+            {
+              "#": "4",
+              "Title": "",
+              "Player": "Huang, Michael",
+              "Fed": "AUS",
+              "Rtg": "1000",
+              "RtgF": "1666",
+              "RtgN": "1000"
+            },
+            {
+              "#": "5",
+              "Title": "",
+              "Player": "Batyrbekov, Aidan",
+              "Fed": "AUS",
+              "Rtg": "947",
+              "RtgF": "1560",
+              "RtgN": "947"
+            },
+            {
+              "#": "6",
+              "Title": "",
+              "Player": "Wei, Andrew",
+              "Fed": "AUS",
+              "Rtg": "931",
+              "RtgF": "1640",
+              "RtgN": "931"
+            },
+            {
+              "#": "7",
+              "Title": "",
+              "Player": "Ruaya, Rohan",
+              "Fed": "AUS",
+              "Rtg": "795",
+              "RtgF": "1437",
+              "RtgN": "795"
+            },
+            {
+              "#": "8",
+              "Title": "",
+              "Player": "Nema, Nivaan",
+              "Fed": "AUS",
+              "Rtg": "692",
+              "RtgF": "1602",
+              "RtgN": "692"
+            }
+          ],
+          "footer": {
+            "text": "Rating legend: Rtg: Rating used for pairing and standings - RtgF: Fide Rating - RtgN: National Rating",
+            "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
+          },
+          "type": "other"
+        }
+      ]
+    },
+    "pairing.html": {
+      "pageHeading": "",
+      "tables": []
+    },
+    "playercard.html": {
+      "pageHeading": "National History Cards",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Batyrbekov, Kaisar",
+            "id": "3204363",
+            "moreInfo": {
+              "K": "3",
+              "Elo": "1110",
+              "anchor": "1"
+            },
+            "rawText": "1   Batyrbekov, Kaisar  , K= 3, Elo=1110, ID=3204363",
+            "rawHtml": "   1   <strong>Batyrbekov, Kaisar  </strong>, K= 3, Elo=1110, ID=3204363 \n<br>\n<a class=\"anchor\" name=\"1\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Ashok, Arjun",
+            "id": "3204632",
+            "moreInfo": {
+              "K": "3",
+              "Elo": "1087",
+              "anchor": "2"
+            },
+            "rawText": "2   Ashok, Arjun        , K= 3, Elo=1087, ID=3204632",
+            "rawHtml": "   2   <strong>Ashok, Arjun        </strong>, K= 3, Elo=1087, ID=3204632 \n<br>\n<a class=\"anchor\" name=\"2\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Balaji, Sai Sivesh",
+            "id": "3209381",
+            "moreInfo": {
+              "K": "3",
+              "Elo": "1006",
+              "anchor": "3"
+            },
+            "rawText": "3   Balaji, Sai Sivesh  , K= 3, Elo=1006, ID=3209381",
+            "rawHtml": "   3   <strong>Balaji, Sai Sivesh  </strong>, K= 3, Elo=1006, ID=3209381 \n<br>\n<a class=\"anchor\" name=\"3\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Huang, Michael",
+            "id": "3204621",
+            "moreInfo": {
+              "K": "3",
+              "Elo": "1000",
+              "anchor": "4"
+            },
+            "rawText": "4   Huang, Michael      , K= 3, Elo=1000, ID=3204621",
+            "rawHtml": "   4   <strong>Huang, Michael      </strong>, K= 3, Elo=1000, ID=3204621 \n<br>\n<a class=\"anchor\" name=\"4\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Batyrbekov, Aidan",
+            "id": "3203840",
+            "moreInfo": {
+              "K": "3",
+              "Elo": "947",
+              "anchor": "5"
+            },
+            "rawText": "5   Batyrbekov, Aidan   , K= 3, Elo= 947, ID=3203840",
+            "rawHtml": "   5   <strong>Batyrbekov, Aidan   </strong>, K= 3, Elo= 947, ID=3203840 \n<br>\n<a class=\"anchor\" name=\"5\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Wei, Andrew",
+            "id": "3204083",
+            "moreInfo": {
+              "K": "3",
+              "Elo": "931",
+              "anchor": "6"
+            },
+            "rawText": "6   Wei, Andrew         , K= 3, Elo= 931, ID=3204083",
+            "rawHtml": "   6   <strong>Wei, Andrew         </strong>, K= 3, Elo= 931, ID=3204083 \n<br>\n<a class=\"anchor\" name=\"6\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Ruaya, Rohan",
+            "id": "3203980",
+            "moreInfo": {
+              "K": "3",
+              "Elo": "795",
+              "anchor": "7"
+            },
+            "rawText": "7   Ruaya, Rohan        , K= 3, Elo= 795, ID=3203980",
+            "rawHtml": "   7   <strong>Ruaya, Rohan        </strong>, K= 3, Elo= 795, ID=3203980 \n<br>\n<a class=\"anchor\" name=\"7\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Nema, Nivaan",
+            "id": "3217486",
+            "moreInfo": {
+              "K": "3",
+              "Elo": "692",
+              "anchor": "8"
+            },
+            "rawText": "8   Nema, Nivaan        , K= 3, Elo= 692, ID=3217486",
+            "rawHtml": "   8   <strong>Nema, Nivaan        </strong>, K= 3, Elo= 692, ID=3217486 \n<br>\n<a class=\"anchor\" name=\"8\"></a>"
+          },
+          "type": "other"
+        }
+      ]
+    },
+    "schedule.html": {
+      "pageHeading": "Schedule",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Round",
+              "key": "Round"
+            },
+            {
+              "name": "Time",
+              "key": "Time"
+            },
+            {
+              "name": "Date",
+              "key": "Date"
+            }
+          ],
+          "rows": [],
+          "type": "other"
+        }
+      ]
+    },
+    "tourstat.html": {
+      "pageHeading": "Tournament summary",
+      "tables": [
+        {
+          "headers": [],
+          "rows": [
+            {
+              "col1": "Tournament Name",
+              "col2": "2025 Hobsons Bay Junior Club Championship"
+            },
+            {
+              "col1": "Place",
+              "col2": "Melbourne"
+            },
+            {
+              "col1": "Federation",
+              "col2": "AUS"
+            },
+            {
+              "col1": "Date Begin",
+              "col2": "14/10/2025"
+            },
+            {
+              "col1": "Date End",
+              "col2": "09/12/2025"
+            },
+            {
+              "col1": "Arbiter(s)",
+              "col2": "IA Goh, Casey 3251098 (AUS)"
+            },
+            {
+              "col1": "Play System",
+              "col2": "Single Round Robin"
+            },
+            {
+              "col1": "Rounds",
+              "col2": "7"
+            },
+            {
+              "col1": "Score game",
+              "col2": "0-0.5-1"
+            },
+            {
+              "col1": "Tie break",
+              "col2": "DirE      SB   SB/C1     BPG"
+            },
+            {
+              "col1": "Registered Players",
+              "col2": "8"
+            },
+            {
+              "col1": "Number of Federations",
+              "col2": "1"
+            },
+            {
+              "col1": "Average Rating (all)",
+              "col2": "1587"
+            },
+            {
+              "col1": "Average Rating (only FIDE rated)",
+              "col2": "1587"
+            },
+            {
+              "col1": "Players from AUS Federation",
+              "col2": "8"
+            },
+            {
+              "col1": "Players NOT from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE rated players",
+              "col2": "8"
+            },
+            {
+              "col1": "unrated players",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players NOT from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated Federations",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled players",
+              "col2": "0"
+            },
+            {
+              "col1": "GM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WGM players",
+              "col2": "0"
+            },
+            {
+              "col1": "IM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WIM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WFM players",
+              "col2": "0"
+            },
+            {
+              "col1": "CM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WCM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player NOT from AUS Federation",
+              "col2": "0"
+            }
+          ],
+          "type": "statistics"
+        }
+      ]
+    }
+  },
+  "menu": [
+    {
+      "text": "Info",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Schedule",
+          "href": "schedule.html"
+        },
+        {
+          "text": "Statistics",
+          "href": "tourstat.html"
+        }
+      ]
+    },
+    {
+      "text": "Players",
+      "href": "index.html",
+      "isDropdown": true,
+      "children": []
+    }
+  ],
+  "md5Hash": "2a7f1122a871a9c8a15bd4202ed42b70"
+}
