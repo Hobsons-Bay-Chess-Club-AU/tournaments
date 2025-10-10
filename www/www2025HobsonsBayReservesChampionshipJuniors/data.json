@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-10T02:35:45.747Z",
+  "generatedAt": "2025-10-10T06:00:33.667Z",
   "page": {
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 0",
@@ -105,22 +105,22 @@
             {
               "#": "1",
               "Title": "",
-              "Player": "Kaur,Mishleen",
-              "Fed": "AUS",
-              "Origin": "",
-              "Rtg": "1541",
-              "RtgF": "1541",
-              "RtgN": "0"
-            },
-            {
-              "#": "2",
-              "Title": "",
               "Player": "Jagannathan,Shashvath",
               "Fed": "AUS",
               "Origin": "",
               "Rtg": "859",
               "RtgF": "1504",
               "RtgN": "859"
+            },
+            {
+              "#": "2",
+              "Title": "",
+              "Player": "Kaur,Mishleen",
+              "Fed": "AUS",
+              "Origin": "",
+              "Rtg": "800",
+              "RtgF": "1541",
+              "RtgN": "800"
             },
             {
               "#": "3",
@@ -746,11 +746,11 @@
             "id": "3220474",
             "moreInfo": {
               "K": "0",
-              "Elo": "1541",
+              "Elo": "800",
               "anchor": "9"
             },
-            "rawText": "9   Kaur,Mishleen       , K= 0, Elo=1541, ID=3220474",
-            "rawHtml": "   9   <strong>Kaur,Mishleen       </strong>, K= 0, Elo=1541, ID=3220474\n<br>\n<a class=\"anchor\" name=\"9\"></a>"
+            "rawText": "9   Kaur,Mishleen       , K= 0, Elo= 800, ID=3220474",
+            "rawHtml": "   9   <strong>Kaur,Mishleen       </strong>, K= 0, Elo= 800, ID=3220474\n<br>\n<a class=\"anchor\" name=\"9\"></a>"
           }
         },
         {
@@ -1339,10 +1339,10 @@
   "playerLookup": {
     "1": {
       "id": "1",
-      "playerName": "Kaur,Mishleen",
+      "playerName": "Jagannathan,Shashvath",
       "title": "",
       "federation": "AUS",
-      "rating": "1541",
+      "rating": "859",
       "gender": "",
       "fideId": "",
       "href": "",
@@ -1350,10 +1350,10 @@
     },
     "2": {
       "id": "2",
-      "playerName": "Jagannathan,Shashvath",
+      "playerName": "Kaur,Mishleen",
       "title": "",
       "federation": "AUS",
-      "rating": "859",
+      "rating": "800",
       "gender": "",
       "fideId": "",
       "href": "",
@@ -1558,22 +1558,22 @@
     {
       "#": "1",
       "Title": "",
-      "Player": "Kaur,Mishleen",
-      "Fed": "AUS",
-      "Origin": "",
-      "Rtg": "1541",
-      "RtgF": "1541",
-      "RtgN": "0"
-    },
-    {
-      "#": "2",
-      "Title": "",
       "Player": "Jagannathan,Shashvath",
       "Fed": "AUS",
       "Origin": "",
       "Rtg": "859",
       "RtgF": "1504",
       "RtgN": "859"
+    },
+    {
+      "#": "2",
+      "Title": "",
+      "Player": "Kaur,Mishleen",
+      "Fed": "AUS",
+      "Origin": "",
+      "Rtg": "800",
+      "RtgF": "1541",
+      "RtgN": "800"
     },
     {
       "#": "3",
@@ -1762,5 +1762,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "65e7b8c065a55fc8990fddd3e3b5ed45"
+  "md5Hash": "3e3299cd7915936062537e871407decf"
 }

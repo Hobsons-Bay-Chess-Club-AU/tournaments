@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-10T02:35:45.767Z",
+  "generatedAt": "2025-10-10T06:00:33.688Z",
   "tournament": {
     "id": "2025-hobsons-bay-reserves-championship-juniors",
     "name": "2025 Hobsons Bay Reserves Championship Juniors",
@@ -58,7 +58,7 @@
   "players": [
     {
       "id": "1",
-      "name": "Kaur,Mishleen",
+      "name": "Jagannathan,Shashvath",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -70,7 +70,7 @@
     },
     {
       "id": "2",
-      "name": "Jagannathan,Shashvath",
+      "name": "Kaur,Mishleen",
       "title": "",
       "federation": "AUS",
       "fideId": "",
@@ -367,22 +367,22 @@
             {
               "#": "1",
               "Title": "",
-              "Player": "Kaur,Mishleen",
-              "Fed": "AUS",
-              "Origin": "",
-              "Rtg": "1541",
-              "RtgF": "1541",
-              "RtgN": "0"
-            },
-            {
-              "#": "2",
-              "Title": "",
               "Player": "Jagannathan,Shashvath",
               "Fed": "AUS",
               "Origin": "",
               "Rtg": "859",
               "RtgF": "1504",
               "RtgN": "859"
+            },
+            {
+              "#": "2",
+              "Title": "",
+              "Player": "Kaur,Mishleen",
+              "Fed": "AUS",
+              "Origin": "",
+              "Rtg": "800",
+              "RtgF": "1541",
+              "RtgN": "800"
             },
             {
               "#": "3",
@@ -1018,11 +1018,11 @@
             "id": "3220474",
             "moreInfo": {
               "K": "0",
-              "Elo": "1541",
+              "Elo": "800",
               "anchor": "9"
             },
-            "rawText": "9   Kaur,Mishleen       , K= 0, Elo=1541, ID=3220474",
-            "rawHtml": "   9   <strong>Kaur,Mishleen       </strong>, K= 0, Elo=1541, ID=3220474\n<br>\n<a class=\"anchor\" name=\"9\"></a>"
+            "rawText": "9   Kaur,Mishleen       , K= 0, Elo= 800, ID=3220474",
+            "rawHtml": "   9   <strong>Kaur,Mishleen       </strong>, K= 0, Elo= 800, ID=3220474\n<br>\n<a class=\"anchor\" name=\"9\"></a>"
           },
           "type": "other"
         },
@@ -1648,5 +1648,5 @@
       "children": []
     }
   ],
-  "md5Hash": "edfb0cb1fe8fdc500d7888db85782eb9"
+  "md5Hash": "d4498712c8ca0875a5d70fc248064bf6"
 }
