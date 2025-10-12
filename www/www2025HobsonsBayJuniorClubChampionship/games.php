@@ -20,7 +20,11 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li></ul> </div>
+</li><li class="nav-item"><a class="nav-link " href="pairs1.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link" href="#" >Standings</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu"></ul></li></ul> </div>
 </div>
 </nav>
  <section id="hero" class="d-flex align-items-center">
@@ -41,7 +45,7 @@
 <input type="hidden" id="viewerpath" value="/vega.html">
 <input type="hidden" id="gamepath" value="">
 <input type="hidden" id="gamename" value="2025 Hobsons Bay Junior Club Championship">
-<iframe id="myframe" align=center src="http:///vega.html?pgnFile=/2025 Hobsons Bay Junior Club Championship0.pgn"  width=430 height=680 frameborder=0></iframe>		  </div>
+<iframe id="myframe" align=center src="http:///vega.html?pgnFile=/2025 Hobsons Bay Junior Club Championship1.pgn"  width=430 height=680 frameborder=0></iframe>		  </div>
 		      </div>
          <div class="d-none d-lg-block col-1 pe-0">
            <div class="d-flex flex-column w-full overflow-hidden">
