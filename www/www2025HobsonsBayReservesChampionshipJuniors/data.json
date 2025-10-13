@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-13T11:42:21.763Z",
+  "generatedAt": "2025-10-13T11:55:27.808Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 1",
@@ -397,7 +397,7 @@
               "#": "24",
               "Player": {
                 "id": "24",
-                "playerName": "Shayan,Ray",
+                "playerName": "Mo, Christopher",
                 "gender": "male",
                 "href": "playercard.html#24",
                 "title": "",
@@ -413,7 +413,7 @@
               "#": "25",
               "Player": {
                 "id": "25",
-                "playerName": "Tan,Lucas",
+                "playerName": "Shayan,Ray",
                 "gender": "male",
                 "href": "playercard.html#25",
                 "title": "",
@@ -429,7 +429,7 @@
               "#": "26",
               "Player": {
                 "id": "26",
-                "playerName": "Veeragandham, Gowtham",
+                "playerName": "Tan,Lucas",
                 "gender": "male",
                 "href": "playercard.html#26",
                 "title": "",
@@ -445,9 +445,25 @@
               "#": "27",
               "Player": {
                 "id": "27",
-                "playerName": "Vignesh,Prajeeth Balaji",
+                "playerName": "Veeragandham, Gowtham",
                 "gender": "male",
                 "href": "playercard.html#27",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "#": "28",
+              "Player": {
+                "id": "28",
+                "playerName": "Vignesh,Prajeeth Balaji",
+                "gender": "male",
+                "href": "playercard.html#28",
                 "title": "",
                 "federation": "OS",
                 "rating": "0",
@@ -794,7 +810,7 @@
             {
               "#": "24",
               "Title": "",
-              "Player": "Shayan,Ray",
+              "Player": "Mo, Christopher",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -804,7 +820,7 @@
             {
               "#": "25",
               "Title": "",
-              "Player": "Tan,Lucas",
+              "Player": "Shayan,Ray",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -814,7 +830,7 @@
             {
               "#": "26",
               "Title": "",
-              "Player": "Veeragandham, Gowtham",
+              "Player": "Tan,Lucas",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -823,6 +839,16 @@
             },
             {
               "#": "27",
+              "Title": "",
+              "Player": "Veeragandham, Gowtham",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "28",
               "Title": "",
               "Player": "Vignesh,Prajeeth Balaji",
               "Fed": "OS",
@@ -1149,10 +1175,10 @@
               "Result": "...",
               "Pts_1": "0",
               "Black Player": {
-                "id": "24",
+                "id": "25",
                 "playerName": "Shayan,Ray",
                 "gender": "male",
-                "href": "playercard.html#24",
+                "href": "playercard.html#25",
                 "title": "",
                 "federation": "VIC",
                 "rating": "0",
@@ -1163,10 +1189,10 @@
             {
               "Bo.": "10",
               "White Player": {
-                "id": "25",
+                "id": "26",
                 "playerName": "Tan,Lucas",
                 "gender": "male",
-                "href": "playercard.html#25",
+                "href": "playercard.html#26",
                 "title": "",
                 "federation": "VIC",
                 "rating": "0",
@@ -1205,10 +1231,10 @@
               "Result": "...",
               "Pts_1": "0",
               "Black Player": {
-                "id": "26",
+                "id": "27",
                 "playerName": "Veeragandham, Gowtham",
                 "gender": "male",
-                "href": "playercard.html#26",
+                "href": "playercard.html#27",
                 "title": "",
                 "federation": "VIC",
                 "rating": "0",
@@ -1219,10 +1245,10 @@
             {
               "Bo.": "12",
               "White Player": {
-                "id": "27",
+                "id": "28",
                 "playerName": "Vignesh,Prajeeth Balaji",
                 "gender": "male",
-                "href": "playercard.html#27",
+                "href": "playercard.html#28",
                 "title": "",
                 "federation": "OS",
                 "rating": "0",
@@ -1307,6 +1333,34 @@
                 "playerName": "Ganesh Kumar,Mukunth",
                 "gender": "male",
                 "href": "playercard.html#18",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "½",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "0",
+                "playerName": "BYE",
+                "gender": "male",
+                "href": "playercard.html#0",
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "16",
+              "White Player": {
+                "id": "24",
+                "playerName": "Mo, Christopher",
+                "gender": "male",
+                "href": "playercard.html#24",
                 "title": "",
                 "federation": "VIC",
                 "rating": "0",
@@ -2741,15 +2795,74 @@
             }
           ],
           "caption": {
-            "playerName": "Shayan,Ray",
+            "playerName": "Mo, Christopher",
             "id": "0",
             "moreInfo": {
               "K": "0",
               "Elo": "0",
               "anchor": "24"
             },
-            "rawText": "24   Shayan,Ray          , K= 0, Elo=   0, ID=0",
-            "rawHtml": "  24   <strong>Shayan,Ray          </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"24\"></a>"
+            "rawText": "24   Mo, Christopher     , K= 0, Elo=   0, ID=0",
+            "rawHtml": "  24   <strong>Mo, Christopher     </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"24\"></a>"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Shayan,Ray",
+            "id": "0",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "25"
+            },
+            "rawText": "25   Shayan,Ray          , K= 0, Elo=   0, ID=0",
+            "rawHtml": "  25   <strong>Shayan,Ray          </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"25\"></a>"
           }
         },
         {
@@ -2805,10 +2918,10 @@
             "moreInfo": {
               "K": "0",
               "Elo": "0",
-              "anchor": "25"
+              "anchor": "26"
             },
-            "rawText": "25   Tan,Lucas           , K= 0, Elo=   0, ID=3218654",
-            "rawHtml": "  25   <strong>Tan,Lucas           </strong>, K= 0, Elo=   0, ID=3218654\n<br>\n<a class=\"anchor\" name=\"25\"></a>"
+            "rawText": "26   Tan,Lucas           , K= 0, Elo=   0, ID=3218654",
+            "rawHtml": "  26   <strong>Tan,Lucas           </strong>, K= 0, Elo=   0, ID=3218654\n<br>\n<a class=\"anchor\" name=\"26\"></a>"
           }
         },
         {
@@ -2864,10 +2977,10 @@
             "moreInfo": {
               "K": "0",
               "Elo": "0",
-              "anchor": "26"
+              "anchor": "27"
             },
-            "rawText": "26   Veeragandham, Gowtha, K= 0, Elo=   0, ID=0",
-            "rawHtml": "  26   <strong>Veeragandham, Gowtha</strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"26\"></a>"
+            "rawText": "27   Veeragandham, Gowtha, K= 0, Elo=   0, ID=0",
+            "rawHtml": "  27   <strong>Veeragandham, Gowtha</strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"27\"></a>"
           }
         },
         {
@@ -2923,10 +3036,10 @@
             "moreInfo": {
               "K": "0",
               "Elo": "0",
-              "anchor": "27"
+              "anchor": "28"
             },
-            "rawText": "27   Vignesh,Prajeeth Bal, K= 0, Elo=   0, ID=0014614",
-            "rawHtml": "  27   <strong>Vignesh,Prajeeth Bal</strong>, K= 0, Elo=   0, ID=0014614\n<br>\n<a class=\"anchor\" name=\"27\"></a>"
+            "rawText": "28   Vignesh,Prajeeth Bal, K= 0, Elo=   0, ID=0014614",
+            "rawHtml": "  28   <strong>Vignesh,Prajeeth Bal</strong>, K= 0, Elo=   0, ID=0014614\n<br>\n<a class=\"anchor\" name=\"28\"></a>"
           }
         }
       ]
@@ -3465,7 +3578,7 @@
               "Pos": "24",
               "Player": {
                 "id": "24",
-                "playerName": "Shayan,Ray",
+                "playerName": "Mo, Christopher",
                 "gender": "male",
                 "href": "playercard.html#24",
                 "title": "",
@@ -3484,7 +3597,7 @@
               "Pos": "25",
               "Player": {
                 "id": "25",
-                "playerName": "Tan,Lucas",
+                "playerName": "Shayan,Ray",
                 "gender": "male",
                 "href": "playercard.html#25",
                 "title": "",
@@ -3503,7 +3616,7 @@
               "Pos": "26",
               "Player": {
                 "id": "26",
-                "playerName": "Veeragandham, Gowtham",
+                "playerName": "Tan,Lucas",
                 "gender": "male",
                 "href": "playercard.html#26",
                 "title": "",
@@ -3522,9 +3635,28 @@
               "Pos": "27",
               "Player": {
                 "id": "27",
-                "playerName": "Vignesh,Prajeeth Balaji",
+                "playerName": "Veeragandham, Gowtham",
                 "gender": "male",
                 "href": "playercard.html#27",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "28",
+              "Player": {
+                "id": "28",
+                "playerName": "Vignesh,Prajeeth Balaji",
+                "gender": "male",
+                "href": "playercard.html#28",
                 "title": "",
                 "federation": "OS",
                 "rating": "0",
@@ -3593,7 +3725,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "27"
+              "col2": "28"
             },
             {
               "col1": "Number of Federations",
@@ -3601,7 +3733,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "634"
+              "col2": "612"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -3613,7 +3745,7 @@
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "15"
+              "col2": "16"
             },
             {
               "col1": "FIDE rated players",
@@ -3621,7 +3753,7 @@
             },
             {
               "col1": "unrated players",
-              "col2": "16"
+              "col2": "17"
             },
             {
               "col1": "unrated players from AUS Federation",
@@ -3629,7 +3761,7 @@
             },
             {
               "col1": "unrated players NOT from AUS Federation",
-              "col2": "15"
+              "col2": "16"
             },
             {
               "col1": "unrated Federations",
@@ -3951,7 +4083,7 @@
     },
     "24": {
       "id": "24",
-      "playerName": "Shayan,Ray",
+      "playerName": "Mo, Christopher",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -3962,7 +4094,7 @@
     },
     "25": {
       "id": "25",
-      "playerName": "Tan,Lucas",
+      "playerName": "Shayan,Ray",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -3973,7 +4105,7 @@
     },
     "26": {
       "id": "26",
-      "playerName": "Veeragandham, Gowtham",
+      "playerName": "Tan,Lucas",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -3984,13 +4116,24 @@
     },
     "27": {
       "id": "27",
+      "playerName": "Veeragandham, Gowtham",
+      "title": "",
+      "federation": "VIC",
+      "rating": "0",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#27",
+      "moreInfo": {}
+    },
+    "28": {
+      "id": "28",
       "playerName": "Vignesh,Prajeeth Balaji",
       "title": "",
       "federation": "OS",
       "rating": "0",
       "gender": "male",
       "fideId": "",
-      "href": "playercard.html#27",
+      "href": "playercard.html#28",
       "moreInfo": {}
     }
   },
@@ -4337,7 +4480,7 @@
     {
       "#": "24",
       "Title": "",
-      "Player": "Shayan,Ray",
+      "Player": "Mo, Christopher",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -4347,7 +4490,7 @@
     {
       "#": "25",
       "Title": "",
-      "Player": "Tan,Lucas",
+      "Player": "Shayan,Ray",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -4357,7 +4500,7 @@
     {
       "#": "26",
       "Title": "",
-      "Player": "Veeragandham, Gowtham",
+      "Player": "Tan,Lucas",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -4366,6 +4509,16 @@
     },
     {
       "#": "27",
+      "Title": "",
+      "Player": "Veeragandham, Gowtham",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "28",
       "Title": "",
       "Player": "Vignesh,Prajeeth Balaji",
       "Fed": "OS",
@@ -4387,16 +4540,16 @@
     "Rounds": "7",
     "Score game": "0-0.5-1",
     "Tie break": "BH BH/C1 SB",
-    "Registered Players": "27",
+    "Registered Players": "28",
     "Number of Federations": "3",
-    "Average Rating (all)": "634",
+    "Average Rating (all)": "612",
     "Average Rating (only FIDE rated)": "1488",
     "Players from AUS Federation": "12",
-    "Players NOT from AUS Federation": "15",
+    "Players NOT from AUS Federation": "16",
     "FIDE rated players": "11",
-    "unrated players": "16",
+    "unrated players": "17",
     "unrated players from AUS Federation": "1",
-    "unrated players NOT from AUS Federation": "15",
+    "unrated players NOT from AUS Federation": "16",
     "unrated Federations": "2",
     "FIDE titled players": "0",
     "GM players": "0",
@@ -4411,5 +4564,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "d7afdacf35be9c2087d8b27a6109e159"
+  "md5Hash": "1ad8ad62793224fa5092fe26fd62bf08"
 }
