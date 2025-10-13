@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-13T11:09:48.387Z",
+  "generatedAt": "2025-10-13T11:30:55.916Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 1",
@@ -25,7 +25,11 @@
           ],
           "rows": [
             {
-              "1": "",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "#": "1",
               "Player": {
                 "id": "1",
@@ -249,7 +253,11 @@
               "Pts": "0.0"
             },
             {
-              "1": "",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "#": "15",
               "Player": {
                 "id": "15",
@@ -281,7 +289,11 @@
               "Pts": "0.0"
             },
             {
-              "1": "",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "#": "17",
               "Player": {
                 "id": "17",
@@ -1299,7 +1311,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "0.5",
               "Pts": "0.0"
             }
           ],
@@ -2125,7 +2137,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "0.5",
               "Pts": "0.0"
             }
           ],
@@ -2243,7 +2255,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "0.5",
               "Pts": "0.0"
             }
           ],
@@ -3333,7 +3345,7 @@
             },
             {
               "col1": "Date End",
-              "col2": "09/12/2025"
+              "col2": "02/12/2025"
             },
             {
               "col1": "Arbiter(s)",
@@ -4103,7 +4115,7 @@
     "Place": "Hobsons Bay",
     "Federation": "AUS",
     "Date Begin": "14/10/2025",
-    "Date End": "09/12/2025",
+    "Date End": "02/12/2025",
     "Arbiter(s)": "IA Goh, Casey (AUS) (SI,LSI) 3251098 (VIC)",
     "Play System": "swiss FIDE Dutch (JaVaFo)",
     "Rounds": "7",
@@ -4133,5 +4145,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "a97e36b5cd62589529efc1ece92afb91"
+  "md5Hash": "ea3044d7293e3aea3332865bdeb3bd07"
 }

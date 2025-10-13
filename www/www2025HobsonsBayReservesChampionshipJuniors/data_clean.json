@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-13T11:09:48.439Z",
+  "generatedAt": "2025-10-13T11:30:55.976Z",
   "tournament": {
     "id": "2025-hobsons-bay-reserves-championship-juniors",
     "name": "2025 Hobsons Bay Reserves Championship Juniors",
@@ -9,7 +9,7 @@
       "Place": "Hobsons Bay",
       "Federation": "AUS",
       "Date Begin": "14/10/2025",
-      "Date End": "09/12/2025",
+      "Date End": "02/12/2025",
       "Arbiter(s)": "IA Goh, Casey (AUS) (SI,LSI) 3251098 (VIC)",
       "Play System": "swiss FIDE Dutch (JaVaFo)",
       "Rounds": "7",
@@ -41,7 +41,7 @@
       "tournamentName": "2025 Hobsons Bay Reserves Championship Juniors",
       "federation": "AUS",
       "dateBegin": "14/10/2025",
-      "dateEnd": "09/12/2025",
+      "dateEnd": "02/12/2025",
       "arbiters": "IA Goh, Casey (AUS) (SI,LSI) 3251098 (VIC)",
       "playSystem": "swiss FIDE Dutch (JaVaFo)",
       "rounds": 7,
@@ -394,7 +394,11 @@
           ],
           "rows": [
             {
-              "1": "",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "#": "1",
               "Player": "1",
               "Pts": "0.0"
@@ -478,7 +482,11 @@
               "Pts": "0.0"
             },
             {
-              "1": "",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "#": "15",
               "Player": "15",
               "Pts": "0.0"
@@ -490,7 +498,11 @@
               "Pts": "0.0"
             },
             {
-              "1": "",
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "#": "17",
               "Player": "17",
               "Pts": "0.0"
@@ -1143,7 +1155,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "0.5",
               "Pts": "0.0"
             }
           ],
@@ -1983,7 +1995,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "0.5",
               "Pts": "0.0"
             }
           ],
@@ -2103,7 +2115,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "0.5",
               "Pts": "0.0"
             }
           ],
@@ -2954,7 +2966,7 @@
             },
             {
               "col1": "Date End",
-              "col2": "09/12/2025"
+              "col2": "02/12/2025"
             },
             {
               "col1": "Arbiter(s)",
@@ -3179,5 +3191,5 @@
       ]
     }
   ],
-  "md5Hash": "345e29d8af9309cc4d277fe0de8f9ca7"
+  "md5Hash": "0ac0b84c2e0f03621d2bdc573f3735e5"
 }
