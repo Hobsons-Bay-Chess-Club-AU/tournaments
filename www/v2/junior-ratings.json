@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2025-10-11T08:30:24.339Z",
+  "generatedAt": "2025-10-12T11:05:34.124Z",
   "year": "2025",
-  "count": 68,
+  "count": 76,
   "totalTournaments": 30,
   "players": [
     {
@@ -225,59 +225,31 @@
       "acfId": ""
     },
     {
-      "name": "Ashok,Arjun",
-      "id": "13",
+      "name": "Ashok, Arjun",
+      "id": "7",
       "fideId": "3275108",
       "gender": "male",
-      "href": "playercard.html#13",
-      "tournamentCount": 6,
+      "href": "playercard.html#7",
+      "tournamentCount": 2,
       "tournaments": [
         {
-          "tournament": "www2025HBCCHonourableBobJuniors/data.json",
-          "score": 3,
-          "name": "2025 HBCC Honourable Bob Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
-          "score": 4,
-          "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
+          "tournament": "www2025HobsonsBayCupJuniors/data.json",
+          "score": 5,
+          "name": "2025 Hobsons Bay Cup Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
         },
         {
-          "tournament": "www2025HobsonsBayPurdyCupJuniors/data.json",
-          "score": 3,
-          "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBayWesternJuniors/data.json",
-          "score": 4,
-          "name": "2025 Hobsons Bay Western Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
-          "score": 4.5,
-          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "tournament": "www2025HobsonsBayJuniorClubChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Junior Club Championship",
           "totalRounds": "7",
-          "ratingType": "rapid"
-        },
-        {
-          "tournament": "www2025WesternJuniors/data.json",
-          "score": 2,
-          "name": "2025 Hobsons Bay Western Juniors",
-          "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 16,
-        "rapid": 4.5,
+        "standard": 5,
+        "rapid": 0,
         "blitz": 0
       },
       "title": "",
@@ -290,66 +262,31 @@
       "acfId": "3204632"
     },
     {
-      "name": "Balaji,Sai Sivesh",
-      "id": "17",
+      "name": "Balaji, Sai Sivesh",
+      "id": "10",
       "fideId": "3286258",
       "gender": "male",
-      "href": "playercard.html#17",
-      "tournamentCount": 7,
+      "href": "playercard.html#10",
+      "tournamentCount": 2,
       "tournaments": [
         {
-          "tournament": "www2025HBCCHonourableBobJuniors/data.json",
-          "score": 3,
-          "name": "2025 HBCC Honourable Bob Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
-          "score": 5.5,
-          "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
-          "totalRounds": "7",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBayPurdyCupJuniors/data.json",
-          "score": 3,
-          "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
-          "score": 3,
-          "name": "2025 Hobsons Bay September Rapid",
-          "totalRounds": "5",
-          "ratingType": "rapid"
-        },
-        {
-          "tournament": "www2025HobsonsBayWesternJuniors/data.json",
+          "tournament": "www2025HobsonsBayCupJuniors/data.json",
           "score": 4,
-          "name": "2025 Hobsons Bay Western Juniors",
-          "totalRounds": "5",
+          "name": "2025 Hobsons Bay Cup Juniors",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
-          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
-          "score": 4.5,
-          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "tournament": "www2025HobsonsBayJuniorClubChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Junior Club Championship",
           "totalRounds": "7",
-          "ratingType": "rapid"
-        },
-        {
-          "tournament": "www2025WesternJuniors/data.json",
-          "score": 2,
-          "name": "2025 Hobsons Bay Western Juniors",
-          "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 17.5,
-        "rapid": 7.5,
+        "standard": 4,
+        "rapid": 0,
         "blitz": 0
       },
       "title": "",
@@ -434,59 +371,31 @@
       "acfId": "3212435"
     },
     {
-      "name": "Batyrbekov,Aidan",
-      "id": "15",
+      "name": "Batyrbekov, Aidan",
+      "id": "9",
       "fideId": "3265439",
       "gender": "male",
-      "href": "playercard.html#15",
-      "tournamentCount": 6,
+      "href": "playercard.html#9",
+      "tournamentCount": 2,
       "tournaments": [
         {
-          "tournament": "www2025HBCCHonourableBobJuniors/data.json",
-          "score": 3,
-          "name": "2025 HBCC Honourable Bob Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
-          "score": 4,
-          "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
-          "totalRounds": "7",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBayPurdyCupJuniors/data.json",
-          "score": 3,
-          "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBayWesternJuniors/data.json",
-          "score": 2.5,
-          "name": "2025 Hobsons Bay Western Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
+          "tournament": "www2025HobsonsBayCupJuniors/data.json",
           "score": 4.5,
-          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "name": "2025 Hobsons Bay Cup Juniors",
           "totalRounds": "7",
-          "ratingType": "rapid"
+          "ratingType": "standard"
         },
         {
-          "tournament": "www2025WesternJuniors/data.json",
-          "score": 1.5,
-          "name": "2025 Hobsons Bay Western Juniors",
-          "totalRounds": "5",
+          "tournament": "www2025HobsonsBayJuniorClubChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Junior Club Championship",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 14,
-        "rapid": 4.5,
+        "standard": 4.5,
+        "rapid": 0,
         "blitz": 0
       },
       "title": "",
@@ -499,59 +408,31 @@
       "acfId": "3203840"
     },
     {
-      "name": "Batyrbekov,Kaisar",
-      "id": "18",
+      "name": "Batyrbekov, Kaisar",
+      "id": "4",
       "fideId": "3265447",
       "gender": "male",
-      "href": "playercard.html#18",
-      "tournamentCount": 6,
+      "href": "playercard.html#4",
+      "tournamentCount": 2,
       "tournaments": [
         {
-          "tournament": "www2025HBCCHonourableBobJuniors/data.json",
-          "score": 4,
-          "name": "2025 HBCC Honourable Bob Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
-          "score": 5,
-          "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
+          "tournament": "www2025HobsonsBayCupJuniors/data.json",
+          "score": 7,
+          "name": "2025 Hobsons Bay Cup Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
         },
         {
-          "tournament": "www2025HobsonsBayPurdyCupJuniors/data.json",
-          "score": 3,
-          "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBayWesternJuniors/data.json",
-          "score": 3.5,
-          "name": "2025 Hobsons Bay Western Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
-          "score": 5,
-          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "tournament": "www2025HobsonsBayJuniorClubChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Junior Club Championship",
           "totalRounds": "7",
-          "ratingType": "rapid"
-        },
-        {
-          "tournament": "www2025WesternJuniors/data.json",
-          "score": 0.5,
-          "name": "2025 Hobsons Bay Western Juniors",
-          "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 16,
-        "rapid": 5,
+        "standard": 7,
+        "rapid": 0,
         "blitz": 0
       },
       "title": "",
@@ -1232,59 +1113,31 @@
       "acfId": "3195311"
     },
     {
-      "name": "Huang,Michael",
+      "name": "Huang, Michael",
       "id": "12",
       "fideId": "3286320",
       "gender": "male",
       "href": "playercard.html#12",
-      "tournamentCount": 6,
+      "tournamentCount": 2,
       "tournaments": [
         {
-          "tournament": "www2025HBCCHonourableBobJuniors/data.json",
-          "score": 3,
-          "name": "2025 HBCC Honourable Bob Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
-          "score": 4,
-          "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
+          "tournament": "www2025HobsonsBayCupJuniors/data.json",
+          "score": 5.5,
+          "name": "2025 Hobsons Bay Cup Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
         },
         {
-          "tournament": "www2025HobsonsBayPurdyCupJuniors/data.json",
-          "score": 3,
-          "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
-          "score": 3,
-          "name": "2025 Hobsons Bay September Rapid",
-          "totalRounds": "5",
-          "ratingType": "rapid"
-        },
-        {
-          "tournament": "www2025HobsonsBayWesternJuniors/data.json",
-          "score": 3.5,
-          "name": "2025 Hobsons Bay Western Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025WesternJuniors/data.json",
-          "score": 1,
-          "name": "2025 Hobsons Bay Western Juniors",
-          "totalRounds": "5",
+          "tournament": "www2025HobsonsBayJuniorClubChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Junior Club Championship",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 14.5,
-        "rapid": 3,
+        "standard": 5.5,
+        "rapid": 0,
         "blitz": 0
       },
       "title": "",
@@ -2166,59 +2019,31 @@
       "acfId": "3211256"
     },
     {
-      "name": "Nema,Nivaan",
-      "id": "39",
+      "name": "Nema, Nivaan",
+      "id": "32",
       "fideId": "3289923",
       "gender": "male",
-      "href": "playercard.html#39",
-      "tournamentCount": 6,
+      "href": "playercard.html#32",
+      "tournamentCount": 2,
       "tournaments": [
         {
-          "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
-          "score": 5,
-          "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
-          "totalRounds": "7",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBayPurdyCupJuniors/data.json",
-          "score": 2,
-          "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
-          "score": 3,
-          "name": "2025 Hobsons Bay September Rapid",
-          "totalRounds": "5",
-          "ratingType": "rapid"
-        },
-        {
-          "tournament": "www2025HobsonsBayWesternMini&RookiesJuniors/data.json",
+          "tournament": "www2025HobsonsBayCupJuniors/data.json",
           "score": 4,
-          "name": "2025 Hobsons Bay Western Mini And Rookies Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBayWesternMiniAndRookiesJuniors/data.json",
-          "score": 1,
-          "name": "2025 Hobsons Bay Western Mini And Rookies Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
-          "score": 3.5,
-          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "name": "2025 Hobsons Bay Cup Juniors",
           "totalRounds": "7",
-          "ratingType": "rapid"
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorClubChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Junior Club Championship",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 12,
-        "rapid": 6.5,
+        "standard": 4,
+        "rapid": 0,
         "blitz": 0
       },
       "title": "",
@@ -2590,66 +2415,31 @@
       "acfId": "3216145"
     },
     {
-      "name": "Ruaya,Rohan",
-      "id": "21",
+      "name": "Ruaya, Rohan",
+      "id": "11",
       "fideId": "3281345",
       "gender": "male",
-      "href": "playercard.html#21",
-      "tournamentCount": 7,
+      "href": "playercard.html#11",
+      "tournamentCount": 2,
       "tournaments": [
         {
-          "tournament": "www2025HBCCHonourableBobJuniors/data.json",
-          "score": 2,
-          "name": "2025 HBCC Honourable Bob Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
-          "score": 4.5,
-          "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
+          "tournament": "www2025HobsonsBayCupJuniors/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Cup Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
         },
         {
-          "tournament": "www2025HobsonsBayPurdyCupJuniors/data.json",
-          "score": 3.5,
-          "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
-          "score": 2,
-          "name": "2025 Hobsons Bay September Rapid",
-          "totalRounds": "5",
-          "ratingType": "rapid"
-        },
-        {
-          "tournament": "www2025HobsonsBayWesternJuniors/data.json",
-          "score": 2,
-          "name": "2025 Hobsons Bay Western Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
-          "score": 4,
-          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "tournament": "www2025HobsonsBayJuniorClubChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Junior Club Championship",
           "totalRounds": "7",
-          "ratingType": "rapid"
-        },
-        {
-          "tournament": "www2025WesternJuniors/data.json",
-          "score": 1,
-          "name": "2025 Hobsons Bay Western Juniors",
-          "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 13,
-        "rapid": 6,
+        "standard": 0,
+        "rapid": 0,
         "blitz": 0
       },
       "title": "",
@@ -3216,59 +3006,31 @@
       "acfId": "3219085"
     },
     {
-      "name": "Wei,Andrew",
-      "id": "11",
+      "name": "Wei, Andrew",
+      "id": "6",
       "fideId": "3265277",
       "gender": "male",
-      "href": "playercard.html#11",
-      "tournamentCount": 6,
+      "href": "playercard.html#6",
+      "tournamentCount": 2,
       "tournaments": [
         {
-          "tournament": "www2025HBCCHonourableBobJuniors/data.json",
-          "score": 3,
-          "name": "2025 HBCC Honourable Bob Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
-          "score": 5.5,
-          "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
+          "tournament": "www2025HobsonsBayCupJuniors/data.json",
+          "score": 5,
+          "name": "2025 Hobsons Bay Cup Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
         },
         {
-          "tournament": "www2025HobsonsBayPurdyCupJuniors/data.json",
-          "score": 1.5,
-          "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
-          "score": 3.5,
-          "name": "2025 Hobsons Bay September Rapid",
-          "totalRounds": "5",
-          "ratingType": "rapid"
-        },
-        {
-          "tournament": "www2025HobsonsBayWesternJuniors/data.json",
-          "score": 2.5,
-          "name": "2025 Hobsons Bay Western Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2025WesternJuniors/data.json",
-          "score": 1,
-          "name": "2025 Hobsons Bay Western Juniors",
-          "totalRounds": "5",
+          "tournament": "www2025HobsonsBayJuniorClubChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Junior Club Championship",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 13.5,
-        "rapid": 3.5,
+        "standard": 5,
+        "rapid": 0,
         "blitz": 0
       },
       "title": "",

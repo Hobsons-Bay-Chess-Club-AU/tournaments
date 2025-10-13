@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2025-10-10T21:55:38.070Z",
+  "generatedAt": "2025-10-13T08:25:51.868Z",
   "page": {
     "felovar.html": {
-      "pageHeading": "FIDE rating variation at round 0",
+      "pageHeading": "FIDE rating variation at round 1",
       "tables": [
         {
           "headers": [
@@ -105,12 +105,12 @@
             {
               "#": "1",
               "Title": "",
-              "Player": "Jagannathan,Shashvath",
+              "Player": "Verma,Vivaan",
               "Fed": "AUS",
               "Origin": "",
-              "Rtg": "859",
-              "RtgF": "1504",
-              "RtgN": "859"
+              "Rtg": "983",
+              "RtgF": "1533",
+              "RtgN": "983"
             },
             {
               "#": "2",
@@ -135,6 +135,16 @@
             {
               "#": "4",
               "Title": "",
+              "Player": "Jyothi Nikhil,Neev",
+              "Fed": "AUS",
+              "Origin": "",
+              "Rtg": "744",
+              "RtgF": "1514",
+              "RtgN": "744"
+            },
+            {
+              "#": "5",
+              "Title": "",
               "Player": "Vemula,Thamoghna",
               "Fed": "AUS",
               "Origin": "",
@@ -143,7 +153,17 @@
               "RtgN": "685"
             },
             {
-              "#": "5",
+              "#": "6",
+              "Title": "",
+              "Player": "Yendru,Sriram",
+              "Fed": "AUS",
+              "Origin": "",
+              "Rtg": "619",
+              "RtgF": "1457",
+              "RtgN": "619"
+            },
+            {
+              "#": "7",
               "Title": "",
               "Player": "Manoj,Dev",
               "Fed": "AUS",
@@ -153,7 +173,7 @@
               "RtgN": "542"
             },
             {
-              "#": "6",
+              "#": "8",
               "Title": "",
               "Player": "Shaiek,Nihal",
               "Fed": "AUS",
@@ -163,7 +183,17 @@
               "RtgN": "539"
             },
             {
-              "#": "7",
+              "#": "9",
+              "Title": "",
+              "Player": "Goh,Nicholas",
+              "Fed": "AUS",
+              "Origin": "",
+              "Rtg": "516",
+              "RtgF": "1465",
+              "RtgN": "516"
+            },
+            {
+              "#": "10",
               "Title": "",
               "Player": "Gadham,Aarya Subramanya",
               "Fed": "VIC",
@@ -173,7 +203,17 @@
               "RtgN": "425"
             },
             {
-              "#": "8",
+              "#": "11",
+              "Title": "",
+              "Player": "Das,Ayush",
+              "Fed": "AUS",
+              "Origin": "",
+              "Rtg": "245",
+              "RtgF": "1435",
+              "RtgN": "245"
+            },
+            {
+              "#": "12",
               "Title": "",
               "Player": "Bodke,Aryan",
               "Fed": "VIC",
@@ -183,7 +223,7 @@
               "RtgN": "130"
             },
             {
-              "#": "9",
+              "#": "13",
               "Title": "",
               "Player": "Goh,Julian",
               "Fed": "VIC",
@@ -193,7 +233,7 @@
               "RtgN": "103"
             },
             {
-              "#": "10",
+              "#": "14",
               "Title": "",
               "Player": "Kantharaju,Aryan",
               "Fed": "VIC",
@@ -203,49 +243,9 @@
               "RtgN": "100"
             },
             {
-              "#": "11",
-              "Title": "",
-              "Player": "Dash,Dibya",
-              "Fed": "VIC",
-              "Origin": "",
-              "Rtg": "0",
-              "RtgF": "0",
-              "RtgN": "0"
-            },
-            {
-              "#": "12",
-              "Title": "",
-              "Player": "Ganesh Kumar,Mukunth",
-              "Fed": "VIC",
-              "Origin": "",
-              "Rtg": "0",
-              "RtgF": "0",
-              "RtgN": "0"
-            },
-            {
-              "#": "13",
-              "Title": "",
-              "Player": "Goh,Daphne",
-              "Fed": "VIC",
-              "Origin": "",
-              "Rtg": "0",
-              "RtgF": "0",
-              "RtgN": "0"
-            },
-            {
-              "#": "14",
-              "Title": "",
-              "Player": "Kwek,Alexander",
-              "Fed": "VIC",
-              "Origin": "",
-              "Rtg": "0",
-              "RtgF": "0",
-              "RtgN": "0"
-            },
-            {
               "#": "15",
               "Title": "",
-              "Player": "Shayan,Ray",
+              "Player": "Chawla, Namish",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -255,7 +255,7 @@
             {
               "#": "16",
               "Title": "",
-              "Player": "Tan,Lucas",
+              "Player": "Dash,Dibya",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -264,6 +264,86 @@
             },
             {
               "#": "17",
+              "Title": "",
+              "Player": "Ganesh Kumar,Mukunth",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "18",
+              "Title": "",
+              "Player": "Goh,Daphne",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "19",
+              "Title": "",
+              "Player": "Kwek,Alexander",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "20",
+              "Title": "",
+              "Player": "Madduluri,Advaitha",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "21",
+              "Title": "",
+              "Player": "Mallajosyula, Srivaths",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "22",
+              "Title": "",
+              "Player": "Shayan,Ray",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "23",
+              "Title": "",
+              "Player": "Tan,Lucas",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "24",
+              "Title": "",
+              "Player": "Veeragandham, Gowtham",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "25",
               "Title": "",
               "Player": "Vignesh,Prajeeth Balaji",
               "Fed": "OS",
@@ -281,42 +361,412 @@
       ]
     },
     "nelovar.html": {
-      "pageHeading": "National rating at round 0",
-      "tables": [
-        {
-          "headers": [
-            {
-              "name": "N",
-              "key": "N"
-            },
-            {
-              "name": "Name",
-              "key": "Name"
-            },
-            {
-              "name": "K",
-              "key": "K"
-            },
-            {
-              "name": "Elo",
-              "key": "Elo"
-            },
-            {
-              "name": "Var",
-              "key": "Var"
-            },
-            {
-              "name": "Per",
-              "key": "Per"
-            }
-          ],
-          "rows": []
-        }
-      ]
+      "pageHeading": "",
+      "tables": []
     },
     "pairing.html": {
       "pageHeading": "",
       "tables": []
+    },
+    "pairs1.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "White Player": {
+                "id": "2",
+                "playerName": "Kaur,Mishleen",
+                "gender": "female",
+                "href": "playercard.html#2",
+                "title": "",
+                "federation": "AUS",
+                "rating": "800",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "14",
+                "playerName": "Kantharaju,Aryan",
+                "gender": "male",
+                "href": "playercard.html#14",
+                "title": "",
+                "federation": "VIC",
+                "rating": "100",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "2",
+              "White Player": {
+                "id": "15",
+                "playerName": "Chawla, Namish",
+                "gender": "female",
+                "href": "playercard.html#15",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "3",
+                "playerName": "Guggilla,Krithvik",
+                "gender": "male",
+                "href": "playercard.html#3",
+                "title": "",
+                "federation": "AUS",
+                "rating": "782",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "3",
+              "White Player": {
+                "id": "4",
+                "playerName": "Jyothi Nikhil,Neev",
+                "gender": "male",
+                "href": "playercard.html#4",
+                "title": "",
+                "federation": "AUS",
+                "rating": "744",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "16",
+                "playerName": "Dash,Dibya",
+                "gender": "male",
+                "href": "playercard.html#16",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "4",
+              "White Player": {
+                "id": "17",
+                "playerName": "Ganesh Kumar,Mukunth",
+                "gender": "male",
+                "href": "playercard.html#17",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "5",
+                "playerName": "Vemula,Thamoghna",
+                "gender": "male",
+                "href": "playercard.html#5",
+                "title": "",
+                "federation": "AUS",
+                "rating": "685",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "5",
+              "White Player": {
+                "id": "6",
+                "playerName": "Yendru,Sriram",
+                "gender": "male",
+                "href": "playercard.html#6",
+                "title": "",
+                "federation": "AUS",
+                "rating": "619",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "18",
+                "playerName": "Goh,Daphne",
+                "gender": "female",
+                "href": "playercard.html#18",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "6",
+              "White Player": {
+                "id": "19",
+                "playerName": "Kwek,Alexander",
+                "gender": "male",
+                "href": "playercard.html#19",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "7",
+                "playerName": "Manoj,Dev",
+                "gender": "male",
+                "href": "playercard.html#7",
+                "title": "",
+                "federation": "AUS",
+                "rating": "542",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "7",
+              "White Player": {
+                "id": "8",
+                "playerName": "Shaiek,Nihal",
+                "gender": "male",
+                "href": "playercard.html#8",
+                "title": "",
+                "federation": "AUS",
+                "rating": "539",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "20",
+                "playerName": "Madduluri,Advaitha",
+                "gender": "female",
+                "href": "playercard.html#20",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "8",
+              "White Player": {
+                "id": "21",
+                "playerName": "Mallajosyula, Srivaths",
+                "gender": "male",
+                "href": "playercard.html#21",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "9",
+                "playerName": "Goh,Nicholas",
+                "gender": "male",
+                "href": "playercard.html#9",
+                "title": "",
+                "federation": "AUS",
+                "rating": "516",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "9",
+              "White Player": {
+                "id": "10",
+                "playerName": "Gadham,Aarya Subramanya",
+                "gender": "male",
+                "href": "playercard.html#10",
+                "title": "",
+                "federation": "VIC",
+                "rating": "425",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "22",
+                "playerName": "Shayan,Ray",
+                "gender": "male",
+                "href": "playercard.html#22",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "10",
+              "White Player": {
+                "id": "23",
+                "playerName": "Tan,Lucas",
+                "gender": "male",
+                "href": "playercard.html#23",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "11",
+                "playerName": "Das,Ayush",
+                "gender": "male",
+                "href": "playercard.html#11",
+                "title": "",
+                "federation": "AUS",
+                "rating": "245",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "11",
+              "White Player": {
+                "id": "12",
+                "playerName": "Bodke,Aryan",
+                "gender": "male",
+                "href": "playercard.html#12",
+                "title": "",
+                "federation": "VIC",
+                "rating": "130",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "24",
+                "playerName": "Veeragandham, Gowtham",
+                "gender": "male",
+                "href": "playercard.html#24",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "12",
+              "White Player": {
+                "id": "25",
+                "playerName": "Vignesh,Prajeeth Balaji",
+                "gender": "male",
+                "href": "playercard.html#25",
+                "title": "",
+                "federation": "OS",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "13",
+                "playerName": "Goh,Julian",
+                "gender": "male",
+                "href": "playercard.html#13",
+                "title": "",
+                "federation": "VIC",
+                "rating": "103",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "13",
+              "White Player": {
+                "id": "1",
+                "playerName": "Verma,Vivaan",
+                "gender": "female",
+                "href": "playercard.html#1",
+                "title": "",
+                "federation": "AUS",
+                "rating": "983",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "½",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "0",
+                "playerName": "BYE",
+                "gender": "male",
+                "href": "playercard.html#0",
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            }
+          ]
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 1, at 17:30 of 14/10/2025"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -1197,6 +1647,524 @@
         }
       ]
     },
+    "standings.html": {
+      "pageHeading": "Standings at round 0",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Pos",
+              "key": "Pos"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "BH",
+              "key": "BH"
+            },
+            {
+              "name": "BH/C1",
+              "key": "BH/C1"
+            },
+            {
+              "name": "SB",
+              "key": "SB"
+            }
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Player": {
+                "id": "1",
+                "playerName": "Verma,Vivaan",
+                "gender": "female",
+                "href": "playercard.html#1",
+                "title": "",
+                "federation": "AUS",
+                "rating": "983",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "2",
+              "Player": {
+                "id": "2",
+                "playerName": "Kaur,Mishleen",
+                "gender": "female",
+                "href": "playercard.html#2",
+                "title": "",
+                "federation": "AUS",
+                "rating": "800",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "3",
+              "Player": {
+                "id": "3",
+                "playerName": "Guggilla,Krithvik",
+                "gender": "male",
+                "href": "playercard.html#3",
+                "title": "",
+                "federation": "AUS",
+                "rating": "782",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "4",
+              "Player": {
+                "id": "4",
+                "playerName": "Jyothi Nikhil,Neev",
+                "gender": "male",
+                "href": "playercard.html#4",
+                "title": "",
+                "federation": "AUS",
+                "rating": "744",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "5",
+              "Player": {
+                "id": "5",
+                "playerName": "Vemula,Thamoghna",
+                "gender": "male",
+                "href": "playercard.html#5",
+                "title": "",
+                "federation": "AUS",
+                "rating": "685",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "6",
+              "Player": {
+                "id": "6",
+                "playerName": "Yendru,Sriram",
+                "gender": "male",
+                "href": "playercard.html#6",
+                "title": "",
+                "federation": "AUS",
+                "rating": "619",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "7",
+              "Player": {
+                "id": "7",
+                "playerName": "Manoj,Dev",
+                "gender": "male",
+                "href": "playercard.html#7",
+                "title": "",
+                "federation": "AUS",
+                "rating": "542",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "8",
+              "Player": {
+                "id": "8",
+                "playerName": "Shaiek,Nihal",
+                "gender": "male",
+                "href": "playercard.html#8",
+                "title": "",
+                "federation": "AUS",
+                "rating": "539",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "9",
+              "Player": {
+                "id": "9",
+                "playerName": "Goh,Nicholas",
+                "gender": "male",
+                "href": "playercard.html#9",
+                "title": "",
+                "federation": "AUS",
+                "rating": "516",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "10",
+              "Player": {
+                "id": "10",
+                "playerName": "Gadham,Aarya Subramanya",
+                "gender": "male",
+                "href": "playercard.html#10",
+                "title": "",
+                "federation": "VIC",
+                "rating": "425",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "11",
+              "Player": {
+                "id": "11",
+                "playerName": "Das,Ayush",
+                "gender": "male",
+                "href": "playercard.html#11",
+                "title": "",
+                "federation": "AUS",
+                "rating": "245",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "12",
+              "Player": {
+                "id": "12",
+                "playerName": "Bodke,Aryan",
+                "gender": "male",
+                "href": "playercard.html#12",
+                "title": "",
+                "federation": "VIC",
+                "rating": "130",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "13",
+              "Player": {
+                "id": "13",
+                "playerName": "Goh,Julian",
+                "gender": "male",
+                "href": "playercard.html#13",
+                "title": "",
+                "federation": "VIC",
+                "rating": "103",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "14",
+              "Player": {
+                "id": "14",
+                "playerName": "Kantharaju,Aryan",
+                "gender": "male",
+                "href": "playercard.html#14",
+                "title": "",
+                "federation": "VIC",
+                "rating": "100",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "15",
+              "Player": {
+                "id": "15",
+                "playerName": "Chawla, Namish",
+                "gender": "female",
+                "href": "playercard.html#15",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "16",
+              "Player": {
+                "id": "16",
+                "playerName": "Dash,Dibya",
+                "gender": "male",
+                "href": "playercard.html#16",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "17",
+              "Player": {
+                "id": "17",
+                "playerName": "Ganesh Kumar,Mukunth",
+                "gender": "male",
+                "href": "playercard.html#17",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "18",
+              "Player": {
+                "id": "18",
+                "playerName": "Goh,Daphne",
+                "gender": "female",
+                "href": "playercard.html#18",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "19",
+              "Player": {
+                "id": "19",
+                "playerName": "Kwek,Alexander",
+                "gender": "male",
+                "href": "playercard.html#19",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "20",
+              "Player": {
+                "id": "20",
+                "playerName": "Madduluri,Advaitha",
+                "gender": "female",
+                "href": "playercard.html#20",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "21",
+              "Player": {
+                "id": "21",
+                "playerName": "Mallajosyula, Srivaths",
+                "gender": "male",
+                "href": "playercard.html#21",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "22",
+              "Player": {
+                "id": "22",
+                "playerName": "Shayan,Ray",
+                "gender": "male",
+                "href": "playercard.html#22",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "23",
+              "Player": {
+                "id": "23",
+                "playerName": "Tan,Lucas",
+                "gender": "male",
+                "href": "playercard.html#23",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "24",
+              "Player": {
+                "id": "24",
+                "playerName": "Veeragandham, Gowtham",
+                "gender": "male",
+                "href": "playercard.html#24",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "25",
+              "Player": {
+                "id": "25",
+                "playerName": "Vignesh,Prajeeth Balaji",
+                "gender": "male",
+                "href": "playercard.html#25",
+                "title": "",
+                "federation": "OS",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            }
+          ],
+          "footer": {
+            "text": "Tie Break legend:     BH  :  Buchholz \n  BH/C1  :  Buchholz Cut 1 \n     SB  :  Sonneborn-Berger",
+            "html": "Tie Break legend:<br>     BH  :  Buchholz <br>\n  BH/C1  :  Buchholz Cut 1 <br>\n     SB  :  Sonneborn-Berger <br>"
+          }
+        }
+      ]
+    },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
       "tables": [
@@ -1337,15 +2305,26 @@
     }
   },
   "playerLookup": {
+    "0": {
+      "id": "0",
+      "playerName": "BYE",
+      "title": "",
+      "federation": "",
+      "rating": "",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#0",
+      "moreInfo": {}
+    },
     "1": {
       "id": "1",
-      "playerName": "Jagannathan,Shashvath",
+      "playerName": "Verma,Vivaan",
       "title": "",
       "federation": "AUS",
-      "rating": "859",
-      "gender": "",
+      "rating": "983",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#1",
       "moreInfo": {}
     },
     "2": {
@@ -1354,9 +2333,9 @@
       "title": "",
       "federation": "AUS",
       "rating": "800",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#2",
       "moreInfo": {}
     },
     "3": {
@@ -1365,163 +2344,251 @@
       "title": "",
       "federation": "AUS",
       "rating": "782",
-      "gender": "",
+      "gender": "male",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#3",
       "moreInfo": {}
     },
     "4": {
       "id": "4",
-      "playerName": "Vemula,Thamoghna",
+      "playerName": "Jyothi Nikhil,Neev",
       "title": "",
       "federation": "AUS",
-      "rating": "685",
-      "gender": "",
+      "rating": "744",
+      "gender": "male",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#4",
       "moreInfo": {}
     },
     "5": {
       "id": "5",
-      "playerName": "Manoj,Dev",
+      "playerName": "Vemula,Thamoghna",
       "title": "",
       "federation": "AUS",
-      "rating": "542",
-      "gender": "",
+      "rating": "685",
+      "gender": "male",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#5",
       "moreInfo": {}
     },
     "6": {
       "id": "6",
-      "playerName": "Shaiek,Nihal",
+      "playerName": "Yendru,Sriram",
       "title": "",
       "federation": "AUS",
-      "rating": "539",
-      "gender": "",
+      "rating": "619",
+      "gender": "male",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#6",
       "moreInfo": {}
     },
     "7": {
       "id": "7",
-      "playerName": "Gadham,Aarya Subramanya",
+      "playerName": "Manoj,Dev",
       "title": "",
-      "federation": "VIC",
-      "rating": "425",
-      "gender": "",
+      "federation": "AUS",
+      "rating": "542",
+      "gender": "male",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#7",
       "moreInfo": {}
     },
     "8": {
       "id": "8",
-      "playerName": "Bodke,Aryan",
+      "playerName": "Shaiek,Nihal",
       "title": "",
-      "federation": "VIC",
-      "rating": "130",
-      "gender": "",
+      "federation": "AUS",
+      "rating": "539",
+      "gender": "male",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#8",
       "moreInfo": {}
     },
     "9": {
       "id": "9",
-      "playerName": "Goh,Julian",
+      "playerName": "Goh,Nicholas",
       "title": "",
-      "federation": "VIC",
-      "rating": "103",
-      "gender": "",
+      "federation": "AUS",
+      "rating": "516",
+      "gender": "male",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#9",
       "moreInfo": {}
     },
     "10": {
       "id": "10",
-      "playerName": "Kantharaju,Aryan",
+      "playerName": "Gadham,Aarya Subramanya",
       "title": "",
       "federation": "VIC",
-      "rating": "100",
-      "gender": "",
+      "rating": "425",
+      "gender": "male",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#10",
       "moreInfo": {}
     },
     "11": {
       "id": "11",
-      "playerName": "Dash,Dibya",
+      "playerName": "Das,Ayush",
       "title": "",
-      "federation": "VIC",
-      "rating": "0",
-      "gender": "",
+      "federation": "AUS",
+      "rating": "245",
+      "gender": "male",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#11",
       "moreInfo": {}
     },
     "12": {
       "id": "12",
-      "playerName": "Ganesh Kumar,Mukunth",
+      "playerName": "Bodke,Aryan",
       "title": "",
       "federation": "VIC",
-      "rating": "0",
-      "gender": "",
+      "rating": "130",
+      "gender": "male",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#12",
       "moreInfo": {}
     },
     "13": {
       "id": "13",
-      "playerName": "Goh,Daphne",
+      "playerName": "Goh,Julian",
       "title": "",
       "federation": "VIC",
-      "rating": "0",
-      "gender": "",
+      "rating": "103",
+      "gender": "male",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#13",
       "moreInfo": {}
     },
     "14": {
       "id": "14",
-      "playerName": "Kwek,Alexander",
+      "playerName": "Kantharaju,Aryan",
       "title": "",
       "federation": "VIC",
-      "rating": "0",
-      "gender": "",
+      "rating": "100",
+      "gender": "male",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#14",
       "moreInfo": {}
     },
     "15": {
       "id": "15",
-      "playerName": "Shayan,Ray",
+      "playerName": "Chawla, Namish",
       "title": "",
       "federation": "VIC",
       "rating": "0",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#15",
       "moreInfo": {}
     },
     "16": {
       "id": "16",
-      "playerName": "Tan,Lucas",
+      "playerName": "Dash,Dibya",
       "title": "",
       "federation": "VIC",
       "rating": "0",
-      "gender": "",
+      "gender": "male",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#16",
       "moreInfo": {}
     },
     "17": {
       "id": "17",
+      "playerName": "Ganesh Kumar,Mukunth",
+      "title": "",
+      "federation": "VIC",
+      "rating": "0",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#17",
+      "moreInfo": {}
+    },
+    "18": {
+      "id": "18",
+      "playerName": "Goh,Daphne",
+      "title": "",
+      "federation": "VIC",
+      "rating": "0",
+      "gender": "female",
+      "fideId": "",
+      "href": "playercard.html#18",
+      "moreInfo": {}
+    },
+    "19": {
+      "id": "19",
+      "playerName": "Kwek,Alexander",
+      "title": "",
+      "federation": "VIC",
+      "rating": "0",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#19",
+      "moreInfo": {}
+    },
+    "20": {
+      "id": "20",
+      "playerName": "Madduluri,Advaitha",
+      "title": "",
+      "federation": "VIC",
+      "rating": "0",
+      "gender": "female",
+      "fideId": "",
+      "href": "playercard.html#20",
+      "moreInfo": {}
+    },
+    "21": {
+      "id": "21",
+      "playerName": "Mallajosyula, Srivaths",
+      "title": "",
+      "federation": "VIC",
+      "rating": "0",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#21",
+      "moreInfo": {}
+    },
+    "22": {
+      "id": "22",
+      "playerName": "Shayan,Ray",
+      "title": "",
+      "federation": "VIC",
+      "rating": "0",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#22",
+      "moreInfo": {}
+    },
+    "23": {
+      "id": "23",
+      "playerName": "Tan,Lucas",
+      "title": "",
+      "federation": "VIC",
+      "rating": "0",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#23",
+      "moreInfo": {}
+    },
+    "24": {
+      "id": "24",
+      "playerName": "Veeragandham, Gowtham",
+      "title": "",
+      "federation": "VIC",
+      "rating": "0",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#24",
+      "moreInfo": {}
+    },
+    "25": {
+      "id": "25",
       "playerName": "Vignesh,Prajeeth Balaji",
       "title": "",
       "federation": "OS",
       "rating": "0",
-      "gender": "",
+      "gender": "male",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#25",
       "moreInfo": {}
     }
   },
@@ -1552,18 +2619,98 @@
       "href": "index.html",
       "isDropdown": true,
       "children": []
+    },
+    {
+      "text": "Pairings",
+      "href": "pairs1.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Standings",
+      "href": "#",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Tables",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Cross table",
+          "href": "crosstable.html"
+        },
+        {
+          "text": "Cross table and standings",
+          "href": "crosstablescore.html"
+        },
+        {
+          "text": "Standings by Rtg groups",
+          "href": "rankinggroup.html"
+        },
+        {
+          "text": "Standings by age groups",
+          "href": "rankingagegroup.html"
+        },
+        {
+          "text": "Standings by title",
+          "href": "rankcat.html"
+        },
+        {
+          "text": "Rank Teams",
+          "href": "rankTeams.html"
+        },
+        {
+          "text": "Summary Federations",
+          "href": "summaryFederations.html"
+        },
+        {
+          "text": "Summary Origin",
+          "href": "summaryOrigin.html"
+        }
+      ]
+    },
+    {
+      "text": "Games",
+      "href": "games.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Reports",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "FIDE Rating",
+          "href": "felovar.html"
+        },
+        {
+          "text": "FIDE Player Card",
+          "href": "fideplayercard.html"
+        },
+        {
+          "text": "National rating",
+          "href": "nelovar.html"
+        },
+        {
+          "text": "National Player Card",
+          "href": "playercard.html"
+        }
+      ]
     }
   ],
   "players": [
     {
       "#": "1",
       "Title": "",
-      "Player": "Jagannathan,Shashvath",
+      "Player": "Verma,Vivaan",
       "Fed": "AUS",
       "Origin": "",
-      "Rtg": "859",
-      "RtgF": "1504",
-      "RtgN": "859"
+      "Rtg": "983",
+      "RtgF": "1533",
+      "RtgN": "983"
     },
     {
       "#": "2",
@@ -1588,6 +2735,16 @@
     {
       "#": "4",
       "Title": "",
+      "Player": "Jyothi Nikhil,Neev",
+      "Fed": "AUS",
+      "Origin": "",
+      "Rtg": "744",
+      "RtgF": "1514",
+      "RtgN": "744"
+    },
+    {
+      "#": "5",
+      "Title": "",
       "Player": "Vemula,Thamoghna",
       "Fed": "AUS",
       "Origin": "",
@@ -1596,7 +2753,17 @@
       "RtgN": "685"
     },
     {
-      "#": "5",
+      "#": "6",
+      "Title": "",
+      "Player": "Yendru,Sriram",
+      "Fed": "AUS",
+      "Origin": "",
+      "Rtg": "619",
+      "RtgF": "1457",
+      "RtgN": "619"
+    },
+    {
+      "#": "7",
       "Title": "",
       "Player": "Manoj,Dev",
       "Fed": "AUS",
@@ -1606,7 +2773,7 @@
       "RtgN": "542"
     },
     {
-      "#": "6",
+      "#": "8",
       "Title": "",
       "Player": "Shaiek,Nihal",
       "Fed": "AUS",
@@ -1616,7 +2783,17 @@
       "RtgN": "539"
     },
     {
-      "#": "7",
+      "#": "9",
+      "Title": "",
+      "Player": "Goh,Nicholas",
+      "Fed": "AUS",
+      "Origin": "",
+      "Rtg": "516",
+      "RtgF": "1465",
+      "RtgN": "516"
+    },
+    {
+      "#": "10",
       "Title": "",
       "Player": "Gadham,Aarya Subramanya",
       "Fed": "VIC",
@@ -1626,7 +2803,17 @@
       "RtgN": "425"
     },
     {
-      "#": "8",
+      "#": "11",
+      "Title": "",
+      "Player": "Das,Ayush",
+      "Fed": "AUS",
+      "Origin": "",
+      "Rtg": "245",
+      "RtgF": "1435",
+      "RtgN": "245"
+    },
+    {
+      "#": "12",
       "Title": "",
       "Player": "Bodke,Aryan",
       "Fed": "VIC",
@@ -1636,7 +2823,7 @@
       "RtgN": "130"
     },
     {
-      "#": "9",
+      "#": "13",
       "Title": "",
       "Player": "Goh,Julian",
       "Fed": "VIC",
@@ -1646,7 +2833,7 @@
       "RtgN": "103"
     },
     {
-      "#": "10",
+      "#": "14",
       "Title": "",
       "Player": "Kantharaju,Aryan",
       "Fed": "VIC",
@@ -1656,49 +2843,9 @@
       "RtgN": "100"
     },
     {
-      "#": "11",
-      "Title": "",
-      "Player": "Dash,Dibya",
-      "Fed": "VIC",
-      "Origin": "",
-      "Rtg": "0",
-      "RtgF": "0",
-      "RtgN": "0"
-    },
-    {
-      "#": "12",
-      "Title": "",
-      "Player": "Ganesh Kumar,Mukunth",
-      "Fed": "VIC",
-      "Origin": "",
-      "Rtg": "0",
-      "RtgF": "0",
-      "RtgN": "0"
-    },
-    {
-      "#": "13",
-      "Title": "",
-      "Player": "Goh,Daphne",
-      "Fed": "VIC",
-      "Origin": "",
-      "Rtg": "0",
-      "RtgF": "0",
-      "RtgN": "0"
-    },
-    {
-      "#": "14",
-      "Title": "",
-      "Player": "Kwek,Alexander",
-      "Fed": "VIC",
-      "Origin": "",
-      "Rtg": "0",
-      "RtgF": "0",
-      "RtgN": "0"
-    },
-    {
       "#": "15",
       "Title": "",
-      "Player": "Shayan,Ray",
+      "Player": "Chawla, Namish",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -1708,7 +2855,7 @@
     {
       "#": "16",
       "Title": "",
-      "Player": "Tan,Lucas",
+      "Player": "Dash,Dibya",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -1717,6 +2864,86 @@
     },
     {
       "#": "17",
+      "Title": "",
+      "Player": "Ganesh Kumar,Mukunth",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "18",
+      "Title": "",
+      "Player": "Goh,Daphne",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "19",
+      "Title": "",
+      "Player": "Kwek,Alexander",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "20",
+      "Title": "",
+      "Player": "Madduluri,Advaitha",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "21",
+      "Title": "",
+      "Player": "Mallajosyula, Srivaths",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "22",
+      "Title": "",
+      "Player": "Shayan,Ray",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "23",
+      "Title": "",
+      "Player": "Tan,Lucas",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "24",
+      "Title": "",
+      "Player": "Veeragandham, Gowtham",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "25",
       "Title": "",
       "Player": "Vignesh,Prajeeth Balaji",
       "Fed": "OS",
@@ -1762,5 +2989,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "b7e0bf2462a391f173e14fbd3d422891"
+  "md5Hash": "c03067332d8c4745d1640836ef9f9c5c"
 }
