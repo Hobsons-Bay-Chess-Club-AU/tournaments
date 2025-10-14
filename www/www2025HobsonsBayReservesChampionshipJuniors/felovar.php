@@ -22,7 +22,7 @@
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
 </li><li class="nav-item"><a class="nav-link " href="pairs1.php" >Pairings</a>
-</li><li class="nav-item"><a class="nav-link" href="#" >Standings</a>
+</li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
@@ -45,7 +45,35 @@
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
   <div class="d-flex flex-column"><h3 class="mb-4 mt-4">  FIDE rating variation at round 1</h3>
 <div class="table-responsive"><table class="table table-striped "> 
-<thead> <tr> <th>#</th> <th>Player</th> <th>FIDE ID</th> <th>Fed</th> <th>Rtg</th>  <th>Ng</th> <th>Pts</th> <th>ARO</th> <th>var</th> <th>Rp</th> </tr></thead><tbody></tbody>
+<thead> <tr> <th>#</th> <th>Player</th> <th>FIDE ID</th> <th>Fed</th> <th>Rtg</th>  <th>Ng</th> <th>Pts</th> <th>ARO</th> <th>var</th> <th>Rp</th> </tr></thead><tbody><tr> 
+<td>14</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3286274" target="X">Bodke,Aryan</a></td> <td>3286274</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1466</td> <td>+0.00</td> <td> 666</td></tr>
+<tr> 
+<td>15</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3286312" target="X">Goh,Julian</a></td> <td>3286312</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1555</td> <td>+0.00</td> <td> 755</td></tr>
+<tr> 
+<td>16</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3286860" target="X">Kantharaju,Aryan</a></td> <td>3286860</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1487</td> <td>+0.00</td> <td> 687</td></tr>
+<tr> 
+<td>17</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/0" target="X">Chawla, Namish</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1562</td> <td>+0.00</td> <td> 762</td></tr>
+<tr> 
+<td>19</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/profile/3291154" target="X">Fang,Candice</a></td> <td>3291154</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.5</td> <td>1541</td> <td>+0.00</td> <td>1541</td></tr>
+<tr> 
+<td>21</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/profile/3286304" target="X">Goh,Daphne</a></td> <td>3286304</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1512</td> <td>+0.00</td> <td> 712</td></tr>
+<tr> 
+<td>22</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3291189" target="X">Kwek,Alexander</a></td> <td>3291189</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1514</td> <td>+0.00</td> <td> 714</td></tr>
+<tr> 
+<td>23</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/profile/0" target="X">Lacson, Alexandria</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1457</td> <td>+0.00</td> <td> 657</td></tr>
+<tr> 
+<td>24</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/profile/0" target="X">Madduluri,Advaitha</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1541</td> <td>+0.00</td> <td> 741</td></tr>
+<tr> 
+<td>25</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/0" target="X">Mallajosyula, Srivaths</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1434</td> <td>+0.00</td> <td> 634</td></tr>
+<tr> 
+<td>26</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/0" target="X">Mo, Christopher</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1465</td> <td>+0.00</td> <td> 665</td></tr>
+<tr> 
+<td>30</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3295346" target="X">Veeragandham, Gowtham</a></td> <td>3295346</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1456</td> <td>+0.00</td> <td> 656</td></tr>
+<tr> 
+<td>31</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/4332180" target="X">Vignesh,Prajeeth Balaji</a></td> <td>4332180</td> <td> <img class="shadow" src="flag/os.png" alt="os"> </td> <td>0</td><td> 1</td> <td> 1.0</td> <td>1435</td> <td>+0.00</td> <td>1455</td></tr>
+<tr> 
+<td>36</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/0" target="X">D'Souza, Leon</a></td> <td>0</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1504</td> <td>+0.00</td> <td> 704</td></tr>
+</tbody>
 </table>
 </div>		  </div>
 		      </div>
