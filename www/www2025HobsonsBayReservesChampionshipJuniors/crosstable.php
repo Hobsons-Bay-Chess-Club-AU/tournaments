@@ -465,7 +465,7 @@
    <div class="left-box2">
 <a href="playercard.php#24"></a> 
  <div class="player-name-box2">
-			<span>Shayan,Ray</span>
+			<span>Palta,Sameer</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 24</div> 
@@ -483,7 +483,7 @@
    <div class="left-box2">
 <a href="playercard.php#25"></a> 
  <div class="player-name-box2">
-			<span>Tan,Lucas</span>
+			<span>Shayan,Ray</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 25</div> 
@@ -501,7 +501,7 @@
    <div class="left-box2">
 <a href="playercard.php#26"></a> 
  <div class="player-name-box2">
-			<span>Veeragandham, Gowtham</span>
+			<span>Tan,Lucas</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 26</div> 
@@ -519,10 +519,28 @@
    <div class="left-box2">
 <a href="playercard.php#27"></a> 
  <div class="player-name-box2">
-			<span>Vignesh,Prajeeth Balaji</span>
+			<span>Veeragandham, Gowtham</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 27</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">0</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td class="score"> 0.0</td><td> </td></tr>
+<tr> 
+<td> <span class="idn"> 28 </span></td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#28"></a> 
+ <div class="player-name-box2">
+			<span>Vignesh,Prajeeth Balaji</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 28</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>

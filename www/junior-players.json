@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-13T12:03:42.958Z",
+  "generatedAt": "2025-10-14T05:47:27.362Z",
   "year": "2025",
   "count": 81,
   "totalTournaments": 30,
@@ -2367,12 +2367,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#40",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
           "score": 4,
           "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayReservesChampionshipJuniors/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Reserves Championship Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
         },
@@ -2945,10 +2952,10 @@
     },
     {
       "name": "Tan,Lucas",
-      "id": "25",
+      "id": "26",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#25",
+      "href": "playercard.html#26",
       "tournamentCount": 2,
       "tournaments": [
         {
@@ -3153,10 +3160,10 @@
     },
     {
       "name": "Vignesh,Prajeeth Balaji",
-      "id": "27",
+      "id": "28",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#27",
+      "href": "playercard.html#28",
       "tournamentCount": 2,
       "tournaments": [
         {
