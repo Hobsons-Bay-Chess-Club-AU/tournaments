@@ -1,0 +1,38 @@
+name: Archive FTP htdocs nightly
+
+on:
+  schedule:
+    # ~3:00 AM Australia/Melbourne ≈ 17:00 UTC (adjust if needed)
+    - cron: "0 17 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  archive-ftp:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install lftp
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lftp
+
+      - name: Move htdocs/* to /_archived/
+        env:
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_HOST: ftpupload.net
+        run: |
+          set -euo pipefail
+          lftp -u "${FTP_USER}","${FTP_PASSWORD}" "ftp://${FTP_HOST}" <<'LFTP_CMDS'
+set ssl:verify-certificate no
+set ftp:ssl-allow no
+
+# Ensure top-level _archived exists
+mkdir -p _archived
+
+# Move all items from htdocs into _archived using lftp's glob
+glob -a mv htdocs/* _archived/
+bye
+LFTP_CMDS
+
+
