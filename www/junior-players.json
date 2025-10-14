@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-14T05:47:27.362Z",
+  "generatedAt": "2025-10-14T05:59:30.346Z",
   "year": "2025",
   "count": 81,
   "totalTournaments": 30,
@@ -879,12 +879,19 @@
     },
     {
       "name": "Fang,Candice",
-      "id": "41",
+      "id": "19",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#41",
-      "tournamentCount": 4,
+      "href": "playercard.html#19",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2025HobsonsBayReservesChampionshipJuniors/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Reserves Championship Juniors",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
           "score": 1,
@@ -1427,7 +1434,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#22",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -1448,6 +1455,13 @@
           "score": 2,
           "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayReservesChampionshipJuniors/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Reserves Championship Juniors",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -1846,10 +1860,10 @@
     },
     {
       "name": "Kwek,Alexander",
-      "id": "19",
+      "id": "22",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#19",
+      "href": "playercard.html#22",
       "tournamentCount": 3,
       "tournaments": [
         {
@@ -2894,12 +2908,19 @@
     },
     {
       "name": "Stefan Jiace Tham,Keanu",
-      "id": "35",
+      "id": "11",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#35",
-      "tournamentCount": 2,
+      "href": "playercard.html#11",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2025HobsonsBayReservesChampionshipJuniors/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Reserves Championship Juniors",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
           "score": 2,
@@ -2952,10 +2973,10 @@
     },
     {
       "name": "Tan,Lucas",
-      "id": "26",
+      "id": "29",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#26",
+      "href": "playercard.html#29",
       "tournamentCount": 2,
       "tournaments": [
         {
@@ -3160,10 +3181,10 @@
     },
     {
       "name": "Vignesh,Prajeeth Balaji",
-      "id": "28",
+      "id": "31",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#28",
+      "href": "playercard.html#31",
       "tournamentCount": 2,
       "tournaments": [
         {

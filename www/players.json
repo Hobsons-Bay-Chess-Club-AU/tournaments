@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-14T05:47:27.364Z",
+  "generatedAt": "2025-10-14T05:59:30.347Z",
   "year": "2025",
   "count": 124,
   "seniorCount": 85,
@@ -1591,12 +1591,19 @@
     },
     {
       "name": "Fang,Candice",
-      "id": "41",
+      "id": "19",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#41",
-      "tournamentCount": 4,
+      "href": "playercard.html#19",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2025HobsonsBayReservesChampionshipJuniors/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Reserves Championship Juniors",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
           "score": 1,
@@ -2521,7 +2528,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#69",
-      "tournamentCount": 10,
+      "tournamentCount": 11,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -2563,6 +2570,13 @@
           "score": 2,
           "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayReservesChampionshipJuniors/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Reserves Championship Juniors",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -3132,10 +3146,10 @@
     },
     {
       "name": "Kwek,Alexander",
-      "id": "19",
+      "id": "22",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#19",
+      "href": "playercard.html#22",
       "tournamentCount": 3,
       "tournaments": [
         {
@@ -5440,7 +5454,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#32",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayAprilBlitz/data.json",
@@ -5469,6 +5483,13 @@
           "name": "Hobsons Bay September Blitz",
           "totalRounds": "9",
           "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayReservesChampionshipJuniors/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Reserves Championship Juniors",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
@@ -5558,10 +5579,10 @@
     },
     {
       "name": "Tan,Lucas",
-      "id": "26",
+      "id": "29",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#26",
+      "href": "playercard.html#29",
       "tournamentCount": 2,
       "tournaments": [
         {
