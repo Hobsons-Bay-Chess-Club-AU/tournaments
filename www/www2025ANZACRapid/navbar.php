@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"><head> <meta charset="UTF-8">
+<meta name="description" content="chess tournament">
+<meta name="author" content="www.vegaresult.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<title>ANZAC Day Interclub Hybrid Rapid 2025</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="../oweb/stylenew.css" type="text/css" >
+    </head>
+<body>
+<div class="d-flex flex-column justify-content-between h-100"> <nav class="navbar navbar-expand-lg bg-light fixed-top">
+                <div class="container">  <a class="navbar-brand d-flex align-items-center" href="https://www.vegaresults.com/event/4372" style="width: 24px;"> <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20,8h0L14,2.74a3,3,0,0,0-4,0L4,8a3,3,0,0,0-1,2.26V19a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V10.25A3,3,0,0,0,20,8ZM14,20H10V15a1,1,0,0,1,1-1h2a1,1,0,0,1,1,1Zm5-1a1,1,0,0,1-1,1H16V15a3,3,0,0,0-3-3H11a3,3,0,0,0-3,3v5H6a1,1,0,0,1-1-1V10.25a1,1,0,0,1,.34-.75l6-5.25a1,1,0,0,1,1.32,0l6,5.25a1,1,0,0,1,.34.75Z" fill="#000"/></svg>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">  <li class="nav-item dropdown">
+   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Info </a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="info.php">Play system</a></li><li><a class="dropdown-item" href="schedule.php">Schedule</a></li><li> <a class="dropdown-item" href="statistics.php">Statistics</a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Teams</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="teamslist.php">Team List</a></li><li><a class="dropdown-item" href="index.php">Team composition</a></li><li><a class="dropdown-item" href="playerslistsortrtg.php">Players sorted by rating</a></li><li><a class="dropdown-item" href="playerslistsortname.php">Players sorted by name</a></li></ul></li><li class="nav-item"><a class="nav-link " href="pairs5.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link" href="rankteam5.php" >Standings</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstableteam.php">Teams</a></li><li><a class="dropdown-item" href="crosstableRoundRobin.php">Round Robin</a></li><li><a class="dropdown-item" href="teamreport1.php">Team report</a></li><li><a class="dropdown-item" href="rankplayer.php">Best Players</a></li><li><a class="dropdown-item" href="rankteamorigin.php">Rank Team by Origin</a></li> <li><a class="dropdown-item" href="FIDERtgVariation.php">FIDE Rating</a></li><li><a class="dropdown-item" href="NationalRtgVariation.php">National rating</a></li></ul></li></ul> </div>
+</div>
+</nav>
+ <section id="hero" class="d-flex align-items-center" style="background-image: url('../oweb/sfondo-chess2.webp')">
+                <div class="container-fluid">
+                    <div class="row items-center">
+                        <div class="col-12">
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >ANZAC Day Interclub Hybrid Rapid 2025</h1>		    <h5 class="mb-1">Canberra, Sydney, Melbourbe, Invercargil (AUS)</h5>		    <h5> 25/04/2025 - 25/04/2025</h5>   </div>
+ </div> 
+ </div>
+ </div> 
+ </section>
+ <section id="main" class="pt-5 mb-auto">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="d-none d-lg-block col-1 ps-0">
+                            <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">

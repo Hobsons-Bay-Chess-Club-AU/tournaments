@@ -1,16 +1,6 @@
 [
   {
     "data": {
-      "Tournament Name": "ANZAC Day Interclub Hybrid Rapid 2025",
-      "Federation": "Canberra, Sydney, Melbourbe, Invercargil (AUS)",
-      "Date": "25/04/2025 - 25/04/2025",
-      "category": "Junior"
-    },
-    "path": "www/data.json",
-    "category": "Junior"
-  },
-  {
-    "data": {
       "Tournament Name": "2024 HBCC Hobsons Bay Juniors Club Championship",
       "Place": "Hobsons Bay Chess Club",
       "Federation": "AUS",
@@ -124,6 +114,16 @@
       "category": "Junior"
     },
     "path": "www2024HBCCPresidentCupJuniorsBlitz2024/data.json",
+    "category": "Junior"
+  },
+  {
+    "data": {
+      "Tournament Name": "ANZAC Day Interclub Hybrid Rapid 2025",
+      "Federation": "Canberra, Sydney, Melbourbe, Invercargil (AUS)",
+      "Date": "25/04/2025 - 25/04/2025",
+      "category": "Junior"
+    },
+    "path": "www2025ANZACRapid/data.json",
     "category": "Junior"
   },
   {
@@ -1193,6 +1193,16 @@
       "category": "Junior"
     },
     "path": "www2025WesternJuniors/data.json",
+    "category": "Junior"
+  },
+  {
+    "data": {
+      "Tournament Name": "ANZAC Day Interclub Hybrid Rapid 2025",
+      "Federation": "Canberra, Sydney, Melbourbe, Invercargil (AUS)",
+      "Date": "25/04/2025 - 25/04/2025",
+      "category": "Junior"
+    },
+    "path": "wwwANZAC2025Rapid/data.json",
     "category": "Junior"
   },
   {
