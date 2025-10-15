@@ -1,14 +1,573 @@
 {
-  "generatedAt": "2025-10-14T23:57:01.969Z",
+  "generatedAt": "2025-10-15T00:06:35.112Z",
   "page": {
-    "index.html": {
-      "pageHeading": "Registered players sorted by rating and title",
+    "calendarroundrobin.html": {
+      "pageHeading": "Schedule",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "White",
+              "key": "White"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "result",
+              "key": "result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black",
+              "key": "Black"
+            }
+          ],
+          "rows": [
+            {
+              "N": "1",
+              "White": "McIntyre,Julian",
+              "NW": "1",
+              "result": "...",
+              "NB": "8",
+              "Black": "Hogan,Steven"
+            },
+            {
+              "N": "2",
+              "White": "Davis,Tony J",
+              "NW": "2",
+              "result": "...",
+              "NB": "7",
+              "Black": "Nguyen,Anh Kiet"
+            },
+            {
+              "N": "3",
+              "White": "Krishnan,Anirudh",
+              "NW": "3",
+              "result": "...",
+              "NB": "6",
+              "Black": "Pasukov,Leo"
+            },
+            {
+              "N": "4",
+              "White": "Whitford,Matthew",
+              "NW": "4",
+              "result": "...",
+              "NB": "5",
+              "Black": "Wongso,Renaldo"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing round 1  at 17:30 of 14/10/2025",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing round 1  at 17:30 of 14/10/2025",
+            "rawHtml": "Pairing round 1  at 17:30 of 14/10/2025"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "White",
+              "key": "White"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "result",
+              "key": "result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black",
+              "key": "Black"
+            }
+          ],
+          "rows": [
+            {
+              "N": "1",
+              "White": "Hogan,Steven",
+              "NW": "8",
+              "result": "...",
+              "NB": "5",
+              "Black": "Wongso,Renaldo"
+            },
+            {
+              "N": "2",
+              "White": "Pasukov,Leo",
+              "NW": "6",
+              "result": "...",
+              "NB": "4",
+              "Black": "Whitford,Matthew"
+            },
+            {
+              "N": "3",
+              "White": "Nguyen,Anh Kiet",
+              "NW": "7",
+              "result": "...",
+              "NB": "3",
+              "Black": "Krishnan,Anirudh"
+            },
+            {
+              "N": "4",
+              "White": "McIntyre,Julian",
+              "NW": "1",
+              "result": "...",
+              "NB": "2",
+              "Black": "Davis,Tony J"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing round 1  at 17:30 of 14/10/2025",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing round 1  at 17:30 of 14/10/2025",
+            "rawHtml": "Pairing round 1  at 17:30 of 14/10/2025"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "White",
+              "key": "White"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "result",
+              "key": "result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black",
+              "key": "Black"
+            }
+          ],
+          "rows": [
+            {
+              "N": "1",
+              "White": "Davis,Tony J",
+              "NW": "2",
+              "result": "...",
+              "NB": "8",
+              "Black": "Hogan,Steven"
+            },
+            {
+              "N": "2",
+              "White": "Krishnan,Anirudh",
+              "NW": "3",
+              "result": "...",
+              "NB": "1",
+              "Black": "McIntyre,Julian"
+            },
+            {
+              "N": "3",
+              "White": "Whitford,Matthew",
+              "NW": "4",
+              "result": "...",
+              "NB": "7",
+              "Black": "Nguyen,Anh Kiet"
+            },
+            {
+              "N": "4",
+              "White": "Wongso,Renaldo",
+              "NW": "5",
+              "result": "...",
+              "NB": "6",
+              "Black": "Pasukov,Leo"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing round 1  at 17:30 of 14/10/2025",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing round 1  at 17:30 of 14/10/2025",
+            "rawHtml": "Pairing round 1  at 17:30 of 14/10/2025"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "White",
+              "key": "White"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "result",
+              "key": "result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black",
+              "key": "Black"
+            }
+          ],
+          "rows": [
+            {
+              "N": "1",
+              "White": "Hogan,Steven",
+              "NW": "8",
+              "result": "...",
+              "NB": "6",
+              "Black": "Pasukov,Leo"
+            },
+            {
+              "N": "2",
+              "White": "Nguyen,Anh Kiet",
+              "NW": "7",
+              "result": "...",
+              "NB": "5",
+              "Black": "Wongso,Renaldo"
+            },
+            {
+              "N": "3",
+              "White": "McIntyre,Julian",
+              "NW": "1",
+              "result": "...",
+              "NB": "4",
+              "Black": "Whitford,Matthew"
+            },
+            {
+              "N": "4",
+              "White": "Davis,Tony J",
+              "NW": "2",
+              "result": "...",
+              "NB": "3",
+              "Black": "Krishnan,Anirudh"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing round 1  at 17:30 of 14/10/2025",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing round 1  at 17:30 of 14/10/2025",
+            "rawHtml": "Pairing round 1  at 17:30 of 14/10/2025"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "White",
+              "key": "White"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "result",
+              "key": "result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black",
+              "key": "Black"
+            }
+          ],
+          "rows": [
+            {
+              "N": "1",
+              "White": "Krishnan,Anirudh",
+              "NW": "3",
+              "result": "...",
+              "NB": "8",
+              "Black": "Hogan,Steven"
+            },
+            {
+              "N": "2",
+              "White": "Whitford,Matthew",
+              "NW": "4",
+              "result": "...",
+              "NB": "2",
+              "Black": "Davis,Tony J"
+            },
+            {
+              "N": "3",
+              "White": "Wongso,Renaldo",
+              "NW": "5",
+              "result": "...",
+              "NB": "1",
+              "Black": "McIntyre,Julian"
+            },
+            {
+              "N": "4",
+              "White": "Pasukov,Leo",
+              "NW": "6",
+              "result": "...",
+              "NB": "7",
+              "Black": "Nguyen,Anh Kiet"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing round 1  at 17:30 of 14/10/2025",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing round 1  at 17:30 of 14/10/2025",
+            "rawHtml": "Pairing round 1  at 17:30 of 14/10/2025"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "White",
+              "key": "White"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "result",
+              "key": "result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black",
+              "key": "Black"
+            }
+          ],
+          "rows": [
+            {
+              "N": "1",
+              "White": "Hogan,Steven",
+              "NW": "8",
+              "result": "...",
+              "NB": "7",
+              "Black": "Nguyen,Anh Kiet"
+            },
+            {
+              "N": "2",
+              "White": "McIntyre,Julian",
+              "NW": "1",
+              "result": "...",
+              "NB": "6",
+              "Black": "Pasukov,Leo"
+            },
+            {
+              "N": "3",
+              "White": "Davis,Tony J",
+              "NW": "2",
+              "result": "...",
+              "NB": "5",
+              "Black": "Wongso,Renaldo"
+            },
+            {
+              "N": "4",
+              "White": "Krishnan,Anirudh",
+              "NW": "3",
+              "result": "...",
+              "NB": "4",
+              "Black": "Whitford,Matthew"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing round 1  at 17:30 of 14/10/2025",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing round 1  at 17:30 of 14/10/2025",
+            "rawHtml": "Pairing round 1  at 17:30 of 14/10/2025"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "White",
+              "key": "White"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "result",
+              "key": "result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black",
+              "key": "Black"
+            }
+          ],
+          "rows": [
+            {
+              "N": "1",
+              "White": "Whitford,Matthew",
+              "NW": "4",
+              "result": "...",
+              "NB": "8",
+              "Black": "Hogan,Steven"
+            },
+            {
+              "N": "2",
+              "White": "Wongso,Renaldo",
+              "NW": "5",
+              "result": "...",
+              "NB": "3",
+              "Black": "Krishnan,Anirudh"
+            },
+            {
+              "N": "3",
+              "White": "Pasukov,Leo",
+              "NW": "6",
+              "result": "...",
+              "NB": "2",
+              "Black": "Davis,Tony J"
+            },
+            {
+              "N": "4",
+              "White": "Nguyen,Anh Kiet",
+              "NW": "7",
+              "result": "...",
+              "NB": "1",
+              "Black": "McIntyre,Julian"
+            }
+          ],
+          "caption": {
+            "playerName": "Pairing round 1  at 17:30 of 14/10/2025",
+            "id": "",
+            "moreInfo": {},
+            "rawText": "Pairing round 1  at 17:30 of 14/10/2025",
+            "rawHtml": "Pairing round 1  at 17:30 of 14/10/2025"
+          }
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "felovar.html": {
+      "pageHeading": "FIDE rating variation at round 1",
       "tables": [
         {
           "headers": [
             {
               "name": "#",
               "key": "#"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "Ng",
+              "key": "Ng"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "ARO",
+              "key": "ARO"
+            },
+            {
+              "name": "var",
+              "key": "var"
+            },
+            {
+              "name": "Rp",
+              "key": "Rp"
+            }
+          ],
+          "rows": []
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "fideplayercard.html": {
+      "pageHeading": "FIDE History Cards",
+      "tables": [],
+      "tournamentType": "unknown"
+    },
+    "game.html": {
+      "pageHeading": "",
+      "tables": [],
+      "tournamentType": "unknown"
+    },
+    "games.html": {
+      "pageHeading": "",
+      "tables": [],
+      "tournamentType": "unknown"
+    },
+    "index.html": {
+      "pageHeading": "Registered players",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "Title",
+              "key": "Title"
             },
             {
               "name": "Player",
@@ -37,19 +596,84 @@
           ],
           "rows": [
             {
-              "#": "1",
-              "Player": {
-                "id": "",
-                "playerName": "Hogan,Steven",
-                "gender": "male",
-                "href": "http://ratings.fide.com/card.phtml?event=3201414",
-                "title": ""
-              },
+              "#": "2",
+              "Title": "CM",
+              "Player": "Davis,Tony J",
               "Fed": "VIC",
               "Origin": "",
-              "Rtg": "1515",
+              "Rtg": "1735",
               "RtgF": "0",
-              "RtgN": "1515"
+              "RtgN": "1735"
+            },
+            {
+              "#": "3",
+              "Title": "",
+              "Player": "Krishnan,Anirudh",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1733",
+              "RtgF": "0",
+              "RtgN": "1733"
+            },
+            {
+              "#": "7",
+              "Title": "",
+              "Player": "Nguyen,Anh Kiet",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1706",
+              "RtgF": "0",
+              "RtgN": "1706"
+            },
+            {
+              "#": "5",
+              "Title": "",
+              "Player": "Wongso,Renaldo",
+              "Fed": "OS",
+              "Origin": "",
+              "Rtg": "1632",
+              "RtgF": "0",
+              "RtgN": "1632"
+            },
+            {
+              "#": "1",
+              "Title": "",
+              "Player": "McIntyre,Julian",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1555",
+              "RtgF": "0",
+              "RtgN": "1555"
+            },
+            {
+              "#": "4",
+              "Title": "",
+              "Player": "Whitford,Matthew",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1495",
+              "RtgF": "0",
+              "RtgN": "1495"
+            },
+            {
+              "#": "6",
+              "Title": "",
+              "Player": "Pasukov,Leo",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1458",
+              "RtgF": "0",
+              "RtgN": "1458"
+            },
+            {
+              "#": "8",
+              "Title": "",
+              "Player": "Hogan,Steven",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1385",
+              "RtgF": "0",
+              "RtgN": "1385"
             }
           ],
           "footer": {
@@ -60,18 +684,739 @@
       ],
       "tournamentType": "unknown"
     },
-    "playersname.html": {
-      "pageHeading": "Registered players sorted by name",
+    "nelovar.html": {
+      "pageHeading": "National rating at round 1",
       "tables": [
         {
           "headers": [
             {
-              "name": "#",
-              "key": "#"
+              "name": "N",
+              "key": "N"
             },
             {
-              "name": "Player",
-              "key": "Player"
+              "name": "Name",
+              "key": "Name"
+            },
+            {
+              "name": "K",
+              "key": "K"
+            },
+            {
+              "name": "Elo",
+              "key": "Elo"
+            },
+            {
+              "name": "Var",
+              "key": "Var"
+            },
+            {
+              "name": "Per",
+              "key": "Per"
+            }
+          ],
+          "rows": []
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "pairing.html": {
+      "pageHeading": "",
+      "tables": [],
+      "tournamentType": "unknown"
+    },
+    "pairs1.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "White Player": {
+                "id": "1",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "playercard.html#1",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1555",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "8",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "playercard.html#8",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1385",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "2",
+              "White Player": {
+                "id": "2",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#2",
+                "title": "CM",
+                "federation": "VIC",
+                "rating": "1735",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "7",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#7",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1706",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "3",
+              "White Player": {
+                "id": "3",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "male",
+                "href": "playercard.html#3",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1733",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "6",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "playercard.html#6",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1458",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "4",
+              "White Player": {
+                "id": "4",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "playercard.html#4",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1495",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "5",
+                "playerName": "Wongso,Renaldo",
+                "gender": "male",
+                "href": "playercard.html#5",
+                "title": "",
+                "federation": "OS",
+                "rating": "1632",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            }
+          ]
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 1, at 17:30 of 14/10/2025",
+      "tournamentType": "individual"
+    },
+    "playercard.html": {
+      "pageHeading": "National History Cards",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "McIntyre,Julian",
+            "id": "3176061",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1555",
+              "anchor": "1"
+            },
+            "rawText": "1   McIntyre,Julian     , K= 0, Elo=1555, ID=3176061",
+            "rawHtml": "   1   <strong>McIntyre,Julian     </strong>, K= 0, Elo=1555, ID=3176061\n<br>\n<a class=\"anchor\" name=\"1\"></a>"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Davis,Tony J",
+            "id": "3073264",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1735",
+              "anchor": "2"
+            },
+            "rawText": "2  CM Davis,Tony J        , K= 0, Elo=1735, ID=3073264",
+            "rawHtml": "   2  CM <strong>Davis,Tony J        </strong>, K= 0, Elo=1735, ID=3073264\n<br>\n<a class=\"anchor\" name=\"2\"></a>"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Krishnan,Anirudh",
+            "id": "3200222",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1733",
+              "anchor": "3"
+            },
+            "rawText": "3   Krishnan,Anirudh    , K= 0, Elo=1733, ID=3200222",
+            "rawHtml": "   3   <strong>Krishnan,Anirudh    </strong>, K= 0, Elo=1733, ID=3200222\n<br>\n<a class=\"anchor\" name=\"3\"></a>"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Whitford,Matthew",
+            "id": "3137603",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1495",
+              "anchor": "4"
+            },
+            "rawText": "4   Whitford,Matthew    , K= 0, Elo=1495, ID=3137603",
+            "rawHtml": "   4   <strong>Whitford,Matthew    </strong>, K= 0, Elo=1495, ID=3137603\n<br>\n<a class=\"anchor\" name=\"4\"></a>"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Wongso,Renaldo",
+            "id": "2454845",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1632",
+              "anchor": "5"
+            },
+            "rawText": "5   Wongso,Renaldo      , K= 0, Elo=1632, ID=2454845",
+            "rawHtml": "   5   <strong>Wongso,Renaldo      </strong>, K= 0, Elo=1632, ID=2454845\n<br>\n<a class=\"anchor\" name=\"5\"></a>"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Pasukov,Leo",
+            "id": "3194935",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1458",
+              "anchor": "6"
+            },
+            "rawText": "6   Pasukov,Leo         , K= 0, Elo=1458, ID=3194935",
+            "rawHtml": "   6   <strong>Pasukov,Leo         </strong>, K= 0, Elo=1458, ID=3194935\n<br>\n<a class=\"anchor\" name=\"6\"></a>"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Nguyen,Anh Kiet",
+            "id": "3206205",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1706",
+              "anchor": "7"
+            },
+            "rawText": "7   Nguyen,Anh Kiet     , K= 0, Elo=1706, ID=3206205",
+            "rawHtml": "   7   <strong>Nguyen,Anh Kiet     </strong>, K= 0, Elo=1706, ID=3206205\n<br>\n<a class=\"anchor\" name=\"7\"></a>"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Hogan,Steven",
+            "id": "3112941",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1385",
+              "anchor": "8"
+            },
+            "rawText": "8   Hogan,Steven        , K= 0, Elo=1385, ID=3112941",
+            "rawHtml": "   8   <strong>Hogan,Steven        </strong>, K= 0, Elo=1385, ID=3112941\n<br>\n<a class=\"anchor\" name=\"8\"></a>"
+          }
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "playersname.html": {
+      "pageHeading": "",
+      "tables": [],
+      "tournamentType": "unknown"
+    },
+    "schedule.html": {
+      "pageHeading": "Schedule",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Round",
+              "key": "Round"
+            },
+            {
+              "name": "Time",
+              "key": "Time"
+            },
+            {
+              "name": "Date",
+              "key": "Date"
+            }
+          ],
+          "rows": [
+            {
+              "Round": "1",
+              "Time": "17:30",
+              "Date": "14/10/2025"
+            },
+            {
+              "Round": "2",
+              "Time": "17:30",
+              "Date": "21/10/2025"
+            },
+            {
+              "Round": "3",
+              "Time": "17:30",
+              "Date": "28/10/2025"
+            },
+            {
+              "Round": "4",
+              "Time": "17:30",
+              "Date": "11/11/2025"
+            },
+            {
+              "Round": "5",
+              "Time": "17:30",
+              "Date": "18/11/2025"
+            },
+            {
+              "Round": "6",
+              "Time": "17:30",
+              "Date": "25/11/2025"
+            },
+            {
+              "Round": "7",
+              "Time": "17:30",
+              "Date": "02/12/2025"
+            }
+          ]
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
             },
             {
               "name": "Fed",
@@ -82,39 +1427,1295 @@
               "key": "Origin"
             },
             {
-              "name": "Rtg",
-              "key": "Rtg"
+              "name": "White Player",
+              "key": "White Player"
             },
             {
-              "name": "RtgF",
-              "key": "RtgF"
+              "name": "NW",
+              "key": "NW"
             },
             {
-              "name": "RtgN",
-              "key": "RtgN"
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
             }
           ],
           "rows": [
             {
-              "#": "1",
-              "Player": {
-                "id": "",
-                "playerName": "Hogan,Steven",
-                "gender": "male",
-                "href": "http://ratings.fide.com/card.phtml?event=3201414",
-                "title": ""
-              },
+              "Bo.": "1",
               "Fed": "VIC",
               "Origin": "",
-              "Rtg": "1515",
-              "RtgF": "0",
-              "RtgN": "1515"
+              "White Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "NW": "1",
+              "Result": "...",
+              "NB": "8",
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "NW": "2",
+              "Result": "...",
+              "NB": "7",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "NW": "3",
+              "Result": "...",
+              "NB": "6",
+              "Black Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "NW": "4",
+              "Result": "...",
+              "NB": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wongso,Renaldo",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "OS"
+            }
+          ]
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "NW": "8",
+              "Result": "...",
+              "NB": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wongso,Renaldo",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "OS"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "NW": "6",
+              "Result": "...",
+              "NB": "4",
+              "Black Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "NW": "7",
+              "Result": "...",
+              "NB": "3",
+              "Black Player": {
+                "id": "",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "NW": "1",
+              "Result": "...",
+              "NB": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            }
+          ]
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "NW": "2",
+              "Result": "...",
+              "NB": "8",
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "NW": "3",
+              "Result": "...",
+              "NB": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "NW": "4",
+              "Result": "...",
+              "NB": "7",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "OS",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Wongso,Renaldo",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "NW": "5",
+              "Result": "...",
+              "NB": "6",
+              "Black Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            }
+          ]
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "NW": "8",
+              "Result": "...",
+              "NB": "6",
+              "Black Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "NW": "7",
+              "Result": "...",
+              "NB": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wongso,Renaldo",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "OS"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "NW": "1",
+              "Result": "...",
+              "NB": "4",
+              "Black Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "NW": "2",
+              "Result": "...",
+              "NB": "3",
+              "Black Player": {
+                "id": "",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            }
+          ]
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "NW": "3",
+              "Result": "...",
+              "NB": "8",
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "NW": "4",
+              "Result": "...",
+              "NB": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "OS",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Wongso,Renaldo",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "NW": "5",
+              "Result": "...",
+              "NB": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "NW": "6",
+              "Result": "...",
+              "NB": "7",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            }
+          ]
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "NW": "8",
+              "Result": "...",
+              "NB": "7",
+              "Black Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "NW": "1",
+              "Result": "...",
+              "NB": "6",
+              "Black Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "NW": "2",
+              "Result": "...",
+              "NB": "5",
+              "Black Player": {
+                "id": "",
+                "playerName": "Wongso,Renaldo",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "OS"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "NW": "3",
+              "Result": "...",
+              "NB": "4",
+              "Black Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            }
+          ]
+        },
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "NW",
+              "key": "NW"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "NB",
+              "key": "NB"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "NW": "4",
+              "Result": "...",
+              "NB": "8",
+              "Black Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "OS",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Wongso,Renaldo",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "NW": "5",
+              "Result": "...",
+              "NB": "3",
+              "Black Player": {
+                "id": "",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Pasukov,Leo",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "NW": "6",
+              "Result": "...",
+              "NB": "2",
+              "Black Player": {
+                "id": "",
+                "playerName": "CM Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "NW": "7",
+              "Result": "...",
+              "NB": "1",
+              "Black Player": {
+                "id": "",
+                "playerName": "McIntyre,Julian",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            }
+          ]
+        }
+      ],
+      "tournamentType": "individual"
+    },
+    "standings.html": {
+      "pageHeading": "Standings at round 0",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Pos",
+              "key": "Pos"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "SB",
+              "key": "SB"
+            }
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Player": {
+                "id": "1",
+                "playerName": "McIntyre,Julian",
+                "gender": "male",
+                "href": "playercard.html#1",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1555",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "2",
+              "Player": {
+                "id": "2",
+                "playerName": "Davis,Tony J",
+                "gender": "male",
+                "href": "playercard.html#2",
+                "title": "CM",
+                "federation": "VIC",
+                "rating": "1735",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "3",
+              "Player": {
+                "id": "3",
+                "playerName": "Krishnan,Anirudh",
+                "gender": "male",
+                "href": "playercard.html#3",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1733",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "4",
+              "Player": {
+                "id": "4",
+                "playerName": "Whitford,Matthew",
+                "gender": "male",
+                "href": "playercard.html#4",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1495",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "5",
+              "Player": {
+                "id": "5",
+                "playerName": "Wongso,Renaldo",
+                "gender": "male",
+                "href": "playercard.html#5",
+                "title": "",
+                "federation": "OS",
+                "rating": "1632",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "6",
+              "Player": {
+                "id": "6",
+                "playerName": "Pasukov,Leo",
+                "gender": "male",
+                "href": "playercard.html#6",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1458",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "7",
+              "Player": {
+                "id": "7",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "male",
+                "href": "playercard.html#7",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1706",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "8",
+              "Player": {
+                "id": "8",
+                "playerName": "Hogan,Steven",
+                "gender": "male",
+                "href": "playercard.html#8",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1385",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin": "",
+              "Pts": "0.0",
+              "SB": "0.0"
             }
           ],
           "footer": {
-            "text": "Rating legend: Rtg: Rating used for pairing and standings - RtgF: Fide Rating - RtgN: National Rating",
-            "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
+            "text": "Tie Break legend:     SB  :  Sonneborn-Berger",
+            "html": "Tie Break legend:<br>     SB  :  Sonneborn-Berger <br>"
           }
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "tourstat.html": {
+      "pageHeading": "Tournament summary",
+      "tables": [
+        {
+          "headers": [],
+          "rows": [
+            {
+              "col1": "Tournament Name",
+              "col2": "2025 Hobsons Bay Club Championship"
+            },
+            {
+              "col1": "Place",
+              "col2": "Hobsons Bay"
+            },
+            {
+              "col1": "Federation",
+              "col2": "AUS"
+            },
+            {
+              "col1": "Date Begin",
+              "col2": "14/10/2025"
+            },
+            {
+              "col1": "Date End",
+              "col2": "09/12/2025"
+            },
+            {
+              "col1": "Arbiter(s)",
+              "col2": "IA Goh, Casey (AUS) (SI,LSI) 3251098 (VIC)"
+            },
+            {
+              "col1": "Play System",
+              "col2": "Single Round Robin"
+            },
+            {
+              "col1": "Rounds",
+              "col2": "7"
+            },
+            {
+              "col1": "Score game",
+              "col2": "0-0.5-1"
+            },
+            {
+              "col1": "Tie break",
+              "col2": "SB"
+            },
+            {
+              "col1": "Registered Players",
+              "col2": "8"
+            },
+            {
+              "col1": "Number of Federations",
+              "col2": "2"
+            },
+            {
+              "col1": "Average Rating (all)",
+              "col2": "1587"
+            },
+            {
+              "col1": "Average Rating (only FIDE rated)",
+              "col2": "0"
+            },
+            {
+              "col1": "Players from AUS Federation",
+              "col2": "1"
+            },
+            {
+              "col1": "Players NOT from AUS Federation",
+              "col2": "7"
+            },
+            {
+              "col1": "FIDE rated players",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players",
+              "col2": "8"
+            },
+            {
+              "col1": "unrated players from AUS Federation",
+              "col2": "1"
+            },
+            {
+              "col1": "unrated players NOT from AUS Federation",
+              "col2": "7"
+            },
+            {
+              "col1": "unrated Federations",
+              "col2": "2"
+            },
+            {
+              "col1": "FIDE titled players",
+              "col2": "1"
+            },
+            {
+              "col1": "GM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WGM players",
+              "col2": "0"
+            },
+            {
+              "col1": "IM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WIM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WFM players",
+              "col2": "0"
+            },
+            {
+              "col1": "CM players",
+              "col2": "1"
+            },
+            {
+              "col1": "WCM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player NOT from AUS Federation",
+              "col2": "1"
+            }
+          ]
         }
       ],
       "tournamentType": "unknown"
@@ -123,13 +2724,90 @@
   "playerLookup": {
     "1": {
       "id": "1",
+      "playerName": "McIntyre,Julian",
+      "title": "",
+      "federation": "VIC",
+      "rating": "1555",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#1",
+      "moreInfo": {}
+    },
+    "2": {
+      "id": "2",
+      "playerName": "Davis,Tony J",
+      "title": "CM",
+      "federation": "VIC",
+      "rating": "1735",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#2",
+      "moreInfo": {}
+    },
+    "3": {
+      "id": "3",
+      "playerName": "Krishnan,Anirudh",
+      "title": "",
+      "federation": "VIC",
+      "rating": "1733",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#3",
+      "moreInfo": {}
+    },
+    "4": {
+      "id": "4",
+      "playerName": "Whitford,Matthew",
+      "title": "",
+      "federation": "VIC",
+      "rating": "1495",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#4",
+      "moreInfo": {}
+    },
+    "5": {
+      "id": "5",
+      "playerName": "Wongso,Renaldo",
+      "title": "",
+      "federation": "OS",
+      "rating": "1632",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#5",
+      "moreInfo": {}
+    },
+    "6": {
+      "id": "6",
+      "playerName": "Pasukov,Leo",
+      "title": "",
+      "federation": "VIC",
+      "rating": "1458",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#6",
+      "moreInfo": {}
+    },
+    "7": {
+      "id": "7",
+      "playerName": "Nguyen,Anh Kiet",
+      "title": "",
+      "federation": "VIC",
+      "rating": "1706",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#7",
+      "moreInfo": {}
+    },
+    "8": {
+      "id": "8",
       "playerName": "Hogan,Steven",
       "title": "",
       "federation": "VIC",
-      "rating": "1515",
+      "rating": "1385",
       "gender": "male",
       "fideId": "",
-      "href": "http://ratings.fide.com/card.phtml?event=3201414",
+      "href": "playercard.html#8",
       "moreInfo": {}
     }
   },
@@ -151,41 +2829,180 @@
     },
     {
       "text": "Players",
+      "href": "index.html",
+      "isDropdown": true,
+      "children": []
+    },
+    {
+      "text": "Pairings",
+      "href": "pairs1.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Standings",
+      "href": "#",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Tables",
       "href": "#",
       "isDropdown": true,
       "children": [
         {
-          "text": "Sorted by Rating",
-          "href": "index.html"
+          "text": "Cross table by score",
+          "href": "sortedcrosstable.html"
+        }
+      ]
+    },
+    {
+      "text": "Games",
+      "href": "games.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Reports",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "FIDE Rating",
+          "href": "felovar.html"
         },
         {
-          "text": "Sorted by Name",
-          "href": "playersname.html"
+          "text": "FIDE Player Card",
+          "href": "fideplayercard.html"
+        },
+        {
+          "text": "National rating",
+          "href": "nelovar.html"
+        },
+        {
+          "text": "National Player Card",
+          "href": "playercard.html"
         }
       ]
     }
   ],
   "players": [
     {
-      "#": "1",
-      "Player": {
-        "id": "",
-        "playerName": "Hogan,Steven",
-        "gender": "male",
-        "href": "http://ratings.fide.com/card.phtml?event=3201414",
-        "title": ""
-      },
+      "#": "2",
+      "Title": "CM",
+      "Player": "Davis,Tony J",
       "Fed": "VIC",
       "Origin": "",
-      "Rtg": "1515",
+      "Rtg": "1735",
       "RtgF": "0",
-      "RtgN": "1515"
+      "RtgN": "1735"
+    },
+    {
+      "#": "3",
+      "Title": "",
+      "Player": "Krishnan,Anirudh",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "1733",
+      "RtgF": "0",
+      "RtgN": "1733"
+    },
+    {
+      "#": "7",
+      "Title": "",
+      "Player": "Nguyen,Anh Kiet",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "1706",
+      "RtgF": "0",
+      "RtgN": "1706"
+    },
+    {
+      "#": "5",
+      "Title": "",
+      "Player": "Wongso,Renaldo",
+      "Fed": "OS",
+      "Origin": "",
+      "Rtg": "1632",
+      "RtgF": "0",
+      "RtgN": "1632"
+    },
+    {
+      "#": "1",
+      "Title": "",
+      "Player": "McIntyre,Julian",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "1555",
+      "RtgF": "0",
+      "RtgN": "1555"
+    },
+    {
+      "#": "4",
+      "Title": "",
+      "Player": "Whitford,Matthew",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "1495",
+      "RtgF": "0",
+      "RtgN": "1495"
+    },
+    {
+      "#": "6",
+      "Title": "",
+      "Player": "Pasukov,Leo",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "1458",
+      "RtgF": "0",
+      "RtgN": "1458"
+    },
+    {
+      "#": "8",
+      "Title": "",
+      "Player": "Hogan,Steven",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "1385",
+      "RtgF": "0",
+      "RtgN": "1385"
     }
   ],
   "category": "Senior",
   "metadata": {
     "Tournament Name": "2025 Hobsons Bay Club Championship",
+    "Place": "Hobsons Bay",
+    "Federation": "AUS",
+    "Date Begin": "14/10/2025",
+    "Date End": "09/12/2025",
+    "Arbiter(s)": "IA Goh, Casey (AUS) (SI,LSI) 3251098 (VIC)",
+    "Play System": "Single Round Robin",
+    "Rounds": "7",
+    "Score game": "0-0.5-1",
+    "Tie break": "SB",
+    "Registered Players": "8",
+    "Number of Federations": "2",
+    "Average Rating (all)": "1587",
+    "Average Rating (only FIDE rated)": "0",
+    "Players from AUS Federation": "1",
+    "Players NOT from AUS Federation": "7",
+    "FIDE rated players": "0",
+    "unrated players": "8",
+    "unrated players from AUS Federation": "1",
+    "unrated players NOT from AUS Federation": "7",
+    "unrated Federations": "2",
+    "FIDE titled players": "1",
+    "GM players": "0",
+    "WGM players": "0",
+    "IM players": "0",
+    "WIM players": "0",
+    "FM players": "0",
+    "WFM players": "0",
+    "CM players": "1",
+    "WCM players": "0",
+    "FIDE titled player from AUS Federation": "0",
+    "FIDE titled player NOT from AUS Federation": "1",
     "category": "Senior"
   },
-  "md5Hash": "57c7de152afe183779477e8b70a4f264"
+  "md5Hash": "ecb5a1fe5e96ae8980dd23580774bd1a"
 }
