@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-15T04:29:51.148Z",
+  "generatedAt": "2025-10-15T04:39:14.899Z",
   "tournament": {
     "id": "2025-hobsons-bay-club-championship",
     "name": "2025 Hobsons Bay Club Championship",
@@ -835,39 +835,8 @@
       "tournamentType": "unknown"
     },
     "nelovar.html": {
-      "pageHeading": "National rating at round 1",
-      "tables": [
-        {
-          "headers": [
-            {
-              "name": "N",
-              "key": "N"
-            },
-            {
-              "name": "Name",
-              "key": "Name"
-            },
-            {
-              "name": "K",
-              "key": "K"
-            },
-            {
-              "name": "Elo",
-              "key": "Elo"
-            },
-            {
-              "name": "Var",
-              "key": "Var"
-            },
-            {
-              "name": "Per",
-              "key": "Per"
-            }
-          ],
-          "rows": [],
-          "type": "other"
-        }
-      ],
+      "pageHeading": "",
+      "tables": [],
       "tournamentType": "unknown"
     },
     "pairing.html": {
@@ -929,7 +898,7 @@
               "Fed": "VIC",
               "White Player": "2",
               "Pts": "0",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "0",
               "Black Player": "7",
               "Fed_1": "VIC"
@@ -958,7 +927,7 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 1, at 17:30 of 14/10/2025",
+      "pairingScheduleText": "Pairing of round 1, at 19:30 of 14/10/2025",
       "tournamentType": "individual"
     },
     "playercard.html": {
@@ -2716,5 +2685,5 @@
       ]
     }
   ],
-  "md5Hash": "de48e19074a037e31c82004bc1f08ecf"
+  "md5Hash": "8275598e2ab5c22f1469446f71ffd387"
 }

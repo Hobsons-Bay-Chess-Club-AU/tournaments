@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-15T04:29:51.089Z",
+  "generatedAt": "2025-10-15T04:39:14.844Z",
   "page": {
     "calendarroundrobin.html": {
       "pageHeading": "Schedule",
@@ -673,38 +673,8 @@
       "tournamentType": "unknown"
     },
     "nelovar.html": {
-      "pageHeading": "National rating at round 1",
-      "tables": [
-        {
-          "headers": [
-            {
-              "name": "N",
-              "key": "N"
-            },
-            {
-              "name": "Name",
-              "key": "Name"
-            },
-            {
-              "name": "K",
-              "key": "K"
-            },
-            {
-              "name": "Elo",
-              "key": "Elo"
-            },
-            {
-              "name": "Var",
-              "key": "Var"
-            },
-            {
-              "name": "Per",
-              "key": "Per"
-            }
-          ],
-          "rows": []
-        }
-      ],
+      "pageHeading": "",
+      "tables": [],
       "tournamentType": "unknown"
     },
     "pairing.html": {
@@ -796,7 +766,7 @@
                 "moreInfo": {}
               },
               "Pts": "0",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "0",
               "Black Player": {
                 "id": "7",
@@ -874,7 +844,7 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 1, at 17:30 of 14/10/2025",
+      "pairingScheduleText": "Pairing of round 1, at 19:30 of 14/10/2025",
       "tournamentType": "individual"
     },
     "playercard.html": {
@@ -2894,5 +2864,5 @@
     "FIDE titled player NOT from AUS Federation": "1",
     "category": "Senior"
   },
-  "md5Hash": "3893c36ce37f48dda89bd38b91b70d22"
+  "md5Hash": "8c66b563d47fe6a3c56536fdf0098a42"
 }
