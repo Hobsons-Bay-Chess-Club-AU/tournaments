@@ -1,39 +1,604 @@
 {
-  "generatedAt": "2025-10-14T23:57:04.069Z",
+  "generatedAt": "2025-10-15T04:35:18.098Z",
   "tournament": {
     "id": "2025-hobsons-bay-reserves-championship",
     "name": "2025 Hobsons Bay Reserves Championship",
     "category": "Senior",
     "metadata": {
       "Tournament Name": "2025 Hobsons Bay Reserves Championship",
+      "Place": "Hobsons Bay Chess Club",
+      "Federation": "AUS",
+      "Date Begin": "14/10/2025",
+      "Date End": "09/12/2025",
+      "Arbiter(s)": "NA Dwyer, Lachlan (AUS) 3254119 (VIC)",
+      "Play System": "swiss FIDE Dutch (JaVaFo)",
+      "Rounds": "7",
+      "Score game": "0-0.5-1",
+      "Tie break": "BH BH/C1 SB",
+      "Registered Players": "22",
+      "Number of Federations": "1",
+      "Average Rating (all)": "1219",
+      "Average Rating (only FIDE rated)": "0",
+      "Players from AUS Federation": "0",
+      "Players NOT from AUS Federation": "22",
+      "FIDE rated players": "0",
+      "unrated players": "22",
+      "unrated players from AUS Federation": "0",
+      "unrated players NOT from AUS Federation": "22",
+      "unrated Federations": "1",
+      "FIDE titled players": "0",
+      "GM players": "0",
+      "WGM players": "0",
+      "IM players": "0",
+      "WIM players": "0",
+      "FM players": "0",
+      "WFM players": "0",
+      "CM players": "0",
+      "WCM players": "0",
+      "FIDE titled player from AUS Federation": "0",
+      "FIDE titled player NOT from AUS Federation": "0",
       "category": "Senior",
       "tournamentName": "2025 Hobsons Bay Reserves Championship",
-      "rounds": 0,
-      "registeredPlayers": 0,
-      "averageRating": 0,
+      "federation": "AUS",
+      "dateBegin": "14/10/2025",
+      "dateEnd": "09/12/2025",
+      "arbiters": "NA Dwyer, Lachlan (AUS) 3254119 (VIC)",
+      "playSystem": "swiss FIDE Dutch (JaVaFo)",
+      "rounds": 7,
+      "scoreGame": "0-0.5-1",
+      "tieBreak": "BH BH/C1 SB",
+      "registeredPlayers": 22,
+      "averageRating": 1219,
       "averageRatingFide": 0,
       "fideRatedPlayers": 0,
-      "unratedPlayers": 0,
+      "unratedPlayers": 22,
       "fideTitledPlayers": 0
     }
   },
   "players": [
     {
       "id": "1",
-      "name": "Hogan,Steven",
+      "name": "Hibberd,Nathan",
       "title": "",
       "federation": "VIC",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
       "gender": "male",
-      "href": "http://ratings.fide.com/card.phtml?event=3201414",
+      "href": "playercard.html#1",
+      "origin": ""
+    },
+    {
+      "id": "2",
+      "name": "Paul,Cijo",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#2",
+      "origin": ""
+    },
+    {
+      "id": "3",
+      "name": "Hari,Dhruv",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#3",
+      "origin": ""
+    },
+    {
+      "id": "4",
+      "name": "Davis,Sophie",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "female",
+      "href": "playercard.html#4",
+      "origin": ""
+    },
+    {
+      "id": "5",
+      "name": "Bodke,Krishna",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#5",
+      "origin": ""
+    },
+    {
+      "id": "6",
+      "name": "Martin,Jamie R",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#6",
+      "origin": ""
+    },
+    {
+      "id": "7",
+      "name": "Paul,Nikash",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#7",
+      "origin": ""
+    },
+    {
+      "id": "8",
+      "name": "Picone,James",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#8",
+      "origin": ""
+    },
+    {
+      "id": "9",
+      "name": "Nowak,Ruben",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#9",
+      "origin": ""
+    },
+    {
+      "id": "10",
+      "name": "Salanowski,Mark",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#10",
+      "origin": ""
+    },
+    {
+      "id": "11",
+      "name": "Matijas,Dejan",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#11",
+      "origin": ""
+    },
+    {
+      "id": "12",
+      "name": "Nawar,Mena",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#12",
+      "origin": ""
+    },
+    {
+      "id": "13",
+      "name": "Wilkinson,Greg",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#13",
+      "origin": ""
+    },
+    {
+      "id": "14",
+      "name": "Annadasu,Shreyansh",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#14",
+      "origin": ""
+    },
+    {
+      "id": "15",
+      "name": "Yendru,Srikrishna",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#15",
+      "origin": ""
+    },
+    {
+      "id": "16",
+      "name": "Veginati,Cherish",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#16",
+      "origin": ""
+    },
+    {
+      "id": "17",
+      "name": "Clerk,Max",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#17",
+      "origin": ""
+    },
+    {
+      "id": "18",
+      "name": "Marasinghe,Claire",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "female",
+      "href": "playercard.html#18",
+      "origin": ""
+    },
+    {
+      "id": "19",
+      "name": "Kostakakis,Angelo",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#19",
+      "origin": ""
+    },
+    {
+      "id": "20",
+      "name": "Nicdao,Joseph",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#20",
+      "origin": ""
+    },
+    {
+      "id": "21",
+      "name": "Vemula,Thamoghna",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#21",
+      "origin": ""
+    },
+    {
+      "id": "22",
+      "name": "Sheikh,Tahmid",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#22",
       "origin": ""
     }
   ],
   "pages": {
-    "index.html": {
-      "pageHeading": "Registered players sorted by rating and title",
+    "crosstable.html": {
+      "pageHeading": "Cross Table at round 1",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "1",
+              "key": "1"
+            }
+          ],
+          "rows": [
+            {
+              "1": {
+                "result": "1",
+                "whiteOpponent": "12",
+                "blackOpponent": null
+              },
+              "Player": "1",
+              "Rtg": "1832",
+              "Fed": "VIC",
+              "Pts": "1.0"
+            },
+            {
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "13"
+              },
+              "Player": "2",
+              "Rtg": "1610",
+              "Fed": "VIC",
+              "Pts": "0.5"
+            },
+            {
+              "1": {
+                "result": "1",
+                "whiteOpponent": "14",
+                "blackOpponent": null
+              },
+              "Player": "3",
+              "Rtg": "1542",
+              "Fed": "VIC",
+              "Pts": "1.0"
+            },
+            {
+              "1": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "15"
+              },
+              "Player": "4",
+              "Rtg": "1516",
+              "Fed": "VIC",
+              "Pts": "0.0"
+            },
+            {
+              "1": {
+                "result": "1",
+                "whiteOpponent": "16",
+                "blackOpponent": null
+              },
+              "Player": "5",
+              "Rtg": "1511",
+              "Fed": "VIC",
+              "Pts": "1.0"
+            },
+            {
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "Player": "6",
+              "Rtg": "1502",
+              "Fed": "VIC",
+              "Pts": "0.5"
+            },
+            {
+              "1": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "17"
+              },
+              "Player": "7",
+              "Rtg": "1463",
+              "Fed": "VIC",
+              "Pts": "1.0"
+            },
+            {
+              "1": {
+                "result": "0",
+                "whiteOpponent": "19",
+                "blackOpponent": null
+              },
+              "Player": "8",
+              "Rtg": "1449",
+              "Fed": "VIC",
+              "Pts": "0.0"
+            },
+            {
+              "1": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "21"
+              },
+              "Player": "9",
+              "Rtg": "1443",
+              "Fed": "VIC",
+              "Pts": "1.0"
+            },
+            {
+              "1": {
+                "result": "1",
+                "whiteOpponent": "22",
+                "blackOpponent": null
+              },
+              "Player": "10",
+              "Rtg": "1418",
+              "Fed": "VIC",
+              "Pts": "1.0"
+            },
+            {
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "Player": "11",
+              "Rtg": "1364",
+              "Fed": "VIC",
+              "Pts": "0.5"
+            },
+            {
+              "1": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "1"
+              },
+              "Player": "12",
+              "Rtg": "1275",
+              "Fed": "VIC",
+              "Pts": "0.0"
+            },
+            {
+              "1": {
+                "result": "½",
+                "whiteOpponent": "2",
+                "blackOpponent": null
+              },
+              "Player": "13",
+              "Rtg": "1126",
+              "Fed": "VIC",
+              "Pts": "0.5"
+            },
+            {
+              "1": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "3"
+              },
+              "Player": "14",
+              "Rtg": "1111",
+              "Fed": "VIC",
+              "Pts": "0.0"
+            },
+            {
+              "1": {
+                "result": "1",
+                "whiteOpponent": "4",
+                "blackOpponent": null
+              },
+              "Player": "15",
+              "Rtg": "1108",
+              "Fed": "VIC",
+              "Pts": "1.0"
+            },
+            {
+              "1": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "5"
+              },
+              "Player": "16",
+              "Rtg": "1099",
+              "Fed": "VIC",
+              "Pts": "0.0"
+            },
+            {
+              "1": {
+                "result": "0",
+                "whiteOpponent": "7",
+                "blackOpponent": null
+              },
+              "Player": "17",
+              "Rtg": "1040",
+              "Fed": "VIC",
+              "Pts": "0.0"
+            },
+            {
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "Player": "18",
+              "Rtg": "1004",
+              "Fed": "VIC",
+              "Pts": "0.5"
+            },
+            {
+              "1": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "8"
+              },
+              "Player": "19",
+              "Rtg": "1001",
+              "Fed": "VIC",
+              "Pts": "1.0"
+            },
+            {
+              "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "Player": "20",
+              "Rtg": "713",
+              "Fed": "VIC",
+              "Pts": "0.5"
+            },
+            {
+              "1": {
+                "result": "0",
+                "whiteOpponent": "9",
+                "blackOpponent": null
+              },
+              "Player": "21",
+              "Rtg": "685",
+              "Fed": "VIC",
+              "Pts": "0.0"
+            },
+            {
+              "1": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "10"
+              },
+              "Player": "22",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Pts": "0.0"
+            }
+          ],
+          "type": "standings"
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "felovar.html": {
+      "pageHeading": "FIDE rating variation at round 1",
       "tables": [
         {
           "headers": [
@@ -46,12 +611,74 @@
               "key": "Player"
             },
             {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
               "name": "Fed",
               "key": "Fed"
             },
             {
-              "name": "Origin",
-              "key": "Origin"
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "Ng",
+              "key": "Ng"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "ARO",
+              "key": "ARO"
+            },
+            {
+              "name": "var",
+              "key": "var"
+            },
+            {
+              "name": "Rp",
+              "key": "Rp"
+            }
+          ],
+          "rows": [],
+          "type": "standings"
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "fideplayercard.html": {
+      "pageHeading": "FIDE History Cards",
+      "tables": [],
+      "tournamentType": "unknown"
+    },
+    "games.html": {
+      "pageHeading": "",
+      "tables": [],
+      "tournamentType": "unknown"
+    },
+    "index.html": {
+      "pageHeading": "Registered players",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "Title",
+              "key": "Title"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
             },
             {
               "name": "Rtg",
@@ -69,23 +696,1749 @@
           "rows": [
             {
               "#": "1",
-              "Player": {
-                "id": "",
-                "playerName": "Hogan,Steven",
-                "gender": "male",
-                "href": "http://ratings.fide.com/card.phtml?event=3201414",
-                "title": ""
-              },
+              "Title": "",
+              "Player": "Hibberd,Nathan",
               "Fed": "VIC",
-              "Origin": "",
-              "Rtg": "1515",
+              "Rtg": "1832",
               "RtgF": "0",
-              "RtgN": "1515"
+              "RtgN": "1832"
+            },
+            {
+              "#": "2",
+              "Title": "",
+              "Player": "Paul,Cijo",
+              "Fed": "VIC",
+              "Rtg": "1610",
+              "RtgF": "0",
+              "RtgN": "1610"
+            },
+            {
+              "#": "3",
+              "Title": "",
+              "Player": "Hari,Dhruv",
+              "Fed": "VIC",
+              "Rtg": "1542",
+              "RtgF": "0",
+              "RtgN": "1542"
+            },
+            {
+              "#": "4",
+              "Title": "",
+              "Player": "Davis,Sophie",
+              "Fed": "VIC",
+              "Rtg": "1516",
+              "RtgF": "0",
+              "RtgN": "1516"
+            },
+            {
+              "#": "5",
+              "Title": "",
+              "Player": "Bodke,Krishna",
+              "Fed": "VIC",
+              "Rtg": "1511",
+              "RtgF": "0",
+              "RtgN": "1511"
+            },
+            {
+              "#": "6",
+              "Title": "",
+              "Player": "Martin,Jamie R",
+              "Fed": "VIC",
+              "Rtg": "1502",
+              "RtgF": "0",
+              "RtgN": "1502"
+            },
+            {
+              "#": "7",
+              "Title": "",
+              "Player": "Paul,Nikash",
+              "Fed": "VIC",
+              "Rtg": "1463",
+              "RtgF": "0",
+              "RtgN": "1463"
+            },
+            {
+              "#": "8",
+              "Title": "",
+              "Player": "Picone,James",
+              "Fed": "VIC",
+              "Rtg": "1449",
+              "RtgF": "0",
+              "RtgN": "1449"
+            },
+            {
+              "#": "9",
+              "Title": "",
+              "Player": "Nowak,Ruben",
+              "Fed": "VIC",
+              "Rtg": "1443",
+              "RtgF": "0",
+              "RtgN": "1443"
+            },
+            {
+              "#": "10",
+              "Title": "",
+              "Player": "Salanowski,Mark",
+              "Fed": "VIC",
+              "Rtg": "1418",
+              "RtgF": "0",
+              "RtgN": "1418"
+            },
+            {
+              "#": "11",
+              "Title": "",
+              "Player": "Matijas,Dejan",
+              "Fed": "VIC",
+              "Rtg": "1364",
+              "RtgF": "0",
+              "RtgN": "1364"
+            },
+            {
+              "#": "12",
+              "Title": "",
+              "Player": "Nawar,Mena",
+              "Fed": "VIC",
+              "Rtg": "1275",
+              "RtgF": "0",
+              "RtgN": "1275"
+            },
+            {
+              "#": "13",
+              "Title": "",
+              "Player": "Wilkinson,Greg",
+              "Fed": "VIC",
+              "Rtg": "1126",
+              "RtgF": "0",
+              "RtgN": "1126"
+            },
+            {
+              "#": "14",
+              "Title": "",
+              "Player": "Annadasu,Shreyansh",
+              "Fed": "VIC",
+              "Rtg": "1111",
+              "RtgF": "0",
+              "RtgN": "1111"
+            },
+            {
+              "#": "15",
+              "Title": "",
+              "Player": "Yendru,Srikrishna",
+              "Fed": "VIC",
+              "Rtg": "1108",
+              "RtgF": "0",
+              "RtgN": "1108"
+            },
+            {
+              "#": "16",
+              "Title": "",
+              "Player": "Veginati,Cherish",
+              "Fed": "VIC",
+              "Rtg": "1099",
+              "RtgF": "0",
+              "RtgN": "1099"
+            },
+            {
+              "#": "17",
+              "Title": "",
+              "Player": "Clerk,Max",
+              "Fed": "VIC",
+              "Rtg": "1040",
+              "RtgF": "0",
+              "RtgN": "1040"
+            },
+            {
+              "#": "18",
+              "Title": "",
+              "Player": "Marasinghe,Claire",
+              "Fed": "VIC",
+              "Rtg": "1004",
+              "RtgF": "0",
+              "RtgN": "1004"
+            },
+            {
+              "#": "19",
+              "Title": "",
+              "Player": "Kostakakis,Angelo",
+              "Fed": "VIC",
+              "Rtg": "1001",
+              "RtgF": "0",
+              "RtgN": "1001"
+            },
+            {
+              "#": "20",
+              "Title": "",
+              "Player": "Nicdao,Joseph",
+              "Fed": "VIC",
+              "Rtg": "713",
+              "RtgF": "0",
+              "RtgN": "713"
+            },
+            {
+              "#": "21",
+              "Title": "",
+              "Player": "Vemula,Thamoghna",
+              "Fed": "VIC",
+              "Rtg": "685",
+              "RtgF": "0",
+              "RtgN": "685"
+            },
+            {
+              "#": "22",
+              "Title": "",
+              "Player": "Sheikh,Tahmid",
+              "Fed": "VIC",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
             }
           ],
           "footer": {
             "text": "Rating legend: Rtg: Rating used for pairing and standings - RtgF: Fide Rating - RtgN: National Rating",
             "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
+          },
+          "type": "other"
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "nelovar.html": {
+      "pageHeading": "National rating at round 1",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Name",
+              "key": "Name"
+            },
+            {
+              "name": "K",
+              "key": "K"
+            },
+            {
+              "name": "Elo",
+              "key": "Elo"
+            },
+            {
+              "name": "Var",
+              "key": "Var"
+            },
+            {
+              "name": "Per",
+              "key": "Per"
+            }
+          ],
+          "rows": [],
+          "type": "other"
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "pairing.html": {
+      "pageHeading": "",
+      "tables": [],
+      "tournamentType": "unknown"
+    },
+    "pairs1.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": "1",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Pts_1": "0",
+              "Black Player": "12",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": "13",
+              "Pts": "0",
+              "Result": "½ - ½",
+              "Pts_1": "0",
+              "Black Player": "2",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": "3",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Pts_1": "0",
+              "Black Player": "14",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": "15",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Pts_1": "0",
+              "Black Player": "4",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "VIC",
+              "White Player": "5",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Pts_1": "0",
+              "Black Player": "16",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "VIC",
+              "White Player": "17",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Pts_1": "0",
+              "Black Player": "7",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "VIC",
+              "White Player": "8",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Pts_1": "0",
+              "Black Player": "19",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "8",
+              "Fed": "VIC",
+              "White Player": "21",
+              "Pts": "0",
+              "Result": "0 - 1",
+              "Pts_1": "0",
+              "Black Player": "9",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "9",
+              "Fed": "VIC",
+              "White Player": "10",
+              "Pts": "0",
+              "Result": "1 - 0",
+              "Pts_1": "0",
+              "Black Player": "22",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "10",
+              "Fed": "VIC",
+              "White Player": "6",
+              "Pts": "0",
+              "Result": "½",
+              "Pts_1": "0",
+              "Black Player": "( half point bye )",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "11",
+              "Fed": "VIC",
+              "White Player": "11",
+              "Pts": "0",
+              "Result": "½",
+              "Pts_1": "0",
+              "Black Player": "( half point bye )",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "12",
+              "Fed": "VIC",
+              "White Player": "18",
+              "Pts": "0",
+              "Result": "½",
+              "Pts_1": "0",
+              "Black Player": "( half point bye )",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "13",
+              "Fed": "VIC",
+              "White Player": "20",
+              "Pts": "0",
+              "Result": "½",
+              "Pts_1": "0",
+              "Black Player": "( half point bye )",
+              "Fed_1": ""
+            }
+          ],
+          "type": "pairing"
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 1, at 19:30 of 14/10/2025",
+      "tournamentType": "individual"
+    },
+    "playercard.html": {
+      "pageHeading": "National History Cards",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "12",
+              "Cat": "",
+              "OPPONENT": "Nawar,Mena",
+              "Rtg": "1275",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Hibberd,Nathan",
+            "id": "3121094",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1832",
+              "anchor": "1"
+            },
+            "rawText": "1   Hibberd,Nathan      , K= 0, Elo=1832, ID=3121094",
+            "rawHtml": "   1   <strong>Hibberd,Nathan      </strong>, K= 0, Elo=1832, ID=3121094\n<br>\n<a class=\"anchor\" name=\"1\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "13",
+              "Cat": "",
+              "OPPONENT": "Wilkinson,Greg",
+              "Rtg": "1126",
+              "res": "0.5",
+              "Pts": "0.5"
+            }
+          ],
+          "caption": {
+            "playerName": "Paul,Cijo",
+            "id": "3194913",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1610",
+              "anchor": "2"
+            },
+            "rawText": "2   Paul,Cijo           , K= 0, Elo=1610, ID=3194913",
+            "rawHtml": "   2   <strong>Paul,Cijo           </strong>, K= 0, Elo=1610, ID=3194913\n<br>\n<a class=\"anchor\" name=\"2\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "14",
+              "Cat": "",
+              "OPPONENT": "Annadasu,Shreyansh",
+              "Rtg": "1111",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Hari,Dhruv",
+            "id": "3195311",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1542",
+              "anchor": "3"
+            },
+            "rawText": "3   Hari,Dhruv          , K= 0, Elo=1542, ID=3195311",
+            "rawHtml": "   3   <strong>Hari,Dhruv          </strong>, K= 0, Elo=1542, ID=3195311\n<br>\n<a class=\"anchor\" name=\"3\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "15",
+              "Cat": "",
+              "OPPONENT": "Yendru,Srikrishna",
+              "Rtg": "1108",
+              "res": "0.0",
+              "Pts": "1.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Davis,Sophie",
+            "id": "3138303",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1516",
+              "anchor": "4"
+            },
+            "rawText": "4   Davis,Sophie        , K= 0, Elo=1516, ID=3138303",
+            "rawHtml": "   4   <strong>Davis,Sophie        </strong>, K= 0, Elo=1516, ID=3138303\n<br>\n<a class=\"anchor\" name=\"4\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "16",
+              "Cat": "",
+              "OPPONENT": "Veginati,Cherish",
+              "Rtg": "1099",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Bodke,Krishna",
+            "id": "3202576",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1511",
+              "anchor": "5"
+            },
+            "rawText": "5   Bodke,Krishna       , K= 0, Elo=1511, ID=3202576",
+            "rawHtml": "   5   <strong>Bodke,Krishna       </strong>, K= 0, Elo=1511, ID=3202576\n<br>\n<a class=\"anchor\" name=\"5\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.5",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Martin,Jamie R",
+            "id": "5193852",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1502",
+              "anchor": "6"
+            },
+            "rawText": "6   Martin,Jamie R      , K= 0, Elo=1502, ID=5193852",
+            "rawHtml": "   6   <strong>Martin,Jamie R      </strong>, K= 0, Elo=1502, ID=5193852\n<br>\n<a class=\"anchor\" name=\"6\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "17",
+              "Cat": "",
+              "OPPONENT": "Clerk,Max",
+              "Rtg": "1040",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Paul,Nikash",
+            "id": "3200244",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1463",
+              "anchor": "7"
+            },
+            "rawText": "7   Paul,Nikash         , K= 0, Elo=1463, ID=3200244",
+            "rawHtml": "   7   <strong>Paul,Nikash         </strong>, K= 0, Elo=1463, ID=3200244\n<br>\n<a class=\"anchor\" name=\"7\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "19",
+              "Cat": "",
+              "OPPONENT": "Kostakakis,Angelo",
+              "Rtg": "1001",
+              "res": "0.0",
+              "Pts": "1.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Picone,James",
+            "id": "5206812",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1449",
+              "anchor": "8"
+            },
+            "rawText": "8   Picone,James        , K= 0, Elo=1449, ID=5206812",
+            "rawHtml": "   8   <strong>Picone,James        </strong>, K= 0, Elo=1449, ID=5206812\n<br>\n<a class=\"anchor\" name=\"8\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "21",
+              "Cat": "",
+              "OPPONENT": "Vemula,Thamoghna",
+              "Rtg": "685",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Nowak,Ruben",
+            "id": "3127464",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1443",
+              "anchor": "9"
+            },
+            "rawText": "9   Nowak,Ruben         , K= 0, Elo=1443, ID=3127464",
+            "rawHtml": "   9   <strong>Nowak,Ruben         </strong>, K= 0, Elo=1443, ID=3127464\n<br>\n<a class=\"anchor\" name=\"9\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "22",
+              "Cat": "",
+              "OPPONENT": "Sheikh,Tahmid",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Salanowski,Mark",
+            "id": "3084291",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1418",
+              "anchor": "10"
+            },
+            "rawText": "10   Salanowski,Mark     , K= 0, Elo=1418, ID=3084291",
+            "rawHtml": "  10   <strong>Salanowski,Mark     </strong>, K= 0, Elo=1418, ID=3084291\n<br>\n<a class=\"anchor\" name=\"10\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.5",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Matijas,Dejan",
+            "id": "3194880",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1364",
+              "anchor": "11"
+            },
+            "rawText": "11   Matijas,Dejan       , K= 0, Elo=1364, ID=3194880",
+            "rawHtml": "  11   <strong>Matijas,Dejan       </strong>, K= 0, Elo=1364, ID=3194880\n<br>\n<a class=\"anchor\" name=\"11\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Hibberd,Nathan",
+              "Rtg": "1832",
+              "res": "0.0",
+              "Pts": "1.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Nawar,Mena",
+            "id": "3191633",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1275",
+              "anchor": "12"
+            },
+            "rawText": "12   Nawar,Mena          , K= 0, Elo=1275, ID=3191633",
+            "rawHtml": "  12   <strong>Nawar,Mena          </strong>, K= 0, Elo=1275, ID=3191633\n<br>\n<a class=\"anchor\" name=\"12\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Paul,Cijo",
+              "Rtg": "1610",
+              "res": "0.5",
+              "Pts": "0.5"
+            }
+          ],
+          "caption": {
+            "playerName": "Wilkinson,Greg",
+            "id": "3200620",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1126",
+              "anchor": "13"
+            },
+            "rawText": "13   Wilkinson,Greg      , K= 0, Elo=1126, ID=3200620",
+            "rawHtml": "  13   <strong>Wilkinson,Greg      </strong>, K= 0, Elo=1126, ID=3200620\n<br>\n<a class=\"anchor\" name=\"13\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Hari,Dhruv",
+              "Rtg": "1542",
+              "res": "0.0",
+              "Pts": "1.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Annadasu,Shreyansh",
+            "id": "3210254",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1111",
+              "anchor": "14"
+            },
+            "rawText": "14   Annadasu,Shreyansh  , K= 0, Elo=1111, ID=3210254",
+            "rawHtml": "  14   <strong>Annadasu,Shreyansh  </strong>, K= 0, Elo=1111, ID=3210254\n<br>\n<a class=\"anchor\" name=\"14\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Davis,Sophie",
+              "Rtg": "1516",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Yendru,Srikrishna",
+            "id": "3202252",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1108",
+              "anchor": "15"
+            },
+            "rawText": "15   Yendru,Srikrishna   , K= 0, Elo=1108, ID=3202252",
+            "rawHtml": "  15   <strong>Yendru,Srikrishna   </strong>, K= 0, Elo=1108, ID=3202252\n<br>\n<a class=\"anchor\" name=\"15\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Bodke,Krishna",
+              "Rtg": "1511",
+              "res": "0.0",
+              "Pts": "1.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Veginati,Cherish",
+            "id": "3211466",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1099",
+              "anchor": "16"
+            },
+            "rawText": "16   Veginati,Cherish    , K= 0, Elo=1099, ID=3211466",
+            "rawHtml": "  16   <strong>Veginati,Cherish    </strong>, K= 0, Elo=1099, ID=3211466\n<br>\n<a class=\"anchor\" name=\"16\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Paul,Nikash",
+              "Rtg": "1463",
+              "res": "0.0",
+              "Pts": "1.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Clerk,Max",
+            "id": "3161584",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1040",
+              "anchor": "17"
+            },
+            "rawText": "17   Clerk,Max           , K= 0, Elo=1040, ID=3161584",
+            "rawHtml": "  17   <strong>Clerk,Max           </strong>, K= 0, Elo=1040, ID=3161584\n<br>\n<a class=\"anchor\" name=\"17\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.5",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Marasinghe,Claire",
+            "id": "3206264",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1004",
+              "anchor": "18"
+            },
+            "rawText": "18   Marasinghe,Claire   , K= 0, Elo=1004, ID=3206264",
+            "rawHtml": "  18   <strong>Marasinghe,Claire   </strong>, K= 0, Elo=1004, ID=3206264\n<br>\n<a class=\"anchor\" name=\"18\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Picone,James",
+              "Rtg": "1449",
+              "res": "1.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Kostakakis,Angelo",
+            "id": "3168605",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1001",
+              "anchor": "19"
+            },
+            "rawText": "19   Kostakakis,Angelo   , K= 0, Elo=1001, ID=3168605",
+            "rawHtml": "  19   <strong>Kostakakis,Angelo   </strong>, K= 0, Elo=1001, ID=3168605\n<br>\n<a class=\"anchor\" name=\"19\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.5",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Nicdao,Joseph",
+            "id": "3207782",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "713",
+              "anchor": "20"
+            },
+            "rawText": "20   Nicdao,Joseph       , K= 0, Elo= 713, ID=3207782",
+            "rawHtml": "  20   <strong>Nicdao,Joseph       </strong>, K= 0, Elo= 713, ID=3207782\n<br>\n<a class=\"anchor\" name=\"20\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "W",
+              "N": "9",
+              "Cat": "",
+              "OPPONENT": "Nowak,Ruben",
+              "Rtg": "1443",
+              "res": "0.0",
+              "Pts": "1.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Vemula,Thamoghna",
+            "id": "3218676",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "685",
+              "anchor": "21"
+            },
+            "rawText": "21   Vemula,Thamoghna    , K= 0, Elo= 685, ID=3218676",
+            "rawHtml": "  21   <strong>Vemula,Thamoghna    </strong>, K= 0, Elo= 685, ID=3218676\n<br>\n<a class=\"anchor\" name=\"21\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "B",
+              "N": "10",
+              "Cat": "",
+              "OPPONENT": "Salanowski,Mark",
+              "Rtg": "1418",
+              "res": "0.0",
+              "Pts": "1.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Sheikh,Tahmid",
+            "id": "3220485",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "22"
+            },
+            "rawText": "22   Sheikh,Tahmid       , K= 0, Elo=   0, ID=3220485",
+            "rawHtml": "  22   <strong>Sheikh,Tahmid       </strong>, K= 0, Elo=   0, ID=3220485\n<br>\n<a class=\"anchor\" name=\"22\"></a>"
           },
           "type": "other"
         }
@@ -151,6 +2504,475 @@
         }
       ],
       "tournamentType": "unknown"
+    },
+    "schedule.html": {
+      "pageHeading": "Schedule",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Round",
+              "key": "Round"
+            },
+            {
+              "name": "Time",
+              "key": "Time"
+            },
+            {
+              "name": "Date",
+              "key": "Date"
+            }
+          ],
+          "rows": [
+            {
+              "Round": "1",
+              "Time": "19:30",
+              "Date": "14/10/2025"
+            },
+            {
+              "Round": "2",
+              "Time": "19:30",
+              "Date": "21/10/2025"
+            },
+            {
+              "Round": "3",
+              "Time": "19:30",
+              "Date": "28/10/2025"
+            },
+            {
+              "Round": "4",
+              "Time": "19:30",
+              "Date": "11/11/2025"
+            },
+            {
+              "Round": "5",
+              "Time": "19:30",
+              "Date": "18/11/2025"
+            },
+            {
+              "Round": "6",
+              "Time": "19:30",
+              "Date": "25/11/2025"
+            },
+            {
+              "Round": "7",
+              "Time": "19:30",
+              "Date": "09/12/2025"
+            }
+          ],
+          "type": "other"
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "standings.html": {
+      "pageHeading": "Standings at round 1",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Pos",
+              "key": "Pos"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "BH",
+              "key": "BH"
+            },
+            {
+              "name": "BH/C1",
+              "key": "BH/C1"
+            },
+            {
+              "name": "SB",
+              "key": "SB"
+            }
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Player": "1",
+              "Rtg": "1832",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "2",
+              "Player": "3",
+              "Rtg": "1542",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "3",
+              "Player": "5",
+              "Rtg": "1511",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "4",
+              "Player": "7",
+              "Rtg": "1463",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "5",
+              "Player": "9",
+              "Rtg": "1443",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "6",
+              "Player": "10",
+              "Rtg": "1418",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "7",
+              "Player": "15",
+              "Rtg": "1108",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "8",
+              "Player": "19",
+              "Rtg": "1001",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "9",
+              "Player": "2",
+              "Rtg": "1610",
+              "Fed": "VIC",
+              "Pts": "0.5",
+              "BH": "0.5",
+              "BH/C1": "0.0",
+              "SB": "0.2"
+            },
+            {
+              "Pos": "10",
+              "Player": "6",
+              "Rtg": "1502",
+              "Fed": "VIC",
+              "Pts": "0.5",
+              "BH": "0.5",
+              "BH/C1": "0.0",
+              "SB": "0.2"
+            },
+            {
+              "Pos": "11",
+              "Player": "11",
+              "Rtg": "1364",
+              "Fed": "VIC",
+              "Pts": "0.5",
+              "BH": "0.5",
+              "BH/C1": "0.0",
+              "SB": "0.2"
+            },
+            {
+              "Pos": "12",
+              "Player": "13",
+              "Rtg": "1126",
+              "Fed": "VIC",
+              "Pts": "0.5",
+              "BH": "0.5",
+              "BH/C1": "0.0",
+              "SB": "0.2"
+            },
+            {
+              "Pos": "13",
+              "Player": "18",
+              "Rtg": "1004",
+              "Fed": "VIC",
+              "Pts": "0.5",
+              "BH": "0.5",
+              "BH/C1": "0.0",
+              "SB": "0.2"
+            },
+            {
+              "Pos": "14",
+              "Player": "20",
+              "Rtg": "713",
+              "Fed": "VIC",
+              "Pts": "0.5",
+              "BH": "0.5",
+              "BH/C1": "0.0",
+              "SB": "0.2"
+            },
+            {
+              "Pos": "15",
+              "Player": "4",
+              "Rtg": "1516",
+              "Fed": "VIC",
+              "Pts": "0.0",
+              "BH": "1.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "16",
+              "Player": "8",
+              "Rtg": "1449",
+              "Fed": "VIC",
+              "Pts": "0.0",
+              "BH": "1.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "17",
+              "Player": "12",
+              "Rtg": "1275",
+              "Fed": "VIC",
+              "Pts": "0.0",
+              "BH": "1.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "18",
+              "Player": "14",
+              "Rtg": "1111",
+              "Fed": "VIC",
+              "Pts": "0.0",
+              "BH": "1.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "19",
+              "Player": "16",
+              "Rtg": "1099",
+              "Fed": "VIC",
+              "Pts": "0.0",
+              "BH": "1.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "20",
+              "Player": "17",
+              "Rtg": "1040",
+              "Fed": "VIC",
+              "Pts": "0.0",
+              "BH": "1.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "21",
+              "Player": "21",
+              "Rtg": "685",
+              "Fed": "VIC",
+              "Pts": "0.0",
+              "BH": "1.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            },
+            {
+              "Pos": "22",
+              "Player": "22",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Pts": "0.0",
+              "BH": "1.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
+            }
+          ],
+          "footer": {
+            "text": "Tie Break legend:\n     BH  :  Buchholz \n  BH/C1  :  Buchholz Cut 1 \n     SB  :  Sonneborn-Berger",
+            "html": "Tie Break legend:<br>\n     BH  :  Buchholz <br>\n  BH/C1  :  Buchholz Cut 1 <br>\n     SB  :  Sonneborn-Berger <br>"
+          },
+          "type": "standings"
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "tourstat.html": {
+      "pageHeading": "Tournament summary",
+      "tables": [
+        {
+          "headers": [],
+          "rows": [
+            {
+              "col1": "Tournament Name",
+              "col2": "2025 Hobsons Bay Reserves Championship"
+            },
+            {
+              "col1": "Place",
+              "col2": "Hobsons Bay Chess Club"
+            },
+            {
+              "col1": "Federation",
+              "col2": "AUS"
+            },
+            {
+              "col1": "Date Begin",
+              "col2": "14/10/2025"
+            },
+            {
+              "col1": "Date End",
+              "col2": "09/12/2025"
+            },
+            {
+              "col1": "Arbiter(s)",
+              "col2": "NA Dwyer, Lachlan (AUS) 3254119 (VIC)"
+            },
+            {
+              "col1": "Play System",
+              "col2": "swiss FIDE Dutch (JaVaFo)"
+            },
+            {
+              "col1": "Rounds",
+              "col2": "7"
+            },
+            {
+              "col1": "Score game",
+              "col2": "0-0.5-1"
+            },
+            {
+              "col1": "Tie break",
+              "col2": "BH   BH/C1      SB"
+            },
+            {
+              "col1": "Registered Players",
+              "col2": "22"
+            },
+            {
+              "col1": "Number of Federations",
+              "col2": "1"
+            },
+            {
+              "col1": "Average Rating (all)",
+              "col2": "1219"
+            },
+            {
+              "col1": "Average Rating (only FIDE rated)",
+              "col2": "0"
+            },
+            {
+              "col1": "Players from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "Players NOT from AUS Federation",
+              "col2": "22"
+            },
+            {
+              "col1": "FIDE rated players",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players",
+              "col2": "22"
+            },
+            {
+              "col1": "unrated players from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players NOT from AUS Federation",
+              "col2": "22"
+            },
+            {
+              "col1": "unrated Federations",
+              "col2": "1"
+            },
+            {
+              "col1": "FIDE titled players",
+              "col2": "0"
+            },
+            {
+              "col1": "GM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WGM players",
+              "col2": "0"
+            },
+            {
+              "col1": "IM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WIM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WFM players",
+              "col2": "0"
+            },
+            {
+              "col1": "CM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WCM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player NOT from AUS Federation",
+              "col2": "0"
+            }
+          ],
+          "type": "statistics"
+        }
+      ],
+      "tournamentType": "unknown"
     }
   },
   "menu": [
@@ -171,19 +2993,84 @@
     },
     {
       "text": "Players",
+      "href": "index.html",
+      "isDropdown": true,
+      "children": []
+    },
+    {
+      "text": "Pairings",
+      "href": "pairs1.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Standings",
+      "href": "standings.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Tables",
       "href": "#",
       "isDropdown": true,
       "children": [
         {
-          "text": "Sorted by Rating",
-          "href": "index.html"
+          "text": "Cross table",
+          "href": "crosstable.html"
         },
         {
-          "text": "Sorted by Name",
-          "href": "playersname.html"
+          "text": "Cross table and standings",
+          "href": "crosstablescore.html"
+        },
+        {
+          "text": "Standings by Rtg groups",
+          "href": "rankinggroup.html"
+        },
+        {
+          "text": "Standings by age groups",
+          "href": "rankingagegroup.html"
+        },
+        {
+          "text": "Standings by title",
+          "href": "rankcat.html"
+        },
+        {
+          "text": "Rank Teams",
+          "href": "rankTeams.html"
+        },
+        {
+          "text": "Summary Federations",
+          "href": "summaryFederations.html"
+        },
+        {
+          "text": "Summary Origin",
+          "href": "summaryOrigin.html"
+        }
+      ]
+    },
+    {
+      "text": "Reports",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "FIDE Rating",
+          "href": "felovar.html"
+        },
+        {
+          "text": "FIDE Player Card",
+          "href": "fideplayercard.html"
+        },
+        {
+          "text": "National rating",
+          "href": "nelovar.html"
+        },
+        {
+          "text": "National Player Card",
+          "href": "playercard.html"
         }
       ]
     }
   ],
-  "md5Hash": "5abc86a8264867a93973d84a9e3ad6b6"
+  "md5Hash": "2029dd322ce4e979f5ea11cf6dff068b"
 }
