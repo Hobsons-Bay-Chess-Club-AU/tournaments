@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-15T04:39:14.844Z",
+  "generatedAt": "2025-10-15T04:50:25.888Z",
   "page": {
     "calendarroundrobin.html": {
       "pageHeading": "Schedule",
@@ -44,7 +44,7 @@
               "N": "2",
               "White": "Davis,Tony J",
               "NW": "2",
-              "result": "...",
+              "result": "0 - 1",
               "NB": "7",
               "Black": "Nguyen,Anh Kiet"
             },
@@ -66,11 +66,11 @@
             }
           ],
           "caption": {
-            "playerName": "Pairing round 1  at 17:30 of 14/10/2025",
+            "playerName": "Pairing round 1  at 19:30 of 14/10/2025",
             "id": "",
             "moreInfo": {},
-            "rawText": "Pairing round 1  at 17:30 of 14/10/2025",
-            "rawHtml": "Pairing round 1  at 17:30 of 14/10/2025"
+            "rawText": "Pairing round 1  at 19:30 of 14/10/2025",
+            "rawHtml": "Pairing round 1  at 19:30 of 14/10/2025"
           }
         },
         {
@@ -135,11 +135,11 @@
             }
           ],
           "caption": {
-            "playerName": "Pairing round 1  at 17:30 of 14/10/2025",
+            "playerName": "Pairing round 1  at 19:30 of 14/10/2025",
             "id": "",
             "moreInfo": {},
-            "rawText": "Pairing round 1  at 17:30 of 14/10/2025",
-            "rawHtml": "Pairing round 1  at 17:30 of 14/10/2025"
+            "rawText": "Pairing round 1  at 19:30 of 14/10/2025",
+            "rawHtml": "Pairing round 1  at 19:30 of 14/10/2025"
           }
         },
         {
@@ -204,11 +204,11 @@
             }
           ],
           "caption": {
-            "playerName": "Pairing round 1  at 17:30 of 14/10/2025",
+            "playerName": "Pairing round 1  at 19:30 of 14/10/2025",
             "id": "",
             "moreInfo": {},
-            "rawText": "Pairing round 1  at 17:30 of 14/10/2025",
-            "rawHtml": "Pairing round 1  at 17:30 of 14/10/2025"
+            "rawText": "Pairing round 1  at 19:30 of 14/10/2025",
+            "rawHtml": "Pairing round 1  at 19:30 of 14/10/2025"
           }
         },
         {
@@ -273,11 +273,11 @@
             }
           ],
           "caption": {
-            "playerName": "Pairing round 1  at 17:30 of 14/10/2025",
+            "playerName": "Pairing round 1  at 19:30 of 14/10/2025",
             "id": "",
             "moreInfo": {},
-            "rawText": "Pairing round 1  at 17:30 of 14/10/2025",
-            "rawHtml": "Pairing round 1  at 17:30 of 14/10/2025"
+            "rawText": "Pairing round 1  at 19:30 of 14/10/2025",
+            "rawHtml": "Pairing round 1  at 19:30 of 14/10/2025"
           }
         },
         {
@@ -342,11 +342,11 @@
             }
           ],
           "caption": {
-            "playerName": "Pairing round 1  at 17:30 of 14/10/2025",
+            "playerName": "Pairing round 1  at 19:30 of 14/10/2025",
             "id": "",
             "moreInfo": {},
-            "rawText": "Pairing round 1  at 17:30 of 14/10/2025",
-            "rawHtml": "Pairing round 1  at 17:30 of 14/10/2025"
+            "rawText": "Pairing round 1  at 19:30 of 14/10/2025",
+            "rawHtml": "Pairing round 1  at 19:30 of 14/10/2025"
           }
         },
         {
@@ -411,11 +411,11 @@
             }
           ],
           "caption": {
-            "playerName": "Pairing round 1  at 17:30 of 14/10/2025",
+            "playerName": "Pairing round 1  at 19:30 of 14/10/2025",
             "id": "",
             "moreInfo": {},
-            "rawText": "Pairing round 1  at 17:30 of 14/10/2025",
-            "rawHtml": "Pairing round 1  at 17:30 of 14/10/2025"
+            "rawText": "Pairing round 1  at 19:30 of 14/10/2025",
+            "rawHtml": "Pairing round 1  at 19:30 of 14/10/2025"
           }
         },
         {
@@ -480,11 +480,11 @@
             }
           ],
           "caption": {
-            "playerName": "Pairing round 1  at 17:30 of 14/10/2025",
+            "playerName": "Pairing round 1  at 19:30 of 14/10/2025",
             "id": "",
             "moreInfo": {},
-            "rawText": "Pairing round 1  at 17:30 of 14/10/2025",
-            "rawHtml": "Pairing round 1  at 17:30 of 14/10/2025"
+            "rawText": "Pairing round 1  at 19:30 of 14/10/2025",
+            "rawHtml": "Pairing round 1  at 19:30 of 14/10/2025"
           }
         }
       ],
@@ -673,8 +673,38 @@
       "tournamentType": "unknown"
     },
     "nelovar.html": {
-      "pageHeading": "",
-      "tables": [],
+      "pageHeading": "National rating at round 1",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Name",
+              "key": "Name"
+            },
+            {
+              "name": "K",
+              "key": "K"
+            },
+            {
+              "name": "Elo",
+              "key": "Elo"
+            },
+            {
+              "name": "Var",
+              "key": "Var"
+            },
+            {
+              "name": "Per",
+              "key": "Per"
+            }
+          ],
+          "rows": []
+        }
+      ],
       "tournamentType": "unknown"
     },
     "pairing.html": {
@@ -1351,37 +1381,37 @@
           "rows": [
             {
               "Round": "1",
-              "Time": "17:30",
+              "Time": "19:30",
               "Date": "14/10/2025"
             },
             {
               "Round": "2",
-              "Time": "17:30",
+              "Time": "19:00",
               "Date": "21/10/2025"
             },
             {
               "Round": "3",
-              "Time": "17:30",
+              "Time": "19:00",
               "Date": "28/10/2025"
             },
             {
               "Round": "4",
-              "Time": "17:30",
+              "Time": "19:00",
               "Date": "11/11/2025"
             },
             {
               "Round": "5",
-              "Time": "17:30",
+              "Time": "19:00",
               "Date": "18/11/2025"
             },
             {
               "Round": "6",
-              "Time": "17:30",
+              "Time": "19:00",
               "Date": "25/11/2025"
             },
             {
               "Round": "7",
-              "Time": "17:30",
+              "Time": "19:00",
               "Date": "02/12/2025"
             }
           ]
@@ -1455,7 +1485,7 @@
                 "title": ""
               },
               "NW": "2",
-              "Result": "...",
+              "Result": "0 - 1",
               "NB": "7",
               "Black Player": {
                 "id": "",
@@ -2864,5 +2894,5 @@
     "FIDE titled player NOT from AUS Federation": "1",
     "category": "Senior"
   },
-  "md5Hash": "8c66b563d47fe6a3c56536fdf0098a42"
+  "md5Hash": "22b45a8c1c968c2b0a03116d1692864c"
 }
