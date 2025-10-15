@@ -8,6 +8,22 @@ import KeyValueTable from "@/components/KeyValueTable";
 import PlayerPairingModal from "@/components/PlayerPairingModal";
 import TeamPairingRenderer from "@/components/TeamPairingRenderer";
 
+// Type for team pairing data
+type TeamPairingData = {
+    type: 'team-pairs';
+    tournamentType: string;
+    matches: Array<{
+        matchNumber: string;
+        team1: { country: string; teamName: string; teamScore: string; matchScore: string; };
+        team2: { country: string; teamName: string; teamScore: string; matchScore: string; };
+        boardPairings: Array<{
+            board: string;
+            white: { name: string; rating: string; score: string; };
+            black: { name: string; rating: string; score: string; };
+        }>;
+    }>;
+};
+
 type TableCaption = string | {
     playerName?: string;
     id?: string | number;
@@ -583,7 +599,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                     )}
                                                 </div>
                                             )}
-                                            <TeamPairingRenderer data={table as any} />
+                                            <TeamPairingRenderer data={table as TeamPairingData} />
                                         </div>
                                     );
                                 }
