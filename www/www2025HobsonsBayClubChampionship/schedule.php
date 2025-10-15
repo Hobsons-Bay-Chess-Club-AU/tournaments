@@ -20,22 +20,14 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs1.php" >Pairings</a>
-</li><li class="nav-item"><a class="nav-link" href="#" >Standings</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs2.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
 <ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
- <section id="hero" class="d-flex align-items-center">
-                <div class="container-fluid">
-                    <div class="row items-center">
-                        <div class="col-12">
-                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Club Championship</h1>		    <h5 class="mb-1">Hobsons Bay (AUS)</h5>		    <h5> 14/10/2025 - 09/12/2025</h5>   </div>
- </div> 
- </div>
- </div> 
- </section>
  <section id="main" class="pt-3 mb-auto">
                 <div class="container-fluid">
                     <div class="row">
@@ -44,65 +36,65 @@
   <div class="d-flex flex-column"><h3 class="mb-4 mt-4">Schedule</h3> <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Round</th><th>Time</th><th>Date</th></tr></thead><tr><td>1</td><td>19:30</td><td>14/10/2025</td></tr><tr><td>2</td><td>19:00</td><td>21/10/2025</td></tr><tr><td>3</td><td>19:00</td><td>28/10/2025</td></tr><tr><td>4</td><td>19:00</td><td>11/11/2025</td></tr><tr><td>5</td><td>19:00</td><td>18/11/2025</td></tr><tr><td>6</td><td>19:00</td><td>25/11/2025</td></tr><tr><td>7</td><td>19:00</td><td>02/12/2025</td></tr></table></div><h4>Pairing of round 1, at 19:30 of 14/10/2025</h4>
 <div class="table-responsive"><table class="table table-striped "> 
-<thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#1"> McIntyre,Julian</a> </td><td>1</td> <td class="result"> ... </td><td>8</td><td class="name"> <a href="playercard.php#8"> Hogan,Steven</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#2">CM Davis,Tony J</a> </td><td>2</td> <td class="result">0 - 1</td><td>7</td><td class="name"> <a href="playercard.php#7"> Nguyen,Anh Kiet</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#3"> Krishnan,Anirudh</a> </td><td>3</td> <td class="result"> ... </td><td>6</td><td class="name"> <a href="playercard.php#6"> Pasukov,Leo</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#4"> Whitford,Matthew</a> </td><td>4</td> <td class="result"> ... </td><td>5</td><td class="name"> <a href="playercard.php#5"> Wongso,Renaldo</a></td><td><img class="shadow" src="flag/os.png" alt="OS"></td></tr>
+<thead><tr><th>Bo.</th><th>Fed</th><th>Origin</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Origin</th><th>Fed</th></tr></thead><tbody>
+<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#1"> McIntyre,Julian</a> </td><td>1</td> <td class="result">1 - 0</td><td>8</td><td class="name"> <a href="playercard.php#8"> Hogan,Steven</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#2">CM Davis,Tony J</a> </td><td>2</td> <td class="result">0 - 1</td><td>7</td><td class="name"> <a href="playercard.php#7"> Nguyen,Anh Kiet</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#3"> Krishnan,Anirudh</a> </td><td>3</td> <td class="result">½ - ½</td><td>6</td><td class="name"> <a href="playercard.php#6"> Pasukov,Leo</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#4"> Whitford,Matthew</a> </td><td>4</td> <td class="result">0 - 1</td><td>5</td><td class="name"> <a href="playercard.php#5"> Wongso,Renaldo</a></td><td></td><td><img class="shadow" src="flag/os.png" alt="OS"></td></tr>
 </table>
 </div><hr>
 <h4>Pairing of round 2, at 19:00 of 21/10/2025</h4>
 <div class="table-responsive"><table class="table table-striped "> 
-<thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#8"> Hogan,Steven</a> </td><td>8</td> <td class="result"> ... </td><td>5</td><td class="name"> <a href="playercard.php#5"> Wongso,Renaldo</a></td><td><img class="shadow" src="flag/os.png" alt="OS"></td></tr>
-<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#6"> Pasukov,Leo</a> </td><td>6</td> <td class="result"> ... </td><td>4</td><td class="name"> <a href="playercard.php#4"> Whitford,Matthew</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#7"> Nguyen,Anh Kiet</a> </td><td>7</td> <td class="result"> ... </td><td>3</td><td class="name"> <a href="playercard.php#3"> Krishnan,Anirudh</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#1"> McIntyre,Julian</a> </td><td>1</td> <td class="result"> ... </td><td>2</td><td class="name"> <a href="playercard.php#2">CM Davis,Tony J</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<thead><tr><th>Bo.</th><th>Fed</th><th>Origin</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Origin</th><th>Fed</th></tr></thead><tbody>
+<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#8"> Hogan,Steven</a> </td><td>8</td> <td class="result"> ... </td><td>5</td><td class="name"> <a href="playercard.php#5"> Wongso,Renaldo</a></td><td></td><td><img class="shadow" src="flag/os.png" alt="OS"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#6"> Pasukov,Leo</a> </td><td>6</td> <td class="result"> ... </td><td>4</td><td class="name"> <a href="playercard.php#4"> Whitford,Matthew</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#7"> Nguyen,Anh Kiet</a> </td><td>7</td> <td class="result"> ... </td><td>3</td><td class="name"> <a href="playercard.php#3"> Krishnan,Anirudh</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#1"> McIntyre,Julian</a> </td><td>1</td> <td class="result"> ... </td><td>2</td><td class="name"> <a href="playercard.php#2">CM Davis,Tony J</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
 <h4>Pairing of round 3, at 19:00 of 28/10/2025</h4>
 <div class="table-responsive"><table class="table table-striped "> 
-<thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#2">CM Davis,Tony J</a> </td><td>2</td> <td class="result"> ... </td><td>8</td><td class="name"> <a href="playercard.php#8"> Hogan,Steven</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#3"> Krishnan,Anirudh</a> </td><td>3</td> <td class="result"> ... </td><td>1</td><td class="name"> <a href="playercard.php#1"> McIntyre,Julian</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#4"> Whitford,Matthew</a> </td><td>4</td> <td class="result"> ... </td><td>7</td><td class="name"> <a href="playercard.php#7"> Nguyen,Anh Kiet</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>4</td><td><img class="shadow" src="flag/os.png" alt="OS"></td><td class="name">  <a href="playercard.php#5"> Wongso,Renaldo</a> </td><td>5</td> <td class="result"> ... </td><td>6</td><td class="name"> <a href="playercard.php#6"> Pasukov,Leo</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<thead><tr><th>Bo.</th><th>Fed</th><th>Origin</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Origin</th><th>Fed</th></tr></thead><tbody>
+<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#2">CM Davis,Tony J</a> </td><td>2</td> <td class="result"> ... </td><td>8</td><td class="name"> <a href="playercard.php#8"> Hogan,Steven</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#3"> Krishnan,Anirudh</a> </td><td>3</td> <td class="result"> ... </td><td>1</td><td class="name"> <a href="playercard.php#1"> McIntyre,Julian</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#4"> Whitford,Matthew</a> </td><td>4</td> <td class="result"> ... </td><td>7</td><td class="name"> <a href="playercard.php#7"> Nguyen,Anh Kiet</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>4</td><td><img class="shadow" src="flag/os.png" alt="OS"></td><td></td><td class="name">  <a href="playercard.php#5"> Wongso,Renaldo</a> </td><td>5</td> <td class="result"> ... </td><td>6</td><td class="name"> <a href="playercard.php#6"> Pasukov,Leo</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
 <h4>Pairing of round 4, at 19:00 of 11/11/2025</h4>
 <div class="table-responsive"><table class="table table-striped "> 
-<thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#8"> Hogan,Steven</a> </td><td>8</td> <td class="result"> ... </td><td>6</td><td class="name"> <a href="playercard.php#6"> Pasukov,Leo</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#7"> Nguyen,Anh Kiet</a> </td><td>7</td> <td class="result"> ... </td><td>5</td><td class="name"> <a href="playercard.php#5"> Wongso,Renaldo</a></td><td><img class="shadow" src="flag/os.png" alt="OS"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#1"> McIntyre,Julian</a> </td><td>1</td> <td class="result"> ... </td><td>4</td><td class="name"> <a href="playercard.php#4"> Whitford,Matthew</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#2">CM Davis,Tony J</a> </td><td>2</td> <td class="result"> ... </td><td>3</td><td class="name"> <a href="playercard.php#3"> Krishnan,Anirudh</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<thead><tr><th>Bo.</th><th>Fed</th><th>Origin</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Origin</th><th>Fed</th></tr></thead><tbody>
+<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#8"> Hogan,Steven</a> </td><td>8</td> <td class="result"> ... </td><td>6</td><td class="name"> <a href="playercard.php#6"> Pasukov,Leo</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#7"> Nguyen,Anh Kiet</a> </td><td>7</td> <td class="result"> ... </td><td>5</td><td class="name"> <a href="playercard.php#5"> Wongso,Renaldo</a></td><td></td><td><img class="shadow" src="flag/os.png" alt="OS"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#1"> McIntyre,Julian</a> </td><td>1</td> <td class="result"> ... </td><td>4</td><td class="name"> <a href="playercard.php#4"> Whitford,Matthew</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#2">CM Davis,Tony J</a> </td><td>2</td> <td class="result"> ... </td><td>3</td><td class="name"> <a href="playercard.php#3"> Krishnan,Anirudh</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
 <h4>Pairing of round 5, at 19:00 of 18/11/2025</h4>
 <div class="table-responsive"><table class="table table-striped "> 
-<thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#3"> Krishnan,Anirudh</a> </td><td>3</td> <td class="result"> ... </td><td>8</td><td class="name"> <a href="playercard.php#8"> Hogan,Steven</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#4"> Whitford,Matthew</a> </td><td>4</td> <td class="result"> ... </td><td>2</td><td class="name"> <a href="playercard.php#2">CM Davis,Tony J</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/os.png" alt="OS"></td><td class="name">  <a href="playercard.php#5"> Wongso,Renaldo</a> </td><td>5</td> <td class="result"> ... </td><td>1</td><td class="name"> <a href="playercard.php#1"> McIntyre,Julian</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#6"> Pasukov,Leo</a> </td><td>6</td> <td class="result"> ... </td><td>7</td><td class="name"> <a href="playercard.php#7"> Nguyen,Anh Kiet</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<thead><tr><th>Bo.</th><th>Fed</th><th>Origin</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Origin</th><th>Fed</th></tr></thead><tbody>
+<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#3"> Krishnan,Anirudh</a> </td><td>3</td> <td class="result"> ... </td><td>8</td><td class="name"> <a href="playercard.php#8"> Hogan,Steven</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#4"> Whitford,Matthew</a> </td><td>4</td> <td class="result"> ... </td><td>2</td><td class="name"> <a href="playercard.php#2">CM Davis,Tony J</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/os.png" alt="OS"></td><td></td><td class="name">  <a href="playercard.php#5"> Wongso,Renaldo</a> </td><td>5</td> <td class="result"> ... </td><td>1</td><td class="name"> <a href="playercard.php#1"> McIntyre,Julian</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#6"> Pasukov,Leo</a> </td><td>6</td> <td class="result"> ... </td><td>7</td><td class="name"> <a href="playercard.php#7"> Nguyen,Anh Kiet</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
 <h4>Pairing of round 6, at 19:00 of 25/11/2025</h4>
 <div class="table-responsive"><table class="table table-striped "> 
-<thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#8"> Hogan,Steven</a> </td><td>8</td> <td class="result"> ... </td><td>7</td><td class="name"> <a href="playercard.php#7"> Nguyen,Anh Kiet</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#1"> McIntyre,Julian</a> </td><td>1</td> <td class="result"> ... </td><td>6</td><td class="name"> <a href="playercard.php#6"> Pasukov,Leo</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#2">CM Davis,Tony J</a> </td><td>2</td> <td class="result"> ... </td><td>5</td><td class="name"> <a href="playercard.php#5"> Wongso,Renaldo</a></td><td><img class="shadow" src="flag/os.png" alt="OS"></td></tr>
-<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#3"> Krishnan,Anirudh</a> </td><td>3</td> <td class="result"> ... </td><td>4</td><td class="name"> <a href="playercard.php#4"> Whitford,Matthew</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<thead><tr><th>Bo.</th><th>Fed</th><th>Origin</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Origin</th><th>Fed</th></tr></thead><tbody>
+<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#8"> Hogan,Steven</a> </td><td>8</td> <td class="result"> ... </td><td>7</td><td class="name"> <a href="playercard.php#7"> Nguyen,Anh Kiet</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#1"> McIntyre,Julian</a> </td><td>1</td> <td class="result"> ... </td><td>6</td><td class="name"> <a href="playercard.php#6"> Pasukov,Leo</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#2">CM Davis,Tony J</a> </td><td>2</td> <td class="result"> ... </td><td>5</td><td class="name"> <a href="playercard.php#5"> Wongso,Renaldo</a></td><td></td><td><img class="shadow" src="flag/os.png" alt="OS"></td></tr>
+<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#3"> Krishnan,Anirudh</a> </td><td>3</td> <td class="result"> ... </td><td>4</td><td class="name"> <a href="playercard.php#4"> Whitford,Matthew</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
 <h4>Pairing of round 7, at 19:00 of 02/12/2025</h4>
 <div class="table-responsive"><table class="table table-striped "> 
-<thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#4"> Whitford,Matthew</a> </td><td>4</td> <td class="result"> ... </td><td>8</td><td class="name"> <a href="playercard.php#8"> Hogan,Steven</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>2</td><td><img class="shadow" src="flag/os.png" alt="OS"></td><td class="name">  <a href="playercard.php#5"> Wongso,Renaldo</a> </td><td>5</td> <td class="result"> ... </td><td>3</td><td class="name"> <a href="playercard.php#3"> Krishnan,Anirudh</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#6"> Pasukov,Leo</a> </td><td>6</td> <td class="result"> ... </td><td>2</td><td class="name"> <a href="playercard.php#2">CM Davis,Tony J</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#7"> Nguyen,Anh Kiet</a> </td><td>7</td> <td class="result"> ... </td><td>1</td><td class="name"> <a href="playercard.php#1"> McIntyre,Julian</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<thead><tr><th>Bo.</th><th>Fed</th><th>Origin</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Origin</th><th>Fed</th></tr></thead><tbody>
+<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#4"> Whitford,Matthew</a> </td><td>4</td> <td class="result"> ... </td><td>8</td><td class="name"> <a href="playercard.php#8"> Hogan,Steven</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/os.png" alt="OS"></td><td></td><td class="name">  <a href="playercard.php#5"> Wongso,Renaldo</a> </td><td>5</td> <td class="result"> ... </td><td>3</td><td class="name"> <a href="playercard.php#3"> Krishnan,Anirudh</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#6"> Pasukov,Leo</a> </td><td>6</td> <td class="result"> ... </td><td>2</td><td class="name"> <a href="playercard.php#2">CM Davis,Tony J</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name">  <a href="playercard.php#7"> Nguyen,Anh Kiet</a> </td><td>7</td> <td class="result"> ... </td><td>1</td><td class="name"> <a href="playercard.php#1"> McIntyre,Julian</a></td><td></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
 		  </div>
