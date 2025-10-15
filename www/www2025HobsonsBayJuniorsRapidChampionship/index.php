@@ -190,21 +190,23 @@
 <tr> 
 <td><span class="idn"> 75</span></td><td><span class="notitle male"> </span></td><td> Subhash,Ryan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 76</span></td><td><span class="notitle male"> </span></td><td> Thulasidas,Manish </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 76</span></td><td><span class="notitle female"> </span></td><td> Suhanthiran,Veenaya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 77</span></td><td><span class="notitle female"> </span></td><td> Thusithana,Kayra </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 77</span></td><td><span class="notitle male"> </span></td><td> Thulasidas,Manish </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 78</span></td><td><span class="notitle male"> </span></td><td> Vignesh, Prajeeth Balaji </td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 78</span></td><td><span class="notitle female"> </span></td><td> Thusithana,Kayra </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 79</span></td><td><span class="notitle male"> </span></td><td> Vigneshwar,Krishanth </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 79</span></td><td><span class="notitle male"> </span></td><td> Vignesh, Prajeeth Balaji </td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 80</span></td><td><span class="notitle male"> </span></td><td> Vinu,Vaishnav </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 80</span></td><td><span class="notitle male"> </span></td><td> Vigneshwar,Krishanth </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 81</span></td><td><span class="notitle male"> </span></td><td> Vinu,Vinayak </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 81</span></td><td><span class="notitle male"> </span></td><td> Vinu,Vaishnav </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 82</span></td><td><span class="notitle female"> </span></td><td> Wanniarachchie,Senaya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 82</span></td><td><span class="notitle male"> </span></td><td> Vinu,Vinayak </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 83</span></td><td><span class="notitle male"> </span></td><td> You,Henry </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 83</span></td><td><span class="notitle female"> </span></td><td> Wanniarachchie,Senaya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 84</span></td><td><span class="notitle male"> </span></td><td> You,Henry </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 </tbody>
 <tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</td></tr></tfoot></table></div>
   <script type="text/javascript"> function init(){tsorter.create('players-table');} window.onload = init;</script>
