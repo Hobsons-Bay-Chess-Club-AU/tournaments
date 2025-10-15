@@ -23,34 +23,42 @@
 </li><li class="nav-item"><a class="nav-link " href="pairs1.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="#" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
-</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
 <ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
+ <section id="hero" class="d-flex align-items-center">
+                <div class="container-fluid">
+                    <div class="row items-center">
+                        <div class="col-12">
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Club Championship</h1>		    <h5 class="mb-1">Hobsons Bay (AUS)</h5>		    <h5> 14/10/2025 - 09/12/2025</h5>   </div>
+ </div> 
+ </div>
+ </div> 
+ </section>
  <section id="main" class="pt-3 mb-auto">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
   <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players</h3><div class="table-responsive"><table class="table table-striped" id="players-table"> 
-<thead><tr><th>#</th><th>Title</th><th> &#8597; Player</th><th>Fed</th><th>Origin</th><th data-tsorter="numeric"> &#8597; Rtg</th><th data-tsorter="numeric"> &#8597; RtgF</th><th data-tsorter="numeric"> &#8597; RtgN</th></tr></thead><tbody>
+<thead><tr><th>#</th><th>Title</th><th> &#8597; Player</th><th>Fed</th><th data-tsorter="numeric"> &#8597; Rtg</th><th data-tsorter="numeric"> &#8597; RtgF</th><th data-tsorter="numeric"> &#8597; RtgN</th></tr></thead><tbody>
 <tr> 
-<td><span class="idn"> 2</span></td><td><span class="title male"> CM</span></td><td> Davis,Tony J </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1735</td><td>0</td><td>1735</td> </tr>
+<td><span class="idn"> 2</span></td><td><span class="title male"> CM</span></td><td> Davis,Tony J </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1735</td><td>0</td><td>1735</td> </tr>
 <tr> 
-<td><span class="idn"> 3</span></td><td><span class="notitle male"> </span></td><td> Krishnan,Anirudh </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1733</td><td>0</td><td>1733</td> </tr>
+<td><span class="idn"> 3</span></td><td><span class="notitle male"> </span></td><td> Krishnan,Anirudh </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1733</td><td>0</td><td>1733</td> </tr>
 <tr> 
-<td><span class="idn"> 7</span></td><td><span class="notitle male"> </span></td><td> Nguyen,Anh Kiet </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1706</td><td>0</td><td>1706</td> </tr>
+<td><span class="idn"> 7</span></td><td><span class="notitle male"> </span></td><td> Nguyen,Anh Kiet </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1706</td><td>0</td><td>1706</td> </tr>
 <tr> 
-<td><span class="idn"> 5</span></td><td><span class="notitle male"> </span></td><td> Wongso,Renaldo </td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td></td><td>1632</td><td>0</td><td>1632</td> </tr>
+<td><span class="idn"> 5</span></td><td><span class="notitle male"> </span></td><td> Wongso,Renaldo </td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td>1632</td><td>0</td><td>1632</td> </tr>
 <tr> 
-<td><span class="idn"> 1</span></td><td><span class="notitle male"> </span></td><td> McIntyre,Julian </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1555</td><td>0</td><td>1555</td> </tr>
+<td><span class="idn"> 1</span></td><td><span class="notitle male"> </span></td><td> McIntyre,Julian </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1555</td><td>0</td><td>1555</td> </tr>
 <tr> 
-<td><span class="idn"> 4</span></td><td><span class="notitle male"> </span></td><td> Whitford,Matthew </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1495</td><td>0</td><td>1495</td> </tr>
+<td><span class="idn"> 4</span></td><td><span class="notitle male"> </span></td><td> Whitford,Matthew </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1495</td><td>0</td><td>1495</td> </tr>
 <tr> 
-<td><span class="idn"> 6</span></td><td><span class="notitle male"> </span></td><td> Pasukov,Leo </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1458</td><td>0</td><td>1458</td> </tr>
+<td><span class="idn"> 6</span></td><td><span class="notitle male"> </span></td><td> Pasukov,Leo </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1458</td><td>0</td><td>1458</td> </tr>
 <tr> 
-<td><span class="idn"> 8</span></td><td><span class="notitle male"> </span></td><td> Hogan,Steven </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1385</td><td>0</td><td>1385</td> </tr>
+<td><span class="idn"> 8</span></td><td><span class="notitle male"> </span></td><td> Hogan,Steven </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1385</td><td>0</td><td>1385</td> </tr>
 </tbody>
 <tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</td></tr></tfoot></table></div>
   <script type="text/javascript"> function init(){tsorter.create('players-table');} window.onload = init;</script>
