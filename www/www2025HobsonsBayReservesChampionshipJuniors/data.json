@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-14T09:36:14.249Z",
+  "generatedAt": "2025-10-14T23:57:04.070Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 1",
@@ -802,7 +802,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 1",
@@ -1105,7 +1106,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "FIDE History Cards",
@@ -1922,15 +1924,18 @@
             "rawHtml": " <a class=\"anchor\" name=\"36\"></a> N = 36<a href=\"http://ratings.fide.com/profile/0\" target=\"X\"> D'Souza, Leon </a>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "game.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players",
@@ -2337,7 +2342,8 @@
             "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "National rating at round 1",
@@ -2371,11 +2377,13 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairing.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
@@ -3027,7 +3035,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 1, at 17:30 of 14/10/2025"
+      "pairingScheduleText": "Pairing of round 1, at 17:30 of 14/10/2025",
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -5156,11 +5165,13 @@
             "rawHtml": "  36   <strong>D'Souza, Leon       </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"36\"></a>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankingagegroup.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -5218,7 +5229,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 1",
@@ -6001,7 +6013,8 @@
             "html": "Tie Break legend:<br>     BH  :  Buchholz <br>\n  BH/C1  :  Buchholz Cut 1 <br>\n     SB  :  Sonneborn-Berger <br>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -6139,7 +6152,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "playerLookup": {
@@ -7114,5 +7128,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "bf05529381809ac0457d8cb855a6ba5d"
+  "md5Hash": "36f40972b95fff2e4921b3cb07b6875e"
 }

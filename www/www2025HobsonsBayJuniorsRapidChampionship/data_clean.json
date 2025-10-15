@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-29T22:56:32.583Z",
+  "generatedAt": "2025-10-14T23:57:03.231Z",
   "tournament": {
     "id": "2025-hobsons-bay-juniors-rapid-championship",
     "name": "2025 Hobsons Bay Juniors Rapid Championship",
@@ -1067,19 +1067,23 @@
           "rows": [],
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "FIDE History Cards",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "game.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players",
@@ -1843,7 +1847,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "National rating at round 0",
@@ -1878,11 +1883,13 @@
           "rows": [],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairing.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "pairs0.html": {
       "pageHeading": "",
@@ -1918,7 +1925,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 0, at  of"
+      "pairingScheduleText": "Pairing of round 0, at  of",
+      "tournamentType": "unknown"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -5843,7 +5851,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -5902,7 +5911,8 @@
           ],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -6041,7 +6051,8 @@
           ],
           "type": "statistics"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "menu": [
@@ -6067,5 +6078,5 @@
       "children": []
     }
   ],
-  "md5Hash": "5c9014e1d5844e731840071bd183cd8a"
+  "md5Hash": "6a0d43f70f05b2fe9069d46aeaa90e81"
 }

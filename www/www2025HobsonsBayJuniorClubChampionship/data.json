@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-14T23:05:41.884Z",
+  "generatedAt": "2025-10-14T23:57:03.143Z",
   "page": {
     "calendarroundrobin.html": {
       "pageHeading": "Schedule",
@@ -487,11 +487,13 @@
             "rawHtml": "Pairing round 1  at 18:30 of 14/10/2025"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players",
@@ -606,11 +608,13 @@
             "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairing.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
@@ -774,7 +778,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 1, at 18:30 of 14/10/2025"
+      "pairingScheduleText": "Pairing of round 1, at 18:30 of 14/10/2025",
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "",
@@ -938,7 +943,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 2, at 18:30 of 21/10/2025"
+      "pairingScheduleText": "Pairing of round 2, at 18:30 of 21/10/2025",
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -1495,7 +1501,8 @@
             "rawHtml": "   8   <strong>Nema, Nivaan        </strong>, K= 3, Elo= 692, ID=3217486 \n<br>\n<a class=\"anchor\" name=\"8\"></a>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankcat.html": {
       "pageHeading": "Standings at round 2 sorted by category",
@@ -1715,7 +1722,8 @@
           ],
           "caption": "Ranking for category:"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -2655,7 +2663,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "sortedcrosstable.html": {
       "pageHeading": "",
@@ -2850,7 +2859,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 1",
@@ -3069,7 +3079,8 @@
             "html": "Tie Break legend:<br>\n   DirE  :  Direct Encounter (all play all) <br>\n     SB  :  Sonneborn-Berger <br>\n  SB/C1  :  Sonneborn-Berger Cut 1 <br>\n    BPG  :  Number of Games Played with Black <br>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -3207,7 +3218,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "playerLookup": {
@@ -3462,5 +3474,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "824b88d53874524504a8391fb4547ef2"
+  "md5Hash": "0dccbc7e3a7403509dff8c15cb7867ca"
 }

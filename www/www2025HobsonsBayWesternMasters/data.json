@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:11.004Z",
+  "generatedAt": "2025-10-14T23:57:04.798Z",
   "page": {
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 5",
@@ -158,7 +158,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "FIDE History Cards",
@@ -677,7 +678,8 @@
             "rawHtml": " <a class=\"anchor\" name=\"6\"></a> N = 6<a href=\"http://ratings.fide.com/card.phtml?event=3257762\" target=\"X\"> Lacson,Joemar </a>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players sorted by rating and title",
@@ -810,7 +812,8 @@
             "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "National rating at round 5",
@@ -844,7 +847,8 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
@@ -988,7 +992,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 1, at 17:30 of 29/04/2025"
+      "pairingScheduleText": "Pairing of round 1, at 17:30 of 29/04/2025",
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "",
@@ -1132,7 +1137,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 2, at 17:30 of 06/05/2025"
+      "pairingScheduleText": "Pairing of round 2, at 17:30 of 06/05/2025",
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "",
@@ -1276,7 +1282,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 3, at 17:30 of 13/05/2025"
+      "pairingScheduleText": "Pairing of round 3, at 17:30 of 13/05/2025",
+      "tournamentType": "individual"
     },
     "pairs4.html": {
       "pageHeading": "",
@@ -1420,7 +1427,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 4, at 17:30 of 20/05/2025"
+      "pairingScheduleText": "Pairing of round 4, at 17:30 of 20/05/2025",
+      "tournamentType": "individual"
     },
     "pairs5.html": {
       "pageHeading": "",
@@ -1564,7 +1572,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 5, at 17:30 of 03/06/2025"
+      "pairingScheduleText": "Pairing of round 5, at 17:30 of 03/06/2025",
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -2163,7 +2172,8 @@
             "rawHtml": "   6   <strong>Lacson,Joemar       </strong>, K= 0, Elo=1727, ID=3112506\n<br>\n<a class=\"anchor\" name=\"6\"></a>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "Registered players sorted by name",
@@ -2296,7 +2306,8 @@
             "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -2934,7 +2945,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "sortedcrosstable.html": {
       "pageHeading": "",
@@ -3087,7 +3099,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 5",
@@ -3258,7 +3271,8 @@
             "html": "Tie Break legend:<br>     SB  :  Sonneborn-Berger * <br>\n    ARO  :  Average Rating of Opponents * <br>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -3396,7 +3410,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "playerLookup": {
@@ -3697,5 +3712,5 @@
     "FIDE titled player NOT from AUS Federation": "1",
     "category": "Senior"
   },
-  "md5Hash": "9ac39fe940a2a819df4bf4db7ecfb72b"
+  "md5Hash": "ae881756a621047e80808c75eab2322e"
 }

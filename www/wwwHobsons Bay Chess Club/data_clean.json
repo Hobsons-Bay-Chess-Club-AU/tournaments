@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:13.805Z",
+  "generatedAt": "2025-10-14T23:57:06.914Z",
   "tournament": {
     "id": "honourable-bob-juniors-2024",
     "name": "Honourable Bob Juniors 2024",
@@ -639,7 +639,8 @@
           ],
           "type": "crosstable"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "felovar.html": {
       "pageHeading": "",
@@ -694,15 +695,18 @@
           "rows": [],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "",
@@ -1066,7 +1070,8 @@
           ],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "",
@@ -1101,7 +1106,8 @@
           "rows": [],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
@@ -1597,7 +1603,8 @@
           ],
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "",
@@ -2081,7 +2088,8 @@
           ],
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "",
@@ -4246,7 +4254,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "",
@@ -4610,7 +4619,8 @@
           ],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankcat.html": {
       "pageHeading": "Standings at round 2 sorted by category",
@@ -5095,15 +5105,18 @@
           "caption": "Ranking for category:",
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankingagegroup.html": {
       "pageHeading": "Player Groups by date at round 2",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "rankinggroup.html": {
       "pageHeading": "Rated Player Groups at round 2",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "",
@@ -5126,7 +5139,8 @@
           "rows": [],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "",
@@ -5574,7 +5588,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "summaryOrigin.html": {
       "pageHeading": "",
@@ -6170,7 +6185,8 @@
           "caption": "Standings",
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "tourstat.html": {
       "pageHeading": "",
@@ -6309,9 +6325,10 @@
           ],
           "type": "statistics"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "menu": [],
-  "md5Hash": "c2f3b30fae6d4bba7fd423c345666bb5"
+  "md5Hash": "afd77670b7216792a1f0ecb77c9273fa"
 }

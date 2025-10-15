@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-07T12:57:02.587Z",
+  "generatedAt": "2025-10-14T23:57:03.444Z",
   "tournament": {
     "id": "2025-hobsons-bay-koshnitsky-cup",
     "name": "2025 Hobsons Bay Koshnitsky Cup",
@@ -1880,7 +1880,8 @@
           ],
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "crosstablescore.html": {
       "pageHeading": "Cross Table at round 7",
@@ -3389,7 +3390,8 @@
           ],
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 7",
@@ -3963,7 +3965,8 @@
           ],
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "FIDE History Cards",
@@ -5969,15 +5972,18 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "game.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players",
@@ -6375,7 +6381,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "National rating at round 7",
@@ -6410,11 +6417,13 @@
           "rows": [],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairing.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
@@ -6635,7 +6644,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 1, at 17:30 of 12/08/2025"
+      "pairingScheduleText": "Pairing of round 1, at 17:30 of 12/08/2025",
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "",
@@ -6832,7 +6842,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 2, at 17:30 of 19/08/2025"
+      "pairingScheduleText": "Pairing of round 2, at 17:30 of 19/08/2025",
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "",
@@ -7021,7 +7032,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 3, at 17:30 of 26/08/2025"
+      "pairingScheduleText": "Pairing of round 3, at 17:30 of 26/08/2025",
+      "tournamentType": "individual"
     },
     "pairs4.html": {
       "pageHeading": "",
@@ -7218,7 +7230,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 4, at 17:30 of 02/09/2025"
+      "pairingScheduleText": "Pairing of round 4, at 17:30 of 02/09/2025",
+      "tournamentType": "individual"
     },
     "pairs5.html": {
       "pageHeading": "",
@@ -7407,7 +7420,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 5, at 17:30 of 09/09/2025"
+      "pairingScheduleText": "Pairing of round 5, at 17:30 of 09/09/2025",
+      "tournamentType": "individual"
     },
     "pairs6.html": {
       "pageHeading": "",
@@ -7604,7 +7618,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 6, at 17:30 of 16/09/2025"
+      "pairingScheduleText": "Pairing of round 6, at 17:30 of 16/09/2025",
+      "tournamentType": "individual"
     },
     "pairs7.html": {
       "pageHeading": "",
@@ -7793,7 +7808,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 7, at 17:30 of 07/10/2025"
+      "pairingScheduleText": "Pairing of round 7, at 17:30 of 07/10/2025",
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -11998,11 +12014,13 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "rankcat.html": {
       "pageHeading": "Standings at round 7 sorted by category",
@@ -12819,15 +12837,18 @@
           "caption": "Ranking for category:",
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankingagegroup.html": {
       "pageHeading": "Player Groups by date at round 7",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "rankinggroup.html": {
       "pageHeading": "Rated Player Groups at round 7",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -12886,7 +12907,8 @@
           ],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 7 (last round)",
@@ -13245,7 +13267,8 @@
           },
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -13384,7 +13407,8 @@
           ],
           "type": "statistics"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "menu": [
@@ -13478,5 +13502,5 @@
       ]
     }
   ],
-  "md5Hash": "9a840bdf19c4bd4f1429cabb45af5e60"
+  "md5Hash": "2099320e83384a2f0de6ae36d18b0aa2"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:07.998Z",
+  "generatedAt": "2025-10-14T23:57:01.969Z",
   "page": {
     "index.html": {
       "pageHeading": "Registered players sorted by rating and title",
@@ -57,7 +57,8 @@
             "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "Registered players sorted by name",
@@ -115,7 +116,8 @@
             "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "playerLookup": {
@@ -185,5 +187,5 @@
     "Tournament Name": "2025 Hobsons Bay Club Championship",
     "category": "Senior"
   },
-  "md5Hash": "cd096e577d840713a2a36cf12d7b3161"
+  "md5Hash": "57c7de152afe183779477e8b70a4f264"
 }

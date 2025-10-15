@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:12.320Z",
+  "generatedAt": "2025-10-14T23:57:05.713Z",
   "tournament": {
     "id": "2025-hobsons-bay-western-juniors",
     "name": "2025 Hobsons Bay Western Juniors",
@@ -764,7 +764,8 @@
           ],
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "crosstablescore.html": {
       "pageHeading": "Cross Table at round 2",
@@ -1440,11 +1441,13 @@
           ],
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players sorted by rating and title",
@@ -1820,7 +1823,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
@@ -1985,7 +1989,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 1, at 6:30 of 29/04/2025"
+      "pairingScheduleText": "Pairing of round 1, at 6:30 of 29/04/2025",
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "",
@@ -2180,7 +2185,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 2, at 6:30 of 06/05/2025"
+      "pairingScheduleText": "Pairing of round 2, at 6:30 of 06/05/2025",
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "",
@@ -2355,7 +2361,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 3, at 6:30 of 13/05/2025"
+      "pairingScheduleText": "Pairing of round 3, at 6:30 of 13/05/2025",
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -4040,7 +4047,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "Registered players sorted by name",
@@ -4416,7 +4424,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -4465,7 +4474,8 @@
           ],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 2",
@@ -4753,7 +4763,8 @@
           },
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -4892,7 +4903,8 @@
           ],
           "type": "statistics"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "menu": [
@@ -4956,5 +4968,5 @@
       "children": []
     }
   ],
-  "md5Hash": "f6b14f02930ac15651e1a9bef50ea5b7"
+  "md5Hash": "7f06f807216d50e1674d57285de93a2a"
 }

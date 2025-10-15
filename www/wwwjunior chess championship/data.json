@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:17.783Z",
+  "generatedAt": "2025-10-14T23:57:09.741Z",
   "page": {
     "crosstablescore.html": {
       "pageHeading": "",
@@ -1208,11 +1208,13 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "",
@@ -1485,7 +1487,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
@@ -1860,7 +1863,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "",
@@ -2235,7 +2239,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "",
@@ -2610,7 +2615,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs4.html": {
       "pageHeading": "",
@@ -2973,7 +2979,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs5.html": {
       "pageHeading": "",
@@ -3348,7 +3355,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs6.html": {
       "pageHeading": "",
@@ -3723,7 +3731,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs7.html": {
       "pageHeading": "",
@@ -4110,7 +4119,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "",
@@ -7209,7 +7219,8 @@
             "rawHtml": " 26 <strong>Zhu,Marcus </strong>, K= 0, Elo= 0, ID=0\n          <br>\n          <a class=\"anchor\" name=\"26\"></a>junior club championship, Hobson bay chess club, 10/10/2023, 10/10/2023\n        "
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "",
@@ -7482,7 +7493,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rewards.html": {
       "pageHeading": "Open",
@@ -8029,7 +8041,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "",
@@ -8051,7 +8064,8 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "",
@@ -8388,7 +8402,8 @@
             "html": "Tie Break legend:"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "tourstat.html": {
       "pageHeading": "",
@@ -8526,7 +8541,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "playerLookup": {},
@@ -8803,5 +8819,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "cd31fc0ce8ca964a96d936228fe36ca8"
+  "md5Hash": "d2f39079c158edccc26a2eac71ead888"
 }

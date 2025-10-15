@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:15.939Z",
+  "generatedAt": "2025-10-14T23:57:08.413Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 5",
@@ -600,7 +600,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "crosstablescore.html": {
       "pageHeading": "Cross Table at round 5",
@@ -1199,7 +1200,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 5",
@@ -1249,15 +1251,18 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "FIDE History Cards",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players sorted by rating and title",
@@ -1422,7 +1427,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "National rating at round 5",
@@ -1456,7 +1462,8 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "Pairings",
@@ -1670,7 +1677,8 @@
             "rawHtml": "Pairing of round 1"
           }
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "Pairings",
@@ -1884,7 +1892,8 @@
             "rawHtml": "Pairing of round 2"
           }
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "Pairings",
@@ -2088,7 +2097,8 @@
             "rawHtml": "Pairing of round 3"
           }
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs4.html": {
       "pageHeading": "Pairings",
@@ -2302,7 +2312,8 @@
             "rawHtml": "Pairing of round 4"
           }
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs5.html": {
       "pageHeading": "Pairings",
@@ -2516,7 +2527,8 @@
             "rawHtml": "Pairing of round 5"
           }
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -3907,7 +3919,8 @@
             "rawHtml": "  14   <strong>Whitford,Matthew    </strong>, K= 0, Elo=1562, ID=3137603\n<br>\n<a class=\"anchor\" name=\"14\"></a>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "Registered players sorted by name",
@@ -4072,7 +4085,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankTeams.html": {
       "pageHeading": "Team ranking based on 4 best players of each team",
@@ -4316,7 +4330,8 @@
             "rawHtml": "Best boards"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankcat.html": {
       "pageHeading": "Standings at round 5 sorted by category",
@@ -4536,15 +4551,18 @@
           ],
           "caption": "Ranking for category:"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankingagegroup.html": {
       "pageHeading": "Player Groups by date at round 5",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "rankinggroup.html": {
       "pageHeading": "Rated Player Groups at round 5",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -4566,7 +4584,8 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 5 (last round)",
@@ -4735,7 +4754,8 @@
             "html": "Tie Break legend:"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "summaryFederations.html": {
       "pageHeading": "Summary by Federations",
@@ -5369,7 +5389,8 @@
           ],
           "caption": "Standings"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "summaryOrigin.html": {
       "pageHeading": "Summary by Origin",
@@ -5876,7 +5897,8 @@
           ],
           "caption": "Standings"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -6014,7 +6036,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "playerLookup": {
@@ -6443,5 +6466,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "7fde70947522d461060a15a61d26447e"
+  "md5Hash": "50ea2a742c21cc2b9ad3b6cba9d78a38"
 }

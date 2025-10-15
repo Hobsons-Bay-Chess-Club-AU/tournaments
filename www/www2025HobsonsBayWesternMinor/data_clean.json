@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:11.370Z",
+  "generatedAt": "2025-10-14T23:57:05.064Z",
   "tournament": {
     "id": "2025-hobsons-bay-western-minor",
     "name": "2025 Hobsons Bay Western Minor",
@@ -288,7 +288,8 @@
           ],
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "FIDE History Cards",
@@ -893,7 +894,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players sorted by rating and title",
@@ -1027,7 +1029,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "National rating at round 5",
@@ -1062,7 +1065,8 @@
           "rows": [],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
@@ -1123,7 +1127,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 1, at 17:30 of 29/04/2025"
+      "pairingScheduleText": "Pairing of round 1, at 17:30 of 29/04/2025",
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "",
@@ -1184,7 +1189,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 2, at 17:30 of 06/05/2025"
+      "pairingScheduleText": "Pairing of round 2, at 17:30 of 06/05/2025",
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "",
@@ -1245,7 +1251,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 3, at 17:30 of 13/05/2025"
+      "pairingScheduleText": "Pairing of round 3, at 17:30 of 13/05/2025",
+      "tournamentType": "individual"
     },
     "pairs4.html": {
       "pageHeading": "",
@@ -1306,7 +1313,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 4, at 17:30 of 20/05/2025"
+      "pairingScheduleText": "Pairing of round 4, at 17:30 of 20/05/2025",
+      "tournamentType": "individual"
     },
     "pairs5.html": {
       "pageHeading": "",
@@ -1367,7 +1375,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 5, at 17:30 of 03/06/2025"
+      "pairingScheduleText": "Pairing of round 5, at 17:30 of 03/06/2025",
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -1972,7 +1981,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "Registered players sorted by name",
@@ -2106,7 +2116,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -2750,7 +2761,8 @@
           ],
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "sortedcrosstable.html": {
       "pageHeading": "",
@@ -2904,7 +2916,8 @@
           ],
           "type": "crosstable"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 5",
@@ -2992,7 +3005,8 @@
           },
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -3131,7 +3145,8 @@
           ],
           "type": "statistics"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "menu": [
@@ -3212,5 +3227,5 @@
       ]
     }
   ],
-  "md5Hash": "845c89d9c4b2757ea7021c433335490b"
+  "md5Hash": "b3b8952ad08c82f9e52a38ca9f4b874b"
 }

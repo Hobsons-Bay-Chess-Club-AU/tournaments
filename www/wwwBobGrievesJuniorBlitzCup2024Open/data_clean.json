@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:13.269Z",
+  "generatedAt": "2025-10-14T23:57:06.530Z",
   "tournament": {
     "id": "bob-grieves-junior-blitz-cup-2024-open",
     "name": "Bob Grieves Junior Blitz Cup 2024 Open",
@@ -59,7 +59,8 @@
   "pages": {
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players sorted by rating and title",
@@ -171,7 +172,8 @@
           ],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "Pairings",
@@ -310,7 +312,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs10.html": {
       "pageHeading": "Pairings",
@@ -449,7 +452,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs11.html": {
       "pageHeading": "Pairings",
@@ -588,7 +592,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs12.html": {
       "pageHeading": "Pairings",
@@ -727,7 +732,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs13.html": {
       "pageHeading": "Pairings",
@@ -866,7 +872,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs14.html": {
       "pageHeading": "Pairings",
@@ -1005,7 +1012,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "Pairings",
@@ -1144,7 +1152,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "Pairings",
@@ -1283,7 +1292,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs4.html": {
       "pageHeading": "Pairings",
@@ -1422,7 +1432,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs5.html": {
       "pageHeading": "Pairings",
@@ -1561,7 +1572,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs6.html": {
       "pageHeading": "Pairings",
@@ -1700,7 +1712,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs7.html": {
       "pageHeading": "Pairings",
@@ -1839,7 +1852,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs8.html": {
       "pageHeading": "Pairings",
@@ -1978,7 +1992,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs9.html": {
       "pageHeading": "Pairings",
@@ -2117,7 +2132,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -3642,7 +3658,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "Registered players sorted by name",
@@ -3754,7 +3771,8 @@
           ],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -5555,7 +5573,8 @@
           ],
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "sortedcrosstable.html": {
       "pageHeading": "",
@@ -5751,7 +5770,8 @@
           ],
           "type": "crosstable"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 14",
@@ -5879,7 +5899,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -6018,7 +6039,8 @@
           ],
           "type": "statistics"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "menu": [
@@ -6086,5 +6108,5 @@
       "children": []
     }
   ],
-  "md5Hash": "2fa87988c1cae59a5ab6b3948f0d47c0"
+  "md5Hash": "0a598c2ae59d1714163e9ec1198b73c1"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:14.946Z",
+  "generatedAt": "2025-10-14T23:57:07.737Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 7",
@@ -2081,7 +2081,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "crosstablescore.html": {
       "pageHeading": "Cross Table at round 7",
@@ -4134,7 +4135,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 7",
@@ -4184,15 +4186,18 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "FIDE History Cards",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players sorted by rating and title",
@@ -4805,7 +4810,8 @@
             "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "National rating at round 7",
@@ -4839,7 +4845,8 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
@@ -5513,7 +5520,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 1, at 19:30 of 13/08/2024"
+      "pairingScheduleText": "Pairing of round 1, at 19:30 of 13/08/2024",
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "",
@@ -6207,7 +6215,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 2, at 19:30 of 20/08/2024"
+      "pairingScheduleText": "Pairing of round 2, at 19:30 of 20/08/2024",
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "",
@@ -6891,7 +6900,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 3, at 19:30 of 27/08/2024"
+      "pairingScheduleText": "Pairing of round 3, at 19:30 of 27/08/2024",
+      "tournamentType": "individual"
     },
     "pairs4.html": {
       "pageHeading": "",
@@ -7575,7 +7585,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 4, at 19:30 of 04/09/2024"
+      "pairingScheduleText": "Pairing of round 4, at 19:30 of 04/09/2024",
+      "tournamentType": "individual"
     },
     "pairs5.html": {
       "pageHeading": "",
@@ -8249,7 +8260,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 5, at 19:30 of 11/09/2024"
+      "pairingScheduleText": "Pairing of round 5, at 19:30 of 11/09/2024",
+      "tournamentType": "individual"
     },
     "pairs6.html": {
       "pageHeading": "",
@@ -8923,7 +8935,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 6, at 19:30 of 18/09/2024"
+      "pairingScheduleText": "Pairing of round 6, at 19:30 of 18/09/2024",
+      "tournamentType": "individual"
     },
     "pairs7.html": {
       "pageHeading": "",
@@ -9607,7 +9620,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 7, at 19:30 of 25/09/2024"
+      "pairingScheduleText": "Pairing of round 7, at 19:30 of 25/09/2024",
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -14491,7 +14505,8 @@
             "rawHtml": "  41   <strong>Wongso,Renaldo      </strong>, K= 0, Elo=   0, ID=2454845\n<br>\n<a class=\"anchor\" name=\"41\"></a>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "Registered players sorted by name",
@@ -15104,7 +15119,8 @@
             "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankTeams.html": {
       "pageHeading": "Team ranking based on 4 best players of each team",
@@ -15483,7 +15499,8 @@
             "rawHtml": "Best boards"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankcat.html": {
       "pageHeading": "Standings at round 7 sorted by category",
@@ -16367,15 +16384,18 @@
           ],
           "caption": "Ranking for category: WIM"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankingagegroup.html": {
       "pageHeading": "Player Groups by date at round 7",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "rankinggroup.html": {
       "pageHeading": "Rated Player Groups at round 7",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -16433,7 +16453,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 7 (last round)",
@@ -17255,7 +17276,8 @@
             "html": "Tie Break legend:<br>\n     BH  :  Buchholz Total * <br>\n  BH-C1  :  Buchholz Cut 1 * <br>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "summaryFederations.html": {
       "pageHeading": "Summary by Federations",
@@ -19124,7 +19146,8 @@
           ],
           "caption": "Standings"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "summaryOrigin.html": {
       "pageHeading": "Summary by Origin",
@@ -20588,7 +20611,8 @@
           ],
           "caption": "Standings"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -20726,7 +20750,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "playerLookup": {
@@ -21900,5 +21925,5 @@
     "FIDE titled player NOT from AUS Federation": "2",
     "category": "Senior"
   },
-  "md5Hash": "fd41a2f5bf538ce2d9b65e7f2199c321"
+  "md5Hash": "a2d088c0d3b38057f20fb0abbc93a9a8"
 }

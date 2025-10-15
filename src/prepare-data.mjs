@@ -493,15 +493,35 @@ async function processHtmlFile(filePath) {
     const html = await fs.readFile(filePath, 'utf-8');
     const $ = cheerio.load(html);
     const tablesJson = [];
-    $('table').each((i, table) => {
-        const parsedTable = parseTableToJson($(table));
-        tablesJson.push(parsedTable);
-    });
+    
+    // Detect tournament type
+    const tournamentType = detectTournamentType(html);
+    
+    // Handle team tournament pairs specially
+    if (tournamentType === 'team' && filePath.includes('pairs')) {
+        const teamMatches = parseTeamTournamentPairs(html);
+        tablesJson.push({
+            type: 'team-pairs',
+            tournamentType: 'team',
+            matches: teamMatches
+        });
+    } else {
+        // Handle individual tournament or other tables
+        $('table').each((i, table) => {
+            const parsedTable = parseTableToJson($(table));
+            tablesJson.push(parsedTable);
+        });
+    }
     
     // Extract h1 title
     const pageHeading = $('h3').first().text().trim();
     const pairingScheduleText = $('.btn-toolbar h5').first().text().trim();
-    return { pageHeading, tables: tablesJson , pairingScheduleText: pairingScheduleText || undefined};
+    return { 
+        pageHeading, 
+        tables: tablesJson, 
+        pairingScheduleText: pairingScheduleText || undefined,
+        tournamentType 
+    };
 }
 
 async function extractMenuStructure(indexHtmlPath) {
@@ -779,6 +799,14 @@ function transformToNormalizedData(pageData, playerLookup, metadata, menu, categ
     Object.keys(pageData).forEach(fileName => {
         const page = pageData[fileName];
         const transformedTables = page.tables?.map(table => {
+            // Handle team tournament pairs specially
+            if (table.type === 'team-pairs') {
+                return {
+                    ...table,
+                    type: 'team-pairs'
+                };
+            }
+            
             if (!table.rows) return table;
 
             // Determine table type
@@ -849,8 +877,123 @@ function transformToNormalizedData(pageData, playerLookup, metadata, menu, categ
     return normalizedData;
 }
 
+// Function to detect tournament type based on HTML structure
+function detectTournamentType(html) {
+    const $ = cheerio.load(html);
+    
+    // Check for team tournament indicators
+    const hasTeamMatches = $('.match-item').length > 0;
+    const hasCollapsibleBoards = $('.stat-collapse').length > 0;
+    const hasTeamCards = $('.card.stat-card').length > 0;
+    const hasTeamPairingScript = $('script[src*="pairingteam"]').length > 0;
+    
+    if (hasTeamMatches && hasCollapsibleBoards && hasTeamCards && hasTeamPairingScript) {
+        return 'team';
+    }
+    
+    // Check for individual tournament indicators
+    const hasStandardTable = $('table.table-striped tbody tr').length > 0;
+    const hasPlayerColumns = $('th').text().includes('White Player') && $('th').text().includes('Black Player');
+    
+    if (hasStandardTable && hasPlayerColumns) {
+        return 'individual';
+    }
+    
+    return 'unknown';
+}
+
+// Function to parse team tournament pairs
+function parseTeamTournamentPairs(html) {
+    const $ = cheerio.load(html);
+    const teamMatches = [];
+    
+    $('.match-item').each((index, matchElement) => {
+        const $match = $(matchElement);
+        const matchData = {
+            matchNumber: $match.find('h2').text().trim(),
+            team1: extractTeamData($match, 'left'),
+            team2: extractTeamData($match, 'right'),
+            boardPairings: extractBoardPairings($match, $)
+        };
+        teamMatches.push(matchData);
+    });
+    
+    return teamMatches;
+}
+
+// Helper function to extract team data from match
+function extractTeamData($match, side) {
+    const selector = side === 'left' ? '.w-50:first' : '.w-50:last';
+    const $teamDiv = $match.find(selector);
+    
+    return {
+        country: $teamDiv.find('.fs-6.fw-bold').text().trim(),
+        teamName: $teamDiv.find('h5 span').text().trim(),
+        teamScore: $teamDiv.find('.text-success').text().trim(),
+        matchScore: $teamDiv.find('.text-primary').text().trim()
+    };
+}
+
+// Helper function to extract board pairings from team match
+function extractBoardPairings($match, $) {
+    const boardPairings = [];
+    
+    $match.find('.stat-collapse').each((index, boardElement) => {
+        const $board = $(boardElement);
+        const boardNumber = $board.find('strong').first().text().trim();
+        
+        // Extract white and black players
+        const whitePlayer = extractPlayerFromBoard($board, 'white', $);
+        const blackPlayer = extractPlayerFromBoard($board, 'black', $);
+        
+        boardPairings.push({
+            board: boardNumber,
+            white: whitePlayer,
+            black: blackPlayer
+        });
+    });
+    
+    return boardPairings;
+}
+
+// Helper function to extract player data from board pairing
+function extractPlayerFromBoard($board, color, $) {
+    const isWhite = color === 'white';
+    
+    if (isWhite) {
+        // White player is in the first .d-flex section within .player-stat-row
+        const $whiteSection = $board.find('.player-stat-row > .d-flex:first');
+        const name = $whiteSection.find('.flex-fill.py-2.px-3 span').text().trim();
+        const rating = $whiteSection.find('.w-20.py-2.px-3 span').text().trim();
+        const score = $whiteSection.find('.player-score strong').text().trim();
+        
+        return {
+            name: name,
+            rating: rating,
+            score: score
+        };
+    } else {
+        // Black player is in the second .d-flex section within .player-stat-row
+        const $blackSection = $board.find('.player-stat-row > .d-flex:last');
+        const name = $blackSection.find('.flex-fill.py-2.px-3 span').text().trim();
+        const rating = $blackSection.find('.w-20.py-2.px-3 span').text().trim();
+        const score = $blackSection.find('.player-score strong').text().trim();
+        
+        return {
+            name: name,
+            rating: rating,
+            score: score
+        };
+    }
+}
+
 // Function to determine table type
 function determineTableType(table, fileName) {
+    // Handle team tournament pairs
+    if (table.type === 'team-pairs') {
+        return 'team-pairs';
+    }
+    
     const headers = table.headers?.map(h => typeof h === 'string' ? h : h.name) || [];
     const headerKeys = headers.map(h => h.toLowerCase());
     

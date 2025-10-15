@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:05.382Z",
+  "generatedAt": "2025-10-14T23:56:59.974Z",
   "page": {
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 7",
@@ -49,15 +49,18 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "FIDE History Cards",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players sorted by rating and title",
@@ -220,7 +223,8 @@
             "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "National rating at round 7",
@@ -254,7 +258,8 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
@@ -402,7 +407,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 1"
+      "pairingScheduleText": "Pairing of round 1",
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "",
@@ -550,7 +556,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 2"
+      "pairingScheduleText": "Pairing of round 2",
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "",
@@ -698,7 +705,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 3"
+      "pairingScheduleText": "Pairing of round 3",
+      "tournamentType": "individual"
     },
     "pairs4.html": {
       "pageHeading": "",
@@ -846,7 +854,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 4"
+      "pairingScheduleText": "Pairing of round 4",
+      "tournamentType": "individual"
     },
     "pairs5.html": {
       "pageHeading": "",
@@ -994,7 +1003,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 5"
+      "pairingScheduleText": "Pairing of round 5",
+      "tournamentType": "individual"
     },
     "pairs6.html": {
       "pageHeading": "",
@@ -1142,7 +1152,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 6"
+      "pairingScheduleText": "Pairing of round 6",
+      "tournamentType": "individual"
     },
     "pairs7.html": {
       "pageHeading": "",
@@ -1290,7 +1301,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 7"
+      "pairingScheduleText": "Pairing of round 7",
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -2247,7 +2259,8 @@
             "rawHtml": "   8   <strong>Wei,Andrew          </strong>, K= 0, Elo=1031, ID=3204083\n<br>\n<a class=\"anchor\" name=\"8\"></a>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "Registered players sorted by name",
@@ -2410,7 +2423,8 @@
             "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -3426,7 +3440,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "sortedcrosstable.html": {
       "pageHeading": "",
@@ -3633,7 +3648,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 7",
@@ -3828,7 +3844,8 @@
             "html": "Tie Break legend:<br>     KS  :  Koya System * <br>\n     SB  :  Sonneborn-Berger * <br>\n     DE  :  Direct Encounter * <br>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -3966,7 +3983,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "playerLookup": {
@@ -4295,5 +4313,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "40648f4aca143b16f3618187c880be55"
+  "md5Hash": "6b2a02bfd7ff7b4b5ad6be576daf18ff"
 }

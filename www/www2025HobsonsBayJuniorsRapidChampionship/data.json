@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-29T22:56:32.531Z",
+  "generatedAt": "2025-10-14T23:57:03.184Z",
   "page": {
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 0",
@@ -49,19 +49,23 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "FIDE History Cards",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "game.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players",
@@ -824,7 +828,8 @@
             "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "National rating at round 0",
@@ -858,11 +863,13 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairing.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "pairs0.html": {
       "pageHeading": "",
@@ -897,7 +904,8 @@
           "rows": []
         }
       ],
-      "pairingScheduleText": "Pairing of round 0, at  of"
+      "pairingScheduleText": "Pairing of round 0, at  of",
+      "tournamentType": "unknown"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -4742,7 +4750,8 @@
             "rawHtml": "  80   <strong>Ramanathan,Ashwin   </strong>, K= 0, Elo=1287, ID=3206231\n<br>\n<a class=\"anchor\" name=\"80\"></a>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -4800,7 +4809,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -4938,7 +4948,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "playerLookup": {
@@ -6604,5 +6615,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "ad9517b620356dca74a3845f6986c2fc"
+  "md5Hash": "01fa2e4676cb9e35546db32fb11658e2"
 }

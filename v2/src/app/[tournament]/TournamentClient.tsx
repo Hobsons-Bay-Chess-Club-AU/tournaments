@@ -6,6 +6,7 @@ import TournamentMenu from "@/components/TournamentMenu";
 import PlayerRenderer from "@/components/PlayerRenderer";
 import KeyValueTable from "@/components/KeyValueTable";
 import PlayerPairingModal from "@/components/PlayerPairingModal";
+import TeamPairingRenderer from "@/components/TeamPairingRenderer";
 
 type TableCaption = string | {
     playerName?: string;
@@ -30,6 +31,36 @@ type PageData = {
             text: string;
             html: string;
         };
+        type?: string; // Added for team tournament support
+        tournamentType?: string; // Added for team tournament support
+        matches?: Array<{
+            matchNumber: string;
+            team1: {
+                country: string;
+                teamName: string;
+                teamScore: string;
+                matchScore: string;
+            };
+            team2: {
+                country: string;
+                teamName: string;
+                teamScore: string;
+                matchScore: string;
+            };
+            boardPairings: Array<{
+                board: string;
+                white: {
+                    name: string;
+                    rating: string;
+                    score: string;
+                };
+                black: {
+                    name: string;
+                    rating: string;
+                    score: string;
+                };
+            }>;
+        }>; // Added for team tournament matches
     }[];
     pairingScheduleText?: string;
 };
@@ -73,7 +104,31 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     const [data, setData] = useState<TournamentData | null>(null);
     const searchParams = useSearchParams();
     const router = useRouter();
-    const page = searchParams?.get("page") || "index.html";
+    // Determine default page based on tournament type
+    const getDefaultPage = () => {
+        if (!data) return "index.html";
+        
+        // Check if this is a team tournament by looking for team-pairs in any page
+        const hasTeamPairs = Object.values(data.pages || {}).some(page => 
+            page.tables?.some(table => table.type === 'team-pairs')
+        );
+        
+        // If it's a team tournament, prefer teamslist.html
+        if (hasTeamPairs) {
+            if (data.pages?.['teamslist.html']) {
+                return "teamslist.html";
+            }
+            // If teamslist.html doesn't exist, fall back to the first available page
+            const availablePages = Object.keys(data.pages || {});
+            if (availablePages.length > 0) {
+                return availablePages[0];
+            }
+        }
+        
+        return "index.html";
+    };
+    
+    const page = searchParams?.get("page") || getDefaultPage();
     const playerId = searchParams?.get("id"); // Get player ID for auto-scroll
 
     useEffect(() => {
@@ -81,6 +136,29 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
             .then((res) => res.json())
             .then((json) => setData(json));
     }, [resolvedParams.tournament]);
+
+    // Handle team tournament default page selection when data loads
+    useEffect(() => {
+        if (data) {
+            const hasTeamPairs = Object.values(data.pages || {}).some(page => 
+                page.tables?.some(table => table.type === 'team-pairs')
+            );
+            
+            // If it's a team tournament, redirect to teamslist.html (even if index.html exists)
+            if (hasTeamPairs && !searchParams?.get("page")) {
+                if (data.pages?.['teamslist.html']) {
+                    // If teamslist.html exists, use it
+                    router.replace(`?page=teamslist.html`);
+                } else {
+                    // Fall back to first available page
+                    const availablePages = Object.keys(data.pages || {});
+                    if (availablePages.length > 0) {
+                        router.replace(`?page=${availablePages[0]}`);
+                    }
+                }
+            }
+        }
+    }, [data, searchParams, router]);
 
     // Auto-scroll effect for player cards
     useEffect(() => {
@@ -480,7 +558,38 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
 
                     {currentPageData.tables && currentPageData.tables.length > 0 ? (
                         <div className="space-y-8">
-                            {currentPageData.tables.map((table, idx) => (
+                            {currentPageData.tables.map((table, idx) => {
+                                // Check if this is a team pairing table
+                                if (table.type === 'team-pairs' && table.matches) {
+                                    return (
+                                        <div key={idx} className="space-y-4">
+                                            {table.caption && (
+                                                <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
+                                                    {typeof table.caption === 'string' ? (
+                                                        <h3 className="text-lg font-semibold text-gray-900">{table.caption}</h3>
+                                                    ) : (
+                                                        <div className="space-y-2">
+                                                            <div className="flex items-center gap-4">
+                                                                <h3 className="text-lg font-bold text-blue-800">
+                                                                    {typeof table.caption === 'object' && table.caption.playerName ? String(table.caption.playerName) : ''}
+                                                                </h3>
+                                                                {typeof table.caption === 'object' && table.caption.id && (
+                                                                    <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm font-semibold">
+                                                                        ID: {String(table.caption.id)}
+                                                                    </span>
+                                                                )}
+                                                            </div>
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            )}
+                                            <TeamPairingRenderer data={table as any} />
+                                        </div>
+                                    );
+                                }
+                                
+                                // Regular table rendering for non-team pairings
+                                return (
                                 <div key={idx} className="space-y-4">
                                     {table.caption && (
                                         <div
@@ -738,7 +847,8 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                         </div>
                                     )}
                                 </div>
-                            ))}
+                                );
+                            })}
                         </div>
                     ) : (
                         <div className="text-center py-12">

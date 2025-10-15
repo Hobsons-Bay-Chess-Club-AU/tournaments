@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-30T13:33:33.099Z",
+  "generatedAt": "2025-10-14T23:57:04.387Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 5",
@@ -2338,7 +2338,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "crosstablescore.html": {
       "pageHeading": "Cross Table at round 5",
@@ -4854,7 +4855,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 5",
@@ -5787,7 +5789,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "FIDE History Cards",
@@ -9714,15 +9717,18 @@
             "rawHtml": " <a class=\"anchor\" name=\"54\"></a> N = 54<a href=\"http://ratings.fide.com/profile/3295745\" target=\"X\"> Vigneshwar,Krishanth </a>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "game.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players",
@@ -10319,7 +10325,8 @@
             "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "National rating at round 5",
@@ -10353,11 +10360,13 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairing.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
@@ -11457,7 +11466,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 1, at 17:30 of 30/09/2025"
+      "pairingScheduleText": "Pairing of round 1, at 17:30 of 30/09/2025",
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "",
@@ -12557,7 +12567,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 2, at 18:00 of 30/09/2025"
+      "pairingScheduleText": "Pairing of round 2, at 18:00 of 30/09/2025",
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "",
@@ -13657,7 +13668,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 3, at 18:30 of 30/09/2025"
+      "pairingScheduleText": "Pairing of round 3, at 18:30 of 30/09/2025",
+      "tournamentType": "individual"
     },
     "pairs4.html": {
       "pageHeading": "",
@@ -14785,7 +14797,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 4, at 19:00 of 30/09/2025"
+      "pairingScheduleText": "Pairing of round 4, at 19:00 of 30/09/2025",
+      "tournamentType": "individual"
     },
     "pairs5.html": {
       "pageHeading": "",
@@ -15913,7 +15926,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 5, at 19:30 of 30/09/2025"
+      "pairingScheduleText": "Pairing of round 5, at 19:30 of 30/09/2025",
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -21363,11 +21377,13 @@
             "rawHtml": "  55   <strong>Yegnavajjula,Venkata</strong>, K= 0, Elo=   0, ID=3219166\n<br>\n<a class=\"anchor\" name=\"55\"></a>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "rankcat.html": {
       "pageHeading": "Standings at round 5 sorted by category",
@@ -22582,15 +22598,18 @@
           ],
           "caption": "Ranking for category:"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankingagegroup.html": {
       "pageHeading": "Player Groups by date at round 5",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "rankinggroup.html": {
       "pageHeading": "Rated Player Groups at round 5",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -22648,7 +22667,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 5 (last round)",
@@ -23932,7 +23952,8 @@
             "html": "Tie Break legend:<br>     BH  :  Buchholz <br>\n  BH/C1  :  Buchholz Cut 1 <br>\n     SB  :  Sonneborn-Berger <br>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -24070,7 +24091,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "playerLookup": {
@@ -25566,5 +25588,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "a0c801f6fb4ffcebde65264b04edf200"
+  "md5Hash": "ad4494e0e241980643036beae8171cc3"
 }

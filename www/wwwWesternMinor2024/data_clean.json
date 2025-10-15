@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:17.088Z",
+  "generatedAt": "2025-10-14T23:57:09.239Z",
   "tournament": {
     "id": "hobsons-bay-western-minor-2024",
     "name": "Hobsons Bay Western Minor 2024",
@@ -179,15 +179,18 @@
           "rows": [],
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "FIDE History Cards",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players sorted by rating and title",
@@ -311,7 +314,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "National rating at round 5",
@@ -346,7 +350,8 @@
           "rows": [],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
@@ -421,7 +426,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 1"
+      "pairingScheduleText": "Pairing of round 1",
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "",
@@ -496,7 +502,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 2"
+      "pairingScheduleText": "Pairing of round 2",
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "",
@@ -571,7 +578,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 3"
+      "pairingScheduleText": "Pairing of round 3",
+      "tournamentType": "individual"
     },
     "pairs4.html": {
       "pageHeading": "",
@@ -646,7 +654,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 4"
+      "pairingScheduleText": "Pairing of round 4",
+      "tournamentType": "individual"
     },
     "pairs5.html": {
       "pageHeading": "",
@@ -721,7 +730,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 5, at 19:30 of 04/06/2024"
+      "pairingScheduleText": "Pairing of round 5, at 19:30 of 04/06/2024",
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -1326,7 +1336,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "Registered players sorted by name",
@@ -1450,7 +1461,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -2024,7 +2036,8 @@
           ],
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "sortedcrosstable.html": {
       "pageHeading": "",
@@ -2168,7 +2181,8 @@
           ],
           "type": "crosstable"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 5",
@@ -2256,7 +2270,8 @@
           },
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -2395,7 +2410,8 @@
           ],
           "type": "statistics"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "menu": [
@@ -2476,5 +2492,5 @@
       ]
     }
   ],
-  "md5Hash": "42ff24916e108f26da2a1ac256b8f5fe"
+  "md5Hash": "4b9df20e59b16f322ceceebcd5219306"
 }

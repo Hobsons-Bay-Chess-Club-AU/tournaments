@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:08.008Z",
+  "generatedAt": "2025-10-14T23:57:01.976Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 7",
@@ -1730,7 +1730,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "crosstablescore.html": {
       "pageHeading": "Cross Table at round 7",
@@ -3569,7 +3570,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 7",
@@ -4178,7 +4180,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "FIDE History Cards",
@@ -7341,15 +7344,18 @@
             "rawHtml": " <a class=\"anchor\" name=\"32\"></a> N = 32<a href=\"http://ratings.fide.com/profile/0\" target=\"X\"> Sheikh,Tahmid </a>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "game.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players",
@@ -7716,7 +7722,8 @@
             "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "National rating at round 7",
@@ -7750,11 +7757,13 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairing.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
@@ -8502,7 +8511,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 1, at 17:30 of 10/06/2025"
+      "pairingScheduleText": "Pairing of round 1, at 17:30 of 10/06/2025",
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "",
@@ -9110,7 +9120,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 2, at 17:30 of 17/06/2025"
+      "pairingScheduleText": "Pairing of round 2, at 17:30 of 17/06/2025",
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "",
@@ -9746,7 +9757,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 3, at 17:30 of 24/06/2025"
+      "pairingScheduleText": "Pairing of round 3, at 17:30 of 24/06/2025",
+      "tournamentType": "individual"
     },
     "pairs4.html": {
       "pageHeading": "",
@@ -10410,7 +10422,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 4, at 17:30 of 01/07/2025"
+      "pairingScheduleText": "Pairing of round 4, at 17:30 of 01/07/2025",
+      "tournamentType": "individual"
     },
     "pairs5.html": {
       "pageHeading": "",
@@ -11046,7 +11059,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 5, at 17:30 of 22/07/2025"
+      "pairingScheduleText": "Pairing of round 5, at 17:30 of 22/07/2025",
+      "tournamentType": "individual"
     },
     "pairs6.html": {
       "pageHeading": "",
@@ -11710,7 +11724,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 6, at 17:30 of 29/07/2025"
+      "pairingScheduleText": "Pairing of round 6, at 17:30 of 29/07/2025",
+      "tournamentType": "individual"
     },
     "pairs7.html": {
       "pageHeading": "",
@@ -12374,7 +12389,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 7, at 17:30 of 05/08/2025"
+      "pairingScheduleText": "Pairing of round 7, at 17:30 of 05/08/2025",
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -16187,11 +16203,13 @@
             "rawHtml": "  32   <strong>Sheikh,Tahmid       </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"32\"></a>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "rankcat.html": {
       "pageHeading": "Standings at round 7 sorted by category",
@@ -16946,15 +16964,18 @@
           ],
           "caption": "Ranking for category: CM"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankingagegroup.html": {
       "pageHeading": "Player Groups by date at round 7",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "rankinggroup.html": {
       "pageHeading": "Rated Player Groups at round 7",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -17012,7 +17033,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 7 (last round)",
@@ -17787,7 +17809,8 @@
             "html": "Tie Break legend:<br>     BH  :  Buchholz <br>\n  BH/C1  :  Buchholz Cut 1 <br>\n     SB  :  Sonneborn-Berger <br>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -17925,7 +17948,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "playerLookup": {
@@ -18866,5 +18890,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Senior"
   },
-  "md5Hash": "a88b1cf9c607bef1011b382aa00f0028"
+  "md5Hash": "df7810aad345e33f12a7c0e09e6a4d8e"
 }

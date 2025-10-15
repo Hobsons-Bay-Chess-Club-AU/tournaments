@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:14.724Z",
+  "generatedAt": "2025-10-14T23:57:07.560Z",
   "tournament": {
     "id": "honourable-bob-2024",
     "name": "Honourable Bob 2024",
@@ -1821,7 +1821,8 @@
           ],
           "type": "crosstable"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 5",
@@ -1876,15 +1877,18 @@
           "rows": [],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "FIDE History Cards",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players sorted by rating and title",
@@ -2374,7 +2378,8 @@
           ],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "National rating at round 5",
@@ -2409,7 +2414,8 @@
           "rows": [],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "Pairings",
@@ -3040,7 +3046,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "Pairings",
@@ -3651,7 +3658,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "Pairings",
@@ -4272,7 +4280,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs4.html": {
       "pageHeading": "Pairings",
@@ -4893,7 +4902,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs5.html": {
       "pageHeading": "Pairings",
@@ -5514,7 +5524,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -10519,7 +10530,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "Registered players sorted by name",
@@ -11009,7 +11021,8 @@
           ],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankTeams.html": {
       "pageHeading": "Team ranking based on 4 best players of each team",
@@ -11436,7 +11449,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankcat.html": {
       "pageHeading": "Standings at round 5 sorted by category",
@@ -12185,15 +12199,18 @@
           "caption": "Ranking for category: WIM",
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankingagegroup.html": {
       "pageHeading": "Player Groups by date at round 5",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "rankinggroup.html": {
       "pageHeading": "Rated Player Groups at round 5",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -12242,7 +12259,8 @@
           ],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 5 (last round)",
@@ -12736,7 +12754,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "summaryFederations.html": {
       "pageHeading": "Summary by Federations",
@@ -14428,7 +14447,8 @@
           "caption": "Standings",
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "summaryOrigin.html": {
       "pageHeading": "Summary by Origin",
@@ -15862,7 +15882,8 @@
           "caption": "Standings",
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -16001,7 +16022,8 @@
           ],
           "type": "statistics"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "menu": [
@@ -16110,5 +16132,5 @@
       ]
     }
   ],
-  "md5Hash": "8a2f09bec9cd7da6a6426ed4c872776d"
+  "md5Hash": "8d3bdb39b9020e3a995d7e0fc7261aa8"
 }

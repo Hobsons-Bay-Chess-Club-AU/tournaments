@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:13.022Z",
+  "generatedAt": "2025-10-14T23:57:06.344Z",
   "tournament": {
     "id": "blitz-1",
     "name": "Blitz 1",
@@ -1337,7 +1337,8 @@
           ],
           "type": "crosstable"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 9",
@@ -1392,15 +1393,18 @@
           "rows": [],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "FIDE History Cards",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players sorted by rating and title",
@@ -1638,7 +1642,8 @@
           ],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "National rating at round 9",
@@ -1673,7 +1678,8 @@
           "rows": [],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "Pairings",
@@ -1960,7 +1966,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "Pairings",
@@ -2247,7 +2254,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "Pairings",
@@ -2540,7 +2548,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs4.html": {
       "pageHeading": "Pairings",
@@ -2833,7 +2842,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs5.html": {
       "pageHeading": "Pairings",
@@ -3126,7 +3136,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs6.html": {
       "pageHeading": "Pairings",
@@ -3419,7 +3430,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs7.html": {
       "pageHeading": "Pairings",
@@ -3712,7 +3724,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs8.html": {
       "pageHeading": "Pairings",
@@ -4005,7 +4018,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs9.html": {
       "pageHeading": "Pairings",
@@ -4298,7 +4312,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -7383,7 +7398,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "Registered players sorted by name",
@@ -7621,7 +7637,8 @@
           ],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankTeams.html": {
       "pageHeading": "Team ranking based on 4 best players of each team",
@@ -7908,7 +7925,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankcat.html": {
       "pageHeading": "Standings at round 9 sorted by category",
@@ -8273,15 +8291,18 @@
           "caption": "Ranking for category: CM",
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankingagegroup.html": {
       "pageHeading": "Player Groups by date at round 9",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "rankinggroup.html": {
       "pageHeading": "Rated Player Groups at round 9",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -8304,7 +8325,8 @@
           "rows": [],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 9 (last round)",
@@ -8546,7 +8568,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "summaryFederations.html": {
       "pageHeading": "Summary by Federations",
@@ -9232,7 +9255,8 @@
           "caption": "Standings",
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "summaryOrigin.html": {
       "pageHeading": "Summary by Origin",
@@ -9918,7 +9942,8 @@
           "caption": "Standings",
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -10057,7 +10082,8 @@
           ],
           "type": "statistics"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "menu": [
@@ -10166,5 +10192,5 @@
       ]
     }
   ],
-  "md5Hash": "ac74aeee74461d42a79d872c481f5266"
+  "md5Hash": "909ec819e236299529719a273ff00840"
 }

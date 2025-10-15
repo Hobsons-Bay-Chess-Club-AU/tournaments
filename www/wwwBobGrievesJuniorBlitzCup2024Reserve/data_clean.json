@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:13.400Z",
+  "generatedAt": "2025-10-14T23:57:06.621Z",
   "tournament": {
     "id": "bob-grieves-junior-blitz-cup-2024-reserve",
     "name": "Bob Grieves Junior Blitz Cup 2024 Reserve",
@@ -1227,11 +1227,13 @@
           ],
           "type": "crosstable"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players sorted by rating and title",
@@ -1415,7 +1417,8 @@
           ],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "Pairings",
@@ -1642,7 +1645,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs10.html": {
       "pageHeading": "Pairings",
@@ -1879,7 +1883,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs11.html": {
       "pageHeading": "Pairings",
@@ -2116,7 +2121,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs12.html": {
       "pageHeading": "Pairings",
@@ -2353,7 +2359,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "Pairings",
@@ -2590,7 +2597,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "Pairings",
@@ -2827,7 +2835,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs4.html": {
       "pageHeading": "Pairings",
@@ -3064,7 +3073,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs5.html": {
       "pageHeading": "Pairings",
@@ -3301,7 +3311,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs6.html": {
       "pageHeading": "Pairings",
@@ -3538,7 +3549,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs7.html": {
       "pageHeading": "Pairings",
@@ -3775,7 +3787,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs8.html": {
       "pageHeading": "Pairings",
@@ -4012,7 +4025,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs9.html": {
       "pageHeading": "Pairings",
@@ -4249,7 +4263,8 @@
           },
           "type": "pairing"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -6974,7 +6989,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "Registered players sorted by name",
@@ -7158,7 +7174,8 @@
           ],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -7181,7 +7198,8 @@
           "rows": [],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 12 (last round)",
@@ -7389,7 +7407,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -7528,7 +7547,8 @@
           ],
           "type": "statistics"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "menu": [
@@ -7596,5 +7616,5 @@
       "children": []
     }
   ],
-  "md5Hash": "d48dde175a15c5f2b69cacf9dc62b8ce"
+  "md5Hash": "6e78383a26d24ba47a63e909ee6052d4"
 }

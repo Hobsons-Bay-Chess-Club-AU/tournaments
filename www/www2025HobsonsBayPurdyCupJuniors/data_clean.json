@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:10.686Z",
+  "generatedAt": "2025-10-14T23:57:04.056Z",
   "tournament": {
     "id": "2025-hobsons-bay-chess-club-c.j.s-purdy-cup-juniors",
     "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
@@ -2172,7 +2172,8 @@
           ],
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "crosstablescore.html": {
       "pageHeading": "Cross Table at round 5",
@@ -4206,7 +4207,8 @@
           ],
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 5",
@@ -4257,15 +4259,18 @@
           "rows": [],
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "FIDE History Cards",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players sorted by rating and title",
@@ -5044,7 +5049,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "National rating at round 5",
@@ -5079,7 +5085,8 @@
           "rows": [],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
@@ -5364,7 +5371,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 1, at 18:30 of 18/03/2025"
+      "pairingScheduleText": "Pairing of round 1, at 18:30 of 18/03/2025",
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "",
@@ -5669,7 +5677,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 2, at 18:30 of 25/03/2025"
+      "pairingScheduleText": "Pairing of round 2, at 18:30 of 25/03/2025",
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "",
@@ -6034,7 +6043,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 3, at 18:30 of 01/04/2025"
+      "pairingScheduleText": "Pairing of round 3, at 18:30 of 01/04/2025",
+      "tournamentType": "individual"
     },
     "pairs4.html": {
       "pageHeading": "",
@@ -6459,7 +6469,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 4, at 18:30 of 08/04/2025"
+      "pairingScheduleText": "Pairing of round 4, at 18:30 of 08/04/2025",
+      "tournamentType": "individual"
     },
     "pairs5 (1).html": {
       "pageHeading": "",
@@ -6848,7 +6859,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 5, at 18:30 of 15/04/2025"
+      "pairingScheduleText": "Pairing of round 5, at 18:30 of 15/04/2025",
+      "tournamentType": "individual"
     },
     "pairs5.html": {
       "pageHeading": "",
@@ -7237,7 +7249,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 5, at 18:30 of 15/04/2025"
+      "pairingScheduleText": "Pairing of round 5, at 18:30 of 15/04/2025",
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -12142,7 +12155,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "Registered players sorted by name",
@@ -12921,7 +12935,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankTeams.html": {
       "pageHeading": "Team ranking based on 4 best players of each team",
@@ -13343,7 +13358,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankcat.html": {
       "pageHeading": "Standings at round 5 sorted by category",
@@ -14384,11 +14400,13 @@
           "caption": "Ranking for category:",
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankingagegroup.html": {
       "pageHeading": "Player Groups by date at round 5",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "rankinggroup.html": {
       "pageHeading": "Rated Player Groups at round 5",
@@ -15545,7 +15563,8 @@
           },
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -15594,7 +15613,8 @@
           ],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 5 (last round)",
@@ -16185,7 +16205,8 @@
           },
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "summaryFederations.html": {
       "pageHeading": "Summary by Federations",
@@ -18315,7 +18336,8 @@
           "caption": "Standings",
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "summaryOrigin.html": {
       "pageHeading": "Summary by Origin",
@@ -20107,7 +20129,8 @@
           "caption": "Standings",
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -20246,7 +20269,8 @@
           ],
           "type": "statistics"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "menu": [
@@ -20355,5 +20379,5 @@
       ]
     }
   ],
-  "md5Hash": "fc59a7bf9b4246babc12c965319f470d"
+  "md5Hash": "f9be257eb2ef63d2771ad0e478dabfe6"
 }

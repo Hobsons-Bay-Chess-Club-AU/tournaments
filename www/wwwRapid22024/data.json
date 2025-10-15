@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:16.047Z",
+  "generatedAt": "2025-10-14T23:57:08.489Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 5",
@@ -813,7 +813,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "crosstablescore.html": {
       "pageHeading": "Cross Table at round 5",
@@ -1620,11 +1621,13 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players sorted by rating and title",
@@ -1929,7 +1932,8 @@
             "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
@@ -2263,7 +2267,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 1"
+      "pairingScheduleText": "Pairing of round 1",
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "",
@@ -2597,7 +2602,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 2"
+      "pairingScheduleText": "Pairing of round 2",
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "",
@@ -2931,7 +2937,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 3"
+      "pairingScheduleText": "Pairing of round 3",
+      "tournamentType": "individual"
     },
     "pairs4.html": {
       "pageHeading": "",
@@ -3265,7 +3272,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 4"
+      "pairingScheduleText": "Pairing of round 4",
+      "tournamentType": "individual"
     },
     "pairs5.html": {
       "pageHeading": "",
@@ -3609,7 +3617,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 5"
+      "pairingScheduleText": "Pairing of round 5",
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -5495,7 +5504,8 @@
             "rawHtml": "  19   <strong>Nicdao,Joseph       </strong>, K= 0, Elo=   0, ID=3207782\n<br>\n<a class=\"anchor\" name=\"19\"></a>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "Registered players sorted by name",
@@ -5800,7 +5810,8 @@
             "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -5822,7 +5833,8 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 5 (last round)",
@@ -6226,7 +6238,8 @@
             "html": "Tie Break legend:<br>\n     BH  :  Buchholz Total * <br>\n  BH-C1  :  Buchholz Cut 1 * <br>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -6364,7 +6377,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "playerLookup": {
@@ -6943,5 +6957,5 @@
     "FIDE titled player NOT from AUS Federation": "1",
     "category": "Senior"
   },
-  "md5Hash": "9dc95dd8f0d9e493d89715901391eafd"
+  "md5Hash": "e93123eef9d603a45d3ddefdbce8f6d1"
 }

@@ -150,8 +150,8 @@ export default function Home() {
                 status = "In Progress";
                 statusClass = "bg-green-200 text-green-800";
               }
-              // If completed, go to standings page
-              const linkUrl = status === "Completed" ? `/${slug}?page=standings.html` : `/${slug}`;
+              // If completed, go to standings page (or index.html for team tournaments)
+              const linkUrl = status === "Completed" ? `/${slug}?page=index.html` : `/${slug}`;
               return (
                 <Link
                   key={idx}

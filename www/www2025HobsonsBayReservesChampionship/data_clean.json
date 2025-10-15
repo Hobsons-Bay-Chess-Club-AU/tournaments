@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:10.702Z",
+  "generatedAt": "2025-10-14T23:57:04.069Z",
   "tournament": {
     "id": "2025-hobsons-bay-reserves-championship",
     "name": "2025 Hobsons Bay Reserves Championship",
@@ -89,7 +89,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "Registered players sorted by name",
@@ -148,7 +149,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "menu": [
@@ -183,5 +185,5 @@
       ]
     }
   ],
-  "md5Hash": "4767d55a58270b97eef29b186393eeed"
+  "md5Hash": "5abc86a8264867a93973d84a9e3ad6b6"
 }

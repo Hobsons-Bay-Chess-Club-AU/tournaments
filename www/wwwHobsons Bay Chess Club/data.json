@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:13.705Z",
+  "generatedAt": "2025-10-14T23:57:06.837Z",
   "page": {
     "crosstablescore.html": {
       "pageHeading": "",
@@ -582,7 +582,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "felovar.html": {
       "pageHeading": "",
@@ -636,15 +637,18 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "",
@@ -1007,7 +1011,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "",
@@ -1041,7 +1046,8 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
@@ -1536,7 +1542,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "",
@@ -2019,7 +2026,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "",
@@ -4148,7 +4156,8 @@
             "rawHtml": "  36   <strong>Vijayakumar,Rithvik </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"36\"></a>Honourable Bob Juniors 2024, Hobsons Bay Chess Club, 30/01/2024, 12/03/2024"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "",
@@ -4511,7 +4520,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankcat.html": {
       "pageHeading": "Standings at round 2 sorted by category",
@@ -4995,15 +5005,18 @@
           ],
           "caption": "Ranking for category:"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankingagegroup.html": {
       "pageHeading": "Player Groups by date at round 2",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "rankinggroup.html": {
       "pageHeading": "Rated Player Groups at round 2",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "",
@@ -5025,7 +5038,8 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "",
@@ -5472,7 +5486,8 @@
             "html": "Tie Break legend:"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "summaryOrigin.html": {
       "pageHeading": "",
@@ -6065,7 +6080,8 @@
           ],
           "caption": "Standings"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "tourstat.html": {
       "pageHeading": "",
@@ -6203,7 +6219,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "playerLookup": {},
@@ -6570,5 +6587,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "0a875127a7207231fa95c35b8081653d"
+  "md5Hash": "7ef6a7622ce4975b7c8f5e10adc95737"
 }

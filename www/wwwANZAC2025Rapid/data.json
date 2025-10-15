@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-10T06:00:28.168Z",
+  "generatedAt": "2025-10-14T23:48:20.747Z",
   "page": {
     "FIDERtgVariation.html": {
       "pageHeading": "",
@@ -49,7 +49,8 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "NationalRtgVariation.html": {
       "pageHeading": "",
@@ -91,7 +92,8 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "crosstableRoundRobin.html": {
       "pageHeading": "",
@@ -220,7 +222,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "crosstableteam.html": {
       "pageHeading": "",
@@ -459,7 +462,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "1  ACTJCL",
@@ -1303,7 +1307,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "info.html": {
       "pageHeading": "",
@@ -1361,31 +1366,1498 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "navbar.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [
+        {
+          "type": "team-pairs",
+          "tournamentType": "team",
+          "matches": [
+            {
+              "matchNumber": "1",
+              "team1": {
+                "country": "AUS",
+                "teamName": "1",
+                "teamScore": "23",
+                "matchScore": "2"
+              },
+              "team2": {
+                "country": "AUS",
+                "teamName": "6",
+                "teamScore": "12.5",
+                "matchScore": "0"
+              },
+              "boardPairings": [
+                {
+                  "board": "1.1",
+                  "white": {
+                    "name": "Eleutherios,Thomas",
+                    "rating": "1897",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Collins,Immanuel",
+                    "rating": "1013",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "1.2",
+                  "white": {
+                    "name": "Cheng,Larry",
+                    "rating": "1817",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Gan,Alvis",
+                    "rating": "1450",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "1.3",
+                  "white": {
+                    "name": "Fasakin,Olamide",
+                    "rating": "1795",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Xie,Leo",
+                    "rating": "1334",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "1.4",
+                  "white": {
+                    "name": "Cheng,Jerry",
+                    "rating": "1773",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Tang,Talos",
+                    "rating": "1025",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "1.5",
+                  "white": {
+                    "name": "Fasakin,Olaoluwa",
+                    "rating": "1702",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Wu,Erick",
+                    "rating": "0",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "1.6",
+                  "white": {
+                    "name": "Selva Muthukumar,Sahasra",
+                    "rating": "1198",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Mahajan,Zariya",
+                    "rating": "0",
+                    "score": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "matchNumber": "2",
+              "team1": {
+                "country": "AUS",
+                "teamName": "2",
+                "teamScore": "14.5",
+                "matchScore": "2"
+              },
+              "team2": {
+                "country": "AUS",
+                "teamName": "5",
+                "teamScore": "10",
+                "matchScore": "0"
+              },
+              "boardPairings": [
+                {
+                  "board": "2.1",
+                  "white": {
+                    "name": "Annapureddy,Dhruthin Reddy",
+                    "rating": "1263",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Tanner,Jonathan",
+                    "rating": "1554",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "2.2",
+                  "white": {
+                    "name": "Yang,Yifan",
+                    "rating": "1102",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Musson,Henry",
+                    "rating": "856",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "2.3",
+                  "white": {
+                    "name": "Batyrbekov,Kaisar",
+                    "rating": "1261",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Knezevic,Milan",
+                    "rating": "0",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "2.4",
+                  "white": {
+                    "name": "Annadasu,Shreyansh",
+                    "rating": "729",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Karthick,Deepshika",
+                    "rating": "471",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "2.5",
+                  "white": {
+                    "name": "Batyrbekov,Aidan",
+                    "rating": "915",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Kildea,James",
+                    "rating": "1055",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "2.6",
+                  "white": {
+                    "name": "Prince,Aliza",
+                    "rating": "548",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Li,Zhiqing",
+                    "rating": "737",
+                    "score": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "matchNumber": "3",
+              "team1": {
+                "country": "AUS",
+                "teamName": "3",
+                "teamScore": "21.5",
+                "matchScore": "2"
+              },
+              "team2": {
+                "country": "NZL",
+                "teamName": "4",
+                "teamScore": "8.5",
+                "matchScore": "0"
+              },
+              "boardPairings": [
+                {
+                  "board": "3.1",
+                  "white": {
+                    "name": "Nguyen,Anh Kiet",
+                    "rating": "1400",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Babaranda,Hasanli",
+                    "rating": "0",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "3.2",
+                  "white": {
+                    "name": "Bodke,Krishna",
+                    "rating": "1247",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Coleman, Samantha",
+                    "rating": "0",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "3.3",
+                  "white": {
+                    "name": "Parker,Lucas",
+                    "rating": "1509",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Babaranda, Okitha",
+                    "rating": "0",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "3.4",
+                  "white": {
+                    "name": "Li,LiYuan",
+                    "rating": "796",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Zernov, Misha",
+                    "rating": "0",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "3.5",
+                  "white": {
+                    "name": "Wei,Andrew",
+                    "rating": "990",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Bennet, Seth",
+                    "rating": "0",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "3.6",
+                  "white": {
+                    "name": "Marasinghe,Claire",
+                    "rating": "660",
+                    "score": "½"
+                  },
+                  "black": {
+                    "name": "Cullen, Sam",
+                    "rating": "0",
+                    "score": "½"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tournamentType": "team"
     },
     "pairs2.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [
+        {
+          "type": "team-pairs",
+          "tournamentType": "team",
+          "matches": [
+            {
+              "matchNumber": "1",
+              "team1": {
+                "country": "AUS",
+                "teamName": "6",
+                "teamScore": "1",
+                "matchScore": "2"
+              },
+              "team2": {
+                "country": "NZL",
+                "teamName": "4",
+                "teamScore": "2.5",
+                "matchScore": "0"
+              },
+              "boardPairings": [
+                {
+                  "board": "1.1",
+                  "white": {
+                    "name": "Collins,Immanuel",
+                    "rating": "1013",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Babaranda,Hasanli",
+                    "rating": "0",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "1.2",
+                  "white": {
+                    "name": "Gan,Alvis",
+                    "rating": "1450",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Coleman, Samantha",
+                    "rating": "0",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "1.3",
+                  "white": {
+                    "name": "Xie,Leo",
+                    "rating": "1334",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Babaranda, Okitha",
+                    "rating": "0",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "1.4",
+                  "white": {
+                    "name": "Tang,Talos",
+                    "rating": "1025",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Zernov, Misha",
+                    "rating": "0",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "1.5",
+                  "white": {
+                    "name": "Wu,Erick",
+                    "rating": "0",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Bennet, Seth",
+                    "rating": "0",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "1.6",
+                  "white": {
+                    "name": "Mahajan,Zariya",
+                    "rating": "0",
+                    "score": "½"
+                  },
+                  "black": {
+                    "name": "Cullen, Sam",
+                    "rating": "0",
+                    "score": "½"
+                  }
+                }
+              ]
+            },
+            {
+              "matchNumber": "2",
+              "team1": {
+                "country": "AUS",
+                "teamName": "5",
+                "teamScore": "2",
+                "matchScore": "0"
+              },
+              "team2": {
+                "country": "AUS",
+                "teamName": "3",
+                "teamScore": "3.5",
+                "matchScore": "2"
+              },
+              "boardPairings": [
+                {
+                  "board": "2.1",
+                  "white": {
+                    "name": "Tanner,Jonathan",
+                    "rating": "1554",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Nguyen,Anh Kiet",
+                    "rating": "1400",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "2.2",
+                  "white": {
+                    "name": "Musson,Henry",
+                    "rating": "856",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Bodke,Krishna",
+                    "rating": "1247",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "2.3",
+                  "white": {
+                    "name": "Knezevic,Milan",
+                    "rating": "0",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Parker,Lucas",
+                    "rating": "1509",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "2.4",
+                  "white": {
+                    "name": "Karthick,Deepshika",
+                    "rating": "471",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Li,LiYuan",
+                    "rating": "796",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "2.5",
+                  "white": {
+                    "name": "Kildea,James",
+                    "rating": "1055",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Wei,Andrew",
+                    "rating": "990",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "2.6",
+                  "white": {
+                    "name": "Li,Zhiqing",
+                    "rating": "737",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Marasinghe,Claire",
+                    "rating": "660",
+                    "score": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "matchNumber": "3",
+              "team1": {
+                "country": "AUS",
+                "teamName": "1",
+                "teamScore": "5",
+                "matchScore": "2"
+              },
+              "team2": {
+                "country": "AUS",
+                "teamName": "2",
+                "teamScore": "4",
+                "matchScore": "0"
+              },
+              "boardPairings": [
+                {
+                  "board": "3.1",
+                  "white": {
+                    "name": "Eleutherios,Thomas",
+                    "rating": "1897",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Annapureddy,Dhruthin Reddy",
+                    "rating": "1263",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "3.2",
+                  "white": {
+                    "name": "Cheng,Larry",
+                    "rating": "1817",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Yang,Yifan",
+                    "rating": "1102",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "3.3",
+                  "white": {
+                    "name": "Fasakin,Olamide",
+                    "rating": "1795",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Batyrbekov,Kaisar",
+                    "rating": "1261",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "3.4",
+                  "white": {
+                    "name": "Cheng,Jerry",
+                    "rating": "1773",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Annadasu,Shreyansh",
+                    "rating": "729",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "3.5",
+                  "white": {
+                    "name": "Fasakin,Olaoluwa",
+                    "rating": "1702",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Batyrbekov,Aidan",
+                    "rating": "915",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "3.6",
+                  "white": {
+                    "name": "Selva Muthukumar,Sahasra",
+                    "rating": "1198",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Prince,Aliza",
+                    "rating": "548",
+                    "score": "0"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tournamentType": "team"
     },
     "pairs3.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [
+        {
+          "type": "team-pairs",
+          "tournamentType": "team",
+          "matches": [
+            {
+              "matchNumber": "1",
+              "team1": {
+                "country": "AUS",
+                "teamName": "2",
+                "teamScore": "4",
+                "matchScore": "2"
+              },
+              "team2": {
+                "country": "AUS",
+                "teamName": "6",
+                "teamScore": "5.5",
+                "matchScore": "0"
+              },
+              "boardPairings": [
+                {
+                  "board": "1.1",
+                  "white": {
+                    "name": "Annapureddy,Dhruthin Reddy",
+                    "rating": "1263",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Collins,Immanuel",
+                    "rating": "1013",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "1.2",
+                  "white": {
+                    "name": "Yang,Yifan",
+                    "rating": "1102",
+                    "score": "½"
+                  },
+                  "black": {
+                    "name": "Gan,Alvis",
+                    "rating": "1450",
+                    "score": "½"
+                  }
+                },
+                {
+                  "board": "1.3",
+                  "white": {
+                    "name": "Batyrbekov,Kaisar",
+                    "rating": "1261",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Xie,Leo",
+                    "rating": "1334",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "1.4",
+                  "white": {
+                    "name": "Annadasu,Shreyansh",
+                    "rating": "729",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Tang,Talos",
+                    "rating": "1025",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "1.5",
+                  "white": {
+                    "name": "Batyrbekov,Aidan",
+                    "rating": "915",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Wu,Erick",
+                    "rating": "0",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "1.6",
+                  "white": {
+                    "name": "Prince,Aliza",
+                    "rating": "548",
+                    "score": "½"
+                  },
+                  "black": {
+                    "name": "Mahajan,Zariya",
+                    "rating": "0",
+                    "score": "½"
+                  }
+                }
+              ]
+            },
+            {
+              "matchNumber": "2",
+              "team1": {
+                "country": "AUS",
+                "teamName": "3",
+                "teamScore": "9.5",
+                "matchScore": "2"
+              },
+              "team2": {
+                "country": "AUS",
+                "teamName": "1",
+                "teamScore": "11",
+                "matchScore": "0"
+              },
+              "boardPairings": [
+                {
+                  "board": "2.1",
+                  "white": {
+                    "name": "Nguyen,Anh Kiet",
+                    "rating": "1400",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Eleutherios,Thomas",
+                    "rating": "1897",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "2.2",
+                  "white": {
+                    "name": "Bodke,Krishna",
+                    "rating": "1247",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Cheng,Larry",
+                    "rating": "1817",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "2.3",
+                  "white": {
+                    "name": "Parker,Lucas",
+                    "rating": "1509",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Fasakin,Olamide",
+                    "rating": "1795",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "2.4",
+                  "white": {
+                    "name": "Li,LiYuan",
+                    "rating": "796",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Cheng,Jerry",
+                    "rating": "1773",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "2.5",
+                  "white": {
+                    "name": "Wei,Andrew",
+                    "rating": "990",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Fasakin,Olaoluwa",
+                    "rating": "1702",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "2.6",
+                  "white": {
+                    "name": "Marasinghe,Claire",
+                    "rating": "660",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Selva Muthukumar,Sahasra",
+                    "rating": "1198",
+                    "score": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "matchNumber": "3",
+              "team1": {
+                "country": "NZL",
+                "teamName": "4",
+                "teamScore": "4",
+                "matchScore": "0"
+              },
+              "team2": {
+                "country": "AUS",
+                "teamName": "5",
+                "teamScore": "2",
+                "matchScore": "2"
+              },
+              "boardPairings": [
+                {
+                  "board": "3.1",
+                  "white": {
+                    "name": "Babaranda,Hasanli",
+                    "rating": "0",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Tanner,Jonathan",
+                    "rating": "1554",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "3.2",
+                  "white": {
+                    "name": "Coleman, Samantha",
+                    "rating": "0",
+                    "score": "½"
+                  },
+                  "black": {
+                    "name": "Musson,Henry",
+                    "rating": "856",
+                    "score": "½"
+                  }
+                },
+                {
+                  "board": "3.3",
+                  "white": {
+                    "name": "Babaranda, Okitha",
+                    "rating": "0",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Knezevic,Milan",
+                    "rating": "0",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "3.4",
+                  "white": {
+                    "name": "Zernov, Misha",
+                    "rating": "0",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Karthick,Deepshika",
+                    "rating": "471",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "3.5",
+                  "white": {
+                    "name": "Bennet, Seth",
+                    "rating": "0",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Kildea,James",
+                    "rating": "1055",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "3.6",
+                  "white": {
+                    "name": "Cullen, Sam",
+                    "rating": "0",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Li,Zhiqing",
+                    "rating": "737",
+                    "score": "1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tournamentType": "team"
     },
     "pairs4.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [
+        {
+          "type": "team-pairs",
+          "tournamentType": "team",
+          "matches": [
+            {
+              "matchNumber": "1",
+              "team1": {
+                "country": "AUS",
+                "teamName": "6",
+                "teamScore": "7.5",
+                "matchScore": "2"
+              },
+              "team2": {
+                "country": "AUS",
+                "teamName": "5",
+                "teamScore": "5.5",
+                "matchScore": "0"
+              },
+              "boardPairings": [
+                {
+                  "board": "1.1",
+                  "white": {
+                    "name": "Collins,Immanuel",
+                    "rating": "1013",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Tanner,Jonathan",
+                    "rating": "1554",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "1.2",
+                  "white": {
+                    "name": "Gan,Alvis",
+                    "rating": "1450",
+                    "score": "½"
+                  },
+                  "black": {
+                    "name": "Musson,Henry",
+                    "rating": "856",
+                    "score": "½"
+                  }
+                },
+                {
+                  "board": "1.3",
+                  "white": {
+                    "name": "Xie,Leo",
+                    "rating": "1334",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Knezevic,Milan",
+                    "rating": "0",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "1.4",
+                  "white": {
+                    "name": "Tang,Talos",
+                    "rating": "1025",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Karthick,Deepshika",
+                    "rating": "471",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "1.5",
+                  "white": {
+                    "name": "Wu,Erick",
+                    "rating": "0",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Kildea,James",
+                    "rating": "1055",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "1.6",
+                  "white": {
+                    "name": "Mahajan,Zariya",
+                    "rating": "0",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Li,Zhiqing",
+                    "rating": "737",
+                    "score": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "matchNumber": "2",
+              "team1": {
+                "country": "AUS",
+                "teamName": "1",
+                "teamScore": "13",
+                "matchScore": "2"
+              },
+              "team2": {
+                "country": "NZL",
+                "teamName": "4",
+                "teamScore": "6.5",
+                "matchScore": "0"
+              },
+              "boardPairings": [
+                {
+                  "board": "2.1",
+                  "white": {
+                    "name": "Eleutherios,Thomas",
+                    "rating": "1897",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Babaranda,Hasanli",
+                    "rating": "0",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "2.2",
+                  "white": {
+                    "name": "Cheng,Larry",
+                    "rating": "1817",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Coleman, Samantha",
+                    "rating": "0",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "2.3",
+                  "white": {
+                    "name": "Fasakin,Olamide",
+                    "rating": "1795",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Babaranda, Okitha",
+                    "rating": "0",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "2.4",
+                  "white": {
+                    "name": "Cheng,Jerry",
+                    "rating": "1773",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Zernov, Misha",
+                    "rating": "0",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "2.5",
+                  "white": {
+                    "name": "MacMullin,Owen",
+                    "rating": "1726",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Bennet, Seth",
+                    "rating": "0",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "2.6",
+                  "white": {
+                    "name": "Selva Muthukumar,Sahasra",
+                    "rating": "1198",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Cullen, Sam",
+                    "rating": "0",
+                    "score": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "matchNumber": "3",
+              "team1": {
+                "country": "AUS",
+                "teamName": "2",
+                "teamScore": "8",
+                "matchScore": "0"
+              },
+              "team2": {
+                "country": "AUS",
+                "teamName": "3",
+                "teamScore": "13.5",
+                "matchScore": "2"
+              },
+              "boardPairings": [
+                {
+                  "board": "3.1",
+                  "white": {
+                    "name": "Annapureddy,Dhruthin Reddy",
+                    "rating": "1263",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Nguyen,Anh Kiet",
+                    "rating": "1400",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "3.2",
+                  "white": {
+                    "name": "Yang,Yifan",
+                    "rating": "1102",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Bodke,Krishna",
+                    "rating": "1247",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "3.3",
+                  "white": {
+                    "name": "Batyrbekov,Kaisar",
+                    "rating": "1261",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Parker,Lucas",
+                    "rating": "1509",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "3.4",
+                  "white": {
+                    "name": "Annadasu,Shreyansh",
+                    "rating": "729",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Li,LiYuan",
+                    "rating": "796",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "3.5",
+                  "white": {
+                    "name": "Batyrbekov,Aidan",
+                    "rating": "915",
+                    "score": "½"
+                  },
+                  "black": {
+                    "name": "Wei,Andrew",
+                    "rating": "990",
+                    "score": "½"
+                  }
+                },
+                {
+                  "board": "3.6",
+                  "white": {
+                    "name": "Prince,Aliza",
+                    "rating": "548",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Marasinghe,Claire",
+                    "rating": "660",
+                    "score": "1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tournamentType": "team"
     },
     "pairs5.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [
+        {
+          "type": "team-pairs",
+          "tournamentType": "team",
+          "matches": [
+            {
+              "matchNumber": "1",
+              "team1": {
+                "country": "AUS",
+                "teamName": "3",
+                "teamScore": "17",
+                "matchScore": "2"
+              },
+              "team2": {
+                "country": "AUS",
+                "teamName": "6",
+                "teamScore": "11",
+                "matchScore": "0"
+              },
+              "boardPairings": [
+                {
+                  "board": "1.1",
+                  "white": {
+                    "name": "Nguyen,Anh Kiet",
+                    "rating": "1400",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Collins,Immanuel",
+                    "rating": "1013",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "1.2",
+                  "white": {
+                    "name": "Bodke,Krishna",
+                    "rating": "1247",
+                    "score": "½"
+                  },
+                  "black": {
+                    "name": "Gan,Alvis",
+                    "rating": "1450",
+                    "score": "½"
+                  }
+                },
+                {
+                  "board": "1.3",
+                  "white": {
+                    "name": "Parker,Lucas",
+                    "rating": "1509",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Xie,Leo",
+                    "rating": "1334",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "1.4",
+                  "white": {
+                    "name": "Li,LiYuan",
+                    "rating": "796",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Tang,Talos",
+                    "rating": "1025",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "1.5",
+                  "white": {
+                    "name": "Wei,Andrew",
+                    "rating": "990",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Wu,Erick",
+                    "rating": "0",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "1.6",
+                  "white": {
+                    "name": "Marasinghe,Claire",
+                    "rating": "660",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Mahajan,Zariya",
+                    "rating": "0",
+                    "score": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "matchNumber": "2",
+              "team1": {
+                "country": "NZL",
+                "teamName": "4",
+                "teamScore": "6.5",
+                "matchScore": "0"
+              },
+              "team2": {
+                "country": "AUS",
+                "teamName": "2",
+                "teamScore": "10.5",
+                "matchScore": "2"
+              },
+              "boardPairings": [
+                {
+                  "board": "2.1",
+                  "white": {
+                    "name": "Babaranda,Hasanli",
+                    "rating": "0",
+                    "score": "½"
+                  },
+                  "black": {
+                    "name": "Annapureddy,Dhruthin Reddy",
+                    "rating": "1263",
+                    "score": "½"
+                  }
+                },
+                {
+                  "board": "2.2",
+                  "white": {
+                    "name": "Coleman, Samantha",
+                    "rating": "0",
+                    "score": "½"
+                  },
+                  "black": {
+                    "name": "Yang,Yifan",
+                    "rating": "1102",
+                    "score": "½"
+                  }
+                },
+                {
+                  "board": "2.3",
+                  "white": {
+                    "name": "Babaranda, Okitha",
+                    "rating": "0",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Batyrbekov,Kaisar",
+                    "rating": "1261",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "2.4",
+                  "white": {
+                    "name": "Zernov, Misha",
+                    "rating": "0",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Annadasu,Shreyansh",
+                    "rating": "729",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "2.5",
+                  "white": {
+                    "name": "Bennet, Seth",
+                    "rating": "0",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Batyrbekov,Aidan",
+                    "rating": "915",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "2.6",
+                  "white": {
+                    "name": "Cullen, Sam",
+                    "rating": "0",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Prince,Aliza",
+                    "rating": "548",
+                    "score": "0"
+                  }
+                }
+              ]
+            },
+            {
+              "matchNumber": "3",
+              "team1": {
+                "country": "AUS",
+                "teamName": "5",
+                "teamScore": "8",
+                "matchScore": "0"
+              },
+              "team2": {
+                "country": "AUS",
+                "teamName": "1",
+                "teamScore": "19",
+                "matchScore": "2"
+              },
+              "boardPairings": [
+                {
+                  "board": "3.1",
+                  "white": {
+                    "name": "Tanner,Jonathan",
+                    "rating": "1554",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Eleutherios,Thomas",
+                    "rating": "1897",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "3.2",
+                  "white": {
+                    "name": "Musson,Henry",
+                    "rating": "856",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "Cheng,Larry",
+                    "rating": "1817",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "3.3",
+                  "white": {
+                    "name": "Knezevic,Milan",
+                    "rating": "0",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Fasakin,Olamide",
+                    "rating": "1795",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "3.4",
+                  "white": {
+                    "name": "Karthick,Deepshika",
+                    "rating": "471",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Cheng,Jerry",
+                    "rating": "1773",
+                    "score": "1"
+                  }
+                },
+                {
+                  "board": "3.5",
+                  "white": {
+                    "name": "Kildea,James",
+                    "rating": "1055",
+                    "score": "1"
+                  },
+                  "black": {
+                    "name": "MacMullin,Owen",
+                    "rating": "1726",
+                    "score": "0"
+                  }
+                },
+                {
+                  "board": "3.6",
+                  "white": {
+                    "name": "Li,Zhiqing",
+                    "rating": "737",
+                    "score": "0"
+                  },
+                  "black": {
+                    "name": "Selva Muthukumar,Sahasra",
+                    "rating": "1198",
+                    "score": "1"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tournamentType": "team"
     },
     "playerslistsortname.html": {
       "pageHeading": "",
@@ -1876,7 +3348,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playerslistsortrtg.html": {
       "pageHeading": "",
@@ -2367,7 +3840,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankplayer.html": {
       "pageHeading": "Best player at round 5 in board 1",
@@ -2915,7 +4389,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankteam1.html": {
       "pageHeading": "",
@@ -3024,7 +4499,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankteam2.html": {
       "pageHeading": "",
@@ -3133,7 +4609,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankteam3.html": {
       "pageHeading": "",
@@ -3242,7 +4719,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankteam4.html": {
       "pageHeading": "",
@@ -3351,7 +4829,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankteam5.html": {
       "pageHeading": "",
@@ -3460,7 +4939,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankteamorigin.html": {
       "pageHeading": "Ranking by Origin:",
@@ -3589,7 +5069,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "",
@@ -3646,7 +5127,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "statistics.html": {
       "pageHeading": "",
@@ -3733,7 +5215,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "teamreport1.html": {
       "pageHeading": "Board details",
@@ -4710,7 +6193,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "teamreport2.html": {
       "pageHeading": "Board details",
@@ -5625,7 +7109,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "teamreport3.html": {
       "pageHeading": "Board details",
@@ -6540,7 +8025,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "teamreport4.html": {
       "pageHeading": "Board details",
@@ -7455,7 +8941,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "teamreport5.html": {
       "pageHeading": "Board details",
@@ -8370,7 +9857,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "teamreport6.html": {
       "pageHeading": "Board details",
@@ -9285,7 +10773,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "teamslist.html": {
       "pageHeading": "",
@@ -9384,7 +10873,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "playerLookup": {},
@@ -9496,5 +10986,5 @@
     "Date": "25/04/2025 - 25/04/2025",
     "category": "Junior"
   },
-  "md5Hash": "9c9fba3e7e42c3dc4892f7dc69b5daa5"
+  "md5Hash": "97c2e8c5c1e8ea8f70ebf26cfca45f75"
 }

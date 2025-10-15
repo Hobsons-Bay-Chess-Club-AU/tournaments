@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:08.007Z",
+  "generatedAt": "2025-10-14T23:57:01.975Z",
   "tournament": {
     "id": "2025-hobsons-bay-club-championship",
     "name": "2025 Hobsons Bay Club Championship",
@@ -89,7 +89,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "Registered players sorted by name",
@@ -148,7 +149,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "menu": [
@@ -183,5 +185,5 @@
       ]
     }
   ],
-  "md5Hash": "228333ec1fa4d4be734b29fe6815f825"
+  "md5Hash": "acbb51acef086e3cd3aa1d4894bc26ef"
 }

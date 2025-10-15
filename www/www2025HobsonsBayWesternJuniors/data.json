@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:10.715Z",
+  "generatedAt": "2025-10-14T23:57:04.617Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 5",
@@ -1102,7 +1102,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "crosstablescore.html": {
       "pageHeading": "Cross Table at round 5",
@@ -2129,7 +2130,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 5",
@@ -2594,7 +2596,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "FIDE History Cards",
@@ -4196,11 +4199,13 @@
             "rawHtml": " <a class=\"anchor\" name=\"24\"></a> N = 24<a href=\"http://ratings.fide.com/card.phtml?event=537082183\" target=\"X\"> Shinde,Yug </a>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players sorted by rating and title",
@@ -4575,7 +4580,8 @@
             "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "National rating at round 5",
@@ -4609,7 +4615,8 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
@@ -5105,7 +5112,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 1, at 6:30 of 29/04/2025"
+      "pairingScheduleText": "Pairing of round 1, at 6:30 of 29/04/2025",
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "",
@@ -5631,7 +5639,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 2, at 6:30 of 06/05/2025"
+      "pairingScheduleText": "Pairing of round 2, at 6:30 of 06/05/2025",
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "",
@@ -6137,7 +6146,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 3, at 6:30 of 13/05/2025"
+      "pairingScheduleText": "Pairing of round 3, at 6:30 of 13/05/2025",
+      "tournamentType": "individual"
     },
     "pairs4.html": {
       "pageHeading": "",
@@ -6643,7 +6653,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 4, at 6:30 of 20/05/2025"
+      "pairingScheduleText": "Pairing of round 4, at 6:30 of 20/05/2025",
+      "tournamentType": "individual"
     },
     "pairs5.html": {
       "pageHeading": "",
@@ -7149,7 +7160,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 5, at 6:30 of 03/06/2025"
+      "pairingScheduleText": "Pairing of round 5, at 6:30 of 03/06/2025",
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -9530,7 +9542,8 @@
             "rawHtml": "  24   <strong>Shinde,Yug          </strong>, K= 0, Elo=   0, ID=0013284\n<br>\n<a class=\"anchor\" name=\"24\"></a>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "Registered players sorted by name",
@@ -9905,7 +9918,8 @@
             "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankTeams.html": {
       "pageHeading": "Team ranking based on 4 best players of each team",
@@ -10199,7 +10213,8 @@
             "rawHtml": "Best boards"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankcat.html": {
       "pageHeading": "Standings at round 5 sorted by category",
@@ -10711,11 +10726,13 @@
           ],
           "caption": "Ranking for category:"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankingagegroup.html": {
       "pageHeading": "Player Groups by date at round 5",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "rankinggroup.html": {
       "pageHeading": "Rated Player Groups at round 5",
@@ -11177,7 +11194,8 @@
             "rawHtml": "Group limits:  0 &lt; rating &lt;= 2000"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -11225,7 +11243,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 5 (last round)",
@@ -11844,7 +11863,8 @@
             "html": "Tie Break legend:<br>\n     BH  :  Buchholz Total * <br>\n  BH-C1  :  Buchholz Cut 1 * <br>\n     SB  :  Sonneborn-Berger * <br>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "summaryFederations.html": {
       "pageHeading": "Summary by Federations",
@@ -12904,7 +12924,8 @@
           ],
           "caption": "Standings"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "summaryOrigin.html": {
       "pageHeading": "Summary by Origin",
@@ -13833,7 +13854,8 @@
           ],
           "caption": "Standings"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -13971,7 +13993,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "playerLookup": {
@@ -14812,5 +14835,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "a182cd99132714d9c90ae05b13f9e755"
+  "md5Hash": "1ec1fee472918cd38c963fa3a6c4ea05"
 }

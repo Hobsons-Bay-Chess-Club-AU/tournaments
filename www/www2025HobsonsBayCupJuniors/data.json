@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-09T13:21:08.255Z",
+  "generatedAt": "2025-10-14T23:57:02.159Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 7",
@@ -2225,7 +2225,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "crosstablescore.html": {
       "pageHeading": "Cross Table at round 7",
@@ -4323,7 +4324,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 7",
@@ -5022,7 +5024,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "FIDE History Cards",
@@ -7675,11 +7678,13 @@
             "rawHtml": " <a class=\"anchor\" name=\"41\"></a> N = 41<a href=\"http://ratings.fide.com/profile/3288510\" target=\"X\"> Yegnavajjula, Aryan Srivatsav </a>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players",
@@ -8091,7 +8096,8 @@
             "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "National rating at round 7",
@@ -8125,11 +8131,13 @@
           ],
           "rows": []
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairing.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
@@ -8937,7 +8945,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 1, at 18:30 of 10/06/2025"
+      "pairingScheduleText": "Pairing of round 1, at 18:30 of 10/06/2025",
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "",
@@ -9755,7 +9764,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 2, at 18:30 of 17/06/2025"
+      "pairingScheduleText": "Pairing of round 2, at 18:30 of 17/06/2025",
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "",
@@ -10573,7 +10583,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 3, at 18:30 of 24/06/2025"
+      "pairingScheduleText": "Pairing of round 3, at 18:30 of 24/06/2025",
+      "tournamentType": "individual"
     },
     "pairs4.html": {
       "pageHeading": "",
@@ -11401,7 +11412,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 4, at 18:30 of 01/07/2025"
+      "pairingScheduleText": "Pairing of round 4, at 18:30 of 01/07/2025",
+      "tournamentType": "individual"
     },
     "pairs5.html": {
       "pageHeading": "",
@@ -12219,7 +12231,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 5, at 18:30 of 22/07/2025"
+      "pairingScheduleText": "Pairing of round 5, at 18:30 of 22/07/2025",
+      "tournamentType": "individual"
     },
     "pairs6.html": {
       "pageHeading": "",
@@ -13037,7 +13050,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 6, at 18:30 of 29/07/2025"
+      "pairingScheduleText": "Pairing of round 6, at 18:30 of 29/07/2025",
+      "tournamentType": "individual"
     },
     "pairs7.html": {
       "pageHeading": "",
@@ -13865,7 +13879,8 @@
           ]
         }
       ],
-      "pairingScheduleText": "Pairing of round 7, at 18:30 of 05/08/2025"
+      "pairingScheduleText": "Pairing of round 7, at 18:30 of 05/08/2025",
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -18749,11 +18764,13 @@
             "rawHtml": "  41   <strong>Yegnavajjula, Aryan </strong>, K= 0, Elo=   5, ID=3217453\n<br>\n<a class=\"anchor\" name=\"41\"></a>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "rankcat.html": {
       "pageHeading": "Standings at round 7 sorted by category",
@@ -19588,11 +19605,13 @@
           ],
           "caption": "Ranking for category:"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankingagegroup.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "rankinggroup.html": {
       "pageHeading": "Rated Player Groups at round 7",
@@ -20539,7 +20558,8 @@
             "rawHtml": "Group limits:  0 &lt; rating &lt;= 1"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -20597,7 +20617,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standing2.html": {
       "pageHeading": "",
@@ -21435,7 +21456,8 @@
             "html": "Tie Break legend:"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 7 (last round)",
@@ -22446,7 +22468,8 @@
             "html": "Tie Break legend:<br>\n     BH  :  Buchholz <br>\n  BH/C1  :  Buchholz Cut 1 <br>\n     SB  :  Sonneborn-Berger <br>"
           }
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "summaryOrigin.html": {
       "pageHeading": "Summary by Origin",
@@ -23955,7 +23978,8 @@
           ],
           "caption": "Standings"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -24093,7 +24117,8 @@
             }
           ]
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "playerLookup": {
@@ -25181,5 +25206,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "6ea2f77515e296a8add58ab1f68411fa"
+  "md5Hash": "d2f9ad22f8763ff69430be1a66291547"
 }

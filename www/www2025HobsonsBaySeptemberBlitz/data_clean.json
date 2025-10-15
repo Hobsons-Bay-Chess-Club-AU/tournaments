@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-09-24T01:07:37.138Z",
+  "generatedAt": "2025-10-14T23:57:04.378Z",
   "tournament": {
     "id": "hobsons-bay-september-blitz",
     "name": "Hobsons Bay September Blitz",
@@ -2564,7 +2564,8 @@
           ],
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "crosstablescore.html": {
       "pageHeading": "Cross Table at round 9",
@@ -4964,7 +4965,8 @@
           ],
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 9",
@@ -5736,7 +5738,8 @@
           ],
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "fideplayercard.html": {
       "pageHeading": "FIDE History Cards",
@@ -9861,15 +9864,18 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "game.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "games.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "index.html": {
       "pageHeading": "Registered players",
@@ -10273,7 +10279,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "nelovar.html": {
       "pageHeading": "National rating at round 9",
@@ -10308,11 +10315,13 @@
           "rows": [],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "pairing.html": {
       "pageHeading": "",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "pairs1.html": {
       "pageHeading": "",
@@ -10567,7 +10576,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 1"
+      "pairingScheduleText": "Pairing of round 1",
+      "tournamentType": "individual"
     },
     "pairs2.html": {
       "pageHeading": "",
@@ -10822,7 +10832,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 2"
+      "pairingScheduleText": "Pairing of round 2",
+      "tournamentType": "individual"
     },
     "pairs3.html": {
       "pageHeading": "",
@@ -11077,7 +11088,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 3"
+      "pairingScheduleText": "Pairing of round 3",
+      "tournamentType": "individual"
     },
     "pairs4.html": {
       "pageHeading": "",
@@ -11332,7 +11344,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 4"
+      "pairingScheduleText": "Pairing of round 4",
+      "tournamentType": "individual"
     },
     "pairs5.html": {
       "pageHeading": "",
@@ -11587,7 +11600,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 5"
+      "pairingScheduleText": "Pairing of round 5",
+      "tournamentType": "individual"
     },
     "pairs6.html": {
       "pageHeading": "",
@@ -11842,7 +11856,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 6"
+      "pairingScheduleText": "Pairing of round 6",
+      "tournamentType": "individual"
     },
     "pairs7.html": {
       "pageHeading": "",
@@ -12097,7 +12112,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 7"
+      "pairingScheduleText": "Pairing of round 7",
+      "tournamentType": "individual"
     },
     "pairs8.html": {
       "pageHeading": "",
@@ -12362,7 +12378,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 8"
+      "pairingScheduleText": "Pairing of round 8",
+      "tournamentType": "individual"
     },
     "pairs9.html": {
       "pageHeading": "",
@@ -12627,7 +12644,8 @@
           "type": "pairing"
         }
       ],
-      "pairingScheduleText": "Pairing of round 9"
+      "pairingScheduleText": "Pairing of round 9",
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -18232,7 +18250,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "playersname.html": {
       "pageHeading": "Registered players sorted by name",
@@ -18291,7 +18310,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankTeams.html": {
       "pageHeading": "Team ranking based on 4 best players of each team",
@@ -18668,7 +18688,8 @@
           },
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankcat.html": {
       "pageHeading": "Standings at round 9 sorted by category",
@@ -19441,15 +19462,18 @@
           "caption": "Ranking for category:",
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "rankingagegroup.html": {
       "pageHeading": "Player Groups by date at round 9",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "rankinggroup.html": {
       "pageHeading": "Rated Player Groups at round 9",
-      "tables": []
+      "tables": [],
+      "tournamentType": "unknown"
     },
     "schedule.html": {
       "pageHeading": "Schedule",
@@ -19472,7 +19496,8 @@
           "rows": [],
           "type": "other"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "standings.html": {
       "pageHeading": "Standings at round 9 (last round)",
@@ -19876,7 +19901,8 @@
           },
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     },
     "summaryFederations.html": {
       "pageHeading": "Summary by Federations",
@@ -21558,7 +21584,8 @@
           "caption": "Standings",
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "summaryOrigin.html": {
       "pageHeading": "Summary by Origin",
@@ -22982,7 +23009,8 @@
           "caption": "Standings",
           "type": "standings"
         }
-      ]
+      ],
+      "tournamentType": "individual"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -23121,7 +23149,8 @@
           ],
           "type": "statistics"
         }
-      ]
+      ],
+      "tournamentType": "unknown"
     }
   },
   "menu": [
@@ -23221,5 +23250,5 @@
       ]
     }
   ],
-  "md5Hash": "b24ab773020554a459f6827da27ad0b0"
+  "md5Hash": "0d9c5992e8992b0382b4ee59e5dd2bb6"
 }
