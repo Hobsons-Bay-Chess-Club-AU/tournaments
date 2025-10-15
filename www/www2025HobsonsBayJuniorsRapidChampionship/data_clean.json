@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-15T02:34:32.347Z",
+  "generatedAt": "2025-10-15T05:57:31.633Z",
   "tournament": {
     "id": "2025-hobsons-bay-juniors-rapid-championship",
     "name": "2025 Hobsons Bay Juniors Rapid Championship",
@@ -15,16 +15,16 @@
       "Rounds": "7",
       "Score game": "0-0.5-1",
       "Tie break": "BH BH/C1 SB",
-      "Registered Players": "80",
+      "Registered Players": "81",
       "Number of Federations": "5",
-      "Average Rating (all)": "935",
+      "Average Rating (all)": "924",
       "Average Rating (only FIDE rated)": "1544",
       "Players from AUS Federation": "36",
-      "Players NOT from AUS Federation": "44",
+      "Players NOT from AUS Federation": "45",
       "FIDE rated players": "46",
-      "unrated players": "34",
+      "unrated players": "35",
       "unrated players from AUS Federation": "3",
-      "unrated players NOT from AUS Federation": "31",
+      "unrated players NOT from AUS Federation": "32",
       "unrated Federations": "2",
       "FIDE titled players": "1",
       "GM players": "0",
@@ -47,11 +47,11 @@
       "rounds": 7,
       "scoreGame": "0-0.5-1",
       "tieBreak": "BH BH/C1 SB",
-      "registeredPlayers": 80,
-      "averageRating": 935,
+      "registeredPlayers": 81,
+      "averageRating": 924,
       "averageRatingFide": 1544,
       "fideRatedPlayers": 46,
-      "unratedPlayers": 34,
+      "unratedPlayers": 35,
       "fideTitledPlayers": 1
     }
   },
@@ -994,7 +994,7 @@
     },
     {
       "id": "79",
-      "name": "Wanniarachchie,Senaya",
+      "name": "Vinu,Vaishnav",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -1006,7 +1006,7 @@
     },
     {
       "id": "80",
-      "name": "You,Henry",
+      "name": "Wanniarachchie,Senaya",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -1014,6 +1014,18 @@
       "fideFederation": "",
       "gender": "notitle",
       "href": "playercard.html#80",
+      "origin": ""
+    },
+    {
+      "id": "81",
+      "name": "You,Henry",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#81",
       "origin": ""
     }
   ],
@@ -1825,7 +1837,7 @@
             {
               "#": "79",
               "Title": "",
-              "Player": "Wanniarachchie,Senaya",
+              "Player": "Vinu,Vaishnav",
               "Fed": "VIC",
               "Rtg": "0",
               "RtgF": "0",
@@ -1833,6 +1845,15 @@
             },
             {
               "#": "80",
+              "Title": "",
+              "Player": "Wanniarachchie,Senaya",
+              "Fed": "VIC",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "81",
               "Title": "",
               "Player": "You,Henry",
               "Fed": "VIC",
@@ -5850,6 +5871,55 @@
             "rawHtml": "  80   <strong>You,Henry           </strong>, K= 0, Elo=   0, ID=3220964\n<br>\n<a class=\"anchor\" name=\"80\"></a>"
           },
           "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Vinu,Vaishnav",
+            "id": "3220113",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "81"
+            },
+            "rawText": "81   Vinu,Vaishnav       , K= 0, Elo=   0, ID=3220113",
+            "rawHtml": "  81   <strong>Vinu,Vaishnav       </strong>, K= 0, Elo=   0, ID=3220113\n<br>\n<a class=\"anchor\" name=\"81\"></a>"
+          },
+          "type": "other"
         }
       ],
       "tournamentType": "unknown"
@@ -5962,7 +6032,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "80"
+              "col2": "81"
             },
             {
               "col1": "Number of Federations",
@@ -5970,7 +6040,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "935"
+              "col2": "924"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -5982,7 +6052,7 @@
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "44"
+              "col2": "45"
             },
             {
               "col1": "FIDE rated players",
@@ -5990,7 +6060,7 @@
             },
             {
               "col1": "unrated players",
-              "col2": "34"
+              "col2": "35"
             },
             {
               "col1": "unrated players from AUS Federation",
@@ -5998,7 +6068,7 @@
             },
             {
               "col1": "unrated players NOT from AUS Federation",
-              "col2": "31"
+              "col2": "32"
             },
             {
               "col1": "unrated Federations",
@@ -6078,5 +6148,5 @@
       "children": []
     }
   ],
-  "md5Hash": "d69f9d878cb0465ad152a2762a3cbb13"
+  "md5Hash": "9ad764758a2f83e8b1442aa5e9920e42"
 }
