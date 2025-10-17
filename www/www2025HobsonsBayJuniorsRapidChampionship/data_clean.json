@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-17T22:10:17.797Z",
+  "generatedAt": "2025-10-17T22:29:01.083Z",
   "tournament": {
     "id": "2025-hobsons-bay-juniors-rapid-championship",
     "name": "2025 Hobsons Bay Juniors Rapid Championship",
@@ -15,16 +15,16 @@
       "Rounds": "7",
       "Score game": "0-0.5-1",
       "Tie break": "BH BH/C1 SB",
-      "Registered Players": "82",
+      "Registered Players": "83",
       "Number of Federations": "5",
-      "Average Rating (all)": "892",
+      "Average Rating (all)": "881",
       "Average Rating (only FIDE rated)": "1551",
       "Players from AUS Federation": "34",
-      "Players NOT from AUS Federation": "48",
+      "Players NOT from AUS Federation": "49",
       "FIDE rated players": "44",
-      "unrated players": "38",
+      "unrated players": "39",
       "unrated players from AUS Federation": "3",
-      "unrated players NOT from AUS Federation": "35",
+      "unrated players NOT from AUS Federation": "36",
       "unrated Federations": "2",
       "FIDE titled players": "1",
       "GM players": "0",
@@ -47,11 +47,11 @@
       "rounds": 7,
       "scoreGame": "0-0.5-1",
       "tieBreak": "BH BH/C1 SB",
-      "registeredPlayers": 82,
-      "averageRating": 892,
+      "registeredPlayers": 83,
+      "averageRating": 881,
       "averageRatingFide": 1551,
       "fideRatedPlayers": 44,
-      "unratedPlayers": 38,
+      "unratedPlayers": 39,
       "fideTitledPlayers": 1
     }
   },
@@ -568,7 +568,7 @@
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
-      "gender": "male",
+      "gender": "female",
       "href": "playercard.html#43",
       "origin": ""
     },
@@ -714,6 +714,18 @@
       "fideFederation": "",
       "gender": "female",
       "href": "playercard.html#55",
+      "origin": ""
+    },
+    {
+      "id": "83",
+      "name": "Arora,Daanish",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "female",
+      "href": "playercard.html#83",
       "origin": ""
     },
     {
@@ -1568,6 +1580,12 @@
               "#": "82",
               "Player": "82",
               "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "#": "83",
+              "Player": "83",
+              "Pts": "0.0"
             }
           ],
           "type": "standings"
@@ -2173,6 +2191,15 @@
               "RtgN": "100"
             },
             {
+              "#": "83",
+              "Title": "",
+              "Player": "Arora,Daanish",
+              "Fed": "VIC",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
               "#": "56",
               "Title": "",
               "Player": "Barar,Ridam",
@@ -2554,7 +2581,7 @@
               "Bo.": "3",
               "White Player": "3",
               "Pts": "0",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "0",
               "Black Player": "43"
             },
@@ -2666,7 +2693,7 @@
               "Bo.": "17",
               "White Player": "17",
               "Pts": "0",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "0",
               "Black Player": "58"
             },
@@ -2696,14 +2723,6 @@
             },
             {
               "Bo.": "21",
-              "White Player": "21",
-              "Pts": "0",
-              "Result": "...",
-              "Pts_1": "0",
-              "Black Player": "62"
-            },
-            {
-              "Bo.": "22",
               "White Player": "63",
               "Pts": "0",
               "Result": "...",
@@ -2711,7 +2730,7 @@
               "Black Player": "22"
             },
             {
-              "Bo.": "23",
+              "Bo.": "22",
               "White Player": "23",
               "Pts": "0",
               "Result": "...",
@@ -2719,7 +2738,7 @@
               "Black Player": "64"
             },
             {
-              "Bo.": "24",
+              "Bo.": "23",
               "White Player": "65",
               "Pts": "0",
               "Result": "...",
@@ -2727,7 +2746,7 @@
               "Black Player": "24"
             },
             {
-              "Bo.": "25",
+              "Bo.": "24",
               "White Player": "25",
               "Pts": "0",
               "Result": "...",
@@ -2735,7 +2754,7 @@
               "Black Player": "66"
             },
             {
-              "Bo.": "26",
+              "Bo.": "25",
               "White Player": "67",
               "Pts": "0",
               "Result": "...",
@@ -2743,15 +2762,7 @@
               "Black Player": "26"
             },
             {
-              "Bo.": "27",
-              "White Player": "27",
-              "Pts": "0",
-              "Result": "...",
-              "Pts_1": "0",
-              "Black Player": "68"
-            },
-            {
-              "Bo.": "28",
+              "Bo.": "26",
               "White Player": "69",
               "Pts": "0",
               "Result": "...",
@@ -2759,15 +2770,15 @@
               "Black Player": "28"
             },
             {
-              "Bo.": "29",
+              "Bo.": "27",
               "White Player": "29",
               "Pts": "0",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "0",
               "Black Player": "70"
             },
             {
-              "Bo.": "30",
+              "Bo.": "28",
               "White Player": "71",
               "Pts": "0",
               "Result": "...",
@@ -2775,7 +2786,7 @@
               "Black Player": "30"
             },
             {
-              "Bo.": "31",
+              "Bo.": "29",
               "White Player": "31",
               "Pts": "0",
               "Result": "...",
@@ -2783,7 +2794,7 @@
               "Black Player": "72"
             },
             {
-              "Bo.": "32",
+              "Bo.": "30",
               "White Player": "73",
               "Pts": "0",
               "Result": "...",
@@ -2791,15 +2802,15 @@
               "Black Player": "32"
             },
             {
-              "Bo.": "33",
+              "Bo.": "31",
               "White Player": "33",
               "Pts": "0",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "0",
               "Black Player": "74"
             },
             {
-              "Bo.": "34",
+              "Bo.": "32",
               "White Player": "75",
               "Pts": "0",
               "Result": "...",
@@ -2807,15 +2818,15 @@
               "Black Player": "34"
             },
             {
-              "Bo.": "35",
+              "Bo.": "33",
               "White Player": "35",
               "Pts": "0",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "0",
               "Black Player": "76"
             },
             {
-              "Bo.": "36",
+              "Bo.": "34",
               "White Player": "77",
               "Pts": "0",
               "Result": "...",
@@ -2823,7 +2834,7 @@
               "Black Player": "36"
             },
             {
-              "Bo.": "37",
+              "Bo.": "35",
               "White Player": "37",
               "Pts": "0",
               "Result": "...",
@@ -2831,7 +2842,7 @@
               "Black Player": "78"
             },
             {
-              "Bo.": "38",
+              "Bo.": "36",
               "White Player": "79",
               "Pts": "0",
               "Result": "...",
@@ -2839,7 +2850,7 @@
               "Black Player": "38"
             },
             {
-              "Bo.": "39",
+              "Bo.": "37",
               "White Player": "39",
               "Pts": "0",
               "Result": "...",
@@ -2847,7 +2858,7 @@
               "Black Player": "80"
             },
             {
-              "Bo.": "40",
+              "Bo.": "38",
               "White Player": "81",
               "Pts": "0",
               "Result": "...",
@@ -2855,12 +2866,28 @@
               "Black Player": "40"
             },
             {
-              "Bo.": "41",
-              "White Player": "82",
+              "Bo.": "39",
+              "White Player": "21",
               "Pts": "0",
-              "Result": "1",
+              "Result": "...",
               "Pts_1": "0",
-              "Black Player": "0"
+              "Black Player": "82"
+            },
+            {
+              "Bo.": "40",
+              "White Player": "27",
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": "83"
+            },
+            {
+              "Bo.": "41",
+              "White Player": "68",
+              "Pts": "0",
+              "Result": "0F-0F",
+              "Pts_1": "0",
+              "Black Player": "62"
             },
             {
               "Bo.": "42",
@@ -7799,6 +7826,66 @@
             "rawHtml": "  82   <strong>You,Henry           </strong>, K= 0, Elo=   0, ID=3220964\n<br>\n<a class=\"anchor\" name=\"82\"></a>"
           },
           "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Arora,Daanish",
+            "id": "0",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "83"
+            },
+            "rawText": "83   Arora,Daanish       , K= 0, Elo=   0, ID=0",
+            "rawHtml": "  83   <strong>Arora,Daanish       </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"83\"></a>"
+          },
+          "type": "other"
         }
       ],
       "tournamentType": "unknown"
@@ -8549,6 +8636,14 @@
               "BH": "0.0",
               "BH/C1": "0.0",
               "SB": "0.0"
+            },
+            {
+              "Pos": "83",
+              "Player": "83",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
             }
           ],
           "footer": {
@@ -8608,7 +8703,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "82"
+              "col2": "83"
             },
             {
               "col1": "Number of Federations",
@@ -8616,7 +8711,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "892"
+              "col2": "881"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -8628,7 +8723,7 @@
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "48"
+              "col2": "49"
             },
             {
               "col1": "FIDE rated players",
@@ -8636,7 +8731,7 @@
             },
             {
               "col1": "unrated players",
-              "col2": "38"
+              "col2": "39"
             },
             {
               "col1": "unrated players from AUS Federation",
@@ -8644,7 +8739,7 @@
             },
             {
               "col1": "unrated players NOT from AUS Federation",
-              "col2": "35"
+              "col2": "36"
             },
             {
               "col1": "unrated Federations",
@@ -8804,5 +8899,5 @@
       ]
     }
   ],
-  "md5Hash": "c14379fe19072dee6a7a1e1835c6c1dd"
+  "md5Hash": "33a14cc42b975c614b766e67c5d84470"
 }

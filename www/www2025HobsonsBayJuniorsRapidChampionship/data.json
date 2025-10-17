@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-17T22:10:17.627Z",
+  "generatedAt": "2025-10-17T22:29:00.908Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 1",
@@ -702,7 +702,7 @@
               "Player": {
                 "id": "43",
                 "playerName": "Guggilla,Krithvik",
-                "gender": "male",
+                "gender": "female",
                 "href": "playercard.html#43",
                 "title": "",
                 "federation": "VIC",
@@ -1335,6 +1335,22 @@
                 "moreInfo": {}
               },
               "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "#": "83",
+              "Player": {
+                "id": "83",
+                "playerName": "Arora,Daanish",
+                "gender": "female",
+                "href": "playercard.html#83",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0.0"
             }
           ]
         }
@@ -1938,6 +1954,15 @@
               "RtgN": "100"
             },
             {
+              "#": "83",
+              "Title": "",
+              "Player": "Arora,Daanish",
+              "Fed": "VIC",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
               "#": "56",
               "Title": "",
               "Player": "Barar,Ridam",
@@ -2366,12 +2391,12 @@
                 "moreInfo": {}
               },
               "Pts": "0",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "0",
               "Black Player": {
                 "id": "43",
                 "playerName": "Guggilla,Krithvik",
-                "gender": "male",
+                "gender": "female",
                 "href": "playercard.html#43",
                 "title": "",
                 "federation": "VIC",
@@ -2758,7 +2783,7 @@
                 "moreInfo": {}
               },
               "Pts": "0",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "0",
               "Black Player": {
                 "id": "58",
@@ -2859,34 +2884,6 @@
             {
               "Bo.": "21",
               "White Player": {
-                "id": "21",
-                "playerName": "Rawat,Vivaan",
-                "gender": "male",
-                "href": "playercard.html#21",
-                "title": "",
-                "federation": "AUS",
-                "rating": "933",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Pts": "0",
-              "Result": "...",
-              "Pts_1": "0",
-              "Black Player": {
-                "id": "62",
-                "playerName": "Le,Khoi Nguyen",
-                "gender": "male",
-                "href": "playercard.html#62",
-                "title": "",
-                "federation": "AUS",
-                "rating": "0",
-                "fideId": "",
-                "moreInfo": {}
-              }
-            },
-            {
-              "Bo.": "22",
-              "White Player": {
                 "id": "63",
                 "playerName": "Madduluri,Advaitha",
                 "gender": "female",
@@ -2913,7 +2910,7 @@
               }
             },
             {
-              "Bo.": "23",
+              "Bo.": "22",
               "White Player": {
                 "id": "23",
                 "playerName": "Scenna,Luna",
@@ -2941,7 +2938,7 @@
               }
             },
             {
-              "Bo.": "24",
+              "Bo.": "23",
               "White Player": {
                 "id": "65",
                 "playerName": "Moser,Will",
@@ -2969,7 +2966,7 @@
               }
             },
             {
-              "Bo.": "25",
+              "Bo.": "24",
               "White Player": {
                 "id": "25",
                 "playerName": "Kaur,Mishleen",
@@ -2997,7 +2994,7 @@
               }
             },
             {
-              "Bo.": "26",
+              "Bo.": "25",
               "White Player": {
                 "id": "67",
                 "playerName": "Pradeep,Mayukh",
@@ -3025,35 +3022,7 @@
               }
             },
             {
-              "Bo.": "27",
-              "White Player": {
-                "id": "27",
-                "playerName": "Tadakamadla,Ahaan",
-                "gender": "male",
-                "href": "playercard.html#27",
-                "title": "",
-                "federation": "AUS",
-                "rating": "800",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Pts": "0",
-              "Result": "...",
-              "Pts_1": "0",
-              "Black Player": {
-                "id": "68",
-                "playerName": "Sagar,Dev",
-                "gender": "male",
-                "href": "playercard.html#68",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "",
-                "moreInfo": {}
-              }
-            },
-            {
-              "Bo.": "28",
+              "Bo.": "26",
               "White Player": {
                 "id": "69",
                 "playerName": "Samraat,Aayush",
@@ -3081,7 +3050,7 @@
               }
             },
             {
-              "Bo.": "29",
+              "Bo.": "27",
               "White Player": {
                 "id": "29",
                 "playerName": "Balaji,Sai Sivesh",
@@ -3094,7 +3063,7 @@
                 "moreInfo": {}
               },
               "Pts": "0",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "0",
               "Black Player": {
                 "id": "70",
@@ -3109,7 +3078,7 @@
               }
             },
             {
-              "Bo.": "30",
+              "Bo.": "28",
               "White Player": {
                 "id": "71",
                 "playerName": "Sharma,Varun",
@@ -3137,7 +3106,7 @@
               }
             },
             {
-              "Bo.": "31",
+              "Bo.": "29",
               "White Player": {
                 "id": "31",
                 "playerName": "Jagannathan,Shashvath",
@@ -3165,7 +3134,7 @@
               }
             },
             {
-              "Bo.": "32",
+              "Bo.": "30",
               "White Player": {
                 "id": "73",
                 "playerName": "Subhash,Ryan",
@@ -3193,7 +3162,7 @@
               }
             },
             {
-              "Bo.": "33",
+              "Bo.": "31",
               "White Player": {
                 "id": "33",
                 "playerName": "Prince,Aliza",
@@ -3206,7 +3175,7 @@
                 "moreInfo": {}
               },
               "Pts": "0",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "0",
               "Black Player": {
                 "id": "74",
@@ -3221,7 +3190,7 @@
               }
             },
             {
-              "Bo.": "34",
+              "Bo.": "32",
               "White Player": {
                 "id": "75",
                 "playerName": "Thulasidas,Manish",
@@ -3249,7 +3218,7 @@
               }
             },
             {
-              "Bo.": "35",
+              "Bo.": "33",
               "White Player": {
                 "id": "35",
                 "playerName": "Goh,Nicholas",
@@ -3262,7 +3231,7 @@
                 "moreInfo": {}
               },
               "Pts": "0",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "0",
               "Black Player": {
                 "id": "76",
@@ -3277,7 +3246,7 @@
               }
             },
             {
-              "Bo.": "36",
+              "Bo.": "34",
               "White Player": {
                 "id": "77",
                 "playerName": "Vignesh, Prajeeth Balaji",
@@ -3305,7 +3274,7 @@
               }
             },
             {
-              "Bo.": "37",
+              "Bo.": "35",
               "White Player": {
                 "id": "37",
                 "playerName": "Vemula,Thamoghna",
@@ -3333,7 +3302,7 @@
               }
             },
             {
-              "Bo.": "38",
+              "Bo.": "36",
               "White Player": {
                 "id": "79",
                 "playerName": "Vinu,Vaishnav",
@@ -3361,7 +3330,7 @@
               }
             },
             {
-              "Bo.": "39",
+              "Bo.": "37",
               "White Player": {
                 "id": "39",
                 "playerName": "Tan,Lucas",
@@ -3389,7 +3358,7 @@
               }
             },
             {
-              "Bo.": "40",
+              "Bo.": "38",
               "White Player": {
                 "id": "81",
                 "playerName": "Wanniarachchie,Senaya",
@@ -3417,8 +3386,22 @@
               }
             },
             {
-              "Bo.": "41",
+              "Bo.": "39",
               "White Player": {
+                "id": "21",
+                "playerName": "Rawat,Vivaan",
+                "gender": "male",
+                "href": "playercard.html#21",
+                "title": "",
+                "federation": "AUS",
+                "rating": "933",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
                 "id": "82",
                 "playerName": "You,Henry",
                 "gender": "male",
@@ -3428,18 +3411,60 @@
                 "rating": "0",
                 "fideId": "",
                 "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "40",
+              "White Player": {
+                "id": "27",
+                "playerName": "Tadakamadla,Ahaan",
+                "gender": "male",
+                "href": "playercard.html#27",
+                "title": "",
+                "federation": "AUS",
+                "rating": "800",
+                "fideId": "",
+                "moreInfo": {}
               },
               "Pts": "0",
-              "Result": "1",
+              "Result": "...",
               "Pts_1": "0",
               "Black Player": {
-                "id": "0",
-                "playerName": "BYE",
-                "gender": "male",
-                "href": "playercard.html#0",
+                "id": "83",
+                "playerName": "Arora,Daanish",
+                "gender": "female",
+                "href": "playercard.html#83",
                 "title": "",
-                "federation": "",
-                "rating": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "41",
+              "White Player": {
+                "id": "68",
+                "playerName": "Sagar,Dev",
+                "gender": "male",
+                "href": "playercard.html#68",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "0F-0F",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "62",
+                "playerName": "Le,Khoi Nguyen",
+                "gender": "male",
+                "href": "playercard.html#62",
+                "title": "",
+                "federation": "AUS",
+                "rating": "0",
                 "fideId": "",
                 "moreInfo": {}
               }
@@ -8318,6 +8343,65 @@
             "rawText": "82   You,Henry           , K= 0, Elo=   0, ID=3220964",
             "rawHtml": "  82   <strong>You,Henry           </strong>, K= 0, Elo=   0, ID=3220964\n<br>\n<a class=\"anchor\" name=\"82\"></a>"
           }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Arora,Daanish",
+            "id": "0",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "83"
+            },
+            "rawText": "83   Arora,Daanish       , K= 0, Elo=   0, ID=0",
+            "rawHtml": "  83   <strong>Arora,Daanish       </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"83\"></a>"
+          }
         }
       ],
       "tournamentType": "unknown"
@@ -9173,7 +9257,7 @@
               "Player": {
                 "id": "43",
                 "playerName": "Guggilla,Krithvik",
-                "gender": "male",
+                "gender": "female",
                 "href": "playercard.html#43",
                 "title": "",
                 "federation": "VIC",
@@ -9887,6 +9971,24 @@
               "BH": "0.0",
               "BH/C1": "0.0",
               "SB": "0.0"
+            },
+            {
+              "Pos": "83",
+              "Player": {
+                "id": "83",
+                "playerName": "Arora,Daanish",
+                "gender": "female",
+                "href": "playercard.html#83",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.0"
             }
           ],
           "footer": {
@@ -9945,7 +10047,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "82"
+              "col2": "83"
             },
             {
               "col1": "Number of Federations",
@@ -9953,7 +10055,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "892"
+              "col2": "881"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -9965,7 +10067,7 @@
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "48"
+              "col2": "49"
             },
             {
               "col1": "FIDE rated players",
@@ -9973,7 +10075,7 @@
             },
             {
               "col1": "unrated players",
-              "col2": "38"
+              "col2": "39"
             },
             {
               "col1": "unrated players from AUS Federation",
@@ -9981,7 +10083,7 @@
             },
             {
               "col1": "unrated players NOT from AUS Federation",
-              "col2": "35"
+              "col2": "36"
             },
             {
               "col1": "unrated Federations",
@@ -10517,7 +10619,7 @@
       "title": "",
       "federation": "VIC",
       "rating": "442",
-      "gender": "male",
+      "gender": "female",
       "fideId": "",
       "href": "playercard.html#43",
       "moreInfo": {}
@@ -10949,6 +11051,17 @@
       "gender": "male",
       "fideId": "",
       "href": "playercard.html#82",
+      "moreInfo": {}
+    },
+    "83": {
+      "id": "83",
+      "playerName": "Arora,Daanish",
+      "title": "",
+      "federation": "VIC",
+      "rating": "0",
+      "gender": "female",
+      "fideId": "",
+      "href": "playercard.html#83",
       "moreInfo": {}
     }
   },
@@ -11552,6 +11665,15 @@
       "RtgN": "100"
     },
     {
+      "#": "83",
+      "Title": "",
+      "Player": "Arora,Daanish",
+      "Fed": "VIC",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
       "#": "56",
       "Title": "",
       "Player": "Barar,Ridam",
@@ -11807,16 +11929,16 @@
     "Rounds": "7",
     "Score game": "0-0.5-1",
     "Tie break": "BH BH/C1 SB",
-    "Registered Players": "82",
+    "Registered Players": "83",
     "Number of Federations": "5",
-    "Average Rating (all)": "892",
+    "Average Rating (all)": "881",
     "Average Rating (only FIDE rated)": "1551",
     "Players from AUS Federation": "34",
-    "Players NOT from AUS Federation": "48",
+    "Players NOT from AUS Federation": "49",
     "FIDE rated players": "44",
-    "unrated players": "38",
+    "unrated players": "39",
     "unrated players from AUS Federation": "3",
-    "unrated players NOT from AUS Federation": "35",
+    "unrated players NOT from AUS Federation": "36",
     "unrated Federations": "2",
     "FIDE titled players": "1",
     "GM players": "0",
@@ -11831,5 +11953,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "2b0c88e323beffdb824f2c7eb6bac556"
+  "md5Hash": "69b99a06a0b80d65924101255ff31b10"
 }
