@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2025-10-17T21:40:39.762Z",
+  "generatedAt": "2025-10-17T22:10:29.625Z",
   "year": "2025",
-  "count": 129,
+  "count": 140,
   "seniorCount": 88,
-  "juniorCount": 83,
+  "juniorCount": 97,
   "totalTournaments": 31,
   "players": [
     {
@@ -12,7 +12,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#74",
-      "tournamentCount": 9,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -41,6 +41,13 @@
           "name": "2025 Hobsons Bay February Blitz",
           "totalRounds": "9",
           "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -90,7 +97,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#26",
-      "tournamentCount": 11,
+      "tournamentCount": 12,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayAprilBlitz/data.json",
@@ -147,6 +154,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayPurdyCupJuniors/data.json",
@@ -211,7 +225,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#48",
-      "tournamentCount": 10,
+      "tournamentCount": 11,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -270,6 +284,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
           "score": 3,
           "name": "2025 Hobsons Bay September Rapid",
@@ -296,7 +317,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#5",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -310,6 +331,13 @@
           "score": 5,
           "name": "2025 Hobsons Bay April Rapid",
           "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
           "ratingType": "rapid"
         },
         {
@@ -397,7 +425,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#67",
-      "tournamentCount": 9,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -426,6 +454,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -504,7 +539,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#72",
-      "tournamentCount": 11,
+      "tournamentCount": 12,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -540,6 +575,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -702,7 +744,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#27",
-      "tournamentCount": 2,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayJulyRapid/data.json",
@@ -717,10 +759,24 @@
           "name": "Hobsons Bay September Blitz",
           "totalRounds": "9",
           "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay Koshnitsky Cup Juniors",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 0,
+        "standard": 3.5,
         "rapid": 1,
         "blitz": 0
       }
@@ -789,7 +845,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#15",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -797,6 +853,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -846,7 +909,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#18",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -854,6 +917,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -982,7 +1052,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#34",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -990,6 +1060,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayPurdyCupJuniors/data.json",
@@ -1046,7 +1123,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#45",
-      "tournamentCount": 14,
+      "tournamentCount": 15,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -1131,6 +1208,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
@@ -1648,12 +1732,19 @@
     },
     {
       "name": "Fang,Candice",
-      "id": "19",
+      "id": "50",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#19",
-      "tournamentCount": 5,
+      "href": "playercard.html#50",
+      "tournamentCount": 6,
       "tournaments": [
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2025HobsonsBayReservesChampionshipJuniors/data.json",
           "score": 0.5,
@@ -1702,7 +1793,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#22",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayCupJuniors/data.json",
@@ -1710,6 +1801,13 @@
           "name": "2025 Hobsons Bay Cup Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -1722,6 +1820,64 @@
       "points": {
         "standard": 6.5,
         "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Gajula,Karan",
+      "id": "48",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#48",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
+          "score": 1.5,
+          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 1.5,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Gajula,Nishitha",
+      "id": "52",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#52",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
+          "score": 3,
+          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 3,
         "blitz": 0
       }
     },
@@ -1789,7 +1945,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#38",
-      "tournamentCount": 11,
+      "tournamentCount": 12,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayAprilBlitz/data.json",
@@ -1825,6 +1981,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -1881,7 +2044,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#34",
-      "tournamentCount": 11,
+      "tournamentCount": 12,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayAprilBlitz/data.json",
@@ -1917,6 +2080,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -1973,7 +2143,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#29",
-      "tournamentCount": 10,
+      "tournamentCount": 11,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayAprilBlitz/data.json",
@@ -2002,6 +2172,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -2054,12 +2231,19 @@
     },
     {
       "name": "Guggilla,Krithvik",
-      "id": "32",
+      "id": "43",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#32",
-      "tournamentCount": 4,
+      "href": "playercard.html#43",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
           "score": 4,
@@ -2101,7 +2285,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#26",
-      "tournamentCount": 8,
+      "tournamentCount": 9,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -2144,6 +2328,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
@@ -2492,7 +2683,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#81",
-      "tournamentCount": 8,
+      "tournamentCount": 9,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -2514,6 +2705,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -2628,7 +2826,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#69",
-      "tournamentCount": 11,
+      "tournamentCount": 12,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -2657,6 +2855,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -2749,7 +2954,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#36",
-      "tournamentCount": 9,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayAprilRapid/data.json",
@@ -2771,6 +2976,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -2819,6 +3031,35 @@
         "standard": 13.5,
         "rapid": 8,
         "blitz": 5.5
+      }
+    },
+    {
+      "name": "Jyothi Nikhil,Vihaan",
+      "id": "61",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#61",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 1,
+        "blitz": 0
       }
     },
     {
@@ -3002,12 +3243,19 @@
     },
     {
       "name": "Kaur,Mishleen",
-      "id": "34",
+      "id": "25",
       "fideId": "",
-      "gender": "female",
-      "href": "playercard.html#34",
-      "tournamentCount": 2,
+      "gender": "male",
+      "href": "playercard.html#25",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
           "score": 3,
@@ -3352,12 +3600,41 @@
       }
     },
     {
+      "name": "Le,Khoi Nguyen",
+      "id": "62",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#62",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 2,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Lingineni,Khushal",
       "id": "23",
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#23",
-      "tournamentCount": 10,
+      "tournamentCount": 11,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -3416,6 +3693,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
           "score": 4.5,
           "name": "2025 Hobsons Bay September Rapid",
@@ -3461,6 +3745,35 @@
       ],
       "points": {
         "standard": 3.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Madduluri,Advaitha",
+      "id": "63",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#63",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayReservesChampionshipJuniors/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Reserves Championship Juniors",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -3528,7 +3841,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#27",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -3536,6 +3849,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -3578,7 +3898,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#25",
-      "tournamentCount": 2,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayKoshnitskyCup/data.json",
@@ -3593,11 +3913,25 @@
           "name": "2025 Hobsons Bay Reserves Championship",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
+          "score": 3.5,
+          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 4,
-        "rapid": 0,
+        "rapid": 3.5,
         "blitz": 0
       }
     },
@@ -4121,7 +4455,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#31",
-      "tournamentCount": 13,
+      "tournamentCount": 14,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -4192,6 +4526,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayPurdyCupJuniors/data.json",
@@ -4518,7 +4859,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#47",
-      "tournamentCount": 2,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -4533,11 +4874,25 @@
           "name": "2025 Hobsons Bay February Blitz",
           "totalRounds": "9",
           "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
+          "score": 5,
+          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 3.5,
-        "rapid": 0,
+        "rapid": 5,
         "blitz": 5
       }
     },
@@ -4803,7 +5158,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#24",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -4811,6 +5166,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayPurdyCupJuniors/data.json",
@@ -4832,7 +5194,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#53",
-      "tournamentCount": 10,
+      "tournamentCount": 11,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -4882,6 +5244,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayPurdyCupJuniors/data.json",
@@ -5125,7 +5494,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#73",
-      "tournamentCount": 11,
+      "tournamentCount": 12,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -5161,6 +5530,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -5217,7 +5593,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#18",
-      "tournamentCount": 8,
+      "tournamentCount": 9,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayAprilBlitz/data.json",
@@ -5239,6 +5615,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayPurdyCupJuniors/data.json",
@@ -5319,6 +5702,35 @@
       }
     },
     {
+      "name": "Scenna,Luna",
+      "id": "23",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#23",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
+          "score": 4.5,
+          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 4.5,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Settu,Karthick",
       "id": "25",
       "fideId": "",
@@ -5353,7 +5765,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#80",
-      "tournamentCount": 15,
+      "tournamentCount": 16,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -5419,6 +5831,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2025HobsonsBayPurdyCupJuniors/data.json",
           "score": 2,
           "name": "2025 Hobsons Bay Chess Club C.J.S Purdy Cup Juniors",
@@ -5465,6 +5884,35 @@
         "standard": 14.5,
         "rapid": 10,
         "blitz": 12
+      }
+    },
+    {
+      "name": "Sharma,Varun",
+      "id": "42",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#42",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2025HBCCHonourableBobJuniors/data.json",
+          "score": 1,
+          "name": "2025 HBCC Honourable Bob Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
       }
     },
     {
@@ -5547,6 +5995,35 @@
       }
     },
     {
+      "name": "Shetty,Yohan",
+      "id": "72",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#72",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025WesternJuniorRapidChampionship/data.json",
+          "score": 2.5,
+          "name": "2025 Hobsons Bay Western Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 2.5,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Shinde, Yug",
       "id": "13",
       "fideId": "",
@@ -5581,7 +6058,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#30",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayHonourableBob/data.json",
@@ -5603,6 +6080,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -5684,12 +6168,19 @@
     },
     {
       "name": "Spriggs,Harvey",
-      "id": "42",
+      "id": "47",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#42",
-      "tournamentCount": 3,
+      "href": "playercard.html#47",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
           "score": 3,
@@ -5724,7 +6215,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#32",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayAprilBlitz/data.json",
@@ -5753,6 +6244,13 @@
           "name": "Hobsons Bay September Blitz",
           "totalRounds": "9",
           "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayReservesChampionshipJuniors/data.json",
@@ -5812,6 +6310,35 @@
       }
     },
     {
+      "name": "Subhash,Ryan",
+      "id": "73",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#73",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 1,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 1,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Szuveges,Narelle S",
       "id": "28",
       "fideId": "",
@@ -5849,12 +6376,19 @@
     },
     {
       "name": "Tan,Lucas",
-      "id": "29",
+      "id": "39",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#29",
-      "tournamentCount": 2,
+      "href": "playercard.html#39",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2025HobsonsBayReservesChampionshipJuniors/data.json",
           "score": 0.5,
@@ -6047,7 +6581,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#102",
-      "tournamentCount": 9,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "www2025BestintheWest/data.json",
@@ -6076,6 +6610,13 @@
           "name": "Hobsons Bay September Blitz",
           "totalRounds": "9",
           "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -6154,7 +6695,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#45",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2025HBCCHonourableBobJuniors/data.json",
@@ -6162,6 +6703,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
@@ -6242,6 +6790,35 @@
       }
     },
     {
+      "name": "Verma,Vivaan",
+      "id": "17",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#17",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBayReservesChampionshipJuniors/data.json",
+          "score": 0.5,
+          "name": "2025 Hobsons Bay Reserves Championship Juniors",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Vignesh,Prajeeth Balaji",
       "id": "104",
       "fideId": "",
@@ -6285,6 +6862,35 @@
       }
     },
     {
+      "name": "Vigneshwar,Krishanth",
+      "id": "78",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#78",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2025HobsonsBaySeptemberRapid/data.json",
+          "score": 2,
+          "name": "2025 Hobsons Bay September Rapid",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 2,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Wei, Andrew",
       "id": "6",
       "fideId": "",
@@ -6319,7 +6925,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#13",
-      "tournamentCount": 8,
+      "tournamentCount": 9,
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayJulyRapid/data.json",
@@ -6341,6 +6947,13 @@
           "name": "2025 HBCC Honourable Bob Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2025HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2025 Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "7",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2025HobsonsBayKoshnitskyCupJuniors/data.json",
