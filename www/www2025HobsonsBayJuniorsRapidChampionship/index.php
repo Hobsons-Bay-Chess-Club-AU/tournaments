@@ -47,7 +47,7 @@
 <tr> 
 <td><span class="idn"> 1</span></td><td><span class="title male"> CM</span></td><td> Annapureddy,Rheyansh Reddy </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>2238</td><td>2011</td><td>2238</td> </tr>
 <tr> 
-<td><span class="idn"> 2</span></td><td><span class="notitle female"> </span></td><td> Lingineni,Khushal </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1831</td><td>1774</td><td>1831</td> </tr>
+<td><span class="idn"> 2</span></td><td><span class="notitle male"> </span></td><td> Lingineni,Khushal </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1831</td><td>1774</td><td>1831</td> </tr>
 <tr> 
 <td><span class="idn"> 3</span></td><td><span class="notitle male"> </span></td><td> Nguyen,Anh Kiet </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1593</td><td>1842</td><td>1593</td> </tr>
 <tr> 
@@ -91,11 +91,11 @@
 <tr> 
 <td><span class="idn"> 23</span></td><td><span class="notitle female"> </span></td><td> Scenna,Luna </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>856</td><td>1553</td><td>856</td> </tr>
 <tr> 
-<td><span class="idn"> 83</span></td><td><span class="notitle female"> </span></td><td> Arora,Daanish </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>854</td><td>0</td><td>854</td> </tr>
+<td><span class="idn"> 83</span></td><td><span class="notitle male"> </span></td><td> Arora,Daanish </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>854</td><td>0</td><td>854</td> </tr>
 <tr> 
 <td><span class="idn"> 24</span></td><td><span class="notitle female"> </span></td><td> Marasinghe,Claire </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>807</td><td>1514</td><td>807</td> </tr>
 <tr> 
-<td><span class="idn"> 25</span></td><td><span class="notitle male"> </span></td><td> Kaur,Mishleen </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>800</td><td>1541</td><td>800</td> </tr>
+<td><span class="idn"> 25</span></td><td><span class="notitle female"> </span></td><td> Kaur,Mishleen </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>800</td><td>1541</td><td>800</td> </tr>
 <tr> 
 <td><span class="idn"> 26</span></td><td><span class="notitle male"> </span></td><td> Munro,Lachlan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>800</td><td>1494</td><td>800</td> </tr>
 <tr> 
@@ -121,7 +121,7 @@
 <tr> 
 <td><span class="idn"> 37</span></td><td><span class="notitle male"> </span></td><td> Vemula,Thamoghna </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>551</td><td>1479</td><td>551</td> </tr>
 <tr> 
-<td><span class="idn"> 38</span></td><td><span class="notitle female"> </span></td><td> Stefan Jiace Tham,Keanu </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>508</td><td>0</td><td>508</td> </tr>
+<td><span class="idn"> 38</span></td><td><span class="notitle male"> </span></td><td> Stefan Jiace Tham,Keanu </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>508</td><td>0</td><td>508</td> </tr>
 <tr> 
 <td><span class="idn"> 39</span></td><td><span class="notitle male"> </span></td><td> Tan,Lucas </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>486</td><td>0</td><td>486</td> </tr>
 <tr> 
@@ -129,9 +129,9 @@
 <tr> 
 <td><span class="idn"> 41</span></td><td><span class="notitle male"> </span></td><td> Bodke,Aryan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>462</td><td>0</td><td>462</td> </tr>
 <tr> 
-<td><span class="idn"> 42</span></td><td><span class="notitle male"> </span></td><td> Bo,Jamie </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>451</td><td>1591</td><td>451</td> </tr>
+<td><span class="idn"> 42</span></td><td><span class="notitle female"> </span></td><td> Bo,Jamie </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>451</td><td>1591</td><td>451</td> </tr>
 <tr> 
-<td><span class="idn"> 43</span></td><td><span class="notitle female"> </span></td><td> Guggilla,Krithvik </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>442</td><td>1517</td><td>442</td> </tr>
+<td><span class="idn"> 43</span></td><td><span class="notitle male"> </span></td><td> Guggilla,Krithvik </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>442</td><td>1517</td><td>442</td> </tr>
 <tr> 
 <td><span class="idn"> 44</span></td><td><span class="notitle male"> </span></td><td> Bo,Jeremie </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>429</td><td>1499</td><td>429</td> </tr>
 <tr> 
@@ -149,7 +149,7 @@
 <tr> 
 <td><span class="idn"> 51</span></td><td><span class="notitle female"> </span></td><td> Venkat,Nyra </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>368</td><td>1624</td><td>368</td> </tr>
 <tr> 
-<td><span class="idn"> 52</span></td><td><span class="notitle male"> </span></td><td> Gajula,Nishitha </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>366</td><td>0</td><td>366</td> </tr>
+<td><span class="idn"> 52</span></td><td><span class="notitle female"> </span></td><td> Gajula,Nishitha </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>366</td><td>0</td><td>366</td> </tr>
 <tr> 
 <td><span class="idn"> 53</span></td><td><span class="notitle male"> </span></td><td> Manoj,Dev </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>336</td><td>1593</td><td>336</td> </tr>
 <tr> 
