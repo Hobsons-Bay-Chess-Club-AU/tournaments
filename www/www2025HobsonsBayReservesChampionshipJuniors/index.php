@@ -21,7 +21,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs1.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs2.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
@@ -66,11 +66,11 @@
 <tr> 
 <td><span class="idn"> 9</span></td><td><span class="notitle male"> </span></td><td> Goh,Nicholas </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>516</td><td>1465</td><td>516</td> </tr>
 <tr> 
-<td><span class="idn"> 32</span></td><td><span class="notitle male"> </span></td><td> Shinde, Yug </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>505</td><td>1466</td><td>505</td> </tr>
+<td><span class="idn"> 32</span></td><td><span class="notitle male"> </span></td><td> Shinde,Yug </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>505</td><td>1466</td><td>505</td> </tr>
 <tr> 
 <td><span class="idn"> 27</span></td><td><span class="notitle male"> </span></td><td> Palta,Sameer </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>453</td><td>0</td><td>453</td> </tr>
 <tr> 
-<td><span class="idn"> 35</span></td><td><span class="notitle female"> </span></td><td> Venkat, Nyra </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>441</td><td>1562</td><td>441</td> </tr>
+<td><span class="idn"> 35</span></td><td><span class="notitle female"> </span></td><td> Venkat,Nyra </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>441</td><td>1562</td><td>441</td> </tr>
 <tr> 
 <td><span class="idn"> 10</span></td><td><span class="notitle male"> </span></td><td> Gadham,Aarya Subramanya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>425</td><td>0</td><td>425</td> </tr>
 <tr> 
@@ -78,7 +78,7 @@
 <tr> 
 <td><span class="idn"> 12</span></td><td><span class="notitle male"> </span></td><td> Balamurugan,Soorya </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>346</td><td>1456</td><td>346</td> </tr>
 <tr> 
-<td><span class="idn"> 34</span></td><td><span class="notitle female"> </span></td><td> Husain, Lamiah </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>305</td><td>1487</td><td>305</td> </tr>
+<td><span class="idn"> 34</span></td><td><span class="notitle female"> </span></td><td> Husain,Lamiah </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>305</td><td>1487</td><td>305</td> </tr>
 <tr> 
 <td><span class="idn"> 13</span></td><td><span class="notitle male"> </span></td><td> Das,Ayush </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>245</td><td>1435</td><td>245</td> </tr>
 <tr> 
@@ -88,9 +88,9 @@
 <tr> 
 <td><span class="idn"> 16</span></td><td><span class="notitle male"> </span></td><td> Kantharaju,Aryan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>100</td><td>0</td><td>100</td> </tr>
 <tr> 
-<td><span class="idn"> 17</span></td><td><span class="notitle male"> </span></td><td> Chawla, Namish </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 17</span></td><td><span class="notitle male"> </span></td><td> Chawla,Namish </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 36</span></td><td><span class="notitle male"> </span></td><td> D'Souza, Leon </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 36</span></td><td><span class="notitle male"> </span></td><td> D'Souza,Leon </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 18</span></td><td><span class="notitle male"> </span></td><td> Dash,Dibya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
@@ -102,19 +102,19 @@
 <tr> 
 <td><span class="idn"> 22</span></td><td><span class="notitle male"> </span></td><td> Kwek,Alexander </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 23</span></td><td><span class="notitle female"> </span></td><td> Lacson, Alexandria </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 23</span></td><td><span class="notitle female"> </span></td><td> Lacson,Alexandria </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 24</span></td><td><span class="notitle female"> </span></td><td> Madduluri,Advaitha </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 25</span></td><td><span class="notitle male"> </span></td><td> Mallajosyula, Srivaths </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 25</span></td><td><span class="notitle male"> </span></td><td> Mallajosyula,Srivaths </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 26</span></td><td><span class="notitle male"> </span></td><td> Mo, Christopher </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 26</span></td><td><span class="notitle male"> </span></td><td> Mo,Christopher </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 28</span></td><td><span class="notitle male"> </span></td><td> Shayan,Ray </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 29</span></td><td><span class="notitle male"> </span></td><td> Tan,Lucas </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 30</span></td><td><span class="notitle male"> </span></td><td> Veeragandham, Gowtham </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 30</span></td><td><span class="notitle male"> </span></td><td> Veeragandham,Gowtham </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 31</span></td><td><span class="notitle male"> </span></td><td> Vignesh,Prajeeth Balaji </td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 </tbody>

@@ -21,7 +21,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs1.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs2.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
@@ -249,7 +249,7 @@
    <div class="left-box2">
 <a href="playercard.php#32"></a> 
  <div class="player-name-box2">
-			<span>Shinde, Yug</span>
+			<span>Shinde,Yug</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 32</div> 
@@ -285,7 +285,7 @@
    <div class="left-box2">
 <a href="playercard.php#34"></a> 
  <div class="player-name-box2">
-			<span>Husain, Lamiah</span>
+			<span>Husain,Lamiah</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 34</div> 
@@ -303,7 +303,7 @@
    <div class="left-box2">
 <a href="playercard.php#35"></a> 
  <div class="player-name-box2">
-			<span>Venkat, Nyra</span>
+			<span>Venkat,Nyra</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 35</div> 
@@ -537,7 +537,7 @@
    <div class="left-box2">
 <a href="playercard.php#17"></a> 
  <div class="player-name-box2">
-			<span>Chawla, Namish</span>
+			<span>Chawla,Namish</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 17</div> 
@@ -591,7 +591,7 @@
    <div class="left-box2">
 <a href="playercard.php#23"></a> 
  <div class="player-name-box2">
-			<span>Lacson, Alexandria</span>
+			<span>Lacson,Alexandria</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 23</div> 
@@ -627,7 +627,7 @@
    <div class="left-box2">
 <a href="playercard.php#25"></a> 
  <div class="player-name-box2">
-			<span>Mallajosyula, Srivaths</span>
+			<span>Mallajosyula,Srivaths</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 25</div> 
@@ -645,7 +645,7 @@
    <div class="left-box2">
 <a href="playercard.php#26"></a> 
  <div class="player-name-box2">
-			<span>Mo, Christopher</span>
+			<span>Mo,Christopher</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 26</div> 
@@ -663,7 +663,7 @@
    <div class="left-box2">
 <a href="playercard.php#30"></a> 
  <div class="player-name-box2">
-			<span>Veeragandham, Gowtham</span>
+			<span>Veeragandham,Gowtham</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 30</div> 
@@ -681,7 +681,7 @@
    <div class="left-box2">
 <a href="playercard.php#36"></a> 
  <div class="player-name-box2">
-			<span>D'Souza, Leon</span>
+			<span>D'Souza,Leon</span>
 		</div> 
 		<div class="player-data-box">
 			<div class="sort-num"> 36</div> 
