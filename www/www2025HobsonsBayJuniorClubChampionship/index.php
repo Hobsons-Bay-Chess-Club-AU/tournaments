@@ -44,21 +44,21 @@
   <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players</h3><div class="table-responsive"><table class="table table-striped" id="players-table"> 
 <thead><tr><th>#</th><th>Title</th><th> &#8597; Player</th><th>Fed</th><th data-tsorter="numeric"> &#8597; Rtg</th><th data-tsorter="numeric"> &#8597; RtgF</th><th data-tsorter="numeric"> &#8597; RtgN</th></tr></thead><tbody>
 <tr> 
-<td><span class="idn"> 1</span></td><td><span class="notitle male"> </span></td><td> Batyrbekov, Kaisar </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1110</td><td>1656</td><td>1110</td> </tr>
+<td><span class="idn"> 1</span></td><td><span class="notitle male"> </span></td><td> Batyrbekov,Kaisar </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1110</td><td>1656</td><td>1110</td> </tr>
 <tr> 
-<td><span class="idn"> 2</span></td><td><span class="notitle male"> </span></td><td> Ashok, Arjun </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1087</td><td>1561</td><td>1087</td> </tr>
+<td><span class="idn"> 2</span></td><td><span class="notitle male"> </span></td><td> Ashok,Arjun </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1087</td><td>1561</td><td>1087</td> </tr>
 <tr> 
-<td><span class="idn"> 3</span></td><td><span class="notitle male"> </span></td><td> Balaji, Sai Sivesh </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1006</td><td>1576</td><td>1006</td> </tr>
+<td><span class="idn"> 3</span></td><td><span class="notitle male"> </span></td><td> Balaji,Sai Sivesh </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1006</td><td>1576</td><td>1006</td> </tr>
 <tr> 
-<td><span class="idn"> 4</span></td><td><span class="notitle male"> </span></td><td> Huang, Michael </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1000</td><td>1666</td><td>1000</td> </tr>
+<td><span class="idn"> 4</span></td><td><span class="notitle male"> </span></td><td> Huang,Michael </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>1000</td><td>1666</td><td>1000</td> </tr>
 <tr> 
-<td><span class="idn"> 5</span></td><td><span class="notitle male"> </span></td><td> Batyrbekov, Aidan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>947</td><td>1560</td><td>947</td> </tr>
+<td><span class="idn"> 5</span></td><td><span class="notitle male"> </span></td><td> Batyrbekov,Aidan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>947</td><td>1560</td><td>947</td> </tr>
 <tr> 
-<td><span class="idn"> 6</span></td><td><span class="notitle male"> </span></td><td> Wei, Andrew </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>931</td><td>1640</td><td>931</td> </tr>
+<td><span class="idn"> 6</span></td><td><span class="notitle male"> </span></td><td> Wei,Andrew </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>931</td><td>1640</td><td>931</td> </tr>
 <tr> 
-<td><span class="idn"> 7</span></td><td><span class="notitle male"> </span></td><td> Ruaya, Rohan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>795</td><td>1437</td><td>795</td> </tr>
+<td><span class="idn"> 7</span></td><td><span class="notitle male"> </span></td><td> Ruaya,Rohan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>795</td><td>1437</td><td>795</td> </tr>
 <tr> 
-<td><span class="idn"> 8</span></td><td><span class="notitle male"> </span></td><td> Nema, Nivaan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>692</td><td>1602</td><td>692</td> </tr>
+<td><span class="idn"> 8</span></td><td><span class="notitle male"> </span></td><td> Nema,Nivaan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>692</td><td>1602</td><td>692</td> </tr>
 </tbody>
 <tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</td></tr></tfoot></table></div>
   <script type="text/javascript"> function init(){tsorter.create('players-table');} window.onload = init;</script>

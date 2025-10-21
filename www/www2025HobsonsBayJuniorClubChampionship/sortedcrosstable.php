@@ -45,21 +45,21 @@
 <div class="table-responsive"><table class="table table-striped"> 
 <thead><tr><th>Pos</th><th>#</th><th >NAME</th> <th>Rtg</th><th>Fed</th><th>Pts</th>
 <th> 1 </th><th> 2 </th><th> 3 </th><th> 4 </th><th> 5 </th><th> 6 </th><th> 7 </th><th> 8 </th></tr></thead> <tbody>
-<tr> <td>1</td><td>5</td><td> <a href="playercard.php#5"> Batyrbekov, Aidan</a> </td><td>947</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td class=hole> </td><td> .  </td><td> .  </td><td> .  </td><td> .  </td><td> .  </td><td> .  </td><td> 1  </td>
+<tr> <td>1</td><td>1</td><td> <a href="playercard.php#1"> Batyrbekov,Kaisar</a> </td><td>1110</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 2.0</td><td class=hole> </td><td> .  </td><td> 1  </td><td> .  </td><td> .  </td><td> .  </td><td> .  </td><td> 1  </td>
 </tr>
-<tr> <td>2</td><td>1</td><td> <a href="playercard.php#1"> Batyrbekov, Kaisar</a> </td><td>1110</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td> .  </td><td class=hole> </td><td> .  </td><td> .  </td><td> .  </td><td> 1  </td><td> .  </td><td> .  </td>
+<tr> <td>2</td><td>5</td><td> <a href="playercard.php#5"> Batyrbekov,Aidan</a> </td><td>947</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td> .  </td><td class=hole> </td><td> .  </td><td> .  </td><td> .  </td><td> .  </td><td> 1  </td><td> a  </td>
 </tr>
-<tr> <td>3</td><td>7</td><td> <a href="playercard.php#7"> Ruaya, Rohan</a> </td><td>795</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.5</td><td> .  </td><td> .  </td><td class=hole> </td><td> ½ </td><td> .  </td><td> .  </td><td> .  </td><td> .  </td>
+<tr> <td>3</td><td>2</td><td> <a href="playercard.php#2"> Ashok,Arjun</a> </td><td>1087</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.5</td><td> 0  </td><td> .  </td><td class=hole> </td><td> .  </td><td> .  </td><td> ½ </td><td> .  </td><td> .  </td>
 </tr>
-<tr> <td>4</td><td>2</td><td> <a href="playercard.php#2"> Ashok, Arjun</a> </td><td>1087</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.5</td><td> .  </td><td> .  </td><td> ½ </td><td class=hole> </td><td> .  </td><td> .  </td><td> .  </td><td> .  </td>
+<tr> <td>4</td><td>3</td><td> <a href="playercard.php#3"> Balaji,Sai Sivesh</a> </td><td>1006</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.5</td><td> .  </td><td> .  </td><td> .  </td><td class=hole> </td><td> ½ </td><td> a  </td><td> .  </td><td> .  </td>
 </tr>
-<tr> <td>5</td><td>6</td><td> <a href="playercard.php#6"> Wei, Andrew</a> </td><td>931</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td> .  </td><td> .  </td><td> .  </td><td> .  </td><td class=hole> </td><td> .  </td><td> a  </td><td> .  </td>
+<tr> <td>5</td><td>6</td><td> <a href="playercard.php#6"> Wei,Andrew</a> </td><td>931</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.5</td><td> .  </td><td> .  </td><td> .  </td><td> ½ </td><td class=hole> </td><td> .  </td><td> a  </td><td> .  </td>
 </tr>
-<tr> <td>6</td><td>8</td><td> <a href="playercard.php#8"> Nema, Nivaan</a> </td><td>692</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td> .  </td><td> 0  </td><td> .  </td><td> .  </td><td> .  </td><td class=hole> </td><td> .  </td><td> .  </td>
+<tr> <td>6</td><td>7</td><td> <a href="playercard.php#7"> Ruaya,Rohan</a> </td><td>795</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.5</td><td> .  </td><td> .  </td><td> ½ </td><td> a  </td><td> .  </td><td class=hole> </td><td> .  </td><td> .  </td>
 </tr>
-<tr> <td>7</td><td>3</td><td> <a href="playercard.php#3"> Balaji, Sai Sivesh</a> </td><td>1006</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td> .  </td><td> .  </td><td> .  </td><td> .  </td><td> a  </td><td> .  </td><td class=hole> </td><td> .  </td>
+<tr> <td>7</td><td>4</td><td> <a href="playercard.php#4"> Huang,Michael</a> </td><td>1000</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td> .  </td><td> 0  </td><td> .  </td><td> .  </td><td> a  </td><td> .  </td><td class=hole> </td><td> .  </td>
 </tr>
-<tr> <td>8</td><td>4</td><td> <a href="playercard.php#4"> Huang, Michael</a> </td><td>1000</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td> 0  </td><td> .  </td><td> .  </td><td> .  </td><td> .  </td><td> .  </td><td> .  </td><td class=hole> </td>
+<tr> <td>8</td><td>8</td><td> <a href="playercard.php#8"> Nema,Nivaan</a> </td><td>692</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td> 0  </td><td> a  </td><td> .  </td><td> .  </td><td> .  </td><td> .  </td><td> .  </td><td class=hole> </td>
 </tr>
 </tbody>
 </table></div>

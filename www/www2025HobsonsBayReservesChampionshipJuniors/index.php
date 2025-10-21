@@ -48,6 +48,8 @@
 <tr> 
 <td><span class="idn"> 3</span></td><td><span class="notitle female"> </span></td><td> Kaur,Mishleen </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1541</td><td>1541</td><td>0</td> </tr>
 <tr> 
+<td><span class="idn"> 37</span></td><td><span class="notitle male"> </span></td><td> Parker,Lucas </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1414</td><td>1618</td><td>1414</td> </tr>
+<tr> 
 <td><span class="idn"> 1</span></td><td><span class="notitle male"> </span></td><td> Verma,Vivaan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>983</td><td>1533</td><td>983</td> </tr>
 <tr> 
 <td><span class="idn"> 2</span></td><td><span class="notitle male"> </span></td><td> Jagannathan,Shashvath </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>859</td><td>1504</td><td>859</td> </tr>
@@ -96,9 +98,13 @@
 <tr> 
 <td><span class="idn"> 19</span></td><td><span class="notitle female"> </span></td><td> Fang,Candice </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
+<td><span class="idn"> 38</span></td><td><span class="notitle male"> </span></td><td> Fidalgo, Nicolas </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
 <td><span class="idn"> 20</span></td><td><span class="notitle male"> </span></td><td> Ganesh Kumar,Mukunth </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 21</span></td><td><span class="notitle female"> </span></td><td> Goh,Daphne </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 39</span></td><td><span class="notitle male"> </span></td><td> Koppuravuri, Haneesh </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 22</span></td><td><span class="notitle male"> </span></td><td> Kwek,Alexander </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 

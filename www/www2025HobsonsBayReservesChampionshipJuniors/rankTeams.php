@@ -47,60 +47,63 @@
 <div class="table-responsive"><table class="table table-striped"> 
 <thead><tr><th> Pos </th> <th> Team Name </th><th>Points</th></tr></thead> <tbody>
 <tr>
-<td>1</td> <td></td> <td>4</td> </tr>
+<td>1</td> <td></td> <td>8</td> </tr>
 </tbody>
 </table>
 <h5 class="mb-4 mt-4"> Team composition</h5>
 <table class="table table-striped "> 
-<thead><tr><th>1</th> <th> </th><th>4</th></tr></thead><tbody> 
-<tr> <td>18</td> <td>Dash,Dibya </td><td>1</td></tr> 
-<tr> <td>2</td> <td>Jagannathan,Shashvath </td><td>1</td></tr> 
-<tr> <td>4</td> <td>Guggilla,Krithvik </td><td>1</td></tr> 
-<tr> <td>5</td> <td>Jyothi Nikhil,Neev </td><td>1</td></tr> 
-<tr> <td>6</td> <td>Yendru,Sriram </td><td>1</td></tr> 
+<thead><tr><th>1</th> <th> </th><th>8</th></tr></thead><tbody> 
+<tr> <td>5</td> <td>Jyothi Nikhil,Neev </td><td>2</td></tr> 
+<tr> <td>6</td> <td>Yendru,Sriram </td><td>2</td></tr> 
+<tr> <td>31</td> <td>Vignesh,Prajeeth Balaji </td><td>2</td></tr> 
+<tr> <td>4</td> <td>Guggilla,Krithvik </td><td>2</td></tr> 
+<tr> <td>33</td> <td>Morris,Elijah </td><td>2</td></tr> 
+<tr> <td>1</td> <td>Verma,Vivaan </td><td>1.5</td></tr> 
+<tr> <td>8</td> <td>Shaiek,Nihal </td><td>1.5</td></tr> 
+<tr> <td>34</td> <td>Husain,Lamiah </td><td>1.5</td></tr> 
+<tr> <td>35</td> <td>Venkat,Nyra </td><td>1.5</td></tr> 
+<tr> <td>3</td> <td>Kaur,Mishleen </td><td>1.5</td></tr> 
+<tr> <td>11</td> <td>Stefan Jiace Tham,Keanu </td><td>1.5</td></tr> 
 <tr> <td>7</td> <td>Manoj,Dev </td><td>1</td></tr> 
-<tr> <td>8</td> <td>Shaiek,Nihal </td><td>1</td></tr> 
 <tr> <td>9</td> <td>Goh,Nicholas </td><td>1</td></tr> 
 <tr> <td>12</td> <td>Balamurugan,Soorya </td><td>1</td></tr> 
-<tr> <td>28</td> <td>Shayan,Ray </td><td>1</td></tr> 
-<tr> <td>31</td> <td>Vignesh,Prajeeth Balaji </td><td>1</td></tr> 
 <tr> <td>32</td> <td>Shinde,Yug </td><td>1</td></tr> 
-<tr> <td>33</td> <td>Morris,Elijah </td><td>1</td></tr> 
-<tr> <td>34</td> <td>Husain,Lamiah </td><td>1</td></tr> 
-<tr> <td>35</td> <td>Venkat,Nyra </td><td>1</td></tr> 
-<tr> <td>1</td> <td>Verma,Vivaan </td><td>0.5</td></tr> 
-<tr> <td>3</td> <td>Kaur,Mishleen </td><td>0.5</td></tr> 
-<tr> <td>11</td> <td>Stefan Jiace Tham,Keanu </td><td>0.5</td></tr> 
+<tr> <td>13</td> <td>Das,Ayush </td><td>1</td></tr> 
+<tr> <td>22</td> <td>Kwek,Alexander </td><td>1</td></tr> 
+<tr> <td>23</td> <td>Lacson,Alexandria </td><td>1</td></tr> 
+<tr> <td>28</td> <td>Shayan,Ray </td><td>1</td></tr> 
+<tr> <td>18</td> <td>Dash,Dibya </td><td>1</td></tr> 
+<tr> <td>37</td> <td>Parker,Lucas </td><td>1</td></tr> 
+<tr> <td>2</td> <td>Jagannathan,Shashvath </td><td>1</td></tr> 
+<tr> <td>14</td> <td>Bodke,Aryan </td><td>1</td></tr> 
+<tr> <td>24</td> <td>Madduluri,Advaitha </td><td>1</td></tr> 
+<tr> <td>26</td> <td>Mo,Christopher </td><td>1</td></tr> 
+<tr> <td>30</td> <td>Veeragandham,Gowtham </td><td>1</td></tr> 
+<tr> <td>38</td> <td>Fidalgo, Nicolas </td><td>1</td></tr> 
 <tr> <td>19</td> <td>Fang,Candice </td><td>0.5</td></tr> 
+<tr> <td>21</td> <td>Goh,Daphne </td><td>0.5</td></tr> 
+<tr> <td>29</td> <td>Tan,Lucas </td><td>0.5</td></tr> 
 <tr> <td>20</td> <td>Ganesh Kumar,Mukunth </td><td>0.5</td></tr> 
 <tr> <td>27</td> <td>Palta,Sameer </td><td>0.5</td></tr> 
-<tr> <td>29</td> <td>Tan,Lucas </td><td>0.5</td></tr> 
-<tr> <td>10</td> <td>Gadham,Aarya Subramanya </td><td>0</td></tr> 
-<tr> <td>13</td> <td>Das,Ayush </td><td>0</td></tr> 
-<tr> <td>14</td> <td>Bodke,Aryan </td><td>0</td></tr> 
 <tr> <td>15</td> <td>Goh,Julian </td><td>0</td></tr> 
 <tr> <td>16</td> <td>Kantharaju,Aryan </td><td>0</td></tr> 
 <tr> <td>17</td> <td>Chawla,Namish </td><td>0</td></tr> 
-<tr> <td>21</td> <td>Goh,Daphne </td><td>0</td></tr> 
-<tr> <td>22</td> <td>Kwek,Alexander </td><td>0</td></tr> 
-<tr> <td>23</td> <td>Lacson,Alexandria </td><td>0</td></tr> 
-<tr> <td>24</td> <td>Madduluri,Advaitha </td><td>0</td></tr> 
 <tr> <td>25</td> <td>Mallajosyula,Srivaths </td><td>0</td></tr> 
-<tr> <td>26</td> <td>Mo,Christopher </td><td>0</td></tr> 
-<tr> <td>30</td> <td>Veeragandham,Gowtham </td><td>0</td></tr> 
+<tr> <td>10</td> <td>Gadham,Aarya Subramanya </td><td>0</td></tr> 
 <tr> <td>36</td> <td>D'Souza,Leon </td><td>0</td></tr> 
+<tr> <td>39</td> <td>Koppuravuri, Haneesh </td><td>0</td></tr> 
 </tbody>
 </table>
 <h5 class="mb-4 mt-4"> Best boards</h5>
 <table class="table table-striped "> 
 <thead><tr><th>Board 0</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Dash,Dibya </td><td> </td><td>1</td></tr> 
+<tr> <td></td> <td>1 </td><td>Jyothi Nikhil,Neev </td><td> </td><td>2</td></tr> 
 <thead><tr><th>Board 1</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Jagannathan,Shashvath </td><td> </td><td>1</td></tr> 
+<tr> <td></td> <td>1 </td><td>Yendru,Sriram </td><td> </td><td>2</td></tr> 
 <thead><tr><th>Board 2</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Guggilla,Krithvik </td><td> </td><td>1</td></tr> 
+<tr> <td></td> <td>1 </td><td>Vignesh,Prajeeth Balaji </td><td> </td><td>2</td></tr> 
 <thead><tr><th>Board 3</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Jyothi Nikhil,Neev </td><td> </td><td>1</td></tr> 
+<tr> <td></td> <td>1 </td><td>Guggilla,Krithvik </td><td> </td><td>2</td></tr> 
 </tbody>
 </table></div>
 		  </div>
