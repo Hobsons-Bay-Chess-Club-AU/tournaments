@@ -41,33 +41,21 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Standings at round 2 </h3>
-<div class="table-responsive"><table class="table table-striped"> 
-<thead><tr><th>Pos</th> <th>Player</th> <th>Rtg</th> <th>Fed</th><th>Pts</th> <th>   DirE </th><th>     SB </th><th>  SB/C1 </th><th>    BPG </th>
- </tr></thead> <tbody>
-<tr> <td>1</td><td><span class="idn"> 1 </span> <span class="notitle male"> </span> <a href="playercard.php#1"> Batyrbekov,Kaisar</a> </td><td>1110</td><td ><img src="flag/aus.png" alt="AUS"></td><td class="score"> 2.0</td><td>    0.0 </td><td>    0.5 </td><td>    0.5 </td><td>     0  </td>
-</tr> 
-<tr> <td>2</td><td><span class="idn"> 5 </span> <span class="notitle male"> </span> <a href="playercard.php#5"> Batyrbekov,Aidan</a> </td><td>947</td><td ><img src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td><td>     2  </td>
-</tr> 
-<tr> <td>3</td><td><span class="idn"> 2 </span> <span class="notitle male"> </span> <a href="playercard.php#2"> Ashok,Arjun</a> </td><td>1087</td><td ><img src="flag/aus.png" alt="AUS"></td><td class="score"> 0.5</td><td>    0.0 </td><td>    0.2 </td><td>    0.0 </td><td>     1  </td>
-</tr> 
-<tr> <td>4</td><td><span class="idn"> 3 </span> <span class="notitle male"> </span> <a href="playercard.php#3"> Balaji,Sai Sivesh</a> </td><td>1006</td><td ><img src="flag/aus.png" alt="AUS"></td><td class="score"> 0.5</td><td>    0.0 </td><td>    0.2 </td><td>    0.0 </td><td>     1  </td>
-</tr> 
-<tr> <td>5</td><td><span class="idn"> 6 </span> <span class="notitle male"> </span> <a href="playercard.php#6"> Wei,Andrew</a> </td><td>931</td><td ><img src="flag/aus.png" alt="AUS"></td><td class="score"> 0.5</td><td>    0.0 </td><td>    0.2 </td><td>    0.0 </td><td>     1  </td>
-</tr> 
-<tr> <td>6</td><td><span class="idn"> 7 </span> <span class="notitle male"> </span> <a href="playercard.php#7"> Ruaya,Rohan</a> </td><td>795</td><td ><img src="flag/aus.png" alt="AUS"></td><td class="score"> 0.5</td><td>    0.0 </td><td>    0.2 </td><td>    0.0 </td><td>     1  </td>
-</tr> 
-<tr> <td>7</td><td><span class="idn"> 4 </span> <span class="notitle male"> </span> <a href="playercard.php#4"> Huang,Michael</a> </td><td>1000</td><td ><img src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td><td>     1  </td>
-</tr> 
-<tr> <td>8</td><td><span class="idn"> 8 </span> <span class="notitle male"> </span> <a href="playercard.php#8"> Nema,Nivaan</a> </td><td>692</td><td ><img src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td><td>     1  </td>
-</tr> 
+  <div class="d-flex flex-column"> <div class="btn-toolbar mb-4 mt-4 d-flex align-items-center"> 
+<h5>Pairing of round 3, at 18:30 of 28/10/2025</h5>
+   	<div class="btn-group mx-5"> 
+<?php include("pairing.php"); ?>
+   	</div>
+ </div>
+<div class="table-responsive"><table class="table table-sm table-striped"> 
+<thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>Pts</th><th>Result</th><th>Pts</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
+<tr> <td>1</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name"> <span class="idwhite"> 2 </span><span class="notitle male"> </span> <a href="playercard.php#2"> Ashok,Arjun</a> </td><td>0.5</td><td class="result"> ... </td><td>0</td><td class="name"><span class="idblack">8 </span><span class="notitle male"> </span> <a href="playercard.php#8"> Nema,Nivaan</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name"> <span class="idwhite"> 3 </span><span class="notitle male"> </span> <a href="playercard.php#3"> Balaji,Sai Sivesh</a> </td><td>0.5</td><td class="result"> ... </td><td>2</td><td class="name"><span class="idblack">1 </span><span class="notitle male"> </span> <a href="playercard.php#1"> Batyrbekov,Kaisar</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name"> <span class="idwhite"> 4 </span><span class="notitle male"> </span> <a href="playercard.php#4"> Huang,Michael</a> </td><td>0</td><td class="result"> ... </td><td>0.5</td><td class="name"><span class="idblack">7 </span><span class="notitle male"> </span> <a href="playercard.php#7"> Ruaya,Rohan</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
+<tr> <td>4</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name"> <span class="idwhite"> 5 </span><span class="notitle male"> </span> <a href="playercard.php#5"> Batyrbekov,Aidan</a> </td><td>1</td><td class="result"> ... </td><td>0.5</td><td class="name"><span class="idblack">6 </span><span class="notitle male"> </span> <a href="playercard.php#6"> Wei,Andrew</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
 </tbody>
-<tfoot><tr><td colspan="7">Tie Break legend:<br>
-   DirE  :  Direct Encounter (all play all) <br>
-     SB  :  Sonneborn-Berger <br>
-  SB/C1  :  Sonneborn-Berger Cut 1 <br>
-    BPG  :  Number of Games Played with Black <br>
-</td></tr></tfoot></table></div>
+</table>
+</DIV><hr>
 		  </div>
 		      </div>
          <div class="d-none d-lg-block col-1 pe-0">
