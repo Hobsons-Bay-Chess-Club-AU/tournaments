@@ -31,7 +31,7 @@
                 <div class="container-fluid">
                     <div class="row items-center">
                         <div class="col-12">
-                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Junior Club Championship</h1>		    <h5 class="mb-1">Melbourne (AUS)</h5>		    <h5> 14/10/2025 - 09/12/2025</h5>   </div>
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Junior Club Championship</h1>		    <h5 class="mb-1">Melbourne (AUS)</h5>		    <h5> 14/10/2025 - 02/12/2025</h5>   </div>
  </div> 
  </div>
  </div> 

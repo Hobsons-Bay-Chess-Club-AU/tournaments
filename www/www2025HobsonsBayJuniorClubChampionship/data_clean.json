@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-21T11:02:52.193Z",
+  "generatedAt": "2025-10-27T09:09:18.245Z",
   "tournament": {
     "id": "2025-hobsons-bay-junior-club-championship",
     "name": "2025 Hobsons Bay Junior Club Championship",
@@ -9,7 +9,7 @@
       "Place": "Melbourne",
       "Federation": "AUS",
       "Date Begin": "14/10/2025",
-      "Date End": "09/12/2025",
+      "Date End": "02/12/2025",
       "Arbiter(s)": "IA Goh, Casey 3251098 (AUS)",
       "Play System": "Single Round Robin",
       "Rounds": "7",
@@ -41,7 +41,7 @@
       "tournamentName": "2025 Hobsons Bay Junior Club Championship",
       "federation": "AUS",
       "dateBegin": "14/10/2025",
-      "dateEnd": "09/12/2025",
+      "dateEnd": "02/12/2025",
       "arbiters": "IA Goh, Casey 3251098 (AUS)",
       "playSystem": "Single Round Robin",
       "rounds": 7,
@@ -329,7 +329,7 @@
               "N": "1",
               "White": "Ashok,Arjun",
               "NW": "2",
-              "result": "...",
+              "result": "ADJ",
               "NB": "8",
               "Black": "Nema,Nivaan"
             },
@@ -345,7 +345,7 @@
               "N": "3",
               "White": "Huang,Michael",
               "NW": "4",
-              "result": "...",
+              "result": "ADJ",
               "NB": "7",
               "Black": "Ruaya,Rohan"
             },
@@ -993,7 +993,7 @@
               "Fed": "AUS",
               "White Player": "2",
               "Pts": "0.5",
-              "Result": "...",
+              "Result": "ADJ",
               "Pts_1": "0",
               "Black Player": "8",
               "Fed_1": "AUS"
@@ -1013,7 +1013,7 @@
               "Fed": "AUS",
               "White Player": "4",
               "Pts": "0",
-              "Result": "...",
+              "Result": "ADJ",
               "Pts_1": "0.5",
               "Black Player": "7",
               "Fed_1": "AUS"
@@ -1955,7 +1955,7 @@
             {
               "Round": "7",
               "Time": "18:30",
-              "Date": "09/12/2025"
+              "Date": "02/12/2025"
             }
           ],
           "type": "other"
@@ -2261,7 +2261,7 @@
                 "title": ""
               },
               "NW": "2",
-              "Result": "...",
+              "Result": "ADJ",
               "NB": "8",
               "Black Player": {
                 "id": "",
@@ -2305,7 +2305,7 @@
                 "title": ""
               },
               "NW": "4",
-              "Result": "...",
+              "Result": "ADJ",
               "NB": "7",
               "Black Player": {
                 "id": "",
@@ -3214,7 +3214,7 @@
             },
             {
               "col1": "Date End",
-              "col2": "09/12/2025"
+              "col2": "02/12/2025"
             },
             {
               "col1": "Arbiter(s)",
@@ -3383,5 +3383,5 @@
       "children": []
     }
   ],
-  "md5Hash": "138eb4fa36ed1795527f924cd1ef5ad9"
+  "md5Hash": "b764decb7cf633073370d3bb6ed19d96"
 }

@@ -31,7 +31,7 @@
                 <div class="container-fluid">
                     <div class="row items-center">
                         <div class="col-12">
-                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Junior Club Championship</h1>		    <h5 class="mb-1">Melbourne (AUS)</h5>		    <h5> 14/10/2025 - 09/12/2025</h5>   </div>
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Junior Club Championship</h1>		    <h5 class="mb-1">Melbourne (AUS)</h5>		    <h5> 14/10/2025 - 02/12/2025</h5>   </div>
  </div> 
  </div>
  </div> 
@@ -47,7 +47,7 @@
 <tr><td >Place </td> <td> Melbourne</td> </tr>
 <tr><td >Federation</td> <td> AUS</td> </tr>
 <tr><td >Date Begin</td> <td> 14/10/2025</td> </tr>
-<tr><td >Date End</td> <td> 09/12/2025</td> </tr>
+<tr><td >Date End</td> <td> 02/12/2025</td> </tr>
 <tr><td >Arbiter(s)</td> <td> IA Goh, Casey 3251098 (AUS)</td> </tr>
 <tr><td > Play System</td> <td> Single Round Robin</td> </tr>
 <tr><td >Rounds</td> <td> 7</td> </tr>

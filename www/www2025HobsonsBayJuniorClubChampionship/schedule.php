@@ -31,7 +31,7 @@
                 <div class="container-fluid">
                     <div class="row items-center">
                         <div class="col-12">
-                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Junior Club Championship</h1>		    <h5 class="mb-1">Melbourne (AUS)</h5>		    <h5> 14/10/2025 - 09/12/2025</h5>   </div>
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2025 Hobsons Bay Junior Club Championship</h1>		    <h5 class="mb-1">Melbourne (AUS)</h5>		    <h5> 14/10/2025 - 02/12/2025</h5>   </div>
  </div> 
  </div>
  </div> 
@@ -42,7 +42,7 @@
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
   <div class="d-flex flex-column"><h3 class="mb-4 mt-4">Schedule</h3> <div class="table-responsive"><table class="table table-striped "> 
-<thead><tr><th>Round</th><th>Time</th><th>Date</th></tr></thead><tr><td>1</td><td>18:30</td><td>14/10/2025</td></tr><tr><td>2</td><td>18:30</td><td>21/10/2025</td></tr><tr><td>3</td><td>18:30</td><td>28/10/2025</td></tr><tr><td>4</td><td>18:30</td><td>11/11/2025</td></tr><tr><td>5</td><td>18:30</td><td>18/11/2025</td></tr><tr><td>6</td><td>18:30</td><td>25/11/2025</td></tr><tr><td>7</td><td>18:30</td><td>09/12/2025</td></tr></table></div><h4>Pairing of round 1, at 18:30 of 14/10/2025</h4>
+<thead><tr><th>Round</th><th>Time</th><th>Date</th></tr></thead><tr><td>1</td><td>18:30</td><td>14/10/2025</td></tr><tr><td>2</td><td>18:30</td><td>21/10/2025</td></tr><tr><td>3</td><td>18:30</td><td>28/10/2025</td></tr><tr><td>4</td><td>18:30</td><td>11/11/2025</td></tr><tr><td>5</td><td>18:30</td><td>18/11/2025</td></tr><tr><td>6</td><td>18:30</td><td>25/11/2025</td></tr><tr><td>7</td><td>18:30</td><td>02/12/2025</td></tr></table></div><h4>Pairing of round 1, at 18:30 of 14/10/2025</h4>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
 <tr> <td>1</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#1"> Batyrbekov,Kaisar</a> </td><td>1</td> <td class="result">1 - 0</td><td>8</td><td class="name"> <a href="playercard.php#8"> Nema,Nivaan</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
@@ -63,9 +63,9 @@
 <h4>Pairing of round 3, at 18:30 of 28/10/2025</h4>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#2"> Ashok,Arjun</a> </td><td>2</td> <td class="result"> ... </td><td>8</td><td class="name"> <a href="playercard.php#8"> Nema,Nivaan</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
+<tr> <td>1</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#2"> Ashok,Arjun</a> </td><td>2</td> <td class="result"> adj </td><td>8</td><td class="name"> <a href="playercard.php#8"> Nema,Nivaan</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
 <tr> <td>2</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#3"> Balaji,Sai Sivesh</a> </td><td>3</td> <td class="result"> ... </td><td>1</td><td class="name"> <a href="playercard.php#1"> Batyrbekov,Kaisar</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#4"> Huang,Michael</a> </td><td>4</td> <td class="result"> ... </td><td>7</td><td class="name"> <a href="playercard.php#7"> Ruaya,Rohan</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#4"> Huang,Michael</a> </td><td>4</td> <td class="result"> adj </td><td>7</td><td class="name"> <a href="playercard.php#7"> Ruaya,Rohan</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
 <tr> <td>4</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#5"> Batyrbekov,Aidan</a> </td><td>5</td> <td class="result"> ... </td><td>6</td><td class="name"> <a href="playercard.php#6"> Wei,Andrew</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
 </table>
 </div><hr>
@@ -96,7 +96,7 @@
 <tr> <td>4</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#3"> Balaji,Sai Sivesh</a> </td><td>3</td> <td class="result"> ... </td><td>4</td><td class="name"> <a href="playercard.php#4"> Huang,Michael</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
 </table>
 </div><hr>
-<h4>Pairing of round 7, at 18:30 of 09/12/2025</h4>
+<h4>Pairing of round 7, at 18:30 of 02/12/2025</h4>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
 <tr> <td>1</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#4"> Huang,Michael</a> </td><td>4</td> <td class="result"> ... </td><td>8</td><td class="name"> <a href="playercard.php#8"> Nema,Nivaan</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
