@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-27T09:09:20.720Z",
+  "generatedAt": "2025-10-28T06:38:11.144Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 3",
@@ -6934,42 +6934,6 @@
               "Result": "...",
               "Pts_1": "1",
               "Black Player": {
-                "id": "32",
-                "playerName": "Lacson,Alexandria",
-                "gender": "female",
-                "href": "playercard.html#32",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "3295320",
-                "moreInfo": {
-                  "fideId": "3295320",
-                  "fideRating": "0",
-                  "fideFederation": "VIC"
-                }
-              }
-            },
-            {
-              "Bo.": "12",
-              "White Player": {
-                "id": "35",
-                "playerName": "Mo,Christopher",
-                "gender": "male",
-                "href": "playercard.html#35",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "0",
-                "moreInfo": {
-                  "fideId": "0",
-                  "fideRating": "0",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Pts": "1",
-              "Result": "...",
-              "Pts_1": "1",
-              "Black Player": {
                 "id": "19",
                 "playerName": "Das,Ayush",
                 "gender": "male",
@@ -6982,7 +6946,7 @@
               }
             },
             {
-              "Bo.": "13",
+              "Bo.": "12",
               "White Player": {
                 "id": "20",
                 "playerName": "Bodke,Aryan",
@@ -7018,7 +6982,7 @@
               }
             },
             {
-              "Bo.": "14",
+              "Bo.": "13",
               "White Player": {
                 "id": "13",
                 "playerName": "Palta,Sameer",
@@ -7050,7 +7014,7 @@
               }
             },
             {
-              "Bo.": "15",
+              "Bo.": "14",
               "White Player": {
                 "id": "29",
                 "playerName": "Goh,Daphne",
@@ -7086,7 +7050,7 @@
               }
             },
             {
-              "Bo.": "16",
+              "Bo.": "15",
               "White Player": {
                 "id": "26",
                 "playerName": "Fang,Candice",
@@ -7122,7 +7086,7 @@
               }
             },
             {
-              "Bo.": "17",
+              "Bo.": "16",
               "White Player": {
                 "id": "15",
                 "playerName": "Gadham,Aarya Subramanya",
@@ -7154,39 +7118,7 @@
               }
             },
             {
-              "Bo.": "18",
-              "White Player": {
-                "id": "22",
-                "playerName": "Kantharaju,Aryan",
-                "gender": "male",
-                "href": "playercard.html#22",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "3286860",
-                "moreInfo": {
-                  "fideId": "3286860",
-                  "fideRating": "0",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Pts": "0",
-              "Result": "...",
-              "Pts_1": "0",
-              "Black Player": {
-                "id": "30",
-                "playerName": "Koppuravuri, Haneesh",
-                "gender": "male",
-                "href": "playercard.html#30",
-                "title": "",
-                "federation": "AUS",
-                "rating": "0",
-                "fideId": "",
-                "moreInfo": {}
-              }
-            },
-            {
-              "Bo.": "19",
+              "Bo.": "17",
               "White Player": {
                 "id": "34",
                 "playerName": "Mallajosyula,Srivaths",
@@ -7222,7 +7154,39 @@
               }
             },
             {
-              "Bo.": "20",
+              "Bo.": "18",
+              "White Player": {
+                "id": "22",
+                "playerName": "Kantharaju,Aryan",
+                "gender": "male",
+                "href": "playercard.html#22",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "3286860",
+                "moreInfo": {
+                  "fideId": "3286860",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Pts": "0",
+              "Result": "1",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "0",
+                "playerName": "BYE",
+                "gender": "male",
+                "href": "playercard.html#0",
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "19",
               "White Player": {
                 "id": "28",
                 "playerName": "Ganesh Kumar,Mukunth",
@@ -7240,6 +7204,98 @@
               },
               "Pts": "0.5",
               "Result": "½",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "0",
+                "playerName": "BYE",
+                "gender": "male",
+                "href": "playercard.html#0",
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "20",
+              "White Player": {
+                "id": "32",
+                "playerName": "Lacson,Alexandria",
+                "gender": "female",
+                "href": "playercard.html#32",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "3295320",
+                "moreInfo": {
+                  "fideId": "3295320",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Pts": "1",
+              "Result": "0",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "0",
+                "playerName": "BYE",
+                "gender": "male",
+                "href": "playercard.html#0",
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "21",
+              "White Player": {
+                "id": "35",
+                "playerName": "Mo,Christopher",
+                "gender": "male",
+                "href": "playercard.html#35",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "0",
+                "moreInfo": {
+                  "fideId": "0",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Pts": "1",
+              "Result": "0",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "0",
+                "playerName": "BYE",
+                "gender": "male",
+                "href": "playercard.html#0",
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "22",
+              "White Player": {
+                "id": "30",
+                "playerName": "Koppuravuri, Haneesh",
+                "gender": "male",
+                "href": "playercard.html#30",
+                "title": "",
+                "federation": "AUS",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "0",
               "Pts_1": "0",
               "Black Player": {
                 "id": "0",
@@ -16636,5 +16692,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "06770c5c69f63930ea326fc1c5f6b85e"
+  "md5Hash": "fbda51e43fb5c9f9181a11b9a93ef7a0"
 }
