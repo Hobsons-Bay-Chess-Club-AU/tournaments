@@ -628,19 +628,19 @@
 		</div> 
 	</div> 
 </div>
-</td><td>0</td><td class="result">1    </td><td>0</td><td><div class="player-container" 
+</td><td>0</td><td class="result"> ... </td><td>0</td><td><div class="player-container" 
    <div class="left-box2">
-<a href="playercard.php#0"></a> 
+<a href="playercard.php#30"></a> 
  <div class="player-name-box2">
-			<span>BYE</span>
+			<span>Koppuravuri, Haneesh</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 0</div> 
+			<div class="sort-num"> 30</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
 			<div class="rating">0</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/.png" alt="flag"></div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
 		</div> 
 	</div> 
 </div>
@@ -728,39 +728,6 @@
 	</div> 
 </div>
 </td><td>1</td><td class="result">0    </td><td>0</td><td><div class="player-container" 
-   <div class="left-box2">
-<a href="playercard.php#0"></a> 
- <div class="player-name-box2">
-			<span>BYE</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 0</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">0</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/.png" alt="flag"></div>
-		</div> 
-	</div> 
-</div>
-</td></tr>
-<tr> <td>22</td><td><div class="player-container" 
-   <div class="left-box2">
-<a href="playercard.php#30"></a> 
- <div class="player-name-box2">
-			<span>Koppuravuri, Haneesh</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 30</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">0</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/aus.png" alt="flag"></div>
-		</div> 
-	</div> 
-</div>
-</td><td>0</td><td class="result">0    </td><td>0</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#0"></a> 
  <div class="player-name-box2">
