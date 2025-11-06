@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs4.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs5.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
@@ -41,34 +41,34 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Standings at round 4 sorted by category </h3>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Standings at round 5 sorted by category </h3>
 <div class="table-responsive"><table class="table caption-top table-striped"> 
 <caption> Ranking for category: </caption>
 <thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th></th> <th></th><th>Fed</th><th>Pts</th><th>   DirE </th><th>     SB </th><th>  SB/C1 </th><th>    BPG </th>
 </tr> </THEAD><tbody>
 <tr> 
-<td>1</td><td>1</td><td></td><td> <a href="playercard.php#1">Batyrbekov,Kaisar   </a> </td><td>1110</td><td>1122</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 3.0</td><td>    0.0 </td><td>    1.0 </td><td>    1.0 </td><td>     1  </td>
+<td>1</td><td>1</td><td></td><td> <a href="playercard.php#1">Batyrbekov,Kaisar   </a> </td><td>1110</td><td>1005</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 3.0</td><td>    0.0 </td><td>    2.5 </td><td>    2.0 </td><td>     2  </td>
 </tr> 
 <tr> 
-<td>2</td><td>5</td><td></td><td> <a href="playercard.php#5">Batyrbekov,Aidan    </a> </td><td>947</td><td>928</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 2.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td><td>     3  </td>
+<td>2</td><td>5</td><td></td><td> <a href="playercard.php#5">Batyrbekov,Aidan    </a> </td><td>947</td><td>892</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 2.0</td><td>    0.0 </td><td>    0.5 </td><td>    0.5 </td><td>     3  </td>
 </tr> 
 <tr> 
-<td>3</td><td>7</td><td></td><td> <a href="playercard.php#7">Ruaya,Rohan         </a> </td><td>795</td><td>753</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td>    0.5 </td><td>    0.8 </td><td>    0.5 </td><td>     3  </td>
+<td>3</td><td>3</td><td></td><td> <a href="playercard.php#3">Balaji,Sai Sivesh   </a> </td><td>1006</td><td>757</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.5</td><td>    0.5 </td><td>    1.5 </td><td>    1.2 </td><td>     1  </td>
 </tr> 
 <tr> 
-<td>4</td><td>3</td><td></td><td> <a href="playercard.php#3">Balaji,Sai Sivesh   </a> </td><td>1006</td><td>766</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td>    0.5 </td><td>    0.8 </td><td>    0.5 </td><td>     1  </td>
+<td>4</td><td>6</td><td></td><td> <a href="playercard.php#6">Wei,Andrew          </a> </td><td>931</td><td>823</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.5</td><td>    0.5 </td><td>    0.8 </td><td>    0.8 </td><td>     3  </td>
 </tr> 
 <tr> 
-<td>5</td><td>6</td><td></td><td> <a href="playercard.php#6">Wei,Andrew          </a> </td><td>931</td><td>694</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.5</td><td>    0.0 </td><td>    0.5 </td><td>    0.0 </td><td>     3  </td>
+<td>5</td><td>7</td><td></td><td> <a href="playercard.php#7">Ruaya,Rohan         </a> </td><td>795</td><td>703</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td>    0.0 </td><td>    1.0 </td><td>    0.8 </td><td>     4  </td>
 </tr> 
 <tr> 
-<td>6</td><td>2</td><td></td><td> <a href="playercard.php#2">Ashok,Arjun         </a> </td><td>1087</td><td>564</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.5</td><td>    0.0 </td><td>    0.5 </td><td>    0.0 </td><td>     1  </td>
+<td>6</td><td>8</td><td></td><td> <a href="playercard.php#8">Nema,Nivaan         </a> </td><td>692</td><td>623</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.5</td><td>    0.0 </td><td>    0.8 </td><td>    0.0 </td><td>     3  </td>
 </tr> 
 <tr> 
-<td>7</td><td>4</td><td></td><td> <a href="playercard.php#4">Huang,Michael       </a> </td><td>1000</td><td>120</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td><td>     2  </td>
+<td>7</td><td>2</td><td></td><td> <a href="playercard.php#2">Ashok,Arjun         </a> </td><td>1087</td><td>543</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.5</td><td>    0.0 </td><td>    0.5 </td><td>    0.0 </td><td>     2  </td>
 </tr> 
 <tr> 
-<td>8</td><td>8</td><td></td><td> <a href="playercard.php#8">Nema,Nivaan         </a> </td><td>692</td><td>185</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td><td>     2  </td>
+<td>8</td><td>4</td><td></td><td> <a href="playercard.php#4">Huang,Michael       </a> </td><td>1000</td><td>153</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td>    0.0 </td><td>    0.0 </td><td>    0.0 </td><td>     2  </td>
 </tr> 
 </tbody>
 </table> <br><br>
