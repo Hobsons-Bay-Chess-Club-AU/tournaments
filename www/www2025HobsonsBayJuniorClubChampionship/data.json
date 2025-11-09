@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-06T08:36:25.334Z",
+  "generatedAt": "2025-11-09T08:30:19.461Z",
   "page": {
     "calendarroundrobin.html": {
       "pageHeading": "Schedule",
@@ -259,7 +259,7 @@
               "N": "3",
               "White": "Ashok,Arjun",
               "NW": "2",
-              "result": "ADJ",
+              "result": "0 - 1",
               "NB": "5",
               "Black": "Batyrbekov,Aidan"
             },
@@ -381,7 +381,7 @@
               "N": "1",
               "White": "Nema,Nivaan",
               "NW": "8",
-              "result": "...",
+              "result": "ADJ",
               "NB": "6",
               "Black": "Wei,Andrew"
             },
@@ -389,7 +389,7 @@
               "N": "2",
               "White": "Ruaya,Rohan",
               "NW": "7",
-              "result": "...",
+              "result": "ADJ",
               "NB": "5",
               "Black": "Batyrbekov,Aidan"
             },
@@ -397,7 +397,7 @@
               "N": "3",
               "White": "Batyrbekov,Kaisar",
               "NW": "1",
-              "result": "...",
+              "result": "1 - 0",
               "NB": "4",
               "Black": "Huang,Michael"
             },
@@ -405,7 +405,7 @@
               "N": "4",
               "White": "Ashok,Arjun",
               "NW": "2",
-              "result": "...",
+              "result": "ADJ",
               "NB": "3",
               "Black": "Balaji,Sai Sivesh"
             }
@@ -1225,7 +1225,7 @@
                 "moreInfo": {}
               },
               "Pts": "0.5",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "Pts_1": "2",
               "Black Player": {
                 "id": "5",
@@ -1389,7 +1389,7 @@
                 "fideId": "",
                 "moreInfo": {}
               },
-              "Pts": "2",
+              "Pts": "3",
               "Result": "ADJ",
               "Pts_1": "3",
               "Black Player": {
@@ -1439,6 +1439,171 @@
         }
       ],
       "pairingScheduleText": "Pairing of round 5, at 18:30 of 18/11/2025",
+      "tournamentType": "individual"
+    },
+    "pairs6.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "AUS",
+              "White Player": {
+                "id": "8",
+                "playerName": "Nema,Nivaan",
+                "gender": "male",
+                "href": "playercard.html#8",
+                "title": "",
+                "federation": "AUS",
+                "rating": "692",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0.5",
+              "Result": "ADJ",
+              "Pts_1": "1.5",
+              "Black Player": {
+                "id": "6",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#6",
+                "title": "",
+                "federation": "AUS",
+                "rating": "931",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "AUS"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "AUS",
+              "White Player": {
+                "id": "7",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#7",
+                "title": "",
+                "federation": "AUS",
+                "rating": "795",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1",
+              "Result": "ADJ",
+              "Pts_1": "3",
+              "Black Player": {
+                "id": "5",
+                "playerName": "Batyrbekov,Aidan",
+                "gender": "male",
+                "href": "playercard.html#5",
+                "title": "",
+                "federation": "AUS",
+                "rating": "947",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "AUS"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "AUS",
+              "White Player": {
+                "id": "1",
+                "playerName": "Batyrbekov,Kaisar",
+                "gender": "male",
+                "href": "playercard.html#1",
+                "title": "",
+                "federation": "AUS",
+                "rating": "1110",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "3",
+              "Result": "1 - 0",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "4",
+                "playerName": "Huang,Michael",
+                "gender": "male",
+                "href": "playercard.html#4",
+                "title": "",
+                "federation": "AUS",
+                "rating": "1000",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "AUS"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "AUS",
+              "White Player": {
+                "id": "2",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#2",
+                "title": "",
+                "federation": "AUS",
+                "rating": "1087",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0.5",
+              "Result": "ADJ",
+              "Pts_1": "1.5",
+              "Black Player": {
+                "id": "3",
+                "playerName": "Balaji,Sai Sivesh",
+                "gender": "male",
+                "href": "playercard.html#3",
+                "title": "",
+                "federation": "AUS",
+                "rating": "1006",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "AUS"
+            }
+          ]
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 6, at 18:30 of 25/11/2025",
       "tournamentType": "individual"
     },
     "playercard.html": {
@@ -1529,6 +1694,16 @@
               "Rtg": "-",
               "res": "1.0",
               "Pts": "0.0"
+            },
+            {
+              "R": "6",
+              "C": "W",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Huang,Michael",
+              "Rtg": "1000",
+              "res": "1.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -1597,7 +1772,7 @@
               "OPPONENT": "Batyrbekov,Kaisar",
               "Rtg": "1110",
               "res": "0.0",
-              "Pts": "3.0"
+              "Pts": "4.0"
             },
             {
               "R": "3",
@@ -1611,8 +1786,18 @@
             },
             {
               "R": "4",
-              "C": "--",
+              "C": "W",
               "N": "5",
+              "Cat": "",
+              "OPPONENT": "Batyrbekov,Aidan",
+              "Rtg": "947",
+              "res": "0.0",
+              "Pts": "3.0"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "4",
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
@@ -1620,9 +1805,9 @@
               "Pts": "0.0"
             },
             {
-              "R": "5",
+              "R": "6",
               "C": "--",
-              "N": "4",
+              "N": "3",
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
@@ -1727,6 +1912,16 @@
               "Rtg": "692",
               "res": "0.5",
               "Pts": "0.5"
+            },
+            {
+              "R": "6",
+              "C": "--",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.5",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -1785,7 +1980,7 @@
               "OPPONENT": "Batyrbekov,Aidan",
               "Rtg": "947",
               "res": "0.0",
-              "Pts": "2.0"
+              "Pts": "3.0"
             },
             {
               "R": "2",
@@ -1826,6 +2021,16 @@
               "Rtg": "-",
               "res": "0.0",
               "Pts": "0.0"
+            },
+            {
+              "R": "6",
+              "C": "B",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Batyrbekov,Kaisar",
+              "Rtg": "1110",
+              "res": "0.0",
+              "Pts": "4.0"
             }
           ],
           "caption": {
@@ -1908,8 +2113,18 @@
             },
             {
               "R": "4",
-              "C": "--",
+              "C": "B",
               "N": "2",
+              "Cat": "",
+              "OPPONENT": "Ashok,Arjun",
+              "Rtg": "1087",
+              "res": "1.0",
+              "Pts": "0.5"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "1",
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
@@ -1917,9 +2132,9 @@
               "Pts": "0.0"
             },
             {
-              "R": "5",
+              "R": "6",
               "C": "--",
-              "N": "1",
+              "N": "7",
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
@@ -2013,12 +2228,22 @@
               "OPPONENT": "Batyrbekov,Kaisar",
               "Rtg": "1110",
               "res": "0.0",
-              "Pts": "3.0"
+              "Pts": "4.0"
             },
             {
               "R": "5",
               "C": "--",
               "N": "7",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "6",
+              "C": "--",
+              "N": "8",
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
@@ -2123,6 +2348,16 @@
               "Rtg": "-",
               "res": "0.5",
               "Pts": "0.0"
+            },
+            {
+              "R": "6",
+              "C": "--",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.5",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -2181,7 +2416,7 @@
               "OPPONENT": "Batyrbekov,Kaisar",
               "Rtg": "1110",
               "res": "0.0",
-              "Pts": "3.0"
+              "Pts": "4.0"
             },
             {
               "R": "2",
@@ -2191,7 +2426,7 @@
               "OPPONENT": "Batyrbekov,Aidan",
               "Rtg": "947",
               "res": "0.0",
-              "Pts": "2.0"
+              "Pts": "3.0"
             },
             {
               "R": "3",
@@ -2222,6 +2457,16 @@
               "Rtg": "1006",
               "res": "0.5",
               "Pts": "1.5"
+            },
+            {
+              "R": "6",
+              "C": "--",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.5",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -2240,7 +2485,7 @@
       "tournamentType": "unknown"
     },
     "rankcat.html": {
-      "pageHeading": "Standings at round 5 sorted by category",
+      "pageHeading": "Standings at round 6 sorted by category",
       "tables": [
         {
           "headers": [
@@ -2306,12 +2551,12 @@
                 "title": ""
               },
               "col5": "1110",
-              "col6": "1005",
+              "col6": "1069",
               "Fed": "AUS",
-              "Pts": "3.0",
+              "Pts": "4.0",
               "DirE": "0.0",
               "SB": "2.5",
-              "SB/C1": "2.0",
+              "SB/C1": "2.5",
               "BPG": "2"
             },
             {
@@ -2326,13 +2571,13 @@
                 "title": ""
               },
               "col5": "947",
-              "col6": "892",
+              "col6": "936",
               "Fed": "AUS",
-              "Pts": "2.0",
+              "Pts": "3.0",
               "DirE": "0.0",
-              "SB": "0.5",
-              "SB/C1": "0.5",
-              "BPG": "3"
+              "SB": "1.0",
+              "SB/C1": "1.0",
+              "BPG": "4"
             },
             {
               "Pos": "3",
@@ -2346,13 +2591,13 @@
                 "title": ""
               },
               "col5": "1006",
-              "col6": "757",
+              "col6": "743",
               "Fed": "AUS",
               "Pts": "1.5",
               "DirE": "0.5",
               "SB": "1.5",
               "SB/C1": "1.2",
-              "BPG": "1"
+              "BPG": "2"
             },
             {
               "Pos": "4",
@@ -2366,13 +2611,13 @@
                 "title": ""
               },
               "col5": "931",
-              "col6": "823",
+              "col6": "732",
               "Fed": "AUS",
               "Pts": "1.5",
               "DirE": "0.5",
               "SB": "0.8",
               "SB/C1": "0.8",
-              "BPG": "3"
+              "BPG": "4"
             },
             {
               "Pos": "5",
@@ -2386,7 +2631,7 @@
                 "title": ""
               },
               "col5": "795",
-              "col6": "703",
+              "col6": "671",
               "Fed": "AUS",
               "Pts": "1.0",
               "DirE": "0.0",
@@ -2406,7 +2651,7 @@
                 "title": ""
               },
               "col5": "692",
-              "col6": "623",
+              "col6": "578",
               "Fed": "AUS",
               "Pts": "0.5",
               "DirE": "0.0",
@@ -2426,7 +2671,7 @@
                 "title": ""
               },
               "col5": "1087",
-              "col6": "543",
+              "col6": "524",
               "Fed": "AUS",
               "Pts": "0.5",
               "DirE": "0.0",
@@ -2446,13 +2691,13 @@
                 "title": ""
               },
               "col5": "1000",
-              "col6": "153",
+              "col6": "179",
               "Fed": "AUS",
               "Pts": "0.0",
               "DirE": "0.0",
               "SB": "0.0",
               "SB/C1": "0.0",
-              "BPG": "2"
+              "BPG": "3"
             }
           ],
           "caption": "Ranking for category:"
@@ -2985,7 +3230,7 @@
                 "title": ""
               },
               "NW": "2",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "NB": "5",
               "Black Player": {
                 "id": "",
@@ -3193,7 +3438,7 @@
                 "title": ""
               },
               "NW": "8",
-              "Result": "...",
+              "Result": "ADJ",
               "NB": "6",
               "Black Player": {
                 "id": "",
@@ -3215,7 +3460,7 @@
                 "title": ""
               },
               "NW": "7",
-              "Result": "...",
+              "Result": "ADJ",
               "NB": "5",
               "Black Player": {
                 "id": "",
@@ -3237,7 +3482,7 @@
                 "title": ""
               },
               "NW": "1",
-              "Result": "...",
+              "Result": "1 - 0",
               "NB": "4",
               "Black Player": {
                 "id": "",
@@ -3259,7 +3504,7 @@
                 "title": ""
               },
               "NW": "2",
-              "Result": "...",
+              "Result": "ADJ",
               "NB": "3",
               "Black Player": {
                 "id": "",
@@ -3472,29 +3717,29 @@
               "5": ".",
               "6": "1",
               "7": "1",
-              "8": ".",
+              "8": "1",
               "Pos": "1",
               "#": "1",
               "NAME": "Batyrbekov,Kaisar",
               "Rtg": "1110",
               "Fed": "AUS",
-              "Pts": "3.0"
+              "Pts": "4.0"
             },
             {
               "1": "a",
               "2": "×",
               "3": ".",
               "4": "a",
-              "5": ".",
+              "5": "a",
               "6": "1",
-              "7": "a",
+              "7": "1",
               "8": "1",
               "Pos": "2",
               "#": "5",
               "NAME": "Batyrbekov,Aidan",
               "Rtg": "947",
               "Fed": "AUS",
-              "Pts": "2.0"
+              "Pts": "3.0"
             },
             {
               "1": "a",
@@ -3503,7 +3748,7 @@
               "4": "½",
               "5": "½",
               "6": "½",
-              "7": ".",
+              "7": "a",
               "8": "a",
               "Pos": "3",
               "#": "3",
@@ -3518,7 +3763,7 @@
               "3": "½",
               "4": "×",
               "5": "a",
-              "6": ".",
+              "6": "a",
               "7": ".",
               "8": "1",
               "Pos": "4",
@@ -3530,7 +3775,7 @@
             },
             {
               "1": ".",
-              "2": ".",
+              "2": "a",
               "3": "½",
               "4": "a",
               "5": "×",
@@ -3548,7 +3793,7 @@
               "1": "0",
               "2": "0",
               "3": "½",
-              "4": ".",
+              "4": "a",
               "5": "a",
               "6": "×",
               "7": "a",
@@ -3562,8 +3807,8 @@
             },
             {
               "1": "0",
-              "2": "a",
-              "3": ".",
+              "2": "0",
+              "3": "a",
               "4": ".",
               "5": "½",
               "6": "a",
@@ -3577,7 +3822,7 @@
               "Pts": "0.5"
             },
             {
-              "1": ".",
+              "1": "0",
               "2": "0",
               "3": "a",
               "4": "0",
@@ -3598,7 +3843,7 @@
       "tournamentType": "unknown"
     },
     "standings.html": {
-      "pageHeading": "Standings at round 5",
+      "pageHeading": "Standings at round 6",
       "tables": [
         {
           "headers": [
@@ -3655,10 +3900,10 @@
               },
               "Rtg": "1110",
               "Fed": "AUS",
-              "Pts": "3.0",
+              "Pts": "4.0",
               "DirE": "0.0",
               "SB": "2.5",
-              "SB/C1": "2.0",
+              "SB/C1": "2.5",
               "BPG": "2"
             },
             {
@@ -3676,11 +3921,11 @@
               },
               "Rtg": "947",
               "Fed": "AUS",
-              "Pts": "2.0",
+              "Pts": "3.0",
               "DirE": "0.0",
-              "SB": "0.5",
-              "SB/C1": "0.5",
-              "BPG": "3"
+              "SB": "1.0",
+              "SB/C1": "1.0",
+              "BPG": "4"
             },
             {
               "Pos": "3",
@@ -3701,7 +3946,7 @@
               "DirE": "0.5",
               "SB": "1.5",
               "SB/C1": "1.2",
-              "BPG": "1"
+              "BPG": "2"
             },
             {
               "Pos": "4",
@@ -3722,7 +3967,7 @@
               "DirE": "0.5",
               "SB": "0.8",
               "SB/C1": "0.8",
-              "BPG": "3"
+              "BPG": "4"
             },
             {
               "Pos": "5",
@@ -3806,7 +4051,7 @@
               "DirE": "0.0",
               "SB": "0.0",
               "SB/C1": "0.0",
-              "BPG": "2"
+              "BPG": "3"
             }
           ],
           "footer": {
@@ -4071,7 +4316,7 @@
     },
     {
       "text": "Pairings",
-      "href": "pairs5.html",
+      "href": "pairs6.html",
       "isDropdown": false,
       "children": []
     },
@@ -4209,5 +4454,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "d28573449e182b0b455938b301a2f7d8"
+  "md5Hash": "00ebc0996f125b56a4f5a52655c85e93"
 }
