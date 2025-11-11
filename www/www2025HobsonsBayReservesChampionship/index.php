@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs4.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs5.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
@@ -55,6 +55,8 @@
 <td><span class="idn"> 9</span></td><td><span class="notitle male"> </span></td><td> Nowak,Ruben </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1443</td><td>0</td><td>1443</td> </tr>
 <tr> 
 <td><span class="idn"> 10</span></td><td><span class="notitle male"> </span></td><td> Salanowski,Mark </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1418</td><td>0</td><td>1418</td> </tr>
+<tr> 
+<td><span class="idn"> 25</span></td><td><span class="notitle female"> </span></td><td> Evans,Carrie </td><td ><img class="shadow" src="flag/nsw.png" alt="NSW"></td><td></td><td>1415</td><td>0</td><td>1415</td> </tr>
 <tr> 
 <td><span class="idn"> 11</span></td><td><span class="notitle male"> </span></td><td> Matijas,Dejan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1364</td><td>0</td><td>1364</td> </tr>
 <tr> 
