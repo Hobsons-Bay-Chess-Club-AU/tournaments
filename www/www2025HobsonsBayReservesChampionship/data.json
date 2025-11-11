@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-11T13:18:08.804Z",
+  "generatedAt": "2025-11-11T13:45:55.900Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 5",
@@ -4324,13 +4324,13 @@
               "Result": "...",
               "Pts_1": "1.5",
               "Black Player": {
-                "id": "10",
-                "playerName": "Salanowski,Mark",
+                "id": "21",
+                "playerName": "Vemula,Thamoghna",
                 "gender": "male",
-                "href": "playercard.html#10",
+                "href": "playercard.html#21",
                 "title": "",
                 "federation": "VIC",
-                "rating": "1418",
+                "rating": "685",
                 "fideId": "",
                 "moreInfo": {}
               }
@@ -4350,22 +4350,8 @@
               },
               "Pts": "1.5",
               "Result": "...",
-              "Pts_1": "1.5",
+              "Pts_1": "1",
               "Black Player": {
-                "id": "21",
-                "playerName": "Vemula,Thamoghna",
-                "gender": "male",
-                "href": "playercard.html#21",
-                "title": "",
-                "federation": "VIC",
-                "rating": "685",
-                "fideId": "",
-                "moreInfo": {}
-              }
-            },
-            {
-              "Bo.": "9",
-              "White Player": {
                 "id": "15",
                 "playerName": "Yendru,Srikrishna",
                 "gender": "male",
@@ -4373,6 +4359,20 @@
                 "title": "",
                 "federation": "VIC",
                 "rating": "1108",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "9",
+              "White Player": {
+                "id": "17",
+                "playerName": "Clerk,Max",
+                "gender": "male",
+                "href": "playercard.html#17",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1040",
                 "fideId": "",
                 "moreInfo": {}
               },
@@ -4394,20 +4394,6 @@
             {
               "Bo.": "10",
               "White Player": {
-                "id": "17",
-                "playerName": "Clerk,Max",
-                "gender": "male",
-                "href": "playercard.html#17",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1040",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Pts": "1",
-              "Result": "...",
-              "Pts_1": "0.5",
-              "Black Player": {
                 "id": "25",
                 "playerName": "Evans,Carrie",
                 "gender": "female",
@@ -4415,6 +4401,20 @@
                 "title": "",
                 "federation": "NSW",
                 "rating": "1415",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0.5",
+              "Result": "...",
+              "Pts_1": "0.5",
+              "Black Player": {
+                "id": "16",
+                "playerName": "Veginati,Cherish",
+                "gender": "male",
+                "href": "playercard.html#16",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1099",
                 "fideId": "",
                 "moreInfo": {}
               }
@@ -4433,16 +4433,16 @@
                 "moreInfo": {}
               },
               "Pts": "0.5",
-              "Result": "...",
-              "Pts_1": "0.5",
+              "Result": "1",
+              "Pts_1": "0",
               "Black Player": {
-                "id": "16",
-                "playerName": "Veginati,Cherish",
+                "id": "0",
+                "playerName": "BYE",
                 "gender": "male",
-                "href": "playercard.html#16",
+                "href": "playercard.html#0",
                 "title": "",
-                "federation": "VIC",
-                "rating": "1099",
+                "federation": "",
+                "rating": "",
                 "fideId": "",
                 "moreInfo": {}
               }
@@ -4478,6 +4478,34 @@
             {
               "Bo.": "13",
               "White Player": {
+                "id": "10",
+                "playerName": "Salanowski,Mark",
+                "gender": "male",
+                "href": "playercard.html#10",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1418",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1.5",
+              "Result": "0",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "0",
+                "playerName": "BYE",
+                "gender": "male",
+                "href": "playercard.html#0",
+                "title": "",
+                "federation": "",
+                "rating": "",
+                "fideId": "",
+                "moreInfo": {}
+              }
+            },
+            {
+              "Bo.": "14",
+              "White Player": {
                 "id": "6",
                 "playerName": "Martin,Jamie R",
                 "gender": "male",
@@ -4504,7 +4532,7 @@
               }
             },
             {
-              "Bo.": "14",
+              "Bo.": "15",
               "White Player": {
                 "id": "8",
                 "playerName": "Picone,James",
@@ -8979,5 +9007,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Senior"
   },
-  "md5Hash": "7084db1e5c3683b3f232989c08de464c"
+  "md5Hash": "c70def5fbd31ee50c8c376bd5feda9eb"
 }
