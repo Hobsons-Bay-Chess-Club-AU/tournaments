@@ -21,7 +21,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs4.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs5.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
@@ -81,7 +81,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 3.5</td><td>   10.0 </td><td>    6.5 </td><td>    8.3 </td>
+</td><td></td><td class="score"> 3.5</td><td>   10.0 </td><td>    6.5 </td><td>    8.2 </td>
 </tr>
 <tr> <td>3</td><td><div class="player-container" 
    <div class="left-box2">
@@ -99,7 +99,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 3.5</td><td>    9.0 </td><td>    5.5 </td><td>    7.3 </td>
+</td><td></td><td class="score"> 3.5</td><td>    9.0 </td><td>    5.5 </td><td>    7.2 </td>
 </tr>
 <tr> <td>4</td><td><div class="player-container" 
    <div class="left-box2">
@@ -225,7 +225,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 2.5</td><td>    9.0 </td><td>    6.5 </td><td>    4.3 </td>
+</td><td></td><td class="score"> 2.5</td><td>    9.0 </td><td>    6.5 </td><td>    4.2 </td>
 </tr>
 <tr> <td>11</td><td><div class="player-container" 
    <div class="left-box2">
@@ -459,7 +459,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.5</td><td>   10.0 </td><td>    8.0 </td><td>    3.3 </td>
+</td><td></td><td class="score"> 1.5</td><td>   10.0 </td><td>    8.0 </td><td>    3.2 </td>
 </tr>
 <tr> <td>24</td><td><div class="player-container" 
    <div class="left-box2">
@@ -477,7 +477,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.5</td><td>    8.5 </td><td>    8.0 </td><td>    1.3 </td>
+</td><td></td><td class="score"> 1.5</td><td>    8.5 </td><td>    8.0 </td><td>    1.2 </td>
 </tr>
 <tr> <td>25</td><td><div class="player-container" 
    <div class="left-box2">
@@ -513,7 +513,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.5</td><td>    8.5 </td><td>    7.0 </td><td>    2.3 </td>
+</td><td></td><td class="score"> 1.5</td><td>    8.5 </td><td>    7.0 </td><td>    2.2 </td>
 </tr>
 <tr> <td>27</td><td><div class="player-container" 
    <div class="left-box2">
@@ -549,7 +549,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.5</td><td>    8.0 </td><td>    6.5 </td><td>    2.3 </td>
+</td><td></td><td class="score"> 1.5</td><td>    8.0 </td><td>    6.5 </td><td>    2.2 </td>
 </tr>
 <tr> <td>29</td><td><div class="player-container" 
    <div class="left-box2">
@@ -585,7 +585,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 1.5</td><td>    5.5 </td><td>    4.0 </td><td>    1.3 </td>
+</td><td></td><td class="score"> 1.5</td><td>    5.5 </td><td>    4.0 </td><td>    1.2 </td>
 </tr>
 <tr> <td>31</td><td><div class="player-container" 
    <div class="left-box2">
@@ -729,7 +729,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td></td><td class="score"> 0.5</td><td>    5.5 </td><td>    5.0 </td><td>    0.3 </td>
+</td><td></td><td class="score"> 0.5</td><td>    5.5 </td><td>    5.0 </td><td>    0.2 </td>
 </tr>
 <tr> <td>39</td><td><div class="player-container" 
    <div class="left-box2">
