@@ -106,6 +106,7 @@ jobs:
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
           FTP_ROOT_FOLDER: htdocs
           LOCAL_FOLDER: "wwwftp"
+          "PARALLEL_CONNECTIONS": 3
           FTP_HOST: ftp://ftpupload.net
           SYNC_MODE: download
 
