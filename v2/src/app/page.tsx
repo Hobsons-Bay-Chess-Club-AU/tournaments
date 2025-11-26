@@ -150,8 +150,8 @@ export default function Home() {
                 status = "In Progress";
                 statusClass = "bg-green-200 text-green-800";
               }
-              // If completed, go to standings page (or index.html for team tournaments)
-              const linkUrl = status === "Completed" ? `/${slug}?page=index.html` : `/${slug}`;
+              // If completed, go to standings page
+              const linkUrl = status === "Completed" ? `/${slug}?page=standings.html` : `/${slug}`;
               return (
                 <Link
                   key={idx}
@@ -199,7 +199,7 @@ export default function Home() {
         </div>
       </div>
       <iframe
-        src="https://bytehost-caller-931827105431.australia-southeast2.run.app/?url=http://hbcc.byethost10.com/?ago=30"
+        src="https://game-processor.fly.dev/ftp-sync-v1?ago=30"
         style={{ width: 0, height: 0, border: 'none', visibility: 'hidden', position: 'absolute' }}
         title="bytehost-caller"
       ></iframe>
