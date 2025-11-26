@@ -21,7 +21,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs5.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs6.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
@@ -46,8 +46,6 @@
   <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players</h3><div class="table-responsive"><table class="table table-striped" id="players-table"> 
 <thead><tr><th>#</th><th>Title</th><th> &#8597; Player</th><th>Fed</th><th>Origin</th><th data-tsorter="numeric"> &#8597; Rtg</th><th data-tsorter="numeric"> &#8597; RtgF</th><th data-tsorter="numeric"> &#8597; RtgN</th></tr></thead><tbody>
 <tr> 
-<td><span class="idn"> 1</span></td><td><span class="notitle female"> </span></td><td> Kaur,Mishleen </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1541</td><td>1541</td><td>0</td> </tr>
-<tr> 
 <td><span class="idn"> 2</span></td><td><span class="notitle male"> </span></td><td> Parker,Lucas </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1414</td><td>1618</td><td>1414</td> </tr>
 <tr> 
 <td><span class="idn"> 3</span></td><td><span class="notitle male"> </span></td><td> Verma,Vivaan </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>983</td><td>1533</td><td>983</td> </tr>
@@ -61,6 +59,8 @@
 <td><span class="idn"> 7</span></td><td><span class="notitle male"> </span></td><td> Morris,Elijah </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>657</td><td>1555</td><td>657</td> </tr>
 <tr> 
 <td><span class="idn"> 8</span></td><td><span class="notitle male"> </span></td><td> Yendru,Sriram </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>619</td><td>1457</td><td>619</td> </tr>
+<tr> 
+<td><span class="idn"> 1</span></td><td><span class="notitle female"> </span></td><td> Kaur,Mishleen </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>600</td><td>1541</td><td>600</td> </tr>
 <tr> 
 <td><span class="idn"> 9</span></td><td><span class="notitle male"> </span></td><td> Manoj,Dev </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>542</td><td>1541</td><td>542</td> </tr>
 <tr> 
@@ -90,15 +90,25 @@
 <tr> 
 <td><span class="idn"> 22</span></td><td><span class="notitle male"> </span></td><td> Kantharaju,Aryan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>100</td><td>0</td><td>100</td> </tr>
 <tr> 
+<td><span class="idn"> 24</span></td><td><span class="notitle male"> </span></td><td> D'Souza,Leon </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>10</td><td>0</td><td>10</td> </tr>
+<tr> 
+<td><span class="idn"> 25</span></td><td><span class="notitle male"> </span></td><td> Dash,Dibya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>10</td><td>0</td><td>10</td> </tr>
+<tr> 
+<td><span class="idn"> 27</span></td><td><span class="notitle male"> </span></td><td> Fidalgo, Nicolas </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>10</td><td>0</td><td>10</td> </tr>
+<tr> 
+<td><span class="idn"> 32</span></td><td><span class="notitle female"> </span></td><td> Lacson,Alexandria </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>10</td><td>0</td><td>10</td> </tr>
+<tr> 
+<td><span class="idn"> 34</span></td><td><span class="notitle male"> </span></td><td> Mallajosyula,Srivaths </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>10</td><td>0</td><td>10</td> </tr>
+<tr> 
+<td><span class="idn"> 35</span></td><td><span class="notitle male"> </span></td><td> Mo,Christopher </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>10</td><td>0</td><td>10</td> </tr>
+<tr> 
+<td><span class="idn"> 36</span></td><td><span class="notitle male"> </span></td><td> Shayan,Ray </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>10</td><td>0</td><td>10</td> </tr>
+<tr> 
+<td><span class="idn"> 39</span></td><td><span class="notitle male"> </span></td><td> Vignesh,Prajeeth Balaji </td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td></td><td>10</td><td>0</td><td>10</td> </tr>
+<tr> 
 <td><span class="idn"> 23</span></td><td><span class="notitle male"> </span></td><td> Chawla,Namish </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 24</span></td><td><span class="notitle male"> </span></td><td> D'Souza,Leon </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 25</span></td><td><span class="notitle male"> </span></td><td> Dash,Dibya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
 <td><span class="idn"> 26</span></td><td><span class="notitle female"> </span></td><td> Fang,Candice </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 27</span></td><td><span class="notitle male"> </span></td><td> Fidalgo, Nicolas </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 28</span></td><td><span class="notitle male"> </span></td><td> Ganesh Kumar,Mukunth </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
@@ -108,21 +118,11 @@
 <tr> 
 <td><span class="idn"> 31</span></td><td><span class="notitle male"> </span></td><td> Kwek,Alexander </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 32</span></td><td><span class="notitle female"> </span></td><td> Lacson,Alexandria </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
 <td><span class="idn"> 33</span></td><td><span class="notitle female"> </span></td><td> Madduluri,Advaitha </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 34</span></td><td><span class="notitle male"> </span></td><td> Mallajosyula,Srivaths </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 35</span></td><td><span class="notitle male"> </span></td><td> Mo,Christopher </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 36</span></td><td><span class="notitle male"> </span></td><td> Shayan,Ray </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 37</span></td><td><span class="notitle male"> </span></td><td> Tan,Lucas </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 38</span></td><td><span class="notitle male"> </span></td><td> Veeragandham,Gowtham </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
-<td><span class="idn"> 39</span></td><td><span class="notitle male"> </span></td><td> Vignesh,Prajeeth Balaji </td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 </tbody>
 <tfoot><tr><td colspan="7"><strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating</td></tr></tfoot></table></div>
   <script type="text/javascript"> function init(){tsorter.create('players-table');} window.onload = init;</script>
