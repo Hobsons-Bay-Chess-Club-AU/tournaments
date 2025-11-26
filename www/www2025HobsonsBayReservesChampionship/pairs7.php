@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en"><head> 
+<!DOCTYPE html>
+<html lang="en"><head> 
 <meta charset="UTF-8">
 <meta name="description" content="chess tournament">
 <meta name="author" content="www.vegachess.com">
@@ -6,8 +7,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 <title>2025 Hobsons Bay Reserves Championship</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-<link rel="stylesheet" href="stylenew.css" type="text/css">
-      <link href="/hbcc.css" rel="stylesheet"><script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script><script src="../scripts/table.js"></script><link rel="manifest" href="/manifest.json"> <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?"></head>
+<link rel="stylesheet" href="stylenew.css" type="text/css" >
+    </head>
 <body>
 <div class="d-flex flex-column justify-content-between h-100">
  <nav class="navbar navbar-expand-lg fixed-top">
@@ -18,79 +19,31 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item dropdown">
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
-<li><a class="dropdown-item" href="schedule.html"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.html">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.html">Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs7.html">Pairings</a>
-</li><li class="nav-item"><a class="nav-link" href="standings.html">Standings</a>
+<li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs7.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.html"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.html"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.html"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.html"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.html"> Standings by title </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.html">Games</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
-<ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.html">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.html">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.html">National rating</a></li>          <li><a class="dropdown-item" href="playercard.html">National Player Card</a></li></ul></li></ul> </div>
+<ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
-<div id="gohome" style="position:fixed;top:10px;left:20px;padding: 5px;color:white;z-index:1000"><a href="/" style="width:24px;height:24px;color:white;display:block">
-      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20,8h0L14,2.74a3,3,0,0,0-4,0L4,8a3,3,0,0,0-1,2.26V19a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V10.25A3,3,0,0,0,20,8ZM14,20H10V15a1,1,0,0,1,1-1h2a1,1,0,0,1,1,1Zm5-1a1,1,0,0,1-1,1H16V15a3,3,0,0,0-3-3H11a3,3,0,0,0-3,3v5H6a1,1,0,0,1-1-1V10.25a1,1,0,0,1,.34-.75l6-5.25a1,1,0,0,1,1.32,0l6,5.25a1,1,0,0,1,.34.75Z" fill="#000"></path>
-          </svg>
-      </a></div></nav>
+</nav>
  <section id="main" class="pt-3 mb-auto">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
   <div class="d-flex flex-column"> <div class="btn-toolbar mb-4 mt-4 d-flex align-items-center"> 
-<h5>Pairing of round 2, at 17:30 of 21/10/2025</h5>
+<h5>Pairing of round 7, at 17:30 of 09/12/2025</h5>
    	<div class="btn-group mx-5"> 
-<nav class="me-0 me-lg-3" aria-label="Page navigation">
-          <ul class="pagination mb-lg-0">
-    <li class="page-item base-hover"><a class="page-link" href="pairs1.html">1</a></li>
-    <li class="page-item base-hover"><a class="page-link" href="pairs2.html">2</a></li>
-    <li class="page-item base-hover"><a class="page-link" href="pairs3.html">3</a></li>
-    <li class="page-item base-hover"><a class="page-link" href="pairs4.html">4</a></li>
-    <li class="page-item base-hover"><a class="page-link" href="pairs5.html">5</a></li>
-    <li class="page-item base-hover"><a class="page-link" href="pairs6.html">6</a></li>
-    <li class="page-item base-hover"><a class="page-link" href="pairs7.html">7</a></li>
-     </ul>
-  <div id="gohome" style="position:fixed;top:10px;left:20px;padding: 5px;color:white;z-index:1000"><a href="/" style="width:24px;height:24px;color:white;display:block">
-      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path d="M20,8h0L14,2.74a3,3,0,0,0-4,0L4,8a3,3,0,0,0-1,2.26V19a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V10.25A3,3,0,0,0,20,8ZM14,20H10V15a1,1,0,0,1,1-1h2a1,1,0,0,1,1,1Zm5-1a1,1,0,0,1-1,1H16V15a3,3,0,0,0-3-3H11a3,3,0,0,0-3,3v5H6a1,1,0,0,1-1-1V10.25a1,1,0,0,1,.34-.75l6-5.25a1,1,0,0,1,1.32,0l6,5.25a1,1,0,0,1,.34.75Z" fill="#000"></path>
-          </svg>
-      </a></div></nav>
+<?php include("pairing.php"); ?>
    	</div>
  </div>
 <div class="table-responsive"><table class="table table-sm table-striped"> 
 <thead><tr><th>Bo.</th><th>White Player</th><th>Pts</th><th>Result</th><th>Pts</th><th>Black Player</th></tr></thead><tbody>
-<tr> <td>1</td><td><div class="player-container" <div="">
-<a href="playercard.html#7"></a> 
- <div class="player-name-box2">
-			<span>Paul,Nikash</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 7</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1463</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-
-</td><td>1</td><td class="result">0 - 1</td><td>1</td><td><div class="player-container" <div="">
-<a href="playercard.html#1"></a> 
- <div class="player-name-box2">
-			<span>Hibberd,Nathan</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 1</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1832</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-
-</td></tr>
-<tr> <td>2</td><td><div class="player-container" <div="">
-<a href="playercard.html#9"></a> 
+<tr> <td>1</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#9"></a> 
  <div class="player-name-box2">
 			<span>Nowak,Ruben</span>
 		</div> 
@@ -103,40 +56,10 @@
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
-
-</td><td>1</td><td class="result">0 - 1</td><td>1</td><td><div class="player-container" <div="">
-<a href="playercard.html#3"></a> 
- <div class="player-name-box2">
-			<span>Hari,Dhruv</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 3</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1542</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-
-</td></tr>
-<tr> <td>3</td><td><div class="player-container" <div="">
-<a href="playercard.html#19"></a> 
- <div class="player-name-box2">
-			<span>Kostakakis,Angelo</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 19</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1001</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-
-</td><td>1</td><td class="result">0 - 1</td><td>1</td><td><div class="player-container" <div="">
-<a href="playercard.html#5"></a> 
+</div>
+</td><td>5</td><td class="result"> ... </td><td>5</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#5"></a> 
  <div class="player-name-box2">
 			<span>Bodke,Krishna</span>
 		</div> 
@@ -149,10 +72,27 @@
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
-
+</div>
 </td></tr>
-<tr> <td>4</td><td><div class="player-container" <div="">
-<a href="playercard.html#2"></a> 
+<tr> <td>2</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#3"></a> 
+ <div class="player-name-box2">
+			<span>Hari,Dhruv</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 3</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">1542</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td>4.5</td><td class="result"> ... </td><td>4</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#2"></a> 
  <div class="player-name-box2">
 			<span>Paul,Cijo</span>
 		</div> 
@@ -165,87 +105,27 @@
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
-
-</td><td>0.5</td><td class="result">1 - 0</td><td>1</td><td><div class="player-container" <div="">
-<a href="playercard.html#15"></a> 
- <div class="player-name-box2">
-			<span>Yendru,Srikrishna</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 15</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1108</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-
+</div>
 </td></tr>
-<tr> <td>5</td><td><div class="player-container" <div="">
-<a href="playercard.html#11"></a> 
+<tr> <td>3</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#1"></a> 
  <div class="player-name-box2">
-			<span>Matijas,Dejan</span>
+			<span>Hibberd,Nathan</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 11</div> 
+			<div class="sort-num"> 1</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
-			<div class="rating">1364</div>
+			<div class="rating">1832</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
-
-</td><td>0.5</td><td class="result">1 - 0</td><td>0.5</td><td><div class="player-container" <div="">
-<a href="playercard.html#20"></a> 
- <div class="player-name-box2">
-			<span>Nicdao,Joseph</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 20</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">713</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-
-</td></tr>
-<tr> <td>6</td><td><div class="player-container" <div="">
-<a href="playercard.html#23"></a> 
- <div class="player-name-box2">
-			<span>Hatamy,Daniel</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 23</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">0</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-
-</td><td>0.5</td><td class="result">0 - 1</td><td>0.5</td><td><div class="player-container" <div="">
-<a href="playercard.html#13"></a> 
- <div class="player-name-box2">
-			<span>Wilkinson,Greg</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 13</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1126</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-
-</td></tr>
-<tr> <td>7</td><td><div class="player-container" <div="">
-<a href="playercard.html#4"></a> 
+</div>
+</td><td>4</td><td class="result"> ... </td><td>4</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#4"></a> 
  <div class="player-name-box2">
 			<span>Davis,Sophie</span>
 		</div> 
@@ -258,133 +138,27 @@
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
-
-</td><td>0</td><td class="result">1 - 0</td><td>0</td><td><div class="player-container" <div="">
-<a href="playercard.html#16"></a> 
- <div class="player-name-box2">
-			<span>Veginati,Cherish</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 16</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1099</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-
+</div>
 </td></tr>
-<tr> <td>8</td><td><div class="player-container" <div="">
-<a href="playercard.html#22"></a> 
+<tr> <td>4</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#11"></a> 
  <div class="player-name-box2">
-			<span>Sheikh,Tahmid</span>
+			<span>Matijas,Dejan</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 22</div> 
+			<div class="sort-num"> 11</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
-			<div class="rating">0</div>
+			<div class="rating">1364</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
-
-</td><td>0</td><td class="result">0 - 1</td><td>0</td><td><div class="player-container" <div="">
-<a href="playercard.html#8"></a> 
- <div class="player-name-box2">
-			<span>Picone,James</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 8</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1449</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-
-</td></tr>
-<tr> <td>9</td><td><div class="player-container" <div="">
-<a href="playercard.html#12"></a> 
- <div class="player-name-box2">
-			<span>Nawar,Mena</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 12</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1275</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-
-</td><td>0</td><td class="result">0 - 1</td><td>0</td><td><div class="player-container" <div="">
-<a href="playercard.html#24"></a> 
- <div class="player-name-box2">
-			<span>Annapureddy,Dhruthin Reddy</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 24</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1267</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-
-</td></tr>
-<tr> <td>10</td><td><div class="player-container" <div="">
-<a href="playercard.html#18"></a> 
- <div class="player-name-box2">
-			<span>Marasinghe,Claire</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 18</div> 
-			<div class="title-box"> 
- <div class="notitle2 female">-</div>
-			</div>
-			<div class="rating">1004</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-
-</td><td>0.5</td><td class="result">1F-0F</td><td>0.5</td><td><div class="player-container" <div="">
-<a href="playercard.html#6"></a> 
- <div class="player-name-box2">
-			<span>Martin,Jamie R</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 6</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1502</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-
-</td></tr>
-<tr> <td>11</td><td><div class="player-container" <div="">
-<a href="playercard.html#14"></a> 
- <div class="player-name-box2">
-			<span>Annadasu,Shreyansh</span>
-		</div> 
-		<div class="player-data-box">
-			<div class="sort-num"> 14</div> 
-			<div class="title-box"> 
- <div class="notitle2 male">-</div>
-			</div>
-			<div class="rating">1111</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
-		</div> 
-	</div> 
-
-</td><td>0</td><td class="result">1F-0F</td><td>0</td><td><div class="player-container" <div="">
-<a href="playercard.html#21"></a> 
+</div>
+</td><td>3.5</td><td class="result"> ... </td><td>3.5</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#21"></a> 
  <div class="player-name-box2">
 			<span>Vemula,Thamoghna</span>
 		</div> 
@@ -397,41 +171,60 @@
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
-
+</div>
 </td></tr>
-<tr> <td>12</td><td><div class="player-container" <div="">
-<a href="playercard.html#10"></a> 
+<tr> <td>5</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#12"></a> 
  <div class="player-name-box2">
-			<span>Salanowski,Mark</span>
+			<span>Nawar,Mena</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 10</div> 
+			<div class="sort-num"> 12</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
-			<div class="rating">1418</div>
+			<div class="rating">1275</div>
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
-
-</td><td>1</td><td class="result">½    </td><td>0</td><td><div class="player-container" <div="">
-<a href="playercard.html#0"></a> 
+</div>
+</td><td>3</td><td class="result"> ... </td><td>3</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#7"></a> 
  <div class="player-name-box2">
-			<span>BYE</span>
+			<span>Paul,Nikash</span>
 		</div> 
 		<div class="player-data-box">
-			<div class="sort-num"> 0</div> 
+			<div class="sort-num"> 7</div> 
 			<div class="title-box"> 
  <div class="notitle2 male">-</div>
 			</div>
-			<div class="rating">0</div>
-			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/.png" alt="flag"></div>
+			<div class="rating">1463</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
-
+</div>
 </td></tr>
-<tr> <td>13</td><td><div class="player-container" <div="">
-<a href="playercard.html#17"></a> 
+<tr> <td>6</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#13"></a> 
+ <div class="player-name-box2">
+			<span>Wilkinson,Greg</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 13</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">1126</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td>3</td><td class="result"> ... </td><td>3</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#17"></a> 
  <div class="player-name-box2">
 			<span>Clerk,Max</span>
 		</div> 
@@ -444,9 +237,126 @@
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
 		</div> 
 	</div> 
-
-</td><td>0</td><td class="result">0    </td><td>0</td><td><div class="player-container" <div="">
-<a href="playercard.html#0"></a> 
+</div>
+</td></tr>
+<tr> <td>7</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#15"></a> 
+ <div class="player-name-box2">
+			<span>Yendru,Srikrishna</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 15</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">1108</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td>2.5</td><td class="result"> ... </td><td>2.5</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#16"></a> 
+ <div class="player-name-box2">
+			<span>Veginati,Cherish</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 16</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">1099</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td></tr>
+<tr> <td>8</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#22"></a> 
+ <div class="player-name-box2">
+			<span>Sheikh,Tahmid</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 22</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">0</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td>2</td><td class="result"> ... </td><td>2.5</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#24"></a> 
+ <div class="player-name-box2">
+			<span>Annapureddy,Dhruthin Reddy</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 24</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">1267</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td></tr>
+<tr> <td>9</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#23"></a> 
+ <div class="player-name-box2">
+			<span>Hatamy,Daniel</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 23</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">0</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td>1.5</td><td class="result"> ... </td><td>2</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#19"></a> 
+ <div class="player-name-box2">
+			<span>Kostakakis,Angelo</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 19</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">1001</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td></tr>
+<tr> <td>10</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#20"></a> 
+ <div class="player-name-box2">
+			<span>Nicdao,Joseph</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 20</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">713</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td>1.5</td><td class="result">1    </td><td>0</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#0"></a> 
  <div class="player-name-box2">
 			<span>BYE</span>
 		</div> 
@@ -459,10 +369,176 @@
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/.png" alt="flag"></div>
 		</div> 
 	</div> 
-
+</div>
 </td></tr>
-<tr> <td>14</td><td><div class="player-container" <div="">
-<a href="playercard.html#25"></a> 
+<tr> <td>11</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#14"></a> 
+ <div class="player-name-box2">
+			<span>Annadasu,Shreyansh</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 14</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">1111</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td>2.5</td><td class="result">0    </td><td>0</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#0"></a> 
+ <div class="player-name-box2">
+			<span>BYE</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 0</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">0</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td></tr>
+<tr> <td>12</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#18"></a> 
+ <div class="player-name-box2">
+			<span>Marasinghe,Claire</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 18</div> 
+			<div class="title-box"> 
+ <div class="notitle2 female">-</div>
+			</div>
+			<div class="rating">1004</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td>2</td><td class="result">0    </td><td>0</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#0"></a> 
+ <div class="player-name-box2">
+			<span>BYE</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 0</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">0</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td></tr>
+<tr> <td>13</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#10"></a> 
+ <div class="player-name-box2">
+			<span>Salanowski,Mark</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 10</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">1418</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td>1.5</td><td class="result">0    </td><td>0</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#0"></a> 
+ <div class="player-name-box2">
+			<span>BYE</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 0</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">0</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td></tr>
+<tr> <td>14</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#6"></a> 
+ <div class="player-name-box2">
+			<span>Martin,Jamie R</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 6</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">1502</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td>1</td><td class="result">0    </td><td>0</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#0"></a> 
+ <div class="player-name-box2">
+			<span>BYE</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 0</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">0</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td></tr>
+<tr> <td>15</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#8"></a> 
+ <div class="player-name-box2">
+			<span>Picone,James</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 8</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">1449</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/vic.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td><td>1</td><td class="result">0    </td><td>0</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#0"></a> 
+ <div class="player-name-box2">
+			<span>BYE</span>
+		</div> 
+		<div class="player-data-box">
+			<div class="sort-num"> 0</div> 
+			<div class="title-box"> 
+ <div class="notitle2 male">-</div>
+			</div>
+			<div class="rating">0</div>
+			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/.png" alt="flag"></div>
+		</div> 
+	</div> 
+</div>
+</td></tr>
+<tr> <td>16</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#25"></a> 
  <div class="player-name-box2">
 			<span>Evans,Carrie</span>
 		</div> 
@@ -475,9 +551,10 @@
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/nsw.png" alt="flag"></div>
 		</div> 
 	</div> 
-
-</td><td>0</td><td class="result">0    </td><td>0</td><td><div class="player-container" <div="">
-<a href="playercard.html#0"></a> 
+</div>
+</td><td>0.5</td><td class="result">0    </td><td>0</td><td><div class="player-container" 
+   <div class="left-box2">
+<a href="playercard.php#0"></a> 
  <div class="player-name-box2">
 			<span>BYE</span>
 		</div> 
@@ -490,11 +567,11 @@
 			<div class="fed"> <img style="border-radius: 4px; border:1px solid gray;" src="./flag/.png" alt="flag"></div>
 		</div> 
 	</div> 
-
+</div>
 </td></tr>
 </tbody>
 </table>
-</div><hr>
+</DIV><hr>
 		  </div>
 		      </div>
          <div class="d-none d-lg-block col-1 pe-0">
@@ -505,8 +582,8 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Hobsons Bay Chess Club - AUS)
-      </p></div>  </div>  </div> </div> 
+  <?php if (file_exists($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php')) include($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php'); ?>    </div>  </div>  </div> </div> 
    </footer>
      </div>
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body></html>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script></body>
+</html>
