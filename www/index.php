@@ -64,11 +64,11 @@ usort($tournaments, function($a, $b) {
 
     <!-- Header -->
     <div class="text-center mb-4">
-        <img src="https://geelongchess.wordpress.com/wp-content/uploads/2023/07/cropped-gcc_logo_150x150.jpg"
-             alt="Geelong Chess Club Logo"
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDALIFLCDiLhbKwGLGJWy4DMzQFIGqW72URw&s"
+             alt="Hobsons Bay Chess Club Logo"
              class="logo-img mb-3">
 
-        <h1 class="fw-bold">Geelong Chess Club – Tournament Directory</h1>
+        <h1 class="fw-bold">Hobsons Bay Chess Club – Tournament Directory</h1>
         <p class="text-muted mb-4">Browse all available tournament pages</p>
     </div>
 

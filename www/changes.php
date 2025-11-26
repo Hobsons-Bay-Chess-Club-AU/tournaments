@@ -14,6 +14,26 @@ function notifyChangeViaGet($change_id) {
     return @file_get_contents($url, false, $context);
 }
 
+function cleanupOldFiles($directory, $retentionDays) {
+    $deletedCount = 0;
+    $thresholdTime = time() - ($retentionDays * 24 * 60 * 60);
+    
+    $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory));
+    foreach ($iterator as $file) {
+        if ($file->isFile()) {
+            $filePath = $file->getPathname();
+            // Only delete files in www* folders, not root level files
+            if (preg_match('/\/www[^\/]*\//', $filePath) && $file->getMTime() < $thresholdTime) {
+                if (@unlink($filePath)) {
+                    $deletedCount++;
+                }
+            }
+        }
+    }
+    
+    return $deletedCount;
+}
+
 function calculateDirectoryChecksum($directory, $ago = null) {
     $checksum = hash_init('sha256');
     $lastUpdatedTime = 0;
@@ -59,7 +79,15 @@ function calculateDirectoryChecksum($directory, $ago = null) {
 
 $directory = __DIR__;
 $ago = isset($_GET['ago']) ? (int)$_GET['ago'] : null;
+$retentionDays = isset($_GET['retentionDay']) ? (int)$_GET['retentionDay'] : 7;
+
 $result = calculateDirectoryChecksum($directory, $ago);
+
+// Run cleanup with retentionDays (default 7 days)
+$deletedFiles = cleanupOldFiles($directory, $retentionDays);
+$result['cleanupPerformed'] = true;
+$result['deletedFilesCount'] = $deletedFiles;
+$result['retentionDays'] = $retentionDays;
 
 header('Content-Type: application/json');
 echo json_encode($result, JSON_PRETTY_PRINT);
