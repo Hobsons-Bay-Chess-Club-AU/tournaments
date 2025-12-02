@@ -57,7 +57,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>3</td><td class="result"> adj </td><td>2</td><td><div class="player-container" 
+</td><td>3</td><td class="result">½ - ½</td><td>2</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#8"></a> 
  <div class="player-name-box2">
@@ -90,7 +90,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>1.5</td><td class="result"> adj </td><td>4.5</td><td><div class="player-container" 
+</td><td>2.5</td><td class="result">1 - 0</td><td>4.5</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#3"></a> 
  <div class="player-name-box2">
@@ -123,7 +123,7 @@
 		</div> 
 	</div> 
 </div>
-</td><td>0.5</td><td class="result"> adj </td><td>3.5</td><td><div class="player-container" 
+</td><td>0.5</td><td class="result">0 - 1</td><td>3.5</td><td><div class="player-container" 
    <div class="left-box2">
 <a href="playercard.php#2"></a> 
  <div class="player-name-box2">
