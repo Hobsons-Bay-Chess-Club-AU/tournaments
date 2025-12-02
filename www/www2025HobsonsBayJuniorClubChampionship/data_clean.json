@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-26T01:45:11.386Z",
+  "generatedAt": "2025-12-02T09:43:33.742Z",
   "tournament": {
     "id": "2025-hobsons-bay-junior-club-championship",
     "name": "2025 Hobsons Bay Junior Club Championship",
@@ -3714,144 +3714,8 @@
       "tournamentType": "unknown"
     },
     "standings.html": {
-      "pageHeading": "Standings at round 7",
-      "tables": [
-        {
-          "headers": [
-            {
-              "name": "Pos",
-              "key": "Pos"
-            },
-            {
-              "name": "Player",
-              "key": "Player"
-            },
-            {
-              "name": "Rtg",
-              "key": "Rtg"
-            },
-            {
-              "name": "Fed",
-              "key": "Fed"
-            },
-            {
-              "name": "Pts",
-              "key": "Pts"
-            },
-            {
-              "name": "DirE",
-              "key": "DirE"
-            },
-            {
-              "name": "SB",
-              "key": "SB"
-            },
-            {
-              "name": "SB/C1",
-              "key": "SB/C1"
-            },
-            {
-              "name": "BPG",
-              "key": "BPG"
-            }
-          ],
-          "rows": [
-            {
-              "Pos": "1",
-              "Player": "1",
-              "Rtg": "1110",
-              "Fed": "AUS",
-              "Pts": "5.0",
-              "DirE": "0.0",
-              "SB": "11.0",
-              "SB/C1": "9.5",
-              "BPG": "3"
-            },
-            {
-              "Pos": "2",
-              "Player": "5",
-              "Rtg": "947",
-              "Fed": "AUS",
-              "Pts": "4.5",
-              "DirE": "0.0",
-              "SB": "9.8",
-              "SB/C1": "8.2",
-              "BPG": "4"
-            },
-            {
-              "Pos": "3",
-              "Player": "2",
-              "Rtg": "1087",
-              "Fed": "AUS",
-              "Pts": "3.5",
-              "DirE": "0.0",
-              "SB": "6.2",
-              "SB/C1": "4.8",
-              "BPG": "3"
-            },
-            {
-              "Pos": "4",
-              "Player": "7",
-              "Rtg": "795",
-              "Fed": "AUS",
-              "Pts": "2.5",
-              "DirE": "1.0",
-              "SB": "7.2",
-              "SB/C1": "7.2",
-              "BPG": "4"
-            },
-            {
-              "Pos": "5",
-              "Player": "6",
-              "Rtg": "931",
-              "Fed": "AUS",
-              "Pts": "2.5",
-              "DirE": "0.0",
-              "SB": "6.8",
-              "SB/C1": "6.0",
-              "BPG": "4"
-            },
-            {
-              "Pos": "6",
-              "Player": "8",
-              "Rtg": "692",
-              "Fed": "AUS",
-              "Pts": "2.0",
-              "DirE": "0.0",
-              "SB": "4.0",
-              "SB/C1": "3.2",
-              "BPG": "4"
-            },
-            {
-              "Pos": "7",
-              "Player": "3",
-              "Rtg": "1006",
-              "Fed": "AUS",
-              "Pts": "1.5",
-              "DirE": "0.0",
-              "SB": "3.5",
-              "SB/C1": "2.5",
-              "BPG": "3"
-            },
-            {
-              "Pos": "8",
-              "Player": "4",
-              "Rtg": "1000",
-              "Fed": "AUS",
-              "Pts": "1.5",
-              "DirE": "0.0",
-              "SB": "3.5",
-              "SB/C1": "2.5",
-              "BPG": "3"
-            }
-          ],
-          "footer": {
-            "text": "Tie Break legend:\n   DirE  :  Direct Encounter (all play all) \n     SB  :  Sonneborn-Berger \n  SB/C1  :  Sonneborn-Berger Cut 1 \n    BPG  :  Number of Games Played with Black",
-            "html": "Tie Break legend:<br>\n   DirE  :  Direct Encounter (all play all) <br>\n     SB  :  Sonneborn-Berger <br>\n  SB/C1  :  Sonneborn-Berger Cut 1 <br>\n    BPG  :  Number of Games Played with Black <br>"
-          },
-          "type": "standings"
-        }
-      ],
+      "pageHeading": "",
+      "tables": [],
       "tournamentType": "unknown"
     },
     "tourstat.html": {
@@ -4047,5 +3911,5 @@
       "children": []
     }
   ],
-  "md5Hash": "7ba3cd88bc3fe7bebd4d880625096f6a"
+  "md5Hash": "4458b0ff0a6b037743e837639d69ef27"
 }
