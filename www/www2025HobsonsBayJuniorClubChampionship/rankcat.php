@@ -47,28 +47,28 @@
 <thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th></th> <th></th><th>Fed</th><th>Pts</th><th>   DirE </th><th>     SB </th><th>  SB/C1 </th><th>    BPG </th>
 </tr> </THEAD><tbody>
 <tr> 
-<td>1</td><td>1</td><td></td><td> <a href="playercard.php#1">Batyrbekov,Kaisar   </a> </td><td>1110</td><td>1081</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 5.0</td><td>    0.0 </td><td>   11.0 </td><td>    9.5 </td><td>     3  </td>
+<td>1</td><td>1</td><td></td><td> <a href="playercard.php#1">Batyrbekov,Kaisar   </a> </td><td>1110</td><td>1081</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 5.0</td><td>    0.0 </td><td>   13.0 </td><td>   11.5 </td><td>     3  </td>
 </tr> 
 <tr> 
-<td>2</td><td>5</td><td></td><td> <a href="playercard.php#5">Batyrbekov,Aidan    </a> </td><td>947</td><td>1048</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 4.5</td><td>    0.0 </td><td>    9.8 </td><td>    8.2 </td><td>     4  </td>
+<td>2</td><td>5</td><td></td><td> <a href="playercard.php#5">Batyrbekov,Aidan    </a> </td><td>947</td><td>1048</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 4.5</td><td>    0.0 </td><td>   11.2 </td><td>    9.8 </td><td>     4  </td>
 </tr> 
 <tr> 
-<td>3</td><td>2</td><td></td><td> <a href="playercard.php#2">Ashok,Arjun         </a> </td><td>1087</td><td>926</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 3.5</td><td>    0.0 </td><td>    6.2 </td><td>    4.8 </td><td>     3  </td>
+<td>3</td><td>7</td><td></td><td> <a href="playercard.php#7">Ruaya,Rohan         </a> </td><td>795</td><td>968</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 3.5</td><td>    0.0 </td><td>   13.2 </td><td>   12.5 </td><td>     4  </td>
 </tr> 
 <tr> 
-<td>4</td><td>7</td><td></td><td> <a href="playercard.php#7">Ruaya,Rohan         </a> </td><td>795</td><td>866</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 2.5</td><td>    1.0 </td><td>    7.2 </td><td>    7.2 </td><td>     4  </td>
+<td>4</td><td>6</td><td></td><td> <a href="playercard.php#6">Wei,Andrew          </a> </td><td>931</td><td>948</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 3.5</td><td>    0.0 </td><td>    9.8 </td><td>    9.0 </td><td>     4  </td>
 </tr> 
 <tr> 
-<td>5</td><td>6</td><td></td><td> <a href="playercard.php#6">Wei,Andrew          </a> </td><td>931</td><td>846</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 2.5</td><td>    0.0 </td><td>    6.8 </td><td>    6.0 </td><td>     4  </td>
+<td>5</td><td>2</td><td></td><td> <a href="playercard.php#2">Ashok,Arjun         </a> </td><td>1087</td><td>926</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 3.5</td><td>    0.0 </td><td>    7.8 </td><td>    6.2 </td><td>     3  </td>
 </tr> 
 <tr> 
-<td>6</td><td>8</td><td></td><td> <a href="playercard.php#8">Nema,Nivaan         </a> </td><td>692</td><td>824</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 2.0</td><td>    0.0 </td><td>    4.0 </td><td>    3.2 </td><td>     4  </td>
+<td>6</td><td>4</td><td></td><td> <a href="playercard.php#4">Huang,Michael       </a> </td><td>1000</td><td>836</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 2.5</td><td>    0.0 </td><td>    6.0 </td><td>    4.5 </td><td>     3  </td>
 </tr> 
 <tr> 
-<td>7</td><td>3</td><td></td><td> <a href="playercard.php#3">Balaji,Sai Sivesh   </a> </td><td>1006</td><td>707</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.5</td><td>    0.0 </td><td>    3.5 </td><td>    2.5 </td><td>     3  </td>
+<td>7</td><td>8</td><td></td><td> <a href="playercard.php#8">Nema,Nivaan         </a> </td><td>692</td><td>824</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 2.0</td><td>    0.0 </td><td>    5.5 </td><td>    4.8 </td><td>     4  </td>
 </tr> 
 <tr> 
-<td>8</td><td>4</td><td></td><td> <a href="playercard.php#4">Huang,Michael       </a> </td><td>1000</td><td>708</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.5</td><td>    0.0 </td><td>    3.5 </td><td>    2.5 </td><td>     3  </td>
+<td>8</td><td>3</td><td></td><td> <a href="playercard.php#3">Balaji,Sai Sivesh   </a> </td><td>1006</td><td>707</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.5</td><td>    0.0 </td><td>    4.5 </td><td>    3.5 </td><td>     3  </td>
 </tr> 
 </tbody>
 </table> <br><br>

@@ -75,7 +75,7 @@
 <tr> <td>1</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#8"> Nema,Nivaan</a> </td><td>8</td> <td class="result">1 - 0</td><td>7</td><td class="name"> <a href="playercard.php#7"> Ruaya,Rohan</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
 <tr> <td>2</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#1"> Batyrbekov,Kaisar</a> </td><td>1</td> <td class="result">1 - 0</td><td>6</td><td class="name"> <a href="playercard.php#6"> Wei,Andrew</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
 <tr> <td>3</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#2"> Ashok,Arjun</a> </td><td>2</td> <td class="result">0 - 1</td><td>5</td><td class="name"> <a href="playercard.php#5"> Batyrbekov,Aidan</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
-<tr> <td>4</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#3"> Balaji,Sai Sivesh</a> </td><td>3</td> <td class="result"> adj </td><td>4</td><td class="name"> <a href="playercard.php#4"> Huang,Michael</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
+<tr> <td>4</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#3"> Balaji,Sai Sivesh</a> </td><td>3</td> <td class="result">0 - 1</td><td>4</td><td class="name"> <a href="playercard.php#4"> Huang,Michael</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
 </table>
 </div><hr>
 <h4>Pairing of round 5, at 18:30 of 18/11/2025</h4>
@@ -90,7 +90,7 @@
 <h4>Pairing of round 6, at 18:30 of 25/11/2025</h4>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#8"> Nema,Nivaan</a> </td><td>8</td> <td class="result"> adj </td><td>6</td><td class="name"> <a href="playercard.php#6"> Wei,Andrew</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
+<tr> <td>1</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#8"> Nema,Nivaan</a> </td><td>8</td> <td class="result">0 - 1</td><td>6</td><td class="name"> <a href="playercard.php#6"> Wei,Andrew</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
 <tr> <td>2</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#7"> Ruaya,Rohan</a> </td><td>7</td> <td class="result">½ - ½</td><td>5</td><td class="name"> <a href="playercard.php#5"> Batyrbekov,Aidan</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
 <tr> <td>3</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#1"> Batyrbekov,Kaisar</a> </td><td>1</td> <td class="result">1 - 0</td><td>4</td><td class="name"> <a href="playercard.php#4"> Huang,Michael</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
 <tr> <td>4</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#2"> Ashok,Arjun</a> </td><td>2</td> <td class="result">1 - 0</td><td>3</td><td class="name"> <a href="playercard.php#3"> Balaji,Sai Sivesh</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
@@ -102,7 +102,7 @@
 <tr> <td>1</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#4"> Huang,Michael</a> </td><td>4</td> <td class="result">½ - ½</td><td>8</td><td class="name"> <a href="playercard.php#8"> Nema,Nivaan</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
 <tr> <td>2</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#5"> Batyrbekov,Aidan</a> </td><td>5</td> <td class="result">1 - 0</td><td>3</td><td class="name"> <a href="playercard.php#3"> Balaji,Sai Sivesh</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
 <tr> <td>3</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#6"> Wei,Andrew</a> </td><td>6</td> <td class="result"> adj </td><td>2</td><td class="name"> <a href="playercard.php#2"> Ashok,Arjun</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
-<tr> <td>4</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#7"> Ruaya,Rohan</a> </td><td>7</td> <td class="result"> adj </td><td>1</td><td class="name"> <a href="playercard.php#1"> Batyrbekov,Kaisar</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
+<tr> <td>4</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="name">  <a href="playercard.php#7"> Ruaya,Rohan</a> </td><td>7</td> <td class="result">1 - 0</td><td>1</td><td class="name"> <a href="playercard.php#1"> Batyrbekov,Kaisar</a></td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td></tr>
 </table>
 </div><hr>
 		  </div>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-02T09:43:33.742Z",
+  "generatedAt": "2025-12-03T12:36:55.901Z",
   "tournament": {
     "id": "2025-hobsons-bay-junior-club-championship",
     "name": "2025 Hobsons Bay Junior Club Championship",
@@ -423,7 +423,7 @@
               "N": "4",
               "White": "Balaji,Sai Sivesh",
               "NW": "3",
-              "result": "ADJ",
+              "result": "0 - 1",
               "NB": "4",
               "Black": "Huang,Michael"
             }
@@ -539,7 +539,7 @@
               "N": "1",
               "White": "Nema,Nivaan",
               "NW": "8",
-              "result": "ADJ",
+              "result": "0 - 1",
               "NB": "6",
               "Black": "Wei,Andrew"
             },
@@ -633,7 +633,7 @@
               "N": "4",
               "White": "Ruaya,Rohan",
               "NW": "7",
-              "result": "ADJ",
+              "result": "1 - 0",
               "NB": "1",
               "Black": "Batyrbekov,Kaisar"
             }
@@ -1109,7 +1109,7 @@
               "Fed": "AUS",
               "White Player": "3",
               "Pts": "1",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "Pts_1": "1",
               "Black Player": "4",
               "Fed_1": "AUS"
@@ -1174,7 +1174,7 @@
               "Bo.": "2",
               "Fed": "AUS",
               "White Player": "4",
-              "Pts": "1",
+              "Pts": "2",
               "Result": "0 - 1",
               "Pts_1": "1.5",
               "Black Player": "2",
@@ -1251,7 +1251,7 @@
               "Fed": "AUS",
               "White Player": "8",
               "Pts": "1.5",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "Pts_1": "2.5",
               "Black Player": "6",
               "Fed_1": "AUS"
@@ -1272,7 +1272,7 @@
               "White Player": "1",
               "Pts": "4",
               "Result": "1 - 0",
-              "Pts_1": "1",
+              "Pts_1": "2",
               "Black Player": "4",
               "Fed_1": "AUS"
             },
@@ -1336,7 +1336,7 @@
               "Bo.": "1",
               "Fed": "AUS",
               "White Player": "4",
-              "Pts": "1",
+              "Pts": "2",
               "Result": "½ - ½",
               "Pts_1": "1.5",
               "Black Player": "8",
@@ -1356,7 +1356,7 @@
               "Bo.": "3",
               "Fed": "AUS",
               "White Player": "6",
-              "Pts": "2.5",
+              "Pts": "3.5",
               "Result": "ADJ",
               "Pts_1": "3.5",
               "Black Player": "2",
@@ -1367,7 +1367,7 @@
               "Fed": "AUS",
               "White Player": "7",
               "Pts": "2.5",
-              "Result": "ADJ",
+              "Result": "1 - 0",
               "Pts_1": "5",
               "Black Player": "1",
               "Fed_1": "AUS"
@@ -1456,7 +1456,7 @@
               "OPPONENT": "Wei,Andrew",
               "Rtg": "931",
               "res": "1.0",
-              "Pts": "2.5"
+              "Pts": "3.5"
             },
             {
               "R": "5",
@@ -1476,17 +1476,17 @@
               "OPPONENT": "Huang,Michael",
               "Rtg": "1000",
               "res": "1.0",
-              "Pts": "1.5"
+              "Pts": "2.5"
             },
             {
               "R": "7",
-              "C": "--",
+              "C": "B",
               "N": "7",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "1.0",
-              "Pts": "0.0"
+              "OPPONENT": "Ruaya,Rohan",
+              "Rtg": "795",
+              "res": "0.0",
+              "Pts": "3.5"
             }
           ],
           "caption": {
@@ -1546,7 +1546,7 @@
               "OPPONENT": "Ruaya,Rohan",
               "Rtg": "795",
               "res": "0.5",
-              "Pts": "2.5"
+              "Pts": "3.5"
             },
             {
               "R": "2",
@@ -1586,7 +1586,7 @@
               "OPPONENT": "Huang,Michael",
               "Rtg": "1000",
               "res": "1.0",
-              "Pts": "1.5"
+              "Pts": "2.5"
             },
             {
               "R": "6",
@@ -1666,7 +1666,7 @@
               "OPPONENT": "Wei,Andrew",
               "Rtg": "931",
               "res": "0.5",
-              "Pts": "2.5"
+              "Pts": "3.5"
             },
             {
               "R": "2",
@@ -1676,7 +1676,7 @@
               "OPPONENT": "Ruaya,Rohan",
               "Rtg": "795",
               "res": "0.5",
-              "Pts": "2.5"
+              "Pts": "3.5"
             },
             {
               "R": "3",
@@ -1690,13 +1690,13 @@
             },
             {
               "R": "4",
-              "C": "--",
+              "C": "W",
               "N": "4",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "Huang,Michael",
+              "Rtg": "1000",
               "res": "0.0",
-              "Pts": "0.0"
+              "Pts": "2.5"
             },
             {
               "R": "5",
@@ -1796,7 +1796,7 @@
               "OPPONENT": "Wei,Andrew",
               "Rtg": "931",
               "res": "0.0",
-              "Pts": "2.5"
+              "Pts": "3.5"
             },
             {
               "R": "3",
@@ -1806,17 +1806,17 @@
               "OPPONENT": "Ruaya,Rohan",
               "Rtg": "795",
               "res": "1.0",
-              "Pts": "2.5"
+              "Pts": "3.5"
             },
             {
               "R": "4",
-              "C": "--",
+              "C": "B",
               "N": "3",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "Balaji,Sai Sivesh",
+              "Rtg": "1006",
               "res": "1.0",
-              "Pts": "0.0"
+              "Pts": "1.5"
             },
             {
               "R": "5",
@@ -1906,7 +1906,7 @@
               "OPPONENT": "Huang,Michael",
               "Rtg": "1000",
               "res": "1.0",
-              "Pts": "1.5"
+              "Pts": "2.5"
             },
             {
               "R": "2",
@@ -1926,7 +1926,7 @@
               "OPPONENT": "Wei,Andrew",
               "Rtg": "931",
               "res": "0.0",
-              "Pts": "2.5"
+              "Pts": "3.5"
             },
             {
               "R": "4",
@@ -1956,7 +1956,7 @@
               "OPPONENT": "Ruaya,Rohan",
               "Rtg": "795",
               "res": "0.5",
-              "Pts": "2.5"
+              "Pts": "3.5"
             },
             {
               "R": "7",
@@ -2036,7 +2036,7 @@
               "OPPONENT": "Huang,Michael",
               "Rtg": "1000",
               "res": "1.0",
-              "Pts": "1.5"
+              "Pts": "2.5"
             },
             {
               "R": "3",
@@ -2066,17 +2066,17 @@
               "OPPONENT": "Ruaya,Rohan",
               "Rtg": "795",
               "res": "0.0",
-              "Pts": "2.5"
+              "Pts": "3.5"
             },
             {
               "R": "6",
-              "C": "--",
+              "C": "B",
               "N": "8",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "0.0",
-              "Pts": "0.0"
+              "OPPONENT": "Nema,Nivaan",
+              "Rtg": "692",
+              "res": "1.0",
+              "Pts": "2.0"
             },
             {
               "R": "7",
@@ -2085,7 +2085,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             }
           ],
@@ -2166,7 +2166,7 @@
               "OPPONENT": "Huang,Michael",
               "Rtg": "1000",
               "res": "0.0",
-              "Pts": "1.5"
+              "Pts": "2.5"
             },
             {
               "R": "4",
@@ -2186,7 +2186,7 @@
               "OPPONENT": "Wei,Andrew",
               "Rtg": "931",
               "res": "1.0",
-              "Pts": "2.5"
+              "Pts": "3.5"
             },
             {
               "R": "6",
@@ -2200,13 +2200,13 @@
             },
             {
               "R": "7",
-              "C": "--",
+              "C": "W",
               "N": "1",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "0.5",
-              "Pts": "0.0"
+              "OPPONENT": "Batyrbekov,Kaisar",
+              "Rtg": "1110",
+              "res": "1.0",
+              "Pts": "5.0"
             }
           ],
           "caption": {
@@ -2296,7 +2296,7 @@
               "OPPONENT": "Ruaya,Rohan",
               "Rtg": "795",
               "res": "1.0",
-              "Pts": "2.5"
+              "Pts": "3.5"
             },
             {
               "R": "5",
@@ -2310,13 +2310,13 @@
             },
             {
               "R": "6",
-              "C": "--",
+              "C": "W",
               "N": "6",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "0.5",
-              "Pts": "0.0"
+              "OPPONENT": "Wei,Andrew",
+              "Rtg": "931",
+              "res": "0.0",
+              "Pts": "3.5"
             },
             {
               "R": "7",
@@ -2326,7 +2326,7 @@
               "OPPONENT": "Huang,Michael",
               "Rtg": "1000",
               "res": "0.5",
-              "Pts": "1.5"
+              "Pts": "2.5"
             }
           ],
           "caption": {
@@ -2416,8 +2416,8 @@
               "Fed": "AUS",
               "Pts": "5.0",
               "DirE": "0.0",
-              "SB": "11.0",
-              "SB/C1": "9.5",
+              "SB": "13.0",
+              "SB/C1": "11.5",
               "BPG": "3"
             },
             {
@@ -2436,12 +2436,52 @@
               "Fed": "AUS",
               "Pts": "4.5",
               "DirE": "0.0",
-              "SB": "9.8",
-              "SB/C1": "8.2",
+              "SB": "11.2",
+              "SB/C1": "9.8",
               "BPG": "4"
             },
             {
               "Pos": "3",
+              "N": "7",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Ruaya,Rohan",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "col5": "795",
+              "col6": "968",
+              "Fed": "AUS",
+              "Pts": "3.5",
+              "DirE": "0.0",
+              "SB": "13.2",
+              "SB/C1": "12.5",
+              "BPG": "4"
+            },
+            {
+              "Pos": "4",
+              "N": "6",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Wei,Andrew",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "col5": "931",
+              "col6": "948",
+              "Fed": "AUS",
+              "Pts": "3.5",
+              "DirE": "0.0",
+              "SB": "9.8",
+              "SB/C1": "9.0",
+              "BPG": "4"
+            },
+            {
+              "Pos": "5",
               "N": "2",
               "T": "",
               "Player": {
@@ -2456,52 +2496,32 @@
               "Fed": "AUS",
               "Pts": "3.5",
               "DirE": "0.0",
-              "SB": "6.2",
-              "SB/C1": "4.8",
+              "SB": "7.8",
+              "SB/C1": "6.2",
               "BPG": "3"
             },
             {
-              "Pos": "4",
-              "N": "7",
+              "Pos": "6",
+              "N": "4",
               "T": "",
               "Player": {
                 "id": "",
-                "playerName": "Ruaya,Rohan",
+                "playerName": "Huang,Michael",
                 "gender": "notitle",
-                "href": "playercard.html#7",
+                "href": "playercard.html#4",
                 "title": ""
               },
-              "col5": "795",
-              "col6": "866",
-              "Fed": "AUS",
-              "Pts": "2.5",
-              "DirE": "1.0",
-              "SB": "7.2",
-              "SB/C1": "7.2",
-              "BPG": "4"
-            },
-            {
-              "Pos": "5",
-              "N": "6",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Wei,Andrew",
-                "gender": "notitle",
-                "href": "playercard.html#6",
-                "title": ""
-              },
-              "col5": "931",
-              "col6": "846",
+              "col5": "1000",
+              "col6": "836",
               "Fed": "AUS",
               "Pts": "2.5",
               "DirE": "0.0",
-              "SB": "6.8",
-              "SB/C1": "6.0",
-              "BPG": "4"
+              "SB": "6.0",
+              "SB/C1": "4.5",
+              "BPG": "3"
             },
             {
-              "Pos": "6",
+              "Pos": "7",
               "N": "8",
               "T": "",
               "Player": {
@@ -2516,12 +2536,12 @@
               "Fed": "AUS",
               "Pts": "2.0",
               "DirE": "0.0",
-              "SB": "4.0",
-              "SB/C1": "3.2",
+              "SB": "5.5",
+              "SB/C1": "4.8",
               "BPG": "4"
             },
             {
-              "Pos": "7",
+              "Pos": "8",
               "N": "3",
               "T": "",
               "Player": {
@@ -2536,28 +2556,8 @@
               "Fed": "AUS",
               "Pts": "1.5",
               "DirE": "0.0",
-              "SB": "3.5",
-              "SB/C1": "2.5",
-              "BPG": "3"
-            },
-            {
-              "Pos": "8",
-              "N": "4",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Huang,Michael",
-                "gender": "notitle",
-                "href": "playercard.html#4",
-                "title": ""
-              },
-              "col5": "1000",
-              "col6": "708",
-              "Fed": "AUS",
-              "Pts": "1.5",
-              "DirE": "0.0",
-              "SB": "3.5",
-              "SB/C1": "2.5",
+              "SB": "4.5",
+              "SB/C1": "3.5",
               "BPG": "3"
             }
           ],
@@ -3118,7 +3118,7 @@
                 "title": ""
               },
               "NW": "3",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "NB": "4",
               "Black Player": {
                 "id": "",
@@ -3306,7 +3306,7 @@
                 "title": ""
               },
               "NW": "8",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "NB": "6",
               "Black Player": {
                 "id": "",
@@ -3499,7 +3499,7 @@
                 "title": ""
               },
               "NW": "7",
-              "Result": "ADJ",
+              "Result": "1 - 0",
               "NB": "1",
               "Black Player": {
                 "id": "",
@@ -3582,8 +3582,8 @@
             {
               "1": "×",
               "2": "a",
-              "3": "1",
-              "4": "a",
+              "3": "0",
+              "4": "1",
               "5": "1",
               "6": "1",
               "7": "1",
@@ -3598,9 +3598,9 @@
             {
               "1": "a",
               "2": "×",
-              "3": "1",
-              "4": "½",
-              "5": "0",
+              "3": "½",
+              "4": "0",
+              "5": "1",
               "6": "1",
               "7": "1",
               "8": "1",
@@ -3612,15 +3612,47 @@
               "Pts": "4.5"
             },
             {
-              "1": "0",
-              "2": "0",
+              "1": "1",
+              "2": "½",
               "3": "×",
-              "4": "½",
+              "4": "1",
+              "5": "½",
+              "6": "0",
+              "7": "0",
+              "8": "½",
+              "Pos": "3",
+              "#": "7",
+              "NAME": "Ruaya,Rohan",
+              "Rtg": "795",
+              "Fed": "AUS",
+              "Pts": "3.5"
+            },
+            {
+              "1": "0",
+              "2": "1",
+              "3": "0",
+              "4": "×",
               "5": "a",
               "6": "1",
               "7": "1",
+              "8": "½",
+              "Pos": "4",
+              "#": "6",
+              "NAME": "Wei,Andrew",
+              "Rtg": "931",
+              "Fed": "AUS",
+              "Pts": "3.5"
+            },
+            {
+              "1": "0",
+              "2": "0",
+              "3": "½",
+              "4": "a",
+              "5": "×",
+              "6": "1",
+              "7": "1",
               "8": "1",
-              "Pos": "3",
+              "Pos": "5",
               "#": "2",
               "NAME": "Ashok,Arjun",
               "Rtg": "1087",
@@ -3628,47 +3660,31 @@
               "Pts": "3.5"
             },
             {
-              "1": "a",
-              "2": "½",
-              "3": "½",
-              "4": "×",
-              "5": "1",
-              "6": "0",
-              "7": "½",
-              "8": "0",
-              "Pos": "4",
-              "#": "7",
-              "NAME": "Ruaya,Rohan",
-              "Rtg": "795",
-              "Fed": "AUS",
-              "Pts": "2.5"
-            },
-            {
               "1": "0",
-              "2": "1",
-              "3": "a",
+              "2": "0",
+              "3": "1",
               "4": "0",
-              "5": "×",
-              "6": "a",
+              "5": "0",
+              "6": "×",
               "7": "½",
               "8": "1",
-              "Pos": "5",
-              "#": "6",
-              "NAME": "Wei,Andrew",
-              "Rtg": "931",
+              "Pos": "6",
+              "#": "4",
+              "NAME": "Huang,Michael",
+              "Rtg": "1000",
               "Fed": "AUS",
               "Pts": "2.5"
             },
             {
               "1": "0",
               "2": "0",
-              "3": "0",
-              "4": "1",
-              "5": "a",
-              "6": "×",
-              "7": "½",
+              "3": "1",
+              "4": "0",
+              "5": "0",
+              "6": "½",
+              "7": "×",
               "8": "½",
-              "Pos": "6",
+              "Pos": "7",
               "#": "8",
               "NAME": "Nema,Nivaan",
               "Rtg": "692",
@@ -3678,32 +3694,16 @@
             {
               "1": "0",
               "2": "0",
-              "3": "0",
+              "3": "½",
               "4": "½",
-              "5": "½",
-              "6": "½",
-              "7": "×",
-              "8": "a",
-              "Pos": "7",
+              "5": "0",
+              "6": "0",
+              "7": "½",
+              "8": "×",
+              "Pos": "8",
               "#": "3",
               "NAME": "Balaji,Sai Sivesh",
               "Rtg": "1006",
-              "Fed": "AUS",
-              "Pts": "1.5"
-            },
-            {
-              "1": "0",
-              "2": "0",
-              "3": "0",
-              "4": "1",
-              "5": "0",
-              "6": "½",
-              "7": "a",
-              "8": "×",
-              "Pos": "8",
-              "#": "4",
-              "NAME": "Huang,Michael",
-              "Rtg": "1000",
               "Fed": "AUS",
               "Pts": "1.5"
             }
@@ -3714,8 +3714,144 @@
       "tournamentType": "unknown"
     },
     "standings.html": {
-      "pageHeading": "",
-      "tables": [],
+      "pageHeading": "Standings at round 7",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Pos",
+              "key": "Pos"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "DirE",
+              "key": "DirE"
+            },
+            {
+              "name": "SB",
+              "key": "SB"
+            },
+            {
+              "name": "SB/C1",
+              "key": "SB/C1"
+            },
+            {
+              "name": "BPG",
+              "key": "BPG"
+            }
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Player": "1",
+              "Rtg": "1110",
+              "Fed": "AUS",
+              "Pts": "5.0",
+              "DirE": "0.0",
+              "SB": "13.0",
+              "SB/C1": "11.5",
+              "BPG": "3"
+            },
+            {
+              "Pos": "2",
+              "Player": "5",
+              "Rtg": "947",
+              "Fed": "AUS",
+              "Pts": "4.5",
+              "DirE": "0.0",
+              "SB": "11.2",
+              "SB/C1": "9.8",
+              "BPG": "4"
+            },
+            {
+              "Pos": "3",
+              "Player": "7",
+              "Rtg": "795",
+              "Fed": "AUS",
+              "Pts": "3.5",
+              "DirE": "0.0",
+              "SB": "13.2",
+              "SB/C1": "12.5",
+              "BPG": "4"
+            },
+            {
+              "Pos": "4",
+              "Player": "6",
+              "Rtg": "931",
+              "Fed": "AUS",
+              "Pts": "3.5",
+              "DirE": "0.0",
+              "SB": "9.8",
+              "SB/C1": "9.0",
+              "BPG": "4"
+            },
+            {
+              "Pos": "5",
+              "Player": "2",
+              "Rtg": "1087",
+              "Fed": "AUS",
+              "Pts": "3.5",
+              "DirE": "0.0",
+              "SB": "7.8",
+              "SB/C1": "6.2",
+              "BPG": "3"
+            },
+            {
+              "Pos": "6",
+              "Player": "4",
+              "Rtg": "1000",
+              "Fed": "AUS",
+              "Pts": "2.5",
+              "DirE": "0.0",
+              "SB": "6.0",
+              "SB/C1": "4.5",
+              "BPG": "3"
+            },
+            {
+              "Pos": "7",
+              "Player": "8",
+              "Rtg": "692",
+              "Fed": "AUS",
+              "Pts": "2.0",
+              "DirE": "0.0",
+              "SB": "5.5",
+              "SB/C1": "4.8",
+              "BPG": "4"
+            },
+            {
+              "Pos": "8",
+              "Player": "3",
+              "Rtg": "1006",
+              "Fed": "AUS",
+              "Pts": "1.5",
+              "DirE": "0.0",
+              "SB": "4.5",
+              "SB/C1": "3.5",
+              "BPG": "3"
+            }
+          ],
+          "footer": {
+            "text": "Tie Break legend:\n   DirE  :  Direct Encounter (all play all) \n     SB  :  Sonneborn-Berger \n  SB/C1  :  Sonneborn-Berger Cut 1 \n    BPG  :  Number of Games Played with Black",
+            "html": "Tie Break legend:<br>\n   DirE  :  Direct Encounter (all play all) <br>\n     SB  :  Sonneborn-Berger <br>\n  SB/C1  :  Sonneborn-Berger Cut 1 <br>\n    BPG  :  Number of Games Played with Black <br>"
+          },
+          "type": "standings"
+        }
+      ],
       "tournamentType": "unknown"
     },
     "tourstat.html": {
@@ -3911,5 +4047,5 @@
       "children": []
     }
   ],
-  "md5Hash": "4458b0ff0a6b037743e837639d69ef27"
+  "md5Hash": "881aca35100c4881c87fb2c2316831e7"
 }

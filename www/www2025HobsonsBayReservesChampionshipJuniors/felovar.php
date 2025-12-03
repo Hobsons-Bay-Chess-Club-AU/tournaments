@@ -46,29 +46,31 @@
   <div class="d-flex flex-column"><h3 class="mb-4 mt-4">  FIDE rating variation at round 7</h3>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead> <tr> <th>#</th> <th>Player</th> <th>FIDE ID</th> <th>Fed</th> <th>Rtg</th>  <th>Ng</th> <th>Pts</th> <th>ARO</th> <th>var</th> <th>Rp</th> </tr></thead><tbody><tr> 
-<td>2</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/311110949" target="X">Parker,Lucas</a></td> <td>311110949</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1618</td><td> 3</td> <td> 3.0</td> <td>1501</td> <td>41</td> <td>2301</td></tr>
+<td>1</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/profile/3292347" target="X">Kaur,Mishleen</a></td> <td>3292347</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1541</td><td> 1</td> <td> 0.5</td> <td>1562</td> <td>1</td> <td>1562</td></tr>
 <tr> 
-<td>3</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3292380" target="X">Verma,Vivaan</a></td> <td>3292380</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1533</td><td> 2</td> <td> 1.0</td> <td>1590</td> <td>6</td> <td>1590</td></tr>
+<td>2</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/311110949" target="X">Parker,Lucas</a></td> <td>311110949</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1618</td><td> 4</td> <td> 4.0</td> <td>1511</td> <td>56</td> <td>2311</td></tr>
 <tr> 
-<td>4</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3286339" target="X">Jagannathan,Shashvath</a></td> <td>3286339</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1504</td><td> 3</td> <td> 0.5</td> <td>1513</td> <td>-38</td> <td>1240</td></tr>
+<td>3</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3292380" target="X">Verma,Vivaan</a></td> <td>3292380</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1533</td><td> 3</td> <td> 2.0</td> <td>1538</td> <td>21</td> <td>1663</td></tr>
+<tr> 
+<td>4</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3286339" target="X">Jagannathan,Shashvath</a></td> <td>3286339</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1504</td><td> 4</td> <td> 1.5</td> <td>1499</td> <td>-21</td> <td>1412</td></tr>
 <tr> 
 <td>5</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3290522" target="X">Guggilla,Krithvik</a></td> <td>3290522</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1512</td><td> 2</td> <td> 0.0</td> <td>1511</td> <td>-40</td> <td> 711</td></tr>
 <tr> 
-<td>6</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3284670" target="X">Jyothi Nikhil,Neev</a></td> <td>3284670</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1514</td><td> 2</td> <td> 2.0</td> <td>1457</td> <td>34</td> <td>2257</td></tr>
+<td>6</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3284670" target="X">Jyothi Nikhil,Neev</a></td> <td>3284670</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1514</td><td> 3</td> <td> 3.0</td> <td>1489</td> <td>56</td> <td>2289</td></tr>
 <tr> 
-<td>7</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3286347" target="X">Morris,Elijah</a></td> <td>3286347</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1555</td><td> 2</td> <td> 2.0</td> <td>1489</td> <td>33</td> <td>2289</td></tr>
+<td>7</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3286347" target="X">Morris,Elijah</a></td> <td>3286347</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1555</td><td> 3</td> <td> 2.0</td> <td>1497</td> <td>10</td> <td>1622</td></tr>
 <tr> 
-<td>8</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3267881" target="X">Yendru,Sriram</a></td> <td>3267881</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1457</td><td> 3</td> <td> 1.0</td> <td>1507</td> <td>-12</td> <td>1382</td></tr>
+<td>8</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3267881" target="X">Yendru,Sriram</a></td> <td>3267881</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1457</td><td> 4</td> <td> 1.0</td> <td>1506</td> <td>-29</td> <td>1313</td></tr>
 <tr> 
-<td>9</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3283470" target="X">Manoj,Dev</a></td> <td>3283470</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1541</td><td> 2</td> <td> 2.0</td> <td>1510</td> <td>36</td> <td>2310</td></tr>
+<td>9</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3283470" target="X">Manoj,Dev</a></td> <td>3283470</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1541</td><td> 3</td> <td> 2.0</td> <td>1546</td> <td>21</td> <td>1671</td></tr>
 <tr> 
-<td>10</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3286380" target="X">Shaiek,Nihal</a></td> <td>3286380</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1434</td><td> 3</td> <td> 1.5</td> <td>1518</td> <td>14</td> <td>1518</td></tr>
+<td>10</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3286380" target="X">Shaiek,Nihal</a></td> <td>3286380</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1434</td><td> 4</td> <td> 1.5</td> <td>1522</td> <td>-1</td> <td>1435</td></tr>
 <tr> 
 <td>11</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3254917" target="X">Goh,Nicholas</a></td> <td>3254917</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1465</td><td> 2</td> <td> 0.0</td> <td>1587</td> <td>-27</td> <td> 787</td></tr>
 <tr> 
-<td>12</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/537082183" target="X">Shinde,Yug</a></td> <td>537082183</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1466</td><td> 2</td> <td> 1.0</td> <td>1485</td> <td>2</td> <td>1485</td></tr>
+<td>12</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/537082183" target="X">Shinde,Yug</a></td> <td>537082183</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1466</td><td> 3</td> <td> 1.5</td> <td>1468</td> <td>0</td> <td>1468</td></tr>
 <tr> 
-<td>14</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/profile/3286410" target="X">Venkat,Nyra</a></td> <td>3286410</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1562</td><td> 3</td> <td> 1.0</td> <td>1503</td> <td>-30</td> <td>1378</td></tr>
+<td>14</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/profile/3286410" target="X">Venkat,Nyra</a></td> <td>3286410</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1562</td><td> 4</td> <td> 1.5</td> <td>1512</td> <td>-31</td> <td>1425</td></tr>
 <tr> 
 <td>15</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3292339" target="X">Gadham,Aarya Subramanya</a></td> <td>3292339</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 2</td> <td> 1.0</td> <td>1484</td> <td>+0.00</td> <td>1484</td></tr>
 <tr> 
@@ -78,7 +80,7 @@
 <tr> 
 <td>18</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/profile/3278905" target="X">Husain,Lamiah</a></td> <td>3278905</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1487</td><td> 2</td> <td> 1.0</td> <td>1469</td> <td>-2</td> <td>1469</td></tr>
 <tr> 
-<td>19</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3286290" target="X">Das,Ayush</a></td> <td>3286290</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1435</td><td> 1</td> <td> 0.5</td> <td>1456</td> <td>1</td> <td>1456</td></tr>
+<td>19</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3286290" target="X">Das,Ayush</a></td> <td>3286290</td> <td> <img class="shadow" src="flag/aus.png" alt="aus"> </td> <td>1435</td><td> 2</td> <td> 1.0</td> <td>1461</td> <td>3</td> <td>1461</td></tr>
 <tr> 
 <td>20</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3286274" target="X">Bodke,Aryan</a></td> <td>3286274</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 3</td> <td> 1.0</td> <td>1478</td> <td>+0.00</td> <td>1353</td></tr>
 <tr> 
@@ -108,7 +110,7 @@
 <tr> 
 <td>35</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/0" target="X">Mo,Christopher</a></td> <td>0</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1465</td> <td>+0.00</td> <td> 665</td></tr>
 <tr> 
-<td>36</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3295338" target="X">Shayan,Ray</a></td> <td>3295338</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 2</td> <td> 0.0</td> <td>1473</td> <td>+0.00</td> <td> 673</td></tr>
+<td>36</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3295338" target="X">Shayan,Ray</a></td> <td>3295338</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 3</td> <td> 0.0</td> <td>1470</td> <td>+0.00</td> <td> 670</td></tr>
 <tr> 
 <td>37</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3291235" target="X">Tan,Lucas</a></td> <td>3291235</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 2</td> <td> 0.0</td> <td>1470</td> <td>+0.00</td> <td> 670</td></tr>
 <tr> 
