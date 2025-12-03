@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-01T08:48:41.125Z",
+  "generatedAt": "2025-12-02T23:06:16.472Z",
   "year": "2025",
   "count": 88,
   "totalTournaments": 31,
@@ -51,8 +51,8 @@
       "fideStandard": 0,
       "fideRapid": 0,
       "fideBlitz": 0,
-      "acfClassic": 1038,
-      "acfQuick": 889,
+      "acfClassic": 1058,
+      "acfQuick": 814,
       "acfId": "0012854"
     },
     {
@@ -123,8 +123,8 @@
       "fideStandard": 1483,
       "fideRapid": 1617,
       "fideBlitz": 1572,
-      "acfClassic": 1111,
-      "acfQuick": 954,
+      "acfClassic": 1127,
+      "acfQuick": 1045,
       "acfId": "3210254"
     },
     {
@@ -160,8 +160,8 @@
       "fideStandard": 2090,
       "fideRapid": 2023,
       "fideBlitz": 2216,
-      "acfClassic": 2169,
-      "acfQuick": 2238,
+      "acfClassic": 2124,
+      "acfQuick": 2139,
       "acfId": "3197035"
     },
     {
@@ -246,8 +246,8 @@
       "fideStandard": 1536,
       "fideRapid": 1676,
       "fideBlitz": 1721,
-      "acfClassic": 1267,
-      "acfQuick": 1436,
+      "acfClassic": 1216,
+      "acfQuick": 1336,
       "acfId": "3194401"
     },
     {
@@ -290,8 +290,8 @@
       "fideStandard": 1536,
       "fideRapid": 1512,
       "fideBlitz": 0,
-      "acfClassic": 1087,
-      "acfQuick": 822,
+      "acfClassic": 1047,
+      "acfQuick": 861,
       "acfId": "3204632"
     },
     {
@@ -341,8 +341,8 @@
       "fideStandard": 1529,
       "fideRapid": 1544,
       "fideBlitz": 1553,
-      "acfClassic": 1006,
-      "acfQuick": 741,
+      "acfClassic": 1025,
+      "acfQuick": 926,
       "acfId": "3209381"
     },
     {
@@ -399,8 +399,8 @@
       "fideStandard": 1427,
       "fideRapid": 0,
       "fideBlitz": 1494,
-      "acfClassic": 346,
-      "acfQuick": 440,
+      "acfClassic": 503,
+      "acfQuick": 439,
       "acfId": "3212435"
     },
     {
@@ -436,8 +436,8 @@
       "fideStandard": 0,
       "fideRapid": 0,
       "fideBlitz": 0,
-      "acfClassic": 0,
-      "acfQuick": 0,
+      "acfClassic": 445,
+      "acfQuick": 445,
       "acfId": "3219111"
     },
     {
@@ -543,7 +543,7 @@
         },
         {
           "tournament": "www2025HobsonsBayReservesChampionship/data.json",
-          "score": 5,
+          "score": 5.5,
           "name": "2025 Hobsons Bay Reserves Championship",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -564,18 +564,18 @@
         }
       ],
       "points": {
-        "standard": 22.5,
+        "standard": 23,
         "rapid": 6.5,
         "blitz": 18.5
       },
       "title": "",
-      "birthYear": 2010,
+      "birthYear": null,
       "fideStandard": 1755,
       "fideRapid": 1718,
       "fideBlitz": 1752,
-      "acfClassic": 1511,
-      "acfQuick": 1440,
-      "acfId": "3202576"
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
     },
     {
       "name": "Butler,Julian",
@@ -647,7 +647,7 @@
       "fideStandard": 0,
       "fideRapid": 0,
       "fideBlitz": 0,
-      "acfClassic": 239,
+      "acfClassic": 245,
       "acfQuick": 319,
       "acfId": "3201541"
     },
@@ -719,7 +719,7 @@
         },
         {
           "tournament": "www2025HobsonsBayReservesChampionship/data.json",
-          "score": 3,
+          "score": 4,
           "name": "2025 Hobsons Bay Reserves Championship",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -733,7 +733,7 @@
         }
       ],
       "points": {
-        "standard": 11.5,
+        "standard": 12.5,
         "rapid": 0,
         "blitz": 0
       },
@@ -742,8 +742,8 @@
       "fideStandard": 1462,
       "fideRapid": 0,
       "fideBlitz": 0,
-      "acfClassic": 1040,
-      "acfQuick": 1040,
+      "acfClassic": 977,
+      "acfQuick": 977,
       "acfId": "3161584"
     },
     {
@@ -821,7 +821,7 @@
       "fideStandard": 0,
       "fideRapid": 0,
       "fideBlitz": 0,
-      "acfClassic": 897,
+      "acfClassic": 802,
       "acfQuick": 414,
       "acfId": "3197665"
     },
@@ -886,7 +886,7 @@
       "fideStandard": 1486,
       "fideRapid": 1455,
       "fideBlitz": 1599,
-      "acfClassic": 1010,
+      "acfClassic": 990,
       "acfQuick": 853,
       "acfId": "3197676"
     },
@@ -944,7 +944,7 @@
         },
         {
           "tournament": "www2025HobsonsBayClubChampionship/data.json",
-          "score": 3.5,
+          "score": 4.5,
           "name": "2025 Hobsons Bay Club Championship",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -986,7 +986,7 @@
         }
       ],
       "points": {
-        "standard": 27.5,
+        "standard": 28.5,
         "rapid": 0,
         "blitz": 0
       },
@@ -995,7 +995,7 @@
       "fideStandard": 1883,
       "fideRapid": 1925,
       "fideBlitz": 1755,
-      "acfClassic": 1735,
+      "acfClassic": 1786,
       "acfQuick": 1319,
       "acfId": "3073264"
     },
@@ -1070,7 +1070,7 @@
       "fideRapid": 0,
       "fideBlitz": 1610,
       "acfClassic": 0,
-      "acfQuick": 1143,
+      "acfQuick": 1212,
       "acfId": "3201084"
     },
     {
@@ -1121,7 +1121,7 @@
       "fideRapid": 0,
       "fideBlitz": 1589,
       "acfClassic": 0,
-      "acfQuick": 100,
+      "acfQuick": 375,
       "acfId": "3214852"
     },
     {
@@ -1171,8 +1171,8 @@
       "fideStandard": 0,
       "fideRapid": 0,
       "fideBlitz": 0,
-      "acfClassic": 103,
-      "acfQuick": 264,
+      "acfClassic": 105,
+      "acfQuick": 190,
       "acfId": "3214863"
     },
     {
@@ -1215,8 +1215,8 @@
       "fideStandard": 1430,
       "fideRapid": 1401,
       "fideBlitz": 1443,
-      "acfClassic": 516,
-      "acfQuick": 564,
+      "acfClassic": 596,
+      "acfQuick": 612,
       "acfId": "3200270"
     },
     {
@@ -1250,7 +1250,7 @@
         },
         {
           "tournament": "www2025HobsonsBayReservesChampionship/data.json",
-          "score": 4.5,
+          "score": 5,
           "name": "2025 Hobsons Bay Reserves Championship",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -1264,7 +1264,7 @@
         }
       ],
       "points": {
-        "standard": 18,
+        "standard": 18.5,
         "rapid": 0,
         "blitz": 0
       },
@@ -1273,8 +1273,8 @@
       "fideStandard": 1864,
       "fideRapid": 1676,
       "fideBlitz": 0,
-      "acfClassic": 1542,
-      "acfQuick": 1293,
+      "acfClassic": 1572,
+      "acfQuick": 1296,
       "acfId": "3195311"
     },
     {
@@ -1294,14 +1294,14 @@
         },
         {
           "tournament": "www2025HobsonsBayReservesChampionship/data.json",
-          "score": 4,
+          "score": 5,
           "name": "2025 Hobsons Bay Reserves Championship",
           "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 8.5,
+        "standard": 9.5,
         "rapid": 0,
         "blitz": 0
       },
@@ -1310,8 +1310,8 @@
       "fideStandard": 1882,
       "fideRapid": 0,
       "fideBlitz": 0,
-      "acfClassic": 1832,
-      "acfQuick": 1832,
+      "acfClassic": 1694,
+      "acfQuick": 1694,
       "acfId": "3121094"
     },
     {
@@ -1345,7 +1345,7 @@
         },
         {
           "tournament": "www2025HobsonsBayClubChampionship/data.json",
-          "score": 2,
+          "score": 2.5,
           "name": "2025 Hobsons Bay Club Championship",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -1401,7 +1401,7 @@
         }
       ],
       "points": {
-        "standard": 18.5,
+        "standard": 19,
         "rapid": 6,
         "blitz": 10.5
       },
@@ -1410,8 +1410,8 @@
       "fideStandard": 1652,
       "fideRapid": 1659,
       "fideBlitz": 1741,
-      "acfClassic": 1385,
-      "acfQuick": 1229,
+      "acfClassic": 1405,
+      "acfQuick": 1138,
       "acfId": "3112941"
     },
     {
@@ -1496,7 +1496,7 @@
       "fideStandard": 1934,
       "fideRapid": 1976,
       "fideBlitz": 2001,
-      "acfClassic": 1834,
+      "acfClassic": 1814,
       "acfQuick": 1936,
       "acfId": "3093306"
     },
@@ -1554,8 +1554,8 @@
       "fideStandard": 1588,
       "fideRapid": 1550,
       "fideBlitz": 1637,
-      "acfClassic": 1000,
-      "acfQuick": 953,
+      "acfClassic": 936,
+      "acfQuick": 895,
       "acfId": "3204621"
     },
     {
@@ -1591,8 +1591,8 @@
       "fideStandard": 1467,
       "fideRapid": 1467,
       "fideBlitz": 1523,
-      "acfClassic": 305,
-      "acfQuick": 484,
+      "acfClassic": 456,
+      "acfQuick": 580,
       "acfId": "3209576"
     },
     {
@@ -1679,8 +1679,8 @@
       "fideStandard": 1444,
       "fideRapid": 1557,
       "fideBlitz": 1518,
-      "acfClassic": 859,
-      "acfQuick": 664,
+      "acfClassic": 792,
+      "acfQuick": 711,
       "acfId": "3206253"
     },
     {
@@ -1717,7 +1717,7 @@
       "fideRapid": 1808,
       "fideBlitz": 1681,
       "acfClassic": 1637,
-      "acfQuick": 1426,
+      "acfQuick": 1448,
       "acfId": "5207836"
     },
     {
@@ -1753,8 +1753,8 @@
       "fideStandard": 1462,
       "fideRapid": 1468,
       "fideBlitz": 1500,
-      "acfClassic": 744,
-      "acfQuick": 700,
+      "acfClassic": 718,
+      "acfQuick": 882,
       "acfId": "3214874"
     },
     {
@@ -1798,7 +1798,7 @@
       "fideRapid": 0,
       "fideBlitz": 0,
       "acfClassic": 100,
-      "acfQuick": 267,
+      "acfQuick": 161,
       "acfId": "3212096"
     },
     {
@@ -1834,8 +1834,8 @@
       "fideStandard": 1597,
       "fideRapid": 1599,
       "fideBlitz": 0,
-      "acfClassic": 1223,
-      "acfQuick": 1223,
+      "acfClassic": 1239,
+      "acfQuick": 1239,
       "acfId": "3078341"
     },
     {
@@ -1862,7 +1862,7 @@
         },
         {
           "tournament": "www2025HobsonsBayReservesChampionship/data.json",
-          "score": 2,
+          "score": 3,
           "name": "2025 Hobsons Bay Reserves Championship",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -1876,7 +1876,7 @@
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 8,
         "rapid": 0,
         "blitz": 0
       },
@@ -1957,7 +1957,7 @@
       "fideStandard": 1858,
       "fideRapid": 1808,
       "fideBlitz": 1794,
-      "acfClassic": 1733,
+      "acfClassic": 1703,
       "acfQuick": 1083,
       "acfId": "3200222"
     },
@@ -2101,8 +2101,8 @@
       "fideStandard": 2020,
       "fideRapid": 1918,
       "fideBlitz": 1979,
-      "acfClassic": 1688,
-      "acfQuick": 1831,
+      "acfClassic": 1795,
+      "acfQuick": 1958,
       "acfId": "3202532"
     },
     {
@@ -2183,7 +2183,7 @@
       "fideRapid": 1528,
       "fideBlitz": 1430,
       "acfClassic": 1039,
-      "acfQuick": 884,
+      "acfQuick": 1041,
       "acfId": "3201585"
     },
     {
@@ -2219,8 +2219,8 @@
       "fideStandard": 1565,
       "fideRapid": 1468,
       "fideBlitz": 1658,
-      "acfClassic": 1004,
-      "acfQuick": 807,
+      "acfClassic": 1081,
+      "acfQuick": 823,
       "acfId": "3206264"
     },
     {
@@ -2264,7 +2264,7 @@
       "fideRapid": 0,
       "fideBlitz": 1481,
       "acfClassic": 1502,
-      "acfQuick": 696,
+      "acfQuick": 500,
       "acfId": "5193852"
     },
     {
@@ -2298,7 +2298,7 @@
         },
         {
           "tournament": "www2025HobsonsBayReservesChampionship/data.json",
-          "score": 3.5,
+          "score": 4.5,
           "name": "2025 Hobsons Bay Reserves Championship",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -2312,7 +2312,7 @@
         }
       ],
       "points": {
-        "standard": 12.5,
+        "standard": 13.5,
         "rapid": 2.5,
         "blitz": 0
       },
@@ -2321,8 +2321,8 @@
       "fideStandard": 1617,
       "fideRapid": 1588,
       "fideBlitz": 0,
-      "acfClassic": 1364,
-      "acfQuick": 1364,
+      "acfClassic": 1400,
+      "acfQuick": 1289,
       "acfId": "3194880"
     },
     {
@@ -2379,7 +2379,7 @@
       "fideStandard": 1754,
       "fideRapid": 0,
       "fideBlitz": 0,
-      "acfClassic": 1555,
+      "acfClassic": 1542,
       "acfQuick": 849,
       "acfId": "3176061"
     },
@@ -2442,7 +2442,7 @@
         },
         {
           "tournament": "www2025HobsonsBayReservesChampionship/data.json",
-          "score": 3,
+          "score": 4,
           "name": "2025 Hobsons Bay Reserves Championship",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -2463,7 +2463,7 @@
         }
       ],
       "points": {
-        "standard": 16,
+        "standard": 17,
         "rapid": 6.5,
         "blitz": 16
       },
@@ -2473,7 +2473,7 @@
       "fideRapid": 1592,
       "fideBlitz": 1582,
       "acfClassic": 1275,
-      "acfQuick": 1058,
+      "acfQuick": 1041,
       "acfId": "3191633"
     },
     {
@@ -2516,8 +2516,8 @@
       "fideStandard": 1553,
       "fideRapid": 1434,
       "fideBlitz": 1528,
-      "acfClassic": 692,
-      "acfQuick": 638,
+      "acfClassic": 766,
+      "acfQuick": 637,
       "acfId": "3217486"
     },
     {
@@ -2554,7 +2554,7 @@
       "fideRapid": 1467,
       "fideBlitz": 1688,
       "acfClassic": 1038,
-      "acfQuick": 883,
+      "acfQuick": 783,
       "acfId": "3212170"
     },
     {
@@ -2639,8 +2639,8 @@
       "fideStandard": 1986,
       "fideRapid": 1863,
       "fideBlitz": 1834,
-      "acfClassic": 1706,
-      "acfQuick": 1593,
+      "acfClassic": 1778,
+      "acfQuick": 1623,
       "acfId": "3206205"
     },
     {
@@ -2690,7 +2690,7 @@
       "fideStandard": 1473,
       "fideRapid": 0,
       "fideBlitz": 1528,
-      "acfClassic": 698,
+      "acfClassic": 736,
       "acfQuick": 757,
       "acfId": "3207340"
     },
@@ -2746,7 +2746,7 @@
         },
         {
           "tournament": "www2025HobsonsBayReservesChampionship/data.json",
-          "score": 1.5,
+          "score": 2.5,
           "name": "2025 Hobsons Bay Reserves Championship",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -2760,7 +2760,7 @@
         }
       ],
       "points": {
-        "standard": 12,
+        "standard": 13,
         "rapid": 3.5,
         "blitz": 0
       },
@@ -2769,8 +2769,8 @@
       "fideStandard": 1480,
       "fideRapid": 1446,
       "fideBlitz": 0,
-      "acfClassic": 713,
-      "acfQuick": 713,
+      "acfClassic": 756,
+      "acfQuick": 756,
       "acfId": "3207782"
     },
     {
@@ -2839,7 +2839,7 @@
         },
         {
           "tournament": "www2025HobsonsBayReservesChampionship/data.json",
-          "score": 5,
+          "score": 5.5,
           "name": "2025 Hobsons Bay Reserves Championship",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -2853,7 +2853,7 @@
         }
       ],
       "points": {
-        "standard": 23,
+        "standard": 23.5,
         "rapid": 3,
         "blitz": 10
       },
@@ -2862,8 +2862,8 @@
       "fideStandard": 1682,
       "fideRapid": 1641,
       "fideBlitz": 1610,
-      "acfClassic": 1443,
-      "acfQuick": 1225,
+      "acfClassic": 1440,
+      "acfQuick": 1283,
       "acfId": "3127464"
     },
     {
@@ -2899,8 +2899,8 @@
       "fideStandard": 0,
       "fideRapid": 0,
       "fideBlitz": 1518,
-      "acfClassic": 453,
-      "acfQuick": 453,
+      "acfClassic": 542,
+      "acfQuick": 439,
       "acfId": "3219984"
     },
     {
@@ -2936,8 +2936,8 @@
       "fideStandard": 1646,
       "fideRapid": 1787,
       "fideBlitz": 1745,
-      "acfClassic": 1413,
-      "acfQuick": 1373,
+      "acfClassic": 1470,
+      "acfQuick": 1771,
       "acfId": "3209484"
     },
     {
@@ -3001,8 +3001,8 @@
       "fideStandard": 1666,
       "fideRapid": 0,
       "fideBlitz": 0,
-      "acfClassic": 1458,
-      "acfQuick": 1458,
+      "acfClassic": 1456,
+      "acfQuick": 1456,
       "acfId": "3194935"
     },
     {
@@ -3057,7 +3057,7 @@
         },
         {
           "tournament": "www2025HobsonsBayReservesChampionship/data.json",
-          "score": 4,
+          "score": 4.5,
           "name": "2025 Hobsons Bay Reserves Championship",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -3078,7 +3078,7 @@
         }
       ],
       "points": {
-        "standard": 15.5,
+        "standard": 16,
         "rapid": 4,
         "blitz": 6.5
       },
@@ -3087,8 +3087,8 @@
       "fideStandard": 1761,
       "fideRapid": 1719,
       "fideBlitz": 1735,
-      "acfClassic": 1610,
-      "acfQuick": 1254,
+      "acfClassic": 1599,
+      "acfQuick": 1141,
       "acfId": "3194913"
     },
     {
@@ -3138,7 +3138,7 @@
       "fideStandard": 1658,
       "fideRapid": 0,
       "fideBlitz": 1679,
-      "acfClassic": 1463,
+      "acfClassic": 1426,
       "acfQuick": 966,
       "acfId": "3200244"
     },
@@ -3224,8 +3224,8 @@
       "fideStandard": 1610,
       "fideRapid": 1624,
       "fideBlitz": 1627,
-      "acfClassic": 1449,
-      "acfQuick": 1437,
+      "acfClassic": 1395,
+      "acfQuick": 1130,
       "acfId": "5206812"
     },
     {
@@ -3289,8 +3289,8 @@
       "fideStandard": 1660,
       "fideRapid": 1714,
       "fideBlitz": 1718,
-      "acfClassic": 1274,
-      "acfQuick": 1287,
+      "acfClassic": 1324,
+      "acfQuick": 1304,
       "acfId": "3206231"
     },
     {
@@ -3333,7 +3333,7 @@
       "fideStandard": 1540,
       "fideRapid": 1625,
       "fideBlitz": 1618,
-      "acfClassic": 1174,
+      "acfClassic": 1191,
       "acfQuick": 989,
       "acfId": "3217416"
     },
@@ -3466,7 +3466,7 @@
       "fideRapid": 1635,
       "fideBlitz": 1804,
       "acfClassic": 1471,
-      "acfQuick": 1192,
+      "acfQuick": 1124,
       "acfId": "6253062"
     },
     {
@@ -3516,8 +3516,8 @@
       "fideStandard": 1434,
       "fideRapid": 1492,
       "fideBlitz": 1537,
-      "acfClassic": 795,
-      "acfQuick": 794,
+      "acfClassic": 849,
+      "acfQuick": 756,
       "acfId": "3203980"
     },
     {
@@ -3554,7 +3554,7 @@
       "fideRapid": 1452,
       "fideBlitz": 1616,
       "acfClassic": 827,
-      "acfQuick": 982,
+      "acfQuick": 869,
       "acfId": "3203991"
     },
     {
@@ -3676,8 +3676,8 @@
       "fideStandard": 1430,
       "fideRapid": 0,
       "fideBlitz": 1540,
-      "acfClassic": 539,
-      "acfQuick": 578,
+      "acfClassic": 617,
+      "acfQuick": 665,
       "acfId": "3217011"
     },
     {
@@ -3711,7 +3711,7 @@
         },
         {
           "tournament": "www2025HobsonsBayReservesChampionship/data.json",
-          "score": 2,
+          "score": 3,
           "name": "2025 Hobsons Bay Reserves Championship",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -3725,7 +3725,7 @@
         }
       ],
       "points": {
-        "standard": 5.5,
+        "standard": 6.5,
         "rapid": 1,
         "blitz": 2
       },
@@ -3735,7 +3735,7 @@
       "fideRapid": 0,
       "fideBlitz": 0,
       "acfClassic": 0,
-      "acfQuick": 0,
+      "acfQuick": 115,
       "acfId": "3220485"
     },
     {
@@ -3771,8 +3771,8 @@
       "fideStandard": 0,
       "fideRapid": 0,
       "fideBlitz": 0,
-      "acfClassic": 505,
-      "acfQuick": 551,
+      "acfClassic": 500,
+      "acfQuick": 627,
       "acfId": "0013284"
     },
     {
@@ -3822,8 +3822,8 @@
       "fideStandard": 1512,
       "fideRapid": 1503,
       "fideBlitz": 1496,
-      "acfClassic": 698,
-      "acfQuick": 559,
+      "acfClassic": 744,
+      "acfQuick": 620,
       "acfId": "3204735"
     },
     {
@@ -3874,7 +3874,7 @@
       "fideRapid": 0,
       "fideBlitz": 1448,
       "acfClassic": 401,
-      "acfQuick": 508,
+      "acfQuick": 503,
       "acfId": "3217022"
     },
     {
@@ -3917,7 +3917,7 @@
       "fideStandard": 1704,
       "fideRapid": 0,
       "fideBlitz": 0,
-      "acfClassic": 1523,
+      "acfClassic": 1530,
       "acfQuick": 1624,
       "acfId": "3096051"
     },
@@ -3955,7 +3955,7 @@
       "fideRapid": 1614,
       "fideBlitz": 1501,
       "acfClassic": 1110,
-      "acfQuick": 1030,
+      "acfQuick": 1097,
       "acfId": "3169600"
     },
     {
@@ -4003,14 +4003,14 @@
         },
         {
           "tournament": "www2025HobsonsBayReservesChampionship/data.json",
-          "score": 2.5,
+          "score": 3.5,
           "name": "2025 Hobsons Bay Reserves Championship",
           "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 9,
+        "standard": 10,
         "rapid": 7,
         "blitz": 6
       },
@@ -4019,8 +4019,8 @@
       "fideStandard": 1460,
       "fideRapid": 1521,
       "fideBlitz": 1578,
-      "acfClassic": 1099,
-      "acfQuick": 1160,
+      "acfClassic": 1112,
+      "acfQuick": 1163,
       "acfId": "3211466"
     },
     {
@@ -4144,8 +4144,8 @@
       "fideStandard": 1554,
       "fideRapid": 1446,
       "fideBlitz": 1706,
-      "acfClassic": 685,
-      "acfQuick": 551,
+      "acfClassic": 786,
+      "acfQuick": 691,
       "acfId": "3218676"
     },
     {
@@ -4182,7 +4182,7 @@
       "fideRapid": 0,
       "fideBlitz": 1602,
       "acfClassic": 0,
-      "acfQuick": 0,
+      "acfQuick": 494,
       "acfId": "0014614"
     },
     {
@@ -4218,8 +4218,8 @@
       "fideStandard": 1600,
       "fideRapid": 1660,
       "fideBlitz": 1601,
-      "acfClassic": 931,
-      "acfQuick": 1033,
+      "acfClassic": 997,
+      "acfQuick": 1251,
       "acfId": "3204083"
     },
     {
@@ -4246,7 +4246,7 @@
         },
         {
           "tournament": "www2025HobsonsBayClubChampionship/data.json",
-          "score": 3,
+          "score": 3.5,
           "name": "2025 Hobsons Bay Club Championship",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -4295,7 +4295,7 @@
         }
       ],
       "points": {
-        "standard": 23,
+        "standard": 23.5,
         "rapid": 0,
         "blitz": 11.5
       },
@@ -4304,7 +4304,7 @@
       "fideStandard": 1725,
       "fideRapid": 0,
       "fideBlitz": 1745,
-      "acfClassic": 1495,
+      "acfClassic": 1504,
       "acfQuick": 1441,
       "acfId": "3137603"
     },
@@ -4383,7 +4383,7 @@
       "fideStandard": 1469,
       "fideRapid": 0,
       "fideBlitz": 1497,
-      "acfClassic": 1126,
+      "acfClassic": 1072,
       "acfQuick": 585,
       "acfId": "3200620"
     },
@@ -4434,7 +4434,7 @@
       "fideStandard": 1711,
       "fideRapid": 1585,
       "fideBlitz": 1647,
-      "acfClassic": 1497,
+      "acfClassic": 1486,
       "acfQuick": 1487,
       "acfId": "4578871"
     },
@@ -4448,7 +4448,7 @@
       "tournaments": [
         {
           "tournament": "www2025HobsonsBayClubChampionship/data.json",
-          "score": 1.5,
+          "score": 3.5,
           "name": "2025 Hobsons Bay Club Championship",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -4490,7 +4490,7 @@
         }
       ],
       "points": {
-        "standard": 21.5,
+        "standard": 23.5,
         "rapid": 0,
         "blitz": 0
       },
@@ -4499,7 +4499,7 @@
       "fideStandard": 0,
       "fideRapid": 0,
       "fideBlitz": 1651,
-      "acfClassic": 1632,
+      "acfClassic": 1593,
       "acfQuick": 1692,
       "acfId": "2454845"
     },
@@ -4550,7 +4550,7 @@
       "fideStandard": 1582,
       "fideRapid": 1475,
       "fideBlitz": 1564,
-      "acfClassic": 1226,
+      "acfClassic": 1243,
       "acfQuick": 1118,
       "acfId": "3210840"
     },
@@ -4594,7 +4594,7 @@
       "fideStandard": 1528,
       "fideRapid": 0,
       "fideBlitz": 0,
-      "acfClassic": 445,
+      "acfClassic": 465,
       "acfQuick": 370,
       "acfId": "3217453"
     },
@@ -4683,7 +4683,7 @@
       "fideRapid": 1630,
       "fideBlitz": 1638,
       "acfClassic": 1108,
-      "acfQuick": 1211,
+      "acfQuick": 1038,
       "acfId": "3202252"
     }
   ]
