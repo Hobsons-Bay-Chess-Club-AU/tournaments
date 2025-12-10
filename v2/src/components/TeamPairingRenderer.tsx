@@ -148,3 +148,4 @@ const TeamPairingRenderer: React.FC<TeamPairingRendererProps> = ({ data }) => {
 };
 
 export default TeamPairingRenderer;
+
