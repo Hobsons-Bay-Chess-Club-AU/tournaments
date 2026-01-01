@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-14T23:57:09.240Z",
+  "generatedAt": "2026-01-01T08:38:30.513Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 5",
@@ -4926,7 +4926,7 @@
               "T": "",
               "NAME": "Bo,Jamie",
               "Rtg": "277",
-              "U": "U10",
+              "U": "U12",
               "Pts": "1.0",
               "BH": "14.5",
               "BH-C1": "13.0",
@@ -5004,6 +5004,18 @@
             },
             {
               "Pos": "2",
+              "N": "6",
+              "T": "",
+              "NAME": "Ashok,Arjun",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "3.0",
+              "BH": "15.0",
+              "BH-C1": "12.0",
+              "Reward": "🥈 1st runner up"
+            },
+            {
+              "Pos": "3",
               "N": "10",
               "T": "",
               "NAME": "Luan,William",
@@ -5012,10 +5024,10 @@
               "Pts": "3.0",
               "BH": "12.5",
               "BH-C1": "11.0",
-              "Reward": "🥈 1st runner up"
+              "Reward": "🥉 2nd runner up"
             },
             {
-              "Pos": "3",
+              "Pos": "4",
               "N": "8",
               "T": "",
               "NAME": "Bodke,Aryan",
@@ -5024,10 +5036,22 @@
               "Pts": "2.5",
               "BH": "11.5",
               "BH-C1": "10.5",
-              "Reward": "🥉 2nd runner up"
+              "Reward": ""
             },
             {
-              "Pos": "4",
+              "Pos": "5",
+              "N": "13",
+              "T": "",
+              "NAME": "Singh,Abhyuday",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "2.0",
+              "BH": "15.0",
+              "BH-C1": "14.0",
+              "Reward": ""
+            },
+            {
+              "Pos": "6",
               "N": "12",
               "T": "",
               "NAME": "Shenbaga,Kabilan",
@@ -5036,6 +5060,18 @@
               "Pts": "2.0",
               "BH": "11.5",
               "BH-C1": "9.5",
+              "Reward": ""
+            },
+            {
+              "Pos": "7",
+              "N": "5",
+              "T": "",
+              "NAME": "Amutha Raja,Nalan",
+              "Rtg": "0",
+              "U": "U12",
+              "Pts": "1.5",
+              "BH": "9.5",
+              "BH-C1": "8.5",
               "Reward": ""
             }
           ]
@@ -5086,30 +5122,6 @@
           "rows": [
             {
               "Pos": "1",
-              "N": "6",
-              "T": "",
-              "NAME": "Ashok,Arjun",
-              "Rtg": "0",
-              "U": "U10",
-              "Pts": "3.0",
-              "BH": "15.0",
-              "BH-C1": "12.0",
-              "Reward": "🏆 Winner"
-            },
-            {
-              "Pos": "2",
-              "N": "13",
-              "T": "",
-              "NAME": "Singh,Abhyuday",
-              "Rtg": "0",
-              "U": "U10",
-              "Pts": "2.0",
-              "BH": "15.0",
-              "BH-C1": "14.0",
-              "Reward": "🥈 1st runner up"
-            },
-            {
-              "Pos": "3",
               "N": "1",
               "T": "",
               "NAME": "Bo,Jeremie",
@@ -5118,19 +5130,7 @@
               "Pts": "2.0",
               "BH": "11.5",
               "BH-C1": "10.5",
-              "Reward": "🥉 2nd runner up"
-            },
-            {
-              "Pos": "4",
-              "N": "5",
-              "T": "",
-              "NAME": "Amutha Raja,Nalan",
-              "Rtg": "0",
-              "U": "U10",
-              "Pts": "1.5",
-              "BH": "9.5",
-              "BH-C1": "8.5",
-              "Reward": ""
+              "Reward": "🏆 Winner"
             }
           ]
         },
@@ -5253,7 +5253,7 @@
               "T": "",
               "NAME": "Ashok,Arjun",
               "Rtg": "0",
-              "U": "U10",
+              "U": "U12",
               "Pts": "3.0",
               "BH": "15.0",
               "BH-C1": "12.0",
@@ -5289,7 +5289,7 @@
               "T": "",
               "NAME": "Singh,Abhyuday",
               "Rtg": "0",
-              "U": "U10",
+              "U": "U12",
               "Pts": "2.0",
               "BH": "15.0",
               "BH-C1": "14.0",
@@ -5313,7 +5313,7 @@
               "T": "",
               "NAME": "Amutha Raja,Nalan",
               "Rtg": "0",
-              "U": "U10",
+              "U": "U12",
               "Pts": "1.5",
               "BH": "9.5",
               "BH-C1": "8.5",
@@ -7868,5 +7868,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "7f327d2d0de27c6ac679337530ba77e2"
+  "md5Hash": "a4bcfeb2e2582ebc850a78324b9e409c"
 }
