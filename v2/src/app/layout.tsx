@@ -40,19 +40,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <div className="bg-gradient-to-br from-blue-50 to-blue-200 min-h-screen font-sans">
+        <div className="bg-gradient-to-br from-primary-50 to-primary-200 min-h-screen font-sans">
           <header className="relative bg-white shadow flex items-center justify-between px-2 md:px-6 py-4">
             <div className="flex items-center gap-4">
               <Link href="/" className="flex items-center gap-4">
-                <Image src="/Logo.png" alt="HBCC Logo" width={40} height={40} className="rounded-full border border-blue-300" />
-                <span className="text-xl md:text-2xl font-bold text-blue-700 tracking-wide">Hobsons Bay Chess Club</span>
+                <Image src="/LogoV1.png" alt="HBCC Logo" width={40} height={40} className="rounded-full border border-primary-600" />
+                <span className="text-xl md:text-2xl font-bold text-primary-700 tracking-wide">Hobsons Bay Chess Club</span>
               </Link>
             </div>
             <nav className="hidden md:flex items-center gap-6">
-              <Link href="/" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">
+              <Link href="/" className="text-gray-600 hover:text-primary-600 font-medium transition-colors">
                 Tournaments
               </Link>
-              <Link href="/leaderboard" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">
+              <Link href="/leaderboard" className="text-gray-600 hover:text-primary-600 font-medium transition-colors">
                 Leaderboards
               </Link>
             </nav>
@@ -66,11 +66,11 @@ export default function RootLayout({
                   &copy; {new Date().getFullYear()} Hobsons Bay Chess Club. All rights reserved.
                 </div>
                 <div className="flex items-center gap-4 text-center sm:text-right">
-                  <a href="https://hobsonsbaychess.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-medium">Website</a>
+                  <a href="https://hobsonsbaychess.com/" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-800 font-medium">Website</a>
                   <span className="text-gray-300">|</span>
-                  <a href="https://games.hobsonsbaychess.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-medium">Games database</a>
+                  <a href="https://games.hobsonsbaychess.com/" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-800 font-medium">Games database</a>
                   <span className="text-gray-300">|</span>
-                  <a href="https://live.hobsonsbaychess.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-medium">Live Broadcast</a>
+                  <a href="https://live.hobsonsbaychess.com/" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-800 font-medium">Live Broadcast</a>
                 </div>
               </div>
               <div className="text-center text-gray-400 text-xs pt-3">

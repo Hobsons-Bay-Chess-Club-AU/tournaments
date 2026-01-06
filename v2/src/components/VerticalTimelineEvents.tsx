@@ -71,7 +71,7 @@ export default function VerticalTimelineEvents({ events }: { events: TimelineEve
                 {categories.map((cat: string) => (
                     <button
                         key={cat}
-                        className={`px-3 py-1 rounded-full text-xs font-semibold border ${filterCategory === cat ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'} transition-colors`}
+                        className={`px-3 py-1 rounded-full text-xs font-semibold border ${filterCategory === cat ? 'bg-primary-600 text-white' : 'bg-gray-200 text-gray-800'} transition-colors`}
                         onClick={() => handleChipClick(cat)}
                     >
                         {cat.charAt(0).toUpperCase() + cat.slice(1)}
@@ -118,7 +118,7 @@ export default function VerticalTimelineEvents({ events }: { events: TimelineEve
                                 <div className="mb-2 flex gap-2 flex-wrap">
                                     {/* Category chip */}
                                     <span
-                                        className={`inline-block px-2 py-0.5 rounded-full text-xs font-semibold border cursor-pointer ${filterCategory === event.category ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'}`}
+                                        className={`inline-block px-2 py-0.5 rounded-full text-xs font-semibold border cursor-pointer ${filterCategory === event.category ? 'bg-primary-600 text-white' : 'bg-gray-200 text-gray-800'}`}
                                         onClick={() => handleChipClick(event.category)}
                                     >
                                         {event.category.charAt(0).toUpperCase() + event.category.slice(1)}
@@ -149,7 +149,7 @@ export default function VerticalTimelineEvents({ events }: { events: TimelineEve
                                 <div className="flex justify-end mt-2">
                                     <a
                                         href={`${origin}/${event.url}`}
-                                        className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-semibold border border-blue-600 bg-white text-blue-600 hover:bg-blue-50 transition-colors shadow-sm"
+                                        className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-semibold border border-primary-600 bg-white text-primary-600 hover:bg-primary-50 transition-colors shadow-sm"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >

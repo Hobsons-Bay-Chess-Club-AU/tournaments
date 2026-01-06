@@ -21,7 +21,7 @@ export default function MobileNav() {
       <button
         aria-label="Toggle navigation menu"
         onClick={() => setOpen(!open)}
-        className="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-blue-600 hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-400"
+        className="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-primary-600 hover:bg-primary-50 focus:outline-none focus:ring-2 focus:ring-primary-600"
       >
         <svg
           className={`h-6 w-6 transition-transform ${open ? "rotate-90" : "rotate-0"}`}
@@ -44,14 +44,14 @@ export default function MobileNav() {
           <nav className="px-4 py-3 space-y-2">
             <Link
               href="/"
-              className="block w-full px-3 py-2 rounded-md text-gray-700 hover:bg-blue-50 hover:text-blue-700 font-medium"
+              className="block w-full px-3 py-2 rounded-md text-gray-700 hover:bg-primary-50 hover:text-primary-700 font-medium"
               onClick={() => setOpen(false)}
             >
               Tournaments
             </Link>
             <Link
               href="/leaderboard"
-              className="block w-full px-3 py-2 rounded-md text-gray-700 hover:bg-blue-50 hover:text-blue-700 font-medium"
+              className="block w-full px-3 py-2 rounded-md text-gray-700 hover:bg-primary-50 hover:text-primary-700 font-medium"
               onClick={() => setOpen(false)}
             >
               Leaderboards

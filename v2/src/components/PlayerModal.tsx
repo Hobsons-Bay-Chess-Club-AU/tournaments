@@ -65,9 +65,9 @@ export default function PlayerModal({ player, onClose }: PlayerModalProps) {
       <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" onClick={onClose} />
 
       <div className="relative pb-5 z-10 w-[96%] max-w-5xl rounded-2xl bg-white shadow-2xl border border-gray-200 my-6 max-h-[90vh] overflow-y-auto">
-        <div className="flex items-start justify-between p-5 border-b border-gray-100 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-t-2xl">
+        <div className="flex items-start justify-between p-5 border-b border-gray-100 bg-gradient-to-r from-primary-50 to-primary-100 rounded-t-2xl">
           <div className="flex items-start gap-3">
-            <div className="mt-0.5 h-10 w-10 rounded-full bg-gradient-to-br from-indigo-100 to-blue-100 flex items-center justify-center text-indigo-700 shadow-inner">
+            <div className="mt-0.5 h-10 w-10 rounded-full bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center text-primary-700 shadow-inner">
               <FaUser />
             </div>
             <div>
@@ -77,7 +77,7 @@ export default function PlayerModal({ player, onClose }: PlayerModalProps) {
                     href={`https://ratings.fide.com/profile/${player.fideId}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:text-blue-600 hover:underline transition-colors"
+                    className="hover:text-primary-600 hover:underline transition-colors"
                   >
                     {player.name}
                   </a>
@@ -85,7 +85,7 @@ export default function PlayerModal({ player, onClose }: PlayerModalProps) {
                   player.name
                 )}
                 {player.title && (
-                  <span className="ml-1 text-xs px-2 py-0.5 rounded-full bg-blue-100 text-blue-700 font-semibold">
+                  <span className="ml-1 text-xs px-2 py-0.5 rounded-full bg-primary-100 text-primary-700 font-semibold">
                     {player.title}
                   </span>
                 )}
@@ -114,7 +114,7 @@ export default function PlayerModal({ player, onClose }: PlayerModalProps) {
 
         <div className="p-3 md:p-5 grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="md:col-span-1">
-            
+
             <div className="mt-1 md:mt-4 text-sm">
               <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
                 <div className="inline-flex items-center gap-2">
@@ -124,7 +124,7 @@ export default function PlayerModal({ player, onClose }: PlayerModalProps) {
                       href={`https://ratings.fide.com/profile/${player.fideId}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-blue-600 hover:text-blue-800 hover:underline"
+                      className="text-primary-600 hover:text-primary-800 hover:underline"
                     >
                       {player.fideId}
                     </a>
@@ -151,17 +151,16 @@ export default function PlayerModal({ player, onClose }: PlayerModalProps) {
                   {ratingTypes.map((ratingType) => {
                     const IconComponent = ratingType.icon;
                     const colorClasses: Record<string, string> = {
-                      blue: 'bg-blue-100 text-blue-700 border-blue-200',
+                      blue: 'bg-primary-100 text-primary-700 border-primary-200',
                       green: 'bg-green-100 text-green-700 border-green-200',
                       orange: 'bg-orange-100 text-orange-700 border-orange-200'
                     };
-                    
+
                     return (
                       <div
                         key={ratingType.type}
-                        className={`flex items-center gap-2 px-3 py-2 rounded-lg border font-semibold text-sm flex-1 ${
-                          colorClasses[ratingType.color]
-                        }`}
+                        className={`flex items-center gap-2 px-3 py-2 rounded-lg border font-semibold text-sm flex-1 ${colorClasses[ratingType.color]
+                          }`}
                       >
                         <IconComponent className="opacity-80" />
                         <div className="text-center flex-1">
@@ -183,42 +182,41 @@ export default function PlayerModal({ player, onClose }: PlayerModalProps) {
             {player.tournaments && player.tournaments.length > 0 && (
               <div className="mt-4 space-y-2 text-sm">
                 <div className="text-gray-500 font-medium">Tournaments</div>
-                  <div className="space-y-2">
-                    {player.tournaments.slice(0, 5).map((tournament, index) => (
-                      <div key={index} className="flex items-start justify-between p-2 bg-gray-50 rounded-lg border border-gray-100">
-                        <div className="flex-1 mr-3">
-                          <div className="text-gray-800 font-medium text-sm leading-tight">
-                            {tournament.name}
-                          </div>
-                          <div className="text-xs text-gray-500 mt-1">
-                            {tournament.totalRounds} rounds
-                          </div>
+                <div className="space-y-2">
+                  {player.tournaments.slice(0, 5).map((tournament, index) => (
+                    <div key={index} className="flex items-start justify-between p-2 bg-gray-50 rounded-lg border border-gray-100">
+                      <div className="flex-1 mr-3">
+                        <div className="text-gray-800 font-medium text-sm leading-tight">
+                          {tournament.name}
                         </div>
-                        <div className="flex items-center gap-2 flex-shrink-0">
-                          <span className={`px-2 py-1 rounded-full text-xs font-semibold ${
-                            tournament.ratingType === 'blitz' ? 'bg-orange-100 text-orange-700 border border-orange-200' :
+                        <div className="text-xs text-gray-500 mt-1">
+                          {tournament.totalRounds} rounds
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-2 flex-shrink-0">
+                        <span className={`px-2 py-1 rounded-full text-xs font-semibold ${tournament.ratingType === 'blitz' ? 'bg-orange-100 text-orange-700 border border-orange-200' :
                             tournament.ratingType === 'rapid' ? 'bg-green-100 text-green-700 border border-green-200' :
-                            'bg-blue-100 text-blue-700 border border-blue-200'
+                              'bg-primary-100 text-primary-700 border border-primary-200'
                           }`}>
-                            {tournament.ratingType}
-                          </span>
-                          <div className="text-center">
-                            <div className="text-sm font-bold text-gray-900">
-                              {tournament.score}
-                            </div>
-                            <div className="text-xs text-gray-500">
-                              pts
-                            </div>
+                          {tournament.ratingType}
+                        </span>
+                        <div className="text-center">
+                          <div className="text-sm font-bold text-gray-900">
+                            {tournament.score}
+                          </div>
+                          <div className="text-xs text-gray-500">
+                            pts
                           </div>
                         </div>
                       </div>
-                    ))}
-                    {player.tournaments.length > 5 && (
-                      <div className="text-xs text-gray-500 italic text-center py-2 bg-gray-50 rounded-lg border border-gray-100">
-                        +{player.tournaments.length - 5} more tournaments
-                      </div>
-                    )}
-                  </div>
+                    </div>
+                  ))}
+                  {player.tournaments.length > 5 && (
+                    <div className="text-xs text-gray-500 italic text-center py-2 bg-gray-50 rounded-lg border border-gray-100">
+                      +{player.tournaments.length - 5} more tournaments
+                    </div>
+                  )}
+                </div>
               </div>
             )}
           </div>
@@ -268,29 +266,29 @@ export default function PlayerModal({ player, onClose }: PlayerModalProps) {
             <div className="mt-6 rounded-lg border border-gray-200">
               <div className="flex items-center justify-between px-4 py-3 border-b border-gray-200 bg-gray-50">
                 <div className="hidden sm:block text-sm font-semibold text-gray-700">Rating Progress</div>
-                  <div className="flex gap-2  justify-end md:justify-start w-full md:w-auto ">
-                    <button
-                      type="button"
-                      onClick={() => setMetric("standard")}
-                      className={`px-3 py-1.5 rounded-md text-sm inline-flex items-center gap-2 ${metric === "standard" ? "bg-blue-600 text-white" : "bg-white text-gray-700 border"}`}
-                    >
-                      <FaChessBoard /> <span className="hidden sm:inline">Standard</span><span className="sm:hidden">Std</span>
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => setMetric("rapid")}
-                      className={`px-3 py-1.5 rounded-md text-sm inline-flex items-center gap-2 ${metric === "rapid" ? "bg-blue-600 text-white" : "bg-white text-gray-700 border"}`}
-                    >
-                      <FaTachometerAlt /> <span className="hidden sm:inline">Rapid</span><span className="sm:hidden">Rap</span>
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => setMetric("blitz")}
-                      className={`px-3 py-1.5 rounded-md text-sm inline-flex items-center gap-2 ${metric === "blitz" ? "bg-blue-600 text-white" : "bg-white text-gray-700 border"}`}
-                    >
-                      <FaBolt /> <span className="hidden sm:inline">Blitz</span><span className="sm:hidden">Blz</span>
-                    </button>
-                  </div>
+                <div className="flex gap-2  justify-end md:justify-start w-full md:w-auto ">
+                  <button
+                    type="button"
+                    onClick={() => setMetric("standard")}
+                    className={`px-3 py-1.5 rounded-md text-sm inline-flex items-center gap-2 ${metric === "standard" ? "bg-primary-600 text-white" : "bg-white text-gray-700 border"}`}
+                  >
+                    <FaChessBoard /> <span className="hidden sm:inline">Standard</span><span className="sm:hidden">Std</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setMetric("rapid")}
+                    className={`px-3 py-1.5 rounded-md text-sm inline-flex items-center gap-2 ${metric === "rapid" ? "bg-primary-600 text-white" : "bg-white text-gray-700 border"}`}
+                  >
+                    <FaTachometerAlt /> <span className="hidden sm:inline">Rapid</span><span className="sm:hidden">Rap</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setMetric("blitz")}
+                    className={`px-3 py-1.5 rounded-md text-sm inline-flex items-center gap-2 ${metric === "blitz" ? "bg-primary-600 text-white" : "bg-white text-gray-700 border"}`}
+                  >
+                    <FaBolt /> <span className="hidden sm:inline">Blitz</span><span className="sm:hidden">Blz</span>
+                  </button>
+                </div>
               </div>
               <div className="p-4 pb-8 sm:pb-4">
                 {!player.fideId && (

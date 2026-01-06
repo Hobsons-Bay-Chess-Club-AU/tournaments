@@ -25,7 +25,7 @@ const TournamentMeta: React.FC<TournamentMetaProps> = ({ metadata }) => {
     const dateRange = startDate && endDate ? `${startDate} - ${endDate}` : startDate || endDate;
 
     return (
-        <section className="relative w-full bg-gradient-to-br from-blue-900 via-blue-700 to-indigo-800 text-white shadow-2xl">
+        <section className="relative w-full bg-gradient-to-br from-primary-900 via-primary-700 to-primary-800 text-white shadow-2xl">
             {/* Decorative top border */}
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500"></div>
 
@@ -72,7 +72,7 @@ const TournamentMeta: React.FC<TournamentMetaProps> = ({ metadata }) => {
                 {/* Additional Information - Row 4 */}
                 {arbiter && (
                     <div className="text-center">
-                        <div className="inline-flex items-center gap-2 text-blue-200">
+                        <div className="inline-flex items-center gap-2 text-primary-200">
                             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                                 <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
                             </svg>

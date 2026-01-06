@@ -44,10 +44,10 @@ const PlayerPairingModal: React.FC<PlayerPairingModalProps> = ({ isOpen, onClose
     const rating = playerData.rating;
     const federation = playerData.federation;
     const moreInfo = playerData.moreInfo || {};
-    
+
     // Try to find title from various sources
     let title = playerData.title || moreInfo.title || moreInfo.Title;
-    
+
     // If no title found, try to extract from clicked player data first
     if (!title && playerData.clickedPlayerData) {
         // Check if the clicked player data has a title
@@ -55,7 +55,7 @@ const PlayerPairingModal: React.FC<PlayerPairingModalProps> = ({ isOpen, onClose
             title = String(playerData.clickedPlayerData.title);
         }
     }
-    
+
     // If still no title found, try to extract from table data
     if (!title && playerData.tables && playerData.tables.length > 0) {
         for (const table of playerData.tables) {
@@ -69,7 +69,7 @@ const PlayerPairingModal: React.FC<PlayerPairingModalProps> = ({ isOpen, onClose
             }
         }
     }
-    
+
     const fideId = moreInfo.FIDE_ID;
     const playerNumber = moreInfo.anchor; // This is the actual player number for navigation
 
@@ -79,7 +79,7 @@ const PlayerPairingModal: React.FC<PlayerPairingModalProps> = ({ isOpen, onClose
     // Get gender-based styling
     const getGenderStyles = (gender: string) => {
         const normalizedGender = gender?.toLowerCase().trim();
-        
+
         if (normalizedGender === 'f' || normalizedGender === 'female') {
             return {
                 nameColor: 'text-pink-600',
@@ -87,11 +87,11 @@ const PlayerPairingModal: React.FC<PlayerPairingModalProps> = ({ isOpen, onClose
                 borderColor: 'border-pink-200'
             };
         }
-        
+
         return {
-            nameColor: 'text-blue-600',
-            bgColor: 'bg-blue-50',
-            borderColor: 'border-blue-200'
+            nameColor: 'text-primary-600',
+            bgColor: 'bg-primary-50',
+            borderColor: 'border-primary-200'
         };
     };
 
@@ -112,7 +112,7 @@ const PlayerPairingModal: React.FC<PlayerPairingModalProps> = ({ isOpen, onClose
                             {playerNumber ? (
                                 <a
                                     href={`?page=playercard.html&id=${playerNumber}`}
-                                    className="text-xl font-bold text-gray-900 hover:text-blue-600 transition-colors cursor-pointer"
+                                    className="text-xl font-bold text-gray-900 hover:text-primary-600 transition-colors cursor-pointer"
                                 >
                                     {playerName}
                                 </a>
@@ -144,7 +144,7 @@ const PlayerPairingModal: React.FC<PlayerPairingModalProps> = ({ isOpen, onClose
                                 </span>
                             )}
                             {moreInfo.K && (
-                                <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
+                                <span className="bg-primary-100 text-primary-800 px-3 py-1 rounded-full text-sm font-medium">
                                     K: {moreInfo.K}
                                 </span>
                             )}
@@ -175,18 +175,18 @@ const PlayerPairingModal: React.FC<PlayerPairingModalProps> = ({ isOpen, onClose
 
                         {/* Federation */}
                         {federation && (
-                            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-200 shadow-sm hover:shadow-md transition-shadow">
+                            <div className="bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl p-6 border border-primary-200 shadow-sm hover:shadow-md transition-shadow">
                                 <div className="flex items-center gap-3 mb-3">
-                                    <div className="p-2 bg-blue-100 rounded-lg">
-                                        <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <div className="p-2 bg-primary-100 rounded-lg">
+                                        <svg className="w-5 h-5 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                         </svg>
                                     </div>
-                                    <h4 className="text-sm font-semibold text-blue-700 uppercase tracking-wider">Federation</h4>
+                                    <h4 className="text-sm font-semibold text-primary-700 uppercase tracking-wider">Federation</h4>
                                 </div>
                                 <div className="flex items-center gap-3">
                                     {renderFederation(federation)}
-                                    <span className="text-xl font-bold text-blue-800">{federation}</span>
+                                    <span className="text-xl font-bold text-primary-800">{federation}</span>
                                 </div>
                             </div>
                         )}
@@ -219,7 +219,7 @@ const PlayerPairingModal: React.FC<PlayerPairingModalProps> = ({ isOpen, onClose
                                     </div>
                                     <h4 className="text-sm font-semibold text-orange-700 uppercase tracking-wider">FIDE ID</h4>
                                 </div>
-                                <a 
+                                <a
                                     href={`https://ratings.fide.com/profile/${fideId}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -240,7 +240,7 @@ const PlayerPairingModal: React.FC<PlayerPairingModalProps> = ({ isOpen, onClose
                             {playerData.tables.map((table, tableIndex) => (
                                 <div key={tableIndex} className="bg-gradient-to-br from-white to-gray-50 rounded-xl border border-gray-200 overflow-hidden shadow-lg">
                                     {/* Enhanced Header */}
-                                    <div className="px-6 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
+                                    <div className="px-6 py-4 bg-gradient-to-r from-primary-600 to-primary-800 text-white">
                                         <div className="flex items-center gap-3">
                                             <div className="p-2 bg-white/20 rounded-lg">
                                                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -249,11 +249,11 @@ const PlayerPairingModal: React.FC<PlayerPairingModalProps> = ({ isOpen, onClose
                                             </div>
                                             <div>
                                                 <h4 className="text-lg font-semibold">Tournament Performance</h4>
-                                                <p className="text-blue-100 text-sm">Detailed match results and statistics</p>
+                                                <p className="text-primary-100 text-sm">Detailed match results and statistics</p>
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     {/* Enhanced Table */}
                                     <div className="overflow-x-auto">
                                         <table className="min-w-full">
@@ -266,7 +266,7 @@ const PlayerPairingModal: React.FC<PlayerPairingModalProps> = ({ isOpen, onClose
                                                         return (
                                                             <th key={headerIndex} className="px-6 py-4 text-left text-xs font-bold text-gray-700 uppercase tracking-wider border-b border-gray-200">
                                                                 <div className="flex items-center gap-2">
-                                                                    <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                                                                    <div className="w-2 h-2 bg-primary-600 rounded-full"></div>
                                                                     {headerName}
                                                                 </div>
                                                             </th>
@@ -276,22 +276,22 @@ const PlayerPairingModal: React.FC<PlayerPairingModalProps> = ({ isOpen, onClose
                                             </thead>
                                             <tbody className="bg-white divide-y divide-gray-100">
                                                 {table.rows?.map((row, rowIndex) => (
-                                                    <tr key={rowIndex} className="hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 transition-all duration-200 group">
+                                                    <tr key={rowIndex} className="hover:bg-gradient-to-r hover:from-primary-50 hover:to-primary-100 transition-all duration-200 group">
                                                         {table.headers?.map((header, headerIndex) => {
                                                             const headerKey = typeof header === 'string' ? header : header.key;
                                                             const headerName = typeof header === 'string' ? header : header.name;
                                                             const cellValue = row[headerKey];
-                                                            
+
                                                             // Skip ID column to keep it clean
                                                             if (headerName.toLowerCase().includes('id')) return null;
-                                                            
+
                                                             // Enhanced cell rendering with special formatting
                                                             let cellContent: React.ReactNode = '';
                                                             const cellClassName = 'px-6 py-4 text-sm text-gray-900';
-                                                            
+
                                                             if (typeof cellValue === 'string' || typeof cellValue === 'number') {
                                                                 const strValue = String(cellValue);
-                                                                
+
                                                                 // Special formatting for different types of data
                                                                 if (headerName.toLowerCase().includes('result') || headerName.toLowerCase().includes('score')) {
                                                                     cellContent = (
@@ -301,13 +301,13 @@ const PlayerPairingModal: React.FC<PlayerPairingModalProps> = ({ isOpen, onClose
                                                                     );
                                                                 } else if (headerName.toLowerCase().includes('round') || headerName.toLowerCase().includes('game')) {
                                                                     cellContent = (
-                                                                        <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-blue-100 text-blue-800 border border-blue-200">
+                                                                        <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-primary-100 text-primary-800 border border-primary-200">
                                                                             {strValue}
                                                                         </span>
                                                                     );
                                                                 } else if (headerName.toLowerCase().includes('opponent')) {
                                                                     cellContent = (
-                                                                        <span className="font-medium text-gray-900 group-hover:text-blue-600 transition-colors">
+                                                                        <span className="font-medium text-gray-900 group-hover:text-primary-600 transition-colors">
                                                                             {strValue}
                                                                         </span>
                                                                     );
@@ -323,7 +323,7 @@ const PlayerPairingModal: React.FC<PlayerPairingModalProps> = ({ isOpen, onClose
                                                             } else {
                                                                 cellContent = String(cellValue || '');
                                                             }
-                                                            
+
                                                             return (
                                                                 <td key={headerIndex} className={cellClassName}>
                                                                     {cellContent}
@@ -335,7 +335,7 @@ const PlayerPairingModal: React.FC<PlayerPairingModalProps> = ({ isOpen, onClose
                                             </tbody>
                                         </table>
                                     </div>
-                                    
+
                                     {/* Enhanced Footer */}
                                     {table.footer && (
                                         <div className="px-6 py-4 bg-gradient-to-r from-gray-50 to-gray-100 border-t border-gray-200">
@@ -359,7 +359,7 @@ const PlayerPairingModal: React.FC<PlayerPairingModalProps> = ({ isOpen, onClose
                         {playerNumber && (
                             <a
                                 href={`?page=playercard.html&id=${playerNumber}`}
-                                className="px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg hover:from-blue-700 hover:to-indigo-700 transition-all duration-200 text-sm font-semibold shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                                className="px-6 py-3 bg-gradient-to-r from-primary-600 to-primary-800 text-white rounded-lg hover:from-primary-700 hover:to-primary-900 transition-all duration-200 text-sm font-semibold shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
                             >
                                 View Full Profile
                             </a>

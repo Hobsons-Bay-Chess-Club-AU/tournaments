@@ -55,7 +55,7 @@ const isValidFideId = (fideId: string | null | undefined): boolean => {
 // Helper function to get gender-based styling
 const getGenderStyles = (gender: string) => {
     const normalizedGender = gender?.toLowerCase().trim();
-    
+
     if (normalizedGender === 'f' || normalizedGender === 'female') {
         return {
             nameColor: 'text-pink-600',
@@ -63,12 +63,12 @@ const getGenderStyles = (gender: string) => {
             linkHoverColor: 'hover:text-pink-800'
         };
     }
-    
+
     // Default styling for male/other
     return {
         nameColor: 'text-gray-900',
-        linkColor: 'text-blue-600 hover:text-blue-800',
-        linkHoverColor: 'hover:text-blue-800'
+        linkColor: 'text-primary-600 hover:text-primary-800',
+        linkHoverColor: 'hover:text-primary-800'
     };
 };
 
@@ -86,12 +86,12 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
                 );
             }
         }
-        
+
         // Check if this looks like a federation code (2-3 letters, case insensitive) or flag path format
         const trimmedData = data.trim();
-        const isFederationCode = /^[A-Za-z]{2,3}$/.test(trimmedData) || 
-                                /^FLAG\/[A-Za-z]{2,3}\.(PNG|JPG|JPEG|GIF|SVG)$/i.test(trimmedData);
-        
+        const isFederationCode = /^[A-Za-z]{2,3}$/.test(trimmedData) ||
+            /^FLAG\/[A-Za-z]{2,3}\.(PNG|JPG|JPEG|GIF|SVG)$/i.test(trimmedData);
+
         if (isFederationCode) {
             return (
                 <span className={className}>
@@ -99,13 +99,13 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
                 </span>
             );
         }
-        
+
         // Check if this is a player ID (numeric string) and we have players data
         // Only do this for specific player columns
         const isPlayerId = /^\d+$/.test(trimmedData);
         const isPlayerColumn = columnHeader && (
-            columnHeader.toLowerCase().includes('player') || 
-            columnHeader.toLowerCase() === 'white' || 
+            columnHeader.toLowerCase().includes('player') ||
+            columnHeader.toLowerCase() === 'white' ||
             columnHeader.toLowerCase() === 'black'
         );
         if (isPlayerId && players.length > 0 && isPlayerColumn) {
@@ -129,7 +129,7 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
 
                 const genderStyles = getGenderStyles(player.gender || '');
                 const titleBadge = player.title ? renderTitle(player.title) : null;
-                
+
                 return (
                     <div className={`player-info ${className}`}>
                         <div className="flex items-center gap-2">
@@ -145,13 +145,13 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
                                 <span className={`font-medium ${genderStyles.nameColor}`}>{player.name}</span>
                             )}
                         </div>
-                        
+
                         {/* Display additional info in a subtle way */}
                         <div className="text-xs text-gray-500 mt-1 flex items-center gap-2 flex-wrap">
                             {player.id && <span className="bg-gray-100 px-2 py-0.5 rounded-full">ID: {player.id}</span>}
                             {player.fideRating && <span className="bg-green-50 text-green-700 px-2 py-0.5 rounded-full">({player.fideRating})</span>}
                             {isValidFideId(player.fideId) && (
-                                <a 
+                                <a
                                     href={`https://ratings.fide.com/profile/${player.fideId}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
@@ -166,12 +166,12 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
                 );
             }
         }
-        
+
         // Check if this is a "Pts" or "Result" column and render as bold
         if (columnHeader === 'Pts' || columnHeader === 'Result') {
             return <span className={`${className} font-bold`}>{data}</span>;
         }
-        
+
         return <span className={className}>{data}</span>;
     }
 
@@ -207,7 +207,7 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
     // If data is an object, try to extract player information
     if (typeof data === 'object') {
         const playerObj = data as PlayerObject;
-        
+
         // Check for common player object properties
         const playerName = String(playerObj.playerName || playerObj.name || playerObj.player || '');
         const playerId = playerObj.id;
@@ -236,14 +236,14 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
 
             // Render title badge if available
             const titleBadge = title ? renderTitle(title) : null;
-            
+
             return (
                 <div className={`player-info ${className}`}>
                     <div className="flex items-center gap-2">
                         {titleBadge}
                         {href ? (
-                            <a 
-                                href={tournamentUrl} 
+                            <a
+                                href={tournamentUrl}
                                 className={`${genderStyles.linkColor} hover:underline font-medium`}
                                 onClick={(e) => {
                                     // Prevent default and use our navigation instead
@@ -266,13 +266,13 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
                             <span className={`font-medium ${genderStyles.nameColor}`}>{playerName}</span>
                         )}
                     </div>
-                    
+
                     {/* Display additional info in a subtle way */}
                     <div className="text-xs text-gray-500 mt-1 flex items-center gap-2 flex-wrap">
                         {playerId && String(playerId).trim() !== '' && <span className="bg-gray-100 px-2 py-0.5 rounded-full">ID: {playerId}</span>}
                         {rating && <span className="bg-green-50 text-green-700 px-2 py-0.5 rounded-full">({rating})</span>}
                         {isValidFideId(fideId) && (
-                            <a 
+                            <a
                                 href={`https://ratings.fide.com/profile/${fideId}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -295,7 +295,7 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
             if ('playerName' in playerObj && 'id' in playerObj) {
                 // This looks like a player object, show the name prominently
                 const genderStyles = getGenderStyles(String(playerObj.gender || ''));
-                
+
                 return (
                     <div className={`player-fallback ${className}`}>
                         <span className={`font-medium ${genderStyles.nameColor}`}>
@@ -309,7 +309,7 @@ const PlayerRenderer: React.FC<PlayerRendererProps> = ({ data, className = "", o
                     </div>
                 );
             }
-            
+
             // Generic object display
             return (
                 <div className={`object-data ${className}`}>

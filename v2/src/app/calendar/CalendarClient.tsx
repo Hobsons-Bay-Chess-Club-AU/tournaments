@@ -66,7 +66,7 @@ export default function CalendarClient() {
                         lineHeight={120}
                         itemRenderer={({ item, getItemProps }) => (
                             <div {...getItemProps({ style: { background: item.bgColor, color: 'black', borderRadius: 8, boxShadow: '0 2px 8px #0002', padding: '12px 16px', minHeight: 100, display: 'flex', alignItems: 'center', justifyContent: 'center' } })}>
-                                <div className="font-bold text-blue-700 text-xs truncate">{item.title}</div>
+                                <div className="font-bold text-primary-700 text-xs truncate">{item.title}</div>
                             </div>
                         )}
                         onItemSelect={itemId => {
@@ -87,7 +87,7 @@ export default function CalendarClient() {
                             >
                                 &times;
                             </button>
-                            <h2 className="text-2xl font-extrabold mb-6 text-center text-blue-700">
+                            <h2 className="text-2xl font-extrabold mb-6 text-center text-primary-700">
                                 {selectedEvent.title}
                             </h2>
                             <div className="space-y-3">
@@ -123,7 +123,7 @@ export default function CalendarClient() {
                                             href={`${origin}/${selectedEvent.url}`}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="text-blue-600 underline text-sm"
+                                            className="text-primary-600 underline text-sm"
                                         >
                                             View Detail
                                         </a>

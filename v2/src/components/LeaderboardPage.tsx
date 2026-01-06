@@ -66,7 +66,7 @@ export default function LeaderboardPage({ category }: LeaderboardPageProps) {
       ratingCategories: [
         "Points",
         "Standard",
-        "Rapid", 
+        "Rapid",
         "Blitz",
         "ACF Classic",
         "ACF Quick"
@@ -114,7 +114,7 @@ export default function LeaderboardPage({ category }: LeaderboardPageProps) {
 
   if (loading) {
     return (
-      <div className="font-sans min-h-screen bg-gradient-to-br from-blue-50 to-blue-200">
+      <div className="font-sans min-h-screen bg-gradient-to-br from-primary-50 to-primary-200">
         <div className="bg-white min-h-screen flex items-center justify-center">
           <div className="text-center">
             <div className={`animate-spin rounded-full h-12 w-12 border-b-2 ${config.loadingColor} mx-auto mb-4`}></div>
@@ -127,13 +127,13 @@ export default function LeaderboardPage({ category }: LeaderboardPageProps) {
 
   if (error) {
     return (
-      <div className="font-sans min-h-screen bg-gradient-to-br from-blue-50 to-blue-200">
+      <div className="font-sans min-h-screen bg-gradient-to-br from-primary-50 to-primary-200">
         <div className="bg-white min-h-screen flex items-center justify-center">
           <div className="text-center">
             <div className="text-red-600 text-6xl mb-4">⚠️</div>
             <p className="text-red-600 mb-4">Error loading leaderboard</p>
             <p className="text-gray-600">{error}</p>
-            <Link href="/leaderboard" className="mt-4 inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+            <Link href="/leaderboard" className="mt-4 inline-block px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700">
               Back to Leaderboards
             </Link>
           </div>
@@ -143,7 +143,7 @@ export default function LeaderboardPage({ category }: LeaderboardPageProps) {
   }
 
   return (
-    <div className="font-sans min-h-screen bg-gradient-to-br from-blue-50 to-blue-200">
+    <div className="font-sans min-h-screen bg-gradient-to-br from-primary-50 to-primary-200">
       <div className="bg-white min-h-screen">
         {/* Header */}
         <div className={`bg-gradient-to-r ${config.gradient} text-white py-8`}>
@@ -170,8 +170,8 @@ export default function LeaderboardPage({ category }: LeaderboardPageProps) {
             onOptionChange={setActiveCategory}
           />
           {activeCategory === "Points" && (
-            <div className="mt-3 p-3 bg-blue-50 border border-blue-200 rounded-lg">
-              <p className="text-sm text-blue-800">
+            <div className="mt-3 p-3 bg-primary-50 border border-primary-200 rounded-lg">
+              <p className="text-sm text-primary-800">
                 <span className="font-semibold">Points:</span> Total accumulated points from all standard (classical) games across tournaments
               </p>
             </div>

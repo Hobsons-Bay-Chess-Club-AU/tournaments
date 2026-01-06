@@ -39,12 +39,12 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
     const loadLeaderboardData = async () => {
       try {
         setLoading(true);
-        
+
         const response = await fetch(`${process.env.NEXT_PUBLIC_APP_URL}/${dataFile}?t=${Date.now()}`);
         if (!response.ok) {
           throw new Error(`Failed to load ${type} players data`);
         }
-        
+
         const data: LeaderboardData = await response.json();
         setPlayers(data.players);
         setError(null);
@@ -83,7 +83,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
 
   const filterPlayersByAge = (players: Player[], filter: string): Player[] => {
     if (!isJunior) return players; // No filtering for open leaderboard
-    
+
     return players.filter(player => {
       // Gender filter: only apply for junior and when girls selected
       if (genderFilter === 'girls') {
@@ -92,12 +92,12 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
       }
 
       if (!player.birthYear) return true; // Include players without birth year
-      
+
       const age = calculateAge(player.birthYear);
-      
+
       // For junior leaderboard, always filter out players 18 and older
       if (age >= 18) return false;
-      
+
       switch (filter) {
         case "under18":
           return age < 18;
@@ -120,7 +120,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
   };
 
   const filteredPlayers = filterPlayersByAge(players, ageFilter);
-  
+
   const sortedPlayers = [...filteredPlayers].sort((a, b) => {
     const ratingA = getRatingForCategory(a, activeCategory);
     const ratingB = getRatingForCategory(b, activeCategory);
@@ -130,13 +130,13 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
   const getRatingColor = (rating: number): string => {
     if (isJunior) {
       if (rating >= 1600) return "text-purple-600 font-bold";
-      if (rating >= 1400) return "text-blue-600 font-semibold";
+      if (rating >= 1400) return "text-primary-600 font-semibold";
       if (rating >= 1200) return "text-green-600 font-semibold";
       if (rating >= 1000) return "text-yellow-600";
       return "text-gray-600";
     } else {
       if (rating >= 2000) return "text-purple-600 font-bold";
-      if (rating >= 1800) return "text-blue-600 font-semibold";
+      if (rating >= 1800) return "text-primary-600 font-semibold";
       if (rating >= 1600) return "text-green-600 font-semibold";
       if (rating >= 1400) return "text-yellow-600";
       return "text-gray-600";
@@ -147,14 +147,14 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
     const age = calculateAge(birthYear);
     if (isJunior) {
       if (age < 8) return "text-purple-600 bg-purple-100";
-      if (age < 10) return "text-blue-600 bg-blue-100";
+      if (age < 10) return "text-primary-600 bg-primary-100";
       if (age < 12) return "text-green-600 bg-green-100";
       if (age < 14) return "text-yellow-600 bg-yellow-100";
       if (age < 16) return "text-orange-600 bg-orange-100";
       return "text-red-600 bg-red-100";
     } else {
       if (age < 18) return "text-green-600 bg-green-100";
-      if (age < 25) return "text-blue-600 bg-blue-100";
+      if (age < 25) return "text-primary-600 bg-primary-100";
       if (age < 35) return "text-yellow-600 bg-yellow-100";
       return "text-purple-600 bg-purple-100";
     }
@@ -169,8 +169,8 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
   };
 
   const getHeaderGradient = () => {
-    return isJunior 
-      ? 'bg-gradient-to-r from-green-400 to-green-600' 
+    return isJunior
+      ? 'bg-gradient-to-r from-green-400 to-green-600'
       : 'bg-gradient-to-r from-yellow-400 to-yellow-600';
   };
 
@@ -200,7 +200,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
 
   if (loading) {
     return (
-      <div className="font-sans min-h-screen bg-gradient-to-br from-blue-50 to-blue-200">
+      <div className="font-sans min-h-screen bg-gradient-to-br from-primary-50 to-primary-200">
         <div className="bg-white min-h-screen flex items-center justify-center">
           <div className="text-center">
             <div className={`animate-spin rounded-full h-12 w-12 border-b-2 border-${loadingColor}-600 mx-auto mb-4`}></div>
@@ -213,13 +213,13 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
 
   if (error) {
     return (
-      <div className="font-sans min-h-screen bg-gradient-to-br from-blue-50 to-blue-200">
+      <div className="font-sans min-h-screen bg-gradient-to-br from-primary-50 to-primary-200">
         <div className="bg-white min-h-screen flex items-center justify-center">
           <div className="text-center">
             <div className="text-red-600 text-6xl mb-4">⚠️</div>
             <p className="text-red-600 mb-4">Error loading leaderboard</p>
             <p className="text-gray-600">{error}</p>
-            <Link href="/leaderboard" className="mt-4 inline-block px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+            <Link href="/leaderboard" className="mt-4 inline-block px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700">
               Back to Leaderboards
             </Link>
           </div>
@@ -229,8 +229,8 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
   }
 
   return (
-    <div className="font-sans min-h-screen bg-gradient-to-br from-blue-50 to-blue-200">
-      
+    <div className="font-sans min-h-screen bg-gradient-to-br from-primary-50 to-primary-200">
+
       <div className="bg-white min-h-screen">
         {/* Header */}
         <div className={`${getHeaderGradient()} text-white py-8`}>
@@ -257,8 +257,8 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
             onOptionChange={setActiveCategory}
           />
           {activeCategory === "Points" && (
-            <div className="mt-3 p-3 bg-blue-50 border border-blue-200 rounded-lg mx-2 md:mx-0">
-              <p className="text-sm text-blue-800">
+            <div className="mt-3 p-3 bg-primary-50 border border-primary-200 rounded-lg mx-2 md:mx-0">
+              <p className="text-sm text-primary-800">
                 <span className="font-semibold">Points:</span> Total accumulated points from all standard (classical) games across tournaments
               </p>
             </div>
@@ -336,16 +336,15 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
                     const rank = index + 1;
                     const age = player.birthYear ? calculateAge(player.birthYear) : null;
                     const ageGroup = player.birthYear ? getAgeGroup(player.birthYear) : null;
-                    
+
                     return (
                       <tr key={player.name} className="hover:bg-gray-50 transition-colors">
                         <td className="px-3 py-3 sm:px-6 sm:py-4 whitespace-nowrap">
                           <div className="flex items-center">
-                            <span className={`text-lg font-bold ${
-                              rank === 1 ? 'text-yellow-500' : 
-                              rank === 2 ? 'text-gray-400' : 
-                              rank === 3 ? 'text-yellow-600' : 'text-gray-600'
-                            }`}>
+                            <span className={`text-lg font-bold ${rank === 1 ? 'text-yellow-500' :
+                                rank === 2 ? 'text-gray-400' :
+                                  rank === 3 ? 'text-yellow-600' : 'text-gray-600'
+                              }`}>
                               {rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : rank}
                             </span>
                           </div>
@@ -365,9 +364,9 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
                                 </div>
                               </div>
                               <div className="ml-4">
-                                <div className="text-sm font-medium text-gray-900 hover:text-blue-600 cursor-pointer" onClick={() => setSelectedPlayer(player)}>
+                                <div className="text-sm font-medium text-gray-900 hover:text-primary-600 cursor-pointer" onClick={() => setSelectedPlayer(player)}>
                                   {player.name}
-                                  {player.title && <span className="ml-2 text-xs text-blue-600 font-semibold">{player.title}</span>}
+                                  {player.title && <span className="ml-2 text-xs text-primary-600 font-semibold">{player.title}</span>}
                                 </div>
                                 <div className="text-sm text-gray-500">
                                   {player.gender === 'male' ? '♂' : player.gender === 'female' ? '♀' : '⚪'} {player.gender}
@@ -417,7 +416,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
                               href={`https://ratings.fide.com/profile/${player.fideId}`}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="inline-flex items-center text-blue-600 hover:text-blue-800 hover:underline transition-colors font-medium"
+                              className="inline-flex items-center text-primary-600 hover:text-primary-800 hover:underline transition-colors font-medium"
                               title={`View ${player.name}'s FIDE Profile`}
                             >
                               {player.fideId}
@@ -441,7 +440,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
               About {isJunior ? 'Junior' : 'Open'} Players
             </h3>
             <p className={`${getInfoContentColor()} mb-4`}>
-              {isJunior 
+              {isJunior
                 ? 'These young players have shown exceptional dedication by participating in multiple junior tournaments throughout the year, demonstrating their growing skills and passion for chess.'
                 : 'These players have demonstrated consistent participation in open tournaments throughout the year, showing their dedication and competitive spirit in the chess community.'
               }

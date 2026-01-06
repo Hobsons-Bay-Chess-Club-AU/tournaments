@@ -123,12 +123,12 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     // Determine default page based on tournament type
     const getDefaultPage = () => {
         if (!data) return "index.html";
-        
+
         // Check if this is a team tournament by looking for team-pairs in any page
-        const hasTeamPairs = Object.values(data.pages || {}).some(page => 
+        const hasTeamPairs = Object.values(data.pages || {}).some(page =>
             page.tables?.some(table => table.type === 'team-pairs')
         );
-        
+
         // If it's a team tournament, prefer teamslist.html
         if (hasTeamPairs) {
             if (data.pages?.['teamslist.html']) {
@@ -140,10 +140,10 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                 return availablePages[0];
             }
         }
-        
+
         return "index.html";
     };
-    
+
     const page = searchParams?.get("page") || getDefaultPage();
     const playerId = searchParams?.get("id"); // Get player ID for auto-scroll
 
@@ -156,10 +156,10 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     // Handle team tournament default page selection when data loads
     useEffect(() => {
         if (data) {
-            const hasTeamPairs = Object.values(data.pages || {}).some(page => 
+            const hasTeamPairs = Object.values(data.pages || {}).some(page =>
                 page.tables?.some(table => table.type === 'team-pairs')
             );
-            
+
             // If it's a team tournament, redirect to teamslist.html (even if index.html exists)
             if (hasTeamPairs && !searchParams?.get("page")) {
                 if (data.pages?.['teamslist.html']) {
@@ -230,16 +230,16 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     const handlePlayerClick = (playerId: string | number, playerData?: Record<string, unknown>) => {
         // Find player data from centralized players array
         const player = data?.players.find(p => p.id === String(playerId));
-        
+
         if (player) {
             // Find player data from playercard page
             const playercardData = data?.pages['playercard.html'];
-            
+
             if (playercardData?.tables) {
                 // Look for the player in the playercard tables
                 for (let i = 0; i < playercardData.tables.length; i++) {
                     const table = playercardData.tables[i];
-                    
+
                     // Check if this table belongs to the clicked player
                     const caption = table.caption as Record<string, unknown>;
                     const moreInfo = caption.moreInfo as Record<string, unknown> | undefined;
@@ -251,7 +251,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                             clickedPlayerData: playerData, // Include the clicked player data for title information
                             player: player // Include the centralized player data
                         };
-                        
+
                         setSelectedPlayerData(modalPlayerData);
                         setIsPlayerModalOpen(true);
                         return;
@@ -259,7 +259,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                 }
             }
         }
-        
+
         // Fallback: navigate to playercard page if modal data not found
         router.push(`?page=playercard.html&id=${playerId}`);
     };
@@ -272,71 +272,71 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
 
 
     // Search filtering function
-	// Helpers for player-aware serialization and search
-	const isLikelyPlayerHeader = (header: Header): boolean => {
-		const label = header.name.trim().toLowerCase();
-		return label === 'player' || label === 'white player' || label === 'black player' || label === 'white' || label === 'black';
-	};
+    // Helpers for player-aware serialization and search
+    const isLikelyPlayerHeader = (header: Header): boolean => {
+        const label = header.name.trim().toLowerCase();
+        return label === 'player' || label === 'white player' || label === 'black player' || label === 'white' || label === 'black';
+    };
 
-	const formatPlayerById = (candidateId: unknown): string | null => {
-		if (candidateId === null || candidateId === undefined) return null;
-		const idStr = String(candidateId).trim();
-		if (!idStr) return null;
-		const player = getPlayerData(idStr);
-		if (!player) return null;
-		return player.name || null;
-	};
+    const formatPlayerById = (candidateId: unknown): string | null => {
+        if (candidateId === null || candidateId === undefined) return null;
+        const idStr = String(candidateId).trim();
+        if (!idStr) return null;
+        const player = getPlayerData(idStr);
+        if (!player) return null;
+        return player.name || null;
+    };
 
-	const serializeCell = (value: unknown, header: Header): string => {
-		if (value === null || value === undefined) return '';
-		if (typeof value === 'string' || typeof value === 'number') {
-			// Prefer mapping to player name only when column is player-like
-			const mapped = isLikelyPlayerHeader(header) ? formatPlayerById(value) : null;
-			if (mapped) return mapped;
-			return String(value).trim();
-		}
-		if (typeof value === 'object') {
-			const obj = value as Record<string, unknown>;
-			// Crosstable cell
-			if ('result' in obj) {
-				const res = String(obj.result || '').trim();
-				// For crosstable cells, keep opponent identifiers as-is (no lookup)
-				const w = obj.whiteOpponent ? ` W:${String(obj.whiteOpponent)}` : '';
-				const b = obj.blackOpponent ? ` B:${String(obj.blackOpponent)}` : '';
-				return `${res}${w}${b}`.trim();
-			}
-			// Player object shape
-			const name = (obj.playerName || obj.name || obj.player) ? String(obj.playerName || obj.name || obj.player).trim() : '';
-			const rating = obj.rating !== undefined && obj.rating !== '' ? ` (${String(obj.rating)})` : '';
-			const title = obj.title ? String(obj.title).trim() : '';
-			if (name) {
-				const titlePrefix = title ? `${title} ` : '';
-				return `${titlePrefix}${name}${rating}`.trim();
-			}
-			try { return JSON.stringify(obj); } catch { return String(obj); }
-		}
-		return String(value);
-	};
+    const serializeCell = (value: unknown, header: Header): string => {
+        if (value === null || value === undefined) return '';
+        if (typeof value === 'string' || typeof value === 'number') {
+            // Prefer mapping to player name only when column is player-like
+            const mapped = isLikelyPlayerHeader(header) ? formatPlayerById(value) : null;
+            if (mapped) return mapped;
+            return String(value).trim();
+        }
+        if (typeof value === 'object') {
+            const obj = value as Record<string, unknown>;
+            // Crosstable cell
+            if ('result' in obj) {
+                const res = String(obj.result || '').trim();
+                // For crosstable cells, keep opponent identifiers as-is (no lookup)
+                const w = obj.whiteOpponent ? ` W:${String(obj.whiteOpponent)}` : '';
+                const b = obj.blackOpponent ? ` B:${String(obj.blackOpponent)}` : '';
+                return `${res}${w}${b}`.trim();
+            }
+            // Player object shape
+            const name = (obj.playerName || obj.name || obj.player) ? String(obj.playerName || obj.name || obj.player).trim() : '';
+            const rating = obj.rating !== undefined && obj.rating !== '' ? ` (${String(obj.rating)})` : '';
+            const title = obj.title ? String(obj.title).trim() : '';
+            if (name) {
+                const titlePrefix = title ? `${title} ` : '';
+                return `${titlePrefix}${name}${rating}`.trim();
+            }
+            try { return JSON.stringify(obj); } catch { return String(obj); }
+        }
+        return String(value);
+    };
 
-	const buildRowSearchText = (table: { headers?: MixedHeader[]; rows?: Record<string, unknown>[] }, row: Record<string, unknown>): string => {
-		const headers = getFilteredHeaders(table).filter(h => h.key !== 'compare');
-		if (headers.length === 0) {
-			// Fallback to raw values if headers are missing
-			return Object.values(row).map(v => String(v ?? '')).join(' ');
-		}
-		return headers.map(h => serializeCell(row[h.key], h)).join(' ');
-	};
+    const buildRowSearchText = (table: { headers?: MixedHeader[]; rows?: Record<string, unknown>[] }, row: Record<string, unknown>): string => {
+        const headers = getFilteredHeaders(table).filter(h => h.key !== 'compare');
+        if (headers.length === 0) {
+            // Fallback to raw values if headers are missing
+            return Object.values(row).map(v => String(v ?? '')).join(' ');
+        }
+        return headers.map(h => serializeCell(row[h.key], h)).join(' ');
+    };
 
-	const getFilteredAndSortedRows = (table: { rows?: Record<string, unknown>[] }, idx: number) => {
+    const getFilteredAndSortedRows = (table: { rows?: Record<string, unknown>[] }, idx: number) => {
         let rows = table.rows || [];
 
         // Apply search filter
         if (searchQuery.trim()) {
             const query = searchQuery.toLowerCase().trim();
-			rows = rows.filter(row => {
-				const text = buildRowSearchText(table, row as Record<string, unknown>).toLowerCase();
-				return text.includes(query);
-			});
+            rows = rows.filter(row => {
+                const text = buildRowSearchText(table, row as Record<string, unknown>).toLowerCase();
+                return text.includes(query);
+            });
         }
 
         // Apply sorting
@@ -373,7 +373,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     // Function to check if a column is completely empty
     const isColumnEmpty = (table: { headers?: MixedHeader[]; rows?: Record<string, unknown>[] }, headerKey: string): boolean => {
         if (!table.rows || table.rows.length === 0) return true;
-        
+
         return table.rows.every(row => {
             const value = row[headerKey];
             if (value === null || value === undefined || value === '') return true;
@@ -390,8 +390,8 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                     return !value.result || String(value.result).trim() === '';
                 }
                 // For other objects, check if all values are empty
-                return Object.values(value).every(v => 
-                    v === null || v === undefined || v === '' || 
+                return Object.values(value).every(v =>
+                    v === null || v === undefined || v === '' ||
                     (typeof v === 'string' && v.trim() === '')
                 );
             }
@@ -402,18 +402,18 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     // Function to check if a table is a pairing table (has White and Black columns)
     const isPairingTable = (table: { headers?: MixedHeader[]; rows?: Record<string, unknown>[] }): boolean => {
         if (!table.headers || !table.rows || table.rows.length === 0) return false;
-        
+
         const headerKeys = table.headers.map(h => (typeof h === 'string' ? h : h.key)).map(k => k.toLowerCase());
-        
+
         // Check for various white/black column name patterns
-        const hasWhite = headerKeys.some(key => 
+        const hasWhite = headerKeys.some(key =>
             key.includes('white') || key === 'white' || key === 'w'
         );
-        const hasBlack = headerKeys.some(key => 
+        const hasBlack = headerKeys.some(key =>
             key.includes('black') || key === 'black' || key === 'b'
         );
-        
-        
+
+
         return hasWhite && hasBlack;
     };
 
@@ -426,12 +426,12 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     const getFideId = (playerId: string | number): string | null => {
         const player = getPlayerData(playerId);
         const fideId = player?.fideId;
-        
+
         // Validate FIDE ID - exclude "0", empty strings, and other invalid values
         if (!fideId || fideId === '0' || fideId === 'null' || fideId === 'undefined' || fideId.trim() === '') {
             return null;
         }
-        
+
         return fideId;
     };
 
@@ -439,18 +439,18 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     // Function to get filtered headers (excluding empty columns) and add comparison column for pairing tables
     const getFilteredHeaders = (table: { headers?: MixedHeader[]; rows?: Record<string, unknown>[] }): Header[] => {
         const normalizedHeaders: Header[] = (table.headers?.map(h => (typeof h === 'string' ? { name: h, key: h } : h)) || []);
-        
+
         const filteredHeaders = normalizedHeaders.filter(header => !isColumnEmpty(table, header.key));
-        
+
         // Add comparison column for pairing tables
         if (isPairingTable(table)) {
             filteredHeaders.push({ name: 'Compare', key: 'compare' });
         }
-        
+
         return filteredHeaders;
     };
 
-	// Generate a plain-text representation of a table (headers + current filtered/sorted rows)
+    // Generate a plain-text representation of a table (headers + current filtered/sorted rows)
     const generateTableText = (table: { headers?: MixedHeader[]; rows?: Record<string, unknown>[] }, idx: number) => {
         const filteredHeaders = getFilteredHeaders(table);
         // Exclude the dynamic compare column from copied text
@@ -520,10 +520,10 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
 
     if (!data) {
         return (
-            <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+            <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-primary-100">
                 <div className="flex items-center justify-center min-h-screen">
                     <div className="text-center">
-                        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+                        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary-600 mx-auto mb-4"></div>
                         <p className="text-gray-600">Loading tournament data...</p>
                     </div>
                 </div>
@@ -535,7 +535,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     const currentPageData = data ? data.pages[page] : null;
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+        <div className="min-h-screen bg-gradient-to-br from-primary-50 via-white to-primary-100">
             <TournamentMeta metadata={data.tournament.metadata} />
 
             <div className="mt-0">
@@ -560,7 +560,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                             key={pairPage}
                                             onClick={() => handlePairingSelect(idx)}
                                             className={`px-3 sm:px-4 py-2 rounded-lg font-medium transition-all duration-200 text-sm sm:text-base ${page === pairPage
-                                                ? 'bg-blue-600 text-white shadow-lg'
+                                                ? 'bg-primary-600 text-white shadow-lg'
                                                 : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-200'
                                                 }`}
                                         >
@@ -586,11 +586,11 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                                     ) : (
                                                         <div className="space-y-2">
                                                             <div className="flex items-center gap-4">
-                                                                <h3 className="text-lg font-bold text-blue-800">
+                                                                <h3 className="text-lg font-bold text-primary-800">
                                                                     {typeof table.caption === 'object' && table.caption.playerName ? String(table.caption.playerName) : ''}
                                                                 </h3>
                                                                 {typeof table.caption === 'object' && table.caption.id && (
-                                                                    <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm font-semibold">
+                                                                    <span className="bg-primary-100 text-primary-800 px-2 py-1 rounded text-sm font-semibold">
                                                                         ID: {String(table.caption.id)}
                                                                     </span>
                                                                 )}
@@ -603,266 +603,266 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
                                         </div>
                                     );
                                 }
-                                
+
                                 // Regular table rendering for non-team pairings
                                 return (
-                                <div key={idx} className="space-y-4">
-                                    {table.caption && (
-                                        <div
-                                            className="bg-white rounded-lg shadow-sm border border-gray-200 p-6"
-                                            id={
-                                                typeof table.caption === "object" && table.caption.moreInfo?.anchor
-                                                    ? "table-anchor-" + table.caption.moreInfo.anchor
-                                                    : undefined
-                                            }
-                                        >
-                                            {typeof table.caption === 'string' ? (
-                                                <h3 className="text-lg font-semibold text-gray-900">{table.caption}</h3>
-                                            ) : (
-                                                // Structured player caption
-                                                <div className="space-y-2">
-                                                    <div className="flex items-center gap-4">
-                                                        <h3 className="text-lg font-bold text-blue-800">
-                                                            {typeof table.caption === 'object' && table.caption.playerName ? String(table.caption.playerName) : ''}
-                                                        </h3>
-                                                        {typeof table.caption === 'object' && table.caption.id && (
-                                                            <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm font-semibold">
-                                                                ID: {String(table.caption.id)}
-                                                            </span>
-                                                        )}
-                                                    </div>
-                                                </div>
-                                            )}
-                                        </div>
-                                    )}
-
-                                    {/* Search Input */}
-                                    {table.rows && table.rows.length > 10 && (
-                                    <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
-                                        <div className="relative">
-                                            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                                                <svg className="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                                                </svg>
-                                            </div>
-                                            <input
-                                                type="text"
-                                                placeholder="Search in table..."
-                                                value={searchQuery}
-                                                onChange={(e) => setSearchQuery(e.target.value)}
-                                                className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm text-gray-900"
-                                            />
-                                        </div>
-                                    </div>)}
-
-                                    {isKeyValueTable(table) ? (
-                                        <>
-                                            <KeyValueTable rows={(table.rows || []) as { col1?: unknown; col2?: unknown }[]} searchQuery={searchQuery} />
-                                            {table.footer && (
-                                                <div className="p-4 bg-gray-50 border border-t-0 border-gray-200 rounded-b-xl">
-                                                    <div className="text-sm text-gray-600">
-                                                        <div dangerouslySetInnerHTML={{ __html: table.footer.html }} />
-                                                    </div>
-                                                </div>
-                                            )}
-                                        </>
-                                    ) : (
-                                        <div className="overflow-hidden rounded-xl shadow-lg border border-gray-200/50 bg-white">
-                                            {/* Desktop Table */}
-                                            <div className="hidden lg:block overflow-x-auto">
-                                                <table className="min-w-full">
-                                                    <thead>
-                                                        <tr className="bg-gradient-to-r from-slate-50 to-gray-100/80">
-                                                            {getFilteredHeaders(table).map((header: Header, hidx: number) => (
-                                                                <th
-                                                                    key={hidx}
-                                                                    className={`px-6 py-4 text-left text-sm font-bold text-gray-700 uppercase tracking-wider cursor-pointer select-none transition-all duration-200 hover:bg-gray-200/50 ${hidx === 0 ? 'rounded-tl-xl' : ''} ${hidx === (table.headers?.length || 0) - 1 ? 'rounded-tr-xl' : ''}`}
-                                                                    onClick={() => handleHeaderClick(idx, header.key)}
-                                                                >
-                                                                    <div className="flex items-center gap-2">
-                                                                        <span>{header.name}</span>
-                                                                        {sortConfig && sortConfig.tableIdx === idx && sortConfig.key === header.key && (
-                                                                            <span className="text-blue-600 font-bold text-sm">
-                                                                                {sortConfig.direction === "asc" ? "↑" : "↓"}
-                                                                            </span>
-                                                                        )}
-                                                                    </div>
-                                                                </th>
-                                                            ))}
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody className="bg-white divide-y divide-gray-100">
-                                                        {table.rows && table.rows.length > 0 ? (
-                                                            getFilteredAndSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
-                                                                <tr key={ridx} className={`transition-all duration-150 hover:bg-blue-50/50 hover:shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
-                                                                    {getFilteredHeaders(table).map((header: Header, hidx: number) => (
-                                                                        <td key={hidx} className="px-6 py-4 text-sm text-gray-900 font-medium">
-                                                                            {header.key === 'compare' ? (
-                                                                                // Comparison column for pairing tables
-                                                                                (() => {
-                                                                                    // Find white and black player columns dynamically
-                                                                                    const whiteKey = Object.keys(row).find(key => 
-                                                                                        key.toLowerCase().includes('white') || key.toLowerCase() === 'white' || key.toLowerCase() === 'w'
-                                                                                    );
-                                                                                    const blackKey = Object.keys(row).find(key => 
-                                                                                        key.toLowerCase().includes('black') || key.toLowerCase() === 'black' || key.toLowerCase() === 'b'
-                                                                                    );
-                                                                                    
-                                                                                    const whitePlayerId = whiteKey ? row[whiteKey] : null;
-                                                                                    const blackPlayerId = blackKey ? row[blackKey] : null;
-                                                                                    
-                                                                                    const whiteFideId = (whitePlayerId && typeof whitePlayerId === 'string') ? getFideId(whitePlayerId) : null;
-                                                                                    const blackFideId = (blackPlayerId && typeof blackPlayerId === 'string') ? getFideId(blackPlayerId) : null;
-                                                                                    
-                                                                                    if (whiteFideId && blackFideId) {
-                                                                                        const compareUrl = `https://fide-compare.truongthings.dev/?id=${whiteFideId},${blackFideId}`;
-                                                                                        return (
-                                                                                            <a
-                                                                                                href={compareUrl}
-                                                                                                target="_blank"
-                                                                                                rel="noopener noreferrer"
-                                                                                                className="inline-flex items-center gap-1 px-2 py-1 text-xs bg-blue-100 text-blue-700 rounded-md hover:bg-blue-200 transition-colors"
-                                                                                                title="Compare FIDE ratings"
-                                                                                            >
-                                                                                                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                                                                                                </svg>
-                                                                                                Compare
-                                                                                            </a>
-                                                                                        );
-                                                                                    }
-                                                                                    return <span className="text-gray-400 text-xs">—</span>;
-                                                                                })()
-                                                                            ) : (
-                                                                                <PlayerRenderer
-                                                                                    data={row[header.key]}
-                                                                                    onPlayerClick={handlePlayerClick}
-                                                                                    tournamentPath={`/${resolvedParams.tournament}`}
-                                                                                    columnHeader={header.name}
-                                                                                    players={data.players}
-                                                                                />
-                                                                            )}
-                                                                        </td>
-                                                                    ))}
-                                                                </tr>
-                                                            ))
-                                                        ) : (
-                                                            <tr>
-                                                                <td colSpan={getFilteredHeaders(table).length || 1} className="px-6 py-8 text-center text-gray-500 italic">
-                                                                    <div className="flex flex-col items-center gap-2">
-                                                                        <svg className="w-8 h-8 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                                                                        </svg>
-                                                                        <span>{searchQuery.trim() ? 'No results found for your search' : 'No data available'}</span>
-                                                                    </div>
-                                                                </td>
-                                                            </tr>
-                                                        )}
-                                                    </tbody>
-                                                    {table.footer && (
-                                                        <tfoot>
-                                                            <tr>
-                                                                <td colSpan={getFilteredHeaders(table).length || 1} className="px-6 py-3 text-sm text-gray-600 bg-gray-50 border-t border-gray-200">
-                                                                    <div dangerouslySetInnerHTML={{ __html: table.footer.html }} />
-                                                                </td>
-                                                            </tr>
-                                                        </tfoot>
-                                                    )}
-                                                </table>
-                                            </div>
-
-                                            {/* Mobile Cards */}
-                                            <div className="lg:hidden">
-                                                {table.rows && table.rows.length > 0 ? (
-                                                    <div className="space-y-6 md:space-y-4 p-0 md:p-4">
-                                                        {getFilteredAndSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
-                                                            <div key={ridx} className={`bg-white rounded-lg border border-gray-200 p-4 shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
-                                                                {getFilteredHeaders(table).map((header: Header, hidx: number) => (
-                                                                    <div key={hidx} className="flex justify-between items-center py-2 border-b border-gray-100 last:border-b-0">
-                                                                        <span className="text-sm font-medium text-gray-600 capitalize">
-                                                                            {header.name}
-                                                                        </span>
-                                                                        <div className="text-sm text-gray-900 font-medium">
-                                                                            {header.key === 'compare' ? (
-                                                                                // Comparison column for pairing tables
-                                                                                (() => {
-                                                                                    // Find white and black player columns dynamically
-                                                                                    const whiteKey = Object.keys(row).find(key => 
-                                                                                        key.toLowerCase().includes('white') || key.toLowerCase() === 'white' || key.toLowerCase() === 'w'
-                                                                                    );
-                                                                                    const blackKey = Object.keys(row).find(key => 
-                                                                                        key.toLowerCase().includes('black') || key.toLowerCase() === 'black' || key.toLowerCase() === 'b'
-                                                                                    );
-                                                                                    
-                                                                                    const whitePlayerId = whiteKey ? row[whiteKey] : null;
-                                                                                    const blackPlayerId = blackKey ? row[blackKey] : null;
-                                                                                    
-                                                                                    const whiteFideId = (whitePlayerId && typeof whitePlayerId === 'string') ? getFideId(whitePlayerId) : null;
-                                                                                    const blackFideId = (blackPlayerId && typeof blackPlayerId === 'string') ? getFideId(blackPlayerId) : null;
-                                                                                    
-                                                                                    if (whiteFideId && blackFideId) {
-                                                                                        const compareUrl = `https://fide-compare.truongthings.dev/?id=${whiteFideId},${blackFideId}`;
-                                                                                        return (
-                                                                                            <a
-                                                                                                href={compareUrl}
-                                                                                                target="_blank"
-                                                                                                rel="noopener noreferrer"
-                                                                                                className="inline-flex items-center gap-1 px-2 py-1 text-xs bg-blue-100 text-blue-700 rounded-md hover:bg-blue-200 transition-colors"
-                                                                                                title="Compare FIDE ratings"
-                                                                                            >
-                                                                                                <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                                                                                                </svg>
-                                                                                                Compare
-                                                                                            </a>
-                                                                                        );
-                                                                                    }
-                                                                                    return <span className="text-gray-400 text-xs">—</span>;
-                                                                                })()
-                                                                            ) : (
-                                                                                <PlayerRenderer
-                                                                                    data={row[header.key]}
-                                                                                    onPlayerClick={handlePlayerClick}
-                                                                                    tournamentPath={`/${resolvedParams.tournament}`}
-                                                                                    columnHeader={header.name}
-                                                                                    players={data.players}
-                                                                                />
-                                                                            )}
-                                                                        </div>
-                                                                    </div>
-                                                                ))}
-                                                            </div>
-                                                        ))}
-                                                    </div>
+                                    <div key={idx} className="space-y-4">
+                                        {table.caption && (
+                                            <div
+                                                className="bg-white rounded-lg shadow-sm border border-gray-200 p-6"
+                                                id={
+                                                    typeof table.caption === "object" && table.caption.moreInfo?.anchor
+                                                        ? "table-anchor-" + table.caption.moreInfo.anchor
+                                                        : undefined
+                                                }
+                                            >
+                                                {typeof table.caption === 'string' ? (
+                                                    <h3 className="text-lg font-semibold text-gray-900">{table.caption}</h3>
                                                 ) : (
-                                                    <div className="p-8 text-center text-gray-500 italic">
-                                                        <div className="flex flex-col items-center gap-2">
-                                                            <svg className="w-8 h-8 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                                                            </svg>
-                                                            <span>{searchQuery.trim() ? 'No results found for your search' : 'No data available'}</span>
+                                                    // Structured player caption
+                                                    <div className="space-y-2">
+                                                        <div className="flex items-center gap-4">
+                                                            <h3 className="text-lg font-bold text-primary-800">
+                                                                {typeof table.caption === 'object' && table.caption.playerName ? String(table.caption.playerName) : ''}
+                                                            </h3>
+                                                            {typeof table.caption === 'object' && table.caption.id && (
+                                                                <span className="bg-primary-100 text-primary-800 px-2 py-1 rounded text-sm font-semibold">
+                                                                    ID: {String(table.caption.id)}
+                                                                </span>
+                                                            )}
                                                         </div>
                                                     </div>
                                                 )}
                                             </div>
-                                            {table.footer && (
-                                                <div className="lg:hidden p-4 bg-gray-50 border-t border-gray-200">
-                                                    <div className="text-sm text-gray-600">
-                                                        <div dangerouslySetInnerHTML={{ __html: table.footer.html }} />
+                                        )}
+
+                                        {/* Search Input */}
+                                        {table.rows && table.rows.length > 10 && (
+                                            <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-4">
+                                                <div className="relative">
+                                                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                                        <svg className="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                                        </svg>
                                                     </div>
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Search in table..."
+                                                        value={searchQuery}
+                                                        onChange={(e) => setSearchQuery(e.target.value)}
+                                                        className="block w-full pl-10 pr-3 py-2 border border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-primary-600 focus:border-primary-600 sm:text-sm text-gray-900"
+                                                    />
                                                 </div>
-                                            )}
-                                            <div className="flex justify-end p-3 border-t border-gray-100 bg-white">
-                                                <button
-                                                    onClick={() => copyTableToClipboard(table, idx)}
-                                                    className={`px-3 py-1.5 text-sm rounded-md border ${copiedTableIdx === idx ? 'bg-green-100 text-green-700 border-green-300' : 'bg-gray-100 hover:bg-gray-200 text-gray-700 border-gray-300'}`}
-                                                >
-                                                    {copiedTableIdx === idx ? 'Copied!' : 'Copy table'}
-                                                </button>
+                                            </div>)}
+
+                                        {isKeyValueTable(table) ? (
+                                            <>
+                                                <KeyValueTable rows={(table.rows || []) as { col1?: unknown; col2?: unknown }[]} searchQuery={searchQuery} />
+                                                {table.footer && (
+                                                    <div className="p-4 bg-gray-50 border border-t-0 border-gray-200 rounded-b-xl">
+                                                        <div className="text-sm text-gray-600">
+                                                            <div dangerouslySetInnerHTML={{ __html: table.footer.html }} />
+                                                        </div>
+                                                    </div>
+                                                )}
+                                            </>
+                                        ) : (
+                                            <div className="overflow-hidden rounded-xl shadow-lg border border-gray-200/50 bg-white">
+                                                {/* Desktop Table */}
+                                                <div className="hidden lg:block overflow-x-auto">
+                                                    <table className="min-w-full">
+                                                        <thead>
+                                                            <tr className="bg-gradient-to-r from-slate-50 to-gray-100/80">
+                                                                {getFilteredHeaders(table).map((header: Header, hidx: number) => (
+                                                                    <th
+                                                                        key={hidx}
+                                                                        className={`px-6 py-4 text-left text-sm font-bold text-gray-700 uppercase tracking-wider cursor-pointer select-none transition-all duration-200 hover:bg-gray-200/50 ${hidx === 0 ? 'rounded-tl-xl' : ''} ${hidx === (table.headers?.length || 0) - 1 ? 'rounded-tr-xl' : ''}`}
+                                                                        onClick={() => handleHeaderClick(idx, header.key)}
+                                                                    >
+                                                                        <div className="flex items-center gap-2">
+                                                                            <span>{header.name}</span>
+                                                                            {sortConfig && sortConfig.tableIdx === idx && sortConfig.key === header.key && (
+                                                                                <span className="text-primary-600 font-bold text-sm">
+                                                                                    {sortConfig.direction === "asc" ? "↑" : "↓"}
+                                                                                </span>
+                                                                            )}
+                                                                        </div>
+                                                                    </th>
+                                                                ))}
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody className="bg-white divide-y divide-gray-100">
+                                                            {table.rows && table.rows.length > 0 ? (
+                                                                getFilteredAndSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
+                                                                    <tr key={ridx} className={`transition-all duration-150 hover:bg-primary-50/50 hover:shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
+                                                                        {getFilteredHeaders(table).map((header: Header, hidx: number) => (
+                                                                            <td key={hidx} className="px-6 py-4 text-sm text-gray-900 font-medium">
+                                                                                {header.key === 'compare' ? (
+                                                                                    // Comparison column for pairing tables
+                                                                                    (() => {
+                                                                                        // Find white and black player columns dynamically
+                                                                                        const whiteKey = Object.keys(row).find(key =>
+                                                                                            key.toLowerCase().includes('white') || key.toLowerCase() === 'white' || key.toLowerCase() === 'w'
+                                                                                        );
+                                                                                        const blackKey = Object.keys(row).find(key =>
+                                                                                            key.toLowerCase().includes('black') || key.toLowerCase() === 'black' || key.toLowerCase() === 'b'
+                                                                                        );
+
+                                                                                        const whitePlayerId = whiteKey ? row[whiteKey] : null;
+                                                                                        const blackPlayerId = blackKey ? row[blackKey] : null;
+
+                                                                                        const whiteFideId = (whitePlayerId && typeof whitePlayerId === 'string') ? getFideId(whitePlayerId) : null;
+                                                                                        const blackFideId = (blackPlayerId && typeof blackPlayerId === 'string') ? getFideId(blackPlayerId) : null;
+
+                                                                                        if (whiteFideId && blackFideId) {
+                                                                                            const compareUrl = `https://fide-compare.truongthings.dev/?id=${whiteFideId},${blackFideId}`;
+                                                                                            return (
+                                                                                                <a
+                                                                                                    href={compareUrl}
+                                                                                                    target="_blank"
+                                                                                                    rel="noopener noreferrer"
+                                                                                                    className="inline-flex items-center gap-1 px-2 py-1 text-xs bg-primary-100 text-primary-700 rounded-md hover:bg-primary-200 transition-colors"
+                                                                                                    title="Compare FIDE ratings"
+                                                                                                >
+                                                                                                    <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                                                                                                    </svg>
+                                                                                                    Compare
+                                                                                                </a>
+                                                                                            );
+                                                                                        }
+                                                                                        return <span className="text-gray-400 text-xs">—</span>;
+                                                                                    })()
+                                                                                ) : (
+                                                                                    <PlayerRenderer
+                                                                                        data={row[header.key]}
+                                                                                        onPlayerClick={handlePlayerClick}
+                                                                                        tournamentPath={`/${resolvedParams.tournament}`}
+                                                                                        columnHeader={header.name}
+                                                                                        players={data.players}
+                                                                                    />
+                                                                                )}
+                                                                            </td>
+                                                                        ))}
+                                                                    </tr>
+                                                                ))
+                                                            ) : (
+                                                                <tr>
+                                                                    <td colSpan={getFilteredHeaders(table).length || 1} className="px-6 py-8 text-center text-gray-500 italic">
+                                                                        <div className="flex flex-col items-center gap-2">
+                                                                            <svg className="w-8 h-8 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                                                            </svg>
+                                                                            <span>{searchQuery.trim() ? 'No results found for your search' : 'No data available'}</span>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            )}
+                                                        </tbody>
+                                                        {table.footer && (
+                                                            <tfoot>
+                                                                <tr>
+                                                                    <td colSpan={getFilteredHeaders(table).length || 1} className="px-6 py-3 text-sm text-gray-600 bg-gray-50 border-t border-gray-200">
+                                                                        <div dangerouslySetInnerHTML={{ __html: table.footer.html }} />
+                                                                    </td>
+                                                                </tr>
+                                                            </tfoot>
+                                                        )}
+                                                    </table>
+                                                </div>
+
+                                                {/* Mobile Cards */}
+                                                <div className="lg:hidden">
+                                                    {table.rows && table.rows.length > 0 ? (
+                                                        <div className="space-y-6 md:space-y-4 p-0 md:p-4">
+                                                            {getFilteredAndSortedRows(table, idx).map((row: Record<string, unknown>, ridx: number) => (
+                                                                <div key={ridx} className={`bg-white rounded-lg border border-gray-200 p-4 shadow-sm ${ridx % 2 === 0 ? "bg-white" : "bg-slate-50/30"}`}>
+                                                                    {getFilteredHeaders(table).map((header: Header, hidx: number) => (
+                                                                        <div key={hidx} className="flex justify-between items-center py-2 border-b border-gray-100 last:border-b-0">
+                                                                            <span className="text-sm font-medium text-gray-600 capitalize">
+                                                                                {header.name}
+                                                                            </span>
+                                                                            <div className="text-sm text-gray-900 font-medium">
+                                                                                {header.key === 'compare' ? (
+                                                                                    // Comparison column for pairing tables
+                                                                                    (() => {
+                                                                                        // Find white and black player columns dynamically
+                                                                                        const whiteKey = Object.keys(row).find(key =>
+                                                                                            key.toLowerCase().includes('white') || key.toLowerCase() === 'white' || key.toLowerCase() === 'w'
+                                                                                        );
+                                                                                        const blackKey = Object.keys(row).find(key =>
+                                                                                            key.toLowerCase().includes('black') || key.toLowerCase() === 'black' || key.toLowerCase() === 'b'
+                                                                                        );
+
+                                                                                        const whitePlayerId = whiteKey ? row[whiteKey] : null;
+                                                                                        const blackPlayerId = blackKey ? row[blackKey] : null;
+
+                                                                                        const whiteFideId = (whitePlayerId && typeof whitePlayerId === 'string') ? getFideId(whitePlayerId) : null;
+                                                                                        const blackFideId = (blackPlayerId && typeof blackPlayerId === 'string') ? getFideId(blackPlayerId) : null;
+
+                                                                                        if (whiteFideId && blackFideId) {
+                                                                                            const compareUrl = `https://fide-compare.truongthings.dev/?id=${whiteFideId},${blackFideId}`;
+                                                                                            return (
+                                                                                                <a
+                                                                                                    href={compareUrl}
+                                                                                                    target="_blank"
+                                                                                                    rel="noopener noreferrer"
+                                                                                                    className="inline-flex items-center gap-1 px-2 py-1 text-xs bg-primary-100 text-primary-700 rounded-md hover:bg-primary-200 transition-colors"
+                                                                                                    title="Compare FIDE ratings"
+                                                                                                >
+                                                                                                    <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                                                                                                    </svg>
+                                                                                                    Compare
+                                                                                                </a>
+                                                                                            );
+                                                                                        }
+                                                                                        return <span className="text-gray-400 text-xs">—</span>;
+                                                                                    })()
+                                                                                ) : (
+                                                                                    <PlayerRenderer
+                                                                                        data={row[header.key]}
+                                                                                        onPlayerClick={handlePlayerClick}
+                                                                                        tournamentPath={`/${resolvedParams.tournament}`}
+                                                                                        columnHeader={header.name}
+                                                                                        players={data.players}
+                                                                                    />
+                                                                                )}
+                                                                            </div>
+                                                                        </div>
+                                                                    ))}
+                                                                </div>
+                                                            ))}
+                                                        </div>
+                                                    ) : (
+                                                        <div className="p-8 text-center text-gray-500 italic">
+                                                            <div className="flex flex-col items-center gap-2">
+                                                                <svg className="w-8 h-8 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                                                </svg>
+                                                                <span>{searchQuery.trim() ? 'No results found for your search' : 'No data available'}</span>
+                                                            </div>
+                                                        </div>
+                                                    )}
+                                                </div>
+                                                {table.footer && (
+                                                    <div className="lg:hidden p-4 bg-gray-50 border-t border-gray-200">
+                                                        <div className="text-sm text-gray-600">
+                                                            <div dangerouslySetInnerHTML={{ __html: table.footer.html }} />
+                                                        </div>
+                                                    </div>
+                                                )}
+                                                <div className="flex justify-end p-3 border-t border-gray-100 bg-white">
+                                                    <button
+                                                        onClick={() => copyTableToClipboard(table, idx)}
+                                                        className={`px-3 py-1.5 text-sm rounded-md border ${copiedTableIdx === idx ? 'bg-green-100 text-green-700 border-green-300' : 'bg-gray-100 hover:bg-gray-200 text-gray-700 border-gray-300'}`}
+                                                    >
+                                                        {copiedTableIdx === idx ? 'Copied!' : 'Copy table'}
+                                                    </button>
+                                                </div>
                                             </div>
-                                        </div>
-                                    )}
-                                </div>
+                                        )}
+                                    </div>
                                 );
                             })}
                         </div>

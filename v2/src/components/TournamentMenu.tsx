@@ -16,13 +16,13 @@ interface TournamentMenuProps {
 const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSelectPage }) => {
     const [openDropdown, setOpenDropdown] = useState<string | null>(null);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-    
+
     const normalizedMenu = useMemo(() => {
         const normalizeMenuItems = (items: MenuItem[]): MenuItem[] => {
             return (items || []).map((item) => {
                 const children = item.children && item.children.length > 0 ? normalizeMenuItems(item.children) : undefined;
                 const hasChildren = !!(children && children.length > 0);
-                
+
                 // Add "View Vega" item to Info menu
                 let finalChildren = children;
                 if (item.text === "Info" && hasChildren) {
@@ -35,7 +35,7 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
                         }
                     ];
                 }
-                
+
                 return {
                     ...item,
                     isDropdown: hasChildren,
@@ -66,9 +66,9 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
             <div className="px-1 md:px-4">
                 {/* Mobile hamburger button */}
                 <div className="lg:hidden flex justify-between items-center py-4 mobile-menu-">
-                    <span className="text-lg font-semibold text-blue-800">Tournament Menu</span>
+                    <span className="text-lg font-semibold text-primary-800">Tournament Menu</span>
                     <button
-                        className="p-2 rounded-md text-blue-700 hover:bg-blue-100 transition-colors duration-200"
+                        className="p-2 rounded-md text-primary-700 hover:bg-primary-100 transition-colors duration-200"
                         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                     >
                         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -90,7 +90,7 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
                                     <>
                                         <button
                                             className={`relative px-6 py-4 font-medium text-sm transition-all duration-200 flex items-center gap-2 border-b-2 -mb-px ${openDropdown === item.text
-                                                ? "text-blue-600 border-blue-600 bg-blue-50"
+                                                ? "text-primary-600 border-primary-600 bg-primary-50"
                                                 : "text-gray-500 border-transparent hover:text-gray-700 hover:border-gray-300"
                                                 }`}
                                             onClick={(e) => {
@@ -114,7 +114,7 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
                                                         <button
                                                             key={child.text}
                                                             className={`w-full text-left px-4 py-3 text-sm font-medium transition-all duration-150 ${activePage === child.href
-                                                                ? "bg-blue-50 text-blue-700 border-r-2 border-blue-600"
+                                                                ? "bg-primary-50 text-primary-700 border-r-2 border-primary-600"
                                                                 : "text-gray-700 hover:bg-gray-50 hover:text-gray-900"
                                                                 }`}
                                                             onClick={() => {
@@ -137,14 +137,14 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
                                 ) : (
                                     <button
                                         className={`relative px-6 py-4 font-medium text-sm transition-all duration-200 border-b-2 -mb-px ${activePage === item.href
-                                            ? "text-blue-600 border-blue-600 bg-blue-50"
+                                            ? "text-primary-600 border-primary-600 bg-primary-50"
                                             : "text-gray-500 border-transparent hover:text-gray-700 hover:border-gray-300"
                                             }`}
                                         onClick={() => onSelectPage(item.href)}
                                     >
                                         {item.text}
                                         {activePage === item.href && (
-                                            <div className="absolute inset-x-0 bottom-0 h-0.5 bg-blue-600"></div>
+                                            <div className="absolute inset-x-0 bottom-0 h-0.5 bg-primary-600"></div>
                                         )}
                                     </button>
                                 )}
@@ -163,7 +163,7 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
                                         <>
                                             <button
                                                 className={`w-full text-left px-4 py-3 font-medium text-sm transition-all duration-200 flex items-center justify-between rounded-lg ${openDropdown === item.text
-                                                    ? "bg-blue-600 text-white shadow-sm"
+                                                    ? "bg-primary-600 text-white shadow-sm"
                                                     : "text-gray-700 hover:bg-white hover:shadow-sm"
                                                     }`}
                                                 onClick={(e) => {
@@ -186,7 +186,7 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
                                                         <button
                                                             key={child.text}
                                                             className={`w-full text-left px-3 py-2 rounded-md text-sm font-medium transition-all duration-150 ${activePage === child.href
-                                                                ? "bg-blue-100 text-blue-800 border-l-2 border-blue-600"
+                                                                ? "bg-primary-100 text-primary-800 border-l-2 border-primary-600"
                                                                 : "text-gray-600 hover:bg-white hover:text-gray-900"
                                                                 }`}
                                                             onClick={() => {
@@ -209,7 +209,7 @@ const TournamentMenu: React.FC<TournamentMenuProps> = ({ menu, activePage, onSel
                                     ) : (
                                         <button
                                             className={`w-full text-left px-4 py-3 font-medium text-sm transition-all duration-200 rounded-lg ${activePage === item.href
-                                                ? "bg-blue-600 text-white shadow-sm"
+                                                ? "bg-primary-600 text-white shadow-sm"
                                                 : "text-gray-700 hover:bg-white hover:shadow-sm"
                                                 }`}
                                             onClick={() => {

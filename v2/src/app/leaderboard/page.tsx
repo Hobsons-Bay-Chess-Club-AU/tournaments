@@ -62,9 +62,9 @@ export default function LeaderboardPage() {
     const timer = setTimeout(() => {
       const mainContent = document.getElementById('main-content');
       if (mainContent) {
-        mainContent.scrollIntoView({ 
-          behavior: 'smooth', 
-          block: 'start' 
+        mainContent.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
         });
       }
     }, 3000);
@@ -77,9 +77,9 @@ export default function LeaderboardPage() {
   const totalTournaments = juniorData?.totalTournaments || openData?.totalTournaments || 0;
 
   return (
-    <div className="font-sans min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
+    <div className="font-sans min-h-screen bg-gradient-to-br from-primary-50 via-primary-100 to-primary-200">
       {/* Hero Section */}
-      <div className="relative overflow-hidden bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-700">
+      <div className="relative overflow-hidden bg-gradient-to-r from-primary-600 via-primary-700 to-primary-800">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
@@ -95,12 +95,12 @@ export default function LeaderboardPage() {
                 <FaTrophy className="text-6xl text-yellow-300" />
               </div>
             </div>
-            
+
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
               Hobsons Bay Club Leaderboard
             </h1>
-            
-            <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
+
+            <p className="text-xl md:text-2xl text-primary-100 mb-8 max-w-3xl mx-auto leading-relaxed">
               Discover the top performers in our chess community. Track ratings, achievements, and tournament success across different categories.
             </p>
 
@@ -108,37 +108,37 @@ export default function LeaderboardPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-8">
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
                 <div className="flex items-center justify-center mb-3">
-                  <FaUsers className="text-3xl text-blue-200" />
+                  <FaUsers className="text-3xl text-primary-200" />
                 </div>
                 <div className="text-2xl font-bold text-white">
                   {loading ? (
                     <div className="animate-pulse">...</div>
                   ) : (
-                    <CountUp 
-                      end={totalPlayers} 
-                      duration={2000} 
+                    <CountUp
+                      end={totalPlayers}
+                      duration={2000}
                       delay={500}
                       suffix="+"
                     />
                   )}
                 </div>
-                <div className="text-blue-100">Active Players</div>
+                <div className="text-primary-100">Active Players</div>
               </div>
-              
+
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
                 <div className="flex items-center justify-center mb-3">
                   <FaChartLine className="text-3xl text-green-200" />
                 </div>
                 <div className="text-2xl font-bold text-white">
-                  <CountUp 
-                    end={5} 
-                    duration={1500} 
+                  <CountUp
+                    end={5}
+                    duration={1500}
                     delay={1000}
                   />
                 </div>
-                <div className="text-blue-100">Rating Categories</div>
+                <div className="text-primary-100">Rating Categories</div>
               </div>
-              
+
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
                 <div className="flex items-center justify-center mb-3">
                   <FaMedal className="text-3xl text-yellow-200" />
@@ -147,15 +147,15 @@ export default function LeaderboardPage() {
                   {loading ? (
                     <div className="animate-pulse">...</div>
                   ) : (
-                    <CountUp 
-                      end={totalTournaments} 
-                      duration={2000} 
+                    <CountUp
+                      end={totalTournaments}
+                      duration={2000}
                       delay={1500}
                       suffix="+"
                     />
                   )}
                 </div>
-                <div className="text-blue-100">Tournaments</div>
+                <div className="text-primary-100">Tournaments</div>
               </div>
             </div>
           </div>
@@ -170,7 +170,7 @@ export default function LeaderboardPage() {
             Choose Your Category
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Explore leaderboards tailored to different player categories and age groups. 
+            Explore leaderboards tailored to different player categories and age groups.
             Each category showcases the best performers in their respective divisions.
           </p>
         </div>
@@ -202,7 +202,7 @@ export default function LeaderboardPage() {
                       Open Leaderboard
                     </h3>
                     <p className="text-yellow-700 mb-6 leading-relaxed">
-                      Comprehensive rankings of all players across open tournaments. 
+                      Comprehensive rankings of all players across open tournaments.
                       Features players of all ages with multiple tournament participation.
                     </p>
 
@@ -213,9 +213,9 @@ export default function LeaderboardPage() {
                           {loading ? (
                             <div className="animate-pulse">...</div>
                           ) : (
-                            <CountUp 
-                              end={openData?.count || 0} 
-                              duration={1500} 
+                            <CountUp
+                              end={openData?.count || 0}
+                              duration={1500}
                               delay={200}
                             />
                           )}
@@ -224,9 +224,9 @@ export default function LeaderboardPage() {
                       </div>
                       <div className="text-center">
                         <div className="text-2xl font-bold text-yellow-600">
-                          <CountUp 
-                            end={5} 
-                            duration={1000} 
+                          <CountUp
+                            end={5}
+                            duration={1000}
                             delay={400}
                           />
                         </div>
@@ -270,7 +270,7 @@ export default function LeaderboardPage() {
                       Junior Leaderboard
                     </h3>
                     <p className="text-green-700 mb-6 leading-relaxed">
-                      Rising stars in junior tournaments. Track the development of young players 
+                      Rising stars in junior tournaments. Track the development of young players
                       with age-appropriate filtering and focused competition.
                     </p>
 
@@ -281,9 +281,9 @@ export default function LeaderboardPage() {
                           {loading ? (
                             <div className="animate-pulse">...</div>
                           ) : (
-                            <CountUp 
-                              end={juniorData?.count || 0} 
-                              duration={1500} 
+                            <CountUp
+                              end={juniorData?.count || 0}
+                              duration={1500}
                               delay={200}
                             />
                           )}
@@ -292,9 +292,9 @@ export default function LeaderboardPage() {
                       </div>
                       <div className="text-center">
                         <div className="text-2xl font-bold text-green-600">
-                          <CountUp 
-                            end={6} 
-                            duration={1000} 
+                          <CountUp
+                            end={6}
+                            duration={1000}
                             delay={400}
                           />
                         </div>
@@ -327,8 +327,8 @@ export default function LeaderboardPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="bg-blue-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                <FaChartLine className="text-2xl text-blue-600" />
+              <div className="bg-primary-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                <FaChartLine className="text-2xl text-primary-600" />
               </div>
               <h4 className="font-semibold text-gray-900 mb-2">Multiple Ratings</h4>
               <p className="text-sm text-gray-600">FIDE Standard, Rapid, Blitz, ACF Classic & Quick ratings</p>

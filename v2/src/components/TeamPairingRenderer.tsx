@@ -57,7 +57,7 @@ const TeamPairingRenderer: React.FC<TeamPairingRendererProps> = ({ data }) => {
             {data.matches.map((match, matchIndex) => (
                 <div key={matchIndex} className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
                     {/* Match Header */}
-                    <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-6">
+                    <div className="bg-gradient-to-r from-primary-600 to-primary-800 text-white p-6">
                         <div className="flex items-center justify-between">
                             <div className="flex items-center gap-4">
                                 <div className="bg-white/20 rounded-lg p-3">
@@ -67,7 +67,7 @@ const TeamPairingRenderer: React.FC<TeamPairingRendererProps> = ({ data }) => {
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-bold">Match {match.matchNumber}</h3>
-                                    <p className="text-blue-100">Team vs Team</p>
+                                    <p className="text-primary-100">Team vs Team</p>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ const TeamPairingRenderer: React.FC<TeamPairingRendererProps> = ({ data }) => {
                                 </div>
                             </div>
                             <div className="text-center">
-                                <div className="text-3xl font-bold text-blue-600">{match.team1.matchScore} - {match.team2.matchScore}</div>
+                                <div className="text-3xl font-bold text-primary-600">{match.team1.matchScore} - {match.team2.matchScore}</div>
                                 <div className="text-sm text-gray-600">Match Score</div>
                             </div>
                         </div>
@@ -104,12 +104,12 @@ const TeamPairingRenderer: React.FC<TeamPairingRendererProps> = ({ data }) => {
                                 <div key={pairingIndex} className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
                                     <div className="flex items-center justify-between">
                                         <div className="flex items-center gap-4">
-                                            <div className="bg-blue-100 text-blue-800 px-3 py-1 rounded-lg font-semibold text-sm">
+                                            <div className="bg-primary-100 text-primary-800 px-3 py-1 rounded-lg font-semibold text-sm">
                                                 Board {pairing.board}
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
                                         {/* White Player */}
                                         <div className="bg-white border border-gray-200 rounded-lg p-4">

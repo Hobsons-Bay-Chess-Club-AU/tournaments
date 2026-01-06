@@ -18,14 +18,14 @@ const FilterTabs: React.FC<FilterTabsProps> = ({ options, activeOption, onOption
                             <button
                                 key={option}
                                 className={`relative px-8 py-4 font-medium text-sm transition-all duration-200 border-b-2 -mb-px ${activeOption === option
-                                    ? "text-blue-600 border-blue-600 bg-blue-50"
+                                    ? "text-primary-600 border-primary-600 bg-primary-50"
                                     : "text-gray-500 border-transparent hover:text-gray-700 hover:border-gray-300"
                                     }`}
                                 onClick={() => onOptionChange(option)}
                             >
                                 {option}
                                 {activeOption === option && (
-                                    <div className="absolute inset-x-0 bottom-0 h-0.5 bg-blue-600"></div>
+                                    <div className="absolute inset-x-0 bottom-0 h-0.5 bg-primary-600"></div>
                                 )}
                             </button>
                         ))}
@@ -39,7 +39,7 @@ const FilterTabs: React.FC<FilterTabsProps> = ({ options, activeOption, onOption
                             <button
                                 key={option}
                                 className={`flex-1 px-1 md:px-4 py-4 font-medium text-sm transition-all duration-200 border-b-2 -mb-px ${activeOption === option
-                                    ? "text-blue-600 border-blue-600 bg-blue-50"
+                                    ? "text-primary-600 border-primary-600 bg-primary-50"
                                     : "text-gray-500 border-transparent hover:text-gray-700 hover:border-gray-300"
                                     }`}
                                 onClick={() => onOptionChange(option)}

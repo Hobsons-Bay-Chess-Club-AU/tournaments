@@ -23,7 +23,7 @@ function getIdCell(player: Player, activeCategory: string) {
         href={`https://ratings.fide.com/profile/${player.fideId}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-blue-700 underline hover:text-blue-900"
+        className="text-primary-700 underline hover:text-primary-900"
       >
         {player.fideId}
       </a>
@@ -40,7 +40,7 @@ export default function LeaderboardTable({ players, activeCategory, getRatingFor
     <div className="overflow-x-auto">
       <table className="min-w-full text-sm border border-gray-200 rounded-lg shadow-md bg-white">
         <thead>
-          <tr className="bg-gradient-to-r from-blue-100 to-blue-300 text-blue-900">
+          <tr className="bg-gradient-to-r from-primary-100 to-primary-200 text-primary-900">
             <th className="px-4 py-3 font-semibold text-left">#</th>
             <th className="px-4 py-3 font-semibold text-left">Name</th>
             <th className="px-4 py-3 font-semibold text-left">ID</th>
@@ -51,9 +51,9 @@ export default function LeaderboardTable({ players, activeCategory, getRatingFor
         </thead>
         <tbody>
           {players.map((player, idx) => (
-            <tr key={player.id || player.fideId || player.name || idx} className={idx % 2 === 0 ? "bg-white" : "bg-blue-50 hover:bg-blue-100 transition-colors"}>
+            <tr key={player.id || player.fideId || player.name || idx} className={idx % 2 === 0 ? "bg-white" : "bg-primary-50 hover:bg-primary-100 transition-colors"}>
               <td className="px-4 py-2 text-gray-500 font-medium">{getBadge(idx)}{idx + 1}</td>
-              <td className="px-4 py-2 text-blue-900 font-semibold whitespace-nowrap">
+              <td className="px-4 py-2 text-primary-900 font-semibold whitespace-nowrap">
                 {player.title && (
                   <span className="inline-block px-2 py-1 rounded bg-purple-600 text-white font-bold text-xs mr-2">
                     {player.title}
@@ -64,7 +64,7 @@ export default function LeaderboardTable({ players, activeCategory, getRatingFor
               <td className="px-4 py-2">{getIdCell(player, activeCategory)}</td>
               <td className="px-4 py-2 text-gray-700 capitalize">{player.gender}</td>
               <td className="px-4 py-2 text-gray-700">{player.tournamentCount}</td>
-              <td className="px-4 py-2 text-blue-700 font-bold">{getRatingForCategory(player, activeCategory)}</td>
+              <td className="px-4 py-2 text-primary-700 font-bold">{getRatingForCategory(player, activeCategory)}</td>
             </tr>
           ))}
         </tbody>

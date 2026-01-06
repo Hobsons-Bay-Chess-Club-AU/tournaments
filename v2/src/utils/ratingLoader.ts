@@ -49,7 +49,7 @@ export function generateSimulatedRatings(players: Player[], isSenior: boolean = 
   const baseRating = isSenior ? 1200 : 800;
   const range = isSenior ? 500 : 400;
   const currentYear = new Date().getFullYear();
-  
+
   return players.map((player) => {
     // Generate realistic birth year based on category
     let birthYear = player.birthYear;
@@ -62,7 +62,7 @@ export function generateSimulatedRatings(players: Player[], isSenior: boolean = 
         birthYear = currentYear - Math.floor(Math.random() * 18) - 1; // 1-18 years old
       }
     }
-    
+
     return {
       ...player,
       birthYear,
@@ -105,12 +105,12 @@ export function getAgeGroup(birthYear: number): string {
 export function filterPlayersByAge(players: Player[], minAge?: number, maxAge?: number): Player[] {
   return players.filter(player => {
     if (!player.birthYear) return true; // Include players without birth year
-    
+
     const age = calculateAge(player.birthYear);
-    
+
     if (minAge !== undefined && age < minAge) return false;
     if (maxAge !== undefined && age > maxAge) return false;
-    
+
     return true;
   });
 }
@@ -119,18 +119,18 @@ export function filterPlayersByAge(players: Player[], minAge?: number, maxAge?: 
 export function findMisclassifiedPlayers(players: Player[], expectedCategory: 'junior' | 'senior'): Player[] {
   return players.filter(player => {
     if (!player.birthYear) return false; // Skip players without birth year
-    
+
     const age = calculateAge(player.birthYear);
     const isAdultPlayer = age >= 18;
-    
+
     if (expectedCategory === 'junior' && isAdultPlayer) {
       return true; // Adult player in junior category
     }
-    
+
     if (expectedCategory === 'senior' && !isAdultPlayer) {
       return true; // Junior player in senior category
     }
-    
+
     return false;
   });
 }

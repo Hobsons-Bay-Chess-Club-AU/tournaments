@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const HomeHero: React.FC = () => {
     return (
-        <section className="relative w-full bg-gradient-to-br from-blue-900 via-blue-700 to-indigo-800 text-white shadow-2xl py-2 md:pb-3">
+        <section className="relative w-full bg-gradient-to-br from-primary-900 via-primary-700 to-primary-800 text-white shadow-2xl py-2 md:pb-3">
             {/* Decorative top border */}
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500"></div>
 
@@ -21,7 +21,7 @@ const HomeHero: React.FC = () => {
                 {/* Tournaments subtitle */}
                 <div className="text-center">
 
-                    <p className="text-lg text-blue-100 max-w-2xl mx-auto">
+                    <p className="text-lg text-primary-100 max-w-2xl mx-auto">
                         Explore our comprehensive collection of chess tournaments and championship results
                     </p>
                 </div>

@@ -4,23 +4,31 @@
   margin: 1rem 0;
   font-size: 1rem;
 }
-.leaderboard-table th, .leaderboard-table td {
+
+.leaderboard-table th,
+.leaderboard-table td {
   border: 1px solid #ddd;
   padding: 0.5rem 0.75rem;
   text-align: left;
 }
+
 .leaderboard-table th {
   background: #f5f5f5;
   font-weight: 600;
 }
+
 .leaderboard-table tr:nth-child(even) {
   background: #fafafa;
 }
+
 .leaderboard-table tr:hover {
   background: #e6f7ff;
 }
+
 @media (max-width: 600px) {
-  .leaderboard-table th, .leaderboard-table td {
+
+  .leaderboard-table th,
+  .leaderboard-table td {
     font-size: 0.9rem;
     padding: 0.4rem 0.5rem;
   }

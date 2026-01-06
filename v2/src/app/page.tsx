@@ -106,7 +106,7 @@ export default function Home() {
   const yearIdx = years.indexOf(year);
 
   return (
-    <div className="font-sans min-h-screen bg-gradient-to-br from-blue-50 to-blue-200">
+    <div className="font-sans min-h-screen bg-gradient-to-br from-primary-50 to-primary-200">
       {/* Hero section for home page */}
       <HomeHero />
 
@@ -135,7 +135,7 @@ export default function Home() {
               const beginDateObj = parseAusDate(date);
               const endDateObj = parseAusDate(endDate);
               const now = new Date();
-              let cardClass = "block bg-white rounded-xl shadow-lg hover:shadow-2xl transition border border-blue-100 p-6 text-center group";
+              let cardClass = "block bg-white rounded-xl shadow-lg hover:shadow-2xl transition border border-primary-100 p-6 text-center group";
               let status = "Completed";
               let statusClass = "bg-gray-300 text-gray-800";
               // Future tournament: begin date > now
@@ -158,7 +158,7 @@ export default function Home() {
                   href={linkUrl}
                   className={cardClass}
                 >
-                  <div className="mb-2 text-lg font-bold text-blue-800 group-hover:text-blue-600">{title}</div>
+                  <div className="mb-2 text-lg font-bold text-primary-800 group-hover:text-primary-600">{title}</div>
                   <div className="mb-1 text-sm text-gray-500">{date}</div>
                   {site && <div className="mb-1 text-xs text-gray-400 italic">Site: {site}</div>}
                   <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold mr-2 ${statusClass}`}>{status}</span>
@@ -173,7 +173,7 @@ export default function Home() {
         <div className="px-4 pb-8">
           <div className="flex justify-center gap-2 pt-8 border-t border-gray-100">
             <button
-              className="px-3 py-2 rounded border bg-gray-50 text-blue-700 font-semibold shadow-sm disabled:opacity-50 hover:bg-gray-100 transition-colors"
+              className="px-3 py-2 rounded border bg-gray-50 text-primary-700 font-semibold shadow-sm disabled:opacity-50 hover:bg-gray-100 transition-colors"
               disabled={yearIdx <= 0}
               onClick={() => yearIdx > 0 && setYear(years[yearIdx - 1])}
             >
@@ -182,14 +182,14 @@ export default function Home() {
             {years.map((y) => (
               <button
                 key={y}
-                className={`px-4 py-2 rounded-full font-semibold border transition shadow-sm ${year === y ? "bg-blue-600 text-white border-blue-700" : "bg-gray-50 text-blue-700 border-gray-200 hover:bg-gray-100"}`}
+                className={`px-4 py-2 rounded-full font-semibold border transition shadow-sm ${year === y ? "bg-primary-600 text-white border-primary-700" : "bg-gray-50 text-primary-700 border-gray-200 hover:bg-gray-100"}`}
                 onClick={() => setYear(y)}
               >
                 {y}
               </button>
             ))}
             <button
-              className="px-3 py-2 rounded border bg-gray-50 text-blue-700 font-semibold shadow-sm disabled:opacity-50 hover:bg-gray-100 transition-colors"
+              className="px-3 py-2 rounded border bg-gray-50 text-primary-700 font-semibold shadow-sm disabled:opacity-50 hover:bg-gray-100 transition-colors"
               disabled={yearIdx >= years.length - 1}
               onClick={() => yearIdx < years.length - 1 && setYear(years[yearIdx + 1])}
             >

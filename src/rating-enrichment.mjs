@@ -104,7 +104,7 @@ function parseVegFile(vegPath) {
     const fideId = parts[5].trim();
     const acfId = parts[8].trim();
     const rating = Number(parts[9].trim()) || 0;
-    
+
     // Extract birth year from DOB
     let birthYear = null;
     if (dob) {
@@ -114,7 +114,7 @@ function parseVegFile(vegPath) {
         birthYear = parseInt(yearMatch[1]);
       }
     }
-    
+
     const playerData = { name, title, fideId, acfId, rating, birthYear };
     acfMap.set(acfId, playerData);
     if (fideId) acfMap.set(fideId, playerData);
@@ -149,7 +149,7 @@ async function enrichRatings(inputPath, outputPath, fideMap = null, acfClassicMa
     let fideMatch = null;
     let acfClassicMatch = null;
     let acfQuickMatch = null;
-    
+
     // Step 1: Try ACF mapping first (since ACF data often contains FIDE IDs)
     if (acfClassicMap) {
       if (player.acfId && acfClassicMap.has(player.acfId)) {
@@ -169,7 +169,7 @@ async function enrichRatings(inputPath, outputPath, fideMap = null, acfClassicMa
         acfQuickMatch = acfQuickMap.get(normName);
       }
     }
-    
+
     // Step 2: Try FIDE mapping
     if (fideMap) {
       // First try by FIDE ID (from local data or ACF match)
@@ -178,7 +178,7 @@ async function enrichRatings(inputPath, outputPath, fideMap = null, acfClassicMa
         fideMatch = fideMap.get(fideIdToTry);
       } else if (fideMap.has(normName)) {
         fideMatch = fideMap.get(normName);
-        
+
         // Edge case: If no FIDE ID but name match + FED = AUS, consider the player data
         if (!player.fideId && fideMatch && fideMatch.fed === 'AUS') {
           // This is an Australian player found by name match, accept the data
@@ -188,7 +188,7 @@ async function enrichRatings(inputPath, outputPath, fideMap = null, acfClassicMa
           console.log(`🇦🇺 Australian player matched: ${player.name} (FIDE ID: ${fideMatch.fideid}, Rating: ${fideMatch.rating})`);
         }
       }
-      
+
 
     }
     // Update FIDE ID if we found a match
@@ -200,16 +200,16 @@ async function enrichRatings(inputPath, outputPath, fideMap = null, acfClassicMa
     } else if (acfQuickMatch && acfQuickMatch.fideId) {
       updatedFideId = acfQuickMatch.fideId;
     }
-    
+
     // Debug: Show when FIDE ID is being updated
     if (updatedFideId && updatedFideId !== player.fideId) {
       console.log(`🆔 Updated FIDE ID for ${player.name}: "${player.fideId}" -> "${updatedFideId}"`);
     }
-    
+
     let acfId = player.acfId || "";
     if (acfClassicMatch && acfClassicMatch.acfId) acfId = acfClassicMatch.acfId;
     else if (acfQuickMatch && acfQuickMatch.acfId) acfId = acfQuickMatch.acfId;
-    
+
     // Extract title with priority: FIDE title > ACF title
     let title = '';
     if (fideMatch && fideMatch.title) {
@@ -219,7 +219,7 @@ async function enrichRatings(inputPath, outputPath, fideMap = null, acfClassicMa
     } else if (acfQuickMatch && acfQuickMatch.title) {
       title = acfQuickMatch.title;
     }
-    
+
     // Extract birth year with priority: ACF Classic > ACF Quick
     let birthYear = null;
     if (acfClassicMatch && acfClassicMatch.birthYear) {
@@ -227,7 +227,7 @@ async function enrichRatings(inputPath, outputPath, fideMap = null, acfClassicMa
     } else if (acfQuickMatch && acfQuickMatch.birthYear) {
       birthYear = acfQuickMatch.birthYear;
     }
-    
+
     enrichedPlayers.push({
       ...player,
       fideId: updatedFideId, // Update with the found FIDE ID
@@ -305,11 +305,11 @@ async function main() {
     if (p.acfId) wantedIds.add(p.acfId);
     if (p.name) wantedNames.add(normaliseName(p.name));
   });
-  
+
   // Parse FIDE players for enrichment
   const fidePlayers = parseFideTxt(txtFile, wantedIds, wantedNames);
   const fideMap = buildFideMap(fidePlayers);
-  
+
   // Parse ACF Classic and Quick
   const acfClassicMap = parseVegFile(acfClassicVeg);
   const acfQuickMap = parseVegFile(acfQuickVeg);
