@@ -1,0 +1,780 @@
+{
+  "generatedAt": "2026-01-19T08:43:28.990Z",
+  "tournament": {
+    "id": "2026-honourable-bob-rookies-and-juniors",
+    "name": "2026 Honourable Bob Rookies and Juniors",
+    "category": "Senior",
+    "metadata": {
+      "Tournament Name": "2026 Honourable Bob Rookies and Juniors",
+      "Place": "Melbourne",
+      "Federation": "AUS",
+      "Date Begin": "27/01/2026",
+      "Date End": "24/02/2026",
+      "Arbiter(s)": "Truong Nguyen",
+      "Play System": "swiss FIDE Dutch (JaVaFo)",
+      "Rounds": "5",
+      "Score game": "0-0.5-1",
+      "Tie break": "BH BH/C1",
+      "Registered Players": "5",
+      "Number of Federations": "2",
+      "Average Rating (all)": "1089",
+      "Average Rating (only FIDE rated)": "0",
+      "Players from AUS Federation": "1",
+      "Players NOT from AUS Federation": "4",
+      "FIDE rated players": "0",
+      "unrated players": "5",
+      "unrated players from AUS Federation": "1",
+      "unrated players NOT from AUS Federation": "4",
+      "unrated Federations": "2",
+      "FIDE titled players": "0",
+      "GM players": "0",
+      "WGM players": "0",
+      "IM players": "0",
+      "WIM players": "0",
+      "FM players": "0",
+      "WFM players": "0",
+      "CM players": "0",
+      "WCM players": "0",
+      "FIDE titled player from AUS Federation": "0",
+      "FIDE titled player NOT from AUS Federation": "0",
+      "category": "Senior",
+      "tournamentName": "2026 Honourable Bob Rookies and Juniors",
+      "federation": "AUS",
+      "dateBegin": "27/01/2026",
+      "dateEnd": "24/02/2026",
+      "arbiters": "Truong Nguyen",
+      "playSystem": "swiss FIDE Dutch (JaVaFo)",
+      "rounds": 5,
+      "scoreGame": "0-0.5-1",
+      "tieBreak": "BH BH/C1",
+      "registeredPlayers": 5,
+      "averageRating": 1089,
+      "averageRatingFide": 0,
+      "fideRatedPlayers": 0,
+      "unratedPlayers": 5,
+      "fideTitledPlayers": 0
+    }
+  },
+  "players": [
+    {
+      "id": "1",
+      "name": "McIntyre,Julian",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#1",
+      "origin": ""
+    },
+    {
+      "id": "2",
+      "name": "Paul,Nikash",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#2",
+      "origin": ""
+    },
+    {
+      "id": "3",
+      "name": "Hogan,Steven",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#3",
+      "origin": ""
+    },
+    {
+      "id": "4",
+      "name": "Wilkinson,Greg",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#4",
+      "origin": ""
+    },
+    {
+      "id": "5",
+      "name": "Chauwla,Jyotsna",
+      "title": "",
+      "federation": "AUS",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#5",
+      "origin": ""
+    }
+  ],
+  "pages": {
+    "felovar.html": {
+      "pageHeading": "FIDE rating variation at round 0",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "Ng",
+              "key": "Ng"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "ARO",
+              "key": "ARO"
+            },
+            {
+              "name": "var",
+              "key": "var"
+            },
+            {
+              "name": "Rp",
+              "key": "Rp"
+            }
+          ],
+          "rows": [],
+          "type": "standings"
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "fideplayercard.html": {
+      "pageHeading": "FIDE History Cards",
+      "tables": [],
+      "tournamentType": "unknown"
+    },
+    "games.html": {
+      "pageHeading": "",
+      "tables": [],
+      "tournamentType": "unknown"
+    },
+    "index.html": {
+      "pageHeading": "Registered players",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "Title",
+              "key": "Title"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "RtgF",
+              "key": "RtgF"
+            },
+            {
+              "name": "RtgN",
+              "key": "RtgN"
+            }
+          ],
+          "rows": [
+            {
+              "#": "1",
+              "Title": "",
+              "Player": "McIntyre,Julian",
+              "Fed": "VIC",
+              "Rtg": "1542",
+              "RtgF": "0",
+              "RtgN": "1542"
+            },
+            {
+              "#": "2",
+              "Title": "",
+              "Player": "Paul,Nikash",
+              "Fed": "VIC",
+              "Rtg": "1426",
+              "RtgF": "0",
+              "RtgN": "1426"
+            },
+            {
+              "#": "3",
+              "Title": "",
+              "Player": "Hogan,Steven",
+              "Fed": "VIC",
+              "Rtg": "1405",
+              "RtgF": "0",
+              "RtgN": "1405"
+            },
+            {
+              "#": "4",
+              "Title": "",
+              "Player": "Wilkinson,Greg",
+              "Fed": "VIC",
+              "Rtg": "1072",
+              "RtgF": "0",
+              "RtgN": "1072"
+            },
+            {
+              "#": "5",
+              "Title": "",
+              "Player": "Chauwla,Jyotsna",
+              "Fed": "AUS",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            }
+          ],
+          "footer": {
+            "text": "Rating legend: Rtg: Rating used for pairing and standings - RtgF: Fide Rating - RtgN: National Rating",
+            "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
+          },
+          "type": "other"
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "nelovar.html": {
+      "pageHeading": "National rating at round 0",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Name",
+              "key": "Name"
+            },
+            {
+              "name": "K",
+              "key": "K"
+            },
+            {
+              "name": "Elo",
+              "key": "Elo"
+            },
+            {
+              "name": "Var",
+              "key": "Var"
+            },
+            {
+              "name": "Per",
+              "key": "Per"
+            }
+          ],
+          "rows": [],
+          "type": "other"
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "pairing.html": {
+      "pageHeading": "",
+      "tables": [],
+      "tournamentType": "unknown"
+    },
+    "playercard.html": {
+      "pageHeading": "National History Cards",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Hogan,Steven",
+            "id": "3112941",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1405",
+              "anchor": "1"
+            },
+            "rawText": "1   Hogan,Steven        , K= 0, Elo=1405, ID=3112941",
+            "rawHtml": "   1   <strong>Hogan,Steven        </strong>, K= 0, Elo=1405, ID=3112941\n<br>\n<a class=\"anchor\" name=\"1\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Paul,Nikash",
+            "id": "3200244",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1426",
+              "anchor": "2"
+            },
+            "rawText": "2   Paul,Nikash         , K= 0, Elo=1426, ID=3200244",
+            "rawHtml": "   2   <strong>Paul,Nikash         </strong>, K= 0, Elo=1426, ID=3200244\n<br>\n<a class=\"anchor\" name=\"2\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Wilkinson,Greg",
+            "id": "3200620",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1072",
+              "anchor": "3"
+            },
+            "rawText": "3   Wilkinson,Greg      , K= 0, Elo=1072, ID=3200620",
+            "rawHtml": "   3   <strong>Wilkinson,Greg      </strong>, K= 0, Elo=1072, ID=3200620\n<br>\n<a class=\"anchor\" name=\"3\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "McIntyre,Julian",
+            "id": "3176061",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1542",
+              "anchor": "4"
+            },
+            "rawText": "4   McIntyre,Julian     , K= 0, Elo=1542, ID=3176061",
+            "rawHtml": "   4   <strong>McIntyre,Julian     </strong>, K= 0, Elo=1542, ID=3176061\n<br>\n<a class=\"anchor\" name=\"4\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Chauwla,Jyotsna",
+            "id": "0",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "5"
+            },
+            "rawText": "5   Chauwla,Jyotsna     , K= 0, Elo=   0, ID=0",
+            "rawHtml": "   5   <strong>Chauwla,Jyotsna     </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"5\"></a>"
+          },
+          "type": "other"
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "schedule.html": {
+      "pageHeading": "Schedule",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Round",
+              "key": "Round"
+            },
+            {
+              "name": "Time",
+              "key": "Time"
+            },
+            {
+              "name": "Date",
+              "key": "Date"
+            }
+          ],
+          "rows": [
+            {
+              "Round": "1",
+              "Time": "19:30",
+              "Date": "27/01/2026"
+            },
+            {
+              "Round": "2",
+              "Time": "19:30",
+              "Date": "03/02/2026"
+            },
+            {
+              "Round": "3",
+              "Time": "19:30",
+              "Date": "10/02/2026"
+            },
+            {
+              "Round": "4",
+              "Time": "19:30",
+              "Date": "17/02/2026"
+            },
+            {
+              "Round": "5",
+              "Time": "19:30",
+              "Date": "24/02/2026"
+            }
+          ],
+          "type": "other"
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "tourstat.html": {
+      "pageHeading": "Tournament summary",
+      "tables": [
+        {
+          "headers": [],
+          "rows": [
+            {
+              "col1": "Tournament Name",
+              "col2": "2026 Honourable Bob Rookies and Juniors"
+            },
+            {
+              "col1": "Place",
+              "col2": "Melbourne"
+            },
+            {
+              "col1": "Federation",
+              "col2": "AUS"
+            },
+            {
+              "col1": "Date Begin",
+              "col2": "27/01/2026"
+            },
+            {
+              "col1": "Date End",
+              "col2": "24/02/2026"
+            },
+            {
+              "col1": "Arbiter(s)",
+              "col2": "Truong Nguyen"
+            },
+            {
+              "col1": "Play System",
+              "col2": "swiss FIDE Dutch (JaVaFo)"
+            },
+            {
+              "col1": "Rounds",
+              "col2": "5"
+            },
+            {
+              "col1": "Score game",
+              "col2": "0-0.5-1"
+            },
+            {
+              "col1": "Tie break",
+              "col2": "BH   BH/C1"
+            },
+            {
+              "col1": "Registered Players",
+              "col2": "5"
+            },
+            {
+              "col1": "Number of Federations",
+              "col2": "2"
+            },
+            {
+              "col1": "Average Rating (all)",
+              "col2": "1089"
+            },
+            {
+              "col1": "Average Rating (only FIDE rated)",
+              "col2": "0"
+            },
+            {
+              "col1": "Players from AUS Federation",
+              "col2": "1"
+            },
+            {
+              "col1": "Players NOT from AUS Federation",
+              "col2": "4"
+            },
+            {
+              "col1": "FIDE rated players",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players",
+              "col2": "5"
+            },
+            {
+              "col1": "unrated players from AUS Federation",
+              "col2": "1"
+            },
+            {
+              "col1": "unrated players NOT from AUS Federation",
+              "col2": "4"
+            },
+            {
+              "col1": "unrated Federations",
+              "col2": "2"
+            },
+            {
+              "col1": "FIDE titled players",
+              "col2": "0"
+            },
+            {
+              "col1": "GM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WGM players",
+              "col2": "0"
+            },
+            {
+              "col1": "IM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WIM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WFM players",
+              "col2": "0"
+            },
+            {
+              "col1": "CM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WCM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player NOT from AUS Federation",
+              "col2": "0"
+            }
+          ],
+          "type": "statistics"
+        }
+      ],
+      "tournamentType": "unknown"
+    }
+  },
+  "menu": [
+    {
+      "text": "Info",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Schedule",
+          "href": "schedule.html"
+        },
+        {
+          "text": "Statistics",
+          "href": "tourstat.html"
+        }
+      ]
+    },
+    {
+      "text": "Players",
+      "href": "index.html",
+      "isDropdown": true,
+      "children": []
+    }
+  ],
+  "md5Hash": "4b5146909ddfc19bdbdda7a85662c9cf"
+}
