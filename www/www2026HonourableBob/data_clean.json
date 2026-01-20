@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-01-19T08:43:28.990Z",
+  "generatedAt": "2026-01-20T04:58:52.682Z",
   "tournament": {
-    "id": "2026-honourable-bob-rookies-and-juniors",
-    "name": "2026 Honourable Bob Rookies and Juniors",
+    "id": "2026-honourable-bob",
+    "name": "2026 Honourable Bob",
     "category": "Senior",
     "metadata": {
-      "Tournament Name": "2026 Honourable Bob Rookies and Juniors",
+      "Tournament Name": "2026 Honourable Bob",
       "Place": "Melbourne",
       "Federation": "AUS",
       "Date Begin": "27/01/2026",
@@ -15,30 +15,30 @@
       "Rounds": "5",
       "Score game": "0-0.5-1",
       "Tie break": "BH BH/C1",
-      "Registered Players": "5",
+      "Registered Players": "7",
       "Number of Federations": "2",
-      "Average Rating (all)": "1089",
+      "Average Rating (all)": "1222",
       "Average Rating (only FIDE rated)": "0",
       "Players from AUS Federation": "1",
-      "Players NOT from AUS Federation": "4",
+      "Players NOT from AUS Federation": "6",
       "FIDE rated players": "0",
-      "unrated players": "5",
+      "unrated players": "7",
       "unrated players from AUS Federation": "1",
-      "unrated players NOT from AUS Federation": "4",
+      "unrated players NOT from AUS Federation": "6",
       "unrated Federations": "2",
-      "FIDE titled players": "0",
+      "FIDE titled players": "1",
       "GM players": "0",
       "WGM players": "0",
       "IM players": "0",
       "WIM players": "0",
       "FM players": "0",
       "WFM players": "0",
-      "CM players": "0",
+      "CM players": "1",
       "WCM players": "0",
       "FIDE titled player from AUS Federation": "0",
-      "FIDE titled player NOT from AUS Federation": "0",
+      "FIDE titled player NOT from AUS Federation": "1",
       "category": "Senior",
-      "tournamentName": "2026 Honourable Bob Rookies and Juniors",
+      "tournamentName": "2026 Honourable Bob",
       "federation": "AUS",
       "dateBegin": "27/01/2026",
       "dateEnd": "24/02/2026",
@@ -47,19 +47,19 @@
       "rounds": 5,
       "scoreGame": "0-0.5-1",
       "tieBreak": "BH BH/C1",
-      "registeredPlayers": 5,
-      "averageRating": 1089,
+      "registeredPlayers": 7,
+      "averageRating": 1222,
       "averageRatingFide": 0,
       "fideRatedPlayers": 0,
-      "unratedPlayers": 5,
-      "fideTitledPlayers": 0
+      "unratedPlayers": 7,
+      "fideTitledPlayers": 1
     }
   },
   "players": [
     {
       "id": "1",
-      "name": "McIntyre,Julian",
-      "title": "",
+      "name": "Davis,Tony J",
+      "title": "CM",
       "federation": "VIC",
       "fideId": "",
       "fideRating": null,
@@ -70,7 +70,7 @@
     },
     {
       "id": "2",
-      "name": "Paul,Nikash",
+      "name": "McIntyre,Julian",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -82,7 +82,7 @@
     },
     {
       "id": "3",
-      "name": "Hogan,Steven",
+      "name": "Paul,Nikash",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -94,7 +94,7 @@
     },
     {
       "id": "4",
-      "name": "Wilkinson,Greg",
+      "name": "Hogan,Steven",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -106,6 +106,30 @@
     },
     {
       "id": "5",
+      "name": "Ramanathan,Ashwin",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#5",
+      "origin": ""
+    },
+    {
+      "id": "6",
+      "name": "Wilkinson,Greg",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#6",
+      "origin": ""
+    },
+    {
+      "id": "7",
       "name": "Chauwla,Jyotsna",
       "title": "",
       "federation": "AUS",
@@ -113,7 +137,7 @@
       "fideRating": null,
       "fideFederation": "",
       "gender": "notitle",
-      "href": "playercard.html#5",
+      "href": "playercard.html#7",
       "origin": ""
     }
   ],
@@ -217,6 +241,15 @@
           "rows": [
             {
               "#": "1",
+              "Title": "CM",
+              "Player": "Davis,Tony J",
+              "Fed": "VIC",
+              "Rtg": "1786",
+              "RtgF": "0",
+              "RtgN": "1786"
+            },
+            {
+              "#": "2",
               "Title": "",
               "Player": "McIntyre,Julian",
               "Fed": "VIC",
@@ -225,7 +258,7 @@
               "RtgN": "1542"
             },
             {
-              "#": "2",
+              "#": "3",
               "Title": "",
               "Player": "Paul,Nikash",
               "Fed": "VIC",
@@ -234,7 +267,7 @@
               "RtgN": "1426"
             },
             {
-              "#": "3",
+              "#": "4",
               "Title": "",
               "Player": "Hogan,Steven",
               "Fed": "VIC",
@@ -243,7 +276,16 @@
               "RtgN": "1405"
             },
             {
-              "#": "4",
+              "#": "5",
+              "Title": "",
+              "Player": "Ramanathan,Ashwin",
+              "Fed": "VIC",
+              "Rtg": "1324",
+              "RtgF": "0",
+              "RtgN": "1324"
+            },
+            {
+              "#": "6",
               "Title": "",
               "Player": "Wilkinson,Greg",
               "Fed": "VIC",
@@ -252,7 +294,7 @@
               "RtgN": "1072"
             },
             {
-              "#": "5",
+              "#": "7",
               "Title": "",
               "Player": "Chauwla,Jyotsna",
               "Fed": "AUS",
@@ -558,6 +600,104 @@
             "rawHtml": "   5   <strong>Chauwla,Jyotsna     </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"5\"></a>"
           },
           "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Ramanathan,Ashwin",
+            "id": "3206231",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1324",
+              "anchor": "6"
+            },
+            "rawText": "6   Ramanathan,Ashwin   , K= 0, Elo=1324, ID=3206231",
+            "rawHtml": "   6   <strong>Ramanathan,Ashwin   </strong>, K= 0, Elo=1324, ID=3206231\n<br>\n<a class=\"anchor\" name=\"6\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Davis,Tony J",
+            "id": "3073264",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1786",
+              "anchor": "7"
+            },
+            "rawText": "7  CM Davis,Tony J        , K= 0, Elo=1786, ID=3073264",
+            "rawHtml": "   7  CM <strong>Davis,Tony J        </strong>, K= 0, Elo=1786, ID=3073264\n<br>\n<a class=\"anchor\" name=\"7\"></a>"
+          },
+          "type": "other"
         }
       ],
       "tournamentType": "unknown"
@@ -620,7 +760,7 @@
           "rows": [
             {
               "col1": "Tournament Name",
-              "col2": "2026 Honourable Bob Rookies and Juniors"
+              "col2": "2026 Honourable Bob"
             },
             {
               "col1": "Place",
@@ -660,7 +800,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "5"
+              "col2": "7"
             },
             {
               "col1": "Number of Federations",
@@ -668,7 +808,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "1089"
+              "col2": "1222"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -680,7 +820,7 @@
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "4"
+              "col2": "6"
             },
             {
               "col1": "FIDE rated players",
@@ -688,7 +828,7 @@
             },
             {
               "col1": "unrated players",
-              "col2": "5"
+              "col2": "7"
             },
             {
               "col1": "unrated players from AUS Federation",
@@ -696,7 +836,7 @@
             },
             {
               "col1": "unrated players NOT from AUS Federation",
-              "col2": "4"
+              "col2": "6"
             },
             {
               "col1": "unrated Federations",
@@ -704,7 +844,7 @@
             },
             {
               "col1": "FIDE titled players",
-              "col2": "0"
+              "col2": "1"
             },
             {
               "col1": "GM players",
@@ -732,7 +872,7 @@
             },
             {
               "col1": "CM players",
-              "col2": "0"
+              "col2": "1"
             },
             {
               "col1": "WCM players",
@@ -744,7 +884,7 @@
             },
             {
               "col1": "FIDE titled player NOT from AUS Federation",
-              "col2": "0"
+              "col2": "1"
             }
           ],
           "type": "statistics"
@@ -776,5 +916,5 @@
       "children": []
     }
   ],
-  "md5Hash": "4b5146909ddfc19bdbdda7a85662c9cf"
+  "md5Hash": "1b7d8d52d4f3157ef8938f95eb04b3de"
 }

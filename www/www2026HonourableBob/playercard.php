@@ -5,7 +5,7 @@
 <meta name="author" content="www.vegachess.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-<title>2026 Honourable Bob Rookies and Juniors</title>
+<title>2026 Honourable Bob</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <link rel="stylesheet" href="stylenew.css" type="text/css" >
     </head>
@@ -27,7 +27,7 @@
                 <div class="container-fluid">
                     <div class="row items-center">
                         <div class="col-12">
-                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2026 Honourable Bob Rookies and Juniors</h1>		    <h5 class="mb-1">Melbourne (AUS)</h5>		    <h5> 27/01/2026 - 24/02/2026</h5>   </div>
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2026 Honourable Bob</h1>		    <h5 class="mb-1">Melbourne (AUS)</h5>		    <h5> 27/01/2026 - 24/02/2026</h5>   </div>
  </div> 
  </div>
  </div> 
@@ -74,6 +74,22 @@
 <caption>   5   <strong>Chauwla,Jyotsna     </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="5"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>   6   <strong>Ramanathan,Ashwin   </strong>, K= 0, Elo=1324, ID=3206231
+<br>
+<a class="anchor" name="6"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>   7  CM <strong>Davis,Tony J        </strong>, K= 0, Elo=1786, ID=3073264
+<br>
+<a class="anchor" name="7"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 </tbody>
