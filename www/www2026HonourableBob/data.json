@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-01-28T06:20:36.535Z",
+  "generatedAt": "2026-01-28T10:03:25.084Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 2",
@@ -846,7 +846,11 @@
                 "whiteOpponent": "17",
                 "blackOpponent": null
               },
-              "2": "",
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "Player": {
                 "id": "33",
                 "playerName": "Sheikh,Tahmid",
@@ -1618,7 +1622,11 @@
                 "whiteOpponent": "15",
                 "blackOpponent": null
               },
-              "2": "",
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "Pos": "33",
               "Player": {
                 "id": "",
@@ -7858,7 +7866,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             }
           ],
@@ -11579,7 +11587,7 @@
           "rows": [
             {
               "col1": "Tournament Name",
-              "col2": "2026 Honourable Bob"
+              "col2": "2026 Hobsons Bay Honourable Bob Open"
             },
             {
               "col1": "Place",
@@ -11599,7 +11607,7 @@
             },
             {
               "col1": "Arbiter(s)",
-              "col2": "Truong Nguyen"
+              "col2": "Tony Davis"
             },
             {
               "col1": "Play System",
@@ -12243,6 +12251,10 @@
           "href": "crosstable.html"
         },
         {
+          "text": "Cross table and standings",
+          "href": "crosstablescore.html"
+        },
+        {
           "text": "Standings by Rtg groups",
           "href": "rankinggroup.html"
         },
@@ -12602,12 +12614,12 @@
   ],
   "category": "Senior",
   "metadata": {
-    "Tournament Name": "2026 Honourable Bob",
+    "Tournament Name": "2026 Hobsons Bay Honourable Bob Open",
     "Place": "Melbourne",
     "Federation": "AUS",
     "Date Begin": "27/01/2026",
     "Date End": "24/02/2026",
-    "Arbiter(s)": "Truong Nguyen",
+    "Arbiter(s)": "Tony Davis",
     "Play System": "swiss FIDE Dutch (JaVaFo)",
     "Rounds": "5",
     "Score game": "0-0.5-1",
@@ -12636,5 +12648,5 @@
     "FIDE titled player NOT from AUS Federation": "2",
     "category": "Senior"
   },
-  "md5Hash": "7379be7338cfe25422d75a2083fb90f7"
+  "md5Hash": "7e9805c05b1bd5d24c1781a5b22a1b38"
 }
