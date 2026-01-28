@@ -21,9 +21,9 @@
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
 </li><li class="nav-item"><a class="nav-link " href="pairs1.php" >Pairings</a>
-</li><li class="nav-item"><a class="nav-link" href="#" >Standings</a>
+</li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
 <ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
@@ -55,14 +55,14 @@
 <tr><td >Tie break</td> <td>      BH   BH/C1 </td> </tr>
 <tr><td >Registered Players</td> <td> 34</td> </tr>
 <tr><td > Number of Federations</td> <td> 2</td> </tr>
-<tr><td >Average Rating (all) </td> <td> 1216</td> </tr>
-<tr><td > Average Rating (only FIDE rated) </td> <td> 0</td> </tr>
+<tr><td >Average Rating (all) </td> <td> 1443</td> </tr>
+<tr><td >Average Rating (only FIDE rated) </td> <td> 1692</td> </tr>
 <tr ><td > Players from AUS Federation</td> <td> 3</td> </tr>
 <tr><td > Players NOT from AUS Federation</td> <td> 31</td> </tr>
-<tr><td > FIDE rated players </td> <td> 0</td> </tr>
-<tr><td > unrated players </td> <td> 34</td> </tr>
+<tr><td > FIDE rated players </td> <td> 29</td> </tr>
+<tr><td > unrated players </td> <td> 5</td> </tr>
 <tr><td > unrated players from AUS Federation</td> <td> 3</td> </tr>
-<tr><td >unrated players NOT from AUS Federation</td> <td> 31</td> </tr>
+<tr><td >unrated players NOT from AUS Federation</td> <td> 2</td> </tr>
 <tr><td > unrated Federations</td> <td> 2</td> </tr>
 <tr><td > FIDE titled players </td> <td> 2</td> </tr>
 <tr><td > GM players </td> <td> 0</td> </tr>
