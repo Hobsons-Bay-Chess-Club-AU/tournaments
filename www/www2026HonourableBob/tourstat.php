@@ -5,7 +5,7 @@
 <meta name="author" content="www.vegachess.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-<title>2026 Hobsons Bay Honourable Bob Open</title>
+<title>2026 Hobsons Bay Honourable Bob</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <link rel="stylesheet" href="stylenew.css" type="text/css" >
     </head>
@@ -31,7 +31,7 @@
                 <div class="container-fluid">
                     <div class="row items-center">
                         <div class="col-12">
-                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2026 Hobsons Bay Honourable Bob Open</h1>		    <h5 class="mb-1">Melbourne (AUS)</h5>		    <h5> 27/01/2026 - 24/02/2026</h5>   </div>
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2026 Hobsons Bay Honourable Bob</h1>		    <h5 class="mb-1">Melbourne (AUS)</h5>		    <h5> 27/01/2026 - 24/02/2026</h5>   </div>
  </div> 
  </div>
  </div> 
@@ -43,26 +43,26 @@
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
   <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Tournament summary</h3><div class="table-responsive"><table class="table table-striped"> 
 <tbody>
-<tr><td> Tournament Name </td> <td> 2026 Hobsons Bay Honourable Bob Open</td> </tr>
+<tr><td> Tournament Name </td> <td> 2026 Hobsons Bay Honourable Bob</td> </tr>
 <tr><td >Place </td> <td> Melbourne</td> </tr>
 <tr><td >Federation</td> <td> AUS</td> </tr>
 <tr><td >Date Begin</td> <td> 27/01/2026</td> </tr>
 <tr><td >Date End</td> <td> 24/02/2026</td> </tr>
-<tr><td >Arbiter(s)</td> <td> Tony Davis</td> </tr>
+<tr><td >Arbiter(s)</td> <td> Truong Nguyen</td> </tr>
 <tr><td > Play System</td> <td> swiss FIDE Dutch (JaVaFo)</td> </tr>
 <tr><td >Rounds</td> <td> 5</td> </tr>
 <tr><td >Score game</td> <td> 0-0.5-1</td> </tr>
 <tr><td >Tie break</td> <td>      BH   BH/C1 </td> </tr>
-<tr><td >Registered Players</td> <td> 34</td> </tr>
+<tr><td >Registered Players</td> <td> 35</td> </tr>
 <tr><td > Number of Federations</td> <td> 2</td> </tr>
-<tr><td >Average Rating (all) </td> <td> 1443</td> </tr>
+<tr><td >Average Rating (all) </td> <td> 1445</td> </tr>
 <tr><td >Average Rating (only FIDE rated) </td> <td> 1692</td> </tr>
 <tr ><td > Players from AUS Federation</td> <td> 3</td> </tr>
-<tr><td > Players NOT from AUS Federation</td> <td> 31</td> </tr>
+<tr><td > Players NOT from AUS Federation</td> <td> 32</td> </tr>
 <tr><td > FIDE rated players </td> <td> 29</td> </tr>
-<tr><td > unrated players </td> <td> 5</td> </tr>
+<tr><td > unrated players </td> <td> 6</td> </tr>
 <tr><td > unrated players from AUS Federation</td> <td> 3</td> </tr>
-<tr><td >unrated players NOT from AUS Federation</td> <td> 2</td> </tr>
+<tr><td >unrated players NOT from AUS Federation</td> <td> 3</td> </tr>
 <tr><td > unrated Federations</td> <td> 2</td> </tr>
 <tr><td > FIDE titled players </td> <td> 2</td> </tr>
 <tr><td > GM players </td> <td> 0</td> </tr>
