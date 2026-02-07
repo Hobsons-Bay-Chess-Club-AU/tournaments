@@ -28,15 +28,6 @@
 <ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
- <section id="hero" class="d-flex align-items-center">
-                <div class="container-fluid">
-                    <div class="row items-center">
-                        <div class="col-12">
-                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2026 HBCC Honourable Bob Rookies and Juniors</h1>		    <h5 class="mb-1">HBCC (AUS)</h5>		    <h5> 31/01/2026 - 28/02/2026</h5>   </div>
- </div> 
- </div>
- </div> 
- </section>
  <section id="main" class="pt-3 mb-auto">
                 <div class="container-fluid">
                     <div class="row">
