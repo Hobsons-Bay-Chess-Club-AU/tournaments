@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-10T09:05:44.813Z",
+  "generatedAt": "2026-02-11T05:56:46.672Z",
   "year": "2026",
   "count": 7,
   "seniorCount": 7,
@@ -12,6 +12,35 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#23",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 2,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
+          "score": 2,
+          "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 4,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Ashok,Arjun",
+      "id": "26",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#26",
       "tournamentCount": 2,
       "tournaments": [
         {
@@ -31,35 +60,6 @@
       ],
       "points": {
         "standard": 3,
-        "rapid": 0,
-        "blitz": 0
-      }
-    },
-    {
-      "name": "Ashok,Arjun",
-      "id": "26",
-      "fideId": "",
-      "gender": "male",
-      "href": "playercard.html#26",
-      "tournamentCount": 2,
-      "tournaments": [
-        {
-          "tournament": "www2026HonourableBob/data.json",
-          "score": 0,
-          "name": "2026 Hobsons Bay Honourable Bob",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
-          "score": 2,
-          "name": "2026 HBCC Honourable Bob Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        }
-      ],
-      "points": {
-        "standard": 2,
         "rapid": 0,
         "blitz": 0
       }
@@ -190,7 +190,7 @@
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
-          "score": 0.5,
+          "score": 1,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
@@ -204,7 +204,7 @@
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 2.5,
         "rapid": 0,
         "blitz": 0
       }

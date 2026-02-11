@@ -20,10 +20,10 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs3.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs4.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
 <ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
@@ -45,59 +45,60 @@
 <div class="table-responsive"><table class="table table-striped"> 
 <thead><tr><th> Pos </th> <th> Team Name </th><th>Points</th></tr></thead> <tbody>
 <tr>
-<td>1</td> <td></td> <td>8</td> </tr>
+<td>1</td> <td></td> <td>11</td> </tr>
 </tbody>
 </table>
 <h5 class="mb-4 mt-4"> Team composition</h5>
 <table class="table table-striped "> 
-<thead><tr><th>1</th> <th> </th><th>8</th></tr></thead><tbody> 
-<tr> <td>3</td> <td>Davis,Tony J </td><td>2</td></tr> 
-<tr> <td>4</td> <td>Nguyen,Anh Kiet </td><td>2</td></tr> 
-<tr> <td>5</td> <td>Lacson,Joemar </td><td>2</td></tr> 
+<thead><tr><th>1</th> <th> </th><th>11</th></tr></thead><tbody> 
+<tr> <td>3</td> <td>Davis,Tony J </td><td>3</td></tr> 
+<tr> <td>1</td> <td>Gusain,Daniel </td><td>3</td></tr> 
+<tr> <td>4</td> <td>Nguyen,Anh Kiet </td><td>2.5</td></tr> 
+<tr> <td>5</td> <td>Lacson,Joemar </td><td>2.5</td></tr> 
+<tr> <td>10</td> <td>Hari,Dhruv </td><td>2.5</td></tr> 
+<tr> <td>2</td> <td>Hogg,Dean </td><td>2</td></tr> 
 <tr> <td>6</td> <td>Krishnan,Anirudh </td><td>2</td></tr> 
-<tr> <td>1</td> <td>Gusain,Daniel </td><td>2</td></tr> 
+<tr> <td>7</td> <td>Hibberd,Nathan </td><td>2</td></tr> 
 <tr> <td>8</td> <td>Paul,Cijo </td><td>2</td></tr> 
-<tr> <td>10</td> <td>Hari,Dhruv </td><td>2</td></tr> 
-<tr> <td>7</td> <td>Hibberd,Nathan </td><td>1.5</td></tr> 
-<tr> <td>2</td> <td>Hogg,Dean </td><td>1</td></tr> 
-<tr> <td>13</td> <td>Bodke,Krishna Manthan </td><td>1</td></tr> 
-<tr> <td>11</td> <td>McIntyre,Julian </td><td>1</td></tr> 
-<tr> <td>15</td> <td>Whitford,Matthew </td><td>1</td></tr> 
+<tr> <td>9</td> <td>Maunders,Myiesha </td><td>2</td></tr> 
+<tr> <td>13</td> <td>Bodke,Krishna Manthan </td><td>2</td></tr> 
+<tr> <td>12</td> <td>Szuveges,Narelle S </td><td>2</td></tr> 
+<tr> <td>14</td> <td>Davis,Sophie </td><td>2</td></tr> 
+<tr> <td>15</td> <td>Whitford,Matthew </td><td>2</td></tr> 
+<tr> <td>23</td> <td>Annapureddy,Dhruthin Reddy </td><td>2</td></tr> 
+<tr> <td>11</td> <td>McIntyre,Julian </td><td>1.5</td></tr> 
+<tr> <td>29</td> <td>Kothari,Sumay </td><td>1.5</td></tr> 
+<tr> <td>20</td> <td>Hogan,Steven </td><td>1.5</td></tr> 
+<tr> <td>22</td> <td>Ramanathan,Ashwin </td><td>1</td></tr> 
+<tr> <td>24</td> <td>Annadasu,Shreyansh </td><td>1</td></tr> 
 <tr> <td>16</td> <td>Parker,Lucas </td><td>1</td></tr> 
+<tr> <td>25</td> <td>Wilkinson,Greg </td><td>1</td></tr> 
 <tr> <td>17</td> <td>Milic,James </td><td>1</td></tr> 
 <tr> <td>18</td> <td>Nowak,Ruben </td><td>1</td></tr> 
 <tr> <td>21</td> <td>Matijas,Dejan </td><td>1</td></tr> 
-<tr> <td>22</td> <td>Ramanathan,Ashwin </td><td>1</td></tr> 
-<tr> <td>23</td> <td>Annapureddy,Dhruthin Reddy </td><td>1</td></tr> 
-<tr> <td>24</td> <td>Annadasu,Shreyansh </td><td>1</td></tr> 
-<tr> <td>9</td> <td>Maunders,Myiesha </td><td>1</td></tr> 
+<tr> <td>27</td> <td>Kostakakis,Angelo </td><td>1</td></tr> 
+<tr> <td>28</td> <td>Clerk,Max </td><td>1</td></tr> 
+<tr> <td>26</td> <td>Ashok,Arjun </td><td>1</td></tr> 
 <tr> <td>31</td> <td>Chawla,Namish </td><td>1</td></tr> 
-<tr> <td>12</td> <td>Szuveges,Narelle S </td><td>1</td></tr> 
-<tr> <td>20</td> <td>Hogan,Steven </td><td>1</td></tr> 
-<tr> <td>14</td> <td>Davis,Sophie </td><td>1</td></tr> 
 <tr> <td>19</td> <td>Paul,Nikash </td><td>0.5</td></tr> 
-<tr> <td>25</td> <td>Wilkinson,Greg </td><td>0.5</td></tr> 
-<tr> <td>29</td> <td>Kothari,Sumay </td><td>0.5</td></tr> 
 <tr> <td>30</td> <td>Jyothi Nikhil,Neev </td><td>0.5</td></tr> 
-<tr> <td>26</td> <td>Ashok,Arjun </td><td>0</td></tr> 
-<tr> <td>27</td> <td>Kostakakis,Angelo </td><td>0</td></tr> 
-<tr> <td>28</td> <td>Clerk,Max </td><td>0</td></tr> 
-<tr> <td>32</td> <td>Gali, Joyel Evan </td><td>0</td></tr> 
 <tr> <td>34</td> <td>Sheikh,Tahmid </td><td>0</td></tr> 
+<tr> <td>32</td> <td>Gali, Joyel Evan </td><td>0</td></tr> 
 <tr> <td>33</td> <td>Owen,Lee </td><td>0</td></tr> 
 <tr> <td>35</td> <td>Tregaskis-Lie, Linda </td><td>0</td></tr> 
+<tr> <td>36</td> <td>Polidano,Rohan </td><td>0</td></tr> 
 </tbody>
 </table>
 <h5 class="mb-4 mt-4"> Best boards</h5>
 <table class="table table-striped "> 
 <thead><tr><th>Board 0</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Davis,Tony J </td><td> </td><td>2</td></tr> 
+<tr> <td></td> <td>1 </td><td>Davis,Tony J </td><td> </td><td>3</td></tr> 
 <thead><tr><th>Board 1</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Nguyen,Anh Kiet </td><td> </td><td>2</td></tr> 
+<tr> <td></td> <td>1 </td><td>Gusain,Daniel </td><td> </td><td>3</td></tr> 
 <thead><tr><th>Board 2</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Lacson,Joemar </td><td> </td><td>2</td></tr> 
+<tr> <td></td> <td>1 </td><td>Nguyen,Anh Kiet </td><td> </td><td>2.5</td></tr> 
 <thead><tr><th>Board 3</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Krishnan,Anirudh </td><td> </td><td>2</td></tr> 
+<tr> <td></td> <td>1 </td><td>Lacson,Joemar </td><td> </td><td>2.5</td></tr> 
 </tbody>
 </table></div>
 		  </div>
