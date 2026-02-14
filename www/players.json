@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-14T08:42:51.023Z",
+  "generatedAt": "2026-02-14T10:39:12.902Z",
   "year": "2026",
   "count": 7,
   "seniorCount": 7,
@@ -81,14 +81,14 @@
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
-          "score": 1,
+          "score": 1.5,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 2.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -110,14 +110,14 @@
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
-          "score": 1,
+          "score": 2,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 1.5,
+        "standard": 2.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -128,35 +128,6 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#18",
-      "tournamentCount": 2,
-      "tournaments": [
-        {
-          "tournament": "www2026HonourableBob/data.json",
-          "score": 1,
-          "name": "2026 Hobsons Bay Honourable Bob",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
-          "score": 1,
-          "name": "2026 HBCC Honourable Bob Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        }
-      ],
-      "points": {
-        "standard": 2,
-        "rapid": 0,
-        "blitz": 0
-      }
-    },
-    {
-      "name": "Ramanathan,Ashwin",
-      "id": "22",
-      "fideId": "",
-      "gender": "male",
-      "href": "playercard.html#22",
       "tournamentCount": 2,
       "tournaments": [
         {
@@ -181,6 +152,35 @@
       }
     },
     {
+      "name": "Ramanathan,Ashwin",
+      "id": "22",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#22",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
+          "score": 3,
+          "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 4,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Wilkinson,Greg",
       "id": "25",
       "fideId": "",
@@ -197,14 +197,14 @@
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
-          "score": 1.5,
+          "score": 2.5,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3.5,
         "rapid": 0,
         "blitz": 0
       }
