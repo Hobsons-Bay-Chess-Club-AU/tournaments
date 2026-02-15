@@ -19,13 +19,8 @@ function calculateDirectoryChecksum($directory, $ago = null) {
     $lastUpdatedTime = 0;
     $lastUpdatedFile = '';
 
-    $iterator = new RecursiveIteratorIterator(
-        new RecursiveDirectoryIterator($directory, FilesystemIterator::SKIP_DOTS)
-    );
+    $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory));
     foreach ($iterator as $file) {
-        if ($file->getFilename() === '.' || $file->getFilename() === '..') {
-            continue;
-        }
         if ($file->isFile()) {
             hash_update_file($checksum, $file->getPathname());
             $fileMTime = $file->getMTime();
