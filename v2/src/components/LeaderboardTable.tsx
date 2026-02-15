@@ -31,8 +31,16 @@ function getSpinnerBorderClass(type: LeaderboardType): string {
 function mergePlayers(a: Player[], b: Player[]): Player[] {
   const mergedById = new Map<string, Player>();
 
+  const getPlayerKey = (player: Player) => {
+    const fideId = (player.fideId || '').trim();
+    if (fideId) return `fide:${fideId}`;
+    const acfId = (player.acfId || '').trim();
+    if (acfId) return `acf:${acfId}`;
+    return `name:${player.name}`;
+  };
+
   const mergeInto = (incoming: Player) => {
-    const key = incoming.id || incoming.fideId || incoming.acfId || incoming.name;
+    const key = getPlayerKey(incoming);
     const existing = mergedById.get(key);
 
     if (!existing) {
@@ -57,8 +65,8 @@ function mergePlayers(a: Player[], b: Player[]): Player[] {
       ...existing,
       name: existing.name || incoming.name,
       title: existing.title || incoming.title,
-      fideId: existing.fideId || incoming.fideId,
-      acfId: existing.acfId || incoming.acfId,
+      fideId: (existing.fideId || '').trim() ? existing.fideId : incoming.fideId,
+      acfId: (existing.acfId || '').trim() ? existing.acfId : incoming.acfId,
       gender: existing.gender || incoming.gender,
       href: existing.href || incoming.href,
       birthYear: existing.birthYear ?? incoming.birthYear,
@@ -439,7 +447,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
                     const ageGroup = player.birthYear ? getAgeGroup(player.birthYear) : null;
 
                     return (
-                      <tr key={player.id || player.name} className="hover:bg-gray-50 transition-colors">
+                      <tr key={player.fideId || player.acfId || player.name} className="hover:bg-gray-50 transition-colors">
                         <td className="px-3 py-3 sm:px-6 sm:py-4 whitespace-nowrap">
                           <div className="flex items-center">
                             <span className={`text-lg font-bold ${rank === 1 ? 'text-yellow-500' :

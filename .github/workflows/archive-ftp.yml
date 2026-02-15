@@ -24,15 +24,15 @@ jobs:
         run: |
           set -euo pipefail
           lftp -u "${FTP_USER}","${FTP_PASSWORD}" "ftp://${FTP_HOST}" <<'LFTP_CMDS'
-set ssl:verify-certificate no
-set ftp:ssl-allow no
+          set ssl:verify-certificate no
+          set ftp:ssl-allow no
 
-# Ensure top-level _archived exists
-mkdir -p _archived
+          # Ensure top-level _archived exists
+          mkdir -p _archived
 
-# Move all items from htdocs into _archived using lftp's glob
-glob -a mv htdocs/* _archived/
-bye
-LFTP_CMDS
+          # Move all items from htdocs into _archived using lftp's glob
+          glob -a mv htdocs/* _archived/
+          bye
+          LFTP_CMDS
 
 

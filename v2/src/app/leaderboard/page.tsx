@@ -77,7 +77,13 @@ export default function LeaderboardPage() {
   const totalTournaments = juniorData?.totalTournaments || openData?.totalTournaments || 0;
 
   const overallPlayersCount = useMemo(() => {
-    const keyFor = (p: Player) => p.id || p.fideId || p.acfId || p.name;
+    const keyFor = (p: Player) => {
+      const fideId = (p.fideId || '').trim();
+      if (fideId) return `fide:${fideId}`;
+      const acfId = (p.acfId || '').trim();
+      if (acfId) return `acf:${acfId}`;
+      return `name:${p.name}`;
+    };
     const keys = new Set<string>();
     (openData?.players || []).forEach((p) => keys.add(keyFor(p)));
     (juniorData?.players || []).forEach((p) => keys.add(keyFor(p)));
