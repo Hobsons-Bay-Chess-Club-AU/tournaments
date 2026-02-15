@@ -5,7 +5,7 @@
 <meta name="author" content="www.vegachess.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-<title>2026 Honourable Bob Rookies and Juniors</title>
+<title>2026 Hobsons Bay Honourable Bob</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <link rel="stylesheet" href="stylenew.css" type="text/css" >
     </head>
@@ -20,14 +20,18 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li></ul> </div>
+</li><li class="nav-item"><a class="nav-link " href="pairs4.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
  <section id="hero" class="d-flex align-items-center">
                 <div class="container-fluid">
                     <div class="row items-center">
                         <div class="col-12">
-                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2026 Honourable Bob Rookies and Juniors</h1>		    <h5 class="mb-1">Melbourne (AUS)</h5>		    <h5> 27/01/2026 - 24/02/2026</h5>   </div>
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2026 Hobsons Bay Honourable Bob</h1>		    <h5 class="mb-1">Melbourne (AUS)</h5>		    <h5> 27/01/2026 - 24/02/2026</h5>   </div>
  </div> 
  </div>
  </div> 
@@ -39,38 +43,38 @@
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
   <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Tournament summary</h3><div class="table-responsive"><table class="table table-striped"> 
 <tbody>
-<tr><td> Tournament Name </td> <td> 2026 Honourable Bob Rookies and Juniors</td> </tr>
+<tr><td> Tournament Name </td> <td> 2026 Hobsons Bay Honourable Bob</td> </tr>
 <tr><td >Place </td> <td> Melbourne</td> </tr>
 <tr><td >Federation</td> <td> AUS</td> </tr>
 <tr><td >Date Begin</td> <td> 27/01/2026</td> </tr>
 <tr><td >Date End</td> <td> 24/02/2026</td> </tr>
-<tr><td >Arbiter(s)</td> <td> Truong Nguyen</td> </tr>
+<tr><td >Arbiter(s)</td> <td> Tony Davis</td> </tr>
 <tr><td > Play System</td> <td> swiss FIDE Dutch (JaVaFo)</td> </tr>
 <tr><td >Rounds</td> <td> 5</td> </tr>
 <tr><td >Score game</td> <td> 0-0.5-1</td> </tr>
 <tr><td >Tie break</td> <td>      BH   BH/C1 </td> </tr>
-<tr><td >Registered Players</td> <td> 5</td> </tr>
+<tr><td >Registered Players</td> <td> 36</td> </tr>
 <tr><td > Number of Federations</td> <td> 2</td> </tr>
-<tr><td >Average Rating (all) </td> <td> 1089</td> </tr>
-<tr><td > Average Rating (only FIDE rated) </td> <td> 0</td> </tr>
-<tr ><td > Players from AUS Federation</td> <td> 1</td> </tr>
-<tr><td > Players NOT from AUS Federation</td> <td> 4</td> </tr>
-<tr><td > FIDE rated players </td> <td> 0</td> </tr>
-<tr><td > unrated players </td> <td> 5</td> </tr>
-<tr><td > unrated players from AUS Federation</td> <td> 1</td> </tr>
+<tr><td >Average Rating (all) </td> <td> 1430</td> </tr>
+<tr><td >Average Rating (only FIDE rated) </td> <td> 1692</td> </tr>
+<tr ><td > Players from AUS Federation</td> <td> 3</td> </tr>
+<tr><td > Players NOT from AUS Federation</td> <td> 33</td> </tr>
+<tr><td > FIDE rated players </td> <td> 29</td> </tr>
+<tr><td > unrated players </td> <td> 7</td> </tr>
+<tr><td > unrated players from AUS Federation</td> <td> 3</td> </tr>
 <tr><td >unrated players NOT from AUS Federation</td> <td> 4</td> </tr>
 <tr><td > unrated Federations</td> <td> 2</td> </tr>
-<tr><td > FIDE titled players </td> <td> 0</td> </tr>
+<tr><td > FIDE titled players </td> <td> 2</td> </tr>
 <tr><td > GM players </td> <td> 0</td> </tr>
 <tr><td >WGM players </td> <td> 0</td> </tr>
 <tr><td > IM players </td> <td> 0</td> </tr>
-<tr><td >WIM players</td> <td> 0</td> </tr>
+<tr><td >WIM players</td> <td> 1</td> </tr>
 <tr><td >FM players</td> <td> 0</td> </tr>
 <tr><td >WFM players</td> <td> 0</td> </tr>
-<tr><td >CM players</td> <td> 0</td> </tr>
+<tr><td >CM players</td> <td> 1</td> </tr>
 <tr><td >WCM players</td> <td> 0</td> </tr>
 <tr><td >FIDE titled player from AUS Federation </td> <td> 0</td> </tr>
-<tr><td >FIDE titled player NOT from AUS Federation</td> <td> 0</td> </tr>
+<tr><td >FIDE titled player NOT from AUS Federation</td> <td> 2</td> </tr>
 </tbody>
 </table>
 </div>
@@ -83,7 +87,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="d-flex flex-column align-items-center text-center text-dark"><p> <a class="text-primary" href="http://www.vegachess.com" target="_blank">Generated by Vega</a> </p><p class="text-body-secondary">(This copy cannot be used for tournament with more than 20 players)) </p>
+                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Hobsons Bay Chess Club - AUS)
   <?php if (file_exists($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php')) include($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php'); ?>    </div>  </div>  </div> </div> 
    </footer>
      </div>

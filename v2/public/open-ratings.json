@@ -1,7 +1,267 @@
 {
-  "generatedAt": "2026-01-19T08:43:36.381Z",
+  "generatedAt": "2026-02-14T23:28:53.012Z",
   "year": "2026",
-  "count": 0,
-  "totalTournaments": 1,
-  "players": []
+  "count": 7,
+  "totalTournaments": 3,
+  "players": [
+    {
+      "name": "Annapureddy,Dhruthin Reddy",
+      "id": "23",
+      "fideId": "3239683",
+      "gender": "male",
+      "href": "playercard.html#23",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 2,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
+          "score": 2,
+          "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 4,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2011,
+      "fideStandard": 1493,
+      "fideRapid": 1675,
+      "fideBlitz": 1666,
+      "acfClassic": 1216,
+      "acfQuick": 1336,
+      "acfId": "3194401"
+    },
+    {
+      "name": "Ashok,Arjun",
+      "id": "26",
+      "fideId": "3275108",
+      "gender": "male",
+      "href": "playercard.html#26",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
+          "score": 2,
+          "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2015,
+      "fideStandard": 1559,
+      "fideRapid": 1512,
+      "fideBlitz": 0,
+      "acfClassic": 1047,
+      "acfQuick": 861,
+      "acfId": "3204632"
+    },
+    {
+      "name": "Chawla,Namish",
+      "id": "31",
+      "fideId": "3297934",
+      "gender": "male",
+      "href": "playercard.html#31",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
+          "score": 1.5,
+          "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2.5,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
+    },
+    {
+      "name": "Jyothi Nikhil,Neev",
+      "id": "30",
+      "fideId": "3284670",
+      "gender": "male",
+      "href": "playercard.html#30",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
+          "score": 2,
+          "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2.5,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2017,
+      "fideStandard": 1462,
+      "fideRapid": 1467,
+      "fideBlitz": 1485,
+      "acfClassic": 718,
+      "acfQuick": 882,
+      "acfId": "3214874"
+    },
+    {
+      "name": "Nowak,Ruben",
+      "id": "18",
+      "fideId": "3214915",
+      "gender": "male",
+      "href": "playercard.html#18",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
+          "score": 2,
+          "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1992,
+      "fideStandard": 1686,
+      "fideRapid": 1638,
+      "fideBlitz": 1609,
+      "acfClassic": 1440,
+      "acfQuick": 1283,
+      "acfId": "3127464"
+    },
+    {
+      "name": "Ramanathan,Ashwin",
+      "id": "22",
+      "fideId": "3275221",
+      "gender": "male",
+      "href": "playercard.html#22",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
+          "score": 3,
+          "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 4,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 1689,
+      "fideRapid": 1715,
+      "fideBlitz": 1767,
+      "acfClassic": 1324,
+      "acfQuick": 1304,
+      "acfId": "3206231"
+    },
+    {
+      "name": "Wilkinson,Greg",
+      "id": "25",
+      "fideId": "3255689",
+      "gender": "male",
+      "href": "playercard.html#25",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
+          "score": 2.5,
+          "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3.5,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1978,
+      "fideStandard": 1470,
+      "fideRapid": 0,
+      "fideBlitz": 1497,
+      "acfClassic": 1072,
+      "acfQuick": 585,
+      "acfId": "3200620"
+    }
+  ]
 }
