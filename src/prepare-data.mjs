@@ -1274,6 +1274,10 @@ function getTournamentRatingType(metadata) {
 // Function to generate unique players files
 async function generateUniquePlayersFiles(tournaments) {
     const currentYear = new Date().getFullYear().toString();
+    // Leaderboard participation threshold: "more than 2 tournaments" => at least 3.
+    // Early-year fallback: if fewer than this many tournaments exist in the year so far,
+    // include all players (otherwise no one would qualify yet).
+    const MIN_TOURNAMENTS_FOR_LEADERBOARD = 3;
     const seniorPlayers = new Map(); // Map to track senior tournament participation
     const juniorPlayers = new Map(); // Map to track junior tournament participation
     
@@ -1365,6 +1369,7 @@ async function generateUniquePlayersFiles(tournaments) {
     }
     const totalTournaments = allTournaments.size;
     console.log(`Total tournaments in ${currentYear}: ${totalTournaments}`);
+    const earlyYearFallback = totalTournaments < MIN_TOURNAMENTS_FOR_LEADERBOARD;
     
     // Second pass: filter players based on participation criteria for each category
     const seniorPlayersArray = [];
@@ -1376,9 +1381,9 @@ async function generateUniquePlayersFiles(tournaments) {
         const tournamentCount = uniqueTournaments.length;
         
         // Keep player if:
-        // 1. They played in more than 1 senior tournament, OR
-        // 2. There's only 1 tournament total for the year (beginning of year case)
-        if (tournamentCount > 1 || totalTournaments === 1) {
+        // 1. They played in more than 2 senior tournaments (>= 3), OR
+        // 2. There are fewer than 3 tournaments total for the year so far (beginning of year case)
+        if (tournamentCount >= MIN_TOURNAMENTS_FOR_LEADERBOARD || earlyYearFallback) {
             const player = {
                 ...playerData.player,
                 tournamentCount: tournamentCount,
@@ -1395,9 +1400,9 @@ async function generateUniquePlayersFiles(tournaments) {
         const tournamentCount = uniqueTournaments.length;
         
         // Keep player if:
-        // 1. They played in more than 1 junior tournament, OR
-        // 2. There's only 1 tournament total for the year (beginning of year case)
-        if (tournamentCount > 1 || totalTournaments === 1) {
+        // 1. They played in more than 2 junior tournaments (>= 3), OR
+        // 2. There are fewer than 3 tournaments total for the year so far (beginning of year case)
+        if (tournamentCount >= MIN_TOURNAMENTS_FOR_LEADERBOARD || earlyYearFallback) {
             const player = {
                 ...playerData.player,
                 tournamentCount: tournamentCount,
@@ -1493,8 +1498,8 @@ async function generateUniquePlayersFiles(tournaments) {
     
     console.log(`\nUnique Players Summary for ${currentYear}:`);
     console.log(`Total tournaments in ${currentYear}: ${totalTournaments}`);
-    console.log(`Senior Players (played in >1 tournament or only tournament): ${seniorPlayersArray.length} players written to ${seniorPlayersPath}`);
-    console.log(`Junior Players (played in >1 tournament or only tournament): ${juniorPlayersArray.length} players written to ${juniorPlayersPath}`);
+    console.log(`Senior Players (played in >=${MIN_TOURNAMENTS_FOR_LEADERBOARD} tournaments, or early-year fallback): ${seniorPlayersArray.length} players written to ${seniorPlayersPath}`);
+    console.log(`Junior Players (played in >=${MIN_TOURNAMENTS_FOR_LEADERBOARD} tournaments, or early-year fallback): ${juniorPlayersArray.length} players written to ${juniorPlayersPath}`);
     console.log(`Unified Players: ${combinedPlayersArray.length} players written to ${unifiedPlayersPath}`);
     
     return {
