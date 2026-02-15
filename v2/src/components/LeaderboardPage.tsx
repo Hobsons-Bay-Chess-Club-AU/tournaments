@@ -47,7 +47,7 @@ export default function LeaderboardPage({ category }: LeaderboardPageProps) {
 
   const categoryConfig = {
     junior: {
-      title: "Junior Leaderboard",
+      title: "Junior  & Rookies Leaderboard",
       description: "These young players have shown exceptional dedication by participating in multiple junior tournaments throughout the year, demonstrating their growing skills and passion for chess.",
       gradient: "from-green-400 to-green-600",
       textColor: "text-green-100",

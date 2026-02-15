@@ -95,7 +95,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
 
       const age = calculateAge(player.birthYear);
 
-      // For junior leaderboard, always filter out players 18 and older
+      // For Junior  & Rookies Leaderboard, always filter out players 18 and older
       if (age >= 18) return false;
 
       switch (filter) {
@@ -342,8 +342,8 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
                         <td className="px-3 py-3 sm:px-6 sm:py-4 whitespace-nowrap">
                           <div className="flex items-center">
                             <span className={`text-lg font-bold ${rank === 1 ? 'text-yellow-500' :
-                                rank === 2 ? 'text-gray-400' :
-                                  rank === 3 ? 'text-yellow-600' : 'text-gray-600'
+                              rank === 2 ? 'text-gray-400' :
+                                rank === 3 ? 'text-yellow-600' : 'text-gray-600'
                               }`}>
                               {rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : rank}
                             </span>

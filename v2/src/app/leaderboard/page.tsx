@@ -267,7 +267,7 @@ export default function LeaderboardPage() {
                   {/* Content */}
                   <div className="text-center">
                     <h3 className="text-2xl font-bold text-green-800 mb-4 group-hover:text-green-700 transition-colors">
-                      Junior Leaderboard
+                      Junior  & Rookies Leaderboard
                     </h3>
                     <p className="text-green-700 mb-6 leading-relaxed">
                       Rising stars in junior tournaments. Track the development of young players
