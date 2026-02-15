@@ -18,8 +18,13 @@ function cleanupOldFiles($directory, $retentionDays) {
     $deletedCount = 0;
     $thresholdTime = time() - ($retentionDays * 24 * 60 * 60);
     
-    $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory));
+    $iterator = new RecursiveIteratorIterator(
+        new RecursiveDirectoryIterator($directory, FilesystemIterator::SKIP_DOTS)
+    );
     foreach ($iterator as $file) {
+        if ($file->getFilename() === '.' || $file->getFilename() === '..') {
+            continue;
+        }
         if ($file->isFile()) {
             $filePath = $file->getPathname();
             // Only delete files in www* folders, not root level files
@@ -39,8 +44,13 @@ function calculateDirectoryChecksum($directory, $ago = null) {
     $lastUpdatedTime = 0;
     $lastUpdatedFile = '';
 
-    $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory));
+    $iterator = new RecursiveIteratorIterator(
+        new RecursiveDirectoryIterator($directory, FilesystemIterator::SKIP_DOTS)
+    );
     foreach ($iterator as $file) {
+        if ($file->getFilename() === '.' || $file->getFilename() === '..') {
+            continue;
+        }
         if ($file->isFile()) {
             hash_update_file($checksum, $file->getPathname());
             $fileMTime = $file->getMTime();
