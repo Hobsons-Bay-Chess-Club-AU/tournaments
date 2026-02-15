@@ -13,40 +13,122 @@ type LeaderboardData = {
   players: Player[];
 };
 
-const RATING_CATEGORIES = ["Points", "Standard", "Rapid", "Blitz", "ACF Classic", "ACF Quick"];
+const RATING_CATEGORIES_FULL = ["Points", "Standard", "Rapid", "Blitz", "ACF Classic", "ACF Quick"];
+const RATING_CATEGORIES_NO_POINTS = ["Standard", "Rapid", "Blitz", "ACF Classic", "ACF Quick"];
 
-type LeaderboardType = 'open' | 'junior';
+type LeaderboardType = 'open' | 'junior' | 'overall';
 
 interface LeaderboardTableProps {
   type: LeaderboardType;
 }
 
+function getSpinnerBorderClass(type: LeaderboardType): string {
+  if (type === 'junior') return 'border-green-600';
+  if (type === 'open') return 'border-yellow-600';
+  return 'border-purple-600';
+}
+
+function mergePlayers(a: Player[], b: Player[]): Player[] {
+  const mergedById = new Map<string, Player>();
+
+  const mergeInto = (incoming: Player) => {
+    const key = incoming.id || incoming.fideId || incoming.acfId || incoming.name;
+    const existing = mergedById.get(key);
+
+    if (!existing) {
+      mergedById.set(key, {
+        ...incoming,
+        tournaments: incoming.tournaments || [],
+        tournamentCount: incoming.tournamentCount ?? incoming.tournaments?.length ?? 0,
+      });
+      return;
+    }
+
+    const tournaments = [...(existing.tournaments || []), ...(incoming.tournaments || [])];
+    const seen = new Set<string>();
+    const dedupedTournaments = tournaments.filter((t) => {
+      const tournamentKey = `${t.tournament}::${t.ratingType}`;
+      if (seen.has(tournamentKey)) return false;
+      seen.add(tournamentKey);
+      return true;
+    });
+
+    mergedById.set(key, {
+      ...existing,
+      name: existing.name || incoming.name,
+      title: existing.title || incoming.title,
+      fideId: existing.fideId || incoming.fideId,
+      acfId: existing.acfId || incoming.acfId,
+      gender: existing.gender || incoming.gender,
+      href: existing.href || incoming.href,
+      birthYear: existing.birthYear ?? incoming.birthYear,
+      fideStandard: Math.max(existing.fideStandard || 0, incoming.fideStandard || 0) || undefined,
+      fideRapid: Math.max(existing.fideRapid || 0, incoming.fideRapid || 0) || undefined,
+      fideBlitz: Math.max(existing.fideBlitz || 0, incoming.fideBlitz || 0) || undefined,
+      acfClassic: Math.max(existing.acfClassic || 0, incoming.acfClassic || 0) || undefined,
+      acfQuick: Math.max(existing.acfQuick || 0, incoming.acfQuick || 0) || undefined,
+      tournaments: dedupedTournaments,
+      tournamentCount: dedupedTournaments.length,
+    });
+  };
+
+  a.forEach(mergeInto);
+  b.forEach(mergeInto);
+
+  return Array.from(mergedById.values());
+}
+
 export default function LeaderboardTable({ type }: LeaderboardTableProps) {
   const [players, setPlayers] = useState<Player[]>([]);
-  const [activeCategory, setActiveCategory] = useState<string>("Points");
+  const [activeCategory, setActiveCategory] = useState<string>(type === 'overall' ? "Standard" : "Points");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [ageFilter, setAgeFilter] = useState<string>("under18");
+  const [ageFilter, setAgeFilter] = useState<string>(type === 'overall' ? 'all' : "under18");
   const [selectedPlayer, setSelectedPlayer] = useState<Player | null>(null);
   const [genderFilter, setGenderFilter] = useState<string>("all");
 
   const isJunior = type === 'junior';
+  const isOverall = type === 'overall';
   const dataFile = isJunior ? 'junior-ratings.json' : 'open-ratings.json';
-  const title = isJunior ? 'Junior Leaderboard' : 'Open Leaderboard';
-  const loadingColor = isJunior ? 'green' : 'yellow';
+  const title = isJunior ? 'Junior Leaderboard' : isOverall ? 'Overall Leaderboard' : 'Open Leaderboard';
+  const ratingCategories = isOverall ? RATING_CATEGORIES_NO_POINTS : RATING_CATEGORIES_FULL;
+
+  useEffect(() => {
+    // Ensure a sensible default if navigating between leaderboard types
+    setActiveCategory(isOverall ? 'Standard' : 'Points');
+    setAgeFilter(isOverall ? 'all' : 'under18');
+  }, [isOverall]);
 
   useEffect(() => {
     const loadLeaderboardData = async () => {
       try {
         setLoading(true);
 
-        const response = await fetch(`${process.env.NEXT_PUBLIC_APP_URL}/${dataFile}?t=${Date.now()}`);
-        if (!response.ok) {
-          throw new Error(`Failed to load ${type} players data`);
-        }
+        if (type === 'overall') {
+          const [juniorResponse, openResponse] = await Promise.all([
+            fetch(`${process.env.NEXT_PUBLIC_APP_URL}/junior-ratings.json?t=${Date.now()}`),
+            fetch(`${process.env.NEXT_PUBLIC_APP_URL}/open-ratings.json?t=${Date.now()}`),
+          ]);
 
-        const data: LeaderboardData = await response.json();
-        setPlayers(data.players);
+          if (!juniorResponse.ok || !openResponse.ok) {
+            throw new Error('Failed to load overall players data');
+          }
+
+          const [juniorData, openData]: [LeaderboardData, LeaderboardData] = await Promise.all([
+            juniorResponse.json(),
+            openResponse.json(),
+          ]);
+
+          setPlayers(mergePlayers(openData.players || [], juniorData.players || []));
+        } else {
+          const response = await fetch(`${process.env.NEXT_PUBLIC_APP_URL}/${dataFile}?t=${Date.now()}`);
+          if (!response.ok) {
+            throw new Error(`Failed to load ${type} players data`);
+          }
+
+          const data: LeaderboardData = await response.json();
+          setPlayers(data.players);
+        }
         setError(null);
       } catch (err) {
         setError(err instanceof Error ? err.message : 'An error occurred');
@@ -82,11 +164,11 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
   };
 
   const filterPlayersByAge = (players: Player[], filter: string): Player[] => {
-    if (!isJunior) return players; // No filtering for open leaderboard
+    if (!isJunior && !isOverall) return players; // No filtering for open leaderboard
 
     return players.filter(player => {
       // Gender filter: only apply for junior and when girls selected
-      if (genderFilter === 'girls') {
+      if (isJunior && genderFilter === 'girls') {
         const isFemale = (player.gender || '').toLowerCase() === 'female';
         if (!isFemale) return false;
       }
@@ -96,7 +178,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
       const age = calculateAge(player.birthYear);
 
       // For Junior  & Rookies Leaderboard, always filter out players 18 and older
-      if (age >= 18) return false;
+      if (isJunior && age >= 18) return false;
 
       switch (filter) {
         case "under18":
@@ -112,9 +194,9 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
         case "under8":
           return age < 8;
         case "all":
-          return true; // This will now only include players under 18 due to the filter above
+          return true;
         default:
-          return age < 18;
+          return isJunior ? age < 18 : true;
       }
     });
   };
@@ -161,41 +243,57 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
   };
 
   const getAvatarColor = () => {
-    return isJunior ? 'bg-green-100' : 'bg-yellow-100';
+    if (isJunior) return 'bg-green-100';
+    if (isOverall) return 'bg-purple-100';
+    return 'bg-yellow-100';
   };
 
   const getAvatarTextColor = () => {
-    return isJunior ? 'text-green-600' : 'text-yellow-600';
+    if (isJunior) return 'text-green-600';
+    if (isOverall) return 'text-purple-700';
+    return 'text-yellow-600';
   };
 
   const getHeaderGradient = () => {
-    return isJunior
-      ? 'bg-gradient-to-r from-green-400 to-green-600'
-      : 'bg-gradient-to-r from-yellow-400 to-yellow-600';
+    if (isJunior) return 'bg-gradient-to-r from-green-400 to-green-600';
+    if (isOverall) return 'bg-gradient-to-r from-purple-500 to-primary-700';
+    return 'bg-gradient-to-r from-yellow-400 to-yellow-600';
   };
 
   const getHeaderTextColor = () => {
-    return isJunior ? 'text-green-100' : 'text-yellow-100';
+    if (isJunior) return 'text-green-100';
+    if (isOverall) return 'text-purple-100';
+    return 'text-yellow-100';
   };
 
   const getBackButtonColor = () => {
-    return isJunior ? 'text-green-600 hover:bg-green-50' : 'text-yellow-600 hover:bg-yellow-50';
+    if (isJunior) return 'text-green-600 hover:bg-green-50';
+    if (isOverall) return 'text-purple-700 hover:bg-purple-50';
+    return 'text-yellow-600 hover:bg-yellow-50';
   };
 
   const getInfoSectionColor = () => {
-    return isJunior ? 'bg-green-50' : 'bg-yellow-50';
+    if (isJunior) return 'bg-green-50';
+    if (isOverall) return 'bg-purple-50';
+    return 'bg-yellow-50';
   };
 
   const getInfoTextColor = () => {
-    return isJunior ? 'text-green-900' : 'text-yellow-900';
+    if (isJunior) return 'text-green-900';
+    if (isOverall) return 'text-purple-900';
+    return 'text-yellow-900';
   };
 
   const getInfoContentColor = () => {
-    return isJunior ? 'text-green-800' : 'text-yellow-800';
+    if (isJunior) return 'text-green-800';
+    if (isOverall) return 'text-purple-800';
+    return 'text-yellow-800';
   };
 
   const getInfoListColor = () => {
-    return isJunior ? 'text-green-700' : 'text-yellow-700';
+    if (isJunior) return 'text-green-700';
+    if (isOverall) return 'text-purple-700';
+    return 'text-yellow-700';
   };
 
   if (loading) {
@@ -203,7 +301,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
       <div className="font-sans min-h-screen bg-gradient-to-br from-primary-50 to-primary-200">
         <div className="bg-white min-h-screen flex items-center justify-center">
           <div className="text-center">
-            <div className={`animate-spin rounded-full h-12 w-12 border-b-2 border-${loadingColor}-600 mx-auto mb-4`}></div>
+            <div className={`animate-spin rounded-full h-12 w-12 border-b-2 ${getSpinnerBorderClass(type)} mx-auto mb-4`}></div>
             <p className="text-gray-600">Loading {type} leaderboard...</p>
           </div>
         </div>
@@ -252,7 +350,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
         {/* Rating Category Tabs */}
         <div className="max-w-7xl mx-auto px-0 md:px-4">
           <FilterTabs
-            options={RATING_CATEGORIES}
+            options={ratingCategories}
             activeOption={activeCategory}
             onOptionChange={setActiveCategory}
           />
@@ -265,38 +363,41 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
           )}
         </div>
 
-        {/* Age Filter - Only for Junior */}
-        {isJunior && (
+        {/* Age Filter - Junior + Overall */}
+        {(isJunior || isOverall) && (
           <div className="max-w-7xl mx-auto px-2 md:px-4 py-4">
-            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between bg-green-50 rounded-lg p-4 border border-green-200">
+            <div className={`flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between rounded-lg p-4 border ${isJunior ? 'bg-green-50 border-green-200' : 'bg-purple-50 border-purple-200'}`}>
               <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 w-full sm:w-auto">
-                <label className="text-sm font-medium text-green-800 mb-2 sm:mb-0">Age Filter:</label>
+                <label className={`text-sm font-medium mb-2 sm:mb-0 ${isJunior ? 'text-green-800' : 'text-purple-800'}`}>Age Filter:</label>
                 <select
                   value={ageFilter}
                   onChange={(e) => setAgeFilter(e.target.value)}
-                  className="border border-green-300 rounded-md px-3 py-2 text-sm bg-white text-green-800 w-full sm:w-56"
+                  className={`border rounded-md px-3 py-2 text-sm bg-white w-full sm:w-56 ${isJunior ? 'border-green-300 text-green-800' : 'border-purple-300 text-purple-800'}`}
                 >
+                  {isOverall && <option value="all">All Players</option>}
                   <option value="under18">Under 18</option>
                   <option value="under16">Under 16</option>
                   <option value="under14">Under 14</option>
                   <option value="under12">Under 12</option>
                   <option value="under10">Under 10</option>
                   <option value="under8">Under 8</option>
-                  <option value="all">All Junior Players</option>
+                  {!isOverall && <option value="all">All Junior Players</option>}
                 </select>
               </div>
-              <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 w-full sm:w-auto">
-                <label className="text-sm font-medium text-green-800 mb-2 sm:mb-0">Gender:</label>
-                <select
-                  value={genderFilter}
-                  onChange={(e) => setGenderFilter(e.target.value)}
-                  className="border border-green-300 rounded-md px-3 py-2 text-sm bg-white text-green-800 w-full sm:w-56"
-                >
-                  <option value="all">All</option>
-                  <option value="girls">Girls</option>
-                </select>
-              </div>
-              <div className="text-sm text-green-700 w-full sm:w-auto sm:text-right">
+              {isJunior && (
+                <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 w-full sm:w-auto">
+                  <label className="text-sm font-medium text-green-800 mb-2 sm:mb-0">Gender:</label>
+                  <select
+                    value={genderFilter}
+                    onChange={(e) => setGenderFilter(e.target.value)}
+                    className="border border-green-300 rounded-md px-3 py-2 text-sm bg-white text-green-800 w-full sm:w-56"
+                  >
+                    <option value="all">All</option>
+                    <option value="girls">Girls</option>
+                  </select>
+                </div>
+              )}
+              <div className={`text-sm w-full sm:w-auto sm:text-right ${isJunior ? 'text-green-700' : 'text-purple-700'}`}>
                 Showing {filteredPlayers.length} of {players.length} players
               </div>
             </div>
@@ -338,7 +439,7 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
                     const ageGroup = player.birthYear ? getAgeGroup(player.birthYear) : null;
 
                     return (
-                      <tr key={player.name} className="hover:bg-gray-50 transition-colors">
+                      <tr key={player.id || player.name} className="hover:bg-gray-50 transition-colors">
                         <td className="px-3 py-3 sm:px-6 sm:py-4 whitespace-nowrap">
                           <div className="flex items-center">
                             <span className={`text-lg font-bold ${rank === 1 ? 'text-yellow-500' :
@@ -437,12 +538,14 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
           {/* Info Section */}
           <div className={`mt-8 ${getInfoSectionColor()} rounded-lg p-6`}>
             <h3 className={`text-lg font-semibold ${getInfoTextColor()} mb-3`}>
-              About {isJunior ? 'Junior' : 'Open'} Players
+              About {isJunior ? 'Junior' : isOverall ? 'Overall' : 'Open'} Players
             </h3>
             <p className={`${getInfoContentColor()} mb-4`}>
               {isJunior
                 ? 'These young players have shown exceptional dedication by participating in multiple junior tournaments throughout the year, demonstrating their growing skills and passion for chess.'
-                : 'These players have demonstrated consistent participation in open tournaments throughout the year, showing their dedication and competitive spirit in the chess community.'
+                : isOverall
+                  ? 'This overall leaderboard combines players from both junior and open tournaments, so strong juniors who only play open events are still included in age-group rankings.'
+                  : 'These players have demonstrated consistent participation in open tournaments throughout the year, showing their dedication and competitive spirit in the chess community.'
               }
             </p>
             <div className={`grid grid-cols-1 md:grid-cols-3 gap-4 text-sm ${getInfoListColor()}`}>
@@ -450,14 +553,14 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
                 <strong>Eligibility:</strong>
                 <ul className="list-disc list-inside mt-1 ml-4">
                   <li>Multiple tournament participation</li>
-                  <li>{isJunior ? 'Junior' : 'Open'} category tournaments</li>
+                  <li>{isJunior ? 'Junior' : isOverall ? 'Junior + Open' : 'Open'} category tournaments</li>
                   <li>Active in current year</li>
                 </ul>
               </div>
               <div>
                 <strong>Rating Categories:</strong>
                 <ul className="list-disc list-inside mt-1 ml-4">
-                  <li>Points (Classical Games)</li>
+                  {!isOverall && <li>Points (Classical Games)</li>}
                   <li>Standard</li>
                   <li>Rapid</li>
                   <li>Blitz</li>
@@ -473,6 +576,11 @@ export default function LeaderboardTable({ type }: LeaderboardTableProps) {
                     <>
                       <li>Filter by age range</li>
                       <li>Focus on development</li>
+                    </>
+                  ) : isOverall ? (
+                    <>
+                      <li>Filter overall by U-groups</li>
+                      <li>Includes strong juniors in Open</li>
                     </>
                   ) : (
                     <>

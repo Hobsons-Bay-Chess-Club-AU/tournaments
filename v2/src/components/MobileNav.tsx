@@ -56,6 +56,13 @@ export default function MobileNav() {
             >
               Leaderboards
             </Link>
+            <Link
+              href="/leaderboard/overall"
+              className="block w-full px-3 py-2 rounded-md text-gray-700 hover:bg-primary-50 hover:text-primary-700 font-medium"
+              onClick={() => setOpen(false)}
+            >
+              Overall Ranking
+            </Link>
           </nav>
         </div>
       )}

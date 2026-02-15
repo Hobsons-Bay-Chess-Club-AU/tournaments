@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { FaTrophy, FaChessKing, FaChessPawn, FaUsers, FaChartLine, FaMedal } from "react-icons/fa";
 import CountUp from "@/components/CountUp";
@@ -75,6 +75,14 @@ export default function LeaderboardPage() {
   // Calculate total players
   const totalPlayers = (juniorData?.count || 0) + (openData?.count || 0);
   const totalTournaments = juniorData?.totalTournaments || openData?.totalTournaments || 0;
+
+  const overallPlayersCount = useMemo(() => {
+    const keyFor = (p: Player) => p.id || p.fideId || p.acfId || p.name;
+    const keys = new Set<string>();
+    (openData?.players || []).forEach((p) => keys.add(keyFor(p)));
+    (juniorData?.players || []).forEach((p) => keys.add(keyFor(p)));
+    return keys.size;
+  }, [juniorData, openData]);
 
   return (
     <div className="font-sans min-h-screen bg-gradient-to-br from-primary-50 via-primary-100 to-primary-200">
@@ -176,7 +184,70 @@ export default function LeaderboardPage() {
         </div>
 
         {/* Leaderboard Cards */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-16">
+          {/* Overall Leaderboard Card */}
+          <div className="group relative">
+            <Link href="/leaderboard/overall" className="block">
+              <div className="relative overflow-hidden bg-gradient-to-br from-purple-50 to-indigo-50 border-2 border-purple-200 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
+                <div className="absolute inset-0 opacity-5">
+                  <div className="absolute inset-0" style={{
+                    backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.1'%3E%3Cpath d='M20 20c0-5.523-4.477-10-10-10S0 14.477 0 20s4.477 10 10 10 10-4.477 10-10zm0 0c0 5.523 4.477 10 10 10s10-4.477 10-10-4.477-10-10-10-10 4.477-10 10z'/%3E%3C/g%3E%3C/svg%3E")`,
+                  }}></div>
+                </div>
+
+                <div className="relative p-8">
+                  <div className="flex justify-center mb-6">
+                    <div className="bg-gradient-to-br from-purple-500 to-indigo-600 rounded-full p-6 shadow-lg">
+                      <FaUsers className="text-4xl text-white" />
+                    </div>
+                  </div>
+
+                  <div className="text-center">
+                    <h3 className="text-2xl font-bold text-purple-800 mb-4 group-hover:text-purple-700 transition-colors">
+                      Overall Leaderboard
+                    </h3>
+                    <p className="text-purple-700 mb-6 leading-relaxed">
+                      Combined rankings across junior and open tournaments.
+                      Filter by U-age groups and rank by FIDE and ACF ratings.
+                    </p>
+
+                    <div className="grid grid-cols-2 gap-4 mb-8">
+                      <div className="text-center">
+                        <div className="text-2xl font-bold text-purple-600">
+                          {loading ? (
+                            <div className="animate-pulse">...</div>
+                          ) : (
+                            <CountUp
+                              end={overallPlayersCount}
+                              duration={1500}
+                              delay={200}
+                            />
+                          )}
+                        </div>
+                        <div className="text-sm text-purple-700">Players</div>
+                      </div>
+                      <div className="text-center">
+                        <div className="text-2xl font-bold text-purple-600">
+                          <CountUp
+                            end={5}
+                            duration={1000}
+                            delay={400}
+                          />
+                        </div>
+                        <div className="text-sm text-purple-700">Rating Types</div>
+                      </div>
+                    </div>
+
+                    <div className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-semibold rounded-lg shadow-lg group-hover:from-purple-700 group-hover:to-indigo-700 transition-all duration-300 transform group-hover:scale-105">
+                      View Rankings
+                      <FaTrophy className="ml-2 text-lg" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Link>
+          </div>
+
           {/* Open Leaderboard Card */}
           <div className="group relative">
             <Link href="/leaderboard/open" className="block">

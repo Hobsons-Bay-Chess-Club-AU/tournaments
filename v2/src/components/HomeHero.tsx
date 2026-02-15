@@ -28,15 +28,27 @@ const HomeHero: React.FC = () => {
 
                 {/* Navigation */}
                 <div className="text-center mt-8">
-                    <Link
-                        href="/timeline"
-                        className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white px-6 py-3 rounded-full border border-white/20 hover:bg-white/20 transition-all duration-200 font-medium"
-                    >
-                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                        View Timeline
-                    </Link>
+                    <div className="inline-flex flex-col sm:flex-row items-center justify-center gap-3">
+                        <Link
+                            href="/timeline"
+                            className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white px-6 py-3 rounded-full border border-white/20 hover:bg-white/20 transition-all duration-200 font-medium"
+                        >
+                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            View Timeline
+                        </Link>
+
+                        <Link
+                            href="/leaderboard/overall"
+                            className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 to-indigo-600 text-white px-6 py-3 rounded-full border border-white/10 hover:from-purple-700 hover:to-indigo-700 transition-all duration-200 font-medium shadow-lg"
+                        >
+                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a6 6 0 100 12m0-12a6 6 0 010 12m0 0v2m0-2a6 6 0 010-12" />
+                            </svg>
+                            Overall Rankings
+                        </Link>
+                    </div>
                 </div>
             </div>
 
