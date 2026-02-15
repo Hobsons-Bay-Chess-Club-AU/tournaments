@@ -27,14 +27,14 @@ function calculateDataHash(data) {
     const dataCopy = JSON.parse(JSON.stringify(data));
     delete dataCopy.generatedAt;
     delete dataCopy.md5Hash;
-    
+
     // Convert to string and calculate hash
     // Debug: verify whether dynamic fields like `test` are included
     try {
         if (typeof dataCopy === 'object' && dataCopy !== null) {
             console.log('[DEBUG] Hashing object keys count:', Object.keys(dataCopy), 'test value:', dataCopy.test);
         }
-    } catch {}
+    } catch { }
     const dataString = JSON.stringify(dataCopy);
     return crypto.createHash('md5').update(dataString).digest('hex');
 }
@@ -58,23 +58,23 @@ async function getHtmlFiles(dir) {
 function parseCaptionToPlayerInfo($caption) {
     // Check if caption has HTML content or is just text
     const hasHTML = $caption.find('*').length > 0;
-    
+
     if (!hasHTML) {
         // Caption contains only text
         return $caption.text().trim();
     }
-    
+
     // Caption contains HTML, try to extract player information
     const captionText = $caption.text();
     const captionHtml = $caption.html();
-    
+
     let playerName = '';
     let playerId = '';
     let moreInfo = {};
-    
+
     // Pattern 1: Extract player name from <strong> tag (original format)
     playerName = $caption.find('strong').text().trim();
-    
+
     // Pattern 2: Extract player name from FIDE rating link (new format)
     // <a href="http://ratings.fide.com/card.phtml?event=3244806" target="X"> Annapureddy, Rheyansh Reddy </a>
     if (!playerName) {
@@ -88,28 +88,28 @@ function parseCaptionToPlayerInfo($caption) {
             }
         }
     }
-    
+
     // Extract ID using regex from the full text
     // Looking for patterns like "ID=3217475"
     const idMatch = captionText.match(/ID\s*=\s*(\d+)/i);
     playerId = idMatch ? idMatch[1] : '';
-    
+
     // Extract N value (player number) - new format
     const nMatch = captionText.match(/N\s*=\s*(\d+)/i);
     if (nMatch) moreInfo.N = nMatch[1].trim();
-    
+
     // Extract K value
     const kMatch = captionText.match(/K\s*=\s*([^,]+)/i);
     if (kMatch) moreInfo.K = kMatch[1].trim();
-    
+
     // Extract Elo value  
     const eloMatch = captionText.match(/Elo\s*=\s*([^,]+)/i);
     if (eloMatch) moreInfo.Elo = eloMatch[1].trim();
-    
+
     // Extract anchor name if present
     const anchorName = $caption.find('a.anchor').attr('name');
     if (anchorName) moreInfo.anchor = anchorName;
-    
+
     return {
         playerName,
         id: playerId,
@@ -126,7 +126,7 @@ function readPairPlayer($td) {
     let playerName = '';
     let href = '';
     let title = '';
-    
+
     // Look for ID in various locations
     const idSpan = $td.find('span.idwhite, span.idblack');
     if (idSpan.length > 0) {
@@ -138,13 +138,13 @@ function readPairPlayer($td) {
             id = sortNumDiv.text().trim();
         }
     }
-    
+
     // Look for title in span with title class
     const titleSpan = $td.find('span.title');
     if (titleSpan.length > 0) {
         title = titleSpan.text().trim();
     }
-    
+
     // Look for gender in various locations
     const genderSpan = $td.find('span.male, span.female, span.notitle');
     if (genderSpan.hasClass('male')) {
@@ -166,14 +166,14 @@ function readPairPlayer($td) {
             gender = 'notitle'; // default
         }
     }
-    
+
     // Look for player name
     const anchor = $td.find('a');
     if (anchor.length > 0) {
         href = anchor.attr('href') || '';
         // Try to get player name from anchor text first
         playerName = anchor.text().trim();
-        
+
         // If anchor text is empty, look for player name in player-name-box2 span
         if (!playerName) {
             const nameSpan = $td.find('.player-name-box2 span');
@@ -182,7 +182,7 @@ function readPairPlayer($td) {
             }
         }
     }
-    
+
     return {
         id,
         playerName,
@@ -199,7 +199,7 @@ function readPlayer($td) {
     let playerName = '';
     let href = '';
     let title = '';
-    
+
     // Pattern 1: <span class="idn"> 3 </span> <span class="notitle male"> </span> <a href="playercard.html#3"> Name</a>
     let idSpan = $td.find('span.idn');
     if (idSpan.length > 0) {
@@ -217,13 +217,13 @@ function readPlayer($td) {
             }
         }
     }
-    
+
     // Look for title in span with title class
     const titleSpan = $td.find('span.title');
     if (titleSpan.length > 0) {
         title = titleSpan.text().trim();
     }
-    
+
     // Look for gender in span classes
     const genderSpan = $td.find('span.male, span.female, span.notitle, .male, .female, .notitle2');
     if (genderSpan.hasClass('male') || (genderSpan.hasClass('notitle') && genderSpan.hasClass('male'))) {
@@ -235,14 +235,14 @@ function readPlayer($td) {
     } else {
         gender = 'notitle'; // default
     }
-    
+
     // Look for player name in anchor tag or span within player-name-box2
     let anchor = $td.find('a');
     if (anchor.length > 0) {
         playerName = anchor.text().trim();
         href = anchor.attr('href') || '';
     }
-    
+
     // If no player name from anchor, check for player name in nested span (Pattern 2)
     if (!playerName || playerName === '') {
         const nameSpan = $td.find('.player-name-box2 span');
@@ -250,14 +250,14 @@ function readPlayer($td) {
             playerName = nameSpan.text().trim();
         }
     }
-    
+
     // Pattern 4: Unrated players - <td> <span class="notitle male"> </span> Balaji,Sai Sivesh </td>
     // The player name is direct text content after the gender span
     if (!playerName || playerName === '') {
         // Get all text content and remove the gender span text
         const allText = $td.text().trim();
         const genderSpanText = $td.find('span.male, span.female, span.notitle, .male, .female, .notitle2').text().trim();
-        
+
         // Remove the gender span text from the total text to get just the player name
         if (genderSpanText && allText !== genderSpanText) {
             playerName = allText.replace(genderSpanText, '').trim();
@@ -266,9 +266,9 @@ function readPlayer($td) {
             playerName = allText;
         }
     }
-    
+
     // Debug logging for standings parsing - removed for production
-    
+
     return {
         id,
         playerName,
@@ -288,7 +288,7 @@ function parseTableToJson($table) {
         // If no caption, look for h5 element before the table
         // First try direct previous sibling
         let $prevH5 = $table.prev('h5');
-        
+
         // If not found, try looking for h5 in the same container
         if ($prevH5.length === 0) {
             const $parent = $table.parent();
@@ -303,7 +303,7 @@ function parseTableToJson($table) {
                 });
             }
         }
-        
+
         // If still not found, try looking for h5 in the parent's parent
         if ($prevH5.length === 0) {
             const $grandParent = $table.parent().parent();
@@ -317,7 +317,7 @@ function parseTableToJson($table) {
                 });
             }
         }
-        
+
         if ($prevH5.length > 0) {
             const h5Text = $prevH5.text().trim();
             if (h5Text) {
@@ -332,7 +332,7 @@ function parseTableToJson($table) {
             }
         }
     }
-    
+
     // Parse footer if it exists
     let footer = null;
     const $tfoot = $table.find('tfoot');
@@ -346,7 +346,7 @@ function parseTableToJson($table) {
             };
         }
     }
-    
+
     // Build headers with unique keys to avoid overwriting duplicate column names
     const headers = [];
     const headerNameCount = new Map();
@@ -367,11 +367,11 @@ function parseTableToJson($table) {
             const headerName = typeof headerObj === 'string' ? headerObj : headerObj.name;
             const headerKey = typeof headerObj === 'string' ? headerObj : headerObj.key;
             const $td = cheerio(td);
-            
+
             if (headerName === 'White Player' || headerName === 'Black Player' || headerName === 'Player') {
                 // Check if the cell has structured content (child elements)
                 const hasChildElements = $td.find('span').length > 0 || $td.find('a').length > 0;
-                
+
                 if (hasChildElements) {
                     // Use specialized parsing functions
                     if (headerName === 'Player') {
@@ -390,13 +390,13 @@ function parseTableToJson($table) {
                 const resDiv = $td.find('div.res');
                 const cwDiv = $td.find('div.cw');
                 const cbDiv = $td.find('div.cb');
-                
+
                 if (resDiv.length > 0) {
                     // This is a crosstable cell with result and opponent info
                     const result = resDiv.text().trim();
                     const whiteOpponent = cwDiv.length > 0 ? cwDiv.text().trim() : null;
                     const blackOpponent = cbDiv.length > 0 ? cbDiv.text().trim() : null;
-                    
+
                     rowObj[headerKey] = {
                         result,
                         whiteOpponent,
@@ -413,7 +413,7 @@ function parseTableToJson($table) {
                             // Extract flag information from image
                             const alt = $img.attr('alt');
                             const src = $img.attr('src');
-                            
+
                             let federationCode = '';
                             if (alt && alt.trim() !== '') {
                                 // Use alt attribute if available
@@ -432,12 +432,12 @@ function parseTableToJson($table) {
                                     federationCode = src.toUpperCase();
                                 }
                             }
-                            
+
                             rowObj[headerKey] = federationCode.toUpperCase();
                         } else {
                             // Regular cell content
                             const cellText = $td.text().trim();
-                            
+
                             // Check if this looks like a federation code (2-3 letters) and convert to uppercase
                             if (/^[A-Za-z]{2,3}$/.test(cellText)) {
                                 rowObj[headerKey] = cellText.toUpperCase();
@@ -449,13 +449,13 @@ function parseTableToJson($table) {
                 }
             }
         });
-        
+
         // Post-process the row to fix common mapping issues
         // Only apply this fix to standings tables (tables with Player column)
         const headerNames = headers.map(h => typeof h === 'string' ? h : h.name);
         const hasPlayerColumn = headerNames.includes('Player') || headerNames.includes('NAME');
         const colKeys = Object.keys(rowObj).filter(key => key.startsWith('col'));
-        
+
         if (colKeys.length > 0 && hasPlayerColumn) {
             // Log when we detect potential column misalignment in standings tables
             if (colKeys.length === 1 && colKeys[0] === 'col13' && (!rowObj['Pts'] || rowObj['Pts'] === '')) {
@@ -463,7 +463,7 @@ function parseTableToJson($table) {
                 rowObj['Pts'] = rowObj['col13'];
                 delete rowObj['col13'];
             }
-            
+
             // More general fix: if we have any col* keys and missing Pts, map the first one
             if (!rowObj['Pts'] || rowObj['Pts'] === '') {
                 const firstColKey = colKeys.sort()[0];
@@ -474,10 +474,10 @@ function parseTableToJson($table) {
                 }
             }
         }
-        
+
         rows.push(rowObj);
     });
-    
+
     // Return table data with caption and footer if they exist
     const result = { headers, rows };
     if (caption) {
@@ -493,10 +493,10 @@ async function processHtmlFile(filePath) {
     const html = await fs.readFile(filePath, 'utf-8');
     const $ = cheerio.load(html);
     const tablesJson = [];
-    
+
     // Detect tournament type
     const tournamentType = detectTournamentType(html);
-    
+
     // Handle team tournament pairs specially
     if (tournamentType === 'team' && filePath.includes('pairs')) {
         const teamMatches = parseTeamTournamentPairs(html);
@@ -512,15 +512,15 @@ async function processHtmlFile(filePath) {
             tablesJson.push(parsedTable);
         });
     }
-    
+
     // Extract h1 title
     const pageHeading = $('h3').first().text().trim();
     const pairingScheduleText = $('.btn-toolbar h5').first().text().trim();
-    return { 
-        pageHeading, 
-        tables: tablesJson, 
+    return {
+        pageHeading,
+        tables: tablesJson,
         pairingScheduleText: pairingScheduleText || undefined,
-        tournamentType 
+        tournamentType
     };
 }
 
@@ -567,7 +567,7 @@ async function extractMinimalMetadataFromIndex(indexHtmlPath) {
         if (h5s.length >= 1) meta['Federation'] = h5s.eq(0).text().trim();
         if (h5s.length >= 2) meta['Date'] = h5s.eq(1).text().trim();
     }
-    if(!meta['Tournament Name']) {
+    if (!meta['Tournament Name']) {
         meta['Tournament Name'] = $("title").text().trim();
     }
     return meta;
@@ -576,7 +576,7 @@ async function extractMinimalMetadataFromIndex(indexHtmlPath) {
 // Function to build comprehensive player lookup from all sources
 function buildPlayerLookup(pageData, folderName) {
     const playerMap = new Map(); // Key: player number (#), Value: enriched player data
-    
+
     // Step 1: Collect basic player data from index.html
     const indexData = pageData['index.html'];
     if (indexData?.tables && indexData.tables.length > 0) {
@@ -588,13 +588,13 @@ function buildPlayerLookup(pageData, folderName) {
                 const title = row['Title'];
                 const federation = row['Fed'];
                 const rating = row['Rtg'];
-                
+
                 // Handle both string and object Player data
                 let playerName = '';
                 let playerId = '';
                 let gender = '';
                 let href = '';
-                
+
                 if (typeof playerObj === 'string') {
                     playerName = playerObj;
                     playerId = String(playerNumber);
@@ -604,7 +604,7 @@ function buildPlayerLookup(pageData, folderName) {
                     gender = playerObj.gender || '';
                     href = playerObj.href || `playercard.html#${playerNumber}`;
                 }
-                
+
                 if (playerNumber && playerName) {
                     const playerData = {
                         id: playerId,
@@ -622,7 +622,7 @@ function buildPlayerLookup(pageData, folderName) {
             });
         }
     }
-    
+
     // Step 2: Enrich with FIDE data from felovar.html
     const felovarData = pageData['felovar.html'];
     if (felovarData?.tables && felovarData.tables.length > 0) {
@@ -634,7 +634,7 @@ function buildPlayerLookup(pageData, folderName) {
                 const fideId = row['FIDE ID'];
                 const fideRating = row['Rtg'];
                 const federation = row['Fed'];
-                
+
                 if (playerNumber && playerData && fideId) {
                     const existingPlayer = playerMap.get(String(playerNumber));
                     if (existingPlayer) {
@@ -673,7 +673,7 @@ function buildPlayerLookup(pageData, folderName) {
             });
         }
     }
-    
+
     // Step 3: Collect additional player data from pairing tables
     Object.keys(pageData).forEach(fileName => {
         if (fileName !== 'index.html' && fileName !== 'felovar.html') {
@@ -685,18 +685,18 @@ function buildPlayerLookup(pageData, folderName) {
                             // Check all columns for player objects
                             Object.keys(row).forEach(columnKey => {
                                 const value = row[columnKey];
-                                
+
                                 // Check if this is a player object
                                 if (typeof value === 'object' && value !== null && value.playerName && value.id) {
                                     const playerId = String(value.id);
                                     const existingPlayer = playerMap.get(playerId);
-                                    
+
                                     if (existingPlayer) {
                                         // Merge additional data from pairing table
                                         existingPlayer.gender = value.gender || existingPlayer.gender;
                                         existingPlayer.title = value.title || existingPlayer.title;
                                         existingPlayer.href = value.href || existingPlayer.href;
-                                        
+
                                         // Merge moreInfo
                                         existingPlayer.moreInfo = {
                                             ...existingPlayer.moreInfo,
@@ -725,7 +725,7 @@ function buildPlayerLookup(pageData, folderName) {
             }
         }
     });
-    
+
     console.log(`[${folderName}] Built player lookup with ${playerMap.size} players`);
     return playerMap;
 }
@@ -733,41 +733,41 @@ function buildPlayerLookup(pageData, folderName) {
 // Function to enrich all tables with standardized player data
 function enrichTablesWithPlayerData(pageData, playerLookup) {
     const enrichedPageData = {};
-    
+
     Object.keys(pageData).forEach(fileName => {
         const page = pageData[fileName];
         enrichedPageData[fileName] = {
             ...page,
             tables: page.tables?.map(table => {
                 if (!table.rows) return table;
-                
+
                 const enrichedRows = table.rows.map(row => {
                     const enrichedRow = { ...row };
-                    
+
                     // Enrich all player fields in the row
                     Object.keys(row).forEach(key => {
                         const value = row[key];
-                        
+
                         // Check if this is a player object
                         if (typeof value === 'object' && value !== null && value.playerName && value.id) {
                             const playerId = String(value.id);
                             const fullPlayerData = playerLookup.get(playerId);
-                            
+
                             if (fullPlayerData) {
                                 // Merge the original player data with the enriched data
                                 enrichedRow[key] = { ...value, ...fullPlayerData };
                             }
                         }
                     });
-                    
+
                     return enrichedRow;
                 });
-                
+
                 return { ...table, rows: enrichedRows };
             })
         };
     });
-    
+
     return enrichedPageData;
 }
 
@@ -795,7 +795,7 @@ function transformToNormalizedData(pageData, playerLookup, metadata, menu, categ
 
     // Transform tables
     const transformedPages = {};
-    
+
     Object.keys(pageData).forEach(fileName => {
         const page = pageData[fileName];
         const transformedTables = page.tables?.map(table => {
@@ -806,26 +806,26 @@ function transformToNormalizedData(pageData, playerLookup, metadata, menu, categ
                     type: 'team-pairs'
                 };
             }
-            
+
             if (!table.rows) return table;
 
             // Determine table type
             const tableType = determineTableType(table, fileName);
-            
+
             const transformedRows = table.rows.map(row => {
                 const transformedRow = { ...row };
-                
+
                 // Transform player references to IDs
                 Object.keys(row).forEach(key => {
                     const value = row[key];
-                    
+
                     // Check if this is a player object
                     if (typeof value === 'object' && value !== null && value.playerName && value.id) {
                         // Replace player object with just the ID reference
                         transformedRow[key] = value.id;
                     }
                 });
-                
+
                 return transformedRow;
             });
 
@@ -880,25 +880,25 @@ function transformToNormalizedData(pageData, playerLookup, metadata, menu, categ
 // Function to detect tournament type based on HTML structure
 function detectTournamentType(html) {
     const $ = cheerio.load(html);
-    
+
     // Check for team tournament indicators
     const hasTeamMatches = $('.match-item').length > 0;
     const hasCollapsibleBoards = $('.stat-collapse').length > 0;
     const hasTeamCards = $('.card.stat-card').length > 0;
     const hasTeamPairingScript = $('script[src*="pairingteam"]').length > 0;
-    
+
     if (hasTeamMatches && hasCollapsibleBoards && hasTeamCards && hasTeamPairingScript) {
         return 'team';
     }
-    
+
     // Check for individual tournament indicators
     const hasStandardTable = $('table.table-striped tbody tr').length > 0;
     const hasPlayerColumns = $('th').text().includes('White Player') && $('th').text().includes('Black Player');
-    
+
     if (hasStandardTable && hasPlayerColumns) {
         return 'individual';
     }
-    
+
     return 'unknown';
 }
 
@@ -906,7 +906,7 @@ function detectTournamentType(html) {
 function parseTeamTournamentPairs(html) {
     const $ = cheerio.load(html);
     const teamMatches = [];
-    
+
     $('.match-item').each((index, matchElement) => {
         const $match = $(matchElement);
         const matchData = {
@@ -917,7 +917,7 @@ function parseTeamTournamentPairs(html) {
         };
         teamMatches.push(matchData);
     });
-    
+
     return teamMatches;
 }
 
@@ -925,7 +925,7 @@ function parseTeamTournamentPairs(html) {
 function extractTeamData($match, side) {
     const selector = side === 'left' ? '.w-50:first' : '.w-50:last';
     const $teamDiv = $match.find(selector);
-    
+
     return {
         country: $teamDiv.find('.fs-6.fw-bold').text().trim(),
         teamName: $teamDiv.find('h5 span').text().trim(),
@@ -937,36 +937,36 @@ function extractTeamData($match, side) {
 // Helper function to extract board pairings from team match
 function extractBoardPairings($match, $) {
     const boardPairings = [];
-    
+
     $match.find('.stat-collapse').each((index, boardElement) => {
         const $board = $(boardElement);
         const boardNumber = $board.find('strong').first().text().trim();
-        
+
         // Extract white and black players
         const whitePlayer = extractPlayerFromBoard($board, 'white', $);
         const blackPlayer = extractPlayerFromBoard($board, 'black', $);
-        
+
         boardPairings.push({
             board: boardNumber,
             white: whitePlayer,
             black: blackPlayer
         });
     });
-    
+
     return boardPairings;
 }
 
 // Helper function to extract player data from board pairing
 function extractPlayerFromBoard($board, color, $) {
     const isWhite = color === 'white';
-    
+
     if (isWhite) {
         // White player is in the first .d-flex section within .player-stat-row
         const $whiteSection = $board.find('.player-stat-row > .d-flex:first');
         const name = $whiteSection.find('.flex-fill.py-2.px-3 span').text().trim();
         const rating = $whiteSection.find('.w-20.py-2.px-3 span').text().trim();
         const score = $whiteSection.find('.player-score strong').text().trim();
-        
+
         return {
             name: name,
             rating: rating,
@@ -978,7 +978,7 @@ function extractPlayerFromBoard($board, color, $) {
         const name = $blackSection.find('.flex-fill.py-2.px-3 span').text().trim();
         const rating = $blackSection.find('.w-20.py-2.px-3 span').text().trim();
         const score = $blackSection.find('.player-score strong').text().trim();
-        
+
         return {
             name: name,
             rating: rating,
@@ -993,37 +993,37 @@ function determineTableType(table, fileName) {
     if (table.type === 'team-pairs') {
         return 'team-pairs';
     }
-    
+
     const headers = table.headers?.map(h => typeof h === 'string' ? h : h.name) || [];
     const headerKeys = headers.map(h => h.toLowerCase());
-    
+
     // Check for pairing table indicators
-    const hasWhite = headerKeys.some(key => 
+    const hasWhite = headerKeys.some(key =>
         key.includes('white') || key === 'white' || key === 'w'
     );
-    const hasBlack = headerKeys.some(key => 
+    const hasBlack = headerKeys.some(key =>
         key.includes('black') || key === 'black' || key === 'b'
     );
-    
+
     if (hasWhite && hasBlack) {
         return 'pairing';
     }
-    
+
     // Check for standings table indicators
     if (headerKeys.includes('player') && headerKeys.includes('pts')) {
         return 'standings';
     }
-    
+
     // Check for crosstable indicators
     if (fileName.includes('crosstable') || headerKeys.some(key => key.match(/^\d+$/))) {
         return 'crosstable';
     }
-    
+
     // Check for statistics indicators
     if (headerKeys.includes('statistics') || fileName.includes('stat')) {
         return 'statistics';
     }
-    
+
     return 'other';
 }
 
@@ -1034,7 +1034,7 @@ async function processFolder(folderName) {
     const result = {
         generatedAt: new Date().toISOString(),
     };
-    
+
     // First pass: collect all page data
     result.page = {};
     for (const file of htmlFiles) {
@@ -1047,14 +1047,14 @@ async function processFolder(folderName) {
             console.error(`[${folderName}] Error processing ${file}:`, err);
         }
     }
-    
+
     // Second pass: build comprehensive player lookup and enrich all data
     const playerLookup = buildPlayerLookup(result.page, folderName);
     result.page = enrichTablesWithPlayerData(result.page, playerLookup);
-    
+
     // Store the player lookup for reference
     result.playerLookup = Object.fromEntries(playerLookup);
-    
+
     // Extract menu structure from index.html
     const indexHtmlPath = path.join(TARGET_PATH, 'index.html');
     let menu = [];
@@ -1065,7 +1065,7 @@ async function processFolder(folderName) {
     } catch (err) {
         console.error(`[${folderName}] Error extracting menu:`, err);
     }
-    
+
     // Extract metadata from tourstat.html, fallback to index.html if not exist
     const tourstatPath = path.join(TARGET_PATH, 'tourstat.html');
     let metadata = {};
@@ -1081,11 +1081,16 @@ async function processFolder(folderName) {
             console.error(`[${folderName}] Error extracting minimal metadata from index.html:`, err2);
         }
     }
-    
-    // Categorize tournament as Senior or Junior
+
+    // Categorize tournament as Senior or Junior.
+    // Prefer explicit keywords in folder/tournament name (e.g. Juniors/Rookies) over roster heuristics.
     let category = 'Junior';
     const players = result.page['index.html']?.tables?.[0]?.rows;
-    if(players) {
+    const tournamentName = (metadata?.['Tournament Name'] || '').toLowerCase();
+    const folderNameLower = folderName.toLowerCase();
+    const isJuniorEvent = /\b(junior|juniors|rookie|rookies)\b/i.test(tournamentName) || /\b(junior|juniors|rookie|rookies)\b/i.test(folderNameLower);
+
+    if (!isJuniorEvent && players) {
         for (const player of players) {
             if (IsSeniorPlayer(player.Player) || IsSeniorPlayer(player.Player?.playerName)) {
                 category = 'Senior';
@@ -1093,13 +1098,12 @@ async function processFolder(folderName) {
             }
         }
     }
-    
-    // If any player is senior, set category to Senior
+
     result['players'] = players;
     result['category'] = category;
     if (metadata) metadata['category'] = category;
     result['metadata'] = metadata;
-    if(players) {
+    if (players) {
         // Calculate MD5 hash for original data
         const originalHash = calculateDataHash(result);
         const existingOriginalHash = await getExistingHash(OUTPUT_FILE);
@@ -1112,11 +1116,11 @@ async function processFolder(folderName) {
         } else {
             console.log(`[${folderName}] Original data unchanged, skipping write to ${OUTPUT_FILE}`);
         }
-        
+
         // Generate and write clean data
         const cleanData = transformToNormalizedData(result.page, playerLookup, metadata, menu, category);
         const CLEAN_OUTPUT_FILE = path.join(TARGET_PATH, 'data_clean.json');
-        
+
         // Calculate MD5 hash for clean data
         const cleanHash = calculateDataHash(cleanData);
         const existingCleanHash = await getExistingHash(CLEAN_OUTPUT_FILE);
@@ -1129,7 +1133,7 @@ async function processFolder(folderName) {
         } else {
             console.log(`[${folderName}] Clean data unchanged, skipping write to ${CLEAN_OUTPUT_FILE}`);
         }
-        
+
         return result;
     }
     return null;
@@ -1138,10 +1142,10 @@ async function processFolder(folderName) {
 // Function to extract unique players from tournament data
 function extractUniquePlayers(tournamentData) {
     const players = new Map(); // Use Map to ensure uniqueness by player name
-    
+
     // Extract players from standings table
     const standingsTable = tournamentData.page['standings.html']?.tables?.[0];
-    
+
     if (standingsTable && standingsTable.rows) {
         standingsTable.rows.forEach((row, index) => {
             const playerData = row.Player;
@@ -1156,7 +1160,7 @@ function extractUniquePlayers(tournamentData) {
                             fideId = fideIdMatch[1];
                         }
                     }
-                    
+
                     players.set(playerName, {
                         name: playerName,
                         id: playerData.id || '',
@@ -1174,39 +1178,39 @@ function extractUniquePlayers(tournamentData) {
 // Function to check if tournament is from current year
 function isCurrentYearTournament(metadata) {
     const currentYear = new Date().getFullYear().toString();
-    
+
     // Check various date fields in metadata
     if (metadata['Date']) {
         const dateStr = metadata['Date'];
         if (dateStr.includes(currentYear)) return true;
     }
-    
+
     if (metadata['Date Begin']) {
         const dateBegin = metadata['Date Begin'];
         if (dateBegin.includes(currentYear)) return true;
     }
-    
+
     if (metadata['Date End']) {
         const dateEnd = metadata['Date End'];
         if (dateEnd.includes(currentYear)) return true;
     }
-    
+
     if (metadata['Start Date']) {
         const startDate = metadata['Start Date'];
         if (startDate.includes(currentYear)) return true;
     }
-    
+
     if (metadata['End Date']) {
         const endDate = metadata['End Date'];
         if (endDate.includes(currentYear)) return true;
     }
-    
+
     // Check tournament name for year
     if (metadata['Tournament Name']) {
         const tournamentName = metadata['Tournament Name'];
         if (tournamentName.includes(currentYear)) return true;
     }
-    
+
     return false;
 }
 
@@ -1214,24 +1218,24 @@ function isCurrentYearTournament(metadata) {
 function extractPlayerPoints(tournamentData) {
     // Extract tournament name from metadata
     const tournamentName = tournamentData.metadata['Tournament Name'] || 'Unknown Tournament';
-    
+
     // Extract total rounds from metadata or default to 0
     const totalRounds = tournamentData.metadata['Rounds'] || 0;
-    
+
     // Parse standings table to get player points
     const playerPoints = new Map();
-    
+
     // Extract players and points from standings table (first table is usually standings)
     const standingsTable = tournamentData.page['standings.html']?.tables?.[0];
     if (standingsTable && standingsTable.rows) {
         standingsTable.rows.forEach(row => {
             const playerData = row.Player;
             const pointsData = row.Pts; // Points column
-            
+
             if (playerData && typeof playerData === 'object' && playerData.playerName) {
                 const playerName = playerData.playerName.trim();
                 let points = 0;
-                
+
                 // Extract points from the Pts column
                 if (pointsData) {
                     if (typeof pointsData === 'string') {
@@ -1240,14 +1244,14 @@ function extractPlayerPoints(tournamentData) {
                         points = pointsData;
                     }
                 }
-                
+
                 if (playerName && points >= 0) {
                     playerPoints.set(playerName, points);
                 }
             }
         });
     }
-    
+
     return {
         tournamentName,
         totalRounds,
@@ -1259,7 +1263,7 @@ function extractPlayerPoints(tournamentData) {
 function getTournamentRatingType(metadata) {
     const tournamentName = (metadata['Tournament Name'] || '').toLowerCase();
     const timeControl = (metadata['Time Control'] || '').toLowerCase();
-    
+
     // Check tournament name for rating type indicators
     if (tournamentName.includes('blitz') || timeControl.includes('blitz')) {
         return 'blitz';
@@ -1280,38 +1284,38 @@ async function generateUniquePlayersFiles(tournaments) {
     const MIN_TOURNAMENTS_FOR_LEADERBOARD = 3;
     const seniorPlayers = new Map(); // Map to track senior tournament participation
     const juniorPlayers = new Map(); // Map to track junior tournament participation
-    
+
     console.log(`Processing tournaments for year ${currentYear}...`);
-    
+
     // First pass: collect all players and their tournament participation by category
     for (const tournament of tournaments) {
         // Check if tournament is from current year
         if (!isCurrentYearTournament(tournament.data)) {
             continue;
         }
-        
+
         // Load tournament data
         const tournamentPath = path.join(WWW_FOLDER, tournament.path.replace('/data.json', ''));
         const dataJsonPath = path.join(tournamentPath, 'data.json');
-        
+
         try {
             const dataJson = await fs.readFile(dataJsonPath, 'utf-8');
             const tournamentData = JSON.parse(dataJson);
-            
+
             // Extract players from this tournament
             const players = extractUniquePlayers(tournamentData);
-            
+
             // Extract standings data
             const standingsData = extractPlayerPoints(tournamentData);
-            
+
             // Determine tournament rating type
             const ratingType = getTournamentRatingType(tournamentData.metadata);
-            
+
             // Track tournament participation by category
             players.forEach(player => {
                 const playerKey = player.name;
                 const playerPoints = standingsData.playerPoints.get(player.name) || 0;
-                
+
                 const tournamentInfo = {
                     tournament: tournament.path,
                     score: playerPoints,
@@ -1319,7 +1323,7 @@ async function generateUniquePlayersFiles(tournaments) {
                     totalRounds: standingsData.totalRounds,
                     ratingType: ratingType
                 };
-                
+
                 if (tournament.category === 'Senior') {
                     // Track senior tournament participation
                     if (!seniorPlayers.has(playerKey)) {
@@ -1352,14 +1356,14 @@ async function generateUniquePlayersFiles(tournaments) {
                     juniorPlayers.get(playerKey).points[ratingType] += playerPoints;
                 }
             });
-            
+
             console.log(`[${tournament.path}] Processed ${players.length} players for ${tournament.category} category (${ratingType})`);
-            
+
         } catch (err) {
             console.error(`Error processing tournament ${tournament.path}:`, err);
         }
     }
-    
+
     // Count total tournaments for the year
     const allTournaments = new Set();
     for (const tournament of tournaments) {
@@ -1369,17 +1373,19 @@ async function generateUniquePlayersFiles(tournaments) {
     }
     const totalTournaments = allTournaments.size;
     console.log(`Total tournaments in ${currentYear}: ${totalTournaments}`);
-    const earlyYearFallback = totalTournaments < MIN_TOURNAMENTS_FOR_LEADERBOARD;
-    
+    // Apply strict threshold only once the year has "enough" tournaments.
+    // With MIN=3, we start enforcing once there are 4+ tournaments.
+    const earlyYearFallback = totalTournaments <= MIN_TOURNAMENTS_FOR_LEADERBOARD;
+
     // Second pass: filter players based on participation criteria for each category
     const seniorPlayersArray = [];
     const juniorPlayersArray = [];
-    
+
     // Process senior players
     for (const [playerName, playerData] of seniorPlayers) {
         const uniqueTournaments = [...new Set(playerData.tournaments.map(t => t.tournament))]; // Remove duplicate tournament entries
         const tournamentCount = uniqueTournaments.length;
-        
+
         // Keep player if:
         // 1. They played in more than 2 senior tournaments (>= 3), OR
         // 2. There are fewer than 3 tournaments total for the year so far (beginning of year case)
@@ -1393,12 +1399,12 @@ async function generateUniquePlayersFiles(tournaments) {
             seniorPlayersArray.push(player);
         }
     }
-    
+
     // Process junior players
     for (const [playerName, playerData] of juniorPlayers) {
         const uniqueTournaments = [...new Set(playerData.tournaments.map(t => t.tournament))]; // Remove duplicate tournament entries
         const tournamentCount = uniqueTournaments.length;
-        
+
         // Keep player if:
         // 1. They played in more than 2 junior tournaments (>= 3), OR
         // 2. There are fewer than 3 tournaments total for the year so far (beginning of year case)
@@ -1412,11 +1418,11 @@ async function generateUniquePlayersFiles(tournaments) {
             juniorPlayersArray.push(player);
         }
     }
-    
+
     // Sort arrays by name
     seniorPlayersArray.sort((a, b) => a.name.localeCompare(b.name));
     juniorPlayersArray.sort((a, b) => a.name.localeCompare(b.name));
-    
+
     // Write senior players file
     const seniorPlayersPath = path.join(WWW_FOLDER, 'senior-players.json');
     await fs.writeFile(seniorPlayersPath, JSON.stringify({
@@ -1426,7 +1432,7 @@ async function generateUniquePlayersFiles(tournaments) {
         totalTournaments: totalTournaments,
         players: seniorPlayersArray
     }, null, 2), 'utf-8');
-    
+
     // Write junior players file
     const juniorPlayersPath = path.join(WWW_FOLDER, 'junior-players.json');
     await fs.writeFile(juniorPlayersPath, JSON.stringify({
@@ -1436,7 +1442,7 @@ async function generateUniquePlayersFiles(tournaments) {
         totalTournaments: totalTournaments,
         players: juniorPlayersArray
     }, null, 2), 'utf-8');
-    
+
     // Write unified players file (combine senior and junior)
     const combinedPlayersMap = new Map();
     const mergePlayerEntry = (player) => {
@@ -1495,13 +1501,13 @@ async function generateUniquePlayersFiles(tournaments) {
         totalTournaments: totalTournaments,
         players: combinedPlayersArray
     }, null, 2), 'utf-8');
-    
+
     console.log(`\nUnique Players Summary for ${currentYear}:`);
     console.log(`Total tournaments in ${currentYear}: ${totalTournaments}`);
     console.log(`Senior Players (played in >=${MIN_TOURNAMENTS_FOR_LEADERBOARD} tournaments, or early-year fallback): ${seniorPlayersArray.length} players written to ${seniorPlayersPath}`);
     console.log(`Junior Players (played in >=${MIN_TOURNAMENTS_FOR_LEADERBOARD} tournaments, or early-year fallback): ${juniorPlayersArray.length} players written to ${juniorPlayersPath}`);
     console.log(`Unified Players: ${combinedPlayersArray.length} players written to ${unifiedPlayersPath}`);
-    
+
     return {
         senior: seniorPlayersArray,
         junior: juniorPlayersArray,
@@ -1516,18 +1522,18 @@ async function main() {
     const wwwFolders = allFolders.filter(dirent => dirent.isDirectory() && dirent.name.startsWith('www')).map(dirent => dirent.name);
     const tournaments = [];
     for (const folderName of wwwFolders) {
-        if(debugTournament !== "" && !folderName.includes(debugTournament)) continue;
+        if (debugTournament !== "" && !folderName.includes(debugTournament)) continue;
         const result = await processFolder(folderName);
-        if(result) {
-        // Read data.json just written
-        try {
-            if (result.metadata) {
-                tournaments.push({
-                    data: result.metadata,
-                    path: `${folderName}/data.json`,
-                    category: result.category || result.metadata.category || 'Junior'
-                });
-            }
+        if (result) {
+            // Read data.json just written
+            try {
+                if (result.metadata) {
+                    tournaments.push({
+                        data: result.metadata,
+                        path: `${folderName}/data.json`,
+                        category: result.category || result.metadata.category || 'Junior'
+                    });
+                }
             } catch (err) {
                 console.error(`[${folderName}] Error reading data.json for tournament.json:`, err);
             }
@@ -1537,12 +1543,12 @@ async function main() {
     const tournamentJsonPath = path.join(WWW_FOLDER, 'tournament.json');
     await fs.writeFile(tournamentJsonPath, JSON.stringify(tournaments, null, 2), 'utf-8');
     console.log(`All tournaments metadata written to ${tournamentJsonPath}`);
-    
+
     // Generate unique players files for current year
     console.log('\nGenerating unique players files...');
     await generateUniquePlayersFiles(tournaments);
-    
-    if(debugTournament!==   "") {
+
+    if (debugTournament !== "") {
         console.log(tournaments);
     }
 }
