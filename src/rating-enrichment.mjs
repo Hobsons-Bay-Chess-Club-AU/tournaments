@@ -130,7 +130,15 @@ function buildFideMap(fidePlayers) {
   const fideMap = new Map();
   fidePlayers.forEach(p => {
     fideMap.set(p.fideid, p);
-    fideMap.set(normaliseName(p.name), p);
+    const nameKey = normaliseName(p.name);
+    const existing = fideMap.get(nameKey);
+    if (!existing) {
+      fideMap.set(nameKey, [p]);
+    } else if (Array.isArray(existing)) {
+      existing.push(p);
+    } else {
+      fideMap.set(nameKey, [existing, p]);
+    }
   });
   console.log(`FIDE map built with ${fideMap.size} keys in ${(Date.now() - start) / 1000}s.`);
   return fideMap;
@@ -172,21 +180,41 @@ async function enrichRatings(inputPath, outputPath, fideMap = null, acfClassicMa
 
     // Step 2: Try FIDE mapping
     if (fideMap) {
+      let fideMatchMethod = null; // 'id' | 'name'
+
       // First try by FIDE ID (from local data or ACF match)
       const fideIdToTry = player.fideId || (acfClassicMatch && acfClassicMatch.fideId) || (acfQuickMatch && acfQuickMatch.fideId);
       if (fideIdToTry && fideMap.has(fideIdToTry)) {
         fideMatch = fideMap.get(fideIdToTry);
+        fideMatchMethod = 'id';
       } else if (fideMap.has(normName)) {
-        fideMatch = fideMap.get(normName);
+        const candidatesRaw = fideMap.get(normName);
+        const candidates = Array.isArray(candidatesRaw)
+          ? candidatesRaw
+          : (candidatesRaw ? [candidatesRaw] : []);
 
-        // Edge case: If no FIDE ID but name match + FED = AUS, consider the player data
-        if (!player.fideId && fideMatch && fideMatch.fed === 'AUS') {
-          // This is an Australian player found by name match, accept the data
-          console.log(`🇦🇺 Australian player found by name match: ${player.name} (FIDE ID: ${fideMatch.fideid})`);
-        } else if (fideMatch && fideMatch.fed === 'AUS') {
-          // Log all Australian players found (for debugging)
-          console.log(`🇦🇺 Australian player matched: ${player.name} (FIDE ID: ${fideMatch.fideid}, Rating: ${fideMatch.rating})`);
+        // Name-only matches are risky (identical names across federations).
+        // Only accept AUS players when matching by name.
+        const ausCandidate = candidates.find(c => c && c.fed === 'AUS');
+        if (ausCandidate) {
+          fideMatch = ausCandidate;
+          fideMatchMethod = 'name';
+          if (!player.fideId) {
+            console.log(`🇦🇺 Australian player found by name match: ${player.name} (FIDE ID: ${fideMatch.fideid})`);
+          }
+        } else {
+          fideMatch = null;
+          fideMatchMethod = null;
+          if (!player.fideId && candidates.length > 0) {
+            const sample = candidates.slice(0, 3).map(c => `${c.fideid}/${c.fed}`).join(', ');
+            console.log(`🛑 Skipping name-only FIDE match for ${player.name}: no AUS candidate (candidates: ${sample}${candidates.length > 3 ? ', ...' : ''})`);
+          }
         }
+      }
+
+      // Extra safety: never allow non-AUS to be used from name-only match
+      if (fideMatchMethod === 'name' && fideMatch && fideMatch.fed !== 'AUS') {
+        fideMatch = null;
       }
 
 
