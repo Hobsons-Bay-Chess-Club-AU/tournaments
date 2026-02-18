@@ -16,7 +16,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y lftp
 
-      - name: Move htdocs/* to /_archived/
+      - name: Move htdocs/www* to /_archived/
         env:
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
@@ -30,8 +30,8 @@ jobs:
           # Ensure top-level _archived exists
           mkdir -p _archived
 
-          # Move all items from htdocs into _archived using lftp's glob
-          glob -a mv htdocs/* _archived/
+          # Move only folders/files starting with 'www' from htdocs into _archived
+          glob -a mv htdocs/www* _archived/
           bye
           LFTP_CMDS
 

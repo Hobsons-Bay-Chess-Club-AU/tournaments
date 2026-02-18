@@ -97,7 +97,7 @@ $result = calculateDirectoryChecksum($directory, $ago);
 $deletedFiles = cleanupOldFiles($directory, $retentionDays);
 $result['cleanupPerformed'] = true;
 $result['deletedFilesCount'] = $deletedFiles;
-$result['retentionDays'] = $retentionDays;
+$result['retentionDays'] = $retentionDays;tri
 
 header('Content-Type: application/json');
 echo json_encode($result, JSON_PRETTY_PRINT);
