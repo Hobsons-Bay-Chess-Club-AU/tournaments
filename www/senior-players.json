@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-16T09:00:09.839Z",
+  "generatedAt": "2026-02-18T00:01:03.573Z",
   "year": "2026",
   "count": 36,
   "totalTournaments": 3,
@@ -36,14 +36,14 @@
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
-          "score": 2,
+          "score": 2.5,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 2.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -168,14 +168,14 @@
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
-          "score": 3,
+          "score": 3.5,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 3.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -190,14 +190,14 @@
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 0,
+        "standard": 1,
         "rapid": 0,
         "blitz": 0
       }
@@ -208,6 +208,50 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#1",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 3.5,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Hari,Dhruv",
+      "id": "10",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#10",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 3.5,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Hibberd,Nathan",
+      "id": "7",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#7",
       "tournamentCount": 1,
       "tournaments": [
         {
@@ -225,11 +269,11 @@
       }
     },
     {
-      "name": "Hari,Dhruv",
-      "id": "10",
+      "name": "Hogan,Steven",
+      "id": "20",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#10",
+      "href": "playercard.html#20",
       "tournamentCount": 1,
       "tournaments": [
         {
@@ -242,50 +286,6 @@
       ],
       "points": {
         "standard": 2.5,
-        "rapid": 0,
-        "blitz": 0
-      }
-    },
-    {
-      "name": "Hibberd,Nathan",
-      "id": "7",
-      "fideId": "",
-      "gender": "male",
-      "href": "playercard.html#7",
-      "tournamentCount": 1,
-      "tournaments": [
-        {
-          "tournament": "www2026HonourableBob/data.json",
-          "score": 2,
-          "name": "2026 Hobsons Bay Honourable Bob",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        }
-      ],
-      "points": {
-        "standard": 2,
-        "rapid": 0,
-        "blitz": 0
-      }
-    },
-    {
-      "name": "Hogan,Steven",
-      "id": "20",
-      "fideId": "",
-      "gender": "male",
-      "href": "playercard.html#20",
-      "tournamentCount": 1,
-      "tournaments": [
-        {
-          "tournament": "www2026HonourableBob/data.json",
-          "score": 1.5,
-          "name": "2026 Hobsons Bay Honourable Bob",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        }
-      ],
-      "points": {
-        "standard": 1.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -322,14 +322,14 @@
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
-          "score": 0.5,
+          "score": 1.5,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 0.5,
+        "standard": 1.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -388,6 +388,50 @@
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
+          "score": 3,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Lacson,Joemar",
+      "id": "5",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#5",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 3.5,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Matijas,Dejan",
+      "id": "21",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#21",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
           "score": 2,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
@@ -401,11 +445,11 @@
       }
     },
     {
-      "name": "Lacson,Joemar",
-      "id": "5",
+      "name": "Maunders,Myiesha",
+      "id": "9",
       "fideId": "",
-      "gender": "male",
-      "href": "playercard.html#5",
+      "gender": "female",
+      "href": "playercard.html#9",
       "tournamentCount": 1,
       "tournaments": [
         {
@@ -423,50 +467,6 @@
       }
     },
     {
-      "name": "Matijas,Dejan",
-      "id": "21",
-      "fideId": "",
-      "gender": "male",
-      "href": "playercard.html#21",
-      "tournamentCount": 1,
-      "tournaments": [
-        {
-          "tournament": "www2026HonourableBob/data.json",
-          "score": 1,
-          "name": "2026 Hobsons Bay Honourable Bob",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        }
-      ],
-      "points": {
-        "standard": 1,
-        "rapid": 0,
-        "blitz": 0
-      }
-    },
-    {
-      "name": "Maunders,Myiesha",
-      "id": "9",
-      "fideId": "",
-      "gender": "female",
-      "href": "playercard.html#9",
-      "tournamentCount": 1,
-      "tournaments": [
-        {
-          "tournament": "www2026HonourableBob/data.json",
-          "score": 2,
-          "name": "2026 Hobsons Bay Honourable Bob",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        }
-      ],
-      "points": {
-        "standard": 2,
-        "rapid": 0,
-        "blitz": 0
-      }
-    },
-    {
       "name": "McIntyre,Julian",
       "id": "11",
       "fideId": "",
@@ -476,14 +476,14 @@
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
-          "score": 1.5,
+          "score": 2.5,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 1.5,
+        "standard": 2.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -498,14 +498,14 @@
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
-          "score": 1,
+          "score": 2,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 1,
+        "standard": 2,
         "rapid": 0,
         "blitz": 0
       }
@@ -542,14 +542,14 @@
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
-          "score": 1,
+          "score": 2,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 1,
+        "standard": 2,
         "rapid": 0,
         "blitz": 0
       }
@@ -586,14 +586,14 @@
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
-          "score": 1,
+          "score": 2,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 1,
+        "standard": 2,
         "rapid": 0,
         "blitz": 0
       }
@@ -608,14 +608,14 @@
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
-          "score": 2,
+          "score": 3,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -630,14 +630,14 @@
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
-          "score": 0.5,
+          "score": 1.5,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 0.5,
+        "standard": 1.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -674,14 +674,14 @@
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
-          "score": 1,
+          "score": 1.5,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 1,
+        "standard": 1.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -784,14 +784,14 @@
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
-          "score": 1,
+          "score": 1.5,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 1,
+        "standard": 1.5,
         "rapid": 0,
         "blitz": 0
       }
