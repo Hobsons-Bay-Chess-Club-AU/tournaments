@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs4.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs5.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
@@ -41,7 +41,7 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Standings at round 4 sorted by category </h3>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Standings at round 5 sorted by category </h3>
 <div class="table-responsive"><table class="table caption-top table-striped"> 
 <caption> Ranking for category: </caption>
 <thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th></th> <th></th><th>Fed</th><th>Pts</th><th>     BH </th><th>  BH/C1 </th>
@@ -68,7 +68,7 @@
 <td>7</td><td>4</td><td></td><td> <a href="playercard.php#4">Nguyen,Anh Kiet     </a> </td><td>1778</td><td>1631</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.5</td><td>   10.5 </td><td>    9.0 </td>
 </tr> 
 <tr> 
-<td>8</td><td>11</td><td></td><td> <a href="playercard.php#11">McIntyre,Julian     </a> </td><td>1542</td><td>1556</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.5</td><td>    9.0 </td><td>    8.0 </td>
+<td>8</td><td>11</td><td></td><td> <a href="playercard.php#11">McIntyre,Julian  (W)</a> </td><td>1542</td><td>1556</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.5</td><td>    9.0 </td><td>    8.0 </td>
 </tr> 
 <tr> 
 <td>9</td><td>9</td><td></td><td> <a href="playercard.php#9">Maunders,Myiesha    </a> </td><td>1587</td><td>1520</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.5</td><td>    9.0 </td><td>    6.5 </td>
@@ -92,7 +92,7 @@
 <td>15</td><td>21</td><td></td><td> <a href="playercard.php#21">Matijas,Dejan       </a> </td><td>1400</td><td>1513</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>    7.5 </td><td>    5.5 </td>
 </tr> 
 <tr> 
-<td>16</td><td>14</td><td></td><td> <a href="playercard.php#14">Davis,Sophie        </a> </td><td>1516</td><td>1391</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>    7.0 </td><td>    5.0 </td>
+<td>16</td><td>14</td><td></td><td> <a href="playercard.php#14">Davis,Sophie     (W)</a> </td><td>1516</td><td>1391</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>    7.0 </td><td>    5.0 </td>
 </tr> 
 <tr> 
 <td>17</td><td>15</td><td></td><td> <a href="playercard.php#15">Whitford,Matthew    </a> </td><td>1504</td><td>1422</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>    6.5 </td><td>    6.5 </td>
@@ -134,7 +134,7 @@
 <td>29</td><td>32</td><td></td><td> <a href="playercard.php#32">Gali, Joyel Evan    </a> </td><td>0</td><td>1014</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td>    5.0 </td><td>    5.0 </td>
 </tr> 
 <tr> 
-<td>30</td><td>31</td><td></td><td> <a href="playercard.php#31">Chawla,Namish       </a> </td><td>0</td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td>    4.0 </td><td>    3.0 </td>
+<td>30</td><td>31</td><td></td><td> <a href="playercard.php#31">Chawla,Namish    (W)</a> </td><td>0</td><td>0</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 1.0</td><td>    4.0 </td><td>    3.0 </td>
 </tr> 
 <tr> 
 <td>31</td><td>34</td><td></td><td> <a href="playercard.php#34">Sheikh,Tahmid       </a> </td><td>0</td><td>288</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    7.0 </td><td>    6.0 </td>
@@ -146,7 +146,7 @@
 <td>33</td><td>36</td><td></td><td> <a href="playercard.php#36">Polidano,Rohan      </a> </td><td>910</td><td>652</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    3.0 </td><td>    3.0 </td>
 </tr> 
 <tr> 
-<td>34</td><td>35</td><td></td><td> <a href="playercard.php#35">Tregaskis-Lie, Linda</a> </td><td>0</td><td>704</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td>    2.0 </td><td>    2.0 </td>
+<td>34</td><td>35</td><td></td><td> <a href="playercard.php#35">Tregaskis-Lie, Li(W)</a> </td><td>0</td><td>704</td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td class="score"> 0.0</td><td>    2.0 </td><td>    2.0 </td>
 </tr> 
 </tbody>
 </table> <br><br>
