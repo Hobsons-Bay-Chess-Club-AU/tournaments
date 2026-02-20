@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-20T07:02:29.820Z",
+  "generatedAt": "2026-02-20T11:22:29.988Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 4",
@@ -2626,7 +2626,11 @@
                 "whiteOpponent": "53",
                 "blackOpponent": null
               },
-              "4": "",
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "Player": {
                 "id": "71",
                 "playerName": "Northe-McCulloch, Jack",
@@ -5684,7 +5688,11 @@
                 "whiteOpponent": "55",
                 "blackOpponent": null
               },
-              "4": "",
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "Pos": "79",
               "Player": {
                 "id": "",
@@ -18950,19 +18958,15 @@
               "Fed": "VIC",
               "Origin": "",
               "White Player": {
-                "id": "69",
-                "playerName": "Menghani,Ishaan",
+                "id": "32",
+                "playerName": "Subhash,Ryan",
                 "gender": "male",
-                "href": "playercard.html#69",
+                "href": "playercard.html#32",
                 "title": "",
                 "federation": "VIC",
-                "rating": "0",
-                "fideId": "0",
-                "moreInfo": {
-                  "fideId": "0",
-                  "fideRating": "0",
-                  "fideFederation": "VIC"
-                }
+                "rating": "597",
+                "fideId": "",
+                "moreInfo": {}
               },
               "Pts": "1",
               "Result": "...",
@@ -18987,38 +18991,6 @@
             },
             {
               "Bo.": "26",
-              "Fed": "VIC",
-              "Origin": "",
-              "White Player": {
-                "id": "32",
-                "playerName": "Subhash,Ryan",
-                "gender": "male",
-                "href": "playercard.html#32",
-                "title": "",
-                "federation": "VIC",
-                "rating": "597",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Pts": "1",
-              "Result": "...",
-              "Pts_1": "1",
-              "Black Player": {
-                "id": "74",
-                "playerName": "Rivero,Adam",
-                "gender": "male",
-                "href": "playercard.html#74",
-                "title": "",
-                "federation": "VIC",
-                "rating": "3",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Origin_1": "",
-              "Fed_1": "VIC"
-            },
-            {
-              "Bo.": "27",
               "Fed": "VIC",
               "Origin": "",
               "White Player": {
@@ -19058,7 +19030,7 @@
               "Fed_1": "VIC"
             },
             {
-              "Bo.": "28",
+              "Bo.": "27",
               "Fed": "VIC",
               "Origin": "",
               "White Player": {
@@ -19098,7 +19070,7 @@
               "Fed_1": "VIC"
             },
             {
-              "Bo.": "29",
+              "Bo.": "28",
               "Fed": "VIC",
               "Origin": "",
               "White Player": {
@@ -19138,7 +19110,7 @@
               "Fed_1": "VIC"
             },
             {
-              "Bo.": "30",
+              "Bo.": "29",
               "Fed": "VIC",
               "Origin": "",
               "White Player": {
@@ -19178,7 +19150,7 @@
               "Fed_1": "VIC"
             },
             {
-              "Bo.": "31",
+              "Bo.": "30",
               "Fed": "VIC",
               "Origin": "",
               "White Player": {
@@ -19218,7 +19190,7 @@
               "Fed_1": "VIC"
             },
             {
-              "Bo.": "32",
+              "Bo.": "31",
               "Fed": "VIC",
               "Origin": "",
               "White Player": {
@@ -19258,7 +19230,7 @@
               "Fed_1": "VIC"
             },
             {
-              "Bo.": "33",
+              "Bo.": "32",
               "Fed": "VIC",
               "Origin": "",
               "White Player": {
@@ -19293,6 +19265,42 @@
                   "fideRating": "0",
                   "fideFederation": "VIC"
                 }
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "33",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "69",
+                "playerName": "Menghani,Ishaan",
+                "gender": "male",
+                "href": "playercard.html#69",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "0",
+                "moreInfo": {
+                  "fideId": "0",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Pts": "1",
+              "Result": "...",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "74",
+                "playerName": "Rivero,Adam",
+                "gender": "male",
+                "href": "playercard.html#74",
+                "title": "",
+                "federation": "VIC",
+                "rating": "3",
+                "fideId": "",
+                "moreInfo": {}
               },
               "Origin_1": "",
               "Fed_1": "VIC"
@@ -25945,7 +25953,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             }
           ],
@@ -39139,5 +39147,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "3b9fcfb24f57abb0714a40466dba12d4"
+  "md5Hash": "df46d8ce0271d17fd26951bfa76fe040"
 }

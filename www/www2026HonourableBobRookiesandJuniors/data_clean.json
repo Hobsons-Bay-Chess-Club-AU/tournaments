@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-20T07:02:30.398Z",
+  "generatedAt": "2026-02-20T11:22:30.548Z",
   "tournament": {
     "id": "2026-hbcc-honourable-bob-rookies-and-juniors",
     "name": "2026 HBCC Honourable Bob Rookies and Juniors",
@@ -2707,7 +2707,11 @@
                 "whiteOpponent": "53",
                 "blackOpponent": null
               },
-              "4": "",
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "Player": "71",
               "Rtg": "0",
               "Fed": "VIC",
@@ -5606,7 +5610,11 @@
                 "whiteOpponent": "55",
                 "blackOpponent": null
               },
-              "4": "",
+              "4": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "Pos": "79",
               "Player": {
                 "id": "",
@@ -14933,7 +14941,7 @@
               "Bo.": "25",
               "Fed": "VIC",
               "Origin": "",
-              "White Player": "69",
+              "White Player": "32",
               "Pts": "1",
               "Result": "...",
               "Pts_1": "1",
@@ -14945,18 +14953,6 @@
               "Bo.": "26",
               "Fed": "VIC",
               "Origin": "",
-              "White Player": "32",
-              "Pts": "1",
-              "Result": "...",
-              "Pts_1": "1",
-              "Black Player": "74",
-              "Origin_1": "",
-              "Fed_1": "VIC"
-            },
-            {
-              "Bo.": "27",
-              "Fed": "VIC",
-              "Origin": "",
               "White Player": "76",
               "Pts": "1",
               "Result": "...",
@@ -14966,7 +14962,7 @@
               "Fed_1": "VIC"
             },
             {
-              "Bo.": "28",
+              "Bo.": "27",
               "Fed": "VIC",
               "Origin": "",
               "White Player": "75",
@@ -14978,7 +14974,7 @@
               "Fed_1": "VIC"
             },
             {
-              "Bo.": "29",
+              "Bo.": "28",
               "Fed": "VIC",
               "Origin": "",
               "White Player": "46",
@@ -14990,7 +14986,7 @@
               "Fed_1": "VIC"
             },
             {
-              "Bo.": "30",
+              "Bo.": "29",
               "Fed": "VIC",
               "Origin": "",
               "White Player": "48",
@@ -15002,7 +14998,7 @@
               "Fed_1": "VIC"
             },
             {
-              "Bo.": "31",
+              "Bo.": "30",
               "Fed": "VIC",
               "Origin": "",
               "White Player": "82",
@@ -15014,7 +15010,7 @@
               "Fed_1": "VIC"
             },
             {
-              "Bo.": "32",
+              "Bo.": "31",
               "Fed": "VIC",
               "Origin": "",
               "White Player": "50",
@@ -15026,7 +15022,7 @@
               "Fed_1": "VIC"
             },
             {
-              "Bo.": "33",
+              "Bo.": "32",
               "Fed": "VIC",
               "Origin": "",
               "White Player": "51",
@@ -15034,6 +15030,18 @@
               "Result": "...",
               "Pts_1": "1",
               "Black Player": "54",
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "33",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": "69",
+              "Pts": "1",
+              "Result": "...",
+              "Pts_1": "1",
+              "Black Player": "74",
               "Origin_1": "",
               "Fed_1": "VIC"
             },
@@ -21540,7 +21548,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             }
           ],
@@ -31586,5 +31594,5 @@
       ]
     }
   ],
-  "md5Hash": "38a928a2e13171829ccc14947c1d26e5"
+  "md5Hash": "8664f0bb6bd66b09766fcab2fff1547c"
 }

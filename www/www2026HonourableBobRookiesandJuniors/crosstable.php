@@ -177,7 +177,7 @@
 <tr> 
 <td> <span class="idn"> 70 </span><span class="notitle male"> </span> <a href="playercard.php#70">Milne,Hamish        </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 1.0</td><td><div class="res">0</div><div class="cb">27  </div></td><td><div class="res">1</div><div class="cf">52  </div></td><td><div class="res">0</div><div class="cw">36  </div></td><td> </td></tr>
 <tr> 
-<td> <span class="idn"> 71 </span><span class="notitle male"> </span> <a href="playercard.php#71">Northe-McCulloch, Ja</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">29  </div></td><td><div class="res">0</div><div class="cb">51  </div></td><td><div class="res">0</div><div class="cw">53  </div></td><td> </td></tr>
+<td> <span class="idn"> 71 </span><span class="notitle male"> </span> <a href="playercard.php#71">Northe-McCulloch, Ja</a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">29  </div></td><td><div class="res">0</div><div class="cb">51  </div></td><td><div class="res">0</div><div class="cw">53  </div></td><td><div class="res"> 1</div><div class="cf">BYE</div></tr>
 <tr> 
 <td> <span class="idn"> 72 </span><span class="notitle male"> </span> <a href="playercard.php#72">Pathiyassery,Emir   </a> </td><td>3</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.0</td><td> </td><td><div class="res">0</div><div class="cf">61  </div></td><td> </td><td> </td></tr>
 <tr> 
