@@ -164,7 +164,7 @@
 <tr> 
 <td><span class="idn"> 79</span></td><td><span class="notitle male"> </span></td><td> Watson,Jacob </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>2</td><td>0</td><td>2</td> </tr>
 <tr> 
-<td><span class="idn"> 81</span></td><td><span class="notitle female"> </span></td><td> Yadav,Riyaan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>2</td><td>0</td><td>2</td> </tr>
+<td><span class="idn"> 81</span></td><td><span class="notitle male"> </span></td><td> Yadav,Riyaan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>2</td><td>0</td><td>2</td> </tr>
 <tr> 
 <td><span class="idn"> 51</span></td><td><span class="notitle male"> </span></td><td> Bacon,Levi </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
