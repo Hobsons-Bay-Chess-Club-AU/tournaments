@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-02-20T08:21:27.286Z",
+  "generatedAt": "2026-02-25T10:33:51.609Z",
   "tournament": {
     "id": "2026-hbcc-purdy-cup-rookies-and-juniors",
     "name": "2026 HBCC Purdy Cup Rookies and Juniors",
@@ -15,16 +15,16 @@
       "Rounds": "5",
       "Score game": "0-0.5-1",
       "Tie break": "BH BH/C1 SB",
-      "Registered Players": "9",
+      "Registered Players": "15",
       "Number of Federations": "2",
-      "Average Rating (all)": "342",
-      "Average Rating (only FIDE rated)": "1436",
-      "Players from AUS Federation": "1",
-      "Players NOT from AUS Federation": "8",
-      "FIDE rated players": "2",
-      "unrated players": "7",
-      "unrated players from AUS Federation": "1",
-      "unrated players NOT from AUS Federation": "6",
+      "Average Rating (all)": "319",
+      "Average Rating (only FIDE rated)": "0",
+      "Players from AUS Federation": "3",
+      "Players NOT from AUS Federation": "12",
+      "FIDE rated players": "0",
+      "unrated players": "15",
+      "unrated players from AUS Federation": "3",
+      "unrated players NOT from AUS Federation": "12",
       "unrated Federations": "2",
       "FIDE titled players": "0",
       "GM players": "0",
@@ -47,18 +47,18 @@
       "rounds": 5,
       "scoreGame": "0-0.5-1",
       "tieBreak": "BH BH/C1 SB",
-      "registeredPlayers": 9,
-      "averageRating": 342,
-      "averageRatingFide": 1436,
-      "fideRatedPlayers": 2,
-      "unratedPlayers": 7,
+      "registeredPlayers": 15,
+      "averageRating": 319,
+      "averageRatingFide": 0,
+      "fideRatedPlayers": 0,
+      "unratedPlayers": 15,
       "fideTitledPlayers": 0
     }
   },
   "players": [
     {
       "id": "1",
-      "name": "Goh,Nicholas",
+      "name": "Nowak,Ruben",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -70,7 +70,7 @@
     },
     {
       "id": "2",
-      "name": "Balamurugan,Soorya",
+      "name": "Ruaya,Rohan",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -82,7 +82,7 @@
     },
     {
       "id": "3",
-      "name": "Goh,Julian",
+      "name": "Shaiek,Nihal",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -94,7 +94,7 @@
     },
     {
       "id": "4",
-      "name": "Bodke,Aryan",
+      "name": "Goh,Nicholas",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -106,7 +106,7 @@
     },
     {
       "id": "5",
-      "name": "Goh,Daphne",
+      "name": "Kaur,Mishleen",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -118,7 +118,7 @@
     },
     {
       "id": "6",
-      "name": "Kumar,Ariana",
+      "name": "Balamurugan,Soorya",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -130,7 +130,7 @@
     },
     {
       "id": "7",
-      "name": "Kumar,Elijah",
+      "name": "Goh,Julian",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -142,9 +142,9 @@
     },
     {
       "id": "8",
-      "name": "Manjunath,Charvi",
+      "name": "Bodke,Aryan",
       "title": "",
-      "federation": "AUS",
+      "federation": "VIC",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -154,7 +154,7 @@
     },
     {
       "id": "9",
-      "name": "Watson,Jacob",
+      "name": "Goh,Daphne",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -162,6 +162,78 @@
       "fideFederation": "",
       "gender": "notitle",
       "href": "playercard.html#9",
+      "origin": ""
+    },
+    {
+      "id": "10",
+      "name": "Kantharaju,Aryan",
+      "title": "",
+      "federation": "AUS",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#10",
+      "origin": ""
+    },
+    {
+      "id": "11",
+      "name": "Kumar,Ariana",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#11",
+      "origin": ""
+    },
+    {
+      "id": "12",
+      "name": "Kumar,Elijah",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#12",
+      "origin": ""
+    },
+    {
+      "id": "13",
+      "name": "Mallajosyula,Srivaths",
+      "title": "",
+      "federation": "AUS",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#13",
+      "origin": ""
+    },
+    {
+      "id": "14",
+      "name": "Manjunath,Charvi",
+      "title": "",
+      "federation": "AUS",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#14",
+      "origin": ""
+    },
+    {
+      "id": "15",
+      "name": "Watson,Jacob",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#15",
       "origin": ""
     }
   ],
@@ -275,25 +347,65 @@
             {
               "#": "1",
               "Title": "",
+              "Player": "Nowak,Ruben",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1440",
+              "RtgF": "0",
+              "RtgN": "1440"
+            },
+            {
+              "#": "2",
+              "Title": "",
+              "Player": "Ruaya,Rohan",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "849",
+              "RtgF": "0",
+              "RtgN": "849"
+            },
+            {
+              "#": "3",
+              "Title": "",
+              "Player": "Shaiek,Nihal",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "617",
+              "RtgF": "0",
+              "RtgN": "617"
+            },
+            {
+              "#": "4",
+              "Title": "",
               "Player": "Goh,Nicholas",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "596",
-              "RtgF": "1444",
+              "RtgF": "0",
               "RtgN": "596"
             },
             {
-              "#": "2",
+              "#": "5",
+              "Title": "",
+              "Player": "Kaur,Mishleen",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "574",
+              "RtgF": "0",
+              "RtgN": "574"
+            },
+            {
+              "#": "6",
               "Title": "",
               "Player": "Balamurugan,Soorya",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "503",
-              "RtgF": "1427",
+              "RtgF": "0",
               "RtgN": "503"
             },
             {
-              "#": "3",
+              "#": "7",
               "Title": "",
               "Player": "Goh,Julian",
               "Fed": "VIC",
@@ -303,7 +415,7 @@
               "RtgN": "105"
             },
             {
-              "#": "4",
+              "#": "8",
               "Title": "",
               "Player": "Bodke,Aryan",
               "Fed": "VIC",
@@ -313,7 +425,7 @@
               "RtgN": "100"
             },
             {
-              "#": "5",
+              "#": "9",
               "Title": "",
               "Player": "Goh,Daphne",
               "Fed": "VIC",
@@ -323,7 +435,17 @@
               "RtgN": "0"
             },
             {
-              "#": "6",
+              "#": "10",
+              "Title": "",
+              "Player": "Kantharaju,Aryan",
+              "Fed": "AUS",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "11",
               "Title": "",
               "Player": "Kumar,Ariana",
               "Fed": "VIC",
@@ -333,7 +455,7 @@
               "RtgN": "0"
             },
             {
-              "#": "7",
+              "#": "12",
               "Title": "",
               "Player": "Kumar,Elijah",
               "Fed": "VIC",
@@ -343,7 +465,17 @@
               "RtgN": "0"
             },
             {
-              "#": "8",
+              "#": "13",
+              "Title": "",
+              "Player": "Mallajosyula,Srivaths",
+              "Fed": "AUS",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "14",
               "Title": "",
               "Player": "Manjunath,Charvi",
               "Fed": "AUS",
@@ -353,7 +485,7 @@
               "RtgN": "0"
             },
             {
-              "#": "9",
+              "#": "15",
               "Title": "",
               "Player": "Watson,Jacob",
               "Fed": "VIC",
@@ -856,6 +988,300 @@
             "rawHtml": "   9   <strong>Manjunath,Charvi    </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"9\"></a>"
           },
           "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Kaur,Mishleen",
+            "id": "3220474",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "574",
+              "anchor": "10"
+            },
+            "rawText": "10   Kaur,Mishleen       , K= 0, Elo= 574, ID=3220474",
+            "rawHtml": "  10   <strong>Kaur,Mishleen       </strong>, K= 0, Elo= 574, ID=3220474\n<br>\n<a class=\"anchor\" name=\"10\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Kantharaju,Aryan",
+            "id": "0",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "11"
+            },
+            "rawText": "11   Kantharaju,Aryan    , K= 0, Elo=   0, ID=0",
+            "rawHtml": "  11   <strong>Kantharaju,Aryan    </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"11\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Mallajosyula,Srivath",
+            "id": "0",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "12"
+            },
+            "rawText": "12   Mallajosyula,Srivath, K= 0, Elo=   0, ID=0",
+            "rawHtml": "  12   <strong>Mallajosyula,Srivath</strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"12\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Nowak,Ruben",
+            "id": "3127464",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1440",
+              "anchor": "13"
+            },
+            "rawText": "13   Nowak,Ruben         , K= 0, Elo=1440, ID=3127464",
+            "rawHtml": "  13   <strong>Nowak,Ruben         </strong>, K= 0, Elo=1440, ID=3127464\n<br>\n<a class=\"anchor\" name=\"13\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Shaiek,Nihal",
+            "id": "3217011",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "617",
+              "anchor": "14"
+            },
+            "rawText": "14   Shaiek,Nihal        , K= 0, Elo= 617, ID=3217011",
+            "rawHtml": "  14   <strong>Shaiek,Nihal        </strong>, K= 0, Elo= 617, ID=3217011\n<br>\n<a class=\"anchor\" name=\"14\"></a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Ruaya,Rohan",
+            "id": "3203980",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "849",
+              "anchor": "15"
+            },
+            "rawText": "15   Ruaya,Rohan         , K= 0, Elo= 849, ID=3203980",
+            "rawHtml": "  15   <strong>Ruaya,Rohan         </strong>, K= 0, Elo= 849, ID=3203980\n<br>\n<a class=\"anchor\" name=\"15\"></a>"
+          },
+          "type": "other"
         }
       ],
       "tournamentType": "unknown"
@@ -958,7 +1384,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "9"
+              "col2": "15"
             },
             {
               "col1": "Number of Federations",
@@ -966,35 +1392,35 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "342"
+              "col2": "319"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
-              "col2": "1436"
+              "col2": "0"
             },
             {
               "col1": "Players from AUS Federation",
-              "col2": "1"
+              "col2": "3"
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "8"
+              "col2": "12"
             },
             {
               "col1": "FIDE rated players",
-              "col2": "2"
+              "col2": "0"
             },
             {
               "col1": "unrated players",
-              "col2": "7"
+              "col2": "15"
             },
             {
               "col1": "unrated players from AUS Federation",
-              "col2": "1"
+              "col2": "3"
             },
             {
               "col1": "unrated players NOT from AUS Federation",
-              "col2": "6"
+              "col2": "12"
             },
             {
               "col1": "unrated Federations",
@@ -1074,5 +1500,5 @@
       "children": []
     }
   ],
-  "md5Hash": "494a635b438d300b755404e93c40718d"
+  "md5Hash": "12e517f1688e5a9d11957d3a6832a56b"
 }
