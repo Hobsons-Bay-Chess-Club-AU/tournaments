@@ -51,7 +51,7 @@
 <td>4</td><td>9</td><td></td><td> <a href="playercard.php#9">Batyrbekov,Kaisar   </a> </td><td>1192</td><td>1581</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 4.0</td><td>    8.0 </td><td>    7.0 </td><td>    8.0 </td>
 </tr> 
 <tr> 
-<td>5</td><td>13</td><td></td><td> <a href="playercard.php#13">Wilkinson,Greg      </a> </td><td>1072</td><td>1843</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 3.5</td><td>   10.0 </td><td>    6.5 </td><td>    8.2 </td>
+<td>5</td><td>13</td><td></td><td> <a href="playercard.php#13">Wilkinson,Greg   (W)</a> </td><td>1072</td><td>1843</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 3.5</td><td>   10.0 </td><td>    6.5 </td><td>    8.2 </td>
 </tr> 
 <tr> 
 <td>6</td><td>2</td><td></td><td> <a href="playercard.php#2">Li,LiYuan        (W)</a> </td><td>1538</td><td>980</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 3.0</td><td>   11.0 </td><td>   10.0 </td><td>    7.0 </td>
@@ -267,7 +267,7 @@
 <td>76</td><td>66</td><td></td><td> <a href="playercard.php#66">Madduluri,Advaitha  </a> </td><td>2</td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.5</td><td>    6.5 </td><td>    6.0 </td><td>    0.2 </td>
 </tr> 
 <tr> 
-<td>77</td><td>43</td><td></td><td> <a href="playercard.php#43">Naidu,Aarush        </a> </td><td>333</td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.5</td><td>    5.5 </td><td>    5.0 </td><td>    0.2 </td>
+<td>77</td><td>43</td><td></td><td> <a href="playercard.php#43">Naidu,Aarush     (W)</a> </td><td>333</td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.5</td><td>    5.5 </td><td>    5.0 </td><td>    0.2 </td>
 </tr> 
 <tr> 
 <td>78</td><td>56</td><td></td><td> <a href="playercard.php#56">Daffey,Callum       </a> </td><td>0</td><td>165</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.0</td><td>    8.0 </td><td>    7.0 </td><td>    0.0 </td>
