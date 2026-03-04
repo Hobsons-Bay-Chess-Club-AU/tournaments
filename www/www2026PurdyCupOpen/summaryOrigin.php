@@ -64,7 +64,7 @@
 </tr> 
 <tr> <td>3</td> <td>2</td> <td> FM</td> <td> <a href="playercard.php#2"> Annapureddy,Rheyansh Reddy </a></td> <td >2154</td> <td >2164</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    0.0 </td><td>    0.0 </td>
 </tr> 
-<tr> <td>4</td> <td>5</td> <td>   </td> <td> <a href="playercard.php#5"> Nguyen,Anh Kiet </a></td> <td >1774</td> <td >1915</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    0.0 </td><td>    0.0 </td>
+<tr> <td>4</td> <td>5</td> <td> CM</td> <td> <a href="playercard.php#5"> Nguyen,Anh Kiet </a></td> <td >1774</td> <td >1915</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    0.0 </td><td>    0.0 </td>
 </tr> 
 <tr> <td>5</td> <td>6</td> <td> CM</td> <td> <a href="playercard.php#6"> Davis,Tony J </a></td> <td >1772</td> <td >1869</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>    0.0 </td><td>    0.0 </td>
 </tr> 
