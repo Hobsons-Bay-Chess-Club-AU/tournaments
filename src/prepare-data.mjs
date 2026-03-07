@@ -1295,7 +1295,7 @@ async function generateUniquePlayersFiles(tournaments) {
     // Leaderboard participation threshold: "more than 2 tournaments" => at least 3.
     // Early-year fallback: if fewer than this many tournaments exist in the year so far,
     // include all players (otherwise no one would qualify yet).
-    const MIN_TOURNAMENTS_FOR_LEADERBOARD = 3;
+    const MIN_TOURNAMENTS_FOR_LEADERBOARD = 0;
     const seniorPlayers = new Map(); // Map to track senior tournament participation
     const juniorPlayers = new Map(); // Map to track junior tournament participation
 
