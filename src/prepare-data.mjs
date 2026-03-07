@@ -1,3 +1,14 @@
+
+// Script to process HTML files in www2025HobsonsBayCup folder, extract Bootstrap tables, and write to data.json
+import fs from 'fs/promises';
+import path from 'path';
+import cheerio from 'cheerio';
+import crypto from 'crypto';
+import { IsSeniorPlayer } from './ref.mjs';
+
+const WWW_FOLDER = path.join(process.cwd(), 'www');
+
+
 async function extractMetadataFromTourstat(tourstatPath) {
     const html = await fs.readFile(tourstatPath, 'utf-8');
     const $ = cheerio.load(html);
@@ -12,14 +23,17 @@ async function extractMetadataFromTourstat(tourstatPath) {
     });
     return metadata;
 }
-// Script to process HTML files in www2025HobsonsBayCup folder, extract Bootstrap tables, and write to data.json
-import fs from 'fs/promises';
-import path from 'path';
-import cheerio from 'cheerio';
-import crypto from 'crypto';
-import { IsSeniorPlayer } from './ref.mjs';
 
-const WWW_FOLDER = path.join(process.cwd(), 'www');
+// Helper to load no-tournament-player.json
+async function loadNoTournamentPlayers() {
+    const filePath = path.join(WWW_FOLDER, 'no-tournament-player.json');
+    try {
+        const data = await fs.readFile(filePath, 'utf-8');
+        return JSON.parse(data);
+    } catch {
+        return [];
+    }
+}
 
 // Function to calculate MD5 hash of data object excluding generatedAt and md5Hash fields
 function calculateDataHash(data) {
@@ -1364,6 +1378,26 @@ async function generateUniquePlayersFiles(tournaments) {
         }
     }
 
+    // Add no-tournament players to senior/junior lists
+    const noTournamentPlayers = await loadNoTournamentPlayers();
+    for (const p of noTournamentPlayers) {
+        const playerKey = p.name;
+        const playerObj = {
+            player: p,
+            tournaments: [],
+            points: { standard: 0, rapid: 0, blitz: 0 }
+        };
+        if (p.category === 'Senior') {
+            if (!seniorPlayers.has(playerKey)) {
+                seniorPlayers.set(playerKey, playerObj);
+            }
+        } else if (p.category === 'Junior') {
+            if (!juniorPlayers.has(playerKey)) {
+                juniorPlayers.set(playerKey, playerObj);
+            }
+        }
+    }
+
     // Count total tournaments for the year
     const allTournaments = new Set();
     for (const tournament of tournaments) {
@@ -1490,7 +1524,12 @@ async function generateUniquePlayersFiles(tournaments) {
     // Merge senior first then junior
     for (const p of seniorPlayersArray) mergePlayerEntry(p);
     for (const p of juniorPlayersArray) mergePlayerEntry(p);
-    const combinedPlayersArray = Array.from(combinedPlayersMap.values()).sort((a, b) => a.name.localeCompare(b.name));
+    // Exclude no-tournament players from leaderboard (players.json)
+    // noTournamentPlayers already declared above
+    const noTournamentNames = new Set(noTournamentPlayers.map(p => p.name));
+    const combinedPlayersArray = Array.from(combinedPlayersMap.values())
+        .filter(player => !noTournamentNames.has(player.name))
+        .sort((a, b) => a.name.localeCompare(b.name));
     const unifiedPlayersPath = path.join(WWW_FOLDER, 'players.json');
     await fs.writeFile(unifiedPlayersPath, JSON.stringify({
         generatedAt: new Date().toISOString(),
