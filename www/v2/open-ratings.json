@@ -1,7 +1,1579 @@
 {
-  "generatedAt": "2026-03-05T08:55:43.526Z",
+  "generatedAt": "2026-03-08T00:56:01.770Z",
   "year": "2026",
-  "count": 0,
+  "count": 48,
   "totalTournaments": 4,
-  "players": []
+  "players": [
+    {
+      "name": "Annadasu,Shreyansh",
+      "id": "24",
+      "fideId": "3275779",
+      "gender": "male",
+      "href": "playercard.html#24",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 1490,
+      "fideRapid": 1617,
+      "fideBlitz": 1572,
+      "acfClassic": 1106,
+      "acfQuick": 1045,
+      "acfId": "3210254"
+    },
+    {
+      "name": "Annapureddy,Dhruthin Reddy",
+      "id": "23",
+      "fideId": "3239683",
+      "gender": "male",
+      "href": "playercard.html#23",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 2.5,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0.5,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2011,
+      "fideStandard": 1513,
+      "fideRapid": 1675,
+      "fideBlitz": 1666,
+      "acfClassic": 1250,
+      "acfQuick": 1280,
+      "acfId": "3194401"
+    },
+    {
+      "name": "Annapureddy,Rheyansh Reddy",
+      "id": "2",
+      "fideId": "3244806",
+      "gender": "male",
+      "href": "playercard.html#2",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "FM",
+      "birthYear": 2014,
+      "fideStandard": 2137,
+      "fideRapid": 2023,
+      "fideBlitz": 2161,
+      "acfClassic": 2154,
+      "acfQuick": 2146,
+      "acfId": "3197035"
+    },
+    {
+      "name": "Ashok,Arjun",
+      "id": "26",
+      "fideId": "3275108",
+      "gender": "male",
+      "href": "playercard.html#26",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 2,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2015,
+      "fideStandard": 1527,
+      "fideRapid": 1512,
+      "fideBlitz": 0,
+      "acfClassic": 1069,
+      "acfQuick": 860,
+      "acfId": "3204632"
+    },
+    {
+      "name": "Bodke,Krishna Manthan",
+      "id": "13",
+      "fideId": "3259021",
+      "gender": "male",
+      "href": "playercard.html#13",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 3,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 4,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2010,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 1505,
+      "acfQuick": 1429,
+      "acfId": "3202576"
+    },
+    {
+      "name": "Chawla,Namish",
+      "id": "31",
+      "fideId": "3297934",
+      "gender": "male",
+      "href": "playercard.html#31",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 211,
+      "acfQuick": 211,
+      "acfId": "3224136"
+    },
+    {
+      "name": "Clerk,Max",
+      "id": "28",
+      "fideId": "3234134",
+      "gender": "male",
+      "href": "playercard.html#28",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2002,
+      "fideStandard": 1453,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 958,
+      "acfQuick": 958,
+      "acfId": "3161584"
+    },
+    {
+      "name": "Davis,Sophie",
+      "id": "14",
+      "fideId": "3220486",
+      "gender": "female",
+      "href": "playercard.html#14",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 2,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0.5,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2.5,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2004,
+      "fideStandard": 1690,
+      "fideRapid": 1625,
+      "fideBlitz": 1634,
+      "acfClassic": 1479,
+      "acfQuick": 1446,
+      "acfId": "3138303"
+    },
+    {
+      "name": "Davis,Tony J",
+      "id": "3",
+      "fideId": "3205550",
+      "gender": "male",
+      "href": "playercard.html#3",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 4,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 5,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "CM",
+      "birthYear": 1968,
+      "fideStandard": 1911,
+      "fideRapid": 1925,
+      "fideBlitz": 1755,
+      "acfClassic": 1772,
+      "acfQuick": 1322,
+      "acfId": "3073264"
+    },
+    {
+      "name": "Gali, Joyel Evan",
+      "id": "32",
+      "fideId": "573001627",
+      "gender": "male",
+      "href": "playercard.html#32",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 2,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2015,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3224431"
+    },
+    {
+      "name": "Gusain,Daniel",
+      "id": "1",
+      "fideId": "3230791",
+      "gender": "male",
+      "href": "playercard.html#1",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 4.5,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 4.5,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2004,
+      "fideStandard": 1970,
+      "fideRapid": 1927,
+      "fideBlitz": 1989,
+      "acfClassic": 1997,
+      "acfQuick": 1840,
+      "acfId": "3181951"
+    },
+    {
+      "name": "Hari,Dhruv",
+      "id": "10",
+      "fideId": "3255360",
+      "gender": "male",
+      "href": "playercard.html#10",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 4,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 4,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2011,
+      "fideStandard": 1918,
+      "fideRapid": 1676,
+      "fideBlitz": 0,
+      "acfClassic": 1673,
+      "acfQuick": 1296,
+      "acfId": "3195311"
+    },
+    {
+      "name": "Hibberd,Nathan",
+      "id": "7",
+      "fideId": "3213560",
+      "gender": "male",
+      "href": "playercard.html#7",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 4,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 5,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1995,
+      "fideStandard": 1869,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 1666,
+      "acfQuick": 1666,
+      "acfId": "3121094"
+    },
+    {
+      "name": "Hill,James",
+      "id": "11",
+      "fideId": "3268845",
+      "gender": "male",
+      "href": "playercard.html#11",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2002,
+      "fideStandard": 1776,
+      "fideRapid": 1636,
+      "fideBlitz": 1637,
+      "acfClassic": 1591,
+      "acfQuick": 1383,
+      "acfId": "3207863"
+    },
+    {
+      "name": "Hogan,Steven",
+      "id": "20",
+      "fideId": "3201414",
+      "gender": "male",
+      "href": "playercard.html#20",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 3.5,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 4.5,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1985,
+      "fideStandard": 1635,
+      "fideRapid": 1660,
+      "fideBlitz": 1741,
+      "acfClassic": 1395,
+      "acfQuick": 1138,
+      "acfId": "3112941"
+    },
+    {
+      "name": "Hogg,Dean",
+      "id": "2",
+      "fideId": "3204332",
+      "gender": "male",
+      "href": "playercard.html#2",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 2,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0.5,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2.5,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1970,
+      "fideStandard": 1916,
+      "fideRapid": 1976,
+      "fideBlitz": 2001,
+      "acfClassic": 1778,
+      "acfQuick": 1936,
+      "acfId": "3093306"
+    },
+    {
+      "name": "Ioannou,Simon A",
+      "id": "17",
+      "fideId": "0",
+      "gender": "male",
+      "href": "playercard.html#17",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0.5,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0.5,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 1400,
+      "acfQuick": 1400,
+      "acfId": "2047714"
+    },
+    {
+      "name": "Jyothi Nikhil,Neev",
+      "id": "30",
+      "fideId": "3284670",
+      "gender": "male",
+      "href": "playercard.html#30",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 2,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2017,
+      "fideStandard": 1438,
+      "fideRapid": 1467,
+      "fideBlitz": 1485,
+      "acfClassic": 856,
+      "acfQuick": 995,
+      "acfId": "3214874"
+    },
+    {
+      "name": "Kostakakis,Angelo",
+      "id": "27",
+      "fideId": "3227499",
+      "gender": "male",
+      "href": "playercard.html#27",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 2,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1958,
+      "fideStandard": 1405,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 1004,
+      "acfQuick": 1004,
+      "acfId": "3168605"
+    },
+    {
+      "name": "Kothari,Sumay",
+      "id": "29",
+      "fideId": "3260054",
+      "gender": "male",
+      "href": "playercard.html#29",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 1.5,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1.5,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2011,
+      "fideStandard": 1476,
+      "fideRapid": 0,
+      "fideBlitz": 1555,
+      "acfClassic": 1060,
+      "acfQuick": 1169,
+      "acfId": "3203232"
+    },
+    {
+      "name": "Krishnan,Anirudh",
+      "id": "6",
+      "fideId": "3254925",
+      "gender": "male",
+      "href": "playercard.html#6",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 3,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1985,
+      "fideStandard": 1842,
+      "fideRapid": 1808,
+      "fideBlitz": 1794,
+      "acfClassic": 1694,
+      "acfQuick": 1083,
+      "acfId": "3200222"
+    },
+    {
+      "name": "Krishnan,Sanjay",
+      "id": "32",
+      "fideId": "0",
+      "gender": "male",
+      "href": "playercard.html#32",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3219892"
+    },
+    {
+      "name": "Krishnan,Sanjit",
+      "id": "33",
+      "fideId": "0",
+      "gender": "male",
+      "href": "playercard.html#33",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3219903"
+    },
+    {
+      "name": "Lacson,Joemar",
+      "id": "5",
+      "fideId": "3257762",
+      "gender": "male",
+      "href": "playercard.html#5",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 3.5,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 4.5,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1973,
+      "fideStandard": 1849,
+      "fideRapid": 1823,
+      "fideBlitz": 1784,
+      "acfClassic": 1768,
+      "acfQuick": 1421,
+      "acfId": "3112506"
+    },
+    {
+      "name": "Matijas,Dejan",
+      "id": "21",
+      "fideId": "3242838",
+      "gender": "male",
+      "href": "playercard.html#21",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 2,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1971,
+      "fideStandard": 1614,
+      "fideRapid": 1588,
+      "fideBlitz": 0,
+      "acfClassic": 1367,
+      "acfQuick": 1289,
+      "acfId": "3194880"
+    },
+    {
+      "name": "Maunders,Myiesha",
+      "id": "9",
+      "fideId": "3224180",
+      "gender": "female",
+      "href": "playercard.html#9",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 2.5,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2.5,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2005,
+      "fideStandard": 1732,
+      "fideRapid": 1717,
+      "fideBlitz": 1677,
+      "acfClassic": 1531,
+      "acfQuick": 1146,
+      "acfId": "3146722"
+    },
+    {
+      "name": "McIntyre,Julian",
+      "id": "11",
+      "fideId": "3232182",
+      "gender": "male",
+      "href": "playercard.html#11",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 2.5,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3.5,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2004,
+      "fideStandard": 1774,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 1611,
+      "acfQuick": 849,
+      "acfId": "3176061"
+    },
+    {
+      "name": "Milic,James",
+      "id": "17",
+      "fideId": "3236285",
+      "gender": "male",
+      "href": "playercard.html#17",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 2,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1992,
+      "fideStandard": 1634,
+      "fideRapid": 1646,
+      "fideBlitz": 0,
+      "acfClassic": 1397,
+      "acfQuick": 1220,
+      "acfId": "3175604"
+    },
+    {
+      "name": "Mithrakanth,Poorna Sharma",
+      "id": "1",
+      "fideId": "5000130",
+      "gender": "male",
+      "href": "playercard.html#1",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "IM",
+      "birthYear": 1961,
+      "fideStandard": 2198,
+      "fideRapid": 2216,
+      "fideBlitz": 0,
+      "acfClassic": 2184,
+      "acfQuick": 2184,
+      "acfId": "0015045"
+    },
+    {
+      "name": "Nguyen,Anh Kiet",
+      "id": "4",
+      "fideId": "3267849",
+      "gender": "male",
+      "href": "playercard.html#4",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 3.5,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 4.5,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "CM",
+      "birthYear": 2012,
+      "fideStandard": 1924,
+      "fideRapid": 1864,
+      "fideBlitz": 1753,
+      "acfClassic": 1774,
+      "acfQuick": 1557,
+      "acfId": "3206205"
+    },
+    {
+      "name": "Nowak,Ruben",
+      "id": "18",
+      "fideId": "3214915",
+      "gender": "male",
+      "href": "playercard.html#18",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 2,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1992,
+      "fideStandard": 1664,
+      "fideRapid": 1638,
+      "fideBlitz": 1609,
+      "acfClassic": 1426,
+      "acfQuick": 1283,
+      "acfId": "3127464"
+    },
+    {
+      "name": "O'Brien,Ned",
+      "id": "34",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#34",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
+    },
+    {
+      "name": "Owen,Lee",
+      "id": "33",
+      "fideId": "573001635",
+      "gender": "female",
+      "href": "playercard.html#33",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2005,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3224442"
+    },
+    {
+      "name": "Parker,Lucas",
+      "id": "16",
+      "fideId": "311110949",
+      "gender": "male",
+      "href": "playercard.html#16",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 3,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2015,
+      "fideStandard": 1709,
+      "fideRapid": 1782,
+      "fideBlitz": 1699,
+      "acfClassic": 1422,
+      "acfQuick": 1651,
+      "acfId": "3209484"
+    },
+    {
+      "name": "Paul,Cijo",
+      "id": "8",
+      "fideId": "2054515",
+      "gender": "male",
+      "href": "playercard.html#8",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 4,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 5,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1982,
+      "fideStandard": 1788,
+      "fideRapid": 1720,
+      "fideBlitz": 1735,
+      "acfClassic": 1608,
+      "acfQuick": 1141,
+      "acfId": "3194913"
+    },
+    {
+      "name": "Paul,Nikash",
+      "id": "19",
+      "fideId": "3254003",
+      "gender": "male",
+      "href": "playercard.html#19",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 2.5,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2.5,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1982,
+      "fideStandard": 1643,
+      "fideRapid": 0,
+      "fideBlitz": 1679,
+      "acfClassic": 1364,
+      "acfQuick": 966,
+      "acfId": "3200244"
+    },
+    {
+      "name": "Polidano,Rohan",
+      "id": "36",
+      "fideId": "3266680",
+      "gender": "male",
+      "href": "playercard.html#36",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1987,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 829,
+      "acfQuick": 829,
+      "acfId": "3197503"
+    },
+    {
+      "name": "Ramanathan,Ashwin",
+      "id": "22",
+      "fideId": "3275221",
+      "gender": "male",
+      "href": "playercard.html#22",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 2.5,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3.5,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 1698,
+      "fideRapid": 1715,
+      "fideBlitz": 1767,
+      "acfClassic": 1362,
+      "acfQuick": 1382,
+      "acfId": "3206231"
+    },
+    {
+      "name": "Ruaya,Chris Rodson",
+      "id": "14",
+      "fideId": "311214578",
+      "gender": "female",
+      "href": "playercard.html#14",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1976,
+      "fideStandard": 1760,
+      "fideRapid": 1609,
+      "fideBlitz": 1804,
+      "acfClassic": 1484,
+      "acfQuick": 1114,
+      "acfId": "6253062"
+    },
+    {
+      "name": "Ruaya,Rohan",
+      "id": "27",
+      "fideId": "3281345",
+      "gender": "male",
+      "href": "playercard.html#27",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 1475,
+      "fideRapid": 1481,
+      "fideBlitz": 1537,
+      "acfClassic": 894,
+      "acfQuick": 764,
+      "acfId": "3203980"
+    },
+    {
+      "name": "Sheikh,Tahmid",
+      "id": "34",
+      "fideId": "3292487",
+      "gender": "male",
+      "href": "playercard.html#34",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1997,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 115,
+      "acfId": "3220485"
+    },
+    {
+      "name": "Singh,Abhyuday",
+      "id": "29",
+      "fideId": "3275795",
+      "gender": "male",
+      "href": "playercard.html#29",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2015,
+      "fideStandard": 1512,
+      "fideRapid": 1503,
+      "fideBlitz": 1497,
+      "acfClassic": 772,
+      "acfQuick": 620,
+      "acfId": "3204735"
+    },
+    {
+      "name": "Szuveges,Narelle S",
+      "id": "12",
+      "fideId": "3202640",
+      "gender": "female",
+      "href": "playercard.html#12",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 2,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "WIM",
+      "birthYear": 1978,
+      "fideStandard": 1642,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 1449,
+      "acfQuick": 1624,
+      "acfId": "3096051"
+    },
+    {
+      "name": "Tregaskis-Lie, Linda",
+      "id": "35",
+      "fideId": "573001643",
+      "gender": "female",
+      "href": "playercard.html#35",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1969,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3224453"
+    },
+    {
+      "name": "Veeragandham,Gowtham",
+      "id": "30",
+      "fideId": "3295346",
+      "gender": "male",
+      "href": "playercard.html#30",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 1407,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 291,
+      "acfQuick": 291,
+      "acfId": "3222784"
+    },
+    {
+      "name": "Whitford,Matthew",
+      "id": "15",
+      "fideId": "3232220",
+      "gender": "male",
+      "href": "playercard.html#15",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 3,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 4,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1999,
+      "fideStandard": 1721,
+      "fideRapid": 0,
+      "fideBlitz": 1745,
+      "acfClassic": 1524,
+      "acfQuick": 1441,
+      "acfId": "3137603"
+    },
+    {
+      "name": "Wilkinson,Greg",
+      "id": "25",
+      "fideId": "3255689",
+      "gender": "male",
+      "href": "playercard.html#25",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HonourableBob/data.json",
+          "score": 2,
+          "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1978,
+      "fideStandard": 1478,
+      "fideRapid": 0,
+      "fideBlitz": 1497,
+      "acfClassic": 1115,
+      "acfQuick": 584,
+      "acfId": "3200620"
+    }
+  ]
 }
