@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-03-11T08:54:47.131Z",
+  "generatedAt": "2026-03-11T08:58:10.665Z",
   "year": "2026",
-  "count": 111,
-  "seniorCount": 36,
+  "count": 121,
+  "seniorCount": 48,
   "juniorCount": 86,
   "totalTournaments": 4,
   "players": [
@@ -56,12 +56,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#23",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2.5,
           "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0.5,
+          "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -74,7 +81,29 @@
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 6.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Annapureddy,Rheyansh Reddy",
+      "id": "2",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#2",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1.5,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -85,12 +114,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#26",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
           "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -103,7 +139,7 @@
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 7,
         "rapid": 0,
         "blitz": 0
       }
@@ -312,7 +348,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#13",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -320,10 +356,17 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 5,
         "rapid": 0,
         "blitz": 0
       }
@@ -385,7 +428,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#28",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -393,10 +436,17 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 1,
+        "standard": 2,
         "rapid": 0,
         "blitz": 0
       }
@@ -451,7 +501,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#14",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -459,10 +509,17 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -473,7 +530,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#3",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -481,10 +538,17 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 5,
         "rapid": 0,
         "blitz": 0
       }
@@ -644,6 +708,28 @@
       }
     },
     {
+      "name": "Gali,Joyel Evan",
+      "id": "31",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#31",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Goh,Daphne",
       "id": "58",
       "fideId": "",
@@ -737,7 +823,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#1",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -745,10 +831,17 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4.5,
+        "standard": 5.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -803,7 +896,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#7",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -811,10 +904,39 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1.5,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 5.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Hill,James",
+      "id": "11",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#11",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1.5,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -825,7 +947,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#20",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -833,10 +955,17 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3.5,
+        "standard": 4.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -847,7 +976,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#2",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -855,10 +984,17 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -930,6 +1066,28 @@
       }
     },
     {
+      "name": "Ioannou,Simon A",
+      "id": "17",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#17",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0.5,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Jagannathan,Shashvath",
       "id": "22",
       "fideId": "",
@@ -957,12 +1115,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#30",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
           "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -1162,12 +1327,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#27",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
           "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1223,6 +1395,50 @@
       }
     },
     {
+      "name": "Krishnan,Sanjay",
+      "id": "32",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#32",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Krishnan,Sanjit",
+      "id": "33",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#33",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Kwek,Alexander",
       "id": "47",
       "fideId": "",
@@ -1250,7 +1466,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#5",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -1258,10 +1474,17 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3.5,
+        "standard": 5.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -1382,7 +1605,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#21",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -1390,10 +1613,17 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -1426,7 +1656,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#11",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -1434,10 +1664,17 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 4.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -1509,6 +1746,28 @@
       }
     },
     {
+      "name": "Mithrakanth,Poorna Sharma",
+      "id": "1",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#1",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 2,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Naidu,Aarush",
       "id": "43",
       "fideId": "",
@@ -1558,7 +1817,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#4",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -1566,10 +1825,17 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3.5,
+        "standard": 5.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -1624,12 +1890,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#18",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
           "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1.5,
+          "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -1642,7 +1915,29 @@
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 7.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "O'Brien,Ned",
+      "id": "34",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#34",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
         "rapid": 0,
         "blitz": 0
       }
@@ -1719,7 +2014,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#8",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -1727,10 +2022,17 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 6,
         "rapid": 0,
         "blitz": 0
       }
@@ -1741,7 +2043,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#19",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -1749,10 +2051,17 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -1829,12 +2138,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#22",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2.5,
           "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -1847,7 +2163,7 @@
         }
       ],
       "points": {
-        "standard": 7.5,
+        "standard": 8.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -1897,13 +2213,42 @@
       }
     },
     {
-      "name": "Ruaya,Rohan",
-      "id": "21",
+      "name": "Ruaya,Chris Rodson",
+      "id": "14",
       "fideId": "",
-      "gender": "male",
-      "href": "playercard.html#21",
+      "gender": "female",
+      "href": "playercard.html#14",
       "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Ruaya,Rohan",
+      "id": "27",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#27",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3,
@@ -1968,7 +2313,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#34",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -1976,22 +2321,36 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 0,
+        "standard": 1,
         "rapid": 0,
         "blitz": 0
       }
     },
     {
       "name": "Singh,Abhyuday",
-      "id": "25",
+      "id": "29",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#25",
-      "tournamentCount": 1,
+      "href": "playercard.html#29",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3.5,
@@ -2128,6 +2487,28 @@
           "tournament": "www2026HonourableBob/data.json",
           "score": 0,
           "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Veeragandham,Gowtham",
+      "id": "30",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#30",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2320,7 +2701,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#15",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -2328,10 +2709,17 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 4,
         "rapid": 0,
         "blitz": 0
       }
@@ -2342,12 +2730,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#25",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
           "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -2360,7 +2755,7 @@
         }
       ],
       "points": {
-        "standard": 5.5,
+        "standard": 6.5,
         "rapid": 0,
         "blitz": 0
       }

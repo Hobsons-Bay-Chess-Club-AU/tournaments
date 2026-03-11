@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-11T08:54:39.901Z",
+  "generatedAt": "2026-03-11T08:58:02.776Z",
   "tournament": {
     "id": "hobsons-bay-purdy-cup-open",
     "name": "Hobsons Bay Purdy Cup Open",
@@ -9705,7 +9705,7 @@
       "tournamentType": "unknown"
     },
     "rankingagegroup.html": {
-      "pageHeading": "",
+      "pageHeading": "Player Groups by date at round 3",
       "tables": [],
       "tournamentType": "unknown"
     },
@@ -10510,8 +10510,363 @@
       "tournamentType": "unknown"
     },
     "standings.html": {
-      "pageHeading": "",
-      "tables": [],
+      "pageHeading": "Standings at round 2",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Pos",
+              "key": "Pos"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "BH",
+              "key": "BH"
+            },
+            {
+              "name": "BH/C1",
+              "key": "BH/C1"
+            }
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Player": "1",
+              "Rtg": "2184",
+              "Fed": "OS",
+              "Pts": "2.0",
+              "BH": "2.0",
+              "BH/C1": "1.0"
+            },
+            {
+              "Pos": "2",
+              "Player": "5",
+              "Rtg": "1774",
+              "Fed": "VIC",
+              "Pts": "2.0",
+              "BH": "2.0",
+              "BH/C1": "1.0"
+            },
+            {
+              "Pos": "3",
+              "Player": "7",
+              "Rtg": "1768",
+              "Fed": "VIC",
+              "Pts": "2.0",
+              "BH": "1.0",
+              "BH/C1": "1.0"
+            },
+            {
+              "Pos": "4",
+              "Player": "9",
+              "Rtg": "1611",
+              "Fed": "VIC",
+              "Pts": "2.0",
+              "BH": "1.0",
+              "BH/C1": "1.0"
+            },
+            {
+              "Pos": "5",
+              "Player": "10",
+              "Rtg": "1608",
+              "Fed": "VIC",
+              "Pts": "2.0",
+              "BH": "1.0",
+              "BH/C1": "1.0"
+            },
+            {
+              "Pos": "6",
+              "Player": "13",
+              "Rtg": "1505",
+              "Fed": "VIC",
+              "Pts": "2.0",
+              "BH": "1.0",
+              "BH/C1": "1.0"
+            },
+            {
+              "Pos": "7",
+              "Player": "2",
+              "Rtg": "2154",
+              "Fed": "VIC",
+              "Pts": "1.5",
+              "BH": "2.5",
+              "BH/C1": "1.5"
+            },
+            {
+              "Pos": "8",
+              "Player": "8",
+              "Rtg": "1666",
+              "Fed": "VIC",
+              "Pts": "1.5",
+              "BH": "2.5",
+              "BH/C1": "1.5"
+            },
+            {
+              "Pos": "9",
+              "Player": "11",
+              "Rtg": "1591",
+              "Fed": "VIC",
+              "Pts": "1.5",
+              "BH": "1.5",
+              "BH/C1": "1.5"
+            },
+            {
+              "Pos": "10",
+              "Player": "16",
+              "Rtg": "1426",
+              "Fed": "VIC",
+              "Pts": "1.5",
+              "BH": "1.5",
+              "BH/C1": "1.5"
+            },
+            {
+              "Pos": "11",
+              "Player": "6",
+              "Rtg": "1772",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "3.0",
+              "BH/C1": "2.0"
+            },
+            {
+              "Pos": "12",
+              "Player": "14",
+              "Rtg": "1484",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "3.0",
+              "BH/C1": "2.0"
+            },
+            {
+              "Pos": "13",
+              "Player": "18",
+              "Rtg": "1395",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "3.0",
+              "BH/C1": "2.0"
+            },
+            {
+              "Pos": "14",
+              "Player": "21",
+              "Rtg": "1362",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "3.0",
+              "BH/C1": "2.0"
+            },
+            {
+              "Pos": "15",
+              "Player": "35",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "3.0",
+              "BH/C1": "2.0"
+            },
+            {
+              "Pos": "16",
+              "Player": "12",
+              "Rtg": "1524",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH/C1": "2.0"
+            },
+            {
+              "Pos": "17",
+              "Player": "19",
+              "Rtg": "1367",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH/C1": "2.0"
+            },
+            {
+              "Pos": "18",
+              "Player": "23",
+              "Rtg": "1115",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH/C1": "2.0"
+            },
+            {
+              "Pos": "19",
+              "Player": "15",
+              "Rtg": "1479",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "2.0",
+              "BH/C1": "1.0"
+            },
+            {
+              "Pos": "20",
+              "Player": "20",
+              "Rtg": "1364",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "1.5",
+              "BH/C1": "1.5"
+            },
+            {
+              "Pos": "21",
+              "Player": "26",
+              "Rtg": "958",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "1.5",
+              "BH/C1": "1.5"
+            },
+            {
+              "Pos": "22",
+              "Player": "3",
+              "Rtg": "1997",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "1.5",
+              "BH/C1": "1.0"
+            },
+            {
+              "Pos": "23",
+              "Player": "4",
+              "Rtg": "1778",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "1.5",
+              "BH/C1": "1.0"
+            },
+            {
+              "Pos": "24",
+              "Player": "24",
+              "Rtg": "1069",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "1.0",
+              "BH/C1": "1.0"
+            },
+            {
+              "Pos": "25",
+              "Player": "32",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "BH": "1.0",
+              "BH/C1": "1.0"
+            },
+            {
+              "Pos": "26",
+              "Player": "34",
+              "Rtg": "0",
+              "Fed": "NSW",
+              "Pts": "1.0",
+              "BH": "1.0",
+              "BH/C1": "1.0"
+            },
+            {
+              "Pos": "27",
+              "Player": "22",
+              "Rtg": "1250",
+              "Fed": "VIC",
+              "Pts": "0.5",
+              "BH": "2.0",
+              "BH/C1": "1.0"
+            },
+            {
+              "Pos": "28",
+              "Player": "17",
+              "Rtg": "1400",
+              "Fed": "NSW",
+              "Pts": "0.5",
+              "BH": "1.0",
+              "BH/C1": "0.5"
+            },
+            {
+              "Pos": "29",
+              "Player": "25",
+              "Rtg": "1004",
+              "Fed": "VIC",
+              "Pts": "0.0",
+              "BH": "3.0",
+              "BH/C1": "2.0"
+            },
+            {
+              "Pos": "30",
+              "Player": "27",
+              "Rtg": "894",
+              "Fed": "VIC",
+              "Pts": "0.0",
+              "BH": "3.0",
+              "BH/C1": "2.0"
+            },
+            {
+              "Pos": "31",
+              "Player": "28",
+              "Rtg": "856",
+              "Fed": "VIC",
+              "Pts": "0.0",
+              "BH": "3.0",
+              "BH/C1": "2.0"
+            },
+            {
+              "Pos": "32",
+              "Player": "31",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Pts": "0.0",
+              "BH": "3.0",
+              "BH/C1": "2.0"
+            },
+            {
+              "Pos": "33",
+              "Player": "29",
+              "Rtg": "772",
+              "Fed": "VIC",
+              "Pts": "0.0",
+              "BH": "2.5",
+              "BH/C1": "1.5"
+            },
+            {
+              "Pos": "34",
+              "Player": "33",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Pts": "0.0",
+              "BH": "2.5",
+              "BH/C1": "1.5"
+            },
+            {
+              "Pos": "35",
+              "Player": "30",
+              "Rtg": "291",
+              "Fed": "VIC",
+              "Pts": "0.0",
+              "BH": "2.0",
+              "BH/C1": "1.0"
+            }
+          ],
+          "footer": {
+            "text": "Tie Break legend:\n     BH  :  Buchholz \n  BH/C1  :  Buchholz Cut 1",
+            "html": "Tie Break legend:<br>\n     BH  :  Buchholz <br>\n  BH/C1  :  Buchholz Cut 1 <br>"
+          },
+          "type": "standings"
+        }
+      ],
       "tournamentType": "unknown"
     },
     "summaryOrigin.html": {
@@ -11545,5 +11900,5 @@
       ]
     }
   ],
-  "md5Hash": "238f5e5885420142d92cbb79e5b3654f"
+  "md5Hash": "67fcd94428cafb5e5578c2bd614bb27e"
 }
