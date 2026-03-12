@@ -87,7 +87,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>   7   <strong>Watson,Jacob        </strong>, K= 0, Elo=   0, ID=3220441
+<caption>   7   <strong>Watson,Jacob        </strong>, K= 0, Elo= 645, ID=3220441
 <br>
 <a class="anchor" name="7"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -666,6 +666,14 @@
 <caption>  79   <strong>Ahmad,Ihtiram       </strong>, K= 0, Elo=1074, ID=0012854
 <br>
 <a class="anchor" name="79"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  80   <strong>Pradeep,Mayukh      </strong>, K= 0, Elo=   0, ID=3220006
+<br>
+<a class="anchor" name="80"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 </tbody>
