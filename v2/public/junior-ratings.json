@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-12T08:55:44.176Z",
+  "generatedAt": "2026-03-13T09:43:00.198Z",
   "year": "2026",
-  "count": 86,
+  "count": 118,
   "totalTournaments": 4,
   "players": [
     {
@@ -10,12 +10,19 @@
       "fideId": "532011059",
       "gender": "male",
       "href": "playercard.html#14",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 4,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -33,6 +40,96 @@
       "acfClassic": 1074,
       "acfQuick": 814,
       "acfId": "0012854"
+    },
+    {
+      "name": "Alwani,Manas",
+      "id": "53",
+      "fideId": "25762265",
+      "gender": "male",
+      "href": "playercard.html#53",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2007,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 1268,
+      "acfId": "3208703"
+    },
+    {
+      "name": "Alwani,Manav",
+      "id": "54",
+      "fideId": "25762273",
+      "gender": "male",
+      "href": "playercard.html#54",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2007,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 1325,
+      "acfId": "3208692"
+    },
+    {
+      "name": "Annadasu,Shreyansh",
+      "id": "7",
+      "fideId": "3275779",
+      "gender": "male",
+      "href": "playercard.html#7",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 1490,
+      "fideRapid": 1617,
+      "fideBlitz": 1572,
+      "acfClassic": 1106,
+      "acfQuick": 1045,
+      "acfId": "3210254"
     },
     {
       "name": "Annapureddy,Dhruthin Reddy",
@@ -65,17 +162,84 @@
       "acfId": "3194401"
     },
     {
+      "name": "Aquino,Zedric",
+      "id": "55",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#55",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
+    },
+    {
+      "name": "Arora,Daanish",
+      "id": "18",
+      "fideId": "3288900",
+      "gender": "male",
+      "href": "playercard.html#18",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2015,
+      "fideStandard": 1407,
+      "fideRapid": 1443,
+      "fideBlitz": 0,
+      "acfClassic": 843,
+      "acfQuick": 907,
+      "acfId": "3218083"
+    },
+    {
       "name": "Ashok,Arjun",
       "id": "15",
       "fideId": "3275108",
       "gender": "male",
       "href": "playercard.html#15",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 4,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -100,12 +264,19 @@
       "fideId": "573002186",
       "gender": "male",
       "href": "playercard.html#51",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 1,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -130,12 +301,19 @@
       "fideId": "573002194",
       "gender": "male",
       "href": "playercard.html#52",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 0,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -160,12 +338,19 @@
       "fideId": "573002208",
       "gender": "male",
       "href": "playercard.html#53",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -190,12 +375,19 @@
       "fideId": "3286258",
       "gender": "male",
       "href": "playercard.html#16",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -220,12 +412,19 @@
       "fideId": "3286266",
       "gender": "male",
       "href": "playercard.html#36",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -280,12 +479,19 @@
       "fideId": "3265439",
       "gender": "male",
       "href": "playercard.html#17",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 4,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -310,12 +516,19 @@
       "fideId": "3265447",
       "gender": "male",
       "href": "playercard.html#9",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 4.5,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -335,17 +548,54 @@
       "acfId": "3204363"
     },
     {
+      "name": "Bhadrapura,Vismay",
+      "id": "59",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#59",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
+    },
+    {
       "name": "Bodke,Aryan",
       "id": "49",
       "fideId": "3286274",
       "gender": "male",
       "href": "playercard.html#49",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -363,6 +613,36 @@
       "acfClassic": 321,
       "acfQuick": 295,
       "acfId": "3211735"
+    },
+    {
+      "name": "Bongrain,Herve",
+      "id": "28",
+      "fideId": "3263983",
+      "gender": "male",
+      "href": "playercard.html#28",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1969,
+      "fideStandard": 1457,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 626,
+      "acfQuick": 626,
+      "acfId": "3205063"
     },
     {
       "name": "Boxshall,Logan",
@@ -400,12 +680,19 @@
       "fideId": "3297934",
       "gender": "male",
       "href": "playercard.html#55",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2.5,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -430,12 +717,19 @@
       "fideId": "573002224",
       "gender": "male",
       "href": "playercard.html#56",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 0,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -460,12 +754,19 @@
       "fideId": "3286290",
       "gender": "male",
       "href": "playercard.html#44",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -520,12 +821,19 @@
       "fideId": "3256391",
       "gender": "male",
       "href": "playercard.html#3",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 4.5,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -550,12 +858,19 @@
       "fideId": "3291154",
       "gender": "female",
       "href": "playercard.html#46",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -610,12 +925,19 @@
       "fideId": "3292339",
       "gender": "male",
       "href": "playercard.html#40",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -635,17 +957,54 @@
       "acfId": "3220463"
     },
     {
+      "name": "Gajula,Karan",
+      "id": "19",
+      "fideId": "3272753",
+      "gender": "male",
+      "href": "playercard.html#19",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 1528,
+      "fideRapid": 1461,
+      "fideBlitz": 0,
+      "acfClassic": 837,
+      "acfQuick": 727,
+      "acfId": "3211050"
+    },
+    {
       "name": "Gajula,Nishitha",
       "id": "42",
       "fideId": "3291162",
       "gender": "female",
       "href": "playercard.html#42",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2.5,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -665,17 +1024,54 @@
       "acfId": "3218584"
     },
     {
+      "name": "Ganesh Kumar, Mukunth",
+      "id": "46",
+      "fideId": "3289915",
+      "gender": "male",
+      "href": "playercard.html#46",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2017,
+      "fideStandard": 1456,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 265,
+      "acfQuick": 445,
+      "acfId": "3217475"
+    },
+    {
       "name": "Goh,Daphne",
       "id": "58",
       "fideId": "3286304",
       "gender": "female",
       "href": "playercard.html#58",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -700,12 +1096,19 @@
       "fideId": "3286312",
       "gender": "male",
       "href": "playercard.html#48",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -730,12 +1133,19 @@
       "fideId": "3254917",
       "gender": "male",
       "href": "playercard.html#33",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -760,12 +1170,19 @@
       "fideId": "3290522",
       "gender": "male",
       "href": "playercard.html#27",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 1.5,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -820,12 +1237,19 @@
       "fideId": "3286320",
       "gender": "male",
       "href": "playercard.html#19",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -845,23 +1269,53 @@
       "acfId": "3204621"
     },
     {
-      "name": "Husain,Lamiah",
-      "id": "39",
-      "fideId": "3278905",
-      "gender": "female",
-      "href": "playercard.html#39",
+      "name": "Humphreys,Scott",
+      "id": "2",
+      "fideId": "3211576",
+      "gender": "male",
+      "href": "playercard.html#2",
       "tournamentCount": 1,
       "tournaments": [
         {
-          "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
-          "score": 2.5,
-          "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1956,
+      "fideStandard": 1762,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 1462,
+      "acfQuick": 1462,
+      "acfId": "3135621"
+    },
+    {
+      "name": "Husain, Lamiah",
+      "id": "35",
+      "fideId": "3278905",
+      "gender": "female",
+      "href": "playercard.html#35",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       },
@@ -905,23 +1359,23 @@
       "acfId": "3077066"
     },
     {
-      "name": "Jagannathan,Shashvath",
-      "id": "22",
+      "name": "Jagannathan, Shashvath",
+      "id": "21",
       "fideId": "3286339",
       "gender": "male",
-      "href": "playercard.html#22",
+      "href": "playercard.html#21",
       "tournamentCount": 1,
       "tournaments": [
         {
-          "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
-          "score": 3,
-          "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       },
@@ -940,12 +1394,19 @@
       "fideId": "3284670",
       "gender": "male",
       "href": "playercard.html#26",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -970,12 +1431,19 @@
       "fideId": "3293840",
       "gender": "male",
       "href": "playercard.html#60",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1000,12 +1468,19 @@
       "fideId": "3286860",
       "gender": "male",
       "href": "playercard.html#50",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1060,12 +1535,19 @@
       "fideId": "3292347",
       "gender": "female",
       "href": "playercard.html#34",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1090,12 +1572,19 @@
       "fideId": "573002240",
       "gender": "male",
       "href": "playercard.html#62",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 0,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1120,12 +1609,19 @@
       "fideId": "573002259",
       "gender": "female",
       "href": "playercard.html#63",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1205,6 +1701,126 @@
       "acfId": "3222751"
     },
     {
+      "name": "Krishnan,Sanjay",
+      "id": "62",
+      "fideId": "0",
+      "gender": "male",
+      "href": "playercard.html#62",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3219892"
+    },
+    {
+      "name": "Krishnan,Sanjit",
+      "id": "63",
+      "fideId": "0",
+      "gender": "male",
+      "href": "playercard.html#63",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3219903"
+    },
+    {
+      "name": "Kumar,Ariana",
+      "id": "64",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#64",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
+    },
+    {
+      "name": "Kumar,Elijah",
+      "id": "65",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#65",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
+    },
+    {
       "name": "Kwek,Alexander",
       "id": "47",
       "fideId": "3291189",
@@ -1233,6 +1849,36 @@
       "acfClassic": 166,
       "acfQuick": 166,
       "acfId": "3218606"
+    },
+    {
+      "name": "Lavars,Jesse",
+      "id": "66",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#66",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
     },
     {
       "name": "Li,LiYuan",
@@ -1265,6 +1911,36 @@
       "acfId": "3204551"
     },
     {
+      "name": "Liao,Annie",
+      "id": "67",
+      "fideId": "3278930",
+      "gender": "female",
+      "href": "playercard.html#67",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2017,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3214001"
+    },
+    {
       "name": "Lingineni, Khushal",
       "id": "Lingineni, Khushal",
       "fideId": "3259056",
@@ -1288,17 +1964,54 @@
       "acfId": "3202532"
     },
     {
+      "name": "Luan,William",
+      "id": "22",
+      "fideId": "0",
+      "gender": "male",
+      "href": "playercard.html#22",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 776,
+      "acfQuick": 547,
+      "acfId": "3207362"
+    },
+    {
       "name": "Madduluri,Advaitha",
       "id": "66",
       "fideId": "3297403",
       "gender": "female",
       "href": "playercard.html#66",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 1.5,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1323,12 +2036,19 @@
       "fideId": "3297969",
       "gender": "male",
       "href": "playercard.html#67",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1348,23 +2068,53 @@
       "acfId": "3224173"
     },
     {
-      "name": "Manoj,Dev",
-      "id": "38",
-      "fideId": "3283470",
-      "gender": "male",
-      "href": "playercard.html#38",
+      "name": "Manjunath,Charvi",
+      "id": "69",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#69",
       "tournamentCount": 1,
       "tournaments": [
         {
-          "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
-          "score": 3,
-          "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
+    },
+    {
+      "name": "Manoj, Dev",
+      "id": "30",
+      "fideId": "3283470",
+      "gender": "male",
+      "href": "playercard.html#30",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       },
@@ -1406,12 +2156,19 @@
       "fideId": "573002275",
       "gender": "male",
       "href": "playercard.html#68",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 4,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1526,12 +2283,19 @@
       "fideId": "3289923",
       "gender": "male",
       "href": "playercard.html#24",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1581,6 +2345,36 @@
       "acfId": "3218621"
     },
     {
+      "name": "Nhuan Phat,Mai",
+      "id": "71",
+      "fideId": "12462942",
+      "gender": "male",
+      "href": "playercard.html#71",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2010,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "0014986"
+    },
+    {
       "name": "Northe-McCulloch, Jack",
       "id": "71",
       "fideId": "573002291",
@@ -1616,12 +2410,19 @@
       "fideId": "3214915",
       "gender": "male",
       "href": "playercard.html#4",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 4,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1639,6 +2440,96 @@
       "acfClassic": 1426,
       "acfQuick": 1283,
       "acfId": "3127464"
+    },
+    {
+      "name": "Owen,Lee",
+      "id": "72",
+      "fideId": "573001635",
+      "gender": "female",
+      "href": "playercard.html#72",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2005,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3224442"
+    },
+    {
+      "name": "Pai,Tesha",
+      "id": "73",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#73",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
+    },
+    {
+      "name": "Parker,Lucas",
+      "id": "4",
+      "fideId": "311110949",
+      "gender": "male",
+      "href": "playercard.html#4",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2015,
+      "fideStandard": 1709,
+      "fideRapid": 1782,
+      "fideBlitz": 1699,
+      "acfClassic": 1422,
+      "acfQuick": 1651,
+      "acfId": "3209484"
     },
     {
       "name": "Pathiyassery,Emir",
@@ -1676,12 +2567,19 @@
       "fideId": "3297438",
       "gender": "male",
       "href": "playercard.html#73",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2.5,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1819,12 +2717,19 @@
       "fideId": "573002305",
       "gender": "male",
       "href": "playercard.html#74",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1849,12 +2754,19 @@
       "fideId": "3281345",
       "gender": "male",
       "href": "playercard.html#21",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1874,17 +2786,54 @@
       "acfId": "3203980"
     },
     {
+      "name": "Saha,Arya",
+      "id": "76",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#76",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
+    },
+    {
       "name": "Samraat,Aayush",
       "id": "75",
       "fideId": "3295702",
       "gender": "male",
       "href": "playercard.html#75",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1909,12 +2858,19 @@
       "fideId": "3286380",
       "gender": "male",
       "href": "playercard.html#31",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1964,6 +2920,66 @@
       "acfId": "3204735"
     },
     {
+      "name": "Singh,Sumair",
+      "id": "38",
+      "fideId": "3273547",
+      "gender": "male",
+      "href": "playercard.html#38",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 0,
+      "fideRapid": 1448,
+      "fideBlitz": 0,
+      "acfClassic": 455,
+      "acfQuick": 536,
+      "acfId": "3210803"
+    },
+    {
+      "name": "Siripurapu,Jatin",
+      "id": "78",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#78",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
+    },
+    {
       "name": "Siripurapu,Jatin Aarush",
       "id": "76",
       "fideId": "573002313",
@@ -1999,12 +3015,19 @@
       "fideId": "3289974",
       "gender": "male",
       "href": "playercard.html#45",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3.5,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2059,12 +3082,19 @@
       "fideId": "3291235",
       "gender": "male",
       "href": "playercard.html#77",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 1.5,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2082,6 +3112,36 @@
       "acfClassic": 353,
       "acfQuick": 522,
       "acfId": "3218654"
+    },
+    {
+      "name": "Veeragandham, Gowtham",
+      "id": "45",
+      "fideId": "3295346",
+      "gender": "male",
+      "href": "playercard.html#45",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 1407,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 291,
+      "acfQuick": 291,
+      "acfId": "3222784"
     },
     {
       "name": "Veginati,Cherish",
@@ -2119,12 +3179,19 @@
       "fideId": "3291251",
       "gender": "male",
       "href": "playercard.html#23",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2149,12 +3216,19 @@
       "fideId": "3286410",
       "gender": "female",
       "href": "playercard.html#35",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3.5,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2174,17 +3248,54 @@
       "acfId": "3216996"
     },
     {
+      "name": "Verma,Vivaan",
+      "id": "17",
+      "fideId": "3292380",
+      "gender": "male",
+      "href": "playercard.html#17",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2015,
+      "fideStandard": 1450,
+      "fideRapid": 1501,
+      "fideBlitz": 0,
+      "acfClassic": 856,
+      "acfQuick": 810,
+      "acfId": "3219085"
+    },
+    {
       "name": "Vignesh,Prajeeth Balaji",
       "id": "1",
       "fideId": "4332180",
       "gender": "male",
       "href": "playercard.html#1",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2206,7 +3317,7 @@
     {
       "name": "Wang,Evan",
       "id": "78",
-      "fideId": "3287912",
+      "fideId": "573002321",
       "gender": "male",
       "href": "playercard.html#78",
       "tournamentCount": 1,
@@ -2239,12 +3350,19 @@
       "fideId": "573002330",
       "gender": "male",
       "href": "playercard.html#79",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2264,23 +3382,23 @@
       "acfId": "3220441"
     },
     {
-      "name": "Wei,Andrew",
-      "id": "18",
+      "name": "Wei, Andrew",
+      "id": "11",
       "fideId": "3265277",
       "gender": "male",
-      "href": "playercard.html#18",
+      "href": "playercard.html#11",
       "tournamentCount": 1,
       "tournaments": [
         {
-          "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
-          "score": 4,
-          "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       },
@@ -2299,12 +3417,19 @@
       "fideId": "573002348",
       "gender": "male",
       "href": "playercard.html#80",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 1,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2389,12 +3514,19 @@
       "fideId": "573002356",
       "gender": "male",
       "href": "playercard.html#81",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 1,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2442,12 +3574,19 @@
       "fideId": "573002364",
       "gender": "male",
       "href": "playercard.html#82",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 1,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2502,12 +3641,19 @@
       "fideId": "3262952",
       "gender": "male",
       "href": "playercard.html#12",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2532,12 +3678,19 @@
       "fideId": "3267881",
       "gender": "male",
       "href": "playercard.html#29",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
         }
