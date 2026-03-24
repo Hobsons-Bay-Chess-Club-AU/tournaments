@@ -50,6 +50,13 @@ export default function MobileNav() {
               Tournaments
             </Link>
             <Link
+              href="/major-tournaments"
+              className="block w-full px-3 py-2 rounded-md text-gray-700 hover:bg-primary-50 hover:text-primary-700 font-medium"
+              onClick={() => setOpen(false)}
+            >
+              Major Tournaments
+            </Link>
+            <Link
               href="/leaderboard"
               className="block w-full px-3 py-2 rounded-md text-gray-700 hover:bg-primary-50 hover:text-primary-700 font-medium"
               onClick={() => setOpen(false)}
