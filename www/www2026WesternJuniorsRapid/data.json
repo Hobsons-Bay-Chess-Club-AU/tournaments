@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T02:24:44.189Z",
+  "generatedAt": "2026-03-25T08:29:49.075Z",
   "page": {
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 0",
@@ -303,6 +303,15 @@
             {
               "#": "23",
               "Title": "",
+              "Player": "Bodke,Aryan",
+              "Fed": "VIC",
+              "Rtg": "295",
+              "RtgF": "0",
+              "RtgN": "295"
+            },
+            {
+              "#": "24",
+              "Title": "",
               "Player": "Spriggs,Harvey",
               "Fed": "VIC",
               "Rtg": "291",
@@ -310,7 +319,7 @@
               "RtgN": "291"
             },
             {
-              "#": "24",
+              "#": "25",
               "Title": "",
               "Player": "Goh,Julian",
               "Fed": "VIC",
@@ -319,7 +328,16 @@
               "RtgN": "190"
             },
             {
-              "#": "25",
+              "#": "26",
+              "Title": "",
+              "Player": "Lim,Darren",
+              "Fed": "VIC",
+              "Rtg": "172",
+              "RtgF": "0",
+              "RtgN": "172"
+            },
+            {
+              "#": "27",
               "Title": "",
               "Player": "Gunathilake,Sithev",
               "Fed": "VIC",
@@ -328,7 +346,7 @@
               "RtgN": "168"
             },
             {
-              "#": "26",
+              "#": "28",
               "Title": "",
               "Player": "Bala,Jake",
               "Fed": "VIC",
@@ -337,7 +355,7 @@
               "RtgN": "0"
             },
             {
-              "#": "27",
+              "#": "29",
               "Title": "",
               "Player": "Bala,Neil",
               "Fed": "VIC",
@@ -346,7 +364,7 @@
               "RtgN": "0"
             },
             {
-              "#": "28",
+              "#": "30",
               "Title": "",
               "Player": "Hii,Elliott",
               "Fed": "VIC",
@@ -355,7 +373,7 @@
               "RtgN": "0"
             },
             {
-              "#": "29",
+              "#": "31",
               "Title": "",
               "Player": "Krishnan,Sanjay",
               "Fed": "VIC",
@@ -364,7 +382,7 @@
               "RtgN": "0"
             },
             {
-              "#": "30",
+              "#": "32",
               "Title": "",
               "Player": "Krishnan,Sanjit",
               "Fed": "VIC",
@@ -373,7 +391,7 @@
               "RtgN": "0"
             },
             {
-              "#": "31",
+              "#": "33",
               "Title": "",
               "Player": "Mantrala,Vishruth",
               "Fed": "VIC",
@@ -382,7 +400,7 @@
               "RtgN": "0"
             },
             {
-              "#": "32",
+              "#": "34",
               "Title": "",
               "Player": "Mantrala,Yuvan",
               "Fed": "VIC",
@@ -391,7 +409,7 @@
               "RtgN": "0"
             },
             {
-              "#": "33",
+              "#": "35",
               "Title": "",
               "Player": "Pradeep,Mayukh",
               "Fed": "VIC",
@@ -400,7 +418,7 @@
               "RtgN": "0"
             },
             {
-              "#": "34",
+              "#": "36",
               "Title": "",
               "Player": "Sagar,Dev",
               "Fed": "VIC",
@@ -409,7 +427,7 @@
               "RtgN": "0"
             },
             {
-              "#": "35",
+              "#": "37",
               "Title": "",
               "Player": "Wang,Charlie",
               "Fed": "VIC",
@@ -2148,6 +2166,102 @@
             "rawText": "35  FM Annapureddy,Rheyansh, K= 0, Elo=2146, ID=3197035",
             "rawHtml": "  35  FM <strong>Annapureddy,Rheyansh</strong>, K= 0, Elo=2146, ID=3197035\n<br>\n<a class=\"anchor\" name=\"35\"></a>"
           }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Bodke,Aryan",
+            "id": "3211735",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "295",
+              "anchor": "36"
+            },
+            "rawText": "36   Bodke,Aryan         , K= 0, Elo= 295, ID=3211735",
+            "rawHtml": "  36   <strong>Bodke,Aryan         </strong>, K= 0, Elo= 295, ID=3211735\n<br>\n<a class=\"anchor\" name=\"36\"></a>"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Lim,Darren",
+            "id": "3204562",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "172",
+              "anchor": "37"
+            },
+            "rawText": "37   Lim,Darren          , K= 0, Elo= 172, ID=3204562",
+            "rawHtml": "  37   <strong>Lim,Darren          </strong>, K= 0, Elo= 172, ID=3204562\n<br>\n<a class=\"anchor\" name=\"37\"></a>"
+          }
         }
       ],
       "tournamentType": "unknown"
@@ -2223,7 +2337,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "35"
+              "col2": "37"
             },
             {
               "col1": "Number of Federations",
@@ -2231,7 +2345,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "732"
+              "col2": "705"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -2243,7 +2357,7 @@
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "34"
+              "col2": "36"
             },
             {
               "col1": "FIDE rated players",
@@ -2251,7 +2365,7 @@
             },
             {
               "col1": "unrated players",
-              "col2": "22"
+              "col2": "24"
             },
             {
               "col1": "unrated players from AUS Federation",
@@ -2259,7 +2373,7 @@
             },
             {
               "col1": "unrated players NOT from AUS Federation",
-              "col2": "22"
+              "col2": "24"
             },
             {
               "col1": "unrated Federations",
@@ -2560,6 +2674,17 @@
     },
     "23": {
       "id": "23",
+      "playerName": "Bodke,Aryan",
+      "title": "",
+      "federation": "VIC",
+      "rating": "295",
+      "gender": "",
+      "fideId": "",
+      "href": "",
+      "moreInfo": {}
+    },
+    "24": {
+      "id": "24",
       "playerName": "Spriggs,Harvey",
       "title": "",
       "federation": "VIC",
@@ -2569,8 +2694,8 @@
       "href": "",
       "moreInfo": {}
     },
-    "24": {
-      "id": "24",
+    "25": {
+      "id": "25",
       "playerName": "Goh,Julian",
       "title": "",
       "federation": "VIC",
@@ -2580,8 +2705,19 @@
       "href": "",
       "moreInfo": {}
     },
-    "25": {
-      "id": "25",
+    "26": {
+      "id": "26",
+      "playerName": "Lim,Darren",
+      "title": "",
+      "federation": "VIC",
+      "rating": "172",
+      "gender": "",
+      "fideId": "",
+      "href": "",
+      "moreInfo": {}
+    },
+    "27": {
+      "id": "27",
       "playerName": "Gunathilake,Sithev",
       "title": "",
       "federation": "VIC",
@@ -2591,31 +2727,9 @@
       "href": "",
       "moreInfo": {}
     },
-    "26": {
-      "id": "26",
-      "playerName": "Bala,Jake",
-      "title": "",
-      "federation": "VIC",
-      "rating": "0",
-      "gender": "",
-      "fideId": "",
-      "href": "",
-      "moreInfo": {}
-    },
-    "27": {
-      "id": "27",
-      "playerName": "Bala,Neil",
-      "title": "",
-      "federation": "VIC",
-      "rating": "0",
-      "gender": "",
-      "fideId": "",
-      "href": "",
-      "moreInfo": {}
-    },
     "28": {
       "id": "28",
-      "playerName": "Hii,Elliott",
+      "playerName": "Bala,Jake",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -2626,7 +2740,7 @@
     },
     "29": {
       "id": "29",
-      "playerName": "Krishnan,Sanjay",
+      "playerName": "Bala,Neil",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -2637,7 +2751,7 @@
     },
     "30": {
       "id": "30",
-      "playerName": "Krishnan,Sanjit",
+      "playerName": "Hii,Elliott",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -2648,7 +2762,7 @@
     },
     "31": {
       "id": "31",
-      "playerName": "Mantrala,Vishruth",
+      "playerName": "Krishnan,Sanjay",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -2659,7 +2773,7 @@
     },
     "32": {
       "id": "32",
-      "playerName": "Mantrala,Yuvan",
+      "playerName": "Krishnan,Sanjit",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -2670,7 +2784,7 @@
     },
     "33": {
       "id": "33",
-      "playerName": "Pradeep,Mayukh",
+      "playerName": "Mantrala,Vishruth",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -2681,7 +2795,7 @@
     },
     "34": {
       "id": "34",
-      "playerName": "Sagar,Dev",
+      "playerName": "Mantrala,Yuvan",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -2692,6 +2806,28 @@
     },
     "35": {
       "id": "35",
+      "playerName": "Pradeep,Mayukh",
+      "title": "",
+      "federation": "VIC",
+      "rating": "0",
+      "gender": "",
+      "fideId": "",
+      "href": "",
+      "moreInfo": {}
+    },
+    "36": {
+      "id": "36",
+      "playerName": "Sagar,Dev",
+      "title": "",
+      "federation": "VIC",
+      "rating": "0",
+      "gender": "",
+      "fideId": "",
+      "href": "",
+      "moreInfo": {}
+    },
+    "37": {
+      "id": "37",
       "playerName": "Wang,Charlie",
       "title": "",
       "federation": "VIC",
@@ -2927,6 +3063,15 @@
     {
       "#": "23",
       "Title": "",
+      "Player": "Bodke,Aryan",
+      "Fed": "VIC",
+      "Rtg": "295",
+      "RtgF": "0",
+      "RtgN": "295"
+    },
+    {
+      "#": "24",
+      "Title": "",
       "Player": "Spriggs,Harvey",
       "Fed": "VIC",
       "Rtg": "291",
@@ -2934,7 +3079,7 @@
       "RtgN": "291"
     },
     {
-      "#": "24",
+      "#": "25",
       "Title": "",
       "Player": "Goh,Julian",
       "Fed": "VIC",
@@ -2943,7 +3088,16 @@
       "RtgN": "190"
     },
     {
-      "#": "25",
+      "#": "26",
+      "Title": "",
+      "Player": "Lim,Darren",
+      "Fed": "VIC",
+      "Rtg": "172",
+      "RtgF": "0",
+      "RtgN": "172"
+    },
+    {
+      "#": "27",
       "Title": "",
       "Player": "Gunathilake,Sithev",
       "Fed": "VIC",
@@ -2952,7 +3106,7 @@
       "RtgN": "168"
     },
     {
-      "#": "26",
+      "#": "28",
       "Title": "",
       "Player": "Bala,Jake",
       "Fed": "VIC",
@@ -2961,7 +3115,7 @@
       "RtgN": "0"
     },
     {
-      "#": "27",
+      "#": "29",
       "Title": "",
       "Player": "Bala,Neil",
       "Fed": "VIC",
@@ -2970,7 +3124,7 @@
       "RtgN": "0"
     },
     {
-      "#": "28",
+      "#": "30",
       "Title": "",
       "Player": "Hii,Elliott",
       "Fed": "VIC",
@@ -2979,7 +3133,7 @@
       "RtgN": "0"
     },
     {
-      "#": "29",
+      "#": "31",
       "Title": "",
       "Player": "Krishnan,Sanjay",
       "Fed": "VIC",
@@ -2988,7 +3142,7 @@
       "RtgN": "0"
     },
     {
-      "#": "30",
+      "#": "32",
       "Title": "",
       "Player": "Krishnan,Sanjit",
       "Fed": "VIC",
@@ -2997,7 +3151,7 @@
       "RtgN": "0"
     },
     {
-      "#": "31",
+      "#": "33",
       "Title": "",
       "Player": "Mantrala,Vishruth",
       "Fed": "VIC",
@@ -3006,7 +3160,7 @@
       "RtgN": "0"
     },
     {
-      "#": "32",
+      "#": "34",
       "Title": "",
       "Player": "Mantrala,Yuvan",
       "Fed": "VIC",
@@ -3015,7 +3169,7 @@
       "RtgN": "0"
     },
     {
-      "#": "33",
+      "#": "35",
       "Title": "",
       "Player": "Pradeep,Mayukh",
       "Fed": "VIC",
@@ -3024,7 +3178,7 @@
       "RtgN": "0"
     },
     {
-      "#": "34",
+      "#": "36",
       "Title": "",
       "Player": "Sagar,Dev",
       "Fed": "VIC",
@@ -3033,7 +3187,7 @@
       "RtgN": "0"
     },
     {
-      "#": "35",
+      "#": "37",
       "Title": "",
       "Player": "Wang,Charlie",
       "Fed": "VIC",
@@ -3054,16 +3208,16 @@
     "Rounds": "9",
     "Score game": "0-0.5-1",
     "Tie break": "BH BH/C1 SB",
-    "Registered Players": "35",
+    "Registered Players": "37",
     "Number of Federations": "2",
-    "Average Rating (all)": "732",
+    "Average Rating (all)": "705",
     "Average Rating (only FIDE rated)": "1594",
     "Players from AUS Federation": "1",
-    "Players NOT from AUS Federation": "34",
+    "Players NOT from AUS Federation": "36",
     "FIDE rated players": "13",
-    "unrated players": "22",
+    "unrated players": "24",
     "unrated players from AUS Federation": "0",
-    "unrated players NOT from AUS Federation": "22",
+    "unrated players NOT from AUS Federation": "24",
     "unrated Federations": "1",
     "FIDE titled players": "3",
     "GM players": "0",
@@ -3078,5 +3232,5 @@
     "FIDE titled player NOT from AUS Federation": "3",
     "category": "Junior"
   },
-  "md5Hash": "d5d52f848fec8900cb6cf5b08240837d"
+  "md5Hash": "c9ffa9b37bbc0a0116292c1e016c7cf0"
 }

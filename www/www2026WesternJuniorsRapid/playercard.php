@@ -318,6 +318,22 @@
 </tr> </thead><tbody>
 </tbody>
 </table><br>
+<table class="table caption-top table-striped "> 
+<caption>  36   <strong>Bodke,Aryan         </strong>, K= 0, Elo= 295, ID=3211735
+<br>
+<a class="anchor" name="36"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
+<table class="table caption-top table-striped "> 
+<caption>  37   <strong>Lim,Darren          </strong>, K= 0, Elo= 172, ID=3204562
+<br>
+<a class="anchor" name="37"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+</tbody>
+</table><br>
 </DIV>
 		  </div>
 		      </div>
