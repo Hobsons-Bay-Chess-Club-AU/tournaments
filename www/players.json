@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-24T02:49:37.491Z",
+  "generatedAt": "2026-04-24T09:45:07.444Z",
   "year": "2026",
   "count": 159,
   "seniorCount": 85,
-  "juniorCount": 118,
-  "totalTournaments": 7,
+  "juniorCount": 124,
+  "totalTournaments": 8,
   "players": [
     {
       "name": "Ahmad,Ihtiram",
@@ -866,7 +866,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#3",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -879,6 +879,13 @@
           "tournament": "www2026PurdyCupOpen/data.json",
           "score": 3.5,
           "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternMastersOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Western Masters 2026",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2164,7 +2171,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#6",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -2172,10 +2179,17 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternMastersOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Western Masters 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 4,
         "rapid": 0,
         "blitz": 0
       }
@@ -2338,7 +2352,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#5",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -2367,10 +2381,17 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026WesternMastersOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Western Masters 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 8,
         "rapid": 4,
         "blitz": 5
       }
@@ -2687,7 +2708,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#11",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -2700,6 +2721,13 @@
           "tournament": "www2026PurdyCupOpen/data.json",
           "score": 2.5,
           "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternMastersOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Western Masters 2026",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2898,7 +2926,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#4",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -2927,10 +2955,17 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026WesternMastersOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Western Masters 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 8,
         "rapid": 5,
         "blitz": 9
       }
@@ -3224,7 +3259,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#8",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -3253,6 +3288,13 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026WesternMastersOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Western Masters 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
