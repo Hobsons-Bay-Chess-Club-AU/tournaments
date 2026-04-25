@@ -319,6 +319,10 @@ async function main() {
     acfQuickVeg = acfClassicVeg;
   }
   if (!acfQuickVeg) throw new Error('No Quick .veg file found');
+  // Parse ACF Classic and Quick
+  const acfClassicMap = parseVegFile(acfClassicVeg);
+  const acfQuickMap = parseVegFile(acfQuickVeg);
+
   // Build wanted sets from local player files
   const juniorPath = join(__dirname, '../www/junior-players.json');
   const seniorPath = join(__dirname, '../www/senior-players.json');
@@ -331,16 +335,29 @@ async function main() {
   [...juniorData.players, ...seniorData.players].forEach(p => {
     if (p.fideId) wantedIds.add(p.fideId);
     if (p.acfId) wantedIds.add(p.acfId);
-    if (p.name) wantedNames.add(normaliseName(p.name));
+    const normName = normaliseName(p.name);
+    if (p.name) wantedNames.add(normName);
+
+    // DISCOVERY: Find FIDE IDs from ACF for players we are looking for
+    const acfMatches = [
+      acfClassicMap.get(p.acfId),
+      acfClassicMap.get(p.fideId),
+      acfClassicMap.get(normName),
+      acfQuickMap.get(p.acfId),
+      acfQuickMap.get(p.fideId),
+      acfQuickMap.get(normName)
+    ];
+    acfMatches.forEach(m => {
+      if (m && m.fideId && m.fideId !== '0') {
+        wantedIds.add(m.fideId);
+      }
+    });
   });
 
   // Parse FIDE players for enrichment
   const fidePlayers = parseFideTxt(txtFile, wantedIds, wantedNames);
   const fideMap = buildFideMap(fidePlayers);
 
-  // Parse ACF Classic and Quick
-  const acfClassicMap = parseVegFile(acfClassicVeg);
-  const acfQuickMap = parseVegFile(acfQuickVeg);
   await enrichRatings(juniorPath, juniorOut, fideMap, acfClassicMap, acfQuickMap);
   await enrichRatings(seniorPath, seniorOut, fideMap, acfClassicMap, acfQuickMap);
   console.log('Ratings enrichment complete.');
