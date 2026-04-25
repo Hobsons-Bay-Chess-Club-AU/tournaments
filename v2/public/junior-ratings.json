@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-24T02:49:37.489Z",
+  "generatedAt": "2026-04-24T09:59:51.959Z",
   "year": "2026",
-  "count": 118,
-  "totalTournaments": 7,
+  "count": 129,
+  "totalTournaments": 11,
   "players": [
     {
       "name": "Ahmad,Ihtiram",
@@ -137,12 +137,19 @@
       "fideId": "3239683",
       "gender": "male",
       "href": "playercard.html#8",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3.5,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternSwissOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Western Swiss 2026",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -227,7 +234,7 @@
       "fideId": "3275108",
       "gender": "male",
       "href": "playercard.html#15",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -242,10 +249,17 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternSwissOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Western Swiss 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 7,
         "rapid": 0,
         "blitz": 0
       },
@@ -442,6 +456,36 @@
       "acfClassic": 456,
       "acfQuick": 439,
       "acfId": "3212435"
+    },
+    {
+      "name": "Balogun,Olalekan",
+      "id": "2",
+      "fideId": "108217886",
+      "gender": "male",
+      "href": "playercard.html#2",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternSwissOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Western Swiss 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1985,
+      "fideStandard": 1668,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 1307,
+      "acfQuick": 1307,
+      "acfId": "0006155"
     },
     {
       "name": "Barar,Ridam",
@@ -712,6 +756,36 @@
       "acfId": "3224136"
     },
     {
+      "name": "Clerk,Max",
+      "id": "7",
+      "fideId": "3234134",
+      "gender": "male",
+      "href": "playercard.html#7",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternSwissOpen/data.json",
+          "score": 0.5,
+          "name": "Hobsons Bay Western Swiss 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0.5,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2002,
+      "fideStandard": 1443,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 958,
+      "acfQuick": 958,
+      "acfId": "3161584"
+    },
+    {
       "name": "Daffey,Callum",
       "id": "56",
       "fideId": "573002224",
@@ -784,6 +858,36 @@
       "acfClassic": 376,
       "acfQuick": 302,
       "acfId": "3204584"
+    },
+    {
+      "name": "Davis,Tony J",
+      "id": "2",
+      "fideId": "3205550",
+      "gender": "male",
+      "href": "playercard.html#2",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternMastersOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Western Masters 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "CM",
+      "birthYear": 1968,
+      "fideStandard": 1880,
+      "fideRapid": 1925,
+      "fideBlitz": 1755,
+      "acfClassic": 1772,
+      "acfQuick": 1322,
+      "acfId": "3073264"
     },
     {
       "name": "Dhar, Shubham",
@@ -1022,6 +1126,36 @@
       "acfClassic": 597,
       "acfQuick": 370,
       "acfId": "3218584"
+    },
+    {
+      "name": "Gali,Joyel Evan",
+      "id": "9",
+      "fideId": "573001627",
+      "gender": "male",
+      "href": "playercard.html#9",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternSwissOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Western Swiss 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2015,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3224431"
     },
     {
       "name": "Ganesh Kumar, Mukunth",
@@ -1701,12 +1835,72 @@
       "acfId": "3222751"
     },
     {
+      "name": "Kostakakis,Angelo",
+      "id": "6",
+      "fideId": "3227499",
+      "gender": "male",
+      "href": "playercard.html#6",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternSwissOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Western Swiss 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1958,
+      "fideStandard": 1404,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 1004,
+      "acfQuick": 1004,
+      "acfId": "3168605"
+    },
+    {
+      "name": "Krishnan,Anirudh",
+      "id": "1",
+      "fideId": "3254925",
+      "gender": "male",
+      "href": "playercard.html#1",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternMastersOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Western Masters 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1985,
+      "fideStandard": 1843,
+      "fideRapid": 1808,
+      "fideBlitz": 1794,
+      "acfClassic": 1694,
+      "acfQuick": 1083,
+      "acfId": "3200222"
+    },
+    {
       "name": "Krishnan,Sanjay",
       "id": "62",
       "fideId": "573003271",
       "gender": "male",
       "href": "playercard.html#62",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -1714,10 +1908,17 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternSwissOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Western Swiss 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 1,
+        "standard": 2,
         "rapid": 0,
         "blitz": 0
       },
@@ -1736,7 +1937,7 @@
       "fideId": "573003280",
       "gender": "male",
       "href": "playercard.html#63",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -1744,10 +1945,17 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternSwissOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Western Swiss 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       },
@@ -1849,6 +2057,36 @@
       "acfClassic": 166,
       "acfQuick": 166,
       "acfId": "3218606"
+    },
+    {
+      "name": "Lacson,Joemar",
+      "id": "3",
+      "fideId": "3257762",
+      "gender": "male",
+      "href": "playercard.html#3",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternMastersOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Western Masters 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1973,
+      "fideStandard": 1849,
+      "fideRapid": 1825,
+      "fideBlitz": 1783,
+      "acfClassic": 1768,
+      "acfQuick": 1421,
+      "acfId": "3112506"
     },
     {
       "name": "Lavars,Jesse",
@@ -2188,6 +2426,36 @@
       "acfId": "3224195"
     },
     {
+      "name": "McIntyre,Julian",
+      "id": "6",
+      "fideId": "3232182",
+      "gender": "male",
+      "href": "playercard.html#6",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternMastersOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Western Masters 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2004,
+      "fideStandard": 1774,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 1611,
+      "acfQuick": 849,
+      "acfId": "3176061"
+    },
+    {
       "name": "Menghani,Ishaan",
       "id": "69",
       "fideId": "3298213",
@@ -2313,6 +2581,36 @@
       "acfClassic": 819,
       "acfQuick": 637,
       "acfId": "3217486"
+    },
+    {
+      "name": "Nguyen,Anh Kiet",
+      "id": "5",
+      "fideId": "3267849",
+      "gender": "male",
+      "href": "playercard.html#5",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternMastersOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Western Masters 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "CM",
+      "birthYear": 2012,
+      "fideStandard": 1995,
+      "fideRapid": 1862,
+      "fideBlitz": 1753,
+      "acfClassic": 1774,
+      "acfQuick": 1557,
+      "acfId": "3206205"
     },
     {
       "name": "Nguyen,Lucas",
@@ -2562,12 +2860,42 @@
       "acfId": "3210265"
     },
     {
+      "name": "Paul,Cijo",
+      "id": "4",
+      "fideId": "2054515",
+      "gender": "male",
+      "href": "playercard.html#4",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternMastersOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Western Masters 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1982,
+      "fideStandard": 1788,
+      "fideRapid": 1720,
+      "fideBlitz": 1735,
+      "acfClassic": 1608,
+      "acfQuick": 1141,
+      "acfId": "3194913"
+    },
+    {
       "name": "Pradeep,Mayukh",
       "id": "73",
       "fideId": "3297438",
       "gender": "male",
       "href": "playercard.html#73",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2580,6 +2908,13 @@
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 2,
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternSwissOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Western Swiss 2026",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2634,7 +2969,7 @@
       "fideId": "3275221",
       "gender": "male",
       "href": "playercard.html#7",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2642,10 +2977,17 @@
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternSwissOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Western Swiss 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 6,
         "rapid": 0,
         "blitz": 0
       },
@@ -2754,7 +3096,7 @@
       "fideId": "3281345",
       "gender": "male",
       "href": "playercard.html#21",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2767,6 +3109,13 @@
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 1.5,
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternSwissOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Western Swiss 2026",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2888,6 +3237,36 @@
       "acfClassic": 657,
       "acfQuick": 665,
       "acfId": "3217011"
+    },
+    {
+      "name": "Sheikh,Tahmid",
+      "id": "13",
+      "fideId": "3292487",
+      "gender": "male",
+      "href": "playercard.html#13",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternSwissOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Western Swiss 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1997,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 115,
+      "acfId": "3220485"
     },
     {
       "name": "Singh,Abhyuday",
@@ -3454,12 +3833,19 @@
       "fideId": "3255689",
       "gender": "male",
       "href": "playercard.html#13",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3.5,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternSwissOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Western Swiss 2026",
           "totalRounds": "5",
           "ratingType": "standard"
         }

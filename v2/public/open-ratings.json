@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-24T02:49:37.488Z",
+  "generatedAt": "2026-04-24T09:59:51.958Z",
   "year": "2026",
-  "count": 85,
-  "totalTournaments": 7,
+  "count": 87,
+  "totalTournaments": 11,
   "players": [
     {
       "name": "Annadasu,Shreyansh",
@@ -299,7 +299,7 @@
       "fideId": "3259021",
       "gender": "male",
       "href": "playercard.html#13",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -312,6 +312,13 @@
           "tournament": "www2026PurdyCupOpen/data.json",
           "score": 3,
           "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternMajorOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Western Major 2026",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -331,7 +338,7 @@
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 7,
         "rapid": 0.5,
         "blitz": 6
       },
@@ -560,6 +567,36 @@
       "acfId": ""
     },
     {
+      "name": "Enano,Ronald",
+      "id": "5",
+      "fideId": "3227480",
+      "gender": "male",
+      "href": "playercard.html#5",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternMajorOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Western Major 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1960,
+      "fideStandard": 1765,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 1574,
+      "acfQuick": 1574,
+      "acfId": "3096714"
+    },
+    {
       "name": "Gali, Joyel Evan",
       "id": "32",
       "fideId": "573001627",
@@ -713,12 +750,19 @@
       "fideId": "3268845",
       "gender": "male",
       "href": "playercard.html#11",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupOpen/data.json",
           "score": 2.5,
           "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternMajorOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Western Major 2026",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -743,7 +787,7 @@
       "fideId": "3201414",
       "gender": "male",
       "href": "playercard.html#20",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -756,6 +800,13 @@
           "tournament": "www2026PurdyCupOpen/data.json",
           "score": 2,
           "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternMinorOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Western Minor 2026",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -775,7 +826,7 @@
         }
       ],
       "points": {
-        "standard": 5.5,
+        "standard": 6.5,
         "rapid": 3,
         "blitz": 5
       },
@@ -1490,7 +1541,7 @@
       "fideId": "3242838",
       "gender": "male",
       "href": "playercard.html#21",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -1503,6 +1554,13 @@
           "tournament": "www2026PurdyCupOpen/data.json",
           "score": 2.5,
           "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternMinorOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Western Minor 2026",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1590,12 +1648,19 @@
     },
     {
       "name": "Menezes,Eric",
-      "id": "4",
+      "id": "6",
       "fideId": "3235068",
       "gender": "male",
-      "href": "playercard.html#4",
-      "tournamentCount": 2,
+      "href": "playercard.html#6",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026WesternMajorOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Western Major 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwBlitz12026/data.json",
           "score": 7,
@@ -1684,6 +1749,36 @@
       "acfClassic": 2184,
       "acfQuick": 2184,
       "acfId": "0015045"
+    },
+    {
+      "name": "Mullen,Chris",
+      "id": "5",
+      "fideId": "3213803",
+      "gender": "male",
+      "href": "playercard.html#5",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternMinorOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Western Minor 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1978,
+      "fideStandard": 1671,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 1394,
+      "acfQuick": 1394,
+      "acfId": "3127361"
     },
     {
       "name": "Nema,Nivaan",
@@ -1809,7 +1904,7 @@
       "fideId": "3214915",
       "gender": "male",
       "href": "playercard.html#18",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -1822,6 +1917,13 @@
           "tournament": "www2026PurdyCupOpen/data.json",
           "score": 1.5,
           "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternMinorOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Western Minor 2026",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -2061,7 +2163,7 @@
       "fideId": "3254003",
       "gender": "male",
       "href": "playercard.html#19",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -2076,10 +2178,17 @@
           "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternMinorOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Western Minor 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4.5,
+        "standard": 5.5,
         "rapid": 0,
         "blitz": 0
       },
@@ -2232,12 +2341,19 @@
       "fideId": "311214578",
       "gender": "female",
       "href": "playercard.html#14",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupOpen/data.json",
           "score": 3,
           "name": "Hobsons Bay Purdy Cup Open",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternMajorOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Western Major 2026",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -2558,7 +2674,7 @@
       "fideId": "3202640",
       "gender": "female",
       "href": "playercard.html#12",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -2566,10 +2682,17 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternMinorOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Western Minor 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       },
@@ -2826,7 +2949,7 @@
       "fideId": "3232220",
       "gender": "male",
       "href": "playercard.html#15",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -2841,10 +2964,17 @@
           "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternMajorOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Western Major 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 7,
         "rapid": 0,
         "blitz": 0
       },
