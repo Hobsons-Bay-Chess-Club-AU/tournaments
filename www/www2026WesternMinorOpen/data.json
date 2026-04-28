@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T09:59:43.632Z",
+  "generatedAt": "2026-04-28T14:15:22.223Z",
   "page": {
     "calendarroundrobin.html": {
       "pageHeading": "Schedule",
@@ -97,7 +97,7 @@
               "N": "1",
               "White": "Paul,Nikash",
               "NW": "6",
-              "result": "ADJ",
+              "result": "1 - 0",
               "NB": "4",
               "Black": "Nowak,Ruben"
             },
@@ -105,7 +105,7 @@
               "N": "2",
               "White": "Mullen,Chris",
               "NW": "5",
-              "result": "ADJ",
+              "result": "1 - 0",
               "NB": "3",
               "Black": "Hogan,Steven"
             },
@@ -113,7 +113,7 @@
               "N": "3",
               "White": "Matijas,Dejan",
               "NW": "1",
-              "result": "ADJ",
+              "result": "0 - 1",
               "NB": "2",
               "Black": "Szuveges,Narelle S"
             }
@@ -280,7 +280,7 @@
               "N": "1",
               "White": "Hogan,Steven",
               "NW": "3",
-              "result": "...",
+              "result": "ADJ",
               "NB": "6",
               "Black": "Paul,Nikash"
             },
@@ -288,7 +288,7 @@
               "N": "2",
               "White": "Nowak,Ruben",
               "NW": "4",
-              "result": "...",
+              "result": "ADJ",
               "NB": "2",
               "Black": "Szuveges,Narelle S"
             },
@@ -296,7 +296,7 @@
               "N": "3",
               "White": "Mullen,Chris",
               "NW": "5",
-              "result": "...",
+              "result": "ADJ",
               "NB": "1",
               "Black": "Matijas,Dejan"
             }
@@ -609,7 +609,7 @@
                 "moreInfo": {}
               },
               "Pts": "1",
-              "Result": "ADJ",
+              "Result": "1 - 0",
               "Pts_1": "0",
               "Black Player": {
                 "id": "4",
@@ -639,7 +639,7 @@
                 "moreInfo": {}
               },
               "Pts": "0",
-              "Result": "ADJ",
+              "Result": "1 - 0",
               "Pts_1": "1",
               "Black Player": {
                 "id": "3",
@@ -669,7 +669,7 @@
                 "moreInfo": {}
               },
               "Pts": "0",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "Pts_1": "1",
               "Black Player": {
                 "id": "2",
@@ -743,9 +743,9 @@
                 "fideId": "",
                 "moreInfo": {}
               },
-              "Pts": "1",
+              "Pts": "2",
               "Result": "ADJ",
-              "Pts_1": "1",
+              "Pts_1": "2",
               "Black Player": {
                 "id": "6",
                 "playerName": "Paul,Nikash",
@@ -805,7 +805,7 @@
               },
               "Pts": "0",
               "Result": "ADJ",
-              "Pts_1": "0",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "5",
                 "playerName": "Mullen,Chris",
@@ -878,9 +878,9 @@
                 "fideId": "",
                 "moreInfo": {}
               },
-              "Pts": "1",
+              "Pts": "2",
               "Result": "ADJ",
-              "Pts_1": "0",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "5",
                 "playerName": "Mullen,Chris",
@@ -938,7 +938,7 @@
                 "fideId": "",
                 "moreInfo": {}
               },
-              "Pts": "1",
+              "Pts": "2",
               "Result": "ADJ",
               "Pts_1": "1",
               "Black Player": {
@@ -1014,8 +1014,8 @@
                 "moreInfo": {}
               },
               "Pts": "1",
-              "Result": "...",
-              "Pts_1": "1",
+              "Result": "ADJ",
+              "Pts_1": "2",
               "Black Player": {
                 "id": "6",
                 "playerName": "Paul,Nikash",
@@ -1044,8 +1044,8 @@
                 "moreInfo": {}
               },
               "Pts": "0",
-              "Result": "...",
-              "Pts_1": "1",
+              "Result": "ADJ",
+              "Pts_1": "2",
               "Black Player": {
                 "id": "2",
                 "playerName": "Szuveges,Narelle S",
@@ -1073,8 +1073,8 @@
                 "fideId": "",
                 "moreInfo": {}
               },
-              "Pts": "0",
-              "Result": "...",
+              "Pts": "1",
+              "Result": "ADJ",
               "Pts_1": "0",
               "Black Player": {
                 "id": "1",
@@ -1142,17 +1142,17 @@
               "OPPONENT": "Paul,Nikash",
               "Rtg": "1364",
               "res": "0.0",
-              "Pts": "1.0"
+              "Pts": "2.0"
             },
             {
               "R": "2",
-              "C": "--",
+              "C": "W",
               "N": "2",
-              "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "Cat": "WIM",
+              "OPPONENT": "Szuveges,Narelle S",
+              "Rtg": "1449",
               "res": "0.0",
-              "Pts": "0.0"
+              "Pts": "2.0"
             },
             {
               "R": "3",
@@ -1177,7 +1177,7 @@
             {
               "R": "5",
               "C": "--",
-              "N": "0",
+              "N": "5",
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
@@ -1241,15 +1241,15 @@
               "OPPONENT": "Mullen,Chris",
               "Rtg": "1394",
               "res": "1.0",
-              "Pts": "0.0"
+              "Pts": "1.0"
             },
             {
               "R": "2",
-              "C": "--",
+              "C": "B",
               "N": "1",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "Matijas,Dejan",
+              "Rtg": "1367",
               "res": "1.0",
               "Pts": "0.0"
             },
@@ -1276,11 +1276,11 @@
             {
               "R": "5",
               "C": "--",
-              "N": "0",
+              "N": "4",
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             }
           ],
@@ -1344,13 +1344,13 @@
             },
             {
               "R": "2",
-              "C": "--",
+              "C": "B",
               "N": "5",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "1.0",
-              "Pts": "0.0"
+              "OPPONENT": "Mullen,Chris",
+              "Rtg": "1394",
+              "res": "0.0",
+              "Pts": "1.0"
             },
             {
               "R": "3",
@@ -1359,7 +1359,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "1.0",
+              "res": "0.0",
               "Pts": "0.0"
             },
             {
@@ -1369,13 +1369,13 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "1.0",
+              "res": "0.0",
               "Pts": "0.0"
             },
             {
               "R": "5",
               "C": "--",
-              "N": "0",
+              "N": "6",
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
@@ -1443,13 +1443,13 @@
             },
             {
               "R": "2",
-              "C": "--",
+              "C": "B",
               "N": "6",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "Paul,Nikash",
+              "Rtg": "1364",
               "res": "0.0",
-              "Pts": "0.0"
+              "Pts": "2.0"
             },
             {
               "R": "3",
@@ -1474,7 +1474,7 @@
             {
               "R": "5",
               "C": "--",
-              "N": "0",
+              "N": "2",
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
@@ -1538,17 +1538,17 @@
               "OPPONENT": "Szuveges,Narelle S",
               "Rtg": "1449",
               "res": "0.0",
-              "Pts": "1.0"
+              "Pts": "2.0"
             },
             {
               "R": "2",
-              "C": "--",
+              "C": "W",
               "N": "3",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "0.0",
-              "Pts": "0.0"
+              "OPPONENT": "Hogan,Steven",
+              "Rtg": "1395",
+              "res": "1.0",
+              "Pts": "1.0"
             },
             {
               "R": "3",
@@ -1557,7 +1557,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             },
             {
@@ -1567,17 +1567,17 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             },
             {
               "R": "5",
               "C": "--",
-              "N": "0",
+              "N": "1",
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             }
           ],
@@ -1641,11 +1641,11 @@
             },
             {
               "R": "2",
-              "C": "--",
+              "C": "W",
               "N": "4",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "Nowak,Ruben",
+              "Rtg": "1426",
               "res": "1.0",
               "Pts": "0.0"
             },
@@ -1672,11 +1672,11 @@
             {
               "R": "5",
               "C": "--",
-              "N": "0",
+              "N": "3",
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             }
           ],
@@ -1750,9 +1750,9 @@
                 "title": ""
               },
               "col5": "1449",
-              "col6": "1187",
+              "col6": "1317",
               "Fed": "VIC",
-              "Pts": "1.0",
+              "Pts": "2.0",
               "DE": "0"
             }
           ],
@@ -1800,23 +1800,6 @@
           "rows": [
             {
               "Pos": "1",
-              "N": "3",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Hogan,Steven",
-                "gender": "notitle",
-                "href": "playercard.html#3",
-                "title": ""
-              },
-              "col5": "1395",
-              "col6": "1216",
-              "Fed": "VIC",
-              "Pts": "1.0",
-              "DE": "0"
-            },
-            {
-              "Pos": "2",
               "N": "6",
               "T": "",
               "Player": {
@@ -1827,47 +1810,13 @@
                 "title": ""
               },
               "col5": "1364",
-              "col6": "1216",
+              "col6": "1334",
               "Fed": "VIC",
-              "Pts": "1.0",
+              "Pts": "2.0",
               "DE": "0"
             },
             {
-              "Pos": "3",
-              "N": "1",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Matijas,Dejan",
-                "gender": "notitle",
-                "href": "playercard.html#1",
-                "title": ""
-              },
-              "col5": "1367",
-              "col6": "609",
-              "Fed": "VIC",
-              "Pts": "0.0",
-              "DE": "0"
-            },
-            {
-              "Pos": "4",
-              "N": "4",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Nowak,Ruben",
-                "gender": "notitle",
-                "href": "playercard.html#4",
-                "title": ""
-              },
-              "col5": "1426",
-              "col6": "580",
-              "Fed": "VIC",
-              "Pts": "0.0",
-              "DE": "0"
-            },
-            {
-              "Pos": "5",
+              "Pos": "2",
               "N": "5",
               "T": "",
               "Player": {
@@ -1878,7 +1827,58 @@
                 "title": ""
               },
               "col5": "1394",
-              "col6": "609",
+              "col6": "1160",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "DE": "1"
+            },
+            {
+              "Pos": "3",
+              "N": "3",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "col5": "1395",
+              "col6": "1160",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "DE": "2"
+            },
+            {
+              "Pos": "4",
+              "N": "1",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Matijas,Dejan",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "col5": "1367",
+              "col6": "606",
+              "Fed": "VIC",
+              "Pts": "0.0",
+              "DE": "0"
+            },
+            {
+              "Pos": "5",
+              "N": "4",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Nowak,Ruben",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "col5": "1426",
+              "col6": "594",
               "Fed": "VIC",
               "Pts": "0.0",
               "DE": "0"
@@ -2086,7 +2086,7 @@
                 "title": ""
               },
               "NW": "6",
-              "Result": "ADJ",
+              "Result": "1 - 0",
               "NB": "4",
               "Black Player": {
                 "id": "",
@@ -2108,7 +2108,7 @@
                 "title": ""
               },
               "NW": "5",
-              "Result": "ADJ",
+              "Result": "1 - 0",
               "NB": "3",
               "Black Player": {
                 "id": "",
@@ -2130,7 +2130,7 @@
                 "title": ""
               },
               "NW": "1",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "NB": "2",
               "Black Player": {
                 "id": "",
@@ -2398,7 +2398,7 @@
                 "title": ""
               },
               "NW": "3",
-              "Result": "...",
+              "Result": "ADJ",
               "NB": "6",
               "Black Player": {
                 "id": "",
@@ -2420,7 +2420,7 @@
                 "title": ""
               },
               "NW": "4",
-              "Result": "...",
+              "Result": "ADJ",
               "NB": "2",
               "Black Player": {
                 "id": "",
@@ -2442,7 +2442,7 @@
                 "title": ""
               },
               "NW": "5",
-              "Result": "...",
+              "Result": "ADJ",
               "NB": "1",
               "Black Player": {
                 "id": "",
@@ -2516,42 +2516,42 @@
             {
               "1": "×",
               "2": "a",
-              "3": "a",
+              "3": "1",
               "4": "a",
-              "5": ".",
-              "6": "1",
+              "5": "1",
+              "6": "a",
               "Pos": "1",
               "#": "2",
               "NAME": "WIM Szuveges,Narelle S",
               "Rtg": "1449",
               "Fed": "VIC",
-              "Pts": "1.0"
+              "Pts": "2.0"
             },
             {
               "1": "a",
               "2": "×",
-              "3": ".",
+              "3": "a",
               "4": "a",
               "5": "1",
-              "6": "a",
+              "6": "1",
               "Pos": "2",
-              "#": "3",
-              "NAME": "Hogan,Steven",
-              "Rtg": "1395",
+              "#": "6",
+              "NAME": "Paul,Nikash",
+              "Rtg": "1364",
               "Fed": "VIC",
-              "Pts": "1.0"
+              "Pts": "2.0"
             },
             {
-              "1": "a",
-              "2": ".",
+              "1": "0",
+              "2": "a",
               "3": "×",
               "4": "1",
               "5": "a",
               "6": "a",
               "Pos": "3",
-              "#": "6",
-              "NAME": "Paul,Nikash",
-              "Rtg": "1364",
+              "#": "5",
+              "NAME": "Mullen,Chris",
+              "Rtg": "1394",
               "Fed": "VIC",
               "Pts": "1.0"
             },
@@ -2561,8 +2561,22 @@
               "3": "0",
               "4": "×",
               "5": "a",
-              "6": ".",
+              "6": "1",
               "Pos": "4",
+              "#": "3",
+              "NAME": "Hogan,Steven",
+              "Rtg": "1395",
+              "Fed": "VIC",
+              "Pts": "1.0"
+            },
+            {
+              "1": "0",
+              "2": "0",
+              "3": "a",
+              "4": "a",
+              "5": "×",
+              "6": "a",
+              "Pos": "5",
               "#": "1",
               "NAME": "Matijas,Dejan",
               "Rtg": "1367",
@@ -2570,30 +2584,16 @@
               "Pts": "0.0"
             },
             {
-              "1": ".",
+              "1": "a",
               "2": "0",
               "3": "a",
-              "4": "a",
-              "5": "×",
-              "6": "a",
-              "Pos": "5",
-              "#": "4",
-              "NAME": "Nowak,Ruben",
-              "Rtg": "1426",
-              "Fed": "VIC",
-              "Pts": "0.0"
-            },
-            {
-              "1": "0",
-              "2": "a",
-              "3": "a",
-              "4": ".",
+              "4": "0",
               "5": "a",
               "6": "×",
               "Pos": "6",
-              "#": "5",
-              "NAME": "Mullen,Chris",
-              "Rtg": "1394",
+              "#": "4",
+              "NAME": "Nowak,Ruben",
+              "Rtg": "1426",
               "Fed": "VIC",
               "Pts": "0.0"
             }
@@ -2603,7 +2603,7 @@
       "tournamentType": "unknown"
     },
     "standings.html": {
-      "pageHeading": "Standings at round 4",
+      "pageHeading": "Standings at round 5",
       "tables": [
         {
           "headers": [
@@ -2648,11 +2648,47 @@
               },
               "Rtg": "1449",
               "Fed": "VIC",
-              "Pts": "1.0",
+              "Pts": "2.0",
               "DE": "0"
             },
             {
               "Pos": "2",
+              "Player": {
+                "id": "6",
+                "playerName": "Paul,Nikash",
+                "gender": "male",
+                "href": "playercard.html#6",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1364",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Rtg": "1364",
+              "Fed": "VIC",
+              "Pts": "2.0",
+              "DE": "0"
+            },
+            {
+              "Pos": "3",
+              "Player": {
+                "id": "5",
+                "playerName": "Mullen,Chris",
+                "gender": "male",
+                "href": "playercard.html#5",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1394",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Rtg": "1394",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "DE": "1"
+            },
+            {
+              "Pos": "4",
               "Player": {
                 "id": "3",
                 "playerName": "Hogan,Steven",
@@ -2667,28 +2703,10 @@
               "Rtg": "1395",
               "Fed": "VIC",
               "Pts": "1.0",
-              "DE": "0"
+              "DE": "2"
             },
             {
-              "Pos": "3",
-              "Player": {
-                "id": "6",
-                "playerName": "Paul,Nikash",
-                "gender": "male",
-                "href": "playercard.html#6",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1364",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Rtg": "1364",
-              "Fed": "VIC",
-              "Pts": "1.0",
-              "DE": "0"
-            },
-            {
-              "Pos": "4",
+              "Pos": "5",
               "Player": {
                 "id": "1",
                 "playerName": "Matijas,Dejan",
@@ -2706,7 +2724,7 @@
               "DE": "0"
             },
             {
-              "Pos": "5",
+              "Pos": "6",
               "Player": {
                 "id": "4",
                 "playerName": "Nowak,Ruben",
@@ -2719,24 +2737,6 @@
                 "moreInfo": {}
               },
               "Rtg": "1426",
-              "Fed": "VIC",
-              "Pts": "0.0",
-              "DE": "0"
-            },
-            {
-              "Pos": "6",
-              "Player": {
-                "id": "5",
-                "playerName": "Mullen,Chris",
-                "gender": "male",
-                "href": "playercard.html#5",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1394",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Rtg": "1394",
               "Fed": "VIC",
               "Pts": "0.0",
               "DE": "0"
@@ -3102,5 +3102,5 @@
     "FIDE titled player NOT from AUS Federation": "1",
     "category": "Senior"
   },
-  "md5Hash": "7fd1d100ef9a932b2726c94054218ddd"
+  "md5Hash": "fe6772c6221d98b08399cef18a20a31f"
 }

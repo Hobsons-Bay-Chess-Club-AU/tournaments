@@ -41,21 +41,21 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Standings at round 4 </h3>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Standings at round 5 </h3>
 <div class="table-responsive"><table class="table table-striped"> 
 <thead><tr><th>Pos</th> <th>Player</th> <th>Rtg</th> <th>Fed</th><th>Pts</th> <th>     DE </th>
  </tr></thead> <tbody>
-<tr> <td>1</td><td><span class="idn"> 1 </span> <span class="notitle male"> </span> <a href="playercard.php#1"> Krishnan,Anirudh</a> </td><td>1694</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    0   </td>
+<tr> <td>1</td><td><span class="idn"> 1 </span> <span class="notitle male"> </span> <a href="playercard.php#1"> Krishnan,Anirudh</a> </td><td>1694</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>    0   </td>
 </tr> 
-<tr> <td>2</td><td><span class="idn"> 3 </span> <span class="notitle male"> </span> <a href="playercard.php#3"> Lacson,Joemar</a> </td><td>1768</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    0   </td>
+<tr> <td>2</td><td><span class="idn"> 3 </span> <span class="notitle male"> </span> <a href="playercard.php#3"> Lacson,Joemar</a> </td><td>1768</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>    0   </td>
 </tr> 
 <tr> <td>3</td><td><span class="idn"> 5 </span> <span class="title male"> CM</span> <a href="playercard.php#5"> Nguyen,Anh Kiet</a> </td><td>1774</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    0   </td>
 </tr> 
-<tr> <td>4</td><td><span class="idn"> 2 </span> <span class="title male"> CM</span> <a href="playercard.php#2"> Davis,Tony J</a> </td><td>1772</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    0   </td>
+<tr> <td>4</td><td><span class="idn"> 6 </span> <span class="notitle male"> </span> <a href="playercard.php#6"> McIntyre,Julian</a> </td><td>1611</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    0   </td>
 </tr> 
-<tr> <td>5</td><td><span class="idn"> 4 </span> <span class="notitle male"> </span> <a href="playercard.php#4"> Paul,Cijo</a> </td><td>1608</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    0   </td>
+<tr> <td>5</td><td><span class="idn"> 2 </span> <span class="title male"> CM</span> <a href="playercard.php#2"> Davis,Tony J</a> </td><td>1772</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    0   </td>
 </tr> 
-<tr> <td>6</td><td><span class="idn"> 6 </span> <span class="notitle male"> </span> <a href="playercard.php#6"> McIntyre,Julian</a> </td><td>1611</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    0   </td>
+<tr> <td>6</td><td><span class="idn"> 4 </span> <span class="notitle male"> </span> <a href="playercard.php#4"> Paul,Cijo</a> </td><td>1608</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    0   </td>
 </tr> 
 </tbody>
 <tfoot><tr><td colspan="7">Tie Break legend:<br>

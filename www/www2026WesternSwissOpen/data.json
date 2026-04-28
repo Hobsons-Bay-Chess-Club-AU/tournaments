@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-04-24T09:59:43.696Z",
+  "generatedAt": "2026-04-28T14:15:22.294Z",
   "page": {
     "crosstable.html": {
-      "pageHeading": "Cross Table at round 2",
+      "pageHeading": "Cross Table at round 3",
       "tables": [
         {
           "headers": [
@@ -29,6 +29,10 @@
             {
               "name": "2",
               "key": "2"
+            },
+            {
+              "name": "3",
+              "key": "3"
             }
           ],
           "rows": [
@@ -38,7 +42,12 @@
                 "whiteOpponent": "8",
                 "blackOpponent": null
               },
-              "2": "",
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "6"
+              },
+              "3": "",
               "Player": {
                 "id": "1",
                 "playerName": "Ramanathan,Ashwin",
@@ -52,7 +61,7 @@
               },
               "Rtg": "1362",
               "Fed": "VIC",
-              "Pts": "1.0"
+              "Pts": "2.0"
             },
             {
               "1": {
@@ -60,7 +69,12 @@
                 "whiteOpponent": null,
                 "blackOpponent": "9"
               },
-              "2": "",
+              "2": {
+                "result": "1",
+                "whiteOpponent": "11",
+                "blackOpponent": null
+              },
+              "3": "",
               "Player": {
                 "id": "2",
                 "playerName": "Balogun,Olalekan",
@@ -74,7 +88,7 @@
               },
               "Rtg": "1307",
               "Fed": "OS",
-              "Pts": "1.0"
+              "Pts": "2.0"
             },
             {
               "1": {
@@ -82,7 +96,12 @@
                 "whiteOpponent": "10",
                 "blackOpponent": null
               },
-              "2": "",
+              "2": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "7"
+              },
+              "3": "",
               "Player": {
                 "id": "3",
                 "playerName": "Annapureddy,Dhruthin Reddy",
@@ -96,7 +115,7 @@
               },
               "Rtg": "1250",
               "Fed": "VIC",
-              "Pts": "0.0"
+              "Pts": "0.5"
             },
             {
               "1": {
@@ -104,7 +123,12 @@
                 "whiteOpponent": null,
                 "blackOpponent": "11"
               },
-              "2": "",
+              "2": {
+                "result": "1",
+                "whiteOpponent": "9",
+                "blackOpponent": null
+              },
+              "3": "",
               "Player": {
                 "id": "4",
                 "playerName": "Wilkinson,Greg",
@@ -118,7 +142,7 @@
               },
               "Rtg": "1115",
               "Fed": "VIC",
-              "Pts": "0.0"
+              "Pts": "1.0"
             },
             {
               "1": {
@@ -126,7 +150,16 @@
                 "whiteOpponent": "12",
                 "blackOpponent": null
               },
-              "2": "",
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "10"
+              },
+              "3": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "Player": {
                 "id": "5",
                 "playerName": "Ashok,Arjun",
@@ -140,7 +173,7 @@
               },
               "Rtg": "1069",
               "Fed": "VIC",
-              "Pts": "1.0"
+              "Pts": "2.0"
             },
             {
               "1": {
@@ -148,7 +181,12 @@
                 "whiteOpponent": null,
                 "blackOpponent": "13"
               },
-              "2": "",
+              "2": {
+                "result": "0",
+                "whiteOpponent": "1",
+                "blackOpponent": null
+              },
+              "3": "",
               "Player": {
                 "id": "6",
                 "playerName": "Kostakakis,Angelo",
@@ -170,7 +208,12 @@
                 "whiteOpponent": null,
                 "blackOpponent": null
               },
-              "2": "",
+              "2": {
+                "result": "½",
+                "whiteOpponent": "3",
+                "blackOpponent": null
+              },
+              "3": "",
               "Player": {
                 "id": "7",
                 "playerName": "Clerk,Max",
@@ -184,7 +227,7 @@
               },
               "Rtg": "958",
               "Fed": "VIC",
-              "Pts": "0.5"
+              "Pts": "1.0"
             },
             {
               "1": {
@@ -192,7 +235,12 @@
                 "whiteOpponent": null,
                 "blackOpponent": "1"
               },
-              "2": "",
+              "2": {
+                "result": "1",
+                "whiteOpponent": "13",
+                "blackOpponent": null
+              },
+              "3": "",
               "Player": {
                 "id": "8",
                 "playerName": "Ruaya,Rohan",
@@ -206,7 +254,7 @@
               },
               "Rtg": "894",
               "Fed": "VIC",
-              "Pts": "0.0"
+              "Pts": "1.0"
             },
             {
               "1": {
@@ -214,7 +262,12 @@
                 "whiteOpponent": "2",
                 "blackOpponent": null
               },
-              "2": "",
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "4"
+              },
+              "3": "",
               "Player": {
                 "id": "9",
                 "playerName": "Gali,Joyel Evan",
@@ -236,7 +289,12 @@
                 "whiteOpponent": null,
                 "blackOpponent": "3"
               },
-              "2": "",
+              "2": {
+                "result": "0",
+                "whiteOpponent": "5",
+                "blackOpponent": null
+              },
+              "3": "",
               "Player": {
                 "id": "10",
                 "playerName": "Krishnan,Sanjay",
@@ -258,7 +316,12 @@
                 "whiteOpponent": "4",
                 "blackOpponent": null
               },
-              "2": "",
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "2"
+              },
+              "3": "",
               "Player": {
                 "id": "11",
                 "playerName": "Krishnan,Sanjit",
@@ -285,6 +348,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": null
               },
+              "3": "",
               "Player": {
                 "id": "12",
                 "playerName": "Pradeep,Mayukh",
@@ -298,7 +362,7 @@
               },
               "Rtg": "0",
               "Fed": "VIC",
-              "Pts": "0.0"
+              "Pts": "1.0"
             },
             {
               "1": {
@@ -306,7 +370,12 @@
                 "whiteOpponent": "6",
                 "blackOpponent": null
               },
-              "2": "",
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "8"
+              },
+              "3": "",
               "Player": {
                 "id": "13",
                 "playerName": "Sheikh,Tahmid",
@@ -328,7 +397,7 @@
       "tournamentType": "unknown"
     },
     "crosstablescore.html": {
-      "pageHeading": "Cross Table at round 2",
+      "pageHeading": "Cross Table at round 3",
       "tables": [
         {
           "headers": [
@@ -361,6 +430,10 @@
               "key": "2"
             },
             {
+              "name": "3",
+              "key": "3"
+            },
+            {
               "name": "DE",
               "key": "DE"
             }
@@ -369,10 +442,15 @@
             {
               "1": {
                 "result": "1",
-                "whiteOpponent": "10",
+                "whiteOpponent": "7",
                 "blackOpponent": null
               },
-              "2": "",
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "5"
+              },
+              "3": "",
               "Pos": "1",
               "Player": {
                 "id": "",
@@ -383,16 +461,21 @@
               },
               "Rtg": "1362",
               "Fed": "VIC",
-              "Pts": "1.0",
+              "Pts": "2.0",
               "DE": "0"
             },
             {
               "1": {
                 "result": "1",
                 "whiteOpponent": null,
-                "blackOpponent": "11"
+                "blackOpponent": "12"
               },
-              "2": "",
+              "2": {
+                "result": "1",
+                "whiteOpponent": "9",
+                "blackOpponent": null
+              },
+              "3": "",
               "Pos": "2",
               "Player": {
                 "id": "",
@@ -403,16 +486,25 @@
               },
               "Rtg": "1307",
               "Fed": "OS",
-              "Pts": "1.0",
+              "Pts": "2.0",
               "DE": "0"
             },
             {
               "1": {
                 "result": "1",
-                "whiteOpponent": "12",
+                "whiteOpponent": "10",
                 "blackOpponent": null
               },
-              "2": "",
+              "2": {
+                "result": "1",
+                "whiteOpponent": null,
+                "blackOpponent": "8"
+              },
+              "3": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "Pos": "3",
               "Player": {
                 "id": "",
@@ -423,6 +515,31 @@
               },
               "Rtg": "1069",
               "Fed": "VIC",
+              "Pts": "2.0",
+              "DE": "0"
+            },
+            {
+              "1": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "9"
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": "12",
+                "blackOpponent": null
+              },
+              "3": "",
+              "Pos": "4",
+              "Player": {
+                "id": "",
+                "playerName": "Wilkinson,Greg",
+                "gender": "male",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Rtg": "1115",
+              "Fed": "VIC",
               "Pts": "1.0",
               "DE": "0"
             },
@@ -432,8 +549,13 @@
                 "whiteOpponent": null,
                 "blackOpponent": "13"
               },
-              "2": "",
-              "Pos": "4",
+              "2": {
+                "result": "0",
+                "whiteOpponent": "1",
+                "blackOpponent": null
+              },
+              "3": "",
+              "Pos": "5",
               "Player": {
                 "id": "",
                 "playerName": "Kostakakis,Angelo",
@@ -448,12 +570,67 @@
             },
             {
               "1": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
+              "2": {
+                "result": "½",
+                "whiteOpponent": "11",
+                "blackOpponent": null
+              },
+              "3": "",
+              "Pos": "6",
+              "Player": {
+                "id": "",
+                "playerName": "Clerk,Max",
+                "gender": "male",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Rtg": "958",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "DE": "0"
+            },
+            {
+              "1": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "1"
+              },
+              "2": {
+                "result": "1",
+                "whiteOpponent": "13",
+                "blackOpponent": null
+              },
+              "3": "",
+              "Pos": "7",
+              "Player": {
+                "id": "",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Rtg": "894",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "DE": "0"
+            },
+            {
+              "1": {
                 "result": "1",
                 "whiteOpponent": null,
-                "blackOpponent": "8"
+                "blackOpponent": "11"
               },
-              "2": "",
-              "Pos": "5",
+              "2": {
+                "result": "0",
+                "whiteOpponent": "3",
+                "blackOpponent": null
+              },
+              "3": "",
+              "Pos": "8",
               "Player": {
                 "id": "",
                 "playerName": "Krishnan,Sanjay",
@@ -469,11 +646,16 @@
             {
               "1": {
                 "result": "1",
-                "whiteOpponent": "9",
+                "whiteOpponent": "4",
                 "blackOpponent": null
               },
-              "2": "",
-              "Pos": "6",
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "2"
+              },
+              "3": "",
+              "Pos": "9",
               "Player": {
                 "id": "",
                 "playerName": "Krishnan,Sanjit",
@@ -488,32 +670,42 @@
             },
             {
               "1": {
-                "result": "½",
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "3"
+              },
+              "2": {
+                "result": "1",
                 "whiteOpponent": null,
                 "blackOpponent": null
               },
-              "2": "",
-              "Pos": "7",
+              "3": "",
+              "Pos": "10",
               "Player": {
                 "id": "",
-                "playerName": "Clerk,Max",
+                "playerName": "Pradeep,Mayukh",
                 "gender": "male",
-                "href": "playercard.html#7",
+                "href": "playercard.html#12",
                 "title": ""
               },
-              "Rtg": "958",
+              "Rtg": "0",
               "Fed": "VIC",
-              "Pts": "0.5",
+              "Pts": "1.0",
               "DE": "0"
             },
             {
               "1": {
                 "result": "0",
-                "whiteOpponent": "5",
+                "whiteOpponent": "8",
                 "blackOpponent": null
               },
-              "2": "",
-              "Pos": "8",
+              "2": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": "6"
+              },
+              "3": "",
+              "Pos": "11",
               "Player": {
                 "id": "",
                 "playerName": "Annapureddy,Dhruthin Reddy",
@@ -523,47 +715,7 @@
               },
               "Rtg": "1250",
               "Fed": "VIC",
-              "Pts": "0.0",
-              "DE": "0"
-            },
-            {
-              "1": {
-                "result": "0",
-                "whiteOpponent": null,
-                "blackOpponent": "6"
-              },
-              "2": "",
-              "Pos": "9",
-              "Player": {
-                "id": "",
-                "playerName": "Wilkinson,Greg",
-                "gender": "male",
-                "href": "playercard.html#4",
-                "title": ""
-              },
-              "Rtg": "1115",
-              "Fed": "VIC",
-              "Pts": "0.0",
-              "DE": "0"
-            },
-            {
-              "1": {
-                "result": "0",
-                "whiteOpponent": null,
-                "blackOpponent": "1"
-              },
-              "2": "",
-              "Pos": "10",
-              "Player": {
-                "id": "",
-                "playerName": "Ruaya,Rohan",
-                "gender": "male",
-                "href": "playercard.html#8",
-                "title": ""
-              },
-              "Rtg": "894",
-              "Fed": "VIC",
-              "Pts": "0.0",
+              "Pts": "0.5",
               "DE": "0"
             },
             {
@@ -572,8 +724,13 @@
                 "whiteOpponent": "2",
                 "blackOpponent": null
               },
-              "2": "",
-              "Pos": "11",
+              "2": {
+                "result": "0",
+                "whiteOpponent": null,
+                "blackOpponent": "4"
+              },
+              "3": "",
+              "Pos": "12",
               "Player": {
                 "id": "",
                 "playerName": "Gali,Joyel Evan",
@@ -589,34 +746,15 @@
             {
               "1": {
                 "result": "0",
-                "whiteOpponent": null,
-                "blackOpponent": "3"
+                "whiteOpponent": "5",
+                "blackOpponent": null
               },
               "2": {
-                "result": "1",
-                "whiteOpponent": null,
-                "blackOpponent": null
-              },
-              "Pos": "12",
-              "Player": {
-                "id": "",
-                "playerName": "Pradeep,Mayukh",
-                "gender": "male",
-                "href": "playercard.html#12",
-                "title": ""
-              },
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Pts": "0.0",
-              "DE": "0"
-            },
-            {
-              "1": {
                 "result": "0",
-                "whiteOpponent": "4",
-                "blackOpponent": null
+                "whiteOpponent": null,
+                "blackOpponent": "7"
               },
-              "2": "",
+              "3": "",
               "Pos": "13",
               "Player": {
                 "id": "",
@@ -1105,7 +1243,7 @@
                 "moreInfo": {}
               },
               "Pts": "1",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "1",
               "Black Player": {
                 "id": "1",
@@ -1135,7 +1273,7 @@
                 "moreInfo": {}
               },
               "Pts": "1",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "1",
               "Black Player": {
                 "id": "11",
@@ -1165,7 +1303,7 @@
                 "moreInfo": {}
               },
               "Pts": "1",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "1",
               "Black Player": {
                 "id": "5",
@@ -1195,7 +1333,7 @@
                 "moreInfo": {}
               },
               "Pts": "0.5",
-              "Result": "...",
+              "Result": "½ - ½",
               "Pts_1": "0",
               "Black Player": {
                 "id": "3",
@@ -1225,7 +1363,7 @@
                 "moreInfo": {}
               },
               "Pts": "0",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "0",
               "Black Player": {
                 "id": "9",
@@ -1255,7 +1393,7 @@
                 "moreInfo": {}
               },
               "Pts": "0",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "0",
               "Black Player": {
                 "id": "13",
@@ -1294,6 +1432,251 @@
         }
       ],
       "pairingScheduleText": "Pairing of round 2, at 19:30 of 28/04/2026",
+      "tournamentType": "individual"
+    },
+    "pairs3.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "1",
+                "playerName": "Ramanathan,Ashwin",
+                "gender": "male",
+                "href": "playercard.html#1",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1362",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "2",
+              "Result": "...",
+              "Pts_1": "2",
+              "Black Player": {
+                "id": "2",
+                "playerName": "Balogun,Olalekan",
+                "gender": "male",
+                "href": "playercard.html#2",
+                "title": "",
+                "federation": "OS",
+                "rating": "1307",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "OS"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "10",
+                "playerName": "Krishnan,Sanjay",
+                "gender": "male",
+                "href": "playercard.html#10",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1",
+              "Result": "...",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "4",
+                "playerName": "Wilkinson,Greg",
+                "gender": "male",
+                "href": "playercard.html#4",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1115",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "11",
+                "playerName": "Krishnan,Sanjit",
+                "gender": "male",
+                "href": "playercard.html#11",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1",
+              "Result": "...",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "6",
+                "playerName": "Kostakakis,Angelo",
+                "gender": "male",
+                "href": "playercard.html#6",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1004",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "12",
+                "playerName": "Pradeep,Mayukh",
+                "gender": "male",
+                "href": "playercard.html#12",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1",
+              "Result": "...",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "7",
+                "playerName": "Clerk,Max",
+                "gender": "male",
+                "href": "playercard.html#7",
+                "title": "",
+                "federation": "VIC",
+                "rating": "958",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "3",
+                "playerName": "Annapureddy,Dhruthin Reddy",
+                "gender": "male",
+                "href": "playercard.html#3",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1250",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0.5",
+              "Result": "...",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "8",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#8",
+                "title": "",
+                "federation": "VIC",
+                "rating": "894",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "9",
+                "playerName": "Gali,Joyel Evan",
+                "gender": "male",
+                "href": "playercard.html#9",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "13",
+                "playerName": "Sheikh,Tahmid",
+                "gender": "male",
+                "href": "playercard.html#13",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "5",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#5",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1069",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "2",
+              "Result": "½",
+              "Pts_1": "0",
+              "Black Player": "( half point bye )",
+              "Fed_1": ""
+            }
+          ]
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 3, at 19:30 of 05/05/2026",
       "tournamentType": "individual"
     },
     "playercard.html": {
@@ -1343,10 +1726,20 @@
               "OPPONENT": "Ruaya,Rohan",
               "Rtg": "894",
               "res": "1.0",
-              "Pts": "0.0"
+              "Pts": "1.0"
             },
             {
               "R": "2",
+              "C": "B",
+              "N": "6",
+              "Cat": "",
+              "OPPONENT": "Kostakakis,Angelo",
+              "Rtg": "1004",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "3",
               "C": "--",
               "N": "0",
               "Cat": "",
@@ -1416,6 +1809,16 @@
             },
             {
               "R": "2",
+              "C": "W",
+              "N": "11",
+              "Cat": "",
+              "OPPONENT": "Krishnan,Sanjit",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "3",
               "C": "--",
               "N": "0",
               "Cat": "",
@@ -1485,6 +1888,16 @@
             },
             {
               "R": "2",
+              "C": "B",
+              "N": "7",
+              "Cat": "",
+              "OPPONENT": "Clerk,Max",
+              "Rtg": "958",
+              "res": "0.5",
+              "Pts": "1.0"
+            },
+            {
+              "R": "3",
               "C": "--",
               "N": "0",
               "Cat": "",
@@ -1554,6 +1967,16 @@
             },
             {
               "R": "2",
+              "C": "W",
+              "N": "9",
+              "Cat": "",
+              "OPPONENT": "Gali,Joyel Evan",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "3",
               "C": "--",
               "N": "0",
               "Cat": "",
@@ -1619,16 +2042,26 @@
               "OPPONENT": "Pradeep,Mayukh",
               "Rtg": "0",
               "res": "1.0",
-              "Pts": "0.0"
+              "Pts": "1.0"
             },
             {
               "R": "2",
+              "C": "B",
+              "N": "10",
+              "Cat": "",
+              "OPPONENT": "Krishnan,Sanjay",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "3",
               "C": "--",
               "N": "0",
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "0.5",
               "Pts": "0.0"
             }
           ],
@@ -1692,6 +2125,16 @@
             },
             {
               "R": "2",
+              "C": "W",
+              "N": "1",
+              "Cat": "",
+              "OPPONENT": "Ramanathan,Ashwin",
+              "Rtg": "1362",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "3",
               "C": "--",
               "N": "0",
               "Cat": "",
@@ -1761,6 +2204,16 @@
             },
             {
               "R": "2",
+              "C": "W",
+              "N": "3",
+              "Cat": "",
+              "OPPONENT": "Annapureddy,Dhruthin",
+              "Rtg": "1250",
+              "res": "0.5",
+              "Pts": "0.5"
+            },
+            {
+              "R": "3",
               "C": "--",
               "N": "0",
               "Cat": "",
@@ -1826,10 +2279,20 @@
               "OPPONENT": "Ramanathan,Ashwin",
               "Rtg": "1362",
               "res": "0.0",
-              "Pts": "1.0"
+              "Pts": "2.0"
             },
             {
               "R": "2",
+              "C": "W",
+              "N": "13",
+              "Cat": "",
+              "OPPONENT": "Sheikh,Tahmid",
+              "Rtg": "0",
+              "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "3",
               "C": "--",
               "N": "0",
               "Cat": "",
@@ -1895,10 +2358,20 @@
               "OPPONENT": "Balogun,Olalekan",
               "Rtg": "1307",
               "res": "0.0",
-              "Pts": "1.0"
+              "Pts": "2.0"
             },
             {
               "R": "2",
+              "C": "B",
+              "N": "4",
+              "Cat": "",
+              "OPPONENT": "Wilkinson,Greg",
+              "Rtg": "1115",
+              "res": "0.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "3",
               "C": "--",
               "N": "0",
               "Cat": "",
@@ -1964,10 +2437,20 @@
               "OPPONENT": "Annapureddy,Dhruthin",
               "Rtg": "1250",
               "res": "1.0",
-              "Pts": "0.0"
+              "Pts": "0.5"
             },
             {
               "R": "2",
+              "C": "W",
+              "N": "5",
+              "Cat": "",
+              "OPPONENT": "Ashok,Arjun",
+              "Rtg": "1069",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "3",
               "C": "--",
               "N": "0",
               "Cat": "",
@@ -2033,10 +2516,20 @@
               "OPPONENT": "Wilkinson,Greg",
               "Rtg": "1115",
               "res": "1.0",
-              "Pts": "0.0"
+              "Pts": "1.0"
             },
             {
               "R": "2",
+              "C": "B",
+              "N": "2",
+              "Cat": "",
+              "OPPONENT": "Balogun,Olalekan",
+              "Rtg": "1307",
+              "res": "0.0",
+              "Pts": "2.0"
+            },
+            {
+              "R": "3",
               "C": "--",
               "N": "0",
               "Cat": "",
@@ -2102,7 +2595,7 @@
               "OPPONENT": "Ashok,Arjun",
               "Rtg": "1069",
               "res": "0.0",
-              "Pts": "1.0"
+              "Pts": "2.0"
             },
             {
               "R": "2",
@@ -2112,6 +2605,16 @@
               "OPPONENT": "not played",
               "Rtg": "-",
               "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "3",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
               "Pts": "0.0"
             }
           ],
@@ -2175,6 +2678,16 @@
             },
             {
               "R": "2",
+              "C": "B",
+              "N": "8",
+              "Cat": "",
+              "OPPONENT": "Ruaya,Rohan",
+              "Rtg": "894",
+              "res": "0.0",
+              "Pts": "1.0"
+            },
+            {
+              "R": "3",
               "C": "--",
               "N": "0",
               "Cat": "",
@@ -2200,7 +2713,7 @@
       "tournamentType": "unknown"
     },
     "rankcat.html": {
-      "pageHeading": "Standings at round 2 sorted by category",
+      "pageHeading": "Standings at round 3 sorted by category",
       "tables": [
         {
           "headers": [
@@ -2254,9 +2767,9 @@
                 "title": ""
               },
               "col5": "1362",
-              "col6": "1694",
+              "col6": "1749",
               "Fed": "VIC",
-              "Pts": "1.0",
+              "Pts": "2.0",
               "DE": "0"
             },
             {
@@ -2273,7 +2786,7 @@
               "col5": "1307",
               "col6": "2200",
               "Fed": "OS",
-              "Pts": "1.0",
+              "Pts": "2.0",
               "DE": "0"
             },
             {
@@ -2290,96 +2803,11 @@
               "col5": "1069",
               "col6": "2200",
               "Fed": "VIC",
-              "Pts": "1.0",
+              "Pts": "2.0",
               "DE": "0"
             },
             {
               "Pos": "4",
-              "N": "6",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Kostakakis,Angelo",
-                "gender": "notitle",
-                "href": "playercard.html#6",
-                "title": ""
-              },
-              "col5": "1004",
-              "col6": "2200",
-              "Fed": "VIC",
-              "Pts": "1.0",
-              "DE": "0"
-            },
-            {
-              "Pos": "5",
-              "N": "10",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Krishnan,Sanjay",
-                "gender": "notitle",
-                "href": "playercard.html#10",
-                "title": ""
-              },
-              "col5": "0",
-              "col6": "2050",
-              "Fed": "VIC",
-              "Pts": "1.0",
-              "DE": "0"
-            },
-            {
-              "Pos": "6",
-              "N": "11",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Krishnan,Sanjit",
-                "gender": "notitle",
-                "href": "playercard.html#11",
-                "title": ""
-              },
-              "col5": "0",
-              "col6": "1915",
-              "Fed": "VIC",
-              "Pts": "1.0",
-              "DE": "0"
-            },
-            {
-              "Pos": "7",
-              "N": "7",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Clerk,Max",
-                "gender": "notitle",
-                "href": "playercard.html#7",
-                "title": ""
-              },
-              "col5": "958",
-              "col6": "0",
-              "Fed": "VIC",
-              "Pts": "0.5",
-              "DE": "0"
-            },
-            {
-              "Pos": "8",
-              "N": "3",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Annapureddy,Dhruthin",
-                "gender": "notitle",
-                "href": "playercard.html#3",
-                "title": ""
-              },
-              "col5": "1250",
-              "col6": "600",
-              "Fed": "VIC",
-              "Pts": "0.0",
-              "DE": "0"
-            },
-            {
-              "Pos": "9",
               "N": "4",
               "T": "",
               "Player": {
@@ -2390,13 +2818,47 @@
                 "title": ""
               },
               "col5": "1115",
-              "col6": "600",
+              "col6": "1400",
               "Fed": "VIC",
-              "Pts": "0.0",
+              "Pts": "1.0",
               "DE": "0"
             },
             {
-              "Pos": "10",
+              "Pos": "5",
+              "N": "6",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Kostakakis,Angelo",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "col5": "1004",
+              "col6": "1381",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "DE": "0"
+            },
+            {
+              "Pos": "6",
+              "N": "7",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Clerk,Max",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "col5": "958",
+              "col6": "1250",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "DE": "0"
+            },
+            {
+              "Pos": "7",
               "N": "8",
               "T": "",
               "Player": {
@@ -2407,30 +2869,47 @@
                 "title": ""
               },
               "col5": "894",
-              "col6": "562",
+              "col6": "1381",
               "Fed": "VIC",
-              "Pts": "0.0",
+              "Pts": "1.0",
               "DE": "0"
             },
             {
-              "Pos": "11",
-              "N": "9",
+              "Pos": "8",
+              "N": "10",
               "T": "",
               "Player": {
                 "id": "",
-                "playerName": "Gali,Joyel Evan",
+                "playerName": "Krishnan,Sanjay",
                 "gender": "notitle",
-                "href": "playercard.html#9",
+                "href": "playercard.html#10",
                 "title": ""
               },
               "col5": "0",
-              "col6": "507",
+              "col6": "1160",
               "Fed": "VIC",
-              "Pts": "0.0",
+              "Pts": "1.0",
               "DE": "0"
             },
             {
-              "Pos": "12",
+              "Pos": "9",
+              "N": "11",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Krishnan,Sanjit",
+                "gender": "notitle",
+                "href": "playercard.html#11",
+                "title": ""
+              },
+              "col5": "0",
+              "col6": "1211",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "DE": "0"
+            },
+            {
+              "Pos": "10",
               "N": "12",
               "T": "",
               "Player": {
@@ -2442,6 +2921,40 @@
               },
               "col5": "0",
               "col6": "269",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "DE": "0"
+            },
+            {
+              "Pos": "11",
+              "N": "3",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Annapureddy,Dhruthin",
+                "gender": "notitle",
+                "href": "playercard.html#3",
+                "title": ""
+              },
+              "col5": "1250",
+              "col6": "986",
+              "Fed": "VIC",
+              "Pts": "0.5",
+              "DE": "0"
+            },
+            {
+              "Pos": "12",
+              "N": "9",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Gali,Joyel Evan",
+                "gender": "notitle",
+                "href": "playercard.html#9",
+                "title": ""
+              },
+              "col5": "0",
+              "col6": "411",
               "Fed": "VIC",
               "Pts": "0.0",
               "DE": "0"
@@ -2458,7 +2971,7 @@
                 "title": ""
               },
               "col5": "0",
-              "col6": "204",
+              "col6": "149",
               "Fed": "VIC",
               "Pts": "0.0",
               "DE": "0"
@@ -2519,7 +3032,7 @@
       "tournamentType": "unknown"
     },
     "standings.html": {
-      "pageHeading": "Standings at round 1",
+      "pageHeading": "Standings at round 2",
       "tables": [
         {
           "headers": [
@@ -2564,7 +3077,7 @@
               },
               "Rtg": "1362",
               "Fed": "VIC",
-              "Pts": "1.0",
+              "Pts": "2.0",
               "DE": "0"
             },
             {
@@ -2582,7 +3095,7 @@
               },
               "Rtg": "1307",
               "Fed": "OS",
-              "Pts": "1.0",
+              "Pts": "2.0",
               "DE": "0"
             },
             {
@@ -2600,11 +3113,29 @@
               },
               "Rtg": "1069",
               "Fed": "VIC",
-              "Pts": "1.0",
+              "Pts": "2.0",
               "DE": "0"
             },
             {
               "Pos": "4",
+              "Player": {
+                "id": "4",
+                "playerName": "Wilkinson,Greg",
+                "gender": "male",
+                "href": "playercard.html#4",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1115",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Rtg": "1115",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "DE": "0"
+            },
+            {
+              "Pos": "5",
               "Player": {
                 "id": "6",
                 "playerName": "Kostakakis,Angelo",
@@ -2622,7 +3153,43 @@
               "DE": "0"
             },
             {
-              "Pos": "5",
+              "Pos": "6",
+              "Player": {
+                "id": "7",
+                "playerName": "Clerk,Max",
+                "gender": "male",
+                "href": "playercard.html#7",
+                "title": "",
+                "federation": "VIC",
+                "rating": "958",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Rtg": "958",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "DE": "0"
+            },
+            {
+              "Pos": "7",
+              "Player": {
+                "id": "8",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#8",
+                "title": "",
+                "federation": "VIC",
+                "rating": "894",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Rtg": "894",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "DE": "0"
+            },
+            {
+              "Pos": "8",
               "Player": {
                 "id": "10",
                 "playerName": "Krishnan,Sanjay",
@@ -2640,7 +3207,7 @@
               "DE": "0"
             },
             {
-              "Pos": "6",
+              "Pos": "9",
               "Player": {
                 "id": "11",
                 "playerName": "Krishnan,Sanjit",
@@ -2658,25 +3225,25 @@
               "DE": "0"
             },
             {
-              "Pos": "7",
+              "Pos": "10",
               "Player": {
-                "id": "7",
-                "playerName": "Clerk,Max",
+                "id": "12",
+                "playerName": "Pradeep,Mayukh",
                 "gender": "male",
-                "href": "playercard.html#7",
+                "href": "playercard.html#12",
                 "title": "",
                 "federation": "VIC",
-                "rating": "958",
+                "rating": "0",
                 "fideId": "",
                 "moreInfo": {}
               },
-              "Rtg": "958",
+              "Rtg": "0",
               "Fed": "VIC",
-              "Pts": "0.5",
+              "Pts": "1.0",
               "DE": "0"
             },
             {
-              "Pos": "8",
+              "Pos": "11",
               "Player": {
                 "id": "3",
                 "playerName": "Annapureddy,Dhruthin Reddy",
@@ -2690,70 +3257,16 @@
               },
               "Rtg": "1250",
               "Fed": "VIC",
-              "Pts": "0.0",
-              "DE": "0"
-            },
-            {
-              "Pos": "9",
-              "Player": {
-                "id": "4",
-                "playerName": "Wilkinson,Greg",
-                "gender": "male",
-                "href": "playercard.html#4",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1115",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Rtg": "1115",
-              "Fed": "VIC",
-              "Pts": "0.0",
-              "DE": "0"
-            },
-            {
-              "Pos": "10",
-              "Player": {
-                "id": "8",
-                "playerName": "Ruaya,Rohan",
-                "gender": "male",
-                "href": "playercard.html#8",
-                "title": "",
-                "federation": "VIC",
-                "rating": "894",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Rtg": "894",
-              "Fed": "VIC",
-              "Pts": "0.0",
-              "DE": "0"
-            },
-            {
-              "Pos": "11",
-              "Player": {
-                "id": "9",
-                "playerName": "Gali,Joyel Evan",
-                "gender": "male",
-                "href": "playercard.html#9",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Pts": "0.0",
+              "Pts": "0.5",
               "DE": "0"
             },
             {
               "Pos": "12",
               "Player": {
-                "id": "12",
-                "playerName": "Pradeep,Mayukh",
+                "id": "9",
+                "playerName": "Gali,Joyel Evan",
                 "gender": "male",
-                "href": "playercard.html#12",
+                "href": "playercard.html#9",
                 "title": "",
                 "federation": "VIC",
                 "rating": "0",
@@ -3101,7 +3614,7 @@
     },
     {
       "text": "Pairings",
-      "href": "pairs2.html",
+      "href": "pairs3.html",
       "isDropdown": false,
       "children": []
     },
@@ -3284,5 +3797,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "17aa716715469f4d0ccbe82c1a94c8e7"
+  "md5Hash": "88e9b14d03834b0efbdd205731fd4b7f"
 }

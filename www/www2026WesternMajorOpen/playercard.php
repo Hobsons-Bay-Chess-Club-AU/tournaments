@@ -51,13 +51,14 @@
 <tr> <td>1</td> <td>W </td> <td>6</td> <td></td> <td> <a href="playercard.php#6"> Menezes,Eric         </a>  <td>1509</td>
 <td> 1.0</td> <td> 0.0</td>
 </tr> 
-<tr> <td>2</td> <td>--</td> <td>2</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
+<tr> <td>2</td> <td>W </td> <td>2</td> <td></td> <td> <a href="playercard.php#2"> Hill,James           </a>  <td>1591</td>
+<td> 0.0</td> <td> 1.0</td>
 </tr> 
-<tr> <td>3</td> <td>--</td> <td>3</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
+<tr> <td>3</td> <td>--</td> <td>3</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
-<tr> <td>4</td> <td>--</td> <td>4</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
+<tr> <td>4</td> <td>--</td> <td>4</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
-<tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+<tr> <td>5</td> <td>--</td> <td>5</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -69,13 +70,14 @@
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>--</td> <td>5</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
-<tr> <td>2</td> <td>--</td> <td>1</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+<tr> <td>2</td> <td> B</td> <td>1</td> <td></td> <td> <a href="playercard.php#1"> Bodke,Krishna Mantha </a>  <td>1505</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
-<tr> <td>3</td> <td>--</td> <td>6</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+<tr> <td>3</td> <td>--</td> <td>6</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
-<tr> <td>4</td> <td>--</td> <td>3</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+<tr> <td>4</td> <td>--</td> <td>3</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
-<tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+<tr> <td>5</td> <td>--</td> <td>4</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -94,7 +96,7 @@
 </tr> 
 <tr> <td>4</td> <td>--</td> <td>2</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
-<tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+<tr> <td>5</td> <td>--</td> <td>6</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -113,7 +115,7 @@
 </tr> 
 <tr> <td>4</td> <td>--</td> <td>1</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
-<tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+<tr> <td>5</td> <td>--</td> <td>2</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -123,15 +125,15 @@
 <a class="anchor" name="5"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td>--</td> <td>2</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+<tr> <td>1</td> <td>--</td> <td>2</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
-<tr> <td>2</td> <td>--</td> <td>3</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+<tr> <td>2</td> <td>--</td> <td>3</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
-<tr> <td>3</td> <td>--</td> <td>4</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+<tr> <td>3</td> <td>--</td> <td>4</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
-<tr> <td>4</td> <td>--</td> <td>6</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+<tr> <td>4</td> <td>--</td> <td>6</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
-<tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+<tr> <td>5</td> <td>--</td> <td>1</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -150,7 +152,7 @@
 </tr> 
 <tr> <td>4</td> <td>--</td> <td>5</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
-<tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+<tr> <td>5</td> <td>--</td> <td>3</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>

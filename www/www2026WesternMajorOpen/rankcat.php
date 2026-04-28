@@ -47,22 +47,22 @@
 <thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th></th> <th></th><th>Fed</th><th>Pts</th><th>     DE </th>
 </tr> </THEAD><tbody>
 <tr> 
-<td>1</td><td>1</td><td></td><td> <a href="playercard.php#1">Bodke,Krishna Mantha</a> </td><td>1505</td><td>1334</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    0   </td>
+<td>1</td><td>2</td><td></td><td> <a href="playercard.php#2">Hill,James          </a> </td><td>1591</td><td>1279</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    1   </td>
 </tr> 
 <tr> 
-<td>2</td><td>4</td><td></td><td> <a href="playercard.php#4">Whitford,Matthew    </a> </td><td>1524</td><td>1325</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    0   </td>
+<td>2</td><td>1</td><td></td><td> <a href="playercard.php#1">Bodke,Krishna Mantha</a> </td><td>1505</td><td>1296</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    2-3 </td>
 </tr> 
 <tr> 
-<td>3</td><td>2</td><td></td><td> <a href="playercard.php#2">Hill,James          </a> </td><td>1591</td><td>718</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    0   </td>
+<td>3</td><td>4</td><td></td><td> <a href="playercard.php#4">Whitford,Matthew    </a> </td><td>1524</td><td>1293</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    2-3 </td>
 </tr> 
 <tr> 
-<td>4</td><td>3</td><td></td><td> <a href="playercard.php#3">Ruaya,Chris Rodson  </a> </td><td>1484</td><td>749</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    0   </td>
+<td>4</td><td>3</td><td></td><td> <a href="playercard.php#3">Ruaya,Chris Rodson  </a> </td><td>1484</td><td>741</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    0   </td>
 </tr> 
 <tr> 
-<td>5</td><td>5</td><td></td><td> <a href="playercard.php#5">Enano,Ronald        </a> </td><td>1574</td><td>727</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    0   </td>
+<td>5</td><td>5</td><td></td><td> <a href="playercard.php#5">Enano,Ronald        </a> </td><td>1574</td><td>723</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    0   </td>
 </tr> 
 <tr> 
-<td>6</td><td>6</td><td></td><td> <a href="playercard.php#6">Menezes,Eric        </a> </td><td>1509</td><td>749</td><td ><img class="shadow" src="flag/sa.png" alt="SA"></td><td class="score"> 0.0</td><td>    0   </td>
+<td>6</td><td>6</td><td></td><td> <a href="playercard.php#6">Menezes,Eric        </a> </td><td>1509</td><td>736</td><td ><img class="shadow" src="flag/sa.png" alt="SA"></td><td class="score"> 0.0</td><td>    0   </td>
 </tr> 
 </tbody>
 </table> <br><br>

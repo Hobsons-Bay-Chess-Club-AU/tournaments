@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T09:51:40.124Z",
+  "generatedAt": "2026-04-28T14:15:22.156Z",
   "tournament": {
     "id": "hobsons-bay-western-major-2026",
     "name": "Hobsons Bay Western Major 2026",
@@ -243,7 +243,7 @@
               "N": "3",
               "White": "Bodke,Krishna Manthan",
               "NW": "1",
-              "result": "ADJ",
+              "result": "0 - 1",
               "NB": "2",
               "Black": "Hill,James"
             }
@@ -413,7 +413,7 @@
               "N": "1",
               "White": "Ruaya,Chris Rodson",
               "NW": "3",
-              "result": "...",
+              "result": "ADJ",
               "NB": "6",
               "Black": "Menezes,Eric"
             },
@@ -421,7 +421,7 @@
               "N": "2",
               "White": "Whitford,Matthew",
               "NW": "4",
-              "result": "...",
+              "result": "ADJ",
               "NB": "2",
               "Black": "Hill,James"
             },
@@ -429,7 +429,7 @@
               "N": "3",
               "White": "Enano,Ronald",
               "NW": "5",
-              "result": "...",
+              "result": "ADJ",
               "NB": "1",
               "Black": "Bodke,Krishna Manthan"
             }
@@ -695,7 +695,7 @@
               "Fed": "VIC",
               "White Player": "1",
               "Pts": "1",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "Pts_1": "0",
               "Black Player": "2",
               "Fed_1": "VIC"
@@ -750,7 +750,7 @@
               "Bo.": "1",
               "Fed": "VIC",
               "White Player": "2",
-              "Pts": "0",
+              "Pts": "1",
               "Result": "ADJ",
               "Pts_1": "0",
               "Black Player": "6",
@@ -846,7 +846,7 @@
               "Bo.": "3",
               "Fed": "VIC",
               "White Player": "2",
-              "Pts": "0",
+              "Pts": "1",
               "Result": "ADJ",
               "Pts_1": "0",
               "Black Player": "3",
@@ -903,7 +903,7 @@
               "Fed": "VIC",
               "White Player": "3",
               "Pts": "0",
-              "Result": "...",
+              "Result": "ADJ",
               "Pts_1": "0",
               "Black Player": "6",
               "Fed_1": "SA"
@@ -913,8 +913,8 @@
               "Fed": "VIC",
               "White Player": "4",
               "Pts": "1",
-              "Result": "...",
-              "Pts_1": "0",
+              "Result": "ADJ",
+              "Pts_1": "1",
               "Black Player": "2",
               "Fed_1": "VIC"
             },
@@ -923,7 +923,7 @@
               "Fed": "VIC",
               "White Player": "5",
               "Pts": "0",
-              "Result": "...",
+              "Result": "ADJ",
               "Pts_1": "1",
               "Black Player": "1",
               "Fed_1": "VIC"
@@ -986,13 +986,13 @@
             },
             {
               "R": "2",
-              "C": "--",
+              "C": "W",
               "N": "2",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "1.0",
-              "Pts": "0.0"
+              "OPPONENT": "Hill,James",
+              "Rtg": "1591",
+              "res": "0.0",
+              "Pts": "1.0"
             },
             {
               "R": "3",
@@ -1001,7 +1001,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "1.0",
+              "res": "0.0",
               "Pts": "0.0"
             },
             {
@@ -1011,13 +1011,13 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "1.0",
+              "res": "0.0",
               "Pts": "0.0"
             },
             {
               "R": "5",
               "C": "--",
-              "N": "0",
+              "N": "5",
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
@@ -1086,13 +1086,13 @@
             },
             {
               "R": "2",
-              "C": "--",
+              "C": "B",
               "N": "1",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "0.0",
-              "Pts": "0.0"
+              "OPPONENT": "Bodke,Krishna Mantha",
+              "Rtg": "1505",
+              "res": "1.0",
+              "Pts": "1.0"
             },
             {
               "R": "3",
@@ -1101,7 +1101,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             },
             {
@@ -1111,17 +1111,17 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             },
             {
               "R": "5",
               "C": "--",
-              "N": "0",
+              "N": "4",
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             }
           ],
@@ -1217,7 +1217,7 @@
             {
               "R": "5",
               "C": "--",
-              "N": "0",
+              "N": "6",
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
@@ -1317,11 +1317,11 @@
             {
               "R": "5",
               "C": "--",
-              "N": "0",
+              "N": "2",
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             }
           ],
@@ -1381,7 +1381,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             },
             {
@@ -1391,7 +1391,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             },
             {
@@ -1401,7 +1401,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             },
             {
@@ -1411,17 +1411,17 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             },
             {
               "R": "5",
               "C": "--",
-              "N": "0",
+              "N": "1",
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             }
           ],
@@ -1517,7 +1517,7 @@
             {
               "R": "5",
               "C": "--",
-              "N": "0",
+              "N": "3",
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
@@ -1586,40 +1586,6 @@
           "rows": [
             {
               "Pos": "1",
-              "N": "1",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Bodke,Krishna Mantha",
-                "gender": "notitle",
-                "href": "playercard.html#1",
-                "title": ""
-              },
-              "col5": "1505",
-              "col6": "1334",
-              "Fed": "VIC",
-              "Pts": "1.0",
-              "DE": "0"
-            },
-            {
-              "Pos": "2",
-              "N": "4",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Whitford,Matthew",
-                "gender": "notitle",
-                "href": "playercard.html#4",
-                "title": ""
-              },
-              "col5": "1524",
-              "col6": "1325",
-              "Fed": "VIC",
-              "Pts": "1.0",
-              "DE": "0"
-            },
-            {
-              "Pos": "3",
               "N": "2",
               "T": "",
               "Player": {
@@ -1630,10 +1596,44 @@
                 "title": ""
               },
               "col5": "1591",
-              "col6": "718",
+              "col6": "1279",
               "Fed": "VIC",
-              "Pts": "0.0",
-              "DE": "0"
+              "Pts": "1.0",
+              "DE": "1"
+            },
+            {
+              "Pos": "2",
+              "N": "1",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna Mantha",
+                "gender": "notitle",
+                "href": "playercard.html#1",
+                "title": ""
+              },
+              "col5": "1505",
+              "col6": "1296",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "DE": "2-3"
+            },
+            {
+              "Pos": "3",
+              "N": "4",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Whitford,Matthew",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "col5": "1524",
+              "col6": "1293",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "DE": "2-3"
             },
             {
               "Pos": "4",
@@ -1647,7 +1647,7 @@
                 "title": ""
               },
               "col5": "1484",
-              "col6": "749",
+              "col6": "741",
               "Fed": "VIC",
               "Pts": "0.0",
               "DE": "0"
@@ -1664,7 +1664,7 @@
                 "title": ""
               },
               "col5": "1574",
-              "col6": "727",
+              "col6": "723",
               "Fed": "VIC",
               "Pts": "0.0",
               "DE": "0"
@@ -1681,7 +1681,7 @@
                 "title": ""
               },
               "col5": "1509",
-              "col6": "749",
+              "col6": "736",
               "Fed": "SA",
               "Pts": "0.0",
               "DE": "0"
@@ -1936,7 +1936,7 @@
                 "title": ""
               },
               "NW": "1",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "NB": "2",
               "Black Player": {
                 "id": "",
@@ -2207,7 +2207,7 @@
                 "title": ""
               },
               "NW": "3",
-              "Result": "...",
+              "Result": "ADJ",
               "NB": "6",
               "Black Player": {
                 "id": "",
@@ -2229,7 +2229,7 @@
                 "title": ""
               },
               "NW": "4",
-              "Result": "...",
+              "Result": "ADJ",
               "NB": "2",
               "Black Player": {
                 "id": "",
@@ -2251,7 +2251,7 @@
                 "title": ""
               },
               "NW": "5",
-              "Result": "...",
+              "Result": "ADJ",
               "NB": "1",
               "Black Player": {
                 "id": "",
@@ -2325,12 +2325,26 @@
           "rows": [
             {
               "1": "×",
-              "2": "a",
+              "2": "1",
               "3": "a",
               "4": "a",
-              "5": ".",
-              "6": "1",
+              "5": "a",
+              "6": "a",
               "Pos": "1",
+              "#": "2",
+              "NAME": "Hill,James",
+              "Rtg": "1591",
+              "Fed": "VIC",
+              "Pts": "1.0"
+            },
+            {
+              "1": "0",
+              "2": "×",
+              "3": "a",
+              "4": "a",
+              "5": "a",
+              "6": "1",
+              "Pos": "2",
               "#": "1",
               "NAME": "Bodke,Krishna Manthan",
               "Rtg": "1505",
@@ -2339,12 +2353,12 @@
             },
             {
               "1": "a",
-              "2": "×",
-              "3": ".",
+              "2": "a",
+              "3": "×",
               "4": "1",
               "5": "a",
               "6": "a",
-              "Pos": "2",
+              "Pos": "3",
               "#": "4",
               "NAME": "Whitford,Matthew",
               "Rtg": "1524",
@@ -2353,25 +2367,11 @@
             },
             {
               "1": "a",
-              "2": ".",
-              "3": "×",
-              "4": "a",
-              "5": "a",
-              "6": "a",
-              "Pos": "3",
-              "#": "2",
-              "NAME": "Hill,James",
-              "Rtg": "1591",
-              "Fed": "VIC",
-              "Pts": "0.0"
-            },
-            {
-              "1": "a",
-              "2": "0",
-              "3": "a",
+              "2": "a",
+              "3": "0",
               "4": "×",
               "5": "a",
-              "6": ".",
+              "6": "a",
               "Pos": "4",
               "#": "3",
               "NAME": "Ruaya,Chris Rodson",
@@ -2380,7 +2380,7 @@
               "Pts": "0.0"
             },
             {
-              "1": ".",
+              "1": "a",
               "2": "a",
               "3": "a",
               "4": "a",
@@ -2394,10 +2394,10 @@
               "Pts": "0.0"
             },
             {
-              "1": "0",
-              "2": "a",
+              "1": "a",
+              "2": "0",
               "3": "a",
-              "4": ".",
+              "4": "a",
               "5": "a",
               "6": "×",
               "Pos": "6",
@@ -2414,7 +2414,7 @@
       "tournamentType": "unknown"
     },
     "standings.html": {
-      "pageHeading": "Standings at round 4",
+      "pageHeading": "Standings at round 5",
       "tables": [
         {
           "headers": [
@@ -2446,27 +2446,27 @@
           "rows": [
             {
               "Pos": "1",
+              "Player": "2",
+              "Rtg": "1591",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "DE": "1"
+            },
+            {
+              "Pos": "2",
               "Player": "1",
               "Rtg": "1505",
               "Fed": "VIC",
               "Pts": "1.0",
-              "DE": "0"
+              "DE": "2-3"
             },
             {
-              "Pos": "2",
+              "Pos": "3",
               "Player": "4",
               "Rtg": "1524",
               "Fed": "VIC",
               "Pts": "1.0",
-              "DE": "0"
-            },
-            {
-              "Pos": "3",
-              "Player": "2",
-              "Rtg": "1591",
-              "Fed": "VIC",
-              "Pts": "0.0",
-              "DE": "0"
+              "DE": "2-3"
             },
             {
               "Pos": "4",
@@ -2695,5 +2695,5 @@
       "children": []
     }
   ],
-  "md5Hash": "bd2d6eb8c01240678ee7910badfc4540"
+  "md5Hash": "40063ffc683246b514849d142caec9ee"
 }
