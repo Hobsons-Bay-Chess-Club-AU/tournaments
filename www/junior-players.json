@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-04-30T10:14:38.763Z",
+  "generatedAt": "2026-05-01T09:37:01.898Z",
   "year": "2026",
-  "count": 129,
+  "count": 166,
   "totalTournaments": 13,
   "players": [
     {
@@ -83,7 +83,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#7",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -91,6 +91,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -105,7 +112,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#8",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -113,6 +120,13 @@
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026WesternSwissOpen/data.json",
@@ -124,6 +138,28 @@
       ],
       "points": {
         "standard": 4,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Annapureddy,Rheyansh Reddy",
+      "id": "1",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#1",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -156,7 +192,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#18",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -164,6 +200,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -243,7 +286,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#52",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -258,6 +301,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -272,7 +322,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#53",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -287,6 +337,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -301,7 +358,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#16",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -316,6 +373,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -330,7 +394,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#36",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -345,6 +409,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -381,7 +452,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#41",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -389,6 +460,13 @@
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -403,7 +481,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#17",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -418,6 +496,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -432,7 +517,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#9",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -447,6 +532,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -461,7 +553,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#59",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -469,6 +561,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -483,7 +582,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#49",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -498,10 +597,39 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 3,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Bodke,Krishna Manthan",
+      "id": "6",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#6",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -556,7 +684,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#55",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -571,6 +699,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -755,12 +890,34 @@
       }
     },
     {
+      "name": "Fais,Ariana",
+      "id": "13",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#13",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Fang,Candice",
       "id": "46",
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#46",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -775,6 +932,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -840,7 +1004,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#19",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -848,6 +1012,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -862,7 +1033,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#42",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -877,6 +1048,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -887,12 +1065,19 @@
     },
     {
       "name": "Gali,Joyel Evan",
-      "id": "9",
+      "id": "16",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#9",
-      "tournamentCount": 1,
+      "href": "playercard.html#16",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026WesternSwissOpen/data.json",
           "score": 0,
@@ -935,7 +1120,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#58",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -950,6 +1135,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -964,7 +1156,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#48",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -979,6 +1171,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -993,7 +1192,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#33",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -1008,6 +1207,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -1046,12 +1252,78 @@
       }
     },
     {
+      "name": "Guha,Shanaya",
+      "id": "46",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#46",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Gunathilake,Sithev",
+      "id": "68",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#68",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Ha,Aeson",
+      "id": "9",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#9",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Haller,Annabelle",
       "id": "59",
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#59",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -1059,10 +1331,61 @@
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 0.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Hii,Elliott",
+      "id": "73",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#73",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Hsu,Yu-Hsiang (Andy)",
+      "id": "74",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#74",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -1073,7 +1396,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#19",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -1088,6 +1411,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -1146,7 +1476,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#39",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -1154,6 +1484,13 @@
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -1234,7 +1571,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#26",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -1249,6 +1586,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -1263,7 +1607,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#60",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -1278,10 +1622,39 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 3,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Kansal,Nuwan",
+      "id": "17",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#17",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -1316,6 +1689,50 @@
       }
     },
     {
+      "name": "Katakam,Aadhya Sai",
+      "id": "21",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#21",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Katakam,Deethya Sai",
+      "id": "7",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#7",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Kaur,Arveen",
       "id": "61",
       "fideId": "",
@@ -1343,7 +1760,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#34",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -1358,6 +1775,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -1401,7 +1825,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#63",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -1416,6 +1840,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -1518,7 +1949,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#62",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -1526,6 +1957,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026WesternSwissOpen/data.json",
@@ -1547,7 +1985,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#63",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -1555,6 +1993,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026WesternSwissOpen/data.json",
@@ -1681,6 +2126,28 @@
       }
     },
     {
+      "name": "Le,Khoi Nguyen",
+      "id": "26",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#26",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Li,LiYuan",
       "id": "2",
       "fideId": "",
@@ -1740,12 +2207,34 @@
       }
     },
     {
+      "name": "Lingineni,Khushal",
+      "id": "2",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#2",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Luan,William",
       "id": "22",
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#22",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -1753,6 +2242,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -1767,7 +2263,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#66",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -1782,6 +2278,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -1796,7 +2299,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#67",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -1811,6 +2314,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -1881,6 +2391,50 @@
       ],
       "points": {
         "standard": 3,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Mantrala,Vishruth",
+      "id": "77",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#77",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Mantrala,Yuvan",
+      "id": "78",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#78",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -1974,6 +2528,28 @@
       }
     },
     {
+      "name": "Mi,Sura",
+      "id": "23",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#23",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Milne,Hamish",
       "id": "70",
       "fideId": "",
@@ -1991,6 +2567,28 @@
       ],
       "points": {
         "standard": 2,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Munro,Lachlan",
+      "id": "24",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#24",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -2023,7 +2621,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#24",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2038,6 +2636,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -2048,12 +2653,19 @@
     },
     {
       "name": "Nguyen,Anh Kiet",
-      "id": "5",
+      "id": "4",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#5",
-      "tournamentCount": 1,
+      "href": "playercard.html#4",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026WesternMastersOpen/data.json",
           "score": 1,
@@ -2191,7 +2803,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#73",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -2199,6 +2811,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -2213,7 +2832,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#4",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -2221,6 +2840,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -2279,7 +2905,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#73",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2294,6 +2920,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026WesternSwissOpen/data.json",
@@ -2337,7 +2970,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#7",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2345,6 +2978,13 @@
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026WesternSwissOpen/data.json",
@@ -2376,12 +3016,34 @@
       }
     },
     {
+      "name": "Rao,Karanam Prabhava",
+      "id": "47",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#47",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Rawat,Vivaan",
       "id": "20",
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#20",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2389,6 +3051,13 @@
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -2432,7 +3101,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#21",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2449,6 +3118,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2026WesternSwissOpen/data.json",
           "score": 1,
           "name": "Hobsons Bay Western Swiss 2026",
@@ -2458,6 +3134,28 @@
       ],
       "points": {
         "standard": 6,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Sagar,Dev",
+      "id": "81",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#81",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -2480,6 +3178,50 @@
       ],
       "points": {
         "standard": 1.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Saha,Avinandan (Arjun)",
+      "id": "25",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#25",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Samraat, Aayush",
+      "id": "30",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#30",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -2514,12 +3256,78 @@
       }
     },
     {
+      "name": "Saravanakumar,Thaswin",
+      "id": "82",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#82",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Senevirathne,Jeniru",
+      "id": "83",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#83",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Sethi,Divissha",
+      "id": "84",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#84",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Shaiek,Nihal",
       "id": "31",
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#31",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2534,6 +3342,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -2556,6 +3371,28 @@
           "name": "Hobsons Bay Western Swiss 2026",
           "totalRounds": "5",
           "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Shirawala,Sahar",
+      "id": "15",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#15",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -2592,7 +3429,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#38",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -2600,6 +3437,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -2636,7 +3480,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#76",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2644,6 +3488,13 @@
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -2658,7 +3509,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#45",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2673,6 +3524,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -2687,7 +3545,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#32",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2695,6 +3553,13 @@
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -2709,7 +3574,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#77",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2724,10 +3589,39 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 2.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Tang,Lucas",
+      "id": "86",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#86",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -2755,6 +3649,28 @@
       }
     },
     {
+      "name": "Veeragandham,Gowtham",
+      "id": "63",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#63",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Veginati,Cherish",
       "id": "11",
       "fideId": "",
@@ -2777,12 +3693,56 @@
       }
     },
     {
+      "name": "Velkur,Gagan Saicharan",
+      "id": "58",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#58",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Velkur,Raghav Sripad",
+      "id": "54",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#54",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Vemula,Thamoghna",
       "id": "23",
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#23",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2797,6 +3757,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -2811,7 +3778,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#35",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2826,6 +3793,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -2862,7 +3836,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#1",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2877,10 +3851,83 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Vinu,Vaishnav",
+      "id": "33",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#33",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Vinu,Vinayak",
+      "id": "36",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#36",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Wang,Charlie",
+      "id": "87",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#87",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -2891,7 +3938,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#78",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2899,10 +3946,39 @@
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 1.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Wanniarachchie,Senaya",
+      "id": "88",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#88",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -2913,7 +3989,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#79",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2928,6 +4004,13 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -3134,12 +4217,34 @@
       }
     },
     {
+      "name": "Yang,Heesan",
+      "id": "89",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#89",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Yegnavajjula,Aryan Srivatsav",
       "id": "37",
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#37",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -3147,6 +4252,13 @@
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
@@ -3209,6 +4321,72 @@
       ],
       "points": {
         "standard": 5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "You,Henry",
+      "id": "52",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#52",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Zhao,Oscar",
+      "id": "32",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#32",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Zhou,Zenan",
+      "id": "29",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#29",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026WesternJuniorsRapid/data.json",
+          "score": 0,
+          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
