@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs3.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs5.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
@@ -46,113 +46,113 @@
 <div class="table-responsive"><table class="table table-striped"> 
 <thead><tr><th> Pos </th> <th> Team Name </th><th>Points</th></tr></thead> <tbody>
 <tr>
-<td>1</td> <td></td> <td>8</td> </tr>
+<td>1</td> <td></td> <td>16</td> </tr>
 </tbody>
 </table>
 <h5 class="mb-4 mt-4"> Team composition</h5>
 <table class="table table-striped "> 
-<thead><tr><th>1</th> <th> </th><th>8</th></tr></thead><tbody> 
-<tr> <td>2</td> <td>Lingineni,Khushal </td><td>2</td></tr> 
-<tr> <td>3</td> <td>Parker,Lucas </td><td>2</td></tr> 
-<tr> <td>4</td> <td>Nguyen,Anh Kiet </td><td>2</td></tr> 
-<tr> <td>8</td> <td>Ramanathan,Ashwin </td><td>2</td></tr> 
+<thead><tr><th>1</th> <th> </th><th>16</th></tr></thead><tbody> 
+<tr> <td>1</td> <td>Annapureddy,Rheyansh Reddy </td><td>4</td></tr> 
+<tr> <td>7</td> <td>Katakam,Deethya Sai </td><td>4</td></tr> 
+<tr> <td>17</td> <td>Kansal,Nuwan </td><td>4</td></tr> 
+<tr> <td>2</td> <td>Lingineni,Khushal </td><td>4</td></tr> 
+<tr> <td>6</td> <td>Bodke,Krishna Manthan </td><td>3.5</td></tr> 
+<tr> <td>20</td> <td>Arora,Daanish </td><td>3.5</td></tr> 
+<tr> <td>18</td> <td>Jyothi Nikhil,Neev </td><td>3</td></tr> 
+<tr> <td>3</td> <td>Parker,Lucas </td><td>3</td></tr> 
+<tr> <td>4</td> <td>Nguyen,Anh Kiet </td><td>3</td></tr> 
+<tr> <td>8</td> <td>Ramanathan,Ashwin </td><td>3</td></tr> 
+<tr> <td>11</td> <td>Batyrbekov,Aidan </td><td>3</td></tr> 
+<tr> <td>27</td> <td>Ruaya,Rohan </td><td>3</td></tr> 
+<tr> <td>9</td> <td>Ha,Aeson </td><td>3</td></tr> 
+<tr> <td>22</td> <td>Huang,Michael </td><td>3</td></tr> 
+<tr> <td>32</td> <td>Zhao,Oscar </td><td>3</td></tr> 
+<tr> <td>19</td> <td>Balaji,Sai Sivesh </td><td>3</td></tr> 
+<tr> <td>10</td> <td>Annapureddy,Dhruthin Reddy </td><td>3</td></tr> 
+<tr> <td>24</td> <td>Munro,Lachlan </td><td>3</td></tr> 
+<tr> <td>5</td> <td>Batyrbekov,Kaisar </td><td>3</td></tr> 
+<tr> <td>26</td> <td>Le,Khoi Nguyen </td><td>3</td></tr> 
+<tr> <td>42</td> <td>Luan,William </td><td>3</td></tr> 
+<tr> <td>35</td> <td>Watson,Jacob </td><td>3</td></tr> 
+<tr> <td>71</td> <td>Bhadrapura,Vismay </td><td>3</td></tr> 
+<tr> <td>78</td> <td>Mantrala,Yuvan </td><td>3</td></tr> 
+<tr> <td>36</td> <td>Vinu,Vinayak </td><td>3</td></tr> 
+<tr> <td>14</td> <td>Annadasu,Shreyansh </td><td>2.5</td></tr> 
+<tr> <td>13</td> <td>Fais,Ariana </td><td>2.5</td></tr> 
+<tr> <td>29</td> <td>Zhou,Zenan </td><td>2.5</td></tr> 
+<tr> <td>12</td> <td>Rawat,Vivaan </td><td>2.5</td></tr> 
+<tr> <td>39</td> <td>Goh,Nicholas </td><td>2.5</td></tr> 
+<tr> <td>33</td> <td>Vinu,Vaishnav </td><td>2.5</td></tr> 
 <tr> <td>15</td> <td>Shirawala,Sahar </td><td>2</td></tr> 
-<tr> <td>18</td> <td>Jyothi Nikhil,Neev </td><td>2</td></tr> 
-<tr> <td>20</td> <td>Arora,Daanish </td><td>2</td></tr> 
-<tr> <td>22</td> <td>Huang,Michael </td><td>2</td></tr> 
+<tr> <td>34</td> <td>Shaiek,Nihal </td><td>2</td></tr> 
+<tr> <td>23</td> <td>Mi,Sura </td><td>2</td></tr> 
 <tr> <td>31</td> <td>Vemula,Thamoghna </td><td>2</td></tr> 
-<tr> <td>1</td> <td>Annapureddy,Rheyansh Reddy </td><td>2</td></tr> 
-<tr> <td>5</td> <td>Batyrbekov,Kaisar </td><td>2</td></tr> 
-<tr> <td>6</td> <td>Bodke,Krishna Manthan </td><td>2</td></tr> 
-<tr> <td>7</td> <td>Katakam,Deethya Sai </td><td>2</td></tr> 
-<tr> <td>9</td> <td>Ha,Aeson </td><td>2</td></tr> 
-<tr> <td>11</td> <td>Batyrbekov,Aidan </td><td>2</td></tr> 
-<tr> <td>17</td> <td>Kansal,Nuwan </td><td>2</td></tr> 
-<tr> <td>19</td> <td>Balaji,Sai Sivesh </td><td>2</td></tr> 
+<tr> <td>76</td> <td>Krishnan,Sanjit </td><td>2</td></tr> 
+<tr> <td>25</td> <td>Saha,Avinandan (Arjun) </td><td>2</td></tr> 
 <tr> <td>44</td> <td>Venkat,Nyra </td><td>2</td></tr> 
+<tr> <td>46</td> <td>Guha,Shanaya </td><td>2</td></tr> 
+<tr> <td>40</td> <td>Vignesh,Prajeeth Balaji </td><td>2</td></tr> 
+<tr> <td>86</td> <td>Tang,Lucas </td><td>2</td></tr> 
+<tr> <td>30</td> <td>Samraat, Aayush </td><td>2</td></tr> 
+<tr> <td>21</td> <td>Katakam,Aadhya Sai </td><td>2</td></tr> 
+<tr> <td>28</td> <td>Gajula,Karan </td><td>2</td></tr> 
+<tr> <td>51</td> <td>Fang,Candice </td><td>2</td></tr> 
+<tr> <td>43</td> <td>Singh,Sumair </td><td>2</td></tr> 
+<tr> <td>53</td> <td>Kommina,Bhavishya </td><td>2</td></tr> 
+<tr> <td>45</td> <td>Tan,Lucas </td><td>2</td></tr> 
+<tr> <td>37</td> <td>Nema,Nivaan </td><td>2</td></tr> 
+<tr> <td>47</td> <td>Rao,Karanam Prabhava </td><td>2</td></tr> 
+<tr> <td>59</td> <td>Mallajosyula,Srivaths </td><td>2</td></tr> 
+<tr> <td>48</td> <td>Wang,Evan </td><td>2</td></tr> 
+<tr> <td>56</td> <td>Gajula,Nishitha </td><td>2</td></tr> 
+<tr> <td>75</td> <td>Krishnan,Sanjay </td><td>2</td></tr> 
+<tr> <td>60</td> <td>Subhash,Ryan </td><td>2</td></tr> 
+<tr> <td>38</td> <td>Kaur,Mishleen </td><td>2</td></tr> 
 <tr> <td>16</td> <td>Gali,Joyel Evan </td><td>1.5</td></tr> 
-<tr> <td>14</td> <td>Annadasu,Shreyansh </td><td>1.5</td></tr> 
-<tr> <td>10</td> <td>Annapureddy,Dhruthin Reddy </td><td>1.5</td></tr> 
-<tr> <td>29</td> <td>Zhou,Zenan </td><td>1.5</td></tr> 
-<tr> <td>35</td> <td>Watson,Jacob </td><td>1.5</td></tr> 
-<tr> <td>37</td> <td>Nema,Nivaan </td><td>1.5</td></tr> 
-<tr> <td>13</td> <td>Fais,Ariana </td><td>1.5</td></tr> 
-<tr> <td>33</td> <td>Vinu,Vaishnav </td><td>1.5</td></tr> 
-<tr> <td>12</td> <td>Rawat,Vivaan </td><td>1</td></tr> 
-<tr> <td>21</td> <td>Katakam,Aadhya Sai </td><td>1</td></tr> 
-<tr> <td>24</td> <td>Munro,Lachlan </td><td>1</td></tr> 
-<tr> <td>27</td> <td>Ruaya,Rohan </td><td>1</td></tr> 
-<tr> <td>28</td> <td>Gajula,Karan </td><td>1</td></tr> 
-<tr> <td>30</td> <td>Samraat, Aayush </td><td>1</td></tr> 
-<tr> <td>32</td> <td>Zhao,Oscar </td><td>1</td></tr> 
-<tr> <td>34</td> <td>Shaiek,Nihal </td><td>1</td></tr> 
-<tr> <td>36</td> <td>Vinu,Vinayak </td><td>1</td></tr> 
-<tr> <td>40</td> <td>Vignesh,Prajeeth Balaji </td><td>1</td></tr> 
-<tr> <td>42</td> <td>Luan,William </td><td>1</td></tr> 
-<tr> <td>41</td> <td>Husain,Lamiah </td><td>1</td></tr> 
-<tr> <td>43</td> <td>Singh,Sumair </td><td>1</td></tr> 
-<tr> <td>46</td> <td>Guha,Shanaya </td><td>1</td></tr> 
-<tr> <td>23</td> <td>Mi,Sura </td><td>1</td></tr> 
-<tr> <td>25</td> <td>Saha,Avinandan (Arjun) </td><td>1</td></tr> 
-<tr> <td>26</td> <td>Le,Khoi Nguyen </td><td>1</td></tr> 
-<tr> <td>38</td> <td>Kaur,Mishleen </td><td>1</td></tr> 
-<tr> <td>39</td> <td>Goh,Nicholas </td><td>1</td></tr> 
-<tr> <td>47</td> <td>Rao,Karanam Prabhava </td><td>1</td></tr> 
-<tr> <td>48</td> <td>Wang,Evan </td><td>1</td></tr> 
-<tr> <td>52</td> <td>You,Henry </td><td>1</td></tr> 
-<tr> <td>59</td> <td>Mallajosyula,Srivaths </td><td>1</td></tr> 
-<tr> <td>62</td> <td>Spriggs,Harvey </td><td>1</td></tr> 
-<tr> <td>64</td> <td>Madduluri,Advaitha </td><td>1</td></tr> 
-<tr> <td>60</td> <td>Subhash,Ryan </td><td>1</td></tr> 
-<tr> <td>56</td> <td>Gajula,Nishitha </td><td>1</td></tr> 
-<tr> <td>65</td> <td>Jyothi Nikhil,Vihaan </td><td>1</td></tr> 
-<tr> <td>68</td> <td>Gunathilake,Sithev </td><td>1</td></tr> 
-<tr> <td>71</td> <td>Bhadrapura,Vismay </td><td>1</td></tr> 
-<tr> <td>72</td> <td>Haller,Annabelle </td><td>1</td></tr> 
-<tr> <td>74</td> <td>Hsu,Yu-Hsiang (Andy) </td><td>1</td></tr> 
-<tr> <td>76</td> <td>Krishnan,Sanjit </td><td>1</td></tr> 
-<tr> <td>78</td> <td>Mantrala,Yuvan </td><td>1</td></tr> 
+<tr> <td>68</td> <td>Gunathilake,Sithev </td><td>1.5</td></tr> 
+<tr> <td>41</td> <td>Husain,Lamiah </td><td>1.5</td></tr> 
+<tr> <td>52</td> <td>You,Henry </td><td>1.5</td></tr> 
+<tr> <td>58</td> <td>Velkur,Gagan Saicharan </td><td>1.5</td></tr> 
+<tr> <td>77</td> <td>Mantrala,Vishruth </td><td>1.5</td></tr> 
+<tr> <td>57</td> <td>Yegnavajjula,Aryan Srivatsav </td><td>1.5</td></tr> 
+<tr> <td>66</td> <td>Chawla,Namish </td><td>1.5</td></tr> 
+<tr> <td>81</td> <td>Sagar,Dev </td><td>1.5</td></tr> 
 <tr> <td>80</td> <td>Pradeep,Mayukh </td><td>1</td></tr> 
+<tr> <td>64</td> <td>Madduluri,Advaitha </td><td>1</td></tr> 
+<tr> <td>62</td> <td>Spriggs,Harvey </td><td>1</td></tr> 
+<tr> <td>70</td> <td>Bala,Neil </td><td>1</td></tr> 
+<tr> <td>74</td> <td>Hsu,Yu-Hsiang (Andy) </td><td>1</td></tr> 
+<tr> <td>65</td> <td>Jyothi Nikhil,Vihaan </td><td>1</td></tr> 
+<tr> <td>73</td> <td>Hii,Elliott </td><td>1</td></tr> 
+<tr> <td>72</td> <td>Haller,Annabelle </td><td>1</td></tr> 
 <tr> <td>84</td> <td>Sethi,Divissha </td><td>1</td></tr> 
-<tr> <td>86</td> <td>Tang,Lucas </td><td>1</td></tr> 
-<tr> <td>66</td> <td>Chawla,Namish </td><td>0.5</td></tr> 
-<tr> <td>75</td> <td>Krishnan,Sanjay </td><td>0.5</td></tr> 
-<tr> <td>77</td> <td>Mantrala,Vishruth </td><td>0.5</td></tr> 
-<tr> <td>57</td> <td>Yegnavajjula,Aryan Srivatsav </td><td>0.5</td></tr> 
-<tr> <td>58</td> <td>Velkur,Gagan Saicharan </td><td>0.5</td></tr> 
-<tr> <td>89</td> <td>Yang,Heesan </td><td>0.5</td></tr> 
+<tr> <td>61</td> <td>Bodke,Aryan </td><td>1</td></tr> 
+<tr> <td>63</td> <td>Veeragandham,Gowtham </td><td>1</td></tr> 
+<tr> <td>82</td> <td>Saravanakumar,Thaswin </td><td>1</td></tr> 
+<tr> <td>69</td> <td>Bala,Jake </td><td>1</td></tr> 
+<tr> <td>83</td> <td>Senevirathne,Jeniru </td><td>1</td></tr> 
+<tr> <td>49</td> <td>Barar,Ridam </td><td>1</td></tr> 
+<tr> <td>88</td> <td>Wanniarachchie,Senaya </td><td>1</td></tr> 
+<tr> <td>50</td> <td>Balamurugan,Soorya </td><td>1</td></tr> 
 <tr> <td>87</td> <td>Wang,Charlie </td><td>0.5</td></tr> 
-<tr> <td>45</td> <td>Tan,Lucas </td><td>0</td></tr> 
-<tr> <td>49</td> <td>Barar,Ridam </td><td>0</td></tr> 
-<tr> <td>51</td> <td>Fang,Candice </td><td>0</td></tr> 
-<tr> <td>53</td> <td>Kommina,Bhavishya </td><td>0</td></tr> 
-<tr> <td>55</td> <td>Goh,Daphne </td><td>0</td></tr> 
-<tr> <td>61</td> <td>Bodke,Aryan </td><td>0</td></tr> 
-<tr> <td>63</td> <td>Veeragandham,Gowtham </td><td>0</td></tr> 
-<tr> <td>88</td> <td>Wanniarachchie,Senaya </td><td>0</td></tr> 
+<tr> <td>89</td> <td>Yang,Heesan </td><td>0.5</td></tr> 
 <tr> <td>54</td> <td>Velkur,Raghav Sripad </td><td>0</td></tr> 
-<tr> <td>73</td> <td>Hii,Elliott </td><td>0</td></tr> 
 <tr> <td>79</td> <td>Pai,Tesha </td><td>0</td></tr> 
-<tr> <td>81</td> <td>Sagar,Dev </td><td>0</td></tr> 
 <tr> <td>67</td> <td>Goh,Julian </td><td>0</td></tr> 
-<tr> <td>69</td> <td>Bala,Jake </td><td>0</td></tr> 
-<tr> <td>70</td> <td>Bala,Neil </td><td>0</td></tr> 
-<tr> <td>82</td> <td>Saravanakumar,Thaswin </td><td>0</td></tr> 
-<tr> <td>83</td> <td>Senevirathne,Jeniru </td><td>0</td></tr> 
-<tr> <td>50</td> <td>Balamurugan,Soorya </td><td>0</td></tr> 
+<tr> <td>55</td> <td>Goh,Daphne </td><td>0</td></tr> 
 <tr> <td>85</td> <td>Siripurapu,Jatin Aarush </td><td>0</td></tr> 
 </tbody>
 </table>
 <h5 class="mb-4 mt-4"> Best boards</h5>
 <table class="table table-striped "> 
 <thead><tr><th>Board 0</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Lingineni,Khushal </td><td> </td><td>2</td></tr> 
+<tr> <td></td> <td>1 </td><td>Annapureddy,Rheyansh Reddy </td><td> </td><td>4</td></tr> 
 <thead><tr><th>Board 1</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Parker,Lucas </td><td> </td><td>2</td></tr> 
+<tr> <td></td> <td>1 </td><td>Katakam,Deethya Sai </td><td> </td><td>4</td></tr> 
 <thead><tr><th>Board 2</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Nguyen,Anh Kiet </td><td> </td><td>2</td></tr> 
+<tr> <td></td> <td>1 </td><td>Kansal,Nuwan </td><td> </td><td>4</td></tr> 
 <thead><tr><th>Board 3</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Ramanathan,Ashwin </td><td> </td><td>2</td></tr> 
+<tr> <td></td> <td>1 </td><td>Lingineni,Khushal </td><td> </td><td>4</td></tr> 
 </tbody>
 </table></div>
 		  </div>
