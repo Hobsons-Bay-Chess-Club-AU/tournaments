@@ -8,5 +8,6 @@
     <li class="page-item base-hover"><a class="page-link" href="pairs6.php">6</a></li>
     <li class="page-item base-hover"><a class="page-link" href="pairs7.php">7</a></li>
     <li class="page-item base-hover"><a class="page-link" href="pairs8.php">8</a></li>
+    <li class="page-item base-hover"><a class="page-link" href="pairs9.php">9</a></li>
      </ul>
   </nav>
