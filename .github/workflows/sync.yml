@@ -2,7 +2,7 @@ name: Sync FTP to Local and Commit
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "0 5 * * *"
   push:
     paths:
       - .github/workflows/sync.yml
