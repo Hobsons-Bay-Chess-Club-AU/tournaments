@@ -52,7 +52,8 @@
  <td>5</td><td>W </td><td>17</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#17">Kansal,Nuwan</td><td>3282856</td><td>VIC</td><td>1684</td><td>1</td></tr><tr> 
  <td>6</td><td> B</td><td>2</td><td><span class="title male"> CM</span> <a href="fideplayercard.php#2">Lingineni,Khushal</td><td>3259056</td><td>VIC</td><td>1991</td><td>0.5</td></tr><tr> 
  <td>7</td><td>W </td><td>6</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#6">Bodke,Krishna Manthan</td><td>3259021</td><td>VIC</td><td>1784</td><td>1</td></tr><tr> 
- <td>8</td><td> B</td><td>4</td><td><span class="title male"> CM</span> <a href="fideplayercard.php#4">Nguyen,Anh Kiet</td><td>3267849</td><td>VIC</td><td>1851</td><td>1</td></tr></tbody>
+ <td>8</td><td> B</td><td>4</td><td><span class="title male"> CM</span> <a href="fideplayercard.php#4">Nguyen,Anh Kiet</td><td>3267849</td><td>VIC</td><td>1851</td><td>1</td></tr><tr> 
+ <td>9</td><td>W </td><td>7</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#7">Katakam,Deethya Sai</td><td>3244377</td><td>VIC</td><td>1718</td><td>0.5</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="2"></a> N = 2<a href="http://ratings.fide.com/profile/3259056" target="X"> Lingineni,Khushal </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -64,7 +65,8 @@
  <td>5</td><td> B</td><td>7</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#7">Katakam,Deethya Sai</td><td>3244377</td><td>VIC</td><td>1718</td><td>1</td></tr><tr> 
  <td>6</td><td>W </td><td>1</td><td><span class="title male"> FM</span> <a href="fideplayercard.php#1">Annapureddy,Rheyansh Reddy</td><td>3244806</td><td>VIC</td><td>2091</td><td>0.5</td></tr><tr> 
  <td>7</td><td> B</td><td>19</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#19">Balaji,Sai Sivesh</td><td>3286258</td><td>VIC</td><td>1543</td><td>1</td></tr><tr> 
- <td>8</td><td> B</td><td>17</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#17">Kansal,Nuwan</td><td>3282856</td><td>VIC</td><td>1684</td><td>1</td></tr></tbody>
+ <td>8</td><td> B</td><td>17</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#17">Kansal,Nuwan</td><td>3282856</td><td>VIC</td><td>1684</td><td>1</td></tr><tr> 
+ <td>9</td><td>W </td><td>11</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#11">Batyrbekov,Aidan</td><td>3265439</td><td>VIC</td><td>1431</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="3"></a> N = 3<a href="http://ratings.fide.com/profile/311110949" target="X"> Parker,Lucas </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -76,7 +78,8 @@
  <td>5</td><td>W </td><td>20</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#20">Arora,Daanish</td><td>3288900</td><td>VIC</td><td>1427</td><td>1</td></tr><tr> 
  <td>6</td><td> B</td><td>11</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#11">Batyrbekov,Aidan</td><td>3265439</td><td>VIC</td><td>1431</td><td>1</td></tr><tr> 
  <td>7</td><td>W </td><td>4</td><td><span class="title male"> CM</span> <a href="fideplayercard.php#4">Nguyen,Anh Kiet</td><td>3267849</td><td>VIC</td><td>1851</td><td>0</td></tr><tr> 
- <td>8</td><td> B</td><td>10</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#10">Annapureddy,Dhruthin Reddy</td><td>3239683</td><td>VIC</td><td>1570</td><td>1</td></tr></tbody>
+ <td>8</td><td> B</td><td>10</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#10">Annapureddy,Dhruthin Reddy</td><td>3239683</td><td>VIC</td><td>1570</td><td>1</td></tr><tr> 
+ <td>9</td><td>W </td><td>5</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#5">Batyrbekov,Kaisar</td><td>3265447</td><td>VIC</td><td>1665</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="4"></a> N = 4<a href="http://ratings.fide.com/profile/3267849" target="X"> Nguyen,Anh Kiet </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -87,7 +90,8 @@
  <td>4</td><td> B</td><td>17</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#17">Kansal,Nuwan</td><td>3282856</td><td>VIC</td><td>1684</td><td>0</td></tr><tr> 
  <td>5</td><td>W </td><td>24</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#24">Munro,Lachlan</td><td>3291197</td><td>VIC</td><td>1498</td><td>1</td></tr><tr> 
  <td>7</td><td> B</td><td>3</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#3">Parker,Lucas</td><td>311110949</td><td>VIC</td><td>1767</td><td>1</td></tr><tr> 
- <td>8</td><td>W </td><td>1</td><td><span class="title male"> FM</span> <a href="fideplayercard.php#1">Annapureddy,Rheyansh Reddy</td><td>3244806</td><td>VIC</td><td>2091</td><td>0</td></tr></tbody>
+ <td>8</td><td>W </td><td>1</td><td><span class="title male"> FM</span> <a href="fideplayercard.php#1">Annapureddy,Rheyansh Reddy</td><td>3244806</td><td>VIC</td><td>2091</td><td>0</td></tr><tr> 
+ <td>9</td><td> B</td><td>9</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#9">Ha,Aeson</td><td>3280268</td><td>VIC</td><td>1563</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="5"></a> N = 5<a href="http://ratings.fide.com/profile/3265447" target="X"> Batyrbekov,Kaisar </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -99,7 +103,8 @@
  <td>5</td><td>W </td><td>26</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#26">Le,Khoi Nguyen</td><td>561001155</td><td>VIC</td><td>1474</td><td>1</td></tr><tr> 
  <td>6</td><td> B</td><td>6</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#6">Bodke,Krishna Manthan</td><td>3259021</td><td>VIC</td><td>1784</td><td>0</td></tr><tr> 
  <td>7</td><td>W </td><td>24</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#24">Munro,Lachlan</td><td>3291197</td><td>VIC</td><td>1498</td><td>1</td></tr><tr> 
- <td>8</td><td> B</td><td>34</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#34">Shaiek,Nihal</td><td>3286380</td><td>VIC</td><td>1427</td><td>0.5</td></tr></tbody>
+ <td>8</td><td> B</td><td>34</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#34">Shaiek,Nihal</td><td>3286380</td><td>VIC</td><td>1427</td><td>0.5</td></tr><tr> 
+ <td>9</td><td> B</td><td>3</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#3">Parker,Lucas</td><td>311110949</td><td>VIC</td><td>1767</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="6"></a> N = 6<a href="http://ratings.fide.com/profile/3259021" target="X"> Bodke,Krishna Manthan </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -110,7 +115,8 @@
  <td>5</td><td>W </td><td>8</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#8">Ramanathan,Ashwin</td><td>3275221</td><td>VIC</td><td>1698</td><td>1</td></tr><tr> 
  <td>6</td><td>W </td><td>5</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#5">Batyrbekov,Kaisar</td><td>3265447</td><td>VIC</td><td>1665</td><td>1</td></tr><tr> 
  <td>7</td><td> B</td><td>1</td><td><span class="title male"> FM</span> <a href="fideplayercard.php#1">Annapureddy,Rheyansh Reddy</td><td>3244806</td><td>VIC</td><td>2091</td><td>0</td></tr><tr> 
- <td>8</td><td> B</td><td>7</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#7">Katakam,Deethya Sai</td><td>3244377</td><td>VIC</td><td>1718</td><td>0</td></tr></tbody>
+ <td>8</td><td> B</td><td>7</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#7">Katakam,Deethya Sai</td><td>3244377</td><td>VIC</td><td>1718</td><td>0</td></tr><tr> 
+ <td>9</td><td>W </td><td>15</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#15">Shirawala,Sahar</td><td>3256359</td><td>VIC</td><td>1582</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="7"></a> N = 7<a href="http://ratings.fide.com/profile/3244377" target="X"> Katakam,Deethya Sai </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -122,7 +128,8 @@
  <td>5</td><td>W </td><td>2</td><td><span class="title male"> CM</span> <a href="fideplayercard.php#2">Lingineni,Khushal</td><td>3259056</td><td>VIC</td><td>1991</td><td>0</td></tr><tr> 
  <td>6</td><td> B</td><td>17</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#17">Kansal,Nuwan</td><td>3282856</td><td>VIC</td><td>1684</td><td>0.5</td></tr><tr> 
  <td>7</td><td> B</td><td>9</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#9">Ha,Aeson</td><td>3280268</td><td>VIC</td><td>1563</td><td>1</td></tr><tr> 
- <td>8</td><td>W </td><td>6</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#6">Bodke,Krishna Manthan</td><td>3259021</td><td>VIC</td><td>1784</td><td>1</td></tr></tbody>
+ <td>8</td><td>W </td><td>6</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#6">Bodke,Krishna Manthan</td><td>3259021</td><td>VIC</td><td>1784</td><td>1</td></tr><tr> 
+ <td>9</td><td> B</td><td>1</td><td><span class="title male"> FM</span> <a href="fideplayercard.php#1">Annapureddy,Rheyansh Reddy</td><td>3244806</td><td>VIC</td><td>2091</td><td>0.5</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="8"></a> N = 8<a href="http://ratings.fide.com/profile/3275221" target="X"> Ramanathan,Ashwin </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -134,7 +141,8 @@
  <td>5</td><td> B</td><td>6</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#6">Bodke,Krishna Manthan</td><td>3259021</td><td>VIC</td><td>1784</td><td>0</td></tr><tr> 
  <td>6</td><td>W </td><td>34</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#34">Shaiek,Nihal</td><td>3286380</td><td>VIC</td><td>1427</td><td>0</td></tr><tr> 
  <td>7</td><td> B</td><td>51</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#51">Fang,Candice</td><td>3291154</td><td>VIC</td><td>1482</td><td>1</td></tr><tr> 
- <td>8</td><td>W </td><td>35</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#35">Watson,Jacob</td><td>573002330</td><td>VIC</td><td>1504</td><td>1</td></tr></tbody>
+ <td>8</td><td>W </td><td>35</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#35">Watson,Jacob</td><td>573002330</td><td>VIC</td><td>1504</td><td>1</td></tr><tr> 
+ <td>9</td><td> B</td><td>29</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#29">Zhou,Zenan</td><td>3281205</td><td>VIC</td><td>1568</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="9"></a> N = 9<a href="http://ratings.fide.com/profile/3280268" target="X"> Ha,Aeson </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -145,7 +153,8 @@
  <td>5</td><td>W </td><td>32</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#32">Zhao,Oscar</td><td>3298230</td><td>VIC</td><td>1474</td><td>1</td></tr><tr> 
  <td>6</td><td> B</td><td>18</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#18">Jyothi Nikhil,Neev</td><td>3284670</td><td>VIC</td><td>1490</td><td>1</td></tr><tr> 
  <td>7</td><td>W </td><td>7</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#7">Katakam,Deethya Sai</td><td>3244377</td><td>VIC</td><td>1718</td><td>0</td></tr><tr> 
- <td>8</td><td> B</td><td>14</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#14">Annadasu,Shreyansh</td><td>3275779</td><td>VIC</td><td>1535</td><td>1</td></tr></tbody>
+ <td>8</td><td> B</td><td>14</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#14">Annadasu,Shreyansh</td><td>3275779</td><td>VIC</td><td>1535</td><td>1</td></tr><tr> 
+ <td>9</td><td>W </td><td>4</td><td><span class="title male"> CM</span> <a href="fideplayercard.php#4">Nguyen,Anh Kiet</td><td>3267849</td><td>VIC</td><td>1851</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="10"></a> N = 10<a href="http://ratings.fide.com/profile/3239683" target="X"> Annapureddy,Dhruthin Reddy </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -155,7 +164,8 @@
  <td>5</td><td> B</td><td>27</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#27">Ruaya,Rohan</td><td>3281345</td><td>VIC</td><td>1500</td><td>1</td></tr><tr> 
  <td>6</td><td>W </td><td>19</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#19">Balaji,Sai Sivesh</td><td>3286258</td><td>VIC</td><td>1543</td><td>0</td></tr><tr> 
  <td>7</td><td> B</td><td>23</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#23">Mi,Sura</td><td>3264106</td><td>VIC</td><td>1551</td><td>1</td></tr><tr> 
- <td>8</td><td>W </td><td>3</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#3">Parker,Lucas</td><td>311110949</td><td>VIC</td><td>1767</td><td>0</td></tr></tbody>
+ <td>8</td><td>W </td><td>3</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#3">Parker,Lucas</td><td>311110949</td><td>VIC</td><td>1767</td><td>0</td></tr><tr> 
+ <td>9</td><td> B</td><td>38</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#38">Kaur,Mishleen</td><td>3292347</td><td>VIC</td><td>1527</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="11"></a> N = 11<a href="http://ratings.fide.com/profile/3265439" target="X"> Batyrbekov,Aidan </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -165,7 +175,8 @@
  <td>5</td><td> B</td><td>35</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#35">Watson,Jacob</td><td>573002330</td><td>VIC</td><td>1504</td><td>1</td></tr><tr> 
  <td>6</td><td>W </td><td>3</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#3">Parker,Lucas</td><td>311110949</td><td>VIC</td><td>1767</td><td>0</td></tr><tr> 
  <td>7</td><td> B</td><td>29</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#29">Zhou,Zenan</td><td>3281205</td><td>VIC</td><td>1568</td><td>1</td></tr><tr> 
- <td>8</td><td>W </td><td>19</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#19">Balaji,Sai Sivesh</td><td>3286258</td><td>VIC</td><td>1543</td><td>1</td></tr></tbody>
+ <td>8</td><td>W </td><td>19</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#19">Balaji,Sai Sivesh</td><td>3286258</td><td>VIC</td><td>1543</td><td>1</td></tr><tr> 
+ <td>9</td><td> B</td><td>2</td><td><span class="title male"> CM</span> <a href="fideplayercard.php#2">Lingineni,Khushal</td><td>3259056</td><td>VIC</td><td>1991</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="12"></a> N = 12<a href="http://ratings.fide.com/profile/3293637" target="X"> Rawat,Vivaan </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -175,7 +186,8 @@
  <td>4</td><td>W </td><td>39</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#39">Goh,Nicholas</td><td>3254917</td><td>VIC</td><td>1421</td><td>0.5</td></tr><tr> 
  <td>6</td><td>W </td><td>20</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#20">Arora,Daanish</td><td>3288900</td><td>VIC</td><td>1427</td><td>0</td></tr><tr> 
  <td>7</td><td> B</td><td>44</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#44">Venkat,Nyra</td><td>3286410</td><td>VIC</td><td>1467</td><td>1</td></tr><tr> 
- <td>8</td><td> B</td><td>18</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#18">Jyothi Nikhil,Neev</td><td>3284670</td><td>VIC</td><td>1490</td><td>1</td></tr></tbody>
+ <td>8</td><td> B</td><td>18</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#18">Jyothi Nikhil,Neev</td><td>3284670</td><td>VIC</td><td>1490</td><td>1</td></tr><tr> 
+ <td>9</td><td>W </td><td>17</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#17">Kansal,Nuwan</td><td>3282856</td><td>VIC</td><td>1684</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="13"></a> N = 13<a href="http://ratings.fide.com/profile/3267288" target="X"> Fais,Ariana </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -186,7 +198,8 @@
  <td>5</td><td>W </td><td>42</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#42">Luan,William</td><td>573003328</td><td>VIC</td><td>1501</td><td>1</td></tr><tr> 
  <td>6</td><td> B</td><td>14</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#14">Annadasu,Shreyansh</td><td>3275779</td><td>VIC</td><td>1535</td><td>0.5</td></tr><tr> 
  <td>7</td><td>W </td><td>26</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#26">Le,Khoi Nguyen</td><td>561001155</td><td>VIC</td><td>1474</td><td>0.5</td></tr><tr> 
- <td>8</td><td> B</td><td>32</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#32">Zhao,Oscar</td><td>3298230</td><td>VIC</td><td>1474</td><td>1</td></tr></tbody>
+ <td>8</td><td> B</td><td>32</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#32">Zhao,Oscar</td><td>3298230</td><td>VIC</td><td>1474</td><td>1</td></tr><tr> 
+ <td>9</td><td>W </td><td>34</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#34">Shaiek,Nihal</td><td>3286380</td><td>VIC</td><td>1427</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="14"></a> N = 14<a href="http://ratings.fide.com/profile/3275779" target="X"> Annadasu,Shreyansh </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -197,7 +210,8 @@
  <td>5</td><td> B</td><td>39</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#39">Goh,Nicholas</td><td>3254917</td><td>VIC</td><td>1421</td><td>1</td></tr><tr> 
  <td>6</td><td>W </td><td>13</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#13">Fais,Ariana</td><td>3267288</td><td>VIC</td><td>1508</td><td>0.5</td></tr><tr> 
  <td>7</td><td> B</td><td>31</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#31">Vemula,Thamoghna</td><td>3291251</td><td>VIC</td><td>1462</td><td>1</td></tr><tr> 
- <td>8</td><td>W </td><td>9</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#9">Ha,Aeson</td><td>3280268</td><td>VIC</td><td>1563</td><td>0</td></tr></tbody>
+ <td>8</td><td>W </td><td>9</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#9">Ha,Aeson</td><td>3280268</td><td>VIC</td><td>1563</td><td>0</td></tr><tr> 
+ <td>9</td><td> B</td><td>27</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#27">Ruaya,Rohan</td><td>3281345</td><td>VIC</td><td>1500</td><td>0.5</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="15"></a> N = 15<a href="http://ratings.fide.com/profile/3256359" target="X"> Shirawala,Sahar </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -208,7 +222,8 @@
  <td>4</td><td> B</td><td>32</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#32">Zhao,Oscar</td><td>3298230</td><td>VIC</td><td>1474</td><td>0</td></tr><tr> 
  <td>5</td><td>W </td><td>29</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#29">Zhou,Zenan</td><td>3281205</td><td>VIC</td><td>1568</td><td>0.5</td></tr><tr> 
  <td>7</td><td>W </td><td>41</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#41">Husain,Lamiah</td><td>3278905</td><td>VIC</td><td>1467</td><td>1</td></tr><tr> 
- <td>8</td><td> B</td><td>26</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#26">Le,Khoi Nguyen</td><td>561001155</td><td>VIC</td><td>1474</td><td>1</td></tr></tbody>
+ <td>8</td><td> B</td><td>26</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#26">Le,Khoi Nguyen</td><td>561001155</td><td>VIC</td><td>1474</td><td>1</td></tr><tr> 
+ <td>9</td><td> B</td><td>6</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#6">Bodke,Krishna Manthan</td><td>3259021</td><td>VIC</td><td>1784</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="16"></a> N = 16<a href="http://ratings.fide.com/profile/573001627" target="X"> Gali,Joyel Evan </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -217,7 +232,8 @@
  <td>2</td><td>W </td><td>37</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#37">Nema,Nivaan</td><td>3289923</td><td>VIC</td><td>1411</td><td>0.5</td></tr><tr> 
  <td>3</td><td> B</td><td>35</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#35">Watson,Jacob</td><td>573002330</td><td>VIC</td><td>1504</td><td>0</td></tr><tr> 
  <td>6</td><td>W </td><td>52</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#52">You,Henry</td><td>3297470</td><td>VIC</td><td>1420</td><td>0</td></tr><tr> 
- <td>8</td><td>W </td><td>44</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#44">Venkat,Nyra</td><td>3286410</td><td>VIC</td><td>1467</td><td>0.5</td></tr></tbody>
+ <td>8</td><td>W </td><td>44</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#44">Venkat,Nyra</td><td>3286410</td><td>VIC</td><td>1467</td><td>0.5</td></tr><tr> 
+ <td>9</td><td> B</td><td>51</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#51">Fang,Candice</td><td>3291154</td><td>VIC</td><td>1482</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="17"></a> N = 17<a href="http://ratings.fide.com/profile/3282856" target="X"> Kansal,Nuwan </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -228,7 +244,8 @@
  <td>5</td><td> B</td><td>1</td><td><span class="title male"> FM</span> <a href="fideplayercard.php#1">Annapureddy,Rheyansh Reddy</td><td>3244806</td><td>VIC</td><td>2091</td><td>0</td></tr><tr> 
  <td>6</td><td>W </td><td>7</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#7">Katakam,Deethya Sai</td><td>3244377</td><td>VIC</td><td>1718</td><td>0.5</td></tr><tr> 
  <td>7</td><td> B</td><td>20</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#20">Arora,Daanish</td><td>3288900</td><td>VIC</td><td>1427</td><td>1</td></tr><tr> 
- <td>8</td><td>W </td><td>2</td><td><span class="title male"> CM</span> <a href="fideplayercard.php#2">Lingineni,Khushal</td><td>3259056</td><td>VIC</td><td>1991</td><td>0</td></tr></tbody>
+ <td>8</td><td>W </td><td>2</td><td><span class="title male"> CM</span> <a href="fideplayercard.php#2">Lingineni,Khushal</td><td>3259056</td><td>VIC</td><td>1991</td><td>0</td></tr><tr> 
+ <td>9</td><td> B</td><td>12</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#12">Rawat,Vivaan</td><td>3293637</td><td>VIC</td><td>1585</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="18"></a> N = 18<a href="http://ratings.fide.com/profile/3284670" target="X"> Jyothi Nikhil,Neev </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -238,7 +255,8 @@
  <td>3</td><td> B</td><td>5</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#5">Batyrbekov,Kaisar</td><td>3265447</td><td>VIC</td><td>1665</td><td>1</td></tr><tr> 
  <td>4</td><td>W </td><td>7</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#7">Katakam,Deethya Sai</td><td>3244377</td><td>VIC</td><td>1718</td><td>0</td></tr><tr> 
  <td>6</td><td>W </td><td>9</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#9">Ha,Aeson</td><td>3280268</td><td>VIC</td><td>1563</td><td>0</td></tr><tr> 
- <td>8</td><td>W </td><td>12</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#12">Rawat,Vivaan</td><td>3293637</td><td>VIC</td><td>1585</td><td>0</td></tr></tbody>
+ <td>8</td><td>W </td><td>12</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#12">Rawat,Vivaan</td><td>3293637</td><td>VIC</td><td>1585</td><td>0</td></tr><tr> 
+ <td>9</td><td> B</td><td>52</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#52">You,Henry</td><td>3297470</td><td>VIC</td><td>1420</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="19"></a> N = 19<a href="http://ratings.fide.com/profile/3286258" target="X"> Balaji,Sai Sivesh </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -248,7 +266,8 @@
  <td>4</td><td> B</td><td>34</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#34">Shaiek,Nihal</td><td>3286380</td><td>VIC</td><td>1427</td><td>1</td></tr><tr> 
  <td>6</td><td> B</td><td>10</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#10">Annapureddy,Dhruthin Reddy</td><td>3239683</td><td>VIC</td><td>1570</td><td>1</td></tr><tr> 
  <td>7</td><td>W </td><td>2</td><td><span class="title male"> CM</span> <a href="fideplayercard.php#2">Lingineni,Khushal</td><td>3259056</td><td>VIC</td><td>1991</td><td>0</td></tr><tr> 
- <td>8</td><td> B</td><td>11</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#11">Batyrbekov,Aidan</td><td>3265439</td><td>VIC</td><td>1431</td><td>0</td></tr></tbody>
+ <td>8</td><td> B</td><td>11</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#11">Batyrbekov,Aidan</td><td>3265439</td><td>VIC</td><td>1431</td><td>0</td></tr><tr> 
+ <td>9</td><td>W </td><td>40</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#40">Vignesh,Prajeeth Balaji</td><td>4332180</td><td>OS</td><td>1544</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="20"></a> N = 20<a href="http://ratings.fide.com/profile/3288900" target="X"> Arora,Daanish </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -298,7 +317,8 @@
  <td>3</td><td> B</td><td>52</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#52">You,Henry</td><td>3297470</td><td>VIC</td><td>1420</td><td>1</td></tr><tr> 
  <td>4</td><td>W </td><td>43</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#43">Singh,Sumair</td><td>3273547</td><td>VIC</td><td>1440</td><td>1</td></tr><tr> 
  <td>5</td><td> B</td><td>4</td><td><span class="title male"> CM</span> <a href="fideplayercard.php#4">Nguyen,Anh Kiet</td><td>3267849</td><td>VIC</td><td>1851</td><td>0</td></tr><tr> 
- <td>7</td><td> B</td><td>5</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#5">Batyrbekov,Kaisar</td><td>3265447</td><td>VIC</td><td>1665</td><td>0</td></tr></tbody>
+ <td>7</td><td> B</td><td>5</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#5">Batyrbekov,Kaisar</td><td>3265447</td><td>VIC</td><td>1665</td><td>0</td></tr><tr> 
+ <td>9</td><td> B</td><td>46</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#46">Guha,Shanaya</td><td>3269485</td><td>VIC</td><td>1410</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="25"></a> N = 25<a href="http://ratings.fide.com/profile/3264173" target="X"> Saha,Avinandan (Arjun) </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -306,7 +326,8 @@
  <td>2</td><td> B</td><td>4</td><td><span class="title male"> CM</span> <a href="fideplayercard.php#4">Nguyen,Anh Kiet</td><td>3267849</td><td>VIC</td><td>1851</td><td>0</td></tr><tr> 
  <td>5</td><td>W </td><td>48</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#48">Wang,Evan</td><td>573002321</td><td>VIC</td><td>1460</td><td>0</td></tr><tr> 
  <td>7</td><td>W </td><td>49</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#49">Barar,Ridam</td><td>3294080</td><td>VIC</td><td>1660</td><td>1</td></tr><tr> 
- <td>8</td><td> B</td><td>42</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#42">Luan,William</td><td>573003328</td><td>VIC</td><td>1501</td><td>0.5</td></tr></tbody>
+ <td>8</td><td> B</td><td>42</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#42">Luan,William</td><td>573003328</td><td>VIC</td><td>1501</td><td>0.5</td></tr><tr> 
+ <td>9</td><td>W </td><td>32</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#32">Zhao,Oscar</td><td>3298230</td><td>VIC</td><td>1474</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="26"></a> N = 26<a href="http://ratings.fide.com/profile/561001155" target="X"> Le,Khoi Nguyen </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -327,7 +348,8 @@
  <td>5</td><td>W </td><td>10</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#10">Annapureddy,Dhruthin Reddy</td><td>3239683</td><td>VIC</td><td>1570</td><td>0</td></tr><tr> 
  <td>6</td><td> B</td><td>42</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#42">Luan,William</td><td>573003328</td><td>VIC</td><td>1501</td><td>0.5</td></tr><tr> 
  <td>7</td><td>W </td><td>32</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#32">Zhao,Oscar</td><td>3298230</td><td>VIC</td><td>1474</td><td>0.5</td></tr><tr> 
- <td>8</td><td> B</td><td>43</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#43">Singh,Sumair</td><td>3273547</td><td>VIC</td><td>1440</td><td>1</td></tr></tbody>
+ <td>8</td><td> B</td><td>43</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#43">Singh,Sumair</td><td>3273547</td><td>VIC</td><td>1440</td><td>1</td></tr><tr> 
+ <td>9</td><td>W </td><td>14</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#14">Annadasu,Shreyansh</td><td>3275779</td><td>VIC</td><td>1535</td><td>0.5</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="28"></a> N = 28<a href="http://ratings.fide.com/profile/3272753" target="X"> Gajula,Karan </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -337,7 +359,8 @@
  <td>4</td><td>W </td><td>3</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#3">Parker,Lucas</td><td>311110949</td><td>VIC</td><td>1767</td><td>0</td></tr><tr> 
  <td>5</td><td> B</td><td>46</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#46">Guha,Shanaya</td><td>3269485</td><td>VIC</td><td>1410</td><td>1</td></tr><tr> 
  <td>6</td><td>W </td><td>44</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#44">Venkat,Nyra</td><td>3286410</td><td>VIC</td><td>1467</td><td>0.5</td></tr><tr> 
- <td>7</td><td> B</td><td>52</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#52">You,Henry</td><td>3297470</td><td>VIC</td><td>1420</td><td>0</td></tr></tbody>
+ <td>7</td><td> B</td><td>52</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#52">You,Henry</td><td>3297470</td><td>VIC</td><td>1420</td><td>0</td></tr><tr> 
+ <td>9</td><td>W </td><td>59</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#59">Mallajosyula,Srivaths</td><td>3297969</td><td>VIC</td><td>1473</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="29"></a> N = 29<a href="http://ratings.fide.com/profile/3281205" target="X"> Zhou,Zenan </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -346,7 +369,8 @@
  <td>3</td><td> B</td><td>13</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#13">Fais,Ariana</td><td>3267288</td><td>VIC</td><td>1508</td><td>0</td></tr><tr> 
  <td>5</td><td> B</td><td>15</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#15">Shirawala,Sahar</td><td>3256359</td><td>VIC</td><td>1582</td><td>0.5</td></tr><tr> 
  <td>7</td><td>W </td><td>11</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#11">Batyrbekov,Aidan</td><td>3265439</td><td>VIC</td><td>1431</td><td>0</td></tr><tr> 
- <td>8</td><td> B</td><td>47</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#47">Rao,Karanam Prabhava</td><td>564041450</td><td>VIC</td><td>1411</td><td>1</td></tr></tbody>
+ <td>8</td><td> B</td><td>47</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#47">Rao,Karanam Prabhava</td><td>564041450</td><td>VIC</td><td>1411</td><td>1</td></tr><tr> 
+ <td>9</td><td>W </td><td>8</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#8">Ramanathan,Ashwin</td><td>3275221</td><td>VIC</td><td>1698</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="30"></a> N = 30<a href="http://ratings.fide.com/profile/3295702" target="X"> Samraat, Aayush </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -355,7 +379,8 @@
  <td>4</td><td>W </td><td>5</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#5">Batyrbekov,Kaisar</td><td>3265447</td><td>VIC</td><td>1665</td><td>0</td></tr><tr> 
  <td>5</td><td> B</td><td>51</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#51">Fang,Candice</td><td>3291154</td><td>VIC</td><td>1482</td><td>0</td></tr><tr> 
  <td>6</td><td>W </td><td>62</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#62">Spriggs,Harvey</td><td>3289974</td><td>VIC</td><td>1611</td><td>0</td></tr><tr> 
- <td>7</td><td> B</td><td>68</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#68">Gunathilake,Sithev</td><td>3297373</td><td>VIC</td><td>1513</td><td>0</td></tr></tbody>
+ <td>7</td><td> B</td><td>68</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#68">Gunathilake,Sithev</td><td>3297373</td><td>VIC</td><td>1513</td><td>0</td></tr><tr> 
+ <td>9</td><td> B</td><td>60</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#60">Subhash,Ryan</td><td>3296393</td><td>VIC</td><td>1567</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="31"></a> N = 31<a href="http://ratings.fide.com/profile/3291251" target="X"> Vemula,Thamoghna </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -364,7 +389,8 @@
  <td>3</td><td>W </td><td>8</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#8">Ramanathan,Ashwin</td><td>3275221</td><td>VIC</td><td>1698</td><td>0</td></tr><tr> 
  <td>4</td><td> B</td><td>11</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#11">Batyrbekov,Aidan</td><td>3265439</td><td>VIC</td><td>1431</td><td>0</td></tr><tr> 
  <td>6</td><td> B</td><td>48</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#48">Wang,Evan</td><td>573002321</td><td>VIC</td><td>1460</td><td>1</td></tr><tr> 
- <td>7</td><td>W </td><td>14</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#14">Annadasu,Shreyansh</td><td>3275779</td><td>VIC</td><td>1535</td><td>0</td></tr></tbody>
+ <td>7</td><td>W </td><td>14</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#14">Annadasu,Shreyansh</td><td>3275779</td><td>VIC</td><td>1535</td><td>0</td></tr><tr> 
+ <td>9</td><td>W </td><td>42</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#42">Luan,William</td><td>573003328</td><td>VIC</td><td>1501</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="32"></a> N = 32<a href="http://ratings.fide.com/profile/3298230" target="X"> Zhao,Oscar </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -375,14 +401,16 @@
  <td>5</td><td> B</td><td>9</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#9">Ha,Aeson</td><td>3280268</td><td>VIC</td><td>1563</td><td>0</td></tr><tr> 
  <td>6</td><td>W </td><td>51</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#51">Fang,Candice</td><td>3291154</td><td>VIC</td><td>1482</td><td>1</td></tr><tr> 
  <td>7</td><td> B</td><td>27</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#27">Ruaya,Rohan</td><td>3281345</td><td>VIC</td><td>1500</td><td>0.5</td></tr><tr> 
- <td>8</td><td>W </td><td>13</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#13">Fais,Ariana</td><td>3267288</td><td>VIC</td><td>1508</td><td>0</td></tr></tbody>
+ <td>8</td><td>W </td><td>13</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#13">Fais,Ariana</td><td>3267288</td><td>VIC</td><td>1508</td><td>0</td></tr><tr> 
+ <td>9</td><td> B</td><td>25</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#25">Saha,Avinandan (Arjun)</td><td>3264173</td><td>VIC</td><td>1452</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="33"></a> N = 33<a href="http://ratings.fide.com/profile/0" target="X"> Vinu,Vaishnav </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
  <td>3</td><td>W </td><td>10</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#10">Annapureddy,Dhruthin Reddy</td><td>3239683</td><td>VIC</td><td>1570</td><td>0</td></tr><tr> 
  <td>5</td><td>W </td><td>12</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#12">Rawat,Vivaan</td><td>3293637</td><td>VIC</td><td>1585</td><td>0</td></tr><tr> 
- <td>7</td><td>W </td><td>42</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#42">Luan,William</td><td>573003328</td><td>VIC</td><td>1501</td><td>0.5</td></tr></tbody>
+ <td>7</td><td>W </td><td>42</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#42">Luan,William</td><td>573003328</td><td>VIC</td><td>1501</td><td>0.5</td></tr><tr> 
+ <td>9</td><td>W </td><td>20</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#20">Arora,Daanish</td><td>3288900</td><td>VIC</td><td>1427</td><td>0.5</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="34"></a> N = 34<a href="http://ratings.fide.com/profile/3286380" target="X"> Shaiek,Nihal </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -391,7 +419,8 @@
  <td>4</td><td>W </td><td>19</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#19">Balaji,Sai Sivesh</td><td>3286258</td><td>VIC</td><td>1543</td><td>0</td></tr><tr> 
  <td>6</td><td> B</td><td>8</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#8">Ramanathan,Ashwin</td><td>3275221</td><td>VIC</td><td>1698</td><td>1</td></tr><tr> 
  <td>7</td><td>W </td><td>22</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#22">Huang,Michael</td><td>3286320</td><td>VIC</td><td>1552</td><td>1</td></tr><tr> 
- <td>8</td><td>W </td><td>5</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#5">Batyrbekov,Kaisar</td><td>3265447</td><td>VIC</td><td>1665</td><td>0.5</td></tr></tbody>
+ <td>8</td><td>W </td><td>5</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#5">Batyrbekov,Kaisar</td><td>3265447</td><td>VIC</td><td>1665</td><td>0.5</td></tr><tr> 
+ <td>9</td><td> B</td><td>13</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#13">Fais,Ariana</td><td>3267288</td><td>VIC</td><td>1508</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="35"></a> N = 35<a href="http://ratings.fide.com/profile/573002330" target="X"> Watson,Jacob </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -402,7 +431,8 @@
  <td>5</td><td>W </td><td>11</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#11">Batyrbekov,Aidan</td><td>3265439</td><td>VIC</td><td>1431</td><td>0</td></tr><tr> 
  <td>6</td><td> B</td><td>22</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#22">Huang,Michael</td><td>3286320</td><td>VIC</td><td>1552</td><td>0</td></tr><tr> 
  <td>7</td><td>W </td><td>48</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#48">Wang,Evan</td><td>573002321</td><td>VIC</td><td>1460</td><td>1</td></tr><tr> 
- <td>8</td><td> B</td><td>8</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#8">Ramanathan,Ashwin</td><td>3275221</td><td>VIC</td><td>1698</td><td>0</td></tr></tbody>
+ <td>8</td><td> B</td><td>8</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#8">Ramanathan,Ashwin</td><td>3275221</td><td>VIC</td><td>1698</td><td>0</td></tr><tr> 
+ <td>9</td><td>W </td><td>47</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#47">Rao,Karanam Prabhava</td><td>564041450</td><td>VIC</td><td>1411</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="36"></a> N = 36<a href="http://ratings.fide.com/profile/0" target="X"> Vinu,Vinayak </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -410,7 +440,8 @@
  <td>2</td><td>W </td><td>11</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#11">Batyrbekov,Aidan</td><td>3265439</td><td>VIC</td><td>1431</td><td>0</td></tr><tr> 
  <td>4</td><td>W </td><td>21</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#21">Katakam,Aadhya Sai</td><td>3265560</td><td>VIC</td><td>1428</td><td>1</td></tr><tr> 
  <td>5</td><td>W </td><td>18</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#18">Jyothi Nikhil,Neev</td><td>3284670</td><td>VIC</td><td>1490</td><td>0</td></tr><tr> 
- <td>6</td><td> B</td><td>24</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#24">Munro,Lachlan</td><td>3291197</td><td>VIC</td><td>1498</td><td>0</td></tr></tbody>
+ <td>6</td><td> B</td><td>24</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#24">Munro,Lachlan</td><td>3291197</td><td>VIC</td><td>1498</td><td>0</td></tr><tr> 
+ <td>9</td><td> B</td><td>68</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#68">Gunathilake,Sithev</td><td>3297373</td><td>VIC</td><td>1513</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="37"></a> N = 37<a href="http://ratings.fide.com/profile/3289923" target="X"> Nema,Nivaan </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -419,7 +450,8 @@
  <td>2</td><td> B</td><td>16</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#16">Gali,Joyel Evan</td><td>573001627</td><td>VIC</td><td>1644</td><td>0.5</td></tr><tr> 
  <td>3</td><td>W </td><td>14</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#14">Annadasu,Shreyansh</td><td>3275779</td><td>VIC</td><td>1535</td><td>0</td></tr><tr> 
  <td>5</td><td>W </td><td>59</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#59">Mallajosyula,Srivaths</td><td>3297969</td><td>VIC</td><td>1473</td><td>0.5</td></tr><tr> 
- <td>6</td><td> B</td><td>41</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#41">Husain,Lamiah</td><td>3278905</td><td>VIC</td><td>1467</td><td>0</td></tr></tbody>
+ <td>6</td><td> B</td><td>41</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#41">Husain,Lamiah</td><td>3278905</td><td>VIC</td><td>1467</td><td>0</td></tr><tr> 
+ <td>9</td><td>W </td><td>39</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#39">Goh,Nicholas</td><td>3254917</td><td>VIC</td><td>1421</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="38"></a> N = 38<a href="http://ratings.fide.com/profile/3292347" target="X"> Kaur,Mishleen </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -428,7 +460,8 @@
  <td>4</td><td>W </td><td>62</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#62">Spriggs,Harvey</td><td>3289974</td><td>VIC</td><td>1611</td><td>1</td></tr><tr> 
  <td>5</td><td> B</td><td>60</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#60">Subhash,Ryan</td><td>3296393</td><td>VIC</td><td>1567</td><td>1</td></tr><tr> 
  <td>6</td><td>W </td><td>23</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#23">Mi,Sura</td><td>3264106</td><td>VIC</td><td>1551</td><td>0</td></tr><tr> 
- <td>8</td><td>W </td><td>21</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#21">Katakam,Aadhya Sai</td><td>3265560</td><td>VIC</td><td>1428</td><td>1</td></tr></tbody>
+ <td>8</td><td>W </td><td>21</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#21">Katakam,Aadhya Sai</td><td>3265560</td><td>VIC</td><td>1428</td><td>1</td></tr><tr> 
+ <td>9</td><td>W </td><td>10</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#10">Annapureddy,Dhruthin Reddy</td><td>3239683</td><td>VIC</td><td>1570</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="39"></a> N = 39<a href="http://ratings.fide.com/profile/3254917" target="X"> Goh,Nicholas </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -436,7 +469,8 @@
  <td>2</td><td> B</td><td>18</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#18">Jyothi Nikhil,Neev</td><td>3284670</td><td>VIC</td><td>1490</td><td>0</td></tr><tr> 
  <td>4</td><td> B</td><td>12</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#12">Rawat,Vivaan</td><td>3293637</td><td>VIC</td><td>1585</td><td>0.5</td></tr><tr> 
  <td>5</td><td>W </td><td>14</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#14">Annadasu,Shreyansh</td><td>3275779</td><td>VIC</td><td>1535</td><td>0</td></tr><tr> 
- <td>6</td><td> B</td><td>59</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#59">Mallajosyula,Srivaths</td><td>3297969</td><td>VIC</td><td>1473</td><td>0</td></tr></tbody>
+ <td>6</td><td> B</td><td>59</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#59">Mallajosyula,Srivaths</td><td>3297969</td><td>VIC</td><td>1473</td><td>0</td></tr><tr> 
+ <td>9</td><td> B</td><td>37</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#37">Nema,Nivaan</td><td>3289923</td><td>VIC</td><td>1411</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="40"></a> N = 40<a href="http://ratings.fide.com/profile/4332180" target="X"> Vignesh,Prajeeth Balaji </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -444,7 +478,8 @@
  <td>2</td><td>W </td><td>17</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#17">Kansal,Nuwan</td><td>3282856</td><td>VIC</td><td>1684</td><td>0</td></tr><tr> 
  <td>6</td><td> B</td><td>26</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#26">Le,Khoi Nguyen</td><td>561001155</td><td>VIC</td><td>1474</td><td>0</td></tr><tr> 
  <td>7</td><td>W </td><td>57</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#57">Yegnavajjula,Aryan Srivatsav</td><td>3288510</td><td>VIC</td><td>1403</td><td>1</td></tr><tr> 
- <td>8</td><td>W </td><td>23</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#23">Mi,Sura</td><td>3264106</td><td>VIC</td><td>1551</td><td>1</td></tr></tbody>
+ <td>8</td><td>W </td><td>23</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#23">Mi,Sura</td><td>3264106</td><td>VIC</td><td>1551</td><td>1</td></tr><tr> 
+ <td>9</td><td> B</td><td>19</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#19">Balaji,Sai Sivesh</td><td>3286258</td><td>VIC</td><td>1543</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="41"></a> N = 41<a href="http://ratings.fide.com/profile/3278905" target="X"> Husain,Lamiah </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -462,7 +497,8 @@
  <td>4</td><td>W </td><td>23</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#23">Mi,Sura</td><td>3264106</td><td>VIC</td><td>1551</td><td>1</td></tr><tr> 
  <td>5</td><td> B</td><td>13</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#13">Fais,Ariana</td><td>3267288</td><td>VIC</td><td>1508</td><td>0</td></tr><tr> 
  <td>6</td><td>W </td><td>27</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#27">Ruaya,Rohan</td><td>3281345</td><td>VIC</td><td>1500</td><td>0.5</td></tr><tr> 
- <td>8</td><td>W </td><td>25</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#25">Saha,Avinandan (Arjun)</td><td>3264173</td><td>VIC</td><td>1452</td><td>0.5</td></tr></tbody>
+ <td>8</td><td>W </td><td>25</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#25">Saha,Avinandan (Arjun)</td><td>3264173</td><td>VIC</td><td>1452</td><td>0.5</td></tr><tr> 
+ <td>9</td><td> B</td><td>31</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#31">Vemula,Thamoghna</td><td>3291251</td><td>VIC</td><td>1462</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="43"></a> N = 43<a href="http://ratings.fide.com/profile/3273547" target="X"> Singh,Sumair </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -481,7 +517,8 @@
  <td>4</td><td>W </td><td>27</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#27">Ruaya,Rohan</td><td>3281345</td><td>VIC</td><td>1500</td><td>0</td></tr><tr> 
  <td>6</td><td> B</td><td>28</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#28">Gajula,Karan</td><td>3272753</td><td>VIC</td><td>1466</td><td>0.5</td></tr><tr> 
  <td>7</td><td>W </td><td>12</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#12">Rawat,Vivaan</td><td>3293637</td><td>VIC</td><td>1585</td><td>0</td></tr><tr> 
- <td>8</td><td> B</td><td>16</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#16">Gali,Joyel Evan</td><td>573001627</td><td>VIC</td><td>1644</td><td>0.5</td></tr></tbody>
+ <td>8</td><td> B</td><td>16</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#16">Gali,Joyel Evan</td><td>573001627</td><td>VIC</td><td>1644</td><td>0.5</td></tr><tr> 
+ <td>9</td><td>W </td><td>81</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#81">Sagar,Dev</td><td>3296121</td><td>VIC</td><td>1458</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="45"></a> N = 45<a href="http://ratings.fide.com/profile/3291235" target="X"> Tan,Lucas </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -499,7 +536,8 @@
  <td>3</td><td>W </td><td>12</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#12">Rawat,Vivaan</td><td>3293637</td><td>VIC</td><td>1585</td><td>0</td></tr><tr> 
  <td>5</td><td>W </td><td>28</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#28">Gajula,Karan</td><td>3272753</td><td>VIC</td><td>1466</td><td>0</td></tr><tr> 
  <td>7</td><td>W </td><td>81</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#81">Sagar,Dev</td><td>3296121</td><td>VIC</td><td>1458</td><td>1</td></tr><tr> 
- <td>8</td><td> B</td><td>22</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#22">Huang,Michael</td><td>3286320</td><td>VIC</td><td>1552</td><td>1</td></tr></tbody>
+ <td>8</td><td> B</td><td>22</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#22">Huang,Michael</td><td>3286320</td><td>VIC</td><td>1552</td><td>1</td></tr><tr> 
+ <td>9</td><td>W </td><td>24</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#24">Munro,Lachlan</td><td>3291197</td><td>VIC</td><td>1498</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="47"></a> N = 47<a href="http://ratings.fide.com/profile/564041450" target="X"> Rao,Karanam Prabhava </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -508,7 +546,8 @@
  <td>3</td><td> B</td><td>21</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#21">Katakam,Aadhya Sai</td><td>3265560</td><td>VIC</td><td>1428</td><td>0</td></tr><tr> 
  <td>5</td><td> B</td><td>23</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#23">Mi,Sura</td><td>3264106</td><td>VIC</td><td>1551</td><td>0</td></tr><tr> 
  <td>6</td><td>W </td><td>68</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#68">Gunathilake,Sithev</td><td>3297373</td><td>VIC</td><td>1513</td><td>1</td></tr><tr> 
- <td>8</td><td>W </td><td>29</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#29">Zhou,Zenan</td><td>3281205</td><td>VIC</td><td>1568</td><td>0</td></tr></tbody>
+ <td>8</td><td>W </td><td>29</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#29">Zhou,Zenan</td><td>3281205</td><td>VIC</td><td>1568</td><td>0</td></tr><tr> 
+ <td>9</td><td> B</td><td>35</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#35">Watson,Jacob</td><td>573002330</td><td>VIC</td><td>1504</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="48"></a> N = 48<a href="http://ratings.fide.com/profile/573002321" target="X"> Wang,Evan </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -518,7 +557,8 @@
  <td>5</td><td> B</td><td>25</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#25">Saha,Avinandan (Arjun)</td><td>3264173</td><td>VIC</td><td>1452</td><td>1</td></tr><tr> 
  <td>6</td><td>W </td><td>31</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#31">Vemula,Thamoghna</td><td>3291251</td><td>VIC</td><td>1462</td><td>0</td></tr><tr> 
  <td>7</td><td> B</td><td>35</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#35">Watson,Jacob</td><td>573002330</td><td>VIC</td><td>1504</td><td>0</td></tr><tr> 
- <td>8</td><td>W </td><td>68</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#68">Gunathilake,Sithev</td><td>3297373</td><td>VIC</td><td>1513</td><td>0</td></tr></tbody>
+ <td>8</td><td>W </td><td>68</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#68">Gunathilake,Sithev</td><td>3297373</td><td>VIC</td><td>1513</td><td>0</td></tr><tr> 
+ <td>9</td><td> B</td><td>62</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#62">Spriggs,Harvey</td><td>3289974</td><td>VIC</td><td>1611</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="49"></a> N = 49<a href="http://ratings.fide.com/profile/3294080" target="X"> Barar,Ridam </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -533,7 +573,8 @@
  <td>5</td><td>W </td><td>30</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#30">Samraat, Aayush</td><td>3295702</td><td>VIC</td><td>1476</td><td>1</td></tr><tr> 
  <td>6</td><td> B</td><td>32</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#32">Zhao,Oscar</td><td>3298230</td><td>VIC</td><td>1474</td><td>0</td></tr><tr> 
  <td>7</td><td>W </td><td>8</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#8">Ramanathan,Ashwin</td><td>3275221</td><td>VIC</td><td>1698</td><td>0</td></tr><tr> 
- <td>8</td><td> B</td><td>62</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#62">Spriggs,Harvey</td><td>3289974</td><td>VIC</td><td>1611</td><td>1</td></tr></tbody>
+ <td>8</td><td> B</td><td>62</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#62">Spriggs,Harvey</td><td>3289974</td><td>VIC</td><td>1611</td><td>1</td></tr><tr> 
+ <td>9</td><td>W </td><td>16</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#16">Gali,Joyel Evan</td><td>573001627</td><td>VIC</td><td>1644</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="52"></a> N = 52<a href="http://ratings.fide.com/profile/3297470" target="X"> You,Henry </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -543,13 +584,15 @@
  <td>4</td><td> B</td><td>81</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#81">Sagar,Dev</td><td>3296121</td><td>VIC</td><td>1458</td><td>0.5</td></tr><tr> 
  <td>6</td><td> B</td><td>16</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#16">Gali,Joyel Evan</td><td>573001627</td><td>VIC</td><td>1644</td><td>1</td></tr><tr> 
  <td>7</td><td>W </td><td>28</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#28">Gajula,Karan</td><td>3272753</td><td>VIC</td><td>1466</td><td>1</td></tr><tr> 
- <td>8</td><td> B</td><td>20</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#20">Arora,Daanish</td><td>3288900</td><td>VIC</td><td>1427</td><td>0.5</td></tr></tbody>
+ <td>8</td><td> B</td><td>20</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#20">Arora,Daanish</td><td>3288900</td><td>VIC</td><td>1427</td><td>0.5</td></tr><tr> 
+ <td>9</td><td>W </td><td>18</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#18">Jyothi Nikhil,Neev</td><td>3284670</td><td>VIC</td><td>1490</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="53"></a> N = 53<a href="http://ratings.fide.com/profile/573002259" target="X"> Kommina,Bhavishya </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
  <td>1</td><td> B</td><td>9</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#9">Ha,Aeson</td><td>3280268</td><td>VIC</td><td>1563</td><td>0</td></tr><tr> 
- <td>5</td><td> B</td><td>31</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#31">Vemula,Thamoghna</td><td>3291251</td><td>VIC</td><td>1462</td><td>0</td></tr></tbody>
+ <td>5</td><td> B</td><td>31</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#31">Vemula,Thamoghna</td><td>3291251</td><td>VIC</td><td>1462</td><td>0</td></tr><tr> 
+ <td>9</td><td> B</td><td>21</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#21">Katakam,Aadhya Sai</td><td>3265560</td><td>VIC</td><td>1428</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="54"></a> N = 54<a href="http://ratings.fide.com/profile/3272605" target="X"> Velkur,Raghav Sripad </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -568,7 +611,8 @@
  <td>1</td><td>W </td><td>12</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#12">Rawat,Vivaan</td><td>3293637</td><td>VIC</td><td>1585</td><td>0</td></tr><tr> 
  <td>3</td><td> B</td><td>25</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#25">Saha,Avinandan (Arjun)</td><td>3264173</td><td>VIC</td><td>1452</td><td>0</td></tr><tr> 
  <td>5</td><td>W </td><td>34</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#34">Shaiek,Nihal</td><td>3286380</td><td>VIC</td><td>1427</td><td>0</td></tr><tr> 
- <td>7</td><td>W </td><td>38</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#38">Kaur,Mishleen</td><td>3292347</td><td>VIC</td><td>1527</td><td>0</td></tr></tbody>
+ <td>7</td><td>W </td><td>38</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#38">Kaur,Mishleen</td><td>3292347</td><td>VIC</td><td>1527</td><td>0</td></tr><tr> 
+ <td>9</td><td>W </td><td>22</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#22">Huang,Michael</td><td>3286320</td><td>VIC</td><td>1552</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="57"></a> N = 57<a href="http://ratings.fide.com/profile/3288510" target="X"> Yegnavajjula,Aryan Srivatsav </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -595,7 +639,8 @@
  <td>5</td><td> B</td><td>37</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#37">Nema,Nivaan</td><td>3289923</td><td>VIC</td><td>1411</td><td>0.5</td></tr><tr> 
  <td>6</td><td>W </td><td>39</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#39">Goh,Nicholas</td><td>3254917</td><td>VIC</td><td>1421</td><td>1</td></tr><tr> 
  <td>7</td><td> B</td><td>21</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#21">Katakam,Aadhya Sai</td><td>3265560</td><td>VIC</td><td>1428</td><td>0</td></tr><tr> 
- <td>8</td><td>W </td><td>41</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#41">Husain,Lamiah</td><td>3278905</td><td>VIC</td><td>1467</td><td>1</td></tr></tbody>
+ <td>8</td><td>W </td><td>41</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#41">Husain,Lamiah</td><td>3278905</td><td>VIC</td><td>1467</td><td>1</td></tr><tr> 
+ <td>9</td><td> B</td><td>28</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#28">Gajula,Karan</td><td>3272753</td><td>VIC</td><td>1466</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="60"></a> N = 60<a href="http://ratings.fide.com/profile/3296393" target="X"> Subhash,Ryan </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -604,12 +649,14 @@
  <td>3</td><td>W </td><td>26</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#26">Le,Khoi Nguyen</td><td>561001155</td><td>VIC</td><td>1474</td><td>0</td></tr><tr> 
  <td>5</td><td>W </td><td>38</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#38">Kaur,Mishleen</td><td>3292347</td><td>VIC</td><td>1527</td><td>0</td></tr><tr> 
  <td>6</td><td>W </td><td>21</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#21">Katakam,Aadhya Sai</td><td>3265560</td><td>VIC</td><td>1428</td><td>0</td></tr><tr> 
- <td>8</td><td> B</td><td>81</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#81">Sagar,Dev</td><td>3296121</td><td>VIC</td><td>1458</td><td>0</td></tr></tbody>
+ <td>8</td><td> B</td><td>81</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#81">Sagar,Dev</td><td>3296121</td><td>VIC</td><td>1458</td><td>0</td></tr><tr> 
+ <td>9</td><td>W </td><td>30</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#30">Samraat, Aayush</td><td>3295702</td><td>VIC</td><td>1476</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="61"></a> N = 61<a href="http://ratings.fide.com/profile/3286274" target="X"> Bodke,Aryan </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
- <td>1</td><td> B</td><td>17</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#17">Kansal,Nuwan</td><td>3282856</td><td>VIC</td><td>1684</td><td>0</td></tr></tbody>
+ <td>1</td><td> B</td><td>17</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#17">Kansal,Nuwan</td><td>3282856</td><td>VIC</td><td>1684</td><td>0</td></tr><tr> 
+ <td>9</td><td> B</td><td>23</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#23">Mi,Sura</td><td>3264106</td><td>VIC</td><td>1551</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="62"></a> N = 62<a href="http://ratings.fide.com/profile/3289974" target="X"> Spriggs,Harvey </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -620,13 +667,15 @@
  <td>4</td><td> B</td><td>38</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#38">Kaur,Mishleen</td><td>3292347</td><td>VIC</td><td>1527</td><td>0</td></tr><tr> 
  <td>6</td><td> B</td><td>30</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#30">Samraat, Aayush</td><td>3295702</td><td>VIC</td><td>1476</td><td>1</td></tr><tr> 
  <td>7</td><td> B</td><td>43</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#43">Singh,Sumair</td><td>3273547</td><td>VIC</td><td>1440</td><td>0</td></tr><tr> 
- <td>8</td><td>W </td><td>51</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#51">Fang,Candice</td><td>3291154</td><td>VIC</td><td>1482</td><td>0</td></tr></tbody>
+ <td>8</td><td>W </td><td>51</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#51">Fang,Candice</td><td>3291154</td><td>VIC</td><td>1482</td><td>0</td></tr><tr> 
+ <td>9</td><td>W </td><td>48</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#48">Wang,Evan</td><td>573002321</td><td>VIC</td><td>1460</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="63"></a> N = 63<a href="http://ratings.fide.com/profile/3295346" target="X"> Veeragandham,Gowtham </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
  <td>1</td><td> B</td><td>19</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#19">Balaji,Sai Sivesh</td><td>3286258</td><td>VIC</td><td>1543</td><td>0</td></tr><tr> 
- <td>6</td><td>W </td><td>25</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#25">Saha,Avinandan (Arjun)</td><td>3264173</td><td>VIC</td><td>1452</td><td>0</td></tr></tbody>
+ <td>6</td><td>W </td><td>25</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#25">Saha,Avinandan (Arjun)</td><td>3264173</td><td>VIC</td><td>1452</td><td>0</td></tr><tr> 
+ <td>9</td><td>W </td><td>49</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#49">Barar,Ridam</td><td>3294080</td><td>VIC</td><td>1660</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="64"></a> N = 64<a href="http://ratings.fide.com/profile/3297403" target="X"> Madduluri,Advaitha </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -691,7 +740,8 @@
  <td>3</td><td> B</td><td>41</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#41">Husain,Lamiah</td><td>3278905</td><td>VIC</td><td>1467</td><td>1</td></tr><tr> 
  <td>4</td><td>W </td><td>25</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#25">Saha,Avinandan (Arjun)</td><td>3264173</td><td>VIC</td><td>1452</td><td>1</td></tr><tr> 
  <td>5</td><td> B</td><td>19</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#19">Balaji,Sai Sivesh</td><td>3286258</td><td>VIC</td><td>1543</td><td>0</td></tr><tr> 
- <td>8</td><td>W </td><td>31</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#31">Vemula,Thamoghna</td><td>3291251</td><td>VIC</td><td>1462</td><td>1</td></tr></tbody>
+ <td>8</td><td>W </td><td>31</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#31">Vemula,Thamoghna</td><td>3291251</td><td>VIC</td><td>1462</td><td>1</td></tr><tr> 
+ <td>9</td><td> B</td><td>26</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#26">Le,Khoi Nguyen</td><td>561001155</td><td>VIC</td><td>1474</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="72"></a> N = 72<a href="http://ratings.fide.com/profile/3291170" target="X"> Haller,Annabelle </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -722,7 +772,8 @@
  <td>4</td><td>W </td><td>37</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#37">Nema,Nivaan</td><td>3289923</td><td>VIC</td><td>1411</td><td>0.5</td></tr><tr> 
  <td>5</td><td> B</td><td>43</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#43">Singh,Sumair</td><td>3273547</td><td>VIC</td><td>1440</td><td>0.5</td></tr><tr> 
  <td>6</td><td>W </td><td>15</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#15">Shirawala,Sahar</td><td>3256359</td><td>VIC</td><td>1582</td><td>0</td></tr><tr> 
- <td>7</td><td> B</td><td>39</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#39">Goh,Nicholas</td><td>3254917</td><td>VIC</td><td>1421</td><td>1</td></tr></tbody>
+ <td>7</td><td> B</td><td>39</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#39">Goh,Nicholas</td><td>3254917</td><td>VIC</td><td>1421</td><td>1</td></tr><tr> 
+ <td>9</td><td> B</td><td>41</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#41">Husain,Lamiah</td><td>3278905</td><td>VIC</td><td>1467</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="76"></a> N = 76<a href="http://ratings.fide.com/profile/0" target="X"> Krishnan,Sanjit </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -733,7 +784,8 @@
  <td>4</td><td> B</td><td>22</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#22">Huang,Michael</td><td>3286320</td><td>VIC</td><td>1552</td><td>0</td></tr><tr> 
  <td>5</td><td>W </td><td>40</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#40">Vignesh,Prajeeth Balaji</td><td>4332180</td><td>OS</td><td>1544</td><td>0</td></tr><tr> 
  <td>7</td><td>W </td><td>47</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#47">Rao,Karanam Prabhava</td><td>564041450</td><td>VIC</td><td>1411</td><td>0</td></tr><tr> 
- <td>8</td><td> B</td><td>49</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#49">Barar,Ridam</td><td>3294080</td><td>VIC</td><td>1660</td><td>1</td></tr></tbody>
+ <td>8</td><td> B</td><td>49</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#49">Barar,Ridam</td><td>3294080</td><td>VIC</td><td>1660</td><td>1</td></tr><tr> 
+ <td>9</td><td>W </td><td>43</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#43">Singh,Sumair</td><td>3273547</td><td>VIC</td><td>1440</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="77"></a> N = 77<a href="http://ratings.fide.com/profile/0" target="X"> Mantrala,Vishruth </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -764,7 +816,8 @@
 <caption> <a class="anchor" name="80"></a> N = 80<a href="http://ratings.fide.com/profile/3297438" target="X"> Pradeep,Mayukh </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
  <td>3</td><td>W </td><td>42</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#42">Luan,William</td><td>573003328</td><td>VIC</td><td>1501</td><td>0</td></tr><tr> 
- <td>5</td><td> B</td><td>62</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#62">Spriggs,Harvey</td><td>3289974</td><td>VIC</td><td>1611</td><td>0</td></tr></tbody>
+ <td>5</td><td> B</td><td>62</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#62">Spriggs,Harvey</td><td>3289974</td><td>VIC</td><td>1611</td><td>0</td></tr><tr> 
+ <td>9</td><td>W </td><td>57</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#57">Yegnavajjula,Aryan Srivatsav</td><td>3288510</td><td>VIC</td><td>1403</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="81"></a> N = 81<a href="http://ratings.fide.com/profile/3296121" target="X"> Sagar,Dev </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -774,7 +827,8 @@
  <td>4</td><td>W </td><td>52</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#52">You,Henry</td><td>3297470</td><td>VIC</td><td>1420</td><td>0.5</td></tr><tr> 
  <td>6</td><td>W </td><td>43</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#43">Singh,Sumair</td><td>3273547</td><td>VIC</td><td>1440</td><td>0.5</td></tr><tr> 
  <td>7</td><td> B</td><td>46</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#46">Guha,Shanaya</td><td>3269485</td><td>VIC</td><td>1410</td><td>0</td></tr><tr> 
- <td>8</td><td>W </td><td>60</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#60">Subhash,Ryan</td><td>3296393</td><td>VIC</td><td>1567</td><td>1</td></tr></tbody>
+ <td>8</td><td>W </td><td>60</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#60">Subhash,Ryan</td><td>3296393</td><td>VIC</td><td>1567</td><td>1</td></tr><tr> 
+ <td>9</td><td> B</td><td>44</td><td><span class="notitle female"> </span> <a href="fideplayercard.php#44">Venkat,Nyra</td><td>3286410</td><td>VIC</td><td>1467</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="82"></a> N = 82<a href="http://ratings.fide.com/profile/3295729" target="X"> Saravanakumar,Thaswin </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
