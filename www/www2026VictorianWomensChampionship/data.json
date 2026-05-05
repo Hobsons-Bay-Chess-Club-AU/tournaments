@@ -1,0 +1,812 @@
+{
+  "generatedAt": "2026-05-05T07:15:16.477Z",
+  "page": {
+    "felovar.html": {
+      "pageHeading": "FIDE rating variation at round 0",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "Ng",
+              "key": "Ng"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "ARO",
+              "key": "ARO"
+            },
+            {
+              "name": "var",
+              "key": "var"
+            },
+            {
+              "name": "Rp",
+              "key": "Rp"
+            }
+          ],
+          "rows": []
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "fideplayercard.html": {
+      "pageHeading": "FIDE History Cards",
+      "tables": [],
+      "tournamentType": "unknown"
+    },
+    "game.html": {
+      "pageHeading": "",
+      "tables": [],
+      "tournamentType": "unknown"
+    },
+    "games.html": {
+      "pageHeading": "",
+      "tables": [],
+      "tournamentType": "unknown"
+    },
+    "index.html": {
+      "pageHeading": "Registered players",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "Title",
+              "key": "Title"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "RtgF",
+              "key": "RtgF"
+            },
+            {
+              "name": "RtgN",
+              "key": "RtgN"
+            }
+          ],
+          "rows": [
+            {
+              "#": "1",
+              "Title": "",
+              "Player": "Dissanayake,Vidushi",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1653",
+              "RtgF": "1808",
+              "RtgN": "1653"
+            },
+            {
+              "#": "2",
+              "Title": "",
+              "Player": "Scenna,Luna",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1238",
+              "RtgF": "1522",
+              "RtgN": "1238"
+            },
+            {
+              "#": "3",
+              "Title": "",
+              "Player": "Fais,Ariana",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1140",
+              "RtgF": "1518",
+              "RtgN": "1140"
+            },
+            {
+              "#": "4",
+              "Title": "",
+              "Player": "Madduluri,Advaitha",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "195",
+              "RtgF": "0",
+              "RtgN": "195"
+            },
+            {
+              "#": "5",
+              "Title": "",
+              "Player": "Goh,Daphne",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "139",
+              "RtgF": "0",
+              "RtgN": "139"
+            }
+          ],
+          "footer": {
+            "text": "Rating legend: Rtg: Rating used for pairing and standings - RtgF: Fide Rating - RtgN: National Rating",
+            "html": "<strong>Rating legend</strong>: <strong>Rtg</strong>: Rating used for pairing and standings - <strong>RtgF</strong>: Fide Rating - <strong>RtgN</strong>: National Rating"
+          }
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "nelovar.html": {
+      "pageHeading": "National rating at round 0",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Name",
+              "key": "Name"
+            },
+            {
+              "name": "K",
+              "key": "K"
+            },
+            {
+              "name": "Elo",
+              "key": "Elo"
+            },
+            {
+              "name": "Var",
+              "key": "Var"
+            },
+            {
+              "name": "Per",
+              "key": "Per"
+            }
+          ],
+          "rows": []
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "pairing.html": {
+      "pageHeading": "",
+      "tables": [],
+      "tournamentType": "unknown"
+    },
+    "playercard.html": {
+      "pageHeading": "National History Cards",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Goh,Daphne",
+            "id": "3214852",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "139",
+              "anchor": "1"
+            },
+            "rawText": "1   Goh,Daphne          , K= 0, Elo= 139, ID=3214852",
+            "rawHtml": "   1   <strong>Goh,Daphne          </strong>, K= 0, Elo= 139, ID=3214852\n<br>\n<a class=\"anchor\" name=\"1\"></a>"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Madduluri,Advaitha",
+            "id": "3221034",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "195",
+              "anchor": "2"
+            },
+            "rawText": "2   Madduluri,Advaitha  , K= 0, Elo= 195, ID=3221034",
+            "rawHtml": "   2   <strong>Madduluri,Advaitha  </strong>, K= 0, Elo= 195, ID=3221034\n<br>\n<a class=\"anchor\" name=\"2\"></a>"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Fais,Ariana",
+            "id": "3204131",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1140",
+              "anchor": "3"
+            },
+            "rawText": "3   Fais,Ariana         , K= 0, Elo=1140, ID=3204131",
+            "rawHtml": "   3   <strong>Fais,Ariana         </strong>, K= 0, Elo=1140, ID=3204131\n<br>\n<a class=\"anchor\" name=\"3\"></a>"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Scenna,Luna",
+            "id": "3212505",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1238",
+              "anchor": "4"
+            },
+            "rawText": "4   Scenna,Luna         , K= 0, Elo=1238, ID=3212505",
+            "rawHtml": "   4   <strong>Scenna,Luna         </strong>, K= 0, Elo=1238, ID=3212505\n<br>\n<a class=\"anchor\" name=\"4\"></a>"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Dissanayake,Vidushi",
+            "id": "3193336",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1653",
+              "anchor": "5"
+            },
+            "rawText": "5   Dissanayake,Vidushi , K= 0, Elo=1653, ID=3193336",
+            "rawHtml": "   5   <strong>Dissanayake,Vidushi </strong>, K= 0, Elo=1653, ID=3193336\n<br>\n<a class=\"anchor\" name=\"5\"></a>"
+          }
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "schedule.html": {
+      "pageHeading": "Schedule",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Round",
+              "key": "Round"
+            },
+            {
+              "name": "Time",
+              "key": "Time"
+            },
+            {
+              "name": "Date",
+              "key": "Date"
+            }
+          ],
+          "rows": [
+            {
+              "Round": "1",
+              "Time": "9:45",
+              "Date": "12/09/2026"
+            },
+            {
+              "Round": "2",
+              "Time": "13:30",
+              "Date": "12/09/2026"
+            },
+            {
+              "Round": "3",
+              "Time": "09:00",
+              "Date": "19/09/2026"
+            },
+            {
+              "Round": "4",
+              "Time": "12:45",
+              "Date": "19/09/2026"
+            },
+            {
+              "Round": "5",
+              "Time": "16:00",
+              "Date": "19/09/2026"
+            }
+          ]
+        }
+      ],
+      "tournamentType": "unknown"
+    },
+    "tourstat.html": {
+      "pageHeading": "Tournament summary",
+      "tables": [
+        {
+          "headers": [],
+          "rows": [
+            {
+              "col1": "Tournament Name",
+              "col2": "2026 Victorian Women's Championship"
+            },
+            {
+              "col1": "Place",
+              "col2": "Hobsons Bay"
+            },
+            {
+              "col1": "Federation",
+              "col2": "AUS"
+            },
+            {
+              "col1": "Date Begin",
+              "col2": "12/09/2026"
+            },
+            {
+              "col1": "Date End",
+              "col2": "19/09/2026"
+            },
+            {
+              "col1": "Arbiter(s)",
+              "col2": "FA Myiesha Maunders  (AUS)"
+            },
+            {
+              "col1": "Play System",
+              "col2": "swiss FIDE Dutch 2025 (Gacrux)"
+            },
+            {
+              "col1": "Rounds",
+              "col2": "5"
+            },
+            {
+              "col1": "Score game",
+              "col2": "0-0.5-1"
+            },
+            {
+              "col1": "Tie break",
+              "col2": "BH/C1      BH      SB      DE"
+            },
+            {
+              "col1": "Registered Players",
+              "col2": "5"
+            },
+            {
+              "col1": "Number of Federations",
+              "col2": "1"
+            },
+            {
+              "col1": "Average Rating (all)",
+              "col2": "1036"
+            },
+            {
+              "col1": "Average Rating (only FIDE rated)",
+              "col2": "1616"
+            },
+            {
+              "col1": "Players from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "Players NOT from AUS Federation",
+              "col2": "5"
+            },
+            {
+              "col1": "FIDE rated players",
+              "col2": "3"
+            },
+            {
+              "col1": "unrated players",
+              "col2": "2"
+            },
+            {
+              "col1": "unrated players from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "unrated players NOT from AUS Federation",
+              "col2": "2"
+            },
+            {
+              "col1": "unrated Federations",
+              "col2": "1"
+            },
+            {
+              "col1": "FIDE titled players",
+              "col2": "0"
+            },
+            {
+              "col1": "GM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WGM players",
+              "col2": "0"
+            },
+            {
+              "col1": "IM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WIM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WFM players",
+              "col2": "0"
+            },
+            {
+              "col1": "CM players",
+              "col2": "0"
+            },
+            {
+              "col1": "WCM players",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player from AUS Federation",
+              "col2": "0"
+            },
+            {
+              "col1": "FIDE titled player NOT from AUS Federation",
+              "col2": "0"
+            }
+          ]
+        }
+      ],
+      "tournamentType": "unknown"
+    }
+  },
+  "playerLookup": {
+    "1": {
+      "id": "1",
+      "playerName": "Dissanayake,Vidushi",
+      "title": "",
+      "federation": "VIC",
+      "rating": "1653",
+      "gender": "",
+      "fideId": "",
+      "href": "",
+      "moreInfo": {}
+    },
+    "2": {
+      "id": "2",
+      "playerName": "Scenna,Luna",
+      "title": "",
+      "federation": "VIC",
+      "rating": "1238",
+      "gender": "",
+      "fideId": "",
+      "href": "",
+      "moreInfo": {}
+    },
+    "3": {
+      "id": "3",
+      "playerName": "Fais,Ariana",
+      "title": "",
+      "federation": "VIC",
+      "rating": "1140",
+      "gender": "",
+      "fideId": "",
+      "href": "",
+      "moreInfo": {}
+    },
+    "4": {
+      "id": "4",
+      "playerName": "Madduluri,Advaitha",
+      "title": "",
+      "federation": "VIC",
+      "rating": "195",
+      "gender": "",
+      "fideId": "",
+      "href": "",
+      "moreInfo": {}
+    },
+    "5": {
+      "id": "5",
+      "playerName": "Goh,Daphne",
+      "title": "",
+      "federation": "VIC",
+      "rating": "139",
+      "gender": "",
+      "fideId": "",
+      "href": "",
+      "moreInfo": {}
+    }
+  },
+  "menu": [
+    {
+      "text": "Info",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Schedule",
+          "href": "schedule.html"
+        },
+        {
+          "text": "Statistics",
+          "href": "tourstat.html"
+        }
+      ]
+    },
+    {
+      "text": "Players",
+      "href": "index.html",
+      "isDropdown": true,
+      "children": []
+    }
+  ],
+  "players": [
+    {
+      "#": "1",
+      "Title": "",
+      "Player": "Dissanayake,Vidushi",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "1653",
+      "RtgF": "1808",
+      "RtgN": "1653"
+    },
+    {
+      "#": "2",
+      "Title": "",
+      "Player": "Scenna,Luna",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "1238",
+      "RtgF": "1522",
+      "RtgN": "1238"
+    },
+    {
+      "#": "3",
+      "Title": "",
+      "Player": "Fais,Ariana",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "1140",
+      "RtgF": "1518",
+      "RtgN": "1140"
+    },
+    {
+      "#": "4",
+      "Title": "",
+      "Player": "Madduluri,Advaitha",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "195",
+      "RtgF": "0",
+      "RtgN": "195"
+    },
+    {
+      "#": "5",
+      "Title": "",
+      "Player": "Goh,Daphne",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "139",
+      "RtgF": "0",
+      "RtgN": "139"
+    }
+  ],
+  "category": "Junior",
+  "metadata": {
+    "Tournament Name": "2026 Victorian Women's Championship",
+    "Place": "Hobsons Bay",
+    "Federation": "AUS",
+    "Date Begin": "12/09/2026",
+    "Date End": "19/09/2026",
+    "Arbiter(s)": "FA Myiesha Maunders (AUS)",
+    "Play System": "swiss FIDE Dutch 2025 (Gacrux)",
+    "Rounds": "5",
+    "Score game": "0-0.5-1",
+    "Tie break": "BH/C1 BH SB DE",
+    "Registered Players": "5",
+    "Number of Federations": "1",
+    "Average Rating (all)": "1036",
+    "Average Rating (only FIDE rated)": "1616",
+    "Players from AUS Federation": "0",
+    "Players NOT from AUS Federation": "5",
+    "FIDE rated players": "3",
+    "unrated players": "2",
+    "unrated players from AUS Federation": "0",
+    "unrated players NOT from AUS Federation": "2",
+    "unrated Federations": "1",
+    "FIDE titled players": "0",
+    "GM players": "0",
+    "WGM players": "0",
+    "IM players": "0",
+    "WIM players": "0",
+    "FM players": "0",
+    "WFM players": "0",
+    "CM players": "0",
+    "WCM players": "0",
+    "FIDE titled player from AUS Federation": "0",
+    "FIDE titled player NOT from AUS Federation": "0",
+    "category": "Junior"
+  },
+  "md5Hash": "067c6ab706fe9230883718afb1dfdf0e"
+}
