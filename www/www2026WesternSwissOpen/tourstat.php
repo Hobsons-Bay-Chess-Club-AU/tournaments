@@ -49,7 +49,7 @@
 <tr><td >Date Begin</td> <td> 21/04/2026</td> </tr>
 <tr><td >Date End</td> <td> 26/05/2026</td> </tr>
 <tr><td >Arbiter(s)</td> <td> Casey Goh</td> </tr>
-<tr><td > Play System</td> <td> swiss FIDE Dutch 2017 (JaVaFo)</td> </tr>
+<tr><td > Play System</td> <td> swiss FIDE Dutch (JaVaFo)</td> </tr>
 <tr><td >Rounds</td> <td> 5</td> </tr>
 <tr><td >Score game</td> <td> 0-0.5-1</td> </tr>
 <tr><td >Tie break</td> <td>      DE </td> </tr>

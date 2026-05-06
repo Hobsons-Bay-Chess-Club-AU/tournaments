@@ -49,13 +49,13 @@
 </tr> 
 <tr> <td>2</td><td><span class="idn"> 6 </span> <span class="notitle male"> </span> <a href="playercard.php#6"> Paul,Nikash</a> </td><td>1364</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>    0   </td>
 </tr> 
-<tr> <td>3</td><td><span class="idn"> 5 </span> <span class="notitle male"> </span> <a href="playercard.php#5"> Mullen,Chris</a> </td><td>1394</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    1   </td>
+<tr> <td>3</td><td><span class="idn"> 3 </span> <span class="notitle male"> </span> <a href="playercard.php#3"> Hogan,Steven</a> </td><td>1395</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.5</td><td>    0   </td>
 </tr> 
-<tr> <td>4</td><td><span class="idn"> 3 </span> <span class="notitle male"> </span> <a href="playercard.php#3"> Hogan,Steven</a> </td><td>1395</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    2   </td>
+<tr> <td>4</td><td><span class="idn"> 4 </span> <span class="notitle male"> </span> <a href="playercard.php#4"> Nowak,Ruben</a> </td><td>1426</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    1   </td>
 </tr> 
-<tr> <td>5</td><td><span class="idn"> 1 </span> <span class="notitle male"> </span> <a href="playercard.php#1"> Matijas,Dejan</a> </td><td>1367</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    0   </td>
+<tr> <td>5</td><td><span class="idn"> 5 </span> <span class="notitle male"> </span> <a href="playercard.php#5"> Mullen,Chris</a> </td><td>1394</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    2   </td>
 </tr> 
-<tr> <td>6</td><td><span class="idn"> 4 </span> <span class="notitle male"> </span> <a href="playercard.php#4"> Nowak,Ruben</a> </td><td>1426</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    0   </td>
+<tr> <td>6</td><td><span class="idn"> 1 </span> <span class="notitle male"> </span> <a href="playercard.php#1"> Matijas,Dejan</a> </td><td>1367</td><td ><img src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td>    0   </td>
 </tr> 
 </tbody>
 <tfoot><tr><td colspan="7">Tie Break legend:<br>

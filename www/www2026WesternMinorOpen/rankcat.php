@@ -59,16 +59,16 @@
 <td>1</td><td>6</td><td></td><td> <a href="playercard.php#6">Paul,Nikash         </a> </td><td>1364</td><td>1334</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>    0   </td>
 </tr> 
 <tr> 
-<td>2</td><td>5</td><td></td><td> <a href="playercard.php#5">Mullen,Chris        </a> </td><td>1394</td><td>1160</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    1   </td>
+<td>2</td><td>3</td><td></td><td> <a href="playercard.php#3">Hogan,Steven        </a> </td><td>1395</td><td>1251</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.5</td><td>    0   </td>
 </tr> 
 <tr> 
-<td>3</td><td>3</td><td></td><td> <a href="playercard.php#3">Hogan,Steven        </a> </td><td>1395</td><td>1160</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    2   </td>
+<td>3</td><td>4</td><td></td><td> <a href="playercard.php#4">Nowak,Ruben         </a> </td><td>1426</td><td>1154</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    1   </td>
 </tr> 
 <tr> 
-<td>4</td><td>1</td><td></td><td> <a href="playercard.php#1">Matijas,Dejan       </a> </td><td>1367</td><td>606</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    0   </td>
+<td>4</td><td>5</td><td></td><td> <a href="playercard.php#5">Mullen,Chris        </a> </td><td>1394</td><td>1160</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    2   </td>
 </tr> 
 <tr> 
-<td>5</td><td>4</td><td></td><td> <a href="playercard.php#4">Nowak,Ruben         </a> </td><td>1426</td><td>594</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td>    0   </td>
+<td>5</td><td>1</td><td></td><td> <a href="playercard.php#1">Matijas,Dejan       </a> </td><td>1367</td><td>1040</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td>    0   </td>
 </tr> 
 </tbody>
 </table> <br><br>
