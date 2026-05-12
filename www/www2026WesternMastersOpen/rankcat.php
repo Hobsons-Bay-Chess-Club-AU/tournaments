@@ -47,10 +47,10 @@
 <thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th></th> <th></th><th>Fed</th><th>Pts</th><th>     DE </th>
 </tr> </THEAD><tbody>
 <tr> 
-<td>1</td><td>1</td><td></td><td> <a href="playercard.php#1">Krishnan,Anirudh    </a> </td><td>1694</td><td>1779</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>    0   </td>
+<td>1</td><td>1</td><td></td><td> <a href="playercard.php#1">Krishnan,Anirudh    </a> </td><td>1694</td><td>1947</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 4.0</td><td>    0   </td>
 </tr> 
 <tr> 
-<td>2</td><td>3</td><td></td><td> <a href="playercard.php#3">Lacson,Joemar       </a> </td><td>1768</td><td>1620</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>    1   </td>
+<td>2</td><td>3</td><td></td><td> <a href="playercard.php#3">Lacson,Joemar       </a> </td><td>1768</td><td>1692</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.5</td><td>    0   </td>
 </tr> 
 <tr> 
 <td>3</td><td>6</td><td></td><td> <a href="playercard.php#6">McIntyre,Julian     </a> </td><td>1611</td><td>1574</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.5</td><td>    0   </td>
@@ -65,10 +65,10 @@
 <thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th></th> <th></th><th>Fed</th><th>Pts</th><th>     DE </th>
 </tr> </THEAD><tbody>
 <tr> 
-<td>1</td><td>5</td><td>CM</td><td> <a href="playercard.php#5">Nguyen,Anh Kiet     </a> </td><td>1774</td><td>1619</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>    2   </td>
+<td>1</td><td>5</td><td>CM</td><td> <a href="playercard.php#5">Nguyen,Anh Kiet     </a> </td><td>1774</td><td>1763</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>    0   </td>
 </tr> 
 <tr> 
-<td>2</td><td>2</td><td>CM</td><td> <a href="playercard.php#2">Davis,Tony J        </a> </td><td>1772</td><td>1325</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td>    0   </td>
+<td>2</td><td>2</td><td>CM</td><td> <a href="playercard.php#2">Davis,Tony J        </a> </td><td>1772</td><td>1451</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    0   </td>
 </tr> 
 </tbody>
 </table> <br><br>

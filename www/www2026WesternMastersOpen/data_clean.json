@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T07:34:59.154Z",
+  "generatedAt": "2026-05-12T14:19:41.578Z",
   "tournament": {
     "id": "hobsons-bay-western-masters-2026",
     "name": "Hobsons Bay Western Masters 2026",
@@ -351,7 +351,7 @@
               "N": "1",
               "White": "McIntyre,Julian",
               "NW": "6",
-              "result": "ADJ",
+              "result": "0 - 1",
               "NB": "5",
               "Black": "Nguyen,Anh Kiet"
             },
@@ -359,7 +359,7 @@
               "N": "2",
               "White": "Krishnan,Anirudh",
               "NW": "1",
-              "result": "ADJ",
+              "result": "1 - 0",
               "NB": "4",
               "Black": "Paul,Cijo"
             },
@@ -367,7 +367,7 @@
               "N": "3",
               "White": "Davis,Tony J",
               "NW": "2",
-              "result": "ADJ",
+              "result": "½ - ½",
               "NB": "3",
               "Black": "Lacson,Joemar"
             }
@@ -827,7 +827,7 @@
               "Fed": "VIC",
               "White Player": "6",
               "Pts": "1.5",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "Pts_1": "2",
               "Black Player": "5",
               "Fed_1": "VIC"
@@ -837,7 +837,7 @@
               "Fed": "VIC",
               "White Player": "1",
               "Pts": "3",
-              "Result": "ADJ",
+              "Result": "1 - 0",
               "Pts_1": "0",
               "Black Player": "4",
               "Fed_1": "VIC"
@@ -847,7 +847,7 @@
               "Fed": "VIC",
               "White Player": "2",
               "Pts": "0.5",
-              "Result": "ADJ",
+              "Result": "½ - ½",
               "Pts_1": "2",
               "Black Player": "3",
               "Fed_1": "VIC"
@@ -902,7 +902,7 @@
               "Bo.": "1",
               "Fed": "VIC",
               "White Player": "3",
-              "Pts": "2",
+              "Pts": "2.5",
               "Result": "ADJ",
               "Pts_1": "1.5",
               "Black Player": "6",
@@ -914,7 +914,7 @@
               "White Player": "4",
               "Pts": "0",
               "Result": "ADJ",
-              "Pts_1": "0.5",
+              "Pts_1": "1",
               "Black Player": "2",
               "Fed_1": "VIC"
             },
@@ -922,9 +922,9 @@
               "Bo.": "3",
               "Fed": "VIC",
               "White Player": "5",
-              "Pts": "2",
+              "Pts": "3",
               "Result": "ADJ",
-              "Pts_1": "3",
+              "Pts_1": "4",
               "Black Player": "1",
               "Fed_1": "VIC"
             }
@@ -992,7 +992,7 @@
               "OPPONENT": "Davis,Tony J",
               "Rtg": "1772",
               "res": "1.0",
-              "Pts": "0.5"
+              "Pts": "1.0"
             },
             {
               "R": "3",
@@ -1002,15 +1002,15 @@
               "OPPONENT": "Lacson,Joemar",
               "Rtg": "1768",
               "res": "1.0",
-              "Pts": "2.0"
+              "Pts": "2.5"
             },
             {
               "R": "4",
-              "C": "--",
+              "C": "W",
               "N": "4",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "Paul,Cijo",
+              "Rtg": "1608",
               "res": "1.0",
               "Pts": "0.0"
             },
@@ -1082,7 +1082,7 @@
               "OPPONENT": "Nguyen,Anh Kiet",
               "Rtg": "1774",
               "res": "0.0",
-              "Pts": "2.0"
+              "Pts": "3.0"
             },
             {
               "R": "2",
@@ -1092,7 +1092,7 @@
               "OPPONENT": "Krishnan,Anirudh",
               "Rtg": "1694",
               "res": "0.0",
-              "Pts": "3.0"
+              "Pts": "4.0"
             },
             {
               "R": "3",
@@ -1106,13 +1106,13 @@
             },
             {
               "R": "4",
-              "C": "--",
+              "C": "W",
               "N": "3",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "Lacson,Joemar",
+              "Rtg": "1768",
               "res": "0.5",
-              "Pts": "0.0"
+              "Pts": "2.5"
             },
             {
               "R": "5",
@@ -1192,7 +1192,7 @@
               "OPPONENT": "Nguyen,Anh Kiet",
               "Rtg": "1774",
               "res": "1.0",
-              "Pts": "2.0"
+              "Pts": "3.0"
             },
             {
               "R": "3",
@@ -1202,17 +1202,17 @@
               "OPPONENT": "Krishnan,Anirudh",
               "Rtg": "1694",
               "res": "0.0",
-              "Pts": "3.0"
+              "Pts": "4.0"
             },
             {
               "R": "4",
-              "C": "--",
+              "C": "B",
               "N": "2",
-              "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "0.0",
-              "Pts": "0.0"
+              "Cat": "CM",
+              "OPPONENT": "Davis,Tony J",
+              "Rtg": "1772",
+              "res": "0.5",
+              "Pts": "1.0"
             },
             {
               "R": "5",
@@ -1221,7 +1221,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "0.5",
               "Pts": "0.0"
             }
           ],
@@ -1282,7 +1282,7 @@
               "OPPONENT": "Lacson,Joemar",
               "Rtg": "1768",
               "res": "0.0",
-              "Pts": "2.0"
+              "Pts": "2.5"
             },
             {
               "R": "2",
@@ -1302,17 +1302,17 @@
               "OPPONENT": "Nguyen,Anh Kiet",
               "Rtg": "1774",
               "res": "0.0",
-              "Pts": "2.0"
+              "Pts": "3.0"
             },
             {
               "R": "4",
-              "C": "--",
+              "C": "B",
               "N": "1",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "Krishnan,Anirudh",
+              "Rtg": "1694",
               "res": "0.0",
-              "Pts": "0.0"
+              "Pts": "4.0"
             },
             {
               "R": "5",
@@ -1382,7 +1382,7 @@
               "OPPONENT": "Davis,Tony J",
               "Rtg": "1772",
               "res": "1.0",
-              "Pts": "0.5"
+              "Pts": "1.0"
             },
             {
               "R": "2",
@@ -1392,7 +1392,7 @@
               "OPPONENT": "Lacson,Joemar",
               "Rtg": "1768",
               "res": "0.0",
-              "Pts": "2.0"
+              "Pts": "2.5"
             },
             {
               "R": "3",
@@ -1406,13 +1406,13 @@
             },
             {
               "R": "4",
-              "C": "--",
+              "C": "B",
               "N": "6",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "McIntyre,Julian",
+              "Rtg": "1611",
               "res": "1.0",
-              "Pts": "0.0"
+              "Pts": "1.5"
             },
             {
               "R": "5",
@@ -1482,7 +1482,7 @@
               "OPPONENT": "Krishnan,Anirudh",
               "Rtg": "1694",
               "res": "0.0",
-              "Pts": "3.0"
+              "Pts": "4.0"
             },
             {
               "R": "2",
@@ -1502,17 +1502,17 @@
               "OPPONENT": "Davis,Tony J",
               "Rtg": "1772",
               "res": "0.5",
-              "Pts": "0.5"
+              "Pts": "1.0"
             },
             {
               "R": "4",
-              "C": "--",
+              "C": "W",
               "N": "5",
-              "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "0.5",
-              "Pts": "0.0"
+              "Cat": "CM",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1774",
+              "res": "0.0",
+              "Pts": "3.0"
             },
             {
               "R": "5",
@@ -1521,7 +1521,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.5",
+              "res": "0.0",
               "Pts": "0.0"
             }
           ],
@@ -1596,9 +1596,9 @@
                 "title": ""
               },
               "col5": "1694",
-              "col6": "1779",
+              "col6": "1947",
               "Fed": "VIC",
-              "Pts": "3.0",
+              "Pts": "4.0",
               "DE": "0"
             },
             {
@@ -1613,10 +1613,10 @@
                 "title": ""
               },
               "col5": "1768",
-              "col6": "1620",
+              "col6": "1692",
               "Fed": "VIC",
-              "Pts": "2.0",
-              "DE": "1"
+              "Pts": "2.5",
+              "DE": "0"
             },
             {
               "Pos": "3",
@@ -1708,10 +1708,10 @@
                 "title": ""
               },
               "col5": "1774",
-              "col6": "1619",
+              "col6": "1763",
               "Fed": "VIC",
-              "Pts": "2.0",
-              "DE": "2"
+              "Pts": "3.0",
+              "DE": "0"
             },
             {
               "Pos": "2",
@@ -1725,9 +1725,9 @@
                 "title": ""
               },
               "col5": "1772",
-              "col6": "1325",
+              "col6": "1451",
               "Fed": "VIC",
-              "Pts": "0.5",
+              "Pts": "1.0",
               "DE": "0"
             }
           ],
@@ -2146,7 +2146,7 @@
                 "title": ""
               },
               "NW": "6",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "NB": "5",
               "Black Player": {
                 "id": "",
@@ -2168,7 +2168,7 @@
                 "title": ""
               },
               "NW": "1",
-              "Result": "ADJ",
+              "Result": "1 - 0",
               "NB": "4",
               "Black Player": {
                 "id": "",
@@ -2190,7 +2190,7 @@
                 "title": ""
               },
               "NW": "2",
-              "Result": "ADJ",
+              "Result": "½ - ½",
               "NB": "3",
               "Black Player": {
                 "id": "",
@@ -2369,49 +2369,49 @@
           "rows": [
             {
               "1": "×",
-              "2": "1",
-              "3": "a",
+              "2": "a",
+              "3": "1",
               "4": "1",
               "5": "1",
-              "6": "a",
+              "6": "1",
               "Pos": "1",
               "#": "1",
               "NAME": "Krishnan,Anirudh",
               "Rtg": "1694",
               "Fed": "VIC",
-              "Pts": "3.0"
-            },
-            {
-              "1": "0",
-              "2": "×",
-              "3": "1",
-              "4": "a",
-              "5": "a",
-              "6": "1",
-              "Pos": "2",
-              "#": "3",
-              "NAME": "Lacson,Joemar",
-              "Rtg": "1768",
-              "Fed": "VIC",
-              "Pts": "2.0"
+              "Pts": "4.0"
             },
             {
               "1": "a",
-              "2": "0",
-              "3": "×",
-              "4": "a",
+              "2": "×",
+              "3": "0",
+              "4": "1",
               "5": "1",
               "6": "1",
-              "Pos": "3",
+              "Pos": "2",
               "#": "5",
               "NAME": "CM Nguyen,Anh Kiet",
               "Rtg": "1774",
               "Fed": "VIC",
-              "Pts": "2.0"
+              "Pts": "3.0"
             },
             {
               "1": "0",
-              "2": "a",
+              "2": "1",
+              "3": "×",
+              "4": "a",
+              "5": "½",
+              "6": "1",
+              "Pos": "3",
+              "#": "3",
+              "NAME": "Lacson,Joemar",
+              "Rtg": "1768",
+              "Fed": "VIC",
+              "Pts": "2.5"
+            },
+            {
+              "1": "0",
+              "2": "0",
               "3": "a",
               "4": "×",
               "5": "½",
@@ -2425,8 +2425,8 @@
             },
             {
               "1": "0",
-              "2": "a",
-              "3": "0",
+              "2": "0",
+              "3": "½",
               "4": "½",
               "5": "×",
               "6": "a",
@@ -2435,10 +2435,10 @@
               "NAME": "CM Davis,Tony J",
               "Rtg": "1772",
               "Fed": "VIC",
-              "Pts": "0.5"
+              "Pts": "1.0"
             },
             {
-              "1": "a",
+              "1": "0",
               "2": "0",
               "3": "0",
               "4": "0",
@@ -2493,24 +2493,24 @@
               "Player": "1",
               "Rtg": "1694",
               "Fed": "VIC",
-              "Pts": "3.0",
+              "Pts": "4.0",
               "DE": "0"
             },
             {
               "Pos": "2",
-              "Player": "3",
-              "Rtg": "1768",
-              "Fed": "VIC",
-              "Pts": "2.0",
-              "DE": "1"
-            },
-            {
-              "Pos": "3",
               "Player": "5",
               "Rtg": "1774",
               "Fed": "VIC",
-              "Pts": "2.0",
-              "DE": "2"
+              "Pts": "3.0",
+              "DE": "0"
+            },
+            {
+              "Pos": "3",
+              "Player": "3",
+              "Rtg": "1768",
+              "Fed": "VIC",
+              "Pts": "2.5",
+              "DE": "0"
             },
             {
               "Pos": "4",
@@ -2525,7 +2525,7 @@
               "Player": "2",
               "Rtg": "1772",
               "Fed": "VIC",
-              "Pts": "0.5",
+              "Pts": "1.0",
               "DE": "0"
             },
             {
@@ -2739,5 +2739,5 @@
       "children": []
     }
   ],
-  "md5Hash": "9bb4446cff46f3d58839fdc82cc664e1"
+  "md5Hash": "28fb5e0f2c36d3fb41637236e087ec87"
 }

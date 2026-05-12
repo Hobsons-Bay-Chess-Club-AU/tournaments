@@ -69,9 +69,9 @@
 <h4>Pairing of round 4, at 19:30 of 12/05/2026</h4>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#6"> McIntyre,Julian</a> </td><td>6</td> <td class="result"> adj </td><td>5</td><td class="name"> <a href="playercard.php#5">CM Nguyen,Anh Kiet</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#1"> Krishnan,Anirudh</a> </td><td>1</td> <td class="result"> adj </td><td>4</td><td class="name"> <a href="playercard.php#4"> Paul,Cijo</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#2">CM Davis,Tony J</a> </td><td>2</td> <td class="result"> adj </td><td>3</td><td class="name"> <a href="playercard.php#3"> Lacson,Joemar</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#6"> McIntyre,Julian</a> </td><td>6</td> <td class="result">0 - 1</td><td>5</td><td class="name"> <a href="playercard.php#5">CM Nguyen,Anh Kiet</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#1"> Krishnan,Anirudh</a> </td><td>1</td> <td class="result">1 - 0</td><td>4</td><td class="name"> <a href="playercard.php#4"> Paul,Cijo</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#2">CM Davis,Tony J</a> </td><td>2</td> <td class="result">½ - ½</td><td>3</td><td class="name"> <a href="playercard.php#3"> Lacson,Joemar</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
 <h4>Pairing of round 5, at 19:30 of 26/05/2026</h4>

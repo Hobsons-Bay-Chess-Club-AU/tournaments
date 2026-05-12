@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T07:34:59.028Z",
+  "generatedAt": "2026-05-12T14:19:41.450Z",
   "page": {
     "calendarroundrobin.html": {
       "pageHeading": "Schedule",
@@ -219,7 +219,7 @@
               "N": "1",
               "White": "Menezes,Eric",
               "NW": "6",
-              "result": "ADJ",
+              "result": "1F-0F",
               "NB": "5",
               "Black": "Enano,Ronald"
             },
@@ -227,7 +227,7 @@
               "N": "2",
               "White": "Bodke,Krishna Manthan",
               "NW": "1",
-              "result": "ADJ",
+              "result": "1 - 0",
               "NB": "4",
               "Black": "Whitford,Matthew"
             },
@@ -235,7 +235,7 @@
               "N": "3",
               "White": "Hill,James",
               "NW": "2",
-              "result": "ADJ",
+              "result": "1 - 0",
               "NB": "3",
               "Black": "Ruaya,Chris Rodson"
             }
@@ -879,7 +879,7 @@
                 "moreInfo": {}
               },
               "Pts": "0",
-              "Result": "ADJ",
+              "Result": "1F-0F",
               "Pts_1": "0",
               "Black Player": {
                 "id": "5",
@@ -909,7 +909,7 @@
                 "moreInfo": {}
               },
               "Pts": "2",
-              "Result": "ADJ",
+              "Result": "1 - 0",
               "Pts_1": "2",
               "Black Player": {
                 "id": "4",
@@ -939,7 +939,7 @@
                 "moreInfo": {}
               },
               "Pts": "3",
-              "Result": "ADJ",
+              "Result": "1 - 0",
               "Pts_1": "1",
               "Black Player": {
                 "id": "3",
@@ -1015,7 +1015,7 @@
               },
               "Pts": "1",
               "Result": "ADJ",
-              "Pts_1": "0",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "6",
                 "playerName": "Menezes,Eric",
@@ -1045,7 +1045,7 @@
               },
               "Pts": "2",
               "Result": "ADJ",
-              "Pts_1": "3",
+              "Pts_1": "4",
               "Black Player": {
                 "id": "2",
                 "playerName": "Hill,James",
@@ -1075,7 +1075,7 @@
               },
               "Pts": "0",
               "Result": "ADJ",
-              "Pts_1": "2",
+              "Pts_1": "3",
               "Black Player": {
                 "id": "1",
                 "playerName": "Bodke,Krishna Manthan",
@@ -1142,7 +1142,7 @@
               "OPPONENT": "Menezes,Eric",
               "Rtg": "1509",
               "res": "1.0",
-              "Pts": "0.0"
+              "Pts": "1.0"
             },
             {
               "R": "2",
@@ -1152,7 +1152,7 @@
               "OPPONENT": "Hill,James",
               "Rtg": "1591",
               "res": "0.0",
-              "Pts": "3.0"
+              "Pts": "4.0"
             },
             {
               "R": "3",
@@ -1166,13 +1166,13 @@
             },
             {
               "R": "4",
-              "C": "--",
+              "C": "W",
               "N": "4",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "Whitford,Matthew",
+              "Rtg": "1524",
               "res": "1.0",
-              "Pts": "0.0"
+              "Pts": "2.0"
             },
             {
               "R": "5",
@@ -1251,7 +1251,7 @@
               "OPPONENT": "Bodke,Krishna Mantha",
               "Rtg": "1505",
               "res": "1.0",
-              "Pts": "2.0"
+              "Pts": "3.0"
             },
             {
               "R": "3",
@@ -1261,17 +1261,17 @@
               "OPPONENT": "Menezes,Eric",
               "Rtg": "1509",
               "res": "1.0",
-              "Pts": "0.0"
+              "Pts": "1.0"
             },
             {
               "R": "4",
-              "C": "--",
+              "C": "W",
               "N": "3",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "Ruaya,Chris Rodson",
+              "Rtg": "1484",
               "res": "1.0",
-              "Pts": "0.0"
+              "Pts": "1.0"
             },
             {
               "R": "5",
@@ -1360,17 +1360,17 @@
               "OPPONENT": "Bodke,Krishna Mantha",
               "Rtg": "1505",
               "res": "0.0",
-              "Pts": "2.0"
+              "Pts": "3.0"
             },
             {
               "R": "4",
-              "C": "--",
+              "C": "B",
               "N": "2",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "Hill,James",
+              "Rtg": "1591",
               "res": "0.0",
-              "Pts": "0.0"
+              "Pts": "4.0"
             },
             {
               "R": "5",
@@ -1463,13 +1463,13 @@
             },
             {
               "R": "4",
-              "C": "--",
+              "C": "B",
               "N": "1",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "1.0",
-              "Pts": "0.0"
+              "OPPONENT": "Bodke,Krishna Mantha",
+              "Rtg": "1505",
+              "res": "0.0",
+              "Pts": "3.0"
             },
             {
               "R": "5",
@@ -1478,7 +1478,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "1.0",
+              "res": "0.0",
               "Pts": "0.0"
             }
           ],
@@ -1637,7 +1637,7 @@
               "OPPONENT": "Bodke,Krishna Mantha",
               "Rtg": "1505",
               "res": "0.0",
-              "Pts": "2.0"
+              "Pts": "3.0"
             },
             {
               "R": "2",
@@ -1657,7 +1657,7 @@
               "OPPONENT": "Hill,James",
               "Rtg": "1591",
               "res": "0.0",
-              "Pts": "3.0"
+              "Pts": "4.0"
             },
             {
               "R": "4",
@@ -1666,7 +1666,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             },
             {
@@ -1676,7 +1676,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             }
           ],
@@ -1750,9 +1750,9 @@
                 "title": ""
               },
               "col5": "1591",
-              "col6": "1447",
+              "col6": "1591",
               "Fed": "VIC",
-              "Pts": "3.0",
+              "Pts": "4.0",
               "DE": "0"
             },
             {
@@ -1767,9 +1767,9 @@
                 "title": ""
               },
               "col5": "1505",
-              "col6": "1464",
+              "col6": "1608",
               "Fed": "VIC",
-              "Pts": "2.0",
+              "Pts": "3.0",
               "DE": "0"
             },
             {
@@ -1808,23 +1808,6 @@
             },
             {
               "Pos": "5",
-              "N": "5",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Enano,Ronald",
-                "gender": "notitle",
-                "href": "playercard.html#5",
-                "title": ""
-              },
-              "col5": "1574",
-              "col6": "723",
-              "Fed": "VIC",
-              "Pts": "0.0",
-              "DE": "0"
-            },
-            {
-              "Pos": "6",
               "N": "6",
               "T": "",
               "Player": {
@@ -1837,6 +1820,23 @@
               "col5": "1509",
               "col6": "736",
               "Fed": "SA",
+              "Pts": "1.0",
+              "DE": "0"
+            },
+            {
+              "Pos": "6",
+              "N": "5",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Enano,Ronald",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "col5": "1574",
+              "col6": "723",
+              "Fed": "VIC",
               "Pts": "0.0",
               "DE": "0"
             }
@@ -2251,7 +2251,7 @@
                 "title": ""
               },
               "NW": "6",
-              "Result": "ADJ",
+              "Result": "1F-0F",
               "NB": "5",
               "Black Player": {
                 "id": "",
@@ -2273,7 +2273,7 @@
                 "title": ""
               },
               "NW": "1",
-              "Result": "ADJ",
+              "Result": "1 - 0",
               "NB": "4",
               "Black Player": {
                 "id": "",
@@ -2295,7 +2295,7 @@
                 "title": ""
               },
               "NW": "2",
-              "Result": "ADJ",
+              "Result": "1 - 0",
               "NB": "3",
               "Black Player": {
                 "id": "",
@@ -2474,37 +2474,37 @@
               "1": "×",
               "2": "1",
               "3": "a",
-              "4": "a",
-              "5": "+",
-              "6": "1",
+              "4": "1",
+              "5": "1",
+              "6": "+",
               "Pos": "1",
               "#": "2",
               "NAME": "Hill,James",
               "Rtg": "1591",
               "Fed": "VIC",
-              "Pts": "3.0"
+              "Pts": "4.0"
             },
             {
               "1": "0",
               "2": "×",
-              "3": "a",
+              "3": "1",
               "4": "1",
-              "5": "a",
-              "6": "1",
+              "5": "1",
+              "6": "a",
               "Pos": "2",
               "#": "1",
               "NAME": "Bodke,Krishna Manthan",
               "Rtg": "1505",
               "Fed": "VIC",
-              "Pts": "2.0"
+              "Pts": "3.0"
             },
             {
               "1": "a",
-              "2": "a",
+              "2": "0",
               "3": "×",
               "4": "1",
-              "5": "+",
-              "6": "a",
+              "5": "a",
+              "6": "+",
               "Pos": "3",
               "#": "4",
               "NAME": "Whitford,Matthew",
@@ -2513,12 +2513,12 @@
               "Pts": "2.0"
             },
             {
-              "1": "a",
+              "1": "0",
               "2": "0",
               "3": "0",
               "4": "×",
-              "5": "+",
-              "6": "a",
+              "5": "a",
+              "6": "+",
               "Pos": "4",
               "#": "3",
               "NAME": "Ruaya,Chris Rodson",
@@ -2527,31 +2527,31 @@
               "Pts": "1.0"
             },
             {
-              "1": "-",
-              "2": "a",
-              "3": "-",
-              "4": "-",
-              "5": "×",
-              "6": "a",
-              "Pos": "5",
-              "#": "5",
-              "NAME": "Enano,Ronald",
-              "Rtg": "1574",
-              "Fed": "VIC",
-              "Pts": "0.0"
-            },
-            {
               "1": "0",
               "2": "0",
               "3": "a",
               "4": "a",
-              "5": "a",
-              "6": "×",
-              "Pos": "6",
+              "5": "×",
+              "6": "+",
+              "Pos": "5",
               "#": "6",
               "NAME": "Menezes,Eric",
               "Rtg": "1509",
               "Fed": "SA",
+              "Pts": "1.0"
+            },
+            {
+              "1": "-",
+              "2": "a",
+              "3": "-",
+              "4": "-",
+              "5": "-",
+              "6": "×",
+              "Pos": "6",
+              "#": "5",
+              "NAME": "Enano,Ronald",
+              "Rtg": "1574",
+              "Fed": "VIC",
               "Pts": "0.0"
             }
           ]
@@ -2605,7 +2605,7 @@
               },
               "Rtg": "1591",
               "Fed": "VIC",
-              "Pts": "3.0",
+              "Pts": "4.0",
               "DE": "0"
             },
             {
@@ -2623,7 +2623,7 @@
               },
               "Rtg": "1505",
               "Fed": "VIC",
-              "Pts": "2.0",
+              "Pts": "3.0",
               "DE": "0"
             },
             {
@@ -2665,24 +2665,6 @@
             {
               "Pos": "5",
               "Player": {
-                "id": "5",
-                "playerName": "Enano,Ronald",
-                "gender": "male",
-                "href": "playercard.html#5",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1574",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Rtg": "1574",
-              "Fed": "VIC",
-              "Pts": "0.0",
-              "DE": "0"
-            },
-            {
-              "Pos": "6",
-              "Player": {
                 "id": "6",
                 "playerName": "Menezes,Eric",
                 "gender": "male",
@@ -2695,6 +2677,24 @@
               },
               "Rtg": "1509",
               "Fed": "SA",
+              "Pts": "1.0",
+              "DE": "0"
+            },
+            {
+              "Pos": "6",
+              "Player": {
+                "id": "5",
+                "playerName": "Enano,Ronald",
+                "gender": "male",
+                "href": "playercard.html#5",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1574",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Rtg": "1574",
+              "Fed": "VIC",
               "Pts": "0.0",
               "DE": "0"
             }
@@ -3059,5 +3059,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Senior"
   },
-  "md5Hash": "aa0c4f921d5e9e1844de4dfb9b22c94c"
+  "md5Hash": "996fdce6b4ae82205b382b8ea157aa2d"
 }
