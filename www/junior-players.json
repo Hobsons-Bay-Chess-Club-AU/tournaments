@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-14T07:41:47.515Z",
+  "generatedAt": "2026-05-15T02:39:46.992Z",
   "year": "2026",
-  "count": 166,
-  "totalTournaments": 18,
+  "count": 174,
+  "totalTournaments": 17,
   "players": [
     {
       "name": "Ahmad,Ihtiram",
@@ -27,15 +27,15 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 3.5,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 11,
+        "standard": 7.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -46,7 +46,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#53",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -54,17 +54,10 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 3.5,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 8,
+        "standard": 4.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -75,7 +68,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#54",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -83,17 +76,10 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -114,22 +100,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 4,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5.5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 8,
+        "standard": 4,
         "rapid": 5.5,
         "blitz": 0
       }
@@ -208,15 +194,15 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1.5,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 2.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -227,18 +213,11 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#18",
-      "tournamentCount": 3,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 3.5,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2.5,
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
@@ -252,7 +231,7 @@
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 3.5,
         "rapid": 5.5,
         "blitz": 0
       }
@@ -280,22 +259,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternSwissOpen/data.json",
           "score": 2.5,
           "name": "Hobsons Bay Western Swiss 2026",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 11.5,
+        "standard": 9.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -323,15 +302,15 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -359,22 +338,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 3,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 1,
         "rapid": 3,
         "blitz": 0
       }
@@ -402,22 +381,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 3,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 5,
         "rapid": 3,
         "blitz": 0
       }
@@ -445,22 +424,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 3,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 6,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 9.5,
+        "standard": 6.5,
         "rapid": 6,
         "blitz": 0
       }
@@ -488,22 +467,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 3,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 5,
         "rapid": 3,
         "blitz": 0
       }
@@ -582,22 +561,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 3.5,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 6,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 11.5,
+        "standard": 8,
         "rapid": 6,
         "blitz": 0
       }
@@ -625,22 +604,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 3,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5.5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 11.5,
+        "standard": 8.5,
         "rapid": 5.5,
         "blitz": 0
       }
@@ -661,22 +640,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 3,
         "rapid": 5,
         "blitz": 0
       }
@@ -704,22 +683,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 4,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 3,
         "rapid": 4,
         "blitz": 0
       }
@@ -752,7 +731,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#28",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -760,17 +739,32 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
-        },
+        }
+      ],
+      "points": {
+        "standard": 2,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Borle,Swarit",
+      "id": "52",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#52",
+      "tournamentCount": 1,
+      "tournaments": [
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -781,13 +775,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#54",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
@@ -803,7 +804,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#55",
-      "tournamentCount": 4,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -820,13 +821,6 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 3.5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
@@ -835,7 +829,7 @@
         }
       ],
       "points": {
-        "standard": 6.5,
+        "standard": 4.5,
         "rapid": 3.5,
         "blitz": 0
       }
@@ -885,10 +879,10 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
+          "tournament": "wwwDesktop/data.json",
           "score": 0,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
@@ -921,15 +915,15 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 4,
         "rapid": 0,
         "blitz": 0
       }
@@ -984,7 +978,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#29",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -992,17 +986,10 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 3,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -1030,15 +1017,15 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2.5,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 10.5,
+        "standard": 8,
         "rapid": 0,
         "blitz": 0
       }
@@ -1088,22 +1075,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1.5,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 4.5,
         "rapid": 5,
         "blitz": 0
       }
@@ -1153,15 +1140,15 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 5,
         "rapid": 0,
         "blitz": 0
       }
@@ -1182,22 +1169,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 3,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5.5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 6.5,
+        "standard": 3.5,
         "rapid": 5.5,
         "blitz": 0
       }
@@ -1225,22 +1212,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 4,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 6.5,
+        "standard": 4.5,
         "rapid": 4,
         "blitz": 0
       }
@@ -1280,7 +1267,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#46",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -1288,17 +1275,32 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
-        },
+        }
+      ],
+      "points": {
+        "standard": 2,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Ganesh Kumar,Mukunth",
+      "id": "41",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#41",
+      "tournamentCount": 1,
+      "tournaments": [
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -1326,22 +1328,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 3,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 5,
         "rapid": 3,
         "blitz": 0
       }
@@ -1369,22 +1371,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 2,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 4,
         "rapid": 2,
         "blitz": 0
       }
@@ -1412,22 +1414,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 3.5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 5,
         "rapid": 3.5,
         "blitz": 0
       }
@@ -1455,15 +1457,15 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3.5,
+        "standard": 2.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -1630,22 +1632,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 3,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 10,
+        "standard": 7,
         "rapid": 5,
         "blitz": 0
       }
@@ -1656,7 +1658,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#2",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -1664,17 +1666,10 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 3.5,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 3.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -1685,7 +1680,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#35",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -1693,17 +1688,10 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1.5,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 2.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -1765,7 +1753,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#21",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -1773,17 +1761,10 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -1833,22 +1814,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 3,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 6,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 9,
+        "standard": 6,
         "rapid": 6,
         "blitz": 0
       }
@@ -1876,22 +1857,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 3.5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 4,
         "rapid": 3.5,
         "blitz": 0
       }
@@ -1941,15 +1922,15 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 4,
         "rapid": 0,
         "blitz": 0
       }
@@ -2043,22 +2024,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 5,
         "rapid": 5,
         "blitz": 0
       }
@@ -2069,7 +2050,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#62",
-      "tournamentCount": 3,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2081,13 +2062,6 @@
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 1,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 0,
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
@@ -2105,7 +2079,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#63",
-      "tournamentCount": 4,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2122,13 +2096,6 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 4,
           "name": "2026 HBCC Western Juniors Rapid Championship",
@@ -2137,7 +2104,7 @@
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 5,
         "rapid": 4,
         "blitz": 0
       }
@@ -2236,18 +2203,11 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#62",
-      "tournamentCount": 4,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1,
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
@@ -2268,7 +2228,7 @@
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 4,
         "rapid": 3.5,
         "blitz": 0
       }
@@ -2279,17 +2239,10 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#63",
-      "tournamentCount": 4,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
           "score": 2,
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
@@ -2311,7 +2264,7 @@
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 3,
         "rapid": 4,
         "blitz": 0
       }
@@ -2322,17 +2275,10 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#64",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
-          "score": 0,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
           "score": 0,
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
@@ -2351,17 +2297,10 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#65",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
-          "score": 0,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
           "score": 0,
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
@@ -2424,7 +2363,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#66",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -2432,17 +2371,10 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2.5,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 2.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -2497,7 +2429,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#67",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -2505,17 +2437,10 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 1,
         "rapid": 0,
         "blitz": 0
       }
@@ -2573,22 +2498,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 3,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 4.5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 3,
         "rapid": 4.5,
         "blitz": 0
       }
@@ -2616,22 +2541,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 3,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 5.5,
+        "standard": 3.5,
         "rapid": 3,
         "blitz": 0
       }
@@ -2659,22 +2584,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1.5,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 4.5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 3.5,
         "rapid": 4.5,
         "blitz": 0
       }
@@ -2685,18 +2610,11 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#69",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 1,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 0,
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
@@ -2714,7 +2632,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#30",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -2722,17 +2640,10 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 2,
         "rapid": 0,
         "blitz": 0
       }
@@ -2841,15 +2752,15 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2.5,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 9,
+        "standard": 6.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -3009,22 +2920,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 3.5,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 4.5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 10.5,
+        "standard": 7,
         "rapid": 4.5,
         "blitz": 0
       }
@@ -3086,7 +2997,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#71",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -3094,17 +3005,10 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 3,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 4,
         "rapid": 0,
         "blitz": 0
       }
@@ -3154,15 +3058,15 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 4,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 13,
+        "standard": 9,
         "rapid": 0,
         "blitz": 0
       }
@@ -3173,7 +3077,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#72",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -3181,17 +3085,10 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 1,
         "rapid": 0,
         "blitz": 0
       }
@@ -3212,22 +3109,44 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 0,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Panchaparvala,Rohan Aditya",
+      "id": "56",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#56",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -3238,18 +3157,11 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#4",
-      "tournamentCount": 3,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 3.5,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2.5,
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
@@ -3263,7 +3175,7 @@
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 3.5,
         "rapid": 7,
         "blitz": 0
       }
@@ -3313,6 +3225,50 @@
       }
     },
     {
+      "name": "Paul,Vivaan",
+      "id": "57",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#57",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Polus,Elyano",
+      "id": "58",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#58",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Pradeep,Mayukh",
       "id": "73",
       "fideId": "",
@@ -3335,13 +3291,6 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 4,
           "name": "2026 HBCC Western Juniors Rapid Championship",
@@ -3354,10 +3303,17 @@
           "name": "Hobsons Bay Western Swiss 2026",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 7.5,
+        "standard": 5.5,
         "rapid": 4,
         "blitz": 0
       }
@@ -3385,12 +3341,34 @@
       }
     },
     {
+      "name": "Rajan,Viaan",
+      "id": "60",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#60",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Ramanathan,Ashwin",
       "id": "7",
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#7",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -3411,6 +3389,13 @@
           "score": 4,
           "name": "Hobsons Bay Western Swiss 2026",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
@@ -3492,7 +3477,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#74",
-      "tournamentCount": 3,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -3507,17 +3492,10 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 3,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 9,
+        "standard": 6,
         "rapid": 0,
         "blitz": 0
       }
@@ -3545,13 +3523,6 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5.5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
@@ -3564,10 +3535,17 @@
           "name": "Hobsons Bay Western Swiss 2026",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 10,
+        "standard": 8,
         "rapid": 5.5,
         "blitz": 0
       }
@@ -3610,15 +3588,15 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1.5,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 1.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -3629,7 +3607,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#25",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
@@ -3637,6 +3615,13 @@
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
@@ -3690,15 +3675,15 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 4,
         "rapid": 0,
         "blitz": 0
       }
@@ -3709,7 +3694,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#82",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
@@ -3717,6 +3702,13 @@
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
@@ -3792,22 +3784,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5.5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 8,
+        "standard": 6,
         "rapid": 5.5,
         "blitz": 0
       }
@@ -3894,22 +3886,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 3,
         "rapid": 5,
         "blitz": 0
       }
@@ -3920,17 +3912,10 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#78",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
-          "score": 0,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
           "score": 0,
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
@@ -3995,23 +3980,45 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 3,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 6.5,
+        "standard": 5.5,
         "rapid": 3,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Steinmann,Keigan",
+      "id": "63",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#63",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
         "blitz": 0
       }
     },
@@ -4021,7 +4028,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#32",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -4036,6 +4043,13 @@
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
@@ -4050,7 +4064,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#77",
-      "tournamentCount": 4,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -4067,13 +4081,6 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 4,
           "name": "2026 HBCC Western Juniors Rapid Championship",
@@ -4082,7 +4089,7 @@
         }
       ],
       "points": {
-        "standard": 4.5,
+        "standard": 3.5,
         "rapid": 4,
         "blitz": 0
       }
@@ -4115,7 +4122,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#45",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -4123,17 +4130,10 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 2,
         "rapid": 0,
         "blitz": 0
       }
@@ -4249,22 +4249,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2.5,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 9,
+        "standard": 6.5,
         "rapid": 5,
         "blitz": 0
       }
@@ -4292,22 +4292,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2.5,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 4,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 8.5,
+        "standard": 6,
         "rapid": 4,
         "blitz": 0
       }
@@ -4318,7 +4318,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#17",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -4326,17 +4326,10 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 3,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 4,
         "rapid": 0,
         "blitz": 0
       }
@@ -4364,22 +4357,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 8,
+        "standard": 6,
         "rapid": 5,
         "blitz": 0
       }
@@ -4390,7 +4383,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#33",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
@@ -4398,6 +4391,13 @@
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
@@ -4412,7 +4412,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#36",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
@@ -4420,6 +4420,13 @@
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
@@ -4456,7 +4463,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#78",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -4471,6 +4478,13 @@
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
@@ -4502,6 +4516,28 @@
       }
     },
     {
+      "name": "Watson,Emma",
+      "id": "66",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#66",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Watson,Jacob",
       "id": "79",
       "fideId": "",
@@ -4524,22 +4560,22 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 3,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 9,
+        "standard": 6,
         "rapid": 5,
         "blitz": 0
       }
@@ -4550,7 +4586,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#11",
-      "tournamentCount": 2,
+      "tournamentCount": 1,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -4558,17 +4594,10 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 3,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 4,
         "rapid": 0,
         "blitz": 0
       }
@@ -4579,13 +4608,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#18",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 4,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
@@ -4601,7 +4637,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#80",
-      "tournamentCount": 3,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -4616,17 +4652,10 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 2,
         "rapid": 0,
         "blitz": 0
       }
@@ -4705,15 +4734,15 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -4739,7 +4768,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#82",
-      "tournamentCount": 3,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -4754,17 +4783,10 @@
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 1,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 2,
         "rapid": 0,
         "blitz": 0
       }
@@ -4843,15 +4865,15 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 3,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 9,
+        "standard": 6,
         "rapid": 0,
         "blitz": 0
       }
@@ -4879,15 +4901,15 @@
           "ratingType": "standard"
         },
         {
-          "tournament": "www2026PurdyCupRookiesandJuniors(3)/data.json",
-          "score": 3,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
+          "tournament": "wwwDesktop/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 8,
+        "standard": 5,
         "rapid": 0,
         "blitz": 0
       }
