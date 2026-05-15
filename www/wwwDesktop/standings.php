@@ -160,7 +160,7 @@
 </tr> 
 <tr> <td>57</td><td><span class="idn"> 57 </span> <span class="notitle male"> </span> <a href="playercard.php#57"> Paul,Vivaan</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.0</td><td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
-<tr> <td>58</td><td><span class="idn"> 58 </span> <span class="notitle male"> </span> <a href="playercard.php#58"> Polus,Elyano</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.0</td><td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
+<tr> <td>58</td><td><span class="idn"> 58 </span> <span class="notitle female"> </span> <a href="playercard.php#58"> Polus,Elyano</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.0</td><td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
 <tr> <td>59</td><td><span class="idn"> 59 </span> <span class="notitle male"> </span> <a href="playercard.php#59"> Pradeep,Mayukh</a> </td><td>0</td><td ><img src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.0</td><td>    0.0 </td><td>    0.0 </td><td>   0.00 </td>
 </tr> 
