@@ -1,19 +1,26 @@
 {
-  "generatedAt": "2026-05-16T07:13:55.368Z",
+  "generatedAt": "2026-05-16T10:54:03.232Z",
   "year": "2026",
-  "count": 202,
+  "count": 203,
   "seniorCount": 87,
-  "juniorCount": 174,
-  "totalTournaments": 17,
+  "juniorCount": 175,
+  "totalTournaments": 18,
   "players": [
     {
       "name": "Ahmad,Ihtiram",
-      "id": "14",
+      "id": "11",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#14",
-      "tournamentCount": 3,
+      "href": "playercard.html#11",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 4,
@@ -37,7 +44,7 @@
         }
       ],
       "points": {
-        "standard": 7.5,
+        "standard": 8,
         "rapid": 0,
         "blitz": 0
       }
@@ -92,7 +99,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#24",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -107,6 +114,13 @@
           "name": "Hobsons Bay Blitz 1 2026",
           "totalRounds": "9",
           "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -131,7 +145,7 @@
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 5.5,
         "rapid": 5.5,
         "blitz": 5
       }
@@ -231,12 +245,19 @@
     },
     {
       "name": "Aquino,Zedric",
-      "id": "55",
+      "id": "47",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#55",
-      "tournamentCount": 2,
+      "href": "playercard.html#47",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 2.5,
@@ -253,7 +274,7 @@
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -293,7 +314,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#26",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -307,6 +328,13 @@
           "score": 3.5,
           "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -339,19 +367,26 @@
         }
       ],
       "points": {
-        "standard": 15,
+        "standard": 16,
         "rapid": 0,
         "blitz": 0
       }
     },
     {
       "name": "Bacon,Levi",
-      "id": "51",
+      "id": "48",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#51",
-      "tournamentCount": 3,
+      "href": "playercard.html#48",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 1,
@@ -382,12 +417,19 @@
     },
     {
       "name": "Bala,Jake",
-      "id": "52",
+      "id": "49",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#52",
-      "tournamentCount": 4,
+      "href": "playercard.html#49",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 0,
@@ -425,12 +467,19 @@
     },
     {
       "name": "Bala,Neil",
-      "id": "53",
+      "id": "50",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#53",
-      "tournamentCount": 4,
+      "href": "playercard.html#50",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
@@ -472,7 +521,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#14",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "wwwBlitz12026/data.json",
@@ -487,6 +536,13 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -518,19 +574,26 @@
         }
       ],
       "points": {
-        "standard": 6.5,
+        "standard": 7.5,
         "rapid": 6.5,
         "blitz": 5
       }
     },
     {
       "name": "Balamurugan,Soorya",
-      "id": "36",
+      "id": "34",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#36",
-      "tournamentCount": 4,
+      "href": "playercard.html#34",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3,
@@ -561,7 +624,7 @@
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 6,
         "rapid": 3,
         "blitz": 0
       }
@@ -633,12 +696,19 @@
     },
     {
       "name": "Batyrbekov,Aidan",
-      "id": "17",
+      "id": "10",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#17",
-      "tournamentCount": 4,
+      "href": "playercard.html#10",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 4,
@@ -669,19 +739,26 @@
         }
       ],
       "points": {
-        "standard": 8,
+        "standard": 9,
         "rapid": 6,
         "blitz": 0
       }
     },
     {
       "name": "Batyrbekov,Kaisar",
-      "id": "9",
+      "id": "7",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#9",
-      "tournamentCount": 4,
+      "href": "playercard.html#7",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 4.5,
@@ -712,7 +789,7 @@
         }
       ],
       "points": {
-        "standard": 8.5,
+        "standard": 9,
         "rapid": 5.5,
         "blitz": 0
       }
@@ -723,7 +800,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#33",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "wwwBlitz12026/data.json",
@@ -738,6 +815,13 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -762,19 +846,26 @@
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 4,
         "rapid": 6.5,
         "blitz": 3
       }
     },
     {
       "name": "Bodke,Aryan",
-      "id": "49",
+      "id": "39",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#49",
-      "tournamentCount": 4,
+      "href": "playercard.html#39",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
@@ -895,8 +986,15 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#52",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwDesktop/data.json",
           "score": 0,
@@ -913,12 +1011,19 @@
     },
     {
       "name": "Boxshall,Logan",
-      "id": "54",
+      "id": "53",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#54",
-      "tournamentCount": 2,
+      "href": "playercard.html#53",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
@@ -1035,12 +1140,19 @@
     },
     {
       "name": "Daffey,Callum",
-      "id": "56",
+      "id": "54",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#56",
-      "tournamentCount": 3,
+      "href": "playercard.html#54",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 0,
@@ -1071,12 +1183,19 @@
     },
     {
       "name": "Das,Ayush",
-      "id": "44",
+      "id": "37",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#44",
-      "tournamentCount": 3,
+      "href": "playercard.html#37",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
@@ -1220,7 +1339,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#3",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "wwwRapid12026/data.json",
@@ -1228,6 +1347,13 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -1252,7 +1378,7 @@
         }
       ],
       "points": {
-        "standard": 8,
+        "standard": 8.5,
         "rapid": 4,
         "blitz": 0
       }
@@ -1325,12 +1451,19 @@
     },
     {
       "name": "Fang,Candice",
-      "id": "46",
+      "id": "40",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#46",
-      "tournamentCount": 4,
+      "href": "playercard.html#40",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
@@ -1361,7 +1494,7 @@
         }
       ],
       "points": {
-        "standard": 4.5,
+        "standard": 5,
         "rapid": 5,
         "blitz": 0
       }
@@ -1390,12 +1523,19 @@
     },
     {
       "name": "Gadham,Aarya Subramanya",
-      "id": "40",
+      "id": "36",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#40",
-      "tournamentCount": 3,
+      "href": "playercard.html#36",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
@@ -1419,7 +1559,7 @@
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 5.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -1430,8 +1570,15 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#19",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 3.5,
@@ -1455,19 +1602,26 @@
         }
       ],
       "points": {
-        "standard": 3.5,
+        "standard": 4.5,
         "rapid": 5.5,
         "blitz": 0
       }
     },
     {
       "name": "Gajula,Nishitha",
-      "id": "42",
+      "id": "28",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#42",
-      "tournamentCount": 4,
+      "href": "playercard.html#28",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2.5,
@@ -1498,7 +1652,7 @@
         }
       ],
       "points": {
-        "standard": 4.5,
+        "standard": 5,
         "rapid": 4,
         "blitz": 0
       }
@@ -1603,8 +1757,15 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#41",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwDesktop/data.json",
           "score": 0,
@@ -1621,12 +1782,19 @@
     },
     {
       "name": "Goh,Daphne",
-      "id": "58",
+      "id": "44",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#58",
-      "tournamentCount": 4,
+      "href": "playercard.html#44",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
@@ -1664,12 +1832,19 @@
     },
     {
       "name": "Goh,Julian",
-      "id": "48",
+      "id": "45",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#48",
-      "tournamentCount": 4,
+      "href": "playercard.html#45",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
@@ -1707,12 +1882,19 @@
     },
     {
       "name": "Goh,Nicholas",
-      "id": "33",
+      "id": "31",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#33",
-      "tournamentCount": 4,
+      "href": "playercard.html#31",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
@@ -1743,19 +1925,26 @@
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 6,
         "rapid": 3.5,
         "blitz": 0
       }
     },
     {
       "name": "Guggilla,Krithvik",
-      "id": "27",
+      "id": "29",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#27",
-      "tournamentCount": 3,
+      "href": "playercard.html#29",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 1.5,
@@ -2145,7 +2334,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#15",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "wwwBlitz12026/data.json",
@@ -2160,6 +2349,13 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2191,7 +2387,7 @@
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 8,
         "rapid": 7.5,
         "blitz": 5.5
       }
@@ -2220,12 +2416,19 @@
     },
     {
       "name": "Husain, Lamiah",
-      "id": "35",
+      "id": "69",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#35",
-      "tournamentCount": 1,
+      "href": "playercard.html#69",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 2.5,
@@ -2235,7 +2438,7 @@
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -2370,7 +2573,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#30",
-      "tournamentCount": 8,
+      "tournamentCount": 9,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -2399,6 +2602,13 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2430,7 +2640,7 @@
         }
       ],
       "points": {
-        "standard": 10,
+        "standard": 11,
         "rapid": 6.5,
         "blitz": 0
       }
@@ -2441,7 +2651,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#27",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "wwwBlitz12026/data.json",
@@ -2456,6 +2666,13 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2520,7 +2737,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#30",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "wwwBlitz12026/data.json",
@@ -2528,6 +2745,13 @@
           "name": "Hobsons Bay Blitz 1 2026",
           "totalRounds": "9",
           "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2636,7 +2860,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#21",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "wwwBlitz12026/data.json",
@@ -2644,6 +2868,13 @@
           "name": "Hobsons Bay Blitz 1 2026",
           "totalRounds": "9",
           "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -3280,8 +3511,15 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#22",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 3,
@@ -3305,19 +3543,26 @@
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 4,
         "rapid": 4.5,
         "blitz": 0
       }
     },
     {
       "name": "Madduluri,Advaitha",
-      "id": "66",
+      "id": "43",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#66",
-      "tournamentCount": 4,
+      "href": "playercard.html#43",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 1.5,
@@ -3355,12 +3600,19 @@
     },
     {
       "name": "Mallajosyula,Srivaths",
-      "id": "67",
+      "id": "38",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#67",
-      "tournamentCount": 4,
+      "href": "playercard.html#38",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
@@ -3393,6 +3645,28 @@
       "points": {
         "standard": 3.5,
         "rapid": 4.5,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Manjunath, Charvi",
+      "id": "68",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#68",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
         "blitz": 0
       }
     },
@@ -3512,7 +3786,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#38",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "wwwBlitz12026/data.json",
@@ -3527,6 +3801,13 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -3551,7 +3832,7 @@
         }
       ],
       "points": {
-        "standard": 6.5,
+        "standard": 7.5,
         "rapid": 3,
         "blitz": 5
       }
@@ -3868,7 +4149,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#19",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "wwwBlitz12026/data.json",
@@ -3883,6 +4164,13 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -3914,7 +4202,7 @@
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 8,
         "rapid": 6.5,
         "blitz": 4.5
       }
@@ -4055,7 +4343,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#18",
-      "tournamentCount": 8,
+      "tournamentCount": 9,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -4093,6 +4381,13 @@
           "ratingType": "rapid"
         },
         {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
+        {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 4,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
@@ -4115,7 +4410,7 @@
         }
       ],
       "points": {
-        "standard": 13.5,
+        "standard": 14.5,
         "rapid": 0.5,
         "blitz": 6
       }
@@ -4173,12 +4468,19 @@
     },
     {
       "name": "Pai,Tesha",
-      "id": "73",
+      "id": "55",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#73",
-      "tournamentCount": 3,
+      "href": "playercard.html#55",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 1,
@@ -4213,8 +4515,15 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#56",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwDesktop/data.json",
           "score": 0,
@@ -4408,8 +4717,15 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#57",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwDesktop/data.json",
           "score": 0,
@@ -4419,7 +4735,7 @@
         }
       ],
       "points": {
-        "standard": 0,
+        "standard": 0.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -4452,8 +4768,15 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#58",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwDesktop/data.json",
           "score": 0,
@@ -4463,7 +4786,7 @@
         }
       ],
       "points": {
-        "standard": 0,
+        "standard": 0.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -4474,7 +4797,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#39",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "wwwRapid12026/data.json",
@@ -4482,6 +4805,13 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -4520,7 +4850,7 @@
         }
       ],
       "points": {
-        "standard": 5.5,
+        "standard": 6,
         "rapid": 5,
         "blitz": 0
       }
@@ -4553,8 +4883,15 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#60",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwDesktop/data.json",
           "score": 0,
@@ -4564,7 +4901,7 @@
         }
       ],
       "points": {
-        "standard": 0,
+        "standard": 1,
         "rapid": 0,
         "blitz": 0
       }
@@ -4575,7 +4912,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#22",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -4589,6 +4926,13 @@
           "score": 2,
           "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -4621,7 +4965,7 @@
         }
       ],
       "points": {
-        "standard": 13.5,
+        "standard": 14.5,
         "rapid": 6,
         "blitz": 0
       }
@@ -4762,7 +5106,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#27",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupOpen/data.json",
@@ -4777,6 +5121,13 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -4815,7 +5166,7 @@
         }
       ],
       "points": {
-        "standard": 9.5,
+        "standard": 10.5,
         "rapid": 7.5,
         "blitz": 0
       }
@@ -4870,7 +5221,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#41",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "wwwRapid12026/data.json",
@@ -4878,6 +5229,13 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -4895,19 +5253,26 @@
         }
       ],
       "points": {
-        "standard": 1.5,
+        "standard": 2.5,
         "rapid": 1,
         "blitz": 0
       }
     },
     {
       "name": "Saha,Avinandan (Arjun)",
-      "id": "25",
+      "id": "20",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#25",
-      "tournamentCount": 2,
+      "href": "playercard.html#20",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5.5,
@@ -4957,7 +5322,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#16",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "wwwBlitz12026/data.json",
@@ -4972,6 +5337,13 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -4996,19 +5368,26 @@
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 5,
         "rapid": 3,
         "blitz": 4.5
       }
     },
     {
       "name": "Saravanakumar,Thaswin",
-      "id": "82",
+      "id": "62",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#82",
-      "tournamentCount": 2,
+      "href": "playercard.html#62",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 2,
@@ -5102,7 +5481,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#18",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "wwwBlitz12026/data.json",
@@ -5117,6 +5496,13 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -5148,7 +5534,7 @@
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 7,
         "rapid": 7.5,
         "blitz": 4.5
       }
@@ -5263,12 +5649,19 @@
     },
     {
       "name": "Singh,Sumair",
-      "id": "38",
+      "id": "35",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#38",
-      "tournamentCount": 3,
+      "href": "playercard.html#35",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 3,
@@ -5350,12 +5743,19 @@
     },
     {
       "name": "Spriggs,Harvey",
-      "id": "45",
+      "id": "33",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#45",
-      "tournamentCount": 4,
+      "href": "playercard.html#33",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3.5,
@@ -5397,8 +5797,15 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#63",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwDesktop/data.json",
           "score": 0,
@@ -5419,8 +5826,15 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#32",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 1,
@@ -5444,7 +5858,7 @@
         }
       ],
       "points": {
-        "standard": 1,
+        "standard": 2,
         "rapid": 4,
         "blitz": 0
       }
@@ -5688,7 +6102,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#17",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "wwwBlitz12026/data.json",
@@ -5703,6 +6117,13 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -5734,19 +6155,26 @@
         }
       ],
       "points": {
-        "standard": 6.5,
+        "standard": 7.5,
         "rapid": 8,
         "blitz": 5
       }
     },
     {
       "name": "Venkat,Nyra",
-      "id": "35",
+      "id": "24",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#35",
-      "tournamentCount": 4,
+      "href": "playercard.html#24",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3.5,
@@ -5777,7 +6205,7 @@
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 7,
         "rapid": 4,
         "blitz": 0
       }
@@ -5817,7 +6245,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#22",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "wwwRapid12026/data.json",
@@ -5825,6 +6253,13 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -5856,19 +6291,26 @@
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 7,
         "rapid": 7,
         "blitz": 0
       }
     },
     {
       "name": "Vinu,Vaishnav",
-      "id": "33",
+      "id": "64",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#33",
-      "tournamentCount": 2,
+      "href": "playercard.html#64",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5.5,
@@ -5892,12 +6334,19 @@
     },
     {
       "name": "Vinu,Vinayak",
-      "id": "36",
+      "id": "65",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#36",
-      "tournamentCount": 2,
+      "href": "playercard.html#65",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5,
@@ -5914,7 +6363,7 @@
         }
       ],
       "points": {
-        "standard": 0,
+        "standard": 1,
         "rapid": 5,
         "blitz": 0
       }
@@ -5947,7 +6396,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#40",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "wwwBlitz12026/data.json",
@@ -5962,6 +6411,13 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -5986,7 +6442,7 @@
         }
       ],
       "points": {
-        "standard": 1.5,
+        "standard": 2,
         "rapid": 6,
         "blitz": 3
       }
@@ -6048,8 +6504,15 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#66",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwDesktop/data.json",
           "score": 0,
@@ -6066,12 +6529,19 @@
     },
     {
       "name": "Watson,Jacob",
-      "id": "79",
+      "id": "26",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#79",
-      "tournamentCount": 4,
+      "href": "playercard.html#26",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3,
@@ -6102,7 +6572,7 @@
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 6.5,
         "rapid": 5,
         "blitz": 0
       }
@@ -6131,12 +6601,19 @@
     },
     {
       "name": "Wei,Andrew",
-      "id": "18",
+      "id": "13",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#18",
-      "tournamentCount": 2,
+      "href": "playercard.html#13",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 4,
@@ -6153,7 +6630,7 @@
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 5,
         "rapid": 0,
         "blitz": 0
       }
@@ -6294,7 +6771,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#45",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "wwwRapid12026/data.json",
@@ -6302,6 +6779,13 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -6326,7 +6810,7 @@
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 3.5,
         "rapid": 2,
         "blitz": 0
       }
@@ -6427,12 +6911,19 @@
     },
     {
       "name": "Yendru,Srikrishna",
-      "id": "12",
+      "id": "8",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#12",
-      "tournamentCount": 3,
+      "href": "playercard.html#8",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3,
@@ -6456,19 +6947,26 @@
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 7,
         "rapid": 0,
         "blitz": 0
       }
     },
     {
       "name": "Yendru,Sriram",
-      "id": "29",
+      "id": "27",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#29",
-      "tournamentCount": 3,
+      "href": "playercard.html#27",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
@@ -6492,7 +6990,7 @@
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 5.5,
         "rapid": 0,
         "blitz": 0
       }
