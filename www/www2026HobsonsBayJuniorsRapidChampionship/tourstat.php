@@ -5,7 +5,7 @@
 <meta name="author" content="www.vegachess.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-<title>2026 HBCC Hobsons Bay Juniors Championship</title>
+<title>2026 HBCC Hobsons Bay Juniors Rapid Championship</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <link rel="stylesheet" href="stylenew.css" type="text/css" >
     </head>
@@ -27,7 +27,7 @@
                 <div class="container-fluid">
                     <div class="row items-center">
                         <div class="col-12">
-                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2026 HBCC Hobsons Bay Juniors Championship</h1>		    <h5 class="mb-1">Hobsons Bay (AUS)</h5>		    <h5> 18/07/2026 - 18/07/2026</h5>   </div>
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2026 HBCC Hobsons Bay Juniors Rapid Championship</h1>		    <h5 class="mb-1">Hobsons Bay (AUS)</h5>		    <h5> 18/07/2026 - 18/07/2026</h5>   </div>
  </div> 
  </div>
  </div> 
@@ -39,7 +39,7 @@
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
   <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Tournament summary</h3><div class="table-responsive"><table class="table table-striped"> 
 <tbody>
-<tr><td> Tournament Name </td> <td> 2026 HBCC Hobsons Bay Juniors Championship</td> </tr>
+<tr><td> Tournament Name </td> <td> 2026 HBCC Hobsons Bay Juniors Rapid Championship</td> </tr>
 <tr><td >Place </td> <td> Hobsons Bay</td> </tr>
 <tr><td >Federation</td> <td> AUS</td> </tr>
 <tr><td >Date Begin</td> <td> 18/07/2026</td> </tr>
