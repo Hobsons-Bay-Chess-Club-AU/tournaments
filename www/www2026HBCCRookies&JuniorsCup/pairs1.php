@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs1.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs2.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
@@ -87,6 +87,7 @@
 <tr> <td>35</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name"> <span class="idwhite"> 9 </span><span class="notitle male"> </span> <a href="playercard.php#9"> Annadasu,Shreyansh</a> </td><td>0</td><td class="result">½    </td><td>0</td><td class="name">( half point bye )</td><td></td><td></td></tr>
 <tr> <td>36</td><td><img class="shadow" src="flag/os.png" alt="OS"></td><td></td><td class="name"> <span class="idwhite"> 11 </span><span class="notitle male"> </span> <a href="playercard.php#11"> Ahmad,Ihtiram</a> </td><td>0</td><td class="result">½    </td><td>0</td><td class="name">( half point bye )</td><td></td><td></td></tr>
 <tr> <td>37</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="name"> <span class="idwhite"> 60 </span><span class="notitle female"> </span> <a href="playercard.php#60"> Polus,Elyano</a> </td><td>0</td><td class="result">½    </td><td>0</td><td class="name">( half point bye )</td><td></td><td></td></tr>
+<tr> <td>38</td><td><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td class="name"> <span class="idwhite"> 70 </span><span class="notitle male"> </span> <a href="playercard.php#70"> Veeragandham, Gowtham</a> </td><td>0</td><td class="result">0    </td><td>0</td><td class="name">( not paired )</td><td></td><td></td></tr>
 </tbody>
 </table>
 </DIV><hr>
