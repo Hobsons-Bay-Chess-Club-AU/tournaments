@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T08:24:31.913Z",
+  "generatedAt": "2026-05-23T07:29:33.149Z",
   "year": "2026",
   "count": 175,
   "totalTournaments": 18,
@@ -5409,12 +5409,19 @@
     },
     {
       "name": "Veeragandham, Gowtham",
-      "id": "45",
+      "id": "70",
       "fideId": "3295346",
       "gender": "male",
-      "href": "playercard.html#45",
-      "tournamentCount": 1,
+      "href": "playercard.html#70",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 2,
