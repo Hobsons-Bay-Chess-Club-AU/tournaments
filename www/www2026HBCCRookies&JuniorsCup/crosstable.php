@@ -76,7 +76,7 @@
 <tr> 
 <td> <span class="idn"> 15 </span><span class="notitle male"> </span> <a href="playercard.php#15">Huang,Michael       </a> </td><td>934</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 2.0</td><td><div class="res">1</div><div class="cb">47  </div></td><td><div class="res">1</div><div class="cw">63  </div></td></tr>
 <tr> 
-<td> <span class="idn"> 16 </span><span class="notitle male"> </span> <a href="playercard.php#16">Ruaya,Rohan         </a> </td><td>894</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cw">66  </div></td><td><div class="res">0</div><div class="cb">52  </div></td></tr>
+<td> <span class="idn"> 16 </span><span class="notitle male"> </span> <a href="playercard.php#16">Ruaya,Rohan         </a> </td><td>894</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 2.0</td><td><div class="res">1</div><div class="cw">66  </div></td><td><div class="res">1</div><div class="cb">52  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 17 </span><span class="notitle male"> </span> <a href="playercard.php#17">Vemula,Thamoghna    </a> </td><td>885</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 1.5</td><td><div class="res">1</div><div class="cb">49  </div></td><td><div class="res"> ½ </div><div class="cf">BYE</div></tr>
 <tr> 
@@ -148,7 +148,7 @@
 <tr> 
 <td> <span class="idn"> 51 </span><span class="notitle male"> </span> <a href="playercard.php#51">Bala,Neil           </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 1.0</td><td><div class="res">0</div><div class="cw">19  </div></td><td><div class="res">1</div><div class="cb">34  </div></td></tr>
 <tr> 
-<td> <span class="idn"> 52 </span><span class="notitle male"> </span> <a href="playercard.php#52">Bhadrapura,Vismay   </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 2.0</td><td><div class="res">1</div><div class="cb">20  </div></td><td><div class="res">1</div><div class="cw">16  </div></td></tr>
+<td> <span class="idn"> 52 </span><span class="notitle male"> </span> <a href="playercard.php#52">Bhadrapura,Vismay   </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">20  </div></td><td><div class="res">0</div><div class="cw">16  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 53 </span><span class="notitle male"> </span> <a href="playercard.php#53">Borle,Swarit        </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.5</td><td><div class="res">0</div><div class="cw">21  </div></td><td><div class="res">½</div><div class="cb">36  </div></td></tr>
 <tr> 
