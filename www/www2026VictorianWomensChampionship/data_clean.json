@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T10:41:08.989Z",
+  "generatedAt": "2026-05-26T07:50:49.815Z",
   "tournament": {
     "id": "2026-victorian-women's-championship",
     "name": "2026 Victorian Women's Championship",
@@ -15,13 +15,13 @@
       "Rounds": "5",
       "Score game": "0-0.5-1",
       "Tie break": "BH/C1 BH SB DE",
-      "Registered Players": "8",
+      "Registered Players": "9",
       "Number of Federations": "2",
-      "Average Rating (all)": "988",
-      "Average Rating (only FIDE rated)": "1607",
+      "Average Rating (all)": "1060",
+      "Average Rating (only FIDE rated)": "1612",
       "Players from AUS Federation": "1",
-      "Players NOT from AUS Federation": "7",
-      "FIDE rated players": "4",
+      "Players NOT from AUS Federation": "8",
+      "FIDE rated players": "5",
       "unrated players": "4",
       "unrated players from AUS Federation": "0",
       "unrated players NOT from AUS Federation": "4",
@@ -47,10 +47,10 @@
       "rounds": 5,
       "scoreGame": "0-0.5-1",
       "tieBreak": "BH/C1 BH SB DE",
-      "registeredPlayers": 8,
-      "averageRating": 988,
-      "averageRatingFide": 1607,
-      "fideRatedPlayers": 4,
+      "registeredPlayers": 9,
+      "averageRating": 1060,
+      "averageRatingFide": 1612,
+      "fideRatedPlayers": 5,
       "unratedPlayers": 4,
       "fideTitledPlayers": 0
     }
@@ -106,7 +106,7 @@
     },
     {
       "id": "5",
-      "name": "Gajula,Nishitha",
+      "name": "Mondal,Jahnavi",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -118,7 +118,7 @@
     },
     {
       "id": "6",
-      "name": "Kaur,Mishleen",
+      "name": "Gajula,Nishitha",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -130,7 +130,7 @@
     },
     {
       "id": "7",
-      "name": "Madduluri,Advaitha",
+      "name": "Kaur,Mishleen",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -142,7 +142,7 @@
     },
     {
       "id": "8",
-      "name": "Goh,Daphne",
+      "name": "Madduluri,Advaitha",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -150,6 +150,18 @@
       "fideFederation": "",
       "gender": "notitle",
       "href": "playercard.html#8",
+      "origin": ""
+    },
+    {
+      "id": "9",
+      "name": "Goh,Daphne",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#9",
       "origin": ""
     }
   ],
@@ -303,6 +315,16 @@
             {
               "#": "5",
               "Title": "",
+              "Player": "Mondal,Jahnavi",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "909",
+              "RtgF": "1633",
+              "RtgN": "909"
+            },
+            {
+              "#": "6",
+              "Title": "",
               "Player": "Gajula,Nishitha",
               "Fed": "VIC",
               "Origin": "",
@@ -311,7 +333,7 @@
               "RtgN": "597"
             },
             {
-              "#": "6",
+              "#": "7",
               "Title": "",
               "Player": "Kaur,Mishleen",
               "Fed": "VIC",
@@ -321,7 +343,7 @@
               "RtgN": "543"
             },
             {
-              "#": "7",
+              "#": "8",
               "Title": "",
               "Player": "Madduluri,Advaitha",
               "Fed": "VIC",
@@ -331,7 +353,7 @@
               "RtgN": "195"
             },
             {
-              "#": "8",
+              "#": "9",
               "Title": "",
               "Player": "Goh,Daphne",
               "Fed": "VIC",
@@ -785,6 +807,55 @@
             "rawHtml": "   8   <strong>Siva,Mrinalini      </strong>, K= 0, Elo=1166, ID=0014371\n<br>\n<a class=\"anchor\" name=\"8\"></a>"
           },
           "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Mondal,Jahnavi",
+            "id": "3206345",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "909",
+              "anchor": "9"
+            },
+            "rawText": "9   Mondal,Jahnavi      , K= 0, Elo= 909, ID=3206345",
+            "rawHtml": "   9   <strong>Mondal,Jahnavi      </strong>, K= 0, Elo= 909, ID=3206345\n<br>\n<a class=\"anchor\" name=\"9\"></a>"
+          },
+          "type": "other"
         }
       ],
       "tournamentType": "unknown"
@@ -887,7 +958,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "8"
+              "col2": "9"
             },
             {
               "col1": "Number of Federations",
@@ -895,11 +966,11 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "988"
+              "col2": "1060"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
-              "col2": "1607"
+              "col2": "1612"
             },
             {
               "col1": "Players from AUS Federation",
@@ -907,11 +978,11 @@
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "7"
+              "col2": "8"
             },
             {
               "col1": "FIDE rated players",
-              "col2": "4"
+              "col2": "5"
             },
             {
               "col1": "unrated players",
@@ -1003,5 +1074,5 @@
       "children": []
     }
   ],
-  "md5Hash": "70356df25e690371938b13a8ec963af4"
+  "md5Hash": "ce71d9861108a1974e594b8683ed590c"
 }
