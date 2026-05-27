@@ -43,6 +43,15 @@
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
   <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Standings at round 5 sorted by category </h3>
 <div class="table-responsive"><table class="table caption-top table-striped"> 
+<caption> Ranking for category: WIM</caption>
+<thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th></th> <th></th><th>Fed</th><th>Pts</th><th>     DE </th>
+</tr> </THEAD><tbody>
+<tr> 
+<td>1</td><td>2</td><td>WIM</td><td> <a href="playercard.php#2">Szuveges,Narelle S  </a> </td><td>1449</td><td>1629</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 4.0</td><td>    0   </td>
+</tr> 
+</tbody>
+</table> <br><br>
+<table class="table caption-top table-striped"> 
 <caption> Ranking for category: </caption>
 <thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th></th> <th></th><th>Fed</th><th>Pts</th><th>     DE </th>
 </tr> </THEAD><tbody>
@@ -50,25 +59,16 @@
 <td>1</td><td>3</td><td></td><td> <a href="playercard.php#3">Hogan,Steven        </a> </td><td>1395</td><td>1549</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>    0   </td>
 </tr> 
 <tr> 
-<td>2</td><td>5</td><td></td><td> <a href="playercard.php#5">Mullen,Chris        </a> </td><td>1394</td><td>1328</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>    1   </td>
+<td>2</td><td>1</td><td></td><td> <a href="playercard.php#1">Matijas,Dejan       </a> </td><td>1367</td><td>1257</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.5</td><td>    0   </td>
 </tr> 
 <tr> 
-<td>3</td><td>6</td><td></td><td> <a href="playercard.php#6">Paul,Nikash         </a> </td><td>1364</td><td>1334</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>    2   </td>
+<td>3</td><td>5</td><td></td><td> <a href="playercard.php#5">Mullen,Chris        </a> </td><td>1394</td><td>1328</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>    1   </td>
 </tr> 
 <tr> 
-<td>4</td><td>1</td><td></td><td> <a href="playercard.php#1">Matijas,Dejan       </a> </td><td>1367</td><td>1257</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.5</td><td>    0   </td>
+<td>4</td><td>6</td><td></td><td> <a href="playercard.php#6">Paul,Nikash         </a> </td><td>1364</td><td>1334</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>    2   </td>
 </tr> 
 <tr> 
 <td>5</td><td>4</td><td></td><td> <a href="playercard.php#4">Nowak,Ruben         </a> </td><td>1426</td><td>1154</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>    0   </td>
-</tr> 
-</tbody>
-</table> <br><br>
-<table class="table caption-top table-striped"> 
-<caption> Ranking for category: WIM</caption>
-<thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th></th> <th></th><th>Fed</th><th>Pts</th><th>     DE </th>
-</tr> </THEAD><tbody>
-<tr> 
-<td>1</td><td>2</td><td>WIM</td><td> <a href="playercard.php#2">Szuveges,Narelle S  </a> </td><td>1449</td><td>1461</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>    0   </td>
 </tr> 
 </tbody>
 </table> <br><br>
