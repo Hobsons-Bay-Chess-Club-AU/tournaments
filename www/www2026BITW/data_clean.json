@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T23:00:15.326Z",
+  "generatedAt": "2026-06-05T06:49:44.913Z",
   "tournament": {
     "id": "2026-hbcc-best-in-the-west",
     "name": "2026 HBCC Best in the West",
@@ -15,18 +15,18 @@
       "Rounds": "5",
       "Score game": "0-0.5-1",
       "Tie break": "BH",
-      "Registered Players": "32",
+      "Registered Players": "33",
       "Number of Federations": "3",
-      "Average Rating (all)": "1057",
-      "Average Rating (only FIDE rated)": "1646",
+      "Average Rating (all)": "1080",
+      "Average Rating (only FIDE rated)": "1653",
       "Players from AUS Federation": "2",
-      "Players NOT from AUS Federation": "30",
-      "FIDE rated players": "20",
+      "Players NOT from AUS Federation": "31",
+      "FIDE rated players": "21",
       "unrated players": "12",
       "unrated players from AUS Federation": "0",
       "unrated players NOT from AUS Federation": "12",
       "unrated Federations": "1",
-      "FIDE titled players": "3",
+      "FIDE titled players": "4",
       "GM players": "0",
       "WGM players": "0",
       "IM players": "0",
@@ -34,9 +34,9 @@
       "FM players": "1",
       "WFM players": "0",
       "CM players": "1",
-      "WCM players": "0",
+      "WCM players": "1",
       "FIDE titled player from AUS Federation": "0",
-      "FIDE titled player NOT from AUS Federation": "3",
+      "FIDE titled player NOT from AUS Federation": "4",
       "category": "Senior",
       "tournamentName": "2026 HBCC Best in the West",
       "federation": "AUS",
@@ -47,12 +47,12 @@
       "rounds": 5,
       "scoreGame": "0-0.5-1",
       "tieBreak": "BH",
-      "registeredPlayers": 32,
-      "averageRating": 1057,
-      "averageRatingFide": 1646,
-      "fideRatedPlayers": 20,
+      "registeredPlayers": 33,
+      "averageRating": 1080,
+      "averageRatingFide": 1653,
+      "fideRatedPlayers": 21,
       "unratedPlayers": 12,
-      "fideTitledPlayers": 3
+      "fideTitledPlayers": 4
     }
   },
   "players": [
@@ -130,8 +130,8 @@
     },
     {
       "id": "7",
-      "name": "Humphreys,Scott",
-      "title": "",
+      "name": "Katakam,Deethya Sai",
+      "title": "WCM",
       "federation": "VIC",
       "fideId": "",
       "fideRating": null,
@@ -142,8 +142,8 @@
     },
     {
       "id": "8",
-      "name": "Szuveges,Narelle S",
-      "title": "WIM",
+      "name": "Humphreys,Scott",
+      "title": "",
       "federation": "VIC",
       "fideId": "",
       "fideRating": null,
@@ -154,9 +154,9 @@
     },
     {
       "id": "9",
-      "name": "Brockman, Roland",
-      "title": "",
-      "federation": "AUS",
+      "name": "Szuveges,Narelle S",
+      "title": "WIM",
+      "federation": "VIC",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -166,9 +166,9 @@
     },
     {
       "id": "10",
-      "name": "Scenna,Luna",
+      "name": "Brockman, Roland",
       "title": "",
-      "federation": "VIC",
+      "federation": "AUS",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -178,7 +178,7 @@
     },
     {
       "id": "11",
-      "name": "Akok,Benjamin",
+      "name": "Scenna,Luna",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -190,7 +190,7 @@
     },
     {
       "id": "12",
-      "name": "Wilkinson,Greg",
+      "name": "Akok,Benjamin",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -202,7 +202,7 @@
     },
     {
       "id": "13",
-      "name": "Ashok,Arjun",
+      "name": "Wilkinson,Greg",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -214,7 +214,7 @@
     },
     {
       "id": "14",
-      "name": "Wan,Oscar",
+      "name": "Ashok,Arjun",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -226,7 +226,7 @@
     },
     {
       "id": "15",
-      "name": "Scenna,George",
+      "name": "Wan,Oscar",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -238,7 +238,7 @@
     },
     {
       "id": "16",
-      "name": "Sheth,Adidev",
+      "name": "Scenna,George",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -250,7 +250,7 @@
     },
     {
       "id": "17",
-      "name": "Moser,William",
+      "name": "Sheth,Adidev",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -262,7 +262,7 @@
     },
     {
       "id": "18",
-      "name": "Goh,Nicholas",
+      "name": "Moser,William",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -274,7 +274,7 @@
     },
     {
       "id": "19",
-      "name": "Moser,Luke",
+      "name": "Goh,Nicholas",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -286,7 +286,7 @@
     },
     {
       "id": "20",
-      "name": "Das,Ayush",
+      "name": "Moser,Luke",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -298,7 +298,7 @@
     },
     {
       "id": "21",
-      "name": "Ganesh Kumar,Mukunth",
+      "name": "Das,Ayush",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -310,7 +310,7 @@
     },
     {
       "id": "22",
-      "name": "Madduluri,Advaitha",
+      "name": "Ganesh Kumar,Mukunth",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -322,7 +322,7 @@
     },
     {
       "id": "23",
-      "name": "Goh,Daphne",
+      "name": "Madduluri,Advaitha",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -334,7 +334,7 @@
     },
     {
       "id": "24",
-      "name": "Goh,Julian",
+      "name": "Goh,Daphne",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -346,7 +346,7 @@
     },
     {
       "id": "25",
-      "name": "Denny,William",
+      "name": "Goh,Julian",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -358,7 +358,7 @@
     },
     {
       "id": "26",
-      "name": "Gowda,Likhil",
+      "name": "Denny,William",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -370,7 +370,7 @@
     },
     {
       "id": "27",
-      "name": "Kansal,Nuwan",
+      "name": "Gowda,Likhil",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -382,7 +382,7 @@
     },
     {
       "id": "28",
-      "name": "Menghani,Ishaan",
+      "name": "Kansal,Nuwan",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -394,7 +394,7 @@
     },
     {
       "id": "29",
-      "name": "Rao, Krishay",
+      "name": "Menghani,Ishaan",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -406,7 +406,7 @@
     },
     {
       "id": "30",
-      "name": "Sathish,Sukrrish",
+      "name": "Rao, Krishay",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -418,7 +418,7 @@
     },
     {
       "id": "31",
-      "name": "Sood,Sara",
+      "name": "Sathish,Sukrrish",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -430,7 +430,7 @@
     },
     {
       "id": "32",
-      "name": "Wright,Leeyn",
+      "name": "Sood,Sara",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -438,6 +438,18 @@
       "fideFederation": "",
       "gender": "notitle",
       "href": "playercard.html#32",
+      "origin": ""
+    },
+    {
+      "id": "33",
+      "name": "Wright,Leeyn",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#33",
       "origin": ""
     }
   ],
@@ -610,6 +622,16 @@
             },
             {
               "#": "7",
+              "Title": "WCM",
+              "Player": "Katakam,Deethya Sai",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1505",
+              "RtgF": "1805",
+              "RtgN": "1505"
+            },
+            {
+              "#": "8",
               "Title": "",
               "Player": "Humphreys,Scott",
               "Fed": "VIC",
@@ -619,7 +641,7 @@
               "RtgN": "1462"
             },
             {
-              "#": "8",
+              "#": "9",
               "Title": "WIM",
               "Player": "Szuveges,Narelle S",
               "Fed": "VIC",
@@ -629,7 +651,7 @@
               "RtgN": "1449"
             },
             {
-              "#": "9",
+              "#": "10",
               "Title": "",
               "Player": "Brockman, Roland",
               "Fed": "AUS",
@@ -639,7 +661,7 @@
               "RtgN": "1312"
             },
             {
-              "#": "10",
+              "#": "11",
               "Title": "",
               "Player": "Scenna,Luna",
               "Fed": "VIC",
@@ -649,7 +671,7 @@
               "RtgN": "1238"
             },
             {
-              "#": "11",
+              "#": "12",
               "Title": "",
               "Player": "Akok,Benjamin",
               "Fed": "VIC",
@@ -659,7 +681,7 @@
               "RtgN": "1190"
             },
             {
-              "#": "12",
+              "#": "13",
               "Title": "",
               "Player": "Wilkinson,Greg",
               "Fed": "VIC",
@@ -669,7 +691,7 @@
               "RtgN": "1115"
             },
             {
-              "#": "13",
+              "#": "14",
               "Title": "",
               "Player": "Ashok,Arjun",
               "Fed": "VIC",
@@ -679,7 +701,7 @@
               "RtgN": "1069"
             },
             {
-              "#": "14",
+              "#": "15",
               "Title": "",
               "Player": "Wan,Oscar",
               "Fed": "VIC",
@@ -689,7 +711,7 @@
               "RtgN": "1050"
             },
             {
-              "#": "15",
+              "#": "16",
               "Title": "",
               "Player": "Scenna,George",
               "Fed": "VIC",
@@ -699,7 +721,7 @@
               "RtgN": "912"
             },
             {
-              "#": "16",
+              "#": "17",
               "Title": "",
               "Player": "Sheth,Adidev",
               "Fed": "VIC",
@@ -709,7 +731,7 @@
               "RtgN": "885"
             },
             {
-              "#": "17",
+              "#": "18",
               "Title": "",
               "Player": "Moser,William",
               "Fed": "VIC",
@@ -719,7 +741,7 @@
               "RtgN": "662"
             },
             {
-              "#": "18",
+              "#": "19",
               "Title": "",
               "Player": "Goh,Nicholas",
               "Fed": "VIC",
@@ -729,7 +751,7 @@
               "RtgN": "538"
             },
             {
-              "#": "19",
+              "#": "20",
               "Title": "",
               "Player": "Moser,Luke",
               "Fed": "VIC",
@@ -739,7 +761,7 @@
               "RtgN": "489"
             },
             {
-              "#": "20",
+              "#": "21",
               "Title": "",
               "Player": "Das,Ayush",
               "Fed": "VIC",
@@ -749,7 +771,7 @@
               "RtgN": "376"
             },
             {
-              "#": "21",
+              "#": "22",
               "Title": "",
               "Player": "Ganesh Kumar,Mukunth",
               "Fed": "VIC",
@@ -759,7 +781,7 @@
               "RtgN": "265"
             },
             {
-              "#": "22",
+              "#": "23",
               "Title": "",
               "Player": "Madduluri,Advaitha",
               "Fed": "VIC",
@@ -769,7 +791,7 @@
               "RtgN": "195"
             },
             {
-              "#": "23",
+              "#": "24",
               "Title": "",
               "Player": "Goh,Daphne",
               "Fed": "VIC",
@@ -779,7 +801,7 @@
               "RtgN": "139"
             },
             {
-              "#": "24",
+              "#": "25",
               "Title": "",
               "Player": "Goh,Julian",
               "Fed": "VIC",
@@ -789,7 +811,7 @@
               "RtgN": "100"
             },
             {
-              "#": "25",
+              "#": "26",
               "Title": "",
               "Player": "Denny,William",
               "Fed": "VIC",
@@ -799,7 +821,7 @@
               "RtgN": "0"
             },
             {
-              "#": "26",
+              "#": "27",
               "Title": "",
               "Player": "Gowda,Likhil",
               "Fed": "VIC",
@@ -809,7 +831,7 @@
               "RtgN": "0"
             },
             {
-              "#": "27",
+              "#": "28",
               "Title": "",
               "Player": "Kansal,Nuwan",
               "Fed": "VIC",
@@ -819,7 +841,7 @@
               "RtgN": "0"
             },
             {
-              "#": "28",
+              "#": "29",
               "Title": "",
               "Player": "Menghani,Ishaan",
               "Fed": "VIC",
@@ -829,7 +851,7 @@
               "RtgN": "0"
             },
             {
-              "#": "29",
+              "#": "30",
               "Title": "",
               "Player": "Rao, Krishay",
               "Fed": "VIC",
@@ -839,7 +861,7 @@
               "RtgN": "0"
             },
             {
-              "#": "30",
+              "#": "31",
               "Title": "",
               "Player": "Sathish,Sukrrish",
               "Fed": "VIC",
@@ -849,7 +871,7 @@
               "RtgN": "0"
             },
             {
-              "#": "31",
+              "#": "32",
               "Title": "",
               "Player": "Sood,Sara",
               "Fed": "VIC",
@@ -859,7 +881,7 @@
               "RtgN": "0"
             },
             {
-              "#": "32",
+              "#": "33",
               "Title": "",
               "Player": "Wright,Leeyn",
               "Fed": "VIC",
@@ -2489,6 +2511,55 @@
             "rawHtml": "  32   <strong>Kansal,Nuwan        </strong>, K= 0, Elo=   0, ID=3214992\n<br>\n<a class=\"anchor\" name=\"32\"></a>"
           },
           "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Katakam,Deethya Sai",
+            "id": "3194725",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1505",
+              "anchor": "33"
+            },
+            "rawText": "33  WCM Katakam,Deethya Sai , K= 0, Elo=1505, ID=3194725",
+            "rawHtml": "  33  WCM <strong>Katakam,Deethya Sai </strong>, K= 0, Elo=1505, ID=3194725\n<br>\n<a class=\"anchor\" name=\"33\"></a>"
+          },
+          "type": "other"
         }
       ],
       "tournamentType": "unknown"
@@ -2565,7 +2636,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "32"
+              "col2": "33"
             },
             {
               "col1": "Number of Federations",
@@ -2573,11 +2644,11 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "1057"
+              "col2": "1080"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
-              "col2": "1646"
+              "col2": "1653"
             },
             {
               "col1": "Players from AUS Federation",
@@ -2585,11 +2656,11 @@
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "30"
+              "col2": "31"
             },
             {
               "col1": "FIDE rated players",
-              "col2": "20"
+              "col2": "21"
             },
             {
               "col1": "unrated players",
@@ -2609,7 +2680,7 @@
             },
             {
               "col1": "FIDE titled players",
-              "col2": "3"
+              "col2": "4"
             },
             {
               "col1": "GM players",
@@ -2641,7 +2712,7 @@
             },
             {
               "col1": "WCM players",
-              "col2": "0"
+              "col2": "1"
             },
             {
               "col1": "FIDE titled player from AUS Federation",
@@ -2649,7 +2720,7 @@
             },
             {
               "col1": "FIDE titled player NOT from AUS Federation",
-              "col2": "3"
+              "col2": "4"
             }
           ],
           "type": "statistics"
@@ -2681,5 +2752,5 @@
       "children": []
     }
   ],
-  "md5Hash": "6e566a2a9ecb37910f9a43c0ead86124"
+  "md5Hash": "5106185b6558e2dc63f6fa788ea8e832"
 }
