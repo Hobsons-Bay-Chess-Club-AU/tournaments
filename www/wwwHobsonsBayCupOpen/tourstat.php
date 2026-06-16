@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs3.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs4.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
@@ -54,11 +54,11 @@
 <tr><td >Score game</td> <td> 0-0.5-1</td> </tr>
 <tr><td >Tie break</td> <td>      BH   BH/C1 </td> </tr>
 <tr><td >Registered Players</td> <td> 34</td> </tr>
-<tr><td > Number of Federations</td> <td> 4</td> </tr>
+<tr><td > Number of Federations</td> <td> 5</td> </tr>
 <tr><td >Average Rating (all) </td> <td> 1497</td> </tr>
 <tr><td >Average Rating (only FIDE rated) </td> <td> 1727</td> </tr>
-<tr ><td > Players from AUS Federation</td> <td> 2</td> </tr>
-<tr><td > Players NOT from AUS Federation</td> <td> 32</td> </tr>
+<tr ><td > Players from AUS Federation</td> <td> 3</td> </tr>
+<tr><td > Players NOT from AUS Federation</td> <td> 31</td> </tr>
 <tr><td > FIDE rated players </td> <td> 29</td> </tr>
 <tr><td > unrated players </td> <td> 5</td> </tr>
 <tr><td > unrated players from AUS Federation</td> <td> 0</td> </tr>
