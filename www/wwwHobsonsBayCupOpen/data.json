@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T13:34:29.376Z",
+  "generatedAt": "2026-06-19T12:46:04.689Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 4",
@@ -4773,13 +4773,13 @@
               "Bo.": "15",
               "Fed": "VIC",
               "White Player": {
-                "id": "20",
-                "playerName": "Paul,Nikash",
+                "id": "31",
+                "playerName": "Sheikh,Tahmid",
                 "gender": "male",
-                "href": "playercard.html#20",
+                "href": "playercard.html#31",
                 "title": "",
                 "federation": "VIC",
-                "rating": "1347",
+                "rating": "0",
                 "fideId": "",
                 "moreInfo": {}
               },
@@ -4787,13 +4787,13 @@
               "Result": "...",
               "Pts_1": "0.5",
               "Black Player": {
-                "id": "23",
-                "playerName": "Wilkinson,Greg",
+                "id": "20",
+                "playerName": "Paul,Nikash",
                 "gender": "male",
-                "href": "playercard.html#23",
+                "href": "playercard.html#20",
                 "title": "",
                 "federation": "VIC",
-                "rating": "1163",
+                "rating": "1347",
                 "fideId": "",
                 "moreInfo": {}
               },
@@ -4815,24 +4815,8 @@
               },
               "Pts": "0",
               "Result": "...",
-              "Pts_1": "0.5",
+              "Pts_1": "0",
               "Black Player": {
-                "id": "31",
-                "playerName": "Sheikh,Tahmid",
-                "gender": "male",
-                "href": "playercard.html#31",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Fed_1": "VIC"
-            },
-            {
-              "Bo.": "17",
-              "Fed": "VIC",
-              "White Player": {
                 "id": "29",
                 "playerName": "Manoj,Dev",
                 "gender": "male",
@@ -4843,10 +4827,26 @@
                 "fideId": "",
                 "moreInfo": {}
               },
-              "Pts": "0",
-              "Result": "1",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "17",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "23",
+                "playerName": "Wilkinson,Greg",
+                "gender": "male",
+                "href": "playercard.html#23",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1163",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0.5",
+              "Result": "½",
               "Pts_1": "0",
-              "Black Player": "( bye )",
+              "Black Player": "( half point bye )",
               "Fed_1": ""
             },
             {
@@ -10374,5 +10374,5 @@
     "FIDE titled player NOT from AUS Federation": "4",
     "category": "Senior"
   },
-  "md5Hash": "9194ec2b9fe7025c8e389684062dd23b"
+  "md5Hash": "5d6e345e2b7d40ca724e2ff3f506f0f8"
 }
