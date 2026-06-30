@@ -8,9 +8,17 @@ export const majorTournaments = [
     },
 
     {
-        name: "Victorian Junior Rapid Championship 2026",
+        name: "2026 Victorian Junior Rapid Championship",
         slug: "2026-victorian-junior-rapid-championship",
         url: "https://www.vegaresults.com/vr/5339",
+        start_date: "2026-10-03",
+        end_date: "2026-10-04",
+    },
+
+    {
+        name: "2026 Victorian Junior Blitz Championship",
+        slug: "2026-victorian-junior-blitz-championship",
+        url: "https://www.vegaresults.com/vr/5348",
         start_date: "2026-10-03",
         end_date: "2026-10-04",
     },
