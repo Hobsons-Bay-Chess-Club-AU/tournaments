@@ -45,20 +45,20 @@
 <tr><td >Date Begin</td> <td> 18/07/2026</td> </tr>
 <tr><td >Date End</td> <td> 18/07/2026</td> </tr>
 <tr><td >Arbiter(s)</td> <td> FA Kuanysh Batyrbekov  (AUS)</td> </tr>
-<tr><td > Play System</td> <td> swiss FIDE Dutch 2026 (Gacrux)</td> </tr>
+<tr><td > Play System</td> <td> swiss FIDE Dutch 2025 (Gacrux)</td> </tr>
 <tr><td >Rounds</td> <td> 9</td> </tr>
 <tr><td >Score game</td> <td> 0-0.5-1</td> </tr>
-<tr><td >Tie break</td> <td> BH BH/C1 SB </td> </tr>
-<tr><td >Registered Players</td> <td> 91</td> </tr>
+<tr><td >Tie break</td> <td>      BH   BH/C1      SB </td> </tr>
+<tr><td >Registered Players</td> <td> 97</td> </tr>
 <tr><td > Number of Federations</td> <td> 4</td> </tr>
-<tr><td >Average Rating (all) </td> <td> 930</td> </tr>
+<tr><td >Average Rating (all) </td> <td> 884</td> </tr>
 <tr><td >Average Rating (only FIDE rated) </td> <td> 1566</td> </tr>
 <tr ><td > Players from AUS Federation</td> <td> 5</td> </tr>
-<tr><td > Players NOT from AUS Federation</td> <td> 86</td> </tr>
+<tr><td > Players NOT from AUS Federation</td> <td> 92</td> </tr>
 <tr><td > FIDE rated players </td> <td> 49</td> </tr>
-<tr><td > unrated players </td> <td> 42</td> </tr>
+<tr><td > unrated players </td> <td> 48</td> </tr>
 <tr><td > unrated players from AUS Federation</td> <td> 1</td> </tr>
-<tr><td >unrated players NOT from AUS Federation</td> <td> 41</td> </tr>
+<tr><td >unrated players NOT from AUS Federation</td> <td> 47</td> </tr>
 <tr><td > unrated Federations</td> <td> 3</td> </tr>
 <tr><td > FIDE titled players </td> <td> 4</td> </tr>
 <tr><td > GM players </td> <td> 0</td> </tr>
