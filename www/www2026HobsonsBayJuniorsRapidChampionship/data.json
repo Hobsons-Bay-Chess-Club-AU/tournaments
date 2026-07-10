@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T08:18:46.127Z",
+  "generatedAt": "2026-07-10T19:39:12.261Z",
   "page": {
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 0",
@@ -939,7 +939,7 @@
             {
               "#": "84",
               "Title": "",
-              "Player": "Mathew,Jake",
+              "Player": "Malik,Arjun",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -949,7 +949,7 @@
             {
               "#": "85",
               "Title": "",
-              "Player": "Pai,Tesha",
+              "Player": "Malik,Eklavya",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -959,8 +959,8 @@
             {
               "#": "86",
               "Title": "",
-              "Player": "Panchaparvala,Rohan Aditya",
-              "Fed": "VIC`",
+              "Player": "Mathew,Jake",
+              "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -969,7 +969,7 @@
             {
               "#": "87",
               "Title": "",
-              "Player": "Panchaparvala,Sriram",
+              "Player": "Pai,Tesha",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -979,8 +979,8 @@
             {
               "#": "88",
               "Title": "",
-              "Player": "Paul,Vivaan",
-              "Fed": "VIC",
+              "Player": "Panchaparvala,Rohan Aditya",
+              "Fed": "VIC`",
               "Origin": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -989,7 +989,7 @@
             {
               "#": "89",
               "Title": "",
-              "Player": "Salimeda,Yuvan",
+              "Player": "Panchaparvala,Sriram",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -999,7 +999,7 @@
             {
               "#": "90",
               "Title": "",
-              "Player": "Sethi,Vivaan",
+              "Player": "Paul,Vivaan",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -1009,7 +1009,7 @@
             {
               "#": "91",
               "Title": "",
-              "Player": "Srinivasan,Sathvik",
+              "Player": "Salimeda,Yuvan",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -1019,8 +1019,8 @@
             {
               "#": "92",
               "Title": "",
-              "Player": "Sun,Aaron",
-              "Fed": "AUS",
+              "Player": "Sethi,Vivaan",
+              "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -1029,7 +1029,7 @@
             {
               "#": "93",
               "Title": "",
-              "Player": "Thambavitage,Pahansa",
+              "Player": "Srinivasan,Sathvik",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -1039,8 +1039,8 @@
             {
               "#": "94",
               "Title": "",
-              "Player": "Trinh,Joseph",
-              "Fed": "VIC",
+              "Player": "Sun,Aaron",
+              "Fed": "AUS",
               "Origin": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -1049,7 +1049,7 @@
             {
               "#": "95",
               "Title": "",
-              "Player": "Yang,Heesan",
+              "Player": "Thambavitage,Pahansa",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -1059,7 +1059,7 @@
             {
               "#": "96",
               "Title": "",
-              "Player": "Yee,Julian",
+              "Player": "Trinh,Joseph",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -1069,7 +1069,7 @@
             {
               "#": "97",
               "Title": "",
-              "Player": "Yong,Mabel",
+              "Player": "Yang,Heesan",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -1078,6 +1078,26 @@
             },
             {
               "#": "98",
+              "Title": "",
+              "Player": "Yee,Julian",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "99",
+              "Title": "",
+              "Player": "Yong,Mabel",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "100",
               "Title": "",
               "Player": "Zhuang,Raymond",
               "Fed": "VIC",
@@ -5841,6 +5861,102 @@
             "rawText": "98   Padoli,Darsh        , K= 0, Elo= 648, ID=3214885",
             "rawHtml": "  98   <strong>Padoli,Darsh        </strong>, K= 0, Elo= 648, ID=3214885\n<br>\n<a class=\"anchor\" name=\"98\"></a>"
           }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Malik,Eklavya",
+            "id": "3219940",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "99"
+            },
+            "rawText": "99   Malik,Eklavya       , K= 0, Elo=   0, ID=3219940",
+            "rawHtml": "  99   <strong>Malik,Eklavya       </strong>, K= 0, Elo=   0, ID=3219940\n<br>\n<a class=\"anchor\" name=\"99\"></a>"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Malik,Arjun",
+            "id": "0",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "100"
+            },
+            "rawText": "100   Malik,Arjun         , K= 0, Elo=   0, ID=0",
+            "rawHtml": " 100   <strong>Malik,Arjun         </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"100\"></a>"
+          }
         }
       ],
       "tournamentType": "unknown"
@@ -5962,7 +6078,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "98"
+              "col2": "100"
             },
             {
               "col1": "Number of Federations",
@@ -5970,7 +6086,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "891"
+              "col2": "873"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -5982,7 +6098,7 @@
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "93"
+              "col2": "95"
             },
             {
               "col1": "FIDE rated players",
@@ -5990,7 +6106,7 @@
             },
             {
               "col1": "unrated players",
-              "col2": "48"
+              "col2": "50"
             },
             {
               "col1": "unrated players from AUS Federation",
@@ -5998,7 +6114,7 @@
             },
             {
               "col1": "unrated players NOT from AUS Federation",
-              "col2": "47"
+              "col2": "49"
             },
             {
               "col1": "unrated Federations",
@@ -6970,7 +7086,7 @@
     },
     "84": {
       "id": "84",
-      "playerName": "Mathew,Jake",
+      "playerName": "Malik,Arjun",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -6981,7 +7097,7 @@
     },
     "85": {
       "id": "85",
-      "playerName": "Pai,Tesha",
+      "playerName": "Malik,Eklavya",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -6992,9 +7108,9 @@
     },
     "86": {
       "id": "86",
-      "playerName": "Panchaparvala,Rohan Aditya",
+      "playerName": "Mathew,Jake",
       "title": "",
-      "federation": "VIC`",
+      "federation": "VIC",
       "rating": "0",
       "gender": "",
       "fideId": "",
@@ -7003,7 +7119,7 @@
     },
     "87": {
       "id": "87",
-      "playerName": "Panchaparvala,Sriram",
+      "playerName": "Pai,Tesha",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -7014,9 +7130,9 @@
     },
     "88": {
       "id": "88",
-      "playerName": "Paul,Vivaan",
+      "playerName": "Panchaparvala,Rohan Aditya",
       "title": "",
-      "federation": "VIC",
+      "federation": "VIC`",
       "rating": "0",
       "gender": "",
       "fideId": "",
@@ -7025,7 +7141,7 @@
     },
     "89": {
       "id": "89",
-      "playerName": "Salimeda,Yuvan",
+      "playerName": "Panchaparvala,Sriram",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -7036,7 +7152,7 @@
     },
     "90": {
       "id": "90",
-      "playerName": "Sethi,Vivaan",
+      "playerName": "Paul,Vivaan",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -7047,7 +7163,7 @@
     },
     "91": {
       "id": "91",
-      "playerName": "Srinivasan,Sathvik",
+      "playerName": "Salimeda,Yuvan",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -7058,9 +7174,9 @@
     },
     "92": {
       "id": "92",
-      "playerName": "Sun,Aaron",
+      "playerName": "Sethi,Vivaan",
       "title": "",
-      "federation": "AUS",
+      "federation": "VIC",
       "rating": "0",
       "gender": "",
       "fideId": "",
@@ -7069,7 +7185,7 @@
     },
     "93": {
       "id": "93",
-      "playerName": "Thambavitage,Pahansa",
+      "playerName": "Srinivasan,Sathvik",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -7080,9 +7196,9 @@
     },
     "94": {
       "id": "94",
-      "playerName": "Trinh,Joseph",
+      "playerName": "Sun,Aaron",
       "title": "",
-      "federation": "VIC",
+      "federation": "AUS",
       "rating": "0",
       "gender": "",
       "fideId": "",
@@ -7091,7 +7207,7 @@
     },
     "95": {
       "id": "95",
-      "playerName": "Yang,Heesan",
+      "playerName": "Thambavitage,Pahansa",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -7102,7 +7218,7 @@
     },
     "96": {
       "id": "96",
-      "playerName": "Yee,Julian",
+      "playerName": "Trinh,Joseph",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -7113,7 +7229,7 @@
     },
     "97": {
       "id": "97",
-      "playerName": "Yong,Mabel",
+      "playerName": "Yang,Heesan",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -7124,6 +7240,28 @@
     },
     "98": {
       "id": "98",
+      "playerName": "Yee,Julian",
+      "title": "",
+      "federation": "VIC",
+      "rating": "0",
+      "gender": "",
+      "fideId": "",
+      "href": "",
+      "moreInfo": {}
+    },
+    "99": {
+      "id": "99",
+      "playerName": "Yong,Mabel",
+      "title": "",
+      "federation": "VIC",
+      "rating": "0",
+      "gender": "",
+      "fideId": "",
+      "href": "",
+      "moreInfo": {}
+    },
+    "100": {
+      "id": "100",
       "playerName": "Zhuang,Raymond",
       "title": "",
       "federation": "VIC",
@@ -7991,7 +8129,7 @@
     {
       "#": "84",
       "Title": "",
-      "Player": "Mathew,Jake",
+      "Player": "Malik,Arjun",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -8001,7 +8139,7 @@
     {
       "#": "85",
       "Title": "",
-      "Player": "Pai,Tesha",
+      "Player": "Malik,Eklavya",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -8011,8 +8149,8 @@
     {
       "#": "86",
       "Title": "",
-      "Player": "Panchaparvala,Rohan Aditya",
-      "Fed": "VIC`",
+      "Player": "Mathew,Jake",
+      "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
       "RtgF": "0",
@@ -8021,7 +8159,7 @@
     {
       "#": "87",
       "Title": "",
-      "Player": "Panchaparvala,Sriram",
+      "Player": "Pai,Tesha",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -8031,8 +8169,8 @@
     {
       "#": "88",
       "Title": "",
-      "Player": "Paul,Vivaan",
-      "Fed": "VIC",
+      "Player": "Panchaparvala,Rohan Aditya",
+      "Fed": "VIC`",
       "Origin": "",
       "Rtg": "0",
       "RtgF": "0",
@@ -8041,7 +8179,7 @@
     {
       "#": "89",
       "Title": "",
-      "Player": "Salimeda,Yuvan",
+      "Player": "Panchaparvala,Sriram",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -8051,7 +8189,7 @@
     {
       "#": "90",
       "Title": "",
-      "Player": "Sethi,Vivaan",
+      "Player": "Paul,Vivaan",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -8061,7 +8199,7 @@
     {
       "#": "91",
       "Title": "",
-      "Player": "Srinivasan,Sathvik",
+      "Player": "Salimeda,Yuvan",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -8071,8 +8209,8 @@
     {
       "#": "92",
       "Title": "",
-      "Player": "Sun,Aaron",
-      "Fed": "AUS",
+      "Player": "Sethi,Vivaan",
+      "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
       "RtgF": "0",
@@ -8081,7 +8219,7 @@
     {
       "#": "93",
       "Title": "",
-      "Player": "Thambavitage,Pahansa",
+      "Player": "Srinivasan,Sathvik",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -8091,8 +8229,8 @@
     {
       "#": "94",
       "Title": "",
-      "Player": "Trinh,Joseph",
-      "Fed": "VIC",
+      "Player": "Sun,Aaron",
+      "Fed": "AUS",
       "Origin": "",
       "Rtg": "0",
       "RtgF": "0",
@@ -8101,7 +8239,7 @@
     {
       "#": "95",
       "Title": "",
-      "Player": "Yang,Heesan",
+      "Player": "Thambavitage,Pahansa",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -8111,7 +8249,7 @@
     {
       "#": "96",
       "Title": "",
-      "Player": "Yee,Julian",
+      "Player": "Trinh,Joseph",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -8121,7 +8259,7 @@
     {
       "#": "97",
       "Title": "",
-      "Player": "Yong,Mabel",
+      "Player": "Yang,Heesan",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -8130,6 +8268,26 @@
     },
     {
       "#": "98",
+      "Title": "",
+      "Player": "Yee,Julian",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "99",
+      "Title": "",
+      "Player": "Yong,Mabel",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "100",
       "Title": "",
       "Player": "Zhuang,Raymond",
       "Fed": "VIC",
@@ -8151,16 +8309,16 @@
     "Rounds": "9",
     "Score game": "0-0.5-1",
     "Tie break": "BH BH/C1 SB",
-    "Registered Players": "98",
+    "Registered Players": "100",
     "Number of Federations": "4",
-    "Average Rating (all)": "891",
+    "Average Rating (all)": "873",
     "Average Rating (only FIDE rated)": "1566",
     "Players from AUS Federation": "5",
-    "Players NOT from AUS Federation": "93",
+    "Players NOT from AUS Federation": "95",
     "FIDE rated players": "50",
-    "unrated players": "48",
+    "unrated players": "50",
     "unrated players from AUS Federation": "1",
-    "unrated players NOT from AUS Federation": "47",
+    "unrated players NOT from AUS Federation": "49",
     "unrated Federations": "3",
     "FIDE titled players": "4",
     "GM players": "0",
@@ -8175,5 +8333,5 @@
     "FIDE titled player NOT from AUS Federation": "4",
     "category": "Junior"
   },
-  "md5Hash": "d1c952094aa514e1715d839678d7787b"
+  "md5Hash": "a3368dfbc23e2b10be83081ceefdba85"
 }
