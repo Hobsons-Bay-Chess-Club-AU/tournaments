@@ -20,11 +20,10 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs5.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs6.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
-</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
 <ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
@@ -42,7 +41,7 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4">  FIDE rating variation at round 5</h3>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4">  FIDE rating variation at round 6</h3>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead> <tr> <th>#</th> <th>Player</th> <th>FIDE ID</th> <th>Fed</th> <th>Rtg</th>  <th>Ng</th> <th>Pts</th> <th>ARO</th> <th>var</th> <th>Rp</th> </tr></thead><tbody><tr> 
 <td>1</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3256391" target="X">Djatschenko,Addison</a></td> <td>3256391</td> <td> <img class="shadow" src="flag/tas.png" alt="tas"> </td> <td>1703</td><td> 2</td> <td> 1.5</td> <td>1561</td> <td>3</td> <td>1754</td></tr>
@@ -143,7 +142,7 @@
 <tr> 
 <td>54</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/profile/573003336" target="X">Manjunath, Charvi</a></td> <td>573003336</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1467</td> <td>0</td> <td> 667</td></tr>
 <tr> 
-<td>55</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/573002275" target="X">Martin,Dion</a></td> <td>573002275</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 3</td> <td> 2.0</td> <td>1546</td> <td>+0.00</td> <td>1566</td></tr>
+<td>55</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/573002275" target="X">Martin,Dion</a></td> <td>573002275</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 4</td> <td> 2.0</td> <td>1555</td> <td>+0.00</td> <td>1555</td></tr>
 <tr> 
 <td>56</td> <td><span class="notitle female"> </span> <a href="http://ratings.fide.com/profile/573003344" target="X">Pai,Tesha</a></td> <td>573003344</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>0</td><td> 1</td> <td> 0.0</td> <td>1456</td> <td>+0.00</td> <td> 656</td></tr>
 <tr> 

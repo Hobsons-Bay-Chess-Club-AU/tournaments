@@ -20,11 +20,10 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs5.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs6.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
-</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
 <ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
@@ -42,7 +41,7 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Standings at round 5 sorted by category </h3>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Standings at round 6 sorted by category </h3>
 <div class="table-responsive"><table class="table caption-top table-striped"> 
 <caption> Ranking for category: </caption>
 <thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th></th> <th></th><th>Fed</th><th>Origin</th><th>Pts</th><th>     BH </th><th>  BH/C1 </th><th>     SB </th>
@@ -66,10 +65,10 @@
 <td>6</td><td>11</td><td></td><td> <a href="playercard.php#11">Balaji,Sai Sivesh   </a> </td><td>940</td><td>1064</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 4.0</td><td>   12.5 </td><td>   11.5 </td><td>   9.00 </td>
 </tr> 
 <tr> 
-<td>7</td><td>4</td><td></td><td> <a href="playercard.php#4">Batyrbekov,Kaisar   </a> </td><td>1265</td><td>1066</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 4.0</td><td>   12.5 </td><td>   11.0 </td><td>  10.00 </td>
+<td>7</td><td>10</td><td></td><td> <a href="playercard.php#10">Wei,Andrew          </a> </td><td>1007</td><td>1089</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 4.0</td><td>   11.5 </td><td>   10.5 </td><td>   8.50 </td>
 </tr> 
 <tr> 
-<td>8</td><td>10</td><td></td><td> <a href="playercard.php#10">Wei,Andrew          </a> </td><td>1007</td><td>1089</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 4.0</td><td>   11.5 </td><td>   10.5 </td><td>   8.50 </td>
+<td>8</td><td>4</td><td></td><td> <a href="playercard.php#4">Batyrbekov,Kaisar   </a> </td><td>1265</td><td>1218</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 4.0</td><td>   11.5 </td><td>   10.0 </td><td>   9.00 </td>
 </tr> 
 <tr> 
 <td>9</td><td>2</td><td></td><td> <a href="playercard.php#2">Nowak,Ruben         </a> </td><td>1426</td><td>989</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 3.5</td><td>   18.0 </td><td>   15.5 </td><td>  11.25 </td>
@@ -93,7 +92,7 @@
 <td>15</td><td>33</td><td></td><td> <a href="playercard.php#33">Singh,Sumair        </a> </td><td>455</td><td>1437</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 3.5</td><td>   10.0 </td><td>    9.5 </td><td>   6.25 </td>
 </tr> 
 <tr> 
-<td>16</td><td>55</td><td></td><td> <a href="playercard.php#55">Martin,Dion         </a> </td><td>0</td><td>1036</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 3.0</td><td>   18.5 </td><td>   15.5 </td><td>  10.50 </td>
+<td>16</td><td>55</td><td></td><td> <a href="playercard.php#55">Martin,Dion         </a> </td><td>0</td><td>1000</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 3.0</td><td>   19.5 </td><td>   16.5 </td><td>  10.50 </td>
 </tr> 
 <tr> 
 <td>17</td><td>13</td><td></td><td> <a href="playercard.php#13">Ruaya,Rohan         </a> </td><td>894</td><td>1422</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 3.0</td><td>   16.5 </td><td>   13.5 </td><td>   8.50 </td>
