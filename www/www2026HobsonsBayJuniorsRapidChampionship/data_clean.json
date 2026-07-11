@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T19:39:12.345Z",
+  "generatedAt": "2026-07-11T11:50:43.629Z",
   "tournament": {
     "id": "2026-hbcc-hobsons-bay-juniors-rapid-championship",
     "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
@@ -15,16 +15,16 @@
       "Rounds": "9",
       "Score game": "0-0.5-1",
       "Tie break": "BH BH/C1 SB",
-      "Registered Players": "100",
+      "Registered Players": "101",
       "Number of Federations": "4",
-      "Average Rating (all)": "873",
+      "Average Rating (all)": "865",
       "Average Rating (only FIDE rated)": "1566",
       "Players from AUS Federation": "5",
-      "Players NOT from AUS Federation": "95",
+      "Players NOT from AUS Federation": "96",
       "FIDE rated players": "50",
-      "unrated players": "50",
+      "unrated players": "51",
       "unrated players from AUS Federation": "1",
-      "unrated players NOT from AUS Federation": "49",
+      "unrated players NOT from AUS Federation": "50",
       "unrated Federations": "3",
       "FIDE titled players": "4",
       "GM players": "0",
@@ -47,11 +47,11 @@
       "rounds": 9,
       "scoreGame": "0-0.5-1",
       "tieBreak": "BH BH/C1 SB",
-      "registeredPlayers": 100,
-      "averageRating": 873,
+      "registeredPlayers": 101,
+      "averageRating": 865,
       "averageRatingFide": 1566,
       "fideRatedPlayers": 50,
-      "unratedPlayers": 50,
+      "unratedPlayers": 51,
       "fideTitledPlayers": 4
     }
   },
@@ -1210,7 +1210,7 @@
     },
     {
       "id": "97",
-      "name": "Yang,Heesan",
+      "name": "Vithanage,Binon",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -1222,7 +1222,7 @@
     },
     {
       "id": "98",
-      "name": "Yee,Julian",
+      "name": "Yang,Heesan",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -1234,7 +1234,7 @@
     },
     {
       "id": "99",
-      "name": "Yong,Mabel",
+      "name": "Yee,Julian",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -1246,7 +1246,7 @@
     },
     {
       "id": "100",
-      "name": "Zhuang,Raymond",
+      "name": "Yong,Mabel",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -1254,6 +1254,18 @@
       "fideFederation": "",
       "gender": "notitle",
       "href": "playercard.html#100",
+      "origin": ""
+    },
+    {
+      "id": "101",
+      "name": "Zhuang,Raymond",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#101",
       "origin": ""
     }
   ],
@@ -2327,7 +2339,7 @@
             {
               "#": "97",
               "Title": "",
-              "Player": "Yang,Heesan",
+              "Player": "Vithanage,Binon",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -2337,7 +2349,7 @@
             {
               "#": "98",
               "Title": "",
-              "Player": "Yee,Julian",
+              "Player": "Yang,Heesan",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -2347,7 +2359,7 @@
             {
               "#": "99",
               "Title": "",
-              "Player": "Yong,Mabel",
+              "Player": "Yee,Julian",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -2356,6 +2368,16 @@
             },
             {
               "#": "100",
+              "Title": "",
+              "Player": "Yong,Mabel",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "101",
               "Title": "",
               "Player": "Zhuang,Raymond",
               "Fed": "VIC",
@@ -7317,6 +7339,55 @@
             "rawHtml": " 100   <strong>Malik,Arjun         </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"100\"></a>"
           },
           "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Vithanage,Binon",
+            "id": "0",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "101"
+            },
+            "rawText": "101   Vithanage,Binon     , K= 0, Elo=   0, ID=0",
+            "rawHtml": " 101   <strong>Vithanage,Binon     </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"101\"></a>"
+          },
+          "type": "other"
         }
       ],
       "tournamentType": "unknown"
@@ -7439,7 +7510,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "100"
+              "col2": "101"
             },
             {
               "col1": "Number of Federations",
@@ -7447,7 +7518,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "873"
+              "col2": "865"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -7459,7 +7530,7 @@
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "95"
+              "col2": "96"
             },
             {
               "col1": "FIDE rated players",
@@ -7467,7 +7538,7 @@
             },
             {
               "col1": "unrated players",
-              "col2": "50"
+              "col2": "51"
             },
             {
               "col1": "unrated players from AUS Federation",
@@ -7475,7 +7546,7 @@
             },
             {
               "col1": "unrated players NOT from AUS Federation",
-              "col2": "49"
+              "col2": "50"
             },
             {
               "col1": "unrated Federations",
@@ -7555,5 +7626,5 @@
       "children": []
     }
   ],
-  "md5Hash": "4f1c8da8aff0d1880ee99e3221fc75bc"
+  "md5Hash": "b1a700acd0f8c0eaa41431324b1e3dff"
 }
