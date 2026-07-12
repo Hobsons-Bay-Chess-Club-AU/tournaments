@@ -727,7 +727,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  87   <strong>Wang,Adelyn         </strong>, K= 0, Elo= 952, ID=3210991
+<caption>  87   <strong>Li,Douglas          </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="87"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -735,7 +735,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  88   <strong>Li,Douglas          </strong>, K= 0, Elo=   0, ID=0
+<caption>  88   <strong>Yendru,Sriram       </strong>, K= 0, Elo= 517, ID=3207771
 <br>
 <a class="anchor" name="88"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -743,7 +743,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  89   <strong>Yendru,Sriram       </strong>, K= 0, Elo= 517, ID=3207771
+<caption>  89   <strong>Ramanathan,Ashwin   </strong>, K= 0, Elo=1304, ID=3206231
 <br>
 <a class="anchor" name="89"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -751,7 +751,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  90   <strong>Ramanathan,Ashwin   </strong>, K= 0, Elo=1304, ID=3206231
+<caption>  90   <strong>Balamurugan,Soorya  </strong>, K= 0, Elo= 353, ID=3212435
 <br>
 <a class="anchor" name="90"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -759,7 +759,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  91   <strong>Balamurugan,Soorya  </strong>, K= 0, Elo= 353, ID=3212435
+<caption>  91   <strong>Ni,Brandon          </strong>, K= 0, Elo= 687, ID=3223860
 <br>
 <a class="anchor" name="91"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -767,7 +767,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  92   <strong>Ni,Brandon          </strong>, K= 0, Elo= 687, ID=3223860
+<caption>  92   <strong>Mathew,Jake         </strong>, K= 0, Elo=   0, ID=3226106
 <br>
 <a class="anchor" name="92"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -775,7 +775,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  93   <strong>Mathew,Jake         </strong>, K= 0, Elo=   0, ID=3226106
+<caption>  93   <strong>Sethi,Vivaan        </strong>, K= 0, Elo=   0, ID=3220883
 <br>
 <a class="anchor" name="93"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -783,7 +783,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  94   <strong>Sethi,Vivaan        </strong>, K= 0, Elo=   0, ID=3220883
+<caption>  94   <strong>Balaji,Poshya       </strong>, K= 0, Elo=   0, ID=3226025
 <br>
 <a class="anchor" name="94"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -791,7 +791,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  95   <strong>Balaji,Poshya       </strong>, K= 0, Elo=   0, ID=3226025
+<caption>  95   <strong>Thambavitage,Pahansa</strong>, K= 0, Elo=   0, ID=3219660
 <br>
 <a class="anchor" name="95"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -799,7 +799,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  96   <strong>Thambavitage,Pahansa</strong>, K= 0, Elo=   0, ID=3219660
+<caption>  96   <strong>Tsen,Jacob          </strong>, K= 0, Elo= 437, ID=3224916
 <br>
 <a class="anchor" name="96"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -807,7 +807,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  97   <strong>Tsen,Jacob          </strong>, K= 0, Elo= 437, ID=3224916
+<caption>  97   <strong>Padoli,Darsh        </strong>, K= 0, Elo= 648, ID=3214885
 <br>
 <a class="anchor" name="97"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -815,7 +815,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  98   <strong>Padoli,Darsh        </strong>, K= 0, Elo= 648, ID=3214885
+<caption>  98   <strong>Malik,Eklavya       </strong>, K= 0, Elo=   0, ID=3219940
 <br>
 <a class="anchor" name="98"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -823,7 +823,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  99   <strong>Malik,Eklavya       </strong>, K= 0, Elo=   0, ID=3219940
+<caption>  99   <strong>Malik,Arjun         </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="99"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -831,17 +831,9 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption> 100   <strong>Malik,Arjun         </strong>, K= 0, Elo=   0, ID=0
+<caption> 100   <strong>Vithanage,Binon     </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="100"></a></caption>
-<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
-</tr> </thead><tbody>
-</tbody>
-</table><br>
-<table class="table caption-top table-striped "> 
-<caption> 101   <strong>Vithanage,Binon     </strong>, K= 0, Elo=   0, ID=0
-<br>
-<a class="anchor" name="101"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 </tbody>
