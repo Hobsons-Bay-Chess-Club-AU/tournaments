@@ -52,6 +52,9 @@ export default function RootLayout({
               <Link href="/" className="text-gray-600 hover:text-primary-600 font-medium transition-colors">
                 Tournaments
               </Link>
+              <Link href="/calendar" className="text-gray-600 hover:text-primary-600 font-medium transition-colors">
+                Calendar
+              </Link>
               <Link href="/major-tournaments" className="text-gray-600 hover:text-primary-600 font-medium transition-colors">
                 Major Tournaments
               </Link>
