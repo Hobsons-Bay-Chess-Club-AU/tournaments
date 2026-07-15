@@ -1,5 +1,6 @@
 
 import type { Metadata } from "next";
+import CalendarClient from "./CalendarClient";
 
 export const metadata: Metadata = {
     title: "Calendar | Hobsons Bay Chess Club",
@@ -13,12 +14,8 @@ export default function CalendarPage() {
                 <div className="px-6 py-5 border-b border-gray-200">
                     <h1 className="text-3xl font-bold text-primary-700">Calendar</h1>
                 </div>
-                <div className="w-full h-[80vh] bg-gray-50">
-                    <iframe
-                        title="HBCC Calendar"
-                        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRIr-eFPQCMvn-TbOfLNzHheAVduNUKX2wOTsYjJOM8zf_uhqe3B3H8Z01bofnCPg/pubhtml?widget=true&headers=false"
-                        className="w-full h-full border-0"
-                    />
+                <div className="bg-gray-50">
+                    <CalendarClient />
                 </div>
             </div>
         </div>
