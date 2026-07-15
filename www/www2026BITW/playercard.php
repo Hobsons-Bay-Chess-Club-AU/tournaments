@@ -318,7 +318,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  37  FM <strong>Soo,Kai Jie         </strong>, K= 0, Elo=2255, ID=3164420
+<caption>  37  FM <strong>Annapureddy,Rheyansh</strong>, K= 0, Elo=2154, ID=3197035
 <br>
 <a class="anchor" name="37"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -326,7 +326,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  38  FM <strong>Annapureddy,Rheyansh</strong>, K= 0, Elo=2154, ID=3197035
+<caption>  38   <strong>Ragunandhan,Srinivas</strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="38"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -334,7 +334,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  39   <strong>Ragunandhan,Srinivas</strong>, K= 0, Elo=   0, ID=0
+<caption>  39   <strong>Srinivasan,Sathvik  </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="39"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -342,7 +342,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  40   <strong>Srinivasan,Sathvik  </strong>, K= 0, Elo=   0, ID=0
+<caption>  40   <strong>Chatha, Harmandeep  </strong>, K= 0, Elo=1531, ID=0
 <br>
 <a class="anchor" name="40"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -350,7 +350,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  41   <strong>Chatha, Harmandeep  </strong>, K= 0, Elo=1531, ID=0
+<caption>  41   <strong>Watson,Jacob        </strong>, K= 0, Elo= 645, ID=3220441
 <br>
 <a class="anchor" name="41"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -358,7 +358,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  42   <strong>Watson,Jacob        </strong>, K= 0, Elo= 645, ID=3220441
+<caption>  42   <strong>Ahmad,Ihtiram       </strong>, K= 0, Elo=1074, ID=0012854
 <br>
 <a class="anchor" name="42"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -366,7 +366,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  43   <strong>Ahmad,Ihtiram       </strong>, K= 0, Elo=1074, ID=0012854
+<caption>  43   <strong>Singh,Sumair        </strong>, K= 0, Elo= 455, ID=3210803
 <br>
 <a class="anchor" name="43"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -374,7 +374,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  44   <strong>Singh,Sumair        </strong>, K= 0, Elo= 455, ID=3210803
+<caption>  44   <strong>Balaji,Sai Sivesh   </strong>, K= 0, Elo= 940, ID=3209381
 <br>
 <a class="anchor" name="44"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -382,7 +382,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  45   <strong>Balaji,Sai Sivesh   </strong>, K= 0, Elo= 940, ID=3209381
+<caption>  45   <strong>Tripathi,Aarav      </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="45"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -390,7 +390,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  46   <strong>Tripathi,Aarav      </strong>, K= 0, Elo=   0, ID=0
+<caption>  46   <strong>Siva,Mrinalini      </strong>, K= 0, Elo=1166, ID=0014371
 <br>
 <a class="anchor" name="46"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -398,7 +398,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  47   <strong>Siva,Mrinalini      </strong>, K= 0, Elo=1166, ID=0014371
+<caption>  47   <strong>Ngo,William         </strong>, K= 0, Elo=1038, ID=3212170
 <br>
 <a class="anchor" name="47"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -406,7 +406,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  48   <strong>Ngo,William         </strong>, K= 0, Elo=1038, ID=3212170
+<caption>  48   <strong>Bacon,Levi          </strong>, K= 0, Elo=   0, ID=3223720
 <br>
 <a class="anchor" name="48"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -414,7 +414,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  49   <strong>Bacon,Levi          </strong>, K= 0, Elo=   0, ID=3223720
+<caption>  49   <strong>Yoon,Nile           </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="49"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -422,7 +422,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  50   <strong>Yoon,Nile           </strong>, K= 0, Elo=   0, ID=0
+<caption>  50   <strong>Milic,James         </strong>, K= 0, Elo=1397, ID=3175604
 <br>
 <a class="anchor" name="50"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -430,7 +430,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  51   <strong>Milic,James         </strong>, K= 0, Elo=1397, ID=3175604
+<caption>  51   <strong>Vinu,Vaishnav       </strong>, K= 0, Elo=   0, ID=3220113
 <br>
 <a class="anchor" name="51"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -438,7 +438,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  52   <strong>Vinu,Vaishnav       </strong>, K= 0, Elo=   0, ID=3220113
+<caption>  52   <strong>Vinu,Vinayak        </strong>, K= 0, Elo=   0, ID=3220124
 <br>
 <a class="anchor" name="52"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -446,7 +446,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  53   <strong>Vinu,Vinayak        </strong>, K= 0, Elo=   0, ID=3220124
+<caption>  53   <strong>Lee,William San     </strong>, K= 0, Elo=   0, ID=3222913
 <br>
 <a class="anchor" name="53"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -454,7 +454,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  54   <strong>Lee,William San     </strong>, K= 0, Elo=   0, ID=3222913
+<caption>  54   <strong>Zhou,Zenan          </strong>, K= 0, Elo= 897, ID=3210641
 <br>
 <a class="anchor" name="54"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -462,7 +462,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  55   <strong>Zhou,Zenan          </strong>, K= 0, Elo= 897, ID=3210641
+<caption>  55   <strong>Bambridge,Greg      </strong>, K= 0, Elo=1439, ID=3194972
 <br>
 <a class="anchor" name="55"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -470,7 +470,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  56   <strong>Bambridge,Greg      </strong>, K= 0, Elo=1439, ID=3194972
+<caption>  56   <strong>Laffey,Julian       </strong>, K= 0, Elo=1046, ID=3199721
 <br>
 <a class="anchor" name="56"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -478,7 +478,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  57   <strong>Laffey,Julian       </strong>, K= 0, Elo=1046, ID=3199721
+<caption>  57   <strong>Ruaya,Rohan         </strong>, K= 0, Elo= 894, ID=3203980
 <br>
 <a class="anchor" name="57"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -486,7 +486,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  58   <strong>Ruaya,Rohan         </strong>, K= 0, Elo= 894, ID=3203980
+<caption>  58   <strong>Karuppan,Ramanathan </strong>, K= 0, Elo=   0, ID=3212354
 <br>
 <a class="anchor" name="58"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -494,7 +494,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  59   <strong>Karuppan,Ramanathan </strong>, K= 0, Elo=   0, ID=3212354
+<caption>  59   <strong>Ramanathan,Ashwin   </strong>, K= 0, Elo=1362, ID=3206231
 <br>
 <a class="anchor" name="59"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -502,7 +502,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  60   <strong>Ramanathan,Ashwin   </strong>, K= 0, Elo=1362, ID=3206231
+<caption>  60   <strong>Wei,Andrew          </strong>, K= 0, Elo=1007, ID=3204083
 <br>
 <a class="anchor" name="60"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -510,7 +510,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  61   <strong>Wei,Andrew          </strong>, K= 0, Elo=1007, ID=3204083
+<caption>  61   <strong>Balamurugan,Soorya  </strong>, K= 0, Elo= 456, ID=3212435
 <br>
 <a class="anchor" name="61"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -518,7 +518,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  62   <strong>Balamurugan,Soorya  </strong>, K= 0, Elo= 456, ID=3212435
+<caption>  62   <strong>Rathore,Akshobhya   </strong>, K= 0, Elo=1401, ID=3206194
 <br>
 <a class="anchor" name="62"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -526,7 +526,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  63   <strong>Rathore,Akshobhya   </strong>, K= 0, Elo=1401, ID=3206194
+<caption>  63   <strong>Arora,Daanish       </strong>, K= 0, Elo= 945, ID=3218083
 <br>
 <a class="anchor" name="63"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -534,7 +534,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  64   <strong>Arora,Daanish       </strong>, K= 0, Elo= 945, ID=3218083
+<caption>  64   <strong>Rodriguez,Maickel   </strong>, K= 0, Elo=1514, ID=3198380
 <br>
 <a class="anchor" name="64"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -542,7 +542,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  65   <strong>Rodriguez,Maickel   </strong>, K= 0, Elo=1514, ID=3198380
+<caption>  65   <strong>Yendru,Srikrishna   </strong>, K= 0, Elo=1107, ID=3202252
 <br>
 <a class="anchor" name="65"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -550,7 +550,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  66   <strong>Yendru,Srikrishna   </strong>, K= 0, Elo=1107, ID=3202252
+<caption>  66   <strong>Nema,Nivaan         </strong>, K= 0, Elo= 884, ID=3217486
 <br>
 <a class="anchor" name="66"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -558,7 +558,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  67   <strong>Nema,Nivaan         </strong>, K= 0, Elo= 884, ID=3217486
+<caption>  67   <strong>Manoj,Dev           </strong>, K= 0, Elo= 739, ID=3212483
 <br>
 <a class="anchor" name="67"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -566,7 +566,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  68   <strong>Manoj,Dev           </strong>, K= 0, Elo= 739, ID=3212483
+<caption>  68   <strong>Hogg,Dean           </strong>, K= 0, Elo=1747, ID=3093306
 <br>
 <a class="anchor" name="68"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -574,7 +574,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  69   <strong>Hogg,Dean           </strong>, K= 0, Elo=1747, ID=3093306
+<caption>  69   <strong>Annadasu,Shreyansh  </strong>, K= 0, Elo=1130, ID=3210254
 <br>
 <a class="anchor" name="69"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -582,7 +582,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  70   <strong>Annadasu,Shreyansh  </strong>, K= 0, Elo=1130, ID=3210254
+<caption>  70   <strong>Kildea,James        </strong>, K= 0, Elo= 974, ID=3209775
 <br>
 <a class="anchor" name="70"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -590,7 +590,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  71   <strong>Kildea,James        </strong>, K= 0, Elo= 974, ID=3209775
+<caption>  71   <strong>Jyothi Nikhil,Neev  </strong>, K= 0, Elo=1023, ID=3214874
 <br>
 <a class="anchor" name="71"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -598,7 +598,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  72   <strong>Jyothi Nikhil,Neev  </strong>, K= 0, Elo=1023, ID=3214874
+<caption>  72   <strong>Jyothi Nikhil,Vihaan</strong>, K= 0, Elo= 247, ID=3221362
 <br>
 <a class="anchor" name="72"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -606,7 +606,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  73   <strong>Jyothi Nikhil,Vihaan</strong>, K= 0, Elo= 247, ID=3221362
+<caption>  73   <strong>Kommina,Bhavishya   </strong>, K= 0, Elo= 469, ID=3223915
 <br>
 <a class="anchor" name="73"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -614,7 +614,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  74   <strong>Kommina,Bhavishya   </strong>, K= 0, Elo= 469, ID=3223915
+<caption>  74   <strong>Shaiek,Nihal        </strong>, K= 0, Elo= 676, ID=3217011
 <br>
 <a class="anchor" name="74"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -622,7 +622,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  75   <strong>Shaiek,Nihal        </strong>, K= 0, Elo= 676, ID=3217011
+<caption>  75   <strong>Samraat,Aayush      </strong>, K= 0, Elo= 433, ID=3220850
 <br>
 <a class="anchor" name="75"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -630,7 +630,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  76   <strong>Samraat,Aayush      </strong>, K= 0, Elo= 433, ID=3220850
+<caption>  76   <strong>Prince,Aliza        </strong>, K= 0, Elo= 644, ID=3196103
 <br>
 <a class="anchor" name="76"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -638,7 +638,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  77   <strong>Prince,Aliza        </strong>, K= 0, Elo= 644, ID=3196103
+<caption>  77   <strong>Wales,Sam           </strong>, K= 0, Elo=1035, ID=3210560
 <br>
 <a class="anchor" name="77"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -646,7 +646,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  78   <strong>Wales,Sam           </strong>, K= 0, Elo=1035, ID=3210560
+<caption>  78   <strong>Qi,Jaden            </strong>, K= 0, Elo=1113, ID=3209786
 <br>
 <a class="anchor" name="78"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -654,7 +654,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  79   <strong>Qi,Jaden            </strong>, K= 0, Elo=1113, ID=3209786
+<caption>  79   <strong>Bodke,Krishna Mantha</strong>, K= 0, Elo=1599, ID=3202576
 <br>
 <a class="anchor" name="79"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -662,7 +662,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  80   <strong>Bodke,Krishna Mantha</strong>, K= 0, Elo=1599, ID=3202576
+<caption>  80   <strong>Tempany,Ayden       </strong>, K= 0, Elo= 977, ID=6257886
 <br>
 <a class="anchor" name="80"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -670,7 +670,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  81   <strong>Tempany,Ayden       </strong>, K= 0, Elo= 977, ID=6257886
+<caption>  81   <strong>Jagannathan,Shashvat</strong>, K= 0, Elo= 894, ID=3206253
 <br>
 <a class="anchor" name="81"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -678,7 +678,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  82   <strong>Jagannathan,Shashvat</strong>, K= 0, Elo= 894, ID=3206253
+<caption>  82   <strong>Fang,Candice        </strong>, K= 0, Elo= 361, ID=3211746
 <br>
 <a class="anchor" name="82"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -686,7 +686,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  83   <strong>Fang,Candice        </strong>, K= 0, Elo= 361, ID=3211746
+<caption>  83   <strong>Parker,Lucas        </strong>, K= 0, Elo=1402, ID=3209484
 <br>
 <a class="anchor" name="83"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -694,7 +694,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  84   <strong>Parker,Lucas        </strong>, K= 0, Elo=1402, ID=3209484
+<caption>  84   <strong>Pradeep,Mayukh      </strong>, K= 0, Elo= 249, ID=3220006
 <br>
 <a class="anchor" name="84"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -702,7 +702,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  85   <strong>Pradeep,Mayukh      </strong>, K= 0, Elo= 249, ID=3220006
+<caption>  85   <strong>Husain,Lamiah       </strong>, K= 0, Elo= 508, ID=3209576
 <br>
 <a class="anchor" name="85"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -710,7 +710,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  86   <strong>Husain,Lamiah       </strong>, K= 0, Elo= 508, ID=3209576
+<caption>  86   <strong>Panchaparvala,Rohan </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="86"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -718,7 +718,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  87   <strong>Panchaparvala,Rohan </strong>, K= 0, Elo=   0, ID=0
+<caption>  87  FM <strong>Soo,Kai Jie         </strong>, K= 0, Elo=2255, ID=3164420
 <br>
 <a class="anchor" name="87"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -726,7 +726,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  88  FM <strong>Soo,Kai Jie         </strong>, K= 0, Elo=2255, ID=3164420
+<caption>  88   <strong>Shah,Swaraa         </strong>, K= 0, Elo= 605, ID=3221745
 <br>
 <a class="anchor" name="88"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -734,7 +734,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  89   <strong>Shah,Swaraa         </strong>, K= 0, Elo= 605, ID=3221745
+<caption>  89   <strong>Katakam,Aadhya Sai  </strong>, K= 0, Elo=1048, ID=3204864
 <br>
 <a class="anchor" name="89"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -742,7 +742,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  90   <strong>Katakam,Aadhya Sai  </strong>, K= 0, Elo=1048, ID=3204864
+<caption>  90   <strong>Paul,Nikash         </strong>, K= 0, Elo=1347, ID=3200244
 <br>
 <a class="anchor" name="90"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -750,7 +750,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  91   <strong>Paul,Nikash         </strong>, K= 0, Elo=1347, ID=3200244
+<caption>  91   <strong>Rubiano,Carlos Danie</strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="91"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -758,7 +758,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  92   <strong>Rubiano,Carlos Danie</strong>, K= 0, Elo=   0, ID=0
+<caption>  92   <strong>Davis,Sophie        </strong>, K= 0, Elo=1505, ID=3138303
 <br>
 <a class="anchor" name="92"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -766,7 +766,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  93   <strong>Davis,Sophie        </strong>, K= 0, Elo=1505, ID=3138303
+<caption>  93  CM <strong>Davis,Tony J        </strong>, K= 0, Elo=1673, ID=3073264
 <br>
 <a class="anchor" name="93"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -774,7 +774,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  94  CM <strong>Davis,Tony J        </strong>, K= 0, Elo=1673, ID=3073264
+<caption>  94   <strong>Kodituwakku,Damhiru </strong>, K= 0, Elo=1441, ID=4582485
 <br>
 <a class="anchor" name="94"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -782,7 +782,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  95   <strong>Kodituwakku,Damhiru </strong>, K= 0, Elo=1441, ID=4582485
+<caption>  95   <strong>Haller,Annabelle    </strong>, K= 0, Elo=   0, ID=3218595
 <br>
 <a class="anchor" name="95"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -790,7 +790,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  96   <strong>Haller,Annabelle    </strong>, K= 0, Elo=   0, ID=3218595
+<caption>  96   <strong>Sethi,Vivaan        </strong>, K= 0, Elo=   0, ID=3220883
 <br>
 <a class="anchor" name="96"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -798,7 +798,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  97   <strong>Sethi,Vivaan        </strong>, K= 0, Elo=   0, ID=3220883
+<caption>  97  FM <strong>Bassig,Hamish       </strong>, K= 0, Elo=2018, ID=3199684
 <br>
 <a class="anchor" name="97"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -806,7 +806,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  98  FM <strong>Bassig,Hamish       </strong>, K= 0, Elo=2018, ID=3199684
+<caption>  98   <strong>Venkat,Nyra         </strong>, K= 0, Elo= 659, ID=3216996
 <br>
 <a class="anchor" name="98"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
