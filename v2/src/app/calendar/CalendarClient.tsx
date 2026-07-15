@@ -278,6 +278,13 @@ function getEntryTitle(entry: CalendarEntry) {
     return entry.seniorTournament || entry.juniorTournament || entry.schoolSchedule || entry.eventType || "Event";
 }
 
+function getEntryNames(entry: CalendarEntry) {
+    return [
+        entry.seniorTournament ? { label: "Event", value: entry.seniorTournament } : null,
+        entry.juniorTournament ? { label: "Event", value: entry.juniorTournament } : null,
+    ].filter((item): item is { label: string; value: string } => item !== null);
+}
+
 function getEntrySearchText(entry: CalendarEntry) {
     return [
         entry.dateLabel,
@@ -431,13 +438,15 @@ export default function CalendarClient() {
 
     const summary = useMemo(() => {
         const total = filteredEntries.length;
-        const today = startOfMonth(new Date());
-        const nextEvent = filteredEntries.find((entry) => entry.startDate >= today) ?? filteredEntries[0] ?? null;
         return {
             total,
-            nextEvent,
         };
     }, [filteredEntries]);
+
+    const nextUpcomingEvent = useMemo(() => {
+        const now = new Date();
+        return entries.find((entry) => entry.endDate >= now) ?? entries[0] ?? null;
+    }, [entries]);
 
     const visibleMonth = selectedMonth === "all" ? displayMonth : parseMonthKey(selectedMonth) ?? displayMonth;
 
@@ -556,16 +565,16 @@ export default function CalendarClient() {
                 </div>
                 <button
                     type="button"
-                    onClick={() => summary.nextEvent && jumpToEntry(summary.nextEvent)}
-                    disabled={!summary.nextEvent}
+                    onClick={() => nextUpcomingEvent && jumpToEntry(nextUpcomingEvent)}
+                    disabled={!nextUpcomingEvent}
                     className="rounded-2xl border border-gray-200 bg-white p-4 text-left shadow-sm transition hover:border-primary-200 hover:shadow-md disabled:cursor-not-allowed disabled:opacity-60"
                 >
                     <div className="text-xs uppercase tracking-wide text-gray-500">Next event</div>
                     <div className="mt-2 text-lg font-semibold text-gray-900">
-                        {summary.nextEvent ? formatRangeLabel(summary.nextEvent.startDate, summary.nextEvent.endDate) : "No events"}
+                        {nextUpcomingEvent ? formatRangeLabel(nextUpcomingEvent.startDate, nextUpcomingEvent.endDate) : "No events"}
                     </div>
                     <div className="mt-2 text-sm font-medium text-primary-700">
-                        {summary.nextEvent ? getEntryTitle(summary.nextEvent) : "Nothing scheduled"}
+                        {nextUpcomingEvent ? getEntryTitle(nextUpcomingEvent) : "Nothing scheduled"}
                     </div>
                 </button>
                 <div className="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
@@ -776,6 +785,15 @@ export default function CalendarClient() {
                                                         <span className="rounded-full bg-white px-3 py-1 text-gray-600">{entry.schoolSchedule || "No school note"}</span>
                                                         {entry.coaching && <span className="rounded-full bg-white px-3 py-1 text-gray-600">{entry.coaching}</span>}
                                                     </div>
+                                                    {getEntryNames(entry).length > 0 && (
+                                                        <div className="rounded-xl bg-white px-3 py-3 text-sm text-gray-700">
+                                                            {getEntryNames(entry).map((item) => (
+                                                                <div key={`${entry.id}-${item.label}`}>
+                                                                    <span className="font-semibold text-gray-900">{item.label}:</span> {item.value}
+                                                                </div>
+                                                            ))}
+                                                        </div>
+                                                    )}
                                                     <div className="rounded-xl bg-white px-3 py-2 text-xs text-gray-600">
                                                         <div>
                                                             <span className="font-semibold text-gray-800">Arbiter:</span> {entry.arbiter || "Not applicable"}
