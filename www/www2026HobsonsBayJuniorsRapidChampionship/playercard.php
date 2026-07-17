@@ -1043,6 +1043,16 @@
 </tr> 
 </tbody>
 </table><br>
+<table class="table caption-top table-striped "> 
+<caption> 101   <strong>Kirieldeniya Don, Ge</strong>, K= 0, Elo=   0, ID=0
+<br>
+<a class="anchor" name="101"></a></caption>
+<thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
+</tr> </thead><tbody>
+<tr> <td>1</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+</tr> 
+</tbody>
+</table><br>
 </DIV>
 		  </div>
 		      </div>

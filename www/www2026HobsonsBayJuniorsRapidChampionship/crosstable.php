@@ -245,6 +245,8 @@
 <td> <span class="idn"> 99 </span><span class="notitle female"> </span> <a href="playercard.php#99">Yong,Mabel          </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.0</td><td> </td></tr>
 <tr> 
 <td> <span class="idn"> 100 </span><span class="notitle male"> </span> <a href="playercard.php#100">Zhuang,Raymond      </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td class="score"> 0.0</td><td> </td></tr>
+<tr> 
+<td> <span class="idn"> 101 </span><span class="notitle male"> </span> <a href="playercard.php#101">Kirieldeniya Don, Ge</a> </td><td>0</td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td></td><td class="score"> 0.0</td><td> </td></tr>
 </tbody>
 </table>
 </DIV>

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-17T12:43:56.355Z",
+  "generatedAt": "2026-07-17T13:24:13.318Z",
   "year": "2026",
-  "count": 216,
+  "count": 217,
   "totalTournaments": 19,
   "players": [
     {
@@ -2724,6 +2724,28 @@
       ],
       "points": {
         "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Kirieldeniya Don, George",
+      "id": "101",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#101",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }

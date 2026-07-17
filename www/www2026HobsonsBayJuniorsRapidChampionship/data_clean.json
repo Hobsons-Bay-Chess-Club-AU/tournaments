@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T12:43:43.323Z",
+  "generatedAt": "2026-07-17T13:24:00.942Z",
   "tournament": {
     "id": "2026-hbcc-hobsons-bay-juniors-rapid-championship",
     "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
@@ -15,15 +15,15 @@
       "Rounds": "9",
       "Score game": "0-0.5-1",
       "Tie break": "BH BH/C1 SB",
-      "Registered Players": "100",
+      "Registered Players": "101",
       "Number of Federations": "4",
-      "Average Rating (all)": "839",
+      "Average Rating (all)": "831",
       "Average Rating (only FIDE rated)": "1568",
-      "Players from AUS Federation": "6",
+      "Players from AUS Federation": "7",
       "Players NOT from AUS Federation": "94",
       "FIDE rated players": "48",
-      "unrated players": "52",
-      "unrated players from AUS Federation": "2",
+      "unrated players": "53",
+      "unrated players from AUS Federation": "3",
       "unrated players NOT from AUS Federation": "50",
       "unrated Federations": "3",
       "FIDE titled players": "4",
@@ -47,11 +47,11 @@
       "rounds": 9,
       "scoreGame": "0-0.5-1",
       "tieBreak": "BH BH/C1 SB",
-      "registeredPlayers": 100,
-      "averageRating": 839,
+      "registeredPlayers": 101,
+      "averageRating": 831,
       "averageRatingFide": 1568,
       "fideRatedPlayers": 48,
-      "unratedPlayers": 52,
+      "unratedPlayers": 53,
       "fideTitledPlayers": 4
     }
   },
@@ -1002,6 +1002,18 @@
       "fideFederation": "",
       "gender": "male",
       "href": "playercard.html#79",
+      "origin": ""
+    },
+    {
+      "id": "101",
+      "name": "Kirieldeniya Don, George",
+      "title": "",
+      "federation": "OS",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "male",
+      "href": "playercard.html#101",
       "origin": ""
     },
     {
@@ -2088,6 +2100,14 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": "101",
+              "Rtg": "0",
+              "Fed": "OS",
+              "Origin": "",
+              "Pts": "0.0"
             }
           ],
           "type": "standings"
@@ -2986,6 +3006,16 @@
               "Title": "",
               "Player": "Hii,Elliott",
               "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "101",
+              "Title": "",
+              "Player": "Kirieldeniya Don, George",
+              "Fed": "OS",
               "Origin": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -3898,6 +3928,18 @@
               "Black Player": "50",
               "Origin_1": "",
               "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "51",
+              "Fed": "OS",
+              "Origin": "",
+              "White Player": "101",
+              "Pts": "0",
+              "Result": "1",
+              "Pts_1": "0",
+              "Black Player": "( full point bye )",
+              "Origin_1": "",
+              "Fed_1": ""
             }
           ],
           "type": "pairing"
@@ -9908,6 +9950,66 @@
             "rawHtml": " 100   <strong>Zhuang,Raymond      </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"100\"></a>"
           },
           "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Kirieldeniya Don, Ge",
+            "id": "0",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "101"
+            },
+            "rawText": "101   Kirieldeniya Don, Ge, K= 0, Elo=   0, ID=0",
+            "rawHtml": " 101   <strong>Kirieldeniya Don, Ge</strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"101\"></a>"
+          },
+          "type": "other"
         }
       ],
       "tournamentType": "unknown"
@@ -11124,6 +11226,17 @@
               "BH": "0.0",
               "BH/C1": "0.0",
               "SB": "0.00"
+            },
+            {
+              "Pos": "101",
+              "Player": "101",
+              "Rtg": "0",
+              "Fed": "OS",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.00"
             }
           ],
           "footer": {
@@ -11183,7 +11296,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "100"
+              "col2": "101"
             },
             {
               "col1": "Number of Federations",
@@ -11191,7 +11304,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "839"
+              "col2": "831"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -11199,7 +11312,7 @@
             },
             {
               "col1": "Players from AUS Federation",
-              "col2": "6"
+              "col2": "7"
             },
             {
               "col1": "Players NOT from AUS Federation",
@@ -11211,11 +11324,11 @@
             },
             {
               "col1": "unrated players",
-              "col2": "52"
+              "col2": "53"
             },
             {
               "col1": "unrated players from AUS Federation",
-              "col2": "2"
+              "col2": "3"
             },
             {
               "col1": "unrated players NOT from AUS Federation",
@@ -11379,5 +11492,5 @@
       ]
     }
   ],
-  "md5Hash": "fc745dbe1988026015af8c5a358c391d"
+  "md5Hash": "338180f50adba010cbe7a15e62fd4a94"
 }

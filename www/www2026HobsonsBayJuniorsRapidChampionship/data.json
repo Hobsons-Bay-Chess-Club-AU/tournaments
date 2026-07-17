@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T12:43:43.128Z",
+  "generatedAt": "2026-07-17T13:24:00.758Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 1",
@@ -1831,6 +1831,24 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "0.0"
+            },
+            {
+              "1": "",
+              "Player": {
+                "id": "101",
+                "playerName": "Kirieldeniya Don, George",
+                "gender": "male",
+                "href": "playercard.html#101",
+                "title": "",
+                "federation": "OS",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Rtg": "0",
+              "Fed": "OS",
+              "Origin": "",
+              "Pts": "0.0"
             }
           ]
         }
@@ -2727,6 +2745,16 @@
               "Title": "",
               "Player": "Hii,Elliott",
               "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "101",
+              "Title": "",
+              "Player": "Kirieldeniya Don, George",
+              "Fed": "OS",
               "Origin": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -4637,6 +4665,28 @@
               },
               "Origin_1": "",
               "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "51",
+              "Fed": "OS",
+              "Origin": "",
+              "White Player": {
+                "id": "101",
+                "playerName": "Kirieldeniya Don, George",
+                "gender": "male",
+                "href": "playercard.html#101",
+                "title": "",
+                "federation": "OS",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "1",
+              "Pts_1": "0",
+              "Black Player": "( full point bye )",
+              "Origin_1": "",
+              "Fed_1": ""
             }
           ]
         }
@@ -10546,6 +10596,65 @@
             "rawText": "100   Zhuang,Raymond      , K= 0, Elo=   0, ID=0",
             "rawHtml": " 100   <strong>Zhuang,Raymond      </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"100\"></a>"
           }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Kirieldeniya Don, Ge",
+            "id": "0",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "101"
+            },
+            "rawText": "101   Kirieldeniya Don, Ge, K= 0, Elo=   0, ID=0",
+            "rawHtml": " 101   <strong>Kirieldeniya Don, Ge</strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"101\"></a>"
+          }
         }
       ],
       "tournamentType": "unknown"
@@ -12761,6 +12870,27 @@
               "BH": "0.0",
               "BH/C1": "0.0",
               "SB": "0.00"
+            },
+            {
+              "Pos": "101",
+              "Player": {
+                "id": "101",
+                "playerName": "Kirieldeniya Don, George",
+                "gender": "male",
+                "href": "playercard.html#101",
+                "title": "",
+                "federation": "OS",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Rtg": "0",
+              "Fed": "OS",
+              "Origin": "",
+              "Pts": "0.0",
+              "BH": "0.0",
+              "BH/C1": "0.0",
+              "SB": "0.00"
             }
           ],
           "footer": {
@@ -12819,7 +12949,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "100"
+              "col2": "101"
             },
             {
               "col1": "Number of Federations",
@@ -12827,7 +12957,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "839"
+              "col2": "831"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -12835,7 +12965,7 @@
             },
             {
               "col1": "Players from AUS Federation",
-              "col2": "6"
+              "col2": "7"
             },
             {
               "col1": "Players NOT from AUS Federation",
@@ -12847,11 +12977,11 @@
             },
             {
               "col1": "unrated players",
-              "col2": "52"
+              "col2": "53"
             },
             {
               "col1": "unrated players from AUS Federation",
-              "col2": "2"
+              "col2": "3"
             },
             {
               "col1": "unrated players NOT from AUS Federation",
@@ -14011,6 +14141,17 @@
       "fideId": "",
       "href": "playercard.html#100",
       "moreInfo": {}
+    },
+    "101": {
+      "id": "101",
+      "playerName": "Kirieldeniya Don, George",
+      "title": "",
+      "federation": "OS",
+      "rating": "0",
+      "gender": "male",
+      "fideId": "",
+      "href": "playercard.html#101",
+      "moreInfo": {}
     }
   },
   "menu": [
@@ -14908,6 +15049,16 @@
       "RtgN": "0"
     },
     {
+      "#": "101",
+      "Title": "",
+      "Player": "Kirieldeniya Don, George",
+      "Fed": "OS",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
       "#": "80",
       "Title": "",
       "Player": "Kommina, Nihira",
@@ -15130,15 +15281,15 @@
     "Rounds": "9",
     "Score game": "0-0.5-1",
     "Tie break": "BH BH/C1 SB",
-    "Registered Players": "100",
+    "Registered Players": "101",
     "Number of Federations": "4",
-    "Average Rating (all)": "839",
+    "Average Rating (all)": "831",
     "Average Rating (only FIDE rated)": "1568",
-    "Players from AUS Federation": "6",
+    "Players from AUS Federation": "7",
     "Players NOT from AUS Federation": "94",
     "FIDE rated players": "48",
-    "unrated players": "52",
-    "unrated players from AUS Federation": "2",
+    "unrated players": "53",
+    "unrated players from AUS Federation": "3",
     "unrated players NOT from AUS Federation": "50",
     "unrated Federations": "3",
     "FIDE titled players": "4",
@@ -15154,5 +15305,5 @@
     "FIDE titled player NOT from AUS Federation": "4",
     "category": "Junior"
   },
-  "md5Hash": "7f2dfbae7f01259e91bb7c861b74758f"
+  "md5Hash": "8f5ba58608e376b48c82c944b4913d92"
 }
