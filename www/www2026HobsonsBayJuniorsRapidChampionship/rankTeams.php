@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en"><head> 
+<meta charset="UTF-8">
+<meta name="description" content="chess tournament">
+<meta name="author" content="www.vegachess.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<title>2026 HBCC Hobsons Bay Juniors Rapid Championship</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="stylenew.css" type="text/css" >
+    </head>
+<body>
+<div class="d-flex flex-column justify-content-between h-100">
+ <nav class="navbar navbar-expand-lg fixed-top">
+                <div class="container">    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0"><li class="nav-item dropdown">
+   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs2.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
+</div>
+</nav>
+ <section id="hero" class="d-flex align-items-center">
+                <div class="container-fluid">
+                    <div class="row items-center">
+                        <div class="col-12">
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2026 HBCC Hobsons Bay Juniors Rapid Championship</h1>		    <h5 class="mb-1">Hobsons Bay (AUS)</h5>		    <h5> 18/07/2026 - 18/07/2026</h5>   </div>
+ </div> 
+ </div>
+ </div> 
+ </section>
+ <section id="main" class="pt-3 mb-auto">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="d-none d-lg-block col-1 ps-0">
+                            <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Team ranking based on 4 best players of each team</h3>
+<div class="table-responsive"><table class="table table-striped"> 
+<thead><tr><th> Pos </th> <th> Team Name </th><th>Points</th></tr></thead> <tbody>
+<tr>
+<td>1</td> <td></td> <td>4</td> </tr>
+</tbody>
+</table>
+<h5 class="mb-4 mt-4"> Team composition</h5>
+<table class="table table-striped "> 
+<thead><tr><th>1</th> <th> </th><th>4</th></tr></thead><tbody> 
+<tr> <td>1</td> <td>Annapureddy,Rheyansh Reddy </td><td>1</td></tr> 
+<tr> <td>2</td> <td>Lingineni,Khushal </td><td>1</td></tr> 
+<tr> <td>3</td> <td>Nguyen, Anh Kiet </td><td>1</td></tr> 
+<tr> <td>4</td> <td>Parker,Lucas </td><td>1</td></tr> 
+<tr> <td>5</td> <td>Kansal,Nuwan </td><td>1</td></tr> 
+<tr> <td>6</td> <td>Katakam,Deethya Sai </td><td>1</td></tr> 
+<tr> <td>7</td> <td>Bodke,Krishna Manthan </td><td>1</td></tr> 
+<tr> <td>8</td> <td>Mai Nhuan Phat </td><td>1</td></tr> 
+<tr> <td>9</td> <td>Batyrbekov, Kaisar </td><td>1</td></tr> 
+<tr> <td>10</td> <td>Ha, Aeson </td><td>1</td></tr> 
+<tr> <td>11</td> <td>Rathore,Akshobhya </td><td>1</td></tr> 
+<tr> <td>12</td> <td>Ramanathan,Ashwin </td><td>1</td></tr> 
+<tr> <td>13</td> <td>Annapureddy,Dhruthin Reddy </td><td>1</td></tr> 
+<tr> <td>14</td> <td>Batyrbekov, Aidan </td><td>1</td></tr> 
+<tr> <td>15</td> <td>Rawat,Vivaan </td><td>1</td></tr> 
+<tr> <td>16</td> <td>Jyothi Nikhil,Neev </td><td>1</td></tr> 
+<tr> <td>17</td> <td>Annadasu,Shreyansh </td><td>1</td></tr> 
+<tr> <td>18</td> <td>Ashok,Arjun </td><td>1</td></tr> 
+<tr> <td>19</td> <td>Balaji,Sai Sivesh </td><td>1</td></tr> 
+<tr> <td>20</td> <td>Bhat,Dhruv </td><td>1</td></tr> 
+<tr> <td>21</td> <td>Munro,Lachlan </td><td>1</td></tr> 
+<tr> <td>22</td> <td>Huang,Michael </td><td>1</td></tr> 
+<tr> <td>23</td> <td>Le,Khoi Nguyen </td><td>1</td></tr> 
+<tr> <td>24</td> <td>Ruaya,Rohan </td><td>1</td></tr> 
+<tr> <td>25</td> <td>Katakam,Aadhya Sai </td><td>1</td></tr> 
+<tr> <td>26</td> <td>Shaiek,Nihal </td><td>1</td></tr> 
+<tr> <td>27</td> <td>Saha,Avinandan (Arjun) </td><td>1</td></tr> 
+<tr> <td>28</td> <td>Ahmad,Ihtiram </td><td>1</td></tr> 
+<tr> <td>30</td> <td>Vemula,Thamoghna </td><td>1</td></tr> 
+<tr> <td>31</td> <td>Watson,Jacob </td><td>1</td></tr> 
+<tr> <td>32</td> <td>Li,Donghan </td><td>1</td></tr> 
+<tr> <td>33</td> <td>Nema,Nivaan </td><td>1</td></tr> 
+<tr> <td>35</td> <td>Tadakamadla,Ahaan </td><td>1</td></tr> 
+<tr> <td>36</td> <td>Gali,Joyel Evan </td><td>1</td></tr> 
+<tr> <td>38</td> <td>Padoli,Darsh </td><td>1</td></tr> 
+<tr> <td>41</td> <td>Moser,William </td><td>1</td></tr> 
+<tr> <td>45</td> <td>Singh,Sumair </td><td>1</td></tr> 
+<tr> <td>46</td> <td>Krishnan,Sanjay </td><td>1</td></tr> 
+<tr> <td>48</td> <td>Yong,Leonard </td><td>1</td></tr> 
+<tr> <td>49</td> <td>Krishnan,Sanjit </td><td>1</td></tr> 
+<tr> <td>50</td> <td>Fang,Candice </td><td>1</td></tr> 
+<tr> <td>51</td> <td>Bhadrapura, Vismay </td><td>1</td></tr> 
+<tr> <td>80</td> <td>Hii,Elliott </td><td>1</td></tr> 
+<tr> <td>86</td> <td>Malik,Eklavya </td><td>1</td></tr> 
+<tr> <td>91</td> <td>Paul,Vivaan </td><td>1</td></tr> 
+<tr> <td>93</td> <td>Sethi,Vivaan </td><td>1</td></tr> 
+<tr> <td>94</td> <td>Srinivasan,Sathvik </td><td>1</td></tr> 
+<tr> <td>95</td> <td>Sun,Aaron </td><td>1</td></tr> 
+<tr> <td>98</td> <td>Vithanage,Binon </td><td>1</td></tr> 
+<tr> <td>37</td> <td>Venkat,Nyra </td><td>0.5</td></tr> 
+<tr> <td>39</td> <td>Kaur, Mishleen </td><td>0.5</td></tr> 
+<tr> <td>89</td> <td>Panchaparvala,Rohan Aditya </td><td>0.5</td></tr> 
+<tr> <td>29</td> <td>Prince,Aliza </td><td>0</td></tr> 
+<tr> <td>34</td> <td>Ni,Brandon </td><td>0</td></tr> 
+<tr> <td>40</td> <td>Rao,Krishay </td><td>0</td></tr> 
+<tr> <td>42</td> <td>You,Henry </td><td>0</td></tr> 
+<tr> <td>43</td> <td>Samraat,Aayush </td><td>0</td></tr> 
+<tr> <td>44</td> <td>Goh,Nicholas </td><td>0</td></tr> 
+<tr> <td>47</td> <td>Tan,Lucas </td><td>0</td></tr> 
+<tr> <td>52</td> <td>Pentela, Tharun </td><td>0</td></tr> 
+<tr> <td>53</td> <td>Kommina,Bhavishya </td><td>0</td></tr> 
+<tr> <td>54</td> <td>Saha,Arya </td><td>0</td></tr> 
+<tr> <td>55</td> <td>Tsen,Jacob </td><td>0</td></tr> 
+<tr> <td>56</td> <td>Wang, Evan </td><td>0</td></tr> 
+<tr> <td>57</td> <td>Rajan,Viaan </td><td>0</td></tr> 
+<tr> <td>58</td> <td>Moser,Luke </td><td>0</td></tr> 
+<tr> <td>59</td> <td>Barar,Ridam </td><td>0</td></tr> 
+<tr> <td>60</td> <td>Spriggs,Harvey </td><td>0</td></tr> 
+<tr> <td>61</td> <td>Balamurugan,Soorya </td><td>0</td></tr> 
+<tr> <td>62</td> <td>Menghani,Ishaan </td><td>0</td></tr> 
+<tr> <td>63</td> <td>Pradeep,Mayukh </td><td>0</td></tr> 
+<tr> <td>64</td> <td>Bodke,Aryan </td><td>0</td></tr> 
+<tr> <td>65</td> <td>Bala,Neil </td><td>0</td></tr> 
+<tr> <td>66</td> <td>Jyothi Nikhil,Vihaan </td><td>0</td></tr> 
+<tr> <td>67</td> <td>Bala,Jake </td><td>0</td></tr> 
+<tr> <td>68</td> <td>Veeragandham,Gowtham </td><td>0</td></tr> 
+<tr> <td>69</td> <td>Madduluri,Advaitha </td><td>0</td></tr> 
+<tr> <td>70</td> <td>Goh,Daphne </td><td>0</td></tr> 
+<tr> <td>71</td> <td>Goh,Julian </td><td>0</td></tr> 
+<tr> <td>72</td> <td>Akula,Ayaansh Ved </td><td>0</td></tr> 
+<tr> <td>73</td> <td>Aquino, Zedric </td><td>0</td></tr> 
+<tr> <td>74</td> <td>Athukorala,Senula Ekmitha </td><td>0</td></tr> 
+<tr> <td>75</td> <td>Bacon,Levi </td><td>0</td></tr> 
+<tr> <td>76</td> <td>Balaji,Poshya </td><td>0</td></tr> 
+<tr> <td>77</td> <td>Borle,Anvay </td><td>0</td></tr> 
+<tr> <td>78</td> <td>Borle,Swarit </td><td>0</td></tr> 
+<tr> <td>79</td> <td>Ding,Charlene </td><td>0</td></tr> 
+<tr> <td>82</td> <td>Kommina, Nihira </td><td>0</td></tr> 
+<tr> <td>85</td> <td>Malik,Arjun </td><td>0</td></tr> 
+<tr> <td>87</td> <td>Mathew,Jake </td><td>0</td></tr> 
+<tr> <td>88</td> <td>Pai,Tesha </td><td>0</td></tr> 
+<tr> <td>90</td> <td>Panchaparvala,Sriram </td><td>0</td></tr> 
+<tr> <td>92</td> <td>Salimeda,Yuvan </td><td>0</td></tr> 
+<tr> <td>96</td> <td>Thambavitage,Pahansa </td><td>0</td></tr> 
+<tr> <td>97</td> <td>Trinh,Joseph </td><td>0</td></tr> 
+<tr> <td>99</td> <td>Yang,Heesan </td><td>0</td></tr> 
+<tr> <td>100</td> <td>Yee,Julian </td><td>0</td></tr> 
+<tr> <td>101</td> <td>Yong,Mabel </td><td>0</td></tr> 
+<tr> <td>102</td> <td>Zhuang,Raymond </td><td>0</td></tr> 
+<tr> <td>81</td> <td>Kirieldeniya Don, George </td><td>0</td></tr> 
+<tr> <td>83</td> <td>Koppuravuri,Haneesh </td><td>0</td></tr> 
+<tr> <td>84</td> <td>Li,Douglas </td><td>0</td></tr> 
+</tbody>
+</table>
+<h5 class="mb-4 mt-4"> Best boards</h5>
+<table class="table table-striped "> 
+<thead><tr><th>Board 0</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
+<tr> <td></td> <td>1 </td><td>Annapureddy,Rheyansh Reddy </td><td> </td><td>1</td></tr> 
+<thead><tr><th>Board 1</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
+<tr> <td></td> <td>1 </td><td>Lingineni,Khushal </td><td> </td><td>1</td></tr> 
+<thead><tr><th>Board 2</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
+<tr> <td></td> <td>1 </td><td>Nguyen, Anh Kiet </td><td> </td><td>1</td></tr> 
+<thead><tr><th>Board 3</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
+<tr> <td></td> <td>1 </td><td>Parker,Lucas </td><td> </td><td>1</td></tr> 
+</tbody>
+</table></div>
+		  </div>
+		      </div>
+         <div class="d-none d-lg-block col-1 pe-0">
+           <div class="d-flex flex-column w-full overflow-hidden">
+   </div> </div>  </div>  </div> </section>
+    <footer id="footer" class="bg-light py-5 mt-5 border-bottom border-light-subtle border-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Hobsons Bay Chess Club - AUS)
+  <?php if (file_exists($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php')) include($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php'); ?>    </div>  </div>  </div> </div> 
+   </footer>
+     </div>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script></body>
+</html>
