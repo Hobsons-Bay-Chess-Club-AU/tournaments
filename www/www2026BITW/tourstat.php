@@ -39,16 +39,16 @@
 <tr><td > Play System</td> <td> swiss FIDE Dutch 2017 (JaVaFo)</td> </tr>
 <tr><td >Rounds</td> <td> 5</td> </tr>
 <tr><td >Score game</td> <td> 0-0.5-1</td> </tr>
-<tr><td >Tie break</td> <td>      BH </td> </tr>
-<tr><td >Registered Players</td> <td> 102</td> </tr>
+<tr><td >Tie break</td> <td> BH </td> </tr>
+<tr><td >Registered Players</td> <td> 105</td> </tr>
 <tr><td > Number of Federations</td> <td> 6</td> </tr>
-<tr><td >Average Rating (all) </td> <td> 1220</td> </tr>
-<tr><td >Average Rating (only FIDE rated) </td> <td> 1654</td> </tr>
-<tr ><td > Players from AUS Federation</td> <td> 9</td> </tr>
-<tr><td > Players NOT from AUS Federation</td> <td> 93</td> </tr>
-<tr><td > FIDE rated players </td> <td> 73</td> </tr>
-<tr><td > unrated players </td> <td> 29</td> </tr>
-<tr><td > unrated players from AUS Federation</td> <td> 2</td> </tr>
+<tr><td >Average Rating (all) </td> <td> 1229</td> </tr>
+<tr><td >Average Rating (only FIDE rated) </td> <td> 1656</td> </tr>
+<tr ><td > Players from AUS Federation</td> <td> 10</td> </tr>
+<tr><td > Players NOT from AUS Federation</td> <td> 95</td> </tr>
+<tr><td > FIDE rated players </td> <td> 75</td> </tr>
+<tr><td > unrated players </td> <td> 30</td> </tr>
+<tr><td > unrated players from AUS Federation</td> <td> 3</td> </tr>
 <tr><td >unrated players NOT from AUS Federation</td> <td> 27</td> </tr>
 <tr><td > unrated Federations</td> <td> 2</td> </tr>
 <tr><td > FIDE titled players </td> <td> 10</td> </tr>
