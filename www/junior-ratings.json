@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-15T11:55:49.674Z",
+  "generatedAt": "2026-07-21T07:31:21.409Z",
   "year": "2026",
-  "count": 175,
+  "count": 218,
   "totalTournaments": 19,
   "players": [
     {
@@ -10,7 +10,7 @@
       "fideId": "532011059",
       "gender": "male",
       "href": "playercard.html#8",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -18,6 +18,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -43,7 +50,7 @@
       ],
       "points": {
         "standard": 12,
-        "rapid": 0,
+        "rapid": 5.5,
         "blitz": 0
       },
       "title": "",
@@ -54,6 +61,36 @@
       "acfClassic": 1045,
       "acfQuick": 812,
       "acfId": "0012854"
+    },
+    {
+      "name": "Akula,Ayaansh Ved",
+      "id": "72",
+      "fideId": "0",
+      "gender": "male",
+      "href": "playercard.html#72",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 2,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 2,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2019,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3220673"
     },
     {
       "name": "Alwani,Manas",
@@ -121,7 +158,7 @@
       "fideId": "3275779",
       "gender": "male",
       "href": "playercard.html#6",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -129,6 +166,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -154,7 +198,7 @@
       ],
       "points": {
         "standard": 7,
-        "rapid": 5.5,
+        "rapid": 11,
         "blitz": 0
       },
       "title": "",
@@ -168,12 +212,19 @@
     },
     {
       "name": "Annapureddy,Dhruthin Reddy",
-      "id": "8",
+      "id": "13",
       "fideId": "3239683",
       "gender": "male",
-      "href": "playercard.html#8",
-      "tournamentCount": 3,
+      "href": "playercard.html#13",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 6,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3.5,
@@ -198,7 +249,7 @@
       ],
       "points": {
         "standard": 6,
-        "rapid": 6,
+        "rapid": 12,
         "blitz": 0
       },
       "title": "",
@@ -216,8 +267,15 @@
       "fideId": "3244806",
       "gender": "male",
       "href": "playercard.html#1",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 8,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 8,
@@ -228,7 +286,7 @@
       ],
       "points": {
         "standard": 0,
-        "rapid": 8,
+        "rapid": 16,
         "blitz": 0
       },
       "title": "FM",
@@ -241,38 +299,24 @@
       "acfId": "3197035"
     },
     {
-      "name": "Aquino,Zedric",
-      "id": "46",
+      "name": "Aquino, Zedric",
+      "id": "73",
       "fideId": "573003255",
       "gender": "male",
-      "href": "playercard.html#46",
-      "tournamentCount": 3,
+      "href": "playercard.html#73",
+      "tournamentCount": 1,
       "tournaments": [
         {
-          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
-          "score": 3,
-          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
-          "totalRounds": "7",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
-          "score": 2.5,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "wwwDesktop/data.json",
-          "score": 0,
-          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
-          "totalRounds": "7",
-          "ratingType": "standard"
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         }
       ],
       "points": {
-        "standard": 5.5,
-        "rapid": 0,
+        "standard": 0,
+        "rapid": 4,
         "blitz": 0
       },
       "title": "",
@@ -327,7 +371,7 @@
       "fideId": "3275108",
       "gender": "male",
       "href": "playercard.html#9",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -335,6 +379,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 6,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -367,7 +418,7 @@
       ],
       "points": {
         "standard": 14.5,
-        "rapid": 0,
+        "rapid": 6,
         "blitz": 0
       },
       "title": "",
@@ -380,12 +431,42 @@
       "acfId": "3204632"
     },
     {
+      "name": "Athukorala,Senula Ekmitha",
+      "id": "74",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#74",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 3,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 3,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
+    },
+    {
       "name": "Bacon,Levi",
       "id": "47",
       "fideId": "573002186",
       "gender": "male",
       "href": "playercard.html#47",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -393,6 +474,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 3,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -418,7 +506,7 @@
       ],
       "points": {
         "standard": 4,
-        "rapid": 0,
+        "rapid": 3,
         "blitz": 0
       },
       "title": "",
@@ -436,7 +524,7 @@
       "fideId": "573002194",
       "gender": "male",
       "href": "playercard.html#48",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -444,6 +532,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 3,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -476,7 +571,7 @@
       ],
       "points": {
         "standard": 3,
-        "rapid": 3,
+        "rapid": 6,
         "blitz": 0
       },
       "title": "",
@@ -494,7 +589,7 @@
       "fideId": "573002208",
       "gender": "male",
       "href": "playercard.html#49",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -502,6 +597,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -534,7 +636,7 @@
       ],
       "points": {
         "standard": 7.5,
-        "rapid": 3,
+        "rapid": 7,
         "blitz": 0
       },
       "title": "",
@@ -547,12 +649,42 @@
       "acfId": "3223845"
     },
     {
+      "name": "Balaji,Poshya",
+      "id": "76",
+      "fideId": "573006904",
+      "gender": "female",
+      "href": "playercard.html#76",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 3,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 3,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2020,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3226025"
+    },
+    {
       "name": "Balaji,Sai Sivesh",
       "id": "11",
       "fideId": "3286258",
       "gender": "male",
       "href": "playercard.html#11",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -560,6 +692,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 6,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -592,7 +731,7 @@
       ],
       "points": {
         "standard": 10.5,
-        "rapid": 6,
+        "rapid": 12,
         "blitz": 0
       },
       "title": "",
@@ -610,7 +749,7 @@
       "fideId": "3286266",
       "gender": "male",
       "href": "playercard.html#32",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -618,6 +757,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -650,7 +796,7 @@
       ],
       "points": {
         "standard": 8.5,
-        "rapid": 3,
+        "rapid": 8,
         "blitz": 0
       },
       "title": "",
@@ -694,12 +840,19 @@
     },
     {
       "name": "Barar,Ridam",
-      "id": "41",
+      "id": "59",
       "fideId": "3294080",
       "gender": "male",
-      "href": "playercard.html#41",
-      "tournamentCount": 2,
+      "href": "playercard.html#59",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 3,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
@@ -717,7 +870,7 @@
       ],
       "points": {
         "standard": 2,
-        "rapid": 4,
+        "rapid": 7,
         "blitz": 0
       },
       "title": "",
@@ -730,51 +883,23 @@
       "acfId": "3219111"
     },
     {
-      "name": "Batyrbekov,Aidan",
-      "id": "7",
+      "name": "Batyrbekov, Aidan",
+      "id": "14",
       "fideId": "3265439",
       "gender": "male",
-      "href": "playercard.html#7",
-      "tournamentCount": 5,
+      "href": "playercard.html#14",
+      "tournamentCount": 1,
       "tournaments": [
         {
-          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
           "score": 6,
-          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
-          "totalRounds": "7",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
-          "score": 4,
-          "name": "2026 HBCC Honourable Bob Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
-          "score": 4,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026WesternJuniorsRapid/data.json",
-          "score": 6,
-          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
-        },
-        {
-          "tournament": "wwwDesktop/data.json",
-          "score": 0,
-          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
-          "totalRounds": "7",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 14,
+        "standard": 0,
         "rapid": 6,
         "blitz": 0
       },
@@ -788,52 +913,24 @@
       "acfId": "3203840"
     },
     {
-      "name": "Batyrbekov,Kaisar",
-      "id": "4",
+      "name": "Batyrbekov, Kaisar",
+      "id": "9",
       "fideId": "3265447",
       "gender": "male",
-      "href": "playercard.html#4",
-      "tournamentCount": 5,
+      "href": "playercard.html#9",
+      "tournamentCount": 1,
       "tournaments": [
         {
-          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
-          "score": 5,
-          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
-          "totalRounds": "7",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
-          "score": 4.5,
-          "name": "2026 HBCC Honourable Bob Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
-          "score": 4,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026WesternJuniorsRapid/data.json",
-          "score": 5.5,
-          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 6,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
-        },
-        {
-          "tournament": "wwwDesktop/data.json",
-          "score": 0,
-          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
-          "totalRounds": "7",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 13.5,
-        "rapid": 5.5,
+        "standard": 0,
+        "rapid": 6,
         "blitz": 0
       },
       "title": "",
@@ -846,45 +943,24 @@
       "acfId": "3204363"
     },
     {
-      "name": "Bhadrapura,Vismay",
-      "id": "50",
+      "name": "Bhadrapura, Vismay",
+      "id": "51",
       "fideId": "573003263",
       "gender": "male",
-      "href": "playercard.html#50",
-      "tournamentCount": 4,
+      "href": "playercard.html#51",
+      "tournamentCount": 1,
       "tournaments": [
         {
-          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
-          "score": 2.5,
-          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
-          "totalRounds": "7",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
-          "score": 3,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026WesternJuniorsRapid/data.json",
-          "score": 5,
-          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
-        },
-        {
-          "tournament": "wwwDesktop/data.json",
-          "score": 0,
-          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
-          "totalRounds": "7",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 5.5,
-        "rapid": 5,
+        "standard": 0,
+        "rapid": 5.5,
         "blitz": 0
       },
       "title": "",
@@ -897,12 +973,42 @@
       "acfId": "3225384"
     },
     {
+      "name": "Bhat,Dhruv",
+      "id": "20",
+      "fideId": "3289494",
+      "gender": "male",
+      "href": "playercard.html#20",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 6,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 6,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2015,
+      "fideStandard": 1601,
+      "fideRapid": 1442,
+      "fideBlitz": 1431,
+      "acfClassic": 1054,
+      "acfQuick": 966,
+      "acfId": "3217626"
+    },
+    {
       "name": "Bodke,Aryan",
       "id": "37",
       "fideId": "3286274",
       "gender": "male",
       "href": "playercard.html#37",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -910,6 +1016,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -942,7 +1055,7 @@
       ],
       "points": {
         "standard": 7,
-        "rapid": 4,
+        "rapid": 9,
         "blitz": 0
       },
       "title": "",
@@ -956,12 +1069,19 @@
     },
     {
       "name": "Bodke,Krishna Manthan",
-      "id": "6",
+      "id": "7",
       "fideId": "3259021",
       "gender": "male",
-      "href": "playercard.html#6",
-      "tournamentCount": 1,
+      "href": "playercard.html#7",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 7.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5.5,
@@ -972,7 +1092,7 @@
       ],
       "points": {
         "standard": 0,
-        "rapid": 5.5,
+        "rapid": 13,
         "blitz": 0
       },
       "title": "",
@@ -1015,12 +1135,42 @@
       "acfId": "3205063"
     },
     {
+      "name": "Borle,Anvay",
+      "id": "77",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#77",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 3,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 3,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
+    },
+    {
       "name": "Borle,Swarit",
       "id": "51",
       "fideId": "573006238",
       "gender": "male",
       "href": "playercard.html#51",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -1028,6 +1178,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 3.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "wwwDesktop/data.json",
@@ -1039,7 +1196,7 @@
       ],
       "points": {
         "standard": 2.5,
-        "rapid": 0,
+        "rapid": 3.5,
         "blitz": 0
       },
       "title": "",
@@ -1332,6 +1489,36 @@
       "acfId": "3204385"
     },
     {
+      "name": "Ding,Charlene",
+      "id": "79",
+      "fideId": "3296962",
+      "gender": "female",
+      "href": "playercard.html#79",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 4,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 1469,
+      "acfClassic": 302,
+      "acfQuick": 524,
+      "acfId": "3218352"
+    },
+    {
       "name": "Djatschenko,Addison",
       "id": "1",
       "fideId": "3256391",
@@ -1418,7 +1605,7 @@
       "fideId": "3291154",
       "gender": "female",
       "href": "playercard.html#38",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -1426,6 +1613,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -1458,7 +1652,7 @@
       ],
       "points": {
         "standard": 7,
-        "rapid": 5,
+        "rapid": 10,
         "blitz": 0
       },
       "title": "",
@@ -1662,12 +1856,19 @@
     },
     {
       "name": "Gali,Joyel Evan",
-      "id": "16",
+      "id": "36",
       "fideId": "573001627",
       "gender": "male",
-      "href": "playercard.html#16",
-      "tournamentCount": 2,
+      "href": "playercard.html#36",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 4,
@@ -1685,7 +1886,7 @@
       ],
       "points": {
         "standard": 2,
-        "rapid": 4,
+        "rapid": 8,
         "blitz": 0
       },
       "title": "",
@@ -1733,7 +1934,7 @@
       "fideId": "3286304",
       "gender": "female",
       "href": "playercard.html#43",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -1741,6 +1942,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -1773,7 +1981,7 @@
       ],
       "points": {
         "standard": 7,
-        "rapid": 3,
+        "rapid": 7,
         "blitz": 0
       },
       "title": "",
@@ -1791,7 +1999,7 @@
       "fideId": "3286312",
       "gender": "male",
       "href": "playercard.html#44",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -1799,6 +2007,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 3,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -1831,7 +2046,7 @@
       ],
       "points": {
         "standard": 5,
-        "rapid": 2,
+        "rapid": 5,
         "blitz": 0
       },
       "title": "",
@@ -1849,7 +2064,7 @@
       "fideId": "3254917",
       "gender": "male",
       "href": "playercard.html#28",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -1857,6 +2072,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -1889,7 +2111,7 @@
       ],
       "points": {
         "standard": 8,
-        "rapid": 3.5,
+        "rapid": 8.5,
         "blitz": 0
       },
       "title": "",
@@ -2013,24 +2235,24 @@
       "acfId": "3221900"
     },
     {
-      "name": "Ha,Aeson",
-      "id": "9",
+      "name": "Ha, Aeson",
+      "id": "10",
       "fideId": "3280268",
       "gender": "male",
-      "href": "playercard.html#9",
+      "href": "playercard.html#10",
       "tournamentCount": 1,
       "tournaments": [
         {
-          "tournament": "www2026WesternJuniorsRapid/data.json",
-          "score": 6,
-          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 7,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 0,
-        "rapid": 6,
+        "rapid": 7,
         "blitz": 0
       },
       "title": "",
@@ -2081,12 +2303,19 @@
     },
     {
       "name": "Hii,Elliott",
-      "id": "73",
+      "id": "80",
       "fideId": "3297381",
       "gender": "male",
-      "href": "playercard.html#73",
-      "tournamentCount": 1,
+      "href": "playercard.html#80",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 2,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 2,
@@ -2097,7 +2326,7 @@
       ],
       "points": {
         "standard": 0,
-        "rapid": 2,
+        "rapid": 4,
         "blitz": 0
       },
       "title": "",
@@ -2145,7 +2374,7 @@
       "fideId": "3286320",
       "gender": "male",
       "href": "playercard.html#12",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -2153,6 +2382,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 6,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2185,7 +2421,7 @@
       ],
       "points": {
         "standard": 11.5,
-        "rapid": 5,
+        "rapid": 11,
         "blitz": 0
       },
       "title": "",
@@ -2330,7 +2566,7 @@
       "fideId": "3284670",
       "gender": "male",
       "href": "playercard.html#15",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -2338,6 +2574,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2370,7 +2613,7 @@
       ],
       "points": {
         "standard": 10.5,
-        "rapid": 6,
+        "rapid": 11.5,
         "blitz": 0
       },
       "title": "",
@@ -2388,7 +2631,7 @@
       "fideId": "3293840",
       "gender": "male",
       "href": "playercard.html#41",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -2396,6 +2639,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -2428,7 +2678,7 @@
       ],
       "points": {
         "standard": 7,
-        "rapid": 3.5,
+        "rapid": 7.5,
         "blitz": 0
       },
       "title": "",
@@ -2442,12 +2692,19 @@
     },
     {
       "name": "Kansal,Nuwan",
-      "id": "17",
+      "id": "5",
       "fideId": "3282856",
       "gender": "male",
-      "href": "playercard.html#17",
-      "tournamentCount": 1,
+      "href": "playercard.html#5",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 6,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 6.5,
@@ -2458,7 +2715,7 @@
       ],
       "points": {
         "standard": 0,
-        "rapid": 6.5,
+        "rapid": 12.5,
         "blitz": 0
       },
       "title": "",
@@ -2523,12 +2780,19 @@
     },
     {
       "name": "Katakam,Aadhya Sai",
-      "id": "21",
+      "id": "25",
       "fideId": "3265560",
       "gender": "female",
-      "href": "playercard.html#21",
-      "tournamentCount": 1,
+      "href": "playercard.html#25",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5,
@@ -2539,7 +2803,7 @@
       ],
       "points": {
         "standard": 0,
-        "rapid": 5,
+        "rapid": 10.5,
         "blitz": 0
       },
       "title": "",
@@ -2553,12 +2817,19 @@
     },
     {
       "name": "Katakam,Deethya Sai",
-      "id": "7",
+      "id": "6",
       "fideId": "3244377",
       "gender": "female",
-      "href": "playercard.html#7",
-      "tournamentCount": 1,
+      "href": "playercard.html#6",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 6.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 7,
@@ -2569,7 +2840,7 @@
       ],
       "points": {
         "standard": 0,
-        "rapid": 7,
+        "rapid": 13.5,
         "blitz": 0
       },
       "title": "WCM",
@@ -2580,6 +2851,36 @@
       "acfClassic": 1505,
       "acfQuick": 1503,
       "acfId": "3194725"
+    },
+    {
+      "name": "Kaur, Mishleen",
+      "id": "39",
+      "fideId": "3292347",
+      "gender": "female",
+      "href": "playercard.html#39",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 4.5,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2017,
+      "fideStandard": 0,
+      "fideRapid": 1510,
+      "fideBlitz": 1430,
+      "acfClassic": 553,
+      "acfQuick": 645,
+      "acfId": "3220474"
     },
     {
       "name": "Kaur,Arveen",
@@ -2610,64 +2911,6 @@
       "acfClassic": 100,
       "acfQuick": 100,
       "acfId": "3222714"
-    },
-    {
-      "name": "Kaur,Mishleen",
-      "id": "27",
-      "fideId": "3292347",
-      "gender": "female",
-      "href": "playercard.html#27",
-      "tournamentCount": 5,
-      "tournaments": [
-        {
-          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
-          "score": 2.5,
-          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
-          "totalRounds": "7",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
-          "score": 3,
-          "name": "2026 HBCC Honourable Bob Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
-          "score": 2,
-          "name": "2026 HBCC Purdy Cup Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026WesternJuniorsRapid/data.json",
-          "score": 5,
-          "name": "2026 HBCC Western Juniors Rapid Championship",
-          "totalRounds": "9",
-          "ratingType": "rapid"
-        },
-        {
-          "tournament": "wwwDesktop/data.json",
-          "score": 0,
-          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
-          "totalRounds": "7",
-          "ratingType": "standard"
-        }
-      ],
-      "points": {
-        "standard": 7.5,
-        "rapid": 5,
-        "blitz": 0
-      },
-      "title": "",
-      "birthYear": 2017,
-      "fideStandard": 0,
-      "fideRapid": 1510,
-      "fideBlitz": 1430,
-      "acfClassic": 553,
-      "acfQuick": 645,
-      "acfId": "3220474"
     },
     {
       "name": "Khanna,Daksh",
@@ -2707,13 +2950,80 @@
       "acfId": "3224022"
     },
     {
+      "name": "Kirieldeniya Don, George",
+      "id": "81",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#81",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 1,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 1,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
+    },
+    {
+      "name": "Kommina, Nihira",
+      "id": "82",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#82",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 3,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 3,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
+    },
+    {
       "name": "Kommina,Bhavishya",
-      "id": "63",
+      "id": "53",
       "fideId": "573002259",
       "gender": "female",
-      "href": "playercard.html#63",
-      "tournamentCount": 3,
+      "href": "playercard.html#53",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2,
@@ -2738,7 +3048,7 @@
       ],
       "points": {
         "standard": 5,
-        "rapid": 4,
+        "rapid": 9,
         "blitz": 0
       },
       "title": "",
@@ -2782,12 +3092,19 @@
     },
     {
       "name": "Koppuravuri,Haneesh",
-      "id": "65",
+      "id": "83",
       "fideId": "3295311",
       "gender": "male",
-      "href": "playercard.html#65",
-      "tournamentCount": 1,
+      "href": "playercard.html#83",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 2,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 1,
@@ -2798,7 +3115,7 @@
       ],
       "points": {
         "standard": 1,
-        "rapid": 0,
+        "rapid": 2,
         "blitz": 0
       },
       "title": "",
@@ -2872,12 +3189,19 @@
     },
     {
       "name": "Krishnan,Sanjay",
-      "id": "62",
+      "id": "46",
       "fideId": "573003271",
       "gender": "male",
-      "href": "playercard.html#62",
-      "tournamentCount": 3,
+      "href": "playercard.html#46",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 2,
@@ -2902,7 +3226,7 @@
       ],
       "points": {
         "standard": 4.5,
-        "rapid": 3.5,
+        "rapid": 7.5,
         "blitz": 0
       },
       "title": "",
@@ -2916,12 +3240,19 @@
     },
     {
       "name": "Krishnan,Sanjit",
-      "id": "63",
+      "id": "49",
       "fideId": "573003280",
       "gender": "male",
-      "href": "playercard.html#63",
-      "tournamentCount": 3,
+      "href": "playercard.html#49",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 2,
@@ -2946,7 +3277,7 @@
       ],
       "points": {
         "standard": 4,
-        "rapid": 4,
+        "rapid": 9.5,
         "blitz": 0
       },
       "title": "",
@@ -3110,12 +3441,19 @@
     },
     {
       "name": "Le,Khoi Nguyen",
-      "id": "26",
+      "id": "23",
       "fideId": "561001155",
       "gender": "male",
-      "href": "playercard.html#26",
-      "tournamentCount": 1,
+      "href": "playercard.html#23",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5.5,
@@ -3126,7 +3464,7 @@
       ],
       "points": {
         "standard": 0,
-        "rapid": 5.5,
+        "rapid": 11,
         "blitz": 0
       },
       "title": "",
@@ -3137,6 +3475,66 @@
       "acfClassic": 0,
       "acfQuick": 851,
       "acfId": "3221911"
+    },
+    {
+      "name": "Li,Donghan",
+      "id": "32",
+      "fideId": "3276554",
+      "gender": "male",
+      "href": "playercard.html#32",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 0,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2012,
+      "fideStandard": 1444,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 533,
+      "acfQuick": 744,
+      "acfId": "3213474"
+    },
+    {
+      "name": "Li,Douglas",
+      "id": "84",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#84",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 4,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
     },
     {
       "name": "Li,LiYuan",
@@ -3278,7 +3676,7 @@
       "fideId": "3297403",
       "gender": "female",
       "href": "playercard.html#42",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -3286,6 +3684,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -3318,7 +3723,7 @@
       ],
       "points": {
         "standard": 6,
-        "rapid": 3,
+        "rapid": 7,
         "blitz": 0
       },
       "title": "",
@@ -3329,6 +3734,96 @@
       "acfClassic": 279,
       "acfQuick": 218,
       "acfId": "3221034"
+    },
+    {
+      "name": "Mai Nhuan Phat",
+      "id": "8",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#8",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 7,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 7,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
+    },
+    {
+      "name": "Malik,Arjun",
+      "id": "85",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#85",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 3,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 3,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
+    },
+    {
+      "name": "Malik,Eklavya",
+      "id": "86",
+      "fideId": "0",
+      "gender": "male",
+      "href": "playercard.html#86",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 4,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3219940"
     },
     {
       "name": "Mallajosyula,Srivaths",
@@ -3583,6 +4078,36 @@
       "acfId": "3224195"
     },
     {
+      "name": "Mathew,Jake",
+      "id": "87",
+      "fideId": "0",
+      "gender": "male",
+      "href": "playercard.html#87",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 2,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 2,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2018,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3226106"
+    },
+    {
       "name": "McIntyre,Julian",
       "id": "6",
       "fideId": "3232182",
@@ -3614,12 +4139,19 @@
     },
     {
       "name": "Menghani,Ishaan",
-      "id": "69",
+      "id": "62",
       "fideId": "3298213",
       "gender": "male",
-      "href": "playercard.html#69",
-      "tournamentCount": 1,
+      "href": "playercard.html#62",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 3,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 1,
@@ -3630,7 +4162,7 @@
       ],
       "points": {
         "standard": 1,
-        "rapid": 0,
+        "rapid": 3,
         "blitz": 0
       },
       "title": "",
@@ -3703,13 +4235,80 @@
       "acfId": "3224243"
     },
     {
-      "name": "Munro,Lachlan",
-      "id": "24",
-      "fideId": "3291197",
+      "name": "Moser,Luke",
+      "id": "58",
+      "fideId": "3295672",
       "gender": "male",
-      "href": "playercard.html#24",
+      "href": "playercard.html#58",
       "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 4.5,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2015,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 488,
+      "acfQuick": 382,
+      "acfId": "3219413"
+    },
+    {
+      "name": "Moser,William",
+      "id": "41",
+      "fideId": "3295680",
+      "gender": "male",
+      "href": "playercard.html#41",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 4,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2013,
+      "fideStandard": 1476,
+      "fideRapid": 1456,
+      "fideBlitz": 0,
+      "acfClassic": 587,
+      "acfQuick": 625,
+      "acfId": "3219520"
+    },
+    {
+      "name": "Munro,Lachlan",
+      "id": "21",
+      "fideId": "3291197",
+      "gender": "male",
+      "href": "playercard.html#21",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 6,
@@ -3720,7 +4319,7 @@
       ],
       "points": {
         "standard": 0,
-        "rapid": 6,
+        "rapid": 11,
         "blitz": 0
       },
       "title": "",
@@ -3768,7 +4367,7 @@
       "fideId": "3289923",
       "gender": "male",
       "href": "playercard.html#18",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -3776,6 +4375,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 3.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -3808,7 +4414,7 @@
       ],
       "points": {
         "standard": 11,
-        "rapid": 4.5,
+        "rapid": 8,
         "blitz": 0
       },
       "title": "",
@@ -3821,31 +4427,24 @@
       "acfId": "3217486"
     },
     {
-      "name": "Nguyen,Anh Kiet",
-      "id": "4",
+      "name": "Nguyen, Anh Kiet",
+      "id": "3",
       "fideId": "3267849",
       "gender": "male",
-      "href": "playercard.html#4",
-      "tournamentCount": 2,
+      "href": "playercard.html#3",
+      "tournamentCount": 1,
       "tournaments": [
         {
-          "tournament": "www2026WesternJuniorsRapid/data.json",
-          "score": 7,
-          "name": "2026 HBCC Western Juniors Rapid Championship",
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 6.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
-        },
-        {
-          "tournament": "www2026WesternMastersOpen/data.json",
-          "score": 3,
-          "name": "Hobsons Bay Western Masters 2026",
-          "totalRounds": "5",
-          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
-        "rapid": 7,
+        "standard": 0,
+        "rapid": 6.5,
         "blitz": 0
       },
       "title": "CM",
@@ -3916,6 +4515,36 @@
       "acfClassic": 1494,
       "acfQuick": 1494,
       "acfId": "0014986"
+    },
+    {
+      "name": "Ni,Brandon",
+      "id": "34",
+      "fideId": "573008273",
+      "gender": "male",
+      "href": "playercard.html#34",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 5,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 687,
+      "acfId": "3223860"
     },
     {
       "name": "Northe-McCulloch, Jack",
@@ -4029,12 +4658,42 @@
       "acfId": "3224442"
     },
     {
+      "name": "Padoli,Darsh",
+      "id": "38",
+      "fideId": "3297411",
+      "gender": "male",
+      "href": "playercard.html#38",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 4,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 0,
+      "fideRapid": 1568,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 648,
+      "acfId": "3214885"
+    },
+    {
       "name": "Pai,Tesha",
       "id": "56",
       "fideId": "573003344",
       "gender": "female",
       "href": "playercard.html#56",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -4042,6 +4701,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 3,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -4067,7 +4733,7 @@
       ],
       "points": {
         "standard": 1,
-        "rapid": 0,
+        "rapid": 3,
         "blitz": 0
       },
       "title": "",
@@ -4085,7 +4751,7 @@
       "fideId": "573006246",
       "gender": "male",
       "href": "playercard.html#57",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -4093,6 +4759,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 3.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "wwwDesktop/data.json",
@@ -4104,7 +4777,37 @@
       ],
       "points": {
         "standard": 1.5,
-        "rapid": 0,
+        "rapid": 3.5,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
+    },
+    {
+      "name": "Panchaparvala,Sriram",
+      "id": "90",
+      "fideId": "573007935",
+      "gender": "male",
+      "href": "playercard.html#90",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 4,
         "blitz": 0
       },
       "title": "",
@@ -4122,8 +4825,15 @@
       "fideId": "311110949",
       "gender": "male",
       "href": "playercard.html#4",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 7,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 3.5,
@@ -4141,7 +4851,7 @@
       ],
       "points": {
         "standard": 3.5,
-        "rapid": 7,
+        "rapid": 14,
         "blitz": 0
       },
       "title": "",
@@ -4219,7 +4929,7 @@
       "fideId": "3294110",
       "gender": "male",
       "href": "playercard.html#58",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -4227,6 +4937,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "wwwDesktop/data.json",
@@ -4238,7 +4955,7 @@
       ],
       "points": {
         "standard": 3.5,
-        "rapid": 0,
+        "rapid": 4.5,
         "blitz": 0
       },
       "title": "",
@@ -4249,6 +4966,36 @@
       "acfClassic": 0,
       "acfQuick": 0,
       "acfId": "3219144"
+    },
+    {
+      "name": "Pentela, Tharun",
+      "id": "52",
+      "fideId": "3297420",
+      "gender": "male",
+      "href": "playercard.html#52",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 5,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2015,
+      "fideStandard": 0,
+      "fideRapid": 1494,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 483,
+      "acfId": "3219995"
     },
     {
       "name": "Polus,Elyano",
@@ -4293,7 +5040,7 @@
       "fideId": "3297438",
       "gender": "male",
       "href": "playercard.html#60",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -4301,6 +5048,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -4340,7 +5094,7 @@
       ],
       "points": {
         "standard": 7,
-        "rapid": 4,
+        "rapid": 8.5,
         "blitz": 0
       },
       "title": "",
@@ -4354,12 +5108,19 @@
     },
     {
       "name": "Prince,Aliza",
-      "id": "30",
+      "id": "29",
       "fideId": "3283941",
       "gender": "female",
-      "href": "playercard.html#30",
-      "tournamentCount": 1,
+      "href": "playercard.html#29",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2.5,
@@ -4370,7 +5131,7 @@
       ],
       "points": {
         "standard": 2.5,
-        "rapid": 0,
+        "rapid": 5,
         "blitz": 0
       },
       "title": "",
@@ -4388,7 +5149,7 @@
       "fideId": "3297020",
       "gender": "male",
       "href": "playercard.html#61",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -4396,6 +5157,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "wwwDesktop/data.json",
@@ -4407,7 +5175,7 @@
       ],
       "points": {
         "standard": 2,
-        "rapid": 0,
+        "rapid": 4,
         "blitz": 0
       },
       "title": "",
@@ -4425,7 +5193,7 @@
       "fideId": "3275221",
       "gender": "male",
       "href": "playercard.html#3",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -4433,6 +5201,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 6,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -4465,7 +5240,7 @@
       ],
       "points": {
         "standard": 15,
-        "rapid": 6,
+        "rapid": 12,
         "blitz": 0
       },
       "title": "",
@@ -4531,13 +5306,80 @@
       "acfId": "3212785"
     },
     {
+      "name": "Rao,Krishay",
+      "id": "40",
+      "fideId": "573004200",
+      "gender": "male",
+      "href": "playercard.html#40",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 5,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 1460,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 630,
+      "acfId": "3225071"
+    },
+    {
+      "name": "Rathore,Akshobhya",
+      "id": "11",
+      "fideId": "3276589",
+      "gender": "male",
+      "href": "playercard.html#11",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 6,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 6,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2013,
+      "fideStandard": 1624,
+      "fideRapid": 1586,
+      "fideBlitz": 0,
+      "acfClassic": 1401,
+      "acfQuick": 1337,
+      "acfId": "3206194"
+    },
+    {
       "name": "Rawat,Vivaan",
-      "id": "20",
+      "id": "15",
       "fideId": "3293637",
       "gender": "male",
-      "href": "playercard.html#20",
-      "tournamentCount": 2,
+      "href": "playercard.html#15",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3,
@@ -4555,7 +5397,7 @@
       ],
       "points": {
         "standard": 3,
-        "rapid": 5.5,
+        "rapid": 11,
         "blitz": 0
       },
       "title": "",
@@ -4610,7 +5452,7 @@
       "fideId": "3281345",
       "gender": "male",
       "href": "playercard.html#13",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -4618,6 +5460,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 7,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -4657,7 +5506,7 @@
       ],
       "points": {
         "standard": 12,
-        "rapid": 5.5,
+        "rapid": 12.5,
         "blitz": 0
       },
       "title": "",
@@ -4705,7 +5554,7 @@
       "fideId": "573003352",
       "gender": "male",
       "href": "playercard.html#62",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -4713,6 +5562,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -4731,7 +5587,7 @@
       ],
       "points": {
         "standard": 4,
-        "rapid": 0,
+        "rapid": 4,
         "blitz": 0
       },
       "title": "",
@@ -4749,7 +5605,7 @@
       "fideId": "3264173",
       "gender": "male",
       "href": "playercard.html#17",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -4757,6 +5613,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
@@ -4775,7 +5638,7 @@
       ],
       "points": {
         "standard": 3.5,
-        "rapid": 5.5,
+        "rapid": 11,
         "blitz": 0
       },
       "title": "",
@@ -4786,6 +5649,36 @@
       "acfClassic": 827,
       "acfQuick": 816,
       "acfId": "3203991"
+    },
+    {
+      "name": "Salimeda,Yuvan",
+      "id": "92",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#92",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 2,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 2,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
     },
     {
       "name": "Samraat, Aayush",
@@ -4922,12 +5815,42 @@
       "acfId": "3220194"
     },
     {
+      "name": "Sethi,Vivaan",
+      "id": "93",
+      "fideId": "3292363",
+      "gender": "male",
+      "href": "playercard.html#93",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 4,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2017,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3220883"
+    },
+    {
       "name": "Shaiek,Nihal",
       "id": "22",
       "fideId": "3286380",
       "gender": "male",
       "href": "playercard.html#22",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -4935,6 +5858,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -4967,7 +5897,7 @@
       ],
       "points": {
         "standard": 10,
-        "rapid": 5.5,
+        "rapid": 10.5,
         "blitz": 0
       },
       "title": "",
@@ -5075,7 +6005,7 @@
       "fideId": "3273547",
       "gender": "male",
       "href": "playercard.html#33",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -5083,6 +6013,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -5108,7 +6045,7 @@
       ],
       "points": {
         "standard": 7,
-        "rapid": 5,
+        "rapid": 10,
         "blitz": 0
       },
       "title": "",
@@ -5193,7 +6130,7 @@
       "fideId": "3289974",
       "gender": "male",
       "href": "playercard.html#31",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -5201,6 +6138,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -5233,7 +6177,7 @@
       ],
       "points": {
         "standard": 9.5,
-        "rapid": 3,
+        "rapid": 7,
         "blitz": 0
       },
       "title": "",
@@ -5244,6 +6188,36 @@
       "acfClassic": 348,
       "acfQuick": 357,
       "acfId": "3217545"
+    },
+    {
+      "name": "Srinivasan,Sathvik",
+      "id": "94",
+      "fideId": "573006963",
+      "gender": "male",
+      "href": "playercard.html#94",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 4,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 1445,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
     },
     {
       "name": "Steinmann,Keigan",
@@ -5334,13 +6308,80 @@
       "acfId": "3221933"
     },
     {
+      "name": "Sun,Aaron",
+      "id": "95",
+      "fideId": "0",
+      "gender": "male",
+      "href": "playercard.html#95",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 4,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2019,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3225826"
+    },
+    {
+      "name": "Tadakamadla,Ahaan",
+      "id": "35",
+      "fideId": "3287890",
+      "gender": "male",
+      "href": "playercard.html#35",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 6,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 6,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2014,
+      "fideStandard": 1517,
+      "fideRapid": 1461,
+      "fideBlitz": 0,
+      "acfClassic": 874,
+      "acfQuick": 687,
+      "acfId": "3217965"
+    },
+    {
       "name": "Tan,Lucas",
-      "id": "77",
+      "id": "47",
       "fideId": "3291235",
       "gender": "male",
-      "href": "playercard.html#77",
-      "tournamentCount": 3,
+      "href": "playercard.html#47",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 1.5,
@@ -5365,7 +6406,7 @@
       ],
       "points": {
         "standard": 3.5,
-        "rapid": 4,
+        "rapid": 8,
         "blitz": 0
       },
       "title": "",
@@ -5406,6 +6447,96 @@
       "acfClassic": 0,
       "acfQuick": 296,
       "acfId": "3220931"
+    },
+    {
+      "name": "Thambavitage,Pahansa",
+      "id": "96",
+      "fideId": "0",
+      "gender": "female",
+      "href": "playercard.html#96",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 5,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3219660"
+    },
+    {
+      "name": "Trinh,Joseph",
+      "id": "97",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#97",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 2,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 2,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
+    },
+    {
+      "name": "Tsen,Jacob",
+      "id": "55",
+      "fideId": "573008290",
+      "gender": "male",
+      "href": "playercard.html#55",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 5,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2019,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 437,
+      "acfId": "3224916"
     },
     {
       "name": "Veeragandham, Gowtham",
@@ -5540,7 +6671,7 @@
       "fideId": "3291251",
       "gender": "male",
       "href": "playercard.html#14",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -5548,6 +6679,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -5580,7 +6718,7 @@
       ],
       "points": {
         "standard": 9.5,
-        "rapid": 5,
+        "rapid": 10,
         "blitz": 0
       },
       "title": "",
@@ -5598,7 +6736,7 @@
       "fideId": "3286410",
       "gender": "female",
       "href": "playercard.html#21",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -5606,6 +6744,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -5638,7 +6783,7 @@
       ],
       "points": {
         "standard": 8,
-        "rapid": 4,
+        "rapid": 9.5,
         "blitz": 0
       },
       "title": "",
@@ -5827,6 +6972,66 @@
       "acfId": "3220124"
     },
     {
+      "name": "Vithanage,Binon",
+      "id": "98",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#98",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 4.5,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
+    },
+    {
+      "name": "Wang, Evan",
+      "id": "56",
+      "fideId": "573002321",
+      "gender": "male",
+      "href": "playercard.html#56",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 5,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 1456,
+      "fideRapid": 1434,
+      "fideBlitz": 1418,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "6269196"
+    },
+    {
       "name": "Wang,Charlie",
       "id": "87",
       "fideId": "573005975",
@@ -5855,57 +7060,6 @@
       "acfClassic": 0,
       "acfQuick": 225,
       "acfId": "3225432"
-    },
-    {
-      "name": "Wang,Evan",
-      "id": "68",
-      "fideId": "573002321",
-      "gender": "male",
-      "href": "playercard.html#68",
-      "tournamentCount": 4,
-      "tournaments": [
-        {
-          "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
-          "score": 3.5,
-          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
-          "totalRounds": "7",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
-          "score": 1.5,
-          "name": "2026 HBCC Honourable Bob Rookies and Juniors",
-          "totalRounds": "5",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026WesternJuniorsRapid/data.json",
-          "score": 4,
-          "name": "2026 HBCC Western Juniors Rapid Championship",
-          "totalRounds": "9",
-          "ratingType": "rapid"
-        },
-        {
-          "tournament": "wwwDesktop/data.json",
-          "score": 0,
-          "name": "2026 Hobsons Bay Rookies and Juniors Cup",
-          "totalRounds": "7",
-          "ratingType": "standard"
-        }
-      ],
-      "points": {
-        "standard": 5,
-        "rapid": 4,
-        "blitz": 0
-      },
-      "title": "",
-      "birthYear": 2016,
-      "fideStandard": 1456,
-      "fideRapid": 1434,
-      "fideBlitz": 1418,
-      "acfClassic": 0,
-      "acfQuick": 0,
-      "acfId": "6269196"
     },
     {
       "name": "Wanniarachchie,Senaya",
@@ -5980,7 +7134,7 @@
       "fideId": "573002330",
       "gender": "male",
       "href": "playercard.html#23",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -5988,6 +7142,13 @@
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -6020,7 +7181,7 @@
       ],
       "points": {
         "standard": 10.5,
-        "rapid": 5,
+        "rapid": 10,
         "blitz": 0
       },
       "title": "",
@@ -6279,12 +7440,19 @@
     },
     {
       "name": "Yang,Heesan",
-      "id": "89",
+      "id": "99",
       "fideId": "573005983",
       "gender": "female",
-      "href": "playercard.html#89",
-      "tournamentCount": 1,
+      "href": "playercard.html#99",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 2.5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 2.5,
@@ -6295,7 +7463,7 @@
       ],
       "points": {
         "standard": 0,
-        "rapid": 2.5,
+        "rapid": 5,
         "blitz": 0
       },
       "title": "",
@@ -6306,6 +7474,36 @@
       "acfClassic": 0,
       "acfQuick": 0,
       "acfId": "3219225"
+    },
+    {
+      "name": "Yee,Julian",
+      "id": "100",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#100",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 2,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 2,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": null,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": ""
     },
     {
       "name": "Yegnavajjula,Aryan Srivatsav",
@@ -6447,13 +7645,80 @@
       "acfId": "3207771"
     },
     {
-      "name": "You,Henry",
-      "id": "52",
-      "fideId": "3297470",
+      "name": "Yong,Leonard",
+      "id": "48",
+      "fideId": "0",
       "gender": "male",
-      "href": "playercard.html#52",
+      "href": "playercard.html#48",
       "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 5,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 5,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2013,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 520,
+      "acfQuick": 537,
+      "acfId": "3212122"
+    },
+    {
+      "name": "Yong,Mabel",
+      "id": "101",
+      "fideId": "0",
+      "gender": "female",
+      "href": "playercard.html#101",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 3,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 3,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3221480"
+    },
+    {
+      "name": "You,Henry",
+      "id": "42",
+      "fideId": "3297470",
+      "gender": "male",
+      "href": "playercard.html#42",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5,
@@ -6464,7 +7729,7 @@
       ],
       "points": {
         "standard": 0,
-        "rapid": 5,
+        "rapid": 9,
         "blitz": 0
       },
       "title": "",
@@ -6535,6 +7800,36 @@
       "acfClassic": 1094,
       "acfQuick": 966,
       "acfId": "3210641"
+    },
+    {
+      "name": "Zhuang,Raymond",
+      "id": "102",
+      "fideId": "3230430",
+      "gender": "male",
+      "href": "playercard.html#102",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
+          "score": 4,
+          "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
+          "totalRounds": "9",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 4,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2003,
+      "fideStandard": 1575,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 1021,
+      "acfQuick": 1021,
+      "acfId": "4562141"
     }
   ]
 }
