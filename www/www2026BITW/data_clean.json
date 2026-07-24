@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T10:55:56.145Z",
+  "generatedAt": "2026-07-24T11:18:17.849Z",
   "tournament": {
     "id": "2026-hbcc-best-in-the-west",
     "name": "2026 HBCC Best in the West",
@@ -15,16 +15,16 @@
       "Rounds": "5",
       "Score game": "0-0.5-1",
       "Tie break": "BH",
-      "Registered Players": "114",
+      "Registered Players": "115",
       "Number of Federations": "6",
-      "Average Rating (all)": "1218",
+      "Average Rating (all)": "1208",
       "Average Rating (only FIDE rated)": "1654",
       "Players from AUS Federation": "11",
-      "Players NOT from AUS Federation": "103",
+      "Players NOT from AUS Federation": "104",
       "FIDE rated players": "81",
-      "unrated players": "33",
+      "unrated players": "34",
       "unrated players from AUS Federation": "3",
-      "unrated players NOT from AUS Federation": "30",
+      "unrated players NOT from AUS Federation": "31",
       "unrated Federations": "2",
       "FIDE titled players": "11",
       "GM players": "0",
@@ -47,11 +47,11 @@
       "rounds": 5,
       "scoreGame": "0-0.5-1",
       "tieBreak": "BH",
-      "registeredPlayers": 114,
-      "averageRating": 1218,
+      "registeredPlayers": 115,
+      "averageRating": 1208,
       "averageRatingFide": 1654,
       "fideRatedPlayers": 81,
-      "unratedPlayers": 33,
+      "unratedPlayers": 34,
       "fideTitledPlayers": 11
     }
   },
@@ -1342,7 +1342,7 @@
     },
     {
       "id": "108",
-      "name": "Vinu,Vaishnav",
+      "name": "Upadhyay,Viaan",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -1354,7 +1354,7 @@
     },
     {
       "id": "109",
-      "name": "Vinu,Vinayak",
+      "name": "Vinu,Vaishnav",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -1366,7 +1366,7 @@
     },
     {
       "id": "110",
-      "name": "Wang,Liam",
+      "name": "Vinu,Vinayak",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -1378,7 +1378,7 @@
     },
     {
       "id": "111",
-      "name": "Wang,Tim",
+      "name": "Wang,Liam",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -1390,7 +1390,7 @@
     },
     {
       "id": "112",
-      "name": "Wright,Leeyn",
+      "name": "Wang,Tim",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -1402,7 +1402,7 @@
     },
     {
       "id": "113",
-      "name": "Yoon,Nile",
+      "name": "Wright,Leeyn",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -1414,7 +1414,7 @@
     },
     {
       "id": "114",
-      "name": "Young,Matthew",
+      "name": "Yoon,Nile",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -1422,6 +1422,18 @@
       "fideFederation": "",
       "gender": "notitle",
       "href": "playercard.html#114",
+      "origin": ""
+    },
+    {
+      "id": "115",
+      "name": "Young,Matthew",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#115",
       "origin": ""
     }
   ],
@@ -2605,7 +2617,7 @@
             {
               "#": "108",
               "Title": "",
-              "Player": "Vinu,Vaishnav",
+              "Player": "Upadhyay,Viaan",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -2615,7 +2627,7 @@
             {
               "#": "109",
               "Title": "",
-              "Player": "Vinu,Vinayak",
+              "Player": "Vinu,Vaishnav",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -2625,7 +2637,7 @@
             {
               "#": "110",
               "Title": "",
-              "Player": "Wang,Liam",
+              "Player": "Vinu,Vinayak",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -2635,7 +2647,7 @@
             {
               "#": "111",
               "Title": "",
-              "Player": "Wang,Tim",
+              "Player": "Wang,Liam",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -2645,7 +2657,7 @@
             {
               "#": "112",
               "Title": "",
-              "Player": "Wright,Leeyn",
+              "Player": "Wang,Tim",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -2655,7 +2667,7 @@
             {
               "#": "113",
               "Title": "",
-              "Player": "Yoon,Nile",
+              "Player": "Wright,Leeyn",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -2664,6 +2676,16 @@
             },
             {
               "#": "114",
+              "Title": "",
+              "Player": "Yoon,Nile",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "115",
               "Title": "",
               "Player": "Young,Matthew",
               "Fed": "VIC",
@@ -8311,6 +8333,55 @@
             "rawHtml": " 114   <strong>Tai,Ethan           </strong>, K= 0, Elo=1470, ID=0015340\n<br>\n<a class=\"anchor\" name=\"114\"></a>"
           },
           "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Upadhyay,Viaan",
+            "id": "3218853",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "0",
+              "anchor": "115"
+            },
+            "rawText": "115   Upadhyay,Viaan      , K= 0, Elo=   0, ID=3218853",
+            "rawHtml": " 115   <strong>Upadhyay,Viaan      </strong>, K= 0, Elo=   0, ID=3218853\n<br>\n<a class=\"anchor\" name=\"115\"></a>"
+          },
+          "type": "other"
         }
       ],
       "tournamentType": "unknown"
@@ -8387,7 +8458,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "114"
+              "col2": "115"
             },
             {
               "col1": "Number of Federations",
@@ -8395,7 +8466,7 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "1218"
+              "col2": "1208"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
@@ -8407,7 +8478,7 @@
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "103"
+              "col2": "104"
             },
             {
               "col1": "FIDE rated players",
@@ -8415,7 +8486,7 @@
             },
             {
               "col1": "unrated players",
-              "col2": "33"
+              "col2": "34"
             },
             {
               "col1": "unrated players from AUS Federation",
@@ -8423,7 +8494,7 @@
             },
             {
               "col1": "unrated players NOT from AUS Federation",
-              "col2": "30"
+              "col2": "31"
             },
             {
               "col1": "unrated Federations",
@@ -8503,5 +8574,5 @@
       "children": []
     }
   ],
-  "md5Hash": "bb95a32845c717c0be45718a5bc8912b"
+  "md5Hash": "5a74557a88aa6de6cbb4411ac2ecae6f"
 }
