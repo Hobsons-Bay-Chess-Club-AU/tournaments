@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T11:18:18.388Z",
+  "generatedAt": "2026-07-25T10:54:50.535Z",
   "tournament": {
     "id": "2026-hobsons-bay-rookies-and-juniors-cup",
     "name": "2026 Hobsons Bay Rookies and Juniors Cup",
@@ -217,9 +217,9 @@
       "name": "Vemula,Thamoghna",
       "title": "",
       "federation": "VIC",
-      "fideId": "",
-      "fideRating": null,
-      "fideFederation": "",
+      "fideId": "3291251",
+      "fideRating": 1554,
+      "fideFederation": "VIC",
       "gender": "male",
       "href": "playercard.html#14",
       "origin": ""
@@ -433,9 +433,9 @@
       "name": "Balamurugan,Soorya",
       "title": "",
       "federation": "VIC",
-      "fideId": "",
-      "fideRating": null,
-      "fideFederation": "",
+      "fideId": "3286266",
+      "fideRating": 1427,
+      "fideFederation": "VIC",
       "gender": "male",
       "href": "playercard.html#32",
       "origin": ""
@@ -760,7 +760,7 @@
       "fideId": "3285278",
       "fideRating": 0,
       "fideFederation": "VIC",
-      "gender": "female",
+      "gender": "male",
       "href": "playercard.html#59",
       "origin": ""
     },
@@ -7075,11 +7075,11 @@
               "FIDE ID": "3256391",
               "Fed": "TAS",
               "Rtg": "1703",
-              "Ng": "3",
-              "Pts": "2.5",
-              "ARO": "1574",
-              "var": "10",
-              "Rp": "1847"
+              "Ng": "4",
+              "Pts": "3.0",
+              "ARO": "1555",
+              "var": "5",
+              "Rp": "1748"
             },
             {
               "#": "2",
@@ -7093,11 +7093,11 @@
               "FIDE ID": "3214915",
               "Fed": "VIC",
               "Rtg": "1664",
-              "Ng": "4",
-              "Pts": "1.5",
-              "ARO": "1482",
-              "var": "-29",
-              "Rp": "1395"
+              "Ng": "5",
+              "Pts": "2.5",
+              "ARO": "1471",
+              "var": "-25",
+              "Rp": "1471"
             },
             {
               "#": "3",
@@ -7111,11 +7111,11 @@
               "FIDE ID": "3275221",
               "Fed": "VIC",
               "Rtg": "1698",
-              "Ng": "4",
+              "Ng": "5",
               "Pts": "3.0",
-              "ARO": "1541",
-              "var": "9",
-              "Rp": "1734"
+              "ARO": "1550",
+              "var": "-17",
+              "Rp": "1622"
             },
             {
               "#": "4",
@@ -7129,11 +7129,11 @@
               "FIDE ID": "3265447",
               "Fed": "VIC",
               "Rtg": "1584",
-              "Ng": "3",
-              "Pts": "2.5",
-              "ARO": "1509",
-              "var": "28",
-              "Rp": "1782"
+              "Ng": "4",
+              "Pts": "3.5",
+              "ARO": "1556",
+              "var": "54",
+              "Rp": "1892"
             },
             {
               "#": "5",
@@ -7165,11 +7165,11 @@
               "FIDE ID": "3275779",
               "Fed": "VIC",
               "Rtg": "1490",
-              "Ng": "1",
-              "Pts": "1.0",
-              "ARO": "1614",
-              "var": "27",
-              "Rp": "2414"
+              "Ng": "2",
+              "Pts": "2.0",
+              "ARO": "1537",
+              "var": "45",
+              "Rp": "2337"
             },
             {
               "#": "7",
@@ -7183,11 +7183,11 @@
               "FIDE ID": "3265439",
               "Fed": "VIC",
               "Rtg": "1498",
-              "Ng": "4",
-              "Pts": "4.0",
-              "ARO": "1536",
-              "var": "88",
-              "Rp": "2336"
+              "Ng": "5",
+              "Pts": "4.5",
+              "ARO": "1569",
+              "var": "98",
+              "Rp": "1935"
             },
             {
               "#": "8",
@@ -7273,11 +7273,11 @@
               "FIDE ID": "3286320",
               "Fed": "VIC",
               "Rtg": "1601",
-              "Ng": "4",
-              "Pts": "2.5",
-              "ARO": "1585",
-              "var": "16",
-              "Rp": "1680"
+              "Ng": "5",
+              "Pts": "3.0",
+              "ARO": "1556",
+              "var": "8",
+              "Rp": "1628"
             },
             {
               "#": "13",
@@ -7298,6 +7298,24 @@
               "Rp": "1290"
             },
             {
+              "#": "14",
+              "Player": {
+                "id": "",
+                "playerName": "Vemula,Thamoghna",
+                "gender": "male",
+                "href": "http://ratings.fide.com/profile/3291251",
+                "title": ""
+              },
+              "FIDE ID": "3291251",
+              "Fed": "VIC",
+              "Rtg": "1554",
+              "Ng": "1",
+              "Pts": "1.0",
+              "ARO": "1407",
+              "var": "12",
+              "Rp": "2207"
+            },
+            {
               "#": "15",
               "Player": {
                 "id": "",
@@ -7309,11 +7327,11 @@
               "FIDE ID": "3284670",
               "Fed": "VIC",
               "Rtg": "1438",
-              "Ng": "3",
-              "Pts": "1.5",
-              "ARO": "1660",
-              "var": "34",
-              "Rp": "1660"
+              "Ng": "4",
+              "Pts": "2.0",
+              "ARO": "1645",
+              "var": "43",
+              "Rp": "1645"
             },
             {
               "#": "16",
@@ -7453,11 +7471,11 @@
               "FIDE ID": "573002330",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "3",
+              "Ng": "4",
               "Pts": "2.0",
-              "ARO": "1571",
+              "ARO": "1589",
               "var": "+0.00",
-              "Rp": "1591"
+              "Rp": "1589"
             },
             {
               "#": "24",
@@ -7561,11 +7579,29 @@
               "FIDE ID": "3289974",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "1",
+              "Ng": "2",
               "Pts": "1.0",
-              "ARO": "1554",
+              "ARO": "1541",
               "var": "+0.00",
-              "Rp": "1574"
+              "Rp": "1541"
+            },
+            {
+              "#": "32",
+              "Player": {
+                "id": "",
+                "playerName": "Balamurugan,Soorya",
+                "gender": "male",
+                "href": "http://ratings.fide.com/profile/3286266",
+                "title": ""
+              },
+              "FIDE ID": "3286266",
+              "Fed": "VIC",
+              "Rtg": "1427",
+              "Ng": "1",
+              "Pts": "0.0",
+              "ARO": "1664",
+              "var": "-8",
+              "Rp": "864"
             },
             {
               "#": "33",
@@ -7579,9 +7615,9 @@
               "FIDE ID": "3273547",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "3",
-              "Pts": "2.5",
-              "ARO": "1545",
+              "Ng": "4",
+              "Pts": "3.5",
+              "ARO": "1525",
               "var": "+0.00",
               "Rp": "1585"
             },
@@ -7615,11 +7651,11 @@
               "FIDE ID": "3286290",
               "Fed": "VIC",
               "Rtg": "1459",
-              "Ng": "2",
+              "Ng": "3",
               "Pts": "1.0",
-              "ARO": "1471",
-              "var": "1",
-              "Rp": "1471"
+              "ARO": "1477",
+              "var": "-17",
+              "Rp": "1352"
             },
             {
               "#": "36",
@@ -7633,11 +7669,11 @@
               "FIDE ID": "3297969",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "3",
-              "Pts": "1.0",
-              "ARO": "1522",
+              "Ng": "4",
+              "Pts": "1.5",
+              "ARO": "1496",
               "var": "+0.00",
-              "Rp": "1397"
+              "Rp": "1409"
             },
             {
               "#": "37",
@@ -7651,11 +7687,11 @@
               "FIDE ID": "3286274",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "1",
+              "Ng": "2",
               "Pts": "0.0",
-              "ARO": "1698",
+              "ARO": "1618",
               "var": "+0.00",
-              "Rp": "898"
+              "Rp": "818"
             },
             {
               "#": "38",
@@ -7687,11 +7723,11 @@
               "FIDE ID": "3295346",
               "Fed": "AUS",
               "Rtg": "1407",
-              "Ng": "1",
+              "Ng": "2",
               "Pts": "0.0",
-              "ARO": "1418",
-              "var": "-19",
-              "Rp": "618"
+              "ARO": "1486",
+              "var": "-31",
+              "Rp": "686"
             },
             {
               "#": "40",
@@ -7723,11 +7759,11 @@
               "FIDE ID": "3293840",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "1",
+              "Ng": "2",
               "Pts": "0.0",
-              "ARO": "1498",
+              "ARO": "1471",
               "var": "+0.00",
-              "Rp": "698"
+              "Rp": "671"
             },
             {
               "#": "42",
@@ -7741,11 +7777,11 @@
               "FIDE ID": "3297403",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "3",
+              "Ng": "4",
               "Pts": "0.5",
-              "ARO": "1462",
+              "ARO": "1501",
               "var": "+0.00",
-              "Rp": "1189"
+              "Rp": "1179"
             },
             {
               "#": "43",
@@ -7849,11 +7885,11 @@
               "FIDE ID": "573002194",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "4",
+              "Ng": "5",
               "Pts": "0.0",
-              "ARO": "1433",
+              "ARO": "1427",
               "var": "+0.00",
-              "Rp": "633"
+              "Rp": "627"
             },
             {
               "#": "49",
@@ -7867,11 +7903,11 @@
               "FIDE ID": "573002208",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "3",
-              "Pts": "0.5",
-              "ARO": "1481",
+              "Ng": "4",
+              "Pts": "1.5",
+              "ARO": "1473",
               "var": "+0.00",
-              "Rp": "1208"
+              "Rp": "1386"
             },
             {
               "#": "50",
@@ -7885,11 +7921,11 @@
               "FIDE ID": "573003263",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "4",
+              "Ng": "5",
               "Pts": "2.5",
-              "ARO": "1449",
+              "ARO": "1457",
               "var": "+0.00",
-              "Rp": "1469"
+              "Rp": "1457"
             },
             {
               "#": "51",
@@ -7903,11 +7939,11 @@
               "FIDE ID": "0",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "2",
-              "Pts": "0.0",
-              "ARO": "1592",
+              "Ng": "3",
+              "Pts": "1.0",
+              "ARO": "1554",
               "var": "+0.00",
-              "Rp": "792"
+              "Rp": "1429"
             },
             {
               "#": "52",
@@ -8029,18 +8065,18 @@
               "FIDE ID": "3294110",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "5",
-              "Pts": "3.0",
-              "ARO": "1478",
+              "Ng": "6",
+              "Pts": "4.0",
+              "ARO": "1469",
               "var": "+0.00",
-              "Rp": "1498"
+              "Rp": "1509"
             },
             {
               "#": "59",
               "Player": {
                 "id": "",
                 "playerName": "Polus,Elyano",
-                "gender": "female",
+                "gender": "male",
                 "href": "http://ratings.fide.com/profile/3285278",
                 "title": ""
               },
@@ -8101,11 +8137,11 @@
               "FIDE ID": "573003352",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "5",
-              "Pts": "2.0",
-              "ARO": "1503",
+              "Ng": "6",
+              "Pts": "3.0",
+              "ARO": "1521",
               "var": "+0.00",
-              "Rp": "1431"
+              "Rp": "1521"
             },
             {
               "#": "63",
@@ -8119,11 +8155,11 @@
               "FIDE ID": "3295702",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "4",
-              "Pts": "2.5",
-              "ARO": "1506",
+              "Ng": "5",
+              "Pts": "3.0",
+              "ARO": "1525",
               "var": "+0.00",
-              "Rp": "1526"
+              "Rp": "1545"
             },
             {
               "#": "64",
@@ -8173,11 +8209,11 @@
               "FIDE ID": "0",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "4",
-              "Pts": "2.0",
-              "ARO": "1498",
+              "Ng": "5",
+              "Pts": "3.0",
+              "ARO": "1482",
               "var": "+0.00",
-              "Rp": "1498"
+              "Rp": "1502"
             },
             {
               "#": "67",
@@ -8191,11 +8227,11 @@
               "FIDE ID": "0",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "5",
+              "Ng": "6",
               "Pts": "3.0",
-              "ARO": "1577",
+              "ARO": "1560",
               "var": "+0.00",
-              "Rp": "1597"
+              "Rp": "1560"
             },
             {
               "#": "68",
@@ -8209,11 +8245,11 @@
               "FIDE ID": "573002321",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "4",
-              "Pts": "1.5",
-              "ARO": "1490",
+              "Ng": "5",
+              "Pts": "2.5",
+              "ARO": "1485",
               "var": "+0.00",
-              "Rp": "1403"
+              "Rp": "1485"
             },
             {
               "#": "69",
@@ -8325,6 +8361,16 @@
               "Fed": "VIC",
               "Rtg": "1601",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "7",
+              "Opponent Name": "Batyrbekov,Aidan",
+              "FIDE ID": "3265439",
+              "Fed": "VIC",
+              "Rtg": "1498",
+              "res": "0.5"
             }
           ],
           "caption": {
@@ -8414,6 +8460,16 @@
               "Fed": "VIC",
               "Rtg": "1438",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "32",
+              "Opponent Name": "Balamurugan,Soorya",
+              "FIDE ID": "3286266",
+              "Fed": "VIC",
+              "Rtg": "1427",
+              "res": "1"
             }
           ],
           "caption": {
@@ -8503,6 +8559,16 @@
               "Fed": "TAS",
               "Rtg": "1703",
               "res": "0.5"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "4",
+              "Opponent Name": "Batyrbekov,Kaisar",
+              "FIDE ID": "3265447",
+              "Fed": "VIC",
+              "Rtg": "1584",
+              "res": "0"
             }
           ],
           "caption": {
@@ -8581,6 +8647,16 @@
               "FIDE ID": "3286258",
               "Fed": "VIC",
               "Rtg": "1465",
+              "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "3",
+              "Opponent Name": "Ramanathan,Ashwin",
+              "FIDE ID": "3275221",
+              "Fed": "VIC",
+              "Rtg": "1698",
               "res": "1"
             }
           ],
@@ -8730,6 +8806,16 @@
               "Fed": "VIC",
               "Rtg": "1614",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "35",
+              "Opponent Name": "Das,Ayush",
+              "FIDE ID": "3286290",
+              "Fed": "VIC",
+              "Rtg": "1459",
+              "res": "1"
             }
           ],
           "caption": {
@@ -8819,6 +8905,16 @@
               "Fed": "VIC",
               "Rtg": "1601",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "1",
+              "Opponent Name": "Djatschenko,Addison",
+              "FIDE ID": "3256391",
+              "Fed": "TAS",
+              "Rtg": "1703",
+              "res": "0.5"
             }
           ],
           "caption": {
@@ -9234,6 +9330,16 @@
               "Fed": "VIC",
               "Rtg": "1498",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "15",
+              "Opponent Name": "Jyothi Nikhil,Neev",
+              "FIDE ID": "3284670",
+              "Fed": "VIC",
+              "Rtg": "1438",
+              "res": "0.5"
             }
           ],
           "caption": {
@@ -9354,6 +9460,65 @@
           ],
           "rows": [
             {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "39",
+              "Opponent Name": "Veeragandham, Gowtham",
+              "FIDE ID": "3295346",
+              "Fed": "AUS",
+              "Rtg": "1407",
+              "res": "1"
+            }
+          ],
+          "caption": {
+            "playerName": "Vemula,Thamoghna",
+            "id": "",
+            "moreInfo": {
+              "N": "14",
+              "anchor": "14"
+            },
+            "rawText": "N = 14 Vemula,Thamoghna",
+            "rawHtml": " <a class=\"anchor\" name=\"14\"></a> N = 14<a href=\"http://ratings.fide.com/profile/3291251\" target=\"X\"> Vemula,Thamoghna </a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
+          ],
+          "rows": [
+            {
               "Rnd": "3",
               "Col": "B",
               "N opp": "5",
@@ -9382,6 +9547,16 @@
               "Fed": "VIC",
               "Rtg": "1664",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "12",
+              "Opponent Name": "Huang,Michael",
+              "FIDE ID": "3286320",
+              "Fed": "VIC",
+              "Rtg": "1601",
+              "res": "0.5"
             }
           ],
           "caption": {
@@ -9924,6 +10099,16 @@
               "Fed": "OS",
               "Rtg": "1582",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "8",
+              "Opponent Name": "Ahmad,Ihtiram",
+              "FIDE ID": "532011059",
+              "Fed": "OS",
+              "Rtg": "1645",
+              "res": "0"
             }
           ],
           "caption": {
@@ -10308,6 +10493,16 @@
               "Fed": "VIC",
               "Rtg": "1554",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "9",
+              "Opponent Name": "Ashok,Arjun",
+              "FIDE ID": "3275108",
+              "Fed": "VIC",
+              "Rtg": "1527",
+              "res": "0"
             }
           ],
           "caption": {
@@ -10319,6 +10514,65 @@
             },
             "rawText": "N = 31 Spriggs,Harvey",
             "rawHtml": " <a class=\"anchor\" name=\"31\"></a> N = 31<a href=\"http://ratings.fide.com/profile/3289974\" target=\"X\"> Spriggs,Harvey </a>"
+          },
+          "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
+          ],
+          "rows": [
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "2",
+              "Opponent Name": "Nowak,Ruben",
+              "FIDE ID": "3214915",
+              "Fed": "VIC",
+              "Rtg": "1664",
+              "res": "0"
+            }
+          ],
+          "caption": {
+            "playerName": "Balamurugan,Soorya",
+            "id": "",
+            "moreInfo": {
+              "N": "32",
+              "anchor": "32"
+            },
+            "rawText": "N = 32 Balamurugan,Soorya",
+            "rawHtml": " <a class=\"anchor\" name=\"32\"></a> N = 32<a href=\"http://ratings.fide.com/profile/3286266\" target=\"X\"> Balamurugan,Soorya </a>"
           },
           "type": "other"
         },
@@ -10387,6 +10641,16 @@
               "Fed": "VIC",
               "Rtg": "1527",
               "res": "0.5"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "11",
+              "Opponent Name": "Balaji,Sai Sivesh",
+              "FIDE ID": "3286258",
+              "Fed": "VIC",
+              "Rtg": "1465",
+              "res": "1"
             }
           ],
           "caption": {
@@ -10535,6 +10799,16 @@
               "Fed": "VIC",
               "Rtg": "1538",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "6",
+              "Opponent Name": "Annadasu,Shreyansh",
+              "FIDE ID": "3275779",
+              "Fed": "VIC",
+              "Rtg": "1490",
+              "res": "0"
             }
           ],
           "caption": {
@@ -10614,6 +10888,16 @@
               "Fed": "VIC",
               "Rtg": "1479",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "17",
+              "Opponent Name": "Saha,Avinandan (Arjun)",
+              "FIDE ID": "3264173",
+              "Fed": "VIC",
+              "Rtg": "1418",
+              "res": "0.5"
             }
           ],
           "caption": {
@@ -10672,6 +10956,16 @@
               "FIDE ID": "3275221",
               "Fed": "VIC",
               "Rtg": "1698",
+              "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "18",
+              "Opponent Name": "Nema,Nivaan",
+              "FIDE ID": "3289923",
+              "Fed": "VIC",
+              "Rtg": "1538",
               "res": "0"
             }
           ],
@@ -10831,6 +11125,16 @@
               "Fed": "VIC",
               "Rtg": "1418",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "14",
+              "Opponent Name": "Vemula,Thamoghna",
+              "FIDE ID": "3291251",
+              "Fed": "VIC",
+              "Rtg": "1554",
+              "res": "0"
             }
           ],
           "caption": {
@@ -10959,6 +11263,16 @@
               "Fed": "VIC",
               "Rtg": "1498",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "28",
+              "Opponent Name": "Goh,Nicholas",
+              "FIDE ID": "3254917",
+              "Fed": "VIC",
+              "Rtg": "1444",
+              "res": "0"
             }
           ],
           "caption": {
@@ -11038,6 +11352,16 @@
               "Fed": "VIC",
               "Rtg": "1456",
               "res": "0.5"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "5",
+              "Opponent Name": "Yendru,Srikrishna",
+              "FIDE ID": "3262952",
+              "Fed": "VIC",
+              "Rtg": "1618",
+              "res": "0"
             }
           ],
           "caption": {
@@ -11502,6 +11826,16 @@
               "Fed": "AUS",
               "Rtg": "1407",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "21",
+              "Opponent Name": "Venkat,Nyra",
+              "FIDE ID": "3286410",
+              "Fed": "VIC",
+              "Rtg": "1404",
+              "res": "0"
             }
           ],
           "caption": {
@@ -11581,6 +11915,16 @@
               "Fed": "VIC",
               "Rtg": "1424",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "38",
+              "Opponent Name": "Fang,Candice",
+              "FIDE ID": "3291154",
+              "Fed": "VIC",
+              "Rtg": "1447",
+              "res": "1"
             }
           ],
           "caption": {
@@ -11670,6 +12014,16 @@
               "Fed": "VIC",
               "Rtg": "1424",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "26",
+              "Opponent Name": "Guggilla,Krithvik",
+              "FIDE ID": "3290522",
+              "Fed": "VIC",
+              "Rtg": "1491",
+              "res": "0"
             }
           ],
           "caption": {
@@ -11739,6 +12093,16 @@
               "Fed": "OS",
               "Rtg": "1645",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "27",
+              "Opponent Name": "Kaur,Mishleen",
+              "FIDE ID": "3292347",
+              "Fed": "VIC",
+              "Rtg": "1479",
+              "res": "1"
             }
           ],
           "caption": {
@@ -12252,6 +12616,16 @@
               "Fed": "VIC",
               "Rtg": "1491",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "24",
+              "Opponent Name": "Yendru,Sriram",
+              "FIDE ID": "3267881",
+              "Fed": "VIC",
+              "Rtg": "1424",
+              "res": "1"
             }
           ],
           "caption": {
@@ -12568,6 +12942,16 @@
               "Fed": "VIC",
               "Rtg": "1427",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "34",
+              "Opponent Name": "Gadham,Aarya Subramanya",
+              "FIDE ID": "3292339",
+              "Fed": "VIC",
+              "Rtg": "1614",
+              "res": "1"
             }
           ],
           "caption": {
@@ -12657,6 +13041,16 @@
               "Fed": "VIC",
               "Rtg": "1444",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "10",
+              "Opponent Name": "Wei,Andrew",
+              "FIDE ID": "3265277",
+              "Fed": "VIC",
+              "Rtg": "1601",
+              "res": "0.5"
             }
           ],
           "caption": {
@@ -12904,6 +13298,16 @@
               "Fed": "VIC",
               "Rtg": "1618",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "22",
+              "Opponent Name": "Shaiek,Nihal",
+              "FIDE ID": "3286380",
+              "Fed": "VIC",
+              "Rtg": "1422",
+              "res": "1"
             }
           ],
           "caption": {
@@ -13003,6 +13407,16 @@
               "Fed": "VIC",
               "Rtg": "1698",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "13",
+              "Opponent Name": "Ruaya,Rohan",
+              "FIDE ID": "3281345",
+              "Fed": "VIC",
+              "Rtg": "1475",
+              "res": "0"
             }
           ],
           "caption": {
@@ -13092,6 +13506,16 @@
               "Fed": "VIC",
               "Rtg": "1418",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "29",
+              "Opponent Name": "Husain, Lamiah",
+              "FIDE ID": "3278905",
+              "Fed": "AUS",
+              "Rtg": "1467",
+              "res": "1"
             }
           ],
           "caption": {
@@ -17116,7 +17540,7 @@
               "Origin": "",
               "White Player": "1",
               "Pts": "5",
-              "Result": "...",
+              "Result": "½ - ½",
               "Pts_1": "6",
               "Black Player": "7",
               "Origin_1": "",
@@ -17128,7 +17552,7 @@
               "Origin": "",
               "White Player": "3",
               "Pts": "5",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "5",
               "Black Player": "4",
               "Origin_1": "",
@@ -17140,7 +17564,7 @@
               "Origin": "",
               "White Player": "23",
               "Pts": "4.5",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "4.5",
               "Black Player": "8",
               "Origin_1": "",
@@ -17152,7 +17576,7 @@
               "Origin": "",
               "White Player": "12",
               "Pts": "4.5",
-              "Result": "...",
+              "Result": "½ - ½",
               "Pts_1": "4.5",
               "Black Player": "15",
               "Origin_1": "",
@@ -17164,7 +17588,7 @@
               "Origin": "",
               "White Player": "9",
               "Pts": "4",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "4",
               "Black Player": "31",
               "Origin_1": "",
@@ -17176,7 +17600,7 @@
               "Origin": "",
               "White Player": "63",
               "Pts": "4",
-              "Result": "...",
+              "Result": "½ - ½",
               "Pts_1": "4",
               "Black Player": "10",
               "Origin_1": "",
@@ -17188,7 +17612,7 @@
               "Origin": "",
               "White Player": "11",
               "Pts": "4",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "4",
               "Black Player": "33",
               "Origin_1": "",
@@ -17200,7 +17624,7 @@
               "Origin": "",
               "White Player": "18",
               "Pts": "4",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "4",
               "Black Player": "37",
               "Origin_1": "",
@@ -17212,7 +17636,7 @@
               "Origin": "",
               "White Player": "22",
               "Pts": "4",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "4",
               "Black Player": "66",
               "Origin_1": "",
@@ -17224,7 +17648,7 @@
               "Origin": "",
               "White Player": "13",
               "Pts": "3.5",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "4",
               "Black Player": "67",
               "Origin_1": "",
@@ -17236,7 +17660,7 @@
               "Origin": "",
               "White Player": "2",
               "Pts": "3.5",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "3.5",
               "Black Player": "32",
               "Origin_1": "",
@@ -17248,7 +17672,7 @@
               "Origin": "",
               "White Player": "17",
               "Pts": "3.5",
-              "Result": "...",
+              "Result": "½ - ½",
               "Pts_1": "3.5",
               "Black Player": "36",
               "Origin_1": "",
@@ -17260,7 +17684,7 @@
               "Origin": "",
               "White Player": "58",
               "Pts": "3.5",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "3.5",
               "Black Player": "24",
               "Origin_1": "",
@@ -17272,7 +17696,7 @@
               "Origin": "",
               "White Player": "68",
               "Pts": "3.5",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "3.5",
               "Black Player": "29",
               "Origin_1": "",
@@ -17284,7 +17708,7 @@
               "Origin": "",
               "White Player": "6",
               "Pts": "3",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "3",
               "Black Player": "35",
               "Origin_1": "",
@@ -17296,7 +17720,7 @@
               "Origin": "",
               "White Player": "14",
               "Pts": "3",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "3",
               "Black Player": "39",
               "Origin_1": "",
@@ -17308,7 +17732,7 @@
               "Origin": "",
               "White Player": "19",
               "Pts": "3",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "3",
               "Black Player": "59",
               "Origin_1": "",
@@ -17320,7 +17744,7 @@
               "Origin": "",
               "White Player": "46",
               "Pts": "3",
-              "Result": "...",
+              "Result": "1F-0F",
               "Pts_1": "3",
               "Black Player": "20",
               "Origin_1": "",
@@ -17332,7 +17756,7 @@
               "Origin": "",
               "White Player": "41",
               "Pts": "3",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "3",
               "Black Player": "28",
               "Origin_1": "",
@@ -17344,7 +17768,7 @@
               "Origin": "",
               "White Player": "5",
               "Pts": "2.5",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "2.5",
               "Black Player": "42",
               "Origin_1": "",
@@ -17356,7 +17780,7 @@
               "Origin": "",
               "White Player": "50",
               "Pts": "2.5",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "2.5",
               "Black Player": "26",
               "Origin_1": "",
@@ -17368,7 +17792,7 @@
               "Origin": "",
               "White Player": "51",
               "Pts": "2.5",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "2.5",
               "Black Player": "27",
               "Origin_1": "",
@@ -17380,7 +17804,7 @@
               "Origin": "",
               "White Player": "62",
               "Pts": "2.5",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "2.5",
               "Black Player": "34",
               "Origin_1": "",
@@ -17392,7 +17816,7 @@
               "Origin": "",
               "White Player": "38",
               "Pts": "2.5",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "2.5",
               "Black Player": "49",
               "Origin_1": "",
@@ -17404,7 +17828,7 @@
               "Origin": "",
               "White Player": "65",
               "Pts": "2.5",
-              "Result": "...",
+              "Result": "0F-1F",
               "Pts_1": "2.5",
               "Black Player": "40",
               "Origin_1": "",
@@ -17416,7 +17840,7 @@
               "Origin": "",
               "White Player": "48",
               "Pts": "2",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "2",
               "Black Player": "21",
               "Origin_1": "",
@@ -17428,7 +17852,7 @@
               "Origin": "",
               "White Player": "52",
               "Pts": "2",
-              "Result": "...",
+              "Result": "1F-0F",
               "Pts_1": "2",
               "Black Player": "30",
               "Origin_1": "",
@@ -17440,7 +17864,7 @@
               "Origin": "",
               "White Player": "64",
               "Pts": "2",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "2",
               "Black Player": "43",
               "Origin_1": "",
@@ -17452,7 +17876,7 @@
               "Origin": "",
               "White Player": "45",
               "Pts": "2",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "2",
               "Black Player": "61",
               "Origin_1": "",
@@ -17464,7 +17888,7 @@
               "Origin": "",
               "White Player": "57",
               "Pts": "1.5",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "2",
               "Black Player": "69",
               "Origin_1": "",
@@ -17476,7 +17900,7 @@
               "Origin": "",
               "White Player": "70",
               "Pts": "1.5",
-              "Result": "...",
+              "Result": "0F-1F",
               "Pts_1": "1.5",
               "Black Player": "60",
               "Origin_1": "",
@@ -17488,7 +17912,7 @@
               "Origin": "",
               "White Player": "53",
               "Pts": "1",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "1",
               "Black Player": "44",
               "Origin_1": "",
@@ -17500,7 +17924,7 @@
               "Origin": "",
               "White Player": "47",
               "Pts": "1",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "1",
               "Black Player": "54",
               "Origin_1": "",
@@ -27430,12 +27854,12 @@
       "tournamentType": "unknown"
     },
     "rankingagegroup.html": {
-      "pageHeading": "Player Groups by date at round 7",
+      "pageHeading": "",
       "tables": [],
       "tournamentType": "unknown"
     },
     "rankinggroup.html": {
-      "pageHeading": "Rated Player Groups at round 6",
+      "pageHeading": "Rated Player Groups at round 7",
       "tables": [],
       "tournamentType": "unknown"
     },
@@ -27500,7 +27924,7 @@
       "tournamentType": "unknown"
     },
     "standings.html": {
-      "pageHeading": "Standings at round 6",
+      "pageHeading": "Standings at round 7 (last round)",
       "tables": [
         {
           "headers": [
@@ -27548,21 +27972,21 @@
               "Rtg": "1092",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "6.0",
-              "BH": "19.5",
-              "BH/C1": "17.5",
-              "SB": "19.50"
+              "Pts": "6.5",
+              "BH": "29.0",
+              "BH/C1": "26.0",
+              "SB": "26.25"
             },
             {
               "Pos": "2",
-              "Player": "3",
-              "Rtg": "1362",
+              "Player": "4",
+              "Rtg": "1265",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "5.0",
-              "BH": "26.0",
-              "BH/C1": "22.0",
-              "SB": "21.25"
+              "Pts": "6.0",
+              "BH": "25.5",
+              "BH/C1": "23.0",
+              "SB": "22.25"
             },
             {
               "Pos": "3",
@@ -27570,219 +27994,219 @@
               "Rtg": "1501",
               "Fed": "TAS",
               "Origin": "",
-              "Pts": "5.0",
-              "BH": "26.0",
-              "BH/C1": "21.0",
-              "SB": "21.00"
+              "Pts": "5.5",
+              "BH": "33.5",
+              "BH/C1": "28.0",
+              "SB": "25.00"
             },
             {
               "Pos": "4",
-              "Player": "4",
-              "Rtg": "1265",
-              "Fed": "VIC",
+              "Player": "8",
+              "Rtg": "1074",
+              "Fed": "OS",
               "Origin": "",
-              "Pts": "5.0",
-              "BH": "18.0",
-              "BH/C1": "15.5",
-              "SB": "15.25"
+              "Pts": "5.5",
+              "BH": "26.5",
+              "BH/C1": "21.0",
+              "SB": "19.75"
             },
             {
               "Pos": "5",
+              "Player": "3",
+              "Rtg": "1362",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "5.0",
+              "BH": "33.5",
+              "BH/C1": "29.5",
+              "SB": "22.25"
+            },
+            {
+              "Pos": "6",
               "Player": "12",
               "Rtg": "934",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "4.5",
-              "BH": "22.0",
-              "BH/C1": "20.0",
-              "SB": "13.50"
+              "Pts": "5.0",
+              "BH": "30.5",
+              "BH/C1": "28.5",
+              "SB": "19.00"
             },
             {
-              "Pos": "6",
+              "Pos": "7",
               "Player": "15",
               "Rtg": "856",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "4.5",
-              "BH": "21.0",
-              "BH/C1": "19.0",
-              "SB": "14.75"
+              "Pts": "5.0",
+              "BH": "29.5",
+              "BH/C1": "27.5",
+              "SB": "20.25"
             },
             {
-              "Pos": "7",
+              "Pos": "8",
+              "Player": "9",
+              "Rtg": "1069",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "5.0",
+              "BH": "27.5",
+              "BH/C1": "25.0",
+              "SB": "17.75"
+            },
+            {
+              "Pos": "9",
+              "Player": "18",
+              "Rtg": "819",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "5.0",
+              "BH": "27.0",
+              "BH/C1": "22.0",
+              "SB": "18.75"
+            },
+            {
+              "Pos": "10",
+              "Player": "33",
+              "Rtg": "455",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "5.0",
+              "BH": "26.0",
+              "BH/C1": "23.5",
+              "SB": "18.25"
+            },
+            {
+              "Pos": "11",
+              "Player": "66",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "5.0",
+              "BH": "23.0",
+              "BH/C1": "21.0",
+              "SB": "14.50"
+            },
+            {
+              "Pos": "12",
+              "Player": "2",
+              "Rtg": "1426",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.5",
+              "BH": "31.0",
+              "BH/C1": "28.0",
+              "SB": "17.00"
+            },
+            {
+              "Pos": "13",
+              "Player": "13",
+              "Rtg": "894",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.5",
+              "BH": "30.5",
+              "BH/C1": "26.0",
+              "SB": "17.75"
+            },
+            {
+              "Pos": "14",
+              "Player": "58",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.5",
+              "BH": "28.5",
+              "BH/C1": "25.0",
+              "SB": "17.25"
+            },
+            {
+              "Pos": "15",
+              "Player": "63",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.5",
+              "BH": "26.5",
+              "BH/C1": "23.5",
+              "SB": "17.25"
+            },
+            {
+              "Pos": "16",
               "Player": "23",
               "Rtg": "645",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "4.5",
-              "BH": "19.5",
-              "BH/C1": "18.0",
+              "BH": "26.0",
+              "BH/C1": "24.5",
               "SB": "12.75"
             },
             {
-              "Pos": "8",
-              "Player": "8",
-              "Rtg": "1074",
-              "Fed": "OS",
+              "Pos": "17",
+              "Player": "10",
+              "Rtg": "1007",
+              "Fed": "VIC",
               "Origin": "",
               "Pts": "4.5",
-              "BH": "18.5",
-              "BH/C1": "14.0",
-              "SB": "13.25"
+              "BH": "25.5",
+              "BH/C1": "23.5",
+              "SB": "14.25"
             },
             {
-              "Pos": "9",
+              "Pos": "18",
+              "Player": "68",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.5",
+              "BH": "22.5",
+              "BH/C1": "20.0",
+              "SB": "14.75"
+            },
+            {
+              "Pos": "19",
+              "Player": "59",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "31.0",
+              "BH/C1": "27.0",
+              "SB": "17.50"
+            },
+            {
+              "Pos": "20",
               "Player": "67",
               "Rtg": "0",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "4.0",
-              "BH": "22.5",
-              "BH/C1": "20.5",
-              "SB": "12.50"
+              "BH": "30.0",
+              "BH/C1": "27.0",
+              "SB": "15.00"
             },
             {
-              "Pos": "10",
-              "Player": "9",
-              "Rtg": "1069",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "BH": "21.0",
-              "BH/C1": "18.5",
-              "SB": "12.75"
-            },
-            {
-              "Pos": "11",
-              "Player": "63",
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "BH": "20.0",
-              "BH/C1": "17.0",
-              "SB": "13.50"
-            },
-            {
-              "Pos": "12",
+              "Pos": "21",
               "Player": "11",
               "Rtg": "940",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "4.0",
-              "BH": "19.5",
-              "BH/C1": "18.5",
-              "SB": "11.00"
-            },
-            {
-              "Pos": "13",
-              "Player": "22",
-              "Rtg": "657",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "BH": "19.0",
-              "BH/C1": "17.5",
-              "SB": "10.00"
-            },
-            {
-              "Pos": "14",
-              "Player": "18",
-              "Rtg": "819",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "BH": "19.0",
-              "BH/C1": "15.0",
-              "SB": "12.00"
-            },
-            {
-              "Pos": "15",
-              "Player": "10",
-              "Rtg": "1007",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "BH": "18.5",
-              "BH/C1": "16.5",
-              "SB": "10.50"
-            },
-            {
-              "Pos": "16",
-              "Player": "37",
-              "Rtg": "321",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "BH": "18.0",
-              "BH/C1": "17.0",
-              "SB": "9.00"
-            },
-            {
-              "Pos": "17",
-              "Player": "33",
-              "Rtg": "455",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "BH": "16.5",
-              "BH/C1": "15.0",
-              "SB": "10.25"
-            },
-            {
-              "Pos": "18",
-              "Player": "66",
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "BH": "16.0",
-              "BH/C1": "14.0",
-              "SB": "9.50"
-            },
-            {
-              "Pos": "19",
-              "Player": "31",
-              "Rtg": "464",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "BH": "14.5",
-              "BH/C1": "13.5",
-              "SB": "8.00"
-            },
-            {
-              "Pos": "20",
-              "Player": "2",
-              "Rtg": "1426",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "3.5",
-              "BH": "25.0",
-              "BH/C1": "22.0",
-              "SB": "12.50"
-            },
-            {
-              "Pos": "21",
-              "Player": "13",
-              "Rtg": "894",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "3.5",
-              "BH": "23.5",
-              "BH/C1": "20.0",
-              "SB": "12.25"
+              "BH": "29.5",
+              "BH/C1": "27.5",
+              "SB": "14.00"
             },
             {
               "Pos": "22",
-              "Player": "58",
-              "Rtg": "0",
+              "Player": "6",
+              "Rtg": "1106",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "3.5",
-              "BH": "21.0",
-              "BH/C1": "18.5",
-              "SB": "11.00"
+              "Pts": "4.0",
+              "BH": "28.0",
+              "BH/C1": "24.0",
+              "SB": "14.50"
             },
             {
               "Pos": "23",
@@ -27790,32 +28214,32 @@
               "Rtg": "827",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "3.5",
-              "BH": "19.5",
-              "BH/C1": "17.5",
-              "SB": "10.25"
+              "Pts": "4.0",
+              "BH": "26.0",
+              "BH/C1": "24.0",
+              "SB": "13.75"
             },
             {
               "Pos": "24",
-              "Player": "32",
-              "Rtg": "456",
+              "Player": "46",
+              "Rtg": "0",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "3.5",
-              "BH": "19.5",
-              "BH/C1": "16.0",
-              "SB": "9.75"
+              "Pts": "4.0",
+              "BH": "25.5",
+              "BH/C1": "23.5",
+              "SB": "11.50"
             },
             {
               "Pos": "25",
-              "Player": "24",
-              "Rtg": "641",
+              "Player": "22",
+              "Rtg": "657",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "3.5",
-              "BH": "18.0",
-              "BH/C1": "16.5",
-              "SB": "9.25"
+              "Pts": "4.0",
+              "BH": "25.0",
+              "BH/C1": "23.0",
+              "SB": "11.00"
             },
             {
               "Pos": "26",
@@ -27823,312 +28247,411 @@
               "Rtg": "323",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "3.5",
-              "BH": "18.0",
-              "BH/C1": "14.5",
-              "SB": "9.25"
+              "Pts": "4.0",
+              "BH": "25.0",
+              "BH/C1": "21.0",
+              "SB": "13.00"
             },
             {
               "Pos": "27",
-              "Player": "68",
+              "Player": "37",
+              "Rtg": "321",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "24.5",
+              "BH/C1": "23.5",
+              "SB": "10.00"
+            },
+            {
+              "Pos": "28",
+              "Player": "28",
+              "Rtg": "538",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "24.5",
+              "BH/C1": "22.0",
+              "SB": "12.50"
+            },
+            {
+              "Pos": "29",
+              "Player": "14",
+              "Rtg": "885",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "24.5",
+              "BH/C1": "20.5",
+              "SB": "12.25"
+            },
+            {
+              "Pos": "30",
+              "Player": "31",
+              "Rtg": "464",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "22.5",
+              "BH/C1": "21.5",
+              "SB": "10.00"
+            },
+            {
+              "Pos": "31",
+              "Player": "5",
+              "Rtg": "1133",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "30.0",
+              "BH/C1": "27.5",
+              "SB": "12.50"
+            },
+            {
+              "Pos": "32",
+              "Player": "62",
               "Rtg": "0",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "3.5",
-              "BH": "17.5",
-              "BH/C1": "15.0",
-              "SB": "10.25"
+              "BH": "25.5",
+              "BH/C1": "22.0",
+              "SB": "11.25"
             },
             {
-              "Pos": "28",
+              "Pos": "33",
+              "Player": "24",
+              "Rtg": "641",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "25.0",
+              "BH/C1": "22.5",
+              "SB": "11.25"
+            },
+            {
+              "Pos": "34",
+              "Player": "32",
+              "Rtg": "456",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "25.0",
+              "BH/C1": "21.5",
+              "SB": "10.75"
+            },
+            {
+              "Pos": "35",
+              "Player": "51",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "24.5",
+              "BH/C1": "22.5",
+              "SB": "9.50"
+            },
+            {
+              "Pos": "36",
+              "Player": "49",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "24.0",
+              "BH/C1": "21.5",
+              "SB": "11.75"
+            },
+            {
+              "Pos": "37",
               "Player": "29",
               "Rtg": "510",
               "Fed": "AUS",
               "Origin": "",
               "Pts": "3.5",
-              "BH": "15.0",
-              "BH/C1": "14.0",
-              "SB": "6.75"
+              "BH": "22.5",
+              "BH/C1": "21.5",
+              "SB": "7.25"
             },
             {
-              "Pos": "29",
+              "Pos": "38",
+              "Player": "40",
+              "Rtg": "265",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "22.5",
+              "BH/C1": "19.0",
+              "SB": "9.25"
+            },
+            {
+              "Pos": "39",
+              "Player": "26",
+              "Rtg": "559",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "21.5",
+              "BH/C1": "19.0",
+              "SB": "9.25"
+            },
+            {
+              "Pos": "40",
               "Player": "55",
               "Rtg": "0",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "3.0",
-              "BH": "26.0",
-              "BH/C1": "23.0",
-              "SB": "12.00"
+              "BH": "33.0",
+              "BH/C1": "30.0",
+              "SB": "14.50"
             },
             {
-              "Pos": "30",
-              "Player": "59",
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "3.0",
-              "BH": "22.5",
-              "BH/C1": "19.5",
-              "SB": "11.50"
-            },
-            {
-              "Pos": "31",
-              "Player": "6",
-              "Rtg": "1106",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "3.0",
-              "BH": "20.0",
-              "BH/C1": "17.0",
-              "SB": "9.50"
-            },
-            {
-              "Pos": "32",
-              "Player": "20",
-              "Rtg": "689",
-              "Fed": "OS",
-              "Origin": "",
-              "Pts": "3.0",
-              "BH": "19.5",
-              "BH/C1": "16.5",
-              "SB": "8.00"
-            },
-            {
-              "Pos": "33",
-              "Player": "46",
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "3.0",
-              "BH": "19.0",
-              "BH/C1": "17.0",
-              "SB": "7.00"
-            },
-            {
-              "Pos": "34",
+              "Pos": "41",
               "Player": "19",
               "Rtg": "776",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "3.0",
-              "BH": "19.0",
-              "BH/C1": "16.0",
-              "SB": "8.00"
+              "BH": "26.5",
+              "BH/C1": "23.5",
+              "SB": "10.25"
             },
             {
-              "Pos": "35",
-              "Player": "28",
-              "Rtg": "538",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "3.0",
-              "BH": "18.5",
-              "BH/C1": "16.0",
-              "SB": "8.00"
-            },
-            {
-              "Pos": "36",
-              "Player": "16",
-              "Rtg": "837",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "3.0",
-              "BH": "18.5",
-              "BH/C1": "15.5",
-              "SB": "7.50"
-            },
-            {
-              "Pos": "37",
-              "Player": "14",
-              "Rtg": "885",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "3.0",
-              "BH": "17.5",
-              "BH/C1": "14.5",
-              "SB": "6.25"
-            },
-            {
-              "Pos": "38",
+              "Pos": "42",
               "Player": "41",
               "Rtg": "204",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "3.0",
-              "BH": "15.5",
-              "BH/C1": "15.5",
-              "SB": "4.00"
+              "BH": "24.0",
+              "BH/C1": "23.0",
+              "SB": "6.00"
             },
             {
-              "Pos": "39",
-              "Player": "39",
-              "Rtg": "291",
-              "Fed": "AUS",
+              "Pos": "43",
+              "Player": "16",
+              "Rtg": "837",
+              "Fed": "VIC",
               "Origin": "",
               "Pts": "3.0",
-              "BH": "15.5",
-              "BH/C1": "12.5",
-              "SB": "5.00"
+              "BH": "24.0",
+              "BH/C1": "21.0",
+              "SB": "9.50"
             },
             {
-              "Pos": "40",
+              "Pos": "44",
+              "Player": "20",
+              "Rtg": "689",
+              "Fed": "OS",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "24.0",
+              "BH/C1": "21.0",
+              "SB": "8.50"
+            },
+            {
+              "Pos": "45",
+              "Player": "21",
+              "Rtg": "667",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "24.0",
+              "BH/C1": "21.0",
+              "SB": "7.50"
+            },
+            {
+              "Pos": "46",
               "Player": "35",
               "Rtg": "376",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "3.0",
-              "BH": "14.5",
-              "BH/C1": "13.5",
+              "BH": "22.0",
+              "BH/C1": "21.0",
+              "SB": "6.00"
+            },
+            {
+              "Pos": "47",
+              "Player": "39",
+              "Rtg": "291",
+              "Fed": "AUS",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "22.0",
+              "BH/C1": "19.0",
+              "SB": "6.00"
+            },
+            {
+              "Pos": "48",
+              "Player": "61",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "21.0",
+              "BH/C1": "18.0",
               "SB": "4.00"
             },
             {
-              "Pos": "41",
+              "Pos": "49",
+              "Player": "64",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "20.5",
+              "BH/C1": "18.5",
+              "SB": "7.00"
+            },
+            {
+              "Pos": "50",
+              "Player": "52",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "16.5",
+              "BH/C1": "15.5",
+              "SB": "6.00"
+            },
+            {
+              "Pos": "51",
               "Player": "38",
               "Rtg": "291",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.5",
-              "BH": "22.5",
-              "BH/C1": "20.0",
-              "SB": "8.50"
+              "BH": "30.5",
+              "BH/C1": "27.0",
+              "SB": "11.00"
             },
             {
-              "Pos": "42",
-              "Player": "5",
-              "Rtg": "1133",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "2.5",
-              "BH": "22.5",
-              "BH/C1": "20.0",
-              "SB": "7.75"
-            },
-            {
-              "Pos": "43",
-              "Player": "50",
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "2.5",
-              "BH": "20.0",
-              "BH/C1": "17.5",
-              "SB": "8.25"
-            },
-            {
-              "Pos": "44",
-              "Player": "62",
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "2.5",
-              "BH": "20.0",
-              "BH/C1": "17.5",
-              "SB": "7.25"
-            },
-            {
-              "Pos": "45",
+              "Pos": "52",
               "Player": "34",
               "Rtg": "399",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.5",
-              "BH": "19.0",
-              "BH/C1": "17.5",
-              "SB": "4.75"
+              "BH": "27.5",
+              "BH/C1": "26.0",
+              "SB": "6.25"
             },
             {
-              "Pos": "46",
-              "Player": "49",
+              "Pos": "53",
+              "Player": "50",
               "Rtg": "0",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.5",
-              "BH": "19.0",
-              "BH/C1": "16.5",
-              "SB": "7.75"
+              "BH": "25.0",
+              "BH/C1": "22.5",
+              "SB": "8.75"
             },
             {
-              "Pos": "47",
-              "Player": "51",
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "2.5",
-              "BH": "17.0",
-              "BH/C1": "16.0",
-              "SB": "4.50"
-            },
-            {
-              "Pos": "48",
+              "Pos": "54",
               "Player": "27",
               "Rtg": "543",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.5",
-              "BH": "17.0",
-              "BH/C1": "15.0",
-              "SB": "5.50"
+              "BH": "24.5",
+              "BH/C1": "22.0",
+              "SB": "7.25"
             },
             {
-              "Pos": "49",
-              "Player": "65",
+              "Pos": "55",
+              "Player": "60",
               "Rtg": "0",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.5",
-              "BH": "16.0",
-              "BH/C1": "13.5",
+              "BH": "23.0",
+              "BH/C1": "22.0",
               "SB": "5.25"
             },
             {
-              "Pos": "50",
-              "Player": "26",
-              "Rtg": "559",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "2.5",
-              "BH": "14.0",
-              "BH/C1": "12.5",
-              "SB": "4.25"
-            },
-            {
-              "Pos": "51",
-              "Player": "40",
-              "Rtg": "265",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "2.5",
-              "BH": "14.0",
-              "BH/C1": "11.5",
-              "SB": "3.75"
-            },
-            {
-              "Pos": "52",
+              "Pos": "56",
               "Player": "42",
               "Rtg": "195",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.5",
-              "BH": "13.5",
-              "BH/C1": "12.5",
-              "SB": "3.75"
+              "BH": "22.5",
+              "BH/C1": "20.5",
+              "SB": "6.25"
             },
             {
-              "Pos": "53",
-              "Player": "21",
-              "Rtg": "667",
+              "Pos": "57",
+              "Player": "65",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "2.5",
+              "BH": "20.5",
+              "BH/C1": "18.0",
+              "SB": "6.25"
+            },
+            {
+              "Pos": "58",
+              "Player": "57",
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "2.5",
+              "BH": "19.5",
+              "BH/C1": "17.0",
+              "SB": "3.25"
+            },
+            {
+              "Pos": "59",
+              "Player": "48",
+              "Rtg": "0",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.0",
-              "BH": "19.5",
-              "BH/C1": "17.5",
+              "BH": "23.0",
+              "BH/C1": "22.0",
               "SB": "4.50"
             },
             {
-              "Pos": "54",
+              "Pos": "60",
+              "Player": "43",
+              "Rtg": "139",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "23.0",
+              "BH/C1": "21.0",
+              "SB": "5.00"
+            },
+            {
+              "Pos": "61",
+              "Player": "30",
+              "Rtg": "471",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "22.5",
+              "BH/C1": "20.5",
+              "SB": "4.00"
+            },
+            {
+              "Pos": "62",
               "Player": "45",
               "Rtg": "100",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "22.0",
+              "BH/C1": "21.0",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "63",
+              "Player": "47",
+              "Rtg": "0",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.0",
@@ -28137,42 +28660,31 @@
               "SB": "3.00"
             },
             {
-              "Pos": "55",
-              "Player": "43",
-              "Rtg": "139",
+              "Pos": "64",
+              "Player": "25",
+              "Rtg": "597",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.0",
-              "BH": "17.5",
-              "BH/C1": "15.5",
-              "SB": "4.00"
+              "BH": "18.0",
+              "BH/C1": "16.0",
+              "SB": "4.25"
             },
             {
-              "Pos": "56",
-              "Player": "48",
-              "Rtg": "0",
+              "Pos": "65",
+              "Player": "44",
+              "Rtg": "100",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.0",
               "BH": "17.0",
-              "BH/C1": "17.0",
-              "SB": "2.50"
+              "BH/C1": "16.0",
+              "SB": "2.00"
             },
             {
-              "Pos": "57",
-              "Player": "64",
+              "Pos": "66",
+              "Player": "69",
               "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "2.0",
-              "BH": "16.5",
-              "BH/C1": "14.5",
-              "SB": "5.00"
-            },
-            {
-              "Pos": "58",
-              "Player": "30",
-              "Rtg": "471",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.0",
@@ -28181,103 +28693,15 @@
               "SB": "3.00"
             },
             {
-              "Pos": "59",
-              "Player": "25",
-              "Rtg": "597",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "2.0",
-              "BH": "15.0",
-              "BH/C1": "13.0",
-              "SB": "4.25"
-            },
-            {
-              "Pos": "60",
-              "Player": "61",
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "2.0",
-              "BH": "14.0",
-              "BH/C1": "12.0",
-              "SB": "1.00"
-            },
-            {
-              "Pos": "61",
-              "Player": "69",
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "2.0",
-              "BH": "12.5",
-              "BH/C1": "11.5",
-              "SB": "3.00"
-            },
-            {
-              "Pos": "62",
-              "Player": "52",
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "2.0",
-              "BH": "12.5",
-              "BH/C1": "11.5",
-              "SB": "2.00"
-            },
-            {
-              "Pos": "63",
-              "Player": "60",
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "1.5",
-              "BH": "16.0",
-              "BH/C1": "16.0",
-              "SB": "1.75"
-            },
-            {
-              "Pos": "64",
-              "Player": "57",
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "1.5",
-              "BH": "14.5",
-              "BH/C1": "13.0",
-              "SB": "0.75"
-            },
-            {
-              "Pos": "65",
+              "Pos": "67",
               "Player": "70",
               "Rtg": "0",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "1.5",
-              "BH": "14.0",
-              "BH/C1": "12.5",
-              "SB": "2.75"
-            },
-            {
-              "Pos": "66",
-              "Player": "47",
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "1.0",
-              "BH": "15.5",
-              "BH/C1": "13.5",
-              "SB": "2.00"
-            },
-            {
-              "Pos": "67",
-              "Player": "44",
-              "Rtg": "100",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "1.0",
-              "BH": "14.5",
-              "BH/C1": "13.5",
-              "SB": "1.00"
+              "BH": "16.0",
+              "BH/C1": "14.5",
+              "SB": "3.00"
             },
             {
               "Pos": "68",
@@ -28286,9 +28710,9 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "1.0",
-              "BH": "14.0",
-              "BH/C1": "14.0",
-              "SB": "0.00"
+              "BH": "17.0",
+              "BH/C1": "16.0",
+              "SB": "1.00"
             },
             {
               "Pos": "69",
@@ -28297,8 +28721,8 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "1.0",
-              "BH": "12.5",
-              "BH/C1": "11.5",
+              "BH": "16.5",
+              "BH/C1": "15.5",
               "SB": "0.00"
             },
             {
@@ -28307,9 +28731,9 @@
               "Rtg": "0",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "0.0",
-              "BH": "10.0",
-              "BH/C1": "10.0",
+              "Pts": "1.0",
+              "BH": "14.0",
+              "BH/C1": "13.0",
               "SB": "0.00"
             }
           ],
@@ -30098,5 +30522,5 @@
       ]
     }
   ],
-  "md5Hash": "4e5da79cbb971d2aea9c0f6959a04813"
+  "md5Hash": "624c11648912a24c54f86fde91e86dc1"
 }

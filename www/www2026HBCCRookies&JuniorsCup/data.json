@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T11:18:17.853Z",
+  "generatedAt": "2026-07-25T10:54:49.939Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 7",
@@ -771,9 +771,13 @@
                 "href": "playercard.html#14",
                 "title": "",
                 "federation": "VIC",
-                "rating": "885",
-                "fideId": "",
-                "moreInfo": {}
+                "rating": "1554",
+                "fideId": "3291251",
+                "moreInfo": {
+                  "fideId": "3291251",
+                  "fideRating": "1554",
+                  "fideFederation": "VIC"
+                }
               },
               "Rtg": "885",
               "Fed": "VIC",
@@ -1687,9 +1691,13 @@
                 "href": "playercard.html#32",
                 "title": "",
                 "federation": "VIC",
-                "rating": "456",
-                "fideId": "",
-                "moreInfo": {}
+                "rating": "1427",
+                "fideId": "3286266",
+                "moreInfo": {
+                  "fideId": "3286266",
+                  "fideRating": "1427",
+                  "fideFederation": "VIC"
+                }
               },
               "Rtg": "456",
               "Fed": "VIC",
@@ -3075,7 +3083,7 @@
               "Player": {
                 "id": "59",
                 "playerName": "Polus,Elyano",
-                "gender": "female",
+                "gender": "male",
                 "href": "playercard.html#59",
                 "title": "",
                 "federation": "VIC",
@@ -7140,11 +7148,11 @@
               "FIDE ID": "3256391",
               "Fed": "TAS",
               "Rtg": "1703",
-              "Ng": "3",
-              "Pts": "2.5",
-              "ARO": "1574",
-              "var": "10",
-              "Rp": "1847"
+              "Ng": "4",
+              "Pts": "3.0",
+              "ARO": "1555",
+              "var": "5",
+              "Rp": "1748"
             },
             {
               "#": "2",
@@ -7158,11 +7166,11 @@
               "FIDE ID": "3214915",
               "Fed": "VIC",
               "Rtg": "1664",
-              "Ng": "4",
-              "Pts": "1.5",
-              "ARO": "1482",
-              "var": "-29",
-              "Rp": "1395"
+              "Ng": "5",
+              "Pts": "2.5",
+              "ARO": "1471",
+              "var": "-25",
+              "Rp": "1471"
             },
             {
               "#": "3",
@@ -7176,11 +7184,11 @@
               "FIDE ID": "3275221",
               "Fed": "VIC",
               "Rtg": "1698",
-              "Ng": "4",
+              "Ng": "5",
               "Pts": "3.0",
-              "ARO": "1541",
-              "var": "9",
-              "Rp": "1734"
+              "ARO": "1550",
+              "var": "-17",
+              "Rp": "1622"
             },
             {
               "#": "4",
@@ -7194,11 +7202,11 @@
               "FIDE ID": "3265447",
               "Fed": "VIC",
               "Rtg": "1584",
-              "Ng": "3",
-              "Pts": "2.5",
-              "ARO": "1509",
-              "var": "28",
-              "Rp": "1782"
+              "Ng": "4",
+              "Pts": "3.5",
+              "ARO": "1556",
+              "var": "54",
+              "Rp": "1892"
             },
             {
               "#": "5",
@@ -7230,11 +7238,11 @@
               "FIDE ID": "3275779",
               "Fed": "VIC",
               "Rtg": "1490",
-              "Ng": "1",
-              "Pts": "1.0",
-              "ARO": "1614",
-              "var": "27",
-              "Rp": "2414"
+              "Ng": "2",
+              "Pts": "2.0",
+              "ARO": "1537",
+              "var": "45",
+              "Rp": "2337"
             },
             {
               "#": "7",
@@ -7248,11 +7256,11 @@
               "FIDE ID": "3265439",
               "Fed": "VIC",
               "Rtg": "1498",
-              "Ng": "4",
-              "Pts": "4.0",
-              "ARO": "1536",
-              "var": "88",
-              "Rp": "2336"
+              "Ng": "5",
+              "Pts": "4.5",
+              "ARO": "1569",
+              "var": "98",
+              "Rp": "1935"
             },
             {
               "#": "8",
@@ -7338,11 +7346,11 @@
               "FIDE ID": "3286320",
               "Fed": "VIC",
               "Rtg": "1601",
-              "Ng": "4",
-              "Pts": "2.5",
-              "ARO": "1585",
-              "var": "16",
-              "Rp": "1680"
+              "Ng": "5",
+              "Pts": "3.0",
+              "ARO": "1556",
+              "var": "8",
+              "Rp": "1628"
             },
             {
               "#": "13",
@@ -7363,6 +7371,24 @@
               "Rp": "1290"
             },
             {
+              "#": "14",
+              "Player": {
+                "id": "",
+                "playerName": "Vemula,Thamoghna",
+                "gender": "male",
+                "href": "http://ratings.fide.com/profile/3291251",
+                "title": ""
+              },
+              "FIDE ID": "3291251",
+              "Fed": "VIC",
+              "Rtg": "1554",
+              "Ng": "1",
+              "Pts": "1.0",
+              "ARO": "1407",
+              "var": "12",
+              "Rp": "2207"
+            },
+            {
               "#": "15",
               "Player": {
                 "id": "",
@@ -7374,11 +7400,11 @@
               "FIDE ID": "3284670",
               "Fed": "VIC",
               "Rtg": "1438",
-              "Ng": "3",
-              "Pts": "1.5",
-              "ARO": "1660",
-              "var": "34",
-              "Rp": "1660"
+              "Ng": "4",
+              "Pts": "2.0",
+              "ARO": "1645",
+              "var": "43",
+              "Rp": "1645"
             },
             {
               "#": "16",
@@ -7518,11 +7544,11 @@
               "FIDE ID": "573002330",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "3",
+              "Ng": "4",
               "Pts": "2.0",
-              "ARO": "1571",
+              "ARO": "1589",
               "var": "+0.00",
-              "Rp": "1591"
+              "Rp": "1589"
             },
             {
               "#": "24",
@@ -7626,11 +7652,29 @@
               "FIDE ID": "3289974",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "1",
+              "Ng": "2",
               "Pts": "1.0",
-              "ARO": "1554",
+              "ARO": "1541",
               "var": "+0.00",
-              "Rp": "1574"
+              "Rp": "1541"
+            },
+            {
+              "#": "32",
+              "Player": {
+                "id": "",
+                "playerName": "Balamurugan,Soorya",
+                "gender": "male",
+                "href": "http://ratings.fide.com/profile/3286266",
+                "title": ""
+              },
+              "FIDE ID": "3286266",
+              "Fed": "VIC",
+              "Rtg": "1427",
+              "Ng": "1",
+              "Pts": "0.0",
+              "ARO": "1664",
+              "var": "-8",
+              "Rp": "864"
             },
             {
               "#": "33",
@@ -7644,9 +7688,9 @@
               "FIDE ID": "3273547",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "3",
-              "Pts": "2.5",
-              "ARO": "1545",
+              "Ng": "4",
+              "Pts": "3.5",
+              "ARO": "1525",
               "var": "+0.00",
               "Rp": "1585"
             },
@@ -7680,11 +7724,11 @@
               "FIDE ID": "3286290",
               "Fed": "VIC",
               "Rtg": "1459",
-              "Ng": "2",
+              "Ng": "3",
               "Pts": "1.0",
-              "ARO": "1471",
-              "var": "1",
-              "Rp": "1471"
+              "ARO": "1477",
+              "var": "-17",
+              "Rp": "1352"
             },
             {
               "#": "36",
@@ -7698,11 +7742,11 @@
               "FIDE ID": "3297969",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "3",
-              "Pts": "1.0",
-              "ARO": "1522",
+              "Ng": "4",
+              "Pts": "1.5",
+              "ARO": "1496",
               "var": "+0.00",
-              "Rp": "1397"
+              "Rp": "1409"
             },
             {
               "#": "37",
@@ -7716,11 +7760,11 @@
               "FIDE ID": "3286274",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "1",
+              "Ng": "2",
               "Pts": "0.0",
-              "ARO": "1698",
+              "ARO": "1618",
               "var": "+0.00",
-              "Rp": "898"
+              "Rp": "818"
             },
             {
               "#": "38",
@@ -7752,11 +7796,11 @@
               "FIDE ID": "3295346",
               "Fed": "AUS",
               "Rtg": "1407",
-              "Ng": "1",
+              "Ng": "2",
               "Pts": "0.0",
-              "ARO": "1418",
-              "var": "-19",
-              "Rp": "618"
+              "ARO": "1486",
+              "var": "-31",
+              "Rp": "686"
             },
             {
               "#": "40",
@@ -7788,11 +7832,11 @@
               "FIDE ID": "3293840",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "1",
+              "Ng": "2",
               "Pts": "0.0",
-              "ARO": "1498",
+              "ARO": "1471",
               "var": "+0.00",
-              "Rp": "698"
+              "Rp": "671"
             },
             {
               "#": "42",
@@ -7806,11 +7850,11 @@
               "FIDE ID": "3297403",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "3",
+              "Ng": "4",
               "Pts": "0.5",
-              "ARO": "1462",
+              "ARO": "1501",
               "var": "+0.00",
-              "Rp": "1189"
+              "Rp": "1179"
             },
             {
               "#": "43",
@@ -7914,11 +7958,11 @@
               "FIDE ID": "573002194",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "4",
+              "Ng": "5",
               "Pts": "0.0",
-              "ARO": "1433",
+              "ARO": "1427",
               "var": "+0.00",
-              "Rp": "633"
+              "Rp": "627"
             },
             {
               "#": "49",
@@ -7932,11 +7976,11 @@
               "FIDE ID": "573002208",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "3",
-              "Pts": "0.5",
-              "ARO": "1481",
+              "Ng": "4",
+              "Pts": "1.5",
+              "ARO": "1473",
               "var": "+0.00",
-              "Rp": "1208"
+              "Rp": "1386"
             },
             {
               "#": "50",
@@ -7950,11 +7994,11 @@
               "FIDE ID": "573003263",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "4",
+              "Ng": "5",
               "Pts": "2.5",
-              "ARO": "1449",
+              "ARO": "1457",
               "var": "+0.00",
-              "Rp": "1469"
+              "Rp": "1457"
             },
             {
               "#": "51",
@@ -7968,11 +8012,11 @@
               "FIDE ID": "0",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "2",
-              "Pts": "0.0",
-              "ARO": "1592",
+              "Ng": "3",
+              "Pts": "1.0",
+              "ARO": "1554",
               "var": "+0.00",
-              "Rp": "792"
+              "Rp": "1429"
             },
             {
               "#": "52",
@@ -8094,18 +8138,18 @@
               "FIDE ID": "3294110",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "5",
-              "Pts": "3.0",
-              "ARO": "1478",
+              "Ng": "6",
+              "Pts": "4.0",
+              "ARO": "1469",
               "var": "+0.00",
-              "Rp": "1498"
+              "Rp": "1509"
             },
             {
               "#": "59",
               "Player": {
                 "id": "",
                 "playerName": "Polus,Elyano",
-                "gender": "female",
+                "gender": "male",
                 "href": "http://ratings.fide.com/profile/3285278",
                 "title": ""
               },
@@ -8166,11 +8210,11 @@
               "FIDE ID": "573003352",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "5",
-              "Pts": "2.0",
-              "ARO": "1503",
+              "Ng": "6",
+              "Pts": "3.0",
+              "ARO": "1521",
               "var": "+0.00",
-              "Rp": "1431"
+              "Rp": "1521"
             },
             {
               "#": "63",
@@ -8184,11 +8228,11 @@
               "FIDE ID": "3295702",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "4",
-              "Pts": "2.5",
-              "ARO": "1506",
+              "Ng": "5",
+              "Pts": "3.0",
+              "ARO": "1525",
               "var": "+0.00",
-              "Rp": "1526"
+              "Rp": "1545"
             },
             {
               "#": "64",
@@ -8238,11 +8282,11 @@
               "FIDE ID": "0",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "4",
-              "Pts": "2.0",
-              "ARO": "1498",
+              "Ng": "5",
+              "Pts": "3.0",
+              "ARO": "1482",
               "var": "+0.00",
-              "Rp": "1498"
+              "Rp": "1502"
             },
             {
               "#": "67",
@@ -8256,11 +8300,11 @@
               "FIDE ID": "0",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "5",
+              "Ng": "6",
               "Pts": "3.0",
-              "ARO": "1577",
+              "ARO": "1560",
               "var": "+0.00",
-              "Rp": "1597"
+              "Rp": "1560"
             },
             {
               "#": "68",
@@ -8274,11 +8318,11 @@
               "FIDE ID": "573002321",
               "Fed": "VIC",
               "Rtg": "0",
-              "Ng": "4",
-              "Pts": "1.5",
-              "ARO": "1490",
+              "Ng": "5",
+              "Pts": "2.5",
+              "ARO": "1485",
               "var": "+0.00",
-              "Rp": "1403"
+              "Rp": "1485"
             },
             {
               "#": "69",
@@ -8389,6 +8433,16 @@
               "Fed": "VIC",
               "Rtg": "1601",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "7",
+              "Opponent Name": "Batyrbekov,Aidan",
+              "FIDE ID": "3265439",
+              "Fed": "VIC",
+              "Rtg": "1498",
+              "res": "0.5"
             }
           ],
           "caption": {
@@ -8477,6 +8531,16 @@
               "Fed": "VIC",
               "Rtg": "1438",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "32",
+              "Opponent Name": "Balamurugan,Soorya",
+              "FIDE ID": "3286266",
+              "Fed": "VIC",
+              "Rtg": "1427",
+              "res": "1"
             }
           ],
           "caption": {
@@ -8565,6 +8629,16 @@
               "Fed": "TAS",
               "Rtg": "1703",
               "res": "0.5"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "4",
+              "Opponent Name": "Batyrbekov,Kaisar",
+              "FIDE ID": "3265447",
+              "Fed": "VIC",
+              "Rtg": "1584",
+              "res": "0"
             }
           ],
           "caption": {
@@ -8642,6 +8716,16 @@
               "FIDE ID": "3286258",
               "Fed": "VIC",
               "Rtg": "1465",
+              "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "3",
+              "Opponent Name": "Ramanathan,Ashwin",
+              "FIDE ID": "3275221",
+              "Fed": "VIC",
+              "Rtg": "1698",
               "res": "1"
             }
           ],
@@ -8789,6 +8873,16 @@
               "Fed": "VIC",
               "Rtg": "1614",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "35",
+              "Opponent Name": "Das,Ayush",
+              "FIDE ID": "3286290",
+              "Fed": "VIC",
+              "Rtg": "1459",
+              "res": "1"
             }
           ],
           "caption": {
@@ -8877,6 +8971,16 @@
               "Fed": "VIC",
               "Rtg": "1601",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "1",
+              "Opponent Name": "Djatschenko,Addison",
+              "FIDE ID": "3256391",
+              "Fed": "TAS",
+              "Rtg": "1703",
+              "res": "0.5"
             }
           ],
           "caption": {
@@ -9287,6 +9391,16 @@
               "Fed": "VIC",
               "Rtg": "1498",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "15",
+              "Opponent Name": "Jyothi Nikhil,Neev",
+              "FIDE ID": "3284670",
+              "Fed": "VIC",
+              "Rtg": "1438",
+              "res": "0.5"
             }
           ],
           "caption": {
@@ -9405,6 +9519,64 @@
           ],
           "rows": [
             {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "39",
+              "Opponent Name": "Veeragandham, Gowtham",
+              "FIDE ID": "3295346",
+              "Fed": "AUS",
+              "Rtg": "1407",
+              "res": "1"
+            }
+          ],
+          "caption": {
+            "playerName": "Vemula,Thamoghna",
+            "id": "",
+            "moreInfo": {
+              "N": "14",
+              "anchor": "14"
+            },
+            "rawText": "N = 14 Vemula,Thamoghna",
+            "rawHtml": " <a class=\"anchor\" name=\"14\"></a> N = 14<a href=\"http://ratings.fide.com/profile/3291251\" target=\"X\"> Vemula,Thamoghna </a>"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
+          ],
+          "rows": [
+            {
               "Rnd": "3",
               "Col": "B",
               "N opp": "5",
@@ -9433,6 +9605,16 @@
               "Fed": "VIC",
               "Rtg": "1664",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "12",
+              "Opponent Name": "Huang,Michael",
+              "FIDE ID": "3286320",
+              "Fed": "VIC",
+              "Rtg": "1601",
+              "res": "0.5"
             }
           ],
           "caption": {
@@ -9967,6 +10149,16 @@
               "Fed": "OS",
               "Rtg": "1582",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "8",
+              "Opponent Name": "Ahmad,Ihtiram",
+              "FIDE ID": "532011059",
+              "Fed": "OS",
+              "Rtg": "1645",
+              "res": "0"
             }
           ],
           "caption": {
@@ -10345,6 +10537,16 @@
               "Fed": "VIC",
               "Rtg": "1554",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "9",
+              "Opponent Name": "Ashok,Arjun",
+              "FIDE ID": "3275108",
+              "Fed": "VIC",
+              "Rtg": "1527",
+              "res": "0"
             }
           ],
           "caption": {
@@ -10356,6 +10558,64 @@
             },
             "rawText": "N = 31 Spriggs,Harvey",
             "rawHtml": " <a class=\"anchor\" name=\"31\"></a> N = 31<a href=\"http://ratings.fide.com/profile/3289974\" target=\"X\"> Spriggs,Harvey </a>"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "Rnd",
+              "key": "Rnd"
+            },
+            {
+              "name": "Col",
+              "key": "Col"
+            },
+            {
+              "name": "N opp",
+              "key": "N opp"
+            },
+            {
+              "name": "Opponent Name",
+              "key": "Opponent Name"
+            },
+            {
+              "name": "FIDE ID",
+              "key": "FIDE ID"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            }
+          ],
+          "rows": [
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "2",
+              "Opponent Name": "Nowak,Ruben",
+              "FIDE ID": "3214915",
+              "Fed": "VIC",
+              "Rtg": "1664",
+              "res": "0"
+            }
+          ],
+          "caption": {
+            "playerName": "Balamurugan,Soorya",
+            "id": "",
+            "moreInfo": {
+              "N": "32",
+              "anchor": "32"
+            },
+            "rawText": "N = 32 Balamurugan,Soorya",
+            "rawHtml": " <a class=\"anchor\" name=\"32\"></a> N = 32<a href=\"http://ratings.fide.com/profile/3286266\" target=\"X\"> Balamurugan,Soorya </a>"
           }
         },
         {
@@ -10423,6 +10683,16 @@
               "Fed": "VIC",
               "Rtg": "1527",
               "res": "0.5"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "11",
+              "Opponent Name": "Balaji,Sai Sivesh",
+              "FIDE ID": "3286258",
+              "Fed": "VIC",
+              "Rtg": "1465",
+              "res": "1"
             }
           ],
           "caption": {
@@ -10569,6 +10839,16 @@
               "Fed": "VIC",
               "Rtg": "1538",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "6",
+              "Opponent Name": "Annadasu,Shreyansh",
+              "FIDE ID": "3275779",
+              "Fed": "VIC",
+              "Rtg": "1490",
+              "res": "0"
             }
           ],
           "caption": {
@@ -10647,6 +10927,16 @@
               "Fed": "VIC",
               "Rtg": "1479",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "17",
+              "Opponent Name": "Saha,Avinandan (Arjun)",
+              "FIDE ID": "3264173",
+              "Fed": "VIC",
+              "Rtg": "1418",
+              "res": "0.5"
             }
           ],
           "caption": {
@@ -10704,6 +10994,16 @@
               "FIDE ID": "3275221",
               "Fed": "VIC",
               "Rtg": "1698",
+              "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "18",
+              "Opponent Name": "Nema,Nivaan",
+              "FIDE ID": "3289923",
+              "Fed": "VIC",
+              "Rtg": "1538",
               "res": "0"
             }
           ],
@@ -10861,6 +11161,16 @@
               "Fed": "VIC",
               "Rtg": "1418",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "14",
+              "Opponent Name": "Vemula,Thamoghna",
+              "FIDE ID": "3291251",
+              "Fed": "VIC",
+              "Rtg": "1554",
+              "res": "0"
             }
           ],
           "caption": {
@@ -10987,6 +11297,16 @@
               "Fed": "VIC",
               "Rtg": "1498",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "28",
+              "Opponent Name": "Goh,Nicholas",
+              "FIDE ID": "3254917",
+              "Fed": "VIC",
+              "Rtg": "1444",
+              "res": "0"
             }
           ],
           "caption": {
@@ -11065,6 +11385,16 @@
               "Fed": "VIC",
               "Rtg": "1456",
               "res": "0.5"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "5",
+              "Opponent Name": "Yendru,Srikrishna",
+              "FIDE ID": "3262952",
+              "Fed": "VIC",
+              "Rtg": "1618",
+              "res": "0"
             }
           ],
           "caption": {
@@ -11523,6 +11853,16 @@
               "Fed": "AUS",
               "Rtg": "1407",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "21",
+              "Opponent Name": "Venkat,Nyra",
+              "FIDE ID": "3286410",
+              "Fed": "VIC",
+              "Rtg": "1404",
+              "res": "0"
             }
           ],
           "caption": {
@@ -11601,6 +11941,16 @@
               "Fed": "VIC",
               "Rtg": "1424",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "38",
+              "Opponent Name": "Fang,Candice",
+              "FIDE ID": "3291154",
+              "Fed": "VIC",
+              "Rtg": "1447",
+              "res": "1"
             }
           ],
           "caption": {
@@ -11689,6 +12039,16 @@
               "Fed": "VIC",
               "Rtg": "1424",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "26",
+              "Opponent Name": "Guggilla,Krithvik",
+              "FIDE ID": "3290522",
+              "Fed": "VIC",
+              "Rtg": "1491",
+              "res": "0"
             }
           ],
           "caption": {
@@ -11757,6 +12117,16 @@
               "Fed": "OS",
               "Rtg": "1645",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "27",
+              "Opponent Name": "Kaur,Mishleen",
+              "FIDE ID": "3292347",
+              "Fed": "VIC",
+              "Rtg": "1479",
+              "res": "1"
             }
           ],
           "caption": {
@@ -12263,6 +12633,16 @@
               "Fed": "VIC",
               "Rtg": "1491",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "24",
+              "Opponent Name": "Yendru,Sriram",
+              "FIDE ID": "3267881",
+              "Fed": "VIC",
+              "Rtg": "1424",
+              "res": "1"
             }
           ],
           "caption": {
@@ -12575,6 +12955,16 @@
               "Fed": "VIC",
               "Rtg": "1427",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "34",
+              "Opponent Name": "Gadham,Aarya Subramanya",
+              "FIDE ID": "3292339",
+              "Fed": "VIC",
+              "Rtg": "1614",
+              "res": "1"
             }
           ],
           "caption": {
@@ -12663,6 +13053,16 @@
               "Fed": "VIC",
               "Rtg": "1444",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "10",
+              "Opponent Name": "Wei,Andrew",
+              "FIDE ID": "3265277",
+              "Fed": "VIC",
+              "Rtg": "1601",
+              "res": "0.5"
             }
           ],
           "caption": {
@@ -12907,6 +13307,16 @@
               "Fed": "VIC",
               "Rtg": "1618",
               "res": "1"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "22",
+              "Opponent Name": "Shaiek,Nihal",
+              "FIDE ID": "3286380",
+              "Fed": "VIC",
+              "Rtg": "1422",
+              "res": "1"
             }
           ],
           "caption": {
@@ -13005,6 +13415,16 @@
               "Fed": "VIC",
               "Rtg": "1698",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "B",
+              "N opp": "13",
+              "Opponent Name": "Ruaya,Rohan",
+              "FIDE ID": "3281345",
+              "Fed": "VIC",
+              "Rtg": "1475",
+              "res": "0"
             }
           ],
           "caption": {
@@ -13093,6 +13513,16 @@
               "Fed": "VIC",
               "Rtg": "1418",
               "res": "0"
+            },
+            {
+              "Rnd": "7",
+              "Col": "W",
+              "N opp": "29",
+              "Opponent Name": "Husain, Lamiah",
+              "FIDE ID": "3278905",
+              "Fed": "AUS",
+              "Rtg": "1467",
+              "res": "1"
             }
           ],
           "caption": {
@@ -14615,9 +15045,13 @@
                 "href": "playercard.html#14",
                 "title": "",
                 "federation": "VIC",
-                "rating": "885",
-                "fideId": "",
-                "moreInfo": {}
+                "rating": "1554",
+                "fideId": "3291251",
+                "moreInfo": {
+                  "fideId": "3291251",
+                  "fideRating": "1554",
+                  "fideFederation": "VIC"
+                }
               },
               "Origin_1": "",
               "Fed_1": "VIC"
@@ -15269,9 +15703,13 @@
                 "href": "playercard.html#32",
                 "title": "",
                 "federation": "VIC",
-                "rating": "456",
-                "fideId": "",
-                "moreInfo": {}
+                "rating": "1427",
+                "fideId": "3286266",
+                "moreInfo": {
+                  "fideId": "3286266",
+                  "fideRating": "1427",
+                  "fideFederation": "VIC"
+                }
               },
               "Pts": "0",
               "Result": "1 - 0",
@@ -15445,7 +15883,7 @@
               "White Player": {
                 "id": "59",
                 "playerName": "Polus,Elyano",
-                "gender": "female",
+                "gender": "male",
                 "href": "playercard.html#59",
                 "title": "",
                 "federation": "VIC",
@@ -16248,7 +16686,7 @@
               "Black Player": {
                 "id": "59",
                 "playerName": "Polus,Elyano",
-                "gender": "female",
+                "gender": "male",
                 "href": "playercard.html#59",
                 "title": "",
                 "federation": "VIC",
@@ -16870,9 +17308,13 @@
                 "href": "playercard.html#14",
                 "title": "",
                 "federation": "VIC",
-                "rating": "885",
-                "fideId": "",
-                "moreInfo": {}
+                "rating": "1554",
+                "fideId": "3291251",
+                "moreInfo": {
+                  "fideId": "3291251",
+                  "fideRating": "1554",
+                  "fideFederation": "VIC"
+                }
               },
               "Pts": "1",
               "Result": "½",
@@ -16892,9 +17334,13 @@
                 "href": "playercard.html#32",
                 "title": "",
                 "federation": "VIC",
-                "rating": "456",
-                "fideId": "",
-                "moreInfo": {}
+                "rating": "1427",
+                "fideId": "3286266",
+                "moreInfo": {
+                  "fideId": "3286266",
+                  "fideRating": "1427",
+                  "fideFederation": "VIC"
+                }
               },
               "Pts": "1",
               "Result": "½",
@@ -17291,7 +17737,7 @@
               "White Player": {
                 "id": "59",
                 "playerName": "Polus,Elyano",
-                "gender": "female",
+                "gender": "male",
                 "href": "playercard.html#59",
                 "title": "",
                 "federation": "VIC",
@@ -17335,9 +17781,13 @@
                 "href": "playercard.html#14",
                 "title": "",
                 "federation": "VIC",
-                "rating": "885",
-                "fideId": "",
-                "moreInfo": {}
+                "rating": "1554",
+                "fideId": "3291251",
+                "moreInfo": {
+                  "fideId": "3291251",
+                  "fideRating": "1554",
+                  "fideFederation": "VIC"
+                }
               },
               "Pts": "1.5",
               "Result": "½ - ½",
@@ -17389,9 +17839,13 @@
                 "href": "playercard.html#32",
                 "title": "",
                 "federation": "VIC",
-                "rating": "456",
-                "fideId": "",
-                "moreInfo": {}
+                "rating": "1427",
+                "fideId": "3286266",
+                "moreInfo": {
+                  "fideId": "3286266",
+                  "fideRating": "1427",
+                  "fideFederation": "VIC"
+                }
               },
               "Origin_1": "",
               "Fed_1": "VIC"
@@ -18718,7 +19172,7 @@
               "Black Player": {
                 "id": "59",
                 "playerName": "Polus,Elyano",
-                "gender": "female",
+                "gender": "male",
                 "href": "playercard.html#59",
                 "title": "",
                 "federation": "VIC",
@@ -18802,9 +19256,13 @@
                 "href": "playercard.html#14",
                 "title": "",
                 "federation": "VIC",
-                "rating": "885",
-                "fideId": "",
-                "moreInfo": {}
+                "rating": "1554",
+                "fideId": "3291251",
+                "moreInfo": {
+                  "fideId": "3291251",
+                  "fideRating": "1554",
+                  "fideFederation": "VIC"
+                }
               },
               "Origin_1": "",
               "Fed_1": "VIC"
@@ -19784,9 +20242,13 @@
                 "href": "playercard.html#32",
                 "title": "",
                 "federation": "VIC",
-                "rating": "456",
-                "fideId": "",
-                "moreInfo": {}
+                "rating": "1427",
+                "fideId": "3286266",
+                "moreInfo": {
+                  "fideId": "3286266",
+                  "fideRating": "1427",
+                  "fideFederation": "VIC"
+                }
               },
               "Pts": "1.5",
               "Result": "½",
@@ -20177,9 +20639,13 @@
                 "href": "playercard.html#14",
                 "title": "",
                 "federation": "VIC",
-                "rating": "885",
-                "fideId": "",
-                "moreInfo": {}
+                "rating": "1554",
+                "fideId": "3291251",
+                "moreInfo": {
+                  "fideId": "3291251",
+                  "fideRating": "1554",
+                  "fideFederation": "VIC"
+                }
               },
               "Pts": "3",
               "Result": "0 - 1",
@@ -21229,9 +21695,13 @@
                 "href": "playercard.html#32",
                 "title": "",
                 "federation": "VIC",
-                "rating": "456",
-                "fideId": "",
-                "moreInfo": {}
+                "rating": "1427",
+                "fideId": "3286266",
+                "moreInfo": {
+                  "fideId": "3286266",
+                  "fideRating": "1427",
+                  "fideFederation": "VIC"
+                }
               },
               "Pts": "2",
               "Result": "½",
@@ -21247,7 +21717,7 @@
               "White Player": {
                 "id": "59",
                 "playerName": "Polus,Elyano",
-                "gender": "female",
+                "gender": "male",
                 "href": "playercard.html#59",
                 "title": "",
                 "federation": "VIC",
@@ -21812,9 +22282,13 @@
                 "href": "playercard.html#14",
                 "title": "",
                 "federation": "VIC",
-                "rating": "885",
-                "fideId": "",
-                "moreInfo": {}
+                "rating": "1554",
+                "fideId": "3291251",
+                "moreInfo": {
+                  "fideId": "3291251",
+                  "fideRating": "1554",
+                  "fideFederation": "VIC"
+                }
               },
               "Origin_1": "",
               "Fed_1": "VIC"
@@ -22026,7 +22500,7 @@
               "White Player": {
                 "id": "59",
                 "playerName": "Polus,Elyano",
-                "gender": "female",
+                "gender": "male",
                 "href": "playercard.html#59",
                 "title": "",
                 "federation": "VIC",
@@ -22150,9 +22624,13 @@
                 "href": "playercard.html#32",
                 "title": "",
                 "federation": "VIC",
-                "rating": "456",
-                "fideId": "",
-                "moreInfo": {}
+                "rating": "1427",
+                "fideId": "3286266",
+                "moreInfo": {
+                  "fideId": "3286266",
+                  "fideRating": "1427",
+                  "fideFederation": "VIC"
+                }
               },
               "Pts": "2.5",
               "Result": "1 - 0",
@@ -22904,7 +23382,7 @@
                 }
               },
               "Pts": "5",
-              "Result": "...",
+              "Result": "½ - ½",
               "Pts_1": "6",
               "Black Player": {
                 "id": "7",
@@ -22944,7 +23422,7 @@
                 }
               },
               "Pts": "5",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "5",
               "Black Player": {
                 "id": "4",
@@ -22984,7 +23462,7 @@
                 }
               },
               "Pts": "4.5",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "4.5",
               "Black Player": {
                 "id": "8",
@@ -23024,7 +23502,7 @@
                 }
               },
               "Pts": "4.5",
-              "Result": "...",
+              "Result": "½ - ½",
               "Pts_1": "4.5",
               "Black Player": {
                 "id": "15",
@@ -23064,7 +23542,7 @@
                 }
               },
               "Pts": "4",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "4",
               "Black Player": {
                 "id": "31",
@@ -23104,7 +23582,7 @@
                 }
               },
               "Pts": "4",
-              "Result": "...",
+              "Result": "½ - ½",
               "Pts_1": "4",
               "Black Player": {
                 "id": "10",
@@ -23144,7 +23622,7 @@
                 }
               },
               "Pts": "4",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "4",
               "Black Player": {
                 "id": "33",
@@ -23184,7 +23662,7 @@
                 }
               },
               "Pts": "4",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "4",
               "Black Player": {
                 "id": "37",
@@ -23224,7 +23702,7 @@
                 }
               },
               "Pts": "4",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "4",
               "Black Player": {
                 "id": "66",
@@ -23264,7 +23742,7 @@
                 }
               },
               "Pts": "3.5",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "4",
               "Black Player": {
                 "id": "67",
@@ -23304,7 +23782,7 @@
                 }
               },
               "Pts": "3.5",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "3.5",
               "Black Player": {
                 "id": "32",
@@ -23313,9 +23791,13 @@
                 "href": "playercard.html#32",
                 "title": "",
                 "federation": "VIC",
-                "rating": "456",
-                "fideId": "",
-                "moreInfo": {}
+                "rating": "1427",
+                "fideId": "3286266",
+                "moreInfo": {
+                  "fideId": "3286266",
+                  "fideRating": "1427",
+                  "fideFederation": "VIC"
+                }
               },
               "Origin_1": "",
               "Fed_1": "VIC"
@@ -23340,7 +23822,7 @@
                 }
               },
               "Pts": "3.5",
-              "Result": "...",
+              "Result": "½ - ½",
               "Pts_1": "3.5",
               "Black Player": {
                 "id": "36",
@@ -23380,7 +23862,7 @@
                 }
               },
               "Pts": "3.5",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "3.5",
               "Black Player": {
                 "id": "24",
@@ -23420,7 +23902,7 @@
                 }
               },
               "Pts": "3.5",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "3.5",
               "Black Player": {
                 "id": "29",
@@ -23460,7 +23942,7 @@
                 }
               },
               "Pts": "3",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "3",
               "Black Player": {
                 "id": "35",
@@ -23491,12 +23973,16 @@
                 "href": "playercard.html#14",
                 "title": "",
                 "federation": "VIC",
-                "rating": "885",
-                "fideId": "",
-                "moreInfo": {}
+                "rating": "1554",
+                "fideId": "3291251",
+                "moreInfo": {
+                  "fideId": "3291251",
+                  "fideRating": "1554",
+                  "fideFederation": "VIC"
+                }
               },
               "Pts": "3",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "3",
               "Black Player": {
                 "id": "39",
@@ -23536,12 +24022,12 @@
                 }
               },
               "Pts": "3",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "3",
               "Black Player": {
                 "id": "59",
                 "playerName": "Polus,Elyano",
-                "gender": "female",
+                "gender": "male",
                 "href": "playercard.html#59",
                 "title": "",
                 "federation": "VIC",
@@ -23576,7 +24062,7 @@
                 }
               },
               "Pts": "3",
-              "Result": "...",
+              "Result": "1F-0F",
               "Pts_1": "3",
               "Black Player": {
                 "id": "20",
@@ -23616,7 +24102,7 @@
                 }
               },
               "Pts": "3",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "3",
               "Black Player": {
                 "id": "28",
@@ -23656,7 +24142,7 @@
                 }
               },
               "Pts": "2.5",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "2.5",
               "Black Player": {
                 "id": "42",
@@ -23696,7 +24182,7 @@
                 }
               },
               "Pts": "2.5",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "2.5",
               "Black Player": {
                 "id": "26",
@@ -23736,7 +24222,7 @@
                 }
               },
               "Pts": "2.5",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "2.5",
               "Black Player": {
                 "id": "27",
@@ -23772,7 +24258,7 @@
                 }
               },
               "Pts": "2.5",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "2.5",
               "Black Player": {
                 "id": "34",
@@ -23812,7 +24298,7 @@
                 }
               },
               "Pts": "2.5",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "2.5",
               "Black Player": {
                 "id": "49",
@@ -23852,7 +24338,7 @@
                 }
               },
               "Pts": "2.5",
-              "Result": "...",
+              "Result": "0F-1F",
               "Pts_1": "2.5",
               "Black Player": {
                 "id": "40",
@@ -23892,7 +24378,7 @@
                 }
               },
               "Pts": "2",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "2",
               "Black Player": {
                 "id": "21",
@@ -23932,7 +24418,7 @@
                 }
               },
               "Pts": "2",
-              "Result": "...",
+              "Result": "1F-0F",
               "Pts_1": "2",
               "Black Player": {
                 "id": "30",
@@ -23972,7 +24458,7 @@
                 }
               },
               "Pts": "2",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "2",
               "Black Player": {
                 "id": "43",
@@ -24012,7 +24498,7 @@
                 }
               },
               "Pts": "2",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "2",
               "Black Player": {
                 "id": "61",
@@ -24052,7 +24538,7 @@
                 }
               },
               "Pts": "1.5",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "2",
               "Black Player": {
                 "id": "69",
@@ -24092,7 +24578,7 @@
                 }
               },
               "Pts": "1.5",
-              "Result": "...",
+              "Result": "0F-1F",
               "Pts_1": "1.5",
               "Black Player": {
                 "id": "60",
@@ -24132,7 +24618,7 @@
                 }
               },
               "Pts": "1",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "1",
               "Black Player": {
                 "id": "44",
@@ -24172,7 +24658,7 @@
                 }
               },
               "Pts": "1",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "1",
               "Black Player": {
                 "id": "54",
@@ -34096,12 +34582,12 @@
       "tournamentType": "unknown"
     },
     "rankingagegroup.html": {
-      "pageHeading": "Player Groups by date at round 7",
+      "pageHeading": "",
       "tables": [],
       "tournamentType": "unknown"
     },
     "rankinggroup.html": {
-      "pageHeading": "Rated Player Groups at round 6",
+      "pageHeading": "Rated Player Groups at round 7",
       "tables": [],
       "tournamentType": "unknown"
     },
@@ -34165,7 +34651,7 @@
       "tournamentType": "unknown"
     },
     "standings.html": {
-      "pageHeading": "Standings at round 6",
+      "pageHeading": "Standings at round 7 (last round)",
       "tables": [
         {
           "headers": [
@@ -34227,35 +34713,35 @@
               "Rtg": "1092",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "6.0",
-              "BH": "19.5",
-              "BH/C1": "17.5",
-              "SB": "19.50"
+              "Pts": "6.5",
+              "BH": "29.0",
+              "BH/C1": "26.0",
+              "SB": "26.25"
             },
             {
               "Pos": "2",
               "Player": {
-                "id": "3",
-                "playerName": "Ramanathan,Ashwin",
+                "id": "4",
+                "playerName": "Batyrbekov,Kaisar",
                 "gender": "male",
-                "href": "playercard.html#3",
+                "href": "playercard.html#4",
                 "title": "",
                 "federation": "VIC",
-                "rating": "1698",
-                "fideId": "3275221",
+                "rating": "1584",
+                "fideId": "3265447",
                 "moreInfo": {
-                  "fideId": "3275221",
-                  "fideRating": "1698",
+                  "fideId": "3265447",
+                  "fideRating": "1584",
                   "fideFederation": "VIC"
                 }
               },
-              "Rtg": "1362",
+              "Rtg": "1265",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "5.0",
-              "BH": "26.0",
-              "BH/C1": "22.0",
-              "SB": "21.25"
+              "Pts": "6.0",
+              "BH": "25.5",
+              "BH/C1": "23.0",
+              "SB": "22.25"
             },
             {
               "Pos": "3",
@@ -34277,38 +34763,63 @@
               "Rtg": "1501",
               "Fed": "TAS",
               "Origin": "",
-              "Pts": "5.0",
-              "BH": "26.0",
-              "BH/C1": "21.0",
-              "SB": "21.00"
+              "Pts": "5.5",
+              "BH": "33.5",
+              "BH/C1": "28.0",
+              "SB": "25.00"
             },
             {
               "Pos": "4",
               "Player": {
-                "id": "4",
-                "playerName": "Batyrbekov,Kaisar",
+                "id": "8",
+                "playerName": "Ahmad,Ihtiram",
                 "gender": "male",
-                "href": "playercard.html#4",
+                "href": "playercard.html#8",
                 "title": "",
-                "federation": "VIC",
-                "rating": "1584",
-                "fideId": "3265447",
+                "federation": "OS",
+                "rating": "1645",
+                "fideId": "532011059",
                 "moreInfo": {
-                  "fideId": "3265447",
-                  "fideRating": "1584",
-                  "fideFederation": "VIC"
+                  "fideId": "532011059",
+                  "fideRating": "1645",
+                  "fideFederation": "OS"
                 }
               },
-              "Rtg": "1265",
-              "Fed": "VIC",
+              "Rtg": "1074",
+              "Fed": "OS",
               "Origin": "",
-              "Pts": "5.0",
-              "BH": "18.0",
-              "BH/C1": "15.5",
-              "SB": "15.25"
+              "Pts": "5.5",
+              "BH": "26.5",
+              "BH/C1": "21.0",
+              "SB": "19.75"
             },
             {
               "Pos": "5",
+              "Player": {
+                "id": "3",
+                "playerName": "Ramanathan,Ashwin",
+                "gender": "male",
+                "href": "playercard.html#3",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1698",
+                "fideId": "3275221",
+                "moreInfo": {
+                  "fideId": "3275221",
+                  "fideRating": "1698",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "1362",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "5.0",
+              "BH": "33.5",
+              "BH/C1": "29.5",
+              "SB": "22.25"
+            },
+            {
+              "Pos": "6",
               "Player": {
                 "id": "12",
                 "playerName": "Huang,Michael",
@@ -34327,13 +34838,13 @@
               "Rtg": "934",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "4.5",
-              "BH": "22.0",
-              "BH/C1": "20.0",
-              "SB": "13.50"
+              "Pts": "5.0",
+              "BH": "30.5",
+              "BH/C1": "28.5",
+              "SB": "19.00"
             },
             {
-              "Pos": "6",
+              "Pos": "7",
               "Player": {
                 "id": "15",
                 "playerName": "Jyothi Nikhil,Neev",
@@ -34352,13 +34863,213 @@
               "Rtg": "856",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "4.5",
-              "BH": "21.0",
-              "BH/C1": "19.0",
-              "SB": "14.75"
+              "Pts": "5.0",
+              "BH": "29.5",
+              "BH/C1": "27.5",
+              "SB": "20.25"
             },
             {
-              "Pos": "7",
+              "Pos": "8",
+              "Player": {
+                "id": "9",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#9",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1527",
+                "fideId": "3275108",
+                "moreInfo": {
+                  "fideId": "3275108",
+                  "fideRating": "1527",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "1069",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "5.0",
+              "BH": "27.5",
+              "BH/C1": "25.0",
+              "SB": "17.75"
+            },
+            {
+              "Pos": "9",
+              "Player": {
+                "id": "18",
+                "playerName": "Nema,Nivaan",
+                "gender": "male",
+                "href": "playercard.html#18",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1538",
+                "fideId": "3289923",
+                "moreInfo": {
+                  "fideId": "3289923",
+                  "fideRating": "1538",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "819",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "5.0",
+              "BH": "27.0",
+              "BH/C1": "22.0",
+              "SB": "18.75"
+            },
+            {
+              "Pos": "10",
+              "Player": {
+                "id": "33",
+                "playerName": "Singh,Sumair",
+                "gender": "male",
+                "href": "playercard.html#33",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "3273547",
+                "moreInfo": {
+                  "fideId": "3273547",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "455",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "5.0",
+              "BH": "26.0",
+              "BH/C1": "23.5",
+              "SB": "18.25"
+            },
+            {
+              "Pos": "11",
+              "Player": {
+                "id": "66",
+                "playerName": "Vinu,Vaishnav",
+                "gender": "male",
+                "href": "playercard.html#66",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "0",
+                "moreInfo": {
+                  "fideId": "0",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "5.0",
+              "BH": "23.0",
+              "BH/C1": "21.0",
+              "SB": "14.50"
+            },
+            {
+              "Pos": "12",
+              "Player": {
+                "id": "2",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "playercard.html#2",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1664",
+                "fideId": "3214915",
+                "moreInfo": {
+                  "fideId": "3214915",
+                  "fideRating": "1664",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "1426",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.5",
+              "BH": "31.0",
+              "BH/C1": "28.0",
+              "SB": "17.00"
+            },
+            {
+              "Pos": "13",
+              "Player": {
+                "id": "13",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#13",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1475",
+                "fideId": "3281345",
+                "moreInfo": {
+                  "fideId": "3281345",
+                  "fideRating": "1475",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "894",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.5",
+              "BH": "30.5",
+              "BH/C1": "26.0",
+              "SB": "17.75"
+            },
+            {
+              "Pos": "14",
+              "Player": {
+                "id": "58",
+                "playerName": "Paul,Vivaan",
+                "gender": "male",
+                "href": "playercard.html#58",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "3294110",
+                "moreInfo": {
+                  "fideId": "3294110",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.5",
+              "BH": "28.5",
+              "BH/C1": "25.0",
+              "SB": "17.25"
+            },
+            {
+              "Pos": "15",
+              "Player": {
+                "id": "63",
+                "playerName": "Samraat,Aayush",
+                "gender": "male",
+                "href": "playercard.html#63",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "3295702",
+                "moreInfo": {
+                  "fideId": "3295702",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.5",
+              "BH": "26.5",
+              "BH/C1": "23.5",
+              "SB": "17.25"
+            },
+            {
+              "Pos": "16",
               "Player": {
                 "id": "23",
                 "playerName": "Watson,Jacob",
@@ -34378,37 +35089,87 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "4.5",
-              "BH": "19.5",
-              "BH/C1": "18.0",
+              "BH": "26.0",
+              "BH/C1": "24.5",
               "SB": "12.75"
             },
             {
-              "Pos": "8",
+              "Pos": "17",
               "Player": {
-                "id": "8",
-                "playerName": "Ahmad,Ihtiram",
+                "id": "10",
+                "playerName": "Wei,Andrew",
                 "gender": "male",
-                "href": "playercard.html#8",
+                "href": "playercard.html#10",
                 "title": "",
-                "federation": "OS",
-                "rating": "1645",
-                "fideId": "532011059",
+                "federation": "VIC",
+                "rating": "1601",
+                "fideId": "3265277",
                 "moreInfo": {
-                  "fideId": "532011059",
-                  "fideRating": "1645",
-                  "fideFederation": "OS"
+                  "fideId": "3265277",
+                  "fideRating": "1601",
+                  "fideFederation": "VIC"
                 }
               },
-              "Rtg": "1074",
-              "Fed": "OS",
+              "Rtg": "1007",
+              "Fed": "VIC",
               "Origin": "",
               "Pts": "4.5",
-              "BH": "18.5",
-              "BH/C1": "14.0",
-              "SB": "13.25"
+              "BH": "25.5",
+              "BH/C1": "23.5",
+              "SB": "14.25"
             },
             {
-              "Pos": "9",
+              "Pos": "18",
+              "Player": {
+                "id": "68",
+                "playerName": "Wang,Evan",
+                "gender": "male",
+                "href": "playercard.html#68",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "573002321",
+                "moreInfo": {
+                  "fideId": "573002321",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.5",
+              "BH": "22.5",
+              "BH/C1": "20.0",
+              "SB": "14.75"
+            },
+            {
+              "Pos": "19",
+              "Player": {
+                "id": "59",
+                "playerName": "Polus,Elyano",
+                "gender": "male",
+                "href": "playercard.html#59",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "3285278",
+                "moreInfo": {
+                  "fideId": "3285278",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "31.0",
+              "BH/C1": "27.0",
+              "SB": "17.50"
+            },
+            {
+              "Pos": "20",
               "Player": {
                 "id": "67",
                 "playerName": "Vinu,Vinayak",
@@ -34428,62 +35189,12 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "4.0",
-              "BH": "22.5",
-              "BH/C1": "20.5",
-              "SB": "12.50"
+              "BH": "30.0",
+              "BH/C1": "27.0",
+              "SB": "15.00"
             },
             {
-              "Pos": "10",
-              "Player": {
-                "id": "9",
-                "playerName": "Ashok,Arjun",
-                "gender": "male",
-                "href": "playercard.html#9",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1527",
-                "fideId": "3275108",
-                "moreInfo": {
-                  "fideId": "3275108",
-                  "fideRating": "1527",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "1069",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "BH": "21.0",
-              "BH/C1": "18.5",
-              "SB": "12.75"
-            },
-            {
-              "Pos": "11",
-              "Player": {
-                "id": "63",
-                "playerName": "Samraat,Aayush",
-                "gender": "male",
-                "href": "playercard.html#63",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "3295702",
-                "moreInfo": {
-                  "fideId": "3295702",
-                  "fideRating": "0",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "BH": "20.0",
-              "BH/C1": "17.0",
-              "SB": "13.50"
-            },
-            {
-              "Pos": "12",
+              "Pos": "21",
               "Player": {
                 "id": "11",
                 "playerName": "Balaji,Sai Sivesh",
@@ -34503,259 +35214,34 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "4.0",
-              "BH": "19.5",
-              "BH/C1": "18.5",
-              "SB": "11.00"
-            },
-            {
-              "Pos": "13",
-              "Player": {
-                "id": "22",
-                "playerName": "Shaiek,Nihal",
-                "gender": "male",
-                "href": "playercard.html#22",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1422",
-                "fideId": "3286380",
-                "moreInfo": {
-                  "fideId": "3286380",
-                  "fideRating": "1422",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "657",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "BH": "19.0",
-              "BH/C1": "17.5",
-              "SB": "10.00"
-            },
-            {
-              "Pos": "14",
-              "Player": {
-                "id": "18",
-                "playerName": "Nema,Nivaan",
-                "gender": "male",
-                "href": "playercard.html#18",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1538",
-                "fideId": "3289923",
-                "moreInfo": {
-                  "fideId": "3289923",
-                  "fideRating": "1538",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "819",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "BH": "19.0",
-              "BH/C1": "15.0",
-              "SB": "12.00"
-            },
-            {
-              "Pos": "15",
-              "Player": {
-                "id": "10",
-                "playerName": "Wei,Andrew",
-                "gender": "male",
-                "href": "playercard.html#10",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1601",
-                "fideId": "3265277",
-                "moreInfo": {
-                  "fideId": "3265277",
-                  "fideRating": "1601",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "1007",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "BH": "18.5",
-              "BH/C1": "16.5",
-              "SB": "10.50"
-            },
-            {
-              "Pos": "16",
-              "Player": {
-                "id": "37",
-                "playerName": "Bodke,Aryan",
-                "gender": "male",
-                "href": "playercard.html#37",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "3286274",
-                "moreInfo": {
-                  "fideId": "3286274",
-                  "fideRating": "0",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "321",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "BH": "18.0",
-              "BH/C1": "17.0",
-              "SB": "9.00"
-            },
-            {
-              "Pos": "17",
-              "Player": {
-                "id": "33",
-                "playerName": "Singh,Sumair",
-                "gender": "male",
-                "href": "playercard.html#33",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "3273547",
-                "moreInfo": {
-                  "fideId": "3273547",
-                  "fideRating": "0",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "455",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "BH": "16.5",
-              "BH/C1": "15.0",
-              "SB": "10.25"
-            },
-            {
-              "Pos": "18",
-              "Player": {
-                "id": "66",
-                "playerName": "Vinu,Vaishnav",
-                "gender": "male",
-                "href": "playercard.html#66",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "0",
-                "moreInfo": {
-                  "fideId": "0",
-                  "fideRating": "0",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "BH": "16.0",
-              "BH/C1": "14.0",
-              "SB": "9.50"
-            },
-            {
-              "Pos": "19",
-              "Player": {
-                "id": "31",
-                "playerName": "Spriggs,Harvey",
-                "gender": "male",
-                "href": "playercard.html#31",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "3289974",
-                "moreInfo": {
-                  "fideId": "3289974",
-                  "fideRating": "0",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "464",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "BH": "14.5",
-              "BH/C1": "13.5",
-              "SB": "8.00"
-            },
-            {
-              "Pos": "20",
-              "Player": {
-                "id": "2",
-                "playerName": "Nowak,Ruben",
-                "gender": "male",
-                "href": "playercard.html#2",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1664",
-                "fideId": "3214915",
-                "moreInfo": {
-                  "fideId": "3214915",
-                  "fideRating": "1664",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "1426",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "3.5",
-              "BH": "25.0",
-              "BH/C1": "22.0",
-              "SB": "12.50"
-            },
-            {
-              "Pos": "21",
-              "Player": {
-                "id": "13",
-                "playerName": "Ruaya,Rohan",
-                "gender": "male",
-                "href": "playercard.html#13",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1475",
-                "fideId": "3281345",
-                "moreInfo": {
-                  "fideId": "3281345",
-                  "fideRating": "1475",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "894",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "3.5",
-              "BH": "23.5",
-              "BH/C1": "20.0",
-              "SB": "12.25"
+              "BH": "29.5",
+              "BH/C1": "27.5",
+              "SB": "14.00"
             },
             {
               "Pos": "22",
               "Player": {
-                "id": "58",
-                "playerName": "Paul,Vivaan",
+                "id": "6",
+                "playerName": "Annadasu,Shreyansh",
                 "gender": "male",
-                "href": "playercard.html#58",
+                "href": "playercard.html#6",
                 "title": "",
                 "federation": "VIC",
-                "rating": "0",
-                "fideId": "3294110",
+                "rating": "1490",
+                "fideId": "3275779",
                 "moreInfo": {
-                  "fideId": "3294110",
-                  "fideRating": "0",
+                  "fideId": "3275779",
+                  "fideRating": "1490",
                   "fideFederation": "VIC"
                 }
               },
-              "Rtg": "0",
+              "Rtg": "1106",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "3.5",
-              "BH": "21.0",
-              "BH/C1": "18.5",
-              "SB": "11.00"
+              "Pts": "4.0",
+              "BH": "28.0",
+              "BH/C1": "24.0",
+              "SB": "14.50"
             },
             {
               "Pos": "23",
@@ -34777,56 +35263,60 @@
               "Rtg": "827",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "3.5",
-              "BH": "19.5",
-              "BH/C1": "17.5",
-              "SB": "10.25"
+              "Pts": "4.0",
+              "BH": "26.0",
+              "BH/C1": "24.0",
+              "SB": "13.75"
             },
             {
               "Pos": "24",
               "Player": {
-                "id": "32",
-                "playerName": "Balamurugan,Soorya",
+                "id": "46",
+                "playerName": "Aquino,Zedric",
                 "gender": "male",
-                "href": "playercard.html#32",
+                "href": "playercard.html#46",
                 "title": "",
                 "federation": "VIC",
-                "rating": "456",
-                "fideId": "",
-                "moreInfo": {}
+                "rating": "0",
+                "fideId": "573003255",
+                "moreInfo": {
+                  "fideId": "573003255",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
               },
-              "Rtg": "456",
+              "Rtg": "0",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "3.5",
-              "BH": "19.5",
-              "BH/C1": "16.0",
-              "SB": "9.75"
+              "Pts": "4.0",
+              "BH": "25.5",
+              "BH/C1": "23.5",
+              "SB": "11.50"
             },
             {
               "Pos": "25",
               "Player": {
-                "id": "24",
-                "playerName": "Yendru,Sriram",
+                "id": "22",
+                "playerName": "Shaiek,Nihal",
                 "gender": "male",
-                "href": "playercard.html#24",
+                "href": "playercard.html#22",
                 "title": "",
                 "federation": "VIC",
-                "rating": "1424",
-                "fideId": "3267881",
+                "rating": "1422",
+                "fideId": "3286380",
                 "moreInfo": {
-                  "fideId": "3267881",
-                  "fideRating": "1424",
+                  "fideId": "3286380",
+                  "fideRating": "1422",
                   "fideFederation": "VIC"
                 }
               },
-              "Rtg": "641",
+              "Rtg": "657",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "3.5",
-              "BH": "18.0",
-              "BH/C1": "16.5",
-              "SB": "9.25"
+              "Pts": "4.0",
+              "BH": "25.0",
+              "BH/C1": "23.0",
+              "SB": "11.00"
             },
             {
               "Pos": "26",
@@ -34848,24 +35338,149 @@
               "Rtg": "323",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "3.5",
-              "BH": "18.0",
-              "BH/C1": "14.5",
-              "SB": "9.25"
+              "Pts": "4.0",
+              "BH": "25.0",
+              "BH/C1": "21.0",
+              "SB": "13.00"
             },
             {
               "Pos": "27",
               "Player": {
-                "id": "68",
-                "playerName": "Wang,Evan",
+                "id": "37",
+                "playerName": "Bodke,Aryan",
                 "gender": "male",
-                "href": "playercard.html#68",
+                "href": "playercard.html#37",
                 "title": "",
                 "federation": "VIC",
                 "rating": "0",
-                "fideId": "573002321",
+                "fideId": "3286274",
                 "moreInfo": {
-                  "fideId": "573002321",
+                  "fideId": "3286274",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "321",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "24.5",
+              "BH/C1": "23.5",
+              "SB": "10.00"
+            },
+            {
+              "Pos": "28",
+              "Player": {
+                "id": "28",
+                "playerName": "Goh,Nicholas",
+                "gender": "male",
+                "href": "playercard.html#28",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1444",
+                "fideId": "3254917",
+                "moreInfo": {
+                  "fideId": "3254917",
+                  "fideRating": "1444",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "538",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "24.5",
+              "BH/C1": "22.0",
+              "SB": "12.50"
+            },
+            {
+              "Pos": "29",
+              "Player": {
+                "id": "14",
+                "playerName": "Vemula,Thamoghna",
+                "gender": "male",
+                "href": "playercard.html#14",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1554",
+                "fideId": "3291251",
+                "moreInfo": {
+                  "fideId": "3291251",
+                  "fideRating": "1554",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "885",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "24.5",
+              "BH/C1": "20.5",
+              "SB": "12.25"
+            },
+            {
+              "Pos": "30",
+              "Player": {
+                "id": "31",
+                "playerName": "Spriggs,Harvey",
+                "gender": "male",
+                "href": "playercard.html#31",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "3289974",
+                "moreInfo": {
+                  "fideId": "3289974",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "464",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.0",
+              "BH": "22.5",
+              "BH/C1": "21.5",
+              "SB": "10.00"
+            },
+            {
+              "Pos": "31",
+              "Player": {
+                "id": "5",
+                "playerName": "Yendru,Srikrishna",
+                "gender": "male",
+                "href": "playercard.html#5",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1618",
+                "fideId": "3262952",
+                "moreInfo": {
+                  "fideId": "3262952",
+                  "fideRating": "1618",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "1133",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "30.0",
+              "BH/C1": "27.5",
+              "SB": "12.50"
+            },
+            {
+              "Pos": "32",
+              "Player": {
+                "id": "62",
+                "playerName": "Saha,Arya",
+                "gender": "male",
+                "href": "playercard.html#62",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "573003352",
+                "moreInfo": {
+                  "fideId": "573003352",
                   "fideRating": "0",
                   "fideFederation": "VIC"
                 }
@@ -34874,12 +35489,112 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "3.5",
-              "BH": "17.5",
-              "BH/C1": "15.0",
-              "SB": "10.25"
+              "BH": "25.5",
+              "BH/C1": "22.0",
+              "SB": "11.25"
             },
             {
-              "Pos": "28",
+              "Pos": "33",
+              "Player": {
+                "id": "24",
+                "playerName": "Yendru,Sriram",
+                "gender": "male",
+                "href": "playercard.html#24",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1424",
+                "fideId": "3267881",
+                "moreInfo": {
+                  "fideId": "3267881",
+                  "fideRating": "1424",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "641",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "25.0",
+              "BH/C1": "22.5",
+              "SB": "11.25"
+            },
+            {
+              "Pos": "34",
+              "Player": {
+                "id": "32",
+                "playerName": "Balamurugan,Soorya",
+                "gender": "male",
+                "href": "playercard.html#32",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1427",
+                "fideId": "3286266",
+                "moreInfo": {
+                  "fideId": "3286266",
+                  "fideRating": "1427",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "456",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "25.0",
+              "BH/C1": "21.5",
+              "SB": "10.75"
+            },
+            {
+              "Pos": "35",
+              "Player": {
+                "id": "51",
+                "playerName": "Borle,Swarit",
+                "gender": "male",
+                "href": "playercard.html#51",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "0",
+                "moreInfo": {
+                  "fideId": "0",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "24.5",
+              "BH/C1": "22.5",
+              "SB": "9.50"
+            },
+            {
+              "Pos": "36",
+              "Player": {
+                "id": "49",
+                "playerName": "Bala,Neil",
+                "gender": "male",
+                "href": "playercard.html#49",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "573002208",
+                "moreInfo": {
+                  "fideId": "573002208",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "24.0",
+              "BH/C1": "21.5",
+              "SB": "11.75"
+            },
+            {
+              "Pos": "37",
               "Player": {
                 "id": "29",
                 "playerName": "Husain, Lamiah",
@@ -34899,12 +35614,62 @@
               "Fed": "AUS",
               "Origin": "",
               "Pts": "3.5",
-              "BH": "15.0",
-              "BH/C1": "14.0",
-              "SB": "6.75"
+              "BH": "22.5",
+              "BH/C1": "21.5",
+              "SB": "7.25"
             },
             {
-              "Pos": "29",
+              "Pos": "38",
+              "Player": {
+                "id": "40",
+                "playerName": "Ganesh Kumar,Mukunth",
+                "gender": "male",
+                "href": "playercard.html#40",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1456",
+                "fideId": "3289915",
+                "moreInfo": {
+                  "fideId": "3289915",
+                  "fideRating": "1456",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "265",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "22.5",
+              "BH/C1": "19.0",
+              "SB": "9.25"
+            },
+            {
+              "Pos": "39",
+              "Player": {
+                "id": "26",
+                "playerName": "Guggilla,Krithvik",
+                "gender": "male",
+                "href": "playercard.html#26",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1491",
+                "fideId": "3290522",
+                "moreInfo": {
+                  "fideId": "3290522",
+                  "fideRating": "1491",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "559",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.5",
+              "BH": "21.5",
+              "BH/C1": "19.0",
+              "SB": "9.25"
+            },
+            {
+              "Pos": "40",
               "Player": {
                 "id": "55",
                 "playerName": "Martin,Dion",
@@ -34924,112 +35689,12 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "3.0",
-              "BH": "26.0",
-              "BH/C1": "23.0",
-              "SB": "12.00"
+              "BH": "33.0",
+              "BH/C1": "30.0",
+              "SB": "14.50"
             },
             {
-              "Pos": "30",
-              "Player": {
-                "id": "59",
-                "playerName": "Polus,Elyano",
-                "gender": "female",
-                "href": "playercard.html#59",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "3285278",
-                "moreInfo": {
-                  "fideId": "3285278",
-                  "fideRating": "0",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "3.0",
-              "BH": "22.5",
-              "BH/C1": "19.5",
-              "SB": "11.50"
-            },
-            {
-              "Pos": "31",
-              "Player": {
-                "id": "6",
-                "playerName": "Annadasu,Shreyansh",
-                "gender": "male",
-                "href": "playercard.html#6",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1490",
-                "fideId": "3275779",
-                "moreInfo": {
-                  "fideId": "3275779",
-                  "fideRating": "1490",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "1106",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "3.0",
-              "BH": "20.0",
-              "BH/C1": "17.0",
-              "SB": "9.50"
-            },
-            {
-              "Pos": "32",
-              "Player": {
-                "id": "20",
-                "playerName": "Vignesh,Prajeeth Balaji",
-                "gender": "male",
-                "href": "playercard.html#20",
-                "title": "",
-                "federation": "OS",
-                "rating": "1582",
-                "fideId": "4332180",
-                "moreInfo": {
-                  "fideId": "4332180",
-                  "fideRating": "1582",
-                  "fideFederation": "OS"
-                }
-              },
-              "Rtg": "689",
-              "Fed": "OS",
-              "Origin": "",
-              "Pts": "3.0",
-              "BH": "19.5",
-              "BH/C1": "16.5",
-              "SB": "8.00"
-            },
-            {
-              "Pos": "33",
-              "Player": {
-                "id": "46",
-                "playerName": "Aquino,Zedric",
-                "gender": "male",
-                "href": "playercard.html#46",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "573003255",
-                "moreInfo": {
-                  "fideId": "573003255",
-                  "fideRating": "0",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "3.0",
-              "BH": "19.0",
-              "BH/C1": "17.0",
-              "SB": "7.00"
-            },
-            {
-              "Pos": "34",
+              "Pos": "41",
               "Player": {
                 "id": "19",
                 "playerName": "Luan,William",
@@ -35049,83 +35714,12 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "3.0",
-              "BH": "19.0",
-              "BH/C1": "16.0",
-              "SB": "8.00"
+              "BH": "26.5",
+              "BH/C1": "23.5",
+              "SB": "10.25"
             },
             {
-              "Pos": "35",
-              "Player": {
-                "id": "28",
-                "playerName": "Goh,Nicholas",
-                "gender": "male",
-                "href": "playercard.html#28",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1444",
-                "fideId": "3254917",
-                "moreInfo": {
-                  "fideId": "3254917",
-                  "fideRating": "1444",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "538",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "3.0",
-              "BH": "18.5",
-              "BH/C1": "16.0",
-              "SB": "8.00"
-            },
-            {
-              "Pos": "36",
-              "Player": {
-                "id": "16",
-                "playerName": "Gajula,Karan",
-                "gender": "male",
-                "href": "playercard.html#16",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1528",
-                "fideId": "3272753",
-                "moreInfo": {
-                  "fideId": "3272753",
-                  "fideRating": "1528",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "837",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "3.0",
-              "BH": "18.5",
-              "BH/C1": "15.5",
-              "SB": "7.50"
-            },
-            {
-              "Pos": "37",
-              "Player": {
-                "id": "14",
-                "playerName": "Vemula,Thamoghna",
-                "gender": "male",
-                "href": "playercard.html#14",
-                "title": "",
-                "federation": "VIC",
-                "rating": "885",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Rtg": "885",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "3.0",
-              "BH": "17.5",
-              "BH/C1": "14.5",
-              "SB": "6.25"
-            },
-            {
-              "Pos": "38",
+              "Pos": "42",
               "Player": {
                 "id": "41",
                 "playerName": "Jyothi Nikhil,Vihaan",
@@ -35145,37 +35739,87 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "3.0",
-              "BH": "15.5",
-              "BH/C1": "15.5",
-              "SB": "4.00"
+              "BH": "24.0",
+              "BH/C1": "23.0",
+              "SB": "6.00"
             },
             {
-              "Pos": "39",
+              "Pos": "43",
               "Player": {
-                "id": "39",
-                "playerName": "Veeragandham, Gowtham",
+                "id": "16",
+                "playerName": "Gajula,Karan",
                 "gender": "male",
-                "href": "playercard.html#39",
+                "href": "playercard.html#16",
                 "title": "",
-                "federation": "AUS",
-                "rating": "1407",
-                "fideId": "3295346",
+                "federation": "VIC",
+                "rating": "1528",
+                "fideId": "3272753",
                 "moreInfo": {
-                  "fideId": "3295346",
-                  "fideRating": "1407",
-                  "fideFederation": "AUS"
+                  "fideId": "3272753",
+                  "fideRating": "1528",
+                  "fideFederation": "VIC"
                 }
               },
-              "Rtg": "291",
-              "Fed": "AUS",
+              "Rtg": "837",
+              "Fed": "VIC",
               "Origin": "",
               "Pts": "3.0",
-              "BH": "15.5",
-              "BH/C1": "12.5",
-              "SB": "5.00"
+              "BH": "24.0",
+              "BH/C1": "21.0",
+              "SB": "9.50"
             },
             {
-              "Pos": "40",
+              "Pos": "44",
+              "Player": {
+                "id": "20",
+                "playerName": "Vignesh,Prajeeth Balaji",
+                "gender": "male",
+                "href": "playercard.html#20",
+                "title": "",
+                "federation": "OS",
+                "rating": "1582",
+                "fideId": "4332180",
+                "moreInfo": {
+                  "fideId": "4332180",
+                  "fideRating": "1582",
+                  "fideFederation": "OS"
+                }
+              },
+              "Rtg": "689",
+              "Fed": "OS",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "24.0",
+              "BH/C1": "21.0",
+              "SB": "8.50"
+            },
+            {
+              "Pos": "45",
+              "Player": {
+                "id": "21",
+                "playerName": "Venkat,Nyra",
+                "gender": "female",
+                "href": "playercard.html#21",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1404",
+                "fideId": "3286410",
+                "moreInfo": {
+                  "fideId": "3286410",
+                  "fideRating": "1404",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "667",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "24.0",
+              "BH/C1": "21.0",
+              "SB": "7.50"
+            },
+            {
+              "Pos": "46",
               "Player": {
                 "id": "35",
                 "playerName": "Das,Ayush",
@@ -35195,12 +35839,112 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "3.0",
-              "BH": "14.5",
-              "BH/C1": "13.5",
+              "BH": "22.0",
+              "BH/C1": "21.0",
+              "SB": "6.00"
+            },
+            {
+              "Pos": "47",
+              "Player": {
+                "id": "39",
+                "playerName": "Veeragandham, Gowtham",
+                "gender": "male",
+                "href": "playercard.html#39",
+                "title": "",
+                "federation": "AUS",
+                "rating": "1407",
+                "fideId": "3295346",
+                "moreInfo": {
+                  "fideId": "3295346",
+                  "fideRating": "1407",
+                  "fideFederation": "AUS"
+                }
+              },
+              "Rtg": "291",
+              "Fed": "AUS",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "22.0",
+              "BH/C1": "19.0",
+              "SB": "6.00"
+            },
+            {
+              "Pos": "48",
+              "Player": {
+                "id": "61",
+                "playerName": "Rajan,Viaan",
+                "gender": "male",
+                "href": "playercard.html#61",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "3297020",
+                "moreInfo": {
+                  "fideId": "3297020",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "21.0",
+              "BH/C1": "18.0",
               "SB": "4.00"
             },
             {
-              "Pos": "41",
+              "Pos": "49",
+              "Player": {
+                "id": "64",
+                "playerName": "Saravanakumar,Thaswin",
+                "gender": "male",
+                "href": "playercard.html#64",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "3295729",
+                "moreInfo": {
+                  "fideId": "3295729",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "20.5",
+              "BH/C1": "18.5",
+              "SB": "7.00"
+            },
+            {
+              "Pos": "50",
+              "Player": {
+                "id": "52",
+                "playerName": "Boxshall,Logan",
+                "gender": "male",
+                "href": "playercard.html#52",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "573002216",
+                "moreInfo": {
+                  "fideId": "573002216",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.0",
+              "BH": "16.5",
+              "BH/C1": "15.5",
+              "SB": "6.00"
+            },
+            {
+              "Pos": "51",
               "Player": {
                 "id": "38",
                 "playerName": "Fang,Candice",
@@ -35220,87 +35964,12 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.5",
-              "BH": "22.5",
-              "BH/C1": "20.0",
-              "SB": "8.50"
+              "BH": "30.5",
+              "BH/C1": "27.0",
+              "SB": "11.00"
             },
             {
-              "Pos": "42",
-              "Player": {
-                "id": "5",
-                "playerName": "Yendru,Srikrishna",
-                "gender": "male",
-                "href": "playercard.html#5",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1618",
-                "fideId": "3262952",
-                "moreInfo": {
-                  "fideId": "3262952",
-                  "fideRating": "1618",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "1133",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "2.5",
-              "BH": "22.5",
-              "BH/C1": "20.0",
-              "SB": "7.75"
-            },
-            {
-              "Pos": "43",
-              "Player": {
-                "id": "50",
-                "playerName": "Bhadrapura,Vismay",
-                "gender": "male",
-                "href": "playercard.html#50",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "573003263",
-                "moreInfo": {
-                  "fideId": "573003263",
-                  "fideRating": "0",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "2.5",
-              "BH": "20.0",
-              "BH/C1": "17.5",
-              "SB": "8.25"
-            },
-            {
-              "Pos": "44",
-              "Player": {
-                "id": "62",
-                "playerName": "Saha,Arya",
-                "gender": "male",
-                "href": "playercard.html#62",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "573003352",
-                "moreInfo": {
-                  "fideId": "573003352",
-                  "fideRating": "0",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "2.5",
-              "BH": "20.0",
-              "BH/C1": "17.5",
-              "SB": "7.25"
-            },
-            {
-              "Pos": "45",
+              "Pos": "52",
               "Player": {
                 "id": "34",
                 "playerName": "Gadham,Aarya Subramanya",
@@ -35320,23 +35989,23 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.5",
-              "BH": "19.0",
-              "BH/C1": "17.5",
-              "SB": "4.75"
+              "BH": "27.5",
+              "BH/C1": "26.0",
+              "SB": "6.25"
             },
             {
-              "Pos": "46",
+              "Pos": "53",
               "Player": {
-                "id": "49",
-                "playerName": "Bala,Neil",
+                "id": "50",
+                "playerName": "Bhadrapura,Vismay",
                 "gender": "male",
-                "href": "playercard.html#49",
+                "href": "playercard.html#50",
                 "title": "",
                 "federation": "VIC",
                 "rating": "0",
-                "fideId": "573002208",
+                "fideId": "573003263",
                 "moreInfo": {
-                  "fideId": "573002208",
+                  "fideId": "573003263",
                   "fideRating": "0",
                   "fideFederation": "VIC"
                 }
@@ -35345,37 +36014,12 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.5",
-              "BH": "19.0",
-              "BH/C1": "16.5",
-              "SB": "7.75"
+              "BH": "25.0",
+              "BH/C1": "22.5",
+              "SB": "8.75"
             },
             {
-              "Pos": "47",
-              "Player": {
-                "id": "51",
-                "playerName": "Borle,Swarit",
-                "gender": "male",
-                "href": "playercard.html#51",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "0",
-                "moreInfo": {
-                  "fideId": "0",
-                  "fideRating": "0",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "2.5",
-              "BH": "17.0",
-              "BH/C1": "16.0",
-              "SB": "4.50"
-            },
-            {
-              "Pos": "48",
+              "Pos": "54",
               "Player": {
                 "id": "27",
                 "playerName": "Kaur,Mishleen",
@@ -35391,23 +36035,23 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.5",
-              "BH": "17.0",
-              "BH/C1": "15.0",
-              "SB": "5.50"
+              "BH": "24.5",
+              "BH/C1": "22.0",
+              "SB": "7.25"
             },
             {
-              "Pos": "49",
+              "Pos": "55",
               "Player": {
-                "id": "65",
-                "playerName": "Steinmann,Keigan",
+                "id": "60",
+                "playerName": "Pradeep,Mayukh",
                 "gender": "male",
-                "href": "playercard.html#65",
+                "href": "playercard.html#60",
                 "title": "",
                 "federation": "VIC",
                 "rating": "0",
-                "fideId": "0",
+                "fideId": "3297438",
                 "moreInfo": {
-                  "fideId": "0",
+                  "fideId": "3297438",
                   "fideRating": "0",
                   "fideFederation": "VIC"
                 }
@@ -35416,62 +36060,12 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.5",
-              "BH": "16.0",
-              "BH/C1": "13.5",
+              "BH": "23.0",
+              "BH/C1": "22.0",
               "SB": "5.25"
             },
             {
-              "Pos": "50",
-              "Player": {
-                "id": "26",
-                "playerName": "Guggilla,Krithvik",
-                "gender": "male",
-                "href": "playercard.html#26",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1491",
-                "fideId": "3290522",
-                "moreInfo": {
-                  "fideId": "3290522",
-                  "fideRating": "1491",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "559",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "2.5",
-              "BH": "14.0",
-              "BH/C1": "12.5",
-              "SB": "4.25"
-            },
-            {
-              "Pos": "51",
-              "Player": {
-                "id": "40",
-                "playerName": "Ganesh Kumar,Mukunth",
-                "gender": "male",
-                "href": "playercard.html#40",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1456",
-                "fideId": "3289915",
-                "moreInfo": {
-                  "fideId": "3289915",
-                  "fideRating": "1456",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "265",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "2.5",
-              "BH": "14.0",
-              "BH/C1": "11.5",
-              "SB": "3.75"
-            },
-            {
-              "Pos": "52",
+              "Pos": "56",
               "Player": {
                 "id": "42",
                 "playerName": "Madduluri,Advaitha",
@@ -35491,87 +36085,62 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.5",
-              "BH": "13.5",
-              "BH/C1": "12.5",
-              "SB": "3.75"
+              "BH": "22.5",
+              "BH/C1": "20.5",
+              "SB": "6.25"
             },
             {
-              "Pos": "53",
+              "Pos": "57",
               "Player": {
-                "id": "21",
-                "playerName": "Venkat,Nyra",
-                "gender": "female",
-                "href": "playercard.html#21",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1404",
-                "fideId": "3286410",
-                "moreInfo": {
-                  "fideId": "3286410",
-                  "fideRating": "1404",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "667",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "2.0",
-              "BH": "19.5",
-              "BH/C1": "17.5",
-              "SB": "4.50"
-            },
-            {
-              "Pos": "54",
-              "Player": {
-                "id": "45",
-                "playerName": "Kantharaju,Aryan",
+                "id": "65",
+                "playerName": "Steinmann,Keigan",
                 "gender": "male",
-                "href": "playercard.html#45",
+                "href": "playercard.html#65",
                 "title": "",
                 "federation": "VIC",
                 "rating": "0",
-                "fideId": "3286860",
+                "fideId": "0",
                 "moreInfo": {
-                  "fideId": "3286860",
+                  "fideId": "0",
                   "fideRating": "0",
                   "fideFederation": "VIC"
                 }
               },
-              "Rtg": "100",
+              "Rtg": "0",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "2.0",
-              "BH": "18.5",
-              "BH/C1": "17.5",
-              "SB": "3.00"
+              "Pts": "2.5",
+              "BH": "20.5",
+              "BH/C1": "18.0",
+              "SB": "6.25"
             },
             {
-              "Pos": "55",
+              "Pos": "58",
               "Player": {
-                "id": "43",
-                "playerName": "Goh,Daphne",
-                "gender": "female",
-                "href": "playercard.html#43",
+                "id": "57",
+                "playerName": "Panchaparvala,Rohan Aditya",
+                "gender": "male",
+                "href": "playercard.html#57",
                 "title": "",
                 "federation": "VIC",
                 "rating": "0",
-                "fideId": "3286304",
+                "fideId": "0",
                 "moreInfo": {
-                  "fideId": "3286304",
+                  "fideId": "0",
                   "fideRating": "0",
                   "fideFederation": "VIC"
                 }
               },
-              "Rtg": "139",
+              "Rtg": "0",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "2.0",
-              "BH": "17.5",
-              "BH/C1": "15.5",
-              "SB": "4.00"
+              "Pts": "2.5",
+              "BH": "19.5",
+              "BH/C1": "17.0",
+              "SB": "3.25"
             },
             {
-              "Pos": "56",
+              "Pos": "59",
               "Player": {
                 "id": "48",
                 "playerName": "Bala,Jake",
@@ -35591,37 +36160,37 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.0",
-              "BH": "17.0",
-              "BH/C1": "17.0",
-              "SB": "2.50"
+              "BH": "23.0",
+              "BH/C1": "22.0",
+              "SB": "4.50"
             },
             {
-              "Pos": "57",
+              "Pos": "60",
               "Player": {
-                "id": "64",
-                "playerName": "Saravanakumar,Thaswin",
-                "gender": "male",
-                "href": "playercard.html#64",
+                "id": "43",
+                "playerName": "Goh,Daphne",
+                "gender": "female",
+                "href": "playercard.html#43",
                 "title": "",
                 "federation": "VIC",
                 "rating": "0",
-                "fideId": "3295729",
+                "fideId": "3286304",
                 "moreInfo": {
-                  "fideId": "3295729",
+                  "fideId": "3286304",
                   "fideRating": "0",
                   "fideFederation": "VIC"
                 }
               },
-              "Rtg": "0",
+              "Rtg": "139",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.0",
-              "BH": "16.5",
-              "BH/C1": "14.5",
+              "BH": "23.0",
+              "BH/C1": "21.0",
               "SB": "5.00"
             },
             {
-              "Pos": "58",
+              "Pos": "61",
               "Player": {
                 "id": "30",
                 "playerName": "Subhash,Ryan",
@@ -35641,12 +36210,62 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.0",
-              "BH": "16.0",
-              "BH/C1": "15.0",
+              "BH": "22.5",
+              "BH/C1": "20.5",
+              "SB": "4.00"
+            },
+            {
+              "Pos": "62",
+              "Player": {
+                "id": "45",
+                "playerName": "Kantharaju,Aryan",
+                "gender": "male",
+                "href": "playercard.html#45",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "3286860",
+                "moreInfo": {
+                  "fideId": "3286860",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "100",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "22.0",
+              "BH/C1": "21.0",
               "SB": "3.00"
             },
             {
-              "Pos": "59",
+              "Pos": "63",
+              "Player": {
+                "id": "47",
+                "playerName": "Bacon,Levi",
+                "gender": "male",
+                "href": "playercard.html#47",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "573002186",
+                "moreInfo": {
+                  "fideId": "573002186",
+                  "fideRating": "0",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "0",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "2.0",
+              "BH": "18.5",
+              "BH/C1": "17.5",
+              "SB": "3.00"
+            },
+            {
+              "Pos": "64",
               "Player": {
                 "id": "25",
                 "playerName": "Gajula,Nishitha",
@@ -35662,37 +36281,37 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.0",
-              "BH": "15.0",
-              "BH/C1": "13.0",
+              "BH": "18.0",
+              "BH/C1": "16.0",
               "SB": "4.25"
             },
             {
-              "Pos": "60",
+              "Pos": "65",
               "Player": {
-                "id": "61",
-                "playerName": "Rajan,Viaan",
+                "id": "44",
+                "playerName": "Goh,Julian",
                 "gender": "male",
-                "href": "playercard.html#61",
+                "href": "playercard.html#44",
                 "title": "",
                 "federation": "VIC",
                 "rating": "0",
-                "fideId": "3297020",
+                "fideId": "3286312",
                 "moreInfo": {
-                  "fideId": "3297020",
+                  "fideId": "3286312",
                   "fideRating": "0",
                   "fideFederation": "VIC"
                 }
               },
-              "Rtg": "0",
+              "Rtg": "100",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.0",
-              "BH": "14.0",
-              "BH/C1": "12.0",
-              "SB": "1.00"
+              "BH": "17.0",
+              "BH/C1": "16.0",
+              "SB": "2.00"
             },
             {
-              "Pos": "61",
+              "Pos": "66",
               "Player": {
                 "id": "69",
                 "playerName": "Watson,Emma",
@@ -35712,87 +36331,12 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.0",
-              "BH": "12.5",
-              "BH/C1": "11.5",
+              "BH": "16.0",
+              "BH/C1": "15.0",
               "SB": "3.00"
             },
             {
-              "Pos": "62",
-              "Player": {
-                "id": "52",
-                "playerName": "Boxshall,Logan",
-                "gender": "male",
-                "href": "playercard.html#52",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "573002216",
-                "moreInfo": {
-                  "fideId": "573002216",
-                  "fideRating": "0",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "2.0",
-              "BH": "12.5",
-              "BH/C1": "11.5",
-              "SB": "2.00"
-            },
-            {
-              "Pos": "63",
-              "Player": {
-                "id": "60",
-                "playerName": "Pradeep,Mayukh",
-                "gender": "male",
-                "href": "playercard.html#60",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "3297438",
-                "moreInfo": {
-                  "fideId": "3297438",
-                  "fideRating": "0",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "1.5",
-              "BH": "16.0",
-              "BH/C1": "16.0",
-              "SB": "1.75"
-            },
-            {
-              "Pos": "64",
-              "Player": {
-                "id": "57",
-                "playerName": "Panchaparvala,Rohan Aditya",
-                "gender": "male",
-                "href": "playercard.html#57",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "0",
-                "moreInfo": {
-                  "fideId": "0",
-                  "fideRating": "0",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "1.5",
-              "BH": "14.5",
-              "BH/C1": "13.0",
-              "SB": "0.75"
-            },
-            {
-              "Pos": "65",
+              "Pos": "67",
               "Player": {
                 "id": "70",
                 "playerName": "Yadav,Riyaan",
@@ -35812,59 +36356,9 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "1.5",
-              "BH": "14.0",
-              "BH/C1": "12.5",
-              "SB": "2.75"
-            },
-            {
-              "Pos": "66",
-              "Player": {
-                "id": "47",
-                "playerName": "Bacon,Levi",
-                "gender": "male",
-                "href": "playercard.html#47",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "573002186",
-                "moreInfo": {
-                  "fideId": "573002186",
-                  "fideRating": "0",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "0",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "1.0",
-              "BH": "15.5",
-              "BH/C1": "13.5",
-              "SB": "2.00"
-            },
-            {
-              "Pos": "67",
-              "Player": {
-                "id": "44",
-                "playerName": "Goh,Julian",
-                "gender": "male",
-                "href": "playercard.html#44",
-                "title": "",
-                "federation": "VIC",
-                "rating": "0",
-                "fideId": "3286312",
-                "moreInfo": {
-                  "fideId": "3286312",
-                  "fideRating": "0",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "100",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "1.0",
-              "BH": "14.5",
-              "BH/C1": "13.5",
-              "SB": "1.00"
+              "BH": "16.0",
+              "BH/C1": "14.5",
+              "SB": "3.00"
             },
             {
               "Pos": "68",
@@ -35887,9 +36381,9 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "1.0",
-              "BH": "14.0",
-              "BH/C1": "14.0",
-              "SB": "0.00"
+              "BH": "17.0",
+              "BH/C1": "16.0",
+              "SB": "1.00"
             },
             {
               "Pos": "69",
@@ -35912,8 +36406,8 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "1.0",
-              "BH": "12.5",
-              "BH/C1": "11.5",
+              "BH": "16.5",
+              "BH/C1": "15.5",
               "SB": "0.00"
             },
             {
@@ -35936,9 +36430,9 @@
               "Rtg": "0",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "0.0",
-              "BH": "10.0",
-              "BH/C1": "10.0",
+              "Pts": "1.0",
+              "BH": "14.0",
+              "BH/C1": "13.0",
               "SB": "0.00"
             }
           ],
@@ -37828,11 +38322,15 @@
       "playerName": "Vemula,Thamoghna",
       "title": "",
       "federation": "VIC",
-      "rating": "885",
+      "rating": "1554",
       "gender": "male",
-      "fideId": "",
+      "fideId": "3291251",
       "href": "playercard.html#14",
-      "moreInfo": {}
+      "moreInfo": {
+        "fideId": "3291251",
+        "fideRating": "1554",
+        "fideFederation": "VIC"
+      }
     },
     "15": {
       "id": "15",
@@ -38086,11 +38584,15 @@
       "playerName": "Balamurugan,Soorya",
       "title": "",
       "federation": "VIC",
-      "rating": "456",
+      "rating": "1427",
       "gender": "male",
-      "fideId": "",
+      "fideId": "3286266",
       "href": "playercard.html#32",
-      "moreInfo": {}
+      "moreInfo": {
+        "fideId": "3286266",
+        "fideRating": "1427",
+        "fideFederation": "VIC"
+      }
     },
     "33": {
       "id": "33",
@@ -38488,7 +38990,7 @@
       "title": "",
       "federation": "VIC",
       "rating": "0",
-      "gender": "female",
+      "gender": "male",
       "fideId": "3285278",
       "href": "playercard.html#59",
       "moreInfo": {
@@ -39496,5 +39998,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "f6eab2995935efa3db5cc7ebf85af4d1"
+  "md5Hash": "c57c44c99b3293725c8b853ef6ea4c88"
 }
