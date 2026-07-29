@@ -5,7 +5,8 @@
   "main": "src/index.mjs",
   "type": "module",
   "scripts": {
-    "dev": "node src/index.mjs"
+    "dev": "node src/index.mjs",
+    "tidyhq:memberships": "node src/tidyhq-memberships.mjs"
   },
   "keywords": [],
   "author": "",
