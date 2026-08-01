@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T03:53:40.810Z",
+  "generatedAt": "2026-08-01T07:26:17.993Z",
   "tournament": {
     "id": "2026-hbcc-best-in-the-west",
     "name": "2026 HBCC Best in the West",
@@ -1462,7 +1462,7 @@
     },
     {
       "id": "118",
-      "name": "Nguyen,Kieu Trinh",
+      "name": "Panchaparvala,Rohan Aditya",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -1474,7 +1474,7 @@
     },
     {
       "id": "119",
-      "name": "Panchaparvala,Rohan Aditya",
+      "name": "Patel,Jinay",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -1486,9 +1486,9 @@
     },
     {
       "id": "120",
-      "name": "Patel,Jinay",
+      "name": "Ragunandhan,Srinivasan",
       "title": "",
-      "federation": "VIC",
+      "federation": "AUS",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -1498,9 +1498,9 @@
     },
     {
       "id": "121",
-      "name": "Ragunandhan,Srinivasan",
+      "name": "Rubiano,Carlos Daniel",
       "title": "",
-      "federation": "AUS",
+      "federation": "VIC",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -1510,7 +1510,7 @@
     },
     {
       "id": "122",
-      "name": "Rubiano,Carlos Daniel",
+      "name": "Saravanakumar,Thaswin",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -1522,7 +1522,7 @@
     },
     {
       "id": "123",
-      "name": "Saravanakumar,Thaswin",
+      "name": "Sathish,Sukrrish",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -1534,7 +1534,7 @@
     },
     {
       "id": "124",
-      "name": "Sathish,Sukrrish",
+      "name": "Sethi,Vivaan",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -1546,7 +1546,7 @@
     },
     {
       "id": "125",
-      "name": "Sethi,Vivaan",
+      "name": "Sood,Sara",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -1558,9 +1558,9 @@
     },
     {
       "id": "126",
-      "name": "Sood,Sara",
+      "name": "Srinivasan,Sathvik",
       "title": "",
-      "federation": "VIC",
+      "federation": "AUS",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -1570,9 +1570,9 @@
     },
     {
       "id": "127",
-      "name": "Srinivasan,Sathvik",
+      "name": "Tran,Khoa Dinh",
       "title": "",
-      "federation": "AUS",
+      "federation": "VIC",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -2981,7 +2981,7 @@
             {
               "#": "118",
               "Title": "",
-              "Player": "Nguyen,Kieu Trinh",
+              "Player": "Panchaparvala,Rohan Aditya",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -2991,7 +2991,7 @@
             {
               "#": "119",
               "Title": "",
-              "Player": "Panchaparvala,Rohan Aditya",
+              "Player": "Patel,Jinay",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -3001,16 +3001,6 @@
             {
               "#": "120",
               "Title": "",
-              "Player": "Patel,Jinay",
-              "Fed": "VIC",
-              "Origin": "",
-              "Rtg": "0",
-              "RtgF": "0",
-              "RtgN": "0"
-            },
-            {
-              "#": "121",
-              "Title": "",
               "Player": "Ragunandhan,Srinivasan",
               "Fed": "AUS",
               "Origin": "",
@@ -3019,7 +3009,7 @@
               "RtgN": "0"
             },
             {
-              "#": "122",
+              "#": "121",
               "Title": "",
               "Player": "Rubiano,Carlos Daniel",
               "Fed": "VIC",
@@ -3029,7 +3019,7 @@
               "RtgN": "0"
             },
             {
-              "#": "123",
+              "#": "122",
               "Title": "",
               "Player": "Saravanakumar,Thaswin",
               "Fed": "VIC",
@@ -3039,7 +3029,7 @@
               "RtgN": "0"
             },
             {
-              "#": "124",
+              "#": "123",
               "Title": "",
               "Player": "Sathish,Sukrrish",
               "Fed": "VIC",
@@ -3049,7 +3039,7 @@
               "RtgN": "0"
             },
             {
-              "#": "125",
+              "#": "124",
               "Title": "",
               "Player": "Sethi,Vivaan",
               "Fed": "VIC",
@@ -3059,7 +3049,7 @@
               "RtgN": "0"
             },
             {
-              "#": "126",
+              "#": "125",
               "Title": "",
               "Player": "Sood,Sara",
               "Fed": "VIC",
@@ -3069,10 +3059,20 @@
               "RtgN": "0"
             },
             {
-              "#": "127",
+              "#": "126",
               "Title": "",
               "Player": "Srinivasan,Sathvik",
               "Fed": "AUS",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "127",
+              "Title": "",
+              "Player": "Tran,Khoa Dinh",
+              "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -6846,15 +6846,15 @@
           ],
           "rows": [],
           "caption": {
-            "playerName": "Nguyen,Kieu Trinh",
+            "playerName": "Tran,Khoa Dinh",
             "id": "0",
             "moreInfo": {
               "K": "0",
               "Elo": "0",
               "anchor": "74"
             },
-            "rawText": "74   Nguyen,Kieu Trinh   , K= 0, Elo=   0, ID=0",
-            "rawHtml": "  74   <strong>Nguyen,Kieu Trinh   </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"74\"></a>"
+            "rawText": "74   Tran,Khoa Dinh      , K= 0, Elo=   0, ID=0",
+            "rawHtml": "  74   <strong>Tran,Khoa Dinh      </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"74\"></a>"
           },
           "type": "other"
         },
@@ -10136,5 +10136,5 @@
       "children": []
     }
   ],
-  "md5Hash": "c2a21d3ea6c5aaa45a80d00bc29e1a27"
+  "md5Hash": "a0c8a1707a75ff71a32b8925dbace0fe"
 }

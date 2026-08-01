@@ -614,7 +614,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  74   <strong>Nguyen,Kieu Trinh   </strong>, K= 0, Elo=   0, ID=0
+<caption>  74   <strong>Tran,Khoa Dinh      </strong>, K= 0, Elo=   0, ID=0
 <br>
 <a class="anchor" name="74"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>

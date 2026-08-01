@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T03:53:40.722Z",
+  "generatedAt": "2026-08-01T07:26:17.904Z",
   "page": {
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 0",
@@ -1279,7 +1279,7 @@
             {
               "#": "118",
               "Title": "",
-              "Player": "Nguyen,Kieu Trinh",
+              "Player": "Panchaparvala,Rohan Aditya",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -1289,7 +1289,7 @@
             {
               "#": "119",
               "Title": "",
-              "Player": "Panchaparvala,Rohan Aditya",
+              "Player": "Patel,Jinay",
               "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
@@ -1299,16 +1299,6 @@
             {
               "#": "120",
               "Title": "",
-              "Player": "Patel,Jinay",
-              "Fed": "VIC",
-              "Origin": "",
-              "Rtg": "0",
-              "RtgF": "0",
-              "RtgN": "0"
-            },
-            {
-              "#": "121",
-              "Title": "",
               "Player": "Ragunandhan,Srinivasan",
               "Fed": "AUS",
               "Origin": "",
@@ -1317,7 +1307,7 @@
               "RtgN": "0"
             },
             {
-              "#": "122",
+              "#": "121",
               "Title": "",
               "Player": "Rubiano,Carlos Daniel",
               "Fed": "VIC",
@@ -1327,7 +1317,7 @@
               "RtgN": "0"
             },
             {
-              "#": "123",
+              "#": "122",
               "Title": "",
               "Player": "Saravanakumar,Thaswin",
               "Fed": "VIC",
@@ -1337,7 +1327,7 @@
               "RtgN": "0"
             },
             {
-              "#": "124",
+              "#": "123",
               "Title": "",
               "Player": "Sathish,Sukrrish",
               "Fed": "VIC",
@@ -1347,7 +1337,7 @@
               "RtgN": "0"
             },
             {
-              "#": "125",
+              "#": "124",
               "Title": "",
               "Player": "Sethi,Vivaan",
               "Fed": "VIC",
@@ -1357,7 +1347,7 @@
               "RtgN": "0"
             },
             {
-              "#": "126",
+              "#": "125",
               "Title": "",
               "Player": "Sood,Sara",
               "Fed": "VIC",
@@ -1367,10 +1357,20 @@
               "RtgN": "0"
             },
             {
-              "#": "127",
+              "#": "126",
               "Title": "",
               "Player": "Srinivasan,Sathvik",
               "Fed": "AUS",
+              "Origin": "",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
+              "#": "127",
+              "Title": "",
+              "Player": "Tran,Khoa Dinh",
+              "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -5069,15 +5069,15 @@
           ],
           "rows": [],
           "caption": {
-            "playerName": "Nguyen,Kieu Trinh",
+            "playerName": "Tran,Khoa Dinh",
             "id": "0",
             "moreInfo": {
               "K": "0",
               "Elo": "0",
               "anchor": "74"
             },
-            "rawText": "74   Nguyen,Kieu Trinh   , K= 0, Elo=   0, ID=0",
-            "rawHtml": "  74   <strong>Nguyen,Kieu Trinh   </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"74\"></a>"
+            "rawText": "74   Tran,Khoa Dinh      , K= 0, Elo=   0, ID=0",
+            "rawHtml": "  74   <strong>Tran,Khoa Dinh      </strong>, K= 0, Elo=   0, ID=0\n<br>\n<a class=\"anchor\" name=\"74\"></a>"
           }
         },
         {
@@ -9560,7 +9560,7 @@
     },
     "118": {
       "id": "118",
-      "playerName": "Nguyen,Kieu Trinh",
+      "playerName": "Panchaparvala,Rohan Aditya",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -9571,7 +9571,7 @@
     },
     "119": {
       "id": "119",
-      "playerName": "Panchaparvala,Rohan Aditya",
+      "playerName": "Patel,Jinay",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -9582,17 +9582,6 @@
     },
     "120": {
       "id": "120",
-      "playerName": "Patel,Jinay",
-      "title": "",
-      "federation": "VIC",
-      "rating": "0",
-      "gender": "",
-      "fideId": "",
-      "href": "",
-      "moreInfo": {}
-    },
-    "121": {
-      "id": "121",
       "playerName": "Ragunandhan,Srinivasan",
       "title": "",
       "federation": "AUS",
@@ -9602,9 +9591,20 @@
       "href": "",
       "moreInfo": {}
     },
+    "121": {
+      "id": "121",
+      "playerName": "Rubiano,Carlos Daniel",
+      "title": "",
+      "federation": "VIC",
+      "rating": "0",
+      "gender": "",
+      "fideId": "",
+      "href": "",
+      "moreInfo": {}
+    },
     "122": {
       "id": "122",
-      "playerName": "Rubiano,Carlos Daniel",
+      "playerName": "Saravanakumar,Thaswin",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -9615,7 +9615,7 @@
     },
     "123": {
       "id": "123",
-      "playerName": "Saravanakumar,Thaswin",
+      "playerName": "Sathish,Sukrrish",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -9626,7 +9626,7 @@
     },
     "124": {
       "id": "124",
-      "playerName": "Sathish,Sukrrish",
+      "playerName": "Sethi,Vivaan",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -9637,7 +9637,7 @@
     },
     "125": {
       "id": "125",
-      "playerName": "Sethi,Vivaan",
+      "playerName": "Sood,Sara",
       "title": "",
       "federation": "VIC",
       "rating": "0",
@@ -9648,9 +9648,9 @@
     },
     "126": {
       "id": "126",
-      "playerName": "Sood,Sara",
+      "playerName": "Srinivasan,Sathvik",
       "title": "",
-      "federation": "VIC",
+      "federation": "AUS",
       "rating": "0",
       "gender": "",
       "fideId": "",
@@ -9659,9 +9659,9 @@
     },
     "127": {
       "id": "127",
-      "playerName": "Srinivasan,Sathvik",
+      "playerName": "Tran,Khoa Dinh",
       "title": "",
-      "federation": "AUS",
+      "federation": "VIC",
       "rating": "0",
       "gender": "",
       "fideId": "",
@@ -10976,7 +10976,7 @@
     {
       "#": "118",
       "Title": "",
-      "Player": "Nguyen,Kieu Trinh",
+      "Player": "Panchaparvala,Rohan Aditya",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -10986,7 +10986,7 @@
     {
       "#": "119",
       "Title": "",
-      "Player": "Panchaparvala,Rohan Aditya",
+      "Player": "Patel,Jinay",
       "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
@@ -10996,16 +10996,6 @@
     {
       "#": "120",
       "Title": "",
-      "Player": "Patel,Jinay",
-      "Fed": "VIC",
-      "Origin": "",
-      "Rtg": "0",
-      "RtgF": "0",
-      "RtgN": "0"
-    },
-    {
-      "#": "121",
-      "Title": "",
       "Player": "Ragunandhan,Srinivasan",
       "Fed": "AUS",
       "Origin": "",
@@ -11014,7 +11004,7 @@
       "RtgN": "0"
     },
     {
-      "#": "122",
+      "#": "121",
       "Title": "",
       "Player": "Rubiano,Carlos Daniel",
       "Fed": "VIC",
@@ -11024,7 +11014,7 @@
       "RtgN": "0"
     },
     {
-      "#": "123",
+      "#": "122",
       "Title": "",
       "Player": "Saravanakumar,Thaswin",
       "Fed": "VIC",
@@ -11034,7 +11024,7 @@
       "RtgN": "0"
     },
     {
-      "#": "124",
+      "#": "123",
       "Title": "",
       "Player": "Sathish,Sukrrish",
       "Fed": "VIC",
@@ -11044,7 +11034,7 @@
       "RtgN": "0"
     },
     {
-      "#": "125",
+      "#": "124",
       "Title": "",
       "Player": "Sethi,Vivaan",
       "Fed": "VIC",
@@ -11054,7 +11044,7 @@
       "RtgN": "0"
     },
     {
-      "#": "126",
+      "#": "125",
       "Title": "",
       "Player": "Sood,Sara",
       "Fed": "VIC",
@@ -11064,10 +11054,20 @@
       "RtgN": "0"
     },
     {
-      "#": "127",
+      "#": "126",
       "Title": "",
       "Player": "Srinivasan,Sathvik",
       "Fed": "AUS",
+      "Origin": "",
+      "Rtg": "0",
+      "RtgF": "0",
+      "RtgN": "0"
+    },
+    {
+      "#": "127",
+      "Title": "",
+      "Player": "Tran,Khoa Dinh",
+      "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
       "RtgF": "0",
@@ -11210,5 +11210,5 @@
     "FIDE titled player NOT from AUS Federation": "12",
     "category": "Senior"
   },
-  "md5Hash": "2a20fca872fac62b415d7b7e91861585"
+  "md5Hash": "605e80f42c635b62fc3c325fa88c248e"
 }
