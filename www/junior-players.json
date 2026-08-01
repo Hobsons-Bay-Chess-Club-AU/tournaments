@@ -1,9 +1,31 @@
 {
-  "generatedAt": "2026-08-01T07:26:33.572Z",
+  "generatedAt": "2026-08-01T11:18:25.502Z",
   "year": "2026",
-  "count": 225,
+  "count": 231,
   "totalTournaments": 20,
   "players": [
+    {
+      "name": "Ahmad, Ihtiram",
+      "id": "63",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#63",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
+          "score": 1,
+          "name": "2026 Koshnitsky Cup - Rookies and Juniors",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
     {
       "name": "Ahmad,Ihtiram",
       "id": "8",
@@ -144,7 +166,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -172,7 +194,7 @@
         }
       ],
       "points": {
-        "standard": 8,
+        "standard": 9,
         "rapid": 11,
         "blitz": 0
       }
@@ -288,7 +310,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 0.5,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -309,7 +331,7 @@
         }
       ],
       "points": {
-        "standard": 6.5,
+        "standard": 7,
         "rapid": 0,
         "blitz": 0
       }
@@ -374,7 +396,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -402,7 +424,7 @@
         }
       ],
       "points": {
-        "standard": 15.5,
+        "standard": 16.5,
         "rapid": 6,
         "blitz": 0
       }
@@ -460,7 +482,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 0.5,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -481,7 +503,7 @@
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 5.5,
         "rapid": 3,
         "blitz": 0
       }
@@ -667,7 +689,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -695,7 +717,7 @@
         }
       ],
       "points": {
-        "standard": 10.5,
+        "standard": 11.5,
         "rapid": 12,
         "blitz": 0
       }
@@ -731,7 +753,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -759,7 +781,7 @@
         }
       ],
       "points": {
-        "standard": 8.5,
+        "standard": 9.5,
         "rapid": 8,
         "blitz": 0
       }
@@ -1012,7 +1034,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -1040,7 +1062,7 @@
         }
       ],
       "points": {
-        "standard": 5.5,
+        "standard": 6.5,
         "rapid": 5,
         "blitz": 0
       }
@@ -1170,14 +1192,14 @@
       "tournaments": [
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 0.5,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 0,
+        "standard": 0.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -1322,14 +1344,14 @@
       "tournaments": [
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 0,
+        "standard": 1,
         "rapid": 0,
         "blitz": 0
       }
@@ -1398,7 +1420,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#53",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -1412,6 +1434,13 @@
           "score": 0,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 Koshnitsky Cup - Rookies and Juniors",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -1676,7 +1705,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -1704,7 +1733,7 @@
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 8,
         "rapid": 10,
         "blitz": 0
       }
@@ -1755,7 +1784,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -1776,7 +1805,7 @@
         }
       ],
       "points": {
-        "standard": 7.5,
+        "standard": 8.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -2127,7 +2156,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -2155,7 +2184,7 @@
         }
       ],
       "points": {
-        "standard": 9,
+        "standard": 10,
         "rapid": 8.5,
         "blitz": 0
       }
@@ -2184,7 +2213,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -2205,7 +2234,7 @@
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 7,
         "rapid": 0,
         "blitz": 0
       }
@@ -2409,7 +2438,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 0.5,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -2437,7 +2466,7 @@
         }
       ],
       "points": {
-        "standard": 12,
+        "standard": 12.5,
         "rapid": 11,
         "blitz": 0
       }
@@ -2499,13 +2528,20 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#39",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 2.5,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
+          "score": 1,
+          "name": "2026 Koshnitsky Cup - Rookies and Juniors",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -2517,7 +2553,7 @@
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3.5,
         "rapid": 4.5,
         "blitz": 0
       }
@@ -2619,7 +2655,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -2647,7 +2683,7 @@
         }
       ],
       "points": {
-        "standard": 11,
+        "standard": 12,
         "rapid": 11.5,
         "blitz": 0
       }
@@ -2742,6 +2778,28 @@
       "points": {
         "standard": 0,
         "rapid": 12.5,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Kantharaju, Aryan",
+      "id": "66",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#66",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
+          "score": 0.5,
+          "name": "2026 Koshnitsky Cup - Rookies and Juniors",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0.5,
+        "rapid": 0,
         "blitz": 0
       }
     },
@@ -2914,7 +2972,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -2942,7 +3000,7 @@
         }
       ],
       "points": {
-        "standard": 7.5,
+        "standard": 8.5,
         "rapid": 5,
         "blitz": 0
       }
@@ -3333,6 +3391,28 @@
       }
     },
     {
+      "name": "Lake,Logan",
+      "id": "53",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#53",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
+          "score": 1,
+          "name": "2026 Koshnitsky Cup - Rookies and Juniors",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Lavars,Jesse",
       "id": "8",
       "fideId": "",
@@ -3342,7 +3422,7 @@
       "tournaments": [
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 0.5,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -3356,7 +3436,7 @@
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -3596,7 +3676,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 0.5,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -3624,7 +3704,7 @@
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 6.5,
         "rapid": 7,
         "blitz": 0
       }
@@ -3776,12 +3856,19 @@
     },
     {
       "name": "Manjunath,Charvi",
-      "id": "69",
+      "id": "54",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#69",
-      "tournamentCount": 1,
+      "href": "playercard.html#54",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 Koshnitsky Cup - Rookies and Juniors",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 1,
@@ -4207,7 +4294,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 0.5,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -4235,7 +4322,7 @@
         }
       ],
       "points": {
-        "standard": 12,
+        "standard": 12.5,
         "rapid": 8,
         "blitz": 0
       }
@@ -4403,7 +4490,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -4424,7 +4511,7 @@
         }
       ],
       "points": {
-        "standard": 13.5,
+        "standard": 14.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -4457,7 +4544,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#38",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
@@ -4465,6 +4552,13 @@
           "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
           "totalRounds": "9",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 Koshnitsky Cup - Rookies and Juniors",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
@@ -4707,7 +4801,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -4721,7 +4815,7 @@
         }
       ],
       "points": {
-        "standard": 4.5,
+        "standard": 5.5,
         "rapid": 4.5,
         "blitz": 0
       }
@@ -4808,7 +4902,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 0.5,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -4843,7 +4937,7 @@
         }
       ],
       "points": {
-        "standard": 8,
+        "standard": 8.5,
         "rapid": 8.5,
         "blitz": 0
       }
@@ -4874,6 +4968,28 @@
       "points": {
         "standard": 2.5,
         "rapid": 5,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Raghu, Vaibhav",
+      "id": "65",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#65",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
+          "score": 0.5,
+          "name": "2026 Koshnitsky Cup - Rookies and Juniors",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0.5,
+        "rapid": 0,
         "blitz": 0
       }
     },
@@ -4917,6 +5033,28 @@
       "points": {
         "standard": 3,
         "rapid": 4,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Rajesh,Charvic",
+      "id": "47",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#47",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 Koshnitsky Cup - Rookies and Juniors",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
         "blitz": 0
       }
     },
@@ -5095,6 +5233,28 @@
       }
     },
     {
+      "name": "Rivero, Adam",
+      "id": "64",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#64",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 Koshnitsky Cup - Rookies and Juniors",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Rivero,Adam",
       "id": "74",
       "fideId": "",
@@ -5154,7 +5314,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -5189,7 +5349,7 @@
         }
       ],
       "points": {
-        "standard": 13,
+        "standard": 14,
         "rapid": 12.5,
         "blitz": 0
       }
@@ -5565,7 +5725,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -5593,7 +5753,7 @@
         }
       ],
       "points": {
-        "standard": 10,
+        "standard": 11,
         "rapid": 10.5,
         "blitz": 0
       }
@@ -5659,14 +5819,14 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 0.5,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3.5,
+        "standard": 4,
         "rapid": 0,
         "blitz": 0
       }
@@ -5695,7 +5855,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -5723,7 +5883,7 @@
         }
       ],
       "points": {
-        "standard": 8,
+        "standard": 9,
         "rapid": 10,
         "blitz": 0
       }
@@ -5871,19 +6031,12 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#65",
-      "tournamentCount": 3,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
           "score": 2.5,
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
-          "totalRounds": "7",
-          "ratingType": "standard"
-        },
-        {
-          "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
-          "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
         },
@@ -6396,7 +6549,7 @@
       "tournaments": [
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -6410,7 +6563,7 @@
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 5,
         "rapid": 0,
         "blitz": 0
       }
@@ -6482,7 +6635,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -6503,7 +6656,7 @@
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 6,
         "rapid": 5.5,
         "blitz": 0
       }
@@ -6525,7 +6678,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -6546,7 +6699,7 @@
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 5,
         "rapid": 5,
         "blitz": 0
       }
@@ -6641,7 +6794,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -6662,7 +6815,7 @@
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 7,
         "rapid": 4,
         "blitz": 0
       }
@@ -6699,14 +6852,14 @@
       "tournaments": [
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 0.5,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 0,
+        "standard": 0.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -6771,7 +6924,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -6799,7 +6952,7 @@
         }
       ],
       "points": {
-        "standard": 10.5,
+        "standard": 11.5,
         "rapid": 10,
         "blitz": 0
       }
@@ -6850,7 +7003,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -6864,7 +7017,7 @@
         }
       ],
       "points": {
-        "standard": 8.5,
+        "standard": 9.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -7053,7 +7206,7 @@
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
-          "score": 0,
+          "score": 1,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
           "ratingType": "standard"
@@ -7067,7 +7220,7 @@
         }
       ],
       "points": {
-        "standard": 0,
+        "standard": 1,
         "rapid": 5,
         "blitz": 0
       }
