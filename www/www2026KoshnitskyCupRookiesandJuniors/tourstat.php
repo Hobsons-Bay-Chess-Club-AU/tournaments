@@ -5,7 +5,7 @@
 <meta name="author" content="www.vegachess.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-<title>2026 Koshnitsy Cup -  Rookies and Juniors</title>
+<title>2026 Koshnitsky Cup -  Rookies and Juniors</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <link rel="stylesheet" href="stylenew.css" type="text/css" >
     </head>
@@ -20,14 +20,18 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li></ul> </div>
+</li><li class="nav-item"><a class="nav-link " href="pairs1.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link" href="#" >Standings</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu"></ul></li></ul> </div>
 </div>
 </nav>
  <section id="hero" class="d-flex align-items-center">
                 <div class="container-fluid">
                     <div class="row items-center">
                         <div class="col-12">
-                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2026 Koshnitsy Cup -  Rookies and Juniors</h1>		    <h5 class="mb-1">Hobsons Bay Chess Club (AUS)</h5>		    <h5> 01/08/2026 - 10/10/2026</h5>   </div>
+                            <div class="flex flex-column justify-content-center text-center text-white">			<h1 class="mb-3" style="text-shadow: 2px 2px 4px #000000;" >2026 Koshnitsky Cup -  Rookies and Juniors</h1>		    <h5 class="mb-1">Hobsons Bay Chess Club (AUS)</h5>		    <h5> 01/08/2026 - 10/10/2026</h5>   </div>
  </div> 
  </div>
  </div> 
@@ -39,7 +43,7 @@
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
   <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Tournament summary</h3><div class="table-responsive"><table class="table table-striped"> 
 <tbody>
-<tr><td> Tournament Name </td> <td> 2026 Koshnitsy Cup -  Rookies and Juniors</td> </tr>
+<tr><td> Tournament Name </td> <td> 2026 Koshnitsky Cup -  Rookies and Juniors</td> </tr>
 <tr><td >Place </td> <td> Hobsons Bay Chess Club</td> </tr>
 <tr><td >Federation</td> <td> AUS</td> </tr>
 <tr><td >Date Begin</td> <td> 01/08/2026</td> </tr>
@@ -49,16 +53,16 @@
 <tr><td >Rounds</td> <td> 7</td> </tr>
 <tr><td >Score game</td> <td> 0-0.5-1</td> </tr>
 <tr><td >Tie break</td> <td> BH BH/C1 SB </td> </tr>
-<tr><td >Registered Players</td> <td> 58</td> </tr>
+<tr><td >Registered Players</td> <td> 62</td> </tr>
 <tr><td > Number of Federations</td> <td> 4</td> </tr>
-<tr><td >Average Rating (all) </td> <td> 797</td> </tr>
+<tr><td >Average Rating (all) </td> <td> 766</td> </tr>
 <tr><td >Average Rating (only FIDE rated) </td> <td> 1545</td> </tr>
 <tr ><td > Players from AUS Federation</td> <td> 2</td> </tr>
-<tr><td > Players NOT from AUS Federation</td> <td> 56</td> </tr>
+<tr><td > Players NOT from AUS Federation</td> <td> 60</td> </tr>
 <tr><td > FIDE rated players </td> <td> 27</td> </tr>
-<tr><td > unrated players </td> <td> 31</td> </tr>
+<tr><td > unrated players </td> <td> 35</td> </tr>
 <tr><td > unrated players from AUS Federation</td> <td> 0</td> </tr>
-<tr><td >unrated players NOT from AUS Federation</td> <td> 31</td> </tr>
+<tr><td >unrated players NOT from AUS Federation</td> <td> 35</td> </tr>
 <tr><td > unrated Federations</td> <td> 1</td> </tr>
 <tr><td > FIDE titled players </td> <td> 0</td> </tr>
 <tr><td > GM players </td> <td> 0</td> </tr>
