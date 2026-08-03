@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "dev": "node src/index.mjs",
-    "tidyhq:memberships": "node src/tidyhq-memberships.mjs"
+    "tidyhq:memberships": "node src/tidyhq-memberships.mjs",
+    "tinyhq:sync": "node src/tinyhq-sync.js",
+    "tinyhq:browser-attendees": "node src/tinyhq-browser-attendees.js"
   },
   "keywords": [],
   "author": "",
