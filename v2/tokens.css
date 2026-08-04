@@ -1,0 +1,29 @@
+:root {
+  --color-calendar-paper: oklch(98% 0.008 210);
+  --color-calendar-surface: oklch(99.5% 0.006 210);
+  --color-calendar-ink: oklch(28% 0.03 210);
+  --color-calendar-muted: oklch(53% 0.025 210);
+  --color-calendar-rule: oklch(87% 0.025 210);
+  --color-calendar-teal: oklch(38% 0.075 205);
+  --color-calendar-teal-strong: oklch(31% 0.07 205);
+  --color-calendar-teal-ink: oklch(99% 0.006 210);
+  --color-calendar-teal-soft: oklch(93% 0.028 205);
+  --color-calendar-sun: oklch(82% 0.14 84);
+  --color-calendar-coral: oklch(70% 0.13 30);
+  --color-calendar-focus: oklch(50% 0.13 225);
+  --color-calendar-shadow: oklch(28% 0.03 210 / 0.1);
+  --color-calendar-scrim: oklch(28% 0.03 210 / 0.42);
+  --font-calendar-body: var(--font-geist-sans), Arial, sans-serif;
+  --font-calendar-mono: var(--font-geist-mono), monospace;
+  --space-2xs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --radius-calendar-sm: 0.75rem;
+  --radius-calendar-md: 1.25rem;
+  --radius-calendar-lg: 1.75rem;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-short: 180ms;
+}

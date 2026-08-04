@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 const CSV_URL =
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vRIr-eFPQCMvn-TbOfLNzHheAVduNUKX2wOTsYjJOM8zf_uhqe3B3H8Z01bofnCPg/pub?output=csv";
@@ -315,9 +315,13 @@ export default function CalendarClient() {
     const [error, setError] = useState<string | null>(null);
     const [search, setSearch] = useState("");
     const [selectedMonth, setSelectedMonth] = useState("all");
-    const [selectedType, setSelectedType] = useState("all");
+    const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
     const [displayMonth, setDisplayMonth] = useState<Date>(startOfMonth(new Date()));
     const [selectedDateKey, setSelectedDateKey] = useState<string | null>(null);
+    const detailsDialogRef = useRef<HTMLDialogElement>(null);
+    const lastDayButtonRef = useRef<HTMLButtonElement | null>(null);
+    const filterDialogRef = useRef<HTMLDialogElement>(null);
+    const lastFilterButtonRef = useRef<HTMLButtonElement | null>(null);
 
     useEffect(() => {
         const controller = new AbortController();
@@ -422,7 +426,7 @@ export default function CalendarClient() {
         return entries.filter((entry) => {
             const monthKey = getMonthKey(entry.startDate);
             const monthMatch = selectedMonth === "all" || selectedMonth === monthKey;
-            const typeMatch = selectedType === "all" || (entry.eventType || "Other") === selectedType;
+            const typeMatch = selectedTypes.length === 0 || selectedTypes.includes(entry.eventType || "Other");
 
             if (!monthMatch || !typeMatch) {
                 return false;
@@ -434,7 +438,7 @@ export default function CalendarClient() {
 
             return getEntrySearchText(entry).includes(query);
         });
-    }, [entries, search, selectedMonth, selectedType]);
+    }, [entries, search, selectedMonth, selectedTypes]);
 
     const summary = useMemo(() => {
         const total = filteredEntries.length;
@@ -514,7 +518,7 @@ export default function CalendarClient() {
     const goToToday = () => {
         const today = new Date();
         setSelectedMonth("all");
-        setSelectedType("all");
+        setSelectedTypes([]);
         setDisplayMonth(startOfMonth(today));
         setSelectedDateKey(toDateKey(today));
     };
@@ -534,305 +538,323 @@ export default function CalendarClient() {
     const clearFilters = () => {
         setSearch("");
         setSelectedMonth("all");
-        setSelectedType("all");
+        setSelectedTypes([]);
         setSelectedDateKey(null);
     };
 
+    function toggleEventType(type: string) {
+        setSelectedTypes((current) => current.includes(type)
+            ? current.filter((value) => value !== type)
+            : [...current, type]);
+    }
+
+    const selectedTypeSummary = selectedTypes.length === 0
+        ? "All event types"
+        : `${selectedTypes.length} type${selectedTypes.length === 1 ? "" : "s"} selected`;
+
+    function openTypeFilters(button: HTMLButtonElement) {
+        lastFilterButtonRef.current = button;
+        requestAnimationFrame(() => filterDialogRef.current?.showModal());
+    }
+
+    const restoreFilterFocus = () => {
+        lastFilterButtonRef.current?.focus({ preventScroll: true });
+    };
+
+    function openDayDetails(dateKey: string, button: HTMLButtonElement) {
+        setSelectedDateKey(dateKey);
+        lastDayButtonRef.current = button;
+
+        if (window.matchMedia("(max-width: 59.99rem)").matches) {
+            requestAnimationFrame(() => detailsDialogRef.current?.showModal());
+        }
+    }
+
+    const restoreDayFocus = () => {
+        lastDayButtonRef.current?.focus({ preventScroll: true });
+    };
+
+    const renderEventCard = (entry: CalendarEntry, context: string) => {
+        const hasSeniorLink = entry.seniorLink.length > 0;
+        const hasJuniorLink = entry.juniorLink.length > 0;
+
+        return (
+            <article key={`${entry.id}-${context}`} className="calendar-event">
+                <div className="calendar-event__head">
+                    <div>
+                        <div className="calendar-event__type">{entry.eventType || "Calendar"}</div>
+                        <h4>{getEntryTitle(entry)}</h4>
+                    </div>
+                    <div className="calendar-event__date">{formatRangeLabel(entry.startDate, entry.endDate)}</div>
+                </div>
+                <div className="calendar-event__chips">
+                    <span>{entry.dayLabel || "Schedule"}</span>
+                    <span>{entry.schoolSchedule || "No school note"}</span>
+                    {entry.coaching && <span>{entry.coaching}</span>}
+                </div>
+                {getEntryNames(entry).length > 0 && (
+                    <div className="calendar-event__facts">
+                        {getEntryNames(entry).map((item) => <div key={`${entry.id}-${item.label}`}><strong>{item.label}:</strong> {item.value}</div>)}
+                    </div>
+                )}
+                <div className="calendar-event__facts">
+                    <div><strong>Arbiter:</strong> {entry.arbiter || "Not applicable"}</div>
+                    <div><strong>Coaching:</strong> {entry.coaching || "-"}</div>
+                </div>
+                <div className="calendar-event__links">
+                    {hasSeniorLink && <a href={entry.seniorLink} target="_blank" rel="noreferrer noopener" className="calendar-event__link calendar-event__link--primary">Senior link</a>}
+                    {hasJuniorLink && <a href={entry.juniorLink} target="_blank" rel="noreferrer noopener" className="calendar-event__link">Junior link</a>}
+                </div>
+            </article>
+        );
+    };
+
     if (loading) {
-        return <div className="px-6 py-10 text-center text-gray-500">Loading calendar...</div>;
+        return <div className="calendar-empty" role="status">Loading calendar...</div>;
     }
 
     if (error) {
-        return <div className="px-6 py-10 text-center text-red-600">{error}</div>;
+        return <div className="calendar-empty" role="alert">{error}</div>;
     }
 
     return (
-        <div className="space-y-6 px-4 py-4 md:px-6 md:py-6">
-            <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+        <div className="calendar-client">
+            <div className="calendar-utility">
                 <a
                     href="https://portal.hobsonsbaychess.com/"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="rounded-2xl border border-primary-200 bg-primary-700 p-4 shadow-sm transition hover:bg-primary-800 hover:shadow-md"
+                    className="calendar-utility__registration"
                 >
-                    <div className="text-xs uppercase tracking-wide text-primary-100">Register</div>
-                    <div className="mt-2 text-lg font-bold text-white">Portal registration</div>
-                    <div className="mt-2 text-sm text-primary-50">Open the HBCC portal to register and manage your details.</div>
+                    <span className="calendar-utility__label">Ready to play?</span>
+                    <strong>Register with the club</strong>
+                    <span>Open the HBCC portal to register and manage your details.</span>
                 </a>
-                <div className="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
-                    <div className="text-xs uppercase tracking-wide text-gray-500">Events shown</div>
-                    <div className="mt-2 text-3xl font-bold text-primary-700">{summary.total}</div>
+                <div className="calendar-utility__count">
+                    <span className="calendar-utility__label">Events shown</span>
+                    <strong aria-live="polite">{summary.total}</strong>
                 </div>
                 <button
                     type="button"
                     onClick={() => nextUpcomingEvent && jumpToEntry(nextUpcomingEvent)}
                     disabled={!nextUpcomingEvent}
-                    className="rounded-2xl border border-gray-200 bg-white p-4 text-left shadow-sm transition hover:border-primary-200 hover:shadow-md disabled:cursor-not-allowed disabled:opacity-60"
+                    className="calendar-utility__next"
                 >
-                    <div className="text-xs uppercase tracking-wide text-gray-500">Next event</div>
-                    <div className="mt-2 text-lg font-semibold text-gray-900">
+                    <span className="calendar-utility__label">Up next</span>
+                    <strong>
                         {nextUpcomingEvent ? formatRangeLabel(nextUpcomingEvent.startDate, nextUpcomingEvent.endDate) : "No events"}
-                    </div>
-                    <div className="mt-2 text-sm font-medium text-primary-700">
+                    </strong>
+                    <span>
                         {nextUpcomingEvent ? getEntryTitle(nextUpcomingEvent) : "Nothing scheduled"}
-                    </div>
+                    </span>
                 </button>
-                <div className="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
-                    <div className="text-xs uppercase tracking-wide text-gray-500">How to use</div>
-                    <div className="mt-2 text-sm text-gray-700">Search by tournament, browse by month, or tap a day to see every event and link in one place.</div>
+                <div className="calendar-utility__hint">
+                    <span className="calendar-utility__label">How it works</span>
+                    Search by tournament, browse by month, or choose a day to see every event and link in one place.
                 </div>
             </div>
 
-            <section className="rounded-3xl border border-slate-300 bg-slate-50 p-4 shadow-sm md:p-5">
-                <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
-                    <div className="grid flex-1 gap-3 md:grid-cols-[minmax(0,1.3fr)_220px] xl:grid-cols-[minmax(0,1.5fr)_220px]">
-                        <label className="block">
-                            <span className="mb-2 block text-xs font-semibold uppercase tracking-[0.18em] text-slate-700">Search</span>
-                            <input
-                                type="search"
-                                value={search}
-                                onChange={(event) => setSearch(event.target.value)}
-                                placeholder="Tournament, coaching, arbiter, or date"
-                                className="w-full rounded-2xl border border-slate-400 bg-white px-4 py-3 text-sm text-slate-900 shadow-sm outline-none placeholder:text-slate-500 transition focus:border-primary-700 focus:ring-2 focus:ring-primary-200"
-                            />
-                        </label>
-                        <label className="block">
-                            <span className="mb-2 block text-xs font-semibold uppercase tracking-[0.18em] text-slate-700">Month</span>
-                            <select
-                                value={selectedMonth}
-                                onChange={(event) => setSelectedMonth(event.target.value)}
-                                className="w-full rounded-2xl border border-slate-400 bg-white px-4 py-3 text-sm font-medium text-slate-900 shadow-sm outline-none transition focus:border-primary-700 focus:ring-2 focus:ring-primary-200"
-                            >
-                                {monthOptions.map((option) => (
-                                    <option key={option.value} value={option.value}>
-                                        {option.label}
-                                    </option>
-                                ))}
-                            </select>
-                        </label>
-                    </div>
+            <section className="calendar-filters" aria-label="Calendar filters">
+                <div className="calendar-filters__fields">
+                    <label className="calendar-filters__field">
+                        <span className="calendar-filters__label">Search</span>
+                        <input
+                            type="search"
+                            value={search}
+                            onChange={(event) => setSearch(event.target.value)}
+                            placeholder="Tournament, coaching, arbiter, or date"
+                        />
+                    </label>
+                    <label className="calendar-filters__field">
+                        <span className="calendar-filters__label">Month</span>
+                        <select value={selectedMonth} onChange={(event) => setSelectedMonth(event.target.value)}>
+                            {monthOptions.map((option) => (
+                                <option key={option.value} value={option.value}>
+                                    {option.label}
+                                </option>
+                            ))}
+                        </select>
+                    </label>
+                </div>
+                <div className="calendar-filters__footer">
                     <button
                         type="button"
-                        onClick={clearFilters}
-                        className="rounded-full border border-slate-400 bg-white px-4 py-3 text-sm font-semibold text-slate-800 transition hover:bg-slate-100"
+                        className="calendar-control calendar-filter-trigger"
+                        onClick={(event) => openTypeFilters(event.currentTarget)}
+                        aria-haspopup="dialog"
                     >
+                        <span>Event type</span>
+                        <strong>{selectedTypeSummary}</strong>
+                    </button>
+                    <div className="calendar-filter-chips-wrap">
+                        <div className="calendar-filters__label">Event type</div>
+                        <div className="calendar-filter-chips">
+                            {typeOptions.map((option) => {
+                                const isAllTypes = option.value === "all";
+                                const isActive = isAllTypes ? selectedTypes.length === 0 : selectedTypes.includes(option.value);
+                                return (
+                                    <button
+                                        key={option.value}
+                                        type="button"
+                                        onClick={() => isAllTypes ? setSelectedTypes([]) : toggleEventType(option.value)}
+                                        aria-pressed={isActive}
+                                        className="calendar-filter-chip"
+                                    >
+                                        {option.label} ({option.count})
+                                    </button>
+                                );
+                            })}
+                        </div>
+                    </div>
+                    <button type="button" onClick={clearFilters} className="calendar-control">
                         Reset filters
                     </button>
                 </div>
-
-                <div className="mt-4">
-                    <div className="mb-3 text-xs font-semibold uppercase tracking-[0.18em] text-slate-700">Event type</div>
-                    <div className="flex flex-wrap gap-2">
-                        {typeOptions.map((option) => {
-                            const isActive = selectedType === option.value;
-                            return (
-                                <button
-                                    key={option.value}
-                                    type="button"
-                                    onClick={() => setSelectedType(option.value)}
-                                    className={`rounded-full border px-4 py-2 text-sm font-semibold transition ${
-                                        isActive
-                                            ? "border-primary-700 bg-primary-700 text-white shadow-sm"
-                                            : "border-slate-400 bg-white text-slate-800 hover:border-primary-400 hover:bg-primary-50"
-                                    }`}
-                                >
-                                    {option.label} ({option.count})
-                                </button>
-                            );
-                        })}
-                    </div>
-                </div>
             </section>
 
-            {filteredEntries.length === 0 ? (
-                <div className="rounded-2xl border border-dashed border-gray-300 bg-white px-6 py-10 text-center text-gray-500">
-                    No calendar entries match the current filters.
+            <dialog
+                ref={filterDialogRef}
+                className="calendar-filter-dialog"
+                onClose={restoreFilterFocus}
+                aria-labelledby="calendar-filter-dialog-title"
+            >
+                <div className="calendar-details-dialog__head">
+                    <div>
+                        <div className="calendar-details__label">Calendar filters</div>
+                        <h3 id="calendar-filter-dialog-title">Choose event types</h3>
+                    </div>
+                    <button type="button" className="calendar-control" onClick={() => filterDialogRef.current?.close()}>
+                        Done
+                    </button>
                 </div>
+                <p className="calendar-filter-dialog__intro">Select one or more event types to narrow the calendar.</p>
+                <div className="calendar-filter-options">
+                    <button
+                        type="button"
+                        className="calendar-filter-option calendar-filter-option--all"
+                        onClick={() => setSelectedTypes([])}
+                        aria-pressed={selectedTypes.length === 0}
+                    >
+                        <span>All event types</span>
+                        <span>{typeOptions[0]?.count ?? 0} events</span>
+                    </button>
+                    {typeOptions.slice(1).map((option) => {
+                        const isSelected = selectedTypes.includes(option.value);
+                        return (
+                            <label key={option.value} className="calendar-filter-option">
+                                <input
+                                    type="checkbox"
+                                    checked={isSelected}
+                                    onChange={() => toggleEventType(option.value)}
+                                />
+                                <span>{option.label}</span>
+                                <span>{option.count} events</span>
+                            </label>
+                        );
+                    })}
+                </div>
+            </dialog>
+
+            {filteredEntries.length === 0 ? (
+                <div className="calendar-empty">No calendar entries match the current filters.</div>
             ) : (
-                <div className="grid gap-6 xl:grid-cols-[minmax(0,1.7fr)_minmax(320px,0.9fr)]">
-                    <section className="overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm">
-                        <div className="flex flex-col gap-4 border-b border-gray-200 p-4 md:flex-row md:items-center md:justify-between md:p-6">
-                            <div>
-                                <div className="text-xs font-semibold uppercase tracking-[0.2em] text-gray-500">Calendar view</div>
-                                <h2 className="mt-1 text-2xl font-bold text-gray-900">{formatMonthLabel(visibleMonth)}</h2>
+                <div className="calendar-workspace">
+                    <section className="calendar-month" aria-labelledby="calendar-month-title">
+                        <div className="calendar-month__toolbar">
+                            <div className="calendar-month__heading">
+                                <div className="calendar-month__label">Calendar view</div>
+                                <h2 id="calendar-month-title">{formatMonthLabel(visibleMonth)}</h2>
                             </div>
-                            <div className="flex flex-wrap items-center gap-2">
-                                <button
-                                    type="button"
-                                    onClick={() => shiftMonth(-1)}
-                                    className="rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-semibold text-gray-700 transition hover:bg-gray-50"
-                                >
+                            <div className="calendar-month__controls" aria-label="Month navigation">
+                                <button type="button" onClick={() => shiftMonth(-1)} className="calendar-control" aria-label="Previous month">
                                     Previous
                                 </button>
-                                <button
-                                    type="button"
-                                    onClick={goToToday}
-                                    className="rounded-full bg-primary-700 px-4 py-2 text-sm font-semibold text-white transition hover:bg-primary-800"
-                                >
+                                <button type="button" onClick={goToToday} className="calendar-control calendar-control--primary">
                                     Today
                                 </button>
-                                <button
-                                    type="button"
-                                    onClick={() => shiftMonth(1)}
-                                    className="rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-semibold text-gray-700 transition hover:bg-gray-50"
-                                >
+                                <button type="button" onClick={() => shiftMonth(1)} className="calendar-control" aria-label="Next month">
                                     Next
                                 </button>
                             </div>
                         </div>
-
-                        <div className="grid grid-cols-7 border-b border-gray-200 bg-gray-50 text-center text-xs font-semibold uppercase tracking-wide text-gray-500">
-                            {weekDays.map((day) => (
-                                <div key={day} className="px-2 py-3">
-                                    {day}
-                                </div>
-                            ))}
+                        <div className="calendar-month__weekdays" aria-hidden="true">
+                            {weekDays.map((day) => <div key={day}>{day}</div>)}
                         </div>
-
-                        <div className="grid grid-cols-7 divide-x divide-y divide-gray-200 bg-white">
+                        <div className="calendar-month__grid">
                             {calendarDays.map((day) => {
                                 const hasEvents = day.entries.length > 0;
                                 const isSelected = selectedDateKey === day.dateKey;
+                                const dayClasses = [
+                                    "calendar-day",
+                                    !day.isCurrentMonth && "calendar-day--outside",
+                                    day.isToday && "calendar-day--today",
+                                    isSelected && "calendar-day--selected",
+                                ].filter(Boolean).join(" ");
 
                                 return (
                                     <button
                                         key={day.dateKey}
                                         type="button"
-                                        onClick={() => setSelectedDateKey(day.dateKey)}
-                                        className={`min-h-[150px] p-3 text-left transition hover:bg-primary-50/50 ${day.isCurrentMonth ? "bg-white" : "bg-gray-50 text-gray-400"} ${day.isToday ? "ring-2 ring-inset ring-primary-400" : ""} ${isSelected ? "bg-primary-50" : ""}`}
+                                        onClick={(event) => openDayDetails(day.dateKey, event.currentTarget)}
+                                        className={dayClasses}
+                                        aria-label={`View events for ${formatDateLabel(day.date)}`}
+                                        aria-pressed={isSelected}
                                     >
-                                        <div className="flex items-center justify-between gap-2">
-                                            <div className={`inline-flex h-8 w-8 items-center justify-center rounded-full text-sm font-semibold ${day.isToday ? "bg-primary-700 text-white" : "text-gray-700"}`}>
-                                                {day.date.getDate()}
-                                            </div>
-                                            {hasEvents && (
-                                                <span className="rounded-full bg-primary-100 px-2 py-1 text-[10px] font-semibold uppercase tracking-wide text-primary-800">
-                                                    {day.entries.length}
-                                                </span>
-                                            )}
-                                        </div>
-
-                                        <div className="mt-3 space-y-2">
+                                        <span className="calendar-day__top">
+                                            <span className="calendar-day__number" aria-current={day.isToday ? "date" : undefined}>{day.date.getDate()}</span>
+                                            {hasEvents && <span className="calendar-day__count">{day.entries.length}</span>}
+                                        </span>
+                                        <span className="calendar-day__events">
                                             {day.entries.slice(0, 3).map((entry) => (
-                                                <div key={`${entry.id}-${day.dateKey}`} className="rounded-xl border border-gray-200 bg-white px-3 py-2 shadow-sm">
-                                                    <div className="text-[11px] font-semibold uppercase tracking-wide text-primary-700">{entry.eventType || "Calendar"}</div>
-                                                    <div className="mt-1 text-sm font-medium leading-5 text-gray-900 line-clamp-2">{getEntryTitle(entry)}</div>
-                                                </div>
+                                                <span key={`${entry.id}-${day.dateKey}`} className="calendar-day__event">{getEntryTitle(entry)}</span>
                                             ))}
-                                            {day.entries.length > 3 && <div className="text-xs font-semibold text-gray-500">+ {day.entries.length - 3} more</div>}
-                                        </div>
+                                            {day.entries.length > 3 && <span className="calendar-day__more">+{day.entries.length - 3} more</span>}
+                                        </span>
                                     </button>
                                 );
                             })}
                         </div>
                     </section>
 
-                    <aside className="space-y-6">
-                        <section className="rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
-                            <div className="text-xs font-semibold uppercase tracking-[0.2em] text-gray-500">Selected day</div>
-                            <h3 className="mt-1 text-xl font-bold text-gray-900">
-                                {selectedDateKey && selectedDay ? formatDateLabel(getDateFromKey(selectedDateKey)) : formatMonthLabel(visibleMonth)}
-                            </h3>
-                            <p className="mt-2 text-sm text-gray-600">
-                                {selectedDateKey
-                                    ? "View the event details and links for the chosen day."
-                                    : "Select a day on the calendar to see the event cards for that date."}
-                            </p>
+                    <aside className="calendar-details" aria-live="polite">
+                        <section className="calendar-details__summary">
+                            <div className="calendar-details__label">Selected day</div>
+                            <h3>{selectedDateKey && selectedDay ? formatDateLabel(getDateFromKey(selectedDateKey)) : formatMonthLabel(visibleMonth)}</h3>
+                            <p>{selectedDateKey ? "Every event and link for the chosen day." : "Choose a day to see its event cards and links."}</p>
                         </section>
-
-                        <section className="rounded-3xl border border-gray-200 bg-white p-5 shadow-sm">
-                            <div className="flex items-center justify-between gap-3">
+                        <section className="calendar-details__list">
+                            <div className="calendar-details__list-head">
                                 <div>
-                                    <div className="text-xs font-semibold uppercase tracking-[0.2em] text-gray-500">Events on day</div>
-                                    <h3 className="mt-1 text-lg font-bold text-gray-900">
-                                        {selectedDayEntries.length} event{selectedDayEntries.length === 1 ? "" : "s"}
-                                    </h3>
+                                    <div className="calendar-details__label">Events on day</div>
+                                    <h3>{selectedDayEntries.length} event{selectedDayEntries.length === 1 ? "" : "s"}</h3>
                                 </div>
                                 {selectedDateKey && (
-                                    <button
-                                        type="button"
-                                        onClick={() => setSelectedDateKey(null)}
-                                        className="rounded-full border border-gray-300 bg-white px-3 py-2 text-xs font-semibold text-gray-700 transition hover:bg-gray-50"
-                                    >
+                                    <button type="button" onClick={() => setSelectedDateKey(null)} className="calendar-control">
                                         Clear
                                     </button>
                                 )}
                             </div>
-
-                            <div className="mt-4 space-y-3">
+                            <div className="calendar-details__events">
                                 {selectedDayEntries.length === 0 ? (
-                                    <div className="rounded-2xl border border-dashed border-gray-300 bg-gray-50 px-4 py-8 text-center text-sm text-gray-500">
-                                        No events on this day.
-                                    </div>
-                                ) : (
-                                    selectedDayEntries.map((entry) => {
-                                        const hasSeniorLink = entry.seniorLink.length > 0;
-                                        const hasJuniorLink = entry.juniorLink.length > 0;
-
-                                        return (
-                                            <article key={`${entry.id}-${selectedDateKey ?? "month"}`} className="rounded-2xl border border-gray-200 bg-gray-50 p-4">
-                                                <div className="flex items-start justify-between gap-3">
-                                                    <div>
-                                                        <div className="text-xs font-semibold uppercase tracking-wide text-primary-700">{entry.eventType || "Calendar"}</div>
-                                                        <h4 className="mt-1 text-base font-bold text-gray-900">{getEntryTitle(entry)}</h4>
-                                                    </div>
-                                                    <div className="text-right text-xs text-gray-500">{formatRangeLabel(entry.startDate, entry.endDate)}</div>
-                                                </div>
-
-                                                <div className="mt-3 space-y-2 text-sm text-gray-700">
-                                                    <div className="flex flex-wrap gap-2 text-xs font-medium">
-                                                        <span className="rounded-full bg-white px-3 py-1 text-gray-600">{entry.dayLabel || "Schedule"}</span>
-                                                        <span className="rounded-full bg-white px-3 py-1 text-gray-600">{entry.schoolSchedule || "No school note"}</span>
-                                                        {entry.coaching && <span className="rounded-full bg-white px-3 py-1 text-gray-600">{entry.coaching}</span>}
-                                                    </div>
-                                                    {getEntryNames(entry).length > 0 && (
-                                                        <div className="rounded-xl bg-white px-3 py-3 text-sm text-gray-700">
-                                                            {getEntryNames(entry).map((item) => (
-                                                                <div key={`${entry.id}-${item.label}`}>
-                                                                    <span className="font-semibold text-gray-900">{item.label}:</span> {item.value}
-                                                                </div>
-                                                            ))}
-                                                        </div>
-                                                    )}
-                                                    <div className="rounded-xl bg-white px-3 py-2 text-xs text-gray-600">
-                                                        <div>
-                                                            <span className="font-semibold text-gray-800">Arbiter:</span> {entry.arbiter || "Not applicable"}
-                                                        </div>
-                                                        <div>
-                                                            <span className="font-semibold text-gray-800">Coaching:</span> {entry.coaching || "-"}
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div className="mt-4 flex flex-wrap gap-2">
-                                                    {hasSeniorLink && (
-                                                        <a
-                                                            href={entry.seniorLink}
-                                                            target="_blank"
-                                                            rel="noreferrer noopener"
-                                                            className="inline-flex items-center rounded-full bg-primary-700 px-4 py-2 text-sm font-semibold text-white transition hover:bg-primary-800"
-                                                        >
-                                                            Senior link
-                                                        </a>
-                                                    )}
-                                                    {hasJuniorLink && (
-                                                        <a
-                                                            href={entry.juniorLink}
-                                                            target="_blank"
-                                                            rel="noreferrer noopener"
-                                                            className="inline-flex items-center rounded-full border border-primary-200 bg-white px-4 py-2 text-sm font-semibold text-primary-700 transition hover:bg-primary-50"
-                                                        >
-                                                            Junior link
-                                                        </a>
-                                                    )}
-                                                </div>
-                                            </article>
-                                        );
-                                    })
-                                )}
+                                    <div className="calendar-empty">No events on this day.</div>
+                                ) : selectedDayEntries.map((entry) => renderEventCard(entry, `rail-${selectedDateKey ?? "month"}`))}
                             </div>
                         </section>
                     </aside>
+                    <dialog ref={detailsDialogRef} className="calendar-details-dialog" onClose={restoreDayFocus} aria-labelledby="calendar-dialog-title">
+                        <div className="calendar-details-dialog__head">
+                            <div>
+                                <div className="calendar-details__label">Selected day</div>
+                                <h3 id="calendar-dialog-title">{selectedDateKey ? formatDateLabel(getDateFromKey(selectedDateKey)) : formatMonthLabel(visibleMonth)}</h3>
+                            </div>
+                            <button type="button" className="calendar-control" onClick={() => detailsDialogRef.current?.close()}>
+                                Close details
+                            </button>
+                        </div>
+                        <div className="calendar-details__events">
+                            {selectedDayEntries.length === 0 ? <div className="calendar-empty">No events on this day.</div> : selectedDayEntries.map((entry) => renderEventCard(entry, `dialog-${selectedDateKey ?? "month"}`))}
+                        </div>
+                    </dialog>
                 </div>
             )}
         </div>
