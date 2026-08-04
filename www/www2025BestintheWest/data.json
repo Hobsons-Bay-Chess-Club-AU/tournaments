@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-14T23:57:00.683Z",
+  "generatedAt": "2026-08-04T01:41:07.945Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 5",
@@ -59535,6 +59535,26 @@
       "tournamentType": "unknown"
     }
   },
+  "top_players": [
+    {
+      "name": "Morris,James",
+      "point": 5,
+      "elo": "2416",
+      "title": "IM"
+    },
+    {
+      "name": "Dai,Cheng",
+      "point": 4.5,
+      "elo": "2177",
+      "title": "FM"
+    },
+    {
+      "name": "Annapureddy,Rheyansh Reddy",
+      "point": 4.5,
+      "elo": "2157",
+      "title": "CM"
+    }
+  ],
   "playerLookup": {
     "1": {
       "id": "1",
@@ -62324,5 +62344,5 @@
     "FIDE titled player NOT from AUS Federation": "13",
     "category": "Senior"
   },
-  "md5Hash": "e588d36855d9417603ff68bdf3d6e2fe"
+  "md5Hash": "96ece4abdb9c53fba50c30cc346402f1"
 }

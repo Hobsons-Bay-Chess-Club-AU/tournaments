@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T08:38:19.703Z",
+  "generatedAt": "2026-08-04T01:41:44.140Z",
   "page": {
     "calendarroundrobin.html": {
       "pageHeading": "Schedule",
@@ -2890,6 +2890,26 @@
       "tournamentType": "unknown"
     }
   },
+  "top_players": [
+    {
+      "name": "Szuveges,Narelle S",
+      "point": 4,
+      "elo": "1449",
+      "title": "WIM"
+    },
+    {
+      "name": "Hogan,Steven",
+      "point": 3.5,
+      "elo": "1395",
+      "title": ""
+    },
+    {
+      "name": "Matijas,Dejan",
+      "point": 2.5,
+      "elo": "1367",
+      "title": ""
+    }
+  ],
   "playerLookup": {
     "1": {
       "id": "1",
@@ -3102,5 +3122,5 @@
     "FIDE titled player NOT from AUS Federation": "1",
     "category": "Senior"
   },
-  "md5Hash": "87f244a02c5032d62cc41bde126815fc"
+  "md5Hash": "fa2eadfd2651e7f82ea26fef32c1b9f7"
 }

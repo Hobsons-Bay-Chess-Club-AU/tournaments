@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T08:38:19.762Z",
+  "generatedAt": "2026-08-04T01:41:44.552Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 5",
@@ -4567,6 +4567,26 @@
       "tournamentType": "unknown"
     }
   },
+  "top_players": [
+    {
+      "name": "Ramanathan,Ashwin",
+      "point": 5,
+      "elo": "1362",
+      "title": ""
+    },
+    {
+      "name": "Balogun,Olalekan",
+      "point": 4,
+      "elo": "1307",
+      "title": ""
+    },
+    {
+      "name": "Ashok,Arjun",
+      "point": 3.5,
+      "elo": "1069",
+      "title": ""
+    }
+  ],
   "playerLookup": {
     "1": {
       "id": "1",
@@ -4919,5 +4939,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "e09f8f81fcbedaa5e40018510a76f3e0"
+  "md5Hash": "e10469eb9d97b7fba2feb1d0d66a2141"
 }

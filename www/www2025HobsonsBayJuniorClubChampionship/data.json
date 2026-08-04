@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-12-07T09:42:27.388Z",
+  "generatedAt": "2026-08-04T01:41:19.149Z",
   "page": {
     "calendarroundrobin.html": {
       "pageHeading": "Schedule",
@@ -4447,6 +4447,26 @@
       "tournamentType": "unknown"
     }
   },
+  "top_players": [
+    {
+      "name": "Batyrbekov,Kaisar",
+      "point": 5.5,
+      "elo": "1110",
+      "title": ""
+    },
+    {
+      "name": "Batyrbekov,Aidan",
+      "point": 5,
+      "elo": "947",
+      "title": ""
+    },
+    {
+      "name": "Ashok,Arjun",
+      "point": 4.5,
+      "elo": "1087",
+      "title": ""
+    }
+  ],
   "playerLookup": {
     "1": {
       "id": "1",
@@ -4699,5 +4719,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "96ee71f3dbb0f08182cde59de25facc3"
+  "md5Hash": "f5f09b9c9bd27a099ea18b8b513122fe"
 }

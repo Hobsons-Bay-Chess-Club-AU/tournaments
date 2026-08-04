@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T14:37:06.551Z",
+  "generatedAt": "2026-08-04T01:41:49.157Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 9",
@@ -28587,6 +28587,26 @@
       "tournamentType": "unknown"
     }
   },
+  "top_players": [
+    {
+      "name": "Nguyen,Anh Kiet",
+      "point": 9,
+      "elo": "1753",
+      "title": "CM"
+    },
+    {
+      "name": "Gusain,Daniel",
+      "point": 7.5,
+      "elo": "1967",
+      "title": ""
+    },
+    {
+      "name": "Menezes,Eric",
+      "point": 7,
+      "elo": "1731",
+      "title": ""
+    }
+  ],
   "playerLookup": {
     "1": {
       "id": "1",
@@ -29704,5 +29724,5 @@
     "FIDE titled player NOT from AUS Federation": "2",
     "category": "Senior"
   },
-  "md5Hash": "b396b7df11a6cc97ada2e58998e67c05"
+  "md5Hash": "cc074035602f3855326569e41153d1d8"
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-14T23:57:09.202Z",
+  "generatedAt": "2026-08-04T01:42:01.424Z",
   "page": {
     "felovar.html": {
       "pageHeading": "FIDE rating variation at round 5",
@@ -2621,6 +2621,26 @@
       "tournamentType": "unknown"
     }
   },
+  "top_players": [
+    {
+      "name": "Nowak,Ruben",
+      "point": 4,
+      "elo": "1454",
+      "title": ""
+    },
+    {
+      "name": "Pasukov,Leo",
+      "point": 3.5,
+      "elo": "1431",
+      "title": ""
+    },
+    {
+      "name": "Hari,Dhruv",
+      "point": 2.5,
+      "elo": "1438",
+      "title": ""
+    }
+  ],
   "playerLookup": {
     "1": {
       "id": "1",
@@ -2889,5 +2909,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Senior"
   },
-  "md5Hash": "71f83eafdc588c37adba3b0a9f619f58"
+  "md5Hash": "59ac6026510e6061597c535612718e96"
 }

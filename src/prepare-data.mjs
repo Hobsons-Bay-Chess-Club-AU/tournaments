@@ -1041,6 +1041,38 @@ function determineTableType(table, fileName) {
     return 'other';
 }
 
+function extractTopPlayers(pageData) {
+    const standingsTable = pageData['standings.html']?.tables?.find((table) => {
+        const headers = table.headers?.map((header) =>
+            typeof header === 'string' ? header : header.name
+        ) || [];
+        return headers.includes('Player') && headers.includes('Pts');
+    });
+
+    if (!standingsTable?.rows) return [];
+
+    return standingsTable.rows
+        .map((row) => {
+            const player = row.Player;
+            const point = Number.parseFloat(String(row.Pts ?? ''));
+            const position = Number.parseInt(String(row.Pos ?? ''), 10);
+
+            if (!player?.playerName || !Number.isFinite(point)) return null;
+
+            return {
+                name: player.playerName.trim(),
+                point,
+                elo: String(player.rating || ''),
+                title: String(player.title || ''),
+                position: Number.isFinite(position) ? position : Number.MAX_SAFE_INTEGER,
+            };
+        })
+        .filter(Boolean)
+        .sort((a, b) => a.position - b.position || b.point - a.point || a.name.localeCompare(b.name))
+        .slice(0, 3)
+        .map(({ position, ...player }) => player);
+}
+
 async function processFolder(folderName) {
     const TARGET_PATH = path.join(WWW_FOLDER, folderName);
     const OUTPUT_FILE = path.join(TARGET_PATH, 'data.json');
@@ -1065,6 +1097,7 @@ async function processFolder(folderName) {
     // Second pass: build comprehensive player lookup and enrich all data
     const playerLookup = buildPlayerLookup(result.page, folderName);
     result.page = enrichTablesWithPlayerData(result.page, playerLookup);
+    result.top_players = extractTopPlayers(result.page);
 
     // Store the player lookup for reference
     result.playerLookup = Object.fromEntries(playerLookup);
@@ -1567,10 +1600,12 @@ async function main() {
             // Read data.json just written
             try {
                 if (result.metadata) {
+                    const topPlayers = result.top_players || [];
                     tournaments.push({
                         data: result.metadata,
                         path: `${folderName}/data.json`,
-                        category: result.category || result.metadata.category || 'Junior'
+                        category: result.category || result.metadata.category || 'Junior',
+                        ...(topPlayers.length > 0 ? { top_players: topPlayers } : {})
                     });
                 }
             } catch (err) {

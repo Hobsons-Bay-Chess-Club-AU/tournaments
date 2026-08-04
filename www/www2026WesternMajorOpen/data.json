@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T08:38:19.571Z",
+  "generatedAt": "2026-08-04T01:41:44.011Z",
   "page": {
     "calendarroundrobin.html": {
       "pageHeading": "Schedule",
@@ -2847,6 +2847,26 @@
       "tournamentType": "unknown"
     }
   },
+  "top_players": [
+    {
+      "name": "Hill,James",
+      "point": 4.5,
+      "elo": "1591",
+      "title": ""
+    },
+    {
+      "name": "Bodke,Krishna Manthan",
+      "point": 4,
+      "elo": "1505",
+      "title": ""
+    },
+    {
+      "name": "Whitford,Matthew",
+      "point": 2.5,
+      "elo": "1524",
+      "title": ""
+    }
+  ],
   "playerLookup": {
     "1": {
       "id": "1",
@@ -3059,5 +3079,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Senior"
   },
-  "md5Hash": "0377cdb28c354f7960620ccecd3cf366"
+  "md5Hash": "19ab4da56253ee1b9aa54bc6dd30a123"
 }

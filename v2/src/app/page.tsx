@@ -1,8 +1,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Link from "next/link";
 import HomeHero from "@/components/HomeHero";
 import FilterTabs from "@/components/FilterTabs";
+import TournamentCard, { type TopPlayer, type TournamentStatus } from "@/components/TournamentCard";
 
 type TournamentMeta = {
   [key: string]: string;
@@ -11,7 +11,8 @@ type Tournament = {
   data: TournamentMeta;
   path: string;
   category: string;
-  status?: string;
+  top_players?: TopPlayer[];
+  status?: TournamentStatus;
 };
 function getYear(dateStr: string): string {
   if (!dateStr) return new Date().getFullYear().toString(); // Default to current year
@@ -39,7 +40,7 @@ export default function Home() {
           const endDate = t.data["Date End"] || t.data["End Date"] || "";
           const beginDateObj = parseAusDate(date);
           const endDateObj = parseAusDate(endDate);
-          let status = "Completed";
+          let status: TournamentStatus = "Completed";
           if (beginDateObj.getTime() > now.getTime()) {
             status = "Planned";
           } else if (beginDateObj.getTime() <= now.getTime() && endDateObj.getTime() >= now.getTime()) {
@@ -121,11 +122,11 @@ export default function Home() {
 
         {/* Tournament Cards */}
         <div className="px-2 py-8 md:px-4">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 xl:grid-cols-3">
             {filtered.length === 0 && (
               <div className="col-span-full text-center text-gray-500">No tournaments found for selected filters.</div>
             )}
-            {filtered.map((t, idx) => {
+            {filtered.map((t) => {
               const title = t.data["Tournament Name"] || t.data["Place"] || "Untitled";
               const date = t.data["Date Begin"] || t.data["Date"] || "";
               const endDate = t.data["Date End"] || t.data["End Date"] || "";
@@ -135,35 +136,29 @@ export default function Home() {
               const beginDateObj = parseAusDate(date);
               const endDateObj = parseAusDate(endDate);
               const now = new Date();
-              let cardClass = "block bg-white rounded-xl shadow-lg hover:shadow-2xl transition border border-primary-100 p-6 text-center group";
-              let status = "Completed";
-              let statusClass = "bg-gray-300 text-gray-800";
+              let status: TournamentStatus = "Completed";
               // Future tournament: begin date > now
               if (beginDateObj.getTime() > now.getTime()) {
-                cardClass += " bg-gray-100";
                 status = "Planned";
-                statusClass = "bg-gray-200 text-gray-700";
               }
               // In-progress: now between begin and end
               else if (beginDateObj.getTime() <= now.getTime() && endDateObj.getTime() >= now.getTime()) {
-                cardClass += " border-green-500";
                 status = "In Progress";
-                statusClass = "bg-green-200 text-green-800";
               }
               // If completed, go to standings page
               const linkUrl = status === "Completed" ? `/${slug}?page=standings.html` : `/${slug}`;
               return (
-                <Link
-                  key={idx}
+                <TournamentCard
+                  key={t.path}
+                  title={title}
+                  date={date}
+                  endDate={endDate}
+                  site={site}
+                  category={t.category}
+                  status={status}
                   href={linkUrl}
-                  className={cardClass}
-                >
-                  <div className="mb-2 text-lg font-bold text-primary-800 group-hover:text-primary-600">{title}</div>
-                  <div className="mb-1 text-sm text-gray-500">{date}</div>
-                  {site && <div className="mb-1 text-xs text-gray-400 italic">Site: {site}</div>}
-                  <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold mr-2 ${statusClass}`}>{status}</span>
-                  <span className={`inline-block px-3 py-1 rounded-full text-xs font-semibold ${t.category === "Senior" ? "bg-yellow-100 text-yellow-800" : "bg-green-100 text-green-800"}`}>{t.category}</span>
-                </Link>
+                  topPlayers={t.top_players}
+                />
               );
             })}
           </div>

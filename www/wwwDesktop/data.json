@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T21:38:52.668Z",
+  "generatedAt": "2026-08-04T01:41:51.571Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 1",
@@ -8839,6 +8839,26 @@
       "tournamentType": "unknown"
     }
   },
+  "top_players": [
+    {
+      "name": "Martin,Dion",
+      "point": 0,
+      "elo": "1783",
+      "title": ""
+    },
+    {
+      "name": "Djatschenko,Addison",
+      "point": 0,
+      "elo": "1501",
+      "title": ""
+    },
+    {
+      "name": "Wang,Evan",
+      "point": 0,
+      "elo": "1476",
+      "title": ""
+    }
+  ],
   "playerLookup": {
     "1": {
       "id": "1",
@@ -10381,5 +10401,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "32faa51e8a4d686ab069a04ee48b4649"
+  "md5Hash": "fed3b375769d889ae88fc6c5baa0c19d"
 }

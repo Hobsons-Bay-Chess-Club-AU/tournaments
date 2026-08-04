@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-01T09:29:44.338Z",
+  "generatedAt": "2026-08-04T01:41:39.605Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 5",
@@ -44195,6 +44195,26 @@
       "tournamentType": "unknown"
     }
   },
+  "top_players": [
+    {
+      "name": "Ramanathan,Ashwin",
+      "point": 5,
+      "elo": "1579",
+      "title": ""
+    },
+    {
+      "name": "Djatschenko,Addison",
+      "point": 4.5,
+      "elo": "1705",
+      "title": ""
+    },
+    {
+      "name": "Batyrbekov,Kaisar",
+      "point": 4.5,
+      "elo": "1591",
+      "title": ""
+    }
+  ],
   "playerLookup": {
     "1": {
       "id": "1",
@@ -46372,5 +46392,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "116b2872b44ba92c955332c79601285c"
+  "md5Hash": "f72e10b257990bf4c22338b558eea89d"
 }

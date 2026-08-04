@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T08:38:19.644Z",
+  "generatedAt": "2026-08-04T01:41:44.059Z",
   "page": {
     "calendarroundrobin.html": {
       "pageHeading": "Schedule",
@@ -2890,6 +2890,26 @@
       "tournamentType": "unknown"
     }
   },
+  "top_players": [
+    {
+      "name": "Krishnan,Anirudh",
+      "point": 5,
+      "elo": "1694",
+      "title": ""
+    },
+    {
+      "name": "Lacson,Joemar",
+      "point": 3,
+      "elo": "1768",
+      "title": ""
+    },
+    {
+      "name": "Nguyen,Anh Kiet",
+      "point": 3,
+      "elo": "1774",
+      "title": "CM"
+    }
+  ],
   "playerLookup": {
     "1": {
       "id": "1",
@@ -3102,5 +3122,5 @@
     "FIDE titled player NOT from AUS Federation": "2",
     "category": "Junior"
   },
-  "md5Hash": "67e6dd8bfd0dbe982be2cd8b91e736dc"
+  "md5Hash": "a91ca935d1e039f0a7dc1d51c8f878b3"
 }
