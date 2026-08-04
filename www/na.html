@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <meta http-equiv="refresh" content="0; url=/v2" />
+  <meta http-equiv="refresh" content="1.5; url=/v2" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hobsons Bay Chess Club - Tournaments</title>
@@ -11,32 +11,253 @@
   <link rel="shortcut icon" type="image/x-icon" href="//favicon.ico?">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
   <style>
+    :root {
+      color-scheme: dark;
+    }
+
+    html,
     body {
-      background-color: #f8f9fa;
+      min-height: 100%;
+      margin: 0;
     }
 
-    a:hover {
-      text-decoration: underline;
-      color: #0056b3;
+    body > :not(.redirect-landing) {
+      display: none;
     }
 
-    .section-toggle {
-      font-size: 1.25rem;
-      font-weight: bold;
+    .redirect-landing {
+      --blue: #0768d7;
+      --sky: #44b8ff;
+      --mint: #76e5c2;
+      position: fixed;
+      inset: 0;
+      isolation: isolate;
+      overflow: hidden;
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
+      padding: 24px;
+      box-sizing: border-box;
+      background:
+        radial-gradient(circle at 14% 12%, rgba(68, 184, 255, 0.55), transparent 25%),
+        radial-gradient(circle at 88% 82%, rgba(118, 229, 194, 0.32), transparent 26%),
+        linear-gradient(135deg, #042a61 0%, var(--blue) 53%, #034d9f 100%);
+      color: #fff;
+      font-family: "Trebuchet MS", "Avenir Next", Avenir, Arial, sans-serif;
+    }
+
+    .redirect-landing::before,
+    .redirect-landing::after {
+      position: absolute;
+      z-index: 0;
+      width: 42vmax;
+      height: 42vmax;
+      border-radius: 50%;
+      content: "";
+      filter: blur(2px);
+      opacity: 0.5;
+      animation: redirect-orbit 4s ease-in-out infinite alternate;
+    }
+
+    .redirect-landing::before {
+      top: -22vmax;
+      right: -14vmax;
+      background: #75d8ff;
+    }
+
+    .redirect-landing::after {
+      bottom: -26vmax;
+      left: -14vmax;
+      background: #0560be;
+      animation-delay: -2s;
+    }
+
+    .redirect-grid {
+      position: absolute;
+      z-index: 0;
+      inset: -18%;
+      opacity: 0.19;
+      background-image:
+        linear-gradient(45deg, rgba(255, 255, 255, 0.95) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(255, 255, 255, 0.95) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, rgba(255, 255, 255, 0.95) 75%),
+        linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, 0.95) 75%);
+      background-position: 0 0, 0 20px, 20px -20px, -20px 0;
+      background-size: 40px 40px;
+      transform: rotate(-9deg) scale(1.15);
+      animation: redirect-drift 7s linear infinite;
+    }
+
+    .redirect-content {
+      position: relative;
+      z-index: 2;
+      width: min(100%, 590px);
+      padding: clamp(28px, 7vw, 54px);
+      border: 1px solid rgba(255, 255, 255, 0.37);
+      border-radius: 32px;
+      background: rgba(3, 27, 61, 0.28);
+      box-shadow: 0 28px 70px rgba(1, 25, 65, 0.34), inset 0 1px 0 rgba(255, 255, 255, 0.24);
+      text-align: center;
+      backdrop-filter: blur(14px);
+      animation: redirect-arrive 550ms cubic-bezier(.18, .88, .28, 1.15) both;
+    }
+
+    .redirect-eyebrow {
+      margin: 0 0 12px;
+      color: var(--mint);
+      font-size: 0.74rem;
+      font-weight: 800;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+
+    .redirect-content h1 {
+      max-width: 11ch;
+      margin: 0 auto;
+      font-size: clamp(2.2rem, 7vw, 4.6rem);
+      font-weight: 900;
+      line-height: 0.94;
+      letter-spacing: -0.07em;
+      text-wrap: balance;
+      text-shadow: 0 5px 20px rgba(0, 28, 71, 0.26);
+    }
+
+    .redirect-message {
+      margin: 20px 0 17px;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: clamp(0.9rem, 2vw, 1.05rem);
+    }
+
+    .redirect-progress {
+      height: 7px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.24);
+      box-shadow: inset 0 1px 3px rgba(0, 20, 58, 0.24);
+    }
+
+    .redirect-progress span {
+      display: block;
       width: 100%;
-      padding: 0.75rem 1rem;
-      background-color: #e9ecef;
-      border-radius: 0.25rem;
-      cursor: pointer;
-      margin-bottom: 1rem;
+      height: 100%;
+      transform: translateX(-100%);
+      border-radius: inherit;
+      background: linear-gradient(90deg, #fff, var(--mint));
+      box-shadow: 0 0 16px rgba(118, 229, 194, 0.9);
+      animation: redirect-load 1.5s linear forwards;
+    }
+
+    .redirect-link {
+      display: inline-block;
+      margin-top: 18px;
+      color: #fff;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-decoration-color: rgba(255, 255, 255, 0.58);
+      text-underline-offset: 4px;
+    }
+
+    .redirect-link:hover {
+      color: var(--mint);
+    }
+
+    .redirect-piece {
+      position: absolute;
+      z-index: 1;
+      color: rgba(255, 255, 255, 0.78);
+      font-family: Georgia, serif;
+      font-size: clamp(5rem, 15vw, 12rem);
+      line-height: 1;
+      text-shadow: 0 15px 24px rgba(0, 28, 71, 0.2);
+      animation: redirect-float 3.2s ease-in-out infinite alternate;
+    }
+
+    .redirect-piece--knight {
+      top: 8%;
+      left: 5%;
+      transform: rotate(-17deg);
+    }
+
+    .redirect-piece--bishop {
+      right: 6%;
+      bottom: 2%;
+      transform: rotate(16deg);
+      animation-delay: -1.3s;
+    }
+
+    .redirect-piece--pawn {
+      top: 18%;
+      right: 14%;
+      color: var(--mint);
+      font-size: clamp(3.5rem, 10vw, 8rem);
+      transform: rotate(13deg);
+      animation-delay: -2.2s;
+    }
+
+    @keyframes redirect-arrive {
+      from { opacity: 0; transform: translateY(18px) scale(0.95); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    @keyframes redirect-load {
+      to { transform: translateX(0); }
+    }
+
+    @keyframes redirect-drift {
+      to { background-position: 80px 0, 80px 20px, 100px -20px, 60px 0; }
+    }
+
+    @keyframes redirect-float {
+      to { translate: 0 -16px; rotate: 4deg; }
+    }
+
+    @keyframes redirect-orbit {
+      to { transform: translate3d(4vmax, 3vmax, 0) scale(1.14); }
+    }
+
+    @media (max-width: 520px) {
+      .redirect-content {
+        border-radius: 24px;
+      }
+
+      .redirect-piece--knight {
+        top: 3%;
+        left: -5%;
+      }
+
+      .redirect-piece--bishop {
+        right: -8%;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .redirect-landing *,
+      .redirect-landing::before,
+      .redirect-landing::after {
+        animation: none !important;
+      }
+
+      .redirect-progress span {
+        transform: translateX(0);
+      }
     }
   </style>
 </head>
 
 <body class="hidden">
+  <section class="redirect-landing" aria-labelledby="redirect-title">
+    <div class="redirect-grid" aria-hidden="true"></div>
+    <span class="redirect-piece redirect-piece--knight" aria-hidden="true">♞</span>
+    <span class="redirect-piece redirect-piece--bishop" aria-hidden="true">♝</span>
+    <span class="redirect-piece redirect-piece--pawn" aria-hidden="true">♟</span>
+    <div class="redirect-content">
+      <p class="redirect-eyebrow">Hobsons Bay Chess Club</p>
+      <h1 id="redirect-title">Your next move starts here.</h1>
+      <p class="redirect-message">Setting up the new tournament experience…</p>
+      <div class="redirect-progress" aria-hidden="true"><span></span></div>
+      <a class="redirect-link" href="/v2">Continue to tournaments</a>
+    </div>
+  </section>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     <a class="navbar-brand d-flex align-items-center" href="#">
       <img src="/images/Logo.png" alt="Club Logo" width="50" class="mr-3">
@@ -66,7 +287,7 @@
         <div class="col-md-6">
           <div class="card mb-3">
             <div class="card-body">
-              <h5 class="card-title">Hobsons Bay Chess Club – Tournament Directory</h5>
+              <h5 class="card-title">Hobsons Bay Chess Club - Tournaments</h5>
               <p class="card-text">
                 <strong>Date:</strong> <br>
                 <strong>Site:</strong> <br>
