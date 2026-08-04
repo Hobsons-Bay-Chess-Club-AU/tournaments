@@ -6,13 +6,12 @@ Improve date-range readability inside the home-page tournament card without chan
 
 ## Experience
 
-One-day events keep the existing compact date chip. Multi-day events replace that chip with a narrow vertical rail on the left of the card content:
+The title and location remain beneath the status/category row. The card content then responds to standings availability:
 
-- A `From` label above a compact start-date chip.
-- A subtle vertical connector.
-- A `To` label above a compact end-date chip.
+- When top-three standings exist, the content area becomes two columns: a narrow vertical start-to-end date rail on the left and the player list on the right. The rail uses date chips joined by a downward connector/arrow; `From` and `To` labels are intentionally omitted because the direction communicates the range.
+- When standings are unavailable, the date content uses the full width as a horizontal treatment. One-day events retain their compact date chip; multi-day events show start and end date chips joined by a rightward arrow.
 
-The title, location, status/category row, action label, and optional top-three standings remain unchanged and sit to the right of the rail. The rail uses existing Tailwind `primary-*` utilities and collapses safely within the card's existing mobile layout.
+The destination action remains at the bottom. The design uses existing Tailwind `primary-*` utilities and collapses safely within the card's existing mobile layout.
 
 ## Scope
 
