@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-04T10:09:44.225Z",
+  "generatedAt": "2026-08-05T00:18:47.044Z",
   "year": "2026",
-  "count": 95,
-  "totalTournaments": 20,
+  "count": 99,
+  "totalTournaments": 21,
   "players": [
     {
       "name": "Annadasu,Shreyansh",
@@ -10,13 +10,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#24",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 1,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -39,13 +46,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#23",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2.5,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -111,13 +125,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#26",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -172,12 +193,19 @@
     },
     {
       "name": "Balogun,Olalekan",
-      "id": "22",
+      "id": "21",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#22",
-      "tournamentCount": 2,
+      "href": "playercard.html#21",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwHobsonsBayCupOpen/data.json",
           "score": 3.5,
@@ -252,12 +280,19 @@
     },
     {
       "name": "Biju,Alberto",
-      "id": "26",
+      "id": "27",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#26",
-      "tournamentCount": 1,
+      "href": "playercard.html#27",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwHobsonsBayCupOpen/data.json",
           "score": 2.5,
@@ -267,7 +302,7 @@
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -278,13 +313,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#13",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 3,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -324,7 +366,7 @@
         }
       ],
       "points": {
-        "standard": 15.5,
+        "standard": 16.5,
         "rapid": 0.5,
         "blitz": 6
       }
@@ -341,6 +383,50 @@
           "tournament": "wwwHobsonsBayCupOpen/data.json",
           "score": 1,
           "name": "Hobsons Bay Cup Open 20226",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Chalamcharla,Shrevin",
+      "id": "26",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#26",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Chatha,Harmandeep",
+      "id": "16",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#16",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
           "totalRounds": "7",
           "ratingType": "standard"
         }
@@ -415,13 +501,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#28",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 1,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -434,6 +527,28 @@
       ],
       "points": {
         "standard": 3,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Dakic,Dusan",
+      "id": "10",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#10",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
         "rapid": 0,
         "blitz": 0
       }
@@ -473,13 +588,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#3",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 4,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -498,7 +620,7 @@
         }
       ],
       "points": {
-        "standard": 10.5,
+        "standard": 11.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -640,13 +762,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#1",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 4.5,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -683,7 +812,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#10",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -691,10 +820,17 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 5,
         "rapid": 0,
         "blitz": 0
       }
@@ -737,12 +873,19 @@
     },
     {
       "name": "Hill,James",
-      "id": "11",
+      "id": "12",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#11",
-      "tournamentCount": 3,
+      "href": "playercard.html#12",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026PurdyCupOpen/data.json",
           "score": 2.5,
@@ -777,13 +920,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#20",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 3.5,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -823,7 +973,7 @@
         }
       ],
       "points": {
-        "standard": 14,
+        "standard": 15,
         "rapid": 3,
         "blitz": 5
       }
@@ -834,13 +984,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#2",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -873,7 +1030,7 @@
         }
       ],
       "points": {
-        "standard": 8.5,
+        "standard": 9.5,
         "rapid": 4,
         "blitz": 6
       }
@@ -1119,18 +1276,47 @@
       }
     },
     {
+      "name": "Koppuravuri,Haneesh",
+      "id": "30",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#30",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Kostakakis,Angelo",
       "id": "27",
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#27",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -1226,13 +1412,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#6",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 3,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -1327,13 +1520,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#5",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 3.5,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -1366,7 +1566,7 @@
         }
       ],
       "points": {
-        "standard": 12,
+        "standard": 12.5,
         "rapid": 4,
         "blitz": 5
       }
@@ -1525,12 +1725,19 @@
     },
     {
       "name": "Menezes,Eric",
-      "id": "6",
+      "id": "15",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#6",
-      "tournamentCount": 4,
+      "href": "playercard.html#15",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026WesternMajorOpen/data.json",
           "score": 2,
@@ -1561,7 +1768,7 @@
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 7.5,
         "rapid": 4,
         "blitz": 7
       }
@@ -1612,12 +1819,19 @@
     },
     {
       "name": "Moreta,Simon",
-      "id": "32",
+      "id": "17",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#32",
-      "tournamentCount": 1,
+      "href": "playercard.html#17",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwHobsonsBayCupOpen/data.json",
           "score": 1.5,
@@ -1689,13 +1903,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#4",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 3.5,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -1728,7 +1949,7 @@
         }
       ],
       "points": {
-        "standard": 13,
+        "standard": 14,
         "rapid": 5,
         "blitz": 9
       }
@@ -1761,13 +1982,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#18",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -1807,7 +2035,7 @@
         }
       ],
       "points": {
-        "standard": 8,
+        "standard": 8.5,
         "rapid": 0.5,
         "blitz": 6
       }
@@ -1928,13 +2156,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#8",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 4,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -1967,7 +2202,7 @@
         }
       ],
       "points": {
-        "standard": 11,
+        "standard": 12,
         "rapid": 3,
         "blitz": 6
       }
@@ -1978,13 +2213,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#19",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2.5,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -2010,7 +2252,7 @@
         }
       ],
       "points": {
-        "standard": 9.5,
+        "standard": 10,
         "rapid": 0,
         "blitz": 0
       }
@@ -2319,13 +2561,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#34",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 0,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -2358,7 +2607,7 @@
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3.5,
         "rapid": 0.5,
         "blitz": 2.5
       }
@@ -2474,12 +2723,19 @@
     },
     {
       "name": "Tran,An Huynh Phu Thai",
-      "id": "34",
+      "id": "13",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#34",
-      "tournamentCount": 1,
+      "href": "playercard.html#13",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwHobsonsBayCupOpen/data.json",
           "score": 4,
@@ -2489,7 +2745,7 @@
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 5,
         "rapid": 0,
         "blitz": 0
       }
@@ -2656,12 +2912,19 @@
     },
     {
       "name": "Wang,Tim",
-      "id": "41",
+      "id": "4",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#41",
-      "tournamentCount": 3,
+      "href": "playercard.html#4",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwBlitz12026/data.json",
           "score": 5,
@@ -2685,7 +2948,7 @@
         }
       ],
       "points": {
-        "standard": 4.5,
+        "standard": 5,
         "rapid": 3.5,
         "blitz": 5
       }
@@ -2696,13 +2959,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#15",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 3,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -2728,7 +2998,7 @@
         }
       ],
       "points": {
-        "standard": 12.5,
+        "standard": 13.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -2739,13 +3009,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#25",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {

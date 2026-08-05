@@ -1,0 +1,1 @@
+ <h4>Download PGN:</h4> <div class="btn-toolbar"> <div class="btn-group"><a class="btn btn-default btn-sm" href="/2026 Koshnitsky Cup Open1.pgn" > 1 </a> <a class="btn btn-default btn-sm" href="/2026 Koshnitsky Cup Open2.pgn" > 2 </a> </div> </div>

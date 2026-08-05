@@ -2184,6 +2184,65 @@
   },
   {
     "data": {
+      "Tournament Name": "2026 Hobsons Bay Koshnitsky Cup Open",
+      "Place": "Hobsons Bay",
+      "Federation": "AUS",
+      "Date Begin": "04/08/2026",
+      "Date End": "15/09/2026",
+      "Arbiter(s)": "Myiesha Maunders",
+      "Play System": "swiss FIDE Dutch 2026 (Gacrux)",
+      "Rounds": "7",
+      "Score game": "0-0.5-1",
+      "Tie break": "SB",
+      "Registered Players": "31",
+      "Number of Federations": "4",
+      "Average Rating (all)": "1574",
+      "Average Rating (only FIDE rated)": "1683",
+      "Players from AUS Federation": "2",
+      "Players NOT from AUS Federation": "29",
+      "FIDE rated players": "29",
+      "unrated players": "2",
+      "unrated players from AUS Federation": "0",
+      "unrated players NOT from AUS Federation": "2",
+      "unrated Federations": "1",
+      "FIDE titled players": "2",
+      "GM players": "0",
+      "WGM players": "0",
+      "IM players": "0",
+      "WIM players": "0",
+      "FM players": "0",
+      "WFM players": "0",
+      "CM players": "2",
+      "WCM players": "0",
+      "FIDE titled player from AUS Federation": "0",
+      "FIDE titled player NOT from AUS Federation": "2",
+      "category": "Senior"
+    },
+    "path": "www2026KoshnitskyCupOpen/data.json",
+    "category": "Senior",
+    "top_players": [
+      {
+        "name": "Sheikh,Tahmid",
+        "point": 1,
+        "elo": "0",
+        "title": ""
+      },
+      {
+        "name": "Nguyen,Anh Kiet",
+        "point": 1,
+        "elo": "1934",
+        "title": "CM"
+      },
+      {
+        "name": "Hogg,Dean",
+        "point": 1,
+        "elo": "1900",
+        "title": ""
+      }
+    ]
+  },
+  {
+    "data": {
       "Tournament Name": "2026 Koshnitsky Cup - Rookies and Juniors",
       "Place": "Hobsons Bay Chess Club",
       "Federation": "AUS",
