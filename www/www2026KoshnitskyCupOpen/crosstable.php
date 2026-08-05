@@ -60,7 +60,7 @@
 <tr> 
 <td> <span class="idn"> 7 </span><span class="title male"> CM</span> <a href="playercard.php#7">Davis,Tony J        </a> </td><td>1673</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cw">22  </div></td><td> </td></tr>
 <tr> 
-<td> <span class="idn"> 8 </span><span class="notitle male"> </span> <a href="playercard.php#8">Hari,Dhruv          </a> </td><td>1634</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">23  </div></td><td> </td></tr>
+<td> <span class="idn"> 8 </span><span class="notitle male"> </span> <a href="playercard.php#8">Hari,Dhruv          </a> </td><td>1634</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">23  </div></td><td><div class="res"> ½ </div><div class="cf">BYE</div></tr>
 <tr> 
 <td> <span class="idn"> 9 </span><span class="notitle male"> </span> <a href="playercard.php#9">Paul,Cijo           </a> </td><td>1612</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cw">24  </div></td><td> </td></tr>
 <tr> 
@@ -104,7 +104,7 @@
 <tr> 
 <td> <span class="idn"> 29 </span><span class="notitle male"> </span> <a href="playercard.php#29">Kostakakis,Angelo   </a> </td><td>980</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">14  </div></td><td> </td></tr>
 <tr> 
-<td> <span class="idn"> 30 </span><span class="notitle male"> </span> <a href="playercard.php#30">Koppuravuri,Haneesh </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">16  </div></td><td> </td></tr>
+<td> <span class="idn"> 30 </span><span class="notitle male"> </span> <a href="playercard.php#30">Koppuravuri,Haneesh </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">16  </div></td><td><div class="res"> 1</div><div class="cf">BYE</div></tr>
 <tr> 
 <td> <span class="idn"> 31 </span><span class="notitle male"> </span> <a href="playercard.php#31">Sheikh,Tahmid       </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res"> 1</div><div class="cf">BYE</div><td> </td></tr>
 </tbody>

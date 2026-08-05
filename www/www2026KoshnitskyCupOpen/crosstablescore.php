@@ -55,7 +55,7 @@
 <tr> 
 <td>4</td><td><span class="title male"> CM</span> <a href="playercard.php#7">Davis,Tony J                  </a> </td><td>1673</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cw">24  </div></td><td> </td><td>  0.00</td></tr>
 <tr> 
-<td>5</td><td><span class="notitle male"> </span> <a href="playercard.php#8">Hari,Dhruv                    </a> </td><td>1634</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">25  </div></td><td> </td><td>  0.00</td></tr>
+<td>5</td><td><span class="notitle male"> </span> <a href="playercard.php#8">Hari,Dhruv                    </a> </td><td>1634</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">25  </div></td><td><div class="res"> ½ </div><div class="cf">BYE</div><td>  0.00</td></tr>
 <tr> 
 <td>6</td><td><span class="notitle male"> </span> <a href="playercard.php#9">Paul,Cijo                     </a> </td><td>1612</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cw">26  </div></td><td> </td><td>  0.00</td></tr>
 <tr> 
@@ -107,7 +107,7 @@
 <tr> 
 <td>30</td><td><span class="notitle male"> </span> <a href="playercard.php#29">Kostakakis,Angelo             </a> </td><td>980</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">10  </div></td><td> </td><td>  0.00</td></tr>
 <tr> 
-<td>31</td><td><span class="notitle male"> </span> <a href="playercard.php#30">Koppuravuri,Haneesh           </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">11  </div></td><td> </td><td>  0.00</td></tr>
+<td>31</td><td><span class="notitle male"> </span> <a href="playercard.php#30">Koppuravuri,Haneesh           </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">11  </div></td><td><div class="res"> 1 </div><div class="cf">BYE</div><td>  0.00</td></tr>
 </tbody>
 </table>
 </DIV>

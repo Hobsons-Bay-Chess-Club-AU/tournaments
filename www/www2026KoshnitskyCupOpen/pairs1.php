@@ -43,7 +43,7 @@
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
   <div class="d-flex flex-column"> <div class="btn-toolbar mb-4 mt-4 d-flex align-items-center"> 
-<h5>Pairing of round 1</h5>
+<h5>Pairing of round 1, at 19:30 of 04/08/2026</h5>
    	<div class="btn-group mx-5"> 
 <?php include("pairing.php"); ?>
    	</div>

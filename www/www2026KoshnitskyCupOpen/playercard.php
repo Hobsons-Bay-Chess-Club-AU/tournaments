@@ -142,7 +142,7 @@
 <tr> <td>1</td> <td> B</td> <td>23</td> <td></td> <td> <a href="playercard.php#23"> Wilkinson,Greg       </a>  <td>1163</td>
 <td> 1.0</td> <td> 0.0</td>
 </tr> 
-<tr> <td>2</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+<tr> <td>2</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -427,7 +427,7 @@
 <tr> <td>1</td> <td> B</td> <td>16</td> <td></td> <td> <a href="playercard.php#16"> Chatha,Harmandeep    </a>  <td>1440</td>
 <td> 0.0</td> <td> 1.0</td>
 </tr> 
-<tr> <td>2</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+<tr> <td>2</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
