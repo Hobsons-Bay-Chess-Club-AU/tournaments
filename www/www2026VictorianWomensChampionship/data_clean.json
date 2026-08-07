@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T11:08:38.122Z",
+  "generatedAt": "2026-08-07T01:24:52.411Z",
   "tournament": {
     "id": "2026-victorian-women's-championship",
     "name": "2026 Victorian Women's Championship",
@@ -15,13 +15,13 @@
       "Rounds": "5",
       "Score game": "0-0.5-1",
       "Tie break": "BH/C1 BH SB DE",
-      "Registered Players": "17",
+      "Registered Players": "18",
       "Number of Federations": "3",
-      "Average Rating (all)": "1112",
-      "Average Rating (only FIDE rated)": "1570",
-      "Players from AUS Federation": "2",
+      "Average Rating (all)": "1144",
+      "Average Rating (only FIDE rated)": "1580",
+      "Players from AUS Federation": "3",
       "Players NOT from AUS Federation": "15",
-      "FIDE rated players": "11",
+      "FIDE rated players": "12",
       "unrated players": "6",
       "unrated players from AUS Federation": "0",
       "unrated players NOT from AUS Federation": "6",
@@ -47,10 +47,10 @@
       "rounds": 5,
       "scoreGame": "0-0.5-1",
       "tieBreak": "BH/C1 BH SB DE",
-      "registeredPlayers": 17,
-      "averageRating": 1112,
-      "averageRatingFide": 1570,
-      "fideRatedPlayers": 11,
+      "registeredPlayers": 18,
+      "averageRating": 1144,
+      "averageRatingFide": 1580,
+      "fideRatedPlayers": 12,
       "unratedPlayers": 6,
       "fideTitledPlayers": 1
     }
@@ -82,9 +82,9 @@
     },
     {
       "id": "3",
-      "name": "Scenna,Luna",
+      "name": "Francis, Indily",
       "title": "",
-      "federation": "VIC",
+      "federation": "AUS",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -94,9 +94,9 @@
     },
     {
       "id": "4",
-      "name": "Siva,Mrinalini",
+      "name": "Scenna,Luna",
       "title": "",
-      "federation": "OS",
+      "federation": "VIC",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -106,9 +106,9 @@
     },
     {
       "id": "5",
-      "name": "Fais,Ariana",
+      "name": "Siva,Mrinalini",
       "title": "",
-      "federation": "VIC",
+      "federation": "OS",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -118,7 +118,7 @@
     },
     {
       "id": "6",
-      "name": "Mondal,Jahnavi",
+      "name": "Fais,Ariana",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -130,7 +130,7 @@
     },
     {
       "id": "7",
-      "name": "Bo,Jamie",
+      "name": "Mondal,Jahnavi",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -142,7 +142,7 @@
     },
     {
       "id": "8",
-      "name": "Beri,Dhhvani",
+      "name": "Bo,Jamie",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -154,7 +154,7 @@
     },
     {
       "id": "9",
-      "name": "Gajula,Nishitha",
+      "name": "Beri,Dhhvani",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -166,7 +166,7 @@
     },
     {
       "id": "10",
-      "name": "Kaur,Mishleen",
+      "name": "Gajula,Nishitha",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -178,9 +178,9 @@
     },
     {
       "id": "11",
-      "name": "Husain, Lamiah",
+      "name": "Kaur,Mishleen",
       "title": "",
-      "federation": "AUS",
+      "federation": "VIC",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -190,9 +190,9 @@
     },
     {
       "id": "12",
-      "name": "Kommina,Bhavishya",
+      "name": "Husain, Lamiah",
       "title": "",
-      "federation": "VIC",
+      "federation": "AUS",
       "fideId": "",
       "fideRating": null,
       "fideFederation": "",
@@ -202,7 +202,7 @@
     },
     {
       "id": "13",
-      "name": "Fang,Candice",
+      "name": "Kommina,Bhavishya",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -214,7 +214,7 @@
     },
     {
       "id": "14",
-      "name": "Madduluri,Advaitha",
+      "name": "Fang,Candice",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -226,7 +226,7 @@
     },
     {
       "id": "15",
-      "name": "Goh,Daphne",
+      "name": "Madduluri,Advaitha",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -238,7 +238,7 @@
     },
     {
       "id": "16",
-      "name": "Haller,Annabelle",
+      "name": "Goh,Daphne",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -250,7 +250,7 @@
     },
     {
       "id": "17",
-      "name": "Jin,Audrey",
+      "name": "Haller,Annabelle",
       "title": "",
       "federation": "VIC",
       "fideId": "",
@@ -258,6 +258,18 @@
       "fideFederation": "",
       "gender": "notitle",
       "href": "playercard.html#17",
+      "origin": ""
+    },
+    {
+      "id": "18",
+      "name": "Jin,Audrey",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "notitle",
+      "href": "playercard.html#18",
       "origin": ""
     }
   ],
@@ -391,6 +403,16 @@
             {
               "#": "3",
               "Title": "",
+              "Player": "Francis, Indily",
+              "Fed": "AUS",
+              "Origin": "",
+              "Rtg": "1296",
+              "RtgF": "1687",
+              "RtgN": "1296"
+            },
+            {
+              "#": "4",
+              "Title": "",
               "Player": "Scenna,Luna",
               "Fed": "VIC",
               "Origin": "",
@@ -399,7 +421,7 @@
               "RtgN": "1237"
             },
             {
-              "#": "4",
+              "#": "5",
               "Title": "",
               "Player": "Siva,Mrinalini",
               "Fed": "OS",
@@ -409,7 +431,7 @@
               "RtgN": "1223"
             },
             {
-              "#": "5",
+              "#": "6",
               "Title": "",
               "Player": "Fais,Ariana",
               "Fed": "VIC",
@@ -419,7 +441,7 @@
               "RtgN": "1139"
             },
             {
-              "#": "6",
+              "#": "7",
               "Title": "",
               "Player": "Mondal,Jahnavi",
               "Fed": "VIC",
@@ -429,7 +451,7 @@
               "RtgN": "1026"
             },
             {
-              "#": "7",
+              "#": "8",
               "Title": "",
               "Player": "Bo,Jamie",
               "Fed": "VIC",
@@ -439,7 +461,7 @@
               "RtgN": "934"
             },
             {
-              "#": "8",
+              "#": "9",
               "Title": "",
               "Player": "Beri,Dhhvani",
               "Fed": "VIC",
@@ -449,7 +471,7 @@
               "RtgN": "760"
             },
             {
-              "#": "9",
+              "#": "10",
               "Title": "",
               "Player": "Gajula,Nishitha",
               "Fed": "VIC",
@@ -459,7 +481,7 @@
               "RtgN": "628"
             },
             {
-              "#": "10",
+              "#": "11",
               "Title": "",
               "Player": "Kaur,Mishleen",
               "Fed": "VIC",
@@ -469,7 +491,7 @@
               "RtgN": "553"
             },
             {
-              "#": "11",
+              "#": "12",
               "Title": "",
               "Player": "Husain, Lamiah",
               "Fed": "AUS",
@@ -479,7 +501,7 @@
               "RtgN": "508"
             },
             {
-              "#": "12",
+              "#": "13",
               "Title": "",
               "Player": "Kommina,Bhavishya",
               "Fed": "VIC",
@@ -489,7 +511,7 @@
               "RtgN": "469"
             },
             {
-              "#": "13",
+              "#": "14",
               "Title": "",
               "Player": "Fang,Candice",
               "Fed": "VIC",
@@ -499,7 +521,7 @@
               "RtgN": "361"
             },
             {
-              "#": "14",
+              "#": "15",
               "Title": "",
               "Player": "Madduluri,Advaitha",
               "Fed": "VIC",
@@ -509,7 +531,7 @@
               "RtgN": "279"
             },
             {
-              "#": "15",
+              "#": "16",
               "Title": "",
               "Player": "Goh,Daphne",
               "Fed": "VIC",
@@ -519,7 +541,7 @@
               "RtgN": "130"
             },
             {
-              "#": "16",
+              "#": "17",
               "Title": "",
               "Player": "Haller,Annabelle",
               "Fed": "VIC",
@@ -529,7 +551,7 @@
               "RtgN": "0"
             },
             {
-              "#": "17",
+              "#": "18",
               "Title": "",
               "Player": "Jin,Audrey",
               "Fed": "VIC",
@@ -1424,6 +1446,55 @@
             "rawHtml": "  17   <strong>Jin,Audrey          </strong>, K= 0, Elo=   0, ID=3226073\n<br>\n<a class=\"anchor\" name=\"17\"></a>"
           },
           "type": "other"
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [],
+          "caption": {
+            "playerName": "Francis, Indily",
+            "id": "0",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1296",
+              "anchor": "18"
+            },
+            "rawText": "18   Francis, Indily     , K= 0, Elo=1296, ID=0",
+            "rawHtml": "  18   <strong>Francis, Indily     </strong>, K= 0, Elo=1296, ID=0\n<br>\n<a class=\"anchor\" name=\"18\"></a>"
+          },
+          "type": "other"
         }
       ],
       "tournamentType": "unknown"
@@ -1526,7 +1597,7 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "17"
+              "col2": "18"
             },
             {
               "col1": "Number of Federations",
@@ -1534,15 +1605,15 @@
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "1112"
+              "col2": "1144"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
-              "col2": "1570"
+              "col2": "1580"
             },
             {
               "col1": "Players from AUS Federation",
-              "col2": "2"
+              "col2": "3"
             },
             {
               "col1": "Players NOT from AUS Federation",
@@ -1550,7 +1621,7 @@
             },
             {
               "col1": "FIDE rated players",
-              "col2": "11"
+              "col2": "12"
             },
             {
               "col1": "unrated players",
@@ -1642,5 +1713,5 @@
       "children": []
     }
   ],
-  "md5Hash": "34866e94feac16ab637c665960e307ef"
+  "md5Hash": "a97e4cb4f4101456925f8a05fed3029c"
 }
