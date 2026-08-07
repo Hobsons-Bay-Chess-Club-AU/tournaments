@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-08-07T06:08:19.318Z",
+  "generatedAt": "2026-08-07T07:26:28.374Z",
   "year": "2026",
-  "count": 231,
+  "count": 232,
   "totalTournaments": 21,
   "players": [
     {
       "name": "Ahmad, Ihtiram",
-      "id": "63",
+      "id": "7",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#63",
+      "href": "playercard.html#7",
       "tournamentCount": 1,
       "tournaments": [
         {
@@ -1184,10 +1184,10 @@
     },
     {
       "name": "Bodke,Sahasra",
-      "id": "49",
+      "id": "51",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#49",
+      "href": "playercard.html#51",
       "tournamentCount": 1,
       "tournaments": [
         {
@@ -1336,10 +1336,10 @@
     },
     {
       "name": "Chatha,Harmandeep",
-      "id": "13",
+      "id": "14",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#13",
+      "href": "playercard.html#14",
       "tournamentCount": 1,
       "tournaments": [
         {
@@ -2608,13 +2608,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#22",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 3,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 Koshnitsky Cup - Rookies and Juniors",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
@@ -2783,10 +2790,10 @@
     },
     {
       "name": "Kantharaju, Aryan",
-      "id": "66",
+      "id": "45",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#66",
+      "href": "playercard.html#45",
       "tournamentCount": 1,
       "tournaments": [
         {
@@ -3392,10 +3399,10 @@
     },
     {
       "name": "Lake,Logan",
-      "id": "53",
+      "id": "55",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#53",
+      "href": "playercard.html#55",
       "tournamentCount": 1,
       "tournaments": [
         {
@@ -3414,10 +3421,10 @@
     },
     {
       "name": "Lavars,Jesse",
-      "id": "8",
+      "id": "9",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#8",
+      "href": "playercard.html#9",
       "tournamentCount": 2,
       "tournaments": [
         {
@@ -3856,10 +3863,10 @@
     },
     {
       "name": "Manjunath,Charvi",
-      "id": "54",
+      "id": "56",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#54",
+      "href": "playercard.html#56",
       "tournamentCount": 2,
       "tournaments": [
         {
@@ -4148,10 +4155,10 @@
     },
     {
       "name": "Moola, Rushika Reddy",
-      "id": "55",
+      "id": "57",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#55",
+      "href": "playercard.html#57",
       "tournamentCount": 1,
       "tournaments": [
         {
@@ -4619,10 +4626,10 @@
     },
     {
       "name": "Panchaparvala, Rohan Aditya",
-      "id": "57",
+      "id": "59",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#57",
+      "href": "playercard.html#59",
       "tournamentCount": 1,
       "tournaments": [
         {
@@ -4973,10 +4980,10 @@
     },
     {
       "name": "Raghu, Vaibhav",
-      "id": "65",
+      "id": "61",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#65",
+      "href": "playercard.html#61",
       "tournamentCount": 1,
       "tournaments": [
         {
@@ -5038,10 +5045,10 @@
     },
     {
       "name": "Rajesh,Charvic",
-      "id": "47",
+      "id": "62",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#47",
+      "href": "playercard.html#62",
       "tournamentCount": 1,
       "tournaments": [
         {
@@ -5234,10 +5241,10 @@
     },
     {
       "name": "Rivero, Adam",
-      "id": "64",
+      "id": "63",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#64",
+      "href": "playercard.html#63",
       "tournamentCount": 1,
       "tournaments": [
         {
@@ -5607,6 +5614,28 @@
       }
     },
     {
+      "name": "Sculli,Domenic",
+      "id": "65",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#65",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
+          "score": 0,
+          "name": "2026 Koshnitsky Cup - Rookies and Juniors",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Senevirathne,Jeniru",
       "id": "83",
       "fideId": "",
@@ -5630,10 +5659,10 @@
     },
     {
       "name": "Sepusione,Sefa",
-      "id": "60",
+      "id": "66",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#60",
+      "href": "playercard.html#66",
       "tournamentCount": 1,
       "tournaments": [
         {
@@ -6462,10 +6491,10 @@
     },
     {
       "name": "Venkat, Nyra",
-      "id": "22",
+      "id": "24",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#22",
+      "href": "playercard.html#24",
       "tournamentCount": 1,
       "tournaments": [
         {
@@ -6541,10 +6570,10 @@
     },
     {
       "name": "Verma,Vivaan",
-      "id": "14",
+      "id": "15",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#14",
+      "href": "playercard.html#15",
       "tournamentCount": 2,
       "tournaments": [
         {
@@ -6844,10 +6873,10 @@
     },
     {
       "name": "Watson, Emma",
-      "id": "61",
+      "id": "67",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#61",
+      "href": "playercard.html#67",
       "tournamentCount": 1,
       "tournaments": [
         {
