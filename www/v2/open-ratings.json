@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-30T22:27:49.855Z",
+  "generatedAt": "2026-08-08T11:06:21.919Z",
   "year": "2026",
-  "count": 95,
-  "totalTournaments": 20,
+  "count": 99,
+  "totalTournaments": 21,
   "players": [
     {
       "name": "Annadasu,Shreyansh",
@@ -10,13 +10,20 @@
       "fideId": "3275779",
       "gender": "male",
       "href": "playercard.html#24",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 1,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -34,8 +41,8 @@
       },
       "title": "",
       "birthYear": 2014,
-      "fideStandard": 1560,
-      "fideRapid": 1520,
+      "fideStandard": 1574,
+      "fideRapid": 1511,
       "fideBlitz": 1571,
       "acfClassic": 1130,
       "acfQuick": 1058,
@@ -47,13 +54,20 @@
       "fideId": "3239683",
       "gender": "male",
       "href": "playercard.html#23",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2.5,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -85,9 +99,9 @@
       },
       "title": "",
       "birthYear": 2011,
-      "fideStandard": 1561,
-      "fideRapid": 1606,
-      "fideBlitz": 1584,
+      "fideStandard": 1522,
+      "fideRapid": 1676,
+      "fideBlitz": 1734,
       "acfClassic": 1234,
       "acfQuick": 1231,
       "acfId": "3194401"
@@ -123,8 +137,8 @@
       "title": "FM",
       "birthYear": 2014,
       "fideStandard": 2252,
-      "fideRapid": 2096,
-      "fideBlitz": 2257,
+      "fideRapid": 2102,
+      "fideBlitz": 2266,
       "acfClassic": 2154,
       "acfQuick": 2175,
       "acfId": "3197035"
@@ -135,13 +149,20 @@
       "fideId": "3275108",
       "gender": "male",
       "href": "playercard.html#26",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -166,9 +187,9 @@
       },
       "title": "",
       "birthYear": 2015,
-      "fideStandard": 1612,
-      "fideRapid": 1503,
-      "fideBlitz": 1598,
+      "fideStandard": 1614,
+      "fideRapid": 1547,
+      "fideBlitz": 1654,
       "acfClassic": 1152,
       "acfQuick": 1038,
       "acfId": "3204632"
@@ -203,21 +224,28 @@
       },
       "title": "",
       "birthYear": 2014,
-      "fideStandard": 1594,
-      "fideRapid": 1581,
-      "fideBlitz": 1574,
+      "fideStandard": 1560,
+      "fideRapid": 1598,
+      "fideBlitz": 1609,
       "acfClassic": 1072,
       "acfQuick": 993,
       "acfId": "3209381"
     },
     {
       "name": "Balogun,Olalekan",
-      "id": "22",
+      "id": "21",
       "fideId": "108217886",
       "gender": "male",
-      "href": "playercard.html#22",
-      "tournamentCount": 2,
+      "href": "playercard.html#21",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwHobsonsBayCupOpen/data.json",
           "score": 3.5,
@@ -240,9 +268,9 @@
       },
       "title": "",
       "birthYear": 1985,
-      "fideStandard": 1653,
+      "fideStandard": 1663,
       "fideRapid": 1648,
-      "fideBlitz": 0,
+      "fideBlitz": 1671,
       "acfClassic": 1319,
       "acfQuick": 1319,
       "acfId": "0006155"
@@ -271,7 +299,7 @@
       "title": "",
       "birthYear": 2013,
       "fideStandard": 1660,
-      "fideRapid": 1578,
+      "fideRapid": 1530,
       "fideBlitz": 1563,
       "acfClassic": 492,
       "acfQuick": 362,
@@ -307,8 +335,8 @@
       },
       "title": "",
       "birthYear": 2017,
-      "fideStandard": 1590,
-      "fideRapid": 1517,
+      "fideStandard": 1562,
+      "fideRapid": 1518,
       "fideBlitz": 0,
       "acfClassic": 0,
       "acfQuick": 510,
@@ -316,12 +344,19 @@
     },
     {
       "name": "Biju,Alberto",
-      "id": "26",
+      "id": "27",
       "fideId": "3282473",
       "gender": "male",
-      "href": "playercard.html#26",
-      "tournamentCount": 1,
+      "href": "playercard.html#27",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwHobsonsBayCupOpen/data.json",
           "score": 2.5,
@@ -331,13 +366,13 @@
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3.5,
         "rapid": 0,
         "blitz": 0
       },
       "title": "",
       "birthYear": 2008,
-      "fideStandard": 1518,
+      "fideStandard": 1482,
       "fideRapid": 0,
       "fideBlitz": 1483,
       "acfClassic": 1038,
@@ -350,13 +385,20 @@
       "fideId": "3259021",
       "gender": "male",
       "href": "playercard.html#13",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 3,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -396,15 +438,15 @@
         }
       ],
       "points": {
-        "standard": 15.5,
+        "standard": 16.5,
         "rapid": 0.5,
         "blitz": 6
       },
       "title": "",
       "birthYear": 2010,
-      "fideStandard": 1937,
-      "fideRapid": 1751,
-      "fideBlitz": 1731,
+      "fideStandard": 1948,
+      "fideRapid": 1833,
+      "fideBlitz": 1712,
       "acfClassic": 1599,
       "acfQuick": 1499,
       "acfId": "3202576"
@@ -438,6 +480,66 @@
       "acfClassic": 0,
       "acfQuick": 0,
       "acfId": ""
+    },
+    {
+      "name": "Chalamcharla,Shrevin",
+      "id": "26",
+      "fideId": "3264700",
+      "gender": "male",
+      "href": "playercard.html#26",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2012,
+      "fideStandard": 1518,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 1066,
+      "acfQuick": 923,
+      "acfId": "3204680"
+    },
+    {
+      "name": "Chatha,Harmandeep",
+      "id": "16",
+      "fideId": "573005410",
+      "gender": "male",
+      "href": "playercard.html#16",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1991,
+      "fideStandard": 1440,
+      "fideRapid": 1553,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "6274321"
     },
     {
       "name": "Chawla,Namish",
@@ -519,13 +621,20 @@
       "fideId": "3234134",
       "gender": "male",
       "href": "playercard.html#28",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 1,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -549,6 +658,36 @@
       "acfClassic": 981,
       "acfQuick": 981,
       "acfId": "3161584"
+    },
+    {
+      "name": "Dakic,Dusan",
+      "id": "10",
+      "fideId": "3233472",
+      "gender": "male",
+      "href": "playercard.html#10",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 1969,
+      "fideStandard": 1792,
+      "fideRapid": 1814,
+      "fideBlitz": 1849,
+      "acfClassic": 1611,
+      "acfQuick": 1499,
+      "acfId": "3101485"
     },
     {
       "name": "Davis,Sophie",
@@ -580,7 +719,7 @@
       },
       "title": "",
       "birthYear": 2004,
-      "fideStandard": 1728,
+      "fideStandard": 1733,
       "fideRapid": 1625,
       "fideBlitz": 1637,
       "acfClassic": 1505,
@@ -593,13 +732,20 @@
       "fideId": "3205550",
       "gender": "male",
       "href": "playercard.html#3",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 4,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -618,15 +764,15 @@
         }
       ],
       "points": {
-        "standard": 10.5,
+        "standard": 11.5,
         "rapid": 0,
         "blitz": 0
       },
       "title": "CM",
       "birthYear": 1968,
-      "fideStandard": 1790,
+      "fideStandard": 1773,
       "fideRapid": 1925,
-      "fideBlitz": 1755,
+      "fideBlitz": 1787,
       "acfClassic": 1673,
       "acfQuick": 1320,
       "acfId": "3073264"
@@ -654,7 +800,7 @@
       },
       "title": "",
       "birthYear": 2004,
-      "fideStandard": 1704,
+      "fideStandard": 1711,
       "fideRapid": 1680,
       "fideBlitz": 1697,
       "acfClassic": 1462,
@@ -745,7 +891,7 @@
       "title": "",
       "birthYear": 2015,
       "fideStandard": 0,
-      "fideRapid": 1572,
+      "fideRapid": 1488,
       "fideBlitz": 1517,
       "acfClassic": 813,
       "acfQuick": 662,
@@ -757,13 +903,20 @@
       "fideId": "3230791",
       "gender": "male",
       "href": "playercard.html#1",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 4.5,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -808,7 +961,7 @@
       "fideId": "3255360",
       "gender": "male",
       "href": "playercard.html#10",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -816,10 +969,17 @@
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 5,
         "rapid": 0,
         "blitz": 0
       },
@@ -869,7 +1029,7 @@
       },
       "title": "",
       "birthYear": 1995,
-      "fideStandard": 1848,
+      "fideStandard": 1850,
       "fideRapid": 0,
       "fideBlitz": 0,
       "acfClassic": 1670,
@@ -878,12 +1038,19 @@
     },
     {
       "name": "Hill,James",
-      "id": "11",
+      "id": "12",
       "fideId": "3268845",
       "gender": "male",
-      "href": "playercard.html#11",
-      "tournamentCount": 3,
+      "href": "playercard.html#12",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026PurdyCupOpen/data.json",
           "score": 2.5,
@@ -913,7 +1080,7 @@
       },
       "title": "",
       "birthYear": 2002,
-      "fideStandard": 1759,
+      "fideStandard": 1763,
       "fideRapid": 1641,
       "fideBlitz": 1639,
       "acfClassic": 1589,
@@ -926,13 +1093,20 @@
       "fideId": "3201414",
       "gender": "male",
       "href": "playercard.html#20",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 3.5,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -972,15 +1146,15 @@
         }
       ],
       "points": {
-        "standard": 14,
+        "standard": 15,
         "rapid": 3,
         "blitz": 5
       },
       "title": "",
       "birthYear": 1985,
-      "fideStandard": 1639,
+      "fideStandard": 1661,
       "fideRapid": 1661,
-      "fideBlitz": 1737,
+      "fideBlitz": 1713,
       "acfClassic": 1391,
       "acfQuick": 1098,
       "acfId": "3112941"
@@ -991,13 +1165,20 @@
       "fideId": "3204332",
       "gender": "male",
       "href": "playercard.html#2",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -1030,13 +1211,13 @@
         }
       ],
       "points": {
-        "standard": 8.5,
+        "standard": 9.5,
         "rapid": 4,
         "blitz": 6
       },
       "title": "",
       "birthYear": 1970,
-      "fideStandard": 1911,
+      "fideStandard": 1900,
       "fideRapid": 1971,
       "fideBlitz": 1958,
       "acfClassic": 1747,
@@ -1073,9 +1254,9 @@
       },
       "title": "",
       "birthYear": 2014,
-      "fideStandard": 1661,
-      "fideRapid": 1531,
-      "fideBlitz": 1655,
+      "fideStandard": 1636,
+      "fideRapid": 1554,
+      "fideBlitz": 1642,
       "acfClassic": 959,
       "acfQuick": 901,
       "acfId": "3204621"
@@ -1103,7 +1284,7 @@
       },
       "title": "",
       "birthYear": 2014,
-      "fideStandard": 1439,
+      "fideStandard": 1422,
       "fideRapid": 1439,
       "fideBlitz": 1510,
       "acfClassic": 508,
@@ -1184,8 +1365,8 @@
       },
       "title": "",
       "birthYear": 2017,
-      "fideStandard": 1541,
-      "fideRapid": 1522,
+      "fideStandard": 1569,
+      "fideRapid": 1548,
       "fideBlitz": 1464,
       "acfClassic": 1023,
       "acfQuick": 1126,
@@ -1253,7 +1434,7 @@
       "birthYear": 2014,
       "fideStandard": 0,
       "fideRapid": 0,
-      "fideBlitz": 0,
+      "fideBlitz": 1454,
       "acfClassic": 100,
       "acfQuick": 161,
       "acfId": "3212096"
@@ -1311,8 +1492,8 @@
       },
       "title": "",
       "birthYear": 2017,
-      "fideStandard": 0,
-      "fideRapid": 1510,
+      "fideStandard": 1527,
+      "fideRapid": 1482,
       "fideBlitz": 1430,
       "acfClassic": 553,
       "acfQuick": 645,
@@ -1356,18 +1537,55 @@
       "acfId": "3224022"
     },
     {
+      "name": "Koppuravuri,Haneesh",
+      "id": "30",
+      "fideId": "3295311",
+      "gender": "male",
+      "href": "playercard.html#30",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2016,
+      "fideStandard": 0,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 0,
+      "acfQuick": 0,
+      "acfId": "3222751"
+    },
+    {
       "name": "Kostakakis,Angelo",
       "id": "27",
       "fideId": "3227499",
       "gender": "male",
       "href": "playercard.html#27",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -1392,7 +1610,7 @@
       },
       "title": "",
       "birthYear": 1958,
-      "fideStandard": 1400,
+      "fideStandard": 1405,
       "fideRapid": 0,
       "fideBlitz": 0,
       "acfClassic": 980,
@@ -1495,13 +1713,20 @@
       "fideId": "3254925",
       "gender": "male",
       "href": "playercard.html#6",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 3,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -1519,7 +1744,7 @@
       },
       "title": "",
       "birthYear": 1985,
-      "fideStandard": 1893,
+      "fideStandard": 1901,
       "fideRapid": 1808,
       "fideBlitz": 1794,
       "acfClassic": 1764,
@@ -1564,8 +1789,8 @@
       "title": "",
       "birthYear": 2016,
       "fideStandard": 1535,
-      "fideRapid": 1486,
-      "fideBlitz": 1642,
+      "fideRapid": 1451,
+      "fideBlitz": 1563,
       "acfClassic": 750,
       "acfQuick": 561,
       "acfId": "3219892"
@@ -1608,8 +1833,8 @@
       "title": "",
       "birthYear": 2016,
       "fideStandard": 0,
-      "fideRapid": 1428,
-      "fideBlitz": 0,
+      "fideRapid": 1466,
+      "fideBlitz": 1660,
       "acfClassic": 503,
       "acfQuick": 528,
       "acfId": "3219903"
@@ -1620,13 +1845,20 @@
       "fideId": "3257762",
       "gender": "male",
       "href": "playercard.html#5",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 3.5,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -1659,13 +1891,13 @@
         }
       ],
       "points": {
-        "standard": 12,
+        "standard": 12.5,
         "rapid": 4,
         "blitz": 5
       },
       "title": "",
       "birthYear": 1973,
-      "fideStandard": 1870,
+      "fideStandard": 1882,
       "fideRapid": 1825,
       "fideBlitz": 1742,
       "acfClassic": 1754,
@@ -1695,7 +1927,7 @@
       },
       "title": "",
       "birthYear": 2018,
-      "fideStandard": 1449,
+      "fideStandard": 1419,
       "fideRapid": 1405,
       "fideBlitz": 0,
       "acfClassic": 739,
@@ -1857,7 +2089,7 @@
       },
       "title": "",
       "birthYear": 2004,
-      "fideStandard": 1754,
+      "fideStandard": 1762,
       "fideRapid": 0,
       "fideBlitz": 0,
       "acfClassic": 1589,
@@ -1866,12 +2098,19 @@
     },
     {
       "name": "Menezes,Eric",
-      "id": "6",
+      "id": "15",
       "fideId": "3235068",
       "gender": "male",
-      "href": "playercard.html#6",
-      "tournamentCount": 4,
+      "href": "playercard.html#15",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026WesternMajorOpen/data.json",
           "score": 2,
@@ -1902,15 +2141,15 @@
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 7.5,
         "rapid": 4,
         "blitz": 7
       },
       "title": "",
       "birthYear": 2002,
-      "fideStandard": 1725,
+      "fideStandard": 1745,
       "fideRapid": 1739,
-      "fideBlitz": 1766,
+      "fideBlitz": 1814,
       "acfClassic": 1457,
       "acfQuick": 1548,
       "acfId": "5219002"
@@ -1938,7 +2177,7 @@
       },
       "title": "",
       "birthYear": 1992,
-      "fideStandard": 1651,
+      "fideStandard": 1657,
       "fideRapid": 1642,
       "fideBlitz": 0,
       "acfClassic": 1439,
@@ -1977,12 +2216,19 @@
     },
     {
       "name": "Moreta,Simon",
-      "id": "32",
+      "id": "17",
       "fideId": "3260925",
       "gender": "male",
-      "href": "playercard.html#32",
-      "tournamentCount": 1,
+      "href": "playercard.html#17",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwHobsonsBayCupOpen/data.json",
           "score": 1.5,
@@ -1998,7 +2244,7 @@
       },
       "title": "",
       "birthYear": 1987,
-      "fideStandard": 0,
+      "fideStandard": 1415,
       "fideRapid": 0,
       "fideBlitz": 0,
       "acfClassic": 0,
@@ -2066,7 +2312,7 @@
       "title": "",
       "birthYear": 2014,
       "fideStandard": 1540,
-      "fideRapid": 1549,
+      "fideRapid": 1460,
       "fideBlitz": 1503,
       "acfClassic": 884,
       "acfQuick": 719,
@@ -2078,13 +2324,20 @@
       "fideId": "3267849",
       "gender": "male",
       "href": "playercard.html#4",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 3.5,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -2117,15 +2370,15 @@
         }
       ],
       "points": {
-        "standard": 13,
+        "standard": 14,
         "rapid": 5,
         "blitz": 9
       },
       "title": "CM",
       "birthYear": 2012,
-      "fideStandard": 1959,
-      "fideRapid": 1853,
-      "fideBlitz": 1911,
+      "fideStandard": 1934,
+      "fideRapid": 1857,
+      "fideBlitz": 1863,
       "acfClassic": 1807,
       "acfQuick": 1682,
       "acfId": "3206205"
@@ -2166,13 +2419,20 @@
       "fideId": "3214915",
       "gender": "male",
       "href": "playercard.html#18",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -2212,15 +2472,15 @@
         }
       ],
       "points": {
-        "standard": 8,
+        "standard": 8.5,
         "rapid": 0.5,
         "blitz": 6
       },
       "title": "",
       "birthYear": 1992,
-      "fideStandard": 1666,
-      "fideRapid": 1642,
-      "fideBlitz": 1639,
+      "fideStandard": 1637,
+      "fideRapid": 1612,
+      "fideBlitz": 1657,
       "acfClassic": 1386,
       "acfQuick": 1274,
       "acfId": "3127464"
@@ -2310,7 +2570,7 @@
       "birthYear": 2011,
       "fideStandard": 0,
       "fideRapid": 0,
-      "fideBlitz": 1794,
+      "fideBlitz": 1660,
       "acfClassic": 0,
       "acfQuick": 1094,
       "acfId": "3225745"
@@ -2339,8 +2599,8 @@
       "title": "",
       "birthYear": 2015,
       "fideStandard": 1759,
-      "fideRapid": 1778,
-      "fideBlitz": 1819,
+      "fideRapid": 1689,
+      "fideBlitz": 1875,
       "acfClassic": 1402,
       "acfQuick": 1632,
       "acfId": "3209484"
@@ -2381,13 +2641,20 @@
       "fideId": "2054515",
       "gender": "male",
       "href": "playercard.html#8",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 4,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -2420,15 +2687,15 @@
         }
       ],
       "points": {
-        "standard": 11,
+        "standard": 12,
         "rapid": 3,
         "blitz": 6
       },
       "title": "",
       "birthYear": 1982,
-      "fideStandard": 1777,
+      "fideStandard": 1771,
       "fideRapid": 1688,
-      "fideBlitz": 1700,
+      "fideBlitz": 1694,
       "acfClassic": 1612,
       "acfQuick": 1099,
       "acfId": "3194913"
@@ -2439,13 +2706,20 @@
       "fideId": "3254003",
       "gender": "male",
       "href": "playercard.html#19",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2.5,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -2471,13 +2745,13 @@
         }
       ],
       "points": {
-        "standard": 9.5,
+        "standard": 10,
         "rapid": 0,
         "blitz": 0
       },
       "title": "",
       "birthYear": 1982,
-      "fideStandard": 1612,
+      "fideStandard": 1610,
       "fideRapid": 0,
       "fideBlitz": 1679,
       "acfClassic": 1347,
@@ -2538,7 +2812,7 @@
       "title": "",
       "birthYear": 2016,
       "fideStandard": 0,
-      "fideRapid": 0,
+      "fideRapid": 1468,
       "fideBlitz": 0,
       "acfClassic": 249,
       "acfQuick": 292,
@@ -2581,9 +2855,9 @@
       },
       "title": "",
       "birthYear": 2016,
-      "fideStandard": 1821,
-      "fideRapid": 1702,
-      "fideBlitz": 1795,
+      "fideStandard": 1764,
+      "fideRapid": 1747,
+      "fideBlitz": 1737,
       "acfClassic": 1464,
       "acfQuick": 1491,
       "acfId": "3206231"
@@ -2662,7 +2936,7 @@
       },
       "title": "",
       "birthYear": 1976,
-      "fideStandard": 1714,
+      "fideStandard": 1644,
       "fideRapid": 1639,
       "fideBlitz": 1804,
       "acfClassic": 1438,
@@ -2699,8 +2973,8 @@
       },
       "title": "",
       "birthYear": 2014,
-      "fideStandard": 1484,
-      "fideRapid": 1510,
+      "fideStandard": 1488,
+      "fideRapid": 1607,
       "fideBlitz": 1534,
       "acfClassic": 976,
       "acfQuick": 845,
@@ -2759,8 +3033,8 @@
       },
       "title": "",
       "birthYear": 2011,
-      "fideStandard": 1514,
-      "fideRapid": 0,
+      "fideStandard": 1533,
+      "fideRapid": 1402,
       "fideBlitz": 0,
       "acfClassic": 0,
       "acfQuick": 457,
@@ -2796,7 +3070,7 @@
       },
       "title": "",
       "birthYear": 2017,
-      "fideStandard": 1472,
+      "fideStandard": 1496,
       "fideRapid": 0,
       "fideBlitz": 1499,
       "acfClassic": 433,
@@ -2864,8 +3138,8 @@
       "title": "",
       "birthYear": 2015,
       "fideStandard": 0,
-      "fideRapid": 1457,
-      "fideBlitz": 1576,
+      "fideRapid": 1451,
+      "fideBlitz": 1589,
       "acfClassic": 676,
       "acfQuick": 833,
       "acfId": "3217011"
@@ -2876,13 +3150,20 @@
       "fideId": "3292487",
       "gender": "male",
       "href": "playercard.html#34",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 0,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -2915,7 +3196,7 @@
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3.5,
         "rapid": 0.5,
         "blitz": 2.5
       },
@@ -2960,7 +3241,7 @@
       "birthYear": 2015,
       "fideStandard": 1449,
       "fideRapid": 1503,
-      "fideBlitz": 1525,
+      "fideBlitz": 1496,
       "acfClassic": 796,
       "acfQuick": 747,
       "acfId": "3204735"
@@ -2988,9 +3269,9 @@
       },
       "title": "FM",
       "birthYear": 1998,
-      "fideStandard": 2269,
-      "fideRapid": 2114,
-      "fideBlitz": 2321,
+      "fideStandard": 2278,
+      "fideRapid": 2123,
+      "fideBlitz": 2355,
       "acfClassic": 2255,
       "acfQuick": 2284,
       "acfId": "3164420"
@@ -3032,7 +3313,7 @@
       },
       "title": "WIM",
       "birthYear": 1978,
-      "fideStandard": 1690,
+      "fideStandard": 1652,
       "fideRapid": 0,
       "fideBlitz": 0,
       "acfClassic": 1487,
@@ -3062,7 +3343,7 @@
       },
       "title": "",
       "birthYear": 2007,
-      "fideStandard": 1627,
+      "fideStandard": 1621,
       "fideRapid": 0,
       "fideBlitz": 0,
       "acfClassic": 1275,
@@ -3071,12 +3352,19 @@
     },
     {
       "name": "Tran,An Huynh Phu Thai",
-      "id": "34",
+      "id": "13",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#34",
-      "tournamentCount": 1,
+      "href": "playercard.html#13",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwHobsonsBayCupOpen/data.json",
           "score": 4,
@@ -3086,7 +3374,7 @@
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 5,
         "rapid": 0,
         "blitz": 0
       },
@@ -3160,7 +3448,7 @@
       "title": "",
       "birthYear": 2016,
       "fideStandard": 0,
-      "fideRapid": 0,
+      "fideRapid": 1404,
       "fideBlitz": 0,
       "acfClassic": 238,
       "acfQuick": 234,
@@ -3196,9 +3484,9 @@
       },
       "title": "",
       "birthYear": 2017,
-      "fideStandard": 1516,
-      "fideRapid": 1511,
-      "fideBlitz": 1687,
+      "fideStandard": 1501,
+      "fideRapid": 1489,
+      "fideBlitz": 1599,
       "acfClassic": 870,
       "acfQuick": 772,
       "acfId": "3218676"
@@ -3226,7 +3514,7 @@
       },
       "title": "",
       "birthYear": 2015,
-      "fideStandard": 1466,
+      "fideStandard": 1508,
       "fideRapid": 1499,
       "fideBlitz": 0,
       "acfClassic": 912,
@@ -3256,7 +3544,7 @@
       },
       "title": "",
       "birthYear": 2013,
-      "fideStandard": 1565,
+      "fideStandard": 1539,
       "fideRapid": 1534,
       "fideBlitz": 1513,
       "acfClassic": 763,
@@ -3300,8 +3588,8 @@
       },
       "title": "",
       "birthYear": 2016,
-      "fideStandard": 1456,
-      "fideRapid": 1434,
+      "fideStandard": 1455,
+      "fideRapid": 1443,
       "fideBlitz": 1418,
       "acfClassic": 0,
       "acfQuick": 0,
@@ -3309,12 +3597,19 @@
     },
     {
       "name": "Wang,Tim",
-      "id": "41",
+      "id": "4",
       "fideId": "573003476",
       "gender": "male",
-      "href": "playercard.html#41",
-      "tournamentCount": 3,
+      "href": "playercard.html#4",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwBlitz12026/data.json",
           "score": 5,
@@ -3338,13 +3633,13 @@
         }
       ],
       "points": {
-        "standard": 4.5,
+        "standard": 5,
         "rapid": 3.5,
         "blitz": 5
       },
       "title": "",
       "birthYear": 1986,
-      "fideStandard": 0,
+      "fideStandard": 1762,
       "fideRapid": 1758,
       "fideBlitz": 1683,
       "acfClassic": 0,
@@ -3357,13 +3652,20 @@
       "fideId": "3232220",
       "gender": "male",
       "href": "playercard.html#15",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 3,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -3389,15 +3691,15 @@
         }
       ],
       "points": {
-        "standard": 12.5,
+        "standard": 13.5,
         "rapid": 0,
         "blitz": 0
       },
       "title": "",
       "birthYear": 1999,
-      "fideStandard": 1719,
+      "fideStandard": 1703,
       "fideRapid": 0,
-      "fideBlitz": 1745,
+      "fideBlitz": 1753,
       "acfClassic": 1493,
       "acfQuick": 1440,
       "acfId": "3137603"
@@ -3408,13 +3710,20 @@
       "fideId": "3255689",
       "gender": "male",
       "href": "playercard.html#25",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
           "name": "2026 Hobsons Bay Honourable Bob",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026KoshnitskyCupOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -3439,7 +3748,7 @@
       },
       "title": "",
       "birthYear": 1978,
-      "fideStandard": 1542,
+      "fideStandard": 1543,
       "fideRapid": 0,
       "fideBlitz": 1497,
       "acfClassic": 1163,
@@ -3568,7 +3877,7 @@
       "birthYear": 2016,
       "fideStandard": 0,
       "fideRapid": 1433,
-      "fideBlitz": 1444,
+      "fideBlitz": 1478,
       "acfClassic": 755,
       "acfQuick": 621,
       "acfId": "3214804"
