@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T10:44:24.906Z",
+  "generatedAt": "2026-08-14T22:08:45.297Z",
   "page": {
     "crosstable.html": {
       "pageHeading": "Cross Table at round 2",
@@ -6461,6 +6461,1121 @@
       "pairingScheduleText": "Pairing of round 2, at 18:00 of 08/08/2026",
       "tournamentType": "individual"
     },
+    "pairs3.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "2",
+                "playerName": "Nowak,Ruben",
+                "gender": "male",
+                "href": "playercard.html#2",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1386",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "2",
+              "Result": "...",
+              "Pts_1": "2",
+              "Black Player": {
+                "id": "16",
+                "playerName": "Vinu,Vinayak",
+                "gender": "male",
+                "href": "playercard.html#16",
+                "title": "",
+                "federation": "VIC",
+                "rating": "900",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "21",
+                "playerName": "Watson,Jacob",
+                "gender": "male",
+                "href": "playercard.html#21",
+                "title": "",
+                "federation": "VIC",
+                "rating": "754",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "2",
+              "Result": "...",
+              "Pts_1": "2",
+              "Black Player": {
+                "id": "8",
+                "playerName": "Jyothi Nikhil,Neev",
+                "gender": "male",
+                "href": "playercard.html#8",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1023",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "32",
+                "playerName": "Guggilla,Krithvik",
+                "gender": "male",
+                "href": "playercard.html#32",
+                "title": "",
+                "federation": "VIC",
+                "rating": "448",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "2",
+              "Result": "...",
+              "Pts_1": "2",
+              "Black Player": {
+                "id": "10",
+                "playerName": "Vinu,Vaishnav",
+                "gender": "male",
+                "href": "playercard.html#10",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1000",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "11",
+                "playerName": "Ruaya,Rohan",
+                "gender": "male",
+                "href": "playercard.html#11",
+                "title": "",
+                "federation": "VIC",
+                "rating": "976",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "2",
+              "Result": "...",
+              "Pts_1": "2",
+              "Black Player": {
+                "id": "34",
+                "playerName": "Fang,Candice",
+                "gender": "female",
+                "href": "playercard.html#34",
+                "title": "",
+                "federation": "VIC",
+                "rating": "361",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "6",
+                "playerName": "Balaji,Sai Sivesh",
+                "gender": "male",
+                "href": "playercard.html#6",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1072",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1.5",
+              "Result": "...",
+              "Pts_1": "1.5",
+              "Black Player": {
+                "id": "28",
+                "playerName": "Singh,Sumair",
+                "gender": "male",
+                "href": "playercard.html#28",
+                "title": "",
+                "federation": "VIC",
+                "rating": "506",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "OS",
+              "White Player": {
+                "id": "7",
+                "playerName": "Ahmad, Ihtiram",
+                "gender": "male",
+                "href": "playercard.html#7",
+                "title": "",
+                "federation": "OS",
+                "rating": "1045",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1.5",
+              "Result": "...",
+              "Pts_1": "1.5",
+              "Black Player": {
+                "id": "40",
+                "playerName": "Pradeep,Mayukh",
+                "gender": "male",
+                "href": "playercard.html#40",
+                "title": "",
+                "federation": "VIC",
+                "rating": "249",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "39",
+                "playerName": "Madduluri,Advaitha",
+                "gender": "female",
+                "href": "playercard.html#39",
+                "title": "",
+                "federation": "VIC",
+                "rating": "279",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1.5",
+              "Result": "...",
+              "Pts_1": "1.5",
+              "Black Player": {
+                "id": "12",
+                "playerName": "Wei,Andrew",
+                "gender": "male",
+                "href": "playercard.html#12",
+                "title": "",
+                "federation": "VIC",
+                "rating": "974",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "8",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "13",
+                "playerName": "Huang,Michael",
+                "gender": "male",
+                "href": "playercard.html#13",
+                "title": "",
+                "federation": "VIC",
+                "rating": "959",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1.5",
+              "Result": "...",
+              "Pts_1": "1.5",
+              "Black Player": {
+                "id": "60",
+                "playerName": "Paul,Vivaan",
+                "gender": "male",
+                "href": "playercard.html#60",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "9",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "18",
+                "playerName": "Nema,Nivaan",
+                "gender": "male",
+                "href": "playercard.html#18",
+                "title": "",
+                "federation": "VIC",
+                "rating": "884",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1.5",
+              "Result": "...",
+              "Pts_1": "1.5",
+              "Black Player": {
+                "id": "68",
+                "playerName": "Yang,Heesan",
+                "gender": "female",
+                "href": "playercard.html#68",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "10",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "47",
+                "playerName": "Bacon,Levi",
+                "gender": "male",
+                "href": "playercard.html#47",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1.5",
+              "Result": "...",
+              "Pts_1": "1.5",
+              "Black Player": {
+                "id": "26",
+                "playerName": "Kaur,Mishleen",
+                "gender": "female",
+                "href": "playercard.html#26",
+                "title": "",
+                "federation": "VIC",
+                "rating": "553",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "11",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "31",
+                "playerName": "Balamurugan,Soorya",
+                "gender": "male",
+                "href": "playercard.html#31",
+                "title": "",
+                "federation": "VIC",
+                "rating": "454",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1.5",
+              "Result": "...",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "14",
+                "playerName": "Chatha,Harmandeep",
+                "gender": "male",
+                "href": "playercard.html#14",
+                "title": "",
+                "federation": "WA",
+                "rating": "950",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "WA"
+            },
+            {
+              "Bo.": "12",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "9",
+                "playerName": "Lavars,Jesse",
+                "gender": "male",
+                "href": "playercard.html#9",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1000",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1",
+              "Result": "...",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "37",
+                "playerName": "Ganesh Kumar,Mukunth",
+                "gender": "male",
+                "href": "playercard.html#37",
+                "title": "",
+                "federation": "VIC",
+                "rating": "325",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "13",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "15",
+                "playerName": "Verma,Vivaan",
+                "gender": "male",
+                "href": "playercard.html#15",
+                "title": "",
+                "federation": "VIC",
+                "rating": "912",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1",
+              "Result": "...",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "38",
+                "playerName": "Bodke,Aryan",
+                "gender": "male",
+                "href": "playercard.html#38",
+                "title": "",
+                "federation": "VIC",
+                "rating": "295",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "14",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "36",
+                "playerName": "Spriggs,Harvey",
+                "gender": "male",
+                "href": "playercard.html#36",
+                "title": "",
+                "federation": "VIC",
+                "rating": "348",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1",
+              "Result": "...",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "17",
+                "playerName": "Jagannathan,Shashvath",
+                "gender": "male",
+                "href": "playercard.html#17",
+                "title": "",
+                "federation": "VIC",
+                "rating": "894",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "15",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "19",
+                "playerName": "Vemula,Thamoghna",
+                "gender": "male",
+                "href": "playercard.html#19",
+                "title": "",
+                "federation": "VIC",
+                "rating": "870",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1",
+              "Result": "...",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "41",
+                "playerName": "Jyothi Nikhil,Vihaan",
+                "gender": "male",
+                "href": "playercard.html#41",
+                "title": "",
+                "federation": "VIC",
+                "rating": "247",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "16",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "44",
+                "playerName": "Goh,Julian",
+                "gender": "male",
+                "href": "playercard.html#44",
+                "title": "",
+                "federation": "VIC",
+                "rating": "128",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1",
+              "Result": "...",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "22",
+                "playerName": "Wang,Evan",
+                "gender": "male",
+                "href": "playercard.html#22",
+                "title": "",
+                "federation": "VIC",
+                "rating": "700",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "17",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "23",
+                "playerName": "Shaiek,Nihal",
+                "gender": "male",
+                "href": "playercard.html#23",
+                "title": "",
+                "federation": "VIC",
+                "rating": "676",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1",
+              "Result": "...",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "43",
+                "playerName": "Goh,Daphne",
+                "gender": "female",
+                "href": "playercard.html#43",
+                "title": "",
+                "federation": "VIC",
+                "rating": "130",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "18",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "25",
+                "playerName": "Goh,Nicholas",
+                "gender": "male",
+                "href": "playercard.html#25",
+                "title": "",
+                "federation": "VIC",
+                "rating": "609",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1",
+              "Result": "...",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "49",
+                "playerName": "Bala,Neil",
+                "gender": "male",
+                "href": "playercard.html#49",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "19",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "27",
+                "playerName": "Husain,Lamiah",
+                "gender": "female",
+                "href": "playercard.html#27",
+                "title": "",
+                "federation": "VIC",
+                "rating": "508",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1",
+              "Result": "...",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "50",
+                "playerName": "Bhadrapura,Vismay",
+                "gender": "male",
+                "href": "playercard.html#50",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "20",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "48",
+                "playerName": "Bala,Jake",
+                "gender": "male",
+                "href": "playercard.html#48",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1",
+              "Result": "...",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "30",
+                "playerName": "Gadham,Aarya Subramanya",
+                "gender": "male",
+                "href": "playercard.html#30",
+                "title": "",
+                "federation": "VIC",
+                "rating": "474",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "21",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "55",
+                "playerName": "Lake,Logan",
+                "gender": "male",
+                "href": "playercard.html#55",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1",
+              "Result": "...",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "35",
+                "playerName": "Das,Ayush",
+                "gender": "male",
+                "href": "playercard.html#35",
+                "title": "",
+                "federation": "VIC",
+                "rating": "358",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "22",
+              "Fed": "TAS",
+              "White Player": {
+                "id": "1",
+                "playerName": "Djatschenko,Addison",
+                "gender": "male",
+                "href": "playercard.html#1",
+                "title": "",
+                "federation": "TAS",
+                "rating": "1462",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0.5",
+              "Result": "...",
+              "Pts_1": "0.5",
+              "Black Player": {
+                "id": "46",
+                "playerName": "Aquino,Zedric",
+                "gender": "male",
+                "href": "playercard.html#46",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "23",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "53",
+                "playerName": "Borle,Swarit",
+                "gender": "male",
+                "href": "playercard.html#53",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0.5",
+              "Result": "...",
+              "Pts_1": "0.5",
+              "Black Player": {
+                "id": "20",
+                "playerName": "Singh,Abhyuday",
+                "gender": "male",
+                "href": "playercard.html#20",
+                "title": "",
+                "federation": "VIC",
+                "rating": "796",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "24",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "51",
+                "playerName": "Bodke,Sahasra",
+                "gender": "female",
+                "href": "playercard.html#51",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0.5",
+              "Result": "...",
+              "Pts_1": "0.5",
+              "Black Player": {
+                "id": "33",
+                "playerName": "Samraat,Aayush",
+                "gender": "male",
+                "href": "playercard.html#33",
+                "title": "",
+                "federation": "VIC",
+                "rating": "433",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "25",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "67",
+                "playerName": "Watson, Emma",
+                "gender": "female",
+                "href": "playercard.html#67",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0.5",
+              "Result": "...",
+              "Pts_1": "0.5",
+              "Black Player": {
+                "id": "45",
+                "playerName": "Kantharaju, Aryan",
+                "gender": "male",
+                "href": "playercard.html#45",
+                "title": "",
+                "federation": "VIC",
+                "rating": "100",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "26",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "58",
+                "playerName": "Padoli,Darsh",
+                "gender": "male",
+                "href": "playercard.html#58",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "52",
+                "playerName": "Borle,Anvay",
+                "gender": "male",
+                "href": "playercard.html#52",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "27",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "59",
+                "playerName": "Panchaparvala, Rohan Aditya",
+                "gender": "male",
+                "href": "playercard.html#59",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "54",
+                "playerName": "Daffey,Callum",
+                "gender": "male",
+                "href": "playercard.html#54",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "28",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "62",
+                "playerName": "Rajesh,Charvic",
+                "gender": "male",
+                "href": "playercard.html#62",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "56",
+                "playerName": "Manjunath,Charvi",
+                "gender": "female",
+                "href": "playercard.html#56",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "29",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "57",
+                "playerName": "Moola, Rushika Reddy",
+                "gender": "female",
+                "href": "playercard.html#57",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "65",
+                "playerName": "Sculli,Domenic",
+                "gender": "male",
+                "href": "playercard.html#65",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "30",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "66",
+                "playerName": "Sepusione,Sefa",
+                "gender": "male",
+                "href": "playercard.html#66",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "1",
+              "Pts_1": "0",
+              "Black Player": "( bye )",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "31",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "4",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#4",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1152",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1.5",
+              "Result": "½",
+              "Pts_1": "0",
+              "Black Player": "( half point bye )",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "32",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "29",
+                "playerName": "Mallajosyula,Srivaths",
+                "gender": "male",
+                "href": "playercard.html#29",
+                "title": "",
+                "federation": "VIC",
+                "rating": "483",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1",
+              "Result": "½",
+              "Pts_1": "0",
+              "Black Player": "( half point bye )",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "33",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "24",
+                "playerName": "Venkat, Nyra",
+                "gender": "female",
+                "href": "playercard.html#24",
+                "title": "",
+                "federation": "VIC",
+                "rating": "659",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0.5",
+              "Result": "½",
+              "Pts_1": "0",
+              "Black Player": "( half point bye )",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "34",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "63",
+                "playerName": "Rivero, Adam",
+                "gender": "male",
+                "href": "playercard.html#63",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "½",
+              "Pts_1": "0",
+              "Black Player": "( half point bye )",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "35",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "64",
+                "playerName": "Saravanakumar,Thaswin",
+                "gender": "male",
+                "href": "playercard.html#64",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "½",
+              "Pts_1": "0",
+              "Black Player": "( half point bye )",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "36",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "5",
+                "playerName": "Annadasu,Shreyansh",
+                "gender": "male",
+                "href": "playercard.html#5",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1130",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "2",
+              "Result": "0",
+              "Pts_1": "0",
+              "Black Player": "( not paired )",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "37",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "61",
+                "playerName": "Raghu, Vaibhav",
+                "gender": "male",
+                "href": "playercard.html#61",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0.5",
+              "Result": "0",
+              "Pts_1": "0",
+              "Black Player": "( not paired )",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "38",
+              "Fed": "OS",
+              "White Player": {
+                "id": "3",
+                "playerName": "Balogun,Olalekan",
+                "gender": "male",
+                "href": "playercard.html#3",
+                "title": "",
+                "federation": "OS",
+                "rating": "1319",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "0",
+              "Pts_1": "0",
+              "Black Player": "( not paired )",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "39",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "42",
+                "playerName": "Rajan,Viaan",
+                "gender": "male",
+                "href": "playercard.html#42",
+                "title": "",
+                "federation": "VIC",
+                "rating": "223",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "0",
+              "Pts_1": "0",
+              "Black Player": "( not paired )",
+              "Fed_1": ""
+            }
+          ]
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 3, at 18:00 of 15/08/2026",
+      "tournamentType": "individual"
+    },
     "playercard.html": {
       "pageHeading": "National History Cards",
       "tables": [
@@ -11160,7 +12275,7 @@
       "tournamentType": "unknown"
     },
     "rankcat.html": {
-      "pageHeading": "Standings at round 2 sorted by category",
+      "pageHeading": "Standings at round 3 sorted by category",
       "tables": [
         {
           "headers": [
@@ -14909,7 +16024,7 @@
     },
     {
       "text": "Pairings",
-      "href": "pairs2.html",
+      "href": "pairs3.html",
       "isDropdown": false,
       "children": []
     },
@@ -15587,5 +16702,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "357f6a97d13cac024109d8c5f1ce79af"
+  "md5Hash": "08648c18bbb6ad703d5096f9218ce2e8"
 }
