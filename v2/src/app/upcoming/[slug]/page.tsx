@@ -19,6 +19,8 @@ function getPublicEvents(): UpcomingEvent[] {
   );
 }
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return getPublicEvents().map((e) => ({ slug: makeSlug(e.event) }));
 }

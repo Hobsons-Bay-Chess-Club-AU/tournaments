@@ -142,6 +142,11 @@ jobs:
         continue-on-error: true
         run: node src/tinyhq-sync.mjs
         env:
+          TIDYHQ_APPLICATION_ID: ${{ secrets.TIDYHQ_APPLICATION_ID }}
+          TIDYHQ_APPLICATION_SECRET: ${{ secrets.TIDYHQ_APPLICATION_SECRET }}
+          TIDYHQ_DOMAIN_PREFIX: ${{ secrets.TIDYHQ_DOMAIN_PREFIX }}
+          TIDYHQ_USERNAME: ${{ secrets.TIDYHQ_USERNAME }}
+          TIDYHQ_API_KEY: ${{ secrets.TIDYHQ_API_KEY }}
           TINYHQ_COOKIE: ${{ secrets.TINYHQ_COOKIE }}
 
       - name: Build NextJS UI 

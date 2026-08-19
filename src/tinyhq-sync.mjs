@@ -95,21 +95,6 @@ function extractContacts(html) {
   return contacts;
 }
 
-function loadEnvironment(content) {
-  for (const line of content.split(/\r?\n/)) {
-    const trimmedLine = line.trim();
-    if (!trimmedLine || trimmedLine.startsWith("#")) continue;
-
-    const separatorIndex = trimmedLine.indexOf("=");
-    if (separatorIndex === -1) continue;
-
-    const key = trimmedLine.slice(0, separatorIndex).trim();
-    const value = trimmedLine.slice(separatorIndex + 1).trim();
-    if (key && process.env[key] === undefined) {
-      process.env[key] = value;
-    }
-  }
-}
 
 async function fetchAttendees(tinyHqEvent) {
   const baseUrl = tinyHqEvent.public_url.replace("https://portal.hobsonsbaychess.com/public", "https://hbcc.tidyhq.com/schedule/");
