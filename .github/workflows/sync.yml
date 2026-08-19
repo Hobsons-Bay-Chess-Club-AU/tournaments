@@ -128,6 +128,22 @@ jobs:
           node src/sync.mjs
           node src/prepare-data.mjs
 
+      - name: Cache data folder
+        if: steps.check_change_id.outputs.skip_steps != 'true'
+        uses: actions/cache@v4
+        with:
+          path: data
+          key: ${{ runner.os }}-data-${{ github.run_id }}
+          restore-keys: |
+            ${{ runner.os }}-data-
+
+      - name: Fetch TinyHQ upcoming events
+        if: steps.check_change_id.outputs.skip_steps != 'true'
+        continue-on-error: true
+        run: node src/tinyhq-sync.mjs
+        env:
+          TINYHQ_COOKIE: ${{ secrets.TINYHQ_COOKIE }}
+
       - name: Build NextJS UI 
         if: steps.check_change_id.outputs.skip_steps != 'true'
         run: |

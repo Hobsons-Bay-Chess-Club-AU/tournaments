@@ -12,6 +12,10 @@ const nextConfig: NextConfig = {
   // Configure images for static export
   images: {
     unoptimized: process.env.NEXT_PUBLIC_EXPORT_STATIC === 'true',
+    remotePatterns: [
+      { protocol: "https", hostname: "s3.tidyhq.com" },
+      { protocol: "https", hostname: "cdn.tidyhq.com" },
+    ],
   },
   
   // Build-time injected environment variables

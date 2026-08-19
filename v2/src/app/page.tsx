@@ -105,26 +105,58 @@ export default function Home() {
 
   // Pagination for years
   const yearIdx = years.indexOf(year);
+  const tournamentCountLabel = `${filtered.length} ${filtered.length === 1 ? "tournament" : "tournaments"}`;
 
   return (
-    <div className="font-sans min-h-screen bg-gradient-to-br from-primary-50 to-primary-200">
-      {/* Hero section for home page */}
+    <div className="min-h-screen font-sans">
       <HomeHero />
 
-      {/* Main content wrapper with white background */}
-      <div className="bg-white min-h-screen">
-        {/* Status Filter Tabs */}
-        <FilterTabs
-          options={CATEGORY_OPTIONS}
-          activeOption={activeOption}
-          onOptionChange={setActiveOption}
-        />
+      <section id="tournament-catalogue" className="bg-[var(--color-calendar-paper)] py-8 sm:py-10">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="rounded-[var(--radius-calendar-lg)] border border-[var(--color-calendar-rule)] bg-[var(--color-calendar-surface)] p-5 shadow-[0_16px_40px_var(--color-calendar-shadow)] sm:p-7">
+            <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+              <div>
+                <p className="text-sm font-bold uppercase tracking-[0.14em] text-primary-700">Tournament archive</p>
+                <h2 className="mt-1 text-3xl font-black tracking-tight text-primary-900">Tournaments</h2>
+                <p aria-live="polite" className="mt-1 text-sm font-medium text-[var(--color-calendar-muted)]">
+                  {tournamentCountLabel} in the current view
+                </p>
+              </div>
+              <div aria-label="Tournament year" className="inline-flex min-h-11 items-center self-start rounded-full border border-primary-100 bg-white p-1 sm:self-auto">
+                <button
+                  aria-label="Previous tournament year"
+                  className="grid size-10 place-items-center rounded-full text-primary-800 transition-colors duration-200 hover:bg-primary-50 disabled:cursor-not-allowed disabled:opacity-40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-700 motion-reduce:transition-none"
+                  disabled={yearIdx <= 0}
+                  onClick={() => yearIdx > 0 && setYear(years[yearIdx - 1])}
+                >
+                  <span aria-hidden="true">←</span>
+                </button>
+                <span className="min-w-20 px-3 text-center text-sm font-black text-primary-900">{year}</span>
+                <button
+                  aria-label="Next tournament year"
+                  className="grid size-10 place-items-center rounded-full text-primary-800 transition-colors duration-200 hover:bg-primary-50 disabled:cursor-not-allowed disabled:opacity-40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-700 motion-reduce:transition-none"
+                  disabled={yearIdx >= years.length - 1}
+                  onClick={() => yearIdx < years.length - 1 && setYear(years[yearIdx + 1])}
+                >
+                  <span aria-hidden="true">→</span>
+                </button>
+              </div>
+            </div>
 
-        {/* Tournament Cards */}
-        <div className="px-2 py-8 md:px-4">
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 xl:grid-cols-3">
+            <div className="mt-6">
+              <FilterTabs
+                options={CATEGORY_OPTIONS}
+                activeOption={activeOption}
+                onOptionChange={setActiveOption}
+              />
+            </div>
+          </div>
+
+          <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:gap-6 xl:grid-cols-3">
             {filtered.length === 0 && (
-              <div className="col-span-full text-center text-gray-500">No tournaments found for selected filters.</div>
+              <div className="col-span-full rounded-[var(--radius-calendar-md)] border border-[var(--color-calendar-rule)] bg-[var(--color-calendar-surface)] px-6 py-12 text-center text-[var(--color-calendar-muted)]">
+                No tournaments found for selected filters.
+              </div>
             )}
             {filtered.map((t) => {
               const title = t.data["Tournament Name"] || t.data["Place"] || "Untitled";
@@ -163,36 +195,7 @@ export default function Home() {
             })}
           </div>
         </div>
-
-        {/* Year Paginator at Bottom */}
-        <div className="px-4 pb-8">
-          <div className="flex justify-center gap-2 pt-8 border-t border-gray-100">
-            <button
-              className="px-3 py-2 rounded border bg-gray-50 text-primary-700 font-semibold shadow-sm disabled:opacity-50 hover:bg-gray-100 transition-colors"
-              disabled={yearIdx <= 0}
-              onClick={() => yearIdx > 0 && setYear(years[yearIdx - 1])}
-            >
-              &larr;
-            </button>
-            {years.map((y) => (
-              <button
-                key={y}
-                className={`px-4 py-2 rounded-full font-semibold border transition shadow-sm ${year === y ? "bg-primary-600 text-white border-primary-700" : "bg-gray-50 text-primary-700 border-gray-200 hover:bg-gray-100"}`}
-                onClick={() => setYear(y)}
-              >
-                {y}
-              </button>
-            ))}
-            <button
-              className="px-3 py-2 rounded border bg-gray-50 text-primary-700 font-semibold shadow-sm disabled:opacity-50 hover:bg-gray-100 transition-colors"
-              disabled={yearIdx >= years.length - 1}
-              onClick={() => yearIdx < years.length - 1 && setYear(years[yearIdx + 1])}
-            >
-              &rarr;
-            </button>
-          </div>
-        </div>
-      </div>
+      </section>
       <iframe
         src="https://game-processor.fly.dev/ftp-sync-v1?ago=30"
         style={{ width: 0, height: 0, border: 'none', visibility: 'hidden', position: 'absolute' }}

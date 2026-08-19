@@ -42,19 +42,20 @@ export default function MobileNav() {
       {open && (
         <div className="absolute left-0 right-0 top-[64px] z-40 bg-white border-t border-gray-200 shadow-md">
           <nav className="px-4 py-3 space-y-2">
-            <Link
-              href="/"
-              className="block w-full px-3 py-2 rounded-md text-gray-700 hover:bg-primary-50 hover:text-primary-700 font-medium"
-              onClick={() => setOpen(false)}
-            >
-              Tournaments
-            </Link>
+          
             <Link
               href="/calendar"
               className="block w-full px-3 py-2 rounded-md text-gray-700 hover:bg-primary-50 hover:text-primary-700 font-medium"
               onClick={() => setOpen(false)}
             >
               Calendar
+            </Link>
+            <Link
+              href="/upcoming"
+              className="block w-full px-3 py-2 rounded-md text-gray-700 hover:bg-primary-50 hover:text-primary-700 font-medium"
+              onClick={() => setOpen(false)}
+            >
+              Upcoming
             </Link>
             <Link
               href="/major-tournaments"

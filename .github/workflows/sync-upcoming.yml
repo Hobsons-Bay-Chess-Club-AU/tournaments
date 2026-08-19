@@ -1,0 +1,117 @@
+name: Sync TinyHQ Upcoming Events
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  sync-upcoming:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Cache top-level node_modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-root-node-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-root-node-
+
+      - name: Cache v2 node_modules
+        uses: actions/cache@v4
+        with:
+          path: v2/node_modules
+          key: ${{ runner.os }}-v2-node-${{ hashFiles('v2/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-v2-node-
+
+      - name: Cache Next.js build cache
+        uses: actions/cache@v4
+        with:
+          path: v2/.next/cache
+          key: ${{ runner.os }}-v2-nextjs-${{ hashFiles('v2/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-v2-nextjs-
+
+      - name: Cache data folder
+        uses: actions/cache@v4
+        with:
+          path: data
+          key: ${{ runner.os }}-data-${{ github.run_id }}
+          restore-keys: |
+            ${{ runner.os }}-data-
+
+      - name: Install root dependencies
+        run: npm install
+
+      - name: Decrypt vault files
+        run: node src/vault.mjs decrypt
+        env:
+          VAULT_SECRET: ${{ secrets.VAULT_SECRET }}
+
+      - name: Fetch TinyHQ upcoming events
+        continue-on-error: true
+        run: node src/tinyhq-sync.mjs
+        env:
+          TINYHQ_COOKIE: ${{ secrets.TINYHQ_COOKIE }}
+
+      - name: Build NextJS UI
+        run: |
+          cd v2
+          npm install
+          npm run build
+          cd ..
+        env:
+          NEXT_PUBLIC_BASE_PATH: "/v2"
+          NEXT_PUBLIC_EXPORT_STATIC: "true"
+          NEXT_PUBLIC_APP_URL: ""
+
+      - name: Copy UI Output
+        run: |
+          rm -rf www/v2
+          cp -r v2/out www/v2
+
+      - name: Commit changes
+        id: commit
+        run: |
+          git status
+          if [[ -n $(git status --porcelain) ]]; then
+            git config --global user.name "TinyHQ Sync"
+            git config --global user.email "tinyhq-sync@hbcc.com"
+            git add data/ www/v2/
+            git commit -m "Sync TinyHQ upcoming events"
+            git push
+            echo "CHANGED=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "No changes to commit."
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Pages
+        if: steps.commit.outputs.CHANGED == 'true'
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        if: steps.commit.outputs.CHANGED == 'true'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "./www"
+
+      - name: Deploy to GitHub Pages
+        if: steps.commit.outputs.CHANGED == 'true'
+        id: deployment
+        uses: actions/deploy-pages@v4

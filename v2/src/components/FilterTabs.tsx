@@ -1,57 +1,49 @@
 import React from "react";
 
 interface FilterTabsProps {
-    options: string[];
-    activeOption: string;
-    onOptionChange: (option: string) => void;
+  options: string[];
+  activeOption: string;
+  onOptionChange: (option: string) => void;
 }
 
-// Removed duplicate/incorrect declaration
 const FilterTabs: React.FC<FilterTabsProps> = ({ options, activeOption, onOptionChange }) => {
-    return (
-        <nav className="bg-white border-b border-gray-200 shadow-sm">
-            <div className="px-0 md:px-4">
-                {/* Desktop tabs */}
-                <div className="hidden lg:block">
-                    <div className="flex justify-center border-b border-gray-200">
-                        {options.map((option: string) => (
-                            <button
-                                key={option}
-                                className={`relative px-8 py-4 font-medium text-sm transition-all duration-200 border-b-2 -mb-px ${activeOption === option
-                                    ? "text-primary-600 border-primary-600 bg-primary-50"
-                                    : "text-gray-500 border-transparent hover:text-gray-700 hover:border-gray-300"
-                                    }`}
-                                onClick={() => onOptionChange(option)}
-                            >
-                                {option}
-                                {activeOption === option && (
-                                    <div className="absolute inset-x-0 bottom-0 h-0.5 bg-primary-600"></div>
-                                )}
-                            </button>
-                        ))}
-                    </div>
-                </div>
-
-                {/* Mobile tabs */}
-                <div className="lg:hidden">
-                    <div className="flex justify-center border-b border-gray-200">
-                        {options.map((option: string) => (
-                            <button
-                                key={option}
-                                className={`flex-1 px-1 md:px-4 py-4 font-medium text-sm transition-all duration-200 border-b-2 -mb-px ${activeOption === option
-                                    ? "text-primary-600 border-primary-600 bg-primary-50"
-                                    : "text-gray-500 border-transparent hover:text-gray-700 hover:border-gray-300"
-                                    }`}
-                                onClick={() => onOptionChange(option)}
-                            >
-                                {option}
-                            </button>
-                        ))}
-                    </div>
-                </div>
-            </div>
-        </nav>
-    );
+  return (
+    <nav
+      aria-label="Tournament category"
+      className="border-y border-[var(--color-calendar-rule)] bg-[var(--color-calendar-surface)]"
+    >
+      <div className="py-3">
+        <div
+          className="flex flex-wrap gap-2"
+          role="group"
+          aria-label="Tournament category filters"
+        >
+          {options.map((option) => {
+            const isActive = activeOption === option;
+            return (
+              <button
+                key={option}
+                aria-pressed={isActive}
+                className={[
+                  "min-h-[44px] shrink-0 rounded-full px-4 text-sm font-bold",
+                  "transition-colors duration-200",
+                  "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-700",
+                  "motion-reduce:transition-none",
+                  "active:scale-[0.97] active:transition-transform",
+                  isActive
+                    ? "bg-primary-700 text-white shadow-sm"
+                    : "border border-primary-100 bg-white text-primary-800 hover:bg-primary-50",
+                ].join(" ")}
+                onClick={() => onOptionChange(option)}
+              >
+                {option}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+    </nav>
+  );
 };
 
 export default FilterTabs;
