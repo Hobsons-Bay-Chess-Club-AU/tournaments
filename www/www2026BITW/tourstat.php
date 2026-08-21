@@ -42,8 +42,8 @@
 <tr><td >Tie break</td> <td> BH/C1 BH SB SB/C1 DE </td> </tr>
 <tr><td >Registered Players</td> <td> 141</td> </tr>
 <tr><td > Number of Federations</td> <td> 9</td> </tr>
-<tr><td >Average Rating (all) </td> <td> 1210</td> </tr>
-<tr><td >Average Rating (only FIDE rated) </td> <td> 1685</td> </tr>
+<tr><td >Average Rating (all) </td> <td> 1211</td> </tr>
+<tr><td >Average Rating (only FIDE rated) </td> <td> 1686</td> </tr>
 <tr ><td > Players from AUS Federation</td> <td> 13</td> </tr>
 <tr><td > Players NOT from AUS Federation</td> <td> 128</td> </tr>
 <tr><td > FIDE rated players </td> <td> 97</td> </tr>
