@@ -5,6 +5,12 @@ export type UpcomingContact = {
   firstName: string;
   lastName: string;
   fideId: string;
+  acfId?: string;
+  fideStandard?: number;
+  fideRapid?: number;
+  fideBlitz?: number;
+  acfClassic?: number;
+  acfQuick?: number;
   status?: string;
   [key: string]: unknown;
 };

@@ -105,13 +105,14 @@ export default async function EventDetailPage({
           {contacts.length === 0 ? (
             <p className="text-gray-700">No participants registered yet.</p>
           ) : (
-            <div className="overflow-hidden rounded-xl border border-gray-200 bg-white">
-              <table className="w-full text-left text-sm">
+            <div className="overflow-x-auto rounded-xl border border-gray-200 bg-white">
+              <table className="min-w-[640px] w-full text-left text-sm">
                 <thead>
                   <tr className="border-b border-gray-100 bg-gray-50">
                     <th className="px-4 py-3 font-semibold text-primary-900">#</th>
                     <th className="px-4 py-3 font-semibold text-primary-900">Name</th>
                     <th className="px-4 py-3 font-semibold text-primary-900">FIDE ID</th>
+                    <th className="px-4 py-3 font-semibold text-primary-900">Ratings</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -136,6 +137,22 @@ export default async function EventDetailPage({
                           >
                             {c.fideId}
                           </a>
+                        ) : (
+                          <span className="text-gray-400">&mdash;</span>
+                        )}
+                      </td>
+                      <td className="px-4 py-2.5 tabular-nums">
+                        {c.fideStandard || c.acfClassic ? (
+                          <div className="flex flex-wrap gap-x-3 gap-y-1 text-xs">
+                            <span className="inline-flex items-baseline gap-1 text-gray-700">
+                              <span>FIDE</span>
+                              <strong className="font-semibold text-primary-900">{c.fideStandard || "—"}</strong>
+                            </span>
+                            <span className="inline-flex items-baseline gap-1 text-gray-700">
+                              <span>ACF</span>
+                              <strong className="font-semibold text-primary-900">{c.acfClassic || "—"}</strong>
+                            </span>
+                          </div>
                         ) : (
                           <span className="text-gray-400">&mdash;</span>
                         )}

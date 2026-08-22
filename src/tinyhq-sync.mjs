@@ -3,6 +3,7 @@ import { resolve } from "node:path";
 import axios from "axios";
 import cheerio from "cheerio";
 import "dotenv/config";
+import { enrichEventSnapshots, loadRatingMaps } from "./tinyhq-rating-enrichment.mjs";
 
 function extractContacts(html) {
   const $ = cheerio.load(html);
@@ -245,6 +246,16 @@ async function main() {
     eventSnapshots.push({ event, contacts });
   }
 
+  let snapshotsForOutput = eventSnapshots;
+  try {
+    const attendees = eventSnapshots.flatMap(({ contacts }) => contacts);
+    const ratingMaps = await loadRatingMaps(attendees);
+    snapshotsForOutput = enrichEventSnapshots(eventSnapshots, ratingMaps);
+    console.log(`  Enriched ratings for ${attendees.length} attendee records.`);
+  } catch (error) {
+    console.warn(`Rating enrichment skipped: ${error.message}`);
+  }
+
   //const contacts = {};
   // for (const contactId of contactIds) {
   //   contacts[contactId] = await fetchJson(
@@ -269,7 +280,7 @@ async function main() {
   //   0,
   // );
 
-  await writeSnapshot("tinyhq-upcoming-events.json", eventSnapshots);
+  await writeSnapshot("tinyhq-upcoming-events.json", snapshotsForOutput);
   // await writeSnapshot("tinyhq_event.json", cleanSnapshot);
 
   // console.log(
