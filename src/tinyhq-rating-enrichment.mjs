@@ -10,8 +10,16 @@ const DEFAULT_TMP_DIR = join(__dirname, "../tmp");
 const FIDE_URL = "https://ratings.fide.com/download/players_list.zip";
 const ACF_LISTING_URL = "https://auschess.org.au/rating-lists/";
 
-function normaliseName(name = "") {
-  return name.toLowerCase().replace(/\s+/g, "");
+export function normaliseName(name = "") {
+  return name
+    .normalize("NFKD")
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .trim()
+    .toLowerCase()
+    .split(/\s+/)
+    .filter(Boolean)
+    .sort()
+    .join(" ");
 }
 
 function findAcfMatch(attendee, map, nameKey) {
@@ -30,7 +38,12 @@ function findFideMatch(attendee, fideMap, nameKey, acfClassicMatch, acfQuickMatc
 
   const candidates = fideMap.get(nameKey);
   const fideCandidates = Array.isArray(candidates) ? candidates : candidates ? [candidates] : [];
-  return fideCandidates.find((candidate) => candidate.fed === "AUS") || null;
+  const australianCandidates = [...new Map(
+    fideCandidates
+      .filter((candidate) => candidate.fed === "AUS")
+      .map((candidate) => [candidate.fideid, candidate]),
+  ).values()];
+  return australianCandidates.length === 1 ? australianCandidates[0] : null;
 }
 
 export function enrichAttendeeRatings(attendee, { fideMap, acfClassicMap, acfQuickMap }) {

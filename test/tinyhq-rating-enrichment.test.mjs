@@ -4,6 +4,7 @@ import test from "node:test";
 import {
   enrichAttendeeRatings,
   enrichEventSnapshots,
+  normaliseName,
 } from "../src/tinyhq-rating-enrichment.mjs";
 
 test("enriches an attendee with all FIDE and ACF ratings", () => {
@@ -31,8 +32,8 @@ test("enriches an attendee with all FIDE and ACF ratings", () => {
   };
 
   const enriched = enrichAttendeeRatings(attendee, {
-    acfClassicMap: new Map([["janesmith", acfClassicPlayer]]),
-    acfQuickMap: new Map([["janesmith", acfQuickPlayer]]),
+    acfClassicMap: new Map([["jane smith", acfClassicPlayer]]),
+    acfQuickMap: new Map([["jane smith", acfQuickPlayer]]),
     fideMap: new Map([["1234567", fidePlayer]]),
   });
 
@@ -67,6 +68,66 @@ test("does not use a non-Australian FIDE player for a name-only match", () => {
   assert.equal(enriched.fideBlitz, 0);
   assert.equal(enriched.acfClassic, 0);
   assert.equal(enriched.acfQuick, 0);
+});
+
+test("matches surname-first FIDE and ACF names when an attendee has no FIDE ID", () => {
+  const attendee = {
+    firstName: "Nyra",
+    lastName: "Venkat",
+    fideId: null,
+  };
+  const acfPlayer = {
+    name: "Venkat, Nyra",
+    acfId: "ACF-200",
+    fideId: "3286410",
+    rating: 1465,
+  };
+  const fidePlayer = {
+    fideid: "3286410",
+    fed: "AUS",
+    rating: 1510,
+    rapid_rating: 1490,
+    blitz_rating: 1475,
+  };
+
+  const enriched = enrichAttendeeRatings(attendee, {
+    acfClassicMap: new Map([["nyra venkat", acfPlayer]]),
+    acfQuickMap: new Map([["nyra venkat", acfPlayer]]),
+    fideMap: new Map([["3286410", fidePlayer], ["nyra venkat", [fidePlayer]]]),
+  });
+
+  assert.deepEqual(enriched, {
+    ...attendee,
+    fideId: "3286410",
+    acfId: "ACF-200",
+    fideStandard: 1510,
+    fideRapid: 1490,
+    fideBlitz: 1475,
+    acfClassic: 1465,
+    acfQuick: 1465,
+  });
+});
+
+test("normalises surname-first names to the same lookup key", () => {
+  assert.equal(normaliseName("Nyra Venkat"), "nyra venkat");
+  assert.equal(normaliseName("Venkat, Nyra"), "nyra venkat");
+});
+
+test("skips an ambiguous Australian FIDE name-only match", () => {
+  const enriched = enrichAttendeeRatings(
+    { firstName: "Alex", lastName: "Lee", fideId: null },
+    {
+      acfClassicMap: new Map(),
+      acfQuickMap: new Map(),
+      fideMap: new Map([["alex lee", [
+        { fideid: "1111111", fed: "AUS", rating: 1800 },
+        { fideid: "2222222", fed: "AUS", rating: 1900 },
+      ]]]),
+    },
+  );
+
+  assert.equal(enriched.fideId, null);
+  assert.equal(enriched.fideStandard, 0);
 });
 
 test("enriches every attendee in the upcoming-event snapshot", () => {
