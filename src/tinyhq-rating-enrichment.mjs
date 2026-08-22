@@ -7,7 +7,7 @@ import unzipper from "unzipper";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DEFAULT_TMP_DIR = join(__dirname, "../tmp");
-const FIDE_URL = "http://ratings.fide.com/download/players_list.zip";
+const FIDE_URL = "https://ratings.fide.com/download/players_list.zip";
 const ACF_LISTING_URL = "https://auschess.org.au/rating-lists/";
 
 function normaliseName(name = "") {

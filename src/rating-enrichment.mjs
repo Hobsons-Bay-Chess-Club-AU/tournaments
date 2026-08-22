@@ -5,7 +5,7 @@ import unzipper from 'unzipper';
 import fetch from 'node-fetch';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const FIDE_URL = 'http://ratings.fide.com/download/players_list.zip';
+const FIDE_URL = 'https://ratings.fide.com/download/players_list.zip';
 const TMP_DIR = join(__dirname, '../tmp');
 const ZIP_PATH = join(TMP_DIR, 'players_list.zip');
 const ACF_LISTING_URL = 'https://auschess.org.au/rating-lists/';
