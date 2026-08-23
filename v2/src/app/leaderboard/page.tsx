@@ -119,7 +119,7 @@ export default function LeaderboardPage() {
             </p>
 
             {/* Stats Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-7xl mx-auto mb-8">
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20">
                 <div className="flex items-center justify-center mb-3">
                   <FaUsers className="text-3xl text-primary-200" />

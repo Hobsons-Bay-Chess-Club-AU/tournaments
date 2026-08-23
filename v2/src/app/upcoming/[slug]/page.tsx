@@ -68,7 +68,7 @@ export default async function EventDetailPage({
 
   return (
     <article className="py-8 sm:py-10">
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {event.image_url && !event.image_url.includes("missing_show") && (
           <div className="relative mb-8 h-56 w-full overflow-hidden rounded-2xl sm:h-72">
             <Image
