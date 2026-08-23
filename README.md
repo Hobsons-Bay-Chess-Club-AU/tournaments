@@ -101,3 +101,16 @@ You can manually trigger the rating enrichment from the GitHub Actions tab in th
 ```bash
 ./scripts/test-rating-enrichment.sh
 ```
+
+### Local FIDE Rating Cache
+
+To avoid downloading the FIDE player list on every local sync, refresh the
+current month's cache manually:
+
+```bash
+npm run local-cache
+```
+
+The file is written to `master-data/Mon-YYYY/players_list.zip` (for example,
+`master-data/Jun-2026/players_list.zip`). TinyHQ enrichment uses that month's
+file when it exists and otherwise falls back to downloading FIDE's list.

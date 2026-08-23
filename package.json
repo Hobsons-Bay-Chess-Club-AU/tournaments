@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "node src/index.mjs",
+    "local-cache": "node src/cache-fide-rating-list.mjs",
     "tidyhq:memberships": "node src/tidyhq-memberships.mjs",
     "tinyhq:sync": "node src/tinyhq-sync.js",
     "tinyhq:browser-attendees": "node src/tinyhq-browser-attendees.js"

@@ -7,6 +7,7 @@ import unzipper from "unzipper";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DEFAULT_TMP_DIR = join(__dirname, "../tmp");
+const MASTER_DATA_DIR = join(__dirname, "../master-data");
 const FIDE_URL = "https://ratings.fide.com/download/players_list.zip";
 const ACF_LISTING_URL = "https://auschess.org.au/rating-lists/";
 
@@ -169,12 +170,29 @@ function buildFideMap(fidePlayers) {
   return fideMap;
 }
 
+function currentMonthFolder(now = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-AU", {
+    month: "short",
+    year: "numeric",
+    timeZone: "Australia/Melbourne",
+  }).formatToParts(now);
+  const month = parts.find((part) => part.type === "month")?.value;
+  const year = parts.find((part) => part.type === "year")?.value;
+  return `${month}-${year}`;
+}
+
 async function loadRatingSourceFiles(tmpDirectory) {
   await mkdir(tmpDirectory, { recursive: true });
   const fideZip = join(tmpDirectory, "players_list.zip");
   const fideTxt = join(tmpDirectory, "players_list_foa.txt");
-  if (!existsSync(fideZip)) await downloadFile(FIDE_URL, fideZip);
-  if (!existsSync(fideTxt)) await unzipFile(fideZip, tmpDirectory, ".txt");
+  const monthlyFideZip = join(MASTER_DATA_DIR, currentMonthFolder(), "players_list.zip");
+  if (existsSync(monthlyFideZip)) {
+    console.log(`Using local FIDE rating cache: ${monthlyFideZip}`);
+    await unzipFile(monthlyFideZip, tmpDirectory, ".txt");
+  } else {
+    if (!existsSync(fideZip)) await downloadFile(FIDE_URL, fideZip);
+    if (!existsSync(fideTxt)) await unzipFile(fideZip, tmpDirectory, ".txt");
+  }
 
   const classicZip = join(tmpDirectory, "vegamast.zip");
   const quickZip = join(tmpDirectory, "vegaquick.zip");

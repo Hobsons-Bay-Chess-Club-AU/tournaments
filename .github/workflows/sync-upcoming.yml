@@ -68,11 +68,8 @@ jobs:
           mkdir -p tmp
           rm -f tmp/players_list.zip.download
           curl --fail --location --show-error --verbose \
-            --connect-timeout 30 \
-            --max-time 180 \
-            --retry 3 \
-            --retry-all-errors \
-            --retry-delay 5 \
+            --connect-timeout 10 \
+            --max-time 10 \
             --output tmp/players_list.zip.download \
             https://ratings.fide.com/download/players_list.zip
           mv tmp/players_list.zip.download tmp/players_list.zip
