@@ -54,7 +54,17 @@ export default async function EventDetailPage({
   if (!entry) notFound();
 
   const { event, contacts: allContacts } = entry;
-  const contacts = allContacts.filter((c) => c.status !== "Cancelled");
+  const contacts = allContacts
+    .filter((c) => c.status !== "Cancelled")
+    .sort((a, b) => {
+      const acfDifference = (b.acfClassic || 0) - (a.acfClassic || 0);
+      if (acfDifference !== 0) return acfDifference;
+
+      const fideDifference = (b.fideStandard || 0) - (a.fideStandard || 0);
+      if (fideDifference !== 0) return fideDifference;
+
+      return `${a.firstName} ${a.lastName}`.localeCompare(`${b.firstName} ${b.lastName}`);
+    });
 
   return (
     <article className="py-8 sm:py-10">

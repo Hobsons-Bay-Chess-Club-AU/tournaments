@@ -14,3 +14,11 @@ test("upcoming attendees expose FIDE standard and ACF classic ratings in a respo
   assert.match(page, />FIDE<\/span>/);
   assert.match(page, />ACF<\/span>/);
 });
+
+test("upcoming attendees sort by ACF rating before FIDE rating", async () => {
+  const page = await readFile(eventPagePath, "utf8");
+
+  assert.match(page, /\.sort\(\(a, b\) =>/);
+  assert.match(page, /b\.acfClassic \|\| 0\) - \(a\.acfClassic \|\| 0\)/);
+  assert.match(page, /b\.fideStandard \|\| 0\) - \(a\.fideStandard \|\| 0\)/);
+});
