@@ -1,17 +1,46 @@
 {
-  "generatedAt": "2026-08-28T10:10:22.629Z",
+  "generatedAt": "2026-08-28T11:13:59.354Z",
   "year": "2026",
-  "count": 99,
+  "count": 202,
   "totalTournaments": 21,
   "players": [
     {
-      "name": "Annadasu,Shreyansh",
-      "id": "24",
+      "name": "Ahmad,Ihtiram",
+      "id": "66",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#24",
-      "tournamentCount": 3,
+      "href": "playercard.html#66",
+      "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Annadasu,Shreyansh",
+      "id": "57",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#57",
+      "tournamentCount": 4,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 1,
@@ -92,12 +121,19 @@
     },
     {
       "name": "Annapureddy,Rheyansh Reddy",
-      "id": "2",
+      "id": "5",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#2",
-      "tournamentCount": 2,
+      "href": "playercard.html#5",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026PurdyCupOpen/data.json",
           "score": 4.5,
@@ -117,6 +153,28 @@
         "standard": 4.5,
         "rapid": 0,
         "blitz": 0.5
+      }
+    },
+    {
+      "name": "Arora,Daanish",
+      "id": "77",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#77",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
       }
     },
     {
@@ -163,13 +221,42 @@
       }
     },
     {
-      "name": "Balaji,Sai Sivesh",
-      "id": "14",
+      "name": "Bacon,Levi",
+      "id": "114",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#14",
-      "tournamentCount": 2,
+      "href": "playercard.html#114",
+      "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Balaji,Sai Sivesh",
+      "id": "63",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#63",
+      "tournamentCount": 3,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwBlitz12026/data.json",
           "score": 5,
@@ -189,6 +276,28 @@
         "standard": 0,
         "rapid": 0.5,
         "blitz": 5
+      }
+    },
+    {
+      "name": "Balamurugan,Soorya",
+      "id": "102",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#102",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
       }
     },
     {
@@ -228,6 +337,28 @@
       }
     },
     {
+      "name": "Bambridge,Greg",
+      "id": "42",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#42",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Barar,Ridam",
       "id": "25",
       "fideId": "",
@@ -250,13 +381,86 @@
       }
     },
     {
-      "name": "Bhadrapura,Vismay",
-      "id": "33",
+      "name": "Bassig,Hamish",
+      "id": "7",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#33",
-      "tournamentCount": 2,
+      "href": "playercard.html#7",
+      "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Batyrbekov,Aidan",
+      "id": "58",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#58",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Batyrbekov,Kaisar",
+      "id": "50",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#50",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Bhadrapura,Vismay",
+      "id": "26",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#26",
+      "tournamentCount": 3,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwBlitz12026/data.json",
           "score": 3,
@@ -276,6 +480,28 @@
         "standard": 0,
         "rapid": 1.5,
         "blitz": 3
+      }
+    },
+    {
+      "name": "Bhat,Dhruv",
+      "id": "64",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#64",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
       }
     },
     {
@@ -308,13 +534,64 @@
       }
     },
     {
-      "name": "Bodke,Krishna Manthan",
-      "id": "13",
+      "name": "Bo,Jamie",
+      "id": "79",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#79",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Bo,Jeremie",
+      "id": "89",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#13",
-      "tournamentCount": 7,
+      "href": "playercard.html#89",
+      "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Bodke,Krishna Manthan",
+      "id": "25",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#25",
+      "tournamentCount": 8,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 3,
@@ -372,6 +649,28 @@
       }
     },
     {
+      "name": "Brockman, Roland",
+      "id": "49",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#49",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Chadha,Anik",
       "id": "31",
       "fideId": "",
@@ -411,6 +710,28 @@
       ],
       "points": {
         "standard": 0.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Chatha, Harmandeep",
+      "id": "40",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#40",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -533,12 +854,19 @@
     },
     {
       "name": "Dakic,Dusan",
-      "id": "10",
+      "id": "24",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#10",
-      "tournamentCount": 1,
+      "href": "playercard.html#24",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026KoshnitskyCupOpen/data.json",
           "score": 2,
@@ -554,13 +882,42 @@
       }
     },
     {
+      "name": "Das,Ayush",
+      "id": "105",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#105",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Davis,Sophie",
-      "id": "14",
+      "id": "30",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#14",
-      "tournamentCount": 2,
+      "href": "playercard.html#30",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
@@ -584,12 +941,19 @@
     },
     {
       "name": "Davis,Tony J",
-      "id": "3",
+      "id": "19",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#3",
-      "tournamentCount": 4,
+      "href": "playercard.html#19",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 4,
@@ -626,13 +990,86 @@
       }
     },
     {
-      "name": "Djatschenko,Addison",
-      "id": "3",
+      "name": "Denny,William",
+      "id": "111",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#3",
+      "href": "playercard.html#111",
       "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Dissanayake,Naveen",
+      "id": "54",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#54",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Dissanayake,Vidushi",
+      "id": "22",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#22",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Djatschenko,Addison",
+      "id": "35",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#35",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwRapid12026/data.json",
           "score": 4,
@@ -648,13 +1085,42 @@
       }
     },
     {
-      "name": "Dolor,Raymond",
-      "id": "31",
+      "name": "Dolor,Lucas",
+      "id": "115",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#31",
+      "href": "playercard.html#115",
       "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Dolor,Raymond",
+      "id": "116",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#116",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwRapid12026/data.json",
           "score": 3,
@@ -670,6 +1136,28 @@
       }
     },
     {
+      "name": "Dragicevic,Domagoj",
+      "id": "4",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#4",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Enano,Ronald",
       "id": "5",
       "fideId": "",
@@ -681,6 +1169,28 @@
           "tournament": "www2026WesternMajorOpen/data.json",
           "score": 0,
           "name": "Hobsons Bay Western Major 2026",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Fang,Candice",
+      "id": "104",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#104",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -757,6 +1267,138 @@
       }
     },
     {
+      "name": "Ganesh Kumar,Mukunth",
+      "id": "107",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#107",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Goh,Daphne",
+      "id": "112",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#112",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Goh,Julian",
+      "id": "113",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#113",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Goh,Nicholas",
+      "id": "93",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#93",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Gowda,Likhil",
+      "id": "117",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#117",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Guha,Shanaya",
+      "id": "55",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#55",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Gusain,Daniel",
       "id": "1",
       "fideId": "",
@@ -807,13 +1449,64 @@
       }
     },
     {
-      "name": "Hari,Dhruv",
-      "id": "10",
+      "name": "Ha,Aeson",
+      "id": "48",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#10",
-      "tournamentCount": 2,
+      "href": "playercard.html#48",
+      "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Haller,Annabelle",
+      "id": "118",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#118",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Hari,Dhruv",
+      "id": "21",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#21",
+      "tournamentCount": 3,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 4,
@@ -831,6 +1524,28 @@
       ],
       "points": {
         "standard": 6,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Hernandez Sanchez, Jairo Andres",
+      "id": "1",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#1",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -916,12 +1631,19 @@
     },
     {
       "name": "Hogan,Steven",
-      "id": "20",
+      "id": "46",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#20",
-      "tournamentCount": 7,
+      "href": "playercard.html#46",
+      "tournamentCount": 8,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 3.5,
@@ -980,12 +1702,19 @@
     },
     {
       "name": "Hogg,Dean",
-      "id": "2",
+      "id": "15",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#2",
-      "tournamentCount": 6,
+      "href": "playercard.html#15",
+      "tournamentCount": 7,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
@@ -1036,6 +1765,72 @@
       }
     },
     {
+      "name": "Hu,Lydia Tianhui",
+      "id": "106",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#106",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Hu,Nathanael Tianen",
+      "id": "119",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#119",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Hu,Timothy Tianmeng",
+      "id": "85",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#85",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Huang,Michael",
       "id": "15",
       "fideId": "",
@@ -1062,6 +1857,28 @@
         "standard": 0,
         "rapid": 2.5,
         "blitz": 5.5
+      }
+    },
+    {
+      "name": "Humphreys,Scott",
+      "id": "45",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#45",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
       }
     },
     {
@@ -1109,13 +1926,42 @@
       }
     },
     {
-      "name": "Jyothi Nikhil,Neev",
-      "id": "30",
+      "name": "Jagannathan,Shashvath",
+      "id": "82",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#30",
-      "tournamentCount": 4,
+      "href": "playercard.html#82",
+      "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Jyothi Nikhil,Neev",
+      "id": "70",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#70",
+      "tournamentCount": 5,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
@@ -1153,12 +1999,19 @@
     },
     {
       "name": "Jyothi Nikhil,Vihaan",
-      "id": "27",
+      "id": "110",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#27",
-      "tournamentCount": 2,
+      "href": "playercard.html#110",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwBlitz12026/data.json",
           "score": 0,
@@ -1181,6 +2034,28 @@
       }
     },
     {
+      "name": "Kansal,Nuwan",
+      "id": "20",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#20",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Kantharaju,Aryan",
       "id": "30",
       "fideId": "",
@@ -1194,6 +2069,50 @@
           "name": "Hobsons Bay Blitz 1 2026",
           "totalRounds": "9",
           "ratingType": "blitz"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Katakam,Aadhya Sai",
+      "id": "65",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#65",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Katakam,Deethya Sai",
+      "id": "29",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#29",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
@@ -1226,12 +2145,19 @@
     },
     {
       "name": "Kaur,Mishleen",
-      "id": "21",
+      "id": "96",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#21",
-      "tournamentCount": 1,
+      "href": "playercard.html#96",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwBlitz12026/data.json",
           "score": 4,
@@ -1273,6 +2199,72 @@
         "standard": 0,
         "rapid": 0.5,
         "blitz": 0.5
+      }
+    },
+    {
+      "name": "Kildea,James",
+      "id": "75",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#75",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Kodituwakku,Damhiru",
+      "id": "39",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#39",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Kommina,Bhavishya",
+      "id": "101",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#101",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
       }
     },
     {
@@ -1408,12 +2400,19 @@
     },
     {
       "name": "Krishnan,Anirudh",
-      "id": "6",
+      "id": "12",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#6",
-      "tournamentCount": 3,
+      "href": "playercard.html#12",
+      "tournamentCount": 4,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 3,
@@ -1516,12 +2515,19 @@
     },
     {
       "name": "Lacson,Joemar",
-      "id": "5",
+      "id": "14",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#5",
-      "tournamentCount": 6,
+      "href": "playercard.html#14",
+      "tournamentCount": 7,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 3.5,
@@ -1572,13 +2578,174 @@
       }
     },
     {
-      "name": "Manoj,Dev",
-      "id": "30",
+      "name": "Laffey,Julian",
+      "id": "71",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#30",
+      "href": "playercard.html#71",
       "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Lake,Logan",
+      "id": "120",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#120",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Le Nguyen,Khoi",
+      "id": "52",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#52",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Lee,William San",
+      "id": "121",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#121",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Li,Harry",
+      "id": "81",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#81",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Li,Jackie",
+      "id": "6",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#6",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Madduluri,Advaitha",
+      "id": "108",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#108",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Manoj,Dev",
+      "id": "88",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#88",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwHobsonsBayCupOpen/data.json",
           "score": 3,
@@ -1589,6 +2756,50 @@
       ],
       "points": {
         "standard": 3,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Mantrala,Vishruth",
+      "id": "122",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#122",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Mantrala,Yuvan",
+      "id": "123",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#123",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -1725,12 +2936,19 @@
     },
     {
       "name": "Menezes,Eric",
-      "id": "15",
+      "id": "37",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#15",
-      "tournamentCount": 5,
+      "href": "playercard.html#37",
+      "tournamentCount": 6,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026KoshnitskyCupOpen/data.json",
           "score": 3,
@@ -1774,13 +2992,42 @@
       }
     },
     {
-      "name": "Milic,James",
-      "id": "17",
+      "name": "Menghani,Ishaan",
+      "id": "124",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#17",
+      "href": "playercard.html#124",
       "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Milic,James",
+      "id": "41",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#41",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
@@ -1818,6 +3065,50 @@
       }
     },
     {
+      "name": "Mondal,Jahnavi",
+      "id": "69",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#69",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Mondal,Tanisha",
+      "id": "125",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#125",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Moreta,Simon",
       "id": "17",
       "fideId": "",
@@ -1847,6 +3138,50 @@
       }
     },
     {
+      "name": "Moser,Luke",
+      "id": "99",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#99",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Moser,William",
+      "id": "95",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#95",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Mullen,Chris",
       "id": "5",
       "fideId": "",
@@ -1870,12 +3205,19 @@
     },
     {
       "name": "Nema,Nivaan",
-      "id": "19",
+      "id": "83",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#19",
-      "tournamentCount": 2,
+      "href": "playercard.html#83",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwBlitz12026/data.json",
           "score": 4.5,
@@ -1898,13 +3240,64 @@
       }
     },
     {
-      "name": "Nguyen,Anh Kiet",
-      "id": "4",
+      "name": "Nemeth,John",
+      "id": "3",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#4",
-      "tournamentCount": 6,
+      "href": "playercard.html#3",
+      "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Ngo,William",
+      "id": "67",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#67",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Nguyen,Anh Kiet",
+      "id": "10",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#10",
+      "tournamentCount": 7,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 3.5,
@@ -2085,6 +3478,28 @@
       }
     },
     {
+      "name": "Panchaparvala,Rohan Aditya",
+      "id": "126",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#126",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Pant,Krishang",
       "id": "39",
       "fideId": "",
@@ -2108,12 +3523,19 @@
     },
     {
       "name": "Parker,Lucas",
-      "id": "16",
+      "id": "43",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#16",
-      "tournamentCount": 1,
+      "href": "playercard.html#43",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 3,
@@ -2209,12 +3631,19 @@
     },
     {
       "name": "Paul,Nikash",
-      "id": "19",
+      "id": "47",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#19",
-      "tournamentCount": 5,
+      "href": "playercard.html#47",
+      "tournamentCount": 6,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2.5,
@@ -2258,6 +3687,50 @@
       }
     },
     {
+      "name": "Pitono,Abraham",
+      "id": "17",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#17",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Poberezovsky, Daniel",
+      "id": "9",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#9",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Polidano,Rohan",
       "id": "36",
       "fideId": "",
@@ -2281,12 +3754,19 @@
     },
     {
       "name": "Pradeep,Mayukh",
-      "id": "39",
+      "id": "109",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#39",
-      "tournamentCount": 1,
+      "href": "playercard.html#109",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwRapid12026/data.json",
           "score": 1,
@@ -2302,13 +3782,64 @@
       }
     },
     {
-      "name": "Ramanathan,Ashwin",
-      "id": "22",
+      "name": "Prince,Aliza",
+      "id": "92",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#92",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Qi,Jaden",
+      "id": "59",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#22",
-      "tournamentCount": 3,
+      "href": "playercard.html#59",
+      "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Ramanathan,Ashwin",
+      "id": "34",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#34",
+      "tournamentCount": 4,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2.5,
@@ -2333,6 +3864,28 @@
       ],
       "points": {
         "standard": 8.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Rao, Krishay",
+      "id": "36",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#36",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -2364,6 +3917,72 @@
         "standard": 0,
         "rapid": 2,
         "blitz": 4
+      }
+    },
+    {
+      "name": "Rathore,Akshobhya",
+      "id": "44",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#44",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Rawat,Vivaan",
+      "id": "60",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#60",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Rodriguez,Maickel",
+      "id": "28",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#28",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
       }
     },
     {
@@ -2404,12 +4023,19 @@
     },
     {
       "name": "Ruaya,Rohan",
-      "id": "27",
+      "id": "74",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#27",
-      "tournamentCount": 2,
+      "href": "playercard.html#74",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026PurdyCupOpen/data.json",
           "score": 1.5,
@@ -2428,6 +4054,28 @@
       "points": {
         "standard": 1.5,
         "rapid": 2,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Rubiano,Carlos Daniel",
+      "id": "127",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#127",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
         "blitz": 0
       }
     },
@@ -2455,12 +4103,19 @@
     },
     {
       "name": "Saha,Arya",
-      "id": "41",
+      "id": "27",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#41",
-      "tournamentCount": 1,
+      "href": "playercard.html#27",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwRapid12026/data.json",
           "score": 1,
@@ -2476,13 +4131,42 @@
       }
     },
     {
-      "name": "Samraat,Aayush",
-      "id": "16",
+      "name": "Saha,Avinandan (Arjun)",
+      "id": "86",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#16",
-      "tournamentCount": 2,
+      "href": "playercard.html#86",
+      "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Samraat,Aayush",
+      "id": "103",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#103",
+      "tournamentCount": 3,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwBlitz12026/data.json",
           "score": 4.5,
@@ -2502,6 +4186,28 @@
         "standard": 0,
         "rapid": 3,
         "blitz": 4.5
+      }
+    },
+    {
+      "name": "Saravanakumar,Thaswin",
+      "id": "128",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#128",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
       }
     },
     {
@@ -2527,13 +4233,130 @@
       }
     },
     {
-      "name": "Shaiek,Nihal",
-      "id": "18",
+      "name": "Sathish,Sukrrish",
+      "id": "129",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#18",
-      "tournamentCount": 2,
+      "href": "playercard.html#129",
+      "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Scenna,George",
+      "id": "80",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#80",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Scenna,Luna",
+      "id": "51",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#51",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Sethi,Vivaan",
+      "id": "130",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#130",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Shah,Swaraa",
+      "id": "94",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#94",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Shaiek,Nihal",
+      "id": "90",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#90",
+      "tournamentCount": 3,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwBlitz12026/data.json",
           "score": 4.5,
@@ -2613,6 +4436,28 @@
       }
     },
     {
+      "name": "Sheth,Adidev",
+      "id": "72",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#72",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Singh,Abhyuday",
       "id": "29",
       "fideId": "",
@@ -2642,13 +4487,108 @@
       }
     },
     {
-      "name": "Soo,Kai Jie",
-      "id": "1",
+      "name": "Singh,Sumair",
+      "id": "98",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#1",
+      "href": "playercard.html#98",
       "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Siva,Mrinalini",
+      "id": "53",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#53",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Smith,Declan",
+      "id": "8",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#8",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Smith,Jack",
+      "id": "16",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#16",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Soo,Kai Jie",
+      "id": "2",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#2",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwHobsonsBayCupOpen/data.json",
           "score": 2.5,
@@ -2664,13 +4604,86 @@
       }
     },
     {
-      "name": "Szuveges,Narelle S",
-      "id": "12",
+      "name": "Sood,Sara",
+      "id": "131",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#12",
-      "tournamentCount": 3,
+      "href": "playercard.html#131",
+      "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Subhash,Ryan",
+      "id": "100",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#100",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Suman Pentela",
+      "id": "18",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#18",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Szuveges,Narelle S",
+      "id": "32",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#32",
+      "tournamentCount": 4,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
@@ -2695,6 +4708,50 @@
       ],
       "points": {
         "standard": 10,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Tai,Ethan",
+      "id": "33",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#33",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Tempany,Ayden",
+      "id": "73",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#73",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -2751,6 +4808,28 @@
       }
     },
     {
+      "name": "Tran,Khoa Dinh",
+      "id": "132",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#132",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Tregaskis-Lie, Linda",
       "id": "35",
       "fideId": "",
@@ -2762,6 +4841,50 @@
           "tournament": "www2026HonourableBob/data.json",
           "score": 0,
           "name": "2026 Hobsons Bay Honourable Bob",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Tripathi,Aarav",
+      "id": "133",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#133",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Upadhyay,Viaan",
+      "id": "134",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#134",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2803,12 +4926,19 @@
     },
     {
       "name": "Vemula,Thamoghna",
-      "id": "17",
+      "id": "84",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#17",
-      "tournamentCount": 2,
+      "href": "playercard.html#84",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwBlitz12026/data.json",
           "score": 5,
@@ -2828,6 +4958,28 @@
         "standard": 0,
         "rapid": 3,
         "blitz": 5
+      }
+    },
+    {
+      "name": "Venkat,Nyra",
+      "id": "91",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#91",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
       }
     },
     {
@@ -2875,13 +5027,86 @@
       }
     },
     {
-      "name": "Wang,Evan",
-      "id": "40",
+      "name": "Vinu,Vaishnav",
+      "id": "135",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#40",
-      "tournamentCount": 3,
+      "href": "playercard.html#135",
+      "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Vinu,Vinayak",
+      "id": "136",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#136",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Wales,Sam",
+      "id": "68",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#68",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Wang,Evan",
+      "id": "38",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#38",
+      "tournamentCount": 4,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwBlitz12026/data.json",
           "score": 3,
@@ -2911,13 +5136,42 @@
       }
     },
     {
-      "name": "Wang,Tim",
-      "id": "4",
+      "name": "Wang,Liam",
+      "id": "137",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#4",
-      "tournamentCount": 4,
+      "href": "playercard.html#137",
+      "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Wang,Tim",
+      "id": "13",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#13",
+      "tournamentCount": 5,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026KoshnitskyCupOpen/data.json",
           "score": 1.5,
@@ -2954,13 +5208,64 @@
       }
     },
     {
-      "name": "Whitford,Matthew",
-      "id": "15",
+      "name": "Watson,Jacob",
+      "id": "87",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#15",
-      "tournamentCount": 5,
+      "href": "playercard.html#87",
+      "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Wei,Andrew",
+      "id": "76",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#76",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Whitford,Matthew",
+      "id": "31",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#31",
+      "tournamentCount": 6,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 3,
@@ -3005,12 +5310,19 @@
     },
     {
       "name": "Wilkinson,Greg",
-      "id": "25",
+      "id": "56",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#25",
-      "tournamentCount": 4,
+      "href": "playercard.html#56",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026HonourableBob/data.json",
           "score": 2,
@@ -3047,6 +5359,28 @@
       }
     },
     {
+      "name": "Wright,Leeyn",
+      "id": "138",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#138",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Yadav,Riyaan",
       "id": "45",
       "fideId": "",
@@ -3065,6 +5399,28 @@
       "points": {
         "standard": 0,
         "rapid": 2,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Yadav,Yuvan",
+      "id": "139",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#139",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
         "blitz": 0
       }
     },
@@ -3091,6 +5447,28 @@
       }
     },
     {
+      "name": "Yates,Anna",
+      "id": "78",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#78",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Yegnavajjula,Aryan Srivatsav",
       "id": "25",
       "fideId": "",
@@ -3109,6 +5487,160 @@
       "points": {
         "standard": 0,
         "rapid": 1.5,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Yendru,Srikrishna",
+      "id": "61",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#61",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Yoon,Nile",
+      "id": "140",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#140",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Young,Matthew",
+      "id": "23",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#23",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Zhang,Luxi",
+      "id": "141",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#141",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Zhao,Oscar",
+      "id": "97",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#97",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Zheng,Ryan",
+      "id": "11",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#11",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Zhou,Zenan",
+      "id": "62",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#62",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 0,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
         "blitz": 0
       }
     },
