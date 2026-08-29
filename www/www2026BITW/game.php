@@ -1,1 +1,1 @@
- <h4>Download PGN:</h4> <div class="btn-toolbar"> <div class="btn-group"></div> </div>
+ <h4>Download PGN:</h4> <div class="btn-toolbar"> <div class="btn-group"><a class="btn btn-default btn-sm" href="/2026 BITW1.pgn" > 1 </a> <a class="btn btn-default btn-sm" href="/2026 BITW2.pgn" > 2 </a> </div> </div>
