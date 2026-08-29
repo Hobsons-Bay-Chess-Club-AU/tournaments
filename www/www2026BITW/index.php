@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs2.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs3.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
@@ -60,7 +60,7 @@
 <tr> 
 <td><span class="idn"> 12</span></td><td><span class="notitle male"> </span></td><td> Krishnan,Anirudh </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1764</td><td>1901</td><td>1764</td> </tr>
 <tr> 
-<td><span class="idn"> 13</span></td><td><span class="notitle male"> </span></td><td> Wang,Tim </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1762</td><td>1762</td><td>0</td> </tr>
+<td><span class="idn"> 13</span></td><td><span class="notitle male"> </span></td><td> Wang,Tim </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1762</td><td>1762</td><td>1762</td> </tr>
 <tr> 
 <td><span class="idn"> 14</span></td><td><span class="notitle male"> </span></td><td> Lacson,Joemar </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1754</td><td>1882</td><td>1754</td> </tr>
 <tr> 
@@ -70,25 +70,25 @@
 <tr> 
 <td><span class="idn"> 17</span></td><td><span class="notitle male"> </span></td><td> Pitono,Abraham </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1707</td><td>1847</td><td>1707</td> </tr>
 <tr> 
-<td><span class="idn"> 18</span></td><td><span class="notitle male"> </span></td><td> Pentela,Suman </td><td ><img class="shadow" src="flag/ind.png" alt="IND"></td><td></td><td>1699</td><td>1699</td><td>0</td> </tr>
+<td><span class="idn"> 18</span></td><td><span class="notitle male"> </span></td><td> Pentela,Suman </td><td ><img class="shadow" src="flag/ind.png" alt="IND"></td><td></td><td>1699</td><td>1699</td><td>1699</td> </tr>
 <tr> 
 <td><span class="idn"> 19</span></td><td><span class="title male"> CM</span></td><td> Davis,Tony J </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1673</td><td>1773</td><td>1673</td> </tr>
 <tr> 
-<td><span class="idn"> 20</span></td><td><span class="notitle male"> </span></td><td> Kansal,Nuwan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1658</td><td>1658</td><td>0</td> </tr>
+<td><span class="idn"> 20</span></td><td><span class="notitle male"> </span></td><td> Kansal,Nuwan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1658</td><td>1658</td><td>1658</td> </tr>
 <tr> 
 <td><span class="idn"> 21</span></td><td><span class="notitle male"> </span></td><td> Hari,Dhruv </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1634</td><td>1859</td><td>1634</td> </tr>
 <tr> 
 <td><span class="idn"> 22</span></td><td><span class="notitle female"> </span></td><td> Dissanayake,Vidushi </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1627</td><td>1841</td><td>1627</td> </tr>
 <tr> 
-<td><span class="idn"> 23</span></td><td><span class="notitle male"> </span></td><td> Young,Matthew </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1613</td><td>1613</td><td>0</td> </tr>
+<td><span class="idn"> 23</span></td><td><span class="notitle male"> </span></td><td> Young,Matthew </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1613</td><td>1613</td><td>1613</td> </tr>
 <tr> 
 <td><span class="idn"> 24</span></td><td><span class="notitle male"> </span></td><td> Dakic,Dusan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1611</td><td>1792</td><td>1611</td> </tr>
 <tr> 
 <td><span class="idn"> 25</span></td><td><span class="notitle male"> </span></td><td> Bodke,Krishna Manthan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1599</td><td>1948</td><td>1599</td> </tr>
 <tr> 
-<td><span class="idn"> 26</span></td><td><span class="notitle male"> </span></td><td> Bhadrapura,Vismay </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1562</td><td>1562</td><td>0</td> </tr>
+<td><span class="idn"> 26</span></td><td><span class="notitle male"> </span></td><td> Bhadrapura,Vismay </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1562</td><td>1562</td><td>1562</td> </tr>
 <tr> 
-<td><span class="idn"> 27</span></td><td><span class="notitle male"> </span></td><td> Saha,Arya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1533</td><td>1533</td><td>0</td> </tr>
+<td><span class="idn"> 27</span></td><td><span class="notitle male"> </span></td><td> Saha,Arya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1533</td><td>1533</td><td>1533</td> </tr>
 <tr> 
 <td><span class="idn"> 28</span></td><td><span class="notitle male"> </span></td><td> Rodriguez,Maickel </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1514</td><td>1778</td><td>1514</td> </tr>
 <tr> 
@@ -106,15 +106,15 @@
 <tr> 
 <td><span class="idn"> 35</span></td><td><span class="notitle male"> </span></td><td> Djatschenko,Addison </td><td ><img class="shadow" src="flag/tas.png" alt="TAS"></td><td></td><td>1462</td><td>1711</td><td>1462</td> </tr>
 <tr> 
-<td><span class="idn"> 36</span></td><td><span class="notitle male"> </span></td><td> Rao, Krishay </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1460</td><td>1460</td><td>0</td> </tr>
+<td><span class="idn"> 36</span></td><td><span class="notitle male"> </span></td><td> Rao, Krishay </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1460</td><td>1460</td><td>1460</td> </tr>
 <tr> 
 <td><span class="idn"> 37</span></td><td><span class="notitle male"> </span></td><td> Menezes,Eric </td><td ><img class="shadow" src="flag/sa.png" alt="SA"></td><td></td><td>1457</td><td>1745</td><td>1457</td> </tr>
 <tr> 
-<td><span class="idn"> 38</span></td><td><span class="notitle male"> </span></td><td> Wang,Evan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1455</td><td>1455</td><td>0</td> </tr>
+<td><span class="idn"> 38</span></td><td><span class="notitle male"> </span></td><td> Wang,Evan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1455</td><td>1455</td><td>1455</td> </tr>
 <tr> 
 <td><span class="idn"> 39</span></td><td><span class="notitle male"> </span></td><td> Kodituwakku,Damhiru </td><td ><img class="shadow" src="flag/qld.png" alt="QLD"></td><td></td><td>1441</td><td>1622</td><td>1441</td> </tr>
 <tr> 
-<td><span class="idn"> 40</span></td><td><span class="notitle male"> </span></td><td> Chatha, Harmandeep </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1440</td><td>1440</td><td>0</td> </tr>
+<td><span class="idn"> 40</span></td><td><span class="notitle male"> </span></td><td> Chatha, Harmandeep </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1440</td><td>1440</td><td>1440</td> </tr>
 <tr> 
 <td><span class="idn"> 41</span></td><td><span class="notitle male"> </span></td><td> Milic,James </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1439</td><td>1657</td><td>1439</td> </tr>
 <tr> 
