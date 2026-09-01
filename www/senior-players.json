@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-31T20:38:53.189Z",
+  "generatedAt": "2026-09-01T00:22:25.119Z",
   "year": "2026",
   "count": 202,
-  "totalTournaments": 21,
+  "totalTournaments": 22,
   "players": [
     {
       "name": "Ahmad,Ihtiram",
@@ -10,12 +10,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#66",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -32,12 +39,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#57",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 1.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -125,12 +139,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#5",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 4,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -150,7 +171,7 @@
         }
       ],
       "points": {
-        "standard": 8.5,
+        "standard": 9.5,
         "rapid": 0,
         "blitz": 0.5
       }
@@ -161,7 +182,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#77",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -169,10 +190,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0.5,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -226,12 +254,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#114",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 1,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -248,12 +283,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#63",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 1,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -284,7 +326,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#102",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -292,10 +334,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -342,12 +391,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#42",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 4,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -386,7 +442,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#7",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -394,10 +450,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3.5,
+        "standard": 4.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -408,7 +471,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#58",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -416,10 +479,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 4,
         "rapid": 0,
         "blitz": 0
       }
@@ -430,7 +500,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#50",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -438,10 +508,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3.5,
+        "standard": 4.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -452,12 +529,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#26",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -477,7 +561,7 @@
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 1.5,
         "blitz": 3
       }
@@ -488,12 +572,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#64",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -539,7 +630,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#79",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -547,26 +638,11 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
-        }
-      ],
-      "points": {
-        "standard": 2,
-        "rapid": 0,
-        "blitz": 0
-      }
-    },
-    {
-      "name": "Bo,Jeremie",
-      "id": "89",
-      "fideId": "",
-      "gender": "male",
-      "href": "playercard.html#89",
-      "tournamentCount": 1,
-      "tournaments": [
+        },
         {
-          "tournament": "www2026BITW/data.json",
-          "score": 3,
-          "name": "2026 HBCC Best in the West",
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -578,17 +654,53 @@
       }
     },
     {
+      "name": "Bo,Jeremie",
+      "id": "89",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#89",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 3,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 4,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Bodke,Krishna Manthan",
       "id": "25",
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#25",
-      "tournamentCount": 8,
+      "tournamentCount": 9,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 4,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -643,7 +755,7 @@
         }
       ],
       "points": {
-        "standard": 22,
+        "standard": 23,
         "rapid": 0.5,
         "blitz": 6
       }
@@ -654,12 +766,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#49",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -720,12 +839,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#40",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -858,12 +984,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#24",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -876,7 +1009,7 @@
         }
       ],
       "points": {
-        "standard": 5.5,
+        "standard": 6.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -887,7 +1020,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#105",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -895,10 +1028,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -909,12 +1049,19 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#30",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 4,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -934,7 +1081,7 @@
         }
       ],
       "points": {
-        "standard": 9,
+        "standard": 10,
         "rapid": 0,
         "blitz": 0
       }
@@ -945,12 +1092,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#19",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 4,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -984,7 +1138,7 @@
         }
       ],
       "points": {
-        "standard": 17.5,
+        "standard": 18.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -995,12 +1149,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#111",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 1,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1017,7 +1178,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#54",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -1025,10 +1186,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0.5,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 0.5,
+        "standard": 1,
         "rapid": 0,
         "blitz": 0
       }
@@ -1039,7 +1207,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#22",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -1047,10 +1215,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0.5,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 0.5,
+        "standard": 1,
         "rapid": 0,
         "blitz": 0
       }
@@ -1061,12 +1236,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#35",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0.5,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -1079,7 +1261,7 @@
         }
       ],
       "points": {
-        "standard": 3.5,
+        "standard": 4,
         "rapid": 4,
         "blitz": 0
       }
@@ -1090,12 +1272,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#115",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 1,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1112,12 +1301,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#116",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0.5,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -1130,7 +1326,7 @@
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3,
         "rapid": 3,
         "blitz": 0
       }
@@ -1141,7 +1337,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#4",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -1149,10 +1345,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4.5,
+        "standard": 5.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -1185,7 +1388,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#104",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -1193,10 +1396,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -1272,7 +1482,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#107",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -1280,10 +1490,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -1294,12 +1511,19 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#112",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 0,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1316,7 +1540,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#113",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -1324,26 +1548,11 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
-        }
-      ],
-      "points": {
-        "standard": 1,
-        "rapid": 0,
-        "blitz": 0
-      }
-    },
-    {
-      "name": "Goh,Nicholas",
-      "id": "93",
-      "fideId": "",
-      "gender": "male",
-      "href": "playercard.html#93",
-      "tournamentCount": 1,
-      "tournaments": [
+        },
         {
-          "tournament": "www2026BITW/data.json",
-          "score": 2,
-          "name": "2026 HBCC Best in the West",
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1355,17 +1564,53 @@
       }
     },
     {
+      "name": "Goh,Nicholas",
+      "id": "93",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#93",
+      "tournamentCount": 2,
+      "tournaments": [
+        {
+          "tournament": "www2026BITW/data.json",
+          "score": 2,
+          "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 3,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Gowda,Likhil",
       "id": "117",
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#117",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 0,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1382,12 +1627,19 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#55",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1454,12 +1706,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#48",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1476,12 +1735,19 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#118",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 0.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1498,12 +1764,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#21",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -1523,7 +1796,7 @@
         }
       ],
       "points": {
-        "standard": 9.5,
+        "standard": 10.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -1534,7 +1807,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#1",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -1542,10 +1815,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4.5,
+        "standard": 5.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -1635,12 +1915,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#46",
-      "tournamentCount": 8,
+      "tournamentCount": 9,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -1706,12 +1993,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#15",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -1759,7 +2053,7 @@
         }
       ],
       "points": {
-        "standard": 15.5,
+        "standard": 16.5,
         "rapid": 4,
         "blitz": 6
       }
@@ -1770,7 +2064,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#106",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -1778,10 +2072,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 4,
         "rapid": 0,
         "blitz": 0
       }
@@ -1792,12 +2093,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#119",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1814,7 +2122,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#85",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -1822,10 +2130,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -1865,12 +2180,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#45",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -1931,7 +2253,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#82",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -1939,10 +2261,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 1.5,
+        "standard": 2.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -1953,12 +2282,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#70",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -2003,12 +2339,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#110",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -2039,12 +2382,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#20",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2083,7 +2433,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#65",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -2091,10 +2441,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -2105,7 +2462,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#29",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -2113,10 +2470,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 5,
         "rapid": 0,
         "blitz": 0
       }
@@ -2149,12 +2513,19 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#96",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -2207,7 +2578,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#75",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -2215,10 +2586,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 4,
         "rapid": 0,
         "blitz": 0
       }
@@ -2229,12 +2607,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#39",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 4,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2251,12 +2636,19 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#101",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2404,12 +2796,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#12",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -2436,7 +2835,7 @@
         }
       ],
       "points": {
-        "standard": 14,
+        "standard": 15,
         "rapid": 0,
         "blitz": 0
       }
@@ -2519,12 +2918,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#14",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -2572,7 +2978,7 @@
         }
       ],
       "points": {
-        "standard": 18.5,
+        "standard": 19.5,
         "rapid": 4,
         "blitz": 5
       }
@@ -2583,12 +2989,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#71",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2605,12 +3018,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#120",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 1,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2627,12 +3047,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#52",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 1.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2649,12 +3076,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#121",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 1,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2671,7 +3105,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#81",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -2679,10 +3113,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 4,
         "rapid": 0,
         "blitz": 0
       }
@@ -2693,12 +3134,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#6",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2715,12 +3163,19 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#108",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2737,12 +3192,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#88",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -2755,7 +3217,7 @@
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 7,
         "rapid": 0,
         "blitz": 0
       }
@@ -2766,12 +3228,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#122",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 0,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2788,12 +3257,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#123",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -2940,12 +3416,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#37",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0.5,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -2986,7 +3469,7 @@
         }
       ],
       "points": {
-        "standard": 13.5,
+        "standard": 14,
         "rapid": 4,
         "blitz": 7
       }
@@ -2997,12 +3480,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#124",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 1,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -3019,12 +3509,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#41",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -3070,12 +3567,19 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#69",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -3092,12 +3596,19 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#125",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 1,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -3143,7 +3654,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#99",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -3151,10 +3662,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 1,
+        "standard": 2,
         "rapid": 0,
         "blitz": 0
       }
@@ -3165,7 +3683,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#95",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -3173,10 +3691,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -3209,12 +3734,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#83",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0.5,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -3234,7 +3766,7 @@
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 2.5,
         "rapid": 2,
         "blitz": 4.5
       }
@@ -3245,7 +3777,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#3",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -3253,10 +3785,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4.5,
+        "standard": 5.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -3267,12 +3806,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#67",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -3289,12 +3835,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#10",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0.5,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -3342,7 +3895,7 @@
         }
       ],
       "points": {
-        "standard": 20.5,
+        "standard": 21,
         "rapid": 5,
         "blitz": 9
       }
@@ -3483,12 +4036,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#126",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 1.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -3527,12 +4087,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#43",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -3635,12 +4202,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#47",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -3692,7 +4266,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#18",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -3700,10 +4274,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3.5,
+        "standard": 4.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -3714,7 +4295,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#17",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -3722,10 +4303,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -3736,7 +4324,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#9",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -3744,10 +4332,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4.5,
+        "standard": 5.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -3780,12 +4375,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#109",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 1.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -3809,7 +4411,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#92",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -3817,10 +4419,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0.5,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -3831,12 +4440,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#59",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -3853,12 +4469,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#34",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -3885,7 +4508,7 @@
         }
       ],
       "points": {
-        "standard": 11.5,
+        "standard": 12.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -3896,12 +4519,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#36",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 1.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -3947,7 +4577,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#44",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -3955,10 +4585,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3.5,
+        "standard": 4.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -3969,7 +4606,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#60",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -3977,10 +4614,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 4,
         "rapid": 0,
         "blitz": 0
       }
@@ -3991,12 +4635,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#28",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -4049,12 +4700,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#74",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -4074,7 +4732,7 @@
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 5,
         "rapid": 2,
         "blitz": 0
       }
@@ -4085,12 +4743,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#127",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 1,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -4129,12 +4794,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#27",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -4147,7 +4819,7 @@
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 1,
         "blitz": 0
       }
@@ -4158,7 +4830,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#86",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4166,10 +4838,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 4,
         "rapid": 0,
         "blitz": 0
       }
@@ -4180,12 +4859,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#103",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -4216,7 +4902,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#128",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4224,10 +4910,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0.5,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 1,
+        "standard": 1.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -4260,7 +4953,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#129",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4268,10 +4961,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 1,
+        "standard": 2,
         "rapid": 0,
         "blitz": 0
       }
@@ -4282,12 +4982,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#80",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 1.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -4304,12 +5011,19 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#51",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -4326,12 +5040,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#130",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -4348,7 +5069,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#94",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4356,10 +5077,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -4370,12 +5098,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#90",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -4395,7 +5130,7 @@
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 2,
         "blitz": 4.5
       }
@@ -4463,7 +5198,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#72",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4471,10 +5206,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -4514,7 +5256,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#98",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4522,10 +5264,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -4536,12 +5285,19 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#53",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -4558,7 +5314,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#8",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4566,10 +5322,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 4,
         "rapid": 0,
         "blitz": 0
       }
@@ -4580,7 +5343,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#16",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4588,10 +5351,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3.5,
+        "standard": 4.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -4602,12 +5372,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#2",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 4.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -4620,7 +5397,7 @@
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 8,
         "rapid": 0,
         "blitz": 0
       }
@@ -4631,12 +5408,19 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#131",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 0,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -4653,7 +5437,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#100",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4661,10 +5445,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -4675,12 +5466,19 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#32",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -4707,7 +5505,7 @@
         }
       ],
       "points": {
-        "standard": 13,
+        "standard": 14,
         "rapid": 0,
         "blitz": 0
       }
@@ -4718,7 +5516,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#33",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4726,10 +5524,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 4,
         "rapid": 0,
         "blitz": 0
       }
@@ -4740,7 +5545,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#73",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4748,10 +5553,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -4813,12 +5625,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#132",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 0,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -4857,12 +5676,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#133",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 1,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -4879,7 +5705,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#134",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4887,10 +5713,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -4930,12 +5763,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#84",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -4955,7 +5795,7 @@
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 4,
         "rapid": 3,
         "blitz": 5
       }
@@ -4966,7 +5806,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#91",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4974,10 +5814,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -5032,12 +5879,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#135",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -5054,7 +5908,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#136",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -5062,10 +5916,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 4,
         "rapid": 0,
         "blitz": 0
       }
@@ -5076,12 +5937,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#68",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -5098,12 +5966,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#38",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -5141,12 +6016,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#137",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -5163,12 +6045,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#13",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -5213,7 +6102,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#87",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -5221,10 +6110,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -5235,7 +6131,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#76",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -5243,10 +6139,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 1.5,
+        "standard": 2.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -5257,12 +6160,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#31",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -5303,7 +6213,7 @@
         }
       ],
       "points": {
-        "standard": 18,
+        "standard": 19,
         "rapid": 0,
         "blitz": 0
       }
@@ -5314,12 +6224,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#56",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 1.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -5364,12 +6281,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#138",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 0,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -5386,12 +6310,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#139",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -5452,7 +6383,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#78",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -5460,10 +6391,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -5496,12 +6434,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#61",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -5518,12 +6463,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#140",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 1.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -5540,12 +6492,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#23",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -5562,12 +6521,19 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#141",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -5584,7 +6550,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#97",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -5592,10 +6558,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -5606,7 +6579,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#11",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -5614,10 +6587,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 1,
+          "name": "TEST TEST 2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3.5,
+        "standard": 4.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -5628,12 +6608,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#62",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 2.5,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026BITWTest/data.json",
+          "score": 0,
+          "name": "TEST TEST 2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
         }
