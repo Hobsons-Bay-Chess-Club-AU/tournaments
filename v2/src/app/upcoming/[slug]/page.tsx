@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import { loadUpcomingEvents, makeSlug, type UpcomingEvent } from "@/lib/upcoming-events";
+import UpcomingAttendeesTable from "@/components/UpcomingAttendeesTable";
 
 function formatDate(dateStr: string): string {
   const d = new Date(dateStr);
@@ -115,63 +116,7 @@ export default async function EventDetailPage({
           {contacts.length === 0 ? (
             <p className="text-gray-700">No participants registered yet.</p>
           ) : (
-            <div className="overflow-x-auto rounded-xl border border-gray-200 bg-white">
-              <table className="min-w-[640px] w-full text-left text-sm">
-                <thead>
-                  <tr className="border-b border-gray-100 bg-gray-50">
-                    <th className="px-4 py-3 font-semibold text-primary-900">#</th>
-                    <th className="px-4 py-3 font-semibold text-primary-900">Name</th>
-                    <th className="px-4 py-3 font-semibold text-primary-900">FIDE ID</th>
-                    <th className="px-4 py-3 font-semibold text-primary-900">Ratings</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {contacts.map((c, i) => (
-                    <tr
-                      key={c.fideId || i}
-                      className="border-b border-gray-50 last:border-0 hover:bg-primary-50/40 transition-colors"
-                    >
-                      <td className="px-4 py-2.5 text-gray-600 tabular-nums">
-                        {i + 1}
-                      </td>
-                      <td className="px-4 py-2.5 font-medium text-gray-900">
-                        {c.firstName} {c.lastName}
-                      </td>
-                      <td className="px-4 py-2.5">
-                        {c.fideId ? (
-                          <a
-                            href={`https://ratings.fide.com/profile/${c.fideId}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-primary-600 hover:text-primary-800 hover:underline"
-                          >
-                            {c.fideId}
-                          </a>
-                        ) : (
-                          <span className="text-gray-400">&mdash;</span>
-                        )}
-                      </td>
-                      <td className="px-4 py-2.5 tabular-nums">
-                        {c.fideStandard || c.acfClassic ? (
-                          <div className="flex flex-wrap gap-x-3 gap-y-1 text-xs">
-                            <span className="inline-flex items-baseline gap-1 text-gray-700">
-                              <span>FIDE</span>
-                              <strong className="font-semibold text-primary-900">{c.fideStandard || "—"}</strong>
-                            </span>
-                            <span className="inline-flex items-baseline gap-1 text-gray-700">
-                              <span>ACF</span>
-                              <strong className="font-semibold text-primary-900">{c.acfClassic || "—"}</strong>
-                            </span>
-                          </div>
-                        ) : (
-                          <span className="text-gray-400">&mdash;</span>
-                        )}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+            <UpcomingAttendeesTable contacts={contacts} />
           )}
         </section>
       </div>
