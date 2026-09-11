@@ -20,7 +20,12 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li></ul> </div>
+</li><li class="nav-item"><a class="nav-link " href="pairs1.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link" href="#" >Standings</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li><li><a class="dropdown-item" href="crosstablescore.php"> Cross table and standings </a></li><li><a class="dropdown-item" href="rankinggroup.php"> Standings by Rtg groups </a></li><li><a class="dropdown-item" href="rankingagegroup.php"> Standings by age groups </a></li><li><a class="dropdown-item" href="rankcat.php"> Standings by title </a></li><li><a class="dropdown-item" href="rankTeams.php"> Rank Teams </a></li><li><a class="dropdown-item" href="summaryFederations.php"> Summary Federations </a></li><li><a class="dropdown-item" href="summaryOrigin.php"> Summary Origin </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
  <section id="main" class="pt-3 mb-auto">
@@ -31,17 +36,19 @@
   <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players</h3><div class="table-responsive"><table class="table table-striped" id="players-table"> 
 <thead><tr><th>#</th><th>Title</th><th> &#8597; Player</th><th>Fed</th><th>Origin</th><th data-tsorter="numeric"> &#8597; Rtg</th><th data-tsorter="numeric"> &#8597; RtgF</th><th data-tsorter="numeric"> &#8597; RtgN</th></tr></thead><tbody>
 <tr> 
+<td><span class="idn"> 42</span></td><td><span class="title female"> WCM</span></td><td> Anton, Sarah </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1622</td><td>1739</td><td>1622</td> </tr>
+<tr> 
 <td><span class="idn"> 1</span></td><td><span class="title female"> WCM</span></td><td> O'Carroll,Om </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1587</td><td>1754</td><td>1587</td> </tr>
 <tr> 
 <td><span class="idn"> 2</span></td><td><span class="notitle female"> </span></td><td> Dissanayake,Vidushi </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1568</td><td>1841</td><td>1568</td> </tr>
 <tr> 
 <td><span class="idn"> 3</span></td><td><span class="notitle female"> </span></td><td> Davis,Sophie </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1561</td><td>1756</td><td>1561</td> </tr>
 <tr> 
-<td><span class="idn"> 4</span></td><td><span class="notitle female"> </span></td><td> Francis, Indily </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1560</td><td>1687</td><td>1560</td> </tr>
+<td><span class="idn"> 4</span></td><td><span class="notitle female"> </span></td><td> Francis, Indily </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1560</td><td>1687</td><td>1560</td> </tr>
 <tr> 
-<td><span class="idn"> 5</span></td><td><span class="title female"> WCM</span></td><td> Katakam, Deethya Sai </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1509</td><td>1684</td><td>1509</td> </tr>
+<td><span class="idn"> 5</span></td><td><span class="title female"> WCM</span></td><td> Katakam, Deethya Sai </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1509</td><td>1684</td><td>1509</td> </tr>
 <tr> 
-<td><span class="idn"> 6</span></td><td><span class="notitle female"> </span></td><td> Gui, Yiting </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1505</td><td>1748</td><td>1505</td> </tr>
+<td><span class="idn"> 6</span></td><td><span class="notitle female"> </span></td><td> Gui, Yiting </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1505</td><td>1748</td><td>1505</td> </tr>
 <tr> 
 <td><span class="idn"> 7</span></td><td><span class="title female"> WIM</span></td><td> Szuveges,Narelle S </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1419</td><td>1658</td><td>1419</td> </tr>
 <tr> 
@@ -55,7 +62,7 @@
 <tr> 
 <td><span class="idn"> 13</span></td><td><span class="notitle female"> </span></td><td> Mondal,Jahnavi </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1042</td><td>1502</td><td>1042</td> </tr>
 <tr> 
-<td><span class="idn"> 14</span></td><td><span class="notitle female"> </span></td><td> Katakam, Aadhya Sai </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>1025</td><td>1458</td><td>1025</td> </tr>
+<td><span class="idn"> 14</span></td><td><span class="notitle female"> </span></td><td> Katakam, Aadhya Sai </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1025</td><td>1458</td><td>1025</td> </tr>
 <tr> 
 <td><span class="idn"> 15</span></td><td><span class="notitle female"> </span></td><td> Bo,Jamie </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>941</td><td>1531</td><td>941</td> </tr>
 <tr> 
@@ -69,13 +76,13 @@
 <tr> 
 <td><span class="idn"> 20</span></td><td><span class="notitle female"> </span></td><td> Kaur,Mishleen </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>567</td><td>1522</td><td>567</td> </tr>
 <tr> 
-<td><span class="idn"> 8</span></td><td><span class="notitle female"> </span></td><td> Wanasinghe, Senaya </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>544</td><td>1415</td><td>544</td> </tr>
+<td><span class="idn"> 8</span></td><td><span class="notitle female"> </span></td><td> Wanasinghe, Senaya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>544</td><td>1415</td><td>544</td> </tr>
 <tr> 
 <td><span class="idn"> 21</span></td><td><span class="notitle female"> </span></td><td> Kommina,Bhavishya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>512</td><td>0</td><td>512</td> </tr>
 <tr> 
 <td><span class="idn"> 22</span></td><td><span class="notitle female"> </span></td><td> Fang,Candice </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>502</td><td>1474</td><td>502</td> </tr>
 <tr> 
-<td><span class="idn"> 23</span></td><td><span class="notitle female"> </span></td><td> Husain, Lamiah </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>495</td><td>1429</td><td>495</td> </tr>
+<td><span class="idn"> 23</span></td><td><span class="notitle female"> </span></td><td> Husain, Lamiah </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>495</td><td>1429</td><td>495</td> </tr>
 <tr> 
 <td><span class="idn"> 24</span></td><td><span class="notitle female"> </span></td><td> Shen,Manni </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>484</td><td>0</td><td>484</td> </tr>
 <tr> 
@@ -105,7 +112,7 @@
 <tr> 
 <td><span class="idn"> 37</span></td><td><span class="notitle female"> </span></td><td> Li,Jiawen </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 38</span></td><td><span class="notitle female"> </span></td><td> Mohanty,Archana </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 38</span></td><td><span class="notitle female"> </span></td><td> Mohanty,Archana </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 39</span></td><td><span class="notitle female"> </span></td><td> Mondal,Tanisha </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
@@ -131,7 +138,7 @@ var tsorter=function(){"use strict";var a,b,c,d=!!document.addEventListener;retu
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Hobsons Bay Chess Club - AUS)
+                        <div class="d-flex flex-column align-items-center text-center text-dark"><p><a href="http://www.vegachess.com" target="_blank">Generated by Vega</a> All rights reserved</p><p>(Arbiter/Club : Casey Goh - AUS)
   <?php if (file_exists($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php')) include($_SERVER['DOCUMENT_ROOT'].'/siteprivacy.php'); ?>    </div>  </div>  </div> </div> 
    </footer>
      </div>

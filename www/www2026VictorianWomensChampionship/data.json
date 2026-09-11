@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-11T09:45:39.930Z",
+  "generatedAt": "2026-09-11T11:44:14.228Z",
   "page": {
     "felovar.html": {
-      "pageHeading": "FIDE rating variation at round 0",
+      "pageHeading": "FIDE rating variation at round 1",
       "tables": [
         {
           "headers": [
@@ -107,6 +107,16 @@
           ],
           "rows": [
             {
+              "#": "42",
+              "Title": "WCM",
+              "Player": "Anton, Sarah",
+              "Fed": "VIC",
+              "Origin": "",
+              "Rtg": "1622",
+              "RtgF": "1739",
+              "RtgN": "1622"
+            },
+            {
               "#": "1",
               "Title": "WCM",
               "Player": "O'Carroll,Om",
@@ -140,7 +150,7 @@
               "#": "4",
               "Title": "",
               "Player": "Francis, Indily",
-              "Fed": "AUS",
+              "Fed": "VIC",
               "Origin": "",
               "Rtg": "1560",
               "RtgF": "1687",
@@ -150,7 +160,7 @@
               "#": "5",
               "Title": "WCM",
               "Player": "Katakam, Deethya Sai",
-              "Fed": "AUS",
+              "Fed": "VIC",
               "Origin": "",
               "Rtg": "1509",
               "RtgF": "1684",
@@ -160,7 +170,7 @@
               "#": "6",
               "Title": "",
               "Player": "Gui, Yiting",
-              "Fed": "AUS",
+              "Fed": "VIC",
               "Origin": "",
               "Rtg": "1505",
               "RtgF": "1748",
@@ -230,7 +240,7 @@
               "#": "14",
               "Title": "",
               "Player": "Katakam, Aadhya Sai",
-              "Fed": "AUS",
+              "Fed": "VIC",
               "Origin": "",
               "Rtg": "1025",
               "RtgF": "1458",
@@ -300,7 +310,7 @@
               "#": "8",
               "Title": "",
               "Player": "Wanasinghe, Senaya",
-              "Fed": "AUS",
+              "Fed": "VIC",
               "Origin": "",
               "Rtg": "544",
               "RtgF": "1415",
@@ -330,7 +340,7 @@
               "#": "23",
               "Title": "",
               "Player": "Husain, Lamiah",
-              "Fed": "AUS",
+              "Fed": "VIC",
               "Origin": "",
               "Rtg": "495",
               "RtgF": "1429",
@@ -480,7 +490,7 @@
               "#": "38",
               "Title": "",
               "Player": "Mohanty,Archana",
-              "Fed": "AUS",
+              "Fed": "VIC",
               "Origin": "",
               "Rtg": "0",
               "RtgF": "0",
@@ -526,7 +536,7 @@
       "tournamentType": "unknown"
     },
     "nelovar.html": {
-      "pageHeading": "National rating at round 0",
+      "pageHeading": "National rating at round 1",
       "tables": [
         {
           "headers": [
@@ -564,6 +574,743 @@
       "pageHeading": "",
       "tables": [],
       "tournamentType": "unknown"
+    },
+    "pairs1.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Origin",
+              "key": "Origin_1"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "1",
+                "playerName": "O'Carroll,Om",
+                "gender": "female",
+                "href": "playercard.html#1",
+                "title": "WCM",
+                "federation": "VIC",
+                "rating": "1587",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "20",
+                "playerName": "Kaur,Mishleen",
+                "gender": "female",
+                "href": "playercard.html#20",
+                "title": "",
+                "federation": "VIC",
+                "rating": "567",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "22",
+                "playerName": "Fang,Candice",
+                "gender": "female",
+                "href": "playercard.html#22",
+                "title": "",
+                "federation": "VIC",
+                "rating": "502",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "2",
+                "playerName": "Dissanayake,Vidushi",
+                "gender": "female",
+                "href": "playercard.html#2",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1568",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "3",
+                "playerName": "Davis,Sophie",
+                "gender": "female",
+                "href": "playercard.html#3",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1561",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "23",
+                "playerName": "Husain, Lamiah",
+                "gender": "female",
+                "href": "playercard.html#23",
+                "title": "",
+                "federation": "VIC",
+                "rating": "495",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "24",
+                "playerName": "Shen,Manni",
+                "gender": "female",
+                "href": "playercard.html#24",
+                "title": "",
+                "federation": "VIC",
+                "rating": "484",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "4",
+                "playerName": "Francis, Indily",
+                "gender": "female",
+                "href": "playercard.html#4",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1560",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "5",
+                "playerName": "Katakam, Deethya Sai",
+                "gender": "female",
+                "href": "playercard.html#5",
+                "title": "WCM",
+                "federation": "VIC",
+                "rating": "1509",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "25",
+                "playerName": "Madduluri,Advaitha",
+                "gender": "female",
+                "href": "playercard.html#25",
+                "title": "",
+                "federation": "VIC",
+                "rating": "404",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "26",
+                "playerName": "Hu,Lydia Tianhui",
+                "gender": "female",
+                "href": "playercard.html#26",
+                "title": "",
+                "federation": "VIC",
+                "rating": "331",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "6",
+                "playerName": "Gui, Yiting",
+                "gender": "female",
+                "href": "playercard.html#6",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1505",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "7",
+                "playerName": "Szuveges,Narelle S",
+                "gender": "female",
+                "href": "playercard.html#7",
+                "title": "WIM",
+                "federation": "VIC",
+                "rating": "1419",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "27",
+                "playerName": "Yang,Heesan",
+                "gender": "female",
+                "href": "playercard.html#27",
+                "title": "",
+                "federation": "VIC",
+                "rating": "321",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "8",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "28",
+                "playerName": "Chan,Abby",
+                "gender": "female",
+                "href": "playercard.html#28",
+                "title": "",
+                "federation": "VIC",
+                "rating": "245",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "8",
+                "playerName": "Wanasinghe, Senaya",
+                "gender": "female",
+                "href": "playercard.html#8",
+                "title": "",
+                "federation": "VIC",
+                "rating": "544",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "9",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "9",
+                "playerName": "Fais,Ariana",
+                "gender": "female",
+                "href": "playercard.html#9",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1223",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "30",
+                "playerName": "Balaji, Poshya",
+                "gender": "female",
+                "href": "playercard.html#30",
+                "title": "",
+                "federation": "VIC",
+                "rating": "137",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "10",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "31",
+                "playerName": "Goh,Daphne",
+                "gender": "female",
+                "href": "playercard.html#31",
+                "title": "",
+                "federation": "VIC",
+                "rating": "100",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "10",
+                "playerName": "Siva,Mrinalini",
+                "gender": "female",
+                "href": "playercard.html#10",
+                "title": "",
+                "federation": "OS",
+                "rating": "1223",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "OS"
+            },
+            {
+              "Bo.": "11",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "11",
+                "playerName": "Scenna,Luna",
+                "gender": "female",
+                "href": "playercard.html#11",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1086",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "32",
+                "playerName": "Choudary,Aarna",
+                "gender": "female",
+                "href": "playercard.html#32",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "12",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "33",
+                "playerName": "Haller,Annabelle",
+                "gender": "female",
+                "href": "playercard.html#33",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "12",
+                "playerName": "De Silva,Amaya",
+                "gender": "female",
+                "href": "playercard.html#12",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1068",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "13",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "13",
+                "playerName": "Mondal,Jahnavi",
+                "gender": "female",
+                "href": "playercard.html#13",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1042",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "34",
+                "playerName": "Hemachandra,Gamage Punhara",
+                "gender": "female",
+                "href": "playercard.html#34",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "14",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "35",
+                "playerName": "Hou,Amber",
+                "gender": "female",
+                "href": "playercard.html#35",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "14",
+                "playerName": "Katakam, Aadhya Sai",
+                "gender": "female",
+                "href": "playercard.html#14",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1025",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "15",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "15",
+                "playerName": "Bo,Jamie",
+                "gender": "female",
+                "href": "playercard.html#15",
+                "title": "",
+                "federation": "VIC",
+                "rating": "941",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "36",
+                "playerName": "Jin,Audrey",
+                "gender": "female",
+                "href": "playercard.html#36",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "16",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "37",
+                "playerName": "Li,Jiawen",
+                "gender": "female",
+                "href": "playercard.html#37",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "16",
+                "playerName": "Venkat,Nyra",
+                "gender": "female",
+                "href": "playercard.html#16",
+                "title": "",
+                "federation": "VIC",
+                "rating": "814",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "17",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "17",
+                "playerName": "Beri,Dhhvani",
+                "gender": "female",
+                "href": "playercard.html#17",
+                "title": "",
+                "federation": "VIC",
+                "rating": "760",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "38",
+                "playerName": "Mohanty,Archana",
+                "gender": "female",
+                "href": "playercard.html#38",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "18",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "39",
+                "playerName": "Mondal,Tanisha",
+                "gender": "female",
+                "href": "playercard.html#39",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "18",
+                "playerName": "Gajula,Nishitha",
+                "gender": "female",
+                "href": "playercard.html#18",
+                "title": "",
+                "federation": "VIC",
+                "rating": "667",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "19",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "19",
+                "playerName": "Prince,Aliza",
+                "gender": "female",
+                "href": "playercard.html#19",
+                "title": "",
+                "federation": "VIC",
+                "rating": "585",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "40",
+                "playerName": "Patil,Sia",
+                "gender": "female",
+                "href": "playercard.html#40",
+                "title": "",
+                "federation": "VIC",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "20",
+              "Fed": "OS",
+              "Origin": "",
+              "White Player": {
+                "id": "41",
+                "playerName": "Thulasidas,Mala",
+                "gender": "female",
+                "href": "playercard.html#41",
+                "title": "",
+                "federation": "OS",
+                "rating": "0",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": {
+                "id": "42",
+                "playerName": "Anton, Sarah",
+                "gender": "female",
+                "href": "playercard.html#42",
+                "title": "WCM",
+                "federation": "VIC",
+                "rating": "1622",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Origin_1": "",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "21",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "21",
+                "playerName": "Kommina,Bhavishya",
+                "gender": "female",
+                "href": "playercard.html#21",
+                "title": "",
+                "federation": "VIC",
+                "rating": "512",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "½",
+              "Pts_1": "0",
+              "Black Player": "( half point bye )",
+              "Origin_1": "",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "22",
+              "Fed": "VIC",
+              "Origin": "",
+              "White Player": {
+                "id": "29",
+                "playerName": "Watson,Emma",
+                "gender": "female",
+                "href": "playercard.html#29",
+                "title": "",
+                "federation": "VIC",
+                "rating": "224",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "0",
+              "Result": "½",
+              "Pts_1": "0",
+              "Black Player": "( half point bye )",
+              "Origin_1": "",
+              "Fed_1": ""
+            }
+          ]
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 1, at 9:45 of 12/09/2026",
+      "tournamentType": "individual"
     },
     "playercard.html": {
       "pageHeading": "National History Cards",
@@ -603,7 +1350,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "O'Carroll,Om",
             "id": "3182964",
@@ -651,7 +1409,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Dissanayake,Vidushi",
             "id": "3193336",
@@ -699,7 +1468,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Davis,Sophie",
             "id": "3138303",
@@ -747,7 +1527,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Francis, Indily",
             "id": "0",
@@ -795,7 +1586,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Katakam, Deethya Sai",
             "id": "0",
@@ -843,7 +1645,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Gui, Yiting",
             "id": "0",
@@ -891,7 +1704,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Szuveges,Narelle S",
             "id": "3096051",
@@ -939,7 +1763,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Wanasinghe, Senaya",
             "id": "0",
@@ -987,7 +1822,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Fais,Ariana",
             "id": "3204131",
@@ -1035,7 +1881,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Siva,Mrinalini",
             "id": "0014371",
@@ -1083,7 +1940,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Scenna,Luna",
             "id": "3212505",
@@ -1131,7 +1999,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "De Silva,Amaya",
             "id": "3197912",
@@ -1179,7 +2058,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Mondal,Jahnavi",
             "id": "3206345",
@@ -1227,7 +2117,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Katakam, Aadhya Sai",
             "id": "0",
@@ -1275,7 +2176,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Bo,Jamie",
             "id": "3205671",
@@ -1323,7 +2235,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Venkat,Nyra",
             "id": "3216996",
@@ -1371,7 +2294,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Beri,Dhhvani",
             "id": "3224405",
@@ -1419,7 +2353,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Gajula,Nishitha",
             "id": "3218584",
@@ -1467,7 +2412,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Prince,Aliza",
             "id": "3196103",
@@ -1515,7 +2471,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Kaur,Mishleen",
             "id": "3220474",
@@ -1563,7 +2530,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.5",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Kommina,Bhavishya",
             "id": "3223915",
@@ -1611,7 +2589,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Fang,Candice",
             "id": "3211746",
@@ -1659,7 +2648,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Husain, Lamiah",
             "id": "0",
@@ -1707,7 +2707,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Shen,Manni",
             "id": "3222670",
@@ -1755,7 +2766,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Madduluri,Advaitha",
             "id": "3221034",
@@ -1803,7 +2825,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Hu,Lydia Tianhui",
             "id": "3176396",
@@ -1851,7 +2884,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Yang,Heesan",
             "id": "3219225",
@@ -1899,7 +2943,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Chan,Abby",
             "id": "3201541",
@@ -1947,7 +3002,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.5",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Watson,Emma",
             "id": "0",
@@ -1995,7 +3061,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Balaji, Poshya",
             "id": "0",
@@ -2043,7 +3120,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Goh,Daphne",
             "id": "3214852",
@@ -2091,7 +3179,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Choudary,Aarna",
             "id": "0",
@@ -2139,7 +3238,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Haller,Annabelle",
             "id": "3218595",
@@ -2187,7 +3297,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Hemachandra,Gamage P",
             "id": "3221001",
@@ -2235,7 +3356,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Hou,Amber",
             "id": "3220183",
@@ -2283,7 +3415,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Jin,Audrey",
             "id": "3226073",
@@ -2331,7 +3474,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Li,Jiawen",
             "id": "0",
@@ -2379,7 +3533,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Mohanty,Archana",
             "id": "0",
@@ -2427,7 +3592,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Mondal,Tanisha",
             "id": "3223941",
@@ -2475,7 +3651,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Patil,Sia",
             "id": "3228781",
@@ -2523,7 +3710,18 @@
               "key": "Pts"
             }
           ],
-          "rows": [],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
           "caption": {
             "playerName": "Thulasidas,Mala",
             "id": "0015852",
@@ -2534,6 +3732,65 @@
             },
             "rawText": "41   Thulasidas,Mala     , K= 0, Elo=   0, ID=0015852",
             "rawHtml": "  41   <strong>Thulasidas,Mala     </strong>, K= 0, Elo=   0, ID=0015852\n<br>\n<a class=\"anchor\" name=\"41\"></a>"
+          }
+        },
+        {
+          "headers": [
+            {
+              "name": "R",
+              "key": "R"
+            },
+            {
+              "name": "C",
+              "key": "C"
+            },
+            {
+              "name": "N",
+              "key": "N"
+            },
+            {
+              "name": "Cat",
+              "key": "Cat"
+            },
+            {
+              "name": "OPPONENT",
+              "key": "OPPONENT"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "res",
+              "key": "res"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            }
+          ],
+          "rows": [
+            {
+              "R": "1",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            }
+          ],
+          "caption": {
+            "playerName": "Anton, Sarah",
+            "id": "0",
+            "moreInfo": {
+              "K": "0",
+              "Elo": "1622",
+              "anchor": "42"
+            },
+            "rawText": "42  WCM Anton, Sarah        , K= 0, Elo=1622, ID=0",
+            "rawHtml": "  42  WCM <strong>Anton, Sarah        </strong>, K= 0, Elo=1622, ID=0\n<br>\n<a class=\"anchor\" name=\"42\"></a>"
           }
         }
       ],
@@ -2636,31 +3893,31 @@
             },
             {
               "col1": "Registered Players",
-              "col2": "41"
+              "col2": "42"
             },
             {
               "col1": "Number of Federations",
-              "col2": "3"
+              "col2": "2"
             },
             {
               "col1": "Average Rating (all)",
-              "col2": "926"
+              "col2": "945"
             },
             {
               "col1": "Average Rating (only FIDE rated)",
-              "col2": "1570"
+              "col2": "1577"
             },
             {
               "col1": "Players from AUS Federation",
-              "col2": "9"
+              "col2": "2"
             },
             {
               "col1": "Players NOT from AUS Federation",
-              "col2": "32"
+              "col2": "40"
             },
             {
               "col1": "FIDE rated players",
-              "col2": "22"
+              "col2": "23"
             },
             {
               "col1": "unrated players",
@@ -2668,11 +3925,11 @@
             },
             {
               "col1": "unrated players from AUS Federation",
-              "col2": "2"
+              "col2": "1"
             },
             {
               "col1": "unrated players NOT from AUS Federation",
-              "col2": "17"
+              "col2": "18"
             },
             {
               "col1": "unrated Federations",
@@ -2680,7 +3937,7 @@
             },
             {
               "col1": "FIDE titled players",
-              "col2": "3"
+              "col2": "4"
             },
             {
               "col1": "GM players",
@@ -2712,15 +3969,15 @@
             },
             {
               "col1": "WCM players",
-              "col2": "2"
+              "col2": "3"
             },
             {
               "col1": "FIDE titled player from AUS Federation",
-              "col2": "1"
+              "col2": "0"
             },
             {
               "col1": "FIDE titled player NOT from AUS Federation",
-              "col2": "2"
+              "col2": "4"
             }
           ]
         }
@@ -2736,9 +3993,9 @@
       "title": "WCM",
       "federation": "VIC",
       "rating": "1587",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#1",
       "moreInfo": {}
     },
     "2": {
@@ -2747,9 +4004,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "1568",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#2",
       "moreInfo": {}
     },
     "3": {
@@ -2758,42 +4015,42 @@
       "title": "",
       "federation": "VIC",
       "rating": "1561",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#3",
       "moreInfo": {}
     },
     "4": {
       "id": "4",
       "playerName": "Francis, Indily",
       "title": "",
-      "federation": "AUS",
+      "federation": "VIC",
       "rating": "1560",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#4",
       "moreInfo": {}
     },
     "5": {
       "id": "5",
       "playerName": "Katakam, Deethya Sai",
       "title": "WCM",
-      "federation": "AUS",
+      "federation": "VIC",
       "rating": "1509",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#5",
       "moreInfo": {}
     },
     "6": {
       "id": "6",
       "playerName": "Gui, Yiting",
       "title": "",
-      "federation": "AUS",
+      "federation": "VIC",
       "rating": "1505",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#6",
       "moreInfo": {}
     },
     "7": {
@@ -2802,20 +4059,20 @@
       "title": "WIM",
       "federation": "VIC",
       "rating": "1419",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#7",
       "moreInfo": {}
     },
     "8": {
       "id": "8",
       "playerName": "Wanasinghe, Senaya",
       "title": "",
-      "federation": "AUS",
+      "federation": "VIC",
       "rating": "544",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#8",
       "moreInfo": {}
     },
     "9": {
@@ -2824,9 +4081,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "1223",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#9",
       "moreInfo": {}
     },
     "10": {
@@ -2835,9 +4092,9 @@
       "title": "",
       "federation": "OS",
       "rating": "1223",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#10",
       "moreInfo": {}
     },
     "11": {
@@ -2846,9 +4103,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "1086",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#11",
       "moreInfo": {}
     },
     "12": {
@@ -2857,9 +4114,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "1068",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#12",
       "moreInfo": {}
     },
     "13": {
@@ -2868,20 +4125,20 @@
       "title": "",
       "federation": "VIC",
       "rating": "1042",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#13",
       "moreInfo": {}
     },
     "14": {
       "id": "14",
       "playerName": "Katakam, Aadhya Sai",
       "title": "",
-      "federation": "AUS",
+      "federation": "VIC",
       "rating": "1025",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#14",
       "moreInfo": {}
     },
     "15": {
@@ -2890,9 +4147,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "941",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#15",
       "moreInfo": {}
     },
     "16": {
@@ -2901,9 +4158,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "814",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#16",
       "moreInfo": {}
     },
     "17": {
@@ -2912,9 +4169,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "760",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#17",
       "moreInfo": {}
     },
     "18": {
@@ -2923,9 +4180,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "667",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#18",
       "moreInfo": {}
     },
     "19": {
@@ -2934,9 +4191,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "585",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#19",
       "moreInfo": {}
     },
     "20": {
@@ -2945,9 +4202,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "567",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#20",
       "moreInfo": {}
     },
     "21": {
@@ -2956,9 +4213,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "512",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#21",
       "moreInfo": {}
     },
     "22": {
@@ -2967,20 +4224,20 @@
       "title": "",
       "federation": "VIC",
       "rating": "502",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#22",
       "moreInfo": {}
     },
     "23": {
       "id": "23",
       "playerName": "Husain, Lamiah",
       "title": "",
-      "federation": "AUS",
+      "federation": "VIC",
       "rating": "495",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#23",
       "moreInfo": {}
     },
     "24": {
@@ -2989,9 +4246,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "484",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#24",
       "moreInfo": {}
     },
     "25": {
@@ -3000,9 +4257,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "404",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#25",
       "moreInfo": {}
     },
     "26": {
@@ -3011,9 +4268,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "331",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#26",
       "moreInfo": {}
     },
     "27": {
@@ -3022,9 +4279,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "321",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#27",
       "moreInfo": {}
     },
     "28": {
@@ -3033,9 +4290,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "245",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#28",
       "moreInfo": {}
     },
     "29": {
@@ -3044,9 +4301,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "224",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#29",
       "moreInfo": {}
     },
     "30": {
@@ -3055,9 +4312,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "137",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#30",
       "moreInfo": {}
     },
     "31": {
@@ -3066,9 +4323,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "100",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#31",
       "moreInfo": {}
     },
     "32": {
@@ -3077,9 +4334,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "0",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#32",
       "moreInfo": {}
     },
     "33": {
@@ -3088,9 +4345,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "0",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#33",
       "moreInfo": {}
     },
     "34": {
@@ -3099,9 +4356,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "0",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#34",
       "moreInfo": {}
     },
     "35": {
@@ -3110,9 +4367,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "0",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#35",
       "moreInfo": {}
     },
     "36": {
@@ -3121,9 +4378,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "0",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#36",
       "moreInfo": {}
     },
     "37": {
@@ -3132,20 +4389,20 @@
       "title": "",
       "federation": "VIC",
       "rating": "0",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#37",
       "moreInfo": {}
     },
     "38": {
       "id": "38",
       "playerName": "Mohanty,Archana",
       "title": "",
-      "federation": "AUS",
+      "federation": "VIC",
       "rating": "0",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#38",
       "moreInfo": {}
     },
     "39": {
@@ -3154,9 +4411,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "0",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#39",
       "moreInfo": {}
     },
     "40": {
@@ -3165,9 +4422,9 @@
       "title": "",
       "federation": "VIC",
       "rating": "0",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#40",
       "moreInfo": {}
     },
     "41": {
@@ -3176,9 +4433,20 @@
       "title": "",
       "federation": "OS",
       "rating": "0",
-      "gender": "",
+      "gender": "female",
       "fideId": "",
-      "href": "",
+      "href": "playercard.html#41",
+      "moreInfo": {}
+    },
+    "42": {
+      "id": "42",
+      "playerName": "Anton, Sarah",
+      "title": "WCM",
+      "federation": "VIC",
+      "rating": "1622",
+      "gender": "female",
+      "fideId": "",
+      "href": "playercard.html#42",
       "moreInfo": {}
     }
   },
@@ -3203,9 +4471,99 @@
       "href": "index.html",
       "isDropdown": true,
       "children": []
+    },
+    {
+      "text": "Pairings",
+      "href": "pairs1.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Standings",
+      "href": "#",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Tables",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "Cross table",
+          "href": "crosstable.html"
+        },
+        {
+          "text": "Cross table and standings",
+          "href": "crosstablescore.html"
+        },
+        {
+          "text": "Standings by Rtg groups",
+          "href": "rankinggroup.html"
+        },
+        {
+          "text": "Standings by age groups",
+          "href": "rankingagegroup.html"
+        },
+        {
+          "text": "Standings by title",
+          "href": "rankcat.html"
+        },
+        {
+          "text": "Rank Teams",
+          "href": "rankTeams.html"
+        },
+        {
+          "text": "Summary Federations",
+          "href": "summaryFederations.html"
+        },
+        {
+          "text": "Summary Origin",
+          "href": "summaryOrigin.html"
+        }
+      ]
+    },
+    {
+      "text": "Games",
+      "href": "games.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
+      "text": "Reports",
+      "href": "#",
+      "isDropdown": true,
+      "children": [
+        {
+          "text": "FIDE Rating",
+          "href": "felovar.html"
+        },
+        {
+          "text": "FIDE Player Card",
+          "href": "fideplayercard.html"
+        },
+        {
+          "text": "National rating",
+          "href": "nelovar.html"
+        },
+        {
+          "text": "National Player Card",
+          "href": "playercard.html"
+        }
+      ]
     }
   ],
   "players": [
+    {
+      "#": "42",
+      "Title": "WCM",
+      "Player": "Anton, Sarah",
+      "Fed": "VIC",
+      "Origin": "",
+      "Rtg": "1622",
+      "RtgF": "1739",
+      "RtgN": "1622"
+    },
     {
       "#": "1",
       "Title": "WCM",
@@ -3240,7 +4598,7 @@
       "#": "4",
       "Title": "",
       "Player": "Francis, Indily",
-      "Fed": "AUS",
+      "Fed": "VIC",
       "Origin": "",
       "Rtg": "1560",
       "RtgF": "1687",
@@ -3250,7 +4608,7 @@
       "#": "5",
       "Title": "WCM",
       "Player": "Katakam, Deethya Sai",
-      "Fed": "AUS",
+      "Fed": "VIC",
       "Origin": "",
       "Rtg": "1509",
       "RtgF": "1684",
@@ -3260,7 +4618,7 @@
       "#": "6",
       "Title": "",
       "Player": "Gui, Yiting",
-      "Fed": "AUS",
+      "Fed": "VIC",
       "Origin": "",
       "Rtg": "1505",
       "RtgF": "1748",
@@ -3330,7 +4688,7 @@
       "#": "14",
       "Title": "",
       "Player": "Katakam, Aadhya Sai",
-      "Fed": "AUS",
+      "Fed": "VIC",
       "Origin": "",
       "Rtg": "1025",
       "RtgF": "1458",
@@ -3400,7 +4758,7 @@
       "#": "8",
       "Title": "",
       "Player": "Wanasinghe, Senaya",
-      "Fed": "AUS",
+      "Fed": "VIC",
       "Origin": "",
       "Rtg": "544",
       "RtgF": "1415",
@@ -3430,7 +4788,7 @@
       "#": "23",
       "Title": "",
       "Player": "Husain, Lamiah",
-      "Fed": "AUS",
+      "Fed": "VIC",
       "Origin": "",
       "Rtg": "495",
       "RtgF": "1429",
@@ -3580,7 +4938,7 @@
       "#": "38",
       "Title": "",
       "Player": "Mohanty,Archana",
-      "Fed": "AUS",
+      "Fed": "VIC",
       "Origin": "",
       "Rtg": "0",
       "RtgF": "0",
@@ -3629,18 +4987,18 @@
     "Rounds": "5",
     "Score game": "0-0.5-1",
     "Tie break": "BH/C1 BH SB DE",
-    "Registered Players": "41",
-    "Number of Federations": "3",
-    "Average Rating (all)": "926",
-    "Average Rating (only FIDE rated)": "1570",
-    "Players from AUS Federation": "9",
-    "Players NOT from AUS Federation": "32",
-    "FIDE rated players": "22",
+    "Registered Players": "42",
+    "Number of Federations": "2",
+    "Average Rating (all)": "945",
+    "Average Rating (only FIDE rated)": "1577",
+    "Players from AUS Federation": "2",
+    "Players NOT from AUS Federation": "40",
+    "FIDE rated players": "23",
     "unrated players": "19",
-    "unrated players from AUS Federation": "2",
-    "unrated players NOT from AUS Federation": "17",
+    "unrated players from AUS Federation": "1",
+    "unrated players NOT from AUS Federation": "18",
     "unrated Federations": "2",
-    "FIDE titled players": "3",
+    "FIDE titled players": "4",
     "GM players": "0",
     "WGM players": "0",
     "IM players": "0",
@@ -3648,10 +5006,10 @@
     "FM players": "0",
     "WFM players": "0",
     "CM players": "0",
-    "WCM players": "2",
-    "FIDE titled player from AUS Federation": "1",
-    "FIDE titled player NOT from AUS Federation": "2",
+    "WCM players": "3",
+    "FIDE titled player from AUS Federation": "0",
+    "FIDE titled player NOT from AUS Federation": "4",
     "category": "Junior"
   },
-  "md5Hash": "f5e7bb0b1c961ea805396b39366514a1"
+  "md5Hash": "75d1f1e91dbc19692efdae8bf402aab3"
 }
