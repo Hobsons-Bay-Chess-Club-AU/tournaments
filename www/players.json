@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-11T23:51:59.807Z",
+  "generatedAt": "2026-09-12T02:50:57.935Z",
   "year": "2026",
-  "count": 326,
+  "count": 346,
   "seniorCount": 202,
-  "juniorCount": 232,
+  "juniorCount": 261,
   "totalTournaments": 21,
   "players": [
     {
@@ -362,6 +362,28 @@
         "standard": 8.5,
         "rapid": 16,
         "blitz": 0.5
+      }
+    },
+    {
+      "name": "Anton, Sarah",
+      "id": "1",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#1",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 1,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
       }
     },
     {
@@ -768,6 +790,28 @@
       "points": {
         "standard": 10.5,
         "rapid": 7,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Balaji, Poshya",
+      "id": "31",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#31",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
         "blitz": 0
       }
     },
@@ -1245,6 +1289,28 @@
       }
     },
     {
+      "name": "Beri,Dhhvani",
+      "id": "17",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#17",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Bhadrapura, Vismay",
       "id": "51",
       "fideId": "",
@@ -1401,7 +1467,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#79",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -1409,10 +1475,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 1,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 3,
         "rapid": 0,
         "blitz": 0
       }
@@ -1807,6 +1880,28 @@
       }
     },
     {
+      "name": "Chan,Abby",
+      "id": "29",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#29",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0.5,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Chatha, Harmandeep",
       "id": "40",
       "fideId": "",
@@ -1932,6 +2027,28 @@
       ],
       "points": {
         "standard": 1.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Choudary,Aarna",
+      "id": "33",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#33",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -2121,7 +2238,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#30",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -2143,10 +2260,17 @@
           "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 1,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 9,
+        "standard": 10,
         "rapid": 0,
         "blitz": 0
       }
@@ -2204,6 +2328,28 @@
       ],
       "points": {
         "standard": 19.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "De Silva,Amaya",
+      "id": "12",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#12",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 1,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
         "rapid": 0,
         "blitz": 0
       }
@@ -2324,7 +2470,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#22",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -2332,10 +2478,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 1,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 0.5,
+        "standard": 1.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -2501,12 +2654,19 @@
     },
     {
       "name": "Fais,Ariana",
-      "id": "13",
+      "id": "9",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#13",
-      "tournamentCount": 1,
+      "href": "playercard.html#9",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 1,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 6.5,
@@ -2516,7 +2676,7 @@
         }
       ],
       "points": {
-        "standard": 0,
+        "standard": 1,
         "rapid": 6.5,
         "blitz": 0
       }
@@ -2527,7 +2687,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#104",
-      "tournamentCount": 8,
+      "tournamentCount": 9,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -2572,6 +2732,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 5,
           "name": "2026 HBCC Western Juniors Rapid Championship",
@@ -2610,6 +2777,28 @@
       ],
       "points": {
         "standard": 3,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Francis, Indily",
+      "id": "5",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#5",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 1,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
         "rapid": 0,
         "blitz": 0
       }
@@ -2713,7 +2902,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#25",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -2737,6 +2926,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 1,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 4,
           "name": "2026 HBCC Western Juniors Rapid Championship",
@@ -2752,7 +2948,7 @@
         }
       ],
       "points": {
-        "standard": 6.5,
+        "standard": 7.5,
         "rapid": 4,
         "blitz": 0
       }
@@ -2914,7 +3110,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#112",
-      "tournamentCount": 8,
+      "tournamentCount": 9,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -2955,6 +3151,13 @@
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 3,
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0,
+          "name": "2026 Victorian Women's Championship",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -3223,6 +3426,28 @@
       }
     },
     {
+      "name": "Gui, Yiting",
+      "id": "7",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#7",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 1,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Gunathilake,Sithev",
       "id": "68",
       "fideId": "",
@@ -3351,7 +3576,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#118",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -3364,6 +3589,13 @@
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 0.5,
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0,
+          "name": "2026 Victorian Women's Championship",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -3413,6 +3645,28 @@
       ],
       "points": {
         "standard": 11.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Hemachandra,Gamage Punhara",
+      "id": "35",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#35",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -3683,6 +3937,28 @@
       }
     },
     {
+      "name": "Hou,Amber",
+      "id": "36",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#36",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Hsu,Yu-Hsiang (Andy)",
       "id": "74",
       "fideId": "",
@@ -3710,12 +3986,19 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#106",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0,
+          "name": "2026 Victorian Women's Championship",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -3883,7 +4166,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#29",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -3896,6 +4179,13 @@
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 2.5,
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0,
+          "name": "2026 Victorian Women's Championship",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -4047,6 +4337,28 @@
       ],
       "points": {
         "standard": 6.5,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Jin,Audrey",
+      "id": "37",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#37",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -4344,6 +4656,50 @@
       }
     },
     {
+      "name": "Katakam, Aadhya Sai",
+      "id": "14",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#14",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 1,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Katakam, Deethya Sai",
+      "id": "6",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#6",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 1,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Katakam,Aadhya Sai",
       "id": "65",
       "fideId": "",
@@ -4472,7 +4828,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#96",
-      "tournamentCount": 8,
+      "tournamentCount": 9,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4513,6 +4869,13 @@
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 2,
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0,
+          "name": "2026 Victorian Women's Championship",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -4674,7 +5037,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#101",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4705,6 +5068,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0.5,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 4,
           "name": "2026 HBCC Western Juniors Rapid Championship",
@@ -4713,7 +5083,7 @@
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 7.5,
         "rapid": 9,
         "blitz": 0
       }
@@ -5449,6 +5819,28 @@
       }
     },
     {
+      "name": "Li,Jiawen",
+      "id": "38",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#38",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Li,LiYuan",
       "id": "2",
       "fideId": "",
@@ -5570,7 +5962,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#108",
-      "tournamentCount": 8,
+      "tournamentCount": 9,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -5611,6 +6003,13 @@
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
           "score": 2,
           "name": "2026 HBCC Purdy Cup Rookies and Juniors",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0,
+          "name": "2026 Victorian Women's Championship",
           "totalRounds": "5",
           "ratingType": "standard"
         },
@@ -6301,12 +6700,34 @@
       }
     },
     {
+      "name": "Mohanty,Archana",
+      "id": "39",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#39",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 1,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Mondal,Jahnavi",
       "id": "69",
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#69",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -6314,10 +6735,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 1,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 4,
         "rapid": 0,
         "blitz": 0
       }
@@ -6328,12 +6756,19 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#125",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 1,
           "name": "2026 HBCC Best in the West",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0,
+          "name": "2026 Victorian Women's Championship",
           "totalRounds": "5",
           "ratingType": "standard"
         }
@@ -6972,6 +7407,28 @@
       }
     },
     {
+      "name": "O'Carroll,Om",
+      "id": "2",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#2",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 1,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Owen,Lee",
       "id": "33",
       "fideId": "",
@@ -7265,6 +7722,28 @@
         "standard": 0,
         "rapid": 0,
         "blitz": 2.5
+      }
+    },
+    {
+      "name": "Patil,Sia",
+      "id": "41",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#41",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0.5,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0.5,
+        "rapid": 0,
+        "blitz": 0
       }
     },
     {
@@ -7661,7 +8140,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#92",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -7683,10 +8162,17 @@
           "name": "2026 HBCC Honourable Bob Rookies and Juniors",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0.5,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 5,
+        "standard": 5.5,
         "rapid": 5,
         "blitz": 0
       }
@@ -8655,7 +9141,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#51",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -8663,10 +9149,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 1,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -8960,6 +9453,28 @@
       }
     },
     {
+      "name": "Shen,Manni",
+      "id": "25",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#25",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Sheth,Adidev",
       "id": "72",
       "fideId": "",
@@ -9167,7 +9682,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#53",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -9175,10 +9690,17 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 1,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 2.5,
+        "standard": 3.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -9471,7 +9993,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#32",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -9500,10 +10022,17 @@
           "name": "Hobsons Bay Cup Open 20226",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 1,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 13,
+        "standard": 14,
         "rapid": 0,
         "blitz": 0
       }
@@ -9679,6 +10208,28 @@
       ],
       "points": {
         "standard": 4,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Thulasidas,Mala",
+      "id": "42",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#42",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
@@ -10095,7 +10646,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#91",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -10133,6 +10684,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 1,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 4,
           "name": "2026 HBCC Western Juniors Rapid Championship",
@@ -10148,7 +10706,7 @@
         }
       ],
       "points": {
-        "standard": 11.5,
+        "standard": 12.5,
         "rapid": 9.5,
         "blitz": 0
       }
@@ -10391,6 +10949,28 @@
       }
     },
     {
+      "name": "Wanasinghe, Senaya",
+      "id": "21",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#21",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Wang, Evan",
       "id": "56",
       "fideId": "",
@@ -10586,12 +11166,19 @@
     },
     {
       "name": "Wanniarachchie,Senaya",
-      "id": "88",
+      "id": "43",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#88",
-      "tournamentCount": 1,
+      "href": "playercard.html#43",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0.5,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 3,
@@ -10601,7 +11188,7 @@
         }
       ],
       "points": {
-        "standard": 0,
+        "standard": 0.5,
         "rapid": 3,
         "blitz": 0
       }
@@ -10634,13 +11221,20 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#69",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
           "score": 2,
           "name": "2026 Hobsons Bay Rookies and Juniors Cup",
           "totalRounds": "7",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0.5,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
           "ratingType": "standard"
         },
         {
@@ -10652,7 +11246,7 @@
         }
       ],
       "points": {
-        "standard": 2,
+        "standard": 2.5,
         "rapid": 0,
         "blitz": 0
       }
@@ -11108,7 +11702,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#99",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
@@ -11122,6 +11716,13 @@
           "score": 1.5,
           "name": "2026 Koshnitsky Cup - Rookies and Juniors",
           "totalRounds": "7",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026VictorianWomensChampionship/data.json",
+          "score": 0,
+          "name": "2026 Victorian Women's Championship",
+          "totalRounds": "5",
           "ratingType": "standard"
         },
         {
