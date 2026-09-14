@@ -118,7 +118,7 @@
 <tr> 
 <td><span class="idn"> 41</span></td><td><span class="notitle female"> </span></td><td> Patil,Sia </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 42</span></td><td><span class="notitle female"> </span></td><td> Thulasidas,Mala </td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 42</span></td><td><span class="notitle female"> </span></td><td> Thulasidas,Mala </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 43</span></td><td><span class="notitle female"> </span></td><td> Wanniarachchie,Senaya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 </tbody>

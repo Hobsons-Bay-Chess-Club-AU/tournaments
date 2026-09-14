@@ -2450,17 +2450,17 @@
       "Rounds": "5",
       "Score game": "0-0.5-1",
       "Tie break": "BH/C1 BH SB DE",
-      "Registered Players": "42",
+      "Registered Players": "43",
       "Number of Federations": "2",
-      "Average Rating (all)": "945",
+      "Average Rating (all)": "923",
       "Average Rating (only FIDE rated)": "1577",
-      "Players from AUS Federation": "2",
-      "Players NOT from AUS Federation": "40",
+      "Players from AUS Federation": "1",
+      "Players NOT from AUS Federation": "42",
       "FIDE rated players": "23",
-      "unrated players": "19",
-      "unrated players from AUS Federation": "1",
-      "unrated players NOT from AUS Federation": "18",
-      "unrated Federations": "2",
+      "unrated players": "20",
+      "unrated players from AUS Federation": "0",
+      "unrated players NOT from AUS Federation": "20",
+      "unrated Federations": "1",
       "FIDE titled players": "4",
       "GM players": "0",
       "WGM players": "0",
@@ -2478,21 +2478,21 @@
     "category": "Junior",
     "top_players": [
       {
-        "name": "Anton, Sarah",
-        "point": 1,
-        "elo": "1622",
-        "title": "WCM"
-      },
-      {
         "name": "O'Carroll,Om",
-        "point": 1,
+        "point": 2,
         "elo": "1754",
         "title": "WCM"
       },
       {
         "name": "Dissanayake,Vidushi",
-        "point": 1,
+        "point": 2,
         "elo": "1841",
+        "title": ""
+      },
+      {
+        "name": "Davis,Sophie",
+        "point": 2,
+        "elo": "1756",
         "title": ""
       }
     ]
