@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-09-22T08:44:23.905Z",
+  "generatedAt": "2026-09-22T12:40:34.634Z",
   "year": "2026",
-  "count": 346,
-  "seniorCount": 202,
+  "count": 357,
+  "seniorCount": 218,
   "juniorCount": 261,
-  "totalTournaments": 21,
+  "totalTournaments": 22,
   "players": [
     {
       "name": "Ahmad, Ihtiram",
@@ -157,7 +157,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#57",
-      "tournamentCount": 10,
+      "tournamentCount": 11,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -186,6 +186,13 @@
           "name": "Hobsons Bay Blitz 1 2026",
           "totalRounds": "9",
           "ratingType": "blitz"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2.5,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -232,7 +239,7 @@
       ],
       "points": {
         "standard": 17,
-        "rapid": 11,
+        "rapid": 13.5,
         "blitz": 5
       }
     },
@@ -242,7 +249,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#23",
-      "tournamentCount": 9,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -280,6 +287,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 3,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
           "score": 6,
           "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
@@ -310,7 +324,7 @@
       ],
       "points": {
         "standard": 18,
-        "rapid": 12,
+        "rapid": 15,
         "blitz": 0.5
       }
     },
@@ -410,12 +424,19 @@
     },
     {
       "name": "Aquino,Zedric",
-      "id": "46",
+      "id": "44",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#46",
-      "tournamentCount": 4,
+      "href": "playercard.html#44",
+      "tournamentCount": 5,
       "tournaments": [
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
           "score": 4,
@@ -447,7 +468,7 @@
       ],
       "points": {
         "standard": 8.5,
-        "rapid": 0,
+        "rapid": 1,
         "blitz": 0
       }
     },
@@ -457,7 +478,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#77",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -465,6 +486,13 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2.5,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026PurdyCupRookiesandJuniors/data.json",
@@ -483,7 +511,7 @@
       ],
       "points": {
         "standard": 6,
-        "rapid": 5.5,
+        "rapid": 8,
         "blitz": 0
       }
     },
@@ -607,7 +635,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#114",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -615,6 +643,13 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -661,7 +696,7 @@
       ],
       "points": {
         "standard": 8.5,
-        "rapid": 3,
+        "rapid": 4,
         "blitz": 0
       }
     },
@@ -843,7 +878,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#63",
-      "tournamentCount": 10,
+      "tournamentCount": 11,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -863,6 +898,13 @@
           "tournament": "wwwRapid12026/data.json",
           "score": 0.5,
           "name": "Hobsons Bay Rapid 1 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
         },
@@ -918,7 +960,7 @@
       ],
       "points": {
         "standard": 14.5,
-        "rapid": 12.5,
+        "rapid": 14.5,
         "blitz": 5
       }
     },
@@ -1180,7 +1222,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#58",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -1188,6 +1230,13 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2.5,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -1227,7 +1276,7 @@
       ],
       "points": {
         "standard": 17.5,
-        "rapid": 6,
+        "rapid": 8.5,
         "blitz": 0
       }
     },
@@ -1237,7 +1286,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#50",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -1245,6 +1294,13 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 4,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -1284,7 +1340,7 @@
       ],
       "points": {
         "standard": 18,
-        "rapid": 5.5,
+        "rapid": 9.5,
         "blitz": 0
       }
     },
@@ -1338,7 +1394,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#26",
-      "tournamentCount": 8,
+      "tournamentCount": 9,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -1358,6 +1414,13 @@
           "tournament": "wwwRapid12026/data.json",
           "score": 1.5,
           "name": "Hobsons Bay Rapid 1 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
         },
@@ -1399,7 +1462,7 @@
       ],
       "points": {
         "standard": 10,
-        "rapid": 6.5,
+        "rapid": 8.5,
         "blitz": 3
       }
     },
@@ -1438,7 +1501,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#27",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026KoshnitskyCupOpen/data.json",
@@ -1453,11 +1516,18 @@
           "name": "Hobsons Bay Cup Open 20226",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 7,
-        "rapid": 0,
+        "rapid": 2,
         "blitz": 0
       }
     },
@@ -1582,7 +1652,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#25",
-      "tournamentCount": 10,
+      "tournamentCount": 11,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -1641,6 +1711,13 @@
           "ratingType": "rapid"
         },
         {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 3,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
           "score": 7.5,
           "name": "2026 HBCC Hobsons Bay Juniors Rapid Championship",
@@ -1657,7 +1734,7 @@
       ],
       "points": {
         "standard": 23,
-        "rapid": 13.5,
+        "rapid": 16.5,
         "blitz": 6
       }
     },
@@ -1863,7 +1940,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#26",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026KoshnitskyCupOpen/data.json",
@@ -1871,11 +1948,18 @@
           "name": "2026 Hobsons Bay Koshnitsky Cup Open",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 1.5,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 2.5,
-        "rapid": 0,
+        "rapid": 1.5,
         "blitz": 0
       }
     },
@@ -1929,7 +2013,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#16",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026KoshnitskyCupOpen/data.json",
@@ -1937,6 +2021,13 @@
           "name": "2026 Hobsons Bay Koshnitsky Cup Open",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026KoshnitskyCupRookiesandJuniors/data.json",
@@ -1948,7 +2039,7 @@
       ],
       "points": {
         "standard": 6,
-        "rapid": 0,
+        "rapid": 1,
         "blitz": 0
       }
     },
@@ -2563,7 +2654,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#115",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -2571,11 +2662,18 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 1.5,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 1,
-        "rapid": 0,
+        "rapid": 1.5,
         "blitz": 0
       }
     },
@@ -2585,7 +2683,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#116",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -2600,11 +2698,18 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 2.5,
-        "rapid": 3,
+        "rapid": 5,
         "blitz": 0
       }
     },
@@ -2627,6 +2732,28 @@
       "points": {
         "standard": 4.5,
         "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Dwyer,Lachlan",
+      "id": "30",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#30",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 2,
         "blitz": 0
       }
     },
@@ -2854,13 +2981,42 @@
       }
     },
     {
-      "name": "Gajula,Karan",
-      "id": "16",
+      "name": "Gajula,Hemanth",
+      "id": "9",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#16",
-      "tournamentCount": 4,
+      "href": "playercard.html#9",
+      "tournamentCount": 1,
       "tournaments": [
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2.5,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 2.5,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Gajula,Karan",
+      "id": "26",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#26",
+      "tournamentCount": 5,
+      "tournaments": [
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 3,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
           "score": 3,
@@ -2892,18 +3048,25 @@
       ],
       "points": {
         "standard": 6.5,
-        "rapid": 5.5,
+        "rapid": 8.5,
         "blitz": 0
       }
     },
     {
       "name": "Gajula,Nishitha",
-      "id": "25",
+      "id": "47",
       "fideId": "",
       "gender": "female",
-      "href": "playercard.html#25",
-      "tournamentCount": 6,
+      "href": "playercard.html#47",
+      "tournamentCount": 7,
       "tournaments": [
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
           "score": 2,
@@ -2949,7 +3112,7 @@
       ],
       "points": {
         "standard": 9.5,
-        "rapid": 4,
+        "rapid": 5,
         "blitz": 0
       }
     },
@@ -3037,6 +3200,28 @@
         "standard": 6.5,
         "rapid": 11,
         "blitz": 4
+      }
+    },
+    {
+      "name": "Ganesan,Venkat",
+      "id": "56",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#56",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 4,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 4,
+        "blitz": 0
       }
     },
     {
@@ -3619,7 +3804,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#21",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -3641,11 +3826,18 @@
           "name": "2026 Hobsons Bay Koshnitsky Cup Open",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 3,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 11.5,
-        "rapid": 0,
+        "rapid": 3,
         "blitz": 0
       }
     },
@@ -3807,7 +3999,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#46",
-      "tournamentCount": 8,
+      "tournamentCount": 9,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -3864,11 +4056,18 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 20,
-        "rapid": 3,
+        "rapid": 5,
         "blitz": 5
       }
     },
@@ -4059,7 +4258,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#15",
-      "tournamentCount": 9,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "wwwBlitz12026/data.json",
@@ -4072,6 +4271,13 @@
           "tournament": "wwwRapid12026/data.json",
           "score": 2.5,
           "name": "Hobsons Bay Rapid 1 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2.5,
+          "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
         },
@@ -4127,7 +4333,7 @@
       ],
       "points": {
         "standard": 15.5,
-        "rapid": 13.5,
+        "rapid": 16,
         "blitz": 5.5
       }
     },
@@ -4241,12 +4447,19 @@
     },
     {
       "name": "Ilic,Milan",
-      "id": "6",
+      "id": "19",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#6",
-      "tournamentCount": 1,
+      "href": "playercard.html#19",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
           "score": 4,
@@ -4257,7 +4470,7 @@
       ],
       "points": {
         "standard": 4,
-        "rapid": 0,
+        "rapid": 2,
         "blitz": 0
       }
     },
@@ -4360,6 +4573,28 @@
       "points": {
         "standard": 1,
         "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Jones,Jethro",
+      "id": "3",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#3",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 2,
         "blitz": 0
       }
     },
@@ -4741,7 +4976,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#29",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4749,6 +4984,13 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 3,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
@@ -4767,7 +5009,7 @@
       ],
       "points": {
         "standard": 4,
-        "rapid": 13.5,
+        "rapid": 16.5,
         "blitz": 0
       }
     },
@@ -4799,7 +5041,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#32",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "wwwBlitz12026/data.json",
@@ -4807,6 +5049,13 @@
           "name": "Hobsons Bay Blitz 1 2026",
           "totalRounds": "9",
           "ratingType": "blitz"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -4828,7 +5077,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#96",
-      "tournamentCount": 9,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4843,6 +5092,13 @@
           "name": "Hobsons Bay Blitz 1 2026",
           "totalRounds": "9",
           "ratingType": "blitz"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -4896,7 +5152,7 @@
       ],
       "points": {
         "standard": 14.5,
-        "rapid": 5,
+        "rapid": 6,
         "blitz": 4
       }
     },
@@ -5116,7 +5372,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#30",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026KoshnitskyCupOpen/data.json",
@@ -5124,6 +5380,13 @@
           "name": "2026 Hobsons Bay Koshnitsky Cup Open",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 1.5,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
@@ -5142,7 +5405,7 @@
       ],
       "points": {
         "standard": 2,
-        "rapid": 2,
+        "rapid": 3.5,
         "blitz": 0
       }
     },
@@ -5318,7 +5581,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#32",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupOpen/data.json",
@@ -5338,6 +5601,13 @@
           "tournament": "wwwRapid12026/data.json",
           "score": 1.5,
           "name": "Hobsons Bay Rapid 1 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
         },
@@ -5372,7 +5642,7 @@
       ],
       "points": {
         "standard": 6.5,
-        "rapid": 9,
+        "rapid": 11,
         "blitz": 4.5
       }
     },
@@ -5382,7 +5652,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#33",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupOpen/data.json",
@@ -5402,6 +5672,13 @@
           "tournament": "wwwRapid12026/data.json",
           "score": 2.5,
           "name": "Hobsons Bay Rapid 1 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
         },
@@ -5436,7 +5713,7 @@
       ],
       "points": {
         "standard": 4,
-        "rapid": 12,
+        "rapid": 14,
         "blitz": 4.5
       }
     },
@@ -5962,7 +6239,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#108",
-      "tournamentCount": 9,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -5970,6 +6247,13 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 0.5,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -6030,7 +6314,7 @@
       ],
       "points": {
         "standard": 13.5,
-        "rapid": 7,
+        "rapid": 7.5,
         "blitz": 0
       }
     },
@@ -6053,6 +6337,28 @@
       "points": {
         "standard": 0,
         "rapid": 7,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Majety,Rohan",
+      "id": "13",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#13",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 3,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 3,
         "blitz": 0
       }
     },
@@ -6700,6 +7006,28 @@
       }
     },
     {
+      "name": "Mogullapalli,Advaith",
+      "id": "7",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#7",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 3,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 3,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Mohanty,Archana",
       "id": "39",
       "fideId": "",
@@ -6727,7 +7055,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#69",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -6735,6 +7063,13 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026VictorianWomensChampionship/data.json",
@@ -6746,7 +7081,7 @@
       ],
       "points": {
         "standard": 6,
-        "rapid": 0,
+        "rapid": 2,
         "blitz": 0
       }
     },
@@ -6756,7 +7091,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#125",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -6764,6 +7099,13 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026VictorianWomensChampionship/data.json",
@@ -6775,7 +7117,7 @@
       ],
       "points": {
         "standard": 2,
-        "rapid": 0,
+        "rapid": 1,
         "blitz": 0
       }
     },
@@ -6967,7 +7309,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#83",
-      "tournamentCount": 10,
+      "tournamentCount": 11,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -6987,6 +7329,13 @@
           "tournament": "wwwRapid12026/data.json",
           "score": 2,
           "name": "Hobsons Bay Rapid 1 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 0.5,
+          "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
         },
@@ -7042,7 +7391,7 @@
       ],
       "points": {
         "standard": 18,
-        "rapid": 10,
+        "rapid": 10.5,
         "blitz": 4.5
       }
     },
@@ -7074,7 +7423,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#67",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -7082,11 +7431,18 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 3,
-        "rapid": 0,
+        "rapid": 2,
         "blitz": 0
       }
     },
@@ -7118,7 +7474,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#10",
-      "tournamentCount": 9,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -7170,6 +7526,13 @@
           "ratingType": "rapid"
         },
         {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 4,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 7,
           "name": "2026 HBCC Western Juniors Rapid Championship",
@@ -7186,7 +7549,7 @@
       ],
       "points": {
         "standard": 26.5,
-        "rapid": 12,
+        "rapid": 16,
         "blitz": 9
       }
     },
@@ -7564,7 +7927,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#126",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -7572,6 +7935,13 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -7597,7 +7967,7 @@
       ],
       "points": {
         "standard": 4,
-        "rapid": 3.5,
+        "rapid": 4.5,
         "blitz": 0
       }
     },
@@ -7696,6 +8066,28 @@
       }
     },
     {
+      "name": "Patel,Jinay",
+      "id": "49",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#49",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 1,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Pathiyassery,Emir",
       "id": "26",
       "fideId": "",
@@ -7752,7 +8144,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#8",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -7797,6 +8189,13 @@
           "ratingType": "rapid"
         },
         {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 3,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2026WesternMastersOpen/data.json",
           "score": 1,
           "name": "Hobsons Bay Western Masters 2026",
@@ -7806,7 +8205,7 @@
       ],
       "points": {
         "standard": 15.5,
-        "rapid": 3,
+        "rapid": 6,
         "blitz": 6
       }
     },
@@ -8292,7 +8691,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#34",
-      "tournamentCount": 10,
+      "tournamentCount": 11,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -8321,6 +8720,13 @@
           "name": "Hobsons Bay Cup Open 20226",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 3,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -8367,7 +8773,7 @@
       ],
       "points": {
         "standard": 26.5,
-        "rapid": 12,
+        "rapid": 15,
         "blitz": 0
       }
     },
@@ -8399,7 +8805,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#24",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "wwwBlitz12026/data.json",
@@ -8416,6 +8822,13 @@
           "ratingType": "rapid"
         },
         {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 0.5,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
           "tournament": "www2026WesternJuniorsRapid/data.json",
           "score": 4,
           "name": "2026 HBCC Western Juniors Rapid Championship",
@@ -8425,7 +8838,7 @@
       ],
       "points": {
         "standard": 0,
-        "rapid": 6,
+        "rapid": 6.5,
         "blitz": 4
       }
     },
@@ -8448,6 +8861,28 @@
       "points": {
         "standard": 0,
         "rapid": 5,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Rathod,Kiyaan",
+      "id": "59",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#59",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 0.5,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0.5,
         "blitz": 0
       }
     },
@@ -8602,7 +9037,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#14",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupOpen/data.json",
@@ -8624,11 +9059,18 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 3,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 5,
-        "rapid": 4,
+        "rapid": 7,
         "blitz": 0
       }
     },
@@ -8638,7 +9080,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#74",
-      "tournamentCount": 11,
+      "tournamentCount": 12,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -8658,6 +9100,13 @@
           "tournament": "wwwRapid12026/data.json",
           "score": 2,
           "name": "Hobsons Bay Rapid 1 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 3,
+          "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
         },
@@ -8720,7 +9169,7 @@
       ],
       "points": {
         "standard": 21,
-        "rapid": 14.5,
+        "rapid": 17.5,
         "blitz": 0
       }
     },
@@ -9389,6 +9838,28 @@
       }
     },
     {
+      "name": "Sheik,Bishr",
+      "id": "60",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#60",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 0.5,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0.5,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Sheikh,Tahmid",
       "id": "34",
       "fideId": "",
@@ -9524,7 +9995,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#29",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026PurdyCupOpen/data.json",
@@ -9539,6 +10010,13 @@
           "name": "Hobsons Bay Blitz 1 2026",
           "totalRounds": "9",
           "ratingType": "blitz"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 1.5,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HonourableBobRookiesandJuniors/data.json",
@@ -9557,7 +10035,7 @@
       ],
       "points": {
         "standard": 5,
-        "rapid": 0,
+        "rapid": 1.5,
         "blitz": 4.5
       }
     },
@@ -9966,6 +10444,28 @@
       }
     },
     {
+      "name": "Sudarshan,Shriya",
+      "id": "61",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#61",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 0.5,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0.5,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Sun,Aaron",
       "id": "95",
       "fideId": "",
@@ -10196,7 +10696,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#23",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "wwwHobsonsBayCupOpen/data.json",
@@ -10204,11 +10704,18 @@
           "name": "Hobsons Bay Cup Open 20226",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2.5,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 4,
-        "rapid": 0,
+        "rapid": 2.5,
         "blitz": 0
       }
     },
@@ -10539,7 +11046,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#84",
-      "tournamentCount": 10,
+      "tournamentCount": 11,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -10559,6 +11066,13 @@
           "tournament": "wwwRapid12026/data.json",
           "score": 3,
           "name": "Hobsons Bay Rapid 1 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 1.5,
+          "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
         },
@@ -10614,7 +11128,7 @@
       ],
       "points": {
         "standard": 17.5,
-        "rapid": 13,
+        "rapid": 14.5,
         "blitz": 5
       }
     },
@@ -10646,7 +11160,7 @@
       "fideId": "",
       "gender": "female",
       "href": "playercard.html#91",
-      "tournamentCount": 8,
+      "tournamentCount": 9,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -10654,6 +11168,13 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 1.5,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -10707,7 +11228,7 @@
       ],
       "points": {
         "standard": 14.5,
-        "rapid": 9.5,
+        "rapid": 11,
         "blitz": 0
       }
     },
@@ -10717,12 +11238,19 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#16",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "wwwRapid12026/data.json",
           "score": 0.5,
           "name": "Hobsons Bay Rapid 1 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 1.5,
+          "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
         },
@@ -10743,7 +11271,7 @@
       ],
       "points": {
         "standard": 7,
-        "rapid": 0.5,
+        "rapid": 2,
         "blitz": 0
       }
     },
@@ -10810,7 +11338,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#135",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -10818,6 +11346,13 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -10850,7 +11385,7 @@
       ],
       "points": {
         "standard": 10,
-        "rapid": 5.5,
+        "rapid": 7.5,
         "blitz": 0
       }
     },
@@ -10860,7 +11395,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#136",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -10868,6 +11403,13 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -10900,18 +11442,25 @@
       ],
       "points": {
         "standard": 11,
-        "rapid": 5,
+        "rapid": 6,
         "blitz": 0
       }
     },
     {
       "name": "Vithanage,Binon",
-      "id": "98",
+      "id": "45",
       "fideId": "",
       "gender": "male",
-      "href": "playercard.html#98",
-      "tournamentCount": 1,
+      "href": "playercard.html#45",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 0.5,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
         {
           "tournament": "www2026HobsonsBayJuniorsRapidChampionship/data.json",
           "score": 4.5,
@@ -10922,7 +11471,7 @@
       ],
       "points": {
         "standard": 0,
-        "rapid": 4.5,
+        "rapid": 5,
         "blitz": 0
       }
     },
@@ -11020,7 +11569,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#38",
-      "tournamentCount": 9,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -11047,6 +11596,13 @@
           "tournament": "wwwRapid12026/data.json",
           "score": 2,
           "name": "Hobsons Bay Rapid 1 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
         },
@@ -11088,7 +11644,7 @@
       ],
       "points": {
         "standard": 13.5,
-        "rapid": 6,
+        "rapid": 7,
         "blitz": 3
       }
     },
@@ -11120,7 +11676,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#13",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -11156,11 +11712,18 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2.5,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         }
       ],
       "points": {
         "standard": 10.5,
-        "rapid": 3.5,
+        "rapid": 6,
         "blitz": 5
       }
     },
@@ -11350,7 +11913,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#76",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -11358,6 +11921,13 @@
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
         },
         {
           "tournament": "www2026HBCCRookies&JuniorsCup/data.json",
@@ -11390,7 +11960,7 @@
       ],
       "points": {
         "standard": 14,
-        "rapid": 0,
+        "rapid": 2,
         "blitz": 0
       }
     },
@@ -11562,6 +12132,28 @@
       ],
       "points": {
         "standard": 4,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
+      "name": "Win,Noel May Thu",
+      "id": "50",
+      "fideId": "",
+      "gender": "female",
+      "href": "playercard.html#50",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "wwwRapid22026/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Rapid 2 2026",
+          "totalRounds": "5",
+          "ratingType": "rapid"
+        }
+      ],
+      "points": {
+        "standard": 0,
         "rapid": 0,
         "blitz": 0
       }
