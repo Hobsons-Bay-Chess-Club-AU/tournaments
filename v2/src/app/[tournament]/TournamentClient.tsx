@@ -255,7 +255,30 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
         const primaryFallbackUrl = `${primaryBase}/${folderName}/data.json?ts=${Date.now()}`;
 
         // Realtime source: NEXT_PUBLIC_REALTIME_SOURCE_URL pointing to SFTPGo static website root
-        const realtimeBase = (process.env.NEXT_PUBLIC_REALTIME_SOURCE_URL || '').trim().replace(/\/+$/, '');
+        // Checks build-time env, window global, ?realtime_url query param, or localStorage
+        let realtimeBase = (process.env.NEXT_PUBLIC_REALTIME_SOURCE_URL || '').trim();
+        if (!realtimeBase && typeof window !== 'undefined') {
+            const win = window as any;
+            realtimeBase = win.NEXT_PUBLIC_REALTIME_SOURCE_URL || win.__ENV__?.NEXT_PUBLIC_REALTIME_SOURCE_URL || '';
+            if (!realtimeBase) {
+                try {
+                    const searchParamsRealtime = new URLSearchParams(window.location.search).get('realtime_url');
+                    if (searchParamsRealtime) {
+                        realtimeBase = searchParamsRealtime;
+                    } else {
+                        realtimeBase = localStorage.getItem('NEXT_PUBLIC_REALTIME_SOURCE_URL') || '';
+                    }
+                } catch {}
+            }
+        }
+        realtimeBase = realtimeBase.replace(/\/+$/, '');
+
+        if (realtimeBase) {
+            console.log(`[Tournament] Realtime source active: ${realtimeBase}`);
+        } else {
+            console.log('[Tournament] Realtime source not configured (NEXT_PUBLIC_REALTIME_SOURCE_URL is empty)');
+        }
+
         const realtimeCleanUrl = realtimeBase ? `${realtimeBase}/${folderName}/data_clean.json?ts=${Date.now()}` : null;
         const realtimeFallbackUrl = realtimeBase ? `${realtimeBase}/${folderName}/data.json?ts=${Date.now()}` : null;
 

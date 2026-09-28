@@ -21,6 +21,7 @@ const nextConfig: NextConfig = {
   // Build-time injected environment variables
   env: {
     NEXT_PUBLIC_BUILD_TIME: new Date().toISOString(),
+    NEXT_PUBLIC_REALTIME_SOURCE_URL: process.env.NEXT_PUBLIC_REALTIME_SOURCE_URL || '',
   },
   
   /* config options here */
