@@ -7,6 +7,7 @@ import PlayerRenderer from "@/components/PlayerRenderer";
 import KeyValueTable from "@/components/KeyValueTable";
 import PlayerPairingModal from "@/components/PlayerPairingModal";
 import TeamPairingRenderer from "@/components/TeamPairingRenderer";
+import { useFooter, formatMelbourneTime } from "@/context/FooterContext";
 
 // Type for team pairing data
 type TeamPairingData = {
@@ -213,8 +214,24 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     // Unwrap params Promise using React.use()
     const resolvedParams = use(params);
     const [data, setData] = useState<TournamentData | null>(null);
+    const { setGeneratedAt } = useFooter();
     const searchParams = useSearchParams();
     const router = useRouter();
+
+    // Sync individual tournament data generatedAt with the site footer
+    useEffect(() => {
+        if (data?.generatedAt) {
+            const formatted = formatMelbourneTime(data.generatedAt);
+            if (formatted) {
+                setGeneratedAt(formatted);
+                const el = document.getElementById("site-footer-generated-at");
+                if (el) el.textContent = `Generated at : ${formatted}`;
+            }
+        }
+        return () => {
+            setGeneratedAt(undefined);
+        };
+    }, [data?.generatedAt, setGeneratedAt]);
     // Determine default page based on tournament type
     const getDefaultPage = () => {
         if (!data) return "index.html";
@@ -292,8 +309,15 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
             if (!bestData || sourceTimestamp > bestTimestamp) {
                 bestData = sourceData;
                 bestTimestamp = sourceTimestamp;
-                console.log(`[Tournament] Loaded latest data from ${sourceLabel} (generatedAt: ${sourceData.generatedAt || 'unknown'})`);
                 setData(sourceData);
+                if (sourceData.generatedAt) {
+                    const formatted = formatMelbourneTime(sourceData.generatedAt);
+                    if (formatted) {
+                        setGeneratedAt(formatted);
+                        const el = document.getElementById("site-footer-generated-at");
+                        if (el) el.textContent = `Generated at : ${formatted}`;
+                    }
+                }
             } else {
                 console.log(
                     `[Tournament] Data from ${sourceLabel} (generatedAt: ${sourceData.generatedAt}) skipped: current data is newer (generatedAt: ${bestData.generatedAt})`
