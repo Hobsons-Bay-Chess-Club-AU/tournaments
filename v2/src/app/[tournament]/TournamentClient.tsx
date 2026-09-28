@@ -114,6 +114,101 @@ type MenuItem = {
     children?: MenuItem[];
 };
 
+/**
+ * Safely parse a generatedAt ISO timestamp or date string into milliseconds.
+ * Returns 0 if invalid or missing.
+ */
+function getGeneratedTimestamp(data: TournamentData | null | undefined): number {
+    if (!data || !data.generatedAt) return 0;
+    const time = new Date(data.generatedAt).getTime();
+    return isNaN(time) ? 0 : time;
+}
+
+/**
+ * Normalizes tournament data into TournamentData format,
+ * supporting data_clean.json as primary and data.json as fallback.
+ */
+function normalizeTournamentData(raw: unknown): TournamentData | null {
+    if (!raw || typeof raw !== "object") return null;
+    const data = raw as Record<string, unknown>;
+
+    const pages = (data.pages || data.page || {}) as Record<string, PageData>;
+    const metadata = (data.metadata || {}) as Record<string, unknown>;
+    const tournamentObj = (data.tournament as Record<string, unknown>) || {
+        id: String(data.tournamentId || ""),
+        name: String(metadata["Tournament Name"] || data.name || ""),
+        category: String(data.category || "Senior"),
+        metadata: metadata
+    };
+
+    let players: Player[] = [];
+    if (Array.isArray(data.players)) {
+        players = data.players as Player[];
+    } else if (Array.isArray(data.playerLookup)) {
+        players = data.playerLookup as Player[];
+    } else if (data.playerLookup && typeof data.playerLookup === "object") {
+        players = Object.values(data.playerLookup) as Player[];
+    }
+
+    const menu = Array.isArray(data.menu) ? (data.menu as MenuItem[]) : [];
+    const generatedAt = typeof data.generatedAt === "string" ? data.generatedAt : "";
+
+    return {
+        generatedAt,
+        tournament: tournamentObj as TournamentData["tournament"],
+        players,
+        pages,
+        menu
+    };
+}
+
+/**
+ * Fetches tournament data from a base endpoint (trying data_clean.json then data.json) with timeout.
+ */
+async function fetchTournamentData(
+    cleanUrl: string,
+    fallbackUrl: string,
+    timeoutMs: number,
+    signal?: AbortSignal
+): Promise<TournamentData | null> {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+
+    const onParentAbort = () => controller.abort();
+    if (signal) {
+        if (signal.aborted) {
+            controller.abort();
+        } else {
+            signal.addEventListener("abort", onParentAbort);
+        }
+    }
+
+    try {
+        const res = await fetch(cleanUrl, { signal: controller.signal });
+        if (res.ok) {
+            const json = await res.json();
+            return normalizeTournamentData(json);
+        }
+
+        // Clean data failed or 404, try data.json fallback
+        if (fallbackUrl) {
+            const fallbackRes = await fetch(fallbackUrl, { signal: controller.signal });
+            if (fallbackRes.ok) {
+                const json = await fallbackRes.json();
+                return normalizeTournamentData(json);
+            }
+        }
+        return null;
+    } catch {
+        return null;
+    } finally {
+        clearTimeout(timeoutId);
+        if (signal) {
+            signal.removeEventListener("abort", onParentAbort);
+        }
+    }
+}
+
 export default function TournamentClient({ params }: { params: Promise<{ tournament: string }> }) {
     // Unwrap params Promise using React.use()
     const resolvedParams = use(params);
@@ -148,9 +243,59 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
     const playerId = searchParams?.get("id"); // Get player ID for auto-scroll
 
     useEffect(() => {
-        fetch(process.env.NEXT_PUBLIC_APP_URL + `/www${resolvedParams.tournament}/data_clean.json?ts=${new Date().getTime()}`)
-            .then((res) => res.json())
-            .then((json) => setData(json));
+        let isCancelled = false;
+        const abortController = new AbortController();
+
+        const tournamentParam = resolvedParams.tournament || '';
+        const folderName = tournamentParam.startsWith('www') ? tournamentParam : `www${tournamentParam}`;
+
+        // Primary source: NEXT_PUBLIC_APP_URL or relative path to static build
+        const primaryBase = (process.env.NEXT_PUBLIC_APP_URL || '').trim().replace(/\/+$/, '');
+        const primaryCleanUrl = `${primaryBase}/${folderName}/data_clean.json?ts=${Date.now()}`;
+        const primaryFallbackUrl = `${primaryBase}/${folderName}/data.json?ts=${Date.now()}`;
+
+        // Realtime source: NEXT_PUBLIC_REALTIME_SOURCE_URL pointing to SFTPGo static website root
+        const realtimeBase = (process.env.NEXT_PUBLIC_REALTIME_SOURCE_URL || '').trim().replace(/\/+$/, '');
+        const realtimeCleanUrl = realtimeBase ? `${realtimeBase}/${folderName}/data_clean.json?ts=${Date.now()}` : null;
+        const realtimeFallbackUrl = realtimeBase ? `${realtimeBase}/${folderName}/data.json?ts=${Date.now()}` : null;
+
+        let bestData: TournamentData | null = null;
+        let bestTimestamp = -1;
+
+        const applyDataIfNewer = (sourceData: TournamentData | null, sourceLabel: string) => {
+            if (isCancelled || !sourceData) return;
+            const sourceTimestamp = getGeneratedTimestamp(sourceData);
+
+            if (!bestData || sourceTimestamp > bestTimestamp) {
+                bestData = sourceData;
+                bestTimestamp = sourceTimestamp;
+                console.log(`[Tournament] Loaded latest data from ${sourceLabel} (generatedAt: ${sourceData.generatedAt || 'unknown'})`);
+                setData(sourceData);
+            } else {
+                console.log(
+                    `[Tournament] Data from ${sourceLabel} (generatedAt: ${sourceData.generatedAt}) skipped: current data is newer (generatedAt: ${bestData.generatedAt})`
+                );
+            }
+        };
+
+        const primaryTask = fetchTournamentData(primaryCleanUrl, primaryFallbackUrl, 10000, abortController.signal)
+            .then(incoming => applyDataIfNewer(incoming, 'primary'));
+
+        const realtimeTask = realtimeCleanUrl
+            ? fetchTournamentData(realtimeCleanUrl, realtimeFallbackUrl || '', 8000, abortController.signal)
+                .then(incoming => applyDataIfNewer(incoming, 'realtime (SFTPGo)'))
+            : null;
+
+        Promise.allSettled([primaryTask, ...(realtimeTask ? [realtimeTask] : [])]).then(() => {
+            if (!isCancelled && !bestData) {
+                console.warn(`[Tournament] Unable to load tournament data for ${folderName} from any source.`);
+            }
+        });
+
+        return () => {
+            isCancelled = true;
+            abortController.abort();
+        };
     }, [resolvedParams.tournament]);
 
     // Handle team tournament default page selection when data loads
