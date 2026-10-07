@@ -6,9 +6,19 @@ import { fileURLToPath } from "url";
 import { processFolder } from "../src/vega-parser.mjs";
 import { generateRewardPage, updateNavigation } from "../src/shared.mjs";
 import { generateUniquePlayersFiles } from "../src/prepare-data.mjs";
+import dotenv from "dotenv";
+import {
+    upsertTournamentToSupabase,
+    upsertPlayersToSupabase,
+    isSupabaseConfigured
+} from "../src/supabase.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+// Load environment variables (.env in scripts/ and project root)
+dotenv.config({ path: path.join(__dirname, ".env"), quiet: true });
+dotenv.config({ path: path.join(__dirname, "..", ".env"), quiet: true });
 
 // ============================================================
 // Custom Logger: outputs to console and ROOT_FOLDER/log.txt
@@ -36,40 +46,53 @@ function getTimestamp() {
     return `${YYYY}-${MM}-${DD} ${hh}:${mm}:${ss}`;
 }
 
+let logFileInitialized = false;
+
 export function setLogFilePath(targetPath) {
     logFilePath = targetPath;
     if (logFilePath) {
-        // Rotate if log file exceeds 10 MB
+        // Overwrite log file on each run so only the latest execution log is kept
         try {
-            if (fs.existsSync(logFilePath) && fs.statSync(logFilePath).size > 10 * 1024 * 1024) {
-                const oldLog = logFilePath + ".old";
-                if (fs.existsSync(oldLog)) fs.unlinkSync(oldLog);
-                fs.renameSync(logFilePath, oldLog);
-            }
-        } catch { }
-
-        // Flush early buffer
-        if (earlyLogBuffer.length > 0) {
-            try {
-                fs.appendFileSync(logFilePath, earlyLogBuffer.join("\n") + "\n", "utf8");
-                earlyLogBuffer.length = 0;
-            } catch (err) {
-                rawConsole.error(`Failed to flush log buffer to ${logFilePath}:`, err.message);
-            }
+            const initialContent = earlyLogBuffer.length > 0 ? earlyLogBuffer.join("\n") + "\n" : "";
+            fs.writeFileSync(logFilePath, initialContent, "utf8");
+            earlyLogBuffer.length = 0;
+            logFileInitialized = true;
+        } catch (err) {
+            rawConsole.error(`Failed to initialize log file at ${logFilePath}:`, err.message);
         }
     }
 }
 
+export function maskSensitiveData(text) {
+    if (text === null || text === undefined) return "";
+    let str = typeof text !== "string" ? util.format(text) : text;
+
+    return str
+        // Mask Supabase secret keys, publishable keys, personal access tokens
+        .replace(/sb_secret_[a-zA-Z0-9_\-]+/gi, "sb_secret_***")
+        .replace(/sb_publishable_[a-zA-Z0-9_\-]+/gi, "sb_publishable_***")
+        .replace(/sbp_[a-zA-Z0-9_\-]+/gi, "sbp_***")
+        // Mask JWT tokens
+        .replace(/eyJ[a-zA-Z0-9_\-]{10,}\.[a-zA-Z0-9_\-]{10,}\.[a-zA-Z0-9_\-]+/gi, "[REDACTED_JWT]")
+        // Mask JWKS endpoint or auth URLs
+        .replace(/https?:\/\/[^\s\/]+\/auth\/v1\/\.well-known\/jwks\.json/gi, "[REDACTED_JWKS_URL]")
+        // Mask basic auth or DB passwords in URLs (e.g. postgresql://user:pass@host:port/db)
+        .replace(/(postgres(?:ql)?:\/\/[^:]+:)([^@]+)(@)/gi, "$1***$3")
+        // Mask key=val or key: val patterns for known sensitive variable names
+        .replace(/\b(SUPABASE_ACCESS_TOKEN|SUPABASE_JWKS_URL|SUPABASE_SECRET_KEY|SUPABASE_PUBLISHABLE_KEY|NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY|NEXT_PUBLIC_SUPABASE_URL|DATABASE_URL|PASSWORD|SECRET|TOKEN|API_KEY)\s*([:=])\s*([^\s,;]+)/gi, "$1$2***");
+}
+
 export function writeLog(level, ...args) {
-    const formatted = util.format(...args);
+    const rawFormatted = util.format(...args);
+    const formatted = maskSensitiveData(rawFormatted);
 
     // 1. Output to console
     if (level === "ERROR") {
-        rawConsole.error(...args);
+        rawConsole.error(formatted);
     } else if (level === "WARN") {
-        rawConsole.warn(...args);
+        rawConsole.warn(formatted);
     } else {
-        rawConsole.log(...args);
+        rawConsole.log(formatted);
     }
 
     // 2. Format for log.txt
@@ -85,7 +108,12 @@ export function writeLog(level, ...args) {
     // 3. Write to file or buffer
     if (logFilePath) {
         try {
-            fs.appendFileSync(logFilePath, fileEntry + "\n", "utf8");
+            if (!logFileInitialized) {
+                fs.writeFileSync(logFilePath, fileEntry ? fileEntry + "\n" : "", "utf8");
+                logFileInitialized = true;
+            } else if (fileEntry) {
+                fs.appendFileSync(logFilePath, fileEntry + "\n", "utf8");
+            }
         } catch (err) {
             rawConsole.error(`Failed writing to ${logFilePath}:`, err.message);
         }
@@ -248,42 +276,14 @@ console.log(`Debounce Delay:    ${NO_DEBOUNCE ? "disabled" : `${DEBOUNCE_SYNC_DE
 console.log(`Log file:          ${path.join(ROOT_FOLDER, "log.txt")}`);
 console.log("");
 console.log("------------------------------------------");
-console.log("Trigger Context & Environment");
+console.log("Trigger Context");
 console.log("------------------------------------------");
 console.log(`Command:     ${process.argv.join(" ")}`);
 const cliArgs = process.argv.slice(2);
 console.log(`CLI Args:    ${cliArgs.length > 0 ? JSON.stringify(cliArgs) : "[] (none passed)"}`);
-
-// Dump all relevant environment variables
-const ignoredStandardVars = new Set([
-    "PATH", "LSCOLORS", "SHLVL", "_", "PWD", "OLDPWD", "HOME", "SHELL",
-    "TERM", "TMPDIR", "XPC_FLAGS", "XPC_SERVICE_NAME", "__CFBundleIdentifier"
-]);
-const relevantEnv = {};
-for (const [k, v] of Object.entries(process.env)) {
-    const upper = k.toUpperCase();
-    if (
-        upper.includes("SFTPGO") ||
-        upper.includes("EVENT") ||
-        upper.includes("ACTION") ||
-        upper.includes("TARGET") ||
-        upper.includes("UPLOAD") ||
-        upper.includes("REPO") ||
-        upper.includes("ROOT") ||
-        upper.includes("COMMIT") ||
-        upper.includes("PUSH") ||
-        !ignoredStandardVars.has(k)
-    ) {
-        relevantEnv[k] = v;
-    }
-}
-if (Object.keys(relevantEnv).length > 0) {
-    console.log("Environment:");
-    for (const [k, v] of Object.entries(relevantEnv)) {
-        console.log(`  ${k} = ${v}`);
-    }
-} else {
-    console.log("Environment: (no custom environment variables found)");
+const sftpTarget = process.env.SFTPGO_EVENT_FS_PATH || process.env.SFTPGO_ACTION_FS_PATH || process.env.SFTPGO_FILE_PATH;
+if (sftpTarget) {
+    console.log(`Target:      ${sftpTarget}`);
 }
 console.log("------------------------------------------");
 console.log("");
@@ -859,6 +859,20 @@ export async function regenerateWebsiteData(website) {
             console.log(`  Category: ${result.category}`);
             console.log(`  Players:  ${result.players?.length || 0}`);
             console.log(`  MD5:      ${result.md5Hash}`);
+
+            const repoCandidate = REPO_PATH || (ROOT_FOLDER && fs.existsSync(path.join(ROOT_FOLDER, "tournament.json")) ? path.dirname(ROOT_FOLDER) : null);
+            if (repoCandidate) {
+                try {
+                    await upsertTournamentMasterData({
+                        websiteName: website.name,
+                        repoPath: repoCandidate,
+                        result
+                    });
+                } catch (err) {
+                    console.warn(`[Supabase] Warning during master upsert for ${website.name}:`, err.message);
+                }
+            }
+
             return result;
         } else {
             console.warn(
@@ -885,7 +899,9 @@ export async function upsertTournamentMasterData({ websiteName, repoPath, result
     }
 
     const resolvedRepo = path.resolve(repoPath);
-    const targetWww = path.join(resolvedRepo, "www");
+    const targetWww = path.basename(resolvedRepo).toLowerCase() === "www"
+        ? resolvedRepo
+        : path.join(resolvedRepo, "www");
     const targetTournamentFolder = path.join(targetWww, websiteName);
 
     console.log("");
@@ -1005,6 +1021,37 @@ export async function upsertTournamentMasterData({ websiteName, repoPath, result
         }
     } catch (err) {
         console.warn("Warning during rewards/navigation update:", err.message);
+    }
+
+    // 5. Upsert tournament and master players to Supabase
+    try {
+        if (isSupabaseConfigured()) {
+            console.log(`[SUPABASE] Upserting tournament ${websiteName} to Supabase...`);
+            const tourneyRes = await upsertTournamentToSupabase({
+                websiteName,
+                repoPath: resolvedRepo,
+                result
+            });
+            if (tourneyRes.success) {
+                console.log(`[SUPABASE] Successfully upserted tournament: ${websiteName}`);
+            } else {
+                console.warn(`[SUPABASE] Warning: Failed to upsert tournament:`, tourneyRes.error?.message || tourneyRes.reason);
+            }
+
+            console.log("[SUPABASE] Upserting master players to Supabase...");
+            const playersRes = await upsertPlayersToSupabase({
+                repoPath: resolvedRepo
+            });
+            if (playersRes.success) {
+                console.log(`[SUPABASE] Successfully upserted ${playersRes.count} players to Supabase.`);
+            } else {
+                console.warn(`[SUPABASE] Warning: Failed to upsert players:`, playersRes.error?.message || playersRes.reason);
+            }
+        } else {
+            console.log("[SUPABASE] Supabase credentials not found; skipping database sync.");
+        }
+    } catch (err) {
+        console.warn("[SUPABASE] Warning: Error during Supabase upsert:", err.message);
     }
 }
 
