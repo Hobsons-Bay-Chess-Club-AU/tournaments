@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-30T09:28:17.158Z",
+  "generatedAt": "2026-10-07T06:01:06.783Z",
   "year": "2026",
   "count": 218,
-  "totalTournaments": 22,
+  "totalTournaments": 23,
   "players": [
     {
       "name": "Ahmad,Ihtiram",
@@ -139,7 +139,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#5",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -161,10 +161,17 @@
           "name": "Hobsons Bay Blitz 1 2026",
           "totalRounds": "9",
           "ratingType": "blitz"
+        },
+        {
+          "tournament": "www2026ClubChampionshipOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Club Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 8.5,
+        "standard": 9.5,
         "rapid": 0,
         "blitz": 0.5
       }
@@ -668,7 +675,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#25",
-      "tournamentCount": 9,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -732,6 +739,13 @@
           "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026ClubChampionshipOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Club Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
@@ -1051,7 +1065,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#19",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -1087,10 +1101,17 @@
           "name": "Hobsons Bay Cup Open 20226",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ClubChampionshipOpen/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Club Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 19.5,
+        "standard": 20,
         "rapid": 0,
         "blitz": 0
       }
@@ -1872,7 +1893,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#46",
-      "tournamentCount": 9,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -1936,6 +1957,13 @@
           "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026ClubChampionshipOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Club Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
@@ -2727,7 +2755,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#12",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -2756,10 +2784,17 @@
           "name": "Hobsons Bay Cup Open 20226",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ClubChampionshipOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Club Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 16,
+        "standard": 17,
         "rapid": 0,
         "blitz": 0
       }
@@ -2856,7 +2891,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#14",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -2906,6 +2941,13 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026ClubChampionshipOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Club Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
@@ -3705,7 +3747,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#10",
-      "tournamentCount": 8,
+      "tournamentCount": 9,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -3762,10 +3804,17 @@
           "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026ClubChampionshipOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Club Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 23.5,
+        "standard": 24.5,
         "rapid": 10,
         "blitz": 9
       }
@@ -5902,7 +5951,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#31",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -5945,10 +5994,17 @@
           "name": "Hobsons Bay Cup Open 20226",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ClubChampionshipOpen/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Club Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 19.5,
+        "standard": 20,
         "rapid": 0,
         "blitz": 0
       }

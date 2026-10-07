@@ -4637,5 +4637,64 @@
     },
     "path": "wwwjunior chess championship/data.json",
     "category": "Junior"
+  },
+  {
+    "data": {
+      "Tournament Name": "2026 Hobsons Bay Club Championship Open",
+      "Place": "Melbourne",
+      "Federation": "AUS",
+      "Date Begin": "06/10/2026",
+      "Date End": "01/12/2026",
+      "Arbiter(s)": "IA Casey Goh",
+      "Play System": "Single Round Robin",
+      "Rounds": "7",
+      "Score game": "0-0.5-1",
+      "Tie break": "SB",
+      "Registered Players": "8",
+      "Number of Federations": "1",
+      "Average Rating (all)": "1891",
+      "Average Rating (only FIDE rated)": "1891",
+      "Players from AUS Federation": "0",
+      "Players NOT from AUS Federation": "8",
+      "FIDE rated players": "8",
+      "unrated players": "0",
+      "unrated players from AUS Federation": "0",
+      "unrated players NOT from AUS Federation": "0",
+      "unrated Federations": "0",
+      "FIDE titled players": "3",
+      "GM players": "0",
+      "WGM players": "0",
+      "IM players": "0",
+      "WIM players": "0",
+      "FM players": "1",
+      "WFM players": "0",
+      "CM players": "2",
+      "WCM players": "0",
+      "FIDE titled player from AUS Federation": "0",
+      "FIDE titled player NOT from AUS Federation": "3",
+      "category": "Senior"
+    },
+    "path": "www2026ClubChampionshipOpen/data.json",
+    "category": "Senior",
+    "top_players": [
+      {
+        "name": "Nguyen,Anh Kiet",
+        "point": 1,
+        "elo": "1977",
+        "title": "CM"
+      },
+      {
+        "name": "Krishnan,Anirudh",
+        "point": 1,
+        "elo": "1888",
+        "title": ""
+      },
+      {
+        "name": "Annapureddy,Rheyansh Reddy",
+        "point": 1,
+        "elo": "2268",
+        "title": "FM"
+      }
+    ]
   }
 ]
