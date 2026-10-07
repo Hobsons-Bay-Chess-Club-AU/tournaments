@@ -4696,5 +4696,64 @@
         "title": "FM"
       }
     ]
+  },
+  {
+    "data": {
+      "Tournament Name": "Hobsons Bay Reserves Championship Open",
+      "Place": "Melbourne",
+      "Federation": "AUS",
+      "Date Begin": "06/10/2026",
+      "Date End": "01/12/2026",
+      "Arbiter(s)": "IA Casey Goh",
+      "Play System": "swiss FIDE Dutch 2026 (Gacrux)",
+      "Rounds": "7",
+      "Score game": "0-0.5-1",
+      "Tie break": "SB",
+      "Registered Players": "20",
+      "Number of Federations": "2",
+      "Average Rating (all)": "1508",
+      "Average Rating (only FIDE rated)": "1625",
+      "Players from AUS Federation": "1",
+      "Players NOT from AUS Federation": "19",
+      "FIDE rated players": "18",
+      "unrated players": "2",
+      "unrated players from AUS Federation": "0",
+      "unrated players NOT from AUS Federation": "2",
+      "unrated Federations": "1",
+      "FIDE titled players": "0",
+      "GM players": "0",
+      "WGM players": "0",
+      "IM players": "0",
+      "WIM players": "0",
+      "FM players": "0",
+      "WFM players": "0",
+      "CM players": "0",
+      "WCM players": "0",
+      "FIDE titled player from AUS Federation": "0",
+      "FIDE titled player NOT from AUS Federation": "0",
+      "category": "Senior"
+    },
+    "path": "www2026ReserveChampionshipOpen/data.json",
+    "category": "Senior",
+    "top_players": [
+      {
+        "name": "Paul,Cijo",
+        "point": 1,
+        "elo": "1763",
+        "title": ""
+      },
+      {
+        "name": "Menezes,Eric",
+        "point": 1,
+        "elo": "1768",
+        "title": ""
+      },
+      {
+        "name": "Nowak,Ruben",
+        "point": 1,
+        "elo": "1642",
+        "title": ""
+      }
+    ]
   }
 ]

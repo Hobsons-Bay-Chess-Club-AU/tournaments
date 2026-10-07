@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-07T06:07:35.757Z",
+  "generatedAt": "2026-10-07T09:59:45.967Z",
   "year": "2026",
-  "count": 218,
-  "totalTournaments": 23,
+  "count": 219,
+  "totalTournaments": 24,
   "players": [
     {
       "name": "Ahmad,Ihtiram",
@@ -32,7 +32,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#57",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -68,6 +68,13 @@
           "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
@@ -82,7 +89,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#23",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -125,10 +132,17 @@
           "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 0.5,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 12,
+        "standard": 12.5,
         "rapid": 4,
         "blitz": 0.5
       }
@@ -233,7 +247,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#26",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -260,6 +274,13 @@
           "tournament": "wwwHobsonsBayCupOpen/data.json",
           "score": 2.5,
           "name": "Hobsons Bay Cup Open 20226",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Reserves Championship Open",
           "totalRounds": "7",
           "ratingType": "standard"
         }
@@ -370,7 +391,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#21",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026KoshnitskyCupOpen/data.json",
@@ -392,10 +413,17 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 6.5,
+        "standard": 7.5,
         "rapid": 3,
         "blitz": 0
       }
@@ -595,7 +623,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#27",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026KoshnitskyCupOpen/data.json",
@@ -617,10 +645,17 @@
           "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 8,
         "rapid": 3,
         "blitz": 0
       }
@@ -942,7 +977,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#28",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -964,10 +999,17 @@
           "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 7,
         "rapid": 0,
         "blitz": 0
       }
@@ -1326,13 +1368,20 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#5",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "www2026WesternMajorOpen/data.json",
           "score": 0,
           "name": "Hobsons Bay Western Major 2026",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         }
       ],
@@ -2188,7 +2237,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#19",
-      "tournamentCount": 1,
+      "tournamentCount": 2,
       "tournaments": [
         {
           "tournament": "wwwRapid22026/data.json",
@@ -2196,10 +2245,17 @@
           "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 0,
+        "standard": 1,
         "rapid": 2.5,
         "blitz": 0
       }
@@ -2617,7 +2673,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#30",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026KoshnitskyCupOpen/data.json",
@@ -2632,10 +2688,17 @@
           "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 0.5,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 1,
+        "standard": 1.5,
         "rapid": 1.5,
         "blitz": 0
       }
@@ -2646,7 +2709,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#27",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -2673,6 +2736,13 @@
           "tournament": "wwwHobsonsBayCupOpen/data.json",
           "score": 2,
           "name": "Hobsons Bay Cup Open 20226",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Reserves Championship Open",
           "totalRounds": "7",
           "ratingType": "standard"
         }
@@ -3348,7 +3418,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#37",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -3391,10 +3461,17 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 16,
+        "standard": 17,
         "rapid": 4,
         "blitz": 7
       }
@@ -3718,7 +3795,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#67",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -3733,6 +3810,13 @@
           "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
@@ -3847,7 +3931,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#18",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -3897,10 +3981,17 @@
           "name": "Hobsons Bay Rapid 1 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 11.5,
+        "standard": 12.5,
         "rapid": 0.5,
         "blitz": 6
       }
@@ -4079,7 +4170,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#8",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -4129,10 +4220,17 @@
           "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 14.5,
+        "standard": 15.5,
         "rapid": 6,
         "blitz": 6
       }
@@ -4143,7 +4241,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#47",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4184,6 +4282,13 @@
           "tournament": "wwwHobsonsBayCupOpen/data.json",
           "score": 3,
           "name": "Hobsons Bay Cup Open 20226",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Reserves Championship Open",
           "totalRounds": "7",
           "ratingType": "standard"
         }
@@ -4600,7 +4705,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#74",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4629,6 +4734,13 @@
           "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
@@ -5366,12 +5478,34 @@
       }
     },
     {
+      "name": "Thekkan,Maximus",
+      "id": "19",
+      "fideId": "",
+      "gender": "male",
+      "href": "playercard.html#19",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 0,
+        "rapid": 0,
+        "blitz": 0
+      }
+    },
+    {
       "name": "Thomson,Kynan",
       "id": "23",
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#23",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "wwwHobsonsBayCupOpen/data.json",
@@ -5386,10 +5520,17 @@
           "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 5,
         "rapid": 3.5,
         "blitz": 0
       }
@@ -5843,7 +5984,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#13",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -5886,6 +6027,13 @@
           "name": "Hobsons Bay Rapid 2 2026",
           "totalRounds": "5",
           "ratingType": "rapid"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
@@ -6015,7 +6163,7 @@
       "fideId": "",
       "gender": "male",
       "href": "playercard.html#56",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -6051,10 +6199,17 @@
           "name": "Hobsons Bay Cup Open 20226",
           "totalRounds": "7",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 11,
+        "standard": 12,
         "rapid": 0,
         "blitz": 0
       }
