@@ -199,18 +199,27 @@ export async function upsertPlayersToSupabase({ players = [], repoPath = null, b
         const rows = Array.from(uniqueMap.values());
         console.log(`[Supabase] Upserting ${rows.length} players to Supabase in batches of ${batchSize}...`);
 
-        let insertedCount = 0;
+        const batches = [];
         for (let i = 0; i < rows.length; i += batchSize) {
-            const batch = rows.slice(i, i + batchSize);
-            const { error } = await supabase
-                .from('players')
-                .upsert(batch, { onConflict: 'name' });
+            batches.push({ offset: i, items: rows.slice(i, i + batchSize) });
+        }
 
-            if (error) {
-                console.error(`[Supabase] Error upserting players batch ${i} - ${i + batch.length}:`, error.message);
-                return { success: false, count: insertedCount, error };
+        const batchResults = await Promise.all(
+            batches.map(async b => {
+                const { error } = await supabase
+                    .from('players')
+                    .upsert(b.items, { onConflict: 'name' });
+                return { offset: b.offset, count: b.items.length, error };
+            })
+        );
+
+        let insertedCount = 0;
+        for (const res of batchResults) {
+            if (res.error) {
+                console.error(`[Supabase] Error upserting players batch offset ${res.offset}:`, res.error.message);
+                return { success: false, count: insertedCount, error: res.error };
             }
-            insertedCount += batch.length;
+            insertedCount += res.count;
         }
 
         console.log(`[Supabase] Successfully upserted ${insertedCount} players.`);

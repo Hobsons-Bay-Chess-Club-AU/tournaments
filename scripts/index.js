@@ -1122,16 +1122,69 @@ export async function syncFolderToRepo(website, repoPath) {
         });
     }
 
-    // 4. Update root index
-    const rootIndexSrc = path.join(ROOT_FOLDER, "index.html");
-    const rootIndexDest = path.join(targetWww, "index.html");
-    if (fs.existsSync(rootIndexSrc) && path.resolve(rootIndexSrc) !== path.resolve(rootIndexDest)) {
-        try {
-            fs.copyFileSync(rootIndexSrc, rootIndexDest);
-        } catch {}
+    return true;
+}
+
+export function pullLatestFromRepo(repoPath) {
+    if (!repoPath) {
+        return false;
     }
 
-    return true;
+    const resolvedRepo = path.resolve(repoPath);
+    if (!fs.existsSync(resolvedRepo)) {
+        console.error(`ERROR: REPO_PATH directory does not exist: ${resolvedRepo}`);
+        return false;
+    }
+
+    try {
+        console.log("");
+        console.log("------------------------------------------");
+        console.log(`Checking and pulling latest changes: ${resolvedRepo}`);
+        console.log("------------------------------------------");
+
+        // Verify it is a git repo
+        const isGit = spawnSync("git rev-parse --is-inside-work-tree", { cwd: resolvedRepo, shell: true });
+        if (isGit.status !== 0) {
+            console.warn(`Warning: ${resolvedRepo} is not a git repository.`);
+            return false;
+        }
+
+        // 1. Recover from any unfinished/stuck rebase or merge state from previous runs
+        const gitDir = path.join(resolvedRepo, ".git");
+        if (fs.existsSync(path.join(gitDir, "rebase-merge")) || fs.existsSync(path.join(gitDir, "rebase-apply"))) {
+            console.warn("Detected unfinished rebase state; clearing rebase to keep working directory clean...");
+            try {
+                execCommand("git rebase --abort", { cwd: resolvedRepo });
+            } catch {
+                try {
+                    execCommand("git rebase --quit", { cwd: resolvedRepo });
+                } catch {}
+            }
+        }
+        if (fs.existsSync(path.join(gitDir, "MERGE_HEAD"))) {
+            console.warn("Detected unfinished merge state; aborting merge to keep working directory clean...");
+            try {
+                execCommand("git merge --abort", { cwd: resolvedRepo });
+            } catch {}
+        }
+
+        // 2. Fetch and pull with rebase & autostash to keep working directory clean
+        try {
+            execCommand("git pull --rebase --autostash", { cwd: resolvedRepo });
+            console.log("Successfully pulled latest changes from remote repository.");
+            return true;
+        } catch (pullErr) {
+            console.warn(`Warning: git pull --rebase failed: ${pullErr.message}`);
+            // If rebase got stuck or paused during pull, abort immediately to keep working tree clean
+            try {
+                execCommand("git rebase --abort", { cwd: resolvedRepo });
+            } catch {}
+            return false;
+        }
+    } catch (err) {
+        console.error("ERROR during git pull operation:", err.message);
+        return false;
+    }
 }
 
 export function commitAndPushToRepo(repoPath, commitSubject) {
@@ -1143,7 +1196,9 @@ export function commitAndPushToRepo(repoPath, commitSubject) {
     const resolvedRepo = path.resolve(repoPath);
     try {
         console.log("");
-        console.log(`Executing git commands in: ${resolvedRepo}`);
+        console.log("------------------------------------------");
+        console.log(`Committing and pushing changes: ${resolvedRepo}`);
+        console.log("------------------------------------------");
 
         // Stage www folder and v2/public
         execCommand(`git add -A "www"`, { cwd: resolvedRepo });
@@ -1164,16 +1219,48 @@ export function commitAndPushToRepo(repoPath, commitSubject) {
                     { cwd: resolvedRepo }
                 );
             }
+        }
+
+        // Check if there are unpushed commits on the current branch (from this commit or a previous run)
+        let hasUnpushed = false;
+        const unpushedCheck = spawnSync("git log @{u}..HEAD --oneline", {
+            cwd: resolvedRepo,
+            shell: true,
+            encoding: "utf8"
+        });
+        if (unpushedCheck.status === 0) {
+            hasUnpushed = unpushedCheck.stdout.trim().length > 0;
+        } else {
+            const branchCheck = spawnSync("git rev-parse --abbrev-ref HEAD", {
+                cwd: resolvedRepo,
+                shell: true,
+                encoding: "utf8"
+            });
+            const currentBranch = branchCheck.stdout.trim() || "main";
+            const fallbackCheck = spawnSync(`git log origin/${currentBranch}..HEAD --oneline`, {
+                cwd: resolvedRepo,
+                shell: true,
+                encoding: "utf8"
+            });
+            if (fallbackCheck.status === 0) {
+                hasUnpushed = fallbackCheck.stdout.trim().length > 0;
+            }
+        }
+
+        if (hasStaged || hasUnpushed) {
             try {
                 execCommand("git pull --rebase --autostash", { cwd: resolvedRepo });
             } catch (rebaseErr) {
                 console.warn(`Warning: git pull --rebase failed: ${rebaseErr.message}`);
+                try {
+                    execCommand("git rebase --abort", { cwd: resolvedRepo });
+                } catch {}
             }
             execCommand("git push", { cwd: resolvedRepo });
             console.log("Successfully committed and pushed changes to git!");
             return true;
         } else {
-            console.log("No git changes detected to commit.");
+            console.log("No git changes detected to commit or push.");
             return true;
         }
     } catch (err) {
@@ -1307,22 +1394,19 @@ export function generateRootIndex(websites) {
 
 </html>`;
 
+    // Note: REPO_PATH/www/index.html is maintained by sync.yml / src/sync.mjs and must NOT be overwritten.
+    if (REPO_PATH) {
+        const repoWww = path.join(path.resolve(REPO_PATH), "www");
+        if (path.resolve(ROOT_FOLDER) === repoWww) {
+            console.log("ROOT_FOLDER points to repo www; skipping index.html generation to preserve sync.yaml version.");
+            return;
+        }
+    }
+
     const indexFile = path.join(ROOT_FOLDER, "index.html");
     fs.writeFileSync(indexFile, html, "utf8");
     console.log("");
-    console.log(`Generated root index: ${indexFile}`);
-
-    if (REPO_PATH) {
-        const repoIndex = path.join(path.resolve(REPO_PATH), "www", "index.html");
-        if (path.resolve(indexFile) !== path.resolve(repoIndex)) {
-            try {
-                fs.writeFileSync(repoIndex, html, "utf8");
-                console.log(`Generated repo root index: ${repoIndex}`);
-            } catch (err) {
-                console.warn("Could not write repo index:", err.message);
-            }
-        }
-    }
+    console.log(`Generated SFTPGo root index: ${indexFile}`);
 }
 
 // ============================================================
@@ -1345,6 +1429,11 @@ export async function main() {
     try {
         // Re-read website folders in case a new folder was created during uploads
         websites = findWebsiteFolders();
+
+        // Pull latest changes from git repository before copying to keep working directory clean
+        if (REPO_PATH) {
+            pullLatestFromRepo(REPO_PATH);
+        }
 
         const pendingFolders = debounceResult.pendingFolders || [];
         const targetFolders = pendingFolders.length > 0
