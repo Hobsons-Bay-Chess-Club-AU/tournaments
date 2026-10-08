@@ -80,7 +80,7 @@
 <tr> 
 <td><span class="idn"> 22</span></td><td><span class="notitle female"> </span></td><td> Kommina,Bhavishya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>512</td><td>0</td><td>512</td> </tr>
 <tr> 
-<td><span class="idn"> 23</span></td><td><span class="notitle female"> </span></td><td> Fang,Candice </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>502</td><td>1474</td><td>502</td> </tr>
+<td><span class="idn"> 23</span></td><td><span class="notitle female"> </span></td><td> Fang,Candice </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>502</td><td>1474</td><td>501</td> </tr>
 <tr> 
 <td><span class="idn"> 24</span></td><td><span class="notitle female"> </span></td><td> Husain, Lamiah </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>495</td><td>1429</td><td>495</td> </tr>
 <tr> 
