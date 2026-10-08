@@ -1211,14 +1211,19 @@ export function commitAndPushToRepo(repoPath, commitSubject) {
 
         if (hasStaged) {
             const commitMsg = commitSubject || "sync: update website and master data from SFTPGo";
-            try {
-                execCommand(`git commit -m "${commitMsg}"`, { cwd: resolvedRepo });
-            } catch {
-                execCommand(
-                    `git -c user.name="SFTPGo Hook" -c user.email="sftpgo@hobsonsbaychess.com" commit -m "${commitMsg}"`,
-                    { cwd: resolvedRepo }
-                );
-            }
+            execCommand(
+                `git -c user.name="sftpgo" -c user.email="ftp@hobsonsbaychess.com" -c committer.name="sftpgo" -c committer.email="ftp@hobsonsbaychess.com" commit --author="sftpgo <ftp@hobsonsbaychess.com>" -m "${commitMsg}"`,
+                {
+                    cwd: resolvedRepo,
+                    env: {
+                        ...process.env,
+                        GIT_AUTHOR_NAME: "sftpgo",
+                        GIT_AUTHOR_EMAIL: "ftp@hobsonsbaychess.com",
+                        GIT_COMMITTER_NAME: "sftpgo",
+                        GIT_COMMITTER_EMAIL: "ftp@hobsonsbaychess.com"
+                    }
+                }
+            );
         }
 
         // Check if there are unpushed commits on the current branch (from this commit or a previous run)
