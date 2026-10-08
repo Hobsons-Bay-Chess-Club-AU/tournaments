@@ -1190,7 +1190,7 @@ export function pullLatestFromRepo(repoPath) {
 export function commitAndPushToRepo(repoPath, commitSubject) {
     if (!ALLOW_COMMIT_PUSH) {
         console.log("ALLOW_COMMIT_PUSH is disabled (false); skipping git commit and push.");
-        return true;
+        return { success: true, pushed: false, disabled: true };
     }
 
     const resolvedRepo = path.resolve(repoPath);
@@ -1257,15 +1257,51 @@ export function commitAndPushToRepo(repoPath, commitSubject) {
                 } catch {}
             }
             execCommand("git push", { cwd: resolvedRepo });
-            console.log("Successfully committed and pushed changes to git!");
-            return true;
+
+            // Retrieve latest commit hash and subject for clear visual log
+            let commitHash = "";
+            let commitSubjectText = "";
+            try {
+                const logRes = spawnSync("git log -1 --pretty=format:%h|%s", {
+                    cwd: resolvedRepo,
+                    shell: true,
+                    encoding: "utf8"
+                });
+                if (logRes.status === 0 && logRes.stdout.trim()) {
+                    const parts = logRes.stdout.trim().split("|");
+                    commitHash = parts[0] || "";
+                    commitSubjectText = parts.slice(1).join("|") || "";
+                }
+            } catch {}
+
+            console.log("");
+            console.log("==========================================");
+            console.log(">>> GIT PUSH SUCCESSFUL <<<");
+            console.log("==========================================");
+            if (commitHash) {
+                console.log(`Commit:    ${commitHash} ("${commitSubjectText}")`);
+            }
+            console.log(`Repo:      ${resolvedRepo}`);
+            console.log(`Remote:    origin/main`);
+            console.log(`Timestamp: ${getTimestamp()}`);
+            console.log("==========================================");
+            console.log("");
+
+            return { success: true, pushed: true, commitHash, commitSubject: commitSubjectText };
         } else {
-            console.log("No git changes detected to commit or push.");
-            return true;
+            console.log("");
+            console.log("==========================================");
+            console.log(">>> GIT STATUS: Clean (no new changes to push) <<<");
+            console.log("==========================================");
+            return { success: true, pushed: false };
         }
     } catch (err) {
-        console.error("ERROR during git operations:", err.message);
-        return false;
+        console.error("");
+        console.error("==========================================");
+        console.error(">>> GIT ERROR: Commit/Push Failed <<<");
+        console.error(`Error:     ${err.message}`);
+        console.error("==========================================");
+        return { success: false, pushed: false, error: err.message };
     }
 }
 
@@ -1469,9 +1505,10 @@ export async function main() {
             generateRootIndex(websites);
 
             // Commit and push once for all processed folders
+            let gitResult = null;
             if (REPO_PATH) {
                 const commitSubject = `sync: update ${targetFolders.join(", ")} and master data from SFTPGo`;
-                commitAndPushToRepo(REPO_PATH, commitSubject);
+                gitResult = commitAndPushToRepo(REPO_PATH, commitSubject);
             }
 
             console.log("");
@@ -1481,6 +1518,15 @@ export async function main() {
             console.log(`Target(s): ${targetFolders.join(", ")}`);
             console.log(`Converted: ${totalConverted}`);
             console.log(`Failed:    ${totalFailed}`);
+            if (gitResult && gitResult.pushed) {
+                console.log(`Git Sync:  PUSHED (${gitResult.commitHash})`);
+            } else if (gitResult && gitResult.success === false) {
+                console.log(`Git Sync:  FAILED (${gitResult.error || "error during push"})`);
+            } else if (gitResult && gitResult.disabled) {
+                console.log(`Git Sync:  DISABLED (ALLOW_COMMIT_PUSH=false)`);
+            } else {
+                console.log(`Git Sync:  CLEAN (up to date)`);
+            }
             console.log("==========================================");
 
             if (totalFailed > 0) {
@@ -1512,8 +1558,9 @@ export async function main() {
 
         generateRootIndex(websites);
 
+        let fallbackGitResult = null;
         if (REPO_PATH) {
-            commitAndPushToRepo(REPO_PATH, "sync: update all websites from SFTPGo");
+            fallbackGitResult = commitAndPushToRepo(REPO_PATH, "sync: update all websites from SFTPGo");
         }
 
         console.log("");
@@ -1524,6 +1571,15 @@ export async function main() {
         console.log(`PHP files: ${totalPhp}`);
         console.log(`Converted: ${totalSuccess}`);
         console.log(`Failed:    ${totalFailed}`);
+        if (fallbackGitResult && fallbackGitResult.pushed) {
+            console.log(`Git Sync:  PUSHED (${fallbackGitResult.commitHash})`);
+        } else if (fallbackGitResult && fallbackGitResult.success === false) {
+            console.log(`Git Sync:  FAILED (${fallbackGitResult.error || "error during push"})`);
+        } else if (fallbackGitResult && fallbackGitResult.disabled) {
+            console.log(`Git Sync:  DISABLED (ALLOW_COMMIT_PUSH=false)`);
+        } else {
+            console.log(`Git Sync:  CLEAN (up to date)`);
+        }
         console.log("==========================================");
 
         if (totalFailed > 0) {
