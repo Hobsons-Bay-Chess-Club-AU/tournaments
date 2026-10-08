@@ -60,7 +60,7 @@
 <tr> 
 <td><span class="idn"> 12</span></td><td><span class="notitle female"> </span></td><td> De Silva,Amaya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1068</td><td>1422</td><td>1067</td> </tr>
 <tr> 
-<td><span class="idn"> 13</span></td><td><span class="notitle female"> </span></td><td> Mondal,Jahnavi </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1042</td><td>1502</td><td>1042</td> </tr>
+<td><span class="idn"> 13</span></td><td><span class="notitle female"> </span></td><td> Mondal,Jahnavi </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1042</td><td>1502</td><td>1041</td> </tr>
 <tr> 
 <td><span class="idn"> 14</span></td><td><span class="notitle female"> </span></td><td> Katakam, Aadhya Sai </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1025</td><td>1458</td><td>1025</td> </tr>
 <tr> 
