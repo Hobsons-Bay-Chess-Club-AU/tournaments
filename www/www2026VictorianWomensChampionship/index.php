@@ -58,7 +58,7 @@
 <tr> 
 <td><span class="idn"> 11</span></td><td><span class="notitle female"> </span></td><td> Scenna,Luna </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1086</td><td>1521</td><td>1086</td> </tr>
 <tr> 
-<td><span class="idn"> 12</span></td><td><span class="notitle female"> </span></td><td> De Silva,Amaya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1068</td><td>1422</td><td>1068</td> </tr>
+<td><span class="idn"> 12</span></td><td><span class="notitle female"> </span></td><td> De Silva,Amaya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1068</td><td>1422</td><td>1067</td> </tr>
 <tr> 
 <td><span class="idn"> 13</span></td><td><span class="notitle female"> </span></td><td> Mondal,Jahnavi </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1042</td><td>1502</td><td>1042</td> </tr>
 <tr> 
