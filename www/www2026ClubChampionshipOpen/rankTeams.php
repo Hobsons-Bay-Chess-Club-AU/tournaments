@@ -23,7 +23,8 @@
 </li><li class="nav-item"><a class="nav-link " href="pairs7.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
 <ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
@@ -45,32 +46,32 @@
 <div class="table-responsive"><table class="table table-striped"> 
 <thead><tr><th> Pos </th> <th> Team Name </th><th>Points</th></tr></thead> <tbody>
 <tr>
-<td>1</td> <td></td> <td>3.5</td> </tr>
+<td>1</td> <td></td> <td>5</td> </tr>
 </tbody>
 </table>
 <h5 class="mb-4 mt-4"> Team composition</h5>
 <table class="table table-striped "> 
-<thead><tr><th>1</th> <th> </th><th>3.5</th></tr></thead><tbody> 
-<tr> <td>2</td> <td>Nguyen,Anh Kiet </td><td>1</td></tr> 
+<thead><tr><th>1</th> <th> </th><th>5</th></tr></thead><tbody> 
+<tr> <td>2</td> <td>Nguyen,Anh Kiet </td><td>2</td></tr> 
 <tr> <td>3</td> <td>Krishnan,Anirudh </td><td>1</td></tr> 
+<tr> <td>7</td> <td>Lacson,Joemar </td><td>1</td></tr> 
 <tr> <td>5</td> <td>Annapureddy,Rheyansh Reddy </td><td>1</td></tr> 
+<tr> <td>6</td> <td>Bodke,Krishna Manthan </td><td>1</td></tr> 
 <tr> <td>1</td> <td>Whitford,Matthew </td><td>0.5</td></tr> 
 <tr> <td>8</td> <td>Davis,Tony J </td><td>0.5</td></tr> 
 <tr> <td>4</td> <td>Hogan,Steven </td><td>0</td></tr> 
-<tr> <td>6</td> <td>Bodke,Krishna Manthan </td><td>0</td></tr> 
-<tr> <td>7</td> <td>Lacson,Joemar </td><td>0</td></tr> 
 </tbody>
 </table>
 <h5 class="mb-4 mt-4"> Best boards</h5>
 <table class="table table-striped "> 
 <thead><tr><th>Board 0</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Nguyen,Anh Kiet </td><td> </td><td>1</td></tr> 
+<tr> <td></td> <td>1 </td><td>Nguyen,Anh Kiet </td><td> </td><td>2</td></tr> 
 <thead><tr><th>Board 1</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
 <tr> <td></td> <td>1 </td><td>Krishnan,Anirudh </td><td> </td><td>1</td></tr> 
 <thead><tr><th>Board 2</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Annapureddy,Rheyansh Reddy </td><td> </td><td>1</td></tr> 
+<tr> <td></td> <td>1 </td><td>Lacson,Joemar </td><td> </td><td>1</td></tr> 
 <thead><tr><th>Board 3</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Whitford,Matthew </td><td> </td><td>0.5</td></tr> 
+<tr> <td></td> <td>1 </td><td>Annapureddy,Rheyansh Reddy </td><td> </td><td>1</td></tr> 
 </tbody>
 </table></div>
 		  </div>

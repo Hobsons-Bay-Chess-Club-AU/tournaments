@@ -23,7 +23,8 @@
 </li><li class="nav-item"><a class="nav-link " href="pairs7.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
 <ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
@@ -55,9 +56,9 @@
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
 <tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#8">CM Davis,Tony J</a> </td><td>8</td> <td class="result"> adj </td><td>5</td><td class="name"> <a href="playercard.php#5">FM Annapureddy,Rheyansh Reddy</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#6"> Bodke,Krishna Manthan</a> </td><td>6</td> <td class="result"> adj </td><td>4</td><td class="name"> <a href="playercard.php#4"> Hogan,Steven</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#7"> Lacson,Joemar</a> </td><td>7</td> <td class="result"> adj </td><td>3</td><td class="name"> <a href="playercard.php#3"> Krishnan,Anirudh</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#1"> Whitford,Matthew</a> </td><td>1</td> <td class="result"> adj </td><td>2</td><td class="name"> <a href="playercard.php#2">CM Nguyen,Anh Kiet</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#6"> Bodke,Krishna Manthan</a> </td><td>6</td> <td class="result">1 - 0</td><td>4</td><td class="name"> <a href="playercard.php#4"> Hogan,Steven</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#7"> Lacson,Joemar</a> </td><td>7</td> <td class="result">1 - 0</td><td>3</td><td class="name"> <a href="playercard.php#3"> Krishnan,Anirudh</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#1"> Whitford,Matthew</a> </td><td>1</td> <td class="result">0 - 1</td><td>2</td><td class="name"> <a href="playercard.php#2">CM Nguyen,Anh Kiet</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
 <h4>Pairing of round 3</h4>

@@ -23,7 +23,8 @@
 </li><li class="nav-item"><a class="nav-link " href="pairs7.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
 <ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
@@ -45,7 +46,7 @@
 <h5 class="mb-4 mt-4"> Ranking based on best player</h5>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th> Pos </th> <th> Name </th><th>Points</th></tr></thead> <tbody>
-<tr> <td>1</td> <td><a href="#VIC">VIC</a></td> <td>1</td> </tr>
+<tr> <td>1</td> <td><a href="#VIC">VIC</a></td> <td>2</td> </tr>
 </tbody>
 </table><hr>
 <a name="VIC"></a><h2>VIC</h2>
@@ -56,23 +57,23 @@
 </table>
 <table class="table caption-top table-striped "> 
 <caption> Standings</caption>
-<thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th>Rtg</th> <th>PRtg</th> <th>Fed</th><th>Origin</th><th>Pts</th> <th>     SB </th>
+<thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th>Rtg</th> <th>PRtg</th> <th>Fed</th><th>Origin</th><th>Pts</th> <th>SB</th>
  </tr></thead> <tbody>
-<tr> <td>1</td> <td>2</td> <td> CM</td> <td> <a href="playercard.php#2"> Nguyen,Anh Kiet </a></td> <td >1802</td> <td >1394</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>   0.00 </td>
+<tr> <td>1</td> <td>2</td> <td> CM</td> <td> <a href="playercard.php#2"> Nguyen,Anh Kiet </a></td> <td >1802</td> <td >1545</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 2.0</td> <td>  1.50</td>
 </tr> 
-<tr> <td>2</td> <td>3</td> <td>   </td> <td> <a href="playercard.php#3"> Krishnan,Anirudh </a></td> <td >1756</td> <td >1401</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>   0.00 </td>
+<tr> <td>2</td> <td>3</td> <td>   </td> <td> <a href="playercard.php#3"> Krishnan,Anirudh </a></td> <td >1756</td> <td >1401</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>  1.00</td>
 </tr> 
-<tr> <td>3</td> <td>5</td> <td> FM</td> <td> <a href="playercard.php#5"> Annapureddy,Rheyansh Reddy </a></td> <td >2186</td> <td >1339</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>   0.00 </td>
+<tr> <td>3</td> <td>7</td> <td>   </td> <td> <a href="playercard.php#7"> Lacson,Joemar </a></td> <td >1753</td> <td >1401</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>  1.00</td>
 </tr> 
-<tr> <td>4</td> <td>1</td> <td>   </td> <td> <a href="playercard.php#1"> Whitford,Matthew </a></td> <td >1460</td> <td >1330</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.5</td> <td>   0.25 </td>
+<tr> <td>4</td> <td>5</td> <td> FM</td> <td> <a href="playercard.php#5"> Annapureddy,Rheyansh Reddy </a></td> <td >2186</td> <td >1339</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>  0.00</td>
 </tr> 
-<tr> <td>5</td> <td>8</td> <td> CM</td> <td> <a href="playercard.php#8"> Davis,Tony J </a></td> <td >1634</td> <td >1305</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.5</td> <td>   0.25 </td>
+<tr> <td>5</td> <td>6</td> <td>   </td> <td> <a href="playercard.php#6"> Bodke,Krishna Manthan </a></td> <td >1718</td> <td >1406</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 1.0</td> <td>  0.00</td>
 </tr> 
-<tr> <td>6</td> <td>4</td> <td>   </td> <td> <a href="playercard.php#4"> Hogan,Steven </a></td> <td >1414</td> <td > 958</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.0</td> <td>   0.00 </td>
+<tr> <td>6</td> <td>1</td> <td>   </td> <td> <a href="playercard.php#1"> Whitford,Matthew </a></td> <td >1460</td> <td >1330</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.5</td> <td>  0.25</td>
 </tr> 
-<tr> <td>7</td> <td>6</td> <td>   </td> <td> <a href="playercard.php#6"> Bodke,Krishna Manthan </a></td> <td >1718</td> <td > 915</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.0</td> <td>   0.00 </td>
+<tr> <td>7</td> <td>8</td> <td> CM</td> <td> <a href="playercard.php#8"> Davis,Tony J </a></td> <td >1634</td> <td >1305</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.5</td> <td>  0.25</td>
 </tr> 
-<tr> <td>8</td> <td>7</td> <td>   </td> <td> <a href="playercard.php#7"> Lacson,Joemar </a></td> <td >1753</td> <td > 910</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.0</td> <td>   0.00 </td>
+<tr> <td>8</td> <td>4</td> <td>   </td> <td> <a href="playercard.php#4"> Hogan,Steven </a></td> <td >1414</td> <td > 958</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td> <td></td> <td class="score"> 0.0</td> <td>  0.00</td>
 </tr> 
 </tbody>
 </table><hr>

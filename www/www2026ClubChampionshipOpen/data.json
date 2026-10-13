@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T06:01:03.735Z",
+  "generatedAt": "2026-10-13T12:30:07.684Z",
   "page": {
     "calendarroundrobin.html": {
       "pageHeading": "Schedule",
@@ -113,7 +113,7 @@
               "N": "2",
               "White": "Bodke,Krishna Manthan",
               "NW": "6",
-              "result": "ADJ",
+              "result": "1 - 0",
               "NB": "4",
               "Black": "Hogan,Steven"
             },
@@ -121,7 +121,7 @@
               "N": "3",
               "White": "Lacson,Joemar",
               "NW": "7",
-              "result": "ADJ",
+              "result": "1 - 0",
               "NB": "3",
               "Black": "Krishnan,Anirudh"
             },
@@ -129,7 +129,7 @@
               "N": "4",
               "White": "Whitford,Matthew",
               "NW": "1",
-              "result": "ADJ",
+              "result": "0 - 1",
               "NB": "2",
               "Black": "Nguyen,Anh Kiet"
             }
@@ -549,11 +549,11 @@
               "FIDE ID": "3232220",
               "Fed": "VIC",
               "Rtg": "1698",
-              "Ng": "1",
+              "Ng": "2",
               "Pts": "0.5",
-              "ARO": "1793",
-              "var": "3",
-              "Rp": "1793"
+              "ARO": "1885",
+              "var": "-1",
+              "Rp": "1692"
             },
             {
               "#": "2",
@@ -567,11 +567,11 @@
               "FIDE ID": "3267849",
               "Fed": "VIC",
               "Rtg": "1977",
-              "Ng": "1",
-              "Pts": "1.0",
-              "ARO": "1893",
-              "var": "15",
-              "Rp": "2693"
+              "Ng": "2",
+              "Pts": "2.0",
+              "ARO": "1796",
+              "var": "22",
+              "Rp": "2596"
             },
             {
               "#": "3",
@@ -585,11 +585,11 @@
               "FIDE ID": "3254925",
               "Fed": "VIC",
               "Rtg": "1888",
-              "Ng": "1",
+              "Ng": "2",
               "Pts": "1.0",
-              "ARO": "1925",
-              "var": "11",
-              "Rp": "2725"
+              "ARO": "1909",
+              "var": "1",
+              "Rp": "1909"
             },
             {
               "#": "4",
@@ -603,11 +603,11 @@
               "FIDE ID": "3201414",
               "Fed": "VIC",
               "Rtg": "1684",
-              "Ng": "1",
+              "Ng": "2",
               "Pts": "0.0",
-              "ARO": "2268",
-              "var": "-2",
-              "Rp": "1468"
+              "ARO": "2097",
+              "var": "-6",
+              "Rp": "1297"
             },
             {
               "#": "5",
@@ -639,11 +639,11 @@
               "FIDE ID": "3259021",
               "Fed": "VIC",
               "Rtg": "1925",
-              "Ng": "1",
-              "Pts": "0.0",
-              "ARO": "1888",
-              "var": "-22",
-              "Rp": "1088"
+              "Ng": "2",
+              "Pts": "1.0",
+              "ARO": "1786",
+              "var": "-14",
+              "Rp": "1786"
             },
             {
               "#": "7",
@@ -657,11 +657,11 @@
               "FIDE ID": "3257762",
               "Fed": "VIC",
               "Rtg": "1893",
-              "Ng": "1",
-              "Pts": "0.0",
-              "ARO": "1977",
-              "var": "-8",
-              "Rp": "1177"
+              "Ng": "2",
+              "Pts": "1.0",
+              "ARO": "1933",
+              "var": "2",
+              "Rp": "1933"
             },
             {
               "#": "8",
@@ -734,6 +734,16 @@
               "Fed": "VIC",
               "Rtg": "1793",
               "res": "0.5"
+            },
+            {
+              "Rnd": "2",
+              "Col": "W",
+              "N opp": "2",
+              "Opponent Name": "CM Nguyen,Anh Kiet",
+              "FIDE ID": "3267849",
+              "Fed": "VIC",
+              "Rtg": "1977",
+              "res": "0"
             }
           ],
           "caption": {
@@ -791,6 +801,16 @@
               "FIDE ID": "3257762",
               "Fed": "VIC",
               "Rtg": "1893",
+              "res": "1"
+            },
+            {
+              "Rnd": "2",
+              "Col": "B",
+              "N opp": "1",
+              "Opponent Name": "Whitford,Matthew",
+              "FIDE ID": "3232220",
+              "Fed": "VIC",
+              "Rtg": "1698",
               "res": "1"
             }
           ],
@@ -850,6 +870,16 @@
               "Fed": "VIC",
               "Rtg": "1925",
               "res": "1"
+            },
+            {
+              "Rnd": "2",
+              "Col": "B",
+              "N opp": "7",
+              "Opponent Name": "Lacson,Joemar",
+              "FIDE ID": "3257762",
+              "Fed": "VIC",
+              "Rtg": "1893",
+              "res": "0"
             }
           ],
           "caption": {
@@ -907,6 +937,16 @@
               "FIDE ID": "3244806",
               "Fed": "VIC",
               "Rtg": "2268",
+              "res": "0"
+            },
+            {
+              "Rnd": "2",
+              "Col": "B",
+              "N opp": "6",
+              "Opponent Name": "Bodke,Krishna Manthan",
+              "FIDE ID": "3259021",
+              "Fed": "VIC",
+              "Rtg": "1925",
               "res": "0"
             }
           ],
@@ -1024,6 +1064,16 @@
               "Fed": "VIC",
               "Rtg": "1888",
               "res": "0"
+            },
+            {
+              "Rnd": "2",
+              "Col": "W",
+              "N opp": "4",
+              "Opponent Name": "Hogan,Steven",
+              "FIDE ID": "3201414",
+              "Fed": "VIC",
+              "Rtg": "1684",
+              "res": "1"
             }
           ],
           "caption": {
@@ -1082,6 +1132,16 @@
               "Fed": "VIC",
               "Rtg": "1977",
               "res": "0"
+            },
+            {
+              "Rnd": "2",
+              "Col": "W",
+              "N opp": "3",
+              "Opponent Name": "Krishnan,Anirudh",
+              "FIDE ID": "3254925",
+              "Fed": "VIC",
+              "Rtg": "1888",
+              "res": "1"
             }
           ],
           "caption": {
@@ -1154,6 +1214,11 @@
           }
         }
       ],
+      "tournamentType": "unknown"
+    },
+    "game.html": {
+      "pageHeading": "",
+      "tables": [],
       "tournamentType": "unknown"
     },
     "games.html": {
@@ -1610,7 +1675,7 @@
                 }
               },
               "Pts": "0",
-              "Result": "ADJ",
+              "Result": "1 - 0",
               "Pts_1": "0",
               "Black Player": {
                 "id": "4",
@@ -1648,7 +1713,7 @@
                 }
               },
               "Pts": "0",
-              "Result": "ADJ",
+              "Result": "1 - 0",
               "Pts_1": "1",
               "Black Player": {
                 "id": "3",
@@ -1686,7 +1751,7 @@
                 }
               },
               "Pts": "0.5",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "Pts_1": "1",
               "Black Player": {
                 "id": "2",
@@ -1768,7 +1833,7 @@
                   "fideFederation": "VIC"
                 }
               },
-              "Pts": "1",
+              "Pts": "2",
               "Result": "ADJ",
               "Pts_1": "0.5",
               "Black Player": {
@@ -1846,7 +1911,7 @@
               },
               "Pts": "0",
               "Result": "ADJ",
-              "Pts_1": "0",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "7",
                 "playerName": "Lacson,Joemar",
@@ -1884,7 +1949,7 @@
               },
               "Pts": "1",
               "Result": "ADJ",
-              "Pts_1": "0",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "6",
                 "playerName": "Bodke,Krishna Manthan",
@@ -1967,7 +2032,7 @@
               },
               "Pts": "0.5",
               "Result": "ADJ",
-              "Pts_1": "0",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "6",
                 "playerName": "Bodke,Krishna Manthan",
@@ -2003,7 +2068,7 @@
                   "fideFederation": "VIC"
                 }
               },
-              "Pts": "0",
+              "Pts": "1",
               "Result": "ADJ",
               "Pts_1": "1",
               "Black Player": {
@@ -2079,7 +2144,7 @@
                   "fideFederation": "VIC"
                 }
               },
-              "Pts": "1",
+              "Pts": "2",
               "Result": "ADJ",
               "Pts_1": "1",
               "Black Player": {
@@ -2202,7 +2267,7 @@
               },
               "Pts": "0",
               "Result": "ADJ",
-              "Pts_1": "1",
+              "Pts_1": "2",
               "Black Player": {
                 "id": "2",
                 "playerName": "Nguyen,Anh Kiet",
@@ -2276,9 +2341,9 @@
                   "fideFederation": "VIC"
                 }
               },
-              "Pts": "0",
+              "Pts": "1",
               "Result": "ADJ",
-              "Pts_1": "0",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "7",
                 "playerName": "Lacson,Joemar",
@@ -2361,7 +2426,7 @@
               },
               "Pts": "0.5",
               "Result": "ADJ",
-              "Pts_1": "0",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "7",
                 "playerName": "Lacson,Joemar",
@@ -2399,7 +2464,7 @@
               },
               "Pts": "0.5",
               "Result": "ADJ",
-              "Pts_1": "0",
+              "Pts_1": "1",
               "Black Player": {
                 "id": "6",
                 "playerName": "Bodke,Krishna Manthan",
@@ -2435,7 +2500,7 @@
                   "fideFederation": "VIC"
                 }
               },
-              "Pts": "1",
+              "Pts": "2",
               "Result": "ADJ",
               "Pts_1": "1",
               "Black Player": {
@@ -2632,9 +2697,9 @@
                   "fideFederation": "VIC"
                 }
               },
-              "Pts": "0",
+              "Pts": "1",
               "Result": "ADJ",
-              "Pts_1": "1",
+              "Pts_1": "2",
               "Black Player": {
                 "id": "2",
                 "playerName": "Nguyen,Anh Kiet",
@@ -2670,7 +2735,7 @@
                   "fideFederation": "VIC"
                 }
               },
-              "Pts": "0",
+              "Pts": "1",
               "Result": "ADJ",
               "Pts_1": "0.5",
               "Black Player": {
@@ -2747,13 +2812,13 @@
             },
             {
               "R": "2",
-              "C": "--",
+              "C": "W",
               "N": "2",
-              "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "0.5",
-              "Pts": "0.0"
+              "Cat": "CM",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1802",
+              "res": "0.0",
+              "Pts": "2.0"
             },
             {
               "R": "3",
@@ -2762,7 +2827,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.5",
+              "res": "0.0",
               "Pts": "0.0"
             },
             {
@@ -2772,7 +2837,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.5",
+              "res": "0.0",
               "Pts": "0.0"
             },
             {
@@ -2782,7 +2847,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.5",
+              "res": "0.0",
               "Pts": "0.0"
             },
             {
@@ -2792,7 +2857,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.5",
+              "res": "0.0",
               "Pts": "0.0"
             },
             {
@@ -2802,7 +2867,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.5",
+              "res": "0.0",
               "Pts": "0.0"
             }
           ],
@@ -2862,17 +2927,17 @@
               "OPPONENT": "Lacson,Joemar",
               "Rtg": "1753",
               "res": "1.0",
-              "Pts": "0.0"
+              "Pts": "1.0"
             },
             {
               "R": "2",
-              "C": "--",
+              "C": "B",
               "N": "1",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "Whitford,Matthew",
+              "Rtg": "1460",
               "res": "1.0",
-              "Pts": "0.0"
+              "Pts": "0.5"
             },
             {
               "R": "3",
@@ -2981,17 +3046,17 @@
               "OPPONENT": "Bodke,Krishna Mantha",
               "Rtg": "1718",
               "res": "1.0",
-              "Pts": "0.0"
+              "Pts": "1.0"
             },
             {
               "R": "2",
-              "C": "--",
+              "C": "B",
               "N": "7",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "1.0",
-              "Pts": "0.0"
+              "OPPONENT": "Lacson,Joemar",
+              "Rtg": "1753",
+              "res": "0.0",
+              "Pts": "1.0"
             },
             {
               "R": "3",
@@ -3000,7 +3065,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "1.0",
+              "res": "0.0",
               "Pts": "0.0"
             },
             {
@@ -3010,7 +3075,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "1.0",
+              "res": "0.0",
               "Pts": "0.0"
             },
             {
@@ -3020,7 +3085,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "1.0",
+              "res": "0.0",
               "Pts": "0.0"
             },
             {
@@ -3030,7 +3095,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "1.0",
+              "res": "0.0",
               "Pts": "0.0"
             },
             {
@@ -3040,7 +3105,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "1.0",
+              "res": "0.0",
               "Pts": "0.0"
             }
           ],
@@ -3104,13 +3169,13 @@
             },
             {
               "R": "2",
-              "C": "--",
+              "C": "B",
               "N": "6",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "Bodke,Krishna Mantha",
+              "Rtg": "1718",
               "res": "0.0",
-              "Pts": "0.0"
+              "Pts": "1.0"
             },
             {
               "R": "3",
@@ -3342,12 +3407,12 @@
             },
             {
               "R": "2",
-              "C": "--",
+              "C": "W",
               "N": "4",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "0.0",
+              "OPPONENT": "Hogan,Steven",
+              "Rtg": "1414",
+              "res": "1.0",
               "Pts": "0.0"
             },
             {
@@ -3357,7 +3422,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             },
             {
@@ -3367,7 +3432,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             },
             {
@@ -3377,7 +3442,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             },
             {
@@ -3387,7 +3452,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             },
             {
@@ -3397,7 +3462,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             }
           ],
@@ -3457,17 +3522,17 @@
               "OPPONENT": "Nguyen,Anh Kiet",
               "Rtg": "1802",
               "res": "0.0",
-              "Pts": "1.0"
+              "Pts": "2.0"
             },
             {
               "R": "2",
-              "C": "--",
+              "C": "W",
               "N": "3",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "0.0",
-              "Pts": "0.0"
+              "OPPONENT": "Krishnan,Anirudh",
+              "Rtg": "1756",
+              "res": "1.0",
+              "Pts": "1.0"
             },
             {
               "R": "3",
@@ -3476,7 +3541,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             },
             {
@@ -3486,7 +3551,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             },
             {
@@ -3496,7 +3561,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             },
             {
@@ -3506,7 +3571,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             },
             {
@@ -3516,7 +3581,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             }
           ],
@@ -3676,7 +3741,7 @@
             {
               "Pos": "1",
               "Team Name": "",
-              "Points": "3.5"
+              "Points": "5"
             }
           ]
         },
@@ -3691,50 +3756,50 @@
               "key": "col2"
             },
             {
-              "name": "3.5",
-              "key": "3.5"
+              "name": "5",
+              "key": "5"
             }
           ],
           "rows": [
             {
               "1": "2",
-              "col2": "Nguyen,Anh Kiet",
-              "3.5": "1"
+              "5": "2",
+              "col2": "Nguyen,Anh Kiet"
             },
             {
               "1": "3",
-              "col2": "Krishnan,Anirudh",
-              "3.5": "1"
-            },
-            {
-              "1": "5",
-              "col2": "Annapureddy,Rheyansh Reddy",
-              "3.5": "1"
-            },
-            {
-              "1": "1",
-              "col2": "Whitford,Matthew",
-              "3.5": "0.5"
-            },
-            {
-              "1": "8",
-              "col2": "Davis,Tony J",
-              "3.5": "0.5"
-            },
-            {
-              "1": "4",
-              "col2": "Hogan,Steven",
-              "3.5": "0"
-            },
-            {
-              "1": "6",
-              "col2": "Bodke,Krishna Manthan",
-              "3.5": "0"
+              "5": "1",
+              "col2": "Krishnan,Anirudh"
             },
             {
               "1": "7",
-              "col2": "Lacson,Joemar",
-              "3.5": "0"
+              "5": "1",
+              "col2": "Lacson,Joemar"
+            },
+            {
+              "1": "5",
+              "5": "1",
+              "col2": "Annapureddy,Rheyansh Reddy"
+            },
+            {
+              "1": "6",
+              "5": "1",
+              "col2": "Bodke,Krishna Manthan"
+            },
+            {
+              "1": "1",
+              "5": "0.5",
+              "col2": "Whitford,Matthew"
+            },
+            {
+              "1": "8",
+              "5": "0.5",
+              "col2": "Davis,Tony J"
+            },
+            {
+              "1": "4",
+              "5": "0",
+              "col2": "Hogan,Steven"
             }
           ],
           "caption": {
@@ -3834,7 +3899,7 @@
               "Pos": "1",
               "Player": "Nguyen,Anh Kiet",
               "Team": "",
-              "Points": "1"
+              "Points": "2"
             },
             {
               "Board 0": "",
@@ -3846,16 +3911,16 @@
             {
               "Board 0": "",
               "Pos": "1",
-              "Player": "Annapureddy,Rheyansh Reddy",
+              "Player": "Lacson,Joemar",
               "Team": "",
               "Points": "1"
             },
             {
               "Board 0": "",
               "Pos": "1",
-              "Player": "Whitford,Matthew",
+              "Player": "Annapureddy,Rheyansh Reddy",
               "Team": "",
-              "Points": "0.5"
+              "Points": "1"
             }
           ],
           "caption": {
@@ -3924,10 +3989,10 @@
                 "title": ""
               },
               "col5": "1802",
-              "col6": "1394",
+              "col6": "1545",
               "Fed": "VIC",
-              "Pts": "1.0",
-              "SB": "0.00"
+              "Pts": "2.0",
+              "SB": "1.50"
             },
             {
               "Pos": "2",
@@ -4004,10 +4069,44 @@
               "col6": "1401",
               "Fed": "VIC",
               "Pts": "1.0",
-              "SB": "0.00"
+              "SB": "1.00"
             },
             {
               "Pos": "2",
+              "N": "7",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "col5": "1753",
+              "col6": "1401",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "SB": "1.00"
+            },
+            {
+              "Pos": "3",
+              "N": "6",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna Mantha",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "col5": "1718",
+              "col6": "1406",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "4",
               "N": "1",
               "T": "",
               "Player": {
@@ -4024,7 +4123,7 @@
               "SB": "0.25"
             },
             {
-              "Pos": "3",
+              "Pos": "5",
               "N": "4",
               "T": "",
               "Player": {
@@ -4036,40 +4135,6 @@
               },
               "col5": "1414",
               "col6": "958",
-              "Fed": "VIC",
-              "Pts": "0.0",
-              "SB": "0.00"
-            },
-            {
-              "Pos": "4",
-              "N": "6",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Bodke,Krishna Mantha",
-                "gender": "notitle",
-                "href": "playercard.html#6",
-                "title": ""
-              },
-              "col5": "1718",
-              "col6": "915",
-              "Fed": "VIC",
-              "Pts": "0.0",
-              "SB": "0.00"
-            },
-            {
-              "Pos": "5",
-              "N": "7",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Lacson,Joemar",
-                "gender": "notitle",
-                "href": "playercard.html#7",
-                "title": ""
-              },
-              "col5": "1753",
-              "col6": "910",
               "Fed": "VIC",
               "Pts": "0.0",
               "SB": "0.00"
@@ -4365,7 +4430,7 @@
                 "title": ""
               },
               "NW": "6",
-              "Result": "ADJ",
+              "Result": "1 - 0",
               "NB": "4",
               "Black Player": {
                 "id": "",
@@ -4387,7 +4452,7 @@
                 "title": ""
               },
               "NW": "7",
-              "Result": "ADJ",
+              "Result": "1 - 0",
               "NB": "3",
               "Black Player": {
                 "id": "",
@@ -4409,7 +4474,7 @@
                 "title": ""
               },
               "NW": "1",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "NB": "2",
               "Black Player": {
                 "id": "",
@@ -5121,29 +5186,45 @@
             {
               "1": "×",
               "2": "a",
-              "3": "a",
+              "3": "1",
               "4": "a",
               "5": "a",
-              "6": "a",
+              "6": "1",
               "7": "a",
-              "8": "1",
+              "8": "a",
               "Pos": "1",
-              "#": "2",
-              "NAME": "CM Nguyen,Anh Kiet",
-              "Rtg": "1802",
+              "#": "1",
+              "NAME": "Whitford,Matthew",
+              "Rtg": "1460",
               "Fed": "VIC",
-              "Pts": "1.0"
+              "Pts": "0.5"
             },
             {
               "1": "a",
               "2": "×",
-              "3": "a",
+              "3": "0",
+              "4": "a",
+              "5": "1",
+              "6": "a",
+              "7": "a",
+              "8": "a",
+              "Pos": "2",
+              "#": "2",
+              "NAME": "CM Nguyen,Anh Kiet",
+              "Rtg": "1802",
+              "Fed": "VIC",
+              "Pts": "2.0"
+            },
+            {
+              "1": "0",
+              "2": "1",
+              "3": "×",
               "4": "a",
               "5": "a",
               "6": "a",
-              "7": "1",
+              "7": "a",
               "8": "a",
-              "Pos": "2",
+              "Pos": "3",
               "#": "3",
               "NAME": "Krishnan,Anirudh",
               "Rtg": "1756",
@@ -5153,61 +5234,13 @@
             {
               "1": "a",
               "2": "a",
-              "3": "×",
-              "4": "a",
-              "5": "a",
-              "6": "1",
-              "7": "a",
-              "8": "a",
-              "Pos": "3",
-              "#": "5",
-              "NAME": "FM Annapureddy,Rheyansh Reddy",
-              "Rtg": "2186",
-              "Fed": "VIC",
-              "Pts": "1.0"
-            },
-            {
-              "1": "a",
-              "2": "a",
               "3": "a",
               "4": "×",
-              "5": "½",
-              "6": "a",
-              "7": "a",
-              "8": "a",
-              "Pos": "4",
-              "#": "1",
-              "NAME": "Whitford,Matthew",
-              "Rtg": "1460",
-              "Fed": "VIC",
-              "Pts": "0.5"
-            },
-            {
-              "1": "a",
-              "2": "a",
-              "3": "a",
-              "4": "½",
-              "5": "×",
-              "6": "a",
-              "7": "a",
-              "8": "a",
-              "Pos": "5",
-              "#": "8",
-              "NAME": "CM Davis,Tony J",
-              "Rtg": "1634",
-              "Fed": "VIC",
-              "Pts": "0.5"
-            },
-            {
-              "1": "a",
-              "2": "a",
-              "3": "0",
-              "4": "a",
               "5": "a",
-              "6": "×",
+              "6": "a",
               "7": "a",
-              "8": "a",
-              "Pos": "6",
+              "8": "1",
+              "Pos": "4",
               "#": "4",
               "NAME": "Hogan,Steven",
               "Rtg": "1414",
@@ -5219,16 +5252,16 @@
               "2": "0",
               "3": "a",
               "4": "a",
-              "5": "a",
+              "5": "×",
               "6": "a",
-              "7": "×",
-              "8": "a",
-              "Pos": "7",
-              "#": "6",
-              "NAME": "Bodke,Krishna Manthan",
-              "Rtg": "1718",
+              "7": "a",
+              "8": "1",
+              "Pos": "5",
+              "#": "5",
+              "NAME": "FM Annapureddy,Rheyansh Reddy",
+              "Rtg": "2186",
               "Fed": "VIC",
-              "Pts": "0.0"
+              "Pts": "1.0"
             },
             {
               "1": "0",
@@ -5236,15 +5269,47 @@
               "3": "a",
               "4": "a",
               "5": "a",
-              "6": "a",
-              "7": "a",
-              "8": "×",
-              "Pos": "8",
+              "6": "×",
+              "7": "½",
+              "8": "a",
+              "Pos": "6",
+              "#": "6",
+              "NAME": "Bodke,Krishna Manthan",
+              "Rtg": "1718",
+              "Fed": "VIC",
+              "Pts": "1.0"
+            },
+            {
+              "1": "a",
+              "2": "a",
+              "3": "a",
+              "4": "a",
+              "5": "a",
+              "6": "½",
+              "7": "×",
+              "8": "a",
+              "Pos": "7",
               "#": "7",
               "NAME": "Lacson,Joemar",
               "Rtg": "1753",
               "Fed": "VIC",
-              "Pts": "0.0"
+              "Pts": "1.0"
+            },
+            {
+              "1": "a",
+              "2": "a",
+              "3": "a",
+              "4": "0",
+              "5": "0",
+              "6": "a",
+              "7": "a",
+              "8": "×",
+              "Pos": "8",
+              "#": "8",
+              "NAME": "CM Davis,Tony J",
+              "Rtg": "1634",
+              "Fed": "VIC",
+              "Pts": "0.5"
             }
           ]
         }
@@ -5301,8 +5366,8 @@
               },
               "Rtg": "1802",
               "Fed": "VIC",
-              "Pts": "1.0",
-              "SB": "0.00"
+              "Pts": "2.0",
+              "SB": "1.50"
             },
             {
               "Pos": "2",
@@ -5324,10 +5389,32 @@
               "Rtg": "1756",
               "Fed": "VIC",
               "Pts": "1.0",
-              "SB": "0.00"
+              "SB": "1.00"
             },
             {
               "Pos": "3",
+              "Player": {
+                "id": "7",
+                "playerName": "Lacson,Joemar",
+                "gender": "male",
+                "href": "playercard.html#7",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1893",
+                "fideId": "3257762",
+                "moreInfo": {
+                  "fideId": "3257762",
+                  "fideRating": "1893",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "1753",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "SB": "1.00"
+            },
+            {
+              "Pos": "4",
               "Player": {
                 "id": "5",
                 "playerName": "Annapureddy,Rheyansh Reddy",
@@ -5349,7 +5436,29 @@
               "SB": "0.00"
             },
             {
-              "Pos": "4",
+              "Pos": "5",
+              "Player": {
+                "id": "6",
+                "playerName": "Bodke,Krishna Manthan",
+                "gender": "male",
+                "href": "playercard.html#6",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1925",
+                "fideId": "3259021",
+                "moreInfo": {
+                  "fideId": "3259021",
+                  "fideRating": "1925",
+                  "fideFederation": "VIC"
+                }
+              },
+              "Rtg": "1718",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "6",
               "Player": {
                 "id": "1",
                 "playerName": "Whitford,Matthew",
@@ -5371,7 +5480,7 @@
               "SB": "0.25"
             },
             {
-              "Pos": "5",
+              "Pos": "7",
               "Player": {
                 "id": "8",
                 "playerName": "Davis,Tony J",
@@ -5393,7 +5502,7 @@
               "SB": "0.25"
             },
             {
-              "Pos": "6",
+              "Pos": "8",
               "Player": {
                 "id": "4",
                 "playerName": "Hogan,Steven",
@@ -5413,55 +5522,11 @@
               "Fed": "VIC",
               "Pts": "0.0",
               "SB": "0.00"
-            },
-            {
-              "Pos": "7",
-              "Player": {
-                "id": "6",
-                "playerName": "Bodke,Krishna Manthan",
-                "gender": "male",
-                "href": "playercard.html#6",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1925",
-                "fideId": "3259021",
-                "moreInfo": {
-                  "fideId": "3259021",
-                  "fideRating": "1925",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "1718",
-              "Fed": "VIC",
-              "Pts": "0.0",
-              "SB": "0.00"
-            },
-            {
-              "Pos": "8",
-              "Player": {
-                "id": "7",
-                "playerName": "Lacson,Joemar",
-                "gender": "male",
-                "href": "playercard.html#7",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1893",
-                "fideId": "3257762",
-                "moreInfo": {
-                  "fideId": "3257762",
-                  "fideRating": "1893",
-                  "fideFederation": "VIC"
-                }
-              },
-              "Rtg": "1753",
-              "Fed": "VIC",
-              "Pts": "0.0",
-              "SB": "0.00"
             }
           ],
           "footer": {
-            "text": "Tie Break legend:\n     SB  :  Sonneborn-Berger",
-            "html": "Tie Break legend:<br>\n     SB  :  Sonneborn-Berger <br>"
+            "text": "Tie Break legend:",
+            "html": "Tie Break legend:<br>"
           }
         }
       ],
@@ -5489,7 +5554,7 @@
             {
               "Pos": "1",
               "Name": "VIC",
-              "Points": "1"
+              "Points": "2"
             }
           ],
           "caption": {
@@ -5602,11 +5667,11 @@
                 "title": ""
               },
               "Rtg": "1802",
-              "PRtg": "1394",
+              "PRtg": "1545",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "1.0",
-              "SB": "0.00"
+              "Pts": "2.0",
+              "SB": "1.50"
             },
             {
               "Pos": "2",
@@ -5624,10 +5689,28 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "1.0",
-              "SB": "0.00"
+              "SB": "1.00"
             },
             {
               "Pos": "3",
+              "N": "7",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Rtg": "1753",
+              "PRtg": "1401",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "1.0",
+              "SB": "1.00"
+            },
+            {
+              "Pos": "4",
               "N": "5",
               "T": "FM",
               "Player": {
@@ -5645,7 +5728,25 @@
               "SB": "0.00"
             },
             {
-              "Pos": "4",
+              "Pos": "5",
+              "N": "6",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna Manthan",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Rtg": "1718",
+              "PRtg": "1406",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "1.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "6",
               "N": "1",
               "T": "",
               "Player": {
@@ -5663,7 +5764,7 @@
               "SB": "0.25"
             },
             {
-              "Pos": "5",
+              "Pos": "7",
               "N": "8",
               "T": "CM",
               "Player": {
@@ -5681,7 +5782,7 @@
               "SB": "0.25"
             },
             {
-              "Pos": "6",
+              "Pos": "8",
               "N": "4",
               "T": "",
               "Player": {
@@ -5693,42 +5794,6 @@
               },
               "Rtg": "1414",
               "PRtg": "958",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "0.0",
-              "SB": "0.00"
-            },
-            {
-              "Pos": "7",
-              "N": "6",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Bodke,Krishna Manthan",
-                "gender": "notitle",
-                "href": "playercard.html#6",
-                "title": ""
-              },
-              "Rtg": "1718",
-              "PRtg": "915",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "0.0",
-              "SB": "0.00"
-            },
-            {
-              "Pos": "8",
-              "N": "7",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Lacson,Joemar",
-                "gender": "notitle",
-                "href": "playercard.html#7",
-                "title": ""
-              },
-              "Rtg": "1753",
-              "PRtg": "910",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "0.0",
@@ -5762,7 +5827,7 @@
             {
               "Pos": "1",
               "Name": "",
-              "Points": "1"
+              "Points": "2"
             }
           ],
           "caption": {
@@ -5875,11 +5940,11 @@
                 "title": ""
               },
               "Rtg": "1802",
-              "PRtg": "1394",
+              "PRtg": "1545",
               "Fed": "VIC",
               "Origin": "",
-              "Pts": "1.0",
-              "SB": "0.00"
+              "Pts": "2.0",
+              "SB": "1.50"
             },
             {
               "Pos": "2",
@@ -5897,10 +5962,28 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "1.0",
-              "SB": "0.00"
+              "SB": "1.00"
             },
             {
               "Pos": "3",
+              "N": "7",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Lacson,Joemar",
+                "gender": "notitle",
+                "href": "playercard.html#7",
+                "title": ""
+              },
+              "Rtg": "1753",
+              "PRtg": "1401",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "1.0",
+              "SB": "1.00"
+            },
+            {
+              "Pos": "4",
               "N": "5",
               "T": "FM",
               "Player": {
@@ -5918,7 +6001,25 @@
               "SB": "0.00"
             },
             {
-              "Pos": "4",
+              "Pos": "5",
+              "N": "6",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna Manthan",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Rtg": "1718",
+              "PRtg": "1406",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "1.0",
+              "SB": "0.00"
+            },
+            {
+              "Pos": "6",
               "N": "1",
               "T": "",
               "Player": {
@@ -5936,7 +6037,7 @@
               "SB": "0.25"
             },
             {
-              "Pos": "5",
+              "Pos": "7",
               "N": "8",
               "T": "CM",
               "Player": {
@@ -5954,7 +6055,7 @@
               "SB": "0.25"
             },
             {
-              "Pos": "6",
+              "Pos": "8",
               "N": "4",
               "T": "",
               "Player": {
@@ -5966,42 +6067,6 @@
               },
               "Rtg": "1414",
               "PRtg": "958",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "0.0",
-              "SB": "0.00"
-            },
-            {
-              "Pos": "7",
-              "N": "6",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Bodke,Krishna Manthan",
-                "gender": "notitle",
-                "href": "playercard.html#6",
-                "title": ""
-              },
-              "Rtg": "1718",
-              "PRtg": "915",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "0.0",
-              "SB": "0.00"
-            },
-            {
-              "Pos": "8",
-              "N": "7",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Lacson,Joemar",
-                "gender": "notitle",
-                "href": "playercard.html#7",
-                "title": ""
-              },
-              "Rtg": "1753",
-              "PRtg": "910",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "0.0",
@@ -6156,7 +6221,7 @@
   "top_players": [
     {
       "name": "Nguyen,Anh Kiet",
-      "point": 1,
+      "point": 2,
       "elo": "1977",
       "title": "CM"
     },
@@ -6167,10 +6232,10 @@
       "title": ""
     },
     {
-      "name": "Annapureddy,Rheyansh Reddy",
+      "name": "Lacson,Joemar",
       "point": 1,
-      "elo": "2268",
-      "title": "FM"
+      "elo": "1893",
+      "title": ""
     }
   ],
   "playerLookup": {
@@ -6341,6 +6406,12 @@
       ]
     },
     {
+      "text": "Games",
+      "href": "games.html",
+      "isDropdown": false,
+      "children": []
+    },
+    {
       "text": "Reports",
       "href": "#",
       "isDropdown": true,
@@ -6474,5 +6545,5 @@
     "FIDE titled player NOT from AUS Federation": "3",
     "category": "Senior"
   },
-  "md5Hash": "f95bdf77a1b61b58f942d54713836586"
+  "md5Hash": "4fa49b36702f4266763ee50e4f13de6e"
 }
