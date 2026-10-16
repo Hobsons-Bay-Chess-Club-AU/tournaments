@@ -20,7 +20,11 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li></ul> </div>
+</li><li class="nav-item"><a class="nav-link " href="pairs1.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link" href="#" >Standings</a>
+</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu"></ul></li></ul> </div>
 </div>
 </nav>
  <section id="hero" class="d-flex align-items-center">
@@ -40,25 +44,25 @@
   <div class="d-flex flex-column">   <h3 class="mb-4 mt-4">Registered players</h3><div class="table-responsive"><table class="table table-striped" id="players-table"> 
 <thead><tr><th>#</th><th>Title</th><th> &#8597; Player</th><th>Fed</th><th data-tsorter="numeric"> &#8597; Rtg</th><th data-tsorter="numeric"> &#8597; RtgF</th><th data-tsorter="numeric"> &#8597; RtgN</th></tr></thead><tbody>
 <tr> 
-<td><span class="idn"> 1</span></td><td><span class="notitle male"> </span></td><td> Paul,Vivaan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1589</td><td>1589</td><td>0</td> </tr>
+<td><span class="idn"> 1</span></td><td><span class="notitle male"> </span></td><td> Djatschenko,Addison </td><td ><img class="shadow" src="flag/tas.png" alt="TAS"></td><td>1460</td><td>1697</td><td>1460</td> </tr>
 <tr> 
-<td><span class="idn"> 2</span></td><td><span class="notitle male"> </span></td><td> Djatschenko,Addison </td><td ><img class="shadow" src="flag/tas.png" alt="TAS"></td><td>1460</td><td>1697</td><td>1460</td> </tr>
+<td><span class="idn"> 2</span></td><td><span class="notitle male"> </span></td><td> Bhat,Dhruv </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1040</td><td>1527</td><td>1040</td> </tr>
 <tr> 
-<td><span class="idn"> 3</span></td><td><span class="notitle male"> </span></td><td> Bhat,Dhruv </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1040</td><td>1527</td><td>1040</td> </tr>
+<td><span class="idn"> 3</span></td><td><span class="notitle male"> </span></td><td> Saha,Avinandan (Arjun) </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1013</td><td>1511</td><td>1013</td> </tr>
 <tr> 
-<td><span class="idn"> 4</span></td><td><span class="notitle male"> </span></td><td> Saha,Avinandan (Arjun) </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>1013</td><td>1511</td><td>1013</td> </tr>
+<td><span class="idn"> 4</span></td><td><span class="notitle male"> </span></td><td> Balaji,Sai Sivesh </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>989</td><td>1527</td><td>989</td> </tr>
 <tr> 
-<td><span class="idn"> 5</span></td><td><span class="notitle male"> </span></td><td> Balaji,Sai Sivesh </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>989</td><td>1527</td><td>989</td> </tr>
+<td><span class="idn"> 5</span></td><td><span class="notitle male"> </span></td><td> Watson,Jacob </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>957</td><td>1563</td><td>957</td> </tr>
 <tr> 
-<td><span class="idn"> 6</span></td><td><span class="notitle male"> </span></td><td> Watson,Jacob </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>957</td><td>1563</td><td>957</td> </tr>
+<td><span class="idn"> 6</span></td><td><span class="notitle male"> </span></td><td> Nema,Nivaan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>924</td><td>1519</td><td>924</td> </tr>
 <tr> 
-<td><span class="idn"> 7</span></td><td><span class="notitle male"> </span></td><td> Nema,Nivaan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>924</td><td>1519</td><td>924</td> </tr>
+<td><span class="idn"> 7</span></td><td><span class="notitle male"> </span></td><td> Vemula,Thamoghna </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>862</td><td>1538</td><td>862</td> </tr>
 <tr> 
-<td><span class="idn"> 8</span></td><td><span class="notitle male"> </span></td><td> Vemula,Thamoghna </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>862</td><td>1538</td><td>862</td> </tr>
+<td><span class="idn"> 8</span></td><td><span class="notitle male"> </span></td><td> Singh,Sumair </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>852</td><td>1492</td><td>852</td> </tr>
 <tr> 
-<td><span class="idn"> 9</span></td><td><span class="notitle male"> </span></td><td> Singh,Sumair </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>852</td><td>1492</td><td>852</td> </tr>
+<td><span class="idn"> 9</span></td><td><span class="notitle female"> </span></td><td> Venkat,Nyra </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>814</td><td>1550</td><td>814</td> </tr>
 <tr> 
-<td><span class="idn"> 10</span></td><td><span class="notitle female"> </span></td><td> Venkat,Nyra </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>814</td><td>1550</td><td>814</td> </tr>
+<td><span class="idn"> 10</span></td><td><span class="notitle male"> </span></td><td> Paul,Vivaan </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>700</td><td>1589</td><td>700</td> </tr>
 <tr> 
 <td><span class="idn"> 11</span></td><td><span class="notitle male"> </span></td><td> Bhadrapura,Vismay </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>698</td><td>1570</td><td>698</td> </tr>
 <tr> 
