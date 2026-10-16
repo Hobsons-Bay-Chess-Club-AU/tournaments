@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-05T02:15:50.380Z",
+  "generatedAt": "2026-10-16T06:28:54.856Z",
   "year": "2026",
-  "count": 218,
-  "totalTournaments": 22,
+  "count": 219,
+  "totalTournaments": 25,
   "players": [
     {
       "name": "Ahmad,Ihtiram",
@@ -40,7 +40,7 @@
       "fideId": "3275779",
       "gender": "male",
       "href": "playercard.html#57",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -60,6 +60,13 @@
           "tournament": "www2026KoshnitskyCupOpen/data.json",
           "score": 3,
           "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Reserves Championship Open",
           "totalRounds": "7",
           "ratingType": "standard"
         },
@@ -98,7 +105,7 @@
       "fideId": "3239683",
       "gender": "male",
       "href": "playercard.html#23",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -119,6 +126,13 @@
           "score": 2.5,
           "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -144,14 +158,14 @@
         }
       ],
       "points": {
-        "standard": 12,
+        "standard": 13,
         "rapid": 4,
         "blitz": 0.5
       },
       "title": "",
       "birthYear": 2011,
       "fideStandard": 1566,
-      "fideRapid": 1731,
+      "fideRapid": 1732,
       "fideBlitz": 1666,
       "acfClassic": 1182,
       "acfQuick": 1350,
@@ -163,13 +177,20 @@
       "fideId": "3244806",
       "gender": "male",
       "href": "playercard.html#5",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 4,
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ClubChampionshipOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Club Championship Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -188,7 +209,7 @@
         }
       ],
       "points": {
-        "standard": 8.5,
+        "standard": 9.5,
         "rapid": 0,
         "blitz": 0.5
       },
@@ -274,7 +295,7 @@
       "fideId": "3275108",
       "gender": "male",
       "href": "playercard.html#26",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -298,6 +319,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
+        {
           "tournament": "wwwHobsonsBayCupOpen/data.json",
           "score": 2.5,
           "name": "Hobsons Bay Cup Open 20226",
@@ -306,7 +334,7 @@
         }
       ],
       "points": {
-        "standard": 12,
+        "standard": 13,
         "rapid": 0,
         "blitz": 0
       },
@@ -401,8 +429,8 @@
       "title": "",
       "birthYear": 2014,
       "fideStandard": 1527,
-      "fideRapid": 1593,
-      "fideBlitz": 1596,
+      "fideRapid": 1594,
+      "fideBlitz": 1598,
       "acfClassic": 989,
       "acfQuick": 1006,
       "acfId": "3209381"
@@ -443,12 +471,19 @@
       "fideId": "108217886",
       "gender": "male",
       "href": "playercard.html#21",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026KoshnitskyCupOpen/data.json",
           "score": 3,
           "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Reserves Championship Open",
           "totalRounds": "7",
           "ratingType": "standard"
         },
@@ -468,7 +503,7 @@
         }
       ],
       "points": {
-        "standard": 6.5,
+        "standard": 7.5,
         "rapid": 3,
         "blitz": 0
       },
@@ -476,7 +511,7 @@
       "birthYear": 1985,
       "fideStandard": 1657,
       "fideRapid": 1648,
-      "fideBlitz": 1671,
+      "fideBlitz": 1673,
       "acfClassic": 1237,
       "acfQuick": 1252,
       "acfId": "0006155"
@@ -536,7 +571,7 @@
       "birthYear": 2013,
       "fideStandard": 1660,
       "fideRapid": 1530,
-      "fideBlitz": 1563,
+      "fideBlitz": 1567,
       "acfClassic": 492,
       "acfQuick": 282,
       "acfId": "3219111"
@@ -690,7 +725,7 @@
       "title": "",
       "birthYear": 2017,
       "fideStandard": 1570,
-      "fideRapid": 1491,
+      "fideRapid": 1492,
       "fideBlitz": 0,
       "acfClassic": 698,
       "acfQuick": 652,
@@ -720,7 +755,7 @@
       "title": "",
       "birthYear": 2015,
       "fideStandard": 1527,
-      "fideRapid": 1483,
+      "fideRapid": 1484,
       "fideBlitz": 1431,
       "acfClassic": 1040,
       "acfQuick": 1046,
@@ -732,12 +767,19 @@
       "fideId": "3282473",
       "gender": "male",
       "href": "playercard.html#27",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026KoshnitskyCupOpen/data.json",
           "score": 4.5,
           "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1.5,
+          "name": "Hobsons Bay Reserves Championship Open",
           "totalRounds": "7",
           "ratingType": "standard"
         },
@@ -757,7 +799,7 @@
         }
       ],
       "points": {
-        "standard": 7,
+        "standard": 8.5,
         "rapid": 3,
         "blitz": 0
       },
@@ -836,13 +878,20 @@
       "fideId": "3259021",
       "gender": "male",
       "href": "playercard.html#25",
-      "tournamentCount": 9,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 4,
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ClubChampionshipOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Club Championship Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -903,7 +952,7 @@
         }
       ],
       "points": {
-        "standard": 23,
+        "standard": 24,
         "rapid": 4.5,
         "blitz": 6
       },
@@ -1037,8 +1086,8 @@
       "title": "",
       "birthYear": 1991,
       "fideStandard": 1418,
-      "fideRapid": 1504,
-      "fideBlitz": 1489,
+      "fideRapid": 1506,
+      "fideBlitz": 1490,
       "acfClassic": 910,
       "acfQuick": 757,
       "acfId": "6274321"
@@ -1123,7 +1172,7 @@
       "fideId": "3234134",
       "gender": "male",
       "href": "playercard.html#28",
-      "tournamentCount": 3,
+      "tournamentCount": 4,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -1145,10 +1194,17 @@
           "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
           "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
         }
       ],
       "points": {
-        "standard": 6,
+        "standard": 7,
         "rapid": 0,
         "blitz": 0
       },
@@ -1278,13 +1334,20 @@
       "fideId": "3205550",
       "gender": "male",
       "href": "playercard.html#19",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 4,
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ClubChampionshipOpen/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Club Championship Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -1317,7 +1380,7 @@
         }
       ],
       "points": {
-        "standard": 19.5,
+        "standard": 20,
         "rapid": 0,
         "blitz": 0
       },
@@ -1452,7 +1515,7 @@
       "birthYear": 2004,
       "fideStandard": 1697,
       "fideRapid": 1680,
-      "fideBlitz": 1697,
+      "fideBlitz": 1698,
       "acfClassic": 1460,
       "acfQuick": 1478,
       "acfId": "7978231"
@@ -1488,7 +1551,7 @@
       "title": "",
       "birthYear": 2015,
       "fideStandard": 0,
-      "fideRapid": 1535,
+      "fideRapid": 1534,
       "fideBlitz": 0,
       "acfClassic": 0,
       "acfQuick": 0,
@@ -1593,19 +1656,26 @@
       "birthYear": 1989,
       "fideStandard": 1538,
       "fideRapid": 1548,
-      "fideBlitz": 1526,
+      "fideBlitz": 1527,
       "acfClassic": 0,
       "acfQuick": 0,
       "acfId": "3210615"
     },
     {
       "name": "Enano,Ronald",
-      "id": "5",
+      "id": "2",
       "fideId": "3227480",
       "gender": "male",
-      "href": "playercard.html#5",
-      "tournamentCount": 1,
+      "href": "playercard.html#2",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "www2026WesternMajorOpen/data.json",
           "score": 0,
@@ -1615,7 +1685,7 @@
         }
       ],
       "points": {
-        "standard": 0,
+        "standard": 1,
         "rapid": 0,
         "blitz": 0
       },
@@ -1652,7 +1722,7 @@
       "title": "",
       "birthYear": 2015,
       "fideStandard": 1407,
-      "fideRapid": 1403,
+      "fideRapid": 1404,
       "fideBlitz": 0,
       "acfClassic": 502,
       "acfQuick": 617,
@@ -1682,7 +1752,7 @@
       "title": "",
       "birthYear": 1986,
       "fideStandard": 1568,
-      "fideRapid": 1692,
+      "fideRapid": 1693,
       "fideBlitz": 1589,
       "acfClassic": 1244,
       "acfQuick": 1319,
@@ -1802,7 +1872,7 @@
       "title": "",
       "birthYear": null,
       "fideStandard": 0,
-      "fideRapid": 1582,
+      "fideRapid": 1585,
       "fideBlitz": 0,
       "acfClassic": 0,
       "acfQuick": 0,
@@ -2288,13 +2358,20 @@
       "fideId": "3201414",
       "gender": "male",
       "href": "playercard.html#46",
-      "tournamentCount": 9,
+      "tournamentCount": 10,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ClubChampionshipOpen/data.json",
+          "score": 0,
+          "name": "2026 Hobsons Bay Club Championship Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -2363,7 +2440,7 @@
       "birthYear": 1985,
       "fideStandard": 1671,
       "fideRapid": 1657,
-      "fideBlitz": 1713,
+      "fideBlitz": 1714,
       "acfClassic": 1414,
       "acfQuick": 1021,
       "acfId": "3112941"
@@ -2569,7 +2646,7 @@
       "birthYear": 2014,
       "fideStandard": 1643,
       "fideRapid": 1551,
-      "fideBlitz": 1642,
+      "fideBlitz": 1645,
       "acfClassic": 1062,
       "acfQuick": 953,
       "acfId": "3204621"
@@ -2636,12 +2713,19 @@
     },
     {
       "name": "Ilic,Milan",
-      "id": "19",
+      "id": "6",
       "fideId": "3207293",
       "gender": "male",
-      "href": "playercard.html#19",
-      "tournamentCount": 1,
+      "href": "playercard.html#6",
+      "tournamentCount": 2,
       "tournaments": [
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwRapid22026/data.json",
           "score": 2.5,
@@ -2651,7 +2735,7 @@
         }
       ],
       "points": {
-        "standard": 0,
+        "standard": 1,
         "rapid": 2.5,
         "blitz": 0
       },
@@ -2806,7 +2890,7 @@
       "title": "",
       "birthYear": 2017,
       "fideStandard": 1616,
-      "fideRapid": 1548,
+      "fideRapid": 1547,
       "fideBlitz": 1464,
       "acfClassic": 1112,
       "acfQuick": 1028,
@@ -2880,7 +2964,7 @@
       "title": "",
       "birthYear": 2011,
       "fideStandard": 1633,
-      "fideRapid": 1717,
+      "fideRapid": 1718,
       "fideBlitz": 1754,
       "acfClassic": 1220,
       "acfQuick": 1413,
@@ -2911,7 +2995,7 @@
       "birthYear": 2014,
       "fideStandard": 0,
       "fideRapid": 0,
-      "fideBlitz": 1454,
+      "fideBlitz": 1457,
       "acfClassic": 143,
       "acfQuick": 169,
       "acfId": "3212096"
@@ -3125,7 +3209,7 @@
       "title": "",
       "birthYear": 2014,
       "fideStandard": 1572,
-      "fideRapid": 1616,
+      "fideRapid": 1618,
       "fideBlitz": 0,
       "acfClassic": 1102,
       "acfQuick": 1380,
@@ -3197,12 +3281,19 @@
       "fideId": "3295311",
       "gender": "male",
       "href": "playercard.html#30",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026KoshnitskyCupOpen/data.json",
           "score": 1,
           "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 0.5,
+          "name": "Hobsons Bay Reserves Championship Open",
           "totalRounds": "7",
           "ratingType": "standard"
         },
@@ -3215,7 +3306,7 @@
         }
       ],
       "points": {
-        "standard": 1,
+        "standard": 1.5,
         "rapid": 1.5,
         "blitz": 0
       },
@@ -3234,7 +3325,7 @@
       "fideId": "3227499",
       "gender": "male",
       "href": "playercard.html#27",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -3255,6 +3346,13 @@
           "score": 2,
           "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -3375,13 +3473,20 @@
       "fideId": "3254925",
       "gender": "male",
       "href": "playercard.html#12",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3.5,
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ClubChampionshipOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Club Championship Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -3407,7 +3512,7 @@
         }
       ],
       "points": {
-        "standard": 16,
+        "standard": 17,
         "rapid": 0,
         "blitz": 0
       },
@@ -3466,7 +3571,7 @@
       "birthYear": 2016,
       "fideStandard": 1535,
       "fideRapid": 1472,
-      "fideBlitz": 1563,
+      "fideBlitz": 1564,
       "acfClassic": 678,
       "acfQuick": 561,
       "acfId": "3219892"
@@ -3517,7 +3622,7 @@
       "birthYear": 2016,
       "fideStandard": 0,
       "fideRapid": 1448,
-      "fideBlitz": 1660,
+      "fideBlitz": 1661,
       "acfClassic": 595,
       "acfQuick": 760,
       "acfId": "3219903"
@@ -3528,13 +3633,20 @@
       "fideId": "3257762",
       "gender": "male",
       "href": "playercard.html#14",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3.5,
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ClubChampionshipOpen/data.json",
+          "score": 1,
+          "name": "2026 Hobsons Bay Club Championship Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -3581,7 +3693,7 @@
         }
       ],
       "points": {
-        "standard": 20,
+        "standard": 21,
         "rapid": 4,
         "blitz": 5
       },
@@ -3872,7 +3984,7 @@
       "title": "",
       "birthYear": 2018,
       "fideStandard": 1439,
-      "fideRapid": 1405,
+      "fideRapid": 1414,
       "fideBlitz": 0,
       "acfClassic": 799,
       "acfQuick": 474,
@@ -3977,7 +4089,7 @@
       "birthYear": 2012,
       "fideStandard": 1702,
       "fideRapid": 1720,
-      "fideBlitz": 1665,
+      "fideBlitz": 1668,
       "acfClassic": 1111,
       "acfQuick": 696,
       "acfId": "3224195"
@@ -4106,7 +4218,7 @@
       "fideId": "3235068",
       "gender": "male",
       "href": "playercard.html#37",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -4119,6 +4231,13 @@
           "tournament": "www2026KoshnitskyCupOpen/data.json",
           "score": 5.5,
           "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Reserves Championship Open",
           "totalRounds": "7",
           "ratingType": "standard"
         },
@@ -4152,7 +4271,7 @@
         }
       ],
       "points": {
-        "standard": 16,
+        "standard": 18,
         "rapid": 4,
         "blitz": 7
       },
@@ -4160,7 +4279,7 @@
       "birthYear": 2002,
       "fideStandard": 1779,
       "fideRapid": 1739,
-      "fideBlitz": 1814,
+      "fideBlitz": 1815,
       "acfClassic": 1520,
       "acfQuick": 1604,
       "acfId": "5219002"
@@ -4539,7 +4658,7 @@
       "birthYear": 2014,
       "fideStandard": 1519,
       "fideRapid": 1460,
-      "fideBlitz": 1503,
+      "fideBlitz": 1507,
       "acfClassic": 924,
       "acfQuick": 673,
       "acfId": "3217486"
@@ -4580,13 +4699,20 @@
       "fideId": "3288986",
       "gender": "male",
       "href": "playercard.html#67",
-      "tournamentCount": 2,
+      "tournamentCount": 3,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -4598,7 +4724,7 @@
         }
       ],
       "points": {
-        "standard": 3,
+        "standard": 4,
         "rapid": 2,
         "blitz": 0
       },
@@ -4617,13 +4743,20 @@
       "fideId": "3267849",
       "gender": "male",
       "href": "playercard.html#10",
-      "tournamentCount": 8,
+      "tournamentCount": 9,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3.5,
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ClubChampionshipOpen/data.json",
+          "score": 2,
+          "name": "2026 Hobsons Bay Club Championship Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -4677,14 +4810,14 @@
         }
       ],
       "points": {
-        "standard": 23.5,
+        "standard": 25.5,
         "rapid": 10,
         "blitz": 9
       },
       "title": "CM",
       "birthYear": 2012,
       "fideStandard": 2040,
-      "fideRapid": 1908,
+      "fideRapid": 1909,
       "fideBlitz": 1859,
       "acfClassic": 1802,
       "acfQuick": 1619,
@@ -4726,7 +4859,7 @@
       "fideId": "3214915",
       "gender": "male",
       "href": "playercard.html#18",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -4747,6 +4880,13 @@
           "score": 1.5,
           "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -4779,7 +4919,7 @@
         }
       ],
       "points": {
-        "standard": 11.5,
+        "standard": 13.5,
         "rapid": 0.5,
         "blitz": 6
       },
@@ -4951,7 +5091,7 @@
       "birthYear": 2015,
       "fideStandard": 1735,
       "fideRapid": 1689,
-      "fideBlitz": 1920,
+      "fideBlitz": 1921,
       "acfClassic": 1433,
       "acfQuick": 1590,
       "acfId": "3209484"
@@ -5022,7 +5162,7 @@
       "fideId": "2054515",
       "gender": "male",
       "href": "playercard.html#8",
-      "tournamentCount": 7,
+      "tournamentCount": 8,
       "tournaments": [
         {
           "tournament": "www2026HonourableBob/data.json",
@@ -5043,6 +5183,13 @@
           "score": 3.5,
           "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -5075,7 +5222,7 @@
         }
       ],
       "points": {
-        "standard": 14.5,
+        "standard": 16.5,
         "rapid": 6,
         "blitz": 6
       },
@@ -5083,7 +5230,7 @@
       "birthYear": 1982,
       "fideStandard": 1756,
       "fideRapid": 1673,
-      "fideBlitz": 1694,
+      "fideBlitz": 1695,
       "acfClassic": 1584,
       "acfQuick": 1137,
       "acfId": "3194913"
@@ -5094,7 +5241,7 @@
       "fideId": "3254003",
       "gender": "male",
       "href": "playercard.html#47",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -5122,6 +5269,13 @@
           "score": 2,
           "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 0,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -5364,7 +5518,7 @@
       "title": "",
       "birthYear": 2016,
       "fideStandard": 1589,
-      "fideRapid": 1440,
+      "fideRapid": 1439,
       "fideBlitz": 0,
       "acfClassic": 1175,
       "acfQuick": 1024,
@@ -5586,7 +5740,7 @@
       "title": "",
       "birthYear": 2014,
       "fideStandard": 1607,
-      "fideRapid": 1594,
+      "fideRapid": 1596,
       "fideBlitz": 1542,
       "acfClassic": 1156,
       "acfQuick": 1138,
@@ -5616,7 +5770,7 @@
       "title": "",
       "birthYear": 1981,
       "fideStandard": 1736,
-      "fideRapid": 1707,
+      "fideRapid": 1708,
       "fideBlitz": 1662,
       "acfClassic": 1454,
       "acfQuick": 1399,
@@ -5679,7 +5833,7 @@
       "fideId": "3281345",
       "gender": "male",
       "href": "playercard.html#74",
-      "tournamentCount": 4,
+      "tournamentCount": 5,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -5693,6 +5847,13 @@
           "score": 1.5,
           "name": "Hobsons Bay Purdy Cup Open",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 0.5,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -5711,7 +5872,7 @@
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 4.5,
         "rapid": 5,
         "blitz": 0
       },
@@ -6143,8 +6304,8 @@
       "title": "",
       "birthYear": 2015,
       "fideStandard": 1522,
-      "fideRapid": 1451,
-      "fideBlitz": 1548,
+      "fideRapid": 1452,
+      "fideBlitz": 1560,
       "acfClassic": 694,
       "acfQuick": 890,
       "acfId": "3217011"
@@ -6268,7 +6429,7 @@
       "title": "",
       "birthYear": 2015,
       "fideStandard": 1466,
-      "fideRapid": 1479,
+      "fideRapid": 1480,
       "fideBlitz": 1610,
       "acfClassic": 1026,
       "acfQuick": 1072,
@@ -6343,7 +6504,7 @@
       "birthYear": 2014,
       "fideStandard": 1492,
       "fideRapid": 1404,
-      "fideBlitz": 1520,
+      "fideBlitz": 1522,
       "acfClassic": 852,
       "acfQuick": 643,
       "acfId": "3210803"
@@ -6640,7 +6801,7 @@
       "title": "",
       "birthYear": 2012,
       "fideStandard": 1694,
-      "fideRapid": 1607,
+      "fideRapid": 1605,
       "fideBlitz": 1796,
       "acfClassic": 1476,
       "acfQuick": 1562,
@@ -6677,13 +6838,50 @@
       "acfId": "6257886"
     },
     {
+      "name": "Thekkan,Maximus",
+      "id": "19",
+      "fideId": "3282554",
+      "gender": "male",
+      "href": "playercard.html#19",
+      "tournamentCount": 1,
+      "tournaments": [
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        }
+      ],
+      "points": {
+        "standard": 1,
+        "rapid": 0,
+        "blitz": 0
+      },
+      "title": "",
+      "birthYear": 2007,
+      "fideStandard": 1560,
+      "fideRapid": 0,
+      "fideBlitz": 0,
+      "acfClassic": 847,
+      "acfQuick": 847,
+      "acfId": "3215552"
+    },
+    {
       "name": "Thomson,Kynan",
-      "id": "23",
+      "id": "8",
       "fideId": "3298620",
       "gender": "male",
-      "href": "playercard.html#23",
-      "tournamentCount": 2,
+      "href": "playercard.html#8",
+      "tournamentCount": 3,
       "tournaments": [
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
         {
           "tournament": "wwwHobsonsBayCupOpen/data.json",
           "score": 4,
@@ -6700,7 +6898,7 @@
         }
       ],
       "points": {
-        "standard": 4,
+        "standard": 5,
         "rapid": 3.5,
         "blitz": 0
       },
@@ -6952,8 +7150,8 @@
       "title": "",
       "birthYear": 2017,
       "fideStandard": 1538,
-      "fideRapid": 1483,
-      "fideBlitz": 1599,
+      "fideRapid": 1482,
+      "fideBlitz": 1601,
       "acfClassic": 862,
       "acfQuick": 738,
       "acfId": "3218676"
@@ -7093,8 +7291,8 @@
       "title": "",
       "birthYear": 2015,
       "fideStandard": 1552,
-      "fideRapid": 1491,
-      "fideBlitz": 1595,
+      "fideRapid": 1492,
+      "fideBlitz": 1596,
       "acfClassic": 869,
       "acfQuick": 784,
       "acfId": "3220113"
@@ -7190,7 +7388,7 @@
       "title": "",
       "birthYear": 2012,
       "fideStandard": 1533,
-      "fideRapid": 1549,
+      "fideRapid": 1551,
       "fideBlitz": 1667,
       "acfClassic": 1019,
       "acfQuick": 1219,
@@ -7290,7 +7488,7 @@
       "fideId": "573003476",
       "gender": "male",
       "href": "playercard.html#13",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -7303,6 +7501,13 @@
           "tournament": "www2026KoshnitskyCupOpen/data.json",
           "score": 3,
           "name": "2026 Hobsons Bay Koshnitsky Cup Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 1,
+          "name": "Hobsons Bay Reserves Championship Open",
           "totalRounds": "7",
           "ratingType": "standard"
         },
@@ -7336,7 +7541,7 @@
         }
       ],
       "points": {
-        "standard": 10.5,
+        "standard": 11.5,
         "rapid": 6.5,
         "blitz": 5
       },
@@ -7411,7 +7616,7 @@
       "birthYear": 2013,
       "fideStandard": 1519,
       "fideRapid": 1541,
-      "fideBlitz": 1605,
+      "fideBlitz": 1606,
       "acfClassic": 977,
       "acfQuick": 1198,
       "acfId": "3204083"
@@ -7422,13 +7627,20 @@
       "fideId": "3232220",
       "gender": "male",
       "href": "playercard.html#31",
-      "tournamentCount": 6,
+      "tournamentCount": 7,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
           "score": 3,
           "name": "2026 HBCC Best in the West",
           "totalRounds": "5",
+          "ratingType": "standard"
+        },
+        {
+          "tournament": "www2026ClubChampionshipOpen/data.json",
+          "score": 0.5,
+          "name": "2026 Hobsons Bay Club Championship Open",
+          "totalRounds": "7",
           "ratingType": "standard"
         },
         {
@@ -7468,7 +7680,7 @@
         }
       ],
       "points": {
-        "standard": 19.5,
+        "standard": 20,
         "rapid": 0,
         "blitz": 0
       },
@@ -7487,7 +7699,7 @@
       "fideId": "3255689",
       "gender": "male",
       "href": "playercard.html#56",
-      "tournamentCount": 5,
+      "tournamentCount": 6,
       "tournaments": [
         {
           "tournament": "www2026BITW/data.json",
@@ -7518,6 +7730,13 @@
           "ratingType": "standard"
         },
         {
+          "tournament": "www2026ReserveChampionshipOpen/data.json",
+          "score": 2,
+          "name": "Hobsons Bay Reserves Championship Open",
+          "totalRounds": "7",
+          "ratingType": "standard"
+        },
+        {
           "tournament": "wwwHobsonsBayCupOpen/data.json",
           "score": 3,
           "name": "Hobsons Bay Cup Open 20226",
@@ -7526,7 +7745,7 @@
         }
       ],
       "points": {
-        "standard": 11,
+        "standard": 13,
         "rapid": 0,
         "blitz": 0
       },
@@ -7953,7 +8172,7 @@
       "title": "",
       "birthYear": 2016,
       "fideStandard": 1552,
-      "fideRapid": 1572,
+      "fideRapid": 1573,
       "fideBlitz": 1544,
       "acfClassic": 1178,
       "acfQuick": 966,
@@ -7991,7 +8210,7 @@
       "birthYear": 2016,
       "fideStandard": 0,
       "fideRapid": 1433,
-      "fideBlitz": 1478,
+      "fideBlitz": 1482,
       "acfClassic": 776,
       "acfQuick": 700,
       "acfId": "3214804"
