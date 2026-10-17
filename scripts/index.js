@@ -6,9 +6,19 @@ import { fileURLToPath } from "url";
 import { processFolder } from "../src/vega-parser.mjs";
 import { generateRewardPage, updateNavigation } from "../src/shared.mjs";
 import { generateUniquePlayersFiles } from "../src/prepare-data.mjs";
+import dotenv from "dotenv";
+import {
+    upsertTournamentToSupabase,
+    upsertPlayersToSupabase,
+    isSupabaseConfigured
+} from "../src/supabase.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+// Load environment variables (.env in scripts/ and project root)
+dotenv.config({ path: path.join(__dirname, ".env"), quiet: true });
+dotenv.config({ path: path.join(__dirname, "..", ".env"), quiet: true });
 
 // ============================================================
 // Custom Logger: outputs to console and ROOT_FOLDER/log.txt
@@ -36,40 +46,53 @@ function getTimestamp() {
     return `${YYYY}-${MM}-${DD} ${hh}:${mm}:${ss}`;
 }
 
+let logFileInitialized = false;
+
 export function setLogFilePath(targetPath) {
     logFilePath = targetPath;
     if (logFilePath) {
-        // Rotate if log file exceeds 10 MB
+        // Overwrite log file on each run so only the latest execution log is kept
         try {
-            if (fs.existsSync(logFilePath) && fs.statSync(logFilePath).size > 10 * 1024 * 1024) {
-                const oldLog = logFilePath + ".old";
-                if (fs.existsSync(oldLog)) fs.unlinkSync(oldLog);
-                fs.renameSync(logFilePath, oldLog);
-            }
-        } catch { }
-
-        // Flush early buffer
-        if (earlyLogBuffer.length > 0) {
-            try {
-                fs.appendFileSync(logFilePath, earlyLogBuffer.join("\n") + "\n", "utf8");
-                earlyLogBuffer.length = 0;
-            } catch (err) {
-                rawConsole.error(`Failed to flush log buffer to ${logFilePath}:`, err.message);
-            }
+            const initialContent = earlyLogBuffer.length > 0 ? earlyLogBuffer.join("\n") + "\n" : "";
+            fs.writeFileSync(logFilePath, initialContent, "utf8");
+            earlyLogBuffer.length = 0;
+            logFileInitialized = true;
+        } catch (err) {
+            rawConsole.error(`Failed to initialize log file at ${logFilePath}:`, err.message);
         }
     }
 }
 
+export function maskSensitiveData(text) {
+    if (text === null || text === undefined) return "";
+    let str = typeof text !== "string" ? util.format(text) : text;
+
+    return str
+        // Mask Supabase secret keys, publishable keys, personal access tokens
+        .replace(/sb_secret_[a-zA-Z0-9_\-]+/gi, "sb_secret_***")
+        .replace(/sb_publishable_[a-zA-Z0-9_\-]+/gi, "sb_publishable_***")
+        .replace(/sbp_[a-zA-Z0-9_\-]+/gi, "sbp_***")
+        // Mask JWT tokens
+        .replace(/eyJ[a-zA-Z0-9_\-]{10,}\.[a-zA-Z0-9_\-]{10,}\.[a-zA-Z0-9_\-]+/gi, "[REDACTED_JWT]")
+        // Mask JWKS endpoint or auth URLs
+        .replace(/https?:\/\/[^\s\/]+\/auth\/v1\/\.well-known\/jwks\.json/gi, "[REDACTED_JWKS_URL]")
+        // Mask basic auth or DB passwords in URLs (e.g. postgresql://user:pass@host:port/db)
+        .replace(/(postgres(?:ql)?:\/\/[^:]+:)([^@]+)(@)/gi, "$1***$3")
+        // Mask key=val or key: val patterns for known sensitive variable names
+        .replace(/\b(SUPABASE_ACCESS_TOKEN|SUPABASE_JWKS_URL|SUPABASE_SECRET_KEY|SUPABASE_PUBLISHABLE_KEY|NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY|NEXT_PUBLIC_SUPABASE_URL|DATABASE_URL|PASSWORD|SECRET|TOKEN|API_KEY)\s*([:=])\s*([^\s,;]+)/gi, "$1$2***");
+}
+
 export function writeLog(level, ...args) {
-    const formatted = util.format(...args);
+    const rawFormatted = util.format(...args);
+    const formatted = maskSensitiveData(rawFormatted);
 
     // 1. Output to console
     if (level === "ERROR") {
-        rawConsole.error(...args);
+        rawConsole.error(formatted);
     } else if (level === "WARN") {
-        rawConsole.warn(...args);
+        rawConsole.warn(formatted);
     } else {
-        rawConsole.log(...args);
+        rawConsole.log(formatted);
     }
 
     // 2. Format for log.txt
@@ -85,7 +108,12 @@ export function writeLog(level, ...args) {
     // 3. Write to file or buffer
     if (logFilePath) {
         try {
-            fs.appendFileSync(logFilePath, fileEntry + "\n", "utf8");
+            if (!logFileInitialized) {
+                fs.writeFileSync(logFilePath, fileEntry ? fileEntry + "\n" : "", "utf8");
+                logFileInitialized = true;
+            } else if (fileEntry) {
+                fs.appendFileSync(logFilePath, fileEntry + "\n", "utf8");
+            }
         } catch (err) {
             rawConsole.error(`Failed writing to ${logFilePath}:`, err.message);
         }
@@ -248,42 +276,14 @@ console.log(`Debounce Delay:    ${NO_DEBOUNCE ? "disabled" : `${DEBOUNCE_SYNC_DE
 console.log(`Log file:          ${path.join(ROOT_FOLDER, "log.txt")}`);
 console.log("");
 console.log("------------------------------------------");
-console.log("Trigger Context & Environment");
+console.log("Trigger Context");
 console.log("------------------------------------------");
 console.log(`Command:     ${process.argv.join(" ")}`);
 const cliArgs = process.argv.slice(2);
 console.log(`CLI Args:    ${cliArgs.length > 0 ? JSON.stringify(cliArgs) : "[] (none passed)"}`);
-
-// Dump all relevant environment variables
-const ignoredStandardVars = new Set([
-    "PATH", "LSCOLORS", "SHLVL", "_", "PWD", "OLDPWD", "HOME", "SHELL",
-    "TERM", "TMPDIR", "XPC_FLAGS", "XPC_SERVICE_NAME", "__CFBundleIdentifier"
-]);
-const relevantEnv = {};
-for (const [k, v] of Object.entries(process.env)) {
-    const upper = k.toUpperCase();
-    if (
-        upper.includes("SFTPGO") ||
-        upper.includes("EVENT") ||
-        upper.includes("ACTION") ||
-        upper.includes("TARGET") ||
-        upper.includes("UPLOAD") ||
-        upper.includes("REPO") ||
-        upper.includes("ROOT") ||
-        upper.includes("COMMIT") ||
-        upper.includes("PUSH") ||
-        !ignoredStandardVars.has(k)
-    ) {
-        relevantEnv[k] = v;
-    }
-}
-if (Object.keys(relevantEnv).length > 0) {
-    console.log("Environment:");
-    for (const [k, v] of Object.entries(relevantEnv)) {
-        console.log(`  ${k} = ${v}`);
-    }
-} else {
-    console.log("Environment: (no custom environment variables found)");
+const sftpTarget = process.env.SFTPGO_EVENT_FS_PATH || process.env.SFTPGO_ACTION_FS_PATH || process.env.SFTPGO_FILE_PATH;
+if (sftpTarget) {
+    console.log(`Target:      ${sftpTarget}`);
 }
 console.log("------------------------------------------");
 console.log("");
@@ -859,6 +859,20 @@ export async function regenerateWebsiteData(website) {
             console.log(`  Category: ${result.category}`);
             console.log(`  Players:  ${result.players?.length || 0}`);
             console.log(`  MD5:      ${result.md5Hash}`);
+
+            const repoCandidate = REPO_PATH || (ROOT_FOLDER && fs.existsSync(path.join(ROOT_FOLDER, "tournament.json")) ? path.dirname(ROOT_FOLDER) : null);
+            if (repoCandidate) {
+                try {
+                    await upsertTournamentMasterData({
+                        websiteName: website.name,
+                        repoPath: repoCandidate,
+                        result
+                    });
+                } catch (err) {
+                    console.warn(`[Supabase] Warning during master upsert for ${website.name}:`, err.message);
+                }
+            }
+
             return result;
         } else {
             console.warn(
@@ -885,7 +899,9 @@ export async function upsertTournamentMasterData({ websiteName, repoPath, result
     }
 
     const resolvedRepo = path.resolve(repoPath);
-    const targetWww = path.join(resolvedRepo, "www");
+    const targetWww = path.basename(resolvedRepo).toLowerCase() === "www"
+        ? resolvedRepo
+        : path.join(resolvedRepo, "www");
     const targetTournamentFolder = path.join(targetWww, websiteName);
 
     console.log("");
@@ -1006,6 +1022,37 @@ export async function upsertTournamentMasterData({ websiteName, repoPath, result
     } catch (err) {
         console.warn("Warning during rewards/navigation update:", err.message);
     }
+
+    // 5. Upsert tournament and master players to Supabase
+    try {
+        if (isSupabaseConfigured()) {
+            console.log(`[SUPABASE] Upserting tournament ${websiteName} to Supabase...`);
+            const tourneyRes = await upsertTournamentToSupabase({
+                websiteName,
+                repoPath: resolvedRepo,
+                result
+            });
+            if (tourneyRes.success) {
+                console.log(`[SUPABASE] Successfully upserted tournament: ${websiteName}`);
+            } else {
+                console.warn(`[SUPABASE] Warning: Failed to upsert tournament:`, tourneyRes.error?.message || tourneyRes.reason);
+            }
+
+            console.log("[SUPABASE] Upserting master players to Supabase...");
+            const playersRes = await upsertPlayersToSupabase({
+                repoPath: resolvedRepo
+            });
+            if (playersRes.success) {
+                console.log(`[SUPABASE] Successfully upserted ${playersRes.count} players to Supabase.`);
+            } else {
+                console.warn(`[SUPABASE] Warning: Failed to upsert players:`, playersRes.error?.message || playersRes.reason);
+            }
+        } else {
+            console.log("[SUPABASE] Supabase credentials not found; skipping database sync.");
+        }
+    } catch (err) {
+        console.warn("[SUPABASE] Warning: Error during Supabase upsert:", err.message);
+    }
 }
 
 // ============================================================
@@ -1075,28 +1122,83 @@ export async function syncFolderToRepo(website, repoPath) {
         });
     }
 
-    // 4. Update root index
-    const rootIndexSrc = path.join(ROOT_FOLDER, "index.html");
-    const rootIndexDest = path.join(targetWww, "index.html");
-    if (fs.existsSync(rootIndexSrc) && path.resolve(rootIndexSrc) !== path.resolve(rootIndexDest)) {
-        try {
-            fs.copyFileSync(rootIndexSrc, rootIndexDest);
-        } catch {}
+    return true;
+}
+
+export function pullLatestFromRepo(repoPath) {
+    if (!repoPath) {
+        return false;
     }
 
-    return true;
+    const resolvedRepo = path.resolve(repoPath);
+    if (!fs.existsSync(resolvedRepo)) {
+        console.error(`ERROR: REPO_PATH directory does not exist: ${resolvedRepo}`);
+        return false;
+    }
+
+    try {
+        console.log("");
+        console.log("------------------------------------------");
+        console.log(`Checking and pulling latest changes: ${resolvedRepo}`);
+        console.log("------------------------------------------");
+
+        // Verify it is a git repo
+        const isGit = spawnSync("git rev-parse --is-inside-work-tree", { cwd: resolvedRepo, shell: true });
+        if (isGit.status !== 0) {
+            console.warn(`Warning: ${resolvedRepo} is not a git repository.`);
+            return false;
+        }
+
+        // 1. Recover from any unfinished/stuck rebase or merge state from previous runs
+        const gitDir = path.join(resolvedRepo, ".git");
+        if (fs.existsSync(path.join(gitDir, "rebase-merge")) || fs.existsSync(path.join(gitDir, "rebase-apply"))) {
+            console.warn("Detected unfinished rebase state; clearing rebase to keep working directory clean...");
+            try {
+                execCommand("git rebase --abort", { cwd: resolvedRepo });
+            } catch {
+                try {
+                    execCommand("git rebase --quit", { cwd: resolvedRepo });
+                } catch {}
+            }
+        }
+        if (fs.existsSync(path.join(gitDir, "MERGE_HEAD"))) {
+            console.warn("Detected unfinished merge state; aborting merge to keep working directory clean...");
+            try {
+                execCommand("git merge --abort", { cwd: resolvedRepo });
+            } catch {}
+        }
+
+        // 2. Fetch and pull with rebase & autostash to keep working directory clean
+        try {
+            execCommand("git pull --rebase --autostash", { cwd: resolvedRepo });
+            console.log("Successfully pulled latest changes from remote repository.");
+            return true;
+        } catch (pullErr) {
+            console.warn(`Warning: git pull --rebase failed: ${pullErr.message}`);
+            // If rebase got stuck or paused during pull, abort immediately to keep working tree clean
+            try {
+                execCommand("git rebase --abort", { cwd: resolvedRepo });
+            } catch {}
+            return false;
+        }
+    } catch (err) {
+        console.error("ERROR during git pull operation:", err.message);
+        return false;
+    }
 }
 
 export function commitAndPushToRepo(repoPath, commitSubject) {
     if (!ALLOW_COMMIT_PUSH) {
         console.log("ALLOW_COMMIT_PUSH is disabled (false); skipping git commit and push.");
-        return true;
+        return { success: true, pushed: false, disabled: true };
     }
 
     const resolvedRepo = path.resolve(repoPath);
     try {
         console.log("");
-        console.log(`Executing git commands in: ${resolvedRepo}`);
+        console.log("------------------------------------------");
+        console.log(`Committing and pushing changes: ${resolvedRepo}`);
+        console.log("------------------------------------------");
 
         // Stage www folder and v2/public
         execCommand(`git add -A "www"`, { cwd: resolvedRepo });
@@ -1109,29 +1211,102 @@ export function commitAndPushToRepo(repoPath, commitSubject) {
 
         if (hasStaged) {
             const commitMsg = commitSubject || "sync: update website and master data from SFTPGo";
-            try {
-                execCommand(`git commit -m "${commitMsg}"`, { cwd: resolvedRepo });
-            } catch {
-                execCommand(
-                    `git -c user.name="SFTPGo Hook" -c user.email="sftpgo@hobsonsbaychess.com" commit -m "${commitMsg}"`,
-                    { cwd: resolvedRepo }
-                );
+            execCommand(
+                `git -c user.name="sftpgo" -c user.email="ftp@hobsonsbaychess.com" -c committer.name="sftpgo" -c committer.email="ftp@hobsonsbaychess.com" commit --author="sftpgo <ftp@hobsonsbaychess.com>" -m "${commitMsg}"`,
+                {
+                    cwd: resolvedRepo,
+                    env: {
+                        ...process.env,
+                        GIT_AUTHOR_NAME: "sftpgo",
+                        GIT_AUTHOR_EMAIL: "ftp@hobsonsbaychess.com",
+                        GIT_COMMITTER_NAME: "sftpgo",
+                        GIT_COMMITTER_EMAIL: "ftp@hobsonsbaychess.com"
+                    }
+                }
+            );
+        }
+
+        // Check if there are unpushed commits on the current branch (from this commit or a previous run)
+        let hasUnpushed = false;
+        const unpushedCheck = spawnSync("git log @{u}..HEAD --oneline", {
+            cwd: resolvedRepo,
+            shell: true,
+            encoding: "utf8"
+        });
+        if (unpushedCheck.status === 0) {
+            hasUnpushed = unpushedCheck.stdout.trim().length > 0;
+        } else {
+            const branchCheck = spawnSync("git rev-parse --abbrev-ref HEAD", {
+                cwd: resolvedRepo,
+                shell: true,
+                encoding: "utf8"
+            });
+            const currentBranch = branchCheck.stdout.trim() || "main";
+            const fallbackCheck = spawnSync(`git log origin/${currentBranch}..HEAD --oneline`, {
+                cwd: resolvedRepo,
+                shell: true,
+                encoding: "utf8"
+            });
+            if (fallbackCheck.status === 0) {
+                hasUnpushed = fallbackCheck.stdout.trim().length > 0;
             }
+        }
+
+        if (hasStaged || hasUnpushed) {
             try {
                 execCommand("git pull --rebase --autostash", { cwd: resolvedRepo });
             } catch (rebaseErr) {
                 console.warn(`Warning: git pull --rebase failed: ${rebaseErr.message}`);
+                try {
+                    execCommand("git rebase --abort", { cwd: resolvedRepo });
+                } catch {}
             }
             execCommand("git push", { cwd: resolvedRepo });
-            console.log("Successfully committed and pushed changes to git!");
-            return true;
+
+            // Retrieve latest commit hash and subject for clear visual log
+            let commitHash = "";
+            let commitSubjectText = "";
+            try {
+                const logRes = spawnSync("git log -1 --pretty=format:%h|%s", {
+                    cwd: resolvedRepo,
+                    shell: true,
+                    encoding: "utf8"
+                });
+                if (logRes.status === 0 && logRes.stdout.trim()) {
+                    const parts = logRes.stdout.trim().split("|");
+                    commitHash = parts[0] || "";
+                    commitSubjectText = parts.slice(1).join("|") || "";
+                }
+            } catch {}
+
+            console.log("");
+            console.log("==========================================");
+            console.log(">>> GIT PUSH SUCCESSFUL <<<");
+            console.log("==========================================");
+            if (commitHash) {
+                console.log(`Commit:    ${commitHash} ("${commitSubjectText}")`);
+            }
+            console.log(`Repo:      ${resolvedRepo}`);
+            console.log(`Remote:    origin/main`);
+            console.log(`Timestamp: ${getTimestamp()}`);
+            console.log("==========================================");
+            console.log("");
+
+            return { success: true, pushed: true, commitHash, commitSubject: commitSubjectText };
         } else {
-            console.log("No git changes detected to commit.");
-            return true;
+            console.log("");
+            console.log("==========================================");
+            console.log(">>> GIT STATUS: Clean (no new changes to push) <<<");
+            console.log("==========================================");
+            return { success: true, pushed: false };
         }
     } catch (err) {
-        console.error("ERROR during git operations:", err.message);
-        return false;
+        console.error("");
+        console.error("==========================================");
+        console.error(">>> GIT ERROR: Commit/Push Failed <<<");
+        console.error(`Error:     ${err.message}`);
+        console.error("==========================================");
+        return { success: false, pushed: false, error: err.message };
     }
 }
 
@@ -1260,22 +1435,19 @@ export function generateRootIndex(websites) {
 
 </html>`;
 
+    // Note: REPO_PATH/www/index.html is maintained by sync.yml / src/sync.mjs and must NOT be overwritten.
+    if (REPO_PATH) {
+        const repoWww = path.join(path.resolve(REPO_PATH), "www");
+        if (path.resolve(ROOT_FOLDER) === repoWww) {
+            console.log("ROOT_FOLDER points to repo www; skipping index.html generation to preserve sync.yaml version.");
+            return;
+        }
+    }
+
     const indexFile = path.join(ROOT_FOLDER, "index.html");
     fs.writeFileSync(indexFile, html, "utf8");
     console.log("");
-    console.log(`Generated root index: ${indexFile}`);
-
-    if (REPO_PATH) {
-        const repoIndex = path.join(path.resolve(REPO_PATH), "www", "index.html");
-        if (path.resolve(indexFile) !== path.resolve(repoIndex)) {
-            try {
-                fs.writeFileSync(repoIndex, html, "utf8");
-                console.log(`Generated repo root index: ${repoIndex}`);
-            } catch (err) {
-                console.warn("Could not write repo index:", err.message);
-            }
-        }
-    }
+    console.log(`Generated SFTPGo root index: ${indexFile}`);
 }
 
 // ============================================================
@@ -1298,6 +1470,11 @@ export async function main() {
     try {
         // Re-read website folders in case a new folder was created during uploads
         websites = findWebsiteFolders();
+
+        // Pull latest changes from git repository before copying to keep working directory clean
+        if (REPO_PATH) {
+            pullLatestFromRepo(REPO_PATH);
+        }
 
         const pendingFolders = debounceResult.pendingFolders || [];
         const targetFolders = pendingFolders.length > 0
@@ -1333,9 +1510,10 @@ export async function main() {
             generateRootIndex(websites);
 
             // Commit and push once for all processed folders
+            let gitResult = null;
             if (REPO_PATH) {
                 const commitSubject = `sync: update ${targetFolders.join(", ")} and master data from SFTPGo`;
-                commitAndPushToRepo(REPO_PATH, commitSubject);
+                gitResult = commitAndPushToRepo(REPO_PATH, commitSubject);
             }
 
             console.log("");
@@ -1345,6 +1523,15 @@ export async function main() {
             console.log(`Target(s): ${targetFolders.join(", ")}`);
             console.log(`Converted: ${totalConverted}`);
             console.log(`Failed:    ${totalFailed}`);
+            if (gitResult && gitResult.pushed) {
+                console.log(`Git Sync:  PUSHED (${gitResult.commitHash})`);
+            } else if (gitResult && gitResult.success === false) {
+                console.log(`Git Sync:  FAILED (${gitResult.error || "error during push"})`);
+            } else if (gitResult && gitResult.disabled) {
+                console.log(`Git Sync:  DISABLED (ALLOW_COMMIT_PUSH=false)`);
+            } else {
+                console.log(`Git Sync:  CLEAN (up to date)`);
+            }
             console.log("==========================================");
 
             if (totalFailed > 0) {
@@ -1376,8 +1563,9 @@ export async function main() {
 
         generateRootIndex(websites);
 
+        let fallbackGitResult = null;
         if (REPO_PATH) {
-            commitAndPushToRepo(REPO_PATH, "sync: update all websites from SFTPGo");
+            fallbackGitResult = commitAndPushToRepo(REPO_PATH, "sync: update all websites from SFTPGo");
         }
 
         console.log("");
@@ -1388,6 +1576,15 @@ export async function main() {
         console.log(`PHP files: ${totalPhp}`);
         console.log(`Converted: ${totalSuccess}`);
         console.log(`Failed:    ${totalFailed}`);
+        if (fallbackGitResult && fallbackGitResult.pushed) {
+            console.log(`Git Sync:  PUSHED (${fallbackGitResult.commitHash})`);
+        } else if (fallbackGitResult && fallbackGitResult.success === false) {
+            console.log(`Git Sync:  FAILED (${fallbackGitResult.error || "error during push"})`);
+        } else if (fallbackGitResult && fallbackGitResult.disabled) {
+            console.log(`Git Sync:  DISABLED (ALLOW_COMMIT_PUSH=false)`);
+        } else {
+            console.log(`Git Sync:  CLEAN (up to date)`);
+        }
         console.log("==========================================");
 
         if (totalFailed > 0) {
