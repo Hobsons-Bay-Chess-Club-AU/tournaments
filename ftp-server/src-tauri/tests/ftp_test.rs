@@ -14,6 +14,7 @@ async fn test_ftp_server_lifecycle_and_permissive_auth() {
         "127.0.0.1",
         port,
         root_path.clone(),
+        None,
         move |_filename, _bytes| {
             upload_counter_clone.fetch_add(1, Ordering::SeqCst);
         },

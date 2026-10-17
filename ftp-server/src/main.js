@@ -32,6 +32,50 @@ const clearLogsBtn = document.getElementById("clearLogsBtn");
 const activityList = document.getElementById("activityList");
 const emptyState = document.getElementById("emptyState");
 
+// Activity Tabs & Action Buttons
+const tabUploadsBtn = document.getElementById("tabUploadsBtn");
+const tabLogsBtn = document.getElementById("tabLogsBtn");
+const uploadsPanel = document.getElementById("uploadsPanel");
+const logsPanel = document.getElementById("logsPanel");
+const logsBadge = document.getElementById("logsBadge");
+const logErrorDot = document.getElementById("logErrorDot");
+const viewLogsModalBtn = document.getElementById("viewLogsModalBtn");
+const copyLogsBtn = document.getElementById("copyLogsBtn");
+
+// Inline Log Filters
+const logSearchInput = document.getElementById("logSearchInput");
+const clearLogSearchBtn = document.getElementById("clearLogSearchBtn");
+const logSourceFilter = document.getElementById("logSourceFilter");
+const logAutoScrollInput = document.getElementById("logAutoScrollInput");
+const systemLogList = document.getElementById("systemLogList");
+const countAll = document.getElementById("countAll");
+const countInfo = document.getElementById("countInfo");
+const countWarn = document.getElementById("countWarn");
+const countError = document.getElementById("countError");
+
+// Modal Elements
+const logViewerModal = document.getElementById("logViewerModal");
+const closeLogsModalBtn = document.getElementById("closeLogsModalBtn");
+const modalDismissBtn = document.getElementById("modalDismissBtn");
+const modalLogSearchInput = document.getElementById("modalLogSearchInput");
+const clearModalLogSearchBtn = document.getElementById("clearModalLogSearchBtn");
+const modalLogSourceFilter = document.getElementById("modalLogSourceFilter");
+const modalSystemLogList = document.getElementById("modalSystemLogList");
+const modalLogStats = document.getElementById("modalLogStats");
+const modalExportLogsBtn = document.getElementById("modalExportLogsBtn");
+const modalCopyLogsBtn = document.getElementById("modalCopyLogsBtn");
+const modalClearLogsBtn = document.getElementById("modalClearLogsBtn");
+const modalCountAll = document.getElementById("modalCountAll");
+const modalCountInfo = document.getElementById("modalCountInfo");
+const modalCountWarn = document.getElementById("modalCountWarn");
+const modalCountError = document.getElementById("modalCountError");
+
+let currentActivityTab = "uploads";
+let systemLogs = [];
+let errorCount = 0;
+let inlineLogLevel = "ALL";
+let modalLogLevel = "ALL";
+
 // Settings Elements
 const settingsFolderPath = document.getElementById("settingsFolderPath");
 const changeFolderBtn = document.getElementById("changeFolderBtn");
@@ -277,6 +321,17 @@ async function init() {
 
       activityList.prepend(item);
     });
+
+    // 5. Listen for system logs (Parser, Supabase, FTP, HTTP)
+    await listen("system-log", (event) => {
+      addLog(event.payload);
+    });
+
+    addLog({
+      level: "INFO",
+      source: "System",
+      message: "HBCC Tournament Server initialized and listening for Vega events.",
+    });
   } catch (err) {
     console.error("Initialization error:", err);
     showToast(`Init error: ${err}`);
@@ -343,15 +398,356 @@ copyVegaBtn.addEventListener("click", () => {
 });
 
 clearLogsBtn.addEventListener("click", () => {
-  activityList.innerHTML = `
-    <div class="empty-state" id="emptyState">
-      <span>📡 Waiting for Vega upload...</span>
-      <span style="font-size: 0.75rem;">Run Vega Chess and publish rounds to see live uploads here</span>
-    </div>
-  `;
-  state.uploadCount = 0;
-  updateUI();
+  if (currentActivityTab === "uploads") {
+    activityList.innerHTML = `
+      <div class="empty-state" id="emptyState">
+        <span>📡 Waiting for Vega upload...</span>
+        <span style="font-size: 0.75rem;">Run Vega Chess and publish rounds to see live uploads here</span>
+      </div>
+    `;
+    state.uploadCount = 0;
+    updateUI();
+    showToast("Cleared upload activity");
+  } else {
+    systemLogs = [];
+    errorCount = 0;
+    updateLogCounts();
+    renderLogs();
+    showToast("Cleared system logs");
+  }
 });
+
+// ==========================================================================
+// Log Viewer Functions & Event Listeners
+// ==========================================================================
+function escapeHtml(text) {
+  if (!text) return "";
+  return String(text)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+function formatLogTime(rawTs) {
+  if (!rawTs) return new Date().toLocaleTimeString();
+  const num = Number(rawTs);
+  if (isNaN(num)) return new Date().toLocaleTimeString();
+  const d = num > 1e11 ? new Date(num) : new Date(num * 1000);
+  return d.toLocaleTimeString([], {
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+  });
+}
+
+function addLog(payload) {
+  const entry = {
+    id: payload.id || `log_${Date.now()}_${Math.random()}`,
+    timestamp: payload.timestamp || String(Date.now() / 1000),
+    formattedTime: formatLogTime(payload.timestamp),
+    level: (payload.level || "INFO").toUpperCase(),
+    source: payload.source || "System",
+    message: payload.message || "",
+  };
+
+  systemLogs.push(entry);
+  if (systemLogs.length > 2000) {
+    systemLogs.shift();
+  }
+
+  if (entry.level === "ERROR") {
+    errorCount++;
+    if (logErrorDot) logErrorDot.style.display = "inline-block";
+  }
+
+  updateLogCounts();
+  renderLogs();
+  if (logViewerModal && logViewerModal.style.display !== "none") {
+    renderModalLogs();
+  }
+}
+
+function updateLogCounts() {
+  const total = systemLogs.length;
+  const infoC = systemLogs.filter((l) => l.level === "INFO").length;
+  const warnC = systemLogs.filter((l) => l.level === "WARN").length;
+  const errorC = systemLogs.filter((l) => l.level === "ERROR").length;
+
+  if (logsBadge) logsBadge.textContent = total;
+  if (countAll) countAll.textContent = total;
+  if (countInfo) countInfo.textContent = infoC;
+  if (countWarn) countWarn.textContent = warnC;
+  if (countError) countError.textContent = errorC;
+
+  if (modalCountAll) modalCountAll.textContent = total;
+  if (modalCountInfo) modalCountInfo.textContent = infoC;
+  if (modalCountWarn) modalCountWarn.textContent = warnC;
+  if (modalCountError) modalCountError.textContent = errorC;
+
+  if (errorC === 0 && logErrorDot) {
+    logErrorDot.style.display = "none";
+  }
+}
+
+function getFilteredLogs(logs, levelFilter, sourceFilter, query) {
+  return logs.filter((log) => {
+    if (levelFilter !== "ALL" && log.level !== levelFilter) {
+      return false;
+    }
+    if (sourceFilter && log.source !== sourceFilter) {
+      return false;
+    }
+    if (query) {
+      const q = query.toLowerCase();
+      const matchMsg = log.message.toLowerCase().includes(q);
+      const matchSrc = log.source.toLowerCase().includes(q);
+      const matchLvl = log.level.toLowerCase().includes(q);
+      if (!matchMsg && !matchSrc && !matchLvl) {
+        return false;
+      }
+    }
+    return true;
+  });
+}
+
+function renderLogs() {
+  if (!systemLogList) return;
+  const q = logSearchInput ? logSearchInput.value.trim() : "";
+  const src = logSourceFilter ? logSourceFilter.value : "";
+  const filtered = getFilteredLogs(systemLogs, inlineLogLevel, src, q);
+
+  if (clearLogSearchBtn) {
+    clearLogSearchBtn.style.display = q ? "inline-block" : "none";
+  }
+
+  if (filtered.length === 0) {
+    systemLogList.innerHTML = `
+      <div class="empty-state" id="logEmptyState">
+        <span>📋 No logs matching filters</span>
+        <span style="font-size: 0.75rem;">Try adjusting search terms or level filters</span>
+      </div>
+    `;
+    return;
+  }
+
+  systemLogList.innerHTML = filtered
+    .map(
+      (log) => `
+      <div class="log-row level-${log.level}">
+        <span class="log-time">${log.formattedTime}</span>
+        <span class="log-level-badge badge-${log.level.toLowerCase()}">${log.level}</span>
+        <span class="log-source-badge source-${log.source}">[${log.source}]</span>
+        <span class="log-message">${escapeHtml(log.message)}</span>
+      </div>
+    `
+    )
+    .join("");
+
+  if (logAutoScrollInput && logAutoScrollInput.checked) {
+    systemLogList.scrollTop = systemLogList.scrollHeight;
+  }
+}
+
+function renderModalLogs() {
+  if (!modalSystemLogList) return;
+  const q = modalLogSearchInput ? modalLogSearchInput.value.trim() : "";
+  const src = modalLogSourceFilter ? modalLogSourceFilter.value : "";
+  const filtered = getFilteredLogs(systemLogs, modalLogLevel, src, q);
+
+  if (clearModalLogSearchBtn) {
+    clearModalLogSearchBtn.style.display = q ? "inline-block" : "none";
+  }
+
+  if (modalLogStats) {
+    const errorC = systemLogs.filter((l) => l.level === "ERROR").length;
+    const warnC = systemLogs.filter((l) => l.level === "WARN").length;
+    modalLogStats.textContent = `Showing ${filtered.length} of ${systemLogs.length} logs (${errorC} errors, ${warnC} warnings)`;
+  }
+
+  if (filtered.length === 0) {
+    modalSystemLogList.innerHTML = `
+      <div class="empty-state">
+        <span>📋 No logs matching filters</span>
+        <span style="font-size: 0.75rem;">Adjust search query or filter pills above</span>
+      </div>
+    `;
+    return;
+  }
+
+  modalSystemLogList.innerHTML = filtered
+    .map(
+      (log) => `
+      <div class="log-row level-${log.level}">
+        <span class="log-time">${log.formattedTime}</span>
+        <span class="log-level-badge badge-${log.level.toLowerCase()}">${log.level}</span>
+        <span class="log-source-badge source-${log.source}">[${log.source}]</span>
+        <span class="log-message">${escapeHtml(log.message)}</span>
+      </div>
+    `
+    )
+    .join("");
+
+  modalSystemLogList.scrollTop = modalSystemLogList.scrollHeight;
+}
+
+function switchActivityTab(tab) {
+  currentActivityTab = tab;
+  if (tab === "uploads") {
+    tabUploadsBtn.classList.add("active");
+    tabLogsBtn.classList.remove("active");
+    uploadsPanel.style.display = "flex";
+    logsPanel.style.display = "none";
+    if (copyLogsBtn) copyLogsBtn.style.display = "none";
+    if (clearLogsBtn) clearLogsBtn.textContent = "Clear";
+  } else {
+    tabLogsBtn.classList.add("active");
+    tabUploadsBtn.classList.remove("active");
+    uploadsPanel.style.display = "none";
+    logsPanel.style.display = "flex";
+    if (copyLogsBtn) copyLogsBtn.style.display = "inline-flex";
+    if (clearLogsBtn) clearLogsBtn.textContent = "Clear Logs";
+    renderLogs();
+  }
+}
+
+function openLogModal() {
+  if (logViewerModal) {
+    logViewerModal.style.display = "flex";
+    renderModalLogs();
+  }
+}
+
+function closeLogModal() {
+  if (logViewerModal) {
+    logViewerModal.style.display = "none";
+  }
+}
+
+function copyLogsToClipboard(logs) {
+  if (!logs || logs.length === 0) {
+    showToast("No logs to copy");
+    return;
+  }
+  const text = logs
+    .map((l) => `[${l.formattedTime}] [${l.level}] [${l.source}] ${l.message}`)
+    .join("\n");
+  navigator.clipboard
+    .writeText(text)
+    .then(() => showToast(`📋 Copied ${logs.length} logs to clipboard!`))
+    .catch(() => showToast("Failed to copy logs"));
+}
+
+function exportLogsToFile(logs) {
+  if (!logs || logs.length === 0) {
+    showToast("No logs to export");
+    return;
+  }
+  const text = logs
+    .map((l) => `[${l.formattedTime}] [${l.level}] [${l.source}] ${l.message}`)
+    .join("\n");
+  const blob = new Blob([text], { type: "text/plain;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  const dateStr = new Date().toISOString().replace(/[:.]/g, "-").slice(0, 19);
+  a.href = url;
+  a.download = `hbcc-server-logs-${dateStr}.txt`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  showToast("📥 Exported log file!");
+}
+
+// Activity Tab Switch Listeners
+if (tabUploadsBtn) tabUploadsBtn.addEventListener("click", () => switchActivityTab("uploads"));
+if (tabLogsBtn) tabLogsBtn.addEventListener("click", () => switchActivityTab("logs"));
+
+// Logs Button next to Clear (opens Easy Log Viewer Modal)
+if (viewLogsModalBtn) viewLogsModalBtn.addEventListener("click", openLogModal);
+
+// Inline Filter Listeners
+if (logSearchInput) logSearchInput.addEventListener("input", () => renderLogs());
+if (clearLogSearchBtn) {
+  clearLogSearchBtn.addEventListener("click", () => {
+    logSearchInput.value = "";
+    renderLogs();
+  });
+}
+
+document.querySelectorAll(".log-pill[data-level]").forEach((pill) => {
+  pill.addEventListener("click", () => {
+    document.querySelectorAll(".log-pill[data-level]").forEach((p) => p.classList.remove("active"));
+    pill.classList.add("active");
+    inlineLogLevel = pill.getAttribute("data-level") || "ALL";
+    renderLogs();
+  });
+});
+
+if (logSourceFilter) logSourceFilter.addEventListener("change", () => renderLogs());
+
+// Modal Filter Listeners
+if (modalLogSearchInput) modalLogSearchInput.addEventListener("input", () => renderModalLogs());
+if (clearModalLogSearchBtn) {
+  clearModalLogSearchBtn.addEventListener("click", () => {
+    modalLogSearchInput.value = "";
+    renderModalLogs();
+  });
+}
+
+document.querySelectorAll(".log-pill[data-modal-level]").forEach((pill) => {
+  pill.addEventListener("click", () => {
+    document.querySelectorAll(".log-pill[data-modal-level]").forEach((p) => p.classList.remove("active"));
+    pill.classList.add("active");
+    modalLogLevel = pill.getAttribute("data-modal-level") || "ALL";
+    renderModalLogs();
+  });
+});
+
+if (modalLogSourceFilter) modalLogSourceFilter.addEventListener("change", () => renderModalLogs());
+
+// Modal Close & Actions
+if (closeLogsModalBtn) closeLogsModalBtn.addEventListener("click", closeLogModal);
+if (modalDismissBtn) modalDismissBtn.addEventListener("click", closeLogModal);
+if (logViewerModal) {
+  logViewerModal.addEventListener("click", (e) => {
+    if (e.target === logViewerModal) closeLogModal();
+  });
+}
+
+if (copyLogsBtn) {
+  copyLogsBtn.addEventListener("click", () => {
+    const q = logSearchInput ? logSearchInput.value.trim() : "";
+    const src = logSourceFilter ? logSourceFilter.value : "";
+    copyLogsToClipboard(getFilteredLogs(systemLogs, inlineLogLevel, src, q));
+  });
+}
+
+if (modalCopyLogsBtn) {
+  modalCopyLogsBtn.addEventListener("click", () => {
+    const q = modalLogSearchInput ? modalLogSearchInput.value.trim() : "";
+    const src = modalLogSourceFilter ? modalLogSourceFilter.value : "";
+    copyLogsToClipboard(getFilteredLogs(systemLogs, modalLogLevel, src, q));
+  });
+}
+
+if (modalExportLogsBtn) {
+  modalExportLogsBtn.addEventListener("click", () => {
+    exportLogsToFile(systemLogs);
+  });
+}
+
+if (modalClearLogsBtn) {
+  modalClearLogsBtn.addEventListener("click", () => {
+    systemLogs = [];
+    errorCount = 0;
+    updateLogCounts();
+    renderLogs();
+    renderModalLogs();
+    showToast("Cleared all logs");
+  });
+}
 
 // Folder Actions
 const handleOpenFolder = async () => {

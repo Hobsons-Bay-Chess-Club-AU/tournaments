@@ -29,6 +29,7 @@ pub async fn start_ftp_server<F>(
     host: &str,
     port: u16,
     root_dir: PathBuf,
+    app_handle: Option<tauri::AppHandle>,
     on_file_uploaded: F,
 ) -> Result<FtpServerHandle, String>
 where
@@ -59,9 +60,16 @@ where
     .build()
     .map_err(|e| format!("Failed to build FTP server: {:?}", e))?;
 
+    let app_handle_ftp = app_handle.clone();
     tokio::spawn(async move {
         if let Err(e) = server.listen(addr.to_string()).await {
             eprintln!("FTP server listener error: {:?}", e);
+            crate::commands::emit_log(
+                app_handle_ftp.as_ref(),
+                "ERROR",
+                "FTP",
+                &format!("FTP listener error: {:?}", e),
+            );
         }
     });
 
@@ -72,6 +80,7 @@ where
     let on_file_cb_watcher = on_file_cb.clone();
     let root_for_watcher_clone = root_for_watcher.clone();
     let debounce_map_clone = debounce_map.clone();
+    let app_watcher = app_handle.clone();
 
     let rt_handle = tokio::runtime::Handle::current();
     let rt_for_watcher = rt_handle.clone();
@@ -96,6 +105,12 @@ where
                                     .to_string();
 
                                 on_file_cb_watcher(rel.clone(), size);
+                                crate::commands::emit_log(
+                                    app_watcher.as_ref(),
+                                    "INFO",
+                                    "FTP",
+                                    &format!("Received file '{}' ({} bytes)", rel, size),
+                                );
 
                                 // If uploaded file is an HTML or tournament file, schedule debounced parse
                                 if filename != "data.json"
@@ -109,6 +124,22 @@ where
                                     let root_base = root_for_watcher_clone.clone();
                                     let tdir = tour_dir.clone();
                                     let rt_inner = rt_for_watcher.clone();
+                                    let app_parse = app_watcher.clone();
+                                    let tname = tdir
+                                        .file_name()
+                                        .unwrap_or_default()
+                                        .to_string_lossy()
+                                        .to_string();
+
+                                    crate::commands::emit_log(
+                                        app_watcher.as_ref(),
+                                        "INFO",
+                                        "Watcher",
+                                        &format!(
+                                            "Tournament change detected in '{}' ({}). Parsing in 1.5s...",
+                                            tname, filename
+                                        ),
+                                    );
 
                                     rt_for_watcher.spawn(async move {
                                         let mut map = dmap.lock().await;
@@ -121,18 +152,28 @@ where
 
                                         let task = rt_inner.spawn(async move {
                                             tokio::time::sleep(Duration::from_millis(1500)).await;
-                                            if let Ok(res) = run_tournament_parser(target_dir.clone()).await {
-                                                for gen_file in res.files_generated {
-                                                    let gen_path = target_dir.join(&gen_file);
-                                                    let sz = std::fs::metadata(&gen_path)
-                                                        .map(|m| m.len())
-                                                        .unwrap_or(0);
-                                                    let gen_rel = gen_path
-                                                        .strip_prefix(&root_base)
-                                                        .unwrap_or(&gen_path)
-                                                        .to_string_lossy()
-                                                        .to_string();
-                                                    cb(gen_rel, sz);
+                                            match run_tournament_parser(target_dir.clone(), app_parse.clone()).await {
+                                                Ok(res) => {
+                                                    for gen_file in res.files_generated {
+                                                        let gen_path = target_dir.join(&gen_file);
+                                                        let sz = std::fs::metadata(&gen_path)
+                                                            .map(|m| m.len())
+                                                            .unwrap_or(0);
+                                                        let gen_rel = gen_path
+                                                            .strip_prefix(&root_base)
+                                                            .unwrap_or(&gen_path)
+                                                            .to_string_lossy()
+                                                            .to_string();
+                                                        cb(gen_rel.clone(), sz);
+                                                    }
+                                                }
+                                                Err(err) => {
+                                                    crate::commands::emit_log(
+                                                        app_parse.as_ref(),
+                                                        "ERROR",
+                                                        "Parser",
+                                                        &format!("Parser failed: {}", err),
+                                                    );
                                                 }
                                             }
                                         });

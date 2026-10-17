@@ -16,7 +16,7 @@ pub struct ParseResult {
     pub message: String,
 }
 
-pub async fn run_tournament_parser(folder: PathBuf) -> Result<ParseResult, String> {
+pub async fn run_tournament_parser(folder: PathBuf, app: Option<tauri::AppHandle>) -> Result<ParseResult, String> {
     if !FEATURE_JSON_GENERATOR {
         return Ok(ParseResult {
             success: true,
@@ -30,23 +30,27 @@ pub async fn run_tournament_parser(folder: PathBuf) -> Result<ParseResult, Strin
     }
 
     let folder_str = folder.to_string_lossy().to_string();
+    let tour_folder_name = folder
+        .file_name()
+        .unwrap_or_default()
+        .to_string_lossy()
+        .to_string();
 
-    // Check build-time feature flags
-    if FEATURE_SUPABASE {
-        println!("[Feature Flag] Supabase sync is ENABLED at build-time.");
-    } else {
-        println!("[Feature Flag] Supabase sync is disabled at build-time.");
-    }
-
-    if FEATURE_GITHUB_SYNC {
-        println!("[Feature Flag] GitHub API commit is ENABLED at build-time.");
-    } else {
-        println!("[Feature Flag] GitHub API commit is disabled at build-time.");
-    }
+    crate::commands::emit_log(
+        app.as_ref(),
+        "INFO",
+        "Parser",
+        &format!("Starting tournament parsing for folder: '{}'", tour_folder_name),
+    );
 
     // 1. Try standalone sidecar binary first (zero Node.js dependency for arbiters)
     if let Some(sidecar) = find_sidecar_binary() {
-        println!("[Vega Parser] Running standalone sidecar: {:?}", sidecar);
+        crate::commands::emit_log(
+            app.as_ref(),
+            "INFO",
+            "Parser",
+            &format!("Executing sidecar parser: {:?}", sidecar.file_name().unwrap_or_default()),
+        );
         let mut cmd = tokio::process::Command::new(&sidecar);
         cmd.arg(&folder);
         apply_cloud_env(&mut cmd);
@@ -55,19 +59,27 @@ pub async fn run_tournament_parser(folder: PathBuf) -> Result<ParseResult, Strin
         if let Ok(out) = output {
             let stdout = String::from_utf8_lossy(&out.stdout);
             let stderr = String::from_utf8_lossy(&out.stderr);
+            dispatch_process_logs(app.as_ref(), &stdout, &stderr);
 
             if out.status.success() {
                 for line in stdout.lines() {
                     if line.starts_with("[Vega Parser] Output: ") {
                         let json_str = line.trim_start_matches("[Vega Parser] Output: ");
                         if let Ok(info) = serde_json::from_str::<serde_json::Value>(json_str) {
+                            let tour_name = info["tournamentName"]
+                                .as_str()
+                                .unwrap_or("Tournament")
+                                .to_string();
+                            crate::commands::emit_log(
+                                app.as_ref(),
+                                "INFO",
+                                "Parser",
+                                &format!("Successfully parsed '{}' ({} players)", tour_name, info["playerCount"].as_u64().unwrap_or(0)),
+                            );
                             return Ok(ParseResult {
                                 success: true,
                                 folder: folder_str,
-                                tournament_name: info["tournamentName"]
-                                    .as_str()
-                                    .unwrap_or("Tournament")
-                                    .to_string(),
+                                tournament_name: tour_name,
                                 category: info["category"].as_str().unwrap_or("Senior").to_string(),
                                 player_count: info["playerCount"].as_u64().unwrap_or(0) as usize,
                                 files_generated: vec!["data.json".into(), "data_clean.json".into()],
@@ -77,21 +89,28 @@ pub async fn run_tournament_parser(folder: PathBuf) -> Result<ParseResult, Strin
                     }
                 }
 
+                crate::commands::emit_log(
+                    app.as_ref(),
+                    "INFO",
+                    "Parser",
+                    &format!("Sidecar parser finished for '{}'", tour_folder_name),
+                );
                 return Ok(ParseResult {
                     success: true,
                     folder: folder_str,
-                    tournament_name: folder
-                        .file_name()
-                        .unwrap_or_default()
-                        .to_string_lossy()
-                        .to_string(),
+                    tournament_name: tour_folder_name,
                     category: "Senior".into(),
                     player_count: 0,
                     files_generated: vec!["data.json".into(), "data_clean.json".into()],
                     message: "Sidecar parser finished successfully".into(),
                 });
             } else {
-                eprintln!("[Vega Parser] Sidecar error: {}", stderr);
+                crate::commands::emit_log(
+                    app.as_ref(),
+                    "ERROR",
+                    "Parser",
+                    &format!("Sidecar exited with error status: {:?}", out.status),
+                );
             }
         }
     }
@@ -113,6 +132,12 @@ pub async fn run_tournament_parser(folder: PathBuf) -> Result<ParseResult, Strin
 
     // If script found, run it with node
     if let Some(script) = script_path {
+        crate::commands::emit_log(
+            app.as_ref(),
+            "INFO",
+            "Parser",
+            &format!("Running fallback script: {:?}", script),
+        );
         let mut cmd = tokio::process::Command::new("node");
         cmd.arg(&script).arg(&folder);
         apply_cloud_env(&mut cmd);
@@ -121,6 +146,7 @@ pub async fn run_tournament_parser(folder: PathBuf) -> Result<ParseResult, Strin
         if let Ok(out) = output {
             let stdout = String::from_utf8_lossy(&out.stdout);
             let stderr = String::from_utf8_lossy(&out.stderr);
+            dispatch_process_logs(app.as_ref(), &stdout, &stderr);
 
             if out.status.success() {
                 // Parse stdout for JSON output line
@@ -128,10 +154,17 @@ pub async fn run_tournament_parser(folder: PathBuf) -> Result<ParseResult, Strin
                     if line.starts_with("[Vega Parser] Output: ") {
                         let json_str = line.trim_start_matches("[Vega Parser] Output: ");
                         if let Ok(info) = serde_json::from_str::<serde_json::Value>(json_str) {
+                            let tour_name = info["tournamentName"].as_str().unwrap_or("Tournament").to_string();
+                            crate::commands::emit_log(
+                                app.as_ref(),
+                                "INFO",
+                                "Parser",
+                                &format!("Node script parsed '{}' ({} players)", tour_name, info["playerCount"].as_u64().unwrap_or(0)),
+                            );
                             return Ok(ParseResult {
                                 success: true,
                                 folder: folder_str,
-                                tournament_name: info["tournamentName"].as_str().unwrap_or("Tournament").to_string(),
+                                tournament_name: tour_name,
                                 category: info["category"].as_str().unwrap_or("Senior").to_string(),
                                 player_count: info["playerCount"].as_u64().unwrap_or(0) as usize,
                                 files_generated: vec!["data.json".into(), "data_clean.json".into()],
@@ -144,17 +177,29 @@ pub async fn run_tournament_parser(folder: PathBuf) -> Result<ParseResult, Strin
                 return Ok(ParseResult {
                     success: true,
                     folder: folder_str,
-                    tournament_name: folder.file_name().unwrap_or_default().to_string_lossy().to_string(),
+                    tournament_name: tour_folder_name,
                     category: "Senior".into(),
                     player_count: 0,
                     files_generated: vec!["data.json".into(), "data_clean.json".into()],
                     message: "Parser finished successfully".into(),
                 });
             } else {
-                eprintln!("[Vega Parser] Script error: {}", stderr);
+                crate::commands::emit_log(
+                    app.as_ref(),
+                    "ERROR",
+                    "Parser",
+                    &format!("Node script exited with error: {:?}", out.status),
+                );
             }
         }
     }
+
+    crate::commands::emit_log(
+        app.as_ref(),
+        "WARN",
+        "Parser",
+        &format!("Sidecar/node parser unavailable. Writing minimal JSON data for '{}'", tour_folder_name),
+    );
 
     // Native fallback if node or script wasn't found or exited with failure:
     // Generate minimal clean data.json and data_clean.json so files are always present
@@ -298,6 +343,36 @@ fn apply_cloud_env(cmd: &mut tokio::process::Command) {
     if let Some(val) = option_env!("SUPABASE_TABLE") {
         if std::env::var("SUPABASE_TABLE").is_err() {
             cmd.env("SUPABASE_TABLE", val);
+        }
+    }
+}
+
+fn dispatch_process_logs(app: Option<&tauri::AppHandle>, stdout: &str, stderr: &str) {
+    for line in stdout.lines() {
+        let trimmed = line.trim();
+        if trimmed.is_empty() || trimmed.starts_with("[Vega Parser] Output: ") {
+            continue;
+        }
+
+        let is_supabase = trimmed.contains("[Supabase]") || trimmed.contains("Supabase");
+        let source = if is_supabase { "Supabase" } else { "Parser" };
+
+        let lower = trimmed.to_lowercase();
+        let level = if lower.contains("error") || lower.contains("exception") {
+            "ERROR"
+        } else if lower.contains("warn") || lower.contains("warning") {
+            "WARN"
+        } else {
+            "INFO"
+        };
+
+        crate::commands::emit_log(app, level, source, trimmed);
+    }
+
+    for line in stderr.lines() {
+        let trimmed = line.trim();
+        if !trimmed.is_empty() {
+            crate::commands::emit_log(app, "ERROR", "Parser", trimmed);
         }
     }
 }

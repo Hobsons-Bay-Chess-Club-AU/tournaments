@@ -59,7 +59,7 @@
           <div class="folder-banner-info">
             <span class="label">Tournament Storage Folder:</span>
             <span id="dashFolderPath" class="path-snippet">Loading folder...</span>
-            <span id="dashVersionBadge" class="status-pill online" style="font-size: 0.72rem; padding: 0.15rem 0.55rem; margin-left: 0.5rem; background: rgba(16, 185, 129, 0.2); border: 1px solid rgba(16, 185, 129, 0.4);">⚡ v0.1.3 Connected</span>
+            <span id="dashVersionBadge" class="status-pill online" style="font-size: 0.72rem; padding: 0.15rem 0.55rem; margin-left: 0.5rem; background: rgba(16, 185, 129, 0.2); border: 1px solid rgba(16, 185, 129, 0.4);">⚡ v0.1.4 Connected</span>
           </div>
           <button id="dashOpenFolderBtn" class="btn btn-secondary btn-sm">📁 Open Folder</button>
         </div>
@@ -83,19 +83,74 @@
           <span id="authBadge" style="font-size: 0.72rem; color: var(--text-dim); margin-top: 0.45rem; display: block;">🔒 Protected: Only authorized club arbiters can publish to this server</span>
         </section>
 
-        <!-- Live Activity Log -->
+        <!-- Live Activity & System Logs -->
         <section class="card activity-card">
           <div class="activity-header">
-            <div style="display: flex; align-items: center; gap: 0.5rem;">
-              <span style="font-size: 0.95rem; font-weight: 600;">Live Upload Activity</span>
-              <span id="uploadBadge" class="status-pill online" style="padding: 0.15rem 0.5rem; font-size: 0.7rem;">0 files</span>
+            <div class="activity-tabs">
+              <button id="tabUploadsBtn" class="activity-tab active">
+                <span>📁 Uploads</span>
+                <span id="uploadBadge" class="tab-badge">0</span>
+              </button>
+              <button id="tabLogsBtn" class="activity-tab">
+                <span>📜 System Logs</span>
+                <span id="logsBadge" class="tab-badge">0</span>
+                <span id="logErrorDot" class="log-error-dot" style="display: none;" title="Errors detected"></span>
+              </button>
             </div>
-            <button id="clearLogsBtn" class="btn btn-secondary btn-sm">Clear</button>
+            <div class="activity-actions">
+              <button id="viewLogsModalBtn" class="btn btn-secondary btn-sm" title="Open Easy Log Viewer Dialog">📜 Logs</button>
+              <button id="copyLogsBtn" class="btn btn-secondary btn-sm" title="Copy visible logs to clipboard" style="display: none;">📋 Copy</button>
+              <button id="clearLogsBtn" class="btn btn-secondary btn-sm" title="Clear current list">Clear</button>
+            </div>
           </div>
-          <div id="activityList" class="activity-list">
-            <div class="empty-state" id="emptyState">
-              <span>📡 Waiting for Vega upload...</span>
-              <span style="font-size: 0.75rem;">Run Vega Chess and publish rounds to see live uploads here</span>
+
+          <!-- PANEL 1: Uploads -->
+          <div id="uploadsPanel" class="activity-panel active">
+            <div id="activityList" class="activity-list">
+              <div class="empty-state" id="emptyState">
+                <span>📡 Waiting for Vega upload...</span>
+                <span style="font-size: 0.75rem;">Run Vega Chess and publish rounds to see live uploads here</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- PANEL 2: System Logs -->
+          <div id="logsPanel" class="activity-panel" style="display: none;">
+            <!-- Filter & Search Toolbar -->
+            <div class="log-toolbar">
+              <div class="log-search-container">
+                <input type="text" id="logSearchInput" class="log-search-input" placeholder="🔍 Filter logs (e.g. parser, supabase, round, error)..." />
+                <button id="clearLogSearchBtn" class="log-search-clear" style="display: none;">✕</button>
+              </div>
+              <div class="log-filter-pills">
+                <button class="log-pill active" data-level="ALL">All <span id="countAll">0</span></button>
+                <button class="log-pill pill-info" data-level="INFO">INFO <span id="countInfo">0</span></button>
+                <button class="log-pill pill-warn" data-level="WARN">WARN <span id="countWarn">0</span></button>
+                <button class="log-pill pill-error" data-level="ERROR">ERROR <span id="countError">0</span></button>
+              </div>
+              <div class="log-toolbar-right">
+                <select id="logSourceFilter" class="log-source-select" aria-label="Filter by source component">
+                  <option value="">All Sources</option>
+                  <option value="Parser">Parser</option>
+                  <option value="Supabase">Supabase</option>
+                  <option value="FTP">FTP</option>
+                  <option value="HTTP">HTTP</option>
+                  <option value="Watcher">Watcher</option>
+                  <option value="System">System</option>
+                </select>
+                <label class="log-autoscroll-label" title="Automatically scroll down as new logs arrive">
+                  <input type="checkbox" id="logAutoScrollInput" checked />
+                  <span>Auto-scroll</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Log Entries List -->
+            <div id="systemLogList" class="log-list">
+              <div class="empty-state" id="logEmptyState">
+                <span>📋 No logs recorded yet</span>
+                <span style="font-size: 0.75rem;">System, FTP, parser, and Supabase sync logs will appear here live</span>
+              </div>
             </div>
           </div>
         </section>
@@ -156,7 +211,7 @@
           <div style="display: flex; justify-content: space-between; align-items: center;">
             <div>
               <p style="font-size: 0.85rem; font-weight: 500;">HBCC Vega Tournament Server</p>
-              <p style="font-size: 0.75rem; color: var(--text-muted);">Current Version: <span id="settingsVersion">v0.1.3</span></p>
+              <p style="font-size: 0.75rem; color: var(--text-muted);">Current Version: <span id="settingsVersion">v0.1.4</span></p>
             </div>
             <button id="checkUpdateBtn" class="btn btn-secondary btn-sm">Check for Updates</button>
           </div>
@@ -168,7 +223,7 @@
         <div class="footer-left">
           <span>HBCC Tournament Server</span>
           <span>•</span>
-          <span id="appVersion">v0.1.3</span>
+          <span id="appVersion">v0.1.4</span>
         </div>
         <div class="footer-right">
           <span style="color: var(--text-dim);">Hobsons Bay Chess Club</span>
@@ -177,6 +232,65 @@
 
       <!-- Toast Feedback -->
       <div id="toast" class="toast">Action completed</div>
+
+      <!-- Dedicated Easy Log Viewer Modal -->
+      <div id="logViewerModal" class="modal-backdrop" style="display: none;">
+        <div class="modal-dialog">
+          <div class="modal-header">
+            <div class="modal-title-group">
+              <span class="modal-icon">📜</span>
+              <div>
+                <h3>System & Processing Log Viewer</h3>
+                <p>Live diagnostics: parser execution, Supabase sync, FTP events, and server operations</p>
+              </div>
+            </div>
+            <button id="closeLogsModalBtn" class="modal-close-btn" aria-label="Close logs dialog">✕</button>
+          </div>
+
+          <!-- Modal Filter Toolbar -->
+          <div class="log-toolbar modal-toolbar">
+            <div class="log-search-container">
+              <input type="text" id="modalLogSearchInput" class="log-search-input" placeholder="🔍 Search in logs (keyword, slug, error message)..." />
+              <button id="clearModalLogSearchBtn" class="log-search-clear" style="display: none;">✕</button>
+            </div>
+            <div class="log-filter-pills">
+              <button class="log-pill active" data-modal-level="ALL">All <span id="modalCountAll">0</span></button>
+              <button class="log-pill pill-info" data-modal-level="INFO">INFO <span id="modalCountInfo">0</span></button>
+              <button class="log-pill pill-warn" data-modal-level="WARN">WARN <span id="modalCountWarn">0</span></button>
+              <button class="log-pill pill-error" data-modal-level="ERROR">ERROR <span id="modalCountError">0</span></button>
+            </div>
+            <div class="log-toolbar-right">
+              <select id="modalLogSourceFilter" class="log-source-select" aria-label="Filter by source component">
+                <option value="">All Sources</option>
+                <option value="Parser">Parser</option>
+                <option value="Supabase">Supabase</option>
+                <option value="FTP">FTP</option>
+                <option value="HTTP">HTTP</option>
+                <option value="Watcher">Watcher</option>
+                <option value="System">System</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Modal Log Stream -->
+          <div id="modalSystemLogList" class="log-list modal-log-list">
+            <div class="empty-state">
+              <span>📋 No logs recorded yet</span>
+              <span style="font-size: 0.75rem;">Logs will stream in automatically</span>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <div class="modal-stats" id="modalLogStats">Showing 0 logs</div>
+            <div style="display: flex; gap: 0.5rem; align-items: center;">
+              <button id="modalExportLogsBtn" class="btn btn-secondary btn-sm" title="Save logs as text file">📥 Export (.txt)</button>
+              <button id="modalCopyLogsBtn" class="btn btn-secondary btn-sm" title="Copy filtered logs to clipboard">📋 Copy All</button>
+              <button id="modalClearLogsBtn" class="btn btn-danger btn-sm" title="Clear all logs">Clear Logs</button>
+              <button id="modalDismissBtn" class="btn btn-secondary btn-sm">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script type="module" src="/src/main.js"></script>

@@ -21,6 +21,41 @@ pub struct ServiceStatus {
     pub storage_dir: String,
 }
 
+#[derive(Clone, Serialize, Deserialize)]
+pub struct SystemLogPayload {
+    pub id: String,
+    pub timestamp: String,
+    pub level: String, // "INFO", "WARN", "ERROR"
+    pub source: String, // "FTP", "HTTP", "Parser", "Supabase", "System"
+    pub message: String,
+}
+
+pub fn emit_log(app: Option<&AppHandle>, level: &str, source: &str, message: &str) {
+    let now = format_iso_timestamp();
+    let id = format!("{}_{}", now, rand_suffix());
+    println!("[{}] [{}] {}", source, level, message);
+    if let Some(app) = app {
+        let _ = app.emit(
+            "system-log",
+            SystemLogPayload {
+                id,
+                timestamp: now,
+                level: level.to_string(),
+                source: source.to_string(),
+                message: message.to_string(),
+            },
+        );
+    }
+}
+
+fn rand_suffix() -> u32 {
+    let nanos = std::time::SystemTime::now()
+        .duration_since(std::time::UNIX_EPOCH)
+        .unwrap_or_default()
+        .subsec_nanos();
+    nanos % 10000
+}
+
 #[derive(Clone, Serialize)]
 pub struct FileReceivedPayload {
     pub filename: String,
@@ -44,13 +79,28 @@ pub async fn start_services(
         return Err("Services are already running".into());
     }
 
+    emit_log(
+        Some(&app),
+        "INFO",
+        "System",
+        &format!("Starting tournament services (FTP: {}, HTTP: {})...", ftp_port, http_port),
+    );
+    emit_log(
+        Some(&app),
+        "INFO",
+        "System",
+        &format!("Storage directory configured: {}", storage_dir),
+    );
+
     let root_path = PathBuf::from(&storage_dir);
     let app_handle_clone = app.clone();
+    let app_for_ftp = app.clone();
 
     let ftp = start_ftp_server(
         "127.0.0.1",
         ftp_port,
         root_path.clone(),
+        Some(app_for_ftp),
         move |filename, size| {
             let now = format_iso_timestamp();
             let _ = app_handle_clone.emit(
@@ -71,6 +121,19 @@ pub async fn start_services(
     *ftp_guard = Some(ftp);
     *http_guard = Some(http);
 
+    emit_log(
+        Some(&app),
+        "INFO",
+        "FTP",
+        &format!("FTP Server active on 127.0.0.1:{} (ready for Vega uploads)", ftp_port),
+    );
+    emit_log(
+        Some(&app),
+        "INFO",
+        "HTTP",
+        &format!("HTTP Preview server active at http://127.0.0.1:{}", http_port),
+    );
+
     let status = ServiceStatus {
         is_running: true,
         ftp_port,
@@ -83,19 +146,23 @@ pub async fn start_services(
 }
 
 #[tauri::command]
-pub async fn stop_services(state: State<'_, AppState>) -> Result<(), String> {
+pub async fn stop_services(app: AppHandle, state: State<'_, AppState>) -> Result<(), String> {
+    emit_log(Some(&app), "INFO", "System", "Stopping FTP and HTTP services...");
     let mut ftp_guard = state.ftp_handle.lock().await;
     let mut http_guard = state.http_handle.lock().await;
 
     if let Some(ftp) = ftp_guard.take() {
         ftp.stop().await;
+        emit_log(Some(&app), "INFO", "FTP", "FTP server listener stopped.");
     }
     if let Some(http) = http_guard.take() {
         http.stop().await;
+        emit_log(Some(&app), "INFO", "HTTP", "HTTP preview server stopped.");
     }
 
     let mut status = state.current_status.lock().await;
     status.is_running = false;
+    emit_log(Some(&app), "INFO", "System", "All services offline.");
 
     Ok(())
 }

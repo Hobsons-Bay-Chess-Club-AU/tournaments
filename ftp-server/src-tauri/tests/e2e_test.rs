@@ -18,6 +18,7 @@ async fn test_end_to_end_vega_ftp_and_http_preview() {
         "127.0.0.1",
         ftp_port,
         root_path.clone(),
+        None,
         move |_filename, _size| {
             upload_clone.fetch_add(1, Ordering::SeqCst);
         },
