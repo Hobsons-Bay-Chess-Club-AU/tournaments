@@ -37,6 +37,16 @@ cargoContent = cargoContent.replace(/^version\s*=\s*"[^"]+"/m, `version = "${ver
 fs.writeFileSync(cargoPath, cargoContent);
 console.log(`✓ Updated Cargo.toml: ${oldVersion} -> ${version}`);
 
+// 4. index.html
+const indexPath = path.join(projectRoot, "index.html");
+let indexContent = fs.readFileSync(indexPath, "utf8");
+indexContent = indexContent
+  .replace(/⚡\s*v[0-9.]+\s*Connected/g, `⚡ v${version} Connected`)
+  .replace(/<span id="settingsVersion">v[0-9.]+<\/span>/g, `<span id="settingsVersion">v${version}</span>`)
+  .replace(/<span id="appVersion">v[0-9.]+<\/span>/g, `<span id="appVersion">v${version}</span>`);
+fs.writeFileSync(indexPath, indexContent);
+console.log(`✓ Updated index.html: v${oldVersion} -> v${version}`);
+
 console.log(`\n🎉 Version successfully updated to ${version} across all files!`);
 console.log(`Next commands:`);
 console.log(`  git commit -am "chore(release): bump version to ${version}"`);
