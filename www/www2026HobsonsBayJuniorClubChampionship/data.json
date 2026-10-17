@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T12:01:23.282Z",
+  "generatedAt": "2026-10-17T09:47:52.090Z",
   "page": {
     "calendarroundrobin.html": {
       "pageHeading": "Schedule",
@@ -36,7 +36,7 @@
               "N": "1",
               "White": "Ramanathan,Ashwin",
               "NW": "1",
-              "result": "...",
+              "result": "1 - 0",
               "NB": "8",
               "Black": "Huang,Michael"
             },
@@ -44,7 +44,7 @@
               "N": "2",
               "White": "Batyrbekov,Kaisar",
               "NW": "2",
-              "result": "...",
+              "result": "0 - 1",
               "NB": "7",
               "Black": "Ahmad,Ihtiram"
             },
@@ -52,7 +52,7 @@
               "N": "3",
               "White": "Batyrbekov,Aidan",
               "NW": "3",
-              "result": "...",
+              "result": "½ - ½",
               "NB": "6",
               "Black": "Annadasu,Shreyansh"
             },
@@ -60,7 +60,7 @@
               "N": "4",
               "White": "Ashok,Arjun",
               "NW": "4",
-              "result": "...",
+              "result": "½ - ½",
               "NB": "5",
               "Black": "Jyothi Nikhil,Neev"
             }
@@ -670,7 +670,7 @@
                 "moreInfo": {}
               },
               "Pts": "0",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "0",
               "Black Player": {
                 "id": "8",
@@ -700,7 +700,7 @@
                 "moreInfo": {}
               },
               "Pts": "0",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "0",
               "Black Player": {
                 "id": "7",
@@ -730,7 +730,7 @@
                 "moreInfo": {}
               },
               "Pts": "0",
-              "Result": "...",
+              "Result": "½ - ½",
               "Pts_1": "0",
               "Black Player": {
                 "id": "6",
@@ -760,7 +760,7 @@
                 "moreInfo": {}
               },
               "Pts": "0",
-              "Result": "...",
+              "Result": "½ - ½",
               "Pts_1": "0",
               "Black Player": {
                 "id": "5",
@@ -822,12 +822,12 @@
           "rows": [
             {
               "R": "1",
-              "C": "--",
-              "N": "0",
+              "C": "W",
+              "N": "8",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "0.0",
+              "OPPONENT": "Huang,Michael",
+              "Rtg": "1062",
+              "res": "1.0",
               "Pts": "0.0"
             }
           ],
@@ -881,13 +881,13 @@
           "rows": [
             {
               "R": "1",
-              "C": "--",
-              "N": "0",
+              "C": "W",
+              "N": "7",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "Ahmad,Ihtiram",
+              "Rtg": "1092",
               "res": "0.0",
-              "Pts": "0.0"
+              "Pts": "1.0"
             }
           ],
           "caption": {
@@ -940,13 +940,13 @@
           "rows": [
             {
               "R": "1",
-              "C": "--",
-              "N": "0",
+              "C": "W",
+              "N": "6",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "0.0",
-              "Pts": "0.0"
+              "OPPONENT": "Annadasu,Shreyansh",
+              "Rtg": "1096",
+              "res": "0.5",
+              "Pts": "0.5"
             }
           ],
           "caption": {
@@ -999,13 +999,13 @@
           "rows": [
             {
               "R": "1",
-              "C": "--",
-              "N": "0",
+              "C": "W",
+              "N": "5",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "0.0",
-              "Pts": "0.0"
+              "OPPONENT": "Jyothi Nikhil,Neev",
+              "Rtg": "1112",
+              "res": "0.5",
+              "Pts": "0.5"
             }
           ],
           "caption": {
@@ -1058,13 +1058,13 @@
           "rows": [
             {
               "R": "1",
-              "C": "--",
-              "N": "0",
+              "C": "B",
+              "N": "4",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "0.0",
-              "Pts": "0.0"
+              "OPPONENT": "Ashok,Arjun",
+              "Rtg": "1132",
+              "res": "0.5",
+              "Pts": "0.5"
             }
           ],
           "caption": {
@@ -1117,13 +1117,13 @@
           "rows": [
             {
               "R": "1",
-              "C": "--",
-              "N": "0",
+              "C": "B",
+              "N": "3",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "0.0",
-              "Pts": "0.0"
+              "OPPONENT": "Batyrbekov,Aidan",
+              "Rtg": "1308",
+              "res": "0.5",
+              "Pts": "0.5"
             }
           ],
           "caption": {
@@ -1176,12 +1176,12 @@
           "rows": [
             {
               "R": "1",
-              "C": "--",
-              "N": "0",
+              "C": "B",
+              "N": "2",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "0.0",
+              "OPPONENT": "Batyrbekov,Kaisar",
+              "Rtg": "1349",
+              "res": "1.0",
               "Pts": "0.0"
             }
           ],
@@ -1235,13 +1235,13 @@
           "rows": [
             {
               "R": "1",
-              "C": "--",
-              "N": "0",
+              "C": "B",
+              "N": "1",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "Ramanathan,Ashwin",
+              "Rtg": "1470",
               "res": "0.0",
-              "Pts": "0.0"
+              "Pts": "1.0"
             }
           ],
           "caption": {
@@ -1362,7 +1362,7 @@
                 "title": ""
               },
               "NW": "1",
-              "Result": "...",
+              "Result": "1 - 0",
               "NB": "8",
               "Black Player": {
                 "id": "",
@@ -1384,7 +1384,7 @@
                 "title": ""
               },
               "NW": "2",
-              "Result": "...",
+              "Result": "0 - 1",
               "NB": "7",
               "Black Player": {
                 "id": "",
@@ -1406,7 +1406,7 @@
                 "title": ""
               },
               "NW": "3",
-              "Result": "...",
+              "Result": "½ - ½",
               "NB": "6",
               "Black Player": {
                 "id": "",
@@ -1428,7 +1428,7 @@
                 "title": ""
               },
               "NW": "4",
-              "Result": "...",
+              "Result": "½ - ½",
               "NB": "5",
               "Black Player": {
                 "id": "",
@@ -2199,6 +2199,226 @@
         }
       ],
       "tournamentType": "individual"
+    },
+    "standings.html": {
+      "pageHeading": "Standings at round 1",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Pos",
+              "key": "Pos"
+            },
+            {
+              "name": "Player",
+              "key": "Player"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "DE",
+              "key": "DE"
+            },
+            {
+              "name": "SB",
+              "key": "SB"
+            },
+            {
+              "name": "WIN",
+              "key": "WIN"
+            },
+            {
+              "name": "BWG",
+              "key": "BWG"
+            }
+          ],
+          "rows": [
+            {
+              "Pos": "1",
+              "Player": {
+                "id": "7",
+                "playerName": "Ahmad,Ihtiram",
+                "gender": "male",
+                "href": "playercard.html#7",
+                "title": "",
+                "federation": "OS",
+                "rating": "1092",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Rtg": "1092",
+              "Fed": "OS",
+              "Pts": "1.0",
+              "DE": "0",
+              "SB": "0.00",
+              "WIN": "1",
+              "BWG": "1"
+            },
+            {
+              "Pos": "2",
+              "Player": {
+                "id": "1",
+                "playerName": "Ramanathan,Ashwin",
+                "gender": "male",
+                "href": "playercard.html#1",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1470",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Rtg": "1470",
+              "Fed": "VIC",
+              "Pts": "1.0",
+              "DE": "0",
+              "SB": "0.00",
+              "WIN": "1",
+              "BWG": "0"
+            },
+            {
+              "Pos": "3",
+              "Player": {
+                "id": "3",
+                "playerName": "Batyrbekov,Aidan",
+                "gender": "male",
+                "href": "playercard.html#3",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1308",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Rtg": "1308",
+              "Fed": "VIC",
+              "Pts": "0.5",
+              "DE": "0",
+              "SB": "0.25",
+              "WIN": "0",
+              "BWG": "0"
+            },
+            {
+              "Pos": "4",
+              "Player": {
+                "id": "4",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#4",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1132",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Rtg": "1132",
+              "Fed": "VIC",
+              "Pts": "0.5",
+              "DE": "0",
+              "SB": "0.25",
+              "WIN": "0",
+              "BWG": "0"
+            },
+            {
+              "Pos": "5",
+              "Player": {
+                "id": "5",
+                "playerName": "Jyothi Nikhil,Neev",
+                "gender": "male",
+                "href": "playercard.html#5",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1112",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Rtg": "1112",
+              "Fed": "VIC",
+              "Pts": "0.5",
+              "DE": "0",
+              "SB": "0.25",
+              "WIN": "0",
+              "BWG": "0"
+            },
+            {
+              "Pos": "6",
+              "Player": {
+                "id": "6",
+                "playerName": "Annadasu,Shreyansh",
+                "gender": "male",
+                "href": "playercard.html#6",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1096",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Rtg": "1096",
+              "Fed": "VIC",
+              "Pts": "0.5",
+              "DE": "0",
+              "SB": "0.25",
+              "WIN": "0",
+              "BWG": "0"
+            },
+            {
+              "Pos": "7",
+              "Player": {
+                "id": "2",
+                "playerName": "Batyrbekov,Kaisar",
+                "gender": "male",
+                "href": "playercard.html#2",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1349",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Rtg": "1349",
+              "Fed": "VIC",
+              "Pts": "0.0",
+              "DE": "0",
+              "SB": "0.00",
+              "WIN": "0",
+              "BWG": "0"
+            },
+            {
+              "Pos": "8",
+              "Player": {
+                "id": "8",
+                "playerName": "Huang,Michael",
+                "gender": "male",
+                "href": "playercard.html#8",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1062",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Rtg": "1062",
+              "Fed": "VIC",
+              "Pts": "0.0",
+              "DE": "0",
+              "SB": "0.00",
+              "WIN": "0",
+              "BWG": "0"
+            }
+          ],
+          "footer": {
+            "text": "Tie Break legend:",
+            "html": "Tie Break legend:<br>"
+          }
+        }
+      ],
+      "tournamentType": "unknown"
     },
     "tourstat.html": {
       "pageHeading": "Tournament summary",
@@ -2340,7 +2560,26 @@
       "tournamentType": "unknown"
     }
   },
-  "top_players": [],
+  "top_players": [
+    {
+      "name": "Ahmad,Ihtiram",
+      "point": 1,
+      "elo": "1092",
+      "title": ""
+    },
+    {
+      "name": "Ramanathan,Ashwin",
+      "point": 1,
+      "elo": "1470",
+      "title": ""
+    },
+    {
+      "name": "Batyrbekov,Aidan",
+      "point": 0.5,
+      "elo": "1308",
+      "title": ""
+    }
+  ],
   "playerLookup": {
     "1": {
       "id": "1",
@@ -2461,7 +2700,7 @@
     },
     {
       "text": "Standings",
-      "href": "#",
+      "href": "standings.html",
       "isDropdown": false,
       "children": []
     },
@@ -2593,5 +2832,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "d42ff7418598568fcd9e9d9f2b3c6e9d"
+  "md5Hash": "59d30a70f418964047b7cf3f7ec980d8"
 }

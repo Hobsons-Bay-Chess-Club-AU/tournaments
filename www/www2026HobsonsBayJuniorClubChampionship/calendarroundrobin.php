@@ -21,7 +21,7 @@
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
 </li><li class="nav-item"><a class="nav-link " href="pairs1.php" >Pairings</a>
-</li><li class="nav-item"><a class="nav-link" href="#" >Standings</a>
+</li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
 <ul class="dropdown-menu"></ul></li></ul> </div>
@@ -44,7 +44,7 @@
   <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Schedule</h3>
 <h5 class="mb-4 mt-4">Pairing round 1  at 18:00 of 17/10/2026</h5>
 <div class="table-responsive"><table class="table table-striped "> 
-<thead><tr><th>N</th><th>White</th><th>NW</th><th>result</th><th>NB</th><th>Black</th></tr></thead><tbody><tr><td>1</td><td>Ramanathan,Ashwin</td><td>1</td><td> ... </td><td>8</td><td>Huang,Michael</td></tr><tr><td>2</td><td>Batyrbekov,Kaisar</td><td>2</td><td> ... </td><td>7</td><td>Ahmad,Ihtiram</td></tr><tr><td>3</td><td>Batyrbekov,Aidan</td><td>3</td><td> ... </td><td>6</td><td>Annadasu,Shreyansh</td></tr><tr><td>4</td><td>Ashok,Arjun</td><td>4</td><td> ... </td><td>5</td><td>Jyothi Nikhil,Neev</td></tr></tbody></table></div><hr><h5 class="mb-4 mt-4">Pairing round 2  at 18:00 of 24/10/2026</h5>
+<thead><tr><th>N</th><th>White</th><th>NW</th><th>result</th><th>NB</th><th>Black</th></tr></thead><tbody><tr><td>1</td><td>Ramanathan,Ashwin</td><td>1</td><td>1 - 0</td><td>8</td><td>Huang,Michael</td></tr><tr><td>2</td><td>Batyrbekov,Kaisar</td><td>2</td><td>0 - 1</td><td>7</td><td>Ahmad,Ihtiram</td></tr><tr><td>3</td><td>Batyrbekov,Aidan</td><td>3</td><td>½ - ½</td><td>6</td><td>Annadasu,Shreyansh</td></tr><tr><td>4</td><td>Ashok,Arjun</td><td>4</td><td>½ - ½</td><td>5</td><td>Jyothi Nikhil,Neev</td></tr></tbody></table></div><hr><h5 class="mb-4 mt-4">Pairing round 2  at 18:00 of 24/10/2026</h5>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>N</th><th>White</th><th>NW</th><th>result</th><th>NB</th><th>Black</th></tr></thead><tbody><tr><td>1</td><td>Ashok,Arjun</td><td>4</td><td>...</td><td>8</td><td>Huang,Michael</td></tr><tr><td>2</td><td>Jyothi Nikhil,Neev</td><td>5</td><td>...</td><td>3</td><td>Batyrbekov,Aidan</td></tr><tr><td>3</td><td>Annadasu,Shreyansh</td><td>6</td><td>...</td><td>2</td><td>Batyrbekov,Kaisar</td></tr><tr><td>4</td><td>Ahmad,Ihtiram</td><td>7</td><td>...</td><td>1</td><td>Ramanathan,Ashwin</td></tr></tbody></table></div><hr><h5 class="mb-4 mt-4">Pairing round 3  at 18:00 of 31/10/2026</h5>
 <div class="table-responsive"><table class="table table-striped "> 
