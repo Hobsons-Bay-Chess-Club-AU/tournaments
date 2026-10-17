@@ -19,7 +19,8 @@ pub fn run() {
             get_services_status,
             get_default_storage_dir,
             open_folder,
-            get_auth_info
+            get_auth_info,
+            restart_app
         ])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

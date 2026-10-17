@@ -164,6 +164,12 @@ pub fn get_auth_info() -> Result<AuthInfo, String> {
     })
 }
 
+#[tauri::command]
+pub fn restart_app(app: tauri::AppHandle) {
+    app.restart();
+}
+
+
 fn format_iso_timestamp() -> String {
     let now = std::time::SystemTime::now();
     let duration = now.duration_since(std::time::UNIX_EPOCH).unwrap_or_default();

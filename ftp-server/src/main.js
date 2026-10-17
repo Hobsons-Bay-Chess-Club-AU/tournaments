@@ -42,6 +42,11 @@ const resetDefaultsBtn = document.getElementById("resetDefaultsBtn");
 const applySettingsBtn = document.getElementById("applySettingsBtn");
 const settingsVersion = document.getElementById("settingsVersion");
 const checkUpdateBtn = document.getElementById("checkUpdateBtn");
+const updateBanner = document.getElementById("updateBanner");
+const updateIcon = document.getElementById("updateIcon");
+const updateBannerText = document.getElementById("updateBannerText");
+const restartAppBtn = document.getElementById("restartAppBtn");
+const dismissUpdateBtn = document.getElementById("dismissUpdateBtn");
 const toast = document.getElementById("toast");
 
 // Store & Local State
@@ -226,7 +231,12 @@ async function init() {
     // 2. Auto-start server on launch
     await startServer();
 
-    // 3. Listen for file uploads from FTP
+    // 3. Background auto-update check on startup
+    autoCheckAndInstallUpdate(true).catch((e) =>
+      console.debug("Background auto-update check error:", e)
+    );
+
+    // 4. Listen for file uploads from FTP
     await listen("ftp-file-received", (event) => {
       const payload = event.payload;
       state.uploadCount++;
@@ -433,20 +443,68 @@ resetDefaultsBtn.addEventListener("click", async () => {
   }
 });
 
+function showUpdateNotification(message, icon = "✨", canRestart = false) {
+  if (!updateBanner) return;
+  updateBannerText.textContent = message;
+  updateIcon.textContent = icon;
+  restartAppBtn.style.display = canRestart ? "inline-flex" : "none";
+  updateBanner.style.display = "flex";
+}
+
+function hideUpdateNotification() {
+  if (updateBanner) updateBanner.style.display = "none";
+}
+
+async function autoCheckAndInstallUpdate(silent = true) {
+  try {
+    const update = await checkUpdate();
+    if (update?.available) {
+      showUpdateNotification(
+        `New update v${update.version} found! Downloading in background...`,
+        "⏳",
+        false
+      );
+      showToast(`Downloading update v${update.version}...`);
+
+      await update.downloadAndInstall();
+
+      showUpdateNotification(
+        `Update v${update.version} installed! Click restart to apply.`,
+        "🎉",
+        true
+      );
+      showToast(`Update v${update.version} installed! Please restart the app.`);
+      return true;
+    } else if (!silent) {
+      showToast("You are running the latest version!");
+    }
+  } catch (err) {
+    if (!silent) {
+      showToast(`Update check failed: ${err}`);
+    } else {
+      console.debug("Silent background auto-update check:", err);
+    }
+  }
+  return false;
+}
+
+restartAppBtn.addEventListener("click", async () => {
+  try {
+    await invoke("restart_app");
+  } catch (err) {
+    showToast(`Restart failed: ${err}`);
+  }
+});
+
+dismissUpdateBtn.addEventListener("click", () => {
+  hideUpdateNotification();
+});
+
 checkUpdateBtn.addEventListener("click", async () => {
   try {
     checkUpdateBtn.disabled = true;
     checkUpdateBtn.textContent = "Checking...";
-    const update = await checkUpdate();
-    if (update?.available) {
-      showToast(`Update v${update.version} available! Downloading...`);
-      await update.downloadAndInstall();
-      showToast("Update installed! Please restart the app.");
-    } else {
-      showToast("You are running the latest version!");
-    }
-  } catch (err) {
-    showToast(`Update check failed: ${err}`);
+    await autoCheckAndInstallUpdate(false);
   } finally {
     checkUpdateBtn.disabled = false;
     checkUpdateBtn.textContent = "Check for Updates";
