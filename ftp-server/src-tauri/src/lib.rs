@@ -27,9 +27,4 @@ pub fn run() {
 }
 
 #[cfg(test)]
-mod tests {
-    #[test]
-    fn test_skeleton() {
-        assert_eq!(2 + 2, 4);
-    }
-}
+mod tests;
