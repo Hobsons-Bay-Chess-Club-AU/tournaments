@@ -1,0 +1,32 @@
+[package]
+name = "hbcc-ftp-server"
+version = "0.1.0"
+description = "Local FTP & HTTP server for Vega Chess tournaments"
+edition = "2021"
+
+[lib]
+name = "hbcc_ftp_server_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.0.0", features = [] }
+
+[dependencies]
+tauri = { version = "2.0.0", features = [] }
+tauri-plugin-dialog = "2.0.0"
+tauri-plugin-opener = "2.0.0"
+tauri-plugin-store = "2.0.0"
+tauri-plugin-updater = "2.0.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.38", features = ["full"] }
+libunftp = "0.23.1"
+unftp-sbe-fs = "0.4.0"
+async-trait = "0.1"
+axum = "0.7"
+tower-http = { version = "0.5", features = ["fs", "cors"] }
+dirs = "5.0"
+
+[dev-dependencies]
+tempfile = "3.10"
+reqwest = { version = "0.12", features = ["json"] }
