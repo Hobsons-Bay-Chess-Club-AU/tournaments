@@ -40,6 +40,10 @@ async fn test_ftp_server_lifecycle_and_permissive_auth() {
             &format!("ftp://127.0.0.1:{}/unauth.txt", port),
             "--user",
             "unauthorized_user:wrong_password",
+            "--connect-timeout",
+            "5",
+            "--max-time",
+            "10",
         ])
         .output()
         .await

@@ -49,6 +49,10 @@ async fn test_end_to_end_vega_ftp_and_http_preview() {
             &format!("ftp://127.0.0.1:{}/standings.html", ftp_port),
             "--user",
             "vega:vega",
+            "--connect-timeout",
+            "5",
+            "--max-time",
+            "10",
         ])
         .output()
         .await
