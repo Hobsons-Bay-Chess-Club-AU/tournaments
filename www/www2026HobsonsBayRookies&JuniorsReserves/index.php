@@ -21,7 +21,7 @@
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
 </li><li class="nav-item"><a class="nav-link " href="pairs1.php" >Pairings</a>
-</li><li class="nav-item"><a class="nav-link" href="#" >Standings</a>
+</li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="crosstable.php"> Cross table </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
 <ul class="dropdown-menu"></ul></li></ul> </div>
@@ -142,7 +142,9 @@
 <tr> 
 <td><span class="idn"> 49</span></td><td><span class="notitle male"> </span></td><td> Daffey,Callum </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 50</span></td><td><span class="notitle male"> </span></td><td> Gallo,Yuvan Yadav </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 67</span></td><td><span class="notitle male"> </span></td><td> Das, Ayush </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 50</span></td><td><span class="notitle male"> </span></td><td> Golla,Yuvan Yadav </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 51</span></td><td><span class="notitle male"> </span></td><td> Hasanabada,Aadhvik </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
@@ -166,9 +168,13 @@
 <tr> 
 <td><span class="idn"> 61</span></td><td><span class="notitle female"> </span></td><td> Parepally,Aarnika </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
+<td><span class="idn"> 68</span></td><td><span class="notitle male"> </span></td><td> Sebastian, Sebastian </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 69</span></td><td><span class="notitle male"> </span></td><td> Sepusione, Sefa </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
 <td><span class="idn"> 62</span></td><td><span class="notitle female"> </span></td><td> Sridhar,Chaithanya Sree </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 63</span></td><td><span class="notitle female"> </span></td><td> Sudarshan,Sruthi </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 63</span></td><td><span class="notitle female"> </span></td><td> Sudarshan,Shriya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 64</span></td><td><span class="notitle female"> </span></td><td> Thambavitage,Pahansa </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
