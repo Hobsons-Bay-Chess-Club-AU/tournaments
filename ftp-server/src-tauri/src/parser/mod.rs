@@ -47,10 +47,10 @@ pub async fn run_tournament_parser(folder: PathBuf) -> Result<ParseResult, Strin
     // 1. Try standalone sidecar binary first (zero Node.js dependency for arbiters)
     if let Some(sidecar) = find_sidecar_binary() {
         println!("[Vega Parser] Running standalone sidecar: {:?}", sidecar);
-        let output = tokio::process::Command::new(&sidecar)
-            .arg(&folder)
-            .output()
-            .await;
+        let mut cmd = tokio::process::Command::new(&sidecar);
+        cmd.arg(&folder);
+        apply_cloud_env(&mut cmd);
+        let output = cmd.output().await;
 
         if let Ok(out) = output {
             let stdout = String::from_utf8_lossy(&out.stdout);
@@ -113,11 +113,10 @@ pub async fn run_tournament_parser(folder: PathBuf) -> Result<ParseResult, Strin
 
     // If script found, run it with node
     if let Some(script) = script_path {
-        let output = tokio::process::Command::new("node")
-            .arg(&script)
-            .arg(&folder)
-            .output()
-            .await;
+        let mut cmd = tokio::process::Command::new("node");
+        cmd.arg(&script).arg(&folder);
+        apply_cloud_env(&mut cmd);
+        let output = cmd.output().await;
 
         if let Ok(out) = output {
             let stdout = String::from_utf8_lossy(&out.stdout);
@@ -253,3 +252,53 @@ fn find_sidecar_binary() -> Option<PathBuf> {
 
     None
 }
+
+fn apply_cloud_env(cmd: &mut tokio::process::Command) {
+    let _ = dotenvy::dotenv();
+
+    let env_vars = [
+        "SUPABASE_URL",
+        "NEXT_PUBLIC_SUPABASE_URL",
+        "SUPABASE_SECRET_KEY",
+        "SUPABASE_PUBLISHABLE_KEY",
+        "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY",
+        "SUPABASE_ANON_KEY",
+        "SUPABASE_TABLE",
+        "SUPABASE_JWKS_URL",
+        "SUPABASE_ACCESS_TOKEN",
+    ];
+
+    for var in env_vars {
+        if let Ok(val) = std::env::var(var) {
+            cmd.env(var, val);
+        }
+    }
+
+    // Build-time embedded fallbacks
+    if let Some(val) = option_env!("SUPABASE_URL") {
+        if std::env::var("SUPABASE_URL").is_err() {
+            cmd.env("SUPABASE_URL", val);
+        }
+    }
+    if let Some(val) = option_env!("SUPABASE_SECRET_KEY") {
+        if std::env::var("SUPABASE_SECRET_KEY").is_err() {
+            cmd.env("SUPABASE_SECRET_KEY", val);
+        }
+    }
+    if let Some(val) = option_env!("SUPABASE_PUBLISHABLE_KEY") {
+        if std::env::var("SUPABASE_PUBLISHABLE_KEY").is_err() {
+            cmd.env("SUPABASE_PUBLISHABLE_KEY", val);
+        }
+    }
+    if let Some(val) = option_env!("SUPABASE_ANON_KEY") {
+        if std::env::var("SUPABASE_ANON_KEY").is_err() {
+            cmd.env("SUPABASE_ANON_KEY", val);
+        }
+    }
+    if let Some(val) = option_env!("SUPABASE_TABLE") {
+        if std::env::var("SUPABASE_TABLE").is_err() {
+            cmd.env("SUPABASE_TABLE", val);
+        }
+    }
+}
+
