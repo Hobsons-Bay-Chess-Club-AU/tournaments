@@ -48,4 +48,19 @@ for (const { target, outfile } of targets) {
   }
 }
 
+if (process.platform === "darwin") {
+  const arm64Path = path.join(binariesDir, "vega-parser-aarch64-apple-darwin");
+  const x64Path = path.join(binariesDir, "vega-parser-x86_64-apple-darwin");
+  const universalPath = path.join(binariesDir, "vega-parser-universal-apple-darwin");
+  if (fs.existsSync(arm64Path) && fs.existsSync(x64Path)) {
+    console.log(" -> Creating universal macOS sidecar with lipo...");
+    try {
+      execSync(`lipo -create -output "${universalPath}" "${arm64Path}" "${x64Path}"`, { stdio: "inherit" });
+    } catch (err) {
+      console.error("Failed to create universal binary:", err);
+    }
+  }
+}
+
 console.log("[Sidecar Build] All sidecar binaries compiled into src-tauri/binaries/");
+
