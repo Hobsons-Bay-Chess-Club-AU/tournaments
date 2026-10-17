@@ -1,6 +1,7 @@
 pub mod commands;
 pub mod ftp;
 pub mod http;
+pub mod parser;
 
 use commands::*;
 

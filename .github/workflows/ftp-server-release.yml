@@ -1,12 +1,18 @@
-name: Release HBCC FTP Server
+name: Build & Release HBCC FTP Server
 
 on:
   push:
+    branches:
+      - main
+    paths:
+      - 'ftp-server/**'
+      - '.github/workflows/ftp-server-release.yml'
     tags:
       - 'ftp-v*'
+  workflow_dispatch:
 
 jobs:
-  release:
+  build-and-release:
     permissions:
       contents: write
     strategy:
@@ -33,11 +39,29 @@ jobs:
         with:
           targets: ${{ matrix.platform == 'macos-latest' && 'aarch64-apple-darwin,x86_64-apple-darwin' || '' }}
 
+      - name: Extract version
+        id: pkg
+        shell: bash
+        working-directory: ftp-server
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          if [[ "${{ github.ref }}" == refs/tags/* ]]; then
+            echo "RELEASE_TAG=${{ github.ref_name }}" >> $GITHUB_ENV
+          else
+            echo "RELEASE_TAG=ftp-v$VERSION" >> $GITHUB_ENV
+          fi
+
       - name: Install dependencies
         working-directory: ftp-server
         run: npm install
 
-      - name: Build Tauri App
+      - name: Run Tests
+        shell: bash
+        working-directory: ftp-server
+        run: cargo test --manifest-path src-tauri/Cargo.toml
+
+      - name: Build and Publish Tauri Release
         uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -45,8 +69,8 @@ jobs:
           TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
         with:
           projectPath: './ftp-server'
-          tagName: ${{ github.ref_name }}
-          releaseName: 'HBCC FTP Server ${{ github.ref_name }}'
+          tagName: ${{ env.RELEASE_TAG }}
+          releaseName: 'HBCC FTP Server ${{ env.RELEASE_TAG }}'
           releaseBody: 'Automated release for HBCC Vega Tournament FTP & Preview Server.'
           releaseDraft: false
           prerelease: false

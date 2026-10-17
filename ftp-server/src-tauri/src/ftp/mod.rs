@@ -1,13 +1,15 @@
 pub mod auth;
 
+use crate::parser::run_tournament_parser;
 use libunftp::auth::AnonymousAuthenticator;
 use libunftp::options::Shutdown;
 use notify::{Config, Event, EventKind, RecommendedWatcher, RecursiveMode, Watcher};
+use std::collections::HashMap;
 use std::net::SocketAddr;
 use std::path::PathBuf;
 use std::sync::Arc;
 use std::time::Duration;
-use tokio::sync::oneshot;
+use tokio::sync::{oneshot, Mutex};
 use unftp_sbe_fs::Filesystem;
 
 pub struct FtpServerHandle {
@@ -62,6 +64,16 @@ where
     });
 
     let on_file_cb = Arc::new(on_file_uploaded);
+    let debounce_map: Arc<Mutex<HashMap<PathBuf, tokio::task::JoinHandle<()>>>> =
+        Arc::new(Mutex::new(HashMap::new()));
+
+    let on_file_cb_watcher = on_file_cb.clone();
+    let root_for_watcher_clone = root_for_watcher.clone();
+    let debounce_map_clone = debounce_map.clone();
+
+    let rt_handle = tokio::runtime::Handle::current();
+    let rt_for_watcher = rt_handle.clone();
+
     let mut watcher = RecommendedWatcher::new(
         move |res: notify::Result<Event>| {
             if let Ok(event) = res {
@@ -69,13 +81,63 @@ where
                     EventKind::Create(_) | EventKind::Modify(_) => {
                         for path in event.paths {
                             if path.is_file() {
+                                let filename = path
+                                    .file_name()
+                                    .unwrap_or_default()
+                                    .to_string_lossy()
+                                    .to_string();
                                 let size = std::fs::metadata(&path).map(|m| m.len()).unwrap_or(0);
                                 let rel = path
-                                    .strip_prefix(&root_for_watcher)
+                                    .strip_prefix(&root_for_watcher_clone)
                                     .unwrap_or(&path)
                                     .to_string_lossy()
                                     .to_string();
-                                on_file_cb(rel, size);
+
+                                on_file_cb_watcher(rel.clone(), size);
+
+                                // If uploaded file is an HTML or tournament file, schedule debounced parse
+                                if filename != "data.json"
+                                    && filename != "data_clean.json"
+                                    && (filename.ends_with(".html") || filename.ends_with(".php"))
+                                {
+                                    let tour_dir =
+                                        path.parent().unwrap_or(&root_for_watcher_clone).to_path_buf();
+                                    let dmap = debounce_map_clone.clone();
+                                    let cb = on_file_cb_watcher.clone();
+                                    let root_base = root_for_watcher_clone.clone();
+                                    let tdir = tour_dir.clone();
+                                    let rt_inner = rt_for_watcher.clone();
+
+                                    rt_for_watcher.spawn(async move {
+                                        let mut map = dmap.lock().await;
+                                        if let Some(existing) = map.remove(&tdir) {
+                                            existing.abort();
+                                        }
+
+                                        let target_dir = tdir.clone();
+                                        let map_key = tdir.clone();
+
+                                        let task = rt_inner.spawn(async move {
+                                            tokio::time::sleep(Duration::from_millis(1500)).await;
+                                            if let Ok(res) = run_tournament_parser(target_dir.clone()).await {
+                                                for gen_file in res.files_generated {
+                                                    let gen_path = target_dir.join(&gen_file);
+                                                    let sz = std::fs::metadata(&gen_path)
+                                                        .map(|m| m.len())
+                                                        .unwrap_or(0);
+                                                    let gen_rel = gen_path
+                                                        .strip_prefix(&root_base)
+                                                        .unwrap_or(&gen_path)
+                                                        .to_string_lossy()
+                                                        .to_string();
+                                                    cb(gen_rel, sz);
+                                                }
+                                            }
+                                        });
+
+                                        map.insert(map_key, task);
+                                    });
+                                }
                             }
                         }
                     }

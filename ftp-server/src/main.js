@@ -177,20 +177,20 @@ async function init() {
         emptyState.style.display = "none";
       }
 
-      const item = document.createElement("div");
-      item.className = "activity-item";
-
-      const icon = getFileIcon(payload.filename);
-      const sizeStr = formatBytes(payload.size_bytes);
-      const timeStr = new Date().toLocaleTimeString();
+      const isJson = payload.filename === "data.json" || payload.filename === "data_clean.json";
+      const tagHtml = isJson ? '<span class="tag-generated">Parsed JSON</span>' : '';
+      const encodedPath = encodeURI(payload.relative_path.replace(/\\/g, "/"));
+      const previewUrl = `http://127.0.0.1:${state.httpPort}/${encodedPath}`;
 
       item.innerHTML = `
         <div class="activity-left">
           <span class="activity-icon">${icon}</span>
           <span class="activity-name" title="${payload.relative_path}">${payload.relative_path}</span>
+          ${tagHtml}
         </div>
         <div class="activity-right">
           <span>${sizeStr}</span>
+          <button class="btn btn-xs preview-link" data-url="${previewUrl}">🌐 Preview</button>
           <span>${timeStr}</span>
           <span style="color: var(--success);">✓</span>
         </div>
@@ -203,6 +203,21 @@ async function init() {
     showToast(`Init error: ${err}`);
   }
 }
+
+// Activity list click listener for file preview
+activityList.addEventListener("click", async (e) => {
+  const previewBtn = e.target.closest(".preview-link");
+  if (previewBtn) {
+    const url = previewBtn.getAttribute("data-url");
+    if (url) {
+      try {
+        await openUrl(url);
+      } catch (err) {
+        showToast(`Failed to open preview: ${err}`);
+      }
+    }
+  }
+});
 
 // Event Listeners
 toggleServerBtn.addEventListener("click", () => {
