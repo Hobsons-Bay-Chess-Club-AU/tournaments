@@ -3,7 +3,28 @@ mod tests {
     use std::fs;
     use std::sync::atomic::{AtomicUsize, Ordering};
     use std::sync::Arc;
+    use tokio::io::{AsyncReadExt, AsyncWriteExt};
     use tokio::time::{sleep, Duration};
+
+    async fn http_get(port: u16, path: &str) -> (u16, String) {
+        let mut stream = tokio::net::TcpStream::connect(format!("127.0.0.1:{}", port))
+            .await
+            .expect("Failed to connect to HTTP preview server");
+        let req = format!(
+            "GET {} HTTP/1.1\r\nHost: 127.0.0.1\r\nConnection: close\r\n\r\n",
+            path
+        );
+        stream.write_all(req.as_bytes()).await.unwrap();
+        let mut buf = Vec::new();
+        stream.read_to_end(&mut buf).await.unwrap();
+        let response = String::from_utf8_lossy(&buf).to_string();
+        let status = if response.starts_with("HTTP/1.1 200") || response.starts_with("HTTP/1.0 200") {
+            200
+        } else {
+            500
+        };
+        (status, response)
+    }
 
     #[test]
     fn test_skeleton() {
@@ -81,19 +102,13 @@ mod tests {
         assert!(content.contains("Round 1 Standings"));
 
         // 5. Verify HTTP preview server serves the uploaded file
-        let resp = reqwest::get(format!("http://127.0.0.1:{}/standings.html", http_port))
-            .await
-            .expect("HTTP GET failed");
-        assert_eq!(resp.status(), 200);
-        let body = resp.text().await.unwrap();
+        let (status, body) = http_get(http_port, "/standings.html").await;
+        assert_eq!(status, 200);
         assert!(body.contains("Round 1 Standings"));
 
         // 6. Verify directory index listing
-        let root_resp = reqwest::get(format!("http://127.0.0.1:{}/", http_port))
-            .await
-            .expect("HTTP root index failed");
-        assert_eq!(root_resp.status(), 200);
-        let index_body = root_resp.text().await.unwrap();
+        let (root_status, index_body) = http_get(http_port, "/").await;
+        assert_eq!(root_status, 200);
         assert!(index_body.contains("standings.html"));
 
         // 7. Clean shutdown
@@ -171,12 +186,8 @@ mod tests {
 
         sleep(Duration::from_millis(200)).await;
 
-        let resp = reqwest::get(format!("http://127.0.0.1:{}/index.html", port))
-            .await
-            .expect("HTTP GET failed");
-
-        assert_eq!(resp.status(), 200);
-        let body = resp.text().await.unwrap();
+        let (status, body) = http_get(port, "/index.html").await;
+        assert_eq!(status, 200);
         assert!(body.contains("Vega Tournament"));
 
         handle.stop().await;

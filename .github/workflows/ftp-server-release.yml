@@ -89,7 +89,7 @@ jobs:
       - name: Run Tests
         shell: bash
         working-directory: ftp-server
-        run: cargo test --manifest-path src-tauri/Cargo.toml
+        run: cargo test --lib --manifest-path src-tauri/Cargo.toml
 
       - name: Build and Publish Tauri Release
         uses: tauri-apps/tauri-action@v0
