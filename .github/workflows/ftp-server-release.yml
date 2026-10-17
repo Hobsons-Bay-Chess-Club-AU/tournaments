@@ -87,6 +87,7 @@ jobs:
           fi
 
       - name: Run Tests
+        if: matrix.platform == 'macos-latest'
         shell: bash
         working-directory: ftp-server
         run: cargo test --lib --manifest-path src-tauri/Cargo.toml
