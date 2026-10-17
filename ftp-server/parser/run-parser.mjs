@@ -3,6 +3,7 @@ import path from "path";
 import fs from "fs/promises";
 import { fileURLToPath } from "url";
 import { processFolder } from "../../src/vega-parser.mjs";
+import { upsertTournamentToSupabase, isSupabaseConfigured } from "../../src/supabase.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -29,6 +30,31 @@ async function main() {
     });
 
     if (result) {
+      let supabaseStatus = "skipped (not configured)";
+      if (isSupabaseConfigured()) {
+        try {
+          console.log(`[Vega Parser] Supabase configured. Upserting tournament: ${path.basename(resolvedDir)}...`);
+          const sbRes = await upsertTournamentToSupabase({
+            websiteName: path.basename(resolvedDir),
+            repoPath: path.resolve(resolvedDir, ".."),
+            result: result,
+            fullData: result
+          });
+          if (sbRes.success) {
+            supabaseStatus = "upserted";
+            console.log(`[Vega Parser] Successfully upserted tournament to Supabase!`);
+          } else {
+            supabaseStatus = `warning: ${sbRes.error?.message || sbRes.reason}`;
+            console.warn(`[Vega Parser] Supabase sync warning:`, sbRes.error || sbRes.reason);
+          }
+        } catch (sbErr) {
+          supabaseStatus = `error: ${sbErr.message}`;
+          console.error(`[Vega Parser] Supabase exception:`, sbErr.message);
+        }
+      } else {
+        console.log(`[Vega Parser] Supabase credentials not found; skipping cloud sync.`);
+      }
+
       const info = {
         success: true,
         folder: resolvedDir,
@@ -36,7 +62,8 @@ async function main() {
         category: result.category || "Senior",
         playerCount: result.players?.length || 0,
         filesGenerated: ["data.json", "data_clean.json"],
-        md5Hash: result.md5Hash || ""
+        md5Hash: result.md5Hash || "",
+        supabase: supabaseStatus
       };
       console.log(`[Vega Parser] Output: ${JSON.stringify(info)}`);
     } else {

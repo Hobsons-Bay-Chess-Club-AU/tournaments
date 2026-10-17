@@ -13,8 +13,11 @@ function loadEnv() {
     const envPaths = [
         path.join(ROOT_DIR, 'scripts', '.env'),
         path.join(ROOT_DIR, '.env'),
+        path.join(ROOT_DIR, 'ftp-server', '.env'),
         path.join(process.cwd(), 'scripts', '.env'),
-        path.join(process.cwd(), '.env')
+        path.join(process.cwd(), 'ftp-server', '.env'),
+        path.join(process.cwd(), '.env'),
+        path.join(path.dirname(process.execPath), '.env')
     ];
 
     for (const envPath of envPaths) {
@@ -34,10 +37,10 @@ export function getSupabase() {
     }
 
     const supabaseUrl = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL;
-    const supabaseKey = process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_PUBLISHABLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
+    const supabaseKey = process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_ANON_KEY || process.env.SUPABASE_PUBLISHABLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
 
     if (!supabaseUrl || !supabaseKey) {
-        console.warn('[Supabase] Warning: Missing SUPABASE_URL or SUPABASE_SECRET_KEY in environment.');
+        console.warn('[Supabase] Warning: Missing SUPABASE_URL or SUPABASE_SECRET_KEY / SUPABASE_ANON_KEY in environment.');
         return null;
     }
 
@@ -53,7 +56,7 @@ export function getSupabase() {
 
 export function isSupabaseConfigured() {
     const supabaseUrl = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL;
-    const supabaseKey = process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_PUBLISHABLE_KEY;
+    const supabaseKey = process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_ANON_KEY || process.env.SUPABASE_PUBLISHABLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
     return Boolean(supabaseUrl && supabaseKey);
 }
 
