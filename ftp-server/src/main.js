@@ -5,16 +5,22 @@ import { openPath, openUrl } from "@tauri-apps/plugin-opener";
 import { check as checkUpdate } from "@tauri-apps/plugin-updater";
 import { LazyStore } from "@tauri-apps/plugin-store";
 
-// DOM Elements
+// Views & Navigation
+const navDashboardBtn = document.getElementById("navDashboardBtn");
+const navSettingsBtn = document.getElementById("navSettingsBtn");
+const backToDashBtn = document.getElementById("backToDashBtn");
+const dashboardView = document.getElementById("dashboardView");
+const settingsView = document.getElementById("settingsView");
+
+// Header Elements
 const statusPill = document.getElementById("statusPill");
 const statusText = document.getElementById("statusText");
 const toggleServerBtn = document.getElementById("toggleServerBtn");
 const previewSiteBtn = document.getElementById("previewSiteBtn");
-const folderPathText = document.getElementById("folderPathText");
-const changeFolderBtn = document.getElementById("changeFolderBtn");
-const openFolderBtn = document.getElementById("openFolderBtn");
-const ftpPortInput = document.getElementById("ftpPortInput");
-const httpPortInput = document.getElementById("httpPortInput");
+
+// Dashboard Elements
+const dashFolderPath = document.getElementById("dashFolderPath");
+const dashOpenFolderBtn = document.getElementById("dashOpenFolderBtn");
 const vHost = document.getElementById("vHost");
 const vPort = document.getElementById("vPort");
 const copyVegaBtn = document.getElementById("copyVegaBtn");
@@ -22,6 +28,16 @@ const uploadBadge = document.getElementById("uploadBadge");
 const clearLogsBtn = document.getElementById("clearLogsBtn");
 const activityList = document.getElementById("activityList");
 const emptyState = document.getElementById("emptyState");
+
+// Settings Elements
+const settingsFolderPath = document.getElementById("settingsFolderPath");
+const changeFolderBtn = document.getElementById("changeFolderBtn");
+const openFolderBtn = document.getElementById("openFolderBtn");
+const ftpPortInput = document.getElementById("ftpPortInput");
+const httpPortInput = document.getElementById("httpPortInput");
+const resetDefaultsBtn = document.getElementById("resetDefaultsBtn");
+const applySettingsBtn = document.getElementById("applySettingsBtn");
+const settingsVersion = document.getElementById("settingsVersion");
 const checkUpdateBtn = document.getElementById("checkUpdateBtn");
 const toast = document.getElementById("toast");
 
@@ -44,8 +60,22 @@ function showToast(message, duration = 3000) {
   }, duration);
 }
 
+function switchTab(tab) {
+  if (tab === "dashboard") {
+    dashboardView.classList.add("active");
+    settingsView.classList.remove("active");
+    navDashboardBtn.classList.add("active");
+    navSettingsBtn.classList.remove("active");
+  } else {
+    dashboardView.classList.remove("active");
+    settingsView.classList.add("active");
+    navDashboardBtn.classList.remove("active");
+    navSettingsBtn.classList.add("active");
+  }
+}
+
 function formatBytes(bytes) {
-  if (bytes === 0) return "0 B";
+  if (!bytes || bytes === 0) return "0 B";
   const k = 1024;
   const sizes = ["B", "KB", "MB", "GB"];
   const i = Math.floor(Math.log(bytes) / Math.log(k));
@@ -90,18 +120,27 @@ function updateUI() {
     toggleServerBtn.className = "btn btn-primary";
   }
 
-  folderPathText.textContent = state.storageDir || "Not set";
-  folderPathText.title = state.storageDir || "";
+  const displayDir = state.storageDir || "Not set";
+  if (dashFolderPath) {
+    dashFolderPath.textContent = displayDir;
+    dashFolderPath.title = displayDir;
+  }
+  if (settingsFolderPath) {
+    settingsFolderPath.textContent = displayDir;
+    settingsFolderPath.title = displayDir;
+  }
+
   ftpPortInput.value = state.ftpPort;
   httpPortInput.value = state.httpPort;
   vPort.textContent = state.ftpPort;
+  vHost.textContent = "127.0.0.1";
   uploadBadge.textContent = `${state.uploadCount} file${state.uploadCount === 1 ? "" : "s"}`;
 }
 
 async function startServer() {
   try {
-    const ftpPort = parseInt(ftpPortInput.value, 10) || 2121;
-    const httpPort = parseInt(httpPortInput.value, 10) || 8080;
+    const ftpPort = state.ftpPort;
+    const httpPort = state.httpPort;
 
     toggleServerBtn.disabled = true;
     toggleServerBtn.textContent = "Starting...";
@@ -177,8 +216,18 @@ async function init() {
         emptyState.style.display = "none";
       }
 
+      const item = document.createElement("div");
+      item.className = "activity-item";
+      const icon = getFileIcon(payload.filename);
+      const sizeStr = formatBytes(payload.size_bytes);
+      const timeStr = new Date(payload.timestamp * 1000).toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+      });
+
       const isJson = payload.filename === "data.json" || payload.filename === "data_clean.json";
-      const tagHtml = isJson ? '<span class="tag-generated">Parsed JSON</span>' : '';
+      const tagHtml = isJson ? '<span class="tag-generated">Parsed JSON</span>' : "";
       const encodedPath = encodeURI(payload.relative_path.replace(/\\/g, "/"));
       const previewUrl = `http://127.0.0.1:${state.httpPort}/${encodedPath}`;
 
@@ -204,6 +253,11 @@ async function init() {
   }
 }
 
+// Navigation event listeners
+navDashboardBtn.addEventListener("click", () => switchTab("dashboard"));
+navSettingsBtn.addEventListener("click", () => switchTab("settings"));
+backToDashBtn.addEventListener("click", () => switchTab("dashboard"));
+
 // Activity list click listener for file preview
 activityList.addEventListener("click", async (e) => {
   const previewBtn = e.target.closest(".preview-link");
@@ -219,47 +273,12 @@ activityList.addEventListener("click", async (e) => {
   }
 });
 
-// Event Listeners
+// Server Controls
 toggleServerBtn.addEventListener("click", () => {
   if (state.isRunning) {
     stopServer();
   } else {
     startServer();
-  }
-});
-
-changeFolderBtn.addEventListener("click", async () => {
-  try {
-    const selected = await openDialog({
-      directory: true,
-      multiple: false,
-      defaultPath: state.storageDir,
-    });
-    if (selected) {
-      state.storageDir = selected;
-      await store.set("storageDir", selected);
-      await store.save();
-      updateUI();
-
-      if (state.isRunning) {
-        showToast("Storage folder changed. Restarting server...");
-        await stopServer();
-        await startServer();
-      } else {
-        showToast("Storage folder updated");
-      }
-    }
-  } catch (err) {
-    showToast(`Failed to select directory: ${err}`);
-  }
-});
-
-openFolderBtn.addEventListener("click", async () => {
-  if (!state.storageDir) return;
-  try {
-    await openPath(state.storageDir);
-  } catch (err) {
-    showToast(`Failed to open folder: ${err}`);
   }
 });
 
@@ -272,17 +291,17 @@ previewSiteBtn.addEventListener("click", async () => {
   }
 });
 
-ftpPortInput.addEventListener("change", () => {
-  vPort.textContent = ftpPortInput.value;
-});
-
+// Vega config clipboard copy
 copyVegaBtn.addEventListener("click", () => {
   const configText = `Host: 127.0.0.1\nPort: ${state.ftpPort}\nUsername: vega\nPassword: vega\nDirectory: /`;
-  navigator.clipboard.writeText(configText).then(() => {
-    showToast("📋 Vega FTP settings copied to clipboard!");
-  }).catch(() => {
-    showToast("Could not access clipboard");
-  });
+  navigator.clipboard
+    .writeText(configText)
+    .then(() => {
+      showToast("📋 Vega FTP settings copied to clipboard!");
+    })
+    .catch(() => {
+      showToast("Could not access clipboard");
+    });
 });
 
 clearLogsBtn.addEventListener("click", () => {
@@ -294,6 +313,92 @@ clearLogsBtn.addEventListener("click", () => {
   `;
   state.uploadCount = 0;
   updateUI();
+});
+
+// Folder Actions
+const handleOpenFolder = async () => {
+  if (!state.storageDir) return;
+  try {
+    await openPath(state.storageDir);
+  } catch (err) {
+    showToast(`Failed to open folder: ${err}`);
+  }
+};
+
+dashOpenFolderBtn.addEventListener("click", handleOpenFolder);
+openFolderBtn.addEventListener("click", handleOpenFolder);
+
+changeFolderBtn.addEventListener("click", async () => {
+  try {
+    const selected = await openDialog({
+      directory: true,
+      multiple: false,
+      defaultPath: state.storageDir,
+    });
+    if (selected) {
+      state.storageDir = selected;
+      updateUI();
+      showToast("Storage folder selected. Click 'Save & Restart' to apply.");
+    }
+  } catch (err) {
+    showToast(`Failed to select directory: ${err}`);
+  }
+});
+
+// Settings Save / Reset Actions
+applySettingsBtn.addEventListener("click", async () => {
+  try {
+    const newFtp = parseInt(ftpPortInput.value, 10);
+    const newHttp = parseInt(httpPortInput.value, 10);
+
+    if (isNaN(newFtp) || newFtp < 1 || newFtp > 65535) {
+      showToast("Invalid FTP port (1-65535)");
+      return;
+    }
+    if (isNaN(newHttp) || newHttp < 1 || newHttp > 65535) {
+      showToast("Invalid HTTP port (1-65535)");
+      return;
+    }
+    if (newFtp === newHttp) {
+      showToast("FTP and HTTP ports cannot be the same!");
+      return;
+    }
+
+    state.ftpPort = newFtp;
+    state.httpPort = newHttp;
+
+    await store.set("ftpPort", state.ftpPort);
+    await store.set("httpPort", state.httpPort);
+    await store.set("storageDir", state.storageDir);
+    await store.save();
+
+    if (state.isRunning) {
+      showToast("Restarting server with updated configuration...");
+      await stopServer();
+      await startServer();
+    } else {
+      updateUI();
+      showToast("Settings saved!");
+    }
+
+    // Switch back to dashboard view
+    switchTab("dashboard");
+  } catch (err) {
+    showToast(`Failed to apply settings: ${err}`);
+  }
+});
+
+resetDefaultsBtn.addEventListener("click", async () => {
+  try {
+    const defaultDir = await invoke("get_default_storage_dir");
+    state.storageDir = defaultDir;
+    state.ftpPort = 2121;
+    state.httpPort = 8080;
+    updateUI();
+    showToast("Settings reset to defaults. Click 'Save & Restart' to apply.");
+  } catch (err) {
+    showToast(`Failed to reset defaults: ${err}`);
+  }
 });
 
 checkUpdateBtn.addEventListener("click", async () => {

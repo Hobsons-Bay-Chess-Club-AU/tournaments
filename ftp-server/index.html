@@ -14,9 +14,16 @@
           <span class="brand-icon">♞</span>
           <div class="brand-info">
             <h1>HBCC Tournament Server</h1>
-            <p>Hobsons Bay Chess Club • Local FTP & Preview Server</p>
+            <p>Hobsons Bay Chess Club • Vega FTP & Preview</p>
           </div>
         </div>
+
+        <!-- Navigation Tabs -->
+        <nav class="nav-tabs">
+          <button id="navDashboardBtn" class="nav-tab active">📊 Dashboard</button>
+          <button id="navSettingsBtn" class="nav-tab">⚙️ Settings</button>
+        </nav>
+
         <div class="header-actions">
           <div id="statusPill" class="status-pill offline">
             <span class="pulse-dot"></span>
@@ -27,81 +34,124 @@
         </div>
       </header>
 
-      <!-- Settings Card -->
-      <section class="card">
-        <div class="card-title">
-          <span>Server Configuration</span>
-          <span id="serverInfoTag" style="font-size: 0.75rem; color: var(--text-dim);">Listening on localhost (127.0.0.1)</span>
+      <!-- VIEW 1: Arbiter Dashboard -->
+      <main id="dashboardView" class="view-panel active">
+        <!-- Quick Storage Folder Banner -->
+        <div class="folder-banner">
+          <div class="folder-banner-info">
+            <span class="label">Tournament Storage Folder:</span>
+            <span id="dashFolderPath" class="path-snippet">Loading folder...</span>
+          </div>
+          <button id="dashOpenFolderBtn" class="btn btn-secondary btn-sm">📁 Open Folder</button>
         </div>
-        <div style="display: flex; flex-direction: column; gap: 0.85rem;">
-          <!-- Folder row -->
-          <div class="form-group">
-            <label>Staging Storage Folder</label>
-            <div class="folder-display">
-              <span id="folderPathText" class="folder-path">Loading storage path...</span>
-              <button id="changeFolderBtn" class="btn btn-secondary btn-sm">Browse</button>
-              <button id="openFolderBtn" class="btn btn-secondary btn-sm" title="Reveal folder in Finder/Explorer">📁 Open Folder</button>
+
+        <!-- Vega Connection Helper -->
+        <section class="card">
+          <div class="card-title">
+            <span>Vega Chess Quick Connection</span>
+            <span style="font-size: 0.75rem; color: var(--text-muted);">Paste into Vega &gt; Options &gt; Internet FTP</span>
+          </div>
+          <div class="vega-box">
+            <div class="vega-params">
+              <span class="param">Host: <strong id="vHost">127.0.0.1</strong></span>
+              <span class="param">Port: <strong id="vPort">2121</strong></span>
+              <span class="param">User: <strong>any</strong></span>
+              <span class="param">Password: <strong>any</strong></span>
+              <span class="param">Directory: <strong>/</strong></span>
+            </div>
+            <button id="copyVegaBtn" class="btn btn-secondary btn-sm">📋 Copy Settings</button>
+          </div>
+        </section>
+
+        <!-- Live Activity Log -->
+        <section class="card activity-card">
+          <div class="activity-header">
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+              <span style="font-size: 0.95rem; font-weight: 600;">Live Upload Activity</span>
+              <span id="uploadBadge" class="status-pill online" style="padding: 0.15rem 0.5rem; font-size: 0.7rem;">0 files</span>
+            </div>
+            <button id="clearLogsBtn" class="btn btn-secondary btn-sm">Clear</button>
+          </div>
+          <div id="activityList" class="activity-list">
+            <div class="empty-state" id="emptyState">
+              <span>📡 Waiting for Vega upload...</span>
+              <span style="font-size: 0.75rem;">Run Vega Chess and publish rounds to see live uploads here</span>
             </div>
           </div>
+        </section>
+      </main>
 
-          <!-- Ports row -->
-          <div class="grid-2">
+      <!-- VIEW 2: Advanced Settings / Server Configuration -->
+      <main id="settingsView" class="view-panel">
+        <section class="card">
+          <div class="card-title">
+            <span>Server Configuration</span>
+            <span style="font-size: 0.75rem; color: var(--text-dim);">Advanced settings</span>
+          </div>
+          <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1.25rem;">
+            Default values work for almost all tournaments. Only modify these ports if port 2121 or 8080 conflicts with other software on your laptop.
+          </p>
+
+          <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+            <!-- Folder Selection -->
             <div class="form-group">
-              <label>FTP Server Port</label>
-              <input type="number" id="ftpPortInput" value="2121" min="1" max="65535" />
+              <label>Storage Directory</label>
+              <div class="folder-display">
+                <span id="settingsFolderPath" class="folder-path">Loading storage path...</span>
+                <button id="changeFolderBtn" class="btn btn-secondary btn-sm">Browse</button>
+                <button id="openFolderBtn" class="btn btn-secondary btn-sm">📁 Open Folder</button>
+              </div>
             </div>
-            <div class="form-group">
-              <label>HTTP Preview Port</label>
-              <input type="number" id="httpPortInput" value="8080" min="1" max="65535" />
+
+            <!-- Ports Configuration -->
+            <div class="grid-2">
+              <div class="form-group">
+                <label>FTP Server Port</label>
+                <input type="number" id="ftpPortInput" value="2121" min="1" max="65535" />
+                <span style="font-size: 0.7rem; color: var(--text-dim); margin-top: 0.25rem;">Default: 2121 (Vega publishes to this port)</span>
+              </div>
+              <div class="form-group">
+                <label>HTTP Preview Port</label>
+                <input type="number" id="httpPortInput" value="8080" min="1" max="65535" />
+                <span style="font-size: 0.7rem; color: var(--text-dim); margin-top: 0.25rem;">Default: 8080 (serves local tournament preview)</span>
+              </div>
+            </div>
+
+            <!-- Settings Actions -->
+            <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+              <button id="resetDefaultsBtn" class="btn btn-secondary btn-sm">Reset to Defaults</button>
+              <div style="display: flex; gap: 0.75rem;">
+                <button id="backToDashBtn" class="btn btn-secondary btn-sm">← Back to Dashboard</button>
+                <button id="applySettingsBtn" class="btn btn-primary btn-sm">Save & Restart</button>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- Vega Setup Helper -->
-      <section class="card">
-        <div class="card-title">
-          <span>Vega Chess Connection Helper</span>
-          <span style="font-size: 0.75rem; color: var(--text-muted);">Paste into Vega &gt; Options &gt; Internet FTP</span>
-        </div>
-        <div class="vega-box">
-          <div class="vega-params">
-            <span class="param">Host: <strong id="vHost">127.0.0.1</strong></span>
-            <span class="param">Port: <strong id="vPort">2121</strong></span>
-            <span class="param">User: <strong>any</strong></span>
-            <span class="param">Password: <strong>any</strong></span>
-            <span class="param">Directory: <strong>/</strong></span>
+        <!-- System & Updater Info -->
+        <section class="card">
+          <div class="card-title">
+            <span>Updates & Diagnostics</span>
           </div>
-          <button id="copyVegaBtn" class="btn btn-secondary btn-sm">📋 Copy Settings</button>
-        </div>
-      </section>
-
-      <!-- Live Activity Log -->
-      <section class="card activity-card">
-        <div class="activity-header">
-          <div style="display: flex; align-items: center; gap: 0.5rem;">
-            <span style="font-size: 0.95rem; font-weight: 600;">Live Upload Activity</span>
-            <span id="uploadBadge" class="status-pill online" style="padding: 0.15rem 0.5rem; font-size: 0.7rem;">0 files</span>
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+              <p style="font-size: 0.85rem; font-weight: 500;">HBCC Vega Tournament Server</p>
+              <p style="font-size: 0.75rem; color: var(--text-muted);">Current Version: <span id="settingsVersion">v0.1.0</span></p>
+            </div>
+            <button id="checkUpdateBtn" class="btn btn-secondary btn-sm">Check for Updates</button>
           </div>
-          <button id="clearLogsBtn" class="btn btn-secondary btn-sm">Clear</button>
-        </div>
-        <div id="activityList" class="activity-list">
-          <div class="empty-state" id="emptyState">
-            <span>📡 Waiting for Vega upload...</span>
-            <span style="font-size: 0.75rem;">Run Vega Chess and publish rounds to see live uploads here</span>
-          </div>
-        </div>
-      </section>
+        </section>
+      </main>
 
       <!-- Footer -->
       <footer>
         <div class="footer-left">
-          <span>HBCC Vega Server</span>
+          <span>HBCC Tournament Server</span>
           <span>•</span>
           <span id="appVersion">v0.1.0</span>
         </div>
         <div class="footer-right">
-          <button id="checkUpdateBtn" class="btn btn-secondary btn-sm">Check for Updates</button>
+          <span style="color: var(--text-dim);">Hobsons Bay Chess Club</span>
         </div>
       </footer>
 
