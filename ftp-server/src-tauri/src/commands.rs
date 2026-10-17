@@ -149,6 +149,21 @@ pub fn open_folder(path: String) -> Result<(), String> {
     Ok(())
 }
 
+#[derive(Clone, Serialize)]
+pub struct AuthInfo {
+    pub user_count: usize,
+    pub usernames: Vec<String>,
+}
+
+#[tauri::command]
+pub fn get_auth_info() -> Result<AuthInfo, String> {
+    let auth = crate::ftp::auth::KeypairAuthenticator::from_env_or_default();
+    Ok(AuthInfo {
+        user_count: auth.user_count(),
+        usernames: auth.usernames(),
+    })
+}
+
 fn format_iso_timestamp() -> String {
     let now = std::time::SystemTime::now();
     let duration = now.duration_since(std::time::UNIX_EPOCH).unwrap_or_default();

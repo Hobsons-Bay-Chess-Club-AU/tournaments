@@ -23,6 +23,9 @@ const dashFolderPath = document.getElementById("dashFolderPath");
 const dashOpenFolderBtn = document.getElementById("dashOpenFolderBtn");
 const vHost = document.getElementById("vHost");
 const vPort = document.getElementById("vPort");
+const vUser = document.getElementById("vUser");
+const vPass = document.getElementById("vPass");
+const authBadge = document.getElementById("authBadge");
 const copyVegaBtn = document.getElementById("copyVegaBtn");
 const uploadBadge = document.getElementById("uploadBadge");
 const clearLogsBtn = document.getElementById("clearLogsBtn");
@@ -50,6 +53,7 @@ let state = {
   ftpPort: 2121,
   httpPort: 8080,
   uploadCount: 0,
+  authInfo: { user_count: 0, usernames: [] },
 };
 
 function showToast(message, duration = 3000) {
@@ -201,6 +205,22 @@ async function init() {
     const savedHttp = await store.get("httpPort");
     if (savedHttp) state.httpPort = savedHttp;
 
+    try {
+      const auth = await invoke("get_auth_info");
+      state.authInfo = auth;
+      if (auth.user_count === 1) {
+        if (vUser) vUser.textContent = auth.usernames[0];
+        if (vPass) vPass.textContent = "••••••••";
+        if (authBadge) authBadge.textContent = `🔒 Protected: 1 authorized arbiter account (${auth.usernames[0]})`;
+      } else if (auth.user_count > 1) {
+        if (vUser) vUser.textContent = "Assigned Username";
+        if (vPass) vPass.textContent = "Assigned Password";
+        if (authBadge) authBadge.textContent = `🔒 Protected: ${auth.user_count} authorized arbiter accounts configured`;
+      }
+    } catch (authErr) {
+      console.warn("Could not load auth info:", authErr);
+    }
+
     updateUI();
 
     // 2. Auto-start server on launch
@@ -293,7 +313,15 @@ previewSiteBtn.addEventListener("click", async () => {
 
 // Vega config clipboard copy
 copyVegaBtn.addEventListener("click", () => {
-  const configText = `Host: 127.0.0.1\nPort: ${state.ftpPort}\nUsername: vega\nPassword: vega\nDirectory: /`;
+  const userStr =
+    state.authInfo?.user_count === 1
+      ? state.authInfo.usernames[0]
+      : "<your_arbiter_username>";
+  const passStr =
+    state.authInfo?.user_count === 1 && state.authInfo.usernames[0] === "vega"
+      ? "vega"
+      : "<your_arbiter_password>";
+  const configText = `Host: 127.0.0.1\nPort: ${state.ftpPort}\nUsername: ${userStr}\nPassword: ${passStr}\nDirectory: /`;
   navigator.clipboard
     .writeText(configText)
     .then(() => {

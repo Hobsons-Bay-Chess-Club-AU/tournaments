@@ -1,7 +1,7 @@
 pub mod auth;
 
+use crate::ftp::auth::KeypairAuthenticator;
 use crate::parser::run_tournament_parser;
-use libunftp::auth::AnonymousAuthenticator;
 use libunftp::options::Shutdown;
 use notify::{Config, Event, EventKind, RecommendedWatcher, RecursiveMode, Watcher};
 use std::collections::HashMap;
@@ -45,10 +45,12 @@ where
     let root_for_watcher = root_dir.clone();
     let (shutdown_tx, shutdown_rx) = oneshot::channel::<()>();
 
+    let authenticator = Arc::new(KeypairAuthenticator::from_env_or_default());
+
     let server = libunftp::ServerBuilder::new(Box::new(move || {
         Filesystem::new(root_for_fs.clone()).unwrap()
     }))
-    .authenticator(Arc::new(AnonymousAuthenticator))
+    .authenticator(authenticator)
     .greeting("HBCC Vega Tournament FTP Server ready")
     .shutdown_indicator(async move {
         let _ = shutdown_rx.await;

@@ -28,5 +28,27 @@ async fn test_ftp_server_lifecycle_and_permissive_auth() {
     let stream = tokio::net::TcpStream::connect(format!("127.0.0.1:{}", port)).await;
     assert!(stream.is_ok(), "Failed to connect to FTP port");
 
+    // Test rejection of unauthorized credentials
+    let test_file = root_path.join("unauth.txt");
+    std::fs::write(&test_file, "malicious").unwrap();
+
+    let output = tokio::process::Command::new("curl")
+        .args([
+            "-T",
+            test_file.to_str().unwrap(),
+            &format!("ftp://127.0.0.1:{}/unauth.txt", port),
+            "--user",
+            "unauthorized_user:wrong_password",
+        ])
+        .output()
+        .await
+        .expect("Failed to execute curl");
+
+    // Rejection: status is non-zero (CURLE_LOGIN_DENIED)
+    assert!(
+        !output.status.success(),
+        "Unauthorized user should be rejected by FTP authenticator"
+    );
+
     server_handle.stop().await;
 }
