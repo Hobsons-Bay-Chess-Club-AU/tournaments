@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - feat/ftp-server
     paths:
       - 'ftp-server/**'
       - '.github/workflows/ftp-server-release.yml'
