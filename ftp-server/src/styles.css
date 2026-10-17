@@ -176,6 +176,114 @@ header {
   white-space: nowrap;
 }
 
+/* Modern Unified Server Toggle Switch */
+.server-toggle-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  padding: 0.3rem 0.65rem 0.3rem 0.85rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--shadow-sm);
+}
+
+.server-toggle-control:hover {
+  background-color: var(--bg-tertiary);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.server-toggle-control.online {
+  border-color: rgba(16, 185, 129, 0.4);
+  background-color: rgba(16, 185, 129, 0.1);
+}
+
+.server-toggle-control.online:hover {
+  background-color: rgba(16, 185, 129, 0.16);
+  border-color: rgba(16, 185, 129, 0.6);
+}
+
+.status-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.server-toggle-control.online .status-indicator {
+  color: #34d399;
+}
+
+.server-toggle-control .pulse-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--danger);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.server-toggle-control.online .pulse-dot {
+  background-color: var(--success);
+  box-shadow: 0 0 8px var(--success);
+  animation: pulse 2s infinite;
+}
+
+/* Hide native checkbox inside toggle control */
+.server-toggle-control input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+/* iOS-Style Toggle Switch */
+.toggle-switch {
+  position: relative;
+  width: 38px;
+  height: 22px;
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: 9999px;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.25s ease;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  flex-shrink: 0;
+}
+
+.toggle-slider {
+  width: 16px;
+  height: 16px;
+  background-color: #94a3b8;
+  border-radius: 50%;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Checked / Online State */
+.server-toggle-control input:checked + .toggle-switch {
+  background-color: var(--success);
+  border-color: var(--success);
+}
+
+.server-toggle-control input:checked + .toggle-switch .toggle-slider {
+  transform: translateX(16px);
+  background-color: #ffffff;
+}
+
+/* Disabled / Busy State */
+.server-toggle-control.busy {
+  opacity: 0.65;
+  cursor: wait;
+  pointer-events: none;
+}
+
 /* Status Pill */
 .status-pill {
   display: flex;

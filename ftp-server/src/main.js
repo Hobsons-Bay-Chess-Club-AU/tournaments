@@ -12,10 +12,10 @@ const backToDashBtn = document.getElementById("backToDashBtn");
 const dashboardView = document.getElementById("dashboardView");
 const settingsView = document.getElementById("settingsView");
 
-// Header Elements
-const statusPill = document.getElementById("statusPill");
-const statusText = document.getElementById("statusText");
-const toggleServerBtn = document.getElementById("toggleServerBtn");
+// Header Elements (Unified Toggle Control)
+const serverToggleControl = document.getElementById("serverToggleControl");
+const serverToggleInput = document.getElementById("serverToggleInput");
+const serverToggleText = document.getElementById("serverToggleText");
 const previewSiteBtn = document.getElementById("previewSiteBtn");
 
 // Dashboard Elements
@@ -108,16 +108,19 @@ function getFileIcon(filename) {
 
 function updateUI() {
   if (state.isRunning) {
-    statusPill.className = "status-pill online";
-    statusText.textContent = `Online (FTP: ${state.ftpPort} | HTTP: ${state.httpPort})`;
-    toggleServerBtn.textContent = "Stop Server";
-    toggleServerBtn.className = "btn btn-danger";
+    serverToggleControl.className = "server-toggle-control online";
+    serverToggleInput.checked = true;
+    serverToggleText.textContent = `Server Online (${state.ftpPort})`;
     previewSiteBtn.disabled = false;
+    previewSiteBtn.style.opacity = "1";
+    previewSiteBtn.style.pointerEvents = "auto";
   } else {
-    statusPill.className = "status-pill offline";
-    statusText.textContent = "Server Stopped";
-    toggleServerBtn.textContent = "Start Server";
-    toggleServerBtn.className = "btn btn-primary";
+    serverToggleControl.className = "server-toggle-control offline";
+    serverToggleInput.checked = false;
+    serverToggleText.textContent = "Server Stopped";
+    previewSiteBtn.disabled = true;
+    previewSiteBtn.style.opacity = "0.5";
+    previewSiteBtn.style.pointerEvents = "none";
   }
 
   const displayDir = state.storageDir || "Not set";
@@ -139,15 +142,12 @@ function updateUI() {
 
 async function startServer() {
   try {
-    const ftpPort = state.ftpPort;
-    const httpPort = state.httpPort;
-
-    toggleServerBtn.disabled = true;
-    toggleServerBtn.textContent = "Starting...";
+    serverToggleControl.classList.add("busy");
+    serverToggleText.textContent = "Starting...";
 
     const status = await invoke("start_services", {
-      ftpPort,
-      httpPort,
+      ftpPort: state.ftpPort,
+      httpPort: state.httpPort,
       storageDir: state.storageDir,
     });
 
@@ -163,22 +163,22 @@ async function startServer() {
   } catch (err) {
     showToast(`Error starting server: ${err}`, 5000);
   } finally {
-    toggleServerBtn.disabled = false;
+    serverToggleControl.classList.remove("busy");
     updateUI();
   }
 }
 
 async function stopServer() {
   try {
-    toggleServerBtn.disabled = true;
-    toggleServerBtn.textContent = "Stopping...";
+    serverToggleControl.classList.add("busy");
+    serverToggleText.textContent = "Stopping...";
     await invoke("stop_services");
     state.isRunning = false;
     showToast("Server stopped");
   } catch (err) {
     showToast(`Error stopping server: ${err}`);
   } finally {
-    toggleServerBtn.disabled = false;
+    serverToggleControl.classList.remove("busy");
     updateUI();
   }
 }
@@ -258,6 +258,15 @@ navDashboardBtn.addEventListener("click", () => switchTab("dashboard"));
 navSettingsBtn.addEventListener("click", () => switchTab("settings"));
 backToDashBtn.addEventListener("click", () => switchTab("dashboard"));
 
+// Unified iOS-style Server Toggle
+serverToggleInput.addEventListener("change", () => {
+  if (serverToggleInput.checked) {
+    startServer();
+  } else {
+    stopServer();
+  }
+});
+
 // Activity list click listener for file preview
 activityList.addEventListener("click", async (e) => {
   const previewBtn = e.target.closest(".preview-link");
@@ -270,15 +279,6 @@ activityList.addEventListener("click", async (e) => {
         showToast(`Failed to open preview: ${err}`);
       }
     }
-  }
-});
-
-// Server Controls
-toggleServerBtn.addEventListener("click", () => {
-  if (state.isRunning) {
-    stopServer();
-  } else {
-    startServer();
   }
 });
 

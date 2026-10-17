@@ -25,11 +25,16 @@
         </nav>
 
         <div class="header-actions">
-          <div id="statusPill" class="status-pill offline">
-            <span class="pulse-dot"></span>
-            <span id="statusText">Stopped</span>
-          </div>
-          <button id="toggleServerBtn" class="btn btn-primary">Start Server</button>
+          <label class="server-toggle-control" id="serverToggleControl" title="Click to start/stop tournament server">
+            <span class="status-indicator">
+              <span class="pulse-dot"></span>
+              <span id="serverToggleText">Server Stopped</span>
+            </span>
+            <input type="checkbox" id="serverToggleInput" aria-label="Toggle Server State">
+            <span class="toggle-switch">
+              <span class="toggle-slider"></span>
+            </span>
+          </label>
           <button id="previewSiteBtn" class="btn btn-outline" title="Open HTTP tournament preview in default browser">🌐 Preview Site</button>
         </div>
       </header>
