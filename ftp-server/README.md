@@ -69,9 +69,23 @@ Build outputs:
 
 ## CI/CD Releases & Auto-Updates
 
-Releases are automatically built and published via GitHub Actions when pushing a version tag:
+Releases are automatically compiled, cryptographically signed with Minisign, and published with `latest.json` for in-app auto-updating via GitHub Actions.
+
+### Quick Version Bump & Release:
+Inside `ftp-server/`:
 ```bash
-git tag ftp-v0.1.0
-git push origin ftp-v0.1.0
+# 1. Update version across package.json, tauri.conf.json, and Cargo.toml
+npm run bump 0.1.2
+
+# 2. Commit and push
+git commit -am "chore(release): bump version to 0.1.2"
+git push
+```
+
+Alternatively, you can trigger a release by pushing a tag:
+```bash
+git tag ftp-v0.1.2
+git push origin ftp-v0.1.2
 ```
 This triggers `.github/workflows/ftp-server-release.yml`, which compiles signed installers for Windows and macOS and publishes them to GitHub Releases alongside `latest.json`.
+
