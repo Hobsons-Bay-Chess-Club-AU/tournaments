@@ -40,17 +40,6 @@
         </div>
       </header>
 
-      <!-- Auto-Update Notification Banner -->
-      <div id="updateBanner" class="update-banner" style="display: none;">
-        <div class="update-banner-content">
-          <span class="update-icon" id="updateIcon">✨</span>
-          <span id="updateBannerText">Update available!</span>
-        </div>
-        <div class="update-banner-actions">
-          <button id="restartAppBtn" class="btn btn-primary btn-sm" style="display: none;">Restart to Apply</button>
-          <button id="dismissUpdateBtn" class="btn btn-secondary btn-sm">Dismiss</button>
-        </div>
-      </div>
 
       <!-- VIEW 1: Arbiter Dashboard -->
       <main id="dashboardView" class="view-panel active">
@@ -59,7 +48,7 @@
           <div class="folder-banner-info">
             <span class="label">Tournament Storage Folder:</span>
             <span id="dashFolderPath" class="path-snippet">Loading folder...</span>
-            <span id="dashVersionBadge" class="status-pill online" style="font-size: 0.72rem; padding: 0.15rem 0.55rem; margin-left: 0.5rem; background: rgba(16, 185, 129, 0.2); border: 1px solid rgba(16, 185, 129, 0.4);">⚡ v0.1.4 Connected</span>
+            <span id="dashVersionBadge" class="status-pill online" style="font-size: 0.72rem; padding: 0.15rem 0.55rem; margin-left: 0.5rem; background: rgba(16, 185, 129, 0.2); border: 1px solid rgba(16, 185, 129, 0.4);">⚡ v0.1.5 Connected</span>
           </div>
           <button id="dashOpenFolderBtn" class="btn btn-secondary btn-sm">📁 Open Folder</button>
         </div>
@@ -211,7 +200,7 @@
           <div style="display: flex; justify-content: space-between; align-items: center;">
             <div>
               <p style="font-size: 0.85rem; font-weight: 500;">HBCC Vega Tournament Server</p>
-              <p style="font-size: 0.75rem; color: var(--text-muted);">Current Version: <span id="settingsVersion">v0.1.4</span></p>
+              <p style="font-size: 0.75rem; color: var(--text-muted);">Current Version: <span id="settingsVersion">v0.1.5</span></p>
             </div>
             <button id="checkUpdateBtn" class="btn btn-secondary btn-sm">Check for Updates</button>
           </div>
@@ -223,7 +212,7 @@
         <div class="footer-left">
           <span>HBCC Tournament Server</span>
           <span>•</span>
-          <span id="appVersion">v0.1.4</span>
+          <span id="appVersion">v0.1.5</span>
         </div>
         <div class="footer-right">
           <span style="color: var(--text-dim);">Hobsons Bay Chess Club</span>
@@ -287,6 +276,60 @@
               <button id="modalCopyLogsBtn" class="btn btn-secondary btn-sm" title="Copy filtered logs to clipboard">📋 Copy All</button>
               <button id="modalClearLogsBtn" class="btn btn-danger btn-sm" title="Clear all logs">Clear Logs</button>
               <button id="modalDismissBtn" class="btn btn-secondary btn-sm">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Full-Screen Blocking Update Modal (Blocks app, shows progress, forces restart) -->
+      <div id="updateBlockingModal" class="modal-backdrop update-modal-backdrop" style="display: none;">
+        <div class="modal-dialog update-modal-card">
+          <div class="update-modal-icon-wrapper">
+            <span class="update-modal-icon" id="blockingUpdateIcon">🚀</span>
+          </div>
+
+          <h3 id="blockingUpdateTitle">Software Update Available</h3>
+          <div class="update-version-pills">
+            <span class="ver-pill ver-current" id="blockingCurrentVer">Current: v0.1.5</span>
+            <span class="ver-arrow">➔</span>
+            <span class="ver-pill ver-target" id="blockingTargetVer">Target: v0.1.5</span>
+          </div>
+
+          <p id="blockingUpdateDesc" class="update-modal-desc">
+            A new version of HBCC Tournament Server is ready to install. This update contains important improvements and fixes.
+          </p>
+
+          <!-- Progress Container (shown during download) -->
+          <div id="blockingProgressContainer" class="update-progress-container" style="display: none;">
+            <div class="update-progress-bar-bg">
+              <div id="blockingProgressBar" class="update-progress-bar-fill" style="width: 0%;"></div>
+            </div>
+            <div class="update-progress-meta">
+              <span id="blockingProgressPercent">0%</span>
+              <span id="blockingProgressBytes">0 MB / 0 MB</span>
+            </div>
+          </div>
+
+          <!-- Error message alert (if network fails) -->
+          <div id="blockingUpdateError" class="update-error-alert" style="display: none;">
+            <span id="blockingErrorText">⚠️ Update download failed.</span>
+          </div>
+
+          <!-- Actions -->
+          <div class="update-modal-actions">
+            <button id="blockingStartUpdateBtn" class="btn btn-primary btn-lg" style="width: 100%; display: none;">
+              ⬇️ Download &amp; Install Update
+            </button>
+            <button id="blockingRestartBtn" class="btn btn-success btn-lg btn-pulse" style="width: 100%; display: none;">
+              🚀 Restart Application Now
+            </button>
+            <div id="blockingErrorActions" style="display: none; width: 100%; gap: 0.5rem; flex-direction: column;">
+              <button id="blockingRetryBtn" class="btn btn-secondary btn-md" style="width: 100%;">
+                🔄 Retry Download
+              </button>
+              <button id="blockingDismissErrorBtn" class="btn btn-outline btn-sm" style="width: 100%;">
+                Continue Offline
+              </button>
             </div>
           </div>
         </div>

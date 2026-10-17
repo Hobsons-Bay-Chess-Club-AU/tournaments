@@ -86,12 +86,26 @@ const resetDefaultsBtn = document.getElementById("resetDefaultsBtn");
 const applySettingsBtn = document.getElementById("applySettingsBtn");
 const settingsVersion = document.getElementById("settingsVersion");
 const checkUpdateBtn = document.getElementById("checkUpdateBtn");
-const updateBanner = document.getElementById("updateBanner");
-const updateIcon = document.getElementById("updateIcon");
-const updateBannerText = document.getElementById("updateBannerText");
-const restartAppBtn = document.getElementById("restartAppBtn");
-const dismissUpdateBtn = document.getElementById("dismissUpdateBtn");
 const toast = document.getElementById("toast");
+
+// Blocking Update Modal Elements
+const updateBlockingModal = document.getElementById("updateBlockingModal");
+const blockingUpdateIcon = document.getElementById("blockingUpdateIcon");
+const blockingUpdateTitle = document.getElementById("blockingUpdateTitle");
+const blockingCurrentVer = document.getElementById("blockingCurrentVer");
+const blockingTargetVer = document.getElementById("blockingTargetVer");
+const blockingUpdateDesc = document.getElementById("blockingUpdateDesc");
+const blockingProgressContainer = document.getElementById("blockingProgressContainer");
+const blockingProgressBar = document.getElementById("blockingProgressBar");
+const blockingProgressPercent = document.getElementById("blockingProgressPercent");
+const blockingProgressBytes = document.getElementById("blockingProgressBytes");
+const blockingUpdateError = document.getElementById("blockingUpdateError");
+const blockingErrorText = document.getElementById("blockingErrorText");
+const blockingStartUpdateBtn = document.getElementById("blockingStartUpdateBtn");
+const blockingRestartBtn = document.getElementById("blockingRestartBtn");
+const blockingErrorActions = document.getElementById("blockingErrorActions");
+const blockingRetryBtn = document.getElementById("blockingRetryBtn");
+const blockingDismissErrorBtn = document.getElementById("blockingDismissErrorBtn");
 
 // Store & Local State
 const store = new LazyStore("settings.json");
@@ -275,9 +289,9 @@ async function init() {
     // 2. Auto-start server on launch
     await startServer();
 
-    // 3. Background auto-update check on startup
-    autoCheckAndInstallUpdate(true).catch((e) =>
-      console.debug("Background auto-update check error:", e)
+    // 3. Auto-update check on startup: if an update is found, block UI, show live progress and force restart
+    checkForUpdateAndPrompt(true).catch((e) =>
+      console.debug("Startup auto-update check error:", e)
     );
 
     // 4. Listen for file uploads from FTP
@@ -839,37 +853,120 @@ resetDefaultsBtn.addEventListener("click", async () => {
   }
 });
 
-function showUpdateNotification(message, icon = "✨", canRestart = false) {
-  if (!updateBanner) return;
-  updateBannerText.textContent = message;
-  updateIcon.textContent = icon;
-  restartAppBtn.style.display = canRestart ? "inline-flex" : "none";
-  updateBanner.style.display = "flex";
+let isDownloadingUpdate = false;
+let activeUpdateObj = null;
+
+async function startDownloadAndInstall(update) {
+  if (isDownloadingUpdate) return;
+  isDownloadingUpdate = true;
+  activeUpdateObj = update;
+
+  // Show progress container & reset state
+  if (blockingProgressContainer) blockingProgressContainer.style.display = "flex";
+  if (blockingProgressBar) blockingProgressBar.style.width = "0%";
+  if (blockingProgressPercent) blockingProgressPercent.textContent = "0%";
+  if (blockingProgressBytes) blockingProgressBytes.textContent = "Connecting to update server...";
+  if (blockingUpdateError) blockingUpdateError.style.display = "none";
+  if (blockingStartUpdateBtn) blockingStartUpdateBtn.style.display = "none";
+  if (blockingRestartBtn) blockingRestartBtn.style.display = "none";
+  if (blockingErrorActions) blockingErrorActions.style.display = "none";
+
+  if (blockingUpdateIcon) blockingUpdateIcon.textContent = "⏳";
+  if (blockingUpdateTitle) blockingUpdateTitle.textContent = `Downloading Update v${update.version}...`;
+  if (blockingUpdateDesc) {
+    blockingUpdateDesc.textContent =
+      "Please wait while the update is downloaded and verified. The application is paused until the update completes.";
+  }
+
+  let totalBytes = 0;
+  let downloadedBytes = 0;
+
+  try {
+    await update.downloadAndInstall((event) => {
+      switch (event.event) {
+        case "Started":
+          totalBytes = event.data?.contentLength || 0;
+          if (blockingProgressBytes) {
+            blockingProgressBytes.textContent =
+              totalBytes > 0 ? `0 B / ${formatBytes(totalBytes)}` : "Starting download...";
+          }
+          break;
+        case "Progress":
+          downloadedBytes += event.data.chunkLength;
+          if (totalBytes > 0) {
+            const pct = Math.min(100, Math.round((downloadedBytes / totalBytes) * 100));
+            if (blockingProgressBar) blockingProgressBar.style.width = `${pct}%`;
+            if (blockingProgressPercent) blockingProgressPercent.textContent = `${pct}%`;
+            if (blockingProgressBytes) {
+              blockingProgressBytes.textContent = `${formatBytes(downloadedBytes)} / ${formatBytes(totalBytes)}`;
+            }
+          } else {
+            if (blockingProgressBytes) {
+              blockingProgressBytes.textContent = `${formatBytes(downloadedBytes)} downloaded`;
+            }
+            if (blockingProgressBar) blockingProgressBar.style.width = "60%";
+          }
+          break;
+        case "Finished":
+          if (blockingProgressBar) blockingProgressBar.style.width = "100%";
+          if (blockingProgressPercent) blockingProgressPercent.textContent = "100%";
+          if (blockingProgressBytes) blockingProgressBytes.textContent = "Installing update files...";
+          break;
+      }
+    });
+
+    // Update successfully installed! Force restart
+    if (blockingUpdateIcon) blockingUpdateIcon.textContent = "🎉";
+    if (blockingUpdateTitle) blockingUpdateTitle.textContent = "Update Installed — Restart Required";
+    if (blockingUpdateDesc) {
+      blockingUpdateDesc.textContent = `HBCC Tournament Server has been updated to v${update.version}. You must restart the application now to complete the update and apply changes.`;
+    }
+
+    // Hide progress bar, show ONLY prominent restart button
+    if (blockingProgressContainer) blockingProgressContainer.style.display = "none";
+    if (blockingRestartBtn) {
+      blockingRestartBtn.style.display = "block";
+      blockingRestartBtn.focus();
+    }
+    showToast(`Update v${update.version} installed! Please restart the app.`, 5000);
+  } catch (err) {
+    console.error("Update download/install error:", err);
+    if (blockingUpdateIcon) blockingUpdateIcon.textContent = "⚠️";
+    if (blockingUpdateTitle) blockingUpdateTitle.textContent = "Update Installation Failed";
+    if (blockingUpdateDesc) {
+      blockingUpdateDesc.textContent =
+        "An error occurred while downloading or installing the update. Check your network connection and try again.";
+    }
+    if (blockingUpdateError) blockingUpdateError.style.display = "block";
+    if (blockingErrorText) blockingErrorText.textContent = `⚠️ Error: ${err?.message || err}`;
+    if (blockingProgressContainer) blockingProgressContainer.style.display = "none";
+    if (blockingErrorActions) blockingErrorActions.style.display = "flex";
+  } finally {
+    isDownloadingUpdate = false;
+  }
 }
 
-function hideUpdateNotification() {
-  if (updateBanner) updateBanner.style.display = "none";
-}
-
-async function autoCheckAndInstallUpdate(silent = true) {
+async function checkForUpdateAndPrompt(silent = false) {
   try {
     const update = await checkUpdate();
     if (update?.available) {
-      showUpdateNotification(
-        `New update v${update.version} found! Downloading in background...`,
-        "⏳",
-        false
-      );
-      showToast(`Downloading update v${update.version}...`);
+      activeUpdateObj = update;
 
-      await update.downloadAndInstall();
+      // Populate version badges
+      if (blockingCurrentVer) {
+        blockingCurrentVer.textContent = `Current: v${update.currentVersion}`;
+      }
+      if (blockingTargetVer) {
+        blockingTargetVer.textContent = `Target: v${update.version}`;
+      }
 
-      showUpdateNotification(
-        `Update v${update.version} installed! Click restart to apply.`,
-        "🎉",
-        true
-      );
-      showToast(`Update v${update.version} installed! Please restart the app.`);
+      // Display blocking modal overlay
+      if (updateBlockingModal) {
+        updateBlockingModal.style.display = "flex";
+      }
+
+      // Immediately start downloading & installing with live progress
+      await startDownloadAndInstall(update);
       return true;
     } else if (!silent) {
       showToast("You are running the latest version!");
@@ -878,29 +975,49 @@ async function autoCheckAndInstallUpdate(silent = true) {
     if (!silent) {
       showToast(`Update check failed: ${err}`);
     } else {
-      console.debug("Silent background auto-update check:", err);
+      console.debug("Silent startup update check:", err);
     }
   }
   return false;
 }
 
-restartAppBtn.addEventListener("click", async () => {
-  try {
-    await invoke("restart_app");
-  } catch (err) {
-    showToast(`Restart failed: ${err}`);
-  }
-});
+// Event Listeners for update actions
+if (blockingRestartBtn) {
+  blockingRestartBtn.addEventListener("click", async () => {
+    try {
+      blockingRestartBtn.disabled = true;
+      blockingRestartBtn.textContent = "Restarting...";
+      await invoke("restart_app");
+    } catch (err) {
+      console.error("Failed to restart app:", err);
+      showToast(`Restart failed: ${err}`);
+      blockingRestartBtn.disabled = false;
+      blockingRestartBtn.textContent = "🚀 Restart Application Now";
+    }
+  });
+}
 
-dismissUpdateBtn.addEventListener("click", () => {
-  hideUpdateNotification();
-});
+if (blockingRetryBtn) {
+  blockingRetryBtn.addEventListener("click", () => {
+    if (activeUpdateObj) {
+      startDownloadAndInstall(activeUpdateObj);
+    }
+  });
+}
+
+if (blockingDismissErrorBtn) {
+  blockingDismissErrorBtn.addEventListener("click", () => {
+    if (updateBlockingModal) {
+      updateBlockingModal.style.display = "none";
+    }
+  });
+}
 
 checkUpdateBtn.addEventListener("click", async () => {
   try {
     checkUpdateBtn.disabled = true;
     checkUpdateBtn.textContent = "Checking...";
-    await autoCheckAndInstallUpdate(false);
+    await checkForUpdateAndPrompt(false);
   } finally {
     checkUpdateBtn.disabled = false;
     checkUpdateBtn.textContent = "Check for Updates";

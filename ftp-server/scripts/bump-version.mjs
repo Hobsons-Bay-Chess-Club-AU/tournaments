@@ -43,7 +43,8 @@ let indexContent = fs.readFileSync(indexPath, "utf8");
 indexContent = indexContent
   .replace(/⚡\s*v[0-9.]+\s*Connected/g, `⚡ v${version} Connected`)
   .replace(/<span id="settingsVersion">v[0-9.]+<\/span>/g, `<span id="settingsVersion">v${version}</span>`)
-  .replace(/<span id="appVersion">v[0-9.]+<\/span>/g, `<span id="appVersion">v${version}</span>`);
+  .replace(/<span id="appVersion">v[0-9.]+<\/span>/g, `<span id="appVersion">v${version}</span>`)
+  .replace(/<span class="ver-pill ver-current" id="blockingCurrentVer">Current: v[0-9.]+<\/span>/g, `<span class="ver-pill ver-current" id="blockingCurrentVer">Current: v${version}</span>`);
 fs.writeFileSync(indexPath, indexContent);
 console.log(`✓ Updated index.html: v${oldVersion} -> v${version}`);
 
