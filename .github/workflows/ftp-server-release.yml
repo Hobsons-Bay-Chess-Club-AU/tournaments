@@ -54,8 +54,9 @@ jobs:
           fi
 
       - name: Install dependencies
-        working-directory: ftp-server
-        run: npm install
+        run: |
+          npm install
+          cd ftp-server && npm install
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
