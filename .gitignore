@@ -16,4 +16,5 @@ data/tinyhq-upcoming-events.json
 data/tinyhq_event.json
 tmp/tidyhq-browser-profile/
 .agents
-docs/superpowers
+docs/superpowers/*
+!docs/superpowers/specs/
