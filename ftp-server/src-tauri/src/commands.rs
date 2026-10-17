@@ -109,7 +109,44 @@ pub async fn get_services_status(state: State<'_, AppState>) -> Result<ServiceSt
 pub fn get_default_storage_dir() -> Result<String, String> {
     let doc_dir = dirs::document_dir().unwrap_or_else(|| PathBuf::from("."));
     let target = doc_dir.join("HBCC_Tournaments");
+    if !target.exists() {
+        let _ = std::fs::create_dir_all(&target);
+    }
     Ok(target.to_string_lossy().to_string())
+}
+
+#[tauri::command]
+pub fn open_folder(path: String) -> Result<(), String> {
+    let p = PathBuf::from(&path);
+    if !p.exists() {
+        let _ = std::fs::create_dir_all(&p);
+    }
+
+    #[cfg(target_os = "macos")]
+    {
+        std::process::Command::new("open")
+            .arg(&path)
+            .spawn()
+            .map_err(|e| format!("Failed to open folder: {}", e))?;
+    }
+
+    #[cfg(target_os = "windows")]
+    {
+        std::process::Command::new("explorer")
+            .arg(&path)
+            .spawn()
+            .map_err(|e| format!("Failed to open folder: {}", e))?;
+    }
+
+    #[cfg(target_os = "linux")]
+    {
+        std::process::Command::new("xdg-open")
+            .arg(&path)
+            .spawn()
+            .map_err(|e| format!("Failed to open folder: {}", e))?;
+    }
+
+    Ok(())
 }
 
 fn format_iso_timestamp() -> String {

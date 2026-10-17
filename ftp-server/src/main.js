@@ -319,9 +319,13 @@ clearLogsBtn.addEventListener("click", () => {
 const handleOpenFolder = async () => {
   if (!state.storageDir) return;
   try {
-    await openPath(state.storageDir);
+    await invoke("open_folder", { path: state.storageDir });
   } catch (err) {
-    showToast(`Failed to open folder: ${err}`);
+    try {
+      await openPath(state.storageDir);
+    } catch (innerErr) {
+      showToast(`Failed to open folder: ${err || innerErr}`);
+    }
   }
 };
 
