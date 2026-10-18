@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T06:31:58.848Z",
+  "generatedAt": "2026-10-18T06:32:24.760Z",
   "page": {
     "calendarroundrobin.html": {
       "pageHeading": "Schedule",
@@ -2666,6 +2666,202 @@
       ],
       "tournamentType": "individual"
     },
+    "sortedcrosstable.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Pos",
+              "key": "Pos"
+            },
+            {
+              "name": "#",
+              "key": "#"
+            },
+            {
+              "name": "NAME",
+              "key": "NAME"
+            },
+            {
+              "name": "Rtg",
+              "key": "Rtg"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "1",
+              "key": "1"
+            },
+            {
+              "name": "2",
+              "key": "2"
+            },
+            {
+              "name": "3",
+              "key": "3"
+            },
+            {
+              "name": "4",
+              "key": "4"
+            },
+            {
+              "name": "5",
+              "key": "5"
+            },
+            {
+              "name": "6",
+              "key": "6"
+            },
+            {
+              "name": "7",
+              "key": "7"
+            },
+            {
+              "name": "8",
+              "key": "8"
+            }
+          ],
+          "rows": [
+            {
+              "1": "×",
+              "2": ".",
+              "3": ".",
+              "4": ".",
+              "5": ".",
+              "6": ".",
+              "7": "1",
+              "8": ".",
+              "Pos": "1",
+              "#": "1",
+              "NAME": "Ramanathan,Ashwin",
+              "Rtg": "1470",
+              "Fed": "VIC",
+              "Pts": "1.0"
+            },
+            {
+              "1": ".",
+              "2": "×",
+              "3": ".",
+              "4": ".",
+              "5": ".",
+              "6": ".",
+              "7": ".",
+              "8": "1",
+              "Pos": "2",
+              "#": "2",
+              "NAME": "Batyrbekov,Kaisar",
+              "Rtg": "1349",
+              "Fed": "VIC",
+              "Pts": "0.0"
+            },
+            {
+              "1": ".",
+              "2": ".",
+              "3": "×",
+              "4": ".",
+              "5": ".",
+              "6": "½",
+              "7": ".",
+              "8": ".",
+              "Pos": "3",
+              "#": "3",
+              "NAME": "Batyrbekov,Aidan",
+              "Rtg": "1308",
+              "Fed": "VIC",
+              "Pts": "0.5"
+            },
+            {
+              "1": ".",
+              "2": ".",
+              "3": ".",
+              "4": "×",
+              "5": "½",
+              "6": ".",
+              "7": ".",
+              "8": ".",
+              "Pos": "4",
+              "#": "4",
+              "NAME": "Ashok,Arjun",
+              "Rtg": "1132",
+              "Fed": "VIC",
+              "Pts": "0.5"
+            },
+            {
+              "1": ".",
+              "2": ".",
+              "3": ".",
+              "4": "½",
+              "5": "×",
+              "6": ".",
+              "7": ".",
+              "8": ".",
+              "Pos": "5",
+              "#": "5",
+              "NAME": "Jyothi Nikhil,Neev",
+              "Rtg": "1112",
+              "Fed": "VIC",
+              "Pts": "0.5"
+            },
+            {
+              "1": ".",
+              "2": ".",
+              "3": "½",
+              "4": ".",
+              "5": ".",
+              "6": "×",
+              "7": ".",
+              "8": ".",
+              "Pos": "6",
+              "#": "6",
+              "NAME": "Annadasu,Shreyansh",
+              "Rtg": "1096",
+              "Fed": "VIC",
+              "Pts": "0.5"
+            },
+            {
+              "1": "0",
+              "2": ".",
+              "3": ".",
+              "4": ".",
+              "5": ".",
+              "6": ".",
+              "7": "×",
+              "8": ".",
+              "Pos": "7",
+              "#": "7",
+              "NAME": "Ahmad,Ihtiram",
+              "Rtg": "1092",
+              "Fed": "OS",
+              "Pts": "1.0"
+            },
+            {
+              "1": ".",
+              "2": "0",
+              "3": ".",
+              "4": ".",
+              "5": ".",
+              "6": ".",
+              "7": ".",
+              "8": "×",
+              "Pos": "8",
+              "#": "8",
+              "NAME": "Huang,Michael",
+              "Rtg": "1062",
+              "Fed": "VIC",
+              "Pts": "0.0"
+            }
+          ]
+        }
+      ],
+      "tournamentType": "unknown"
+    },
     "standings.html": {
       "pageHeading": "Standings at round 1",
       "tables": [
@@ -3298,5 +3494,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "46f8d50c9dbabe68a58fe32b459a8b5c"
+  "md5Hash": "00f431e625ce7cc15a49d95f914bc6ee"
 }
