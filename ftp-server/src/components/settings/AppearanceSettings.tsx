@@ -88,7 +88,7 @@ export const AppearanceSettings: React.FC = () => {
                   Application Updates
                 </span>
                 <p className="text-[11px] text-slate-500 dark:text-slate-400">
-                  Version 0.1.10 • Cryptographically verified releases via minisign
+                  Version 0.1.11 • Cryptographically verified releases via minisign
                 </p>
               </div>
             </div>

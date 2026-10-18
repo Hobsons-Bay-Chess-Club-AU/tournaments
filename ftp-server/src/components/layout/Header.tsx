@@ -19,6 +19,7 @@ export const Header: React.FC<HeaderProps> = ({ currentView, onViewChange }) => 
 
   const isCheckingUpdate = useUpdaterStore((s) => s.isChecking);
   const checkForUpdates = useUpdaterStore((s) => s.checkForUpdates);
+  const updateInfo = useUpdaterStore((s) => s.updateInfo);
 
   const handleToggle = async () => {
     if (isLoading) return;
@@ -110,11 +111,15 @@ export const Header: React.FC<HeaderProps> = ({ currentView, onViewChange }) => 
           <button
             onClick={() => checkForUpdates(false)}
             disabled={isCheckingUpdate}
-            className="inline-flex items-center space-x-1.5 px-2.5 py-1.5 rounded-lg text-xs font-medium bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-950/40 dark:hover:bg-emerald-900/40 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800/60 transition cursor-pointer"
-            title="Check for software updates"
+            className={`inline-flex items-center space-x-1.5 px-2.5 py-1.5 rounded-lg text-xs font-medium transition cursor-pointer ${
+              updateInfo?.available
+                ? "bg-amber-500/20 text-amber-300 border border-amber-500/50 hover:bg-amber-500/30"
+                : "bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-950/40 dark:hover:bg-emerald-900/40 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800/60"
+            }`}
+            title={updateInfo?.available ? `Update v${updateInfo.version} Available!` : "Check for software updates"}
           >
             <RefreshCw className={`w-3 h-3 ${isCheckingUpdate ? "animate-spin" : ""}`} />
-            <span>⚡ v0.1.10</span>
+            <span>{updateInfo?.available ? `⚡ v${updateInfo.version} Available` : "⚡ v0.1.11"}</span>
           </button>
 
           <button

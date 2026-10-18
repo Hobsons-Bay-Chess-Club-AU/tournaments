@@ -35,7 +35,7 @@ export const Footer: React.FC = () => {
             <span>Sandboxed Local Server</span>
           </div>
           <span>•</span>
-          <span className="font-semibold text-slate-600 dark:text-slate-400">HBCC Vega v0.1.10</span>
+          <span className="font-semibold text-slate-600 dark:text-slate-400">HBCC Vega v0.1.11</span>
         </div>
       </div>
     </footer>

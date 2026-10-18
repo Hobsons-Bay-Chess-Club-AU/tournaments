@@ -72,7 +72,7 @@ export const StorageBanner: React.FC = () => {
                 ) : (
                   <Sparkles className="w-3 h-3 text-emerald-400" />
                 )}
-                <span>v0.1.10 Connected</span>
+                <span>v0.1.11 Connected</span>
               </button>
             </div>
             <p className="text-sm font-mono mt-1 text-slate-200 bg-slate-950/60 px-2.5 py-1.5 rounded-lg border border-slate-800 break-all select-all">
