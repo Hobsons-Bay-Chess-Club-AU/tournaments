@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T09:47:52.090Z",
+  "generatedAt": "2026-10-18T06:30:56.045Z",
   "page": {
     "calendarroundrobin.html": {
       "pageHeading": "Schedule",
@@ -2201,223 +2201,8 @@
       "tournamentType": "individual"
     },
     "standings.html": {
-      "pageHeading": "Standings at round 1",
-      "tables": [
-        {
-          "headers": [
-            {
-              "name": "Pos",
-              "key": "Pos"
-            },
-            {
-              "name": "Player",
-              "key": "Player"
-            },
-            {
-              "name": "Rtg",
-              "key": "Rtg"
-            },
-            {
-              "name": "Fed",
-              "key": "Fed"
-            },
-            {
-              "name": "Pts",
-              "key": "Pts"
-            },
-            {
-              "name": "DE",
-              "key": "DE"
-            },
-            {
-              "name": "SB",
-              "key": "SB"
-            },
-            {
-              "name": "WIN",
-              "key": "WIN"
-            },
-            {
-              "name": "BWG",
-              "key": "BWG"
-            }
-          ],
-          "rows": [
-            {
-              "Pos": "1",
-              "Player": {
-                "id": "7",
-                "playerName": "Ahmad,Ihtiram",
-                "gender": "male",
-                "href": "playercard.html#7",
-                "title": "",
-                "federation": "OS",
-                "rating": "1092",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Rtg": "1092",
-              "Fed": "OS",
-              "Pts": "1.0",
-              "DE": "0",
-              "SB": "0.00",
-              "WIN": "1",
-              "BWG": "1"
-            },
-            {
-              "Pos": "2",
-              "Player": {
-                "id": "1",
-                "playerName": "Ramanathan,Ashwin",
-                "gender": "male",
-                "href": "playercard.html#1",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1470",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Rtg": "1470",
-              "Fed": "VIC",
-              "Pts": "1.0",
-              "DE": "0",
-              "SB": "0.00",
-              "WIN": "1",
-              "BWG": "0"
-            },
-            {
-              "Pos": "3",
-              "Player": {
-                "id": "3",
-                "playerName": "Batyrbekov,Aidan",
-                "gender": "male",
-                "href": "playercard.html#3",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1308",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Rtg": "1308",
-              "Fed": "VIC",
-              "Pts": "0.5",
-              "DE": "0",
-              "SB": "0.25",
-              "WIN": "0",
-              "BWG": "0"
-            },
-            {
-              "Pos": "4",
-              "Player": {
-                "id": "4",
-                "playerName": "Ashok,Arjun",
-                "gender": "male",
-                "href": "playercard.html#4",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1132",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Rtg": "1132",
-              "Fed": "VIC",
-              "Pts": "0.5",
-              "DE": "0",
-              "SB": "0.25",
-              "WIN": "0",
-              "BWG": "0"
-            },
-            {
-              "Pos": "5",
-              "Player": {
-                "id": "5",
-                "playerName": "Jyothi Nikhil,Neev",
-                "gender": "male",
-                "href": "playercard.html#5",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1112",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Rtg": "1112",
-              "Fed": "VIC",
-              "Pts": "0.5",
-              "DE": "0",
-              "SB": "0.25",
-              "WIN": "0",
-              "BWG": "0"
-            },
-            {
-              "Pos": "6",
-              "Player": {
-                "id": "6",
-                "playerName": "Annadasu,Shreyansh",
-                "gender": "male",
-                "href": "playercard.html#6",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1096",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Rtg": "1096",
-              "Fed": "VIC",
-              "Pts": "0.5",
-              "DE": "0",
-              "SB": "0.25",
-              "WIN": "0",
-              "BWG": "0"
-            },
-            {
-              "Pos": "7",
-              "Player": {
-                "id": "2",
-                "playerName": "Batyrbekov,Kaisar",
-                "gender": "male",
-                "href": "playercard.html#2",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1349",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Rtg": "1349",
-              "Fed": "VIC",
-              "Pts": "0.0",
-              "DE": "0",
-              "SB": "0.00",
-              "WIN": "0",
-              "BWG": "0"
-            },
-            {
-              "Pos": "8",
-              "Player": {
-                "id": "8",
-                "playerName": "Huang,Michael",
-                "gender": "male",
-                "href": "playercard.html#8",
-                "title": "",
-                "federation": "VIC",
-                "rating": "1062",
-                "fideId": "",
-                "moreInfo": {}
-              },
-              "Rtg": "1062",
-              "Fed": "VIC",
-              "Pts": "0.0",
-              "DE": "0",
-              "SB": "0.00",
-              "WIN": "0",
-              "BWG": "0"
-            }
-          ],
-          "footer": {
-            "text": "Tie Break legend:",
-            "html": "Tie Break legend:<br>"
-          }
-        }
-      ],
+      "pageHeading": "",
+      "tables": [],
       "tournamentType": "unknown"
     },
     "tourstat.html": {
@@ -2560,26 +2345,7 @@
       "tournamentType": "unknown"
     }
   },
-  "top_players": [
-    {
-      "name": "Ahmad,Ihtiram",
-      "point": 1,
-      "elo": "1092",
-      "title": ""
-    },
-    {
-      "name": "Ramanathan,Ashwin",
-      "point": 1,
-      "elo": "1470",
-      "title": ""
-    },
-    {
-      "name": "Batyrbekov,Aidan",
-      "point": 0.5,
-      "elo": "1308",
-      "title": ""
-    }
-  ],
+  "top_players": [],
   "playerLookup": {
     "1": {
       "id": "1",
@@ -2832,5 +2598,5 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "59d30a70f418964047b7cf3f7ec980d8"
+  "md5Hash": "0f263da0c501b6efc72f007ff1ce091a"
 }

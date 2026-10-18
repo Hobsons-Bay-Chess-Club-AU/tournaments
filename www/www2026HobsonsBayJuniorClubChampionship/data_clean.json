@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T09:47:52.288Z",
+  "generatedAt": "2026-10-18T06:30:56.226Z",
   "tournament": {
     "id": "2026-hobsons-bay-junior-club-championship",
     "name": "2026 Hobsons Bay Junior Club Championship",
@@ -2299,144 +2299,8 @@
       "tournamentType": "individual"
     },
     "standings.html": {
-      "pageHeading": "Standings at round 1",
-      "tables": [
-        {
-          "headers": [
-            {
-              "name": "Pos",
-              "key": "Pos"
-            },
-            {
-              "name": "Player",
-              "key": "Player"
-            },
-            {
-              "name": "Rtg",
-              "key": "Rtg"
-            },
-            {
-              "name": "Fed",
-              "key": "Fed"
-            },
-            {
-              "name": "Pts",
-              "key": "Pts"
-            },
-            {
-              "name": "DE",
-              "key": "DE"
-            },
-            {
-              "name": "SB",
-              "key": "SB"
-            },
-            {
-              "name": "WIN",
-              "key": "WIN"
-            },
-            {
-              "name": "BWG",
-              "key": "BWG"
-            }
-          ],
-          "rows": [
-            {
-              "Pos": "1",
-              "Player": "7",
-              "Rtg": "1092",
-              "Fed": "OS",
-              "Pts": "1.0",
-              "DE": "0",
-              "SB": "0.00",
-              "WIN": "1",
-              "BWG": "1"
-            },
-            {
-              "Pos": "2",
-              "Player": "1",
-              "Rtg": "1470",
-              "Fed": "VIC",
-              "Pts": "1.0",
-              "DE": "0",
-              "SB": "0.00",
-              "WIN": "1",
-              "BWG": "0"
-            },
-            {
-              "Pos": "3",
-              "Player": "3",
-              "Rtg": "1308",
-              "Fed": "VIC",
-              "Pts": "0.5",
-              "DE": "0",
-              "SB": "0.25",
-              "WIN": "0",
-              "BWG": "0"
-            },
-            {
-              "Pos": "4",
-              "Player": "4",
-              "Rtg": "1132",
-              "Fed": "VIC",
-              "Pts": "0.5",
-              "DE": "0",
-              "SB": "0.25",
-              "WIN": "0",
-              "BWG": "0"
-            },
-            {
-              "Pos": "5",
-              "Player": "5",
-              "Rtg": "1112",
-              "Fed": "VIC",
-              "Pts": "0.5",
-              "DE": "0",
-              "SB": "0.25",
-              "WIN": "0",
-              "BWG": "0"
-            },
-            {
-              "Pos": "6",
-              "Player": "6",
-              "Rtg": "1096",
-              "Fed": "VIC",
-              "Pts": "0.5",
-              "DE": "0",
-              "SB": "0.25",
-              "WIN": "0",
-              "BWG": "0"
-            },
-            {
-              "Pos": "7",
-              "Player": "2",
-              "Rtg": "1349",
-              "Fed": "VIC",
-              "Pts": "0.0",
-              "DE": "0",
-              "SB": "0.00",
-              "WIN": "0",
-              "BWG": "0"
-            },
-            {
-              "Pos": "8",
-              "Player": "8",
-              "Rtg": "1062",
-              "Fed": "VIC",
-              "Pts": "0.0",
-              "DE": "0",
-              "SB": "0.00",
-              "WIN": "0",
-              "BWG": "0"
-            }
-          ],
-          "footer": {
-            "text": "Tie Break legend:",
-            "html": "Tie Break legend:<br>"
-          },
-          "type": "standings"
-        }
-      ],
+      "pageHeading": "",
+      "tables": [],
       "tournamentType": "unknown"
     },
     "tourstat.html": {
@@ -2632,5 +2496,5 @@
       "children": []
     }
   ],
-  "md5Hash": "c731dc27c5974461c8f12570b73db97f"
+  "md5Hash": "e753c34179aef203dd568e0d69a008c3"
 }
