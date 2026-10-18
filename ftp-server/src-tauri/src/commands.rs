@@ -19,6 +19,13 @@ pub struct ServiceStatus {
     pub ftp_port: u16,
     pub http_port: u16,
     pub storage_dir: String,
+    pub local_ip: Option<String>,
+}
+
+pub fn get_local_ip() -> Option<String> {
+    let socket = std::net::UdpSocket::bind("0.0.0.0:0").ok()?;
+    socket.connect("8.8.8.8:80").ok()?;
+    Some(socket.local_addr().ok()?.ip().to_string())
 }
 
 #[derive(Clone, Serialize, Deserialize)]
@@ -96,8 +103,11 @@ pub async fn start_services(
     let app_handle_clone = app.clone();
     let app_for_ftp = app.clone();
 
+    let lan_ip = get_local_ip();
+    let lan_ip_str = lan_ip.as_deref().unwrap_or("127.0.0.1");
+
     let ftp = start_ftp_server(
-        "127.0.0.1",
+        "0.0.0.0",
         ftp_port,
         root_path.clone(),
         Some(app_for_ftp),
@@ -116,7 +126,7 @@ pub async fn start_services(
     )
     .await?;
 
-    let http = start_http_server("127.0.0.1", http_port, root_path).await?;
+    let http = start_http_server("0.0.0.0", http_port, root_path).await?;
 
     *ftp_guard = Some(ftp);
     *http_guard = Some(http);
@@ -125,13 +135,19 @@ pub async fn start_services(
         Some(&app),
         "INFO",
         "FTP",
-        &format!("FTP Server active on 127.0.0.1:{} (ready for Vega uploads)", ftp_port),
+        &format!(
+            "FTP Server active on 0.0.0.0:{} (Local: 127.0.0.1:{}, LAN: {}:{})",
+            ftp_port, ftp_port, lan_ip_str, ftp_port
+        ),
     );
     emit_log(
         Some(&app),
         "INFO",
         "HTTP",
-        &format!("HTTP Preview server active at http://127.0.0.1:{}", http_port),
+        &format!(
+            "HTTP Preview server active on 0.0.0.0:{} (Local: http://127.0.0.1:{}, LAN: http://{}:{})",
+            http_port, http_port, lan_ip_str, http_port
+        ),
     );
 
     let status = ServiceStatus {
@@ -139,6 +155,7 @@ pub async fn start_services(
         ftp_port,
         http_port,
         storage_dir,
+        local_ip: lan_ip,
     };
     *state.current_status.lock().await = status.clone();
 
@@ -169,7 +186,9 @@ pub async fn stop_services(app: AppHandle, state: State<'_, AppState>) -> Result
 
 #[tauri::command]
 pub async fn get_services_status(state: State<'_, AppState>) -> Result<ServiceStatus, String> {
-    Ok(state.current_status.lock().await.clone())
+    let mut status = state.current_status.lock().await.clone();
+    status.local_ip = get_local_ip();
+    Ok(status)
 }
 
 #[tauri::command]

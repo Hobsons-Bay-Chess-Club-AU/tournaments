@@ -299,7 +299,28 @@ fn find_sidecar_binary() -> Option<PathBuf> {
 }
 
 fn apply_cloud_env(cmd: &mut tokio::process::Command) {
-    let _ = dotenvy::dotenv();
+    let mut file_vars = std::collections::HashMap::new();
+
+    let mut env_paths = vec![
+        PathBuf::from(".env"),
+        PathBuf::from("ftp-server/.env"),
+        PathBuf::from("../.env"),
+    ];
+
+    if let Ok(curr_exe) = std::env::current_exe() {
+        if let Some(parent) = curr_exe.parent() {
+            env_paths.push(parent.join(".env"));
+            env_paths.push(parent.join("ftp-server").join(".env"));
+        }
+    }
+
+    for p in env_paths {
+        if let Ok(iter) = dotenvy::from_path_iter(&p) {
+            for item in iter.flatten() {
+                file_vars.insert(item.0, item.1);
+            }
+        }
+    }
 
     let env_vars = [
         "SUPABASE_URL",
@@ -311,10 +332,19 @@ fn apply_cloud_env(cmd: &mut tokio::process::Command) {
         "SUPABASE_TABLE",
         "SUPABASE_JWKS_URL",
         "SUPABASE_ACCESS_TOKEN",
+        "ALLOW_PUSH_CHANGE_TO_GH",
+        "GH_TOKEN",
+        "GITHUB_TOKEN",
+        "GH_REPO",
+        "GH_BRANCH",
+        "PHP_TO_HTML_THRESHOLD_SECONDS",
     ];
 
     for var in env_vars {
-        if let Ok(val) = std::env::var(var) {
+        if let Some(val) = file_vars.get(var) {
+            cmd.env(var, val);
+            std::env::set_var(var, val);
+        } else if let Ok(val) = std::env::var(var) {
             cmd.env(var, val);
         }
     }
@@ -345,6 +375,26 @@ fn apply_cloud_env(cmd: &mut tokio::process::Command) {
             cmd.env("SUPABASE_TABLE", val);
         }
     }
+    if let Some(val) = option_env!("ALLOW_PUSH_CHANGE_TO_GH") {
+        if std::env::var("ALLOW_PUSH_CHANGE_TO_GH").is_err() {
+            cmd.env("ALLOW_PUSH_CHANGE_TO_GH", val);
+        }
+    }
+    if let Some(val) = option_env!("GH_TOKEN") {
+        if std::env::var("GH_TOKEN").is_err() {
+            cmd.env("GH_TOKEN", val);
+        }
+    }
+    if let Some(val) = option_env!("GH_REPO") {
+        if std::env::var("GH_REPO").is_err() {
+            cmd.env("GH_REPO", val);
+        }
+    }
+    if let Some(val) = option_env!("GH_BRANCH") {
+        if std::env::var("GH_BRANCH").is_err() {
+            cmd.env("GH_BRANCH", val);
+        }
+    }
 }
 
 fn dispatch_process_logs(app: Option<&tauri::AppHandle>, stdout: &str, stderr: &str) {
@@ -354,8 +404,15 @@ fn dispatch_process_logs(app: Option<&tauri::AppHandle>, stdout: &str, stderr: &
             continue;
         }
 
+        let is_github = trimmed.contains("[GitHub Sync]") || trimmed.contains("GitHub Sync");
         let is_supabase = trimmed.contains("[Supabase]") || trimmed.contains("Supabase");
-        let source = if is_supabase { "Supabase" } else { "Parser" };
+        let source = if is_github {
+            "GitHub"
+        } else if is_supabase {
+            "Supabase"
+        } else {
+            "Parser"
+        };
 
         let lower = trimmed.to_lowercase();
         let level = if lower.contains("error") || lower.contains("exception") {

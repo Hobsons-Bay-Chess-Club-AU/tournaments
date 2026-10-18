@@ -22,6 +22,7 @@ const previewSiteBtn = document.getElementById("previewSiteBtn");
 const dashFolderPath = document.getElementById("dashFolderPath");
 const dashOpenFolderBtn = document.getElementById("dashOpenFolderBtn");
 const vHost = document.getElementById("vHost");
+const vLanHost = document.getElementById("vLanHost");
 const vPort = document.getElementById("vPort");
 const vUser = document.getElementById("vUser");
 const vPass = document.getElementById("vPass");
@@ -118,6 +119,7 @@ let state = {
   ftpPort: 2121,
   httpPort: 8080,
   uploadCount: 0,
+  local_ip: null,
   authInfo: { user_count: 0, usernames: [] },
 };
 
@@ -206,6 +208,14 @@ function updateUI() {
   httpPortInput.value = state.httpPort;
   vPort.textContent = state.ftpPort;
   vHost.textContent = "127.0.0.1";
+  if (vLanHost) {
+    if (state.local_ip && state.local_ip !== "127.0.0.1") {
+      vLanHost.textContent = `(or ${state.local_ip} on LAN)`;
+      vLanHost.title = `Accepting connections from localhost (127.0.0.1) and LAN (${state.local_ip})`;
+    } else {
+      vLanHost.textContent = "";
+    }
+  }
   uploadBadge.textContent = `${state.uploadCount} file${state.uploadCount === 1 ? "" : "s"}`;
 }
 
@@ -223,6 +233,7 @@ async function startServer() {
     state.isRunning = status.is_running;
     state.ftpPort = status.ftp_port;
     state.httpPort = status.http_port;
+    state.local_ip = status.local_ip;
 
     await store.set("ftpPort", state.ftpPort);
     await store.set("httpPort", state.httpPort);
@@ -414,7 +425,11 @@ copyVegaBtn.addEventListener("click", () => {
     state.authInfo?.user_count === 1 && state.authInfo.usernames[0] === "vega"
       ? "vega"
       : "<your_arbiter_password>";
-  const configText = `Host: 127.0.0.1\nPort: ${state.ftpPort}\nUsername: ${userStr}\nPassword: ${passStr}\nDirectory: /`;
+  const hostStr =
+    state.local_ip && state.local_ip !== "127.0.0.1"
+      ? `127.0.0.1 (or ${state.local_ip} on LAN)`
+      : "127.0.0.1";
+  const configText = `Host: ${hostStr}\nPort: ${state.ftpPort}\nUsername: ${userStr}\nPassword: ${passStr}\nDirectory: /`;
   navigator.clipboard
     .writeText(configText)
     .then(() => {

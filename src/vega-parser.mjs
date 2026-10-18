@@ -5,6 +5,7 @@ import { fileURLToPath } from 'url';
 import cheerio from 'cheerio';
 import crypto from 'crypto';
 import { IsSeniorPlayer } from './ref.mjs';
+import { convertTournamentPhpFiles } from './php-converter.mjs';
 
 export const WWW_FOLDER = path.join(process.cwd(), 'www');
 
@@ -1308,6 +1309,7 @@ export async function processFolder(folderPathOrName, options = {}) {
     const folderName = path.basename(targetPath);
     const outputFile = path.join(targetPath, 'data.json');
     const cleanOutputFile = path.join(targetPath, 'data_clean.json');
+    convertTournamentPhpFiles(targetPath);
     const htmlFiles = await getHtmlFiles(targetPath);
     const result = {
         generatedAt: new Date().toISOString(),
