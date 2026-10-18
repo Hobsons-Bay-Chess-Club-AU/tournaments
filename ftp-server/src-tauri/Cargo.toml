@@ -39,3 +39,10 @@ json-generator = []
 supabase = []
 github-sync = []
 
+[profile.release]
+opt-level = 2
+codegen-units = 16
+lto = false
+strip = true
+
+
