@@ -43,12 +43,19 @@ export const useServerStore = create<ServerState>((set, get) => ({
         auth.username ||
         (auth.usernames && auth.usernames.length > 0 ? auth.usernames[0] : "hbcc");
 
+      const raw = status as any;
+      const isRunning = Boolean(raw.is_running ?? raw.isRunning);
+      const ftpPort = Number(raw.ftp_port ?? raw.ftpPort ?? 2121);
+      const httpPort = Number(raw.http_port ?? raw.httpPort ?? 8080);
+      const lanIp = raw.local_ip ?? raw.localIp ?? null;
+      const storageDir = raw.storage_dir ?? raw.storageDir ?? "";
+
       set((state) => ({
-        isRunning: status.is_running,
-        ftpPort: status.ftp_port || 2121,
-        httpPort: status.http_port || 8080,
-        lanIp: status.local_ip || state.lanIp,
-        storageDir: status.storage_dir || state.storageDir,
+        isRunning,
+        ftpPort,
+        httpPort,
+        lanIp: lanIp || state.lanIp,
+        storageDir: storageDir || state.storageDir,
         username: resolvedUser,
         authMode: auth.auth_mode || "permissive",
       }));
@@ -61,25 +68,42 @@ export const useServerStore = create<ServerState>((set, get) => ({
     if (get().isLoading) return false;
     set({ isLoading: true });
     try {
-      const targetDir = storageDir || get().storageDir;
-      const targetHost = allowLan ? "0.0.0.0" : "127.0.0.1";
-      const targetFtp = ftpPort || get().ftpPort;
-      const targetHttp = httpPort || get().httpPort;
+      let targetDir = storageDir || get().storageDir;
+      if (!targetDir) {
+        try {
+          const defaultDir = await invoke<string>("get_default_storage_dir");
+          if (defaultDir) {
+            targetDir = defaultDir;
+            set({ storageDir: defaultDir });
+          }
+        } catch {
+          // ignore
+        }
+      }
+
+      const targetFtp = ftpPort || get().ftpPort || 2121;
+      const targetHttp = httpPort || get().httpPort || 8080;
 
       const status = await invoke<ServiceStatus>("start_services", {
-        host: targetHost,
         ftpPort: targetFtp,
         httpPort: targetHttp,
         storageDir: targetDir,
       });
 
       if (status) {
+        const raw = status as any;
+        const isRunning = Boolean(raw.is_running ?? raw.isRunning ?? true);
+        const ftpPortVal = Number(raw.ftp_port ?? raw.ftpPort ?? targetFtp);
+        const httpPortVal = Number(raw.http_port ?? raw.httpPort ?? targetHttp);
+        const lanIpVal = raw.local_ip ?? raw.localIp ?? null;
+        const storageDirVal = raw.storage_dir ?? raw.storageDir ?? targetDir;
+
         set((state) => ({
-          isRunning: status.is_running,
-          ftpPort: status.ftp_port || targetFtp,
-          httpPort: status.http_port || targetHttp,
-          lanIp: status.local_ip || state.lanIp,
-          storageDir: status.storage_dir || targetDir,
+          isRunning,
+          ftpPort: ftpPortVal,
+          httpPort: httpPortVal,
+          lanIp: lanIpVal || state.lanIp,
+          storageDir: storageDirVal || targetDir,
         }));
       }
 
@@ -93,7 +117,7 @@ export const useServerStore = create<ServerState>((set, get) => ({
       return true;
     } catch (err) {
       console.error("Failed to start services:", err);
-      // Even if already running error (e.g. strict mode re-mount), sync actual state
+      // If error was "Services are already running", update status to true
       await get().refreshStatus();
       return false;
     } finally {

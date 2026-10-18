@@ -187,6 +187,9 @@ pub async fn stop_services(app: AppHandle, state: State<'_, AppState>) -> Result
 #[tauri::command]
 pub async fn get_services_status(state: State<'_, AppState>) -> Result<ServiceStatus, String> {
     let mut status = state.current_status.lock().await.clone();
+    let ftp_guard = state.ftp_handle.lock().await;
+    let http_guard = state.http_handle.lock().await;
+    status.is_running = ftp_guard.is_some() || http_guard.is_some();
     status.local_ip = get_local_ip();
     Ok(status)
 }
