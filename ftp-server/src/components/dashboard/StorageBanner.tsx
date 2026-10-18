@@ -13,6 +13,7 @@ export const StorageBanner: React.FC = () => {
   const startServices = useServerStore((s) => s.startServices);
 
   const updateSetting = useSettingsStore((s) => s.updateSetting);
+  const currentAppVersion = useUpdaterStore((s) => s.currentAppVersion);
   const checkForUpdates = useUpdaterStore((s) => s.checkForUpdates);
   const isCheckingUpdate = useUpdaterStore((s) => s.isChecking);
 
@@ -62,7 +63,7 @@ export const StorageBanner: React.FC = () => {
                 Tournament Storage Folder
               </span>
               <button
-                onClick={() => checkForUpdates(false)}
+                onClick={() => checkForUpdates(false, true)}
                 disabled={isCheckingUpdate}
                 className="inline-flex items-center space-x-1 text-xs px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 hover:bg-emerald-500/30 transition cursor-pointer"
                 title="Click to check for updates"
@@ -72,7 +73,7 @@ export const StorageBanner: React.FC = () => {
                 ) : (
                   <Sparkles className="w-3 h-3 text-emerald-400" />
                 )}
-                <span>v0.1.11 Connected</span>
+                <span>v{currentAppVersion} Connected</span>
               </button>
             </div>
             <p className="text-sm font-mono mt-1 text-slate-200 bg-slate-950/60 px-2.5 py-1.5 rounded-lg border border-slate-800 break-all select-all">

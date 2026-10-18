@@ -69,6 +69,7 @@ const reactFiles = [
   path.join(projectRoot, "src", "components", "dashboard", "StorageBanner.tsx"),
   path.join(projectRoot, "src", "components", "settings", "AppearanceSettings.tsx"),
   path.join(projectRoot, "src", "components", "modals", "BlockingUpdateModal.tsx"),
+  path.join(projectRoot, "src", "stores", "useUpdaterStore.ts"),
 ];
 
 for (const rFile of reactFiles) {
@@ -79,6 +80,7 @@ for (const rFile of reactFiles) {
       .replace(/v[0-9.]+\s+Connected/g, `v${version} Connected`)
       .replace(/HBCC Vega v[0-9.]+/g, `HBCC Vega v${version}`)
       .replace(/Version\s+[0-9.]+\s+•/g, `Version ${version} •`)
+      .replace(/currentAppVersion:\s*"[0-9.]+"/g, `currentAppVersion: "${version}"`)
       .replace(/v\{updateInfo\.currentVersion\s*\|\|\s*"[0-9.]+"\}/g, `v{updateInfo.currentVersion || "${version}"}`);
     fs.writeFileSync(rFile, content);
     console.log(`✓ Updated ${path.basename(rFile)}: v${oldVersion} -> v${version}`);

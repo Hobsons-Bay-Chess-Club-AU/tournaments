@@ -33,20 +33,21 @@ export const App: React.FC = () => {
   const discoverLanIp = useServerStore((s) => s.discoverLanIp);
 
   const loadSettings = useSettingsStore((s) => s.loadSettings);
-  const settings = useSettingsStore((s) => s.settings);
   const updateSetting = useSettingsStore((s) => s.updateSetting);
 
   const checkForUpdates = useUpdaterStore((s) => s.checkForUpdates);
 
   useEffect(() => {
-    let isMounted = true;
-
     const initApp = async () => {
+      // 0. Initialize dynamic application version
+      await useUpdaterStore.getState().initVersion();
+
       // 1. Load persisted settings
       await loadSettings();
+      const currentSettings = useSettingsStore.getState().settings;
 
       // 2. Resolve default storage directory if not configured
-      let activeDir = settings.storageDir;
+      let activeDir = currentSettings.storageDir;
       if (!activeDir) {
         try {
           const defaultDir = await invoke<string>("get_default_storage_dir");
@@ -66,12 +67,12 @@ export const App: React.FC = () => {
       await refreshStatus();
 
       // 4. Auto-start services if configured and not already running
-      if (settings.autoStart && !useServerStore.getState().isRunning) {
+      if (currentSettings.autoStart && !useServerStore.getState().isRunning) {
         await startServices(
           activeDir,
-          settings.allowLan,
-          settings.ftpPort,
-          settings.httpPort
+          currentSettings.allowLan,
+          currentSettings.ftpPort,
+          currentSettings.httpPort
         );
       }
 
@@ -80,20 +81,14 @@ export const App: React.FC = () => {
         await discoverLanIp();
       }
 
-      // 6. Silent check for updates on startup
-      if (isMounted) {
-        checkForUpdates(true).catch((e) => {
-          console.debug("Silent startup update check error:", e);
-        });
-      }
+      // 6. Startup auto-update check: if update exists, show blocking modal and download immediately
+      checkForUpdates(true, true).catch((e) => {
+        console.debug("Startup auto-update check error:", e);
+      });
     };
 
     initApp();
-
-    return () => {
-      isMounted = false;
-    };
-  }, [loadSettings, refreshStatus, discoverLanIp, setStorageDir, updateSetting, checkForUpdates, startServices, settings]);
+  }, []);
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-50 dark:bg-[#0b0f19] text-slate-800 dark:text-slate-100 transition-colors">

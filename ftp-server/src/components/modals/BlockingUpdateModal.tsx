@@ -3,6 +3,7 @@ import { Sparkles, ArrowRight, Download, RefreshCw, CheckCircle2, AlertCircle, X
 import { useUpdaterStore } from "../../stores/useUpdaterStore";
 
 export const BlockingUpdateModal: React.FC = () => {
+  const currentAppVersion = useUpdaterStore((s) => s.currentAppVersion);
   const isModalOpen = useUpdaterStore((s) => s.isModalOpen);
   const isDownloading = useUpdaterStore((s) => s.isDownloading);
   const isReadyToRestart = useUpdaterStore((s) => s.isReadyToRestart);
@@ -29,14 +30,15 @@ export const BlockingUpdateModal: React.FC = () => {
               <Sparkles className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="text-sm font-semibold text-white">Application Update Available</h3>
+              <h3 className="text-sm font-semibold text-white">Application Update Required</h3>
               <p className="text-[11px] text-slate-400">Cryptographically signed release</p>
             </div>
           </div>
-          {!isDownloading && !isReadyToRestart && (
+          {errorMessage && !isDownloading && !isReadyToRestart && (
             <button
               onClick={dismissModal}
-              className="text-slate-400 hover:text-white p-1 rounded-lg transition"
+              className="text-slate-400 hover:text-white p-1 rounded-lg transition cursor-pointer"
+              title="Close modal"
             >
               <X className="w-4 h-4" />
             </button>
@@ -52,7 +54,7 @@ export const BlockingUpdateModal: React.FC = () => {
                 Current
               </span>
               <span className="text-xs font-mono font-bold text-slate-300">
-                v{updateInfo.currentVersion || "0.1.11"}
+                v{updateInfo.currentVersion || currentAppVersion}
               </span>
             </div>
             <ArrowRight className="w-4 h-4 text-indigo-400" />
@@ -139,22 +141,30 @@ export const BlockingUpdateModal: React.FC = () => {
               <RefreshCw className="w-3.5 h-3.5 animate-spin" />
               <span>Downloading Update...</span>
             </button>
-          ) : (
+          ) : errorMessage ? (
             <>
               <button
                 onClick={dismissModal}
-                className="px-4 py-2 rounded-xl text-xs font-medium text-slate-400 hover:text-white transition"
+                className="px-4 py-2 rounded-xl text-xs font-medium text-slate-400 hover:text-white transition cursor-pointer"
               >
-                Remind Me Later
+                Close
               </button>
               <button
                 onClick={startDownloadAndInstall}
                 className="inline-flex items-center space-x-1.5 px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-medium text-xs shadow-lg shadow-indigo-600/30 transition cursor-pointer"
               >
-                <Download className="w-3.5 h-3.5" />
-                <span>Download &amp; Install Update</span>
+                <RefreshCw className="w-3.5 h-3.5" />
+                <span>Retry Download</span>
               </button>
             </>
+          ) : (
+            <button
+              onClick={startDownloadAndInstall}
+              className="inline-flex items-center space-x-1.5 px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-medium text-xs shadow-lg shadow-indigo-600/30 transition cursor-pointer"
+            >
+              <Download className="w-3.5 h-3.5" />
+              <span>Download &amp; Install Update</span>
+            </button>
           )}
         </div>
       </div>

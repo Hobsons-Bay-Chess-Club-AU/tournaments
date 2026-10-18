@@ -1,9 +1,12 @@
 import { create } from "zustand";
 import { check as checkUpdate } from "@tauri-apps/plugin-updater";
 import { invoke } from "@tauri-apps/api/core";
+import { getVersion } from "@tauri-apps/api/app";
 import { DownloadProgress, UpdateInfo } from "../types/updater";
+import { toast } from "./useToastStore";
 
 interface UpdaterState {
+  currentAppVersion: string;
   isChecking: boolean;
   isDownloading: boolean;
   isReadyToRestart: boolean;
@@ -13,13 +16,15 @@ interface UpdaterState {
   errorMessage: string | null;
   activeUpdateInstance: any;
 
-  checkForUpdates: (silent?: boolean) => Promise<boolean>;
+  initVersion: () => Promise<string>;
+  checkForUpdates: (silent?: boolean, autoInstall?: boolean) => Promise<boolean>;
   startDownloadAndInstall: () => Promise<void>;
   restartApp: () => Promise<void>;
   dismissModal: () => void;
 }
 
 export const useUpdaterStore = create<UpdaterState>((set, get) => ({
+  currentAppVersion: "0.1.12",
   isChecking: false,
   isDownloading: false,
   isReadyToRestart: false,
@@ -29,10 +34,26 @@ export const useUpdaterStore = create<UpdaterState>((set, get) => ({
   errorMessage: null,
   activeUpdateInstance: null,
 
-  checkForUpdates: async (silent = false) => {
+  initVersion: async () => {
+    try {
+      const ver = await getVersion();
+      if (ver) {
+        set({ currentAppVersion: ver });
+        return ver;
+      }
+    } catch (e) {
+      console.debug("[Updater] Could not retrieve version via API, falling back to default:", e);
+    }
+    return get().currentAppVersion;
+  },
+
+  checkForUpdates: async (silent = false, autoInstall = true) => {
     set({ isChecking: true, errorMessage: null });
     try {
+      console.log("[Updater] Checking for updates...");
       const update = await checkUpdate();
+      console.log("[Updater] Check result:", update);
+
       if (update?.available) {
         set({
           updateInfo: {
@@ -45,12 +66,23 @@ export const useUpdaterStore = create<UpdaterState>((set, get) => ({
           activeUpdateInstance: update,
           isModalOpen: true,
         });
+
+        // If autoInstall is true (e.g. startup auto-update check), immediately start download
+        if (autoInstall) {
+          console.log(`[Updater] Auto-downloading update v${update.version}...`);
+          await get().startDownloadAndInstall();
+        }
         return true;
+      } else if (!silent) {
+        toast.info("You are running the latest version!");
       }
       return false;
     } catch (err: any) {
+      console.warn("[Updater] Update check failed:", err);
       if (!silent) {
-        set({ errorMessage: err?.message || String(err) });
+        const msg = err?.message || String(err);
+        set({ errorMessage: msg });
+        toast.error(`Update check failed: ${msg}`);
       }
       return false;
     } finally {
@@ -84,11 +116,14 @@ export const useUpdaterStore = create<UpdaterState>((set, get) => ({
         }
       });
       set({ isReadyToRestart: true, isDownloading: false });
+      toast.success(`Update v${update.version} installed! Please restart the app.`, 5000);
     } catch (err: any) {
+      console.error("[Updater] Download & install failed:", err);
       set({
         errorMessage: err?.message || "Failed to download and verify update package.",
         isDownloading: false,
       });
+      toast.error(`Update installation failed: ${err?.message || err}`);
     }
   },
 
@@ -96,7 +131,9 @@ export const useUpdaterStore = create<UpdaterState>((set, get) => ({
     try {
       await invoke("restart_app");
     } catch (err: any) {
-      set({ errorMessage: `Restart failed: ${err?.message || err}` });
+      const msg = `Restart failed: ${err?.message || err}`;
+      set({ errorMessage: msg });
+      toast.error(msg);
     }
   },
 

@@ -1,10 +1,12 @@
 import React from "react";
 import { Folder, Shield } from "lucide-react";
 import { useServerStore } from "../../stores/useServerStore";
+import { useUpdaterStore } from "../../stores/useUpdaterStore";
 
 export const Footer: React.FC = () => {
   const isRunning = useServerStore((s) => s.isRunning);
   const storageDir = useServerStore((s) => s.storageDir);
+  const currentAppVersion = useUpdaterStore((s) => s.currentAppVersion);
 
   return (
     <footer className="border-t border-slate-200 dark:border-slate-800/80 bg-white dark:bg-slate-900/60 text-xs text-slate-500 dark:text-slate-400 py-3 mt-auto">
@@ -35,7 +37,7 @@ export const Footer: React.FC = () => {
             <span>Sandboxed Local Server</span>
           </div>
           <span>•</span>
-          <span className="font-semibold text-slate-600 dark:text-slate-400">HBCC Vega v0.1.11</span>
+          <span className="font-semibold text-slate-600 dark:text-slate-400">HBCC Vega v{currentAppVersion}</span>
         </div>
       </div>
     </footer>

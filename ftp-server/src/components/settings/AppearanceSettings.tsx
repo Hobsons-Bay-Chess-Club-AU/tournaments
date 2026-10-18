@@ -5,6 +5,7 @@ import { useUpdaterStore } from "../../stores/useUpdaterStore";
 
 export const AppearanceSettings: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
+  const currentAppVersion = useUpdaterStore((s) => s.currentAppVersion);
   const checkForUpdates = useUpdaterStore((s) => s.checkForUpdates);
   const isCheckingUpdate = useUpdaterStore((s) => s.isChecking);
 
@@ -88,12 +89,12 @@ export const AppearanceSettings: React.FC = () => {
                   Application Updates
                 </span>
                 <p className="text-[11px] text-slate-500 dark:text-slate-400">
-                  Version 0.1.11 • Cryptographically verified releases via minisign
+                  Version {currentAppVersion} • Cryptographically verified releases via minisign
                 </p>
               </div>
             </div>
             <button
-              onClick={() => checkForUpdates(false)}
+              onClick={() => checkForUpdates(false, true)}
               disabled={isCheckingUpdate}
               className="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 text-xs font-medium border border-slate-200 dark:border-slate-700 transition cursor-pointer"
             >

@@ -17,6 +17,7 @@ export const Header: React.FC<HeaderProps> = ({ currentView, onViewChange }) => 
   const startServices = useServerStore((s) => s.startServices);
   const stopServices = useServerStore((s) => s.stopServices);
 
+  const currentAppVersion = useUpdaterStore((s) => s.currentAppVersion);
   const isCheckingUpdate = useUpdaterStore((s) => s.isChecking);
   const checkForUpdates = useUpdaterStore((s) => s.checkForUpdates);
   const updateInfo = useUpdaterStore((s) => s.updateInfo);
@@ -109,7 +110,7 @@ export const Header: React.FC<HeaderProps> = ({ currentView, onViewChange }) => 
           )}
 
           <button
-            onClick={() => checkForUpdates(false)}
+            onClick={() => checkForUpdates(false, true)}
             disabled={isCheckingUpdate}
             className={`inline-flex items-center space-x-1.5 px-2.5 py-1.5 rounded-lg text-xs font-medium transition cursor-pointer ${
               updateInfo?.available
@@ -119,7 +120,7 @@ export const Header: React.FC<HeaderProps> = ({ currentView, onViewChange }) => 
             title={updateInfo?.available ? `Update v${updateInfo.version} Available!` : "Check for software updates"}
           >
             <RefreshCw className={`w-3 h-3 ${isCheckingUpdate ? "animate-spin" : ""}`} />
-            <span>{updateInfo?.available ? `⚡ v${updateInfo.version} Available` : "⚡ v0.1.11"}</span>
+            <span>{updateInfo?.available ? `⚡ v${updateInfo.version} Available` : `⚡ v${currentAppVersion}`}</span>
           </button>
 
           <button
