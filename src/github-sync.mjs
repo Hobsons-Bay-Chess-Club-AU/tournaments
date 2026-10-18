@@ -1,6 +1,7 @@
 // Module to commit uploaded tournament files and update www/tournament.json directly
 // via the GitHub REST API (Git Database API) without requiring local git CLI or SSH keys.
 
+import syncFs from "fs";
 import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -9,8 +10,13 @@ import dotenv from "dotenv";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Ensure .env is loaded from standard locations, always overriding stale cached values
+let _envLoaded = false;
+
+// Ensure .env is loaded from standard locations quietly
 function loadEnv() {
+  if (_envLoaded) return;
+  _envLoaded = true;
+
   const candidates = [
     path.resolve(process.cwd(), ".env"),
     path.resolve(process.cwd(), "ftp-server", ".env"),
@@ -22,7 +28,9 @@ function loadEnv() {
 
   for (const p of candidates) {
     try {
-      dotenv.config({ path: p, override: true });
+      if (syncFs.existsSync(p)) {
+        dotenv.config({ path: p, override: true, quiet: true });
+      }
     } catch {
       // ignore
     }

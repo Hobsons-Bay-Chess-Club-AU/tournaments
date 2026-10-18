@@ -395,12 +395,31 @@ fn apply_cloud_env(cmd: &mut tokio::process::Command) {
             cmd.env("GH_BRANCH", val);
         }
     }
+    if let Some(val) = option_env!("PHP_TO_HTML_THRESHOLD_SECONDS") {
+        if std::env::var("PHP_TO_HTML_THRESHOLD_SECONDS").is_err() {
+            cmd.env("PHP_TO_HTML_THRESHOLD_SECONDS", val);
+        }
+    }
+    if let Some(val) = option_env!("SUPABASE_JWKS_URL") {
+        if std::env::var("SUPABASE_JWKS_URL").is_err() {
+            cmd.env("SUPABASE_JWKS_URL", val);
+        }
+    }
+    if let Some(val) = option_env!("SUPABASE_ACCESS_TOKEN") {
+        if std::env::var("SUPABASE_ACCESS_TOKEN").is_err() {
+            cmd.env("SUPABASE_ACCESS_TOKEN", val);
+        }
+    }
 }
 
 fn dispatch_process_logs(app: Option<&tauri::AppHandle>, stdout: &str, stderr: &str) {
     for line in stdout.lines() {
         let trimmed = line.trim();
-        if trimmed.is_empty() || trimmed.starts_with("[Vega Parser] Output: ") {
+        if trimmed.is_empty()
+            || trimmed.starts_with("[Vega Parser] Output: ")
+            || trimmed.contains("injected env")
+            || trimmed.contains("vestauth")
+        {
             continue;
         }
 

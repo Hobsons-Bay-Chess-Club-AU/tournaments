@@ -115,6 +115,13 @@ jobs:
           SUPABASE_TABLE: ${{ secrets.SUPABASE_TABLE }}
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
           NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY }}
+          ALLOW_PUSH_CHANGE_TO_GH: ${{ secrets.ALLOW_PUSH_CHANGE_TO_GH }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_REPO: ${{ secrets.GH_REPO }}
+          GH_BRANCH: ${{ secrets.GH_BRANCH }}
+          PHP_TO_HTML_THRESHOLD_SECONDS: ${{ secrets.PHP_TO_HTML_THRESHOLD_SECONDS }}
+          SUPABASE_JWKS_URL: ${{ secrets.SUPABASE_JWKS_URL }}
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
         with:
           projectPath: './ftp-server'
           tagName: ${{ env.RELEASE_TAG }}

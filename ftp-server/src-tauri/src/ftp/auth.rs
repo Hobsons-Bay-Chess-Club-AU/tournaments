@@ -67,6 +67,11 @@ impl KeypairAuthenticator {
         names
     }
 
+    /// Returns the first configured keypair (username, password), if any.
+    pub fn first_keypair(&self) -> Option<(String, String)> {
+        self.valid_users.iter().next().map(|(u, p)| (u.clone(), p.clone()))
+    }
+
     /// Number of configured authorized users.
     pub fn user_count(&self) -> usize {
         self.valid_users.len()

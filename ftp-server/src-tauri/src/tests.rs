@@ -70,13 +70,17 @@ mod tests {
         let temp_upload_file = temp_dir.path().join("local_standings.html");
         fs::write(&temp_upload_file, sample_html).unwrap();
 
+        let (ftp_user, ftp_pass) = crate::ftp::auth::KeypairAuthenticator::from_env_or_default()
+            .first_keypair()
+            .unwrap_or_else(|| ("vega".to_string(), "vega".to_string()));
+
         let output = tokio::process::Command::new("curl")
             .args([
                 "-T",
                 temp_upload_file.to_str().unwrap(),
                 &format!("ftp://127.0.0.1:{}/standings.html", ftp_port),
                 "--user",
-                "vega:vega",
+                &format!("{}:{}", ftp_user, ftp_pass),
                 "--connect-timeout",
                 "5",
                 "--max-time",

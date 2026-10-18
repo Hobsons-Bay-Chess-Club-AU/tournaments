@@ -114,7 +114,7 @@ export const Header: React.FC<HeaderProps> = ({ currentView, onViewChange }) => 
             title="Check for software updates"
           >
             <RefreshCw className={`w-3 h-3 ${isCheckingUpdate ? "animate-spin" : ""}`} />
-            <span>⚡ v0.1.9</span>
+            <span>⚡ v0.1.10</span>
           </button>
 
           <button
