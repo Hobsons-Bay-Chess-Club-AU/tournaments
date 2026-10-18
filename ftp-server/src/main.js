@@ -86,6 +86,8 @@ const resetDefaultsBtn = document.getElementById("resetDefaultsBtn");
 const applySettingsBtn = document.getElementById("applySettingsBtn");
 const settingsVersion = document.getElementById("settingsVersion");
 const checkUpdateBtn = document.getElementById("checkUpdateBtn");
+const headerUpdateBtn = document.getElementById("headerUpdateBtn");
+const dashVersionBadge = document.getElementById("dashVersionBadge");
 const toast = document.getElementById("toast");
 
 // Blocking Update Modal Elements
@@ -285,6 +287,18 @@ async function init() {
     }
 
     updateUI();
+
+    // Check if app was just updated to a newer version
+    const appVerEl = document.getElementById("appVersion");
+    const currentAppVersion = appVerEl ? appVerEl.textContent.trim().replace(/^v/, "") : "";
+    if (currentAppVersion) {
+      const prevVersion = localStorage.getItem("hbcc_app_version");
+      if (prevVersion && prevVersion !== currentAppVersion) {
+        showToast(`🎉 Successfully updated to v${currentAppVersion}!`, 6000);
+        appendSystemLog("System", "INFO", `Application upgraded from v${prevVersion} to v${currentAppVersion}`);
+      }
+      localStorage.setItem("hbcc_app_version", currentAppVersion);
+    }
 
     // 2. Auto-start server on launch
     await startServer();
@@ -959,6 +973,9 @@ async function checkForUpdateAndPrompt(silent = false) {
       if (blockingTargetVer) {
         blockingTargetVer.textContent = `Target: v${update.version}`;
       }
+      if (update.body && blockingUpdateDesc) {
+        blockingUpdateDesc.textContent = update.body;
+      }
 
       // Display blocking modal overlay
       if (updateBlockingModal) {
@@ -1023,6 +1040,25 @@ checkUpdateBtn.addEventListener("click", async () => {
     checkUpdateBtn.textContent = "Check for Updates";
   }
 });
+
+if (headerUpdateBtn) {
+  headerUpdateBtn.addEventListener("click", async () => {
+    try {
+      headerUpdateBtn.disabled = true;
+      headerUpdateBtn.textContent = "Checking...";
+      await checkForUpdateAndPrompt(false);
+    } finally {
+      headerUpdateBtn.disabled = false;
+      headerUpdateBtn.textContent = "🔄 Updates";
+    }
+  });
+}
+
+if (dashVersionBadge) {
+  dashVersionBadge.addEventListener("click", async () => {
+    await checkForUpdateAndPrompt(false);
+  });
+}
 
 // Start app
 init();

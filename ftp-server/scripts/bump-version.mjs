@@ -37,6 +37,18 @@ cargoContent = cargoContent.replace(/^version\s*=\s*"[^"]+"/m, `version = "${ver
 fs.writeFileSync(cargoPath, cargoContent);
 console.log(`✓ Updated Cargo.toml: ${oldVersion} -> ${version}`);
 
+// 3b. src-tauri/Cargo.lock
+const cargoLockPath = path.join(projectRoot, "src-tauri", "Cargo.lock");
+if (fs.existsSync(cargoLockPath)) {
+  let lockContent = fs.readFileSync(cargoLockPath, "utf8");
+  lockContent = lockContent.replace(
+    /(\[\[package\]\]\nname = "hbcc-ftp-server"\nversion = ")[^"]+(")/,
+    `$1${version}$2`
+  );
+  fs.writeFileSync(cargoLockPath, lockContent);
+  console.log(`✓ Updated Cargo.lock: ${oldVersion} -> ${version}`);
+}
+
 // 4. index.html
 const indexPath = path.join(projectRoot, "index.html");
 let indexContent = fs.readFileSync(indexPath, "utf8");
