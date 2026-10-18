@@ -23,8 +23,7 @@
 </li><li class="nav-item"><a class="nav-link " href="pairs7.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
-<ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item"><a class="nav-link" href="games.php" >Games</a>
-</li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+<ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
 <ul class="dropdown-menu">          <li><a class="dropdown-item" href="felovar.php">FIDE Rating</a></li>          <li><a class="dropdown-item" href="fideplayercard.php">FIDE Player Card</a></li>           <li><a class="dropdown-item" href="nelovar.php">National rating</a></li>          <li><a class="dropdown-item" href="playercard.php">National Player Card</a></li></ul></li></ul> </div>
 </div>
 </nav>
@@ -53,7 +52,7 @@
 <tr><td > Play System</td> <td> Single Round Robin</td> </tr>
 <tr><td >Rounds</td> <td> 7</td> </tr>
 <tr><td >Score game</td> <td> 0-0.5-1</td> </tr>
-<tr><td >Tie break</td> <td> SB </td> </tr>
+<tr><td >Tie break</td> <td>      SB </td> </tr>
 <tr><td >Registered Players</td> <td> 8</td> </tr>
 <tr><td > Number of Federations</td> <td> 1</td> </tr>
 <tr><td >Average Rating (all) </td> <td> 1891</td> </tr>
