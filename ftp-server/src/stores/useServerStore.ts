@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import { invoke } from "@tauri-apps/api/core";
-import { ServicesStatus, AuthInfo } from "../types/server";
+import { ServiceStatus, AuthInfo } from "../types/server";
 
 interface ServerState {
   isRunning: boolean;
@@ -32,23 +32,33 @@ export const useServerStore = create<ServerState>((set, get) => ({
 
   refreshStatus: async () => {
     try {
-      const status = await invoke<ServicesStatus>("get_services_status");
-      const auth = await invoke<AuthInfo>("get_auth_info").catch(() => ({ username: "hbcc", auth_mode: "permissive" as const }));
-      set({
-        isRunning: status.ftp_running && status.http_running,
+      const status = await invoke<ServiceStatus>("get_services_status");
+      const auth = await invoke<AuthInfo>("get_auth_info").catch((): AuthInfo => ({
+        username: "hbcc",
+        usernames: ["hbcc"],
+        auth_mode: "permissive" as const,
+      }));
+
+      const resolvedUser =
+        auth.username ||
+        (auth.usernames && auth.usernames.length > 0 ? auth.usernames[0] : "hbcc");
+
+      set((state) => ({
+        isRunning: status.is_running,
         ftpPort: status.ftp_port || 2121,
         httpPort: status.http_port || 8080,
-        host: status.host || "127.0.0.1",
-        storageDir: status.storage_dir || get().storageDir,
-        username: auth.username || "hbcc",
+        lanIp: status.local_ip || state.lanIp,
+        storageDir: status.storage_dir || state.storageDir,
+        username: resolvedUser,
         authMode: auth.auth_mode || "permissive",
-      });
+      }));
     } catch (err) {
       console.error("Failed to get services status:", err);
     }
   },
 
-  startServices: async (storageDir, allowLan, ftpPort, httpPort) => {
+  startServices: async (storageDir, allowLan = true, ftpPort, httpPort) => {
+    if (get().isLoading) return false;
     set({ isLoading: true });
     try {
       const targetDir = storageDir || get().storageDir;
@@ -56,22 +66,35 @@ export const useServerStore = create<ServerState>((set, get) => ({
       const targetFtp = ftpPort || get().ftpPort;
       const targetHttp = httpPort || get().httpPort;
 
-      const success = await invoke<boolean>("start_services", {
+      const status = await invoke<ServiceStatus>("start_services", {
         host: targetHost,
         ftpPort: targetFtp,
         httpPort: targetHttp,
         storageDir: targetDir,
       });
 
-      if (success) {
-        await get().refreshStatus();
-        if (allowLan) {
-          await get().discoverLanIp();
-        }
+      if (status) {
+        set((state) => ({
+          isRunning: status.is_running,
+          ftpPort: status.ftp_port || targetFtp,
+          httpPort: status.http_port || targetHttp,
+          lanIp: status.local_ip || state.lanIp,
+          storageDir: status.storage_dir || targetDir,
+        }));
       }
-      return success;
+
+      await get().refreshStatus();
+
+      // If LAN IP wasn't resolved by UDP socket, fallback to WebRTC candidate
+      if (allowLan && (!get().lanIp || get().lanIp === "127.0.0.1")) {
+        await get().discoverLanIp();
+      }
+
+      return true;
     } catch (err) {
       console.error("Failed to start services:", err);
+      // Even if already running error (e.g. strict mode re-mount), sync actual state
+      await get().refreshStatus();
       return false;
     } finally {
       set({ isLoading: false });
@@ -79,13 +102,13 @@ export const useServerStore = create<ServerState>((set, get) => ({
   },
 
   stopServices: async () => {
+    if (get().isLoading) return false;
     set({ isLoading: true });
     try {
-      const success = await invoke<boolean>("stop_services");
-      if (success) {
-        set({ isRunning: false });
-      }
-      return success;
+      await invoke("stop_services");
+      set({ isRunning: false });
+      await get().refreshStatus();
+      return true;
     } catch (err) {
       console.error("Failed to stop services:", err);
       return false;

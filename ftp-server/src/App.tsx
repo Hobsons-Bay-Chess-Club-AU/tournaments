@@ -39,6 +39,8 @@ export const App: React.FC = () => {
   const checkForUpdates = useUpdaterStore((s) => s.checkForUpdates);
 
   useEffect(() => {
+    let isMounted = true;
+
     const initApp = async () => {
       // 1. Load persisted settings
       await loadSettings();
@@ -60,14 +62,11 @@ export const App: React.FC = () => {
         setStorageDir(activeDir);
       }
 
-      // 3. Refresh status from backend
+      // 3. Refresh status from backend (includes local_ip detection)
       await refreshStatus();
 
-      // 4. Auto-discover LAN IP
-      await discoverLanIp();
-
-      // 5. Auto-start services if configured
-      if (settings.autoStart) {
+      // 4. Auto-start services if configured and not already running
+      if (settings.autoStart && !useServerStore.getState().isRunning) {
         await startServices(
           activeDir,
           settings.allowLan,
@@ -76,14 +75,25 @@ export const App: React.FC = () => {
         );
       }
 
+      // 5. Secondary check if LAN IP needs WebRTC fallback
+      if (!useServerStore.getState().lanIp) {
+        await discoverLanIp();
+      }
+
       // 6. Silent check for updates on startup
-      checkForUpdates(true).catch((e) => {
-        console.debug("Silent startup update check error:", e);
-      });
+      if (isMounted) {
+        checkForUpdates(true).catch((e) => {
+          console.debug("Silent startup update check error:", e);
+        });
+      }
     };
 
     initApp();
-  }, [loadSettings, refreshStatus, discoverLanIp, setStorageDir, updateSetting, checkForUpdates]);
+
+    return () => {
+      isMounted = false;
+    };
+  }, [loadSettings, refreshStatus, discoverLanIp, setStorageDir, updateSetting, checkForUpdates, startServices, settings]);
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-50 dark:bg-[#0b0f19] text-slate-800 dark:text-slate-100 transition-colors">

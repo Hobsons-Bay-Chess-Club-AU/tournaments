@@ -4,7 +4,6 @@ import { useServerStore } from "../../stores/useServerStore";
 
 export const ConnectionCards: React.FC = () => {
   const ftpPort = useServerStore((s) => s.ftpPort);
-  const host = useServerStore((s) => s.host);
   const lanIp = useServerStore((s) => s.lanIp);
   const username = useServerStore((s) => s.username);
   const authMode = useServerStore((s) => s.authMode);
@@ -12,14 +11,17 @@ export const ConnectionCards: React.FC = () => {
 
   const [copied, setCopied] = useState(false);
 
-  const activeHost = lanIp || (host === "0.0.0.0" ? "0.0.0.0" : "127.0.0.1");
-
   const handleCopyVegaConfig = async () => {
+    const hostStr =
+      lanIp && lanIp !== "127.0.0.1"
+        ? `127.0.0.1 (or ${lanIp} on LAN)`
+        : "127.0.0.1";
+    const passStr = username === "vega" ? "vega" : "hbcc123";
     const text = [
-      `Host: ${activeHost}`,
+      `Host: ${hostStr}`,
       `Port: ${ftpPort}`,
-      `User: ${username}`,
-      `Password: hbcc123 (or any password under permissive mode)`,
+      `Username: ${username}`,
+      `Password: ${passStr}`,
       `Directory: /`,
       `Passive Mode: Yes`,
     ].join("\n");
@@ -96,7 +98,7 @@ export const ConnectionCards: React.FC = () => {
             <div className="flex justify-between items-center py-1 border-b border-slate-100 dark:border-slate-800/80">
               <span className="text-xs text-slate-500 dark:text-slate-400 font-sans">LAN IP:</span>
               <span className="font-semibold text-emerald-600 dark:text-emerald-400 select-all">
-                {lanIp || (host === "0.0.0.0" ? "0.0.0.0 (All IPs)" : "127.0.0.1")}
+                {lanIp && lanIp !== "127.0.0.1" ? lanIp : "127.0.0.1 (Local Only)"}
               </span>
             </div>
             <div className="flex justify-between items-center py-1">
