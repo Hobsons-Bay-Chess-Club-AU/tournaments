@@ -52,7 +52,7 @@ export const BlockingUpdateModal: React.FC = () => {
                 Current
               </span>
               <span className="text-xs font-mono font-bold text-slate-300">
-                v{updateInfo.currentVersion || "0.1.8"}
+                v{updateInfo.currentVersion || "0.1.9"}
               </span>
             </div>
             <ArrowRight className="w-4 h-4 text-indigo-400" />

@@ -51,14 +51,39 @@ if (fs.existsSync(cargoLockPath)) {
 
 // 4. index.html
 const indexPath = path.join(projectRoot, "index.html");
-let indexContent = fs.readFileSync(indexPath, "utf8");
-indexContent = indexContent
-  .replace(/⚡\s*v[0-9.]+\s*Connected/g, `⚡ v${version} Connected`)
-  .replace(/<span id="settingsVersion">v[0-9.]+<\/span>/g, `<span id="settingsVersion">v${version}</span>`)
-  .replace(/<span id="appVersion">v[0-9.]+<\/span>/g, `<span id="appVersion">v${version}</span>`)
-  .replace(/<span class="ver-pill ver-current" id="blockingCurrentVer">Current: v[0-9.]+<\/span>/g, `<span class="ver-pill ver-current" id="blockingCurrentVer">Current: v${version}</span>`);
-fs.writeFileSync(indexPath, indexContent);
-console.log(`✓ Updated index.html: v${oldVersion} -> v${version}`);
+if (fs.existsSync(indexPath)) {
+  let indexContent = fs.readFileSync(indexPath, "utf8");
+  indexContent = indexContent
+    .replace(/⚡\s*v[0-9.]+\s*Connected/g, `⚡ v${version} Connected`)
+    .replace(/<span id="settingsVersion">v[0-9.]+<\/span>/g, `<span id="settingsVersion">v${version}</span>`)
+    .replace(/<span id="appVersion">v[0-9.]+<\/span>/g, `<span id="appVersion">v${version}</span>`)
+    .replace(/<span class="ver-pill ver-current" id="blockingCurrentVer">Current: v[0-9.]+<\/span>/g, `<span class="ver-pill ver-current" id="blockingCurrentVer">Current: v${version}</span>`);
+  fs.writeFileSync(indexPath, indexContent);
+  console.log(`✓ Updated index.html: v${oldVersion} -> v${version}`);
+}
+
+// 5. React source components
+const reactFiles = [
+  path.join(projectRoot, "src", "components", "layout", "Header.tsx"),
+  path.join(projectRoot, "src", "components", "layout", "Footer.tsx"),
+  path.join(projectRoot, "src", "components", "dashboard", "StorageBanner.tsx"),
+  path.join(projectRoot, "src", "components", "settings", "AppearanceSettings.tsx"),
+  path.join(projectRoot, "src", "components", "modals", "BlockingUpdateModal.tsx"),
+];
+
+for (const rFile of reactFiles) {
+  if (fs.existsSync(rFile)) {
+    let content = fs.readFileSync(rFile, "utf8");
+    content = content
+      .replace(/⚡\s*v[0-9.]+/g, `⚡ v${version}`)
+      .replace(/v[0-9.]+\s+Connected/g, `v${version} Connected`)
+      .replace(/HBCC Vega v[0-9.]+/g, `HBCC Vega v${version}`)
+      .replace(/Version\s+[0-9.]+\s+•/g, `Version ${version} •`)
+      .replace(/v\{updateInfo\.currentVersion\s*\|\|\s*"[0-9.]+"\}/g, `v{updateInfo.currentVersion || "${version}"}`);
+    fs.writeFileSync(rFile, content);
+    console.log(`✓ Updated ${path.basename(rFile)}: v${oldVersion} -> v${version}`);
+  }
+}
 
 console.log(`\n🎉 Version successfully updated to ${version} across all files!`);
 console.log(`Next commands:`);
