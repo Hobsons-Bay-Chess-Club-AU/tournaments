@@ -49,17 +49,6 @@ jobs:
         with:
           targets: ${{ matrix.platform == 'macos-latest' && 'aarch64-apple-darwin,x86_64-apple-darwin' || '' }}
 
-      - name: Setup sccache
-        uses: mozilla-actions/sccache-action@v0.0.11
-        with:
-          version: "v0.9.1"
-
-      - name: Configure sccache
-        shell: bash
-        run: |
-          echo "RUSTC_WRAPPER=sccache" >> $GITHUB_ENV
-          echo "SCCACHE_GHA_ENABLED=true" >> $GITHUB_ENV
-
       - name: Rust Cache
         uses: swatinem/rust-cache@v2
         with:
@@ -134,8 +123,3 @@ jobs:
           releaseDraft: false
           prerelease: false
           args: ${{ matrix.args }}
-
-      - name: Show sccache stats
-        if: always()
-        shell: bash
-        run: sccache --show-stats
