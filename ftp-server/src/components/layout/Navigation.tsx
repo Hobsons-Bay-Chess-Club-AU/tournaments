@@ -9,7 +9,7 @@ interface NavigationProps {
 export const Navigation: React.FC<NavigationProps> = ({ currentView, onViewChange }) => {
   return (
     <div className="border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/40">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex space-x-6">
+      <div className="w-full px-4 sm:px-6 lg:px-8 flex space-x-6">
         <button
           onClick={() => onViewChange("dashboard")}
           className={`flex items-center space-x-2 py-3 border-b-2 text-xs sm:text-sm font-medium transition-colors ${
