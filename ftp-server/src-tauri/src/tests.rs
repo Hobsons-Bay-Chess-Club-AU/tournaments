@@ -192,4 +192,16 @@ mod tests {
 
         handle.stop().await;
     }
+
+    #[test]
+    fn test_tauri_updater_public_key_is_valid_minisign() {
+        use base64::Engine;
+        let tauri_conf_str = include_str!("../tauri.conf.json");
+        let v: serde_json::Value = serde_json::from_str(tauri_conf_str).unwrap();
+        let pubkey_b64 = v["plugins"]["updater"]["pubkey"].as_str().unwrap();
+        let decoded = base64::engine::general_purpose::STANDARD.decode(pubkey_b64).unwrap();
+        let pubkey_str = String::from_utf8(decoded).unwrap();
+        let pk = minisign_verify::PublicKey::decode(&pubkey_str);
+        assert!(pk.is_ok(), "Public key in tauri.conf.json must be a valid minisign key");
+    }
 }

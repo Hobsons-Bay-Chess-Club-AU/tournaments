@@ -123,3 +123,36 @@ jobs:
           releaseDraft: false
           prerelease: false
           args: ${{ matrix.args }}
+
+      - name: Ensure latest.json matches asset signatures
+        if: matrix.platform == 'macos-latest'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.RELEASE_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p /tmp/updater-reconcile
+          gh release download "${{ env.RELEASE_TAG }}" -p "latest.json" -p "HBCC.FTP.Server_universal.app.tar.gz.sig" --dir /tmp/updater-reconcile || true
+          if [ -f /tmp/updater-reconcile/latest.json ] && [ -f /tmp/updater-reconcile/HBCC.FTP.Server_universal.app.tar.gz.sig ]; then
+            node -e '
+              const fs = require("fs");
+              const latestPath = "/tmp/updater-reconcile/latest.json";
+              const sigPath = "/tmp/updater-reconcile/HBCC.FTP.Server_universal.app.tar.gz.sig";
+              const latest = JSON.parse(fs.readFileSync(latestPath, "utf8"));
+              const macSig = fs.readFileSync(sigPath, "utf8").trim();
+              let changed = false;
+              for (const p of ["darwin-aarch64", "darwin-x86_64", "darwin-aarch64-app", "darwin-x86_64-app"]) {
+                if (latest.platforms && latest.platforms[p] && latest.platforms[p].signature !== macSig) {
+                  latest.platforms[p].signature = macSig;
+                  changed = true;
+                }
+              }
+              if (changed) {
+                fs.writeFileSync(latestPath, JSON.stringify(latest, null, 2) + "\n");
+                console.log("Reconciled latest.json with fresh macOS universal signature");
+                process.exit(0);
+              } else {
+                console.log("latest.json already has matching macOS signature");
+                process.exit(1);
+              }
+            ' && gh release upload "${{ env.RELEASE_TAG }}" /tmp/updater-reconcile/latest.json --clobber || true
+          fi

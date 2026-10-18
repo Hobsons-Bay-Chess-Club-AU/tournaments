@@ -32,6 +32,8 @@ unftp-core = "0.1.0"
 
 [dev-dependencies]
 tempfile = "3.10"
+minisign-verify = "0.3.0"
+base64 = "0.22"
 
 [features]
 default = ["json-generator"]
