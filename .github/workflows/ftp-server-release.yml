@@ -75,24 +75,6 @@ jobs:
           npm ci
           cd ftp-server && npm ci
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
-        with:
-          bun-version: latest
-
-      - name: Build Sidecar Binaries
-        shell: bash
-        working-directory: ftp-server
-        run: |
-          mkdir -p src-tauri/binaries
-          export NODE_PATH="node_modules:../node_modules:$NODE_PATH"
-          if [ "${{ matrix.platform }}" = "macos-latest" ]; then
-            bun build parser/run-parser.mjs --compile --target=bun-darwin-arm64 --outfile src-tauri/binaries/vega-parser-aarch64-apple-darwin
-            bun build parser/run-parser.mjs --compile --target=bun-darwin-x64 --outfile src-tauri/binaries/vega-parser-x86_64-apple-darwin
-            lipo -create -output src-tauri/binaries/vega-parser-universal-apple-darwin src-tauri/binaries/vega-parser-aarch64-apple-darwin src-tauri/binaries/vega-parser-x86_64-apple-darwin
-          elif [ "${{ matrix.platform }}" = "windows-latest" ]; then
-            bun build parser/run-parser.mjs --compile --target=bun-windows-x64 --outfile src-tauri/binaries/vega-parser-x86_64-pc-windows-msvc.exe
-          fi
 
       - name: Run Tests
         if: matrix.platform == 'macos-latest'

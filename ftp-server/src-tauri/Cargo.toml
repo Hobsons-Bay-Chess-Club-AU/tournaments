@@ -29,6 +29,8 @@ dirs = "5.0"
 notify = "6.1.1"
 dotenvy = "0.15"
 unftp-core = "0.1.0"
+hbcc-core = { path = "../../crates/hbcc-core" }
+
 
 [dev-dependencies]
 tempfile = "3.10"
