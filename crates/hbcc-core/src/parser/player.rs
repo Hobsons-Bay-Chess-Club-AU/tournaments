@@ -67,25 +67,8 @@ fn has_class(elem: &ElementRef, class_name: &str) -> bool {
         .unwrap_or(false)
 }
 
-/// Parse caption to player info or fallback text.
-pub fn parse_caption_player_info(caption_html: &str) -> Option<CaptionPlayerInfo> {
-    let wrapped_html = if !caption_html.to_lowercase().contains("<table") {
-        format!("<table>{}</table>", caption_html)
-    } else {
-        caption_html.to_string()
-    };
-
-    let fragment = Html::parse_fragment(&wrapped_html);
-    let caption_elem = fragment
-        .select(&Selector::parse("caption").unwrap())
-        .next()
-        .unwrap_or_else(|| fragment.root_element());
-
-    let has_html = caption_elem.select(&SEL_ANY_ELEM).next().is_some();
-    if !has_html {
-        return None;
-    }
-
+/// Parse a caption ElementRef directly to player info.
+pub fn parse_caption_element(caption_elem: &ElementRef) -> CaptionPlayerInfo {
     let caption_text = caption_elem.text().collect::<String>();
     let caption_inner_html = caption_elem.inner_html();
 
@@ -137,13 +120,35 @@ pub fn parse_caption_player_info(caption_html: &str) -> Option<CaptionPlayerInfo
         }
     }
 
-    Some(CaptionPlayerInfo {
+    CaptionPlayerInfo {
         player_name,
         id: player_id,
         more_info,
         raw_text: caption_text.trim().to_string(),
-        raw_html: caption_inner_html.trim().to_string(),
-    })
+        raw_html: caption_inner_html,
+    }
+}
+
+/// Parse caption to player info or fallback text.
+pub fn parse_caption_player_info(caption_html: &str) -> Option<CaptionPlayerInfo> {
+    let wrapped_html = if !caption_html.to_lowercase().contains("<table") {
+        format!("<table>{}</table>", caption_html)
+    } else {
+        caption_html.to_string()
+    };
+
+    let fragment = Html::parse_fragment(&wrapped_html);
+    let caption_elem = fragment
+        .select(&Selector::parse("caption").unwrap())
+        .next()
+        .unwrap_or_else(|| fragment.root_element());
+
+    let has_html = caption_elem.select(&SEL_ANY_ELEM).next().is_some();
+    if !has_html {
+        return None;
+    }
+
+    Some(parse_caption_element(&caption_elem))
 }
 
 /// Parse White Player and Black Player cells in pairing tables.

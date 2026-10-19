@@ -1,4 +1,4 @@
-use crate::parser::player::{parse_caption_player_info, read_pair_player, read_player};
+use crate::parser::player::{parse_caption_element, read_pair_player, read_player};
 use indexmap::IndexMap;
 use regex::Regex;
 use scraper::{ElementRef, Selector};
@@ -96,31 +96,79 @@ pub fn parse_table_to_json(table: &ElementRef) -> ParsedTable {
             let text = caption_elem.text().collect::<String>().trim().to_string();
             caption = Some(Value::String(text));
         } else {
-            let html_str = caption_elem.html();
-            if let Some(info) = parse_caption_player_info(&html_str) {
-                caption = Some(serde_json::to_value(info).unwrap());
-            }
+            let info = parse_caption_element(&caption_elem);
+            caption = Some(serde_json::to_value(info).unwrap());
         }
     } else {
-        // Look for preceding h5 element
-        let mut prev = table.prev_sibling();
-        while let Some(node) = prev {
+        let mut prev_h5: Option<(String, String)> = None;
+
+        // 1. Direct previous sibling element
+        let mut sib = table.prev_sibling();
+        while let Some(node) = sib {
             if let Some(el) = ElementRef::wrap(node) {
                 if el.value().name() == "h5" {
-                    let h5_text = el.text().collect::<String>().trim().to_string();
-                    if !h5_text.is_empty() {
-                        caption = Some(json!({
-                            "playerName": h5_text,
-                            "id": "",
-                            "moreInfo": json!({}),
-                            "rawText": h5_text,
-                            "rawHtml": el.inner_html().trim().to_string()
-                        }));
+                    let text = el.text().collect::<String>().trim().to_string();
+                    if !text.is_empty() {
+                        prev_h5 = Some((text, el.inner_html().trim().to_string()));
                     }
-                    break;
+                }
+                break;
+            }
+            sib = node.prev_sibling();
+        }
+
+        // 2. Same container (parent)
+        if prev_h5.is_none() {
+            if let Some(parent_node) = table.parent() {
+                let table_id = table.id();
+                for child_node in parent_node.children() {
+                    if child_node.id() == table_id {
+                        break;
+                    }
+                    if let Some(child_el) = ElementRef::wrap(child_node) {
+                        if child_el.value().name() == "h5" {
+                            let text = child_el.text().collect::<String>().trim().to_string();
+                            if !text.is_empty() {
+                                prev_h5 = Some((text, child_el.inner_html().trim().to_string()));
+                                break;
+                            }
+                        }
+                    }
                 }
             }
-            prev = node.prev_sibling();
+        }
+
+        // 3. Grandparent container
+        if prev_h5.is_none() {
+            if let Some(parent_node) = table.parent() {
+                if let Some(grandparent_node) = parent_node.parent() {
+                    let parent_id = parent_node.id();
+                    for child_node in grandparent_node.children() {
+                        if child_node.id() == parent_id {
+                            break;
+                        }
+                        if let Some(child_el) = ElementRef::wrap(child_node) {
+                            if child_el.value().name() == "h5" {
+                                let text = child_el.text().collect::<String>().trim().to_string();
+                                if !text.is_empty() {
+                                    prev_h5 = Some((text, child_el.inner_html().trim().to_string()));
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        if let Some((text, html)) = prev_h5 {
+            caption = Some(json!({
+                "playerName": text,
+                "id": "",
+                "moreInfo": json!({}),
+                "rawText": text,
+                "rawHtml": html
+            }));
         }
     }
 
