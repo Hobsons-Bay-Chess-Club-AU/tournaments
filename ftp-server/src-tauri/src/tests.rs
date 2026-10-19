@@ -33,6 +33,11 @@ mod tests {
 
     #[tokio::test(flavor = "multi_thread", worker_threads = 2)]
     async fn test_end_to_end_vega_ftp_and_http_preview() {
+        if std::env::var("FTP_USERNAME").map(|s| s.trim().is_empty()).unwrap_or(true) {
+            std::env::set_var("FTP_USERNAME", "test_arbiter");
+            std::env::set_var("FTP_PASSWORD", "test_pass123");
+        }
+
         let temp_dir = tempfile::tempdir().unwrap();
         let root_path = temp_dir.path().to_path_buf();
         let ftp_port = 23121;
