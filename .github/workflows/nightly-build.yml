@@ -1,9 +1,13 @@
-name: Nightly Build and Deploy
+name: Build and Deploy v2
 
 on:
   schedule:
     # 4:00 AM Melbourne time (AEST UTC+10 / AEDT UTC+11) ≈ 18:00 UTC
     - cron: "0 18 * * *"
+  push:
+    branches: ["main"]
+    paths:
+      - "v2/**"
   workflow_dispatch:
 
 permissions:
@@ -74,13 +78,13 @@ jobs:
         continue-on-error: true
         run: |
           git config --global user.name "HBCC Bot"
-          git config --global user.email "bot@hobsonsbaychessclub.uk"
+          git config --global user.email "bot@hobsonsbaychess.com"
           git add www/v2
           if [ -d "data" ]; then git add data; fi
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore(nightly): update pre-rendered v2 static pages and upcoming data"
+            git commit -m "chore(v2): update pre-rendered static pages and upcoming data [skip ci]"
             git push
           fi
         env:
