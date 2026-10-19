@@ -10,6 +10,8 @@ on:
       - .github/workflows/sync.yml
       - src/**
       - v2/**
+      - crates/**
+      - Cargo.*
   workflow_dispatch:
     inputs:
       change_id:
@@ -62,6 +64,20 @@ jobs:
           key: ${{ runner.os }}-v2-nextjs-${{ hashFiles('v2/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-v2-nextjs-
+
+      - name: Cache Cargo dependencies
+        if: steps.check_change_id.outputs.skip_steps != 'true'
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/bin/
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+            target/
+          key: ${{ runner.os }}-cargo-${{ hashFiles('Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-
 
       - name: Check change_id
         id: check_change_id
@@ -122,13 +138,20 @@ jobs:
           node src/update-html.mjs
           docker compose down
 
+      - name: Build hbcc CLI
+        if: steps.check_change_id.outputs.skip_steps != 'true'
+        run: |
+          cargo build --release -p hbcc-cli
 
-      - name: run Sync.mjs
+      - name: run Sync.mjs and Native Data Pipeline
         if: steps.check_change_id.outputs.skip_steps != 'true'
         run: |
           sudo chown -R $(whoami) ./www
           node src/sync.mjs
-          node src/prepare-data.mjs
+          ./target/release/hbcc prepare-data --www-dir ./www
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
 
       - name: Cache data folder
         if: steps.check_change_id.outputs.skip_steps != 'true'
