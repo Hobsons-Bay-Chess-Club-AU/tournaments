@@ -14,4 +14,6 @@ export interface AuthInfo {
   usernames?: string[];
   user_count?: number;
   auth_mode?: "permissive" | "keypair";
+  default_username?: string;
+  default_password?: string;
 }

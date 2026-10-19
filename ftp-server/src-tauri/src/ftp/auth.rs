@@ -36,43 +36,32 @@ impl KeypairAuthenticator {
     /// Load configured keypairs following priority:
     /// 1. Runtime environment variables / `.env` (`FTP_USERNAME`, `FTP_PASSWORD`)
     /// 2. Compile-time embedded secrets from the build server (`option_env!`)
-    /// 3. Local fallback default (`vega:vega`) for development/testing if none are defined
     pub fn from_env_or_default() -> Self {
         let _ = dotenvy::dotenv();
 
         let usernames = std::env::var("FTP_USERNAME")
             .ok()
             .or_else(|| option_env!("FTP_USERNAME").map(|s| s.to_string()))
-            .unwrap_or_else(|| "vega".to_string());
+            .unwrap_or_default();
 
         let passwords = std::env::var("FTP_PASSWORD")
             .ok()
             .or_else(|| option_env!("FTP_PASSWORD").map(|s| s.to_string()))
-            .unwrap_or_else(|| "vega".to_string());
+            .unwrap_or_default();
 
         Self::new(&usernames, &passwords)
     }
 
     /// Checks if a username and password match any authorized keypair.
     pub fn is_allowed(&self, username: &str, password: &str) -> bool {
-        if self.valid_users.get(username).map_or(false, |expected| expected == password) {
-            return true;
-        }
-        // Seamless fallback for standard HBCC Vega credentials
-        let is_known_user = username == "vega" || username == "hbcc" || username == "arbiter" || self.valid_users.contains_key(username);
-        let is_known_pass = password == "vega" || password == "hbcc123" || password == "Hobsons@1974";
-        is_known_user && is_known_pass
+        self.valid_users
+            .get(username)
+            .map_or(false, |expected| expected == password)
     }
 
     /// Returns the list of authorized usernames (passwords are omitted).
     pub fn usernames(&self) -> Vec<String> {
         let mut names: Vec<String> = self.valid_users.keys().cloned().collect();
-        if !names.contains(&"vega".to_string()) {
-            names.push("vega".to_string());
-        }
-        if !names.contains(&"hbcc".to_string()) {
-            names.push("hbcc".to_string());
-        }
         names.sort();
         names
     }
@@ -84,7 +73,7 @@ impl KeypairAuthenticator {
 
     /// Number of configured authorized users.
     pub fn user_count(&self) -> usize {
-        self.valid_users.len().max(2)
+        self.valid_users.len()
     }
 }
 
@@ -95,16 +84,13 @@ impl Authenticator for KeypairAuthenticator {
         username: &str,
         creds: &Credentials,
     ) -> Result<Principal, AuthenticationError> {
-        if !self.valid_users.contains_key(username)
-            && username != "vega"
-            && username != "hbcc"
-            && username != "arbiter"
-        {
-            return Err(AuthenticationError::BadUser);
-        }
+        let expected_password = self
+            .valid_users
+            .get(username)
+            .ok_or(AuthenticationError::BadUser)?;
 
         match &creds.password {
-            Some(pass) if self.is_allowed(username, pass) => Ok(Principal {
+            Some(pass) if pass == expected_password => Ok(Principal {
                 username: username.to_string(),
             }),
             _ => Err(AuthenticationError::BadPassword),

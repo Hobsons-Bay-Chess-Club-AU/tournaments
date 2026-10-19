@@ -11,6 +11,7 @@ interface ServerState {
   lanIp: string;
   storageDir: string;
   username: string;
+  password: string;
   authMode: "permissive" | "keypair";
   startServices: (storageDir?: string, allowLan?: boolean, ftpPort?: number, httpPort?: number) => Promise<boolean>;
   stopServices: () => Promise<boolean>;
@@ -27,21 +28,23 @@ export const useServerStore = create<ServerState>((set, get) => ({
   host: "127.0.0.1",
   lanIp: "",
   storageDir: "",
-  username: "hbcc",
-  authMode: "permissive",
+  username: "",
+  password: "",
+  authMode: "keypair",
 
   refreshStatus: async () => {
     try {
       const status = await invoke<ServiceStatus>("get_services_status");
       const auth = await invoke<AuthInfo>("get_auth_info").catch((): AuthInfo => ({
-        username: "hbcc",
-        usernames: ["hbcc"],
-        auth_mode: "permissive" as const,
+        user_count: 0,
+        usernames: [],
       }));
 
       const resolvedUser =
+        auth.default_username ||
         auth.username ||
-        (auth.usernames && auth.usernames.length > 0 ? auth.usernames[0] : "hbcc");
+        (auth.usernames && auth.usernames.length > 0 ? auth.usernames[0] : "");
+      const resolvedPass = auth.default_password || "";
 
       const raw = status as any;
       const isRunning = Boolean(raw.is_running ?? raw.isRunning);
@@ -56,8 +59,9 @@ export const useServerStore = create<ServerState>((set, get) => ({
         httpPort,
         lanIp: lanIp || state.lanIp,
         storageDir: storageDir || state.storageDir,
-        username: resolvedUser,
-        authMode: auth.auth_mode || "permissive",
+        username: resolvedUser || state.username,
+        password: resolvedPass || state.password,
+        authMode: auth.auth_mode || "keypair",
       }));
     } catch (err) {
       console.error("Failed to get services status:", err);

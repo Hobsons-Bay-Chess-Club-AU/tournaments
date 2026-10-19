@@ -6,6 +6,7 @@ export const ConnectionCards: React.FC = () => {
   const ftpPort = useServerStore((s) => s.ftpPort);
   const lanIp = useServerStore((s) => s.lanIp);
   const username = useServerStore((s) => s.username);
+  const password = useServerStore((s) => s.password);
   const authMode = useServerStore((s) => s.authMode);
   const isRunning = useServerStore((s) => s.isRunning);
 
@@ -16,12 +17,11 @@ export const ConnectionCards: React.FC = () => {
       lanIp && lanIp !== "127.0.0.1"
         ? `127.0.0.1 (or ${lanIp} on LAN)`
         : "127.0.0.1";
-    const passStr = username === "vega" ? "vega" : "hbcc123";
     const text = [
       `Host: ${hostStr}`,
       `Port: ${ftpPort}`,
       `Username: ${username}`,
-      `Password: ${passStr}`,
+      `Password: ${password}`,
       `Directory: /`,
       `Passive Mode: Yes`,
     ].join("\n");
@@ -130,11 +130,13 @@ export const ConnectionCards: React.FC = () => {
             </span>
           </div>
 
-          <div className="space-y-1.5 font-mono text-xs">
-            <div className="flex justify-between items-center py-0.5">
-              <span className="text-slate-500 dark:text-slate-400 font-sans">User / Pass:</span>
-              <span className="font-semibold text-slate-800 dark:text-slate-200">{username} / hbcc123</span>
-            </div>
+            <div className="space-y-1.5 font-mono text-xs">
+              <div className="flex justify-between items-center py-0.5">
+                <span className="text-slate-500 dark:text-slate-400 font-sans">User / Pass:</span>
+                <span className="font-semibold text-slate-800 dark:text-slate-200">
+                  {username || "—"}{password ? ` / ${password}` : ""}
+                </span>
+              </div>
             <div className="flex justify-between items-center py-0.5">
               <span className="text-slate-500 dark:text-slate-400 font-sans">Directory:</span>
               <span className="font-semibold text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/60 px-1.5 py-0.5 rounded border border-emerald-200 dark:border-emerald-800/60">

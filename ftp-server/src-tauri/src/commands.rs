@@ -251,14 +251,19 @@ pub fn open_folder(path: String) -> Result<(), String> {
 pub struct AuthInfo {
     pub user_count: usize,
     pub usernames: Vec<String>,
+    pub default_username: Option<String>,
+    pub default_password: Option<String>,
 }
 
 #[tauri::command]
 pub fn get_auth_info() -> Result<AuthInfo, String> {
     let auth = crate::ftp::auth::KeypairAuthenticator::from_env_or_default();
+    let (first_user, first_pass) = auth.first_keypair().unzip();
     Ok(AuthInfo {
         user_count: auth.user_count(),
         usernames: auth.usernames(),
+        default_username: first_user,
+        default_password: first_pass,
     })
 }
 
