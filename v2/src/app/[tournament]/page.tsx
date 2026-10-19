@@ -6,12 +6,15 @@ export async function generateStaticParams() {
     try {
         const slugs = await getAllTournamentSlugs();
         console.log(`Generated ${slugs.length} static params for tournaments from database/fallback`);
+        if (slugs.length === 0) {
+            return [{ tournament: '_empty' }];
+        }
         return slugs.map((slug) => ({
             tournament: slug,
         }));
     } catch (error) {
         console.error('Error generating static params:', error);
-        return [];
+        return [{ tournament: '_empty' }];
     }
 }
 

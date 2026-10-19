@@ -23,7 +23,11 @@ function getPublicEvents(): UpcomingEvent[] {
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return getPublicEvents().map((e) => ({ slug: makeSlug(e.event) }));
+  const events = getPublicEvents();
+  if (events.length === 0) {
+    return [{ slug: "_empty" }];
+  }
+  return events.map((e) => ({ slug: makeSlug(e.event) }));
 }
 
 export async function generateMetadata({
@@ -32,6 +36,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  if (slug === "_empty") return { title: "No Events Found" };
   const entry = getPublicEvents().find(
     (e) => makeSlug(e.event) === slug
   );
@@ -48,6 +53,7 @@ export default async function EventDetailPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  if (slug === "_empty") notFound();
   const entry = getPublicEvents().find(
     (e) => makeSlug(e.event) === slug
   );
