@@ -24,7 +24,7 @@ interface UpdaterState {
 }
 
 export const useUpdaterStore = create<UpdaterState>((set, get) => ({
-  currentAppVersion: "0.1.13",
+  currentAppVersion: "0.2.0",
   isChecking: false,
   isDownloading: false,
   isReadyToRestart: false,

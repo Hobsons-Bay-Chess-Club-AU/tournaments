@@ -52,6 +52,7 @@ where
         Filesystem::new(root_for_fs.clone()).unwrap()
     }))
     .authenticator(authenticator)
+    .passive_host(libunftp::options::PassiveHost::FromConnection)
     .greeting("HBCC Vega Tournament FTP Server ready")
     .shutdown_indicator(async move {
         let _ = shutdown_rx.await;

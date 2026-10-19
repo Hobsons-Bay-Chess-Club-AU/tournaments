@@ -206,7 +206,16 @@ pub fn get_default_storage_dir() -> Result<String, String> {
 
 #[tauri::command]
 pub fn open_folder(path: String) -> Result<(), String> {
-    let p = PathBuf::from(&path);
+    let mut p = PathBuf::from(&path);
+    if p.is_relative() {
+        if let Ok(default_dir) = get_default_storage_dir() {
+            let candidate = PathBuf::from(default_dir).join(&p);
+            if candidate.exists() {
+                p = candidate;
+            }
+        }
+    }
+
     if !p.exists() {
         let _ = std::fs::create_dir_all(&p);
     }
@@ -214,7 +223,7 @@ pub fn open_folder(path: String) -> Result<(), String> {
     #[cfg(target_os = "macos")]
     {
         std::process::Command::new("open")
-            .arg(&path)
+            .arg(&p)
             .spawn()
             .map_err(|e| format!("Failed to open folder: {}", e))?;
     }
@@ -222,7 +231,7 @@ pub fn open_folder(path: String) -> Result<(), String> {
     #[cfg(target_os = "windows")]
     {
         std::process::Command::new("explorer")
-            .arg(&path)
+            .arg(&p)
             .spawn()
             .map_err(|e| format!("Failed to open folder: {}", e))?;
     }
@@ -230,7 +239,7 @@ pub fn open_folder(path: String) -> Result<(), String> {
     #[cfg(target_os = "linux")]
     {
         std::process::Command::new("xdg-open")
-            .arg(&path)
+            .arg(&p)
             .spawn()
             .map_err(|e| format!("Failed to open folder: {}", e))?;
     }
