@@ -1,0 +1,12 @@
+[package]
+name = "hbcc-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hbcc-core = { path = "../hbcc-core" }
+clap = { version = "4.5", features = ["derive"] }
+anyhow = "1.0"
+dotenvy = "0.15"
+env_logger = "0.11"
+log = "0.4"

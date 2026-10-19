@@ -1,0 +1,21 @@
+[package]
+name = "hbcc-core"
+version = "0.1.0"
+edition = "2021"
+description = "Core tournament parsing, leaderboard calculation, and sync engine for HBCC"
+
+[dependencies]
+scraper = "0.22"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = { version = "1.0", features = ["preserve_order"] }
+indexmap = { version = "2.6", features = ["serde"] }
+md-5 = "0.10"
+regex = "1.11"
+chrono = { version = "0.4", features = ["serde"] }
+walkdir = "2.5"
+reqwest = { version = "0.12", features = ["json", "blocking"] }
+tokio = { version = "1", features = ["full"], optional = true }
+
+[dev-dependencies]
+assert-json-diff = "2.0"
+tempfile = "3.14"
