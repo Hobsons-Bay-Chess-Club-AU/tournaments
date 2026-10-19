@@ -2,3 +2,5 @@
 
 pub mod tourstat;
 pub mod player;
+pub mod table;
+pub mod page;
