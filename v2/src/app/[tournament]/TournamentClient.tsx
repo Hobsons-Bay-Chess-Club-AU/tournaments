@@ -8,6 +8,7 @@ import KeyValueTable from "@/components/KeyValueTable";
 import PlayerPairingModal from "@/components/PlayerPairingModal";
 import TeamPairingRenderer from "@/components/TeamPairingRenderer";
 import { useFooter, formatMelbourneTime } from "@/context/FooterContext";
+import { getTournamentBySlug } from "@/lib/tournamentService";
 
 // Type for team pairing data
 type TeamPairingData = {
@@ -261,89 +262,29 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
 
     useEffect(() => {
         let isCancelled = false;
-        const abortController = new AbortController();
-
         const tournamentParam = resolvedParams.tournament || '';
-        const folderName = tournamentParam.startsWith('www') ? tournamentParam : `www${tournamentParam}`;
 
-        // Primary source: NEXT_PUBLIC_APP_URL or relative path to static build
-        const primaryBase = (process.env.NEXT_PUBLIC_APP_URL || '').trim().replace(/\/+$/, '');
-        const primaryCleanUrl = `${primaryBase}/${folderName}/data_clean.json?ts=${Date.now()}`;
-        const primaryFallbackUrl = `${primaryBase}/${folderName}/data.json?ts=${Date.now()}`;
-
-        // Realtime source: NEXT_PUBLIC_REALTIME_SOURCE_URL pointing to SFTPGo static website root
-        // Checks build-time env, window global, ?realtime_url query param, or localStorage
-        let realtimeBase = (process.env.NEXT_PUBLIC_REALTIME_SOURCE_URL || '').trim();
-        if (!realtimeBase && typeof window !== 'undefined') {
-            const win = window as any;
-            realtimeBase = win.NEXT_PUBLIC_REALTIME_SOURCE_URL || win.__ENV__?.NEXT_PUBLIC_REALTIME_SOURCE_URL || '';
-            if (!realtimeBase) {
-                try {
-                    const searchParamsRealtime = new URLSearchParams(window.location.search).get('realtime_url');
-                    if (searchParamsRealtime) {
-                        realtimeBase = searchParamsRealtime;
-                    } else {
-                        realtimeBase = localStorage.getItem('NEXT_PUBLIC_REALTIME_SOURCE_URL') || '';
-                    }
-                } catch {}
-            }
-        }
-        realtimeBase = realtimeBase.replace(/\/+$/, '');
-
-        if (realtimeBase) {
-            console.log(`[Tournament] Realtime source active: ${realtimeBase}`);
-        } else {
-            console.log('[Tournament] Realtime source not configured (NEXT_PUBLIC_REALTIME_SOURCE_URL is empty)');
-        }
-
-        const realtimeCleanUrl = realtimeBase ? `${realtimeBase}/${folderName}/data_clean.json?ts=${Date.now()}` : null;
-        const realtimeFallbackUrl = realtimeBase ? `${realtimeBase}/${folderName}/data.json?ts=${Date.now()}` : null;
-
-        let bestData: TournamentData | null = null;
-        let bestTimestamp = -1;
-
-        const applyDataIfNewer = (sourceData: TournamentData | null, sourceLabel: string) => {
-            if (isCancelled || !sourceData) return;
-            const sourceTimestamp = getGeneratedTimestamp(sourceData);
-
-            if (!bestData || sourceTimestamp > bestTimestamp) {
-                bestData = sourceData;
-                bestTimestamp = sourceTimestamp;
-                setData(sourceData);
-                if (sourceData.generatedAt) {
-                    const formatted = formatMelbourneTime(sourceData.generatedAt);
+        getTournamentBySlug(tournamentParam).then((result) => {
+            if (!isCancelled && result) {
+                setData(result as TournamentData);
+                if (result.generatedAt) {
+                    const formatted = formatMelbourneTime(result.generatedAt);
                     if (formatted) {
                         setGeneratedAt(formatted);
                         const el = document.getElementById("site-footer-generated-at");
                         if (el) el.textContent = `Generated at : ${formatted}`;
                     }
                 }
-            } else {
-                console.log(
-                    `[Tournament] Data from ${sourceLabel} (generatedAt: ${sourceData.generatedAt}) skipped: current data is newer (generatedAt: ${bestData.generatedAt})`
-                );
-            }
-        };
-
-        const primaryTask = fetchTournamentData(primaryCleanUrl, primaryFallbackUrl, 10000, abortController.signal)
-            .then(incoming => applyDataIfNewer(incoming, 'primary'));
-
-        const realtimeTask = realtimeCleanUrl
-            ? fetchTournamentData(realtimeCleanUrl, realtimeFallbackUrl || '', 8000, abortController.signal)
-                .then(incoming => applyDataIfNewer(incoming, 'realtime (SFTPGo)'))
-            : null;
-
-        Promise.allSettled([primaryTask, ...(realtimeTask ? [realtimeTask] : [])]).then(() => {
-            if (!isCancelled && !bestData) {
-                console.warn(`[Tournament] Unable to load tournament data for ${folderName} from any source.`);
+            } else if (!isCancelled && !result) {
+                console.warn(`[Tournament] Unable to load tournament data for ${tournamentParam} from database or fallback.`);
             }
         });
 
         return () => {
             isCancelled = true;
-            abortController.abort();
         };
-    }, [resolvedParams.tournament]);
+    }, [resolvedParams.tournament, setGeneratedAt]);
+
 
     // Handle team tournament default page selection when data loads
     useEffect(() => {
