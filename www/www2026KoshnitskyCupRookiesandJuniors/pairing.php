@@ -5,5 +5,7 @@
     <li class="page-item base-hover"><a class="page-link" href="pairs3.php">3</a></li>
     <li class="page-item base-hover"><a class="page-link" href="pairs4.php">4</a></li>
     <li class="page-item base-hover"><a class="page-link" href="pairs5.php">5</a></li>
+    <li class="page-item base-hover"><a class="page-link" href="pairs6.php">6</a></li>
+    <li class="page-item base-hover"><a class="page-link" href="pairs7.php">7</a></li>
      </ul>
   </nav>

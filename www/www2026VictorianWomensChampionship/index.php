@@ -58,9 +58,9 @@
 <tr> 
 <td><span class="idn"> 11</span></td><td><span class="notitle female"> </span></td><td> Scenna,Luna </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1086</td><td>1521</td><td>1086</td> </tr>
 <tr> 
-<td><span class="idn"> 12</span></td><td><span class="notitle female"> </span></td><td> De Silva,Amaya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1068</td><td>1422</td><td>1068</td> </tr>
+<td><span class="idn"> 12</span></td><td><span class="notitle female"> </span></td><td> De Silva,Amaya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1068</td><td>1422</td><td>1067</td> </tr>
 <tr> 
-<td><span class="idn"> 13</span></td><td><span class="notitle female"> </span></td><td> Mondal,Jahnavi </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1042</td><td>1502</td><td>1042</td> </tr>
+<td><span class="idn"> 13</span></td><td><span class="notitle female"> </span></td><td> Mondal,Jahnavi </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1042</td><td>1502</td><td>1041</td> </tr>
 <tr> 
 <td><span class="idn"> 14</span></td><td><span class="notitle female"> </span></td><td> Katakam, Aadhya Sai </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1025</td><td>1458</td><td>1025</td> </tr>
 <tr> 
@@ -70,7 +70,7 @@
 <tr> 
 <td><span class="idn"> 17</span></td><td><span class="notitle female"> </span></td><td> Beri,Dhhvani </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>760</td><td>0</td><td>760</td> </tr>
 <tr> 
-<td><span class="idn"> 18</span></td><td><span class="notitle female"> </span></td><td> Gajula,Nishitha </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>667</td><td>1427</td><td>668</td> </tr>
+<td><span class="idn"> 18</span></td><td><span class="notitle female"> </span></td><td> Gajula,Nishitha </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>669</td><td>1427</td><td>668</td> </tr>
 <tr> 
 <td><span class="idn"> 19</span></td><td><span class="notitle female"> </span></td><td> Prince,Aliza </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>585</td><td>1486</td><td>585</td> </tr>
 <tr> 
@@ -80,7 +80,7 @@
 <tr> 
 <td><span class="idn"> 22</span></td><td><span class="notitle female"> </span></td><td> Kommina,Bhavishya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>512</td><td>0</td><td>512</td> </tr>
 <tr> 
-<td><span class="idn"> 23</span></td><td><span class="notitle female"> </span></td><td> Fang,Candice </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>502</td><td>1474</td><td>502</td> </tr>
+<td><span class="idn"> 23</span></td><td><span class="notitle female"> </span></td><td> Fang,Candice </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>502</td><td>1474</td><td>501</td> </tr>
 <tr> 
 <td><span class="idn"> 24</span></td><td><span class="notitle female"> </span></td><td> Husain, Lamiah </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>495</td><td>1429</td><td>495</td> </tr>
 <tr> 
@@ -110,7 +110,7 @@
 <tr> 
 <td><span class="idn"> 37</span></td><td><span class="notitle female"> </span></td><td> Jin,Audrey </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 38</span></td><td><span class="notitle female"> </span></td><td> Li,Jiawen </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 38</span></td><td><span class="notitle female"> </span></td><td> Li,Jiawen </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>1</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 39</span></td><td><span class="notitle female"> </span></td><td> Mohanty,Archana </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
