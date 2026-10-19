@@ -97,47 +97,128 @@ function extractContacts(html) {
 }
 
 
-async function fetchAttendees(tinyHqEvent) {
-  const baseUrl = tinyHqEvent.public_url.replace("https://portal.hobsonsbaychess.com/public", "https://hbcc.tidyhq.com/schedule/");
-  const headers = {
-    'accept': 'text/html',
-    'accept-language': 'en-AU,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
-    'cache-control': 'no-cache',
-    'pragma': 'no-cache',
-    'priority': 'u=1, i',
-    'sec-ch-ua': '"Not=A?Brand";v="99", "Google Chrome";v="151", "Chromium";v="151"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-platform': '"macOS"',
-    'sec-fetch-dest': 'empty',
-    'sec-fetch-mode': 'cors',
-    'sec-fetch-site': 'same-origin',
-    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36',
-    'x-requested-with': 'XMLHttpRequest',
-    'Cookie': process.env.TINYHQ_COOKIE || ''
-  };
+async function fetchAttendeesFromApi(tinyHqEvent, token, contactCache) {
+  try {
+    const tickets = await fetchJson(
+      `Sold tickets for event ${tinyHqEvent.id}`,
+      `/events/${tinyHqEvent.id}/tickets/sold`,
+      token
+    );
 
-  const allAttendees = [];
-  let page = 1;
+    const contacts = [];
+    for (const ticket of tickets) {
+      if (!ticket.contact_id) continue;
+      let contact = contactCache.get(ticket.contact_id);
+      if (!contact) {
+        try {
+          contact = await fetchJson(
+            `Contact ${ticket.contact_id}`,
+            `/contacts/${ticket.contact_id}`,
+            token
+          );
+          contactCache.set(ticket.contact_id, contact);
+        } catch (err) {
+          console.warn(`    Failed to fetch contact ${ticket.contact_id}: ${err.message}`);
+          continue;
+        }
+      }
 
-  while (true) {
-    const url = `${baseUrl}?scan_type_id=399&filter=all&page=${page}`;
-    const { data } = await axios.request({
-      responseType: 'text',
-      method: 'get',
-      url,
-      headers,
-    });
+      // Map custom fields to dictionary
+      const fields = {};
+      if (Array.isArray(contact.custom_fields)) {
+        for (const cf of contact.custom_fields) {
+          const val = typeof cf.value === 'object' && cf.value !== null ? (cf.value.title || cf.value.name || '') : String(cf.value || '');
+          fields[cf.title] = val;
+        }
+      }
 
-    const pageAttendees = extractContacts(data);
-    if (pageAttendees.length === 0) break;
+      contacts.push({
+        contactId: String(contact.id),
+        contactUrl: `/contacts/${contact.id}`,
+        assignedTo: `${contact.first_name || ''} ${contact.last_name || ''}`.trim(),
+        certCode: null,
+        orderCode: ticket.code || null,
+        scanned: false,
+        ticketType: null,
+        status: 'Paid',
+        scannedAt: null,
+        firstName: contact.first_name || fields['First Name'] || null,
+        lastName: contact.last_name || fields['Last Name'] || null,
+        dob: fields['Date of Birth (DOB)'] || contact.birthday || null,
+        gender: contact.gender || fields['Gender'] || null,
+        email: contact.email_address || fields['Email Address'] || null,
+        mobile: contact.phone_number || fields['Mobile Phone Number'] || null,
+        fideId: fields['FIDE ID'] && fields['FIDE ID'] !== 'NA' ? fields['FIDE ID'] : null,
+        residencyStatus: fields['Residency Status'] || null,
+        emergencyContactPerson: contact.emergency_contact_person || fields['Emergency Contact Person'] || null,
+        emergencyContactNumber: contact.emergency_contact_number || fields['Emergency Contact Number'] || null,
+        country: contact.country || fields['Country'] || null,
+        school: fields['School'] || null,
+        address1: contact.address1 || fields['Address1'] || null,
+        fields,
+      });
+    }
+    console.log(`  Event ${tinyHqEvent.id}: fetched ${contacts.length} attendees via official API`);
+    return contacts;
+  } catch (err) {
+    console.warn(`  Event ${tinyHqEvent.id}: official API tickets fetch failed (${err.message})`);
+    return [];
+  }
+}
 
-    allAttendees.push(...pageAttendees);
-    console.log(`  Event ${tinyHqEvent.id}: fetched page ${page} (${pageAttendees.length} attendees)`);
-    page++;
+async function fetchAttendees(tinyHqEvent, token, contactCache) {
+  if (process.env.TINYHQ_COOKIE) {
+    try {
+      const baseUrl = tinyHqEvent.public_url.replace("https://portal.hobsonsbaychess.com/public", "https://hbcc.tidyhq.com/schedule/");
+      const headers = {
+        'accept': 'text/html',
+        'accept-language': 'en-AU,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
+        'cache-control': 'no-cache',
+        'pragma': 'no-cache',
+        'priority': 'u=1, i',
+        'sec-ch-ua': '"Not=A?Brand";v="99", "Google Chrome";v="151", "Chromium";v="151"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'same-origin',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36',
+        'x-requested-with': 'XMLHttpRequest',
+        'Cookie': process.env.TINYHQ_COOKIE || ''
+      };
+
+      const allAttendees = [];
+      let page = 1;
+
+      while (true) {
+        const url = `${baseUrl}?scan_type_id=399&filter=all&page=${page}`;
+        const { data } = await axios.request({
+          responseType: 'text',
+          method: 'get',
+          url,
+          headers,
+        });
+
+        const pageAttendees = extractContacts(data);
+        if (pageAttendees.length === 0) break;
+
+        allAttendees.push(...pageAttendees);
+        console.log(`  Event ${tinyHqEvent.id}: fetched page ${page} (${pageAttendees.length} attendees via web scraping)`);
+        page++;
+      }
+
+      console.log(`  Event ${tinyHqEvent.id}: total ${allAttendees.length} attendees across ${page - 1} pages`);
+      return allAttendees;
+    } catch (err) {
+      if (err.response?.status === 401) {
+        console.warn(`  Event ${tinyHqEvent.id}: TINYHQ_COOKIE is expired or unauthorized (401). Falling back to official TidyHQ API.`);
+      } else {
+        console.warn(`  Event ${tinyHqEvent.id}: web scraping failed (${err.message}). Falling back to official TidyHQ API.`);
+      }
+    }
   }
 
-  console.log(`  Event ${tinyHqEvent.id}: total ${allAttendees.length} attendees across ${page - 1} pages`);
-  return allAttendees;
+  return fetchAttendeesFromApi(tinyHqEvent, token, contactCache);
 }
 async function requestJson(label, url, options) {
   const response = await fetch(url, options);
@@ -231,18 +312,9 @@ async function main() {
   const eventSnapshots = [];
   const contactIds = new Set();
 
+  const contactCache = new Map();
   for await (const event of upcomingEvents) {
-    const contacts = await fetchAttendees(event);
-    // const tickets = await fetchJson(
-    //   `Sold tickets for event ${event.id}`,
-    //   `/events/${event.id}/tickets/sold`,
-    //   token,
-    // );
-
-    // for (const ticket of tickets) {
-    //   if (ticket.contact_id != null) contactIds.add(String(ticket.contact_id));
-    // }
-
+    const contacts = await fetchAttendees(event, token, contactCache);
     eventSnapshots.push({ event, contacts });
   }
 
