@@ -462,3 +462,102 @@ pub fn generate_leaderboards_for_year(
         unified_players: unified_file,
     })
 }
+
+/// Process all tournament folders in `www_dir`, update `tournament.json`, and regenerate leaderboards.
+pub fn process_all_tournaments(
+    www_dir: &Path,
+) -> Result<(Vec<crate::TournamentProcessResult>, LeaderboardOutputs), Box<dyn std::error::Error>> {
+    let mut results = Vec::new();
+    let mut dirs = Vec::new();
+
+    if let Ok(entries) = fs::read_dir(www_dir) {
+        for entry in entries.filter_map(|e| e.ok()) {
+            if entry.file_type().map(|t| t.is_dir()).unwrap_or(false) {
+                let name = entry.file_name().to_string_lossy().to_string();
+                if name.starts_with("www") || entry.path().join("index.html").exists() {
+                    dirs.push(entry.path());
+                }
+            }
+        }
+    }
+    dirs.sort();
+
+    let options = crate::ProcessOptions {
+        write_files: true,
+        convert_php: true,
+        php_threshold_seconds: 30.0,
+    };
+
+    for dir in &dirs {
+        match crate::process_folder(dir, &options) {
+            Ok(res) => results.push(res),
+            Err(e) => {
+                eprintln!("[Prepare Data] Warning: failed to parse {}: {e}", dir.display());
+            }
+        }
+    }
+
+    let leaderboards = generate_leaderboards(www_dir)?;
+    Ok((results, leaderboards))
+}
+
+/// Process a single tournament directory, update `tournament.json`, and regenerate leaderboards.
+pub fn update_single_tournament(
+    tournament_dir: &Path,
+    www_dir: &Path,
+) -> Result<crate::TournamentProcessResult, Box<dyn std::error::Error>> {
+    let options = crate::ProcessOptions {
+        write_files: true,
+        convert_php: true,
+        php_threshold_seconds: 30.0,
+    };
+
+    let result = crate::process_folder(tournament_dir, &options)?;
+
+    // Update existing tournament.json preserving other tournaments
+    let tour_json_path = www_dir.join("tournament.json");
+    let mut tournaments: Vec<TournamentEntry> = if tour_json_path.exists() {
+        let content = fs::read_to_string(&tour_json_path).unwrap_or_default();
+        serde_json::from_str(&content).unwrap_or_default()
+    } else {
+        Vec::new()
+    };
+
+    let folder_name = tournament_dir
+        .file_name()
+        .and_then(|n| n.to_str())
+        .unwrap_or("tournament");
+
+    let metadata_map: IndexMap<String, String> = result
+        .data
+        .get("metadata")
+        .and_then(|m| serde_json::from_value(m.clone()).ok())
+        .unwrap_or_default();
+
+    let top_players: Vec<TopPlayer> = result
+        .data
+        .get("top_players")
+        .and_then(|tp| serde_json::from_value(tp.clone()).ok())
+        .unwrap_or_default();
+
+    let new_entry = TournamentEntry {
+        data: metadata_map,
+        path: format!("{}/data.json", folder_name),
+        category: result.category.clone(),
+        top_players,
+    };
+
+    if let Some(pos) = tournaments.iter().position(|t| t.path == new_entry.path) {
+        tournaments[pos] = new_entry;
+    } else {
+        tournaments.push(new_entry);
+    }
+
+    fs::write(&tour_json_path, serde_json::to_string_pretty(&tournaments)?)?;
+
+    // Regenerate unique player files
+    let _ = generate_leaderboards(www_dir)?;
+
+    Ok(result)
+}
+
