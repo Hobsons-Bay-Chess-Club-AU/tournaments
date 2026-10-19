@@ -1,0 +1,99 @@
+name: Nightly Build and Deploy
+
+on:
+  schedule:
+    # 4:00 AM Melbourne time (AEST UTC+10 / AEDT UTC+11) ≈ 18:00 UTC
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: |
+            package-lock.json
+            v2/package-lock.json
+
+      - name: Install root dependencies
+        run: npm ci
+
+      - name: Fetch TinyHQ upcoming events
+        continue-on-error: true
+        run: node src/tinyhq-sync.mjs
+        env:
+          TIDYHQ_APPLICATION_ID: ${{ secrets.TIDYHQ_APPLICATION_ID }}
+          TIDYHQ_APPLICATION_SECRET: ${{ secrets.TIDYHQ_APPLICATION_SECRET }}
+          TIDYHQ_DOMAIN_PREFIX: ${{ secrets.TIDYHQ_DOMAIN_PREFIX }}
+          TIDYHQ_USERNAME: ${{ secrets.TIDYHQ_USERNAME }}
+          TIDYHQ_API_KEY: ${{ secrets.TIDYHQ_API_KEY }}
+          TINYHQ_COOKIE: ${{ secrets.TINYHQ_COOKIE }}
+
+      - name: Install v2 dependencies
+        run: |
+          cd v2
+          npm ci
+
+      - name: Build Next.js v2 Static Export
+        run: |
+          cd v2
+          npm run build:export
+        env:
+          NEXT_PUBLIC_BASE_PATH: "/v2"
+          NEXT_PUBLIC_EXPORT_STATIC: "true"
+          NEXT_PUBLIC_APP_URL: ""
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL || 'https://oezanuqlynjqwgkownxd.supabase.co' }}
+          NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || 'sb_publishable_U_v4N9PWgRbkRoPTU30uRg_zfDzEcL0' }}
+
+      - name: Copy v2 Static Output to www/v2
+        run: |
+          rm -rf www/v2
+          cp -r v2/out www/v2
+
+      - name: Commit updated v2 build and upcoming events
+        continue-on-error: true
+        run: |
+          git config --global user.name "HBCC Bot"
+          git config --global user.email "bot@hobsonsbaychessclub.uk"
+          git add www/v2
+          if [ -d "data" ]; then git add data; fi
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore(nightly): update pre-rendered v2 static pages and upcoming data"
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "./www"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
