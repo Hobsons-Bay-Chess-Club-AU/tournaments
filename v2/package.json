@@ -10,6 +10,7 @@
     "build:export": "NEXT_PUBLIC_EXPORT_STATIC=true next build"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
     "concurrently": "^9.2.0",
     "moment": "^2.30.1",
     "next": "16.0.8",
