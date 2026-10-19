@@ -65,20 +65,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-v2-nextjs-
 
-      - name: Cache Cargo dependencies
-        if: steps.check_change_id.outputs.skip_steps != 'true'
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.cargo/bin/
-            ~/.cargo/registry/index/
-            ~/.cargo/registry/cache/
-            ~/.cargo/git/db/
-            target/
-          key: ${{ runner.os }}-cargo-${{ hashFiles('Cargo.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-cargo-
-
       - name: Check change_id
         id: check_change_id
         env:
@@ -138,10 +124,35 @@ jobs:
           node src/update-html.mjs
           docker compose down
 
-      - name: Build hbcc CLI
+      - name: Cache hbcc CLI binary
         if: steps.check_change_id.outputs.skip_steps != 'true'
+        id: cache_hbcc_bin
+        uses: actions/cache@v4
+        with:
+          path: target/release/hbcc
+          key: ${{ runner.os }}-hbcc-bin-${{ hashFiles('Cargo.lock', 'Cargo.toml', 'crates/**') }}
+
+      - name: Cache Cargo registry (for fallback build)
+        if: steps.check_change_id.outputs.skip_steps != 'true' && steps.cache_hbcc_bin.outputs.cache-hit != 'true'
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+          key: ${{ runner.os }}-cargo-registry-${{ hashFiles('Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-registry-
+
+      - name: Build hbcc CLI
+        if: steps.check_change_id.outputs.skip_steps != 'true' && steps.cache_hbcc_bin.outputs.cache-hit != 'true'
         run: |
           cargo build --release -p hbcc-cli
+
+      - name: Ensure hbcc CLI executable
+        if: steps.check_change_id.outputs.skip_steps != 'true'
+        run: |
+          chmod +x target/release/hbcc
 
       - name: run Sync.mjs and Native Data Pipeline
         if: steps.check_change_id.outputs.skip_steps != 'true'
