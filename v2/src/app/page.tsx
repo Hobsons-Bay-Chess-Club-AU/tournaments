@@ -2,18 +2,9 @@
 import React, { useEffect, useState } from "react";
 import HomeHero from "@/components/HomeHero";
 import FilterTabs from "@/components/FilterTabs";
-import TournamentCard, { type TopPlayer, type TournamentStatus } from "@/components/TournamentCard";
+import TournamentCard, { type TournamentStatus } from "@/components/TournamentCard";
+import { getTournaments, parseAusDate, type Tournament } from "@/lib/tournamentService";
 
-type TournamentMeta = {
-  [key: string]: string;
-};
-type Tournament = {
-  data: TournamentMeta;
-  path: string;
-  category: string;
-  top_players?: TopPlayer[];
-  status?: TournamentStatus;
-};
 function getYear(dateStr: string): string {
   if (!dateStr) return new Date().getFullYear().toString(); // Default to current year
   const match = dateStr.match(/(\d{4})/);
@@ -27,59 +18,28 @@ export default function Home() {
   const [activeOption, setActiveOption] = useState<string>("All");
   const [year, setYear] = useState<string>(new Date().getFullYear().toString());
   const [years, setYears] = useState<string[]>([]);
-  // const [menuOpen, setMenuOpen] = useState(false); // Unused for now
 
   useEffect(() => {
-    fetch(process.env.NEXT_PUBLIC_APP_URL + "/tournament.json?TS=" + new Date().getTime())
-      .then((res) => res.json())
-      .then((data: Tournament[]) => {
-        // Add status field to each tournament
-        const now = new Date();
-        const withStatus = data.map((t) => {
-          const date = t.data["Date Begin"] || t.data["Date"] || "";
-          const endDate = t.data["Date End"] || t.data["End Date"] || "";
-          const beginDateObj = parseAusDate(date);
-          const endDateObj = parseAusDate(endDate);
-          let status: TournamentStatus = "Completed";
-          if (beginDateObj.getTime() > now.getTime()) {
-            status = "Planned";
-          } else if (beginDateObj.getTime() <= now.getTime() && endDateObj.getTime() >= now.getTime()) {
-            status = "In Progress";
-          }
-          return { ...t, status };
-        });
-        setTournaments(withStatus);
-        const allYears = Array.from(
-          new Set(
-            withStatus.map((t) => {
-              const d = t.data["Date Begin"] || t.data["Date"] || "";
-              return getYear(d);
-            })
-          )
-        ) as string[];
-        setYears(allYears.sort((a, b) => parseInt(b) - parseInt(a)));
-        // Default to current year if available
-        if (allYears.includes(new Date().getFullYear().toString())) {
-          setYear(new Date().getFullYear().toString());
-        } else if (allYears.length > 0) {
-          setYear(allYears[0]);
-        }
-      });
+    getTournaments().then((data: Tournament[]) => {
+      setTournaments(data);
+      const allYears = Array.from(
+        new Set(
+          data.map((t) => {
+            const d = t.data["Date Begin"] || t.data["Date"] || "";
+            return getYear(d);
+          })
+        )
+      ) as string[];
+      const sortedYears = allYears.sort((a, b) => parseInt(b) - parseInt(a));
+      setYears(sortedYears);
+      // Default to current year if available
+      if (allYears.includes(new Date().getFullYear().toString())) {
+        setYear(new Date().getFullYear().toString());
+      } else if (sortedYears.length > 0) {
+        setYear(sortedYears[0]);
+      }
+    });
   }, []);
-
-  // Sort tournaments by Date Begin descending
-  // Helper to parse Australian date format DD/MM/YYYY
-  function parseAusDate(dateStr: string): Date {
-    if (!dateStr) return new Date(0);
-    const parts = dateStr.split("/");
-    if (parts.length === 3) {
-      // DD/MM/YYYY
-      const [day, month, year] = parts.map(Number);
-      return new Date(year, month - 1, day);
-    }
-    // fallback to default parsing
-    return new Date(dateStr);
-  }
 
   const sortedTournaments = [...tournaments].sort((a, b) => {
     const dateA = a.data["Date Begin"] || a.data["Date"] || "";
@@ -98,7 +58,8 @@ export default function Home() {
     } else if (activeOption === "Planned" || activeOption === "In Progress") {
       match = t.status === activeOption;
     } else {
-      match = t.category === activeOption || t.data["Tournament Name"]?.toLowerCase().includes(activeOption.toLowerCase());
+      match = (t.category || "").toLowerCase() === activeOption.toLowerCase() ||
+        t.data["Tournament Name"]?.toLowerCase().includes(activeOption.toLowerCase());
     }
     return match && yearMatch;
   });
@@ -164,19 +125,7 @@ export default function Home() {
               const endDate = t.data["Date End"] || t.data["End Date"] || "";
               const site = t.data["Site"] || t.data["Place"] || "";
               const slug = t.path.replace(/^www/, "").replace(/\/data\.json$/, "");
-              // Use the same parseAusDate helper
-              const beginDateObj = parseAusDate(date);
-              const endDateObj = parseAusDate(endDate);
-              const now = new Date();
-              let status: TournamentStatus = "Completed";
-              // Future tournament: begin date > now
-              if (beginDateObj.getTime() > now.getTime()) {
-                status = "Planned";
-              }
-              // In-progress: now between begin and end
-              else if (beginDateObj.getTime() <= now.getTime() && endDateObj.getTime() >= now.getTime()) {
-                status = "In Progress";
-              }
+              const status: TournamentStatus = t.status || "Completed";
               // If completed, go to standings page
               const linkUrl = status === "Completed" ? `/${slug}?page=standings.html` : `/${slug}`;
               return (
