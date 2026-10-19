@@ -66,8 +66,12 @@ export type Player = {
 };
 
 export type MenuItem = {
-  name: string;
-  url: string;
+  text?: string;
+  href?: string;
+  name?: string;
+  url?: string;
+  isDropdown?: boolean;
+  children?: MenuItem[];
 };
 
 export type TournamentData = {

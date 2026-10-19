@@ -116,101 +116,6 @@ type MenuItem = {
     children?: MenuItem[];
 };
 
-/**
- * Safely parse a generatedAt ISO timestamp or date string into milliseconds.
- * Returns 0 if invalid or missing.
- */
-function getGeneratedTimestamp(data: TournamentData | null | undefined): number {
-    if (!data || !data.generatedAt) return 0;
-    const time = new Date(data.generatedAt).getTime();
-    return isNaN(time) ? 0 : time;
-}
-
-/**
- * Normalizes tournament data into TournamentData format,
- * supporting data_clean.json as primary and data.json as fallback.
- */
-function normalizeTournamentData(raw: unknown): TournamentData | null {
-    if (!raw || typeof raw !== "object") return null;
-    const data = raw as Record<string, unknown>;
-
-    const pages = (data.pages || data.page || {}) as Record<string, PageData>;
-    const metadata = (data.metadata || {}) as Record<string, unknown>;
-    const tournamentObj = (data.tournament as Record<string, unknown>) || {
-        id: String(data.tournamentId || ""),
-        name: String(metadata["Tournament Name"] || data.name || ""),
-        category: String(data.category || "Senior"),
-        metadata: metadata
-    };
-
-    let players: Player[] = [];
-    if (Array.isArray(data.players)) {
-        players = data.players as Player[];
-    } else if (Array.isArray(data.playerLookup)) {
-        players = data.playerLookup as Player[];
-    } else if (data.playerLookup && typeof data.playerLookup === "object") {
-        players = Object.values(data.playerLookup) as Player[];
-    }
-
-    const menu = Array.isArray(data.menu) ? (data.menu as MenuItem[]) : [];
-    const generatedAt = typeof data.generatedAt === "string" ? data.generatedAt : "";
-
-    return {
-        generatedAt,
-        tournament: tournamentObj as TournamentData["tournament"],
-        players,
-        pages,
-        menu
-    };
-}
-
-/**
- * Fetches tournament data from a base endpoint (trying data_clean.json then data.json) with timeout.
- */
-async function fetchTournamentData(
-    cleanUrl: string,
-    fallbackUrl: string,
-    timeoutMs: number,
-    signal?: AbortSignal
-): Promise<TournamentData | null> {
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
-
-    const onParentAbort = () => controller.abort();
-    if (signal) {
-        if (signal.aborted) {
-            controller.abort();
-        } else {
-            signal.addEventListener("abort", onParentAbort);
-        }
-    }
-
-    try {
-        const res = await fetch(cleanUrl, { signal: controller.signal });
-        if (res.ok) {
-            const json = await res.json();
-            return normalizeTournamentData(json);
-        }
-
-        // Clean data failed or 404, try data.json fallback
-        if (fallbackUrl) {
-            const fallbackRes = await fetch(fallbackUrl, { signal: controller.signal });
-            if (fallbackRes.ok) {
-                const json = await fallbackRes.json();
-                return normalizeTournamentData(json);
-            }
-        }
-        return null;
-    } catch {
-        return null;
-    } finally {
-        clearTimeout(timeoutId);
-        if (signal) {
-            signal.removeEventListener("abort", onParentAbort);
-        }
-    }
-}
-
 export default function TournamentClient({ params }: { params: Promise<{ tournament: string }> }) {
     // Unwrap params Promise using React.use()
     const resolvedParams = use(params);
@@ -266,7 +171,7 @@ export default function TournamentClient({ params }: { params: Promise<{ tournam
 
         getTournamentBySlug(tournamentParam).then((result) => {
             if (!isCancelled && result) {
-                setData(result as TournamentData);
+                setData(result as unknown as TournamentData);
                 if (result.generatedAt) {
                     const formatted = formatMelbourneTime(result.generatedAt);
                     if (formatted) {
