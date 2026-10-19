@@ -1,0 +1,151 @@
+name: Build & Release HBCC FTP Server
+
+on:
+  push:
+    branches:
+      - main
+      - feat/ftp-server
+    paths:
+      - 'ftp-server/**'
+      - 'crates/**'
+      - 'src/**'
+      - '.github/workflows/ftp-server-release.yml'
+    tags:
+      - 'ftp-v*'
+  workflow_dispatch:
+
+concurrency:
+  group: ftp-server-release
+  cancel-in-progress: true
+
+jobs:
+  build-and-release:
+    permissions:
+      contents: write
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - platform: 'macos-latest'
+            args: '--target universal-apple-darwin'
+          - platform: 'windows-latest'
+            args: ''
+
+    runs-on: ${{ matrix.platform }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+          cache-dependency-path: |
+            package-lock.json
+            ftp-server/package-lock.json
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.platform == 'macos-latest' && 'aarch64-apple-darwin,x86_64-apple-darwin' || '' }}
+
+      - name: Rust Cache
+        uses: swatinem/rust-cache@v2
+        with:
+          workspaces: 'ftp-server/src-tauri -> target'
+          key: ${{ matrix.platform }}
+          cache-all-crates: 'true'
+
+      - name: Extract version
+        id: pkg
+        shell: bash
+        working-directory: ftp-server
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          if [[ "${{ github.ref }}" == refs/tags/* ]]; then
+            echo "RELEASE_TAG=${{ github.ref_name }}" >> $GITHUB_ENV
+          else
+            echo "RELEASE_TAG=ftp-v$VERSION" >> $GITHUB_ENV
+          fi
+
+      - name: Install dependencies
+        shell: bash
+        run: |
+          npm ci
+          cd ftp-server && npm ci
+
+
+      - name: Run Tests
+        if: matrix.platform == 'macos-latest'
+        shell: bash
+        working-directory: ftp-server
+        env:
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: cargo test --lib --manifest-path src-tauri/Cargo.toml
+
+      - name: Build and Publish Tauri Release
+        uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN || secrets.GITHUB_TOKEN }}
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+          SUPABASE_PUBLISHABLE_KEY: ${{ secrets.SUPABASE_PUBLISHABLE_KEY }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          SUPABASE_TABLE: ${{ secrets.SUPABASE_TABLE }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY }}
+          ALLOW_PUSH_CHANGE_TO_GH: ${{ secrets.ALLOW_PUSH_CHANGE_TO_GH }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_REPO: ${{ secrets.GH_REPO }}
+          GH_BRANCH: ${{ secrets.GH_BRANCH }}
+          PHP_TO_HTML_THRESHOLD_SECONDS: ${{ secrets.PHP_TO_HTML_THRESHOLD_SECONDS }}
+          SUPABASE_JWKS_URL: ${{ secrets.SUPABASE_JWKS_URL }}
+          SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+        with:
+          projectPath: './ftp-server'
+          tagName: ${{ env.RELEASE_TAG }}
+          releaseName: 'HBCC FTP Server ${{ env.RELEASE_TAG }}'
+          releaseBody: 'Automated release for HBCC Vega Tournament FTP & Preview Server.'
+          releaseDraft: false
+          prerelease: false
+          args: ${{ matrix.args }}
+
+      - name: Ensure latest.json matches asset signatures
+        if: matrix.platform == 'macos-latest'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.RELEASE_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p /tmp/updater-reconcile
+          gh release download "${{ env.RELEASE_TAG }}" -p "latest.json" -p "HBCC.FTP.Server_universal.app.tar.gz.sig" --dir /tmp/updater-reconcile || true
+          if [ -f /tmp/updater-reconcile/latest.json ] && [ -f /tmp/updater-reconcile/HBCC.FTP.Server_universal.app.tar.gz.sig ]; then
+            node -e '
+              const fs = require("fs");
+              const latestPath = "/tmp/updater-reconcile/latest.json";
+              const sigPath = "/tmp/updater-reconcile/HBCC.FTP.Server_universal.app.tar.gz.sig";
+              const latest = JSON.parse(fs.readFileSync(latestPath, "utf8"));
+              const macSig = fs.readFileSync(sigPath, "utf8").trim();
+              let changed = false;
+              for (const p of ["darwin-aarch64", "darwin-x86_64", "darwin-aarch64-app", "darwin-x86_64-app"]) {
+                if (latest.platforms && latest.platforms[p] && latest.platforms[p].signature !== macSig) {
+                  latest.platforms[p].signature = macSig;
+                  changed = true;
+                }
+              }
+              if (changed) {
+                fs.writeFileSync(latestPath, JSON.stringify(latest, null, 2) + "\n");
+                console.log("Reconciled latest.json with fresh macOS universal signature");
+                process.exit(0);
+              } else {
+                console.log("latest.json already has matching macOS signature");
+                process.exit(1);
+              }
+            ' && gh release upload "${{ env.RELEASE_TAG }}" /tmp/updater-reconcile/latest.json --clobber || true
+          fi

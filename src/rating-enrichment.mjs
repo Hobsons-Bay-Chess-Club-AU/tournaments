@@ -3,6 +3,7 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import unzipper from 'unzipper';
 import fetch from 'node-fetch';
+import { isSupabaseConfigured, upsertPlayersToSupabase } from './supabase.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const FIDE_URL = 'https://ratings.fide.com/download/players_list.zip';
@@ -275,6 +276,7 @@ async function enrichRatings(inputPath, outputPath, fideMap = null, acfClassicMa
   };
   writeFileSync(outputPath, JSON.stringify(enriched, null, 2));
   console.log(`Enrichment complete for ${inputPath} in ${(Date.now() - start) / 1000}s.`);
+  return enrichedPlayers;
 }
 
 async function main() {
@@ -358,9 +360,20 @@ async function main() {
   const fidePlayers = parseFideTxt(txtFile, wantedIds, wantedNames);
   const fideMap = buildFideMap(fidePlayers);
 
-  await enrichRatings(juniorPath, juniorOut, fideMap, acfClassicMap, acfQuickMap);
-  await enrichRatings(seniorPath, seniorOut, fideMap, acfClassicMap, acfQuickMap);
+  const juniorEnriched = await enrichRatings(juniorPath, juniorOut, fideMap, acfClassicMap, acfQuickMap);
+  const seniorEnriched = await enrichRatings(seniorPath, seniorOut, fideMap, acfClassicMap, acfQuickMap);
   console.log('Ratings enrichment complete.');
+
+  if (isSupabaseConfigured()) {
+    console.log('Syncing enriched player ratings to Supabase...');
+    const allEnriched = [...(juniorEnriched || []), ...(seniorEnriched || [])];
+    const res = await upsertPlayersToSupabase({ players: allEnriched });
+    if (res.success) {
+      console.log(`Successfully synced ${res.count} enriched players to Supabase.`);
+    } else {
+      console.warn('Failed to sync enriched players to Supabase:', res.reason || res.error);
+    }
+  }
 }
 
 main();

@@ -1,39 +1,14 @@
-
-import fs from 'fs';
-import path from 'path';
 import { Suspense } from 'react';
 import TournamentClient from './TournamentClient';
+import { getAllTournamentSlugs } from '@/lib/tournamentService';
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
     try {
-        // Path to the tournament.json file (relative to the timeline directory)
-        const tournamentJsonPath = path.join(process.cwd(), '..', 'www', 'tournament.json');
-
-        if (!fs.existsSync(tournamentJsonPath)) {
-            console.warn('tournament.json not found, returning empty params');
-            return [];
-        }
-
-        const tournamentData = JSON.parse(fs.readFileSync(tournamentJsonPath, 'utf-8'));
-
-        // Extract tournament names from paths
-        const params = tournamentData.map((tournament: { path: string }) => {
-            // Extract the tournament name from the path
-            // Example: "www2025HobsonsBayAprilBlitz/data.json" -> "2025HobsonsBayAprilBlitz"
-            const pathParts = tournament.path.split('/');
-            const folderName = pathParts[0]; // "www2025HobsonsBayAprilBlitz"
-
-            // Remove "www" prefix
-            const tournamentName = folderName.replace(/^www/, '');
-
-            return {
-                tournament: tournamentName
-            };
-        });
-
-        console.log(`Generated ${params.length} static params for tournaments`);
-        return params;
-
+        const slugs = await getAllTournamentSlugs();
+        console.log(`Generated ${slugs.length} static params for tournaments from database/fallback`);
+        return slugs.map((slug) => ({
+            tournament: slug,
+        }));
     } catch (error) {
         console.error('Error generating static params:', error);
         return [];

@@ -12,6 +12,15 @@ import {
     upsertPlayersToSupabase,
     isSupabaseConfigured
 } from "../src/supabase.mjs";
+import {
+    findPhpFiles,
+    resolvePhpIncludes,
+    rewritePhpLinks,
+    convertPhpFile as convertPhpFileCore,
+    isHtmlOutOfDate,
+    getPhpToHtmlThresholdSeconds,
+    convertTournamentPhpFiles
+} from "../src/php-converter.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -686,152 +695,51 @@ export function detectUploadedWebsite(websites) {
 }
 
 // ============================================================
-// Recursively find PHP files
+// PHP to HTML Conversion (smart out-of-date checking)
 // ============================================================
 
-export function findPhpFiles(directory) {
-    const results = [];
+export {
+    findPhpFiles,
+    resolvePhpIncludes,
+    rewritePhpLinks,
+    isHtmlOutOfDate,
+    getPhpToHtmlThresholdSeconds,
+    convertTournamentPhpFiles
+};
 
-    const entries = fs.readdirSync(directory, {
-        withFileTypes: true
+export function convertPhpFile(phpFile, options = {}) {
+    return convertPhpFileCore(phpFile, {
+        rootFolder: ROOT_FOLDER,
+        ...options
     });
-
-    for (const entry of entries) {
-        const fullPath = path.join(directory, entry.name);
-
-        if (entry.isDirectory()) {
-            results.push(...findPhpFiles(fullPath));
-            continue;
-        }
-
-        if (
-            entry.isFile() &&
-            path.extname(entry.name).toLowerCase() === ".php"
-        ) {
-            results.push(fullPath);
-        }
-    }
-
-    return results;
-}
-
-// ============================================================
-// Resolve simple PHP includes
-// ============================================================
-
-export function resolvePhpIncludes(filePath, stack = []) {
-    const absolutePath = path.resolve(filePath);
-
-    // Prevent circular includes
-    if (stack.includes(absolutePath)) {
-        console.warn(
-            `WARNING: Circular include detected: ${absolutePath}`
-        );
-
-        return `<!-- Circular include ignored: ${path.basename(absolutePath)} -->`;
-    }
-
-    if (!fs.existsSync(absolutePath)) {
-        console.warn(
-            `WARNING: Include file not found: ${absolutePath}`
-        );
-
-        return `<!-- Include not found: ${absolutePath} -->`;
-    }
-
-    let content = fs.readFileSync(absolutePath, "utf8");
-    const currentDirectory = path.dirname(absolutePath);
-    const newStack = [...stack, absolutePath];
-
-    const includeRegex =
-        /<\?php\s*(?:include|include_once|require|require_once)\s*(?:\(\s*)?['"]([^'"]+)['"]\s*\)?\s*;\s*\?>/gi;
-
-    content = content.replace(includeRegex, (match, includePath) => {
-        const resolvedInclude = path.resolve(currentDirectory, includePath);
-
-        console.log(`      include: ${includePath}`);
-
-        return resolvePhpIncludes(resolvedInclude, newStack);
-    });
-
-    return content;
-}
-
-// ============================================================
-// Rewrite PHP links to HTML links
-// ============================================================
-
-export function rewritePhpLinks(content) {
-    return content.replace(
-        /\b(href|src|action)\s*=\s*(["'])([^"']*?)\.php(?=([?#][^"']*)?\2)/gi,
-        (match, attribute, quote, url) => {
-            return `${attribute}=${quote}${url}.html`;
-        }
-    );
-}
-
-// ============================================================
-// Convert PHP file -> HTML
-// ============================================================
-
-export function convertPhpFile(phpFile) {
-    const relativePath = path.relative(ROOT_FOLDER, phpFile);
-    const htmlFile = phpFile.replace(/\.php$/i, ".html");
-
-    console.log(`  PHP:  ${relativePath}`);
-
-    try {
-        let html = resolvePhpIncludes(phpFile);
-        html = rewritePhpLinks(html);
-        // Strip remaining PHP tags (e.g. siteprivacy checks) for clean static HTML
-        html = html.replace(/<\?php[\s\S]*?\?>/gi, "");
-        fs.writeFileSync(htmlFile, html, "utf8");
-
-        console.log(`  HTML: ${path.relative(ROOT_FOLDER, htmlFile)}`);
-
-        return true;
-    } catch (error) {
-        console.error(`  ERROR converting ${relativePath}:`);
-        console.error(error);
-
-        return false;
-    }
 }
 
 // ============================================================
 // Build website: convert PHP -> HTML
 // ============================================================
 
-export function buildWebsite(website) {
+export function buildWebsite(website, options = {}) {
     console.log("");
     console.log("------------------------------------------");
     console.log(`Building: ${website.name}`);
     console.log("------------------------------------------");
 
-    const phpFiles = findPhpFiles(website.path);
-
-    console.log(`Found ${phpFiles.length} PHP file(s)`);
-
-    let success = 0;
-    let failed = 0;
-
-    for (const phpFile of phpFiles) {
-        if (convertPhpFile(phpFile)) {
-            success++;
-        } else {
-            failed++;
-        }
-    }
+    const result = convertTournamentPhpFiles(website.path, {
+        rootFolder: ROOT_FOLDER,
+        ...options
+    });
 
     console.log("");
     console.log(
-        `Finished ${website.name}: ${success} converted, ${failed} failed`
+        `Finished ${website.name}: ${result.converted} converted, ${result.skipped} up to date, ${result.failed} failed (${result.totalPhp} total PHP files)`
     );
 
     return {
-        phpFiles: phpFiles.length,
-        success,
-        failed
+        phpFiles: result.totalPhp,
+        success: result.converted + result.skipped,
+        converted: result.converted,
+        skipped: result.skipped,
+        failed: result.failed
     };
 }
 

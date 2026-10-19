@@ -33,8 +33,9 @@ jobs:
         run: |
           node src/rating-enrichment.mjs
         env:
-          # Add any environment variables if needed for the script
           NODE_ENV: production
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
 
       - name: Copy updated files to v2/public
         run: |
