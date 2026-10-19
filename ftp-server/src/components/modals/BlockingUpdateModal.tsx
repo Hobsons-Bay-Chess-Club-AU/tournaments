@@ -30,7 +30,13 @@ export const BlockingUpdateModal: React.FC = () => {
               <Sparkles className="w-5 h-5" />
             </div>
             <div>
-              <h3 className="text-sm font-semibold text-white">Application Update Required</h3>
+              <h3 className="text-sm font-semibold text-white">
+                {isReadyToRestart
+                  ? "Update Ready to Install"
+                  : isDownloading
+                  ? "Downloading Application Update..."
+                  : "Application Update Required"}
+              </h3>
               <p className="text-[11px] text-slate-400">Cryptographically signed release</p>
             </div>
           </div>

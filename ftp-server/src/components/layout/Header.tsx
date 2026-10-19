@@ -110,7 +110,16 @@ export const Header: React.FC<HeaderProps> = ({ currentView, onViewChange }) => 
           )}
 
           <button
-            onClick={() => checkForUpdates(false, true)}
+            onClick={() => {
+              if (updateInfo?.available) {
+                useUpdaterStore.setState({ isModalOpen: true });
+                if (!useUpdaterStore.getState().isDownloading && !useUpdaterStore.getState().isReadyToRestart) {
+                  useUpdaterStore.getState().startDownloadAndInstall();
+                }
+              } else {
+                checkForUpdates(false, true);
+              }
+            }}
             disabled={isCheckingUpdate}
             className={`inline-flex items-center space-x-1.5 px-2.5 py-1.5 rounded-lg text-xs font-medium transition cursor-pointer ${
               updateInfo?.available

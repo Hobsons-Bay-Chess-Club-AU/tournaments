@@ -24,7 +24,7 @@ interface UpdaterState {
 }
 
 export const useUpdaterStore = create<UpdaterState>((set, get) => ({
-  currentAppVersion: "0.1.12",
+  currentAppVersion: "0.1.13",
   isChecking: false,
   isDownloading: false,
   isReadyToRestart: false,
@@ -68,7 +68,7 @@ export const useUpdaterStore = create<UpdaterState>((set, get) => ({
         });
 
         // If autoInstall is true (e.g. startup auto-update check), immediately start download
-        if (autoInstall) {
+        if (autoInstall && !get().isDownloading && !get().isReadyToRestart) {
           console.log(`[Updater] Auto-downloading update v${update.version}...`);
           await get().startDownloadAndInstall();
         }
