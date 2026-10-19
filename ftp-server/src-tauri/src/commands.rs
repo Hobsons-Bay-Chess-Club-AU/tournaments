@@ -40,7 +40,16 @@ pub struct SystemLogPayload {
 pub fn emit_log(app: Option<&AppHandle>, level: &str, source: &str, message: &str) {
     let now = format_iso_timestamp();
     let id = format!("{}_{}", now, rand_suffix());
-    println!("[{}] [{}] {}", source, level, message);
+
+    // Never log passwords or secrets in plain text
+    let mut safe_message = message.to_string();
+    if let Ok(pass_csv) = std::env::var("FTP_PASSWORD") {
+        for pass in pass_csv.split(',').map(|s| s.trim()).filter(|s| !s.is_empty()) {
+            safe_message = safe_message.replace(pass, "******");
+        }
+    }
+
+    println!("[{}] [{}] {}", source, level, safe_message);
     if let Some(app) = app {
         let _ = app.emit(
             "system-log",
@@ -49,7 +58,7 @@ pub fn emit_log(app: Option<&AppHandle>, level: &str, source: &str, message: &st
                 timestamp: now,
                 level: level.to_string(),
                 source: source.to_string(),
-                message: message.to_string(),
+                message: safe_message,
             },
         );
     }
@@ -251,19 +260,14 @@ pub fn open_folder(path: String) -> Result<(), String> {
 pub struct AuthInfo {
     pub user_count: usize,
     pub usernames: Vec<String>,
-    pub default_username: Option<String>,
-    pub default_password: Option<String>,
 }
 
 #[tauri::command]
 pub fn get_auth_info() -> Result<AuthInfo, String> {
     let auth = crate::ftp::auth::KeypairAuthenticator::from_env_or_default();
-    let (first_user, first_pass) = auth.first_keypair().unzip();
     Ok(AuthInfo {
         user_count: auth.user_count(),
         usernames: auth.usernames(),
-        default_username: first_user,
-        default_password: first_pass,
     })
 }
 

@@ -10,8 +10,7 @@ interface ServerState {
   host: string;
   lanIp: string;
   storageDir: string;
-  username: string;
-  password: string;
+  userCount: number;
   authMode: "permissive" | "keypair";
   startServices: (storageDir?: string, allowLan?: boolean, ftpPort?: number, httpPort?: number) => Promise<boolean>;
   stopServices: () => Promise<boolean>;
@@ -28,8 +27,7 @@ export const useServerStore = create<ServerState>((set, get) => ({
   host: "127.0.0.1",
   lanIp: "",
   storageDir: "",
-  username: "",
-  password: "",
+  userCount: 0,
   authMode: "keypair",
 
   refreshStatus: async () => {
@@ -39,12 +37,6 @@ export const useServerStore = create<ServerState>((set, get) => ({
         user_count: 0,
         usernames: [],
       }));
-
-      const resolvedUser =
-        auth.default_username ||
-        auth.username ||
-        (auth.usernames && auth.usernames.length > 0 ? auth.usernames[0] : "");
-      const resolvedPass = auth.default_password || "";
 
       const raw = status as any;
       const isRunning = Boolean(raw.is_running ?? raw.isRunning);
@@ -59,8 +51,7 @@ export const useServerStore = create<ServerState>((set, get) => ({
         httpPort,
         lanIp: lanIp || state.lanIp,
         storageDir: storageDir || state.storageDir,
-        username: resolvedUser || state.username,
-        password: resolvedPass || state.password,
+        userCount: auth.user_count ?? (auth.usernames ? auth.usernames.length : 0),
         authMode: auth.auth_mode || "keypair",
       }));
     } catch (err) {

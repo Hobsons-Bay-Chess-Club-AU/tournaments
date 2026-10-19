@@ -5,8 +5,6 @@ import { useServerStore } from "../../stores/useServerStore";
 export const ConnectionCards: React.FC = () => {
   const ftpPort = useServerStore((s) => s.ftpPort);
   const lanIp = useServerStore((s) => s.lanIp);
-  const username = useServerStore((s) => s.username);
-  const password = useServerStore((s) => s.password);
   const authMode = useServerStore((s) => s.authMode);
   const isRunning = useServerStore((s) => s.isRunning);
 
@@ -20,10 +18,9 @@ export const ConnectionCards: React.FC = () => {
     const text = [
       `Host: ${hostStr}`,
       `Port: ${ftpPort}`,
-      `Username: ${username}`,
-      `Password: ${password}`,
       `Directory: /`,
       `Passive Mode: Yes`,
+      `Note: Enter your username and password configured in .env`,
     ].join("\n");
 
     try {
@@ -122,21 +119,21 @@ export const ConnectionCards: React.FC = () => {
                 <KeyRound className="w-4 h-4" />
               </div>
               <span className="text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">
-                Vega Credentials
+                Authentication
               </span>
             </div>
-            <span className="text-xs px-2 py-0.5 rounded-full font-medium bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300">
-              {authMode === "permissive" ? "Permissive Auth" : "Keypair Auth"}
+            <span className="text-xs px-2 py-0.5 rounded-full font-medium bg-emerald-50 dark:bg-emerald-950/40 text-emerald-600 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800">
+              {authMode === "permissive" ? "Permissive" : "Secured (.env)"}
             </span>
           </div>
 
-            <div className="space-y-1.5 font-mono text-xs">
-              <div className="flex justify-between items-center py-0.5">
-                <span className="text-slate-500 dark:text-slate-400 font-sans">User / Pass:</span>
-                <span className="font-semibold text-slate-800 dark:text-slate-200">
-                  {username || "—"}{password ? ` / ${password}` : ""}
-                </span>
-              </div>
+          <div className="space-y-1.5 font-mono text-xs">
+            <div className="flex justify-between items-center py-0.5">
+              <span className="text-slate-500 dark:text-slate-400 font-sans">Credentials:</span>
+              <span className="font-semibold text-slate-700 dark:text-slate-300 font-sans">
+                Configured in .env
+              </span>
+            </div>
             <div className="flex justify-between items-center py-0.5">
               <span className="text-slate-500 dark:text-slate-400 font-sans">Directory:</span>
               <span className="font-semibold text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/60 px-1.5 py-0.5 rounded border border-emerald-200 dark:border-emerald-800/60">

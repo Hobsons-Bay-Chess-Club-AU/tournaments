@@ -10,10 +10,7 @@ export interface ServiceStatus {
 export type ServicesStatus = ServiceStatus;
 
 export interface AuthInfo {
-  username?: string;
   usernames?: string[];
   user_count?: number;
   auth_mode?: "permissive" | "keypair";
-  default_username?: string;
-  default_password?: string;
 }
