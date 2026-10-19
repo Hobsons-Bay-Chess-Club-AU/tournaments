@@ -13,9 +13,13 @@ md-5 = "0.10"
 regex = "1.11"
 chrono = { version = "0.4", features = ["serde"] }
 walkdir = "2.5"
-reqwest = { version = "0.12", features = ["json", "blocking"] }
-tokio = { version = "1", features = ["full"], optional = true }
+reqwest = { version = "0.12", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+base64 = "0.22"
+dotenvy = "0.15"
 
 [dev-dependencies]
 assert-json-diff = "2.0"
 tempfile = "3.14"
+wiremock = "0.6"
+
