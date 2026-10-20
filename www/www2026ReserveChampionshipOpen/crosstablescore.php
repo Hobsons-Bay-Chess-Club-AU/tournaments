@@ -77,11 +77,11 @@
 <tr> 
 <td>15</td><td><span class="notitle male"> </span> <a href="playercard.php#17">Clerk,Max                     </a> </td><td>981</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">18  </div></td><td><div class="res">0</div><div class="cf">2   </div></td><td> </td><td>  0.00</td></tr>
 <tr> 
-<td>16</td><td><span class="notitle male"> </span> <a href="playercard.php#16">Ruaya,Rohan                   </a> </td><td>989</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td><div class="res">0</div><div class="cf">10  </div></td><td><div class="res"> ½ </div><div class="cf">BYE</div><td> </td><td>  0.25</td></tr>
+<td>16</td><td><span class="notitle male"> </span> <a href="playercard.php#16">Ruaya,Rohan                   </a> </td><td>989</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td><div class="res">0</div><div class="cf">10  </div></td><td><div class="res"> ½ </div><div class="cf">BYE</div><td><div class="res">1</div><div class="cf">18  </div></td><td>  0.25</td></tr>
 <tr> 
 <td>17</td><td><span class="notitle male"> </span> <a href="playercard.php#20">Koppuravuri,Haneesh           </a> </td><td>0</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td><div class="res"> ½ </div><div class="cf">BYE</div><td><div class="res">0</div><div class="cb">9   </div></td><td> </td><td>  0.25</td></tr>
 <tr> 
-<td>18</td><td><span class="notitle male"> </span> <a href="playercard.php#7">Paul,Nikash                   </a> </td><td>1305</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">15  </div></td><td><div class="res">0</div><div class="cb">14  </div></td><td> </td><td>  0.00</td></tr>
+<td>18</td><td><span class="notitle male"> </span> <a href="playercard.php#7">Paul,Nikash                   </a> </td><td>1305</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">15  </div></td><td><div class="res">0</div><div class="cb">14  </div></td><td><div class="res">0</div><div class="cf">16  </div></td><td>  0.00</td></tr>
 <tr> 
 <td>19</td><td><span class="notitle male"> </span> <a href="playercard.php#13">Annadasu,Shreyansh            </a> </td><td>1096</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cb">4   </div></td><td><div class="res">0</div><div class="cb">11  </div></td><td> </td><td>  0.00</td></tr>
 <tr> 

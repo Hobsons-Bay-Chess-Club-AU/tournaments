@@ -58,7 +58,7 @@
 <tr> 
 <td> <span class="idn"> 6 </span><span class="notitle male"> </span> <a href="playercard.php#6">Ilic,Milan          </a> </td><td>1345</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cf">16  </div></td><td><div class="res">0</div><div class="cw">12  </div></td><td> </td></tr>
 <tr> 
-<td> <span class="idn"> 7 </span><span class="notitle male"> </span> <a href="playercard.php#7">Paul,Nikash         </a> </td><td>1305</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">17  </div></td><td><div class="res">0</div><div class="cb">15  </div></td><td> </td></tr>
+<td> <span class="idn"> 7 </span><span class="notitle male"> </span> <a href="playercard.php#7">Paul,Nikash         </a> </td><td>1305</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td><div class="res">0</div><div class="cw">17  </div></td><td><div class="res">0</div><div class="cb">15  </div></td><td><div class="res">0</div><div class="cf">16  </div></td></tr>
 <tr> 
 <td> <span class="idn"> 8 </span><span class="notitle male"> </span> <a href="playercard.php#8">Thomson,Kynan       </a> </td><td>1275</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">18  </div></td><td><div class="res">0</div><div class="cw">1   </div></td><td> </td></tr>
 <tr> 
@@ -76,7 +76,7 @@
 <tr> 
 <td> <span class="idn"> 15 </span><span class="notitle male"> </span> <a href="playercard.php#15">Ngo,William         </a> </td><td>1037</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">0</div><div class="cb">5   </div></td><td><div class="res">1</div><div class="cw">7   </div></td><td> </td></tr>
 <tr> 
-<td> <span class="idn"> 16 </span><span class="notitle male"> </span> <a href="playercard.php#16">Ruaya,Rohan         </a> </td><td>989</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td><div class="res">0</div><div class="cf">6   </div></td><td><div class="res"> ½ </div><div class="cf">BYE</div><td> </td></tr>
+<td> <span class="idn"> 16 </span><span class="notitle male"> </span> <a href="playercard.php#16">Ruaya,Rohan         </a> </td><td>989</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td><div class="res">0</div><div class="cf">6   </div></td><td><div class="res"> ½ </div><div class="cf">BYE</div><td><div class="res">1</div><div class="cf">7   </div></td></tr>
 <tr> 
 <td> <span class="idn"> 17 </span><span class="notitle male"> </span> <a href="playercard.php#17">Clerk,Max           </a> </td><td>981</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td><div class="res">1</div><div class="cb">7   </div></td><td><div class="res">0</div><div class="cf">5   </div></td><td> </td></tr>
 <tr> 
