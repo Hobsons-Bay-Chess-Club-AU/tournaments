@@ -31,12 +31,20 @@ pub fn load_env() {
 pub fn is_supabase_configured() -> bool {
     load_env();
     let url = std::env::var("SUPABASE_URL")
-        .or_else(|_| std::env::var("NEXT_PUBLIC_SUPABASE_URL"))
+        .ok()
+        .or_else(|| option_env!("SUPABASE_URL").map(|s| s.to_string()))
+        .or_else(|| std::env::var("NEXT_PUBLIC_SUPABASE_URL").ok())
+        .or_else(|| option_env!("NEXT_PUBLIC_SUPABASE_URL").map(|s| s.to_string()))
         .unwrap_or_default();
     let key = std::env::var("SUPABASE_SECRET_KEY")
-        .or_else(|_| std::env::var("SUPABASE_ANON_KEY"))
-        .or_else(|_| std::env::var("SUPABASE_PUBLISHABLE_KEY"))
-        .or_else(|_| std::env::var("NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY"))
+        .ok()
+        .or_else(|| option_env!("SUPABASE_SECRET_KEY").map(|s| s.to_string()))
+        .or_else(|| std::env::var("SUPABASE_ANON_KEY").ok())
+        .or_else(|| option_env!("SUPABASE_ANON_KEY").map(|s| s.to_string()))
+        .or_else(|| std::env::var("SUPABASE_PUBLISHABLE_KEY").ok())
+        .or_else(|| option_env!("SUPABASE_PUBLISHABLE_KEY").map(|s| s.to_string()))
+        .or_else(|| std::env::var("NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY").ok())
+        .or_else(|| option_env!("NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY").map(|s| s.to_string()))
         .unwrap_or_default();
 
     !url.trim().is_empty() && !key.trim().is_empty()
@@ -262,13 +270,19 @@ impl SupabaseClient {
     pub fn from_env() -> Option<Self> {
         load_env();
         let url = std::env::var("SUPABASE_URL")
-            .or_else(|_| std::env::var("NEXT_PUBLIC_SUPABASE_URL"))
-            .ok()?;
+            .ok()
+            .or_else(|| option_env!("SUPABASE_URL").map(|s| s.to_string()))
+            .or_else(|| std::env::var("NEXT_PUBLIC_SUPABASE_URL").ok())
+            .or_else(|| option_env!("NEXT_PUBLIC_SUPABASE_URL").map(|s| s.to_string()))?;
         let key = std::env::var("SUPABASE_SECRET_KEY")
-            .or_else(|_| std::env::var("SUPABASE_ANON_KEY"))
-            .or_else(|_| std::env::var("SUPABASE_PUBLISHABLE_KEY"))
-            .or_else(|_| std::env::var("NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY"))
-            .ok()?;
+            .ok()
+            .or_else(|| option_env!("SUPABASE_SECRET_KEY").map(|s| s.to_string()))
+            .or_else(|| std::env::var("SUPABASE_ANON_KEY").ok())
+            .or_else(|| option_env!("SUPABASE_ANON_KEY").map(|s| s.to_string()))
+            .or_else(|| std::env::var("SUPABASE_PUBLISHABLE_KEY").ok())
+            .or_else(|| option_env!("SUPABASE_PUBLISHABLE_KEY").map(|s| s.to_string()))
+            .or_else(|| std::env::var("NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY").ok())
+            .or_else(|| option_env!("NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY").map(|s| s.to_string()))?;
 
         if url.trim().is_empty() || key.trim().is_empty() {
             return None;

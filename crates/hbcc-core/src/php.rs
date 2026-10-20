@@ -60,8 +60,11 @@ pub struct PhpConversionStats {
 /// Returns the configured threshold in seconds for considering an HTML file out of date
 /// compared to its matching PHP source file. Default is 30 seconds.
 pub fn get_php_to_html_threshold_seconds() -> f64 {
-    if let Ok(env_val) = std::env::var("PHP_TO_HTML_THRESHOLD_SECONDS") {
-        let trimmed = env_val.trim();
+    let env_val = std::env::var("PHP_TO_HTML_THRESHOLD_SECONDS")
+        .ok()
+        .or_else(|| option_env!("PHP_TO_HTML_THRESHOLD_SECONDS").map(|s| s.to_string()));
+    if let Some(val) = env_val {
+        let trimmed = val.trim();
         if !trimmed.is_empty() {
             if let Ok(parsed) = trimmed.parse::<f64>() {
                 if parsed >= 0.0 {

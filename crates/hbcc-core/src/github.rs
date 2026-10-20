@@ -9,6 +9,8 @@ use walkdir::WalkDir;
 pub fn is_github_sync_enabled() -> bool {
     crate::supabase::load_env();
     let flag = std::env::var("ALLOW_PUSH_CHANGE_TO_GH")
+        .ok()
+        .or_else(|| option_env!("ALLOW_PUSH_CHANGE_TO_GH").map(|s| s.to_string()))
         .unwrap_or_default()
         .trim()
         .to_lowercase();
@@ -52,15 +54,22 @@ impl GitHubClient {
     pub fn from_env() -> Option<Self> {
         crate::supabase::load_env();
         let token = std::env::var("GH_TOKEN")
-            .or_else(|_| std::env::var("GITHUB_TOKEN"))
-            .ok()?;
+            .ok()
+            .or_else(|| option_env!("GH_TOKEN").map(|s| s.to_string()))
+            .or_else(|| std::env::var("GITHUB_TOKEN").ok())
+            .or_else(|| option_env!("GITHUB_TOKEN").map(|s| s.to_string()))?;
         if token.trim().is_empty() {
             return None;
         }
 
         let repo = std::env::var("GH_REPO")
-            .unwrap_or_else(|_| "Hobsons-Bay-Chess-Club-AU/tournaments".to_string());
-        let branch = std::env::var("GH_BRANCH").unwrap_or_else(|_| "main".to_string());
+            .ok()
+            .or_else(|| option_env!("GH_REPO").map(|s| s.to_string()))
+            .unwrap_or_else(|| "Hobsons-Bay-Chess-Club-AU/tournaments".to_string());
+        let branch = std::env::var("GH_BRANCH")
+            .ok()
+            .or_else(|| option_env!("GH_BRANCH").map(|s| s.to_string()))
+            .unwrap_or_else(|| "main".to_string());
 
         Some(Self::new(&token, &repo, &branch))
     }
