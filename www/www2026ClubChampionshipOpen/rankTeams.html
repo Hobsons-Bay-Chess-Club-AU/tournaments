@@ -46,14 +46,14 @@
 <div class="table-responsive"><table class="table table-striped"> 
 <thead><tr><th> Pos </th> <th> Team Name </th><th>Points</th></tr></thead> <tbody>
 <tr>
-<td>1</td> <td></td> <td>5</td> </tr>
+<td>1</td> <td></td> <td>6</td> </tr>
 </tbody>
 </table>
 <h5 class="mb-4 mt-4"> Team composition</h5>
 <table class="table table-striped "> 
-<thead><tr><th>1</th> <th> </th><th>5</th></tr></thead><tbody> 
+<thead><tr><th>1</th> <th> </th><th>6</th></tr></thead><tbody> 
 <tr> <td>2</td> <td>Nguyen,Anh Kiet </td><td>2</td></tr> 
-<tr> <td>3</td> <td>Krishnan,Anirudh </td><td>1</td></tr> 
+<tr> <td>3</td> <td>Krishnan,Anirudh </td><td>2</td></tr> 
 <tr> <td>7</td> <td>Lacson,Joemar </td><td>1</td></tr> 
 <tr> <td>5</td> <td>Annapureddy,Rheyansh Reddy </td><td>1</td></tr> 
 <tr> <td>6</td> <td>Bodke,Krishna Manthan </td><td>1</td></tr> 
@@ -67,7 +67,7 @@
 <thead><tr><th>Board 0</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
 <tr> <td></td> <td>1 </td><td>Nguyen,Anh Kiet </td><td> </td><td>2</td></tr> 
 <thead><tr><th>Board 1</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
-<tr> <td></td> <td>1 </td><td>Krishnan,Anirudh </td><td> </td><td>1</td></tr> 
+<tr> <td></td> <td>1 </td><td>Krishnan,Anirudh </td><td> </td><td>2</td></tr> 
 <thead><tr><th>Board 2</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>
 <tr> <td></td> <td>1 </td><td>Lacson,Joemar </td><td> </td><td>1</td></tr> 
 <thead><tr><th>Board 3</th><th> Pos </th><th> Player </th><th> Team </th><th> Points </th></tr></thead> <tbody>

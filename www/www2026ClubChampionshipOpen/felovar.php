@@ -45,11 +45,11 @@
   <div class="d-flex flex-column"><h3 class="mb-4 mt-4">  FIDE rating variation at round 7</h3>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead> <tr> <th>#</th> <th>Player</th> <th>FIDE ID</th> <th>Fed</th> <th>Rtg</th>  <th>Ng</th> <th>Pts</th> <th>ARO</th> <th>var</th> <th>Rp</th> </tr></thead><tbody><tr> 
-<td>1</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3232220" target="X">Whitford,Matthew</a></td> <td>3232220</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1698</td><td> 2</td> <td> 0.5</td> <td>1885</td> <td>-1</td> <td>1692</td></tr>
+<td>1</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3232220" target="X">Whitford,Matthew</a></td> <td>3232220</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1698</td><td> 3</td> <td> 0.5</td> <td>1886</td> <td>-6</td> <td>1613</td></tr>
 <tr> 
 <td>2</td> <td><span class="title male"> CM</span> <a href="http://ratings.fide.com/profile/3267849" target="X">Nguyen,Anh Kiet</a></td> <td>3267849</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1977</td><td> 2</td> <td> 2.0</td> <td>1796</td> <td>22</td> <td>2596</td></tr>
 <tr> 
-<td>3</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3254925" target="X">Krishnan,Anirudh</a></td> <td>3254925</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1888</td><td> 2</td> <td> 1.0</td> <td>1909</td> <td>1</td> <td>1909</td></tr>
+<td>3</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3254925" target="X">Krishnan,Anirudh</a></td> <td>3254925</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1888</td><td> 3</td> <td> 2.0</td> <td>1839</td> <td>6</td> <td>1964</td></tr>
 <tr> 
 <td>4</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3201414" target="X">Hogan,Steven</a></td> <td>3201414</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1684</td><td> 2</td> <td> 0.0</td> <td>2097</td> <td>-6</td> <td>1297</td></tr>
 <tr> 

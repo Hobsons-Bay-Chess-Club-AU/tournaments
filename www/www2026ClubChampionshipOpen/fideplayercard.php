@@ -47,7 +47,8 @@
 <caption> <a class="anchor" name="1"></a> N = 1<a href="http://ratings.fide.com/profile/3232220" target="X"> Whitford,Matthew </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
  <td>1</td><td>W </td><td>8</td><td><span class="title male"> CM</span> <a href="fideplayercard.php#8">Davis,Tony J</td><td>3205550</td><td>VIC</td><td>1793</td><td>0.5</td></tr><tr> 
- <td>2</td><td>W </td><td>2</td><td><span class="title male"> CM</span> <a href="fideplayercard.php#2">Nguyen,Anh Kiet</td><td>3267849</td><td>VIC</td><td>1977</td><td>0</td></tr></tbody>
+ <td>2</td><td>W </td><td>2</td><td><span class="title male"> CM</span> <a href="fideplayercard.php#2">Nguyen,Anh Kiet</td><td>3267849</td><td>VIC</td><td>1977</td><td>0</td></tr><tr> 
+ <td>3</td><td> B</td><td>3</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#3">Krishnan,Anirudh</td><td>3254925</td><td>VIC</td><td>1888</td><td>0</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="2"></a> N = 2<a href="http://ratings.fide.com/profile/3267849" target="X"> Nguyen,Anh Kiet </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
@@ -59,7 +60,8 @@
 <caption> <a class="anchor" name="3"></a> N = 3<a href="http://ratings.fide.com/profile/3254925" target="X"> Krishnan,Anirudh </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>
 <tr> 
  <td>1</td><td>W </td><td>6</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#6">Bodke,Krishna Manthan</td><td>3259021</td><td>VIC</td><td>1925</td><td>1</td></tr><tr> 
- <td>2</td><td> B</td><td>7</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#7">Lacson,Joemar</td><td>3257762</td><td>VIC</td><td>1893</td><td>0</td></tr></tbody>
+ <td>2</td><td> B</td><td>7</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#7">Lacson,Joemar</td><td>3257762</td><td>VIC</td><td>1893</td><td>0</td></tr><tr> 
+ <td>3</td><td>W </td><td>1</td><td><span class="notitle male"> </span> <a href="fideplayercard.php#1">Whitford,Matthew</td><td>3232220</td><td>VIC</td><td>1698</td><td>1</td></tr></tbody>
 </table><br><br>
 <table class="table caption-top table-striped "> 
 <caption> <a class="anchor" name="4"></a> N = 4<a href="http://ratings.fide.com/profile/3201414" target="X"> Hogan,Steven </a></caption><thead><tr> <th>Rnd</th> <th>Col</th> <th>N opp</th> <th>Opponent Name</th> <th>FIDE ID </th> <th>Fed</th>  <th>Rtg</th>  <th>res</th> </tr></thead><tbody>

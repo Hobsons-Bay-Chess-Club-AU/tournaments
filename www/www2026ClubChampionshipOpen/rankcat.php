@@ -60,10 +60,10 @@
 <thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th></th> <th></th><th>Fed</th><th>Pts</th><th>SB</th>
 </tr> </THEAD><tbody>
 <tr> 
-<td>1</td><td>3</td><td></td><td> <a href="playercard.php#3">Krishnan,Anirudh    </a> </td><td>1756</td><td>1401</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>  1.00</td>
+<td>1</td><td>3</td><td></td><td> <a href="playercard.php#3">Krishnan,Anirudh    </a> </td><td>1756</td><td>1552</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>  1.50</td>
 </tr> 
 <tr> 
-<td>2</td><td>7</td><td></td><td> <a href="playercard.php#7">Lacson,Joemar       </a> </td><td>1753</td><td>1401</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>  1.00</td>
+<td>2</td><td>7</td><td></td><td> <a href="playercard.php#7">Lacson,Joemar       </a> </td><td>1753</td><td>1401</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>  2.00</td>
 </tr> 
 <tr> 
 <td>3</td><td>6</td><td></td><td> <a href="playercard.php#6">Bodke,Krishna Mantha</a> </td><td>1718</td><td>1406</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>  0.00</td>

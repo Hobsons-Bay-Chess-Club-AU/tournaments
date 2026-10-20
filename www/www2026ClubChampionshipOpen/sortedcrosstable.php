@@ -48,15 +48,15 @@
 <th> 1 </th><th> 2 </th><th> 3 </th><th> 4 </th><th> 5 </th><th> 6 </th><th> 7 </th><th> 8 </th></tr></thead> <tbody>
 <tr> <td>1</td><td>1</td><td> <a href="playercard.php#1"> Whitford,Matthew</a> </td><td>1460</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td class=hole> </td><td> a  </td><td> 1  </td><td> a  </td><td> a  </td><td> 1  </td><td> a  </td><td> a  </td>
 </tr>
-<tr> <td>2</td><td>2</td><td> <a href="playercard.php#2">CM Nguyen,Anh Kiet</a> </td><td>1802</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td> a  </td><td class=hole> </td><td> 0  </td><td> a  </td><td> 1  </td><td> a  </td><td> a  </td><td> a  </td>
+<tr> <td>2</td><td>2</td><td> <a href="playercard.php#2">CM Nguyen,Anh Kiet</a> </td><td>1802</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td> a  </td><td class=hole> </td><td> 0  </td><td> a  </td><td> 1  </td><td> 1  </td><td> a  </td><td> a  </td>
 </tr>
-<tr> <td>3</td><td>3</td><td> <a href="playercard.php#3"> Krishnan,Anirudh</a> </td><td>1756</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td> 0  </td><td> 1  </td><td class=hole> </td><td> a  </td><td> a  </td><td> a  </td><td> a  </td><td> a  </td>
+<tr> <td>3</td><td>3</td><td> <a href="playercard.php#3"> Krishnan,Anirudh</a> </td><td>1756</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td> 0  </td><td> 1  </td><td class=hole> </td><td> a  </td><td> a  </td><td> a  </td><td> a  </td><td> a  </td>
 </tr>
 <tr> <td>4</td><td>4</td><td> <a href="playercard.php#4"> Hogan,Steven</a> </td><td>1414</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.0</td><td> a  </td><td> a  </td><td> a  </td><td class=hole> </td><td> a  </td><td> a  </td><td> a  </td><td> 1  </td>
 </tr>
 <tr> <td>5</td><td>5</td><td> <a href="playercard.php#5">FM Annapureddy,Rheyansh Reddy</a> </td><td>2186</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td> a  </td><td> 0  </td><td> a  </td><td> a  </td><td class=hole> </td><td> a  </td><td> a  </td><td> 1  </td>
 </tr>
-<tr> <td>6</td><td>6</td><td> <a href="playercard.php#6"> Bodke,Krishna Manthan</a> </td><td>1718</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td> 0  </td><td> a  </td><td> a  </td><td> a  </td><td> a  </td><td class=hole> </td><td> ½ </td><td> a  </td>
+<tr> <td>6</td><td>6</td><td> <a href="playercard.php#6"> Bodke,Krishna Manthan</a> </td><td>1718</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td> 0  </td><td> 0  </td><td> a  </td><td> a  </td><td> a  </td><td class=hole> </td><td> ½ </td><td> a  </td>
 </tr>
 <tr> <td>7</td><td>7</td><td> <a href="playercard.php#7"> Lacson,Joemar</a> </td><td>1753</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td> a  </td><td> a  </td><td> a  </td><td> a  </td><td> a  </td><td> ½ </td><td class=hole> </td><td> a  </td>
 </tr>
