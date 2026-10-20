@@ -47,19 +47,19 @@
 <thead> <tr> <th>#</th> <th>Player</th> <th>FIDE ID</th> <th>Fed</th> <th>Rtg</th>  <th>Ng</th> <th>Pts</th> <th>ARO</th> <th>var</th> <th>Rp</th> </tr></thead><tbody><tr> 
 <td>1</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3232220" target="X">Whitford,Matthew</a></td> <td>3232220</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1698</td><td> 3</td> <td> 0.5</td> <td>1886</td> <td>-6</td> <td>1613</td></tr>
 <tr> 
-<td>2</td> <td><span class="title male"> CM</span> <a href="http://ratings.fide.com/profile/3267849" target="X">Nguyen,Anh Kiet</a></td> <td>3267849</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1977</td><td> 2</td> <td> 2.0</td> <td>1796</td> <td>22</td> <td>2596</td></tr>
+<td>2</td> <td><span class="title male"> CM</span> <a href="http://ratings.fide.com/profile/3267849" target="X">Nguyen,Anh Kiet</a></td> <td>3267849</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1977</td><td> 3</td> <td> 2.0</td> <td>1795</td> <td>-8</td> <td>1920</td></tr>
 <tr> 
 <td>3</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3254925" target="X">Krishnan,Anirudh</a></td> <td>3254925</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1888</td><td> 3</td> <td> 2.0</td> <td>1839</td> <td>6</td> <td>1964</td></tr>
 <tr> 
-<td>4</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3201414" target="X">Hogan,Steven</a></td> <td>3201414</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1684</td><td> 2</td> <td> 0.0</td> <td>2097</td> <td>-6</td> <td>1297</td></tr>
+<td>4</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3201414" target="X">Hogan,Steven</a></td> <td>3201414</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1684</td><td> 3</td> <td> 1.0</td> <td>2029</td> <td>10</td> <td>1904</td></tr>
 <tr> 
-<td>5</td> <td><span class="title male"> FM</span> <a href="http://ratings.fide.com/profile/3244806" target="X">Annapureddy,Rheyansh Reddy</a></td> <td>3244806</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>2268</td><td> 1</td> <td> 1.0</td> <td>1684</td> <td>3</td> <td>2484</td></tr>
+<td>5</td> <td><span class="title male"> FM</span> <a href="http://ratings.fide.com/profile/3244806" target="X">Annapureddy,Rheyansh Reddy</a></td> <td>3244806</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>2268</td><td> 2</td> <td> 2.0</td> <td>1805</td> <td>8</td> <td>2605</td></tr>
 <tr> 
-<td>6</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3259021" target="X">Bodke,Krishna Manthan</a></td> <td>3259021</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1925</td><td> 2</td> <td> 1.0</td> <td>1786</td> <td>-14</td> <td>1786</td></tr>
+<td>6</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3259021" target="X">Bodke,Krishna Manthan</a></td> <td>3259021</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1925</td><td> 3</td> <td> 1.0</td> <td>1947</td> <td>-19</td> <td>1822</td></tr>
 <tr> 
-<td>7</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3257762" target="X">Lacson,Joemar</a></td> <td>3257762</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1893</td><td> 2</td> <td> 1.0</td> <td>1933</td> <td>2</td> <td>1933</td></tr>
+<td>7</td> <td><span class="notitle male"> </span> <a href="http://ratings.fide.com/profile/3257762" target="X">Lacson,Joemar</a></td> <td>3257762</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1893</td><td> 3</td> <td> 1.0</td> <td>1850</td> <td>-13</td> <td>1725</td></tr>
 <tr> 
-<td>8</td> <td><span class="title male"> CM</span> <a href="http://ratings.fide.com/profile/3205550" target="X">Davis,Tony J</a></td> <td>3205550</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1793</td><td> 1</td> <td> 0.5</td> <td>1698</td> <td>-3</td> <td>1698</td></tr>
+<td>8</td> <td><span class="title male"> CM</span> <a href="http://ratings.fide.com/profile/3205550" target="X">Davis,Tony J</a></td> <td>3205550</td> <td> <img class="shadow" src="flag/vic.png" alt="vic"> </td> <td>1793</td><td> 2</td> <td> 1.5</td> <td>1838</td> <td>12</td> <td>2031</td></tr>
 </tbody>
 </table>
 </div>		  </div>
