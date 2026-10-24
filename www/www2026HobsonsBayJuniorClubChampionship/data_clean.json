@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T09:58:31.195Z",
+  "generatedAt": "2026-10-24T10:10:08.307Z",
   "tournament": {
     "id": "2026-hobsons-bay-junior-club-championship",
     "name": "2026 Hobsons Bay Junior Club Championship",
@@ -353,7 +353,7 @@
               "N": "4",
               "White": "Jyothi Nikhil,Neev",
               "NW": "5",
-              "result": "...",
+              "result": "ADJ",
               "NB": "6",
               "Black": "Annadasu,Shreyansh"
             }
@@ -949,6 +949,92 @@
       "pairingScheduleText": "Pairing of round 2, at 18:00 of 24/10/2026",
       "tournamentType": "individual"
     },
+    "pairs3.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": "2",
+              "Pts": "1",
+              "Result": "...",
+              "Pts_1": "0",
+              "Black Player": "8",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": "3",
+              "Pts": "1",
+              "Result": "...",
+              "Pts_1": "1.5",
+              "Black Player": "1",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": "4",
+              "Pts": "1.5",
+              "Result": "...",
+              "Pts_1": "1.5",
+              "Black Player": "7",
+              "Fed_1": "OS"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": "5",
+              "Pts": "1",
+              "Result": "ADJ",
+              "Pts_1": "0.5",
+              "Black Player": "6",
+              "Fed_1": "VIC"
+            }
+          ],
+          "type": "pairing"
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 3, at 18:00 of 31/10/2026",
+      "tournamentType": "individual"
+    },
     "playercard.html": {
       "pageHeading": "National History Cards",
       "tables": [
@@ -1007,6 +1093,16 @@
               "Rtg": "1092",
               "res": "0.5",
               "Pts": "1.5"
+            },
+            {
+              "R": "3",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -1077,6 +1173,16 @@
               "Rtg": "1096",
               "res": "1.0",
               "Pts": "0.5"
+            },
+            {
+              "R": "3",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -1147,6 +1253,16 @@
               "Rtg": "1112",
               "res": "0.5",
               "Pts": "1.0"
+            },
+            {
+              "R": "3",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -1216,6 +1332,16 @@
               "OPPONENT": "Huang,Michael",
               "Rtg": "1062",
               "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "3",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
               "Pts": "0.0"
             }
           ],
@@ -1287,6 +1413,16 @@
               "Rtg": "1308",
               "res": "0.5",
               "Pts": "1.0"
+            },
+            {
+              "R": "3",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -1357,6 +1493,16 @@
               "Rtg": "1349",
               "res": "0.0",
               "Pts": "1.0"
+            },
+            {
+              "R": "3",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -1427,6 +1573,16 @@
               "Rtg": "1470",
               "res": "0.5",
               "Pts": "1.5"
+            },
+            {
+              "R": "3",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -1497,6 +1653,16 @@
               "Rtg": "1132",
               "res": "0.0",
               "Pts": "1.5"
+            },
+            {
+              "R": "3",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -1516,7 +1682,7 @@
       "tournamentType": "unknown"
     },
     "rankcat.html": {
-      "pageHeading": "Standings at round 2 sorted by category",
+      "pageHeading": "Standings at round 3 sorted by category",
       "tables": [
         {
           "headers": [
@@ -2161,7 +2327,7 @@
                 "title": ""
               },
               "NW": "5",
-              "Result": "...",
+              "Result": "ADJ",
               "NB": "6",
               "Black Player": {
                 "id": "",
@@ -3261,7 +3427,7 @@
     },
     {
       "text": "Pairings",
-      "href": "pairs2.html",
+      "href": "pairs3.html",
       "isDropdown": false,
       "children": []
     },
@@ -3289,5 +3455,5 @@
       "children": []
     }
   ],
-  "md5Hash": "cc95bd9728a9e2b2eb4e7e7644d7e44a"
+  "md5Hash": "23e0577b0c5e43254823783d4821230c"
 }
