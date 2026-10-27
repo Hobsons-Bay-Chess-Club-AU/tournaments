@@ -263,7 +263,7 @@
 <tr> <td>3</td> <td> B</td> <td>3</td> <td></td> <td> <a href="playercard.php#3"> Menezes,Eric         </a>  <td>1520</td>
 <td> 0.0</td> <td> 3.0</td>
 </tr> 
-<tr> <td>4</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
+<tr> <td>4</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>

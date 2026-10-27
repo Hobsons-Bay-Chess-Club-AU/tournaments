@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T12:18:09.908Z",
+  "generatedAt": "2026-10-27T11:14:53.155Z",
   "tournament": {
     "id": "hobsons-bay-reserves-championship-open",
     "name": "Hobsons Bay Reserves Championship Open",
@@ -595,7 +595,11 @@
                 "whiteOpponent": null,
                 "blackOpponent": "3"
               },
-              "4": "",
+              "4": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "Player": "12",
               "Rtg": "1111",
               "Fed": "VIC",
@@ -906,7 +910,11 @@
                 "whiteOpponent": null,
                 "blackOpponent": "2"
               },
-              "4": "",
+              "4": {
+                "result": "½",
+                "whiteOpponent": null,
+                "blackOpponent": null
+              },
               "Pos": "3",
               "Player": {
                 "id": "",
@@ -4016,7 +4024,7 @@
               "Fed": "VIC",
               "White Player": "15",
               "Pts": "2",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "2",
               "Black Player": "2",
               "Fed_1": "VIC"
@@ -4036,7 +4044,7 @@
               "Fed": "VIC",
               "White Player": "8",
               "Pts": "1.5",
-              "Result": "...",
+              "Result": "½ - ½",
               "Pts_1": "1.5",
               "Black Player": "14",
               "Fed_1": "VIC"
@@ -4046,7 +4054,7 @@
               "Fed": "VIC",
               "White Player": "16",
               "Pts": "1.5",
-              "Result": "...",
+              "Result": "0 - 1",
               "Pts_1": "1.5",
               "Black Player": "19",
               "Fed_1": "VIC"
@@ -4056,7 +4064,7 @@
               "Fed": "VIC",
               "White Player": "10",
               "Pts": "1",
-              "Result": "...",
+              "Result": "1 - 0",
               "Pts_1": "1.5",
               "Black Player": "11",
               "Fed_1": "VIC"
@@ -4076,7 +4084,7 @@
               "Fed": "VIC",
               "White Player": "18",
               "Pts": "0.5",
-              "Result": "...",
+              "Result": "0F-1F",
               "Pts_1": "0.5",
               "Black Player": "20",
               "Fed_1": "VIC"
@@ -5174,7 +5182,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "0.5",
               "Pts": "0.0"
             }
           ],
@@ -8349,5 +8357,5 @@
       ]
     }
   ],
-  "md5Hash": "a3a2f07de087ddf377d65804e1692766"
+  "md5Hash": "2385569cbb32c142d72407cf806eefbb"
 }
