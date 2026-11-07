@@ -176,7 +176,7 @@
 <tr> 
 <td><span class="idn"> 66</span></td><td><span class="notitle female"> </span></td><td> Thambavitage,Pahansa </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 67</span></td><td><span class="notitle male"> </span></td><td> Vos, Sebastien </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
+<td><span class="idn"> 67</span></td><td><span class="notitle male"> </span></td><td> Vos,Sebastien </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 68</span></td><td><span class="notitle female"> </span></td><td> Win,Noel May Thu </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
