@@ -48,10 +48,10 @@
 <thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th></th> <th></th><th>Fed</th><th>Pts</th><th>SB</th>
 </tr> </THEAD><tbody>
 <tr> 
-<td>1</td><td>2</td><td>CM</td><td> <a href="playercard.php#2">Nguyen,Anh Kiet     </a> </td><td>1802</td><td>1653</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>  3.50</td>
+<td>1</td><td>2</td><td>CM</td><td> <a href="playercard.php#2">Nguyen,Anh Kiet     </a> </td><td>1802</td><td>1753</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 4.0</td><td>  5.00</td>
 </tr> 
 <tr> 
-<td>2</td><td>8</td><td>CM</td><td> <a href="playercard.php#8">Davis,Tony J        </a> </td><td>1634</td><td>1625</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.5</td><td>  4.25</td>
+<td>2</td><td>8</td><td>CM</td><td> <a href="playercard.php#8">Davis,Tony J        </a> </td><td>1634</td><td>1727</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>  7.75</td>
 </tr> 
 </tbody>
 </table> <br><br>
@@ -60,7 +60,7 @@
 <thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th></th> <th></th><th>Fed</th><th>Pts</th><th>SB</th>
 </tr> </THEAD><tbody>
 <tr> 
-<td>1</td><td>5</td><td>FM</td><td> <a href="playercard.php#5">Annapureddy,Rheyansh</a> </td><td>2186</td><td>1598</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>  3.00</td>
+<td>1</td><td>5</td><td>FM</td><td> <a href="playercard.php#5">Annapureddy,Rheyansh</a> </td><td>2186</td><td>1698</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 4.0</td><td>  4.50</td>
 </tr> 
 </tbody>
 </table> <br><br>
@@ -69,19 +69,19 @@
 <thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th></th> <th></th><th>Fed</th><th>Pts</th><th>SB</th>
 </tr> </THEAD><tbody>
 <tr> 
-<td>1</td><td>3</td><td></td><td> <a href="playercard.php#3">Krishnan,Anirudh    </a> </td><td>1756</td><td>1552</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>  1.50</td>
+<td>1</td><td>3</td><td></td><td> <a href="playercard.php#3">Krishnan,Anirudh    </a> </td><td>1756</td><td>1552</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>  2.00</td>
 </tr> 
 <tr> 
-<td>2</td><td>7</td><td></td><td> <a href="playercard.php#7">Lacson,Joemar       </a> </td><td>1753</td><td>1401</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>  2.00</td>
+<td>2</td><td>7</td><td></td><td> <a href="playercard.php#7">Lacson,Joemar       </a> </td><td>1753</td><td>1480</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.5</td><td>  2.75</td>
 </tr> 
 <tr> 
-<td>3</td><td>4</td><td></td><td> <a href="playercard.php#4">Hogan,Steven        </a> </td><td>1414</td><td>1449</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>  1.00</td>
+<td>3</td><td>6</td><td></td><td> <a href="playercard.php#6">Bodke,Krishna Mantha</a> </td><td>1718</td><td>1485</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.5</td><td>  1.75</td>
 </tr> 
 <tr> 
-<td>4</td><td>6</td><td></td><td> <a href="playercard.php#6">Bodke,Krishna Mantha</a> </td><td>1718</td><td>1406</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>  1.00</td>
+<td>4</td><td>4</td><td></td><td> <a href="playercard.php#4">Hogan,Steven        </a> </td><td>1414</td><td>1449</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.0</td><td>  1.50</td>
 </tr> 
 <tr> 
-<td>5</td><td>1</td><td></td><td> <a href="playercard.php#1">Whitford,Matthew    </a> </td><td>1460</td><td>1330</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td>  1.25</td>
+<td>5</td><td>1</td><td></td><td> <a href="playercard.php#1">Whitford,Matthew    </a> </td><td>1460</td><td>1330</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 0.5</td><td>  1.75</td>
 </tr> 
 </tbody>
 </table> <br><br>
