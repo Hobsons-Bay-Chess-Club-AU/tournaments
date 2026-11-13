@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T09:19:24.032Z",
+  "generatedAt": "2026-11-13T22:34:14.036Z",
   "page": {
     "calendarroundrobin.html": {
       "pageHeading": "Schedule",
@@ -1276,6 +1276,171 @@
       "pairingScheduleText": "Pairing of round 4, at 18:00 of 07/11/2026",
       "tournamentType": "individual"
     },
+    "pairs5.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "3",
+                "playerName": "Batyrbekov,Aidan",
+                "gender": "male",
+                "href": "playercard.html#3",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1308",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "2",
+              "Result": "...",
+              "Pts_1": "1",
+              "Black Player": {
+                "id": "8",
+                "playerName": "Huang,Michael",
+                "gender": "male",
+                "href": "playercard.html#8",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1062",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "4",
+                "playerName": "Ashok,Arjun",
+                "gender": "male",
+                "href": "playercard.html#4",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1132",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "2.5",
+              "Result": "...",
+              "Pts_1": "2.5",
+              "Black Player": {
+                "id": "2",
+                "playerName": "Batyrbekov,Kaisar",
+                "gender": "male",
+                "href": "playercard.html#2",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1349",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "5",
+                "playerName": "Jyothi Nikhil,Neev",
+                "gender": "male",
+                "href": "playercard.html#5",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1112",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1.5",
+              "Result": "...",
+              "Pts_1": "2.5",
+              "Black Player": {
+                "id": "1",
+                "playerName": "Ramanathan,Ashwin",
+                "gender": "male",
+                "href": "playercard.html#1",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1470",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": {
+                "id": "6",
+                "playerName": "Annadasu,Shreyansh",
+                "gender": "male",
+                "href": "playercard.html#6",
+                "title": "",
+                "federation": "VIC",
+                "rating": "1096",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Pts": "1.5",
+              "Result": "...",
+              "Pts_1": "2.5",
+              "Black Player": {
+                "id": "7",
+                "playerName": "Ahmad,Ihtiram",
+                "gender": "male",
+                "href": "playercard.html#7",
+                "title": "",
+                "federation": "OS",
+                "rating": "1092",
+                "fideId": "",
+                "moreInfo": {}
+              },
+              "Fed_1": "OS"
+            }
+          ]
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 5, at 18:00 of 14/11/2026",
+      "tournamentType": "individual"
+    },
     "playercard.html": {
       "pageHeading": "National History Cards",
       "tables": [
@@ -1354,6 +1519,16 @@
               "Rtg": "1349",
               "res": "0.5",
               "Pts": "2.5"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -1443,6 +1618,16 @@
               "Rtg": "1470",
               "res": "0.5",
               "Pts": "2.5"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -1532,6 +1717,16 @@
               "Rtg": "1092",
               "res": "0.5",
               "Pts": "2.5"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -1621,6 +1816,16 @@
               "Rtg": "1096",
               "res": "0.5",
               "Pts": "1.5"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -1710,6 +1915,16 @@
               "Rtg": "1062",
               "res": "0.0",
               "Pts": "1.0"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -1799,6 +2014,16 @@
               "Rtg": "1132",
               "res": "0.5",
               "Pts": "2.5"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -1888,6 +2113,16 @@
               "Rtg": "1308",
               "res": "0.5",
               "Pts": "2.0"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -1977,6 +2212,16 @@
               "Rtg": "1112",
               "res": "1.0",
               "Pts": "1.5"
+            },
+            {
+              "R": "5",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -1995,7 +2240,7 @@
       "tournamentType": "unknown"
     },
     "rankcat.html": {
-      "pageHeading": "Standings at round 4 sorted by category",
+      "pageHeading": "Standings at round 5 sorted by category",
       "tables": [
         {
           "headers": [
@@ -3838,7 +4083,7 @@
     },
     {
       "text": "Pairings",
-      "href": "pairs4.html",
+      "href": "pairs5.html",
       "isDropdown": false,
       "children": []
     },
@@ -3976,9 +4221,9 @@
     "FIDE titled player NOT from AUS Federation": "0",
     "category": "Junior"
   },
-  "md5Hash": "0767aad9efbfb2b05cf24e0f1fbe3873",
+  "md5Hash": "085bd48f03691690060ca59802b4679e",
   "cleanData": {
-    "generatedAt": "2026-11-12T09:19:24.032Z",
+    "generatedAt": "2026-11-13T22:34:14.036Z",
     "tournament": {
       "id": "2026-hobsons-bay-junior-club-championship",
       "name": "2026 Hobsons Bay Junior Club Championship",
@@ -5100,6 +5345,92 @@
         "pairingScheduleText": "Pairing of round 4, at 18:00 of 07/11/2026",
         "tournamentType": "individual"
       },
+      "pairs5.html": {
+        "pageHeading": "",
+        "tables": [
+          {
+            "headers": [
+              {
+                "name": "Bo.",
+                "key": "Bo."
+              },
+              {
+                "name": "Fed",
+                "key": "Fed"
+              },
+              {
+                "name": "White Player",
+                "key": "White Player"
+              },
+              {
+                "name": "Pts",
+                "key": "Pts"
+              },
+              {
+                "name": "Result",
+                "key": "Result"
+              },
+              {
+                "name": "Pts",
+                "key": "Pts_1"
+              },
+              {
+                "name": "Black Player",
+                "key": "Black Player"
+              },
+              {
+                "name": "Fed",
+                "key": "Fed_1"
+              }
+            ],
+            "rows": [
+              {
+                "Bo.": "1",
+                "Fed": "VIC",
+                "White Player": "3",
+                "Pts": "2",
+                "Result": "...",
+                "Pts_1": "1",
+                "Black Player": "8",
+                "Fed_1": "VIC"
+              },
+              {
+                "Bo.": "2",
+                "Fed": "VIC",
+                "White Player": "4",
+                "Pts": "2.5",
+                "Result": "...",
+                "Pts_1": "2.5",
+                "Black Player": "2",
+                "Fed_1": "VIC"
+              },
+              {
+                "Bo.": "3",
+                "Fed": "VIC",
+                "White Player": "5",
+                "Pts": "1.5",
+                "Result": "...",
+                "Pts_1": "2.5",
+                "Black Player": "1",
+                "Fed_1": "VIC"
+              },
+              {
+                "Bo.": "4",
+                "Fed": "VIC",
+                "White Player": "6",
+                "Pts": "1.5",
+                "Result": "...",
+                "Pts_1": "2.5",
+                "Black Player": "7",
+                "Fed_1": "OS"
+              }
+            ],
+            "type": "pairing"
+          }
+        ],
+        "pairingScheduleText": "Pairing of round 5, at 18:00 of 14/11/2026",
+        "tournamentType": "individual"
+      },
       "playercard.html": {
         "pageHeading": "National History Cards",
         "tables": [
@@ -5178,6 +5509,16 @@
                 "Rtg": "1349",
                 "res": "0.5",
                 "Pts": "2.5"
+              },
+              {
+                "R": "5",
+                "C": "--",
+                "N": "0",
+                "Cat": "",
+                "OPPONENT": "not played",
+                "Rtg": "-",
+                "res": "0.0",
+                "Pts": "0.0"
               }
             ],
             "caption": {
@@ -5268,6 +5609,16 @@
                 "Rtg": "1470",
                 "res": "0.5",
                 "Pts": "2.5"
+              },
+              {
+                "R": "5",
+                "C": "--",
+                "N": "0",
+                "Cat": "",
+                "OPPONENT": "not played",
+                "Rtg": "-",
+                "res": "0.0",
+                "Pts": "0.0"
               }
             ],
             "caption": {
@@ -5358,6 +5709,16 @@
                 "Rtg": "1092",
                 "res": "0.5",
                 "Pts": "2.5"
+              },
+              {
+                "R": "5",
+                "C": "--",
+                "N": "0",
+                "Cat": "",
+                "OPPONENT": "not played",
+                "Rtg": "-",
+                "res": "0.0",
+                "Pts": "0.0"
               }
             ],
             "caption": {
@@ -5448,6 +5809,16 @@
                 "Rtg": "1096",
                 "res": "0.5",
                 "Pts": "1.5"
+              },
+              {
+                "R": "5",
+                "C": "--",
+                "N": "0",
+                "Cat": "",
+                "OPPONENT": "not played",
+                "Rtg": "-",
+                "res": "0.0",
+                "Pts": "0.0"
               }
             ],
             "caption": {
@@ -5538,6 +5909,16 @@
                 "Rtg": "1062",
                 "res": "0.0",
                 "Pts": "1.0"
+              },
+              {
+                "R": "5",
+                "C": "--",
+                "N": "0",
+                "Cat": "",
+                "OPPONENT": "not played",
+                "Rtg": "-",
+                "res": "0.0",
+                "Pts": "0.0"
               }
             ],
             "caption": {
@@ -5628,6 +6009,16 @@
                 "Rtg": "1132",
                 "res": "0.5",
                 "Pts": "2.5"
+              },
+              {
+                "R": "5",
+                "C": "--",
+                "N": "0",
+                "Cat": "",
+                "OPPONENT": "not played",
+                "Rtg": "-",
+                "res": "0.0",
+                "Pts": "0.0"
               }
             ],
             "caption": {
@@ -5718,6 +6109,16 @@
                 "Rtg": "1308",
                 "res": "0.5",
                 "Pts": "2.0"
+              },
+              {
+                "R": "5",
+                "C": "--",
+                "N": "0",
+                "Cat": "",
+                "OPPONENT": "not played",
+                "Rtg": "-",
+                "res": "0.0",
+                "Pts": "0.0"
               }
             ],
             "caption": {
@@ -5808,6 +6209,16 @@
                 "Rtg": "1112",
                 "res": "1.0",
                 "Pts": "1.5"
+              },
+              {
+                "R": "5",
+                "C": "--",
+                "N": "0",
+                "Cat": "",
+                "OPPONENT": "not played",
+                "Rtg": "-",
+                "res": "0.0",
+                "Pts": "0.0"
               }
             ],
             "caption": {
@@ -5827,7 +6238,7 @@
         "tournamentType": "unknown"
       },
       "rankcat.html": {
-        "pageHeading": "Standings at round 4 sorted by category",
+        "pageHeading": "Standings at round 5 sorted by category",
         "tables": [
           {
             "headers": [
@@ -7572,7 +7983,7 @@
       },
       {
         "text": "Pairings",
-        "href": "pairs4.html",
+        "href": "pairs5.html",
         "isDropdown": false,
         "children": []
       },
@@ -7600,9 +8011,9 @@
         "children": []
       }
     ],
-    "md5Hash": "c346267deed317d85fbdb9ba58f84de6"
+    "md5Hash": "6b28597ca791540480aeb5743728c016"
   },
-  "cleanMd5Hash": "c346267deed317d85fbdb9ba58f84de6",
+  "cleanMd5Hash": "6b28597ca791540480aeb5743728c016",
   "folderName": "www2026HobsonsBayJuniorClubChampionship",
   "folderPath": "C:\\Users\\hobso\\OneDrive\\Documents\\HBCC_Tournaments\\www2026HobsonsBayJuniorClubChampionship"
 }
