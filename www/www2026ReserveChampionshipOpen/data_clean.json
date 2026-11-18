@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T12:38:59.494Z",
+  "generatedAt": "2026-11-18T10:41:30.714Z",
   "tournament": {
     "id": "hobsons-bay-reserves-championship-open",
     "name": "Hobsons Bay Reserves Championship Open",
@@ -299,7 +299,7 @@
   ],
   "pages": {
     "crosstable.html": {
-      "pageHeading": "Cross Table at round 6",
+      "pageHeading": "Cross Table at round 7",
       "tables": [
         {
           "headers": [
@@ -342,6 +342,10 @@
             {
               "name": "6",
               "key": "6"
+            },
+            {
+              "name": "7",
+              "key": "7"
             }
           ],
           "rows": [
@@ -376,6 +380,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": "10"
               },
+              "7": "",
               "Player": "1",
               "Rtg": "1584",
               "Fed": "VIC",
@@ -412,6 +417,7 @@
                 "whiteOpponent": "3",
                 "blackOpponent": null
               },
+              "7": "",
               "Player": "2",
               "Rtg": "1574",
               "Fed": "VIC",
@@ -448,6 +454,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": "2"
               },
+              "7": "",
               "Player": "3",
               "Rtg": "1520",
               "Fed": "SA",
@@ -484,6 +491,7 @@
                 "whiteOpponent": "15",
                 "blackOpponent": null
               },
+              "7": "",
               "Player": "4",
               "Rtg": "1367",
               "Fed": "VIC",
@@ -520,6 +528,7 @@
                 "whiteOpponent": "12",
                 "blackOpponent": null
               },
+              "7": "",
               "Player": "5",
               "Rtg": "1347",
               "Fed": "VIC",
@@ -556,6 +565,7 @@
                 "whiteOpponent": "9",
                 "blackOpponent": null
               },
+              "7": "",
               "Player": "6",
               "Rtg": "1345",
               "Fed": "VIC",
@@ -580,6 +590,7 @@
               "4": "",
               "5": "",
               "6": "",
+              "7": "",
               "Player": "7",
               "Rtg": "1305",
               "Fed": "VIC",
@@ -616,6 +627,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": null
               },
+              "7": "",
               "Player": "8",
               "Rtg": "1275",
               "Fed": "VIC",
@@ -652,6 +664,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": "6"
               },
+              "7": "",
               "Player": "9",
               "Rtg": "1237",
               "Fed": "VIC",
@@ -688,6 +701,7 @@
                 "whiteOpponent": "1",
                 "blackOpponent": null
               },
+              "7": "",
               "Player": "10",
               "Rtg": "1182",
               "Fed": "VIC",
@@ -724,6 +738,7 @@
                 "whiteOpponent": "17",
                 "blackOpponent": null
               },
+              "7": "",
               "Player": "11",
               "Rtg": "1132",
               "Fed": "VIC",
@@ -760,6 +775,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": "5"
               },
+              "7": "",
               "Player": "12",
               "Rtg": "1111",
               "Fed": "VIC",
@@ -796,6 +812,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": "16"
               },
+              "7": "",
               "Player": "13",
               "Rtg": "1096",
               "Fed": "VIC",
@@ -832,6 +849,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": null
               },
+              "7": "",
               "Player": "14",
               "Rtg": "1066",
               "Fed": "VIC",
@@ -868,6 +886,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": "4"
               },
+              "7": "",
               "Player": "15",
               "Rtg": "1037",
               "Fed": "VIC",
@@ -904,6 +923,7 @@
                 "whiteOpponent": "13",
                 "blackOpponent": null
               },
+              "7": "",
               "Player": "16",
               "Rtg": "989",
               "Fed": "VIC",
@@ -940,6 +960,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": "11"
               },
+              "7": "",
               "Player": "17",
               "Rtg": "981",
               "Fed": "VIC",
@@ -976,6 +997,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": null
               },
+              "7": "",
               "Player": "18",
               "Rtg": "912",
               "Fed": "VIC",
@@ -1012,6 +1034,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": null
               },
+              "7": "",
               "Player": "19",
               "Rtg": "847",
               "Fed": "VIC",
@@ -1048,6 +1071,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": null
               },
+              "7": "",
               "Player": "20",
               "Rtg": "0",
               "Fed": "VIC",
@@ -1060,7 +1084,7 @@
       "tournamentType": "unknown"
     },
     "crosstablescore.html": {
-      "pageHeading": "Cross Table at round 6",
+      "pageHeading": "Cross Table at round 7",
       "tables": [
         {
           "headers": [
@@ -1109,6 +1133,10 @@
               "key": "6"
             },
             {
+              "name": "7",
+              "key": "7"
+            },
+            {
               "name": "SB",
               "key": "SB"
             }
@@ -1145,6 +1173,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": "3"
               },
+              "7": "",
               "Pos": "1",
               "Player": {
                 "id": "",
@@ -1189,6 +1218,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": "11"
               },
+              "7": "",
               "Pos": "2",
               "Player": {
                 "id": "",
@@ -1233,6 +1263,7 @@
                 "whiteOpponent": "1",
                 "blackOpponent": null
               },
+              "7": "",
               "Pos": "3",
               "Player": {
                 "id": "",
@@ -1277,6 +1308,7 @@
                 "whiteOpponent": "9",
                 "blackOpponent": null
               },
+              "7": "",
               "Pos": "4",
               "Player": {
                 "id": "",
@@ -1321,6 +1353,7 @@
                 "whiteOpponent": "10",
                 "blackOpponent": null
               },
+              "7": "",
               "Pos": "5",
               "Player": {
                 "id": "",
@@ -1365,6 +1398,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": null
               },
+              "7": "",
               "Pos": "6",
               "Player": {
                 "id": "",
@@ -1409,6 +1443,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": null
               },
+              "7": "",
               "Pos": "7",
               "Player": {
                 "id": "",
@@ -1453,6 +1488,7 @@
                 "whiteOpponent": "14",
                 "blackOpponent": null
               },
+              "7": "",
               "Pos": "8",
               "Player": {
                 "id": "",
@@ -1497,6 +1533,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": "4"
               },
+              "7": "",
               "Pos": "9",
               "Player": {
                 "id": "",
@@ -1541,6 +1578,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": "5"
               },
+              "7": "",
               "Pos": "10",
               "Player": {
                 "id": "",
@@ -1585,6 +1623,7 @@
                 "whiteOpponent": "2",
                 "blackOpponent": null
               },
+              "7": "",
               "Pos": "11",
               "Player": {
                 "id": "",
@@ -1629,6 +1668,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": null
               },
+              "7": "",
               "Pos": "12",
               "Player": {
                 "id": "",
@@ -1673,6 +1713,7 @@
                 "whiteOpponent": "16",
                 "blackOpponent": null
               },
+              "7": "",
               "Pos": "13",
               "Player": {
                 "id": "",
@@ -1717,6 +1758,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": "8"
               },
+              "7": "",
               "Pos": "14",
               "Player": {
                 "id": "",
@@ -1761,10 +1803,11 @@
                 "whiteOpponent": null,
                 "blackOpponent": null
               },
+              "7": "",
               "Pos": "15",
               "Player": {
                 "id": "",
-                "playerName": "Koppuravuri,Haneesh",
+                "playerName": "Koppuravuri,Haneesh        (W)",
                 "gender": "male",
                 "href": "playercard.html#20",
                 "title": ""
@@ -1805,10 +1848,11 @@
                 "whiteOpponent": null,
                 "blackOpponent": "13"
               },
+              "7": "",
               "Pos": "16",
               "Player": {
                 "id": "",
-                "playerName": "Clerk,Max",
+                "playerName": "Clerk,Max                  (W)",
                 "gender": "male",
                 "href": "playercard.html#17",
                 "title": ""
@@ -1849,6 +1893,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": "19"
               },
+              "7": "",
               "Pos": "17",
               "Player": {
                 "id": "",
@@ -1893,6 +1938,7 @@
                 "whiteOpponent": null,
                 "blackOpponent": null
               },
+              "7": "",
               "Pos": "18",
               "Player": {
                 "id": "",
@@ -1937,6 +1983,7 @@
                 "whiteOpponent": "17",
                 "blackOpponent": null
               },
+              "7": "",
               "Pos": "19",
               "Player": {
                 "id": "",
@@ -1969,10 +2016,11 @@
               "4": "",
               "5": "",
               "6": "",
+              "7": "",
               "Pos": "20",
               "Player": {
                 "id": "",
-                "playerName": "Paul,Nikash",
+                "playerName": "Paul,Nikash                (W)",
                 "gender": "male",
                 "href": "playercard.html#7",
                 "title": ""
@@ -1989,7 +2037,7 @@
       "tournamentType": "unknown"
     },
     "felovar.html": {
-      "pageHeading": "FIDE rating variation at round 6",
+      "pageHeading": "FIDE rating variation at round 7",
       "tables": [
         {
           "headers": [
@@ -4523,7 +4571,7 @@
       "tournamentType": "unknown"
     },
     "nelovar.html": {
-      "pageHeading": "National rating at round 6",
+      "pageHeading": "National rating at round 7",
       "tables": [
         {
           "headers": [
@@ -5489,6 +5537,172 @@
       "pairingScheduleText": "Pairing of round 6, at 19:30 of 17/10/2026",
       "tournamentType": "individual"
     },
+    "pairs7.html": {
+      "pageHeading": "",
+      "tables": [
+        {
+          "headers": [
+            {
+              "name": "Bo.",
+              "key": "Bo."
+            },
+            {
+              "name": "Fed",
+              "key": "Fed"
+            },
+            {
+              "name": "White Player",
+              "key": "White Player"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts"
+            },
+            {
+              "name": "Result",
+              "key": "Result"
+            },
+            {
+              "name": "Pts",
+              "key": "Pts_1"
+            },
+            {
+              "name": "Black Player",
+              "key": "Black Player"
+            },
+            {
+              "name": "Fed",
+              "key": "Fed_1"
+            }
+          ],
+          "rows": [
+            {
+              "Bo.": "1",
+              "Fed": "SA",
+              "White Player": "3",
+              "Pts": "6",
+              "Result": "...",
+              "Pts_1": "4",
+              "Black Player": "10",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "2",
+              "Fed": "VIC",
+              "White Player": "9",
+              "Pts": "5",
+              "Result": "...",
+              "Pts_1": "4",
+              "Black Player": "2",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "3",
+              "Fed": "VIC",
+              "White Player": "8",
+              "Pts": "3.5",
+              "Result": "...",
+              "Pts_1": "4",
+              "Black Player": "5",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "4",
+              "Fed": "VIC",
+              "White Player": "19",
+              "Pts": "3.5",
+              "Result": "...",
+              "Pts_1": "3.5",
+              "Black Player": "4",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "5",
+              "Fed": "VIC",
+              "White Player": "12",
+              "Pts": "3",
+              "Result": "...",
+              "Pts_1": "3",
+              "Black Player": "1",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "6",
+              "Fed": "VIC",
+              "White Player": "15",
+              "Pts": "2.5",
+              "Result": "...",
+              "Pts_1": "3",
+              "Black Player": "6",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "7",
+              "Fed": "VIC",
+              "White Player": "14",
+              "Pts": "2.5",
+              "Result": "...",
+              "Pts_1": "2.5",
+              "Black Player": "11",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "8",
+              "Fed": "VIC",
+              "White Player": "18",
+              "Pts": "1.5",
+              "Result": "...",
+              "Pts_1": "1.5",
+              "Black Player": "16",
+              "Fed_1": "VIC"
+            },
+            {
+              "Bo.": "9",
+              "Fed": "VIC",
+              "White Player": "13",
+              "Pts": "2",
+              "Result": "1",
+              "Pts_1": "0",
+              "Black Player": "( bye )",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "10",
+              "Fed": "VIC",
+              "White Player": "20",
+              "Pts": "2.5",
+              "Result": "0",
+              "Pts_1": "0",
+              "Black Player": "( not paired )",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "11",
+              "Fed": "VIC",
+              "White Player": "17",
+              "Pts": "2",
+              "Result": "0",
+              "Pts_1": "0",
+              "Black Player": "( not paired )",
+              "Fed_1": ""
+            },
+            {
+              "Bo.": "12",
+              "Fed": "VIC",
+              "White Player": "7",
+              "Pts": "0",
+              "Result": "0",
+              "Pts_1": "0",
+              "Black Player": "( not paired )",
+              "Fed_1": ""
+            }
+          ],
+          "type": "pairing"
+        }
+      ],
+      "pairingScheduleText": "Pairing of round 7, at 19:30 of 01/12/2026",
+      "tournamentType": "individual"
+    },
     "playercard.html": {
       "pageHeading": "National History Cards",
       "tables": [
@@ -5587,6 +5801,16 @@
               "Rtg": "1182",
               "res": "0.0",
               "Pts": "4.0"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -5697,6 +5921,16 @@
               "Rtg": "1520",
               "res": "0.0",
               "Pts": "6.0"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -5807,6 +6041,16 @@
               "Rtg": "1574",
               "res": "1.0",
               "Pts": "4.0"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -5917,6 +6161,16 @@
               "Rtg": "1037",
               "res": "1.0",
               "Pts": "2.5"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -6027,6 +6281,16 @@
               "Rtg": "1111",
               "res": "1.0",
               "Pts": "3.0"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -6137,6 +6401,16 @@
               "Rtg": "1237",
               "res": "0.0",
               "Pts": "5.0"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -6240,6 +6514,16 @@
             },
             {
               "R": "6",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "7",
               "C": "--",
               "N": "0",
               "Cat": "",
@@ -6357,6 +6641,16 @@
               "Rtg": "-",
               "res": "1.0",
               "Pts": "0.0"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -6467,6 +6761,16 @@
               "Rtg": "1345",
               "res": "1.0",
               "Pts": "3.0"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -6577,6 +6881,16 @@
               "Rtg": "1584",
               "res": "1.0",
               "Pts": "3.0"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -6687,6 +7001,16 @@
               "Rtg": "981",
               "res": "1.0",
               "Pts": "2.0"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -6797,6 +7121,16 @@
               "Rtg": "1347",
               "res": "0.0",
               "Pts": "4.0"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -6907,6 +7241,16 @@
               "Rtg": "989",
               "res": "1.0",
               "Pts": "1.5"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -7010,6 +7354,16 @@
             },
             {
               "R": "6",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "7",
               "C": "--",
               "N": "0",
               "Cat": "",
@@ -7127,6 +7481,16 @@
               "Rtg": "1367",
               "res": "0.0",
               "Pts": "3.5"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -7237,6 +7601,16 @@
               "Rtg": "1096",
               "res": "0.0",
               "Pts": "2.0"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -7347,6 +7721,16 @@
               "Rtg": "1132",
               "res": "0.0",
               "Pts": "2.5"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -7456,6 +7840,16 @@
               "OPPONENT": "not played",
               "Rtg": "-",
               "res": "1.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
               "Pts": "0.0"
             }
           ],
@@ -7567,6 +7961,16 @@
               "Rtg": "-",
               "res": "1.0",
               "Pts": "0.0"
+            },
+            {
+              "R": "7",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
             }
           ],
           "caption": {
@@ -7670,6 +8074,16 @@
             },
             {
               "R": "6",
+              "C": "--",
+              "N": "0",
+              "Cat": "",
+              "OPPONENT": "not played",
+              "Rtg": "-",
+              "res": "0.0",
+              "Pts": "0.0"
+            },
+            {
+              "R": "7",
               "C": "--",
               "N": "0",
               "Cat": "",
@@ -7974,7 +8388,7 @@
       "tournamentType": "unknown"
     },
     "rankcat.html": {
-      "pageHeading": "Standings at round 6 sorted by category",
+      "pageHeading": "Standings at round 7 sorted by category",
       "tables": [
         {
           "headers": [
@@ -8260,7 +8674,7 @@
               "T": "",
               "Player": {
                 "id": "",
-                "playerName": "Koppuravuri,Haneesh",
+                "playerName": "Koppuravuri,Hanee(W)",
                 "gender": "notitle",
                 "href": "playercard.html#20",
                 "title": ""
@@ -8277,7 +8691,7 @@
               "T": "",
               "Player": {
                 "id": "",
-                "playerName": "Clerk,Max",
+                "playerName": "Clerk,Max        (W)",
                 "gender": "notitle",
                 "href": "playercard.html#17",
                 "title": ""
@@ -8345,7 +8759,7 @@
               "T": "",
               "Player": {
                 "id": "",
-                "playerName": "Paul,Nikash",
+                "playerName": "Paul,Nikash      (W)",
                 "gender": "notitle",
                 "href": "playercard.html#7",
                 "title": ""
@@ -8364,7 +8778,7 @@
       "tournamentType": "unknown"
     },
     "rankingagegroup.html": {
-      "pageHeading": "Player Groups by date at round 6",
+      "pageHeading": "Player Groups by date at round 7",
       "tables": [],
       "tournamentType": "unknown"
     },
@@ -8884,32 +9298,7 @@
               "key": "col10"
             }
           ],
-          "rows": [
-            {
-              "Bo.": "1",
-              "col2": "VIC",
-              "White Player": {
-                "id": "",
-                "playerName": "Enano,Ronald",
-                "gender": "notitle",
-                "href": "playercard.html#2",
-                "title": ""
-              },
-              "Pts": "(4.0)",
-              "NW": "2",
-              "Result": "0 - 1",
-              "NB": "3",
-              "Pts_1": "(5.0)",
-              "Black Player": {
-                "id": "",
-                "playerName": "Menezes,Eric",
-                "gender": "notitle",
-                "href": "playercard.html#3",
-                "title": ""
-              },
-              "col10": "SA"
-            }
-          ],
+          "rows": [],
           "caption": "Pairing",
           "type": "pairing"
         },
@@ -9022,272 +9411,7 @@
               "key": "col10"
             }
           ],
-          "rows": [
-            {
-              "Bo.": "1",
-              "col2": "VIC",
-              "White Player": {
-                "id": "",
-                "playerName": "Enano,Ronald",
-                "gender": "notitle",
-                "href": "playercard.html#2",
-                "title": ""
-              },
-              "Pts": "(4.0)",
-              "NW": "2",
-              "Result": "0 - 1",
-              "NB": "3",
-              "Pts_1": "(5.0)",
-              "Black Player": {
-                "id": "",
-                "playerName": "Menezes,Eric",
-                "gender": "notitle",
-                "href": "playercard.html#3",
-                "title": ""
-              },
-              "col10": "SA"
-            },
-            {
-              "Bo.": "2",
-              "col2": "VIC",
-              "White Player": {
-                "id": "",
-                "playerName": "Ilic,Milan",
-                "gender": "notitle",
-                "href": "playercard.html#6",
-                "title": ""
-              },
-              "Pts": "(3.0)",
-              "NW": "6",
-              "Result": "0 - 1",
-              "NB": "9",
-              "Pts_1": "(4.0)",
-              "Black Player": {
-                "id": "",
-                "playerName": "Balogun,Olalekan",
-                "gender": "notitle",
-                "href": "playercard.html#9",
-                "title": ""
-              },
-              "col10": "VIC"
-            },
-            {
-              "Bo.": "3",
-              "col2": "VIC",
-              "White Player": {
-                "id": "",
-                "playerName": "Annapureddy,Dhruthin Reddy",
-                "gender": "notitle",
-                "href": "playercard.html#10",
-                "title": ""
-              },
-              "Pts": "(3.0)",
-              "NW": "10",
-              "Result": "1 - 0",
-              "NB": "1",
-              "Pts_1": "(3.0)",
-              "Black Player": {
-                "id": "",
-                "playerName": "Paul,Cijo",
-                "gender": "notitle",
-                "href": "playercard.html#1",
-                "title": ""
-              },
-              "col10": "VIC"
-            },
-            {
-              "Bo.": "4",
-              "col2": "VIC",
-              "White Player": {
-                "id": "",
-                "playerName": "Nowak,Ruben",
-                "gender": "notitle",
-                "href": "playercard.html#5",
-                "title": ""
-              },
-              "Pts": "(3.0)",
-              "NW": "5",
-              "Result": "1 - 0",
-              "NB": "12",
-              "Pts_1": "(3.0)",
-              "Black Player": {
-                "id": "",
-                "playerName": "Wilkinson,Greg",
-                "gender": "notitle",
-                "href": "playercard.html#12",
-                "title": ""
-              },
-              "col10": "VIC"
-            },
-            {
-              "Bo.": "5",
-              "col2": "VIC",
-              "White Player": {
-                "id": "",
-                "playerName": "Wang,Tim",
-                "gender": "notitle",
-                "href": "playercard.html#4",
-                "title": ""
-              },
-              "Pts": "(2.5)",
-              "NW": "4",
-              "Result": "1 - 0",
-              "NB": "15",
-              "Pts_1": "(2.5)",
-              "Black Player": {
-                "id": "",
-                "playerName": "Ngo,William",
-                "gender": "notitle",
-                "href": "playercard.html#15",
-                "title": ""
-              },
-              "col10": "VIC"
-            },
-            {
-              "Bo.": "6",
-              "col2": "VIC",
-              "White Player": {
-                "id": "",
-                "playerName": "Ashok,Arjun",
-                "gender": "notitle",
-                "href": "playercard.html#11",
-                "title": ""
-              },
-              "Pts": "(1.5)",
-              "NW": "11",
-              "Result": "1 - 0",
-              "NB": "17",
-              "Pts_1": "(2.0)",
-              "Black Player": {
-                "id": "",
-                "playerName": "Clerk,Max",
-                "gender": "notitle",
-                "href": "playercard.html#17",
-                "title": ""
-              },
-              "col10": "VIC"
-            },
-            {
-              "Bo.": "7",
-              "col2": "VIC",
-              "White Player": {
-                "id": "",
-                "playerName": "Ruaya,Rohan",
-                "gender": "notitle",
-                "href": "playercard.html#16",
-                "title": ""
-              },
-              "Pts": "(1.5)",
-              "NW": "16",
-              "Result": "0 - 1",
-              "NB": "13",
-              "Pts_1": "(1.0)",
-              "Black Player": {
-                "id": "",
-                "playerName": "Annadasu,Shreyansh",
-                "gender": "notitle",
-                "href": "playercard.html#13",
-                "title": ""
-              },
-              "col10": "VIC"
-            },
-            {
-              "Bo.": "8",
-              "col2": "VIC",
-              "White Player": {
-                "id": "",
-                "playerName": "Thekkan,Maximus",
-                "gender": "notitle",
-                "href": "playercard.html#19",
-                "title": ""
-              },
-              "Pts": "(2.5)",
-              "NW": "19",
-              "Result": "1F-0F",
-              "NB": "14",
-              "Pts_1": "(2.5)",
-              "Black Player": {
-                "id": "",
-                "playerName": "Biju,Alberto",
-                "gender": "notitle",
-                "href": "playercard.html#14",
-                "title": ""
-              },
-              "col10": "VIC"
-            },
-            {
-              "Bo.": "9",
-              "col2": "VIC",
-              "White Player": {
-                "id": "",
-                "playerName": "Thomson,Kynan",
-                "gender": "notitle",
-                "href": "playercard.html#8",
-                "title": ""
-              },
-              "Pts": "(2.5)",
-              "NW": "8",
-              "Result": "1F-0F",
-              "NB": "20",
-              "Pts_1": "(2.5)",
-              "Black Player": {
-                "id": "",
-                "playerName": "Koppuravuri,Haneesh",
-                "gender": "notitle",
-                "href": "playercard.html#20",
-                "title": ""
-              },
-              "col10": "VIC"
-            },
-            {
-              "Bo.": "10",
-              "col2": "VIC",
-              "White Player": {
-                "id": "",
-                "playerName": "Kostakakis,Angelo",
-                "gender": "notitle",
-                "href": "playercard.html#18",
-                "title": ""
-              },
-              "Pts": "(0.5)",
-              "NW": "18",
-              "Result": "1",
-              "NB": "0",
-              "Pts_1": "(0.0)",
-              "Black Player": {
-                "id": "",
-                "playerName": "BYE",
-                "gender": "notitle",
-                "href": "playercard.html#0",
-                "title": ""
-              },
-              "col10": ""
-            },
-            {
-              "Bo.": "11",
-              "col2": "VIC",
-              "White Player": {
-                "id": "",
-                "playerName": "Paul,Nikash",
-                "gender": "notitle",
-                "href": "playercard.html#7",
-                "title": ""
-              },
-              "Pts": "(0.0)",
-              "NW": "7",
-              "Result": "0",
-              "NB": "0",
-              "Pts_1": "(0.0)",
-              "Black Player": {
-                "id": "",
-                "playerName": "BYE",
-                "gender": "notitle",
-                "href": "playercard.html#0",
-                "title": ""
-              },
-              "col10": ""
-            }
-          ],
+          "rows": [],
           "caption": "Pairing",
           "type": "pairing"
         },
@@ -9575,7 +9699,7 @@
               "T": "",
               "Player": {
                 "id": "",
-                "playerName": "Koppuravuri,Haneesh",
+                "playerName": "Koppuravuri,Haneesh (W)",
                 "gender": "notitle",
                 "href": "playercard.html#20",
                 "title": ""
@@ -9593,7 +9717,7 @@
               "T": "",
               "Player": {
                 "id": "",
-                "playerName": "Clerk,Max",
+                "playerName": "Clerk,Max (W)",
                 "gender": "notitle",
                 "href": "playercard.html#17",
                 "title": ""
@@ -9665,7 +9789,7 @@
               "T": "",
               "Player": {
                 "id": "",
-                "playerName": "Paul,Nikash",
+                "playerName": "Paul,Nikash (W)",
                 "gender": "notitle",
                 "href": "playercard.html#7",
                 "title": ""
@@ -9761,272 +9885,7 @@
               "key": "col10"
             }
           ],
-          "rows": [
-            {
-              "Bo.": "1",
-              "col2": "",
-              "White Player": {
-                "id": "",
-                "playerName": "Enano,Ronald",
-                "gender": "notitle",
-                "href": "playercard.html#2",
-                "title": ""
-              },
-              "Pts": "(4.0)",
-              "NW": "2",
-              "Result": "0 - 1",
-              "NB": "3",
-              "Pts_1": "(5.0)",
-              "Black Player": {
-                "id": "",
-                "playerName": "Menezes,Eric",
-                "gender": "notitle",
-                "href": "playercard.html#3",
-                "title": ""
-              },
-              "col10": ""
-            },
-            {
-              "Bo.": "2",
-              "col2": "",
-              "White Player": {
-                "id": "",
-                "playerName": "Ilic,Milan",
-                "gender": "notitle",
-                "href": "playercard.html#6",
-                "title": ""
-              },
-              "Pts": "(3.0)",
-              "NW": "6",
-              "Result": "0 - 1",
-              "NB": "9",
-              "Pts_1": "(4.0)",
-              "Black Player": {
-                "id": "",
-                "playerName": "Balogun,Olalekan",
-                "gender": "notitle",
-                "href": "playercard.html#9",
-                "title": ""
-              },
-              "col10": ""
-            },
-            {
-              "Bo.": "3",
-              "col2": "",
-              "White Player": {
-                "id": "",
-                "playerName": "Annapureddy,Dhruthin Reddy",
-                "gender": "notitle",
-                "href": "playercard.html#10",
-                "title": ""
-              },
-              "Pts": "(3.0)",
-              "NW": "10",
-              "Result": "1 - 0",
-              "NB": "1",
-              "Pts_1": "(3.0)",
-              "Black Player": {
-                "id": "",
-                "playerName": "Paul,Cijo",
-                "gender": "notitle",
-                "href": "playercard.html#1",
-                "title": ""
-              },
-              "col10": ""
-            },
-            {
-              "Bo.": "4",
-              "col2": "",
-              "White Player": {
-                "id": "",
-                "playerName": "Nowak,Ruben",
-                "gender": "notitle",
-                "href": "playercard.html#5",
-                "title": ""
-              },
-              "Pts": "(3.0)",
-              "NW": "5",
-              "Result": "1 - 0",
-              "NB": "12",
-              "Pts_1": "(3.0)",
-              "Black Player": {
-                "id": "",
-                "playerName": "Wilkinson,Greg",
-                "gender": "notitle",
-                "href": "playercard.html#12",
-                "title": ""
-              },
-              "col10": ""
-            },
-            {
-              "Bo.": "5",
-              "col2": "",
-              "White Player": {
-                "id": "",
-                "playerName": "Wang,Tim",
-                "gender": "notitle",
-                "href": "playercard.html#4",
-                "title": ""
-              },
-              "Pts": "(2.5)",
-              "NW": "4",
-              "Result": "1 - 0",
-              "NB": "15",
-              "Pts_1": "(2.5)",
-              "Black Player": {
-                "id": "",
-                "playerName": "Ngo,William",
-                "gender": "notitle",
-                "href": "playercard.html#15",
-                "title": ""
-              },
-              "col10": ""
-            },
-            {
-              "Bo.": "6",
-              "col2": "",
-              "White Player": {
-                "id": "",
-                "playerName": "Ashok,Arjun",
-                "gender": "notitle",
-                "href": "playercard.html#11",
-                "title": ""
-              },
-              "Pts": "(1.5)",
-              "NW": "11",
-              "Result": "1 - 0",
-              "NB": "17",
-              "Pts_1": "(2.0)",
-              "Black Player": {
-                "id": "",
-                "playerName": "Clerk,Max",
-                "gender": "notitle",
-                "href": "playercard.html#17",
-                "title": ""
-              },
-              "col10": ""
-            },
-            {
-              "Bo.": "7",
-              "col2": "",
-              "White Player": {
-                "id": "",
-                "playerName": "Ruaya,Rohan",
-                "gender": "notitle",
-                "href": "playercard.html#16",
-                "title": ""
-              },
-              "Pts": "(1.5)",
-              "NW": "16",
-              "Result": "0 - 1",
-              "NB": "13",
-              "Pts_1": "(1.0)",
-              "Black Player": {
-                "id": "",
-                "playerName": "Annadasu,Shreyansh",
-                "gender": "notitle",
-                "href": "playercard.html#13",
-                "title": ""
-              },
-              "col10": ""
-            },
-            {
-              "Bo.": "8",
-              "col2": "",
-              "White Player": {
-                "id": "",
-                "playerName": "Thekkan,Maximus",
-                "gender": "notitle",
-                "href": "playercard.html#19",
-                "title": ""
-              },
-              "Pts": "(2.5)",
-              "NW": "19",
-              "Result": "1F-0F",
-              "NB": "14",
-              "Pts_1": "(2.5)",
-              "Black Player": {
-                "id": "",
-                "playerName": "Biju,Alberto",
-                "gender": "notitle",
-                "href": "playercard.html#14",
-                "title": ""
-              },
-              "col10": ""
-            },
-            {
-              "Bo.": "9",
-              "col2": "",
-              "White Player": {
-                "id": "",
-                "playerName": "Thomson,Kynan",
-                "gender": "notitle",
-                "href": "playercard.html#8",
-                "title": ""
-              },
-              "Pts": "(2.5)",
-              "NW": "8",
-              "Result": "1F-0F",
-              "NB": "20",
-              "Pts_1": "(2.5)",
-              "Black Player": {
-                "id": "",
-                "playerName": "Koppuravuri,Haneesh",
-                "gender": "notitle",
-                "href": "playercard.html#20",
-                "title": ""
-              },
-              "col10": ""
-            },
-            {
-              "Bo.": "10",
-              "col2": "",
-              "White Player": {
-                "id": "",
-                "playerName": "Kostakakis,Angelo",
-                "gender": "notitle",
-                "href": "playercard.html#18",
-                "title": ""
-              },
-              "Pts": "(0.5)",
-              "NW": "18",
-              "Result": "1",
-              "NB": "0",
-              "Pts_1": "(0.0)",
-              "Black Player": {
-                "id": "",
-                "playerName": "BYE",
-                "gender": "notitle",
-                "href": "playercard.html#0",
-                "title": ""
-              },
-              "col10": ""
-            },
-            {
-              "Bo.": "11",
-              "col2": "",
-              "White Player": {
-                "id": "",
-                "playerName": "Paul,Nikash",
-                "gender": "notitle",
-                "href": "playercard.html#7",
-                "title": ""
-              },
-              "Pts": "(0.0)",
-              "NW": "7",
-              "Result": "0",
-              "NB": "0",
-              "Pts_1": "(0.0)",
-              "Black Player": {
-                "id": "",
-                "playerName": "BYE",
-                "gender": "notitle",
-                "href": "playercard.html#0",
-                "title": ""
-              },
-              "col10": ""
-            }
-          ],
+          "rows": [],
           "caption": "Pairing",
           "type": "pairing"
         },
@@ -10332,7 +10191,7 @@
               "T": "",
               "Player": {
                 "id": "",
-                "playerName": "Koppuravuri,Haneesh",
+                "playerName": "Koppuravuri,Haneesh (W)",
                 "gender": "notitle",
                 "href": "playercard.html#20",
                 "title": ""
@@ -10350,7 +10209,7 @@
               "T": "",
               "Player": {
                 "id": "",
-                "playerName": "Clerk,Max",
+                "playerName": "Clerk,Max (W)",
                 "gender": "notitle",
                 "href": "playercard.html#17",
                 "title": ""
@@ -10422,7 +10281,7 @@
               "T": "",
               "Player": {
                 "id": "",
-                "playerName": "Paul,Nikash",
+                "playerName": "Paul,Nikash (W)",
                 "gender": "notitle",
                 "href": "playercard.html#7",
                 "title": ""
@@ -10606,7 +10465,7 @@
     },
     {
       "text": "Pairings",
-      "href": "pairs6.html",
+      "href": "pairs7.html",
       "isDropdown": false,
       "children": []
     },
@@ -10685,5 +10544,5 @@
       ]
     }
   ],
-  "md5Hash": "6bcb86d39d5a67f3b7a41f6cc1d22f80"
+  "md5Hash": "4d7117a45914c2c9d803c64b598fb840"
 }
