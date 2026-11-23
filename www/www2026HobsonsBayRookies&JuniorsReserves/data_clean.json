@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T11:07:53.813Z",
+  "generatedAt": "2026-11-23T10:45:40.458Z",
   "tournament": {
     "id": "2026-hobsons-bay-rookies-and-juniors-reserves",
     "name": "2026 Hobsons Bay Rookies and Juniors Reserves",
@@ -765,6 +765,18 @@
       "origin": ""
     },
     {
+      "id": "66",
+      "name": "Nathari, Thambavitage Pahansa",
+      "title": "",
+      "federation": "VIC",
+      "fideId": "",
+      "fideRating": null,
+      "fideFederation": "",
+      "gender": "female",
+      "href": "playercard.html#66",
+      "origin": ""
+    },
+    {
       "id": "60",
       "name": "Onilongo,Amber",
       "title": "",
@@ -834,18 +846,6 @@
       "fideFederation": "",
       "gender": "female",
       "href": "playercard.html#65",
-      "origin": ""
-    },
-    {
-      "id": "66",
-      "name": "Thambavitage,Pahansa",
-      "title": "",
-      "federation": "VIC",
-      "fideId": "",
-      "fideRating": null,
-      "fideFederation": "",
-      "gender": "female",
-      "href": "playercard.html#66",
       "origin": ""
     },
     {
@@ -5908,7 +5908,7 @@
               "Pos": "55",
               "Player": {
                 "id": "",
-                "playerName": "Thambavitage,Pahansa",
+                "playerName": "Nathari, Thambavitage Pahansa",
                 "gender": "female",
                 "href": "playercard.html#66",
                 "title": ""
@@ -7094,6 +7094,15 @@
               "RtgN": "0"
             },
             {
+              "#": "66",
+              "Title": "",
+              "Player": "Nathari, Thambavitage Pahansa",
+              "Fed": "VIC",
+              "Rtg": "0",
+              "RtgF": "0",
+              "RtgN": "0"
+            },
+            {
               "#": "60",
               "Title": "",
               "Player": "Onilongo,Amber",
@@ -7142,15 +7151,6 @@
               "#": "65",
               "Title": "",
               "Player": "Sudarshan,Shriya",
-              "Fed": "VIC",
-              "Rtg": "0",
-              "RtgF": "0",
-              "RtgN": "0"
-            },
-            {
-              "#": "66",
-              "Title": "",
-              "Player": "Thambavitage,Pahansa",
               "Fed": "VIC",
               "Rtg": "0",
               "RtgF": "0",
@@ -13268,7 +13268,7 @@
               "C": "B",
               "N": "66",
               "Cat": "",
-              "OPPONENT": "Thambavitage,Pahansa",
+              "OPPONENT": "Nathari, Thambavitag",
               "Rtg": "0",
               "res": "1.0",
               "Pts": "2.0"
@@ -14068,7 +14068,7 @@
               "C": "W",
               "N": "66",
               "Cat": "",
-              "OPPONENT": "Thambavitage,Pahansa",
+              "OPPONENT": "Nathari, Thambavitag",
               "Rtg": "0",
               "res": "1.0",
               "Pts": "2.0"
@@ -14818,7 +14818,7 @@
               "C": "W",
               "N": "66",
               "Cat": "",
-              "OPPONENT": "Thambavitage,Pahansa",
+              "OPPONENT": "Nathari, Thambavitag",
               "Rtg": "0",
               "res": "1.0",
               "Pts": "2.0"
@@ -15398,7 +15398,7 @@
               "C": "B",
               "N": "66",
               "Cat": "",
-              "OPPONENT": "Thambavitage,Pahansa",
+              "OPPONENT": "Nathari, Thambavitag",
               "Rtg": "0",
               "res": "1.0",
               "Pts": "2.0"
@@ -15928,7 +15928,7 @@
               "C": "B",
               "N": "66",
               "Cat": "",
-              "OPPONENT": "Thambavitage,Pahansa",
+              "OPPONENT": "Nathari, Thambavitag",
               "Rtg": "0",
               "res": "0.0",
               "Pts": "2.0"
@@ -17065,15 +17065,15 @@
             }
           ],
           "caption": {
-            "playerName": "Thambavitage,Pahansa",
+            "playerName": "Nathari, Thambavitag",
             "id": "3219660",
             "moreInfo": {
               "K": "0",
               "Elo": "0",
               "anchor": "66"
             },
-            "rawText": "66   Thambavitage,Pahansa, K= 0, Elo=   0, ID=3219660",
-            "rawHtml": "  66   <strong>Thambavitage,Pahansa</strong>, K= 0, Elo=   0, ID=3219660\n<br>\n<a class=\"anchor\" name=\"66\"></a>"
+            "rawText": "66   Nathari, Thambavitag, K= 0, Elo=   0, ID=3219660",
+            "rawHtml": "  66   <strong>Nathari, Thambavitag</strong>, K= 0, Elo=   0, ID=3219660\n<br>\n<a class=\"anchor\" name=\"66\"></a>"
           },
           "type": "other"
         },
@@ -18493,7 +18493,7 @@
               "T": "",
               "Player": {
                 "id": "",
-                "playerName": "Thambavitage,Pahansa",
+                "playerName": "Nathari, Thambavitag",
                 "gender": "notitle",
                 "href": "playercard.html#66",
                 "title": ""
@@ -19863,7 +19863,7 @@
               "N": "66",
               "Player": {
                 "id": "",
-                "playerName": "Thambavitage,Pahansa",
+                "playerName": "Nathari, Thambavitage Pahansa",
                 "gender": "notitle",
                 "href": "playercard.php#66",
                 "title": ""
@@ -20331,5 +20331,5 @@
       "children": []
     }
   ],
-  "md5Hash": "083654cafaeecbfe48ddeb11b3f64675"
+  "md5Hash": "ccf22c5e737392edfdf47afe54622c1b"
 }

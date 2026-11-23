@@ -209,7 +209,7 @@
 <td>54</td><td>56</td><td></td><td> <a href="playercard.php#56">Kommina,Nihira      </a> </td><td>0</td><td>291</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>  14.0</td><td>  13.0</td><td>  3.00</td>
 </tr> 
 <tr> 
-<td>55</td><td>66</td><td></td><td> <a href="playercard.php#66">Thambavitage,Pahansa</a> </td><td>0</td><td>736</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>  13.5</td><td>  11.5</td><td>  4.00</td>
+<td>55</td><td>66</td><td></td><td> <a href="playercard.php#66">Nathari, Thambavitag</a> </td><td>0</td><td>736</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>  13.5</td><td>  11.5</td><td>  4.00</td>
 </tr> 
 <tr> 
 <td>56</td><td>60</td><td></td><td> <a href="playercard.php#60">Onilongo,Amber      </a> </td><td>0</td><td>666</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>  13.5</td><td>  11.5</td><td>  3.00</td>
