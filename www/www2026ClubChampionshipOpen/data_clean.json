@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T12:49:51.941Z",
+  "generatedAt": "2026-11-24T10:09:52.355Z",
   "tournament": {
     "id": "2026-hobsons-bay-club-championship-open",
     "name": "2026 Hobsons Bay Club Championship Open",
@@ -259,7 +259,7 @@
               "N": "1",
               "White": "Davis,Tony J",
               "NW": "8",
-              "result": "ADJ",
+              "result": "0 - 1",
               "NB": "5",
               "Black": "Annapureddy,Rheyansh Reddy"
             },
@@ -415,7 +415,7 @@
               "N": "3",
               "White": "Whitford,Matthew",
               "NW": "1",
-              "result": "ADJ",
+              "result": "0 - 1",
               "NB": "4",
               "Black": "Hogan,Steven"
             },
@@ -539,7 +539,7 @@
               "N": "1",
               "White": "Davis,Tony J",
               "NW": "8",
-              "result": "ADJ",
+              "result": "1F-0F",
               "NB": "7",
               "Black": "Lacson,Joemar"
             },
@@ -547,7 +547,7 @@
               "N": "2",
               "White": "Whitford,Matthew",
               "NW": "1",
-              "result": "ADJ",
+              "result": "0 - 1",
               "NB": "6",
               "Black": "Bodke,Krishna Manthan"
             },
@@ -555,7 +555,7 @@
               "N": "3",
               "White": "Nguyen,Anh Kiet",
               "NW": "2",
-              "result": "ADJ",
+              "result": "0 - 1",
               "NB": "5",
               "Black": "Annapureddy,Rheyansh Reddy"
             },
@@ -563,7 +563,7 @@
               "N": "4",
               "White": "Krishnan,Anirudh",
               "NW": "3",
-              "result": "ADJ",
+              "result": "1 - 0",
               "NB": "4",
               "Black": "Hogan,Steven"
             }
@@ -709,11 +709,11 @@
               "FIDE ID": "3232220",
               "Fed": "VIC",
               "Rtg": "1698",
-              "Ng": "4",
+              "Ng": "6",
               "Pts": "0.5",
-              "ARO": "1982",
-              "var": "-7",
-              "Rp": "1660"
+              "ARO": "1923",
+              "var": "-22",
+              "Rp": "1522"
             },
             {
               "#": "2",
@@ -727,11 +727,11 @@
               "FIDE ID": "3267849",
               "Fed": "VIC",
               "Rtg": "1977",
-              "Ng": "5",
+              "Ng": "6",
               "Pts": "4.0",
-              "ARO": "1791",
-              "var": "13",
-              "Rp": "2031"
+              "ARO": "1871",
+              "var": "7",
+              "Rp": "1996"
             },
             {
               "#": "3",
@@ -745,11 +745,11 @@
               "FIDE ID": "3254925",
               "Fed": "VIC",
               "Rtg": "1888",
-              "Ng": "5",
-              "Pts": "2.0",
-              "ARO": "1857",
-              "var": "-14",
-              "Rp": "1785"
+              "Ng": "6",
+              "Pts": "3.0",
+              "ARO": "1828",
+              "var": "-9",
+              "Rp": "1828"
             },
             {
               "#": "4",
@@ -763,11 +763,11 @@
               "FIDE ID": "3201414",
               "Fed": "VIC",
               "Rtg": "1684",
-              "Ng": "4",
-              "Pts": "1.0",
-              "ARO": "2016",
-              "var": "7",
-              "Rp": "1823"
+              "Ng": "6",
+              "Pts": "2.0",
+              "ARO": "1942",
+              "var": "12",
+              "Rp": "1817"
             },
             {
               "#": "5",
@@ -781,11 +781,11 @@
               "FIDE ID": "3244806",
               "Fed": "VIC",
               "Rtg": "2268",
-              "Ng": "4",
-              "Pts": "4.0",
-              "ARO": "1800",
-              "var": "15",
-              "Rp": "2600"
+              "Ng": "6",
+              "Pts": "6.0",
+              "ARO": "1828",
+              "var": "24",
+              "Rp": "2628"
             },
             {
               "#": "6",
@@ -799,11 +799,11 @@
               "FIDE ID": "3259021",
               "Fed": "VIC",
               "Rtg": "1925",
-              "Ng": "5",
-              "Pts": "1.5",
-              "ARO": "1905",
-              "var": "-48",
-              "Rp": "1756"
+              "Ng": "6",
+              "Pts": "2.5",
+              "ARO": "1871",
+              "var": "-39",
+              "Rp": "1814"
             },
             {
               "#": "7",
@@ -835,11 +835,11 @@
               "FIDE ID": "3205550",
               "Fed": "VIC",
               "Rtg": "1793",
-              "Ng": "4",
+              "Ng": "5",
               "Pts": "3.5",
-              "ARO": "1872",
-              "var": "38",
-              "Rp": "2208"
+              "ARO": "1951",
+              "var": "37",
+              "Rp": "2100"
             }
           ],
           "type": "standings"
@@ -917,6 +917,16 @@
               "res": "0"
             },
             {
+              "Rnd": "4",
+              "Col": "W",
+              "N opp": "4",
+              "Opponent Name": "Hogan,Steven",
+              "FIDE ID": "3201414",
+              "Fed": "VIC",
+              "Rtg": "1684",
+              "res": "0"
+            },
+            {
               "Rnd": "5",
               "Col": "B",
               "N opp": "5",
@@ -924,6 +934,16 @@
               "FIDE ID": "3244806",
               "Fed": "VIC",
               "Rtg": "2268",
+              "res": "0"
+            },
+            {
+              "Rnd": "6",
+              "Col": "W",
+              "N opp": "6",
+              "Opponent Name": "Bodke,Krishna Manthan",
+              "FIDE ID": "3259021",
+              "Fed": "VIC",
+              "Rtg": "1925",
               "res": "0"
             }
           ],
@@ -1024,6 +1044,16 @@
               "Fed": "VIC",
               "Rtg": "1684",
               "res": "1"
+            },
+            {
+              "Rnd": "6",
+              "Col": "W",
+              "N opp": "5",
+              "Opponent Name": "FM Annapureddy,Rheyansh Reddy",
+              "FIDE ID": "3244806",
+              "Fed": "VIC",
+              "Rtg": "2268",
+              "res": "0"
             }
           ],
           "caption": {
@@ -1123,6 +1153,16 @@
               "Fed": "VIC",
               "Rtg": "1793",
               "res": "0"
+            },
+            {
+              "Rnd": "6",
+              "Col": "W",
+              "N opp": "4",
+              "Opponent Name": "Hogan,Steven",
+              "FIDE ID": "3201414",
+              "Fed": "VIC",
+              "Rtg": "1684",
+              "res": "1"
             }
           ],
           "caption": {
@@ -1204,6 +1244,16 @@
               "res": "1"
             },
             {
+              "Rnd": "4",
+              "Col": "B",
+              "N opp": "1",
+              "Opponent Name": "Whitford,Matthew",
+              "FIDE ID": "3232220",
+              "Fed": "VIC",
+              "Rtg": "1698",
+              "res": "1"
+            },
+            {
               "Rnd": "5",
               "Col": "W",
               "N opp": "2",
@@ -1211,6 +1261,16 @@
               "FIDE ID": "3267849",
               "Fed": "VIC",
               "Rtg": "1977",
+              "res": "0"
+            },
+            {
+              "Rnd": "6",
+              "Col": "B",
+              "N opp": "3",
+              "Opponent Name": "Krishnan,Anirudh",
+              "FIDE ID": "3254925",
+              "Fed": "VIC",
+              "Rtg": "1888",
               "res": "0"
             }
           ],
@@ -1273,6 +1333,16 @@
               "res": "1"
             },
             {
+              "Rnd": "2",
+              "Col": "B",
+              "N opp": "8",
+              "Opponent Name": "CM Davis,Tony J",
+              "FIDE ID": "3205550",
+              "Fed": "VIC",
+              "Rtg": "1793",
+              "res": "1"
+            },
+            {
               "Rnd": "3",
               "Col": "W",
               "N opp": "6",
@@ -1300,6 +1370,16 @@
               "FIDE ID": "3232220",
               "Fed": "VIC",
               "Rtg": "1698",
+              "res": "1"
+            },
+            {
+              "Rnd": "6",
+              "Col": "B",
+              "N opp": "2",
+              "Opponent Name": "CM Nguyen,Anh Kiet",
+              "FIDE ID": "3267849",
+              "Fed": "VIC",
+              "Rtg": "1977",
               "res": "1"
             }
           ],
@@ -1400,6 +1480,16 @@
               "Fed": "VIC",
               "Rtg": "1893",
               "res": "0.5"
+            },
+            {
+              "Rnd": "6",
+              "Col": "B",
+              "N opp": "1",
+              "Opponent Name": "Whitford,Matthew",
+              "FIDE ID": "3232220",
+              "Fed": "VIC",
+              "Rtg": "1698",
+              "res": "1"
             }
           ],
           "caption": {
@@ -1558,6 +1648,16 @@
               "Fed": "VIC",
               "Rtg": "1698",
               "res": "0.5"
+            },
+            {
+              "Rnd": "2",
+              "Col": "W",
+              "N opp": "5",
+              "Opponent Name": "FM Annapureddy,Rheyansh Reddy",
+              "FIDE ID": "3244806",
+              "Fed": "VIC",
+              "Rtg": "2268",
+              "res": "0"
             },
             {
               "Rnd": "3",
@@ -1903,7 +2003,7 @@
               "Fed": "VIC",
               "White Player": "8",
               "Pts": "0.5",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "Pts_1": "1",
               "Black Player": "5",
               "Fed_1": "VIC"
@@ -2018,7 +2118,7 @@
               "Bo.": "4",
               "Fed": "VIC",
               "White Player": "5",
-              "Pts": "1",
+              "Pts": "2",
               "Result": "1 - 0",
               "Pts_1": "1",
               "Black Player": "6",
@@ -2086,7 +2186,7 @@
               "White Player": "7",
               "Pts": "1",
               "Result": "0 - 1",
-              "Pts_1": "2",
+              "Pts_1": "3",
               "Black Player": "5",
               "Fed_1": "VIC"
             },
@@ -2095,7 +2195,7 @@
               "Fed": "VIC",
               "White Player": "1",
               "Pts": "0.5",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "Pts_1": "1",
               "Black Player": "4",
               "Fed_1": "VIC"
@@ -2170,7 +2270,7 @@
               "Bo.": "2",
               "Fed": "VIC",
               "White Player": "4",
-              "Pts": "1",
+              "Pts": "2",
               "Result": "0 - 1",
               "Pts_1": "3",
               "Black Player": "2",
@@ -2180,7 +2280,7 @@
               "Bo.": "3",
               "Fed": "VIC",
               "White Player": "5",
-              "Pts": "3",
+              "Pts": "4",
               "Result": "1 - 0",
               "Pts_1": "0.5",
               "Black Player": "1",
@@ -2247,7 +2347,7 @@
               "Fed": "VIC",
               "White Player": "8",
               "Pts": "3.5",
-              "Result": "ADJ",
+              "Result": "1F-0F",
               "Pts_1": "1.5",
               "Black Player": "7",
               "Fed_1": "VIC"
@@ -2257,7 +2357,7 @@
               "Fed": "VIC",
               "White Player": "1",
               "Pts": "0.5",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "Pts_1": "1.5",
               "Black Player": "6",
               "Fed_1": "VIC"
@@ -2267,8 +2367,8 @@
               "Fed": "VIC",
               "White Player": "2",
               "Pts": "4",
-              "Result": "ADJ",
-              "Pts_1": "4",
+              "Result": "0 - 1",
+              "Pts_1": "5",
               "Black Player": "5",
               "Fed_1": "VIC"
             },
@@ -2277,8 +2377,8 @@
               "Fed": "VIC",
               "White Player": "3",
               "Pts": "2",
-              "Result": "ADJ",
-              "Pts_1": "1",
+              "Result": "1 - 0",
+              "Pts_1": "2",
               "Black Player": "4",
               "Fed_1": "VIC"
             }
@@ -2332,9 +2432,9 @@
               "Bo.": "1",
               "Fed": "VIC",
               "White Player": "4",
-              "Pts": "1",
+              "Pts": "2",
               "Result": "ADJ",
-              "Pts_1": "3.5",
+              "Pts_1": "4.5",
               "Black Player": "8",
               "Fed_1": "VIC"
             },
@@ -2342,9 +2442,9 @@
               "Bo.": "2",
               "Fed": "VIC",
               "White Player": "5",
-              "Pts": "4",
+              "Pts": "6",
               "Result": "ADJ",
-              "Pts_1": "2",
+              "Pts_1": "3",
               "Black Player": "3",
               "Fed_1": "VIC"
             },
@@ -2352,7 +2452,7 @@
               "Bo.": "3",
               "Fed": "VIC",
               "White Player": "6",
-              "Pts": "1.5",
+              "Pts": "2.5",
               "Result": "ADJ",
               "Pts_1": "4",
               "Black Player": "2",
@@ -2422,7 +2522,7 @@
               "OPPONENT": "Davis,Tony J",
               "Rtg": "1634",
               "res": "0.5",
-              "Pts": "3.5"
+              "Pts": "4.5"
             },
             {
               "R": "2",
@@ -2442,17 +2542,17 @@
               "OPPONENT": "Krishnan,Anirudh",
               "Rtg": "1756",
               "res": "0.0",
-              "Pts": "2.0"
+              "Pts": "3.0"
             },
             {
               "R": "4",
-              "C": "--",
+              "C": "W",
               "N": "4",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "Hogan,Steven",
+              "Rtg": "1414",
               "res": "0.0",
-              "Pts": "0.0"
+              "Pts": "2.0"
             },
             {
               "R": "5",
@@ -2462,17 +2562,17 @@
               "OPPONENT": "Annapureddy,Rheyansh",
               "Rtg": "2186",
               "res": "0.0",
-              "Pts": "4.0"
+              "Pts": "6.0"
             },
             {
               "R": "6",
-              "C": "--",
+              "C": "W",
               "N": "6",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "Bodke,Krishna Mantha",
+              "Rtg": "1718",
               "res": "0.0",
-              "Pts": "0.0"
+              "Pts": "2.5"
             },
             {
               "R": "7",
@@ -2562,7 +2662,7 @@
               "OPPONENT": "Davis,Tony J",
               "Rtg": "1634",
               "res": "0.0",
-              "Pts": "3.5"
+              "Pts": "4.5"
             },
             {
               "R": "4",
@@ -2572,7 +2672,7 @@
               "OPPONENT": "Krishnan,Anirudh",
               "Rtg": "1756",
               "res": "1.0",
-              "Pts": "2.0"
+              "Pts": "3.0"
             },
             {
               "R": "5",
@@ -2582,17 +2682,17 @@
               "OPPONENT": "Hogan,Steven",
               "Rtg": "1414",
               "res": "1.0",
-              "Pts": "1.0"
+              "Pts": "2.0"
             },
             {
               "R": "6",
-              "C": "--",
+              "C": "W",
               "N": "5",
-              "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "1.0",
-              "Pts": "0.0"
+              "Cat": "FM",
+              "OPPONENT": "Annapureddy,Rheyansh",
+              "Rtg": "2186",
+              "res": "0.0",
+              "Pts": "6.0"
             },
             {
               "R": "7",
@@ -2601,7 +2701,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "1.0",
+              "res": "0.0",
               "Pts": "0.0"
             }
           ],
@@ -2662,7 +2762,7 @@
               "OPPONENT": "Bodke,Krishna Mantha",
               "Rtg": "1718",
               "res": "1.0",
-              "Pts": "1.5"
+              "Pts": "2.5"
             },
             {
               "R": "2",
@@ -2702,17 +2802,17 @@
               "OPPONENT": "Davis,Tony J",
               "Rtg": "1634",
               "res": "0.0",
-              "Pts": "3.5"
+              "Pts": "4.5"
             },
             {
               "R": "6",
-              "C": "--",
+              "C": "W",
               "N": "4",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "0.0",
-              "Pts": "0.0"
+              "OPPONENT": "Hogan,Steven",
+              "Rtg": "1414",
+              "res": "1.0",
+              "Pts": "2.0"
             },
             {
               "R": "7",
@@ -2721,7 +2821,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.0",
+              "res": "1.0",
               "Pts": "0.0"
             }
           ],
@@ -2782,7 +2882,7 @@
               "OPPONENT": "Annapureddy,Rheyansh",
               "Rtg": "2186",
               "res": "0.0",
-              "Pts": "4.0"
+              "Pts": "6.0"
             },
             {
               "R": "2",
@@ -2792,7 +2892,7 @@
               "OPPONENT": "Bodke,Krishna Mantha",
               "Rtg": "1718",
               "res": "0.0",
-              "Pts": "1.5"
+              "Pts": "2.5"
             },
             {
               "R": "3",
@@ -2806,13 +2906,13 @@
             },
             {
               "R": "4",
-              "C": "--",
+              "C": "B",
               "N": "1",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "Whitford,Matthew",
+              "Rtg": "1460",
               "res": "1.0",
-              "Pts": "0.0"
+              "Pts": "0.5"
             },
             {
               "R": "5",
@@ -2826,13 +2926,13 @@
             },
             {
               "R": "6",
-              "C": "--",
+              "C": "B",
               "N": "3",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "OPPONENT": "Krishnan,Anirudh",
+              "Rtg": "1756",
               "res": "0.0",
-              "Pts": "0.0"
+              "Pts": "3.0"
             },
             {
               "R": "7",
@@ -2902,17 +3002,17 @@
               "OPPONENT": "Hogan,Steven",
               "Rtg": "1414",
               "res": "1.0",
-              "Pts": "1.0"
+              "Pts": "2.0"
             },
             {
               "R": "2",
-              "C": "--",
+              "C": "B",
               "N": "8",
-              "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "Cat": "CM",
+              "OPPONENT": "Davis,Tony J",
+              "Rtg": "1634",
               "res": "1.0",
-              "Pts": "0.0"
+              "Pts": "4.5"
             },
             {
               "R": "3",
@@ -2922,7 +3022,7 @@
               "OPPONENT": "Bodke,Krishna Mantha",
               "Rtg": "1718",
               "res": "1.0",
-              "Pts": "1.5"
+              "Pts": "2.5"
             },
             {
               "R": "4",
@@ -2946,13 +3046,13 @@
             },
             {
               "R": "6",
-              "C": "--",
+              "C": "B",
               "N": "2",
-              "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
+              "Cat": "CM",
+              "OPPONENT": "Nguyen,Anh Kiet",
+              "Rtg": "1802",
               "res": "1.0",
-              "Pts": "0.0"
+              "Pts": "4.0"
             },
             {
               "R": "7",
@@ -3022,7 +3122,7 @@
               "OPPONENT": "Krishnan,Anirudh",
               "Rtg": "1756",
               "res": "0.0",
-              "Pts": "2.0"
+              "Pts": "3.0"
             },
             {
               "R": "2",
@@ -3032,7 +3132,7 @@
               "OPPONENT": "Hogan,Steven",
               "Rtg": "1414",
               "res": "1.0",
-              "Pts": "1.0"
+              "Pts": "2.0"
             },
             {
               "R": "3",
@@ -3042,7 +3142,7 @@
               "OPPONENT": "Annapureddy,Rheyansh",
               "Rtg": "2186",
               "res": "0.0",
-              "Pts": "4.0"
+              "Pts": "6.0"
             },
             {
               "R": "4",
@@ -3052,7 +3152,7 @@
               "OPPONENT": "Davis,Tony J",
               "Rtg": "1634",
               "res": "0.0",
-              "Pts": "3.5"
+              "Pts": "4.5"
             },
             {
               "R": "5",
@@ -3066,13 +3166,13 @@
             },
             {
               "R": "6",
-              "C": "--",
+              "C": "B",
               "N": "1",
               "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "0.5",
-              "Pts": "0.0"
+              "OPPONENT": "Whitford,Matthew",
+              "Rtg": "1460",
+              "res": "1.0",
+              "Pts": "0.5"
             },
             {
               "R": "7",
@@ -3081,7 +3181,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.5",
+              "res": "1.0",
               "Pts": "0.0"
             }
           ],
@@ -3152,7 +3252,7 @@
               "OPPONENT": "Krishnan,Anirudh",
               "Rtg": "1756",
               "res": "1.0",
-              "Pts": "2.0"
+              "Pts": "3.0"
             },
             {
               "R": "3",
@@ -3162,7 +3262,7 @@
               "OPPONENT": "Hogan,Steven",
               "Rtg": "1414",
               "res": "0.0",
-              "Pts": "1.0"
+              "Pts": "2.0"
             },
             {
               "R": "4",
@@ -3172,7 +3272,7 @@
               "OPPONENT": "Annapureddy,Rheyansh",
               "Rtg": "2186",
               "res": "0.0",
-              "Pts": "4.0"
+              "Pts": "6.0"
             },
             {
               "R": "5",
@@ -3182,7 +3282,7 @@
               "OPPONENT": "Bodke,Krishna Mantha",
               "Rtg": "1718",
               "res": "0.5",
-              "Pts": "1.5"
+              "Pts": "2.5"
             },
             {
               "R": "6",
@@ -3191,7 +3291,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.5",
+              "res": "0.0",
               "Pts": "0.0"
             },
             {
@@ -3201,7 +3301,7 @@
               "Cat": "",
               "OPPONENT": "not played",
               "Rtg": "-",
-              "res": "0.5",
+              "res": "0.0",
               "Pts": "0.0"
             }
           ],
@@ -3266,13 +3366,13 @@
             },
             {
               "R": "2",
-              "C": "--",
+              "C": "W",
               "N": "5",
-              "Cat": "",
-              "OPPONENT": "not played",
-              "Rtg": "-",
-              "res": "0.5",
-              "Pts": "0.0"
+              "Cat": "FM",
+              "OPPONENT": "Annapureddy,Rheyansh",
+              "Rtg": "2186",
+              "res": "0.0",
+              "Pts": "6.0"
             },
             {
               "R": "3",
@@ -3292,7 +3392,7 @@
               "OPPONENT": "Bodke,Krishna Mantha",
               "Rtg": "1718",
               "res": "1.0",
-              "Pts": "1.5"
+              "Pts": "2.5"
             },
             {
               "R": "5",
@@ -3302,7 +3402,7 @@
               "OPPONENT": "Krishnan,Anirudh",
               "Rtg": "1756",
               "res": "1.0",
-              "Pts": "2.0"
+              "Pts": "3.0"
             },
             {
               "R": "6",
@@ -3363,7 +3463,7 @@
             {
               "Pos": "1",
               "Team Name": "",
-              "Points": "13.5"
+              "Points": "17.5"
             }
           ],
           "type": "other"
@@ -3379,50 +3479,50 @@
               "key": "col2"
             },
             {
-              "name": "13.5",
-              "key": "13.5"
+              "name": "17.5",
+              "key": "17.5"
             }
           ],
           "rows": [
             {
-              "1": "2",
-              "col2": "Nguyen,Anh Kiet",
-              "13.5": "4"
-            },
-            {
               "1": "5",
               "col2": "Annapureddy,Rheyansh Reddy",
-              "13.5": "4"
+              "17.5": "6"
             },
             {
               "1": "8",
               "col2": "Davis,Tony J",
-              "13.5": "3.5"
+              "17.5": "4.5"
+            },
+            {
+              "1": "2",
+              "col2": "Nguyen,Anh Kiet",
+              "17.5": "4"
             },
             {
               "1": "3",
               "col2": "Krishnan,Anirudh",
-              "13.5": "2"
-            },
-            {
-              "1": "7",
-              "col2": "Lacson,Joemar",
-              "13.5": "1.5"
+              "17.5": "3"
             },
             {
               "1": "6",
               "col2": "Bodke,Krishna Manthan",
-              "13.5": "1.5"
+              "17.5": "2.5"
             },
             {
               "1": "4",
               "col2": "Hogan,Steven",
-              "13.5": "1"
+              "17.5": "2"
+            },
+            {
+              "1": "7",
+              "col2": "Lacson,Joemar",
+              "17.5": "1.5"
             },
             {
               "1": "1",
               "col2": "Whitford,Matthew",
-              "13.5": "0.5"
+              "17.5": "0.5"
             }
           ],
           "caption": {
@@ -3521,6 +3621,20 @@
             {
               "Board 0": "",
               "Pos": "1",
+              "Player": "Annapureddy,Rheyansh Reddy",
+              "Team": "",
+              "Points": "6"
+            },
+            {
+              "Board 0": "",
+              "Pos": "1",
+              "Player": "Davis,Tony J",
+              "Team": "",
+              "Points": "4.5"
+            },
+            {
+              "Board 0": "",
+              "Pos": "1",
               "Player": "Nguyen,Anh Kiet",
               "Team": "",
               "Points": "4"
@@ -3528,23 +3642,9 @@
             {
               "Board 0": "",
               "Pos": "1",
-              "Player": "Annapureddy,Rheyansh Reddy",
-              "Team": "",
-              "Points": "4"
-            },
-            {
-              "Board 0": "",
-              "Pos": "1",
-              "Player": "Davis,Tony J",
-              "Team": "",
-              "Points": "3.5"
-            },
-            {
-              "Board 0": "",
-              "Pos": "1",
               "Player": "Krishnan,Anirudh",
               "Team": "",
-              "Points": "2"
+              "Points": "3"
             }
           ],
           "caption": {
@@ -3604,40 +3704,23 @@
           "rows": [
             {
               "Pos": "1",
-              "N": "2",
-              "T": "CM",
+              "N": "5",
+              "T": "FM",
               "Player": {
                 "id": "",
-                "playerName": "Nguyen,Anh Kiet",
+                "playerName": "Annapureddy,Rheyansh",
                 "gender": "notitle",
-                "href": "playercard.html#2",
+                "href": "playercard.html#5",
                 "title": ""
               },
-              "col5": "1802",
-              "col6": "1753",
+              "col5": "2186",
+              "col6": "1957",
               "Fed": "VIC",
-              "Pts": "4.0",
-              "SB": "5.00"
-            },
-            {
-              "Pos": "2",
-              "N": "8",
-              "T": "CM",
-              "Player": {
-                "id": "",
-                "playerName": "Davis,Tony J",
-                "gender": "notitle",
-                "href": "playercard.html#8",
-                "title": ""
-              },
-              "col5": "1634",
-              "col6": "1727",
-              "Fed": "VIC",
-              "Pts": "3.5",
-              "SB": "7.75"
+              "Pts": "6.0",
+              "SB": "15.00"
             }
           ],
-          "caption": "Ranking for category: CM",
+          "caption": "Ranking for category: FM",
           "type": "standings"
         },
         {
@@ -3682,23 +3765,40 @@
           "rows": [
             {
               "Pos": "1",
-              "N": "5",
-              "T": "FM",
+              "N": "8",
+              "T": "CM",
               "Player": {
                 "id": "",
-                "playerName": "Annapureddy,Rheyansh",
+                "playerName": "Davis,Tony J",
                 "gender": "notitle",
-                "href": "playercard.html#5",
+                "href": "playercard.html#8",
                 "title": ""
               },
-              "col5": "2186",
-              "col6": "1698",
+              "col5": "1634",
+              "col6": "1727",
+              "Fed": "VIC",
+              "Pts": "4.5",
+              "SB": "11.25"
+            },
+            {
+              "Pos": "2",
+              "N": "2",
+              "T": "CM",
+              "Player": {
+                "id": "",
+                "playerName": "Nguyen,Anh Kiet",
+                "gender": "notitle",
+                "href": "playercard.html#2",
+                "title": ""
+              },
+              "col5": "1802",
+              "col6": "1753",
               "Fed": "VIC",
               "Pts": "4.0",
-              "SB": "4.50"
+              "SB": "7.00"
             }
           ],
-          "caption": "Ranking for category: FM",
+          "caption": "Ranking for category: CM",
           "type": "standings"
         },
         {
@@ -3753,13 +3853,47 @@
                 "title": ""
               },
               "col5": "1756",
-              "col6": "1552",
+              "col6": "1660",
+              "Fed": "VIC",
+              "Pts": "3.0",
+              "SB": "5.00"
+            },
+            {
+              "Pos": "2",
+              "N": "6",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna Mantha",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "col5": "1718",
+              "col6": "1613",
+              "Fed": "VIC",
+              "Pts": "2.5",
+              "SB": "3.25"
+            },
+            {
+              "Pos": "3",
+              "N": "4",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "col5": "1414",
+              "col6": "1600",
               "Fed": "VIC",
               "Pts": "2.0",
               "SB": "2.00"
             },
             {
-              "Pos": "2",
+              "Pos": "4",
               "N": "7",
               "T": "",
               "Player": {
@@ -3773,41 +3907,7 @@
               "col6": "1480",
               "Fed": "VIC",
               "Pts": "1.5",
-              "SB": "2.75"
-            },
-            {
-              "Pos": "3",
-              "N": "6",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Bodke,Krishna Mantha",
-                "gender": "notitle",
-                "href": "playercard.html#6",
-                "title": ""
-              },
-              "col5": "1718",
-              "col6": "1485",
-              "Fed": "VIC",
-              "Pts": "1.5",
-              "SB": "1.75"
-            },
-            {
-              "Pos": "4",
-              "N": "4",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Hogan,Steven",
-                "gender": "notitle",
-                "href": "playercard.html#4",
-                "title": ""
-              },
-              "col5": "1414",
-              "col6": "1449",
-              "Fed": "VIC",
-              "Pts": "1.0",
-              "SB": "1.50"
+              "SB": "4.25"
             },
             {
               "Pos": "5",
@@ -3824,7 +3924,7 @@
               "col6": "1330",
               "Fed": "VIC",
               "Pts": "0.5",
-              "SB": "1.75"
+              "SB": "2.25"
             }
           ],
           "caption": "Ranking for category:",
@@ -4038,7 +4138,7 @@
                 "title": ""
               },
               "NW": "8",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "NB": "5",
               "Black Player": {
                 "id": "",
@@ -4336,7 +4436,7 @@
                 "title": ""
               },
               "NW": "1",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "NB": "4",
               "Black Player": {
                 "id": "",
@@ -4546,7 +4646,7 @@
                 "title": ""
               },
               "NW": "8",
-              "Result": "ADJ",
+              "Result": "1F-0F",
               "NB": "7",
               "Black Player": {
                 "id": "",
@@ -4568,7 +4668,7 @@
                 "title": ""
               },
               "NW": "1",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "NB": "6",
               "Black Player": {
                 "id": "",
@@ -4590,7 +4690,7 @@
                 "title": ""
               },
               "NW": "2",
-              "Result": "ADJ",
+              "Result": "0 - 1",
               "NB": "5",
               "Black Player": {
                 "id": "",
@@ -4612,7 +4712,7 @@
                 "title": ""
               },
               "NW": "3",
-              "Result": "ADJ",
+              "Result": "1 - 0",
               "NB": "4",
               "Black Player": {
                 "id": "",
@@ -4821,11 +4921,11 @@
           "rows": [
             {
               "1": "×",
-              "2": "a",
-              "3": "0",
-              "4": "1",
+              "2": "1",
+              "3": "1",
+              "4": "a",
               "5": "1",
-              "6": "a",
+              "6": "1",
               "7": "1",
               "8": "1",
               "Pos": "1",
@@ -4836,14 +4936,14 @@
               "Pts": "0.5"
             },
             {
-              "1": "a",
+              "1": "0",
               "2": "×",
-              "3": "a",
-              "4": "a",
+              "3": "1",
+              "4": "1",
               "5": "1",
-              "6": "1",
-              "7": "1",
-              "8": "1",
+              "6": "a",
+              "7": "+",
+              "8": "½",
               "Pos": "2",
               "#": "2",
               "NAME": "CM Nguyen,Anh Kiet",
@@ -4852,75 +4952,75 @@
               "Pts": "4.0"
             },
             {
-              "1": "1",
-              "2": "a",
+              "1": "0",
+              "2": "0",
               "3": "×",
               "4": "1",
               "5": "a",
               "6": "1",
-              "7": "a",
-              "8": "½",
+              "7": "1",
+              "8": "1",
               "Pos": "3",
               "#": "3",
               "NAME": "Krishnan,Anirudh",
               "Rtg": "1756",
               "Fed": "VIC",
-              "Pts": "2.0"
+              "Pts": "3.0"
             },
             {
-              "1": "0",
-              "2": "a",
+              "1": "a",
+              "2": "0",
               "3": "0",
               "4": "×",
-              "5": "0",
+              "5": "1",
               "6": "1",
-              "7": "a",
+              "7": "0",
               "8": "1",
               "Pos": "4",
               "#": "4",
               "NAME": "Hogan,Steven",
               "Rtg": "1414",
               "Fed": "VIC",
-              "Pts": "1.0"
+              "Pts": "2.0"
             },
             {
               "1": "0",
               "2": "0",
               "3": "a",
-              "4": "1",
+              "4": "0",
               "5": "×",
-              "6": "½",
-              "7": "0",
-              "8": "a",
+              "6": "1",
+              "7": "½",
+              "8": "1",
               "Pos": "5",
               "#": "5",
               "NAME": "FM Annapureddy,Rheyansh Reddy",
               "Rtg": "2186",
               "Fed": "VIC",
-              "Pts": "4.0"
+              "Pts": "6.0"
             },
             {
-              "1": "a",
-              "2": "0",
+              "1": "0",
+              "2": "a",
               "3": "0",
               "4": "0",
-              "5": "½",
+              "5": "0",
               "6": "×",
               "7": "1",
-              "8": "a",
+              "8": "1",
               "Pos": "6",
               "#": "6",
               "NAME": "Bodke,Krishna Manthan",
               "Rtg": "1718",
               "Fed": "VIC",
-              "Pts": "1.5"
+              "Pts": "2.5"
             },
             {
               "1": "0",
-              "2": "0",
-              "3": "a",
-              "4": "a",
-              "5": "1",
+              "2": "-",
+              "3": "0",
+              "4": "1",
+              "5": "½",
               "6": "0",
               "7": "×",
               "8": "a",
@@ -4933,11 +5033,11 @@
             },
             {
               "1": "0",
-              "2": "0",
-              "3": "½",
+              "2": "½",
+              "3": "0",
               "4": "0",
-              "5": "a",
-              "6": "a",
+              "5": "0",
+              "6": "0",
               "7": "a",
               "8": "×",
               "Pos": "8",
@@ -4945,7 +5045,7 @@
               "NAME": "CM Davis,Tony J",
               "Rtg": "1634",
               "Fed": "VIC",
-              "Pts": "3.5"
+              "Pts": "4.5"
             }
           ],
           "type": "crosstable"
@@ -4994,6 +5094,38 @@
           "rows": [
             {
               "Pos": "1",
+              "N": "5",
+              "Player": {
+                "id": "",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "notitle",
+                "href": "playercard.php#5",
+                "title": ""
+              },
+              "FRtg": "2268",
+              "NRtg": "2186",
+              "Fed": "VIC",
+              "Pts": "6.0",
+              "SB": "15.00"
+            },
+            {
+              "Pos": "2",
+              "N": "8",
+              "Player": {
+                "id": "",
+                "playerName": "Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.php#8",
+                "title": ""
+              },
+              "FRtg": "1793",
+              "NRtg": "1634",
+              "Fed": "VIC",
+              "Pts": "4.5",
+              "SB": "11.25"
+            },
+            {
+              "Pos": "3",
               "N": "2",
               "Player": {
                 "id": "",
@@ -5006,39 +5138,7 @@
               "NRtg": "1802",
               "Fed": "VIC",
               "Pts": "4.0",
-              "SB": "5.00"
-            },
-            {
-              "Pos": "2",
-              "N": "5",
-              "Player": {
-                "id": "",
-                "playerName": "Annapureddy,Rheyansh Reddy",
-                "gender": "notitle",
-                "href": "playercard.php#5",
-                "title": ""
-              },
-              "FRtg": "2268",
-              "NRtg": "2186",
-              "Fed": "VIC",
-              "Pts": "4.0",
-              "SB": "4.50"
-            },
-            {
-              "Pos": "3",
-              "N": "8",
-              "Player": {
-                "id": "",
-                "playerName": "Davis,Tony J",
-                "gender": "notitle",
-                "href": "playercard.php#8",
-                "title": ""
-              },
-              "FRtg": "1793",
-              "NRtg": "1634",
-              "Fed": "VIC",
-              "Pts": "3.5",
-              "SB": "7.75"
+              "SB": "7.00"
             },
             {
               "Pos": "4",
@@ -5053,11 +5153,43 @@
               "FRtg": "1888",
               "NRtg": "1756",
               "Fed": "VIC",
+              "Pts": "3.0",
+              "SB": "5.00"
+            },
+            {
+              "Pos": "5",
+              "N": "6",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna Manthan",
+                "gender": "notitle",
+                "href": "playercard.php#6",
+                "title": ""
+              },
+              "FRtg": "1925",
+              "NRtg": "1718",
+              "Fed": "VIC",
+              "Pts": "2.5",
+              "SB": "3.25"
+            },
+            {
+              "Pos": "6",
+              "N": "4",
+              "Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.php#4",
+                "title": ""
+              },
+              "FRtg": "1684",
+              "NRtg": "1414",
+              "Fed": "VIC",
               "Pts": "2.0",
               "SB": "2.00"
             },
             {
-              "Pos": "5",
+              "Pos": "7",
               "N": "7",
               "Player": {
                 "id": "",
@@ -5070,39 +5202,7 @@
               "NRtg": "1753",
               "Fed": "VIC",
               "Pts": "1.5",
-              "SB": "2.75"
-            },
-            {
-              "Pos": "6",
-              "N": "6",
-              "Player": {
-                "id": "",
-                "playerName": "Bodke,Krishna Manthan",
-                "gender": "notitle",
-                "href": "playercard.php#6",
-                "title": ""
-              },
-              "FRtg": "1925",
-              "NRtg": "1718",
-              "Fed": "VIC",
-              "Pts": "1.5",
-              "SB": "1.75"
-            },
-            {
-              "Pos": "7",
-              "N": "4",
-              "Player": {
-                "id": "",
-                "playerName": "Hogan,Steven",
-                "gender": "notitle",
-                "href": "playercard.php#4",
-                "title": ""
-              },
-              "FRtg": "1684",
-              "NRtg": "1414",
-              "Fed": "VIC",
-              "Pts": "1.0",
-              "SB": "1.50"
+              "SB": "4.25"
             },
             {
               "Pos": "8",
@@ -5118,7 +5218,7 @@
               "NRtg": "1460",
               "Fed": "VIC",
               "Pts": "0.5",
-              "SB": "1.75"
+              "SB": "2.25"
             }
           ],
           "footer": {
@@ -5152,7 +5252,7 @@
             {
               "Pos": "1",
               "Name": "VIC",
-              "Points": "4"
+              "Points": "6"
             }
           ],
           "caption": {
@@ -5257,6 +5357,42 @@
           "rows": [
             {
               "Pos": "1",
+              "N": "5",
+              "T": "FM",
+              "Player": {
+                "id": "",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Rtg": "2186",
+              "PRtg": "1957",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "6.0",
+              "SB": "15.00"
+            },
+            {
+              "Pos": "2",
+              "N": "8",
+              "T": "CM",
+              "Player": {
+                "id": "",
+                "playerName": "Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Rtg": "1634",
+              "PRtg": "1727",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.5",
+              "SB": "11.25"
+            },
+            {
+              "Pos": "3",
               "N": "2",
               "T": "CM",
               "Player": {
@@ -5271,43 +5407,7 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "4.0",
-              "SB": "5.00"
-            },
-            {
-              "Pos": "2",
-              "N": "5",
-              "T": "FM",
-              "Player": {
-                "id": "",
-                "playerName": "Annapureddy,Rheyansh Reddy",
-                "gender": "notitle",
-                "href": "playercard.html#5",
-                "title": ""
-              },
-              "Rtg": "2186",
-              "PRtg": "1698",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "SB": "4.50"
-            },
-            {
-              "Pos": "3",
-              "N": "8",
-              "T": "CM",
-              "Player": {
-                "id": "",
-                "playerName": "Davis,Tony J",
-                "gender": "notitle",
-                "href": "playercard.html#8",
-                "title": ""
-              },
-              "Rtg": "1634",
-              "PRtg": "1727",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "3.5",
-              "SB": "7.75"
+              "SB": "7.00"
             },
             {
               "Pos": "4",
@@ -5321,14 +5421,50 @@
                 "title": ""
               },
               "Rtg": "1756",
-              "PRtg": "1552",
+              "PRtg": "1660",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.0",
+              "SB": "5.00"
+            },
+            {
+              "Pos": "5",
+              "N": "6",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna Manthan",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Rtg": "1718",
+              "PRtg": "1613",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "2.5",
+              "SB": "3.25"
+            },
+            {
+              "Pos": "6",
+              "N": "4",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Rtg": "1414",
+              "PRtg": "1600",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.0",
               "SB": "2.00"
             },
             {
-              "Pos": "5",
+              "Pos": "7",
               "N": "7",
               "T": "",
               "Player": {
@@ -5343,43 +5479,7 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "1.5",
-              "SB": "2.75"
-            },
-            {
-              "Pos": "6",
-              "N": "6",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Bodke,Krishna Manthan",
-                "gender": "notitle",
-                "href": "playercard.html#6",
-                "title": ""
-              },
-              "Rtg": "1718",
-              "PRtg": "1485",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "1.5",
-              "SB": "1.75"
-            },
-            {
-              "Pos": "7",
-              "N": "4",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Hogan,Steven",
-                "gender": "notitle",
-                "href": "playercard.html#4",
-                "title": ""
-              },
-              "Rtg": "1414",
-              "PRtg": "1449",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "1.0",
-              "SB": "1.50"
+              "SB": "4.25"
             },
             {
               "Pos": "8",
@@ -5397,7 +5497,7 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "0.5",
-              "SB": "1.75"
+              "SB": "2.25"
             }
           ],
           "caption": "Standings",
@@ -5428,7 +5528,7 @@
             {
               "Pos": "1",
               "Name": "",
-              "Points": "4"
+              "Points": "6"
             }
           ],
           "caption": {
@@ -5533,6 +5633,42 @@
           "rows": [
             {
               "Pos": "1",
+              "N": "5",
+              "T": "FM",
+              "Player": {
+                "id": "",
+                "playerName": "Annapureddy,Rheyansh Reddy",
+                "gender": "notitle",
+                "href": "playercard.html#5",
+                "title": ""
+              },
+              "Rtg": "2186",
+              "PRtg": "1957",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "6.0",
+              "SB": "15.00"
+            },
+            {
+              "Pos": "2",
+              "N": "8",
+              "T": "CM",
+              "Player": {
+                "id": "",
+                "playerName": "Davis,Tony J",
+                "gender": "notitle",
+                "href": "playercard.html#8",
+                "title": ""
+              },
+              "Rtg": "1634",
+              "PRtg": "1727",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "4.5",
+              "SB": "11.25"
+            },
+            {
+              "Pos": "3",
               "N": "2",
               "T": "CM",
               "Player": {
@@ -5547,43 +5683,7 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "4.0",
-              "SB": "5.00"
-            },
-            {
-              "Pos": "2",
-              "N": "5",
-              "T": "FM",
-              "Player": {
-                "id": "",
-                "playerName": "Annapureddy,Rheyansh Reddy",
-                "gender": "notitle",
-                "href": "playercard.html#5",
-                "title": ""
-              },
-              "Rtg": "2186",
-              "PRtg": "1698",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "4.0",
-              "SB": "4.50"
-            },
-            {
-              "Pos": "3",
-              "N": "8",
-              "T": "CM",
-              "Player": {
-                "id": "",
-                "playerName": "Davis,Tony J",
-                "gender": "notitle",
-                "href": "playercard.html#8",
-                "title": ""
-              },
-              "Rtg": "1634",
-              "PRtg": "1727",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "3.5",
-              "SB": "7.75"
+              "SB": "7.00"
             },
             {
               "Pos": "4",
@@ -5597,14 +5697,50 @@
                 "title": ""
               },
               "Rtg": "1756",
-              "PRtg": "1552",
+              "PRtg": "1660",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "3.0",
+              "SB": "5.00"
+            },
+            {
+              "Pos": "5",
+              "N": "6",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Bodke,Krishna Manthan",
+                "gender": "notitle",
+                "href": "playercard.html#6",
+                "title": ""
+              },
+              "Rtg": "1718",
+              "PRtg": "1613",
+              "Fed": "VIC",
+              "Origin": "",
+              "Pts": "2.5",
+              "SB": "3.25"
+            },
+            {
+              "Pos": "6",
+              "N": "4",
+              "T": "",
+              "Player": {
+                "id": "",
+                "playerName": "Hogan,Steven",
+                "gender": "notitle",
+                "href": "playercard.html#4",
+                "title": ""
+              },
+              "Rtg": "1414",
+              "PRtg": "1600",
               "Fed": "VIC",
               "Origin": "",
               "Pts": "2.0",
               "SB": "2.00"
             },
             {
-              "Pos": "5",
+              "Pos": "7",
               "N": "7",
               "T": "",
               "Player": {
@@ -5619,43 +5755,7 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "1.5",
-              "SB": "2.75"
-            },
-            {
-              "Pos": "6",
-              "N": "6",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Bodke,Krishna Manthan",
-                "gender": "notitle",
-                "href": "playercard.html#6",
-                "title": ""
-              },
-              "Rtg": "1718",
-              "PRtg": "1485",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "1.5",
-              "SB": "1.75"
-            },
-            {
-              "Pos": "7",
-              "N": "4",
-              "T": "",
-              "Player": {
-                "id": "",
-                "playerName": "Hogan,Steven",
-                "gender": "notitle",
-                "href": "playercard.html#4",
-                "title": ""
-              },
-              "Rtg": "1414",
-              "PRtg": "1449",
-              "Fed": "VIC",
-              "Origin": "",
-              "Pts": "1.0",
-              "SB": "1.50"
+              "SB": "4.25"
             },
             {
               "Pos": "8",
@@ -5673,7 +5773,7 @@
               "Fed": "VIC",
               "Origin": "",
               "Pts": "0.5",
-              "SB": "1.75"
+              "SB": "2.25"
             }
           ],
           "caption": "Standings",
@@ -5898,5 +5998,5 @@
       ]
     }
   ],
-  "md5Hash": "5df1601e56d5fd3422985bb8cb5babb6"
+  "md5Hash": "db96ff39e98fde63e521c1b10bdeb45c"
 }
