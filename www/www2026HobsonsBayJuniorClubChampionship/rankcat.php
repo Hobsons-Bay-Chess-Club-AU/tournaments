@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs6.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs7.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
@@ -41,34 +41,34 @@
                     <div class="row">
                         <div class="d-none d-lg-block col-1 ps-0">
                             <div class="d-flex flex-column w-full overflow-hidden"> </div> </div> <div class="col-12 col-lg-10">
-  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Standings at round 6 sorted by category </h3>
+  <div class="d-flex flex-column"><h3 class="mb-4 mt-4"> Standings at round 7 sorted by category </h3>
 <div class="table-responsive"><table class="table caption-top table-striped"> 
 <caption> Ranking for category: </caption>
 <thead><tr><th>Pos</th> <th>N</th> <th>T</th> <th>Player</th> <th></th> <th></th><th>Fed</th><th>Pts</th><th>DE</th><th>SB</th><th>WIN</th><th>BWG</th>
 </tr> </THEAD><tbody>
 <tr> 
-<td>1</td><td>2</td><td></td><td> <a href="playercard.php#2">Batyrbekov,Kaisar   </a> </td><td>1349</td><td>1319</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>     0</td><td>  7.75</td><td>     3</td><td>     2</td>
+<td>1</td><td>2</td><td></td><td> <a href="playercard.php#2">Batyrbekov,Kaisar   </a> </td><td>1349</td><td>1386</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 4.5</td><td>     0</td><td> 12.00</td><td>     4</td><td>     2</td>
 </tr> 
 <tr> 
-<td>2</td><td>1</td><td></td><td> <a href="playercard.php#1">Ramanathan,Ashwin   </a> </td><td>1470</td><td>1334</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 3.5</td><td>     0</td><td>  7.50</td><td>     2</td><td>     1</td>
+<td>2</td><td>1</td><td></td><td> <a href="playercard.php#1">Ramanathan,Ashwin   </a> </td><td>1470</td><td>1301</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 4.0</td><td>     0</td><td> 10.75</td><td>     2</td><td>     1</td>
 </tr> 
 <tr> 
-<td>3</td><td>7</td><td></td><td> <a href="playercard.php#7">Ahmad,Ihtiram       </a> </td><td>1092</td><td>1343</td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td class="score"> 3.0</td><td>     0</td><td>  8.75</td><td>     1</td><td>     1</td>
+<td>3</td><td>7</td><td></td><td> <a href="playercard.php#7">Ahmad,Ihtiram       </a> </td><td>1092</td><td>1302</td><td ><img class="shadow" src="flag/os.png" alt="OS"></td><td class="score"> 3.5</td><td>     0</td><td> 11.50</td><td>     1</td><td>     1</td>
 </tr> 
 <tr> 
-<td>4</td><td>3</td><td></td><td> <a href="playercard.php#3">Batyrbekov,Aidan    </a> </td><td>1308</td><td>1166</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.5</td><td>     0</td><td>  5.75</td><td>     0</td><td>     0</td>
+<td>4</td><td>4</td><td></td><td> <a href="playercard.php#4">Ashok,Arjun         </a> </td><td>1132</td><td>1197</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 3.0</td><td>     0</td><td>  8.00</td><td>     1</td><td>     0</td>
 </tr> 
 <tr> 
-<td>5</td><td>4</td><td></td><td> <a href="playercard.php#4">Ashok,Arjun         </a> </td><td>1132</td><td>1142</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.5</td><td>     0</td><td>  4.75</td><td>     1</td><td>     0</td>
+<td>5</td><td>3</td><td></td><td> <a href="playercard.php#3">Batyrbekov,Aidan    </a> </td><td>1308</td><td>1140</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.5</td><td>     0</td><td>  7.00</td><td>     0</td><td>     0</td>
 </tr> 
 <tr> 
-<td>6</td><td>6</td><td></td><td> <a href="playercard.php#6">Annadasu,Shreyansh  </a> </td><td>1096</td><td>1127</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>     0</td><td>  4.75</td><td>     0</td><td>     0</td>
+<td>6</td><td>6</td><td></td><td> <a href="playercard.php#6">Annadasu,Shreyansh  </a> </td><td>1096</td><td>1119</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.5</td><td>     0</td><td>  6.50</td><td>     0</td><td>     0</td>
 </tr> 
 <tr> 
-<td>7</td><td>8</td><td></td><td> <a href="playercard.php#8">Huang,Michael       </a> </td><td>1062</td><td>1125</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.5</td><td>     1</td><td>  2.75</td><td>     1</td><td>     0</td>
+<td>7</td><td>8</td><td></td><td> <a href="playercard.php#8">Huang,Michael       </a> </td><td>1062</td><td>1120</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>     1</td><td>  4.50</td><td>     1</td><td>     0</td>
 </tr> 
 <tr> 
-<td>8</td><td>5</td><td></td><td> <a href="playercard.php#5">Jyothi Nikhil,Neev  </a> </td><td>1112</td><td>1065</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 1.5</td><td>     2</td><td>  3.50</td><td>     0</td><td>     0</td>
+<td>8</td><td>5</td><td></td><td> <a href="playercard.php#5">Jyothi Nikhil,Neev  </a> </td><td>1112</td><td>1068</td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="score"> 2.0</td><td>     2</td><td>  5.75</td><td>     0</td><td>     0</td>
 </tr> 
 </tbody>
 </table> <br><br>

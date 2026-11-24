@@ -20,7 +20,7 @@
    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Info</a>
 <ul class="dropdown-menu">
 <li><a class="dropdown-item" href="schedule.php"> Schedule </a></li><li><a class="dropdown-item" href="tourstat.php">Statistics</a></li> </ul></li><li class="nav-item dropdown">   <a class="nav-link" href="index.php" >Players</a>
-</li><li class="nav-item"><a class="nav-link " href="pairs6.php" >Pairings</a>
+</li><li class="nav-item"><a class="nav-link " href="pairs7.php" >Pairings</a>
 </li><li class="nav-item"><a class="nav-link" href="standings.php" >Standings</a>
 </li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tables</a>
 <ul class="dropdown-menu"><li><a class="dropdown-item" href="sortedcrosstable.php"> Cross table by score </a></li></ul></li><li class="nav-item dropdown">   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
@@ -90,10 +90,10 @@
 <h4>Pairing of round 6, at 18:00 of 21/11/2026</h4>
 <div class="table-responsive"><table class="table table-striped "> 
 <thead><tr><th>Bo.</th><th>Fed</th><th>White Player</th><th>NW</th><th>Result</th><th>NB</th><th>Black Player</th><th>Fed</th></tr></thead><tbody>
-<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#8"> Huang,Michael</a> </td><td>8</td> <td class="result"> ... </td><td>6</td><td class="name"> <a href="playercard.php#6"> Annadasu,Shreyansh</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>2</td><td><img class="shadow" src="flag/os.png" alt="OS"></td><td class="name">  <a href="playercard.php#7"> Ahmad,Ihtiram</a> </td><td>7</td> <td class="result"> ... </td><td>5</td><td class="name"> <a href="playercard.php#5"> Jyothi Nikhil,Neev</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#1"> Ramanathan,Ashwin</a> </td><td>1</td> <td class="result"> adj </td><td>4</td><td class="name"> <a href="playercard.php#4"> Ashok,Arjun</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
-<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#2"> Batyrbekov,Kaisar</a> </td><td>2</td> <td class="result"> adj </td><td>3</td><td class="name"> <a href="playercard.php#3"> Batyrbekov,Aidan</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>1</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#8"> Huang,Michael</a> </td><td>8</td> <td class="result">½ - ½</td><td>6</td><td class="name"> <a href="playercard.php#6"> Annadasu,Shreyansh</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>2</td><td><img class="shadow" src="flag/os.png" alt="OS"></td><td class="name">  <a href="playercard.php#7"> Ahmad,Ihtiram</a> </td><td>7</td> <td class="result">½ - ½</td><td>5</td><td class="name"> <a href="playercard.php#5"> Jyothi Nikhil,Neev</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>3</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#1"> Ramanathan,Ashwin</a> </td><td>1</td> <td class="result">½ - ½</td><td>4</td><td class="name"> <a href="playercard.php#4"> Ashok,Arjun</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
+<tr> <td>4</td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td><td class="name">  <a href="playercard.php#2"> Batyrbekov,Kaisar</a> </td><td>2</td> <td class="result">1 - 0</td><td>3</td><td class="name"> <a href="playercard.php#3"> Batyrbekov,Aidan</a></td><td><img class="shadow" src="flag/vic.png" alt="VIC"></td></tr>
 </table>
 </div><hr>
 <h4>Pairing of round 7, at 18:00 of 05/12/2026</h4>
