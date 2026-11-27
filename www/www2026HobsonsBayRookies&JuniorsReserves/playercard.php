@@ -54,15 +54,14 @@
 <tr> <td>2</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>31</td> <td></td> <td> <a href="playercard.php#31"> Panchaparvala,Rohan  </a>  <td>439</td>
-<td> 1.0</td> <td> 4.0</td>
+<td> 1.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>4</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>2</td> <td></td> <td> <a href="playercard.php#2"> Bhat,Dhruv           </a>  <td>1040</td>
-<td> 0.5</td> <td> 5.0</td>
+<td> 0.5</td> <td> 4.0</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>14</td> <td></td> <td> <a href="playercard.php#14"> Goh,Nicholas         </a>  <td>669</td>
-<td> 1.0</td> <td> 3.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -73,22 +72,21 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>36</td> <td></td> <td> <a href="playercard.php#36"> Tan,Lucas            </a>  <td>346</td>
-<td> 1.0</td> <td> 3.0</td>
+<td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>19</td> <td></td> <td> <a href="playercard.php#19"> Bala,Neil            </a>  <td>563</td>
 <td> 1.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>12</td> <td></td> <td> <a href="playercard.php#12"> Aquino,Zedric        </a>  <td>696</td>
-<td> 0.5</td> <td> 5.0</td>
-</tr> 
-<tr> <td>4</td> <td>W </td> <td>5</td> <td></td> <td> <a href="playercard.php#5"> Watson,Jacob         </a>  <td>957</td>
-<td> 1.0</td> <td> 4.5</td>
-</tr> 
-<tr> <td>5</td> <td> B</td> <td>1</td> <td></td> <td> <a href="playercard.php#1"> Djatschenko,Addison  </a>  <td>1460</td>
 <td> 0.5</td> <td> 4.5</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>20</td> <td></td> <td> <a href="playercard.php#20"> Balamurugan,Soorya   </a>  <td>546</td>
+<tr> <td>4</td> <td>W </td> <td>5</td> <td></td> <td> <a href="playercard.php#5"> Watson,Jacob         </a>  <td>957</td>
 <td> 1.0</td> <td> 4.0</td>
+</tr> 
+<tr> <td>5</td> <td> B</td> <td>1</td> <td></td> <td> <a href="playercard.php#1"> Djatschenko,Addison  </a>  <td>1460</td>
+<td> 0.5</td> <td> 3.5</td>
+</tr> 
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -102,19 +100,18 @@
 <td> 1.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>21</td> <td></td> <td> <a href="playercard.php#21"> Wang,Evan            </a>  <td>513</td>
-<td> 1.0</td> <td> 4.5</td>
+<td> 1.0</td> <td> 3.5</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>17</td> <td></td> <td> <a href="playercard.php#17"> Kaur,Mishleen        </a>  <td>567</td>
 <td> 1.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>4</td> <td></td> <td> <a href="playercard.php#4"> Balaji,Sai Sivesh    </a>  <td>989</td>
-<td> 0.0</td> <td> 5.5</td>
+<td> 0.0</td> <td> 5.0</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>23</td> <td></td> <td> <a href="playercard.php#23"> Fang,Candice         </a>  <td>502</td>
 <td> 0.0</td> <td> 4.0</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>18</td> <td></td> <td> <a href="playercard.php#18"> Bodke,Aryan          </a>  <td>566</td>
-<td> 1.0</td> <td> 3.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -134,13 +131,12 @@
 <td> 1.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>4</td> <td>W </td> <td>3</td> <td></td> <td> <a href="playercard.php#3"> Saha,Avinandan (Arju </a>  <td>1013</td>
-<td> 1.0</td> <td> 4.0</td>
+<td> 1.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>14</td> <td></td> <td> <a href="playercard.php#14"> Goh,Nicholas         </a>  <td>669</td>
 <td> 1.0</td> <td> 3.5</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>12</td> <td></td> <td> <a href="playercard.php#12"> Aquino,Zedric        </a>  <td>696</td>
-<td> 0.5</td> <td> 5.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -151,22 +147,21 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>39</td> <td></td> <td> <a href="playercard.php#39"> Jyothi Nikhil,Vihaan </a>  <td>253</td>
-<td> 1.0</td> <td> 3.0</td>
+<td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>23</td> <td></td> <td> <a href="playercard.php#23"> Fang,Candice         </a>  <td>502</td>
 <td> 1.0</td> <td> 4.0</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>24</td> <td></td> <td> <a href="playercard.php#24"> Husain,Lamiah        </a>  <td>495</td>
-<td> 1.0</td> <td> 4.0</td>
+<td> 1.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>2</td> <td></td> <td> <a href="playercard.php#2"> Bhat,Dhruv           </a>  <td>1040</td>
-<td> 0.0</td> <td> 5.0</td>
+<td> 0.0</td> <td> 4.0</td>
 </tr> 
 <tr> <td>5</td> <td> B</td> <td>17</td> <td></td> <td> <a href="playercard.php#17"> Kaur,Mishleen        </a>  <td>567</td>
 <td> 1.0</td> <td> 3.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>16</td> <td></td> <td> <a href="playercard.php#16"> Samraat,Aayush       </a>  <td>618</td>
-<td> 0.5</td> <td> 4.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -177,20 +172,19 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>41</td> <td></td> <td> <a href="playercard.php#41"> Goh,Julian           </a>  <td>154</td>
-<td> 1.0</td> <td> 3.5</td>
+<td> 1.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>22</td> <td></td> <td> <a href="playercard.php#22"> Kommina,Bhavishya    </a>  <td>512</td>
 <td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>33</td> <td></td> <td> <a href="playercard.php#33"> Madduluri,Advaitha   </a>  <td>404</td>
-<td> 1.0</td> <td> 4.0</td>
+<td> 1.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>4</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
 <tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>27</td> <td></td> <td> <a href="playercard.php#27"> Guggilla,Krithvik    </a>  <td>479</td>
-<td> 1.0</td> <td> 3.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -201,19 +195,19 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>25</td> <td></td> <td> <a href="playercard.php#25"> Yegnavajjula,Aryan S </a>  <td>490</td>
-<td> 0.5</td> <td> 3.0</td>
+<td> 0.5</td> <td> 2.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>68</td> <td></td> <td> <a href="playercard.php#68"> Win,Noel May Thu     </a>  <td>0</td>
-<td> 1.0</td> <td> 3.5</td>
+<td> 1.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>28</td> <td></td> <td> <a href="playercard.php#28"> Spriggs,Harvey       </a>  <td>458</td>
-<td> 0.5</td> <td> 4.0</td>
+<td> 0.5</td> <td> 3.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>32</td> <td></td> <td> <a href="playercard.php#32"> Ganesh Kumar,Mukunth </a>  <td>425</td>
 <td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>24</td> <td></td> <td> <a href="playercard.php#24"> Husain,Lamiah        </a>  <td>495</td>
-<td> 1.0</td> <td> 4.0</td>
+<td> 1.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
@@ -236,8 +230,7 @@
 <tr> <td>5</td> <td>W </td> <td>57</td> <td></td> <td> <a href="playercard.php#57"> Koppuravuri,Haneesh  </a>  <td>0</td>
 <td> 1.0</td> <td> 1.0</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>51</td> <td></td> <td> <a href="playercard.php#51"> Golla,Yuvan Yadav    </a>  <td>0</td>
-<td> 1.0</td> <td> 2.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -248,10 +241,10 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>43</td> <td></td> <td> <a href="playercard.php#43"> Bala,Jake            </a>  <td>139</td>
-<td> 1.0</td> <td> 3.5</td>
+<td> 1.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>24</td> <td></td> <td> <a href="playercard.php#24"> Husain,Lamiah        </a>  <td>495</td>
-<td> 0.0</td> <td> 4.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
@@ -259,10 +252,9 @@
 <td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>41</td> <td></td> <td> <a href="playercard.php#41"> Goh,Julian           </a>  <td>154</td>
-<td> 1.0</td> <td> 3.5</td>
+<td> 1.0</td> <td> 2.5</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>47</td> <td></td> <td> <a href="playercard.php#47"> Borle,Swarit         </a>  <td>0</td>
-<td> 1.0</td> <td> 3.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -282,13 +274,12 @@
 <td> 0.5</td> <td> 3.5</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>16</td> <td></td> <td> <a href="playercard.php#16"> Samraat,Aayush       </a>  <td>618</td>
-<td> 0.0</td> <td> 4.0</td>
+<td> 0.0</td> <td> 3.5</td>
 </tr> 
 <tr> <td>5</td> <td> B</td> <td>22</td> <td></td> <td> <a href="playercard.php#22"> Kommina,Bhavishya    </a>  <td>512</td>
 <td> 1.0</td> <td> 3.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>21</td> <td></td> <td> <a href="playercard.php#21"> Wang,Evan            </a>  <td>513</td>
-<td> 0.0</td> <td> 4.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -299,10 +290,10 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>45</td> <td></td> <td> <a href="playercard.php#45"> Bacon,Levi           </a>  <td>0</td>
-<td> 0.0</td> <td> 3.0</td>
+<td> 0.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>49</td> <td></td> <td> <a href="playercard.php#49"> Choudary,Aarna       </a>  <td>0</td>
-<td> 1.0</td> <td> 3.5</td>
+<td> 1.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>35</td> <td></td> <td> <a href="playercard.php#35"> Saravanakumar,Thaswi </a>  <td>356</td>
 <td> 0.5</td> <td> 2.0</td>
@@ -312,8 +303,7 @@
 </tr> 
 <tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>46</td> <td></td> <td> <a href="playercard.php#46"> Borle,Anvay          </a>  <td>0</td>
-<td> 1.0</td> <td> 2.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -327,19 +317,18 @@
 <td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>29</td> <td></td> <td> <a href="playercard.php#29"> Thusithana,Kayra     </a>  <td>456</td>
-<td> 1.0</td> <td> 4.0</td>
+<td> 1.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>2</td> <td></td> <td> <a href="playercard.php#2"> Bhat,Dhruv           </a>  <td>1040</td>
-<td> 0.5</td> <td> 5.0</td>
+<td> 0.5</td> <td> 4.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>26</td> <td></td> <td> <a href="playercard.php#26"> Gadham,Aarya Subrama </a>  <td>483</td>
 <td> 1.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>16</td> <td></td> <td> <a href="playercard.php#16"> Samraat,Aayush       </a>  <td>618</td>
-<td> 1.0</td> <td> 4.0</td>
+<td> 1.0</td> <td> 3.5</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>4</td> <td></td> <td> <a href="playercard.php#4"> Balaji,Sai Sivesh    </a>  <td>989</td>
-<td> 0.5</td> <td> 5.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -356,16 +345,15 @@
 <td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>36</td> <td></td> <td> <a href="playercard.php#36"> Tan,Lucas            </a>  <td>346</td>
-<td> 1.0</td> <td> 3.0</td>
+<td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>4</td> <td>W </td> <td>28</td> <td></td> <td> <a href="playercard.php#28"> Spriggs,Harvey       </a>  <td>458</td>
-<td> 1.0</td> <td> 4.0</td>
+<td> 1.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>5</td> <td> B</td> <td>20</td> <td></td> <td> <a href="playercard.php#20"> Balamurugan,Soorya   </a>  <td>546</td>
 <td> 0.0</td> <td> 4.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>30</td> <td></td> <td> <a href="playercard.php#30"> Das, Ayush           </a>  <td>440</td>
-<td> 0.0</td> <td> 4.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -387,10 +375,9 @@
 <td> 1.0</td> <td> 3.5</td>
 </tr> 
 <tr> <td>5</td> <td> B</td> <td>4</td> <td></td> <td> <a href="playercard.php#4"> Balaji,Sai Sivesh    </a>  <td>989</td>
-<td> 0.0</td> <td> 5.5</td>
+<td> 0.0</td> <td> 5.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>1</td> <td></td> <td> <a href="playercard.php#1"> Djatschenko,Addison  </a>  <td>1460</td>
-<td> 0.0</td> <td> 4.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -401,7 +388,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>49</td> <td></td> <td> <a href="playercard.php#49"> Choudary,Aarna       </a>  <td>0</td>
-<td> 1.0</td> <td> 3.5</td>
+<td> 1.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>47</td> <td></td> <td> <a href="playercard.php#47"> Borle,Swarit         </a>  <td>0</td>
 <td> 0.0</td> <td> 3.5</td>
@@ -414,8 +401,7 @@
 <tr> <td>5</td> <td> B</td> <td>32</td> <td></td> <td> <a href="playercard.php#32"> Ganesh Kumar,Mukunth </a>  <td>425</td>
 <td> 1.0</td> <td> 2.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>28</td> <td></td> <td> <a href="playercard.php#28"> Spriggs,Harvey       </a>  <td>458</td>
-<td> 0.0</td> <td> 4.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -437,10 +423,9 @@
 <td> 1.0</td> <td> 3.5</td>
 </tr> 
 <tr> <td>5</td> <td> B</td> <td>12</td> <td></td> <td> <a href="playercard.php#12"> Aquino,Zedric        </a>  <td>696</td>
-<td> 0.0</td> <td> 5.0</td>
+<td> 0.0</td> <td> 4.5</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>5</td> <td></td> <td> <a href="playercard.php#5"> Watson,Jacob         </a>  <td>957</td>
-<td> 0.5</td> <td> 4.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -457,15 +442,14 @@
 <td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>3</td> <td></td> <td> <a href="playercard.php#3"> Saha,Avinandan (Arju </a>  <td>1013</td>
-<td> 0.0</td> <td> 4.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>4</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>5</td> <td></td> <td> <a href="playercard.php#5"> Watson,Jacob         </a>  <td>957</td>
-<td> 0.0</td> <td> 4.5</td>
-</tr> 
-<tr> <td>6</td> <td> B</td> <td>29</td> <td></td> <td> <a href="playercard.php#29"> Thusithana,Kayra     </a>  <td>456</td>
 <td> 0.0</td> <td> 4.0</td>
+</tr> 
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -488,8 +472,7 @@
 <tr> <td>5</td> <td> B</td> <td>44</td> <td></td> <td> <a href="playercard.php#44"> Goh,Daphne           </a>  <td>100</td>
 <td> 1.0</td> <td> 2.5</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>3</td> <td></td> <td> <a href="playercard.php#3"> Saha,Avinandan (Arju </a>  <td>1013</td>
-<td> 0.0</td> <td> 4.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -503,18 +486,17 @@
 <td> 1.0</td> <td> 1.5</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>2</td> <td></td> <td> <a href="playercard.php#2"> Bhat,Dhruv           </a>  <td>1040</td>
-<td> 0.0</td> <td> 5.0</td>
+<td> 0.0</td> <td> 4.0</td>
 </tr> 
 <tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
 <tr> <td>4</td> <td>W </td> <td>45</td> <td></td> <td> <a href="playercard.php#45"> Bacon,Levi           </a>  <td>0</td>
-<td> 1.0</td> <td> 3.0</td>
+<td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>47</td> <td></td> <td> <a href="playercard.php#47"> Borle,Swarit         </a>  <td>0</td>
 <td> 0.0</td> <td> 3.5</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>24</td> <td></td> <td> <a href="playercard.php#24"> Husain,Lamiah        </a>  <td>495</td>
-<td> 0.0</td> <td> 4.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -528,10 +510,10 @@
 <td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>4</td> <td></td> <td> <a href="playercard.php#4"> Balaji,Sai Sivesh    </a>  <td>989</td>
-<td> 0.0</td> <td> 5.5</td>
+<td> 0.0</td> <td> 5.0</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>39</td> <td></td> <td> <a href="playercard.php#39"> Jyothi Nikhil,Vihaan </a>  <td>253</td>
-<td> 1.0</td> <td> 3.0</td>
+<td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>47</td> <td></td> <td> <a href="playercard.php#47"> Borle,Swarit         </a>  <td>0</td>
 <td> 1.0</td> <td> 3.5</td>
@@ -539,8 +521,7 @@
 <tr> <td>5</td> <td>W </td> <td>13</td> <td></td> <td> <a href="playercard.php#13"> Shaiek,Nihal         </a>  <td>694</td>
 <td> 1.0</td> <td> 3.0</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>2</td> <td></td> <td> <a href="playercard.php#2"> Bhat,Dhruv           </a>  <td>1040</td>
-<td> 0.0</td> <td> 5.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -554,18 +535,17 @@
 <td> 1.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>3</td> <td></td> <td> <a href="playercard.php#3"> Saha,Avinandan (Arju </a>  <td>1013</td>
-<td> 0.0</td> <td> 4.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>43</td> <td></td> <td> <a href="playercard.php#43"> Bala,Jake            </a>  <td>139</td>
-<td> 1.0</td> <td> 3.5</td>
+<td> 1.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>69</td> <td></td> <td> <a href="playercard.php#69"> Yalamanchili,Tanay   </a>  <td>0</td>
 <td> 1.0</td> <td> 2.5</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>10</td> <td></td> <td> <a href="playercard.php#10"> Paul,Vivaan          </a>  <td>700</td>
-<td> 1.0</td> <td> 3.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -579,10 +559,10 @@
 <td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>6</td> <td></td> <td> <a href="playercard.php#6"> Nema,Nivaan          </a>  <td>924</td>
-<td> 1.0</td> <td> 4.0</td>
+<td> 1.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>4</td> <td></td> <td> <a href="playercard.php#4"> Balaji,Sai Sivesh    </a>  <td>989</td>
-<td> 0.0</td> <td> 5.5</td>
+<td> 0.0</td> <td> 5.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>64</td> <td></td> <td> <a href="playercard.php#64"> Sridhar,Chaithanya S </a>  <td>0</td>
 <td> 1.0</td> <td> 2.0</td>
@@ -590,8 +570,7 @@
 <tr> <td>5</td> <td>W </td> <td>10</td> <td></td> <td> <a href="playercard.php#10"> Paul,Vivaan          </a>  <td>700</td>
 <td> 0.0</td> <td> 3.5</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>31</td> <td></td> <td> <a href="playercard.php#31"> Panchaparvala,Rohan  </a>  <td>439</td>
-<td> 0.0</td> <td> 4.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -605,7 +584,7 @@
 <td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>5</td> <td></td> <td> <a href="playercard.php#5"> Watson,Jacob         </a>  <td>957</td>
-<td> 0.0</td> <td> 4.5</td>
+<td> 0.0</td> <td> 4.0</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>38</td> <td></td> <td> <a href="playercard.php#38"> Pradeep,Mayukh       </a>  <td>280</td>
 <td> 1.0</td> <td> 1.5</td>
@@ -614,7 +593,7 @@
 <td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>5</td> <td> B</td> <td>3</td> <td></td> <td> <a href="playercard.php#3"> Saha,Avinandan (Arju </a>  <td>1013</td>
-<td> 1.0</td> <td> 4.0</td>
+<td> 1.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
@@ -630,10 +609,10 @@
 <td> 1.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>9</td> <td></td> <td> <a href="playercard.php#9"> Venkat,Nyra          </a>  <td>814</td>
-<td> 1.0</td> <td> 4.5</td>
+<td> 1.0</td> <td> 3.5</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>5</td> <td></td> <td> <a href="playercard.php#5"> Watson,Jacob         </a>  <td>957</td>
-<td> 0.0</td> <td> 4.5</td>
+<td> 0.0</td> <td> 4.0</td>
 </tr> 
 <tr> <td>4</td> <td>W </td> <td>37</td> <td></td> <td> <a href="playercard.php#37"> Yang,Heesan          </a>  <td>321</td>
 <td> 1.0</td> <td> 2.5</td>
@@ -641,8 +620,7 @@
 <tr> <td>5</td> <td> B</td> <td>7</td> <td></td> <td> <a href="playercard.php#7"> Vemula,Thamoghna     </a>  <td>862</td>
 <td> 0.0</td> <td> 4.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>19</td> <td></td> <td> <a href="playercard.php#19"> Bala,Neil            </a>  <td>563</td>
-<td> 1.0</td> <td> 2.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -656,7 +634,7 @@
 <td> 0.5</td> <td> 4.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>31</td> <td></td> <td> <a href="playercard.php#31"> Panchaparvala,Rohan  </a>  <td>439</td>
-<td> 0.0</td> <td> 4.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
@@ -664,10 +642,9 @@
 <td> 0.5</td> <td> 1.0</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>33</td> <td></td> <td> <a href="playercard.php#33"> Madduluri,Advaitha   </a>  <td>404</td>
-<td> 0.0</td> <td> 4.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>34</td> <td></td> <td> <a href="playercard.php#34"> Wang,Liam            </a>  <td>367</td>
-<td> 1.0</td> <td> 2.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -678,7 +655,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>60</td> <td></td> <td> <a href="playercard.php#60"> Onilongo,Amber       </a>  <td>0</td>
-<td> 1.0</td> <td> 2.0</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>2</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
@@ -686,12 +663,11 @@
 <td> 1.0</td> <td> 1.5</td>
 </tr> 
 <tr> <td>4</td> <td>W </td> <td>12</td> <td></td> <td> <a href="playercard.php#12"> Aquino,Zedric        </a>  <td>696</td>
-<td> 0.0</td> <td> 5.0</td>
+<td> 0.0</td> <td> 4.5</td>
 </tr> 
 <tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>33</td> <td></td> <td> <a href="playercard.php#33"> Madduluri,Advaitha   </a>  <td>404</td>
-<td> 0.0</td> <td> 4.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -702,7 +678,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>30</td> <td></td> <td> <a href="playercard.php#30"> Das, Ayush           </a>  <td>440</td>
-<td> 1.0</td> <td> 4.0</td>
+<td> 1.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>10</td> <td></td> <td> <a href="playercard.php#10"> Paul,Vivaan          </a>  <td>700</td>
 <td> 0.0</td> <td> 3.5</td>
@@ -710,13 +686,12 @@
 <tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>42</td> <td></td> <td> <a href="playercard.php#42"> Kantharaju,Aryan     </a>  <td>143</td>
-<td> 1.0</td> <td> 2.0</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>39</td> <td></td> <td> <a href="playercard.php#39"> Jyothi Nikhil,Vihaan </a>  <td>253</td>
-<td> 1.0</td> <td> 3.0</td>
+<td> 1.0</td> <td> 2.0</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>6</td> <td></td> <td> <a href="playercard.php#6"> Nema,Nivaan          </a>  <td>924</td>
-<td> 0.0</td> <td> 4.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -727,7 +702,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>62</td> <td></td> <td> <a href="playercard.php#62"> Parepally,Aarnika    </a>  <td>0</td>
-<td> 1.0</td> <td> 2.0</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>2</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
@@ -740,8 +715,7 @@
 <tr> <td>5</td> <td>W </td> <td>46</td> <td></td> <td> <a href="playercard.php#46"> Borle,Anvay          </a>  <td>0</td>
 <td> 1.0</td> <td> 2.0</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>15</td> <td></td> <td> <a href="playercard.php#15"> Mallajosyula,Srivath </a>  <td>648</td>
-<td> 1.0</td> <td> 3.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -752,20 +726,19 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>63</td> <td></td> <td> <a href="playercard.php#63"> Sepusione, Sefa      </a>  <td>0</td>
-<td> 1.0</td> <td> 2.5</td>
+<td> 1.0</td> <td> 1.5</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>12</td> <td></td> <td> <a href="playercard.php#12"> Aquino,Zedric        </a>  <td>696</td>
-<td> 0.0</td> <td> 5.0</td>
+<td> 0.0</td> <td> 4.5</td>
 </tr> 
 <tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>62</td> <td></td> <td> <a href="playercard.php#62"> Parepally,Aarnika    </a>  <td>0</td>
-<td> 1.0</td> <td> 2.0</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>17</td> <td></td> <td> <a href="playercard.php#17"> Kaur,Mishleen        </a>  <td>567</td>
-<td> 1.0</td> <td> 3.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -782,15 +755,14 @@
 <td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>68</td> <td></td> <td> <a href="playercard.php#68"> Win,Noel May Thu     </a>  <td>0</td>
-<td> 1.0</td> <td> 3.5</td>
+<td> 1.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>4</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>5</td> <td> B</td> <td>34</td> <td></td> <td> <a href="playercard.php#34"> Wang,Liam            </a>  <td>367</td>
 <td> 1.0</td> <td> 2.0</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>13</td> <td></td> <td> <a href="playercard.php#13"> Shaiek,Nihal         </a>  <td>694</td>
-<td> 1.0</td> <td> 3.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -804,18 +776,17 @@
 <td> 0.5</td> <td> 0.5</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>25</td> <td></td> <td> <a href="playercard.php#25"> Yegnavajjula,Aryan S </a>  <td>490</td>
-<td> 1.0</td> <td> 3.0</td>
+<td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>1</td> <td></td> <td> <a href="playercard.php#1"> Djatschenko,Addison  </a>  <td>1460</td>
-<td> 0.0</td> <td> 4.5</td>
+<td> 0.0</td> <td> 3.5</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>55</td> <td></td> <td> <a href="playercard.php#55"> Kommina,Lakshmi Srin </a>  <td>0</td>
 <td> 1.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>22</td> <td></td> <td> <a href="playercard.php#22"> Kommina,Bhavishya    </a>  <td>512</td>
-<td> 1.0</td> <td> 3.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -825,8 +796,8 @@
 <a class="anchor" name="32"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
-<tr> <td>1</td> <td> B</td> <td>66</td> <td></td> <td> <a href="playercard.php#66"> Nathari, Thambavitag </a>  <td>0</td>
-<td> 1.0</td> <td> 2.0</td>
+<tr> <td>1</td> <td> B</td> <td>66</td> <td></td> <td> <a href="playercard.php#66"> Thambavitage,Pahansa </a>  <td>0</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>14</td> <td></td> <td> <a href="playercard.php#14"> Goh,Nicholas         </a>  <td>669</td>
 <td> 0.0</td> <td> 3.5</td>
@@ -851,21 +822,20 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>68</td> <td></td> <td> <a href="playercard.php#68"> Win,Noel May Thu     </a>  <td>0</td>
-<td> 0.0</td> <td> 3.5</td>
+<td> 0.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>54</td> <td></td> <td> <a href="playercard.php#54"> Karthik,Kavin        </a>  <td>0</td>
 <td> 1.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>6</td> <td></td> <td> <a href="playercard.php#6"> Nema,Nivaan          </a>  <td>924</td>
-<td> 0.0</td> <td> 4.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>4</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>5</td> <td> B</td> <td>25</td> <td></td> <td> <a href="playercard.php#25"> Yegnavajjula,Aryan S </a>  <td>490</td>
-<td> 1.0</td> <td> 3.0</td>
+<td> 1.0</td> <td> 2.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>26</td> <td></td> <td> <a href="playercard.php#26"> Gadham,Aarya Subrama </a>  <td>483</td>
-<td> 1.0</td> <td> 3.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -879,7 +849,7 @@
 <td> 1.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>16</td> <td></td> <td> <a href="playercard.php#16"> Samraat,Aayush       </a>  <td>618</td>
-<td> 0.5</td> <td> 4.0</td>
+<td> 0.5</td> <td> 3.5</td>
 </tr> 
 <tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
@@ -887,10 +857,9 @@
 <td> 0.0</td> <td> 4.0</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>30</td> <td></td> <td> <a href="playercard.php#30"> Das, Ayush           </a>  <td>440</td>
-<td> 0.0</td> <td> 4.0</td>
-</tr> 
-<tr> <td>6</td> <td> B</td> <td>25</td> <td></td> <td> <a href="playercard.php#25"> Yegnavajjula,Aryan S </a>  <td>490</td>
 <td> 0.0</td> <td> 3.0</td>
+</tr> 
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -901,19 +870,19 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>1</td> <td></td> <td> <a href="playercard.php#1"> Djatschenko,Addison  </a>  <td>1460</td>
-<td> 0.0</td> <td> 4.5</td>
+<td> 0.0</td> <td> 3.5</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>57</td> <td></td> <td> <a href="playercard.php#57"> Koppuravuri,Haneesh  </a>  <td>0</td>
 <td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>11</td> <td></td> <td> <a href="playercard.php#11"> Bhadrapura,Vismay    </a>  <td>698</td>
-<td> 0.5</td> <td> 3.0</td>
+<td> 0.5</td> <td> 2.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>15</td> <td></td> <td> <a href="playercard.php#15"> Mallajosyula,Srivath </a>  <td>648</td>
 <td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>68</td> <td></td> <td> <a href="playercard.php#68"> Win,Noel May Thu     </a>  <td>0</td>
-<td> 0.5</td> <td> 3.5</td>
+<td> 0.5</td> <td> 2.5</td>
 </tr> 
 <tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
@@ -926,7 +895,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>2</td> <td></td> <td> <a href="playercard.php#2"> Bhat,Dhruv           </a>  <td>1040</td>
-<td> 0.0</td> <td> 5.0</td>
+<td> 0.0</td> <td> 4.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>56</td> <td></td> <td> <a href="playercard.php#56"> Kommina,Nihira       </a>  <td>0</td>
 <td> 1.0</td> <td> 2.0</td>
@@ -935,13 +904,12 @@
 <td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>68</td> <td></td> <td> <a href="playercard.php#68"> Win,Noel May Thu     </a>  <td>0</td>
-<td> 0.0</td> <td> 3.5</td>
+<td> 0.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>62</td> <td></td> <td> <a href="playercard.php#62"> Parepally,Aarnika    </a>  <td>0</td>
-<td> 1.0</td> <td> 2.0</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>38</td> <td></td> <td> <a href="playercard.php#38"> Pradeep,Mayukh       </a>  <td>280</td>
-<td> 1.0</td> <td> 1.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -952,7 +920,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>3</td> <td></td> <td> <a href="playercard.php#3"> Saha,Avinandan (Arju </a>  <td>1013</td>
-<td> 0.0</td> <td> 4.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>59</td> <td></td> <td> <a href="playercard.php#59"> Manjunath,Charvi     </a>  <td>0</td>
 <td> 1.0</td> <td> 1.0</td>
@@ -960,12 +928,11 @@
 <tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>24</td> <td></td> <td> <a href="playercard.php#24"> Husain,Lamiah        </a>  <td>495</td>
-<td> 0.0</td> <td> 4.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>49</td> <td></td> <td> <a href="playercard.php#49"> Choudary,Aarna       </a>  <td>0</td>
-<td> 0.0</td> <td> 3.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -976,7 +943,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>4</td> <td></td> <td> <a href="playercard.php#4"> Balaji,Sai Sivesh    </a>  <td>989</td>
-<td> 0.0</td> <td> 5.5</td>
+<td> 0.0</td> <td> 5.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>58</td> <td></td> <td> <a href="playercard.php#58"> Malhotra,Rajveer     </a>  <td>0</td>
 <td> 1.0</td> <td> 0.0</td>
@@ -989,8 +956,7 @@
 <tr> <td>5</td> <td> B</td> <td>52</td> <td></td> <td> <a href="playercard.php#52"> Hasanabada,Aadhvik   </a>  <td>0</td>
 <td> 0.0</td> <td> 2.5</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>36</td> <td></td> <td> <a href="playercard.php#36"> Tan,Lucas            </a>  <td>346</td>
-<td> 0.0</td> <td> 3.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1001,7 +967,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>5</td> <td></td> <td> <a href="playercard.php#5"> Watson,Jacob         </a>  <td>957</td>
-<td> 0.0</td> <td> 4.5</td>
+<td> 0.0</td> <td> 4.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>61</td> <td></td> <td> <a href="playercard.php#61"> Padoli,Darsh         </a>  <td>0</td>
 <td> 1.0</td> <td> 0.0</td>
@@ -1009,14 +975,13 @@
 <tr> <td>3</td> <td> B</td> <td>20</td> <td></td> <td> <a href="playercard.php#20"> Balamurugan,Soorya   </a>  <td>546</td>
 <td> 0.0</td> <td> 4.0</td>
 </tr> 
-<tr> <td>4</td> <td>W </td> <td>66</td> <td></td> <td> <a href="playercard.php#66"> Nathari, Thambavitag </a>  <td>0</td>
-<td> 1.0</td> <td> 2.0</td>
+<tr> <td>4</td> <td>W </td> <td>66</td> <td></td> <td> <a href="playercard.php#66"> Thambavitage,Pahansa </a>  <td>0</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>5</td> <td> B</td> <td>27</td> <td></td> <td> <a href="playercard.php#27"> Guggilla,Krithvik    </a>  <td>479</td>
 <td> 0.0</td> <td> 3.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>56</td> <td></td> <td> <a href="playercard.php#56"> Kommina,Nihira       </a>  <td>0</td>
-<td> 1.0</td> <td> 2.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1039,8 +1004,7 @@
 <tr> <td>5</td> <td>W </td> <td>55</td> <td></td> <td> <a href="playercard.php#55"> Kommina,Lakshmi Srin </a>  <td>0</td>
 <td> 0.0</td> <td> 2.5</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>63</td> <td></td> <td> <a href="playercard.php#63"> Sepusione, Sefa      </a>  <td>0</td>
-<td> 0.0</td> <td> 2.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1051,10 +1015,10 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>6</td> <td></td> <td> <a href="playercard.php#6"> Nema,Nivaan          </a>  <td>924</td>
-<td> 0.0</td> <td> 4.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>60</td> <td></td> <td> <a href="playercard.php#60"> Onilongo,Amber       </a>  <td>0</td>
-<td> 1.0</td> <td> 2.0</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
@@ -1062,10 +1026,9 @@
 <td> 1.0</td> <td> 1.5</td>
 </tr> 
 <tr> <td>5</td> <td> B</td> <td>9</td> <td></td> <td> <a href="playercard.php#9"> Venkat,Nyra          </a>  <td>814</td>
-<td> 0.0</td> <td> 4.5</td>
+<td> 0.0</td> <td> 3.5</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>52</td> <td></td> <td> <a href="playercard.php#52"> Hasanabada,Aadhvik   </a>  <td>0</td>
-<td> 1.0</td> <td> 2.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1089,8 +1052,7 @@
 <tr> <td>5</td> <td> B</td> <td>56</td> <td></td> <td> <a href="playercard.php#56"> Kommina,Nihira       </a>  <td>0</td>
 <td> 0.0</td> <td> 2.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>53</td> <td></td> <td> <a href="playercard.php#53"> Hasanabada,Rithvik   </a>  <td>0</td>
-<td> 1.0</td> <td> 1.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1101,21 +1063,20 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>9</td> <td></td> <td> <a href="playercard.php#9"> Venkat,Nyra          </a>  <td>814</td>
-<td> 0.0</td> <td> 4.5</td>
+<td> 0.0</td> <td> 3.5</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>62</td> <td></td> <td> <a href="playercard.php#62"> Parepally,Aarnika    </a>  <td>0</td>
-<td> 1.0</td> <td> 2.0</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
 <tr> <td>4</td> <td>W </td> <td>21</td> <td></td> <td> <a href="playercard.php#21"> Wang,Evan            </a>  <td>513</td>
-<td> 0.0</td> <td> 4.5</td>
+<td> 0.0</td> <td> 3.5</td>
 </tr> 
 <tr> <td>5</td> <td> B</td> <td>53</td> <td></td> <td> <a href="playercard.php#53"> Hasanabada,Rithvik   </a>  <td>0</td>
 <td> 1.0</td> <td> 1.5</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>55</td> <td></td> <td> <a href="playercard.php#55"> Kommina,Lakshmi Srin </a>  <td>0</td>
-<td> 1.0</td> <td> 2.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1129,18 +1090,17 @@
 <td> 0.0</td> <td> 3.5</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>63</td> <td></td> <td> <a href="playercard.php#63"> Sepusione, Sefa      </a>  <td>0</td>
-<td> 1.0</td> <td> 2.5</td>
+<td> 1.0</td> <td> 1.5</td>
 </tr> 
 <tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>11</td> <td></td> <td> <a href="playercard.php#11"> Bhadrapura,Vismay    </a>  <td>698</td>
-<td> 1.0</td> <td> 3.0</td>
+<td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>18</td> <td></td> <td> <a href="playercard.php#18"> Bodke,Aryan          </a>  <td>566</td>
 <td> 0.0</td> <td> 3.5</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>68</td> <td></td> <td> <a href="playercard.php#68"> Win,Noel May Thu     </a>  <td>0</td>
-<td> 0.0</td> <td> 3.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1151,7 +1111,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>11</td> <td></td> <td> <a href="playercard.php#11"> Bhadrapura,Vismay    </a>  <td>698</td>
-<td> 1.0</td> <td> 3.0</td>
+<td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>2</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
@@ -1162,8 +1122,7 @@
 </tr> 
 <tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>64</td> <td></td> <td> <a href="playercard.php#64"> Sridhar,Chaithanya S </a>  <td>0</td>
-<td> 1.0</td> <td> 2.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1174,22 +1133,21 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>12</td> <td></td> <td> <a href="playercard.php#12"> Aquino,Zedric        </a>  <td>696</td>
-<td> 0.0</td> <td> 5.0</td>
-</tr> 
-<tr> <td>2</td> <td>W </td> <td>66</td> <td></td> <td> <a href="playercard.php#66"> Nathari, Thambavitag </a>  <td>0</td>
-<td> 1.0</td> <td> 2.0</td>
-</tr> 
-<tr> <td>3</td> <td> B</td> <td>42</td> <td></td> <td> <a href="playercard.php#42"> Kantharaju,Aryan     </a>  <td>143</td>
-<td> 1.0</td> <td> 2.0</td>
-</tr> 
-<tr> <td>4</td> <td>W </td> <td>9</td> <td></td> <td> <a href="playercard.php#9"> Venkat,Nyra          </a>  <td>814</td>
 <td> 0.0</td> <td> 4.5</td>
 </tr> 
-<tr> <td>5</td> <td> B</td> <td>28</td> <td></td> <td> <a href="playercard.php#28"> Spriggs,Harvey       </a>  <td>458</td>
-<td> 0.0</td> <td> 4.0</td>
+<tr> <td>2</td> <td>W </td> <td>66</td> <td></td> <td> <a href="playercard.php#66"> Thambavitage,Pahansa </a>  <td>0</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>11</td> <td></td> <td> <a href="playercard.php#11"> Bhadrapura,Vismay    </a>  <td>698</td>
+<tr> <td>3</td> <td> B</td> <td>42</td> <td></td> <td> <a href="playercard.php#42"> Kantharaju,Aryan     </a>  <td>143</td>
+<td> 1.0</td> <td> 1.0</td>
+</tr> 
+<tr> <td>4</td> <td>W </td> <td>9</td> <td></td> <td> <a href="playercard.php#9"> Venkat,Nyra          </a>  <td>814</td>
+<td> 0.0</td> <td> 3.5</td>
+</tr> 
+<tr> <td>5</td> <td> B</td> <td>28</td> <td></td> <td> <a href="playercard.php#28"> Spriggs,Harvey       </a>  <td>458</td>
 <td> 0.0</td> <td> 3.0</td>
+</tr> 
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1214,8 +1172,7 @@
 <tr> <td>5</td> <td> B</td> <td>19</td> <td></td> <td> <a href="playercard.php#19"> Bala,Neil            </a>  <td>563</td>
 <td> 1.0</td> <td> 2.5</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>9</td> <td></td> <td> <a href="playercard.php#9"> Venkat,Nyra          </a>  <td>814</td>
-<td> 0.0</td> <td> 4.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1232,7 +1189,7 @@
 <td> 0.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>49</td> <td></td> <td> <a href="playercard.php#49"> Choudary,Aarna       </a>  <td>0</td>
-<td> 0.0</td> <td> 3.5</td>
+<td> 0.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>4</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
@@ -1252,7 +1209,7 @@
 <td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>11</td> <td></td> <td> <a href="playercard.php#11"> Bhadrapura,Vismay    </a>  <td>698</td>
-<td> 0.0</td> <td> 3.0</td>
+<td> 0.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>3</td> <td>W </td> <td>48</td> <td></td> <td> <a href="playercard.php#48"> Bubic,Mark           </a>  <td>0</td>
 <td> 1.0</td> <td> 0.0</td>
@@ -1260,10 +1217,9 @@
 <tr> <td>4</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
 <tr> <td>5</td> <td> B</td> <td>63</td> <td></td> <td> <a href="playercard.php#63"> Sepusione, Sefa      </a>  <td>0</td>
-<td> 1.0</td> <td> 2.5</td>
+<td> 1.0</td> <td> 1.5</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>37</td> <td></td> <td> <a href="playercard.php#37"> Yang,Heesan          </a>  <td>321</td>
-<td> 1.0</td> <td> 2.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1274,10 +1230,10 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>16</td> <td></td> <td> <a href="playercard.php#16"> Samraat,Aayush       </a>  <td>618</td>
-<td> 0.0</td> <td> 4.0</td>
+<td> 0.0</td> <td> 3.5</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>30</td> <td></td> <td> <a href="playercard.php#30"> Das, Ayush           </a>  <td>440</td>
-<td> 0.0</td> <td> 4.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
@@ -1287,8 +1243,7 @@
 <tr> <td>5</td> <td>W </td> <td>65</td> <td></td> <td> <a href="playercard.php#65"> Sudarshan,Shriya     </a>  <td>0</td>
 <td> 0.0</td> <td> 2.0</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>60</td> <td></td> <td> <a href="playercard.php#60"> Onilongo,Amber       </a>  <td>0</td>
-<td> 0.0</td> <td> 2.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1307,13 +1262,12 @@
 <tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>4</td> <td>W </td> <td>60</td> <td></td> <td> <a href="playercard.php#60"> Onilongo,Amber       </a>  <td>0</td>
-<td> 1.0</td> <td> 2.0</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
-<tr> <td>5</td> <td> B</td> <td>66</td> <td></td> <td> <a href="playercard.php#66"> Nathari, Thambavitag </a>  <td>0</td>
-<td> 1.0</td> <td> 2.0</td>
+<tr> <td>5</td> <td> B</td> <td>66</td> <td></td> <td> <a href="playercard.php#66"> Thambavitage,Pahansa </a>  <td>0</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>8</td> <td></td> <td> <a href="playercard.php#8"> Singh,Sumair         </a>  <td>852</td>
-<td> 0.0</td> <td> 3.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1336,8 +1290,7 @@
 <tr> <td>5</td> <td>W </td> <td>38</td> <td></td> <td> <a href="playercard.php#38"> Pradeep,Mayukh       </a>  <td>280</td>
 <td> 1.0</td> <td> 1.5</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>41</td> <td></td> <td> <a href="playercard.php#41"> Goh,Julian           </a>  <td>154</td>
-<td> 0.0</td> <td> 3.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1355,13 +1308,12 @@
 <tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>41</td> <td></td> <td> <a href="playercard.php#41"> Goh,Julian           </a>  <td>154</td>
-<td> 0.0</td> <td> 3.5</td>
+<td> 0.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>43</td> <td></td> <td> <a href="playercard.php#43"> Bala,Jake            </a>  <td>139</td>
-<td> 0.0</td> <td> 3.5</td>
+<td> 0.0</td> <td> 2.5</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>42</td> <td></td> <td> <a href="playercard.php#42"> Kantharaju,Aryan     </a>  <td>143</td>
-<td> 0.0</td> <td> 2.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1374,7 +1326,7 @@
 <tr> <td>1</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>33</td> <td></td> <td> <a href="playercard.php#33"> Madduluri,Advaitha   </a>  <td>404</td>
-<td> 0.0</td> <td> 4.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
@@ -1393,7 +1345,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>21</td> <td></td> <td> <a href="playercard.php#21"> Wang,Evan            </a>  <td>513</td>
-<td> 0.0</td> <td> 4.5</td>
+<td> 0.0</td> <td> 3.5</td>
 </tr> 
 <tr> <td>2</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
@@ -1401,13 +1353,12 @@
 <td> 1.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>4</td> <td>W </td> <td>31</td> <td></td> <td> <a href="playercard.php#31"> Panchaparvala,Rohan  </a>  <td>439</td>
-<td> 0.0</td> <td> 4.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>5</td> <td> B</td> <td>40</td> <td></td> <td> <a href="playercard.php#40"> Watson,Emma          </a>  <td>224</td>
 <td> 1.0</td> <td> 1.5</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>43</td> <td></td> <td> <a href="playercard.php#43"> Bala,Jake            </a>  <td>139</td>
-<td> 0.0</td> <td> 3.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1421,18 +1372,17 @@
 <td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>36</td> <td></td> <td> <a href="playercard.php#36"> Tan,Lucas            </a>  <td>346</td>
-<td> 0.0</td> <td> 3.0</td>
-</tr> 
-<tr> <td>3</td> <td> B</td> <td>66</td> <td></td> <td> <a href="playercard.php#66"> Nathari, Thambavitag </a>  <td>0</td>
 <td> 0.0</td> <td> 2.0</td>
+</tr> 
+<tr> <td>3</td> <td> B</td> <td>66</td> <td></td> <td> <a href="playercard.php#66"> Thambavitage,Pahansa </a>  <td>0</td>
+<td> 0.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>4</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>42</td> <td></td> <td> <a href="playercard.php#42"> Kantharaju,Aryan     </a>  <td>143</td>
-<td> 1.0</td> <td> 2.0</td>
+<td> 1.0</td> <td> 1.0</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>39</td> <td></td> <td> <a href="playercard.php#39"> Jyothi Nikhil,Vihaan </a>  <td>253</td>
-<td> 0.0</td> <td> 3.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1451,10 +1401,10 @@
 <tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.5</td> <td> 0.0</td>
 </tr> 
 <tr> <td>4</td> <td>W </td> <td>25</td> <td></td> <td> <a href="playercard.php#25"> Yegnavajjula,Aryan S </a>  <td>490</td>
-<td> 0.5</td> <td> 3.0</td>
+<td> 0.5</td> <td> 2.0</td>
 </tr> 
 <tr> <td>5</td> <td> B</td> <td>8</td> <td></td> <td> <a href="playercard.php#8"> Singh,Sumair         </a>  <td>852</td>
-<td> 0.0</td> <td> 3.0</td>
+<td> 0.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
@@ -1467,7 +1417,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>24</td> <td></td> <td> <a href="playercard.php#24"> Husain,Lamiah        </a>  <td>495</td>
-<td> 0.0</td> <td> 4.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>38</td> <td></td> <td> <a href="playercard.php#38"> Pradeep,Mayukh       </a>  <td>280</td>
 <td> 0.0</td> <td> 1.5</td>
@@ -1489,7 +1439,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>42</td> <td></td> <td> <a href="playercard.php#42"> Kantharaju,Aryan     </a>  <td>143</td>
-<td> 0.0</td> <td> 2.0</td>
+<td> 0.0</td> <td> 1.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>37</td> <td></td> <td> <a href="playercard.php#37"> Yang,Heesan          </a>  <td>321</td>
 <td> 0.0</td> <td> 2.5</td>
@@ -1501,8 +1451,7 @@
 </tr> 
 <tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>62</td> <td></td> <td> <a href="playercard.php#62"> Parepally,Aarnika    </a>  <td>0</td>
-<td> 0.0</td> <td> 2.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1516,7 +1465,7 @@
 <td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>41</td> <td></td> <td> <a href="playercard.php#41"> Goh,Julian           </a>  <td>154</td>
-<td> 0.0</td> <td> 3.5</td>
+<td> 0.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
@@ -1525,8 +1474,7 @@
 </tr> 
 <tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>50</td> <td></td> <td> <a href="playercard.php#50"> Daffey,Callum        </a>  <td>0</td>
-<td> 1.0</td> <td> 1.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1539,7 +1487,7 @@
 <tr> <td>1</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>39</td> <td></td> <td> <a href="playercard.php#39"> Jyothi Nikhil,Vihaan </a>  <td>253</td>
-<td> 0.0</td> <td> 3.0</td>
+<td> 0.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
@@ -1558,21 +1506,20 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>28</td> <td></td> <td> <a href="playercard.php#28"> Spriggs,Harvey       </a>  <td>458</td>
-<td> 0.0</td> <td> 4.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>43</td> <td></td> <td> <a href="playercard.php#43"> Bala,Jake            </a>  <td>139</td>
-<td> 0.0</td> <td> 3.5</td>
+<td> 0.0</td> <td> 2.5</td>
 </tr> 
 <tr> <td>3</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>4</td> <td>W </td> <td>29</td> <td></td> <td> <a href="playercard.php#29"> Thusithana,Kayra     </a>  <td>456</td>
-<td> 0.0</td> <td> 4.0</td>
-</tr> 
-<tr> <td>5</td> <td> B</td> <td>36</td> <td></td> <td> <a href="playercard.php#36"> Tan,Lucas            </a>  <td>346</td>
 <td> 0.0</td> <td> 3.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>59</td> <td></td> <td> <a href="playercard.php#59"> Manjunath,Charvi     </a>  <td>0</td>
-<td> 1.0</td> <td> 1.0</td>
+<tr> <td>5</td> <td> B</td> <td>36</td> <td></td> <td> <a href="playercard.php#36"> Tan,Lucas            </a>  <td>346</td>
+<td> 0.0</td> <td> 2.0</td>
+</tr> 
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1583,7 +1530,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td>W </td> <td>29</td> <td></td> <td> <a href="playercard.php#29"> Thusithana,Kayra     </a>  <td>456</td>
-<td> 0.0</td> <td> 4.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>2</td> <td> B</td> <td>44</td> <td></td> <td> <a href="playercard.php#44"> Goh,Daphne           </a>  <td>100</td>
 <td> 0.0</td> <td> 2.5</td>
@@ -1593,10 +1540,9 @@
 <tr> <td>4</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>49</td> <td></td> <td> <a href="playercard.php#49"> Choudary,Aarna       </a>  <td>0</td>
-<td> 0.0</td> <td> 3.5</td>
+<td> 0.0</td> <td> 2.5</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>40</td> <td></td> <td> <a href="playercard.php#40"> Watson,Emma          </a>  <td>224</td>
-<td> 1.0</td> <td> 1.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1618,8 +1564,7 @@
 </tr> 
 <tr> <td>5</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
-<tr> <td>6</td> <td> B</td> <td>45</td> <td></td> <td> <a href="playercard.php#45"> Bacon,Levi           </a>  <td>0</td>
-<td> 0.0</td> <td> 3.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1647,7 +1592,7 @@
 </tbody>
 </table><br>
 <table class="table caption-top table-striped "> 
-<caption>  66   <strong>Nathari, Thambavitag</strong>, K= 0, Elo=   0, ID=3219660
+<caption>  66   <strong>Thambavitage,Pahansa</strong>, K= 0, Elo=   0, ID=3219660
 <br>
 <a class="anchor" name="66"></a></caption>
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
@@ -1662,12 +1607,12 @@
 <td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>4</td> <td> B</td> <td>39</td> <td></td> <td> <a href="playercard.php#39"> Jyothi Nikhil,Vihaan </a>  <td>253</td>
-<td> 0.0</td> <td> 3.0</td>
+<td> 0.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>5</td> <td>W </td> <td>51</td> <td></td> <td> <a href="playercard.php#51"> Golla,Yuvan Yadav    </a>  <td>0</td>
 <td> 0.0</td> <td> 2.0</td>
 </tr> 
-<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 1.0</td> <td> 0.0</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1678,7 +1623,7 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>31</td> <td></td> <td> <a href="playercard.php#31"> Panchaparvala,Rohan  </a>  <td>439</td>
-<td> 0.5</td> <td> 4.0</td>
+<td> 0.5</td> <td> 3.0</td>
 </tr> 
 <tr> <td>2</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
@@ -1699,22 +1644,21 @@
 <thead><tr> <th>R</th> <th>C</th> <th >N</th> <th>Cat</th> <th>OPPONENT</th> <th>Rtg</th> <th>res</th> <th>Pts</th>
 </tr> </thead><tbody>
 <tr> <td>1</td> <td> B</td> <td>33</td> <td></td> <td> <a href="playercard.php#33"> Madduluri,Advaitha   </a>  <td>404</td>
-<td> 1.0</td> <td> 4.0</td>
+<td> 1.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>2</td> <td>W </td> <td>7</td> <td></td> <td> <a href="playercard.php#7"> Vemula,Thamoghna     </a>  <td>862</td>
 <td> 0.0</td> <td> 4.0</td>
 </tr> 
 <tr> <td>3</td> <td> B</td> <td>30</td> <td></td> <td> <a href="playercard.php#30"> Das, Ayush           </a>  <td>440</td>
-<td> 0.0</td> <td> 4.0</td>
+<td> 0.0</td> <td> 3.0</td>
 </tr> 
 <tr> <td>4</td> <td>W </td> <td>36</td> <td></td> <td> <a href="playercard.php#36"> Tan,Lucas            </a>  <td>346</td>
-<td> 1.0</td> <td> 3.0</td>
+<td> 1.0</td> <td> 2.0</td>
 </tr> 
 <tr> <td>5</td> <td> B</td> <td>35</td> <td></td> <td> <a href="playercard.php#35"> Saravanakumar,Thaswi </a>  <td>356</td>
 <td> 0.5</td> <td> 2.0</td>
 </tr> 
-<tr> <td>6</td> <td>W </td> <td>44</td> <td></td> <td> <a href="playercard.php#44"> Goh,Daphne           </a>  <td>100</td>
-<td> 1.0</td> <td> 2.5</td>
+<tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 
 </tbody>
 </table><br>
@@ -1736,7 +1680,7 @@
 <td> 1.0</td> <td> 1.5</td>
 </tr> 
 <tr> <td>5</td> <td> B</td> <td>21</td> <td></td> <td> <a href="playercard.php#21"> Wang,Evan            </a>  <td>513</td>
-<td> 0.0</td> <td> 4.5</td>
+<td> 0.0</td> <td> 3.5</td>
 </tr> 
 <tr> <td>6</td> <td>--</td> <td>0</td> <td></td> <td>not played</td> <td>-</td> <td> 0.0</td> <td> 0.0</td>
 </tr> 

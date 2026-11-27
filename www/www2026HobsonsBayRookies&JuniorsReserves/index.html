@@ -162,8 +162,6 @@
 <tr> 
 <td><span class="idn"> 59</span></td><td><span class="notitle female"> </span></td><td> Manjunath,Charvi </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
-<td><span class="idn"> 66</span></td><td><span class="notitle female"> </span></td><td> Nathari, Thambavitage Pahansa </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
-<tr> 
 <td><span class="idn"> 60</span></td><td><span class="notitle female"> </span></td><td> Onilongo,Amber </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 61</span></td><td><span class="notitle male"> </span></td><td> Padoli,Darsh </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
@@ -175,6 +173,8 @@
 <td><span class="idn"> 64</span></td><td><span class="notitle female"> </span></td><td> Sridhar,Chaithanya Sree </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 65</span></td><td><span class="notitle female"> </span></td><td> Sudarshan,Shriya </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
+<tr> 
+<td><span class="idn"> 66</span></td><td><span class="notitle female"> </span></td><td> Thambavitage,Pahansa </td><td ><img class="shadow" src="flag/vic.png" alt="VIC"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
 <td><span class="idn"> 67</span></td><td><span class="notitle male"> </span></td><td> Vos,Sebastien </td><td ><img class="shadow" src="flag/aus.png" alt="AUS"></td><td>0</td><td>0</td><td>0</td> </tr>
 <tr> 
